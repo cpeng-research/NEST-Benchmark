@@ -1,0 +1,76 @@
+{
+  "Bank Transfer Request": {
+    "Personal Information": {
+      "Bank Name:": "Midwest Commerce Bank",
+      "Bank Address:": "250 E Mason St, Milwaukee, WI 53202",
+      "Routing #:": "075001234",
+      "Payer’s Name": "North Ridge Logistics, LLC",
+      "Payer’s Address:": "1024 Harbor Drive, Suite 210",
+      "City:": "Milwaukee",
+      "State:": "WI",
+      "Zip Code:": "53202",
+      "Email:": "ap@northridge-logistics.com",
+      "Phone:": "+1-414-555-0126",
+      "Account Name:": "North Ridge Logistics Operating",
+      "Account Number:": "0045897321",
+      "[NULL1]": {
+        "choices": [
+          "Personal",
+          {
+            "Business (Company:)": "North Ridge Logistics, LLC"
+          },
+          "Savings",
+          "Checking",
+          {
+            "Other:": "None"
+          }
+        ],
+        "value": "Business (Company:), Checking"
+      }
+    },
+    "[NULL2]": {
+      "Recipient’s Name:": "Meridian Design Studio, Inc.",
+      "Recipient’s Address:": "55 Crescent Ave, Floor 3",
+      "City:": "Boston",
+      "State:": "MA",
+      "Zip Code:": "02116",
+      "Email:": "billing@meridiandesign.co",
+      "Phone:": "+1-617-555-0174",
+      "Account Name:": "Meridian Design Studio",
+      "Account Number:": "2310045678",
+      "NULL1": {
+        "choices": [
+          "Personal",
+          {
+            "Business (Company:)": "Meridian Design Studio, Inc."
+          },
+          "Savings",
+          "Checking",
+          {
+            "Other:": "None"
+          }
+        ],
+        "value": "Business (Company:), Savings"
+      }
+    },
+    "Transfer Information": {
+      "Transferred From:": "North Ridge Logistics Operating - Midwest Commerce Bank (Acct: 0045897321)",
+      "Transferred To:": "Meridian Design Studio - Atlantic Trust Bank (Acct: 2310045678)",
+      "Date of Transfer: ": "2026-05-18",
+      "Approved By:": "Daniel Cho, Treasurer",
+      "Description:": "Partial payment for Invoice #MD-2026-117",
+      "Amount Received:": "$8,740.50"
+    },
+    "Bank Information": {
+      "Bank Name:": "Atlantic Trust Bank",
+      "Bank Address:": "600 Atlantic Ave, Boston, MA 02210",
+      "Routing #:": "011004321",
+      "IBAN:": "US83ATLB00000076543210",
+      "Correspondent Bank Name:": "Citibank, N.A.",
+      "Correspondent Bank Address:": "399 Park Ave, New York, NY 10022",
+      "Correspondent Routing #:": "021000098",
+      "Correspondent IBAN:": "US12CITI00000024681357"
+    },
+    "Date": "2026-05-19"
+  }
+}

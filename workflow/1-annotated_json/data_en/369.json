@@ -1,0 +1,60 @@
+{
+    "Marital Status Change":{
+        "Step 1 – Your information":{
+            "Social insurance number:":"",
+            "First name:":"",
+            "Last name:":"",
+            "Date of birth:":{
+                "Year":"",
+                "Month":"",
+                "Day":""
+            },
+            "Your language of correspondence:":{
+                "choices":[
+                    "English",
+                    "Français"
+                ],
+                "value":""
+            },
+            "Telephone numbers:":{
+                "Home:":"",
+                "Work:":"",
+                "Cell:":"",
+                "Ext:":""
+            }
+        },
+        "Step 2 – Your address":{
+            "Mailing address":{
+                "Apt. No. – Street No., Street name, PO Box, RR:":"",
+                "City:":"",
+                "Province or territory:":"",
+                "Postal code:":"",
+                "Have you moved from a different province or territory within the last 12 months?":{
+                    "choices":[
+                        "Yes",
+                        "No"
+                    ],
+                    "value":""
+                },
+                "If yes, enter the previous province or territory:":"",
+                "Enter the date you moved:":{
+                    "Year":"",
+                    "Month":"",
+                    "Day":""
+                }
+            },
+            "Home address":{
+                "[NULL1]":{
+                    "choices":[
+                        "Same as mailing address"
+                    ],
+                    "value":""
+                },
+                "Apt. No. – Street No., Street name, RR:":"",
+                "City:":"",
+                "Province or territory:":"",
+                "Postal code:":""
+            }
+        }
+    }
+}

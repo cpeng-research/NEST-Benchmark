@@ -1,0 +1,618 @@
+[
+    {
+        "key": "Name of person for whom you are acting(as shown on the tax return)",
+        "label_info": {
+            "row": 2,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "ldentifying number",
+        "label_info": {
+            "row": 2,
+            "col": 7
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Decedent's social security no.",
+        "label_info": {
+            "row": 2,
+            "col": 11
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Address of person for whom you are acting(number,street,and room or suite no.)",
+        "label_info": {
+            "row": 4,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "City or town,state,and ZIP code (Ilf a foreign address,see instructions.)",
+        "label_info": {
+            "row": 6,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Fiduciary's name",
+        "label_info": {
+            "row": 8,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Address of fiduciary(number,street,and room or suite no.)",
+        "label_info": {
+            "row": 10,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "City or town,state,and ZIP code",
+        "label_info": {
+            "row": 12,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Telephone number(optional)",
+        "label_info": {
+            "row": 12,
+            "col": 8
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "1 Authority for fiduciary relationship.Check applicable box:",
+        "label_info": {
+            "row": 15,
+            "col": 0
+        },
+        "placeholder_offset": [
+            {
+                "rows": 0,
+                "cols": 0
+            },
+            {
+                "rows": 0,
+                "cols": 0
+            },
+            {
+                "rows": 0,
+                "cols": 0
+            },
+            {
+                "rows": 0,
+                "cols": 0
+            },
+            {
+                "rows": 0,
+                "cols": 0
+            },
+            {
+                "rows": 0,
+                "cols": 0
+            },
+            {
+                "rows": 0,
+                "cols": 0
+            }
+        ],
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "Other.Describe:",
+        "label_info": {
+            "row": 15,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "2a If box 1a,1b,or 1d is checked,enter the date of death:",
+        "label_info": {
+            "row": 15,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "b If box1c,1e,1f,or 1g is checked,enter the date of appointment,taking office,or assignment or transfer of assets:",
+        "label_info": {
+            "row": 15,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "3 Type of taxes (check all that apply):",
+        "label_info": {
+            "row": 22,
+            "col": 0
+        },
+        "placeholder_offset": [
+            {
+                "rows": 0,
+                "cols": 0
+            },
+            {
+                "rows": 0,
+                "cols": 0
+            },
+            {
+                "rows": 0,
+                "cols": 0
+            },
+            {
+                "rows": 0,
+                "cols": 0
+            },
+            {
+                "rows": 0,
+                "cols": 0
+            },
+            {
+                "rows": 0,
+                "cols": 0
+            },
+            {
+                "rows": 0,
+                "cols": 0
+            }
+        ],
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "Other (describe):",
+        "label_info": {
+            "row": 22,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "4 Federal tax form number (check allthat apply):",
+        "label_info": {
+            "row": 23,
+            "col": 0
+        },
+        "placeholder_offset": [
+            {
+                "rows": 0,
+                "cols": 0
+            },
+            {
+                "rows": 0,
+                "cols": 0
+            },
+            {
+                "rows": 0,
+                "cols": 0
+            },
+            {
+                "rows": 0,
+                "cols": 0
+            },
+            {
+                "rows": 0,
+                "cols": 0
+            },
+            {
+                "rows": 0,
+                "cols": 0
+            },
+            {
+                "rows": 0,
+                "cols": 0
+            },
+            {
+                "rows": 0,
+                "cols": 0
+            }
+        ],
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "Other (list):",
+        "label_info": {
+            "row": 23,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "5 If your authority as a fiduciary does not cover all years or tax periods,check here.",
+        "label_info": {
+            "row": 24,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "and list the specific years or periods within your authority:",
+        "label_info": {
+            "row": 24,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "6 Check this box if you are revoking or terminating all prior notices concerning fiduciary relationships on file with the Internal Revenue Service for the same tax matters and years or periods covered by this notice concerning fiduciary relationship",
+        "label_info": {
+            "row": 28,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "Reason for termination of fiduciary relationship.Check applicable box:",
+        "label_info": {
+            "row": 28,
+            "col": 0
+        },
+        "placeholder_offset": [
+            {
+                "rows": 0,
+                "cols": 0
+            },
+            {
+                "rows": 0,
+                "cols": 0
+            },
+            {
+                "rows": 0,
+                "cols": 0
+            }
+        ],
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "Other.Describe:",
+        "label_info": {
+            "row": 28,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "7a Check this box if you are revoking earlier notices concerning fiduciary relationships on file wth the Internal Revenue Service for the same tax matters and years or periods covered by this notice concerning fiduciary relationship.",
+        "label_info": {
+            "row": 33,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "b Specify to whom granted,date,and address,including ZIP code.",
+        "label_info": {
+            "row": 33,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "8 Check this boxif a new fiduciary or fiduciaries have been or will be substituted for the revoking or terminating fiduciary and specify the name(s)and address(es),including ZIP code(s),of the new fiduciary(ies)",
+        "label_info": {
+            "row": 37,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "Name of court(if other than a court proceeding,identify the type of proceeding and name of agency)",
+        "label_info": {
+            "row": 40,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Date proceeding initiated",
+        "label_info": {
+            "row": 40,
+            "col": 9
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Date",
+        "label_info": {
+            "row": 40,
+            "col": 9
+        },
+        "placeholder_offset": {
+            "rows": 9,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Address of court",
+        "label_info": {
+            "row": 42,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Docket number of proceeding",
+        "label_info": {
+            "row": 42,
+            "col": 9
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "City or town,state,and ZIP code",
+        "label_info": {
+            "row": 44,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Date",
+        "label_info": {
+            "row": 44,
+            "col": 7
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Time",
+        "label_info": {
+            "row": 44,
+            "col": 10
+        },
+        "placeholder_offset": [
+            {
+                "rows": 0,
+                "cols": 1
+            },
+            {
+                "rows": 0,
+                "cols": 1
+            }
+        ],
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "SO"
+    },
+    {
+        "key": "Time",
+        "label_info": {
+            "row": 44,
+            "col": 10
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "SO"
+    },
+    {
+        "key": "Place of other proceedings",
+        "label_info": {
+            "row": 44,
+            "col": 12
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Fiduciary's signature",
+        "label_info": {
+            "row": 50,
+            "col": 3
+        },
+        "placeholder_offset": {
+            "rows": -1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Title,if applicable",
+        "label_info": {
+            "row": 50,
+            "col": 6
+        },
+        "placeholder_offset": {
+            "rows": -1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    }
+]

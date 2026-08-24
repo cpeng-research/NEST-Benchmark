@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Registration Form</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            font-weight: normal;
+            background: #ffffff !important;
+            color: #000000;
+        }
+        body {
+            padding: 20px;
+            background: #ffffff;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid #000;
+            background: #ffffff;
+        }
+        td {
+            border: 1px solid #000;
+            padding: 8px;
+            vertical-align: top;
+            background: #ffffff;
+        }
+        .full-width {
+            width: 100%;
+        }
+        .half {
+            width: 50%;
+        }
+        input, textarea {
+            width: 100%;
+            border: none;
+            resize: none;
+            font-family: inherit;
+            font-size: inherit;
+            background: #ffffff;
+        }
+        input[type="checkbox"] {
+            width: auto;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center; margin-bottom: 20px;">Patient Registration Form</h2>
+    <table>
+        <!-- Patient information -->
+        <tr>
+            <td colspan="2">Patient information</td>
+        </tr>
+        <tr>
+            <td class="half">Full name: <input type="text" style="width: 80%;" value="Noah Ramirez"></td>
+            <td class="half">Date of birth: <input type="text" style="width: 80%;" value="1991-11-05"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Gender:
+                <input type="checkbox" checked> Male
+                <input type="checkbox"> Female
+                <input type="checkbox"> Other: <input type="text" style="width: 100px;" value="None">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Marital status:
+                <input type="checkbox" checked> Single
+                <input type="checkbox"> Married
+                <input type="checkbox"> Divorced
+                <input type="checkbox"> Widowed
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">Address: <input type="text" class="full-width" value="457 Pine Ridge Drive, Unit 3C, Columbus, OH 43215"></td>
+        </tr>
+        <tr>
+            <td class="half">Phone number: <input type="text" style="width: 80%;" value="(614) 555-2298"></td>
+            <td class="half">Email address: <input type="text" style="width: 80%;" value="noah.ramirez@outlook.com"></td>
+        </tr>
+
+        <!-- Emergency contact -->
+        <tr>
+            <td colspan="2">Emergency contact</td>
+        </tr>
+        <tr>
+            <td colspan="2">Name: <input type="text" class="full-width" value="Lucia Ramirez"></td>
+        </tr>
+        <tr>
+            <td class="half">Relationship to patient: <input type="text" style="width: 80%;" value="Mother"></td>
+            <td class="half">Phone number: <input type="text" style="width: 80%;" value="(513) 555-7402"></td>
+        </tr>
+
+        <!-- Insurance information -->
+        <tr>
+            <td colspan="2">Insurance information</td>
+        </tr>
+        <tr>
+            <td colspan="2">Primary insurance: <input type="text" class="full-width" value="UnitedHealthcare"></td>
+        </tr>
+        <tr>
+            <td colspan="2">Policyholder's name: <input type="text" class="full-width" value="Noah Ramirez"></td>
+        </tr>
+        <tr>
+            <td class="half">Policy number: <input type="text" style="width: 80%;" value="UHC-452198763"></td>
+            <td class="half">Group number: <input type="text" style="width: 80%;" value="G78542"></td>
+        </tr>
+        <tr>
+            <td colspan="2">Secondary insurance (if applicable): <input type="text" class="full-width" value="Aetna"></td>
+        </tr>
+        <tr>
+            <td colspan="2">Policyholder's name: <input type="text" class="full-width" value="Noah Ramirez"></td>
+        </tr>
+        <tr>
+            <td class="half">Policy number: <input type="text" style="width: 80%;" value="AET-33091754"></td>
+            <td class="half">Group number: <input type="text" style="width: 80%;" value="P02981"></td>
+        </tr>
+
+        <!-- Primary care physician information -->
+        <tr>
+            <td colspan="2">Primary care physician information</td>
+        </tr>
+        <tr>
+            <td colspan="2">Physician name: <input type="text" class="full-width" value="Dr. Kevin Patel"></td>
+        </tr>
+        <tr>
+            <td class="half">Practice/clinic name: <input type="text" style="width: 80%;" value="Riverside Family Practice"></td>
+            <td class="half">Phone number: <input type="text" style="width: 80%;" value="(614) 555-9034"></td>
+        </tr>
+
+        <!-- Reason for visit -->
+        <tr>
+            <td colspan="2">Reason for visit</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="height: 150px;">
+                <textarea class="full-width" rows="10">New patient visit for evaluation of persistent lower back pain for 2–3 weeks, intermittent numbness in the left leg, and discussion of imaging and physical therapy options.</textarea>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

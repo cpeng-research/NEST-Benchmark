@@ -7,9 +7,27 @@ NEST is a benchmark for evaluating whether language models understand the explic
 
 ## Repository Scope
 
-This is the actively maintained NEST Benchmark repository. Its datasets, annotations, evaluation logic, and documentation may continue to evolve after the EMNLP 2026 publication.
+This is the actively maintained NEST Benchmark repository. Its datasets,
+annotations, evaluation logic, and documentation may continue to evolve after
+the EMNLP 2026 publication. Versioned releases preserve stable benchmark
+snapshots; the exact paper artifact remains frozen in the reproduction
+repository linked above.
 
-The benchmark materials will be migrated here from the development repository before the public release.
+## Included Materials
+
+- `workflow/`: normalized Empty/Filled HTML, annotations and metadata,
+  synthetic artifacts, and HTML-rendered PNG benchmark inputs.
+- `table3_comparative_eval/`: prompts, inference entry points, canonical task
+  metrics, and aggregation code. Paper-specific cached predictions are kept in
+  the reproduction repository.
+- `finetune_experiments/`: prepared data and code for the Infilling fine-tuning
+  study. Paper-specific predictions/results are kept in the reproduction
+  repository.
+- `IAA/`: inter-annotator agreement code and anonymized annotation records.
+- `json_algorithm/`: third-party headers and integration files used by the
+  optional C++ JEDIS structural-similarity evaluator. Building the evaluator
+  requires a compatible local toolchain; the Python evaluator fails explicitly
+  if the executable is unavailable.
 
 ## Data Provenance and Distribution
 
@@ -23,3 +41,12 @@ NEST does not distribute original third-party PDFs, source images, or Office
 documents. Distribution terms for code, NEST-authored artifacts, normalized
 benchmark inputs, and retained third-party elements are described in
 [`DATA_LICENSE.md`](DATA_LICENSE.md).
+
+Validate the released benchmark file inventory before use:
+
+```bash
+python scripts/verify_dataset.py
+```
+
+Expected release contents and counts are summarized in
+[`ARTIFACT_INVENTORY.md`](ARTIFACT_INVENTORY.md).

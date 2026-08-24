@@ -1,0 +1,80 @@
+{
+  "Patient Information": {
+    "Name": "Ava Martinez",
+    "DOB (MM/DD/YYYY):": "04/12/1990",
+    "Gender:": {
+      "choices": [
+        "Male",
+        "Female",
+        {
+          "Other": "___"
+        }
+      ],
+      "value": "Female"
+    },
+    "Preferred Pronouns:": {
+      "choices": [
+        "He/Him",
+        "She/Her",
+        "They/Them",
+        {
+          "Other": "___"
+        }
+      ],
+      "value": "She/Her"
+    },
+    "Address:": "123 Maple St",
+    "City": "Austin",
+    "State:": "TX",
+    "Zip:": "78701",
+    "Phone:": "512-555-0143",
+    "Email:": "ava.martinez@example.com",
+    "Preferred Contact Method:": {
+      "choices": [
+        "Phone",
+        "Email",
+        "Text"
+      ],
+      "value": "Phone"
+    },
+    "Primary language:": "English",
+    "Interpreter needed?": {
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "value": "No"
+    },
+    "Emergency Contact Name:": "Carlos Martinez",
+    "Phone: [PH1]": "512-555-0199",
+    "[PH1]": "512-555-0199",
+    "Relationship to Patient": "Spouse",
+    "Insurance Information (if applicable)": {
+      "Provider:": "Blue Cross Blue Shield",
+      "Policy number:": "BCBS123456789",
+      "Group Number:": "GRP98765",
+      "Policyholder Name": "Ava Martinez",
+      "Relationship to Patient:": {
+        "choices": [
+          "Self",
+          "Spouse",
+          "Parent",
+          {
+            "Other": "___"
+          }
+        ],
+        "value": "Self"
+      }
+    },
+    "Pharmacy Information": {
+      "Preferred Pharmacy Name:": "CVS Pharmacy #1234",
+      "Phone Number:": "512-555-0100",
+      "Address:": "456 Oak Ave, Austin, TX 78702"
+    },
+    "Consent & Signature": {
+      "I confirm that the information provided is accurate to the best of my knowledge.": "Yes",
+      "Signature:": "Ava Martinez",
+      "Date:": "05/17/2026"
+    }
+  }
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Patient Information Form</title>
+</head>
+<body style="margin: 0; padding: 10px; background-color: #ffffff; font-family: Arial, sans-serif;">
+    <table border="1" cellpadding="4" cellspacing="0" style="width: 100%; border-collapse: collapse; font-size: 14px;">
+        <tr>
+            <td colspan="4" style="font-weight: bold;">Patient Information</td>
+        </tr>
+        <tr>
+            <td style="width: 25%;">Name:</td>
+            <td style="width: 40%;">Nathan Kim</td>
+            <td style="width: 15%;">DOB (MM/DD/YYYY):</td>
+            <td style="width: 20%;">11/02/1993</td>
+        </tr>
+        <tr>
+            <td>
+                Gender:
+                <input type="radio" name="gender" checked> Male
+                <input type="radio" name="gender"> Female
+                <input type="radio" name="gender"> Other: _______
+            </td>
+            <td colspan="3">
+                Preferred Pronouns:
+                <input type="checkbox" checked> He/Him
+                <input type="checkbox"> She/Her
+                <input type="checkbox"> They/Them
+                <input type="checkbox"> Other: <input type="text" style="border: none; border-bottom: 1px solid black; width: 150px;" value="N/A">
+            </td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td>78 Park Ridge Ln Unit 12</td>
+            <td>City</td>
+            <td>Denver</td>
+        </tr>
+        <tr>
+            <td>State: <input type="text" style="border: none; border-bottom: 1px solid black; width: 100px;" value="CO"></td>
+            <td>Zip: <input type="text" style="border: none; border-bottom: 1px solid black; width: 100px;" value="80203"></td>
+            <td>Phone: <input type="text" style="border: none; border-bottom: 1px solid black; width: 150px;" value="303-555-4629"></td>
+            <td>None</td>
+        </tr>
+        <tr>
+            <td>Email: <input type="text" style="border: none; border-bottom: 1px solid black; width: 200px;" value="nathan.kim@example.com"></td>
+            <td colspan="3">
+                Preferred Contact Method:
+                <input type="checkbox"> Phone
+                <input type="checkbox" checked> Email
+                <input type="checkbox" checked> Text
+            </td>
+        </tr>
+        <tr>
+            <td>Emergency Contact Name:</td>
+            <td>Grace Kim</td>
+            <td>Phone:</td>
+            <td>303-555-7194</td>
+        </tr>
+        <tr>
+            <td>Relationship to Patient</td>
+            <td colspan="3">Sister</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="font-weight: bold;">Insurance Information (if applicable)</td>
+        </tr>
+        <tr>
+            <td>Provider:</td>
+            <td>UnitedHealthcare</td>
+            <td>Policy number:</td>
+            <td>UHC453982174</td>
+        </tr>
+        <tr>
+            <td>Group Number:</td>
+            <td>GRP42110</td>
+            <td>Policyholder Name</td>
+            <td>Nathan Kim</td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                Relationship to Patient:
+                <input type="checkbox" checked> Self
+                <input type="checkbox"> Spouse
+                <input type="checkbox"> Parent
+                <input type="checkbox"> Other: <input type="text" style="border: none; border-bottom: 1px solid black; width: 200px;" value="N/A">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4" style="font-weight: bold;">Reason for Visit</td>
+        </tr>
+        <tr>
+            <td colspan="4">Primary Reason for Visit:</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="height: 40px;">Persistent lower back pain after minor car accident</td>
+        </tr>
+        <tr>
+            <td>How long have you had this issue?</td>
+            <td>2 months</td>
+            <td colspan="2">
+                Have you been treated for this before?
+                <input type="checkbox"> Yes
+                <input type="checkbox" checked> No
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4" style="font-weight: bold;">Medical History Summary</td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                Do you have any of the following conditions? (Check all that apply)
+                <input type="checkbox" checked> Diabetes
+                <input type="checkbox"> Hypertension
+                <input type="checkbox"> Heart Disease
+                <input type="checkbox"> Asthma
+                <input type="checkbox"> Cancer
+                <input type="checkbox"> Stroke
+                <input type="checkbox"> Other: <input type="text" style="border: none; border-bottom: 1px solid black; width: 200px;" value="N/A">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Are you currently taking any medications?
+                <input type="radio" name="medications" checked> Yes
+                <input type="radio" name="medications"> No
+            </td>
+            <td colspan="3">If yes, list medications: Metformin 500 mg BID; Naproxen 250 mg PRN</td>
+        </tr>
+        <tr>
+            <td>
+                Do you have any allergies?
+                <input type="radio" name="allergies"> Yes
+                <input type="radio" name="allergies" checked> No
+            </td>
+            <td colspan="3">If yes, list allergies: N/A</td>
+        </tr>
+        <tr>
+            <td>
+                Have you had any surgeries or hospitalizations?
+                <input type="radio" name="surgeries" checked> Yes
+                <input type="radio" name="surgeries"> No
+            </td>
+            <td colspan="3">If yes, list procedures and dates: Appendectomy (06/2014); ER evaluation after car accident (04/2026, no admission)</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="font-weight: bold;">Lifestyle & Social History</td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                Do you smoke or use tobacco products?
+                <input type="radio" name="tobacco"> Yes
+                <input type="radio" name="tobacco" checked> No
+                <input type="radio" name="tobacco"> Former Smoker
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                Do you consume alcohol?
+                <input type="radio" name="alcohol" checked> Yes
+                <input type="radio" name="alcohol"> No
+                <input type="radio" name="alcohol"> Occasionally
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                Do you use recreational drugs?
+                <input type="radio" name="drugs"> Yes
+                <input type="radio" name="drugs" checked> No
+            </td>
+        </tr>
+        <tr>
+            <td>Occupation:</td>
+            <td colspan="3">Software developer</td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                Do you have any concerns about access to healthcare, transportation, or financial barriers?
+                <input type="checkbox" checked> Yes
+                <input type="checkbox"> No
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">If yes, please describe: <input type="text" style="border: none; border-bottom: 1px solid black; width: 80%;" value="Currently uninsured; limited transportation and relies on public transit."></td>
+        </tr>
+        <tr>
+            <td colspan="4" style="font-weight: bold;">Pharmacy Information</td>
+        </tr>
+        <tr>
+            <td>Preferred Pharmacy Name:</td>
+            <td>Walgreens - Capitol Hill</td>
+            <td>Phone Number:</td>
+            <td>303-555-0037</td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td colspan="3">1201 E Colfax Ave, Denver, CO 80218</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="font-weight: bold;">Consent & Signature</td>
+        </tr>
+        <tr>
+            <td colspan="4">I confirm that the information provided is accurate to the best of my knowledge. - Agreed</td>
+        </tr>
+        <tr>
+            <td>Signature:</td>
+            <td>Nathan Kim</td>
+            <td>Date:</td>
+            <td>05/19/2026</td>
+        </tr>
+    </table>
+</body>
+</html>

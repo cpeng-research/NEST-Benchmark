@@ -1,0 +1,63 @@
+{
+    "Rollover to a Registered Disability Savings Plan (RDSP)\nunder Paragraph 60(m)":{
+        "Section 1 – Rollover amount":{
+            "Rollover amount: $______ ":"",
+            "Eligible proceeds":""
+        },
+        "Section 2 – RDSP identification":{
+            "Issuer name":"",
+            "Specimen plan name":"",
+            "Specimen plan number":"",
+            "Contract number":"",
+            "Beneficiary name":"",
+            "Social insurance number (SIN)":"",
+            "Holder name":"",
+            "Business number":"",
+            "SIN":""
+        },
+        "Section 3 – Origin of rollover amount":{
+            "Part A – Identification of deceased individual":{
+                "Last name":"",
+                "First name and initials":"",
+                "SIN":"",
+                "Date of death:(Year / Month / Day)":"",
+                "Relationship to eligible individual":{
+                    "choices":[
+                        "Parent",
+                        "Grandparent"
+                    ],
+                    "value":""
+                }
+            },
+            "Part B – Identification of originating plan (tick the appropriate box to indicate the plan)":{
+                "choices":[
+                    {"Registered retirement savings plan (RRSP)":{
+                        "RRSP specimen plan number":"",
+                        "RRSP issuer name and address":""
+                    }},
+                    {"Registered retirement income fund (RRIF)":{
+                        "RRIF specimen plan number":"",
+                        "RRIF carrier name and address":""
+                    }},
+                    {"Registered pension plan (RPP)":{
+                        "RPP name":"",
+                        "RPP administrator name and address":""
+                    }},
+                    {
+                        "Specified pension plan (SPP)":{
+                            "SPP name":"",
+                            "SPP administrator name and address":""
+                        }
+                    },
+                    {
+                        "Pooled registered pension plan (PRPP)":{
+                            "PRPP specimen plan number":"",
+                            "PRPP administrator name and address":""
+                        }
+                    }
+
+                ]
+            }
+        }
+    }
+}

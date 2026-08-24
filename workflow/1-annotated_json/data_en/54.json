@@ -1,0 +1,70 @@
+{
+    "Application for Employer Identification Number":{
+        "1 Legal name of entity (or individual) for whom the EIN is being requested":"",
+        "2 Trade name of business (if different from name on line 1)":"",
+        "3 Executor, administrator, trustee, 'care of' name":"",
+        "4a Mailing address (room, apt., suite no. and street, or P.O. box)":"",
+        "4b City, state, and ZIP code (if foreign, see instructions)":"",
+        "5a Street address (if different) (Do not enter a P.O. box.)":"",
+        "5b City, state, and ZIP code (if foreign, see instructions)":"",
+        "6 County and state where principal business is located":"",
+        "7a Name of responsible party":"",
+        "7b SSN, ITIN, or EIN":"",
+        "8a Is this application for a limited liability company (LLC) (or a foreign equivalent)?":{
+            "choices":[
+                "Yes",
+                "No"
+            ],
+            "value":""
+        },
+        "8b If 8a is 'Yes,' enter the number of LLC members:":"",
+        "8c If 8a is 'Yes,' was the LLC organized in the United States?":{
+            "choices":[
+                "Yes",
+                "No"
+            ],
+            "value":""
+        },
+        "9a Type of entity (check only one box).":{
+            "choices":[
+                "Sole proprietor (SSN)",
+                " Estate (SSN of decedent)",
+                "Partnership",
+                "Plan administrator (TIN)",
+                "Corporation (enter form number to be filed)",
+                "Trust (TIN of grantor)",
+                "Personal service corporation",
+                "Military/National Guard",
+                "Church or church-controlled organization",
+                "Farmers' cooperative",
+                "Other nonprofit organization (specify)",
+                "REMIC",
+                "State/local government",
+                {" Other (specify)___":""}
+            ],
+            "value":""
+        },
+        "9b If a corporation, name the state or foreign country (if applicable) where incorporated":{
+            "State":"",
+            "Foreign country":""
+        },
+        "10 Reason for applying (check only one box)":{
+            "choices":[
+                "Started new business",
+                "Banking purpose",
+                "Changed type of organization",
+                "Purchased going business",
+                "Hired employees",
+                "Created a trust",
+                "Compliance with IRS withholding regulations",
+                "Created a pension plan",
+                "Other"
+            ],
+            "value":""
+        },
+        "11 Date business started or acquired (month, day, year)":"",
+        "12 Closing month of accounting year":""
+
+
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "EMPLOYMENT ORDINANCE, CAP. 57\nAPPLICATION FOR LONG SERVICE PAYMENT\nBY FAMILY MEMBERS OF A DECEASED EMPLOYEE": {
+        "To:": "Human Resources Manager",
+        "(Name of employer/company) ": "ABC Manufacturing Ltd.",
+        "Address of employer/company ": "10/F Industrial Building, 123 Queen's Road Central, Hong Kong",
+        "Pursuant to Section 31RA of the Employment Ordinance, I wish to apply for long service payment:": {
+            "I. Particulars of the deceased employee ": {
+                "Name :": "Chan Tai Man",
+                "Hong Kong Identity Card No. :": "A123456(7)",
+                "Sex :": "Male",
+                "Age :": "58"
+            },
+            "II. Particulars of the applicant ": {
+                "Name :": "Chan Mei Ling",
+                "Hong Kong Identity Card No. :": "B234567(8)",
+                "Sex :": "Female",
+                "Age :": "55",
+                "Address :": "Flat 12B, 5/F, Harmony House, 45 King Street, Kowloon, Hong Kong",
+                "Relationship with the deceased :": "Spouse"
+            },
+            "III. Supporting documents (Copy must be attached to this application) ": {
+                "choices": [
+                    "Marriage Certificate",
+                    "Birth Certificate",
+                    "Other documentary evidence. Please specify"
+                ],
+                "value": [
+                    "Marriage Certificate",
+                    "Death Certificate"
+                ],
+                "I declare that, to the best of my knowledge, apart from myself the deceased is survived by the following family members:": {
+                    "choices": [
+                        {
+                            "Spouse": {
+                                "No. of persons ": "1"
+                            }
+                        },
+                        {
+                            "Children": {
+                                "No. of persons ": "2"
+                            }
+                        },
+                        {
+                            "Parent": {
+                                "No. of persons ": "0"
+                            }
+                        }
+                    ],
+                    "value": [
+                        "Spouse",
+                        "Children"
+                    ]
+                }
+            }
+        }
+    }
+}

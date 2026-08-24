@@ -1,0 +1,372 @@
+[
+    {
+        "key": "First name / Business name",
+        "label_info": {
+            "row": 0,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Last name",
+        "label_info": {
+            "row": 0,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Social insurance number or Business number",
+        "label_info": {
+            "row": 0,
+            "col": 3
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 1,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "Name at birth (if different from above)",
+        "label_info": {
+            "row": 2,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Known aliases",
+        "label_info": {
+            "row": 2,
+            "col": 3
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Write taxpayer's name and aliases in other language, if relevant",
+        "label_info": {
+            "row": 4,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Indicate what language name is written in",
+        "label_info": {
+            "row": 4,
+            "col": 3
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Year Month Day1",
+        "label_info": {
+            "row": 6,
+            "col": 1
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "Occupation",
+        "label_info": {
+            "row": 6,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Marital status",
+        "label_info": {
+            "row": 6,
+            "col": 3
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "law partner",
+        "label_info": {
+            "row": 8,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "law partner",
+        "label_info": {
+            "row": 8,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Year Month Day2",
+        "label_info": {
+            "row": 10,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "Mailing address (Apt number, Street number, Street name, PO Box, RR)",
+        "label_info": {
+            "row": 12,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "City",
+        "label_info": {
+            "row": 12,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Province / Territory / State",
+        "label_info": {
+            "row": 14,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Postal or ZIP code",
+        "label_info": {
+            "row": 14,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Country",
+        "label_info": {
+            "row": 14,
+            "col": 3
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Telephone number",
+        "label_info": {
+            "row": 14,
+            "col": 4
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Describe the nature of the relationship between you and the Canadian taxpayer in question",
+        "label_info": {
+            "row": 16,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Estimated foreign asset / property per year value",
+        "label_info": {
+            "row": 18,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Estimated unreported income per year",
+        "label_info": {
+            "row": 18,
+            "col": 3
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Number of years held offshore",
+        "label_info": {
+            "row": 20,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Calculated potential additional federal tax",
+        "label_info": {
+            "row": 20,
+            "col": 3
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Supporting facts",
+        "label_info": {
+            "row": 22,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Other information",
+        "label_info": {
+            "row": 24,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    }
+]

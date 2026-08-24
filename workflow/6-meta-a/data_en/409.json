@@ -1,0 +1,478 @@
+[
+    {
+        "key": "Surname",
+        "label_info": {
+            "row": 2,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Given Name(s) in full",
+        "label_info": {
+            "row": 2,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 2
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Name in Chinese",
+        "label_info": {
+            "row": 3,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Sex",
+        "label_info": {
+            "row": 3,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "SO"
+    },
+    {
+        "key": "Date of Birth (DD /MM /YY )",
+        "label_info": {
+            "row": 3,
+            "col": 4
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "H.K. Identity Card No.",
+        "label_info": {
+            "row": 4,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Seafarer’s Employment Registration Book No.",
+        "label_info": {
+            "row": 4,
+            "col": 3
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 2
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Home Address",
+        "label_info": {
+            "row": 5,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Home",
+        "label_info": {
+            "row": 6,
+            "col": 1
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Fax No.",
+        "label_info": {
+            "row": 6,
+            "col": 3
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Email",
+        "label_info": {
+            "row": 6,
+            "col": 5
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Mobile",
+        "label_info": {
+            "row": 7,
+            "col": 1
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Rank",
+        "label_info": {
+            "row": 9,
+            "col": 6
+        },
+        "placeholder_offset": [
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            },
+            {
+                "rows": 5,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": true,
+        "type": "LI"
+    },
+    {
+        "key": "Ship’s Name",
+        "label_info": {
+            "row": 10,
+            "col": 0
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "Type of Ship",
+        "label_info": {
+            "row": 10,
+            "col": 1
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": true,
+        "type": "LI"
+    },
+    {
+        "key": "Flag State & IMO No.",
+        "label_info": {
+            "row": 10,
+            "col": 2
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "GT",
+        "label_info": {
+            "row": 10,
+            "col": 3
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "Power in kW",
+        "label_info": {
+            "row": 10,
+            "col": 4
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "Trading Area",
+        "label_info": {
+            "row": 10,
+            "col": 5
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": true,
+        "type": "LI"
+    },
+    {
+        "key": "From",
+        "label_info": {
+            "row": 10,
+            "col": 7
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "To",
+        "label_info": {
+            "row": 10,
+            "col": 8
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "Month",
+        "label_info": {
+            "row": 10,
+            "col": 9
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "Day",
+        "label_info": {
+            "row": 10,
+            "col": 10
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    }
+]

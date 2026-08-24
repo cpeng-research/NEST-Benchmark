@@ -1,0 +1,49 @@
+{
+    "Renewal Form for e-Cert (Personal) Certificate":{
+        "Details of Certificate to be Renewed\n(Note: # Same details of the existing certificate will be included in the renewed certificate.)":"",
+        "For use by Hongkong Post only":{
+            "PIN Envelope No.:":""
+        },
+        "Subscriber Name in English #":"",
+        "Surname: ":"",
+        "Given name: ":"",
+        "[NULL1]":{
+            "choices":[
+                "Mr",
+                "Ms"
+            ],
+            "value":""
+        },
+        "HKID Number #":"",
+        "Name in Chinese #":"",
+        "Subscriber Reference No.#":"",
+        "A) e-mail address to be included in your e-Cert (Recommended) [Please see Note (ii)]":"",
+        "B) Contact Phone Number":"",
+        "C) e-mail address for contact purpose (Recommended)":{
+            "[NULL2]":"",
+            "[NULL3]":{
+                "choices":[
+                        "Same as the e-Cert e-mail address"
+                ],
+                "value":""
+            }
+        },
+        "D) Local Postal Address (in ENGLISH)\n[The e-Cert will be loaded onto e-Cert File USB which will be delivered to the address below.]":{
+            "[NULL4]":"",
+            "Room:":"",
+            "Floor:":"",
+            "Block:":"",
+            "Building:":"",
+            "Estate / Street and No.:":"",
+            "District:":{
+                "[NULL5]":"",
+                "choices":[
+                    "HK",
+                    "KLN",
+                    "NT"
+                ],
+                "value":""
+            }
+        }
+    }
+}

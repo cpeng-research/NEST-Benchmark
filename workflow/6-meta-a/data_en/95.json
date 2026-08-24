@@ -1,0 +1,728 @@
+[
+    {
+        "key": "Bank Name",
+        "label_info": {
+            "row": 2,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Bank Address",
+        "label_info": {
+            "row": 3,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Routing #",
+        "label_info": {
+            "row": 4,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Payer's Name",
+        "label_info": {
+            "row": 5,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Payer's Address",
+        "label_info": {
+            "row": 6,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "City",
+        "label_info": {
+            "row": 7,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "State",
+        "label_info": {
+            "row": 7,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Zip Code",
+        "label_info": {
+            "row": 7,
+            "col": 3
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Email",
+        "label_info": {
+            "row": 8,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Phone",
+        "label_info": {
+            "row": 8,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Account Name",
+        "label_info": {
+            "row": 9,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Account Number",
+        "label_info": {
+            "row": 9,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Personal",
+        "label_info": {
+            "row": 10,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "Business",
+        "label_info": {
+            "row": 10,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "Company",
+        "label_info": {
+            "row": 10,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "Savings",
+        "label_info": {
+            "row": 10,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "Checking",
+        "label_info": {
+            "row": 10,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "Other",
+        "label_info": {
+            "row": 10,
+            "col": 0
+        },
+        "placeholder_offset": [
+            {
+                "rows": 0,
+                "cols": 0
+            },
+            {
+                "rows": 0,
+                "cols": 0
+            }
+        ],
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "Recipient's Name",
+        "label_info": {
+            "row": 11,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Recipient's Address",
+        "label_info": {
+            "row": 12,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "City",
+        "label_info": {
+            "row": 13,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "State",
+        "label_info": {
+            "row": 13,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Zip Code",
+        "label_info": {
+            "row": 13,
+            "col": 3
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Email",
+        "label_info": {
+            "row": 14,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Phone",
+        "label_info": {
+            "row": 14,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Account Name",
+        "label_info": {
+            "row": 15,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Account Number",
+        "label_info": {
+            "row": 15,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Personal",
+        "label_info": {
+            "row": 16,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "Business",
+        "label_info": {
+            "row": 16,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "Company",
+        "label_info": {
+            "row": 16,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "Savings",
+        "label_info": {
+            "row": 16,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "Checking",
+        "label_info": {
+            "row": 16,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "Other",
+        "label_info": {
+            "row": 16,
+            "col": 0
+        },
+        "placeholder_offset": [
+            {
+                "rows": 0,
+                "cols": 0
+            },
+            {
+                "rows": 0,
+                "cols": 0
+            }
+        ],
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "Transferred From",
+        "label_info": {
+            "row": 18,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Acct",
+        "label_info": {
+            "row": 18,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Transferred To",
+        "label_info": {
+            "row": 19,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Acct",
+        "label_info": {
+            "row": 19,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Date of Transfer",
+        "label_info": {
+            "row": 20,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Approved By",
+        "label_info": {
+            "row": 21,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Description",
+        "label_info": {
+            "row": 22,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Amount Received",
+        "label_info": {
+            "row": 23,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Bank Name",
+        "label_info": {
+            "row": 25,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Bank Address",
+        "label_info": {
+            "row": 26,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Routing #",
+        "label_info": {
+            "row": 27,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "IBAN",
+        "label_info": {
+            "row": 28,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Correspondent Bank Name",
+        "label_info": {
+            "row": 29,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Correspondent Bank Address",
+        "label_info": {
+            "row": 30,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Correspondent Routing #",
+        "label_info": {
+            "row": 31,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Correspondent IBAN",
+        "label_info": {
+            "row": 32,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Signature",
+        "label_info": {
+            "row": 33,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Date",
+        "label_info": {
+            "row": 33,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    }
+]

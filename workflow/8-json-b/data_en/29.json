@@ -1,0 +1,57 @@
+{
+  "IRP REGISTRATION AUTHORIZATION INFORMATION": {
+    "INSTRUCTIONS": "If the OWNER of the vehicle is DIFFERENT from the registrant,complete sections 1 and 2.",
+    "SECTION 1 ": {
+      "PRIMARY REGISTRANT INFORMATION": {
+        "Registrant's Name": "Evan R. Delgado",
+        "Date of Birth": "08/21/1991",
+        "Vehicle Make": "Toyota",
+        "Year": "2021",
+        "Is the vehicle leased?": {
+          "select": [
+            "Yes",
+            "No"
+          ],
+          "value": "Yes"
+        },
+        "Vehicle ID Number(VIN)": "JTMBRREV2MZ182736"
+      }
+    },
+    "SECTION 2": {
+      "REGISTRATION AUTHORIZATION (Owner must complete this section)": {
+        "Vehicle Owner's Name": "Lydia M. Park",
+        "Date of Birth": "03/29/1972",
+        "Address": "845 Summit Street",
+        "Apt.#": "12C",
+        "City": "Denver",
+        "State": {
+          "select": [
+            "AL",
+            "AK",
+            "AZ",
+            "AR",
+            "CA",
+            "CO",
+            "CT",
+            "DE",
+            "FL",
+            "GA",
+            "NY"
+          ],
+          "value": "CO"
+        },
+        "ZIP Code": "80203",
+        "(Signature of Owner or of Person Authorized to Sign)": "Lydia M. Park",
+        "(Date)": "05/18/2026",
+        "(If signing for a corporation,print your full name and title here)": "Not applicable"
+      }
+    },
+    "OFFICE USE ONLY": {
+      "Proof of ID and Ownership Provided": "Yes - Driver License and Title",
+      "Reg./Title No.": "COT-4567891",
+      "State": "CO",
+      "Reviewed By": "S. Patel",
+      "Date": "05/18/2026"
+    }
+  }
+}

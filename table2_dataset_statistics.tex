@@ -1,0 +1,40 @@
+\begin{table*}[t]
+  \centering
+  \caption{Detailed statistics of the NEST dataset. Panel A presents domain coverage across Chinese and English tables. Panel B details structural distribution and atomic cell composition.}
+  \Description{Detailed statistics of the NEST dataset, including domain distribution by language and structural statistics by table complexity.}
+  \label{tab:dataset_statistics}
+  \small
+  \begin{tabular}{lrrrr}
+    \toprule
+    \multicolumn{5}{c}{\textbf{Panel A: Domain Distribution}} \\
+    \midrule
+    \textbf{Domain} & \textbf{Chinese} & \textbf{English} & \textbf{Total} & \textbf{\% of Dataset} \\
+    \midrule
+    Workplace / HR & 205 & 65 & 270 & 32.6\% \\
+    Business & 107 & 95 & 202 & 24.4\% \\
+    Finance & 40 & 98 & 138 & 16.7\% \\
+    Gov. \& Public Svc. & 20 & 95 & 115 & 13.9\% \\
+    Education & 25 & 29 & 54 & 6.5\% \\
+    Healthcare & 17 & 32 & 49 & 5.9\% \\
+    \midrule
+    \textbf{Total} & \textbf{414} & \textbf{414} & \textbf{828} & \textbf{100.0\%} \\
+    \bottomrule
+  \end{tabular}
+
+  \vspace{0.6em}
+
+  \begin{tabular}{lrrrrrrr}
+    \toprule
+    \multicolumn{8}{c}{\textbf{Panel B: Structural Statistics}} \\
+    \midrule
+    \textbf{Complexity} & \textbf{\# Tables} & \textbf{\# Cells} & \textbf{SI} & \textbf{GI} & \textbf{SO} & \textbf{GO} & \textbf{LI} \\
+    \midrule
+    L1 (Flat) & 74 (8.9\%) & 840 & 840 & 0 & 0 & 0 & 0 \\
+    L2 (Hierarchical) & 76 (9.2\%) & 1,017 & 607 & 410 & 0 & 0 & 0 \\
+    L3 (Composite) & 678 (81.9\%) & 25,448 & 5,528 & 2,013 & 2,124 & 1,122 & 14,661 \\
+    \midrule
+    \textbf{Total} & \textbf{828 (100\%)} & \textbf{27,305} & \textbf{6,975} & \textbf{2,423} & \textbf{2,124} & \textbf{1,122} & \textbf{14,661} \\
+    \textit{Cell Type Dist.} & & & (25.5\%) & (8.9\%) & (7.8\%) & (4.1\%) & (53.7\%) \\
+    \bottomrule
+  \end{tabular}
+\end{table*}

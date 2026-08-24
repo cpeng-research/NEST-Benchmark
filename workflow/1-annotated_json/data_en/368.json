@@ -1,0 +1,38 @@
+{
+    "Investments Prescribed to be Qualified Information Return":{
+        "Name of the corporation or trust for which this return is filed":"",
+        "Name of the corporation or trust filing this return (if different from above)":"",
+        "Address":"",
+        "Telephone number":"",
+        "Return for the taxation year:":{
+            "From":{
+                "Year":"",
+                "Month":"",
+                "Day":""
+            },
+            "to":{
+                "Year":"",
+                "Month":"",
+                "Day":""
+            }
+        },
+        "Please indicate the type of corporation or trust (tick one box only):":{
+            "choices":[
+                "Mutual fund corporation",
+                "Mutual fund trust",
+                "Mutual fund trust if prescribed condition in paragraph 4801(b) of the Income Tax Regulations is disregarded",
+                "Investment corporation",
+                "Small business investment trust"
+            ],
+            "value":""
+        },
+        "Please indicate the tax services office or tax centre where the corporation or trust has filed, or will file, its return for the fiscal period mentioned above.":{
+            "choices":[
+                "Form T2 Corporation Income Tax Return",
+                "Form T3 Trust Income Tax and Information Return"
+            ],
+            "value":""
+        }
+        
+    }
+}

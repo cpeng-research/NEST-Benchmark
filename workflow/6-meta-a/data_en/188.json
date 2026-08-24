@@ -1,0 +1,582 @@
+[
+    {
+        "key": "Recipient Name:",
+        "label_info": {
+            "row": 7,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Last Four Digits of SSN:",
+        "label_info": {
+            "row": 7,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Are you a U.S. Citizen or Permanent Resident? (if no see a, b, and c below)",
+        "label_info": {
+            "row": 8,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "SO"
+    },
+    {
+        "key": "1, have extremely restrictive work authorization requirements. Please consult with the International Service Office before engaging the individual for the honorarium services to determine eligibility.",
+        "label_info": {
+            "row": 10,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Recipient's Address",
+        "label_info": {
+            "row": 13,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 2
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Recipient's Phone",
+        "label_info": {
+            "row": 14,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Recipient's Email",
+        "label_info": {
+            "row": 14,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Honorarium Recipient Signature:",
+        "label_info": {
+            "row": 15,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Date:1",
+        "label_info": {
+            "row": 15,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "Bank Name:",
+        "label_info": {
+            "row": 17,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Remittance Email Address:",
+        "label_info": {
+            "row": 17,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Routing Number:",
+        "label_info": {
+            "row": 18,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Account Number:",
+        "label_info": {
+            "row": 18,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Oracle Alias",
+        "label_info": {
+            "row": 21,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Natural Account:",
+        "label_info": {
+            "row": 21,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Amount:",
+        "label_info": {
+            "row": 21,
+            "col": 4
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Required for Foreign Accounts:",
+        "label_info": {
+            "row": 22,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Regions",
+        "label_info": {
+            "row": 22,
+            "col": 1
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Type of Activity",
+        "label_info": {
+            "row": 22,
+            "col": 3
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Project:",
+        "label_info": {
+            "row": 25,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Task:",
+        "label_info": {
+            "row": 25,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Award:",
+        "label_info": {
+            "row": 26,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Expenditure Type:",
+        "label_info": {
+            "row": 26,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Date:2",
+        "label_info": {
+            "row": 27,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "Expenditure Organization:",
+        "label_info": {
+            "row": 28,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Expenditure Date:",
+        "label_info": {
+            "row": 28,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "OVPR Approval Signature & Stamp",
+        "label_info": {
+            "row": 29,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 4
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Dept. Contact Name:",
+        "label_info": {
+            "row": 30,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Dept. Contact Email:",
+        "label_info": {
+            "row": 30,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Dept. Contact Phone Number:",
+        "label_info": {
+            "row": 31,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "School / Division:",
+        "label_info": {
+            "row": 31,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Approver's Name & Title (Please Print):1",
+        "label_info": {
+            "row": 32,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 2
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "Approver's Name & Title (Please Print):2",
+        "label_info": {
+            "row": 32,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 3
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "VP/Dean Print&Sign (if over $2000.00):",
+        "label_info": {
+            "row": 33,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "To be completed only by Accounts Payable:",
+        "label_info": {
+            "row": 34,
+            "col": 0
+        },
+        "placeholder_offset": [
+            {
+                "rows": 0,
+                "cols": 0
+            },
+            {
+                "rows": 0,
+                "cols": 0
+            }
+        ],
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "Tax Reporting:",
+        "label_info": {
+            "row": 35,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 4
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Supplier #:",
+        "label_info": {
+            "row": 36,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Supplier Site:",
+        "label_info": {
+            "row": 36,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Invoice #:",
+        "label_info": {
+            "row": 37,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Invoice Date:",
+        "label_info": {
+            "row": 37,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Audited By & Date:",
+        "label_info": {
+            "row": 38,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 4
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    }
+]

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employment Application</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 1em;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 6px;
+            text-align: left;
+            vertical-align: top;
+            background: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>U.S. Department of State</p>
+        <p>
+            OMB CONTROL NO. 1405-0189<br>
+            EXPIRES: 04-30-2026<br>
+            ESTIMATED BURDEN: 15 Minutes
+        </p>
+
+        <h2 style="font-weight:normal;">EMPLOYMENT APPLICATION FOR LOCALLY EMPLOYED STAFF OR FAMILY MEMBER</h2>
+
+        <!-- POSITION -->
+        <table>
+            <tr>
+                <td colspan="2">POSITION</td>
+            </tr>
+            <tr>
+                <td>Vacancy Announcement Number</td>
+                <td>Position Title</td>
+            </tr>
+            <tr>
+                <td><input type="text" style="width:100%; border:none;" value="[VacancyAnnouncementNumber]"></td>
+                <td><input type="text" style="width:100%; border:none;" value="[PositionTitle]"></td>
+            </tr>
+        </table>
+
+        <!-- SECTION 1: PERSONAL INFORMATION -->
+        <table>
+            <tr>
+                <td colspan="4">SECTION 1: PERSONAL INFORMATION TO BE COMPLETED BY ALL APPLICANTS</td>
+            </tr>
+            <tr>
+                <td colspan="4">Name (Last, First or Given Name)</td>
+            </tr>
+            <tr>
+                <td colspan="4"><input type="text" style="width:100%; border:none;" value="[Name]"></td>
+            </tr>
+            <tr>
+                <td colspan="4">Other Names Used</td>
+            </tr>
+            <tr>
+                <td colspan="4"><input type="text" style="width:100%; border:none;" value="[OtherNamesUsed]"></td>
+            </tr>
+            <tr>
+                <td colspan="4">Address</td>
+            </tr>
+            <tr>
+                <td colspan="4"><input type="text" style="width:100%; border:none;" value="[Address]"></td>
+            </tr>
+            <tr>
+                <td colspan="2">Email</td>
+                <td colspan="2">Telephone Number</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" style="width:100%; border:none;" value="[Email]"></td>
+                <td colspan="2"><input type="text" style="width:100%; border:none;" value="[TelephoneNumber]"></td>
+            </tr>
+            <tr>
+                <td colspan="4">Does your relative work in this Embassy or Consulate? If yes, tell us their name and the section where they work.</td>
+            </tr>
+            <tr>
+                <td colspan="4"><input type="text" style="width:100%; border:none;" value="[RelativeWork]"></td>
+            </tr>
+            <tr>
+                <td colspan="4">Are you able to legally work in this country?
+                    <br>(U.S. Government does not sponsor work visas unless specified on the Vacancy Announcement.)
+                    <br>
+                    <input type="checkbox" checked> [LegallyWork] Yes
+                    <input type="checkbox"> [LegallyWork] No
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">If this job includes driving a U.S. Government vehicle, do you have a current and valid driver's license?
+                    <br>
+                    <input type="checkbox" checked> [DriversLicense] Yes
+                    <input type="checkbox"> [DriversLicense] No
+                </td>
+            </tr>
+        </table>
+
+        <!-- SECTION 2: EDUCATION -->
+        <table>
+            <tr>
+                <td colspan="5">SECTION 2: EDUCATION</td>
+            </tr>
+            <tr>
+                <td>High School/Secondary Education<br>(Name, City)</td>
+                <td>Dates Attended (mm-yyyy)<br>From<br>To</td>
+                <td>Did you graduate?<br><input type="checkbox"> [HighSchoolGraduation] Yes<br><input type="checkbox"> [HighSchoolGraduation] No</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><input type="text" style="width:100%; border:none;" value="[HighSchoolName]"></td>
+                <td>From: <input type="text" style="width:80px; border:none;" value="[HighSchoolFrom]"><br>To: <input type="text" style="width:80px; border:none;" value="[HighSchoolTo]"></td>
+                <td>[HighSchoolGraduationStatus]</td>
+                <td>Diploma: [HighSchoolDiploma]</td>
+                <td>GPA: [HighSchoolGPA]</td>
+            </tr>
+            <tr>
+                <td>Trade/Technical<br>(Name, City)</td>
+                <td>Dates Attended (mm-yyyy)<br>From<br>To</td>
+                <td>Did you graduate?<br><input type="checkbox"> [TradeGraduation] Yes<br><input type="checkbox"> [TradeGraduation] No</td>
+                <td>Certificate/Diploma</td>
+                <td>Major Subject</td>
+            </tr>
+            <tr>
+                <td><input type="text" style="width:100%; border:none;" value="[TradeName]"></td>
+                <td>From: <input type="text" style="width:80px; border:none;" value="[TradeFrom]"><br>To: <input type="text" style="width:80px; border:none;" value="[TradeTo]"></td>
+                <td>[TradeGraduationStatus]</td>
+                <td><input type="text" style="width:100%; border:none;" value="[TradeCertificateDiploma]"></td>
+                <td><input type="text" style="width:100%; border:none;" value="[TradeMajorSubject]"></td>
+            </tr>
+            <tr>
+                <td>Undergraduate/Bachelor's Degree<br>(Name, City)</td>
+                <td>Dates Attended (mm-yyyy)<br>From<br>To</td>
+                <td>Did you graduate?<br><input type="checkbox"> [UndergraduateGraduation] Yes<br><input type="checkbox"> [UndergraduateGraduation] No</td>
+                <td>Degree/Diploma</td>
+                <td>Major Subject</td>
+            </tr>
+            <tr>
+                <td><input type="text" style="width:100%; border:none;" value="[UndergraduateName]"></td>
+                <td>From: <input type="text" style="width:80px; border:none;" value="[UndergraduateFrom]"><br>To: <input type="text" style="width:80px; border:none;" value="[UndergraduateTo]"></td>
+                <td>[UndergraduateGraduationStatus]</td>
+                <td><input type="text" style="width:100%; border:none;" value="[UndergraduateDiploma]"></td>
+                <td><input type="text" style="width:100%; border:none;" value="[UndergraduateMajorSubject]"></td>
+            </tr>
+            <tr>
+                <td>Graduate Degree<br>(Name, City)</td>
+                <td>Dates Attended (mm-yyyy)<br>From<br>To</td>
+                <td>Did you graduate?<br><input type="checkbox"> [GraduateGraduation] Yes<br><input type="checkbox"> [GraduateGraduation] No</td>
+                <td>Degree/Diploma</td>
+                <td>Major Subject</td>
+            </tr>
+            <tr>
+                <td><input type="text" style="width:100%; border:none;" value="[GraduateName]"></td>
+                <td>From: <input type="text" style="width:80px; border:none;" value="[GraduateFrom]"><br>To: <input type="text" style="width:80px; border:none;" value="[GraduateTo]"></td>
+                <td>[GraduateGraduationStatus]</td>
+                <td><input type="text" style="width:100%; border:none;" value="[GraduateDiploma]"></td>
+                <td><input type="text" style="width:100%; border:none;" value="[GraduateMajorSubject]"></td>
+            </tr>
+        </table>
+
+        <!-- SECTION 3: LANGUAGES -->
+        <table>
+            <tr>
+                <td colspan="4">SECTION 3: LANGUAGES</td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    Languages<br>
+                    1 Basic - Examples: Basic greetings, phrases, numbers and signs.<br>
+                    2 Limited - Examples: Directions, simple questions<br>
+                    3 Good working knowledge - Examples: Conversations about familiar topics, complex documents<br>
+                    4 Fluent - Examples: Infer nuanced meaning from complex documents<br>
+                    5 Translator - Examples: Certified professional translator in this language
+                </td>
+            </tr>
+            <tr>
+                <td>Language</td>
+                <td>Speaking (Provide level)</td>
+                <td>Reading (Provide level)</td>
+                <td>Writing (Provide level)</td>
+            </tr>
+            <tr>
+                <td><input type="text" style="width:100%; border:none;" value="[Language1]"></td>
+                <td><input type="text" style="width:100%; border:none;" value="[SpeakingLevel1]"></td>
+                <td><input type="text" style="width:100%; border:none;" value="[ReadingLevel1]"></td>
+                <td><input type="text" style="width:100%; border:none;" value="[WritingLevel1]"></td>
+            </tr>
+            <tr>
+                <td><input type="text" style="width:100%; border:none;" value="[Language2]"></td>
+                <td><input type="text" style="width:100%; border:none;" value="[SpeakingLevel2]"></td>
+                <td><input type="text" style="width:100%; border:none;" value="[ReadingLevel2]"></td>
+                <td><input type="text" style="width:100%; border:none;" value="[WritingLevel2]"></td>
+            </tr>
+            <tr>
+                <td><input type="text" style="width:100%; border:none;" value="[Language3]"></td>
+                <td><input type="text" style="width:100%; border:none;" value="[SpeakingLevel3]"></td>
+                <td><input type="text" style="width:100%; border:none;" value="[ReadingLevel3]"></td>
+                <td><input type="text" style="width:100%; border:none;" value="[WritingLevel3]"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

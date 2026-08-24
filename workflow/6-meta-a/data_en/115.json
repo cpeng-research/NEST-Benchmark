@@ -1,0 +1,564 @@
+[
+    {
+        "key": "1 Marketplace identifier",
+        "label_info": {
+            "row": 1,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "assigned policy number",
+        "label_info": {
+            "row": 1,
+            "col": 1
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "3 Policy issuer's name",
+        "label_info": {
+            "row": 3,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "4 Recipient's name",
+        "label_info": {
+            "row": 3,
+            "col": 1
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "5 Recipient's SSN",
+        "label_info": {
+            "row": 5,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "6 Recipient's date of birth",
+        "label_info": {
+            "row": 5,
+            "col": 1
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "7 Recipient's spouse's name",
+        "label_info": {
+            "row": 7,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "8 Recipient's spouse's SSN",
+        "label_info": {
+            "row": 7,
+            "col": 1
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "9 Recipient's spouse's date of birth",
+        "label_info": {
+            "row": 9,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "10 Policy start date",
+        "label_info": {
+            "row": 9,
+            "col": 1
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "11 Policy termination date",
+        "label_info": {
+            "row": 11,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "12 Street address (including apartment no.)",
+        "label_info": {
+            "row": 11,
+            "col": 1
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "13 City or town",
+        "label_info": {
+            "row": 13,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "14 State or province",
+        "label_info": {
+            "row": 13,
+            "col": 1
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "15 Country and ZIP or foreign postal code",
+        "label_info": {
+            "row": 15,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "A. Covered individual name",
+        "label_info": {
+            "row": 18,
+            "col": 1
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            },
+            {
+                "rows": 5,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "B. Covered individual SSN",
+        "label_info": {
+            "row": 18,
+            "col": 2
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            },
+            {
+                "rows": 5,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "C. Covered individual date of birth",
+        "label_info": {
+            "row": 18,
+            "col": 3
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            },
+            {
+                "rows": 5,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "D. Coverage start date",
+        "label_info": {
+            "row": 18,
+            "col": 4
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            },
+            {
+                "rows": 5,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "E. Coverage termination date",
+        "label_info": {
+            "row": 18,
+            "col": 5
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            },
+            {
+                "rows": 5,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "A. Monthly enrollment premiums",
+        "label_info": {
+            "row": 25,
+            "col": 1
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            },
+            {
+                "rows": 5,
+                "cols": 0
+            },
+            {
+                "rows": 6,
+                "cols": 0
+            },
+            {
+                "rows": 7,
+                "cols": 0
+            },
+            {
+                "rows": 8,
+                "cols": 0
+            },
+            {
+                "rows": 9,
+                "cols": 0
+            },
+            {
+                "rows": 10,
+                "cols": 0
+            },
+            {
+                "rows": 11,
+                "cols": 0
+            },
+            {
+                "rows": 12,
+                "cols": 0
+            },
+            {
+                "rows": 13,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "B. Monthly second lowest cost silver plan (SLCSFP) premium",
+        "label_info": {
+            "row": 25,
+            "col": 2
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            },
+            {
+                "rows": 5,
+                "cols": 0
+            },
+            {
+                "rows": 6,
+                "cols": 0
+            },
+            {
+                "rows": 7,
+                "cols": 0
+            },
+            {
+                "rows": 8,
+                "cols": 0
+            },
+            {
+                "rows": 9,
+                "cols": 0
+            },
+            {
+                "rows": 10,
+                "cols": 0
+            },
+            {
+                "rows": 11,
+                "cols": 0
+            },
+            {
+                "rows": 12,
+                "cols": 0
+            },
+            {
+                "rows": 13,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "C. Monthly advance payment of premium tax credit",
+        "label_info": {
+            "row": 25,
+            "col": 3
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            },
+            {
+                "rows": 5,
+                "cols": 0
+            },
+            {
+                "rows": 6,
+                "cols": 0
+            },
+            {
+                "rows": 7,
+                "cols": 0
+            },
+            {
+                "rows": 8,
+                "cols": 0
+            },
+            {
+                "rows": 9,
+                "cols": 0
+            },
+            {
+                "rows": 10,
+                "cols": 0
+            },
+            {
+                "rows": 11,
+                "cols": 0
+            },
+            {
+                "rows": 12,
+                "cols": 0
+            },
+            {
+                "rows": 13,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    }
+]

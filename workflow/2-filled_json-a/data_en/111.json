@@ -1,0 +1,74 @@
+{
+  "Notice Concerning Fiduciary Relationship": {
+    "Part I Identification": {
+      "Name of person for whom you are acting (as shown on the tax return)": "John A. Smith",
+      "Identifying number": "123-45-6789",
+      "Decedent's social security no.": "987-65-4321",
+      "Address of person for whom you are acting (number, street, and room or suite no.)": "100 Main St., Apt 4B",
+      "City or town, state, and ZIP code (If a foreign address, see instructions.)": "Anytown, NY 12345",
+      "Fiduciary's name": "Emma L. Johnson, Executor",
+      "Address of fiduciary (number, street, and room or suite no.)": "200 Oak Avenue, Suite 300",
+      "City or town, state, and ZIP code": "Metropolis, NY 10001",
+      "Telephone number (optional)": "555-123-4567"
+    },
+    "Section A. Authority": {
+      "1 Authority for fiduciary relationship. Check applicable box": {
+        "choices": [
+          "Court appointment of testate estate (valid will exists)",
+          "Court appointment of intestate estate (no valid will exists)",
+          "Court appointment of guardian or conservator",
+          "Fiduciary of intestate estate",
+          "Valid trust instrument and amendments",
+          "Bankruptcy or assignment for the benefit of creditors",
+          "Other. Describe:"
+        ],
+        "value": "Court appointment of testate estate (valid will exists)"
+      },
+      "Other. Describe fill": "N/A",
+      "2a If box 1a, 1b, or 1d is checked, enter the date of death": "02/14/2025",
+      "2b If box 1c, 1e, 1f, or 1g is checked, enter the date of appointment, taking office, or assignment or transfer of assets": "N/A"
+    },
+    "Section B. Nature of Liability and Tax Notices": {
+      "3 Type of taxes (check all that apply)": {
+        "choices": [
+          "Income",
+          "Gift",
+          "Estate",
+          "Generation-skipping transfer",
+          "Employment",
+          "Excise",
+          "Other (describe):"
+        ],
+        "value": [
+          "Estate",
+          "Income"
+        ]
+      },
+      "Other (describe) fill": "N/A",
+      "4 Federal tax form number (check all that apply)": {
+        "choices": [
+          "706 series",
+          "709",
+          "940",
+          "941, 943, 944",
+          "1040 or 1040-SR",
+          "1041",
+          "1120",
+          "Other (list):"
+        ],
+        "value": [
+          "706 series",
+          "1041"
+        ]
+      },
+      "Other (list) fill": "N/A",
+      "5 If your authority as a fiduciary does not cover all years or tax periods, check here and list the specific years or periods within your authority": {
+        "choices": [
+          "Check here"
+        ],
+        "value": "Check here"
+      },
+      "Specific years or periods list": "2019-2021"
+    }
+  }
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Maternity Leave Pay Scheme Application</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #ffffff;
+            /* 确保页面背景为白 */
+        }
+
+        /* 核心对齐与底层样式 */
+        table {
+            width: 100% !important;
+            border-collapse: collapse;
+            table-layout: fixed;
+            margin-bottom: -1px;
+            background-color: #ffffff;
+            /* 确保表格底层为白 */
+        }
+
+        td {
+            border: 1px solid #000;
+            padding: 10px;
+            vertical-align: top;
+            word-wrap: break-word;
+            background-color: #ffffff;
+            /* 强制所有格子底层为白 */
+        }
+
+        /* 标签列样式：为了对齐和美观，可以稍微调淡灰色或保持白色 */
+        .col-label {
+            width: 25%;
+            background-color: #ffffff;
+            /* 设置为白色 */
+            font-weight: normal;
+        }
+
+        .col-content {
+            width: 75%;
+            background-color: #ffffff;
+        }
+
+        /* 标题行样式 */
+        .section-header {
+            background-color: #ffffff;
+            /* 全部统一为白色 */
+            font-weight: bold;
+        }
+
+        /* 内部嵌套表格（如中英文姓名部分） */
+        .inner-table {
+            border: none !important;
+            margin: 0;
+        }
+
+        .inner-table td {
+            border: none !important;
+            padding: 2px;
+            background-color: transparent;
+        }
+
+        /* 银行帐号框样式 */
+        .bank-box {
+            border: 1px solid #000;
+            width: 20px;
+            height: 25px;
+            text-align: center;
+            background-color: #ffffff;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body><!-- 标题 -->
+    <table style="border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; width: 100%;">
+        <tbody>
+            <tr>
+                <td align="center" style="border: none;">
+                    <h2>Reimbursement of Maternity Leave Pay Scheme Employer<br>Application Form</h2>
+                </td>
+            </tr>
+        </tbody>
+    </table><!-- Part I -->
+    <table>
+        <tbody>
+            <tr class="section-header">
+                <td><strong>Part I Particulars of Employer (&ldquo;applicant&rdquo;)</strong></td>
+            </tr>
+        </tbody>
+    </table><!-- (1) Name of Employer -->
+    <table>
+        <tbody>
+            <tr>
+                <td class="col-label">(1) Name of Employer <sup>(Note 1)</sup></td>
+                <td class="col-content">
+                    <table class="inner-table">
+                        <tbody>
+                            <tr>
+                                <td style="width: 80px;">(English)</td>
+                                <td style="border-bottom: 1px solid #000 !important;">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>(Chinese)</td>
+                                <td style="border-bottom: 1px solid #000 !important;">&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table><!-- (2) & (3) -->
+    <table>
+        <tbody>
+            <tr>
+                <td class="col-label">(2) Type of Employer</td>
+                <td class="col-content"><input type="checkbox">Limited Company / <input type="checkbox">Sole Proprietorship / <input type="checkbox">Partnership / <input type="checkbox">Individual / <input type="checkbox">Other Organisation ^</td>
+            </tr>
+            <tr>
+                <td class="col-label">(3) Registration No. <sup>(Note 2)</sup></td>
+                <td><input type="checkbox">(BRC No. / <input type="checkbox">Other Registration No. / <input type="checkbox">Ordinance / <input type="checkbox">Document No.)<br><br></td>
+            </tr>
+        </tbody>
+    </table><!-- (4) to (11) -->
+    <table>
+        <tbody>
+            <tr>
+                <td class="col-label">(4) Contact Person</td>
+                <td style="width: 30%;"><br></td>
+                <td style="width: 15%;">(5) Post Title</td>
+                <td><br></td>
+            </tr>
+            <tr>
+                <td class="col-label">(6) Contact Tel No.</td>
+                <td colspan="3"><br></td>
+            </tr>
+            <tr>
+                <td class="col-label">(7) Office Address</td>
+                <td colspan="3"><br></td>
+            </tr>
+            <tr>
+                <td class="col-label">(8) Correspondence Address *</td>
+                <td colspan="3" height="40"><br></td>
+            </tr>
+            <tr>
+                <td class="col-label">(9) Email Address</td>
+                <td colspan="3"><br></td>
+            </tr>
+            <tr>
+                <td class="col-label">(10) Trade <sup>(Note 3)</sup></td>
+                <td colspan="3"><br></td>
+            </tr>
+            <tr>
+                <td class="col-label">(11) Employment Size</td>
+                <td colspan="3"><br></td>
+            </tr>
+        </tbody>
+    </table><!-- (12) Bank Account -->
+    <table>
+        <tbody>
+            <tr class="section-header">
+                <td><strong>(12) Bank Account for Receiving Reimbursement <sup>(Note 4)</sup></strong></td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <tbody>
+            <tr>
+                <td class="col-label">(a) Name of Bank</td>
+                <td class="col-content"><br></td>
+            </tr>
+            <tr>
+                <td class="col-label">(b) Account Holder<br><small>(English, same as (1))</small></td>
+                <td><br></td>
+            </tr>
+            <tr>
+                <td class="col-label">(c) Account No.</td>
+                <td>
+                    <div style="display: flex; align-items: center; gap: 2px;">
+                        <div class="bank-box"><br></div>
+                        <div class="bank-box"><br></div>
+                        <div class="bank-box"><br></div><span style="margin: 0 5px;">-</span>
+                        <div class="bank-box"><br></div>
+                        <div class="bank-box"><br></div>
+                        <div class="bank-box"><br></div>
+                        <div class="bank-box"><br></div>
+                        <div class="bank-box"><br></div>
+                        <div class="bank-box"><br></div>
+                        <div class="bank-box"><br></div>
+                        <div class="bank-box"><br></div>
+                        <div class="bank-box"><br></div>
+                    </div>
+                    <div style="font-size: 10px; margin-top: 5px;">&nbsp;&nbsp;&nbsp;(Bank Code) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Account Number)</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Patient Registration Form – Adult</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: normal; /* 全局取消加粗 */
+        }
+        .form-container {
+            width: 900px;
+            margin: 20px auto;
+            border: 1px solid #000;
+        }
+        .header-note {
+            text-align: right;
+            font-size: 12px;
+            padding: 4px 8px;
+        }
+        .section-header {
+            /* 无灰色 + 无加粗 */
+            color: #000;
+            padding: 6px 8px;
+            border-bottom: 1px solid #000;
+        }
+        .contact-details, .other-details {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .contact-details td, .other-details td {
+            border: 1px solid #000;
+            padding: 4px 6px;
+            vertical-align: top;
+        }
+        .full-width {
+            width: 100%;
+        }
+        .half-col {
+            width: 50%;
+        }
+        .third-col {
+            width: 33.33%;
+        }
+        .quarter-col {
+            width: 25%;
+        }
+        .consent-note {
+            font-size: 12px;
+            padding: 6px 8px;
+            border: 1px solid #000;
+            border-top: none;
+        }
+        .checkbox-group {
+            display: inline-block;
+            margin-right: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <!-- 标题已改为无加粗 -->
+        <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-bottom: 1px solid #000;">
+            <div style="font-size: 18px;">New Patient Registration Form – Adult</div>
+            <div class="header-note">Please complete all pages in full using block capitals</div>
+        </div>
+
+        <!-- Background Details Section -->
+        <div class="section-header">1. Background Details</div>
+
+        <!-- Contact Details Table -->
+        <div class="section-header">Contact Details</div>
+        <table class="contact-details">
+            <tr>
+                <td class="quarter-col">NHS Number</td>
+                <td colspan="3" class="full-width"></td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Name</td>
+                <td class="half-col"></td>
+                <td class="quarter-col">Gender</td>
+                <td class="quarter-col"></td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Previous Surname<br>(if applicable)</td>
+                <td colspan="3" class="full-width"></td>
+            </tr>
+            <tr>
+                <td rowspan="3" class="quarter-col">Address</td>
+                <td class="half-col"></td>
+                <td class="quarter-col">Date of Birth</td>
+                <td class="quarter-col"></td>
+            </tr>
+            <tr>
+                <td class="half-col"></td>
+                <td class="quarter-col">Home Telephone</td>
+                <td class="quarter-col"></td>
+            </tr>
+            <tr>
+                <td class="half-col"></td>
+                <td class="quarter-col">Work Telephone</td>
+                <td class="quarter-col"></td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Previous Address</td>
+                <td colspan="3" class="full-width"></td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Mobile Telephone</td>
+                <td colspan="3" class="full-width">I consent to be contacted* by SMS on this number: _______________</td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Email</td>
+                <td colspan="3" class="full-width">I consent to be contacted* by email at this address: _______________</td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Next of Kin</td>
+                <td class="third-col">Name: _______________</td>
+                <td class="third-col">Tel: _______________</td>
+                <td class="third-col">Relationship: _______________</td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Family Registered With Us</td>
+                <td colspan="3" class="full-width"></td>
+            </tr>
+            <tr>
+                <td colspan="4" class="full-width">
+                    Has the patient been registered in the NHS before? 
+                    <span class="checkbox-group"><input type="checkbox"> Yes</span>
+                    <span class="checkbox-group"><input type="checkbox"> No</span>
+                    <br>If no please state date entered UK: _______________
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" class="full-width">
+                    Is the patient an Asylum Seeker or Refugee?
+                    <span class="checkbox-group"><input type="checkbox"> Refugee</span>
+                    <span class="checkbox-group"><input type="checkbox"> Asylum Seeker</span>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Consent Note -->
+        <div class="consent-note">
+            * It is your responsibility to keep us updated with any changes to your telephone number, email & postal address.<br>
+            We may contact you with appointment details, test results, health campaigns or Patient Participation Group details<br>
+            If you do not consent to being contacted by SMS or Email, please tick here: 
+            <span class="checkbox-group"><input type="checkbox"> SMS</span>
+            <span class="checkbox-group"><input type="checkbox"> Email</span>
+        </div>
+
+        <!-- Other Details Section -->
+        <div class="section-header">Other Details</div>
+        <table class="other-details">
+            <tr>
+                <td class="quarter-col">Previous GP</td>
+                <td class="half-col">Name: _______________</td>
+                <td class="half-col">Address: _______________</td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Country of Birth</td>
+                <td colspan="3" class="full-width"></td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Ethnicity</td>
+                <td class="third-col">
+                    <input type="checkbox"> White (UK)<br>
+                    <input type="checkbox"> White (Irish)<br>
+                    <input type="checkbox"> White (Other)
+                </td>
+                <td class="third-col">
+                    <input type="checkbox"> Black Caribbean<br>
+                    <input type="checkbox"> Black African<br>
+                    <input type="checkbox"> Black Other
+                </td>
+                <td class="third-col">
+                    <input type="checkbox"> Bangladeshi<br>
+                    <input type="checkbox"> Indian<br>
+                    <input type="checkbox"> Pakistani
+                </td>
+                <td class="quarter-col">
+                    <input type="checkbox"> Chinese<br>
+                    <input type="checkbox"> Other
+                </td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Religion</td>
+                <td class="third-col">
+                    <input type="checkbox"> C of E<br>
+                    <input type="checkbox"> Catholic<br>
+                    <input type="checkbox"> Other Christian
+                </td>
+                <td class="third-col">
+                    <input type="checkbox"> Buddhist<br>
+                    <input type="checkbox"> Hindu<br>
+                    <input type="checkbox"> Muslim
+                </td>
+                <td class="third-col">
+                    <input type="checkbox"> Sikh<br>
+                    <input type="checkbox"> Jewish<br>
+                    <input type="checkbox"> Jehovah's Witness
+                </td>
+                <td class="quarter-col">
+                    <input type="checkbox"> No religion<br>
+                    <input type="checkbox"> Other: _______________
+                </td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Housing</td>
+                <td class="third-col">
+                    <input type="checkbox"> Own House<br>
+                    <input type="checkbox"> Rented House<br>
+                    <input type="checkbox"> Shared House
+                </td>
+                <td class="third-col">
+                    <input type="checkbox"> Nursing Home<br>
+                    <input type="checkbox"> Residential Home<br>
+                    <input type="checkbox"> Sheltered Home
+                </td>
+                <td class="third-col">
+                    <input type="checkbox"> Homeless<br>
+                    <input type="checkbox"> Housebound
+                </td>
+                <td class="quarter-col">
+                    <input type="checkbox"> Asylum Seeker<br>
+                    <input type="checkbox"> Refugee
+                </td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Employment</td>
+                <td class="third-col">
+                    <input type="checkbox"> Employed<br>
+                    <input type="checkbox"> Self-employed
+                </td>
+                <td class="third-col">
+                    <input type="checkbox"> Student<br>
+                    <input type="checkbox"> Unemployed
+                </td>
+                <td class="third-col">
+                    <input type="checkbox"> House husband<br>
+                    <input type="checkbox"> House wife
+                </td>
+                <td class="quarter-col">
+                    <input type="checkbox"> Carer<br>
+                    <input type="checkbox"> Retired
+                </td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Overseas Visitor</td>
+                <td class="third-col"><input type="checkbox"> Yes</td>
+                <td colspan="3" class="full-width">
+                    <input type="checkbox"> European Health Insurance Card Held (please bring details with you)
+                </td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Armed Forces</td>
+                <td class="third-col"><input type="checkbox"> Military Veteran</td>
+                <td class="third-col">
+                    <input type="checkbox"> Royal Air Force<br>
+                    <input type="checkbox"> Royal Marines
+                </td>
+                <td class="third-col">
+                    <input type="checkbox"> Army<br>
+                    <input type="checkbox"> Royal Navy
+                </td>
+                <td class="quarter-col"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

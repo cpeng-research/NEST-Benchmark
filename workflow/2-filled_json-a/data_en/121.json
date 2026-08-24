@@ -1,0 +1,177 @@
+{
+    "Form 433-A (OIC)(April 2026)\nCollection Information Statement for Wage Earners and Self-Employed Individuals": {
+        "[NULL1]": "Use this form if you are\n● An individual who owes income tax on a Form 1040, U.S. Individual Income Tax Return\n● An individual with a personal liability for Excise Tax\n● An individual responsible for a Trust Fund Recovery Penalty\n● An individual who is self-employed or has self-employment income. You are considered to be self-employed if you are in business for yourself, or operate a trade or business.\n● An individual who is personally responsible for a partnership liability (only if the partnership is submitting an offer)\n● An individual who is submitting an offer on behalf of the estate of a deceased person",
+        "[NULL2]": "Note: Include attachments if additional space is needed to respond completely to any question. This form should only be used with the Form 656, Offer in Compromise.",
+        "Section 1 Personal and Household Information": {
+            "Last name": "Doe",
+            "First name": "John",
+            "Date of birth (mm/dd/yyyy)": "1985-04-12",
+            "Social Security Number or ITIN": "123-45-6789",
+            "Marital status": {
+                "choices": [
+                    "Unmarried",
+                    "Married"
+                ],
+                "value": "Married",
+                "If married, date of marriage (mm/dd/yyyy)": "2010-06-15"
+            },
+            "Home physical address (street, city, state, ZIP code)": "123 Main St, Los Angeles, CA 90001",
+            "Do you": {
+                "choices": [
+                    "Own your home",
+                    "Rent",
+                    "Other (specify e.g., share rent, live with relative, etc.)"
+                ],
+                "value": "Rent"
+            },
+            "[NULL3]": {
+                "choice": [
+                    "If you were married and lived in AZ, CA, ID, LA, NM, NV, TX, WA or WI within the last ten years check here"
+                ],
+                "value": "Not applicable"
+            },
+            "County of residence": "Los Angeles",
+            "Primary phone": "(555) 123-4567",
+            "Secondary phone": "(555) 234-5678",
+            "FAX number": "(555) 345-6789",
+            "Home mailing address (if different from above or post office box number)": "PO Box 100, Los Angeles, CA 90001"
+        },
+        "Provide information about your spouse.": {
+            "Spouse's last name": "Doe",
+            "Spouse's first name": "Jane",
+            "Date of birth (mm/dd/yyyy)": "1987-09-20",
+            "Social Security Number": "987-65-4321"
+        },
+        "Provide information for all other persons in the household or claimed as a dependent.": [
+            {
+                "Name": "Emily Doe",
+                "Age": "10",
+                "Relationship": "Daughter",
+                "Claimed as a dependent on your Form 1040": {
+                    "choices": [
+                        "Yes",
+                        "No"
+                    ],
+                    "value": "Yes"
+                },
+                "Contributes to household income": {
+                    "choices": [
+                        "Yes",
+                        "No"
+                    ],
+                    "value": "No"
+                }
+            },
+            {
+                "Name": "Michael Doe",
+                "Age": "8",
+                "Relationship": "Son",
+                "Claimed as a dependent on your Form 1040": {
+                    "choices": [
+                        "Yes",
+                        "No"
+                    ],
+                    "value": "Yes"
+                },
+                "Contributes to household income": {
+                    "choices": [
+                        "Yes",
+                        "No"
+                    ],
+                    "value": "No"
+                }
+            },
+            {
+                "Name": "Aaron Smith",
+                "Age": "67",
+                "Relationship": "Father",
+                "Claimed as a dependent on your Form 1040": {
+                    "choices": [
+                        "Yes",
+                        "No"
+                    ],
+                    "value": "No"
+                },
+                "Contributes to household income": {
+                    "choices": [
+                        "Yes",
+                        "No"
+                    ],
+                    "value": "Yes"
+                }
+            },
+            {
+                "Name": "Laura Brown",
+                "Age": "30",
+                "Relationship": "Sister",
+                "Claimed as a dependent on your Form 1040": {
+                    "choices": [
+                        "Yes",
+                        "No"
+                    ],
+                    "value": "No"
+                },
+                "Contributes to household income": {
+                    "choices": [
+                        "Yes",
+                        "No"
+                    ],
+                    "value": "Yes"
+                }
+            }
+        ],
+        "Section 2 Employment Information for Wage Earners": {
+            "[NULL4]": "Complete this section if you or your spouse are wage earners and receive a Form W-2. If you or your spouse have self-employment income (that is you file a Schedule C, E, F, etc.) instead of, or in addition to wage income, you must also complete Business Information in Sections 4, 5, and 6.",
+            "[NULL5]": {
+                "Your employer’s name": "Acme Corporation",
+                "Pay period": {
+                    "choices": [
+                        "Weekly",
+                        "Monthly",
+                        "Bi-weekly",
+                        "Other"
+                    ],
+                    "value": "Bi-weekly"
+                },
+                "Employer’s address (street, city, state, ZIP code)": "456 Corporate Dr, Los Angeles, CA 90002",
+                "Do you have an ownership interest in this business": {
+                    "choices": [
+                        "Yes (also complete and submit Form 433-B)",
+                        "No"
+                    ],
+                    "value": "No"
+                },
+                "Your occupation": "Software Engineer",
+                "How long with this employer": {
+                    "(years)": "3",
+                    "(months)": "6"
+                }
+            },
+            "[NULL6]": {
+                "Spouse’s employer's name": "Global Solutions LLC",
+                "Pay period": {
+                    "choices": [
+                        "Weekly",
+                        "Monthly",
+                        "Bi-weekly",
+                        "Other"
+                    ],
+                    "value": "Monthly"
+                },
+                "Employer’s address (street, city, state, ZIP code)": "789 Business Rd, Los Angeles, CA 90003",
+                "Does your spouse have an ownership interest in this business": {
+                    "choices": [
+                        "Yes (also complete and submit Form 433-B)",
+                        "No"
+                    ],
+                    "value": "No"
+                },
+                "Spouse's occupation": "Project Manager",
+                "How long with this employer": {
+                    "(years)": "2",
+                    "(months)": "11"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Application Form</title>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        
+        /* 核心对齐逻辑 */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed; /* 强制列宽固定，确保上下对齐 */
+            margin-bottom: -1px; /* 消除表格间双边框 */
+        }
+        
+        td {
+            padding: 8px;
+            border: 1px solid #000; /* 统一边框 */
+            vertical-align: middle;
+            word-wrap: break-word;
+            height: 30px;
+        }
+
+        /* 标签列背景色（可选，方便视觉区分） */
+        .label {
+            background-color: #fcfcfc;
+            width: 160px; /* 统一所有左侧标签的宽度 */
+        }
+
+        /* 移除内部嵌套表格的边框 */
+        .no-border td { border: none; }
+        
+        .header-bg { background-color: #f0f0f0; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <!-- 标题 -->
+    <table>
+        <tr class="header-bg">
+            <td align="center">Application Form for Use of Amphitheatres/Performance Venues under the Leisure and Cultural Services Department</td>
+        </tr>
+    </table>
+
+    <!-- 基本信息部分 -->
+    <table>
+        <tr>
+            <td class="label">Name of Organisation :</td>
+            <td colspan="4">Hong Kong Community Arts Association</td>
+        </tr>
+        <tr>
+            <td class="label">Name of Venue :</td>
+            <td colspan="4">Sha Tin Town Hall Auditorium</td>
+        </tr>
+    </table>
+
+    <!-- 日期选项 -->
+    <table>
+        <tr>
+            <td class="label">Date to be Booked :</td>
+            <td style="width: 80px;">Option (1)</td>
+            <td>2026-07-15</td>
+            <td style="width: 80px;">Option (2)</td>
+            <td>2026-07-16</td>
+        </tr>
+    </table>
+
+    <!-- 目的与人数 -->
+    <table>
+        <tr>
+            <td class="label">Purpose :</td>
+            <td>Charity music concert (non-profit)</td>
+            <td style="width: 140px;">No. of Performers :</td>
+            <td style="width: 100px;">12</td>
+        </tr>
+    </table>
+
+    <!-- 预订时间节数 -->
+    <table>
+        <tr>
+            <td class="label">Session(s) to be Booked :</td>
+            <td colspan="4">From: 2:00 pm &nbsp; To: 5:00 pm &nbsp;&nbsp; (Total 1 sessions, 3 hours)</td>
+        </tr>
+    </table>
+
+    <!-- 申请人信息 -->
+    <table>
+        <tr>
+            <td class="label">Name of Applicant:</td>
+            <td>Leung Mei Yan</td>
+            <td style="width: 180px;">Identity Document No.<br><small>(first 4 digits)</small>:</td>
+            <td style="width: 120px;">1234</td>
+        </tr>
+        <tr>
+            <td class="label">Title in Organisation:</td>
+            <td>Chairperson</td>
+            <td style="width: 100px;">Fax No. :</td>
+            <td>+852-2645-7890</td>
+        </tr>
+    </table>
+
+    <!-- 电话与地址 -->
+    <table>
+        <tr>
+            <td class="label">Contact Tel No.:</td>
+            <td style="width: 60px;">(Day)</td>
+            <td>+852-6123-4567</td>
+            <td style="width: 60px;">(Night)</td>
+            <td>+852-9123-4567</td>
+        </tr>
+        <tr>
+            <td class="label">Contact Address:</td>
+            <td colspan="4" style="height: 50px;">Room 305, 15 Harbour Road, Wan Chai, Hong Kong</td>
+        </tr>
+    </table>
+
+    <!-- 声明 -->
+    <table>
+        <tr>
+            <td style="padding: 15px;">
+                <div align="center" style="margin-bottom:10px;"><strong><u>Declaration</u></strong></div>
+                <p style="font-size: 0.9em; line-height: 1.4;">
+                    I hereby declare that the above venue is hired by our organisation for organising non-profit-making activities only. I undertake to observe the conditions of use or regulations on the use of the venue and shall indemnify the Leisure and Cultural Services Department against all actions, claims and demands by any person who suffers or sustains any loss, damage, injury or death arising out of or as a result of the use of the venue by me due to my negligence or on the part of the person authorised by me during the Hire Period.
+                </p>
+                
+                <br>
+                <div style="display: flex; justify-content: space-between;">
+                    <span>Signature of Applicant: Leung Mei Yan</span>
+                    <span>Official Chop: Hong Kong Community Arts Association</span>
+                </div>
+                <br>
+                <span>Date: 2026-06-20</span>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

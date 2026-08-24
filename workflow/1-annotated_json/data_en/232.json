@@ -1,0 +1,124 @@
+{
+    "Youth Employment Start\nMembership Application Form":{
+        "(Staff Only)":{
+            "Membership Number:":"",
+            "Date of Application:":""
+        },
+        "[NULL1]":"(Please complete in BLOCK letters and in dark ink) # Please delete as appropriate",
+        "I. Declaration":{
+            "[NULL2]":"I have carefully read and agree with the Notes for Application and Personal Information Collection Statement. I agree and accept LD and Y.E.S. by using my name, phone no. and email address to send me promotional information on training courses, recruitment functions, counselling, activities, facilities and services. I hereby declare that I am legally employable in Hong Kong and the information provided is correct. I understand that if I wilfully give any false information in this application, it will render me liable to disqualification for membership." 
+        },
+        "II. Personal Data (Compulsory)":{
+            "Name in English(Surname First)":"",
+            "Date of Birth":{
+                "Day":"",
+                "Month":"",
+                "Year":""
+            },
+            "Name in Chinese":"",
+            "Gender":{
+                "choices":[
+                    "Male",
+                    "Female"
+                ],
+                "value":""
+            },
+            "Hong Kong Permanent Resident":{
+                "choices":[
+                    "Yes",
+                    "No, abode"
+                ],
+                "value":"",
+                "[TEXT1]":"since[FILL1](Month)[FILL2](Year)",
+                "[TEXT1-FILLED]":["",""]
+            },
+            "Ethnic Origin":{
+                "choices":[
+                    "China (including Hong Kong)",
+                    {"Other (Please specify:":"________"}
+                ],
+                "value":""
+            },
+            "Residential Address":{
+                "[NULL3]":"",
+                "choices":[
+                    "Hong Kong",
+                    "Kowloon",
+                    "New Territories",
+                    "Islands"
+                ],
+                "value":""
+            },
+            "Employment Status":{
+                "choices":[
+                    "Student",
+                    "Unemployed",
+                    {"Employed":{
+                        "Please indicate position:":"_________",
+                        "choices":[
+                            "Full-time",
+                            "Part-time"
+                        ],
+                        "value":""
+                    }},
+                    {"Self-employed ":{
+                        "Please indicate industry:":"_____________"
+                    }}
+                ],
+                "value":""
+            },
+            "Education Level":{
+                "choices":[
+                    "Below F.3",
+                    "F.3",
+                    "F.4",
+                    "F.5",
+                    "F.6",
+                    "F.7 (For Old Academic Structure only)",
+                    "Yi Jin Diploma Programme",
+                    "Diploma of Applied Education Programme",
+                    "Diploma (excluding HKDSE)",
+                    "Higher Diploma",
+                    "Associate Degree",
+                    "Tertiary or above",
+                    {"Other (Please specify:":"________"}
+                ],
+                "value":""
+            },
+            "Email Address":"",
+            "Telephone No.":{
+                "(Mobile)":"",
+                "(Home)":"",
+                "(Office)":""
+            }            
+        },
+        "III. Emergency Contact (Compulsory for applicant aged between 15-17)":{
+            "Name of Relative / Guardian :":{
+                "[NULL4]":"",
+                "choices":[
+                    "Mr",
+                    "Ms",
+                    "Miss"
+                ],
+                "value":""
+            },
+            "Relationship with Applicant :":"",
+            "Telephone No.:":""
+        },
+        "IV. Youth Employment and Training Programme":{
+            "[NULL5]":"Launched by the Labour Department, the Youth Employment and Training Programme (YETP) provides a comprehensive platform of job search for young people aged 15 to 29 with educational attainment at sub-degree level or below. This programme enables young people to better understand themselves and their work aptitudes while enriching their job skills and experience to enhance employability. For details, please visit www.yes.labour.gov.hk. If you are interested in knowing more/joining YETP, Y.E.S. will share your personal information with YETP office for follow-up.",
+            "choices":[
+                "I am interested",
+                "I am not interested"
+            ],
+            "value":""
+        },
+        "V. Login User Name (Optional)":{
+            "[NULL6]":"Upon completion of registration, you can start making appointments for services or applying for activities held by Y.E.S. via Y.E.S. website or Mobile Application. Please indicate your preferred user ID (up to 16 English letters and numbers). You may list up to 3 choices. If you leave the choice(s) blank, or all of your choices have been used by other members, Y.E.S. will assign a user ID to you. After the completion of registration, we will send an email informing you the user ID in the next working day.",
+            "First choice:":"",
+            "Second choice:":"",
+            "hird choice:":""
+        }
+
+    }
+}

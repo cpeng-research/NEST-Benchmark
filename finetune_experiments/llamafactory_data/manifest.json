@@ -1,0 +1,20 @@
+[
+  {
+    "task": "infill",
+    "llamafactory_task": "fill",
+    "split": "train",
+    "source_path": "finetune_experiments/datasets/infill_both_template_train.jsonl",
+    "output_path": "finetune_experiments/llamafactory_data/magic_conch_fill_train.json",
+    "record_count": 662,
+    "id_style": "prefixed"
+  },
+  {
+    "task": "infill",
+    "llamafactory_task": "fill",
+    "split": "test",
+    "source_path": "finetune_experiments/datasets/infill_both_template_test.jsonl",
+    "output_path": "finetune_experiments/llamafactory_data/magic_conch_fill_test.json",
+    "record_count": 166,
+    "id_style": "prefixed"
+  }
+]

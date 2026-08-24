@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Registration Form</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            font-weight: normal;
+            background: #ffffff !important;
+            color: #000000;
+        }
+        body {
+            padding: 20px;
+            background: #ffffff;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid #000;
+            background: #ffffff;
+        }
+        td {
+            border: 1px solid #000;
+            padding: 8px;
+            vertical-align: top;
+            background: #ffffff;
+        }
+        .full-width {
+            width: 100%;
+        }
+        .half {
+            width: 50%;
+        }
+        input, textarea {
+            width: 100%;
+            border: none;
+            resize: none;
+            font-family: inherit;
+            font-size: inherit;
+            background: #ffffff;
+        }
+        input[type="checkbox"] {
+            width: auto;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center; margin-bottom: 20px;">Patient Registration Form</h2>
+    <table>
+        <!-- Patient information -->
+        <tr>
+            <td colspan="2">Patient information</td>
+        </tr>
+        <tr>
+            <td class="half">Full name: <input type="text" style="width: 80%;" value="[Full name]"></td>
+            <td class="half">Date of birth: <input type="text" style="width: 80%;" value="[Date of birth]"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Gender:
+                [Gender]<input type="checkbox"> Male
+                [Gender]<input type="checkbox" checked> Female
+                [Gender]<input type="checkbox"> Other: <input type="text" style="width: 100px;" value="[Other]">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Marital status:
+                [Marital status]<input type="checkbox"> Single
+                [Marital status]<input type="checkbox" checked> Married
+                [Marital status]<input type="checkbox"> Divorced
+                [Marital status]<input type="checkbox"> Widowed
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">Address: <input type="text" class="full-width" value="[Address]"></td>
+        </tr>
+        <tr>
+            <td class="half">Phone number: <input type="text" style="width: 80%;" value="[Phone number1]"></td>
+            <td class="half">Email address: <input type="text" style="width: 80%;" value="[Email address]"></td>
+        </tr>
+
+        <!-- Emergency contact -->
+        <tr>
+            <td colspan="2">Emergency contact</td>
+        </tr>
+        <tr>
+            <td colspan="2">Name: <input type="text" class="full-width" value="[Name]"></td>
+        </tr>
+        <tr>
+            <td class="half">Relationship to patient: <input type="text" style="width: 80%;" value="[Relationship to patient]"></td>
+            <td class="half">Phone number: <input type="text" style="width: 80%;" value="[Phone number2]"></td>
+        </tr>
+
+        <!-- Insurance information -->
+        <tr>
+            <td colspan="2">Insurance information</td>
+        </tr>
+        <tr>
+            <td colspan="2">Primary insurance: <input type="text" class="full-width" value="[Primary insurance]"></td>
+        </tr>
+        <tr>
+            <td colspan="2">Policyholder's name: <input type="text" class="full-width" value="[Policyholder's name1]"></td>
+        </tr>
+        <tr>
+            <td class="half">Policy number: <input type="text" style="width: 80%;" value="[Policy number1]"></td>
+            <td class="half">Group number: <input type="text" style="width: 80%;" value="[Group number1]"></td>
+        </tr>
+        <tr>
+            <td colspan="2">Secondary insurance (if applicable): <input type="text" class="full-width" value="[Secondary insurance (if applicable)]"></td>
+        </tr>
+        <tr>
+            <td colspan="2">Policyholder's name: <input type="text" class="full-width" value="[Policyholder's name2]"></td>
+        </tr>
+        <tr>
+            <td class="half">Policy number: <input type="text" style="width: 80%;" value="[Policy number2]"></td>
+            <td class="half">Group number: <input type="text" style="width: 80%;" value="[Group number2]"></td>
+        </tr>
+
+        <!-- Primary care physician information -->
+        <tr>
+            <td colspan="2">Primary care physician information</td>
+        </tr>
+        <tr>
+            <td colspan="2">Physician name: <input type="text" class="full-width" value="[Physician name]"></td>
+        </tr>
+        <tr>
+            <td class="half">Practice/clinic name: <input type="text" style="width: 80%;" value="[Practice/clinic name]"></td>
+            <td class="half">Phone number: <input type="text" style="width: 80%;" value="[Phone number3]"></td>
+        </tr>
+
+        <!-- Reason for visit -->
+        <tr>
+            <td colspan="2">Reason for visit</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="height: 150px;">
+                <textarea class="full-width" rows="10">[Reason for visit]</textarea>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

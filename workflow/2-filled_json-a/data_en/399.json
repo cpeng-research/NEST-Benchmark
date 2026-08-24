@@ -1,0 +1,80 @@
+{
+    "Local CourierPost Pick-up Service Order Form (applicable to account customer only)": {
+        "Company Name:": "Acme Logistics Ltd.",
+        "Account No.:": "AC123456",
+        "Contact Person:": "Jane Lee",
+        "Telephone No.:": "+852-2345-6789",
+        "Fax No.:": "+852-2345-6780",
+        "[NULL1]": [
+            {
+                "Address": {
+                    "Collection\nAddress": {
+                        "choices": [
+                            {
+                                "Registered Address (No need to enter delivery address in the following section)": {
+                                    "Contact Person": "Accounts Dept.",
+                                    "Telephone No.": "+852-2345-6790"
+                                }
+                            },
+                            {
+                                "Other Address": [
+                                    {
+                                        "[NULL2]": "Unit 12B, 3/F, Kowloon Centre, 23 Nathan Road, Kowloon",
+                                        "Contact Person": "Mark Chan",
+                                        "Telephone No.": "+852-9123-4567"
+                                    },
+                                    {
+                                        "[NULL3]": "Flat 5A, 8/F, Sino Plaza, 255 Gloucester Rd, Causeway Bay, Hong Kong",
+                                        "Contact Person": "Susan Wong",
+                                        "Telephone No.": "+852-9333-2222"
+                                    },
+                                    {
+                                        "[NULL4]": "Warehouse 4, 1/F, Tseung Kwan O Industrial Estate, 8 Wang Tai Road, New Territories",
+                                        "Contact Person": "David Ho",
+                                        "Telephone No.": "+852-9888-4444"
+                                    }
+                                ]
+                            }
+                        ],
+                        "value": "Other Address"
+                    }
+                }
+            },
+            {
+                "Address": {
+                    "Collection\nAddress": {
+                        "choices": [
+                            {
+                                "Registered Address (No need to enter delivery address in the following section)": {
+                                    "Contact Person": "Jane Lee",
+                                    "Telephone No.": "+852-2345-6789"
+                                }
+                            },
+                            {
+                                "Other Address": [
+                                    {
+                                        "[NULL5]": "Office 210, 2/F, Harbour Building, 1 Harbour Road, Wan Chai, Hong Kong",
+                                        "Contact Person": "Peter Lau",
+                                        "Telephone No.": "+852-9456-7788"
+                                    },
+                                    {
+                                        "[NULL6]": "Shop A, G/F, 10 Hennessy Road, Wanchai, Hong Kong",
+                                        "Contact Person": "Anna Ng",
+                                        "Telephone No.": "+852-9666-5555"
+                                    },
+                                    {
+                                        "[NULL7]": "Storage Unit 9, 5/F, Kowloon Bay Industrial Centre, 12 Wang Hoi Road, Kowloon Bay",
+                                        "Contact Person": "Kevin Yip",
+                                        "Telephone No.": "+852-9222-3333"
+                                    }
+                                ]
+                            }
+                        ],
+                        "value": "Registered Address (No need to enter delivery address in the following section)"
+                    }
+                }
+            }
+        ],
+        "[NULL8]": "Service areas (please refer to the Local CourierPost website)\n1. All of Hong Kong Island      2. The entire Kowloon Peninsula\n3. Major areas in the New Territories A    4. Major areas in the New Territories B\n5. Hong Kong International Airport    *Note: Postage incurred will be debited from the above account"
+    }
+}

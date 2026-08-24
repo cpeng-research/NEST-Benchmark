@@ -1,0 +1,70 @@
+{
+    "Application for Employer Identification Number": {
+        "1 Legal name of entity (or individual) for whom the EIN is being requested": "Acme Innovations LLC",
+        "2 Trade name of business (if different from name on line 1)": "Acme Innovations",
+        "3 Executor, administrator, trustee, 'care of' name": "N/A",
+        "4a Mailing address (room, apt., suite no. and street, or P.O. box)": "1234 Market St, Suite 200",
+        "4b City, state, and ZIP code (if foreign, see instructions)": "San Francisco, CA 94103",
+        "5a Street address (if different) (Do not enter a P.O. box.)": "1234 Market St, Suite 200",
+        "5b City, state, and ZIP code (if foreign, see instructions)": "San Francisco, CA 94103",
+        "6 County and state where principal business is located": "San Francisco County, CA",
+        "7a Name of responsible party": "Jane A. Smith",
+        "7b SSN, ITIN, or EIN": "123-45-6789",
+        "8a Is this application for a limited liability company (LLC) (or a foreign equivalent)?": {
+            "choices": [
+                "Yes",
+                "No"
+            ],
+            "value": "Yes"
+        },
+        "8b If 8a is 'Yes,' enter the number of LLC members:": "2",
+        "8c If 8a is 'Yes,' was the LLC organized in the United States?": {
+            "choices": [
+                "Yes",
+                "No"
+            ],
+            "value": "Yes"
+        },
+        "9a Type of entity (check only one box).": {
+            "choices": [
+                "Sole proprietor (SSN)",
+                " Estate (SSN of decedent)",
+                "Partnership",
+                "Plan administrator (TIN)",
+                "Corporation (enter form number to be filed)",
+                "Trust (TIN of grantor)",
+                "Personal service corporation",
+                "Military/National Guard",
+                "Church or church-controlled organization",
+                "Farmers' cooperative",
+                "Other nonprofit organization (specify)",
+                "REMIC",
+                "State/local government",
+                {
+                    " Other (specify)___": ""
+                }
+            ],
+            "value": "Partnership"
+        },
+        "9b If a corporation, name the state or foreign country (if applicable) where incorporated": {
+            "State": "N/A",
+            "Foreign country": "N/A"
+        },
+        "10 Reason for applying (check only one box)": {
+            "choices": [
+                "Started new business",
+                "Banking purpose",
+                "Changed type of organization",
+                "Purchased going business",
+                "Hired employees",
+                "Created a trust",
+                "Compliance with IRS withholding regulations",
+                "Created a pension plan",
+                "Other"
+            ],
+            "value": "Started new business"
+        },
+        "11 Date business started or acquired (month, day, year)": "01/15/2026",
+        "12 Closing month of accounting year": "December"
+    }
+}

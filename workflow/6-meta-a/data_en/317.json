@@ -1,0 +1,506 @@
+[
+    {
+        "key": "Supplier # or Empl ID",
+        "label_info": {
+            "row": 1,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 4
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Name",
+        "label_info": {
+            "row": 2,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Employee",
+        "label_info": {
+            "row": 2,
+            "col": 4
+        },
+        "placeholder_offset": [
+            {
+                "rows": 0,
+                "cols": 0
+            },
+            {
+                "rows": 0,
+                "cols": 0
+            }
+        ],
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "Student",
+        "label_info": {
+            "row": 2,
+            "col": 4
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "GO"
+    },
+    {
+        "key": "Address1",
+        "label_info": {
+            "row": 3,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Address 2",
+        "label_info": {
+            "row": 4,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "City",
+        "label_info": {
+            "row": 5,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "State",
+        "label_info": {
+            "row": 5,
+            "col": 2
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "ZIP",
+        "label_info": {
+            "row": 5,
+            "col": 3
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "Description of Good or Services",
+        "label_info": {
+            "row": 6,
+            "col": 0
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            },
+            {
+                "rows": 5,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "Amount",
+        "label_info": {
+            "row": 6,
+            "col": 4
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            },
+            {
+                "rows": 5,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "Total",
+        "label_info": {
+            "row": 12,
+            "col": 0
+        },
+        "placeholder_offset": [
+            {
+                "rows": 0,
+                "cols": 4
+            },
+            {
+                "rows": 11,
+                "cols": 0
+            }
+        ],
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "Amount",
+        "label_info": {
+            "row": 13,
+            "col": 0
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            },
+            {
+                "rows": 5,
+                "cols": 0
+            },
+            {
+                "rows": 6,
+                "cols": 0
+            },
+            {
+                "rows": 7,
+                "cols": 0
+            },
+            {
+                "rows": 8,
+                "cols": 0
+            },
+            {
+                "rows": 9,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "Account",
+        "label_info": {
+            "row": 13,
+            "col": 1
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            },
+            {
+                "rows": 5,
+                "cols": 0
+            },
+            {
+                "rows": 6,
+                "cols": 0
+            },
+            {
+                "rows": 7,
+                "cols": 0
+            },
+            {
+                "rows": 8,
+                "cols": 0
+            },
+            {
+                "rows": 9,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "Fund",
+        "label_info": {
+            "row": 13,
+            "col": 2
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            },
+            {
+                "rows": 5,
+                "cols": 0
+            },
+            {
+                "rows": 6,
+                "cols": 0
+            },
+            {
+                "rows": 7,
+                "cols": 0
+            },
+            {
+                "rows": 8,
+                "cols": 0
+            },
+            {
+                "rows": 9,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "Dept",
+        "label_info": {
+            "row": 13,
+            "col": 3
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            },
+            {
+                "rows": 5,
+                "cols": 0
+            },
+            {
+                "rows": 6,
+                "cols": 0
+            },
+            {
+                "rows": 7,
+                "cols": 0
+            },
+            {
+                "rows": 8,
+                "cols": 0
+            },
+            {
+                "rows": 9,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "Program",
+        "label_info": {
+            "row": 13,
+            "col": 4
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            },
+            {
+                "rows": 5,
+                "cols": 0
+            },
+            {
+                "rows": 6,
+                "cols": 0
+            },
+            {
+                "rows": 7,
+                "cols": 0
+            },
+            {
+                "rows": 8,
+                "cols": 0
+            },
+            {
+                "rows": 9,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "Project",
+        "label_info": {
+            "row": 13,
+            "col": 5
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            },
+            {
+                "rows": 5,
+                "cols": 0
+            },
+            {
+                "rows": 6,
+                "cols": 0
+            },
+            {
+                "rows": 7,
+                "cols": 0
+            },
+            {
+                "rows": 8,
+                "cols": 0
+            },
+            {
+                "rows": 9,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    }
+]

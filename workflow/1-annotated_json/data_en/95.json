@@ -1,0 +1,72 @@
+{
+    "Bank Transfer Request":{
+        "Personal Information":{
+            "Bank Name:":"",
+            "Bank Address:":"",
+            "Routing #:":"",
+            "Payer’s Name":"",
+            "Payer’s Address:":"",
+            "City:":"",
+            "State:":"",
+            "Zip Code:":"",
+            "Email:":"",
+            "Phone:":"",
+            "Account Name:":"",
+            "Account Number:":"",
+            "[NULL1]":{ 
+                "choices":[
+                    "Personal",
+                    {
+                        "Business (Company:)":""
+                    },
+                    "Savings",
+                    "Checking",
+                    {
+                        "Other:":""
+                    }
+                ],
+                "value":""
+            }
+        },
+        "[NULL2]":{
+            "Recipient’s Name:":"",
+            "Recipient’s Address:":"",
+            "City:":"",
+            "State:":"",
+            "Zip Code:":"",
+            "Email:":"",
+            "Phone:":"",
+            "Account Name:":"",
+            "Account Number:":"",
+            "NULL1":{
+                "choices":[
+                    "Personal",
+                    {"Business (Company:)":""},
+                    "Savings",
+                    "Checking",
+                    {"Other:":""}
+                ],
+                "value":""
+            }
+        },
+        "Transfer Information":{
+            "Transferred From:":"",
+            "Transferred To:":"",
+            "Date of Transfer: ":"",
+            "Approved By:":"",
+            "Description:":"",
+            "Amount Received:":""
+        },
+        "Bank Information":{
+            "Bank Name:":"",
+            "Bank Address:":"",
+            "Routing #:":"",
+            "IBAN:":"",
+            "Correspondent Bank Name:":"",
+            "Correspondent Bank Address:":"",
+            "Correspondent Routing #:":"",
+            "Correspondent IBAN:":""
+        },
+        "Date":""
+    }
+}

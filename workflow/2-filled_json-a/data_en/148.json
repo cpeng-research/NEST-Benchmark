@@ -1,0 +1,80 @@
+{
+    "Application for Examination / Endorsement for a Certificate of Competency\n(under Boilers and Pressure Vessels Ordinance, Chapter 56)\nLabour Department Hong Kong": {
+        "[NULL1]": "All candidates are advised to read carefully the NOTES overleaf and use block letters to fill in the form",
+        "[NULL2]": "*To be completed by the applicant",
+        "Name of Applicant": {
+            "[NULL3]": {
+                "choices": [
+                    "Mr",
+                    "Ms",
+                    "Miss"
+                ],
+                "value": "Mr"
+            },
+            "(English )": "John Smith",
+            "(Chinese )": "約翰·史密夫"
+        },
+        "Hong Kong ID Card No.": "A123456(7)",
+        "Date of Birth": "1985-06-15",
+        "(Daytime) Telephone No.": "852-91234567",
+        "Email Address": "john.smith@example.com",
+        "Home Address": "Flat 15A, 12 Queen's Road Central, Central, Hong Kong",
+        "Selection of Electronic / Physical Form of Certificate": {
+            "choices": [
+                "* Electronic Form",
+                "* Physical Form"
+            ],
+            "value": "* Electronic Form"
+        },
+        "Collection of Certificate (see note 5)": {
+            "[NULL4]": "If an electronic form of certificate is selected, the certificate will be sent to you via the Email Address provided above\nIf a physical form of certificate is selected, please select one of the following methods:",
+            "choices": [
+                "in person",
+                "* by authorized third person",
+                "* by registered mail"
+            ],
+            "value": "* by authorized third person"
+        },
+        "Checked by: ": "Jane Doe",
+        "FOR OFFICIAL USE": {
+            "Date: ": "2026-05-17"
+        },
+        "FORM OF EXAMINATION": {
+            "Form of examination requested": {
+                "choices": [
+                    {
+                        "*Oral": {
+                            "choices": [
+                                "* English",
+                                "*Cantonese",
+                                "* Putonghua",
+                                {
+                                    "Other Dialect:____________": ""
+                                }
+                            ],
+                            "value": "* English"
+                        }
+                    },
+                    {
+                        "*Written": {
+                            "choices": [
+                                "Applicant may use Chinese or English for written examination."
+                            ],
+                            "value": "Applicant may use Chinese or English for written examination."
+                        }
+                    },
+                    {
+                        "*Exemption": {
+                            "choices": [
+                                "Supporting Documents"
+                            ],
+                            "value": "Supporting Documents"
+                        }
+                    }
+                ],
+                "value": "*Oral"
+            },
+            "Number and Type of Certificate of Competency held, if any": "None"
+        }
+    }
+}

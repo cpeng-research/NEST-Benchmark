@@ -1,0 +1,155 @@
+{
+  "Patient Information": {
+    "Name:": "Nathan Kim",
+    "DOB (MM/DD/YYYY):": "11/02/1993",
+    "Gender:": {
+      "choices": [
+        "Male",
+        "Female",
+        {
+          "Other": "_______"
+        }
+      ],
+      "value": "Male"
+    },
+    "Preferred Pronouns:": {
+      "choices": [
+        "He/Him",
+        "She/Her",
+        "They/Them",
+        {
+          "Other": ""
+        }
+      ],
+      "value": "He/Him"
+    },
+    "Address:": "78 Park Ridge Ln Unit 12",
+    "City": "Denver",
+    "State:": "CO",
+    "Zip:": "80203",
+    "Phone:": "303-555-4629",
+    "Email:": "nathan.kim@example.com",
+    "Preferred Contact Method:": {
+      "choices": [
+        "Phone",
+        "Email",
+        "Text"
+      ],
+      "value": "Email; Text"
+    },
+    "Emergency Contact Name:": "Grace Kim",
+    "Relationship to Patient": "Sister"
+  },
+  "Insurance Information (if applicable)": {
+    "Provider:": "UnitedHealthcare",
+    "Policy number:": "UHC453982174",
+    "Group Number:": "GRP42110",
+    "Policyholder Name": "Nathan Kim",
+    "Relationship to Patient:": {
+      "choices": [
+        "Self",
+        "Spouse",
+        "Parent",
+        {
+          "Other": ""
+        }
+      ],
+      "value": "Self"
+    }
+  },
+  "Reason for Visit": {
+    "Primary Reason for Visit:": "Persistent lower back pain after minor car accident",
+    "How long have you had this issue?": "2 months",
+    "Have you been treated for this before?": {
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "value": "No"
+    }
+  },
+  "Medical History Summary": {
+    "Do you have any of the following conditions? (Check all that apply)": {
+      "choices": [
+        "Diabetes",
+        "Hypertension",
+        "Heart Disease",
+        "Asthma",
+        "Cancer",
+        "Stroke",
+        {
+          "Other": ""
+        }
+      ],
+      "value": "Diabetes"
+    },
+    "Are you currently taking any medications?": {
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "value": "Yes"
+    },
+    "If yes, list medications:": "Metformin 500 mg BID; Naproxen 250 mg PRN",
+    "Do you have any allergies?": {
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "value": "No"
+    },
+    "If yes, list allergies:": "N/A",
+    "Have you had any surgeries or hospitalizations?": {
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "value": "Yes"
+    },
+    "If yes, list procedures and dates:": "Appendectomy (06/2014); ER evaluation after car accident (04/2026, no admission)"
+  },
+  "Lifestyle & Social History": {
+    "Do you smoke or use tobacco products?": {
+      "choices": [
+        "Yes",
+        "No",
+        "Former Smoker"
+      ],
+      "value": "No"
+    },
+    "Do you consume alcohol?": {
+      "choices": [
+        "Yes",
+        "No",
+        "Occasionally"
+      ],
+      "value": "Yes"
+    },
+    "Do you use recreational drugs?": {
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "value": "No"
+    },
+    "Occupation:": "Software developer",
+    "Do you have any concerns about access to healthcare, transportation, or financial barriers?": {
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "value": "Yes"
+    },
+    "If yes, please describe:": "Currently uninsured; limited transportation and relies on public transit."
+  },
+  "Pharmacy Information": {
+    "Preferred Pharmacy Name:": "Walgreens - Capitol Hill",
+    "Phone Number:": "303-555-0037",
+    "Address:": "1201 E Colfax Ave, Denver, CO 80218"
+  },
+  "Consent & Signature": {
+    "I confirm that the information provided is accurate to the best of my knowledge.": "Agreed",
+    "Signature:": "Nathan Kim",
+    "Date:": "05/19/2026"
+  }
+}

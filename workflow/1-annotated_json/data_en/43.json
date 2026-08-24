@@ -1,0 +1,137 @@
+{
+  "Application for Employer Identification Number": {
+    "EIN": "",
+    "Type or print clearly": {
+      "1 Legal name of entity (or individual)for whom the EIN is being requested": "",
+      "2 Trade name of business (if different from name on line 1)": "",
+      "3 Executor,administrator,trustee,\"care of\"name": "",
+      "4a Mailing address (room,apt.,suite no.and street,or P.O.box)": "",
+      "4b City,state,and ZIP code (if foreign,see instructions)": "",
+      "5a Street address (if different)(Don't enter a P.O.box.)": "",
+      "5b City,state,and ZIP code (if foreign,see instructions)": "",
+      "6 County and state where principal business is located": "",
+        "7a Name of responsible party": "",
+        "7b SSN,ITIN,or EIN": ""
+    },
+      "8a Is this application for a limited liability company(LLC) (or a foreign equivalent)?": {
+        "select": [
+          "Yes",
+          "No"
+        ],
+        "value": ""
+      },
+      "8b If 8a is \"Yes,\"enter the number of LLC members": "",
+      "8c If 8a is\"Yes,\"was the LLC organized in the United States?": {
+        "select": [
+          "Yes",
+          "No"
+        ],
+        "value": ""
+      },
+      "9a Type of entity (check only one box). Caution: If 8a is \"Yes,\"see the instructions for the correct box to check.": {
+        "select": [
+          "Sole proprietor (SSN)",
+          "Estate (SSN of decedent)",
+          "Partnership",
+          "Plan administrator(TIN)",
+          "Corporation (enter form number to be filed)",
+          "Trust(TIN of grantor)",
+          "Personal service corporation",
+          "Military/National Guard",
+          "State/local government",
+          "Church or church-controlled organization",
+          "Farmers'cooperative",
+          "Federal government",
+          "Other nonprofit organization (specify)",
+          "REMIC",
+          "Indian tribal governments/enterprises",
+          "Other (specify)"
+        ],
+        "value": "",
+"Sole proprietor (SSN)":"",
+"Estate (SSN of decedent)":"",
+"Plan administrator(TIN)":"",
+          "Corporation (enter form number to be filed)":"",
+          "Trust(TIN of grantor)":"",
+          "Other nonprofit organization (specify)":"",
+          "Other (specify)":""
+      },
+      "Group Exemption Number(GEN)if any:": "",
+      "9b If a corporation,name the state or foreign country(if applicable)where incorporated": {
+        "State": "",
+        "Foreign country": ""
+      },
+    "10 Reason for applying (check only one box)": {
+      "select": [
+        "Banking purpose (specify purpose)",
+        "Started new business (specify type)",
+        "Changed type of organization (specify new type)",
+        "Purchased going business",
+        "Hired employees (Check the box and see line 13.)",
+        "Compliance with IRS withholding regulations",
+        "Created a trust (specify type)",
+        "Created a pension plan (specify type)",
+        "Other (specify)"
+      ],
+      "value": "",
+        "Banking purpose (specify purpose)":"",
+        "Started new business (specify type)":"",
+        "Changed type of organization (specify new type)":"",
+        "Created a trust (specify type)":"",
+        "Created a pension plan (specify type)":"",
+        "Other (specify)":""
+    },
+    "11 Date business started or acquired(month,day,year).See instructions.": "",
+    "12 Closing month of accounting year": "",
+    "13 Highest number of employees expected in the next 12 months (enter -0- if none). If no employees expected, skip line 14.": {
+      "Agricultural": "",
+      "Household": "",
+      "Other": ""
+    },
+    "14 If you expect your employment tax liability to be $1,000 or less in a full calendar year and want to file Form 944 annually instead of Forms 941 quarterly,check here. (Your employment tax liability will generally be $1,000 or less if you expect to pay $5,000 or less,$6,536 or less if you're in a U.S.territory,in total wages.)If you don't check this box, you must file Form 941 for every quarter": {
+      "select": [
+        "yes"
+      ],
+      "value": ""
+    },
+    "15 First date wages or annuities were paid(month,day,year).": "Note:If applicant is a withholding agent,enter date income will first be paid to nonresident alien(month,day,year)",
+    "16 Check one box that best describes the principal activity of your business.": {
+      "select": [
+        "Health care & social assistance",
+        "Wholesale-agent/broker",
+        "Construction",
+        "Rental & leasing",
+        "Transportation & warehousing",
+        "Accommodation & food service",
+        "Wholesale—other",
+        "Retail",
+        "Real estate",
+        "Manufacturing",
+        "Finance&insurance",
+        "Other (specify)"
+      ],
+      "value": ""
+    },
+    "17 Indicate principal line of merchandise sold,specific construction work done,products produced,or services provided.": "",
+    "18 Has the applicant entity shown on line 1 ever applied for and received an EIN?": {
+      "select": [
+        "Yes",
+        "No"
+      ],
+      "value": "",
+      "If \"Yes,\"write previous EIN here:": ""
+    },
+    "Third Party Designee": {
+      "note":"Complete this section only if you want to authorize the named individual to receive the entity's EIN and answer questions about the completion of this form",
+      "Designee's name": "",
+      "Designee's telephone number(include area code)": "",
+      "Address and ZIP code": "",
+      "Designee's fax number(include area code)": ""
+    },
+    "Name and title(type or print clearly):": "",
+    "Applicant's telephone number (include area code)": "",
+    "Signature": "",
+    "Date": "",
+    "Applicant's fax number (include area code)": ""
+  }
+}

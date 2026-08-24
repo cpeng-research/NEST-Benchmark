@@ -1,0 +1,86 @@
+{
+    "Bill of Lading": {
+        "Company": "Acme Manufacturing Co.",
+        "No.": "BOL-20260517-001",
+        "Address": "123 Industrial Ave, Suite 400",
+        "City, State, ZIP": "Springfield, IL, 62704",
+        "Date": "2026-05-17",
+        "FROM": {
+            "Name": "Acme Manufacturing Warehouse",
+            "Date": "2026-05-17",
+            "Dept": "Shipping",
+            "Acct": "ACME-4501"
+        },
+        "TO": {
+            "Name": "Receiving Dock",
+            "Company": "Global Distributors LLC",
+            "Street": "789 Commerce Blvd",
+            "City, State": "Chicago, IL",
+            "Zip Code": "60616"
+        },
+        "[NULL1]": [
+            {
+                "Number of Packages": "1",
+                "Kind of Package, Description of Articles, Special Marks, and Exceptions": "Wooden crate containing 1000 10mm bolts - Handle with care",
+                "Weight (Subject to Change)": "150 lbs",
+                "Serial Numbers": "BOLT-10MM-0001 to BOLT-10MM-1000"
+            },
+            {
+                "Number of Packages": "2",
+                "Kind of Package, Description of Articles, Special Marks, and Exceptions": "Cardboard boxes containing (2) torque wrenches (calibrated) - Fragile",
+                "Weight (Subject to Change)": "32 lbs",
+                "Serial Numbers": "TW-2026-045, TW-2026-046"
+            },
+            {
+                "Number of Packages": "1",
+                "Kind of Package, Description of Articles, Special Marks, and Exceptions": "Pallet with 50 boxes of gasket sets",
+                "Weight (Subject to Change)": "600 lbs",
+                "Serial Numbers": "GS-050-0001 to GS-050-0050"
+            },
+            {
+                "Number of Packages": "10",
+                "Kind of Package, Description of Articles, Special Marks, and Exceptions": "Small poly bags with sample parts - Not for resale",
+                "Weight (Subject to Change)": "5 lbs",
+                "Serial Numbers": "SP-0001 to SP-0010"
+            },
+            {
+                "Number of Packages": "3",
+                "Kind of Package, Description of Articles, Special Marks, and Exceptions": "Metal pallets containing assembly fixtures - Heavy",
+                "Weight (Subject to Change)": "420 lbs",
+                "Serial Numbers": "AF-100-001 to AF-100-003"
+            }
+        ],
+        "Shipping Instructions": {
+            "Check one": {
+                "choices": [
+                    "Next Day",
+                    "Second Day",
+                    "Routine",
+                    "Shipper",
+                    "Recipient",
+                    "Third Party"
+                ],
+                "value": "Routine"
+            },
+            "COD Amt Due": "$0.00"
+        },
+        "For Shipping Use Only": {
+            "Method": "Ground",
+            "Date": "2026-05-17",
+            "Bill No.": "SHP-678912",
+            "Shipped By": "J. Morales",
+            "Ship. Cost": "$125.00",
+            "Dept. Chgd": "Shipping-120"
+        },
+        "[NULL2]": {
+            "Delivered by": "K. Patel",
+            "Date": "2026-05-19"
+        },
+        "[NULL3]": {
+            "Received by": "M. Johnson",
+            "Date": "2026-05-19",
+            "# Boxes": "17"
+        },
+        "Comments": "All items inspected and packaged per order #PO-5589. Pallets secured with straps. No visible damage at time of pickup."
+    }
+}

@@ -1,0 +1,71 @@
+{
+  "Patient information": {
+    "Full name: [PH1]": "Emily Carter",
+    "[PH1]": "Emily Carter",
+    "Date of birth: [PH2]": "1984-07-12",
+    "[PH2]": "1984-07-12",
+    "Gender": {
+      "choices": [
+        "Male",
+        "Female",
+        {
+          "Other": "[PH3]"
+        }
+      ],
+      "value": "Female"
+    },
+    "[PH3]": "",
+    "Marital status": {
+      "choices": [
+        "Single",
+        "Married",
+        "Divorced",
+        "Widowed"
+      ],
+      "value": "Married"
+    },
+    "Address: [PH4]": "123 Maple Street, Apt 4B, Springfield, IL 62704",
+    "[PH4]": "123 Maple Street, Apt 4B, Springfield, IL 62704",
+    "Phone number: [PH5]": "(217) 555-0123",
+    "[PH5]": "(217) 555-0123",
+    "Email address: [PH6]": "emily.carter@example.com",
+    "[PH6]": "emily.carter@example.com"
+  },
+  "Emergency contact": {
+    "Name: [PH7]": "Michael Carter",
+    "[PH7]": "Michael Carter",
+    "Relationship to patient: [PH8]": "Spouse",
+    "[PH8]": "Spouse",
+    "Phone number: [PH9]": "(217) 555-0456",
+    "[PH9]": "(217) 555-0456"
+  },
+  "Insurance information": {
+    "Primary insurance: [PH10]": "Blue Cross Blue Shield",
+    "[PH10]": "Blue Cross Blue Shield",
+    "Policyholder's name: [PH11]": "Emily Carter",
+    "[PH11]": "Emily Carter",
+    "Policy number: [PH12]": "BCBS-987654321",
+    "[PH12]": "BCBS-987654321",
+    "Group number: [PH13]": "GRP12345",
+    "[PH13]": "GRP12345",
+    "Secondary insurance (if applicable): [PH14]": "None",
+    "[PH14]": "None",
+    "Policyholder's name: [PH15]": "N/A",
+    "[PH15]": "N/A",
+    "Policy number: [PH16]": "N/A",
+    "[PH16]": "N/A",
+    "Group number: [PH17]": "N/A",
+    "[PH17]": "N/A"
+  },
+  "Primary care physician information": {
+    "Physician name: [PH18]": "Dr. Sarah Nguyen",
+    "[PH18]": "Dr. Sarah Nguyen",
+    "Practice/clinic name: [PH19]": "Springfield Family Medicine",
+    "[PH19]": "Springfield Family Medicine",
+    "Phone number: [PH20]": "(217) 555-0789",
+    "[PH20]": "(217) 555-0789"
+  },
+  "Reason for visit": {
+    "[PH21]": "Routine annual physical exam and medication refill."
+  }
+}

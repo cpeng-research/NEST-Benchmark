@@ -1,0 +1,96 @@
+{
+  "Patient Information": {
+    "Name:": "",
+    "DOB (MM/DD/YYYY):": "",
+    "Gender:": {
+      "choices": ["Male", "Female", {"Other": "_______"}],
+      "value": ""
+    },
+    "Preferred Pronouns:": {
+      "choices": ["He/Him", "She/Her", "They/Them", {"Other": ""}],
+      "value": ""
+    },
+    "Address:": "",
+    "City": "",
+    "State:": "",
+    "Zip:": "",
+    "Phone:": "",
+    "Email:": "",
+    "Preferred Contact Method:": {
+      "choices": ["Phone", "Email", "Text"],
+      "value": ""
+    },
+    "Emergency Contact Name:": "",
+    "Phone:": "",
+    "Relationship to Patient": ""
+  },
+  "Insurance Information (if applicable)": {
+    "Provider:": "",
+    "Policy number:": "",
+    "Group Number:": "",
+    "Policyholder Name": "",
+    "Relationship to Patient:": {
+      "choices": ["Self", "Spouse", "Parent", {"Other": ""}],
+      "value": ""
+    }
+  },
+  "Reason for Visit": {
+    "Primary Reason for Visit:": "",
+    "How long have you had this issue?": "",
+    "Have you been treated for this before?": {
+      "choices": ["Yes", "No"],
+      "value": ""
+    }
+  },
+  "Medical History Summary": {
+    "Do you have any of the following conditions? (Check all that apply)": {
+      "choices": ["Diabetes", "Hypertension", "Heart Disease", "Asthma", "Cancer", "Stroke", {"Other": ""}],
+      "value": ""
+    },
+    "Are you currently taking any medications?": {
+      "choices": ["Yes", "No"],
+      "value": ""
+    },
+    "If yes, list medications:": "",
+    "Do you have any allergies?": {
+      "choices": ["Yes", "No"],
+      "value": ""
+    },
+    "If yes, list allergies:": "",
+    "Have you had any surgeries or hospitalizations?": {
+      "choices": ["Yes", "No"],
+      "value": ""
+    },
+    "If yes, list procedures and dates:": ""
+  },
+  "Lifestyle & Social History": {
+    "Do you smoke or use tobacco products?": {
+      "choices": ["Yes", "No", "Former Smoker"],
+      "value": ""
+    },
+    "Do you consume alcohol?": {
+      "choices": ["Yes", "No", "Occasionally"],
+      "value": ""
+    },
+    "Do you use recreational drugs?": {
+      "choices": ["Yes", "No"],
+      "value": ""
+    },
+    "Occupation:": "",
+    "Do you have any concerns about access to healthcare, transportation, or financial barriers?": {
+      "choices": ["Yes", "No"],
+      "value": ""
+    },
+    "If yes, please describe:": ""
+  },
+  "Pharmacy Information": {
+    "Preferred Pharmacy Name:": "",
+    "Phone Number:": "",
+    "Address:": ""
+  },
+  "Consent & Signature": {
+    "I confirm that the information provided is accurate to the best of my knowledge.": "",
+    "Signature:": "",
+    "Date:": ""
+  }
+}

@@ -1,0 +1,136 @@
+<h2 align="center" style="color: #003366;">STOP WORK ORDER</h2>
+
+<table border="0" width="100%">
+    <tr>
+        <td width="60%">[CompanyName]<br>[Project] - [Order]</td>
+        <td width="40%">
+            <table border="0" width="100%" cellspacing="0">
+                <tr>
+                    <td bgcolor="#C0C0C0" width="30%"><strong>Order No.</strong></td>
+                    <td border="1" height="20">[OrderNo]</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#C0C0C0"><strong>Date:</strong></td>
+                    <td border="1">[Date]</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<br>
+
+<table border="0" width="100%" cellspacing="0">
+    <tr>
+        <td bgcolor="#E0E0E0" width="40%"><strong>Company</strong></td>
+        <td>[Company]</td>
+    </tr>
+    <tr><td border="1" height="20" colspan="2">[Project]</td></tr>
+    <tr><td border="1" height="20" colspan="2">[Address]</td></tr>
+    <tr><td border="1" height="20" colspan="2">[PrimaryContact]</td></tr>
+</table>
+
+<br>
+
+<table border="1" width="100%" cellspacing="0" cellpadding="5">
+    <tr>
+        <td bgcolor="#E0E0E0" width="15%">Client:</td>
+        <td width="35%">[Client]</td>
+        <td bgcolor="#E0E0E0" width="15%">Contact:</td>
+        <td width="35%">[Contact]</td>
+    </tr>
+    <tr>
+        <td bgcolor="#E0E0E0">Phone:</td>
+        <td>[Phone]</td>
+        <td bgcolor="#E0E0E0">Email:</td>
+        <td>[Email]</td>
+    </tr>
+    <tr>
+        <td bgcolor="#E0E0E0">Address:</td>
+        <td colspan="3">[Address]</td>
+    </tr>
+</table>
+
+<br>
+
+<table border="1" width="100%" cellspacing="0" cellpadding="5">
+    <tr>
+        <td bgcolor="#E0E0E0" width="20%">Work Order No.</td>
+        <td width="30%">[WorkOrderNo]</td>
+        <td bgcolor="#E0E0E0" width="20%">Estimate:</td>
+        <td width="30%">[Estimate]</td>
+    </tr>
+    <tr>
+        <td bgcolor="#E0E0E0">Order Date:</td>
+        <td>[OrderDate]</td>
+        <td bgcolor="#E0E0E0">Delivery Date:</td>
+        <td>[DeliveryDate]</td>
+    </tr>
+    <tr>
+        <td bgcolor="#E0E0E0">Authorized By:</td>
+        <td>[AuthorizedBy]</td>
+        <td bgcolor="#E0E0E0">Signature:</td>
+        <td>[Signature]</td>
+    </tr>
+    <tr>
+        <td bgcolor="#E0E0E0">Job Description</td>
+        <td colspan="3" height="40">[JobDescription]</td>
+    </tr>
+</table>
+
+<br>
+
+<table border="0" width="100%" cellpadding="5">
+    <tr>
+        <td width="15%">Stop Order:</td>
+        <td>
+            <input type="checkbox" checked> [StopWork] 
+            &nbsp;&nbsp;
+            <input type="checkbox"> [StopUntil]: <table border="1" width="150" style="display:inline"><tr><td height="15">[StopUntilDate]</td></tr></table>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <input type="checkbox"> [StopOnlyWorkRegarding]:
+            <table border="1" width="100%"><tr><td height="20">[WorkRegarding]</td></tr></table>
+        </td>
+    </tr>
+</table>
+
+<br>
+
+<table border="1" width="100%" cellspacing="0" cellpadding="5">
+    <tr>
+        <td bgcolor="#E0E0E0" width="15%">Requested By:</td>
+        <td width="35%">[RequestedBy]</td>
+        <td bgcolor="#E0E0E0" width="15%">Date:</td>
+        <td width="35%">[RequestedDate]</td>
+    </tr>
+    <tr>
+        <td bgcolor="#E0E0E0">Authorized By:</td>
+        <td>[AuthorizedBy]</td>
+        <td bgcolor="#E0E0E0">Signature:</td>
+        <td>[Signature]</td>
+    </tr>
+</table>
+
+<br>
+
+<table border="1" width="100%" cellspacing="0" cellpadding="5">
+    <tr bgcolor="#E0E0E0" align="center">
+        <td width="45%"><strong>Work Affected</strong></td>
+        <td width="25%"><strong>Stopped or Impacted</strong></td>
+        <td width="15%"><strong>Date</strong></td>
+        <td width="15%"><strong>Initials</strong></td>
+    </tr>
+    <tr><td height="25">[WorkAffected1]</td><td>[StoppedOrImpacted1]</td><td>[Date1]</td><td>[Initials1]</td></tr>
+    <tr><td height="25">[WorkAffected2]</td><td>[StoppedOrImpacted2]</td><td>[Date2]</td><td>[Initials2]</td></tr>
+    <tr><td height="25">[WorkAffected3]</td><td>[StoppedOrImpacted3]</td><td>[Date3]</td><td>[Initials3]</td></tr>
+    <tr><td height="25">[WorkAffected4]</td><td>[StoppedOrImpacted4]</td><td>[Date4]</td><td>[Initials4]</td></tr>
+    <tr><td height="25">[WorkAffected5]</td><td>[StoppedOrImpacted5]</td><td>[Date5]</td><td>[Initials5]</td></tr>
+    <tr><td height="25">[WorkAffected6]</td><td>[StoppedOrImpacted6]</td><td>[Date6]</td><td>[Initials6]</td></tr>
+    <tr><td height="25">[WorkAffected7]</td><td>[StoppedOrImpacted7]</td><td>[Date7]</td><td>[Initials7]</td></tr>
+    <tr><td height="25">[WorkAffected8]</td><td>[StoppedOrImpacted8]</td><td>[Date8]</td><td>[Initials8]</td></tr>
+    <tr><td height="25">[WorkAffected9]</td><td>[StoppedOrImpacted9]</td><td>[Date9]</td><td>[Initials9]</td></tr>
+    <tr><td height="25">[WorkAffected10]</td><td>[StoppedOrImpacted10]</td><td>[Date10]</td><td>[Initials10]</td></tr>
+</table>

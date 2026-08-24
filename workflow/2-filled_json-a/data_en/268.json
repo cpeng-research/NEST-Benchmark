@@ -1,0 +1,159 @@
+{
+  "Patient Information": {
+    "Name:": "Maria Lopez",
+    "DOB (MM/DD/YYYY):": "08/15/1987",
+    "Gender:": {
+      "choices": [
+        "Male",
+        "Female",
+        {
+          "Other": "_______"
+        }
+      ],
+      "value": "Female"
+    },
+    "Preferred Pronouns:": {
+      "choices": [
+        "He/Him",
+        "She/Her",
+        "They/Them",
+        {
+          "Other": ""
+        }
+      ],
+      "value": "She/Her"
+    },
+    "Address:": "123 Maple St Apt 4B",
+    "City": "Austin",
+    "State:": "TX",
+    "Zip:": "78701",
+    "Phone:": "512-555-0143",
+    "Email:": "maria.lopez@example.com",
+    "Preferred Contact Method:": {
+      "choices": [
+        "Phone",
+        "Email",
+        "Text"
+      ],
+      "value": "Phone"
+    },
+    "Emergency Contact Name:": "Carlos Lopez",
+    "Phone:": "512-555-2198",
+    "Relationship to Patient": "Spouse"
+  },
+  "Insurance Information (if applicable)": {
+    "Provider:": "Blue Cross Blue Shield",
+    "Policy number:": "BCBS123456789",
+    "Group Number:": "GRP98765",
+    "Policyholder Name": "Maria Lopez",
+    "Relationship to Patient:": {
+      "choices": [
+        "Self",
+        "Spouse",
+        "Parent",
+        {
+          "Other": ""
+        }
+      ],
+      "value": "Self"
+    }
+  },
+  "Reason for Visit": {
+    "Primary Reason for Visit:": "Shortness of breath and wheezing",
+    "How long have you had this issue?": "3 weeks",
+    "Have you been treated for this before?": {
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "value": "Yes"
+    }
+  },
+  "Medical History Summary": {
+    "Do you have any of the following conditions? (Check all that apply)": {
+      "choices": [
+        "Diabetes",
+        "Hypertension",
+        "Heart Disease",
+        "Asthma",
+        "Cancer",
+        "Stroke",
+        {
+          "Other": ""
+        }
+      ],
+      "value": [
+        "Hypertension",
+        "Asthma"
+      ]
+    },
+    "Are you currently taking any medications?": {
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "value": "Yes"
+    },
+    "If yes, list medications:": "Albuterol inhaler (PRN), Lisinopril 10 mg daily",
+    "Do you have any allergies?": {
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "value": "Yes"
+    },
+    "If yes, list allergies:": "Penicillin (rash)",
+    "Have you had any surgeries or hospitalizations?": {
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "value": "No"
+    },
+    "If yes, list procedures and dates:": ""
+  },
+  "Lifestyle & Social History": {
+    "Do you smoke or use tobacco products?": {
+      "choices": [
+        "Yes",
+        "No",
+        "Former Smoker"
+      ],
+      "value": "Former Smoker"
+    },
+    "Do you consume alcohol?": {
+      "choices": [
+        "Yes",
+        "No",
+        "Occasionally"
+      ],
+      "value": "Occasionally"
+    },
+    "Do you use recreational drugs?": {
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "value": "No"
+    },
+    "Occupation:": "Elementary school teacher",
+    "Do you have any concerns about access to healthcare, transportation, or financial barriers?": {
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "value": "No"
+    },
+    "If yes, please describe:": ""
+  },
+  "Pharmacy Information": {
+    "Preferred Pharmacy Name:": "Community Pharmacy",
+    "Phone Number:": "512-555-0100",
+    "Address:": "400 W 2nd St, Austin, TX 78701"
+  },
+  "Consent & Signature": {
+    "I confirm that the information provided is accurate to the best of my knowledge.": "Yes",
+    "Signature:": "Maria Lopez",
+    "Date:": "05/17/2026"
+  }
+}

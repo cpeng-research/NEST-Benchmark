@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Selective Placement Division - Vacancy Order Form</title>
+    <style>
+        /* 强制全局加深线条并合并边框 */
+        table {
+            border-collapse: collapse !important;
+        }
+
+        /* 针对 border="1" 的表格及其单元格加深线条并缩小格子 */
+        table[border="1"],
+        table[border="1"] td {
+            border: 2px solid #000000 !important;
+            padding: 2px 6px !important;
+            /* 缩小内边距使格子变小 */
+        }
+
+        /* 针对代码中 inline style 定义的边线进行强制加深 */
+        [style*="border-top"] {
+            border-top: 2px solid #000000 !important;
+        }
+
+        [style*="border-left"] {
+            border-left: 2px solid #000000 !important;
+        }
+
+        [style*="border-bottom"] {
+            border-bottom: 2px solid #000000 !important;
+        }
+
+        [style*="border-right"] {
+            border-right: 2px solid #000000 !important;
+        }
+    </style>
+</head>
+
+<body><!-- 标题部分 -->
+    <table border="0" width="100%" cellpadding="5" cellspacing="0">
+        <tbody>
+            <tr>
+                <td align="center"><strong><span style="font-size: 17px;">LABOUR DEPARTMENT</span></strong><span style="font-size: 17px;"><br><strong>SELECTIVE PLACEMENT DIVISION</strong><br><strong>VACANCY ORDER FORM</strong><br></span></td>
+            </tr>
+        </tbody>
+    </table><!-- Part I: Employer Information -->
+    <table border="1" width="100%" cellpadding="5" cellspacing="0" style="border-collapse: collapse; font-size: 13px; width: 100%;">
+        <tbody>
+            <tr bgcolor="#f0f0f0">
+                <td colspan="4"><span style="font-size: 17px;"><strong>Part I: Employer Information</strong></span></td>
+            </tr>
+            <tr>
+                <td style="width: 25%;"><span style="font-size: 17px;">Company Name :<br></span></td>
+                <td style="width: 25%;"><span style="font-size: 17px;">[Company Name]</span></td>
+                <td style="width: 32.9826%;"><span style="font-size: 17px;">Company Address :<br></span></td>
+                <td style="width: 17.0174%;"><span style="font-size: 17px;">[Company Address]</span></td>
+            </tr>
+            <tr>
+                <td style="width: 33%;" colspan="2"><span style="font-size: 17px;">Contact Person : [Contact Person]</span></td>
+                <td style="width: 33%;"><span style="font-size: 17px;">Employer&apos;s Trade : [Employer's Trade]</span></td>
+                <td style="width: 34%;"><span style="font-size: 17px;">BRN : [BRN]</span></td>
+            </tr>
+            <tr>
+                <td colspan="2"><span style="font-size: 17px;">Tel. No. : [Tel. No.]</span></td>
+                <td><span style="font-size: 17px;">Fax No. : [Fax No.]</span></td>
+                <td><span style="font-size: 17px;">Email Address : [Email Address]</span></td>
+            </tr>
+        </tbody>
+    </table><!-- Part II: Vacancy Information 主容器表格 -->
+    <table border="1" width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; font-size: 13px; width: 100%;" class="fr-table-selection-hover">
+        <tbody>
+            <tr bgcolor="#f0f0f0">
+                <td colspan="3" style="padding: 5px;"><span style="font-size: 17px;"><strong>Part II: Vacancy Information</strong></span></td>
+            </tr>
+            <tr><!-- 左侧内容列 -->
+                <td valign="top" style="width: 65%;">
+                    <table border="0" width="100%" cellpadding="5">
+                        <tbody>
+                            <tr>
+                                <td style="width: 21.5631%;"><span style="font-size: 17px;">Job Title :</span></td>
+                                <td style="width: 21.5631%;"><span style="font-size: 17px;">[Job Title]</span></td>
+                                <td style="width: 9.9812%;"><span style="font-size: 17px;">No. of Vacancies :</span></td>
+                                <td style="width: 9.9812%;"><span style="font-size: 17px;">[No. of Vacancies]</span></td>
+                                <td style="width: 17.5141%;"><span style="font-size: 17px;">Place of Work :</span></td>
+                                <td style="width: 17.5141%;"><span style="font-size: 17px;">[Place of Work]</span></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" style="border-top: 2px solid #000;" rowspan="2"><span style="font-size: 17px;"><u><strong>Qualifications</strong></u><br>Education#: [Education#] Experience: &nbsp;[Experience]<br><u>Trade Skills</u><br>[Trade Skills]<input type="checkbox" checked> Typing: (English) 40 wpm; (Chinese) 20 wpm<br>[Trade Skills]<input type="checkbox" checked> Bookkeeping: Basic Level 1<br>[Trade Skills]<input type="checkbox" checked> Computer : Proficient in MS Office and inventory management systems<br>[Trade Skills]<input type="checkbox" checked>&nbsp;Others : Pallet handling certificate</span></td>
+                                <td style="border-top: 2px solid #000; border-left: 2px solid #000;" valign="top" colspan="2"><span style="font-size: 17px;">Brief Job Description :<br><br></span></td>
+                            </tr>
+                            <tr>
+                                <td style="border-top: 2px solid #000; border-left: 2px solid #000;" valign="top" colspan="2"><span style="font-size: 17px;">[Brief Job Description]</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table border="0" width="100%" cellpadding="5" style="border-top: 2px solid rgb(0, 0, 0); width: 100%;">
+                        <tbody>
+                            <tr>
+                                <td colspan="2"><span style="font-size: 17px;"><u><strong>Language Requirements</strong></u></span></td>
+                            </tr>
+                            <tr>
+                                <td style="width: 50%;"><span style="font-size: 17px;"><u>Spoken Language</u><br>Cantonese [Cantonese]&nbsp;<input type="checkbox" checked>&nbsp;Fluent [Cantonese]&nbsp;<input type="checkbox">&nbsp;Fair&nbsp;[Cantonese]<input type="checkbox"> Nil<br>English [English]&nbsp;<input type="checkbox">&nbsp;Fluent [English]&nbsp;<input type="checkbox" checked>&nbsp;Fair&nbsp;[English]<input type="checkbox"> Nil<br>Putonghua [Putonghua]&nbsp;<input type="checkbox">&nbsp;Fluent [Putonghua]&nbsp;<input type="checkbox" checked>&nbsp;Fair [Putonghua]&nbsp;<input type="checkbox">&nbsp;Nil</span></td>
+                                <td><span style="font-size: 17px;"><u>Written Language</u><br>English [English]&nbsp;<input type="checkbox">&nbsp;Good [English]&nbsp;<input type="checkbox" checked>&nbsp;Fair&nbsp;[English]<input type="checkbox"> Nil<br>Chinese [Chinese]&nbsp;<input type="checkbox">&nbsp;Good [Chinese]&nbsp;<input type="checkbox" checked>&nbsp;Fair&nbsp;[Chinese]<input type="checkbox"> Nil<br>Others : [Others]&nbsp;<input type="checkbox">&nbsp;Good [Others]&nbsp;<input type="checkbox" checked>&nbsp;Fair</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td><!-- 右侧 Other Requirements 列 -->
+                <td valign="top" style="border-left: 2px solid rgb(0, 0, 0); padding: 5px; width: 35%;"><span style="font-size: 17px;"><u><strong>Other Requirements</strong></u><br><br>[Other Requirements]<input type="checkbox" checked> Read documents (Chinese/English)<br>[Other Requirements]<input type="checkbox" checked> Telephone communication<br>[Other Requirements]<input type="checkbox" checked> Face-to-face communication<br>[Other Requirements]<input type="checkbox" checked> Finger dexterity<br>[Other Requirements]<input type="checkbox" checked> Prolonged standing / sitting<br>[Other Requirements]<input type="checkbox" checked> Frequent movement at workplace<br>[Other Requirements]<input type="checkbox" checked> Climbing stairs<br>[Other Requirements]<input type="checkbox" checked> Outdoor work<br>[Other Requirements]<input type="checkbox" checked> Able to find / identify places<br>[Other Requirements]<input type="checkbox" checked> Carrying weights (about 25 kg)<br>[Other Requirements]<input type="checkbox" checked> Hectic work pace<br>[Other Requirements]<input type="checkbox" checked> Long concentration span<br>[Other Requirements]<input type="checkbox" checked> Operating machine(s) (eg. Forklift, Pallet jack )<br>[Other Requirements]<input type="checkbox" checked> Working at height<br>[Other Requirements]<input type="checkbox" checked> Repetitive duties<br>[Other Requirements]<input type="checkbox" checked> Independent work / decision-making<br>[Other Requirements]<input type="checkbox" checked> Handling money<br>[Other Requirements]<input type="checkbox" checked>&nbsp;Sorting by [Other Requirements]<input type="checkbox" checked>&nbsp;shape [Other Requirements]<input type="checkbox" checked>&nbsp;size&nbsp;[Other Requirements]<input type="checkbox" checked> colour<br>[Other Requirements]<input type="checkbox" checked>&nbsp;Others : May require shift work including weekends</span></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

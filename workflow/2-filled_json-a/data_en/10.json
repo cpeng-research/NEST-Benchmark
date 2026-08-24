@@ -1,0 +1,74 @@
+{
+    "Customer Refund Request Form": {
+        "Please submit this completed form and all supporting documents via one of the following methods": {
+            "Email": "support@company.com",
+            "Upload": "https://www.company.com/uploads/refunds",
+            "Mail": "Company Name, Attn: Refunds, 123 Main St, Springfield, IL 62701"
+        },
+        "Customer Information": {
+            "First Name": "Aisha",
+            "Last Name": "Patel",
+            "Email Address": "aisha.patel@example.com",
+            "Phone Number": "+1-312-555-0178"
+        },
+        "Order Details": {
+            "Order Number/Invoice#": "INV-2026-00458",
+            "Product/Service Name": "Wireless Noise-Cancelling Headphones Model X200",
+            "Purchase Date": "2026-05-03",
+            "Amount Paid": "$129.99"
+        },
+        "Reason for Refund": {
+            "choices": [
+                "Item arrived damaged",
+                "Late delivery",
+                "Duplicate payment",
+                "Wrong item received",
+                "Ordered by mistake",
+                "Subscription canceled but still charged",
+                "Item not as described",
+                "Canceled order",
+                "Unauthorized charge",
+                "Item not received",
+                "Changed my mind",
+                {
+                    "Other please specify___": ""
+                }
+            ],
+            "value": "Item arrived damaged"
+        },
+        "Preferred Refund Method": {
+            "choices": [
+                "Original payment method",
+                "Store credit/gift card",
+                "Bank transfer(please provide account details below)"
+            ],
+            "value": "Original payment method"
+        },
+        "Bank Details (if applicable)": {
+            "Account Name": "",
+            "Bank Name": "",
+            "Account Number/BAN": "",
+            "SWIFT/BIC(if international)": ""
+        },
+        "Attachments": {
+            "choices": [
+                "Copy of invoice or receipt",
+                "Order confirmation email",
+                "Photos of damaged product",
+                {
+                    "Other please specify___": ""
+                }
+            ],
+            "value": "Photos of damaged product"
+        },
+        "Refund Policy Acknowledgment": {
+            "choices": [
+                "I understand that this refund request is subject to the terms and conditions outlined in Company Name's official refund policy.Submission of this form does not guarantee approval."
+            ],
+            "value": "I understand that this refund request is subject to the terms and conditions outlined in Company Name's official refund policy.Submission of this form does not guarantee approval."
+        },
+        "[NULL1]": "I hereby confirm that the information provided above is true and complete.I request a refund in accordance with the company's refund policy.",
+        "Signature": "Aisha Patel",
+        "Date": "2026-05-17"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "Renewal Form for e-Cert (Personal) Certificate": {
+        "Details of Certificate to be Renewed\n(Note: # Same details of the existing certificate will be included in the renewed certificate.)": "Existing e-Cert (Personal) Certificate No. ECERT-20230615-0001",
+        "For use by Hongkong Post only": {
+            "PIN Envelope No.:": "PIN-00098765"
+        },
+        "Subscriber Name in English #": "John Michael Doe",
+        "Surname: ": "Doe",
+        "Given name: ": "John Michael",
+        "[NULL1]": {
+            "choices": [
+                "Mr",
+                "Ms"
+            ],
+            "value": "Mr"
+        },
+        "HKID Number #": "A123456(7)",
+        "Name in Chinese #": "張偉明",
+        "Subscriber Reference No.#": "REF-20260517-001",
+        "A) e-mail address to be included in your e-Cert (Recommended) [Please see Note (ii)]": "john.doe@example.com",
+        "B) Contact Phone Number": "+852 9123 4567",
+        "C) e-mail address for contact purpose (Recommended)": {
+            "[NULL2]": "john.doe@example.com",
+            "[NULL3]": {
+                "choices": [
+                    "Same as the e-Cert e-mail address"
+                ],
+                "value": "Same as the e-Cert e-mail address"
+            }
+        },
+        "D) Local Postal Address (in ENGLISH)\n[The e-Cert will be loaded onto e-Cert File USB which will be delivered to the address below.]": {
+            "[NULL4]": "Attn: John Doe",
+            "Room:": "12A",
+            "Floor:": "12",
+            "Block:": "2",
+            "Building:": "Sunrise Tower",
+            "Estate / Street and No.:": "88 Queen's Road Central",
+            "District:": {
+                "[NULL5]": "Central",
+                "choices": [
+                    "HK",
+                    "KLN",
+                    "NT"
+                ],
+                "value": "HK"
+            }
+        }
+    }
+}

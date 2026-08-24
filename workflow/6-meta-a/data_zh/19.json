@@ -1,0 +1,580 @@
+[
+    {
+        "key": "年龄",
+        "label_info": {
+            "row": 1,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "出生日期",
+        "label_info": {
+            "row": 1,
+            "col": 3
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 2
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "所在城市",
+        "label_info": {
+            "row": 2,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "从事行业",
+        "label_info": {
+            "row": 2,
+            "col": 3
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 2
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "学历",
+        "label_info": {
+            "row": 3,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "SO"
+    },
+    {
+        "key": "民族",
+        "label_info": {
+            "row": 3,
+            "col": 3
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 2
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "SO"
+    },
+    {
+        "key": "婚姻状况",
+        "label_info": {
+            "row": 4,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "SO"
+    },
+    {
+        "key": "身份证",
+        "label_info": {
+            "row": 4,
+            "col": 3
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 2
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "籍贯",
+        "label_info": {
+            "row": 5,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "户口所在地",
+        "label_info": {
+            "row": 5,
+            "col": 3
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 2
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "毕业学校",
+        "label_info": {
+            "row": 6,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "计算机能力",
+        "label_info": {
+            "row": 6,
+            "col": 3
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 2
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "姓名",
+        "label_info": {
+            "row": 7,
+            "col": 1
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "成员关系",
+        "label_info": {
+            "row": 7,
+            "col": 3
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": true,
+        "type": "LI"
+    },
+    {
+        "key": "职务",
+        "label_info": {
+            "row": 7,
+            "col": 6
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "工作单位",
+        "label_info": {
+            "row": 7,
+            "col": 7
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "工作时间",
+        "label_info": {
+            "row": 10,
+            "col": 1
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "公司名称",
+        "label_info": {
+            "row": 10,
+            "col": 3
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "职位名称",
+        "label_info": {
+            "row": 10,
+            "col": 6
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "所属部门",
+        "label_info": {
+            "row": 10,
+            "col": 7
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "时间1",
+        "label_info": {
+            "row": 15,
+            "col": 1
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "学校1",
+        "label_info": {
+            "row": 15,
+            "col": 3
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "学历1",
+        "label_info": {
+            "row": 15,
+            "col": 6
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "SO"
+    },
+    {
+        "key": "培训时间1",
+        "label_info": {
+            "row": 17,
+            "col": 1
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "培训机构1",
+        "label_info": {
+            "row": 17,
+            "col": 3
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "培训内容1",
+        "label_info": {
+            "row": 17,
+            "col": 6
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "备注",
+        "label_info": {
+            "row": 19,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "顶目",
+        "label_info": {
+            "row": 20,
+            "col": 1
+        },
+        "placeholder_offset": [
+            {
+                "rows": 0,
+                "cols": 1
+            },
+            {
+                "rows": 1,
+                "cols": 1
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "开发",
+        "label_info": {
+            "row": 22,
+            "col": 1
+        },
+        "placeholder_offset": [
+            {
+                "rows": 0,
+                "cols": 1
+            },
+            {
+                "rows": 1,
+                "cols": 1
+            },
+            {
+                "rows": 2,
+                "cols": 1
+            },
+            {
+                "rows": 3,
+                "cols": 1
+            },
+            {
+                "rows": 4,
+                "cols": 1
+            },
+            {
+                "rows": 5,
+                "cols": 1
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "其它项目",
+        "label_info": {
+            "row": 28,
+            "col": 1
+        },
+        "placeholder_offset": [
+            {
+                "rows": 0,
+                "cols": 1
+            },
+            {
+                "rows": 1,
+                "cols": 1
+            },
+            {
+                "rows": 2,
+                "cols": 1
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "　技能",
+        "label_info": {
+            "row": 31,
+            "col": 1
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "　描述",
+        "label_info": {
+            "row": 31,
+            "col": 4
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    }
+]

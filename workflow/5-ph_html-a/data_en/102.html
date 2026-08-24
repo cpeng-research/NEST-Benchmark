@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Patient Registration Form – Adult</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+        }
+        .form-container {
+            width: 900px;
+            margin: 20px auto;
+            border: 1px solid #000;
+        }
+        .header-note {
+            text-align: right;
+            font-size: 12px;
+            padding: 4px 8px;
+        }
+        .section-header {
+            color: #000;
+            padding: 6px 8px;
+            border-bottom: 1px solid #000;
+        }
+        .contact-details, .other-details {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .contact-details td, .other-details td {
+            border: 1px solid #000;
+            padding: 4px 6px;
+            vertical-align: top;
+        }
+        .full-width {
+            width: 100%;
+        }
+        .half-col {
+            width: 50%;
+        }
+        .third-col {
+            width: 33.33%;
+        }
+        .quarter-col {
+            width: 25%;
+        }
+        .consent-note {
+            font-size: 12px;
+            padding: 6px 8px;
+            border: 1px solid #000;
+            border-top: none;
+        }
+        .checkbox-group {
+            display: inline-block;
+            margin-right: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <div style="display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; border-bottom: 1px solid #000;">
+            <div style="font-size: 18px;">New Patient Registration Form – Adult</div>
+            <div class="header-note">Please complete all pages in full using block capitals</div>
+        </div>
+
+        <div class="section-header">1. Background Details</div>
+
+        <div class="section-header">Contact Details</div>
+        <table class="contact-details">
+            <tr>
+                <td class="quarter-col">NHS Number</td>
+                <td colspan="3" class="full-width">[NHSNumber]</td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Name</td>
+                <td class="half-col">[Name]</td>
+                <td class="quarter-col">Gender</td>
+                <td class="quarter-col">[Gender]</td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Previous Surname<br>(if applicable)</td>
+                <td colspan="3" class="full-width">[PreviousSurname]</td>
+            </tr>
+            <tr>
+                <td rowspan="3" class="quarter-col">Address</td>
+                <td class="half-col">[AddressLine1]</td>
+                <td class="quarter-col">Date of Birth</td>
+                <td class="quarter-col">[DateOfBirth]</td>
+            </tr>
+            <tr>
+                <td class="half-col">[AddressLine2]</td>
+                <td class="quarter-col">Home Telephone</td>
+                <td class="quarter-col">[HomeTelephone]</td>
+            </tr>
+            <tr>
+                <td class="half-col">[Postcode]</td>
+                <td class="quarter-col">Work Telephone</td>
+                <td class="quarter-col">[WorkTelephone]</td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Previous Address</td>
+                <td colspan="3" class="full-width">[PreviousAddress]</td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Mobile Telephone</td>
+                <td colspan="3" class="full-width">I consent to be contacted* by SMS on this number: [MobileTelephone]</td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Email</td>
+                <td colspan="3" class="full-width">I consent to be contacted* by email at this address: [Email]</td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Next of Kin</td>
+                <td class="third-col">Name: [NextOfKinName]</td>
+                <td class="third-col">Tel: [NextOfKinTelephone]</td>
+                <td class="third-col">Relationship: [NextOfKinRelationship]</td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Family Registered With Us</td>
+                <td colspan="3" class="full-width">[FamilyRegisteredWith]</td>
+            </tr>
+            <tr>
+                <td colspan="4" class="full-width">
+                    Has the patient been registered in the NHS before? 
+                    <span class="checkbox-group"><input type="checkbox" checked> Yes</span>
+                    <span class="checkbox-group"><input type="checkbox"> No</span>
+                    <br>If no please state date entered UK: [DateEnteredUK]
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" class="full-width">
+                    Is the patient an Asylum Seeker or Refugee?
+                    <span class="checkbox-group"><input type="checkbox"> Refugee</span>
+                    <span class="checkbox-group"><input type="checkbox"> Asylum Seeker</span>
+                </td>
+            </tr>
+        </table>
+
+        <div class="consent-note">
+            * It is your responsibility to keep us updated with any changes to your telephone number, email & postal address.<br>
+            We may contact you with appointment details, test results, health campaigns or Patient Participation Group details<br>
+            If you do not consent to being contacted by SMS or Email, please tick here: 
+            <span class="checkbox-group"><input type="checkbox"> [SMSConsent]</span>
+            <span class="checkbox-group"><input type="checkbox"> [EmailConsent]</span>
+        </div>
+
+        <div class="section-header">Other Details</div>
+        <table class="other-details">
+            <tr>
+                <td class="quarter-col">Previous GP</td>
+                <td class="half-col">Name: [PreviousGPName]</td>
+                <td class="half-col">Address: [PreviousGPAddress]</td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Country of Birth</td>
+                <td colspan="3" class="full-width">[CountryOfBirth]</td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Ethnicity</td>
+                <td class="third-col">
+                    <input type="checkbox" checked> [Ethnicity1]<br>
+                    <input type="checkbox"> [Ethnicity2]<br>
+                    <input type="checkbox"> [Ethnicity3]
+                </td>
+                <td class="third-col">
+                    <input type="checkbox"> [Ethnicity4]<br>
+                    <input type="checkbox"> [Ethnicity5]<br>
+                    <input type="checkbox"> [Ethnicity6]
+                </td>
+                <td class="third-col">
+                    <input type="checkbox"> [Ethnicity7]<br>
+                    <input type="checkbox"> [Ethnicity8]<br>
+                    <input type="checkbox"> [Ethnicity9]
+                </td>
+                <td class="quarter-col">
+                    <input type="checkbox"> [Ethnicity10]<br>
+                    <input type="checkbox"> [Ethnicity11]
+                </td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Religion</td>
+                <td class="third-col">
+                    <input type="checkbox"> [Religion1]<br>
+                    <input type="checkbox"> [Religion2]<br>
+                    <input type="checkbox"> [Religion3]
+                </td>
+                <td class="third-col">
+                    <input type="checkbox"> [Religion4]<br>
+                    <input type="checkbox"> [Religion5]<br>
+                    <input type="checkbox"> [Religion6]
+                </td>
+                <td class="third-col">
+                    <input type="checkbox"> [Religion7]<br>
+                    <input type="checkbox"> [Religion8]<br>
+                    <input type="checkbox"> [Religion9]
+                </td>
+                <td class="quarter-col">
+                    <input type="checkbox" checked> [Religion10]<br>
+                    <input type="checkbox"> [Religion11]
+                </td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Housing</td>
+                <td class="third-col">
+                    <input type="checkbox" checked> [Housing1]<br>
+                    <input type="checkbox"> [Housing2]<br>
+                    <input type="checkbox"> [Housing3]
+                </td>
+                <td class="third-col">
+                    <input type="checkbox"> [Housing4]<br>
+                    <input type="checkbox"> [Housing5]<br>
+                    <input type="checkbox"> [Housing6]
+                </td>
+                <td class="third-col">
+                    <input type="checkbox"> [Housing7]<br>
+                    <input type="checkbox"> [Housing8]
+                </td>
+                <td class="quarter-col">
+                    <input type="checkbox"> [Housing9]<br>
+                    <input type="checkbox"> [Housing10]
+                </td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Employment</td>
+                <td class="third-col">
+                    <input type="checkbox" checked> [Employment1]<br>
+                    <input type="checkbox"> [Employment2]
+                </td>
+                <td class="third-col">
+                    <input type="checkbox"> [Employment3]<br>
+                    <input type="checkbox"> [Employment4]
+                </td>
+                <td class="third-col">
+                    <input type="checkbox"> [Employment5]<br>
+                    <input type="checkbox"> [Employment6]
+                </td>
+                <td class="quarter-col">
+                    <input type="checkbox"> [Employment7]<br>
+                    <input type="checkbox"> [Employment8]
+                </td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Overseas Visitor</td>
+                <td class="third-col"><input type="checkbox"> [OverseasVisitor]</td>
+                <td colspan="3" class="full-width">
+                    <input type="checkbox"> [EHICCardHeld]
+                </td>
+            </tr>
+            <tr>
+                <td class="quarter-col">Armed Forces</td>
+                <td class="third-col"><input type="checkbox"> [ArmedForces1]</td>
+                <td class="third-col">
+                    <input type="checkbox"> [ArmedForces2]<br>
+                    <input type="checkbox"> [ArmedForces3]
+                </td>
+                <td class="third-col">
+                    <input type="checkbox"> [ArmedForces4]<br>
+                    <input type="checkbox"> [ArmedForces5]
+                </td>
+                <td class="quarter-col">[N/A]</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

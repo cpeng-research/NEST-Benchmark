@@ -1,0 +1,41 @@
+{
+    "Application for a Canada Revenue Agency\nNon-Resident Representative Number (NRRN)": {
+        "Supporting Certified documents: (one of which must contain a photo)": {
+            "choices": [
+                "Valid passport",
+                "Driver's licence",
+                {
+                    "Other (please identify):___": ""
+                }
+            ],
+            "value": "Valid passport"
+        },
+        "Non-Resident Representative Identification": {
+            "1. Name": {
+                "Last name": "Smith",
+                "First name": "John",
+                "Middle name(s)": "Andrew"
+            },
+            "2. U.S. home address": {
+                "Apartment number, street address, street name": "Apt 12B, 123 Main St",
+                "City": "New York",
+                "State": "NY",
+                "Country": "United States",
+                "ZIP code": "10001"
+            },
+            "3. U.S. mailing address (if different from your U.S. home address)": {
+                "Care of c/o – Enter the name of the organization (if any)    Apartment number, street address, street name": "Care of: Global Tax Services, 456 Elm Ave, Suite 300",
+                "City": "Jersey City",
+                "State": "NJ",
+                "Country": "United States",
+                "ZIP code": "07302"
+            },
+            "4. Birth information": {
+                "Date of birth (YYYY-MM-DD)": "1980-04-15"
+            },
+            "5. Other information": {
+                "Telephone number": "+1-555-123-4567"
+            }
+        }
+    }
+}

@@ -1,0 +1,156 @@
+{
+    "Form 433-A (OIC)(April 2026)\nCollection Information Statement for Wage Earners and Self-Employed Individuals":{
+        "[NULL1]":"Use this form if you are\n● An individual who owes income tax on a Form 1040, U.S. Individual Income Tax Return\n● An individual with a personal liability for Excise Tax\n● An individual responsible for a Trust Fund Recovery Penalty\n● An individual who is self-employed or has self-employment income. You are considered to be self-employed if you are in business for yourself, or operate a trade or business.\n● An individual who is personally responsible for a partnership liability (only if the partnership is submitting an offer)\n● An individual who is submitting an offer on behalf of the estate of a deceased person",
+        "[NULL2]":"Note: Include attachments if additional space is needed to respond completely to any question. This form should only be used with the Form 656, Offer in Compromise.",
+        "Section 1 Personal and Household Information":{
+            "Last name":"",
+            "First name":"",
+            "Date of birth (mm/dd/yyyy)":"",
+            "Social Security Number or ITIN":"",
+            "Marital status":{
+                "choices":[
+                    "Unmarried",
+                    "Married"
+                ],
+                "value":"",
+                "If married, date of marriage (mm/dd/yyyy)":""
+            },
+            "Home physical address (street, city, state, ZIP code)":"",
+            "Do you":{
+                "choices":[
+                    "Own your home",
+                    "Rent",
+                    "Other (specify e.g., share rent, live with relative, etc.)"
+                ],
+                "value":""
+            },
+            "[NULL3]":{
+                "choice":["If you were married and lived in AZ, CA, ID, LA, NM, NV, TX, WA or WI within the last ten years check here"],
+                "value":""
+            },
+            "County of residence":"",
+            "Primary phone":"",
+            "Secondary phone":"",
+            "FAX number":"",
+            "Home mailing address (if different from above or post office box number)":""
+        },
+        "Provide information about your spouse.":{
+            "Spouse's last name":"",
+            "Spouse's first name":"",
+            "Date of birth (mm/dd/yyyy)":"",
+            "Social Security Number":""
+        },
+        "Provide information for all other persons in the household or claimed as a dependent.":[
+            {
+                "Name":"",
+                "Age":"",
+                "Relationship":"",
+                "Claimed as a dependent on your Form 1040":{
+                    "choices":[
+                        "Yes","No"
+                    ],
+                    "value":""
+                },
+                "Contributes to household income":{
+                    "choices":[
+                        "Yes","No"
+                    ],
+                    "value":""
+                }
+            },{
+                "Name":"",
+                "Age":"",
+                "Relationship":"",
+                "Claimed as a dependent on your Form 1040":{
+                    "choices":[
+                        "Yes","No"
+                    ],
+                    "value":""
+                },
+                "Contributes to household income":{
+                    "choices":[
+                        "Yes","No"
+                    ],
+                    "value":""
+                }
+            },{
+                "Name":"",
+                "Age":"",
+                "Relationship":"",
+                "Claimed as a dependent on your Form 1040":{
+                    "choices":[
+                        "Yes","No"
+                    ],
+                    "value":""
+                },
+                "Contributes to household income":{
+                    "choices":[
+                        "Yes","No"
+                    ],
+                    "value":""
+                }
+            },{
+                "Name":"",
+                "Age":"",
+                "Relationship":"",
+                "Claimed as a dependent on your Form 1040":{
+                    "choices":[
+                        "Yes","No"
+                    ],
+                    "value":""
+                },
+                "Contributes to household income":{
+                    "choices":[
+                        "Yes","No"
+                    ],
+                    "value":""
+                }
+            }
+        ],
+        "Section 2 Employment Information for Wage Earners":{
+            "[NULL4]":"Complete this section if you or your spouse are wage earners and receive a Form W-2. If you or your spouse have self-employment income (that is you file a Schedule C, E, F, etc.) instead of, or in addition to wage income, you must also complete Business Information in Sections 4, 5, and 6.",
+            "[NULL5]":{
+                    "Your employer’s name":"",
+                "Pay period":{
+                    "choices":[
+                        "Weekly","Monthly","Bi-weekly","Other"
+                    ],
+                    "value":""
+                },
+                "Employer’s address (street, city, state, ZIP code)":"",
+                "Do you have an ownership interest in this business":{
+                    "choices":[
+                        "Yes (also complete and submit Form 433-B)","No"
+                    ],
+                    "value":""
+                },
+                "Your occupation":"",
+                "How long with this employer":{
+                    "(years)":"",
+                    "(months)":""
+                }
+            },
+            "[NULL6]":{
+                "Spouse’s employer's name":"",
+                "Pay period":{
+                    "choices":[
+                        "Weekly","Monthly","Bi-weekly","Other"
+                    ],
+                    "value":""
+                },
+                "Employer’s address (street, city, state, ZIP code)":"",
+                "Does your spouse have an ownership interest in this business":{
+                    "choices":[
+                        "Yes (also complete and submit Form 433-B)","No"
+                    ],
+                    "value":""
+                },
+                "Spouse's occupation":"",
+                "How long with this employer":{
+                    "(years)":"",
+                    "(months)":""
+                }
+            }
+        }
+    }
+}

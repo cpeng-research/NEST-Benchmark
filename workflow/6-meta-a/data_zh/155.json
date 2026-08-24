@@ -1,0 +1,784 @@
+[
+    {
+        "key": "固定资产类别",
+        "label_info": {
+            "row": 1,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "统计日期",
+        "label_info": {
+            "row": 1,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "会计科 目",
+        "label_info": {
+            "row": 2,
+            "col": 0
+        },
+        "placeholder_offset": [
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            },
+            {
+                "rows": 5,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "财产编号",
+        "label_info": {
+            "row": 2,
+            "col": 1
+        },
+        "placeholder_offset": [
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            },
+            {
+                "rows": 5,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "资产名称",
+        "label_info": {
+            "row": 2,
+            "col": 2
+        },
+        "placeholder_offset": [
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            },
+            {
+                "rows": 5,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "规 格",
+        "label_info": {
+            "row": 2,
+            "col": 3
+        },
+        "placeholder_offset": [
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            },
+            {
+                "rows": 5,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "增减原因",
+        "label_info": {
+            "row": 2,
+            "col": 4
+        },
+        "placeholder_offset": [
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            },
+            {
+                "rows": 5,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "单 位",
+        "label_info": {
+            "row": 2,
+            "col": 5
+        },
+        "placeholder_offset": [
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            },
+            {
+                "rows": 5,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "备 注",
+        "label_info": {
+            "row": 2,
+            "col": 15
+        },
+        "placeholder_offset": [
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            },
+            {
+                "rows": 5,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "数 量1",
+        "label_info": {
+            "row": 3,
+            "col": 6
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "数 量2",
+        "label_info": {
+            "row": 3,
+            "col": 6
+        },
+        "placeholder_offset": {
+            "rows": 2,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "数 量3",
+        "label_info": {
+            "row": 3,
+            "col": 6
+        },
+        "placeholder_offset": {
+            "rows": 3,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "数 量4",
+        "label_info": {
+            "row": 3,
+            "col": 6
+        },
+        "placeholder_offset": {
+            "rows": 4,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "金 额1",
+        "label_info": {
+            "row": 3,
+            "col": 7
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "金 额2",
+        "label_info": {
+            "row": 3,
+            "col": 7
+        },
+        "placeholder_offset": {
+            "rows": 2,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "金 额3",
+        "label_info": {
+            "row": 3,
+            "col": 7
+        },
+        "placeholder_offset": {
+            "rows": 3,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "金 额4",
+        "label_info": {
+            "row": 3,
+            "col": 7
+        },
+        "placeholder_offset": {
+            "rows": 4,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "耐用年限1",
+        "label_info": {
+            "row": 3,
+            "col": 8
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "耐用年限2",
+        "label_info": {
+            "row": 3,
+            "col": 8
+        },
+        "placeholder_offset": {
+            "rows": 2,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "耐用年限3",
+        "label_info": {
+            "row": 3,
+            "col": 8
+        },
+        "placeholder_offset": {
+            "rows": 3,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "耐用年限4",
+        "label_info": {
+            "row": 3,
+            "col": 8
+        },
+        "placeholder_offset": {
+            "rows": 4,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "月折旧额1",
+        "label_info": {
+            "row": 3,
+            "col": 9
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "月折旧额2",
+        "label_info": {
+            "row": 3,
+            "col": 9
+        },
+        "placeholder_offset": {
+            "rows": 2,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "月折旧额3",
+        "label_info": {
+            "row": 3,
+            "col": 9
+        },
+        "placeholder_offset": {
+            "rows": 3,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "月折旧额4",
+        "label_info": {
+            "row": 3,
+            "col": 9
+        },
+        "placeholder_offset": {
+            "rows": 4,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "数 量1",
+        "label_info": {
+            "row": 3,
+            "col": 10
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "数 量2",
+        "label_info": {
+            "row": 3,
+            "col": 10
+        },
+        "placeholder_offset": {
+            "rows": 2,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "数 量3",
+        "label_info": {
+            "row": 3,
+            "col": 10
+        },
+        "placeholder_offset": {
+            "rows": 3,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "数 量4",
+        "label_info": {
+            "row": 3,
+            "col": 10
+        },
+        "placeholder_offset": {
+            "rows": 4,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "金 额1",
+        "label_info": {
+            "row": 3,
+            "col": 11
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "金 额2",
+        "label_info": {
+            "row": 3,
+            "col": 11
+        },
+        "placeholder_offset": {
+            "rows": 2,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "金 额3",
+        "label_info": {
+            "row": 3,
+            "col": 11
+        },
+        "placeholder_offset": {
+            "rows": 3,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "金 额4",
+        "label_info": {
+            "row": 3,
+            "col": 11
+        },
+        "placeholder_offset": {
+            "rows": 4,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "耐用年限1",
+        "label_info": {
+            "row": 3,
+            "col": 12
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "耐用年限2",
+        "label_info": {
+            "row": 3,
+            "col": 12
+        },
+        "placeholder_offset": {
+            "rows": 2,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "耐用年限3",
+        "label_info": {
+            "row": 3,
+            "col": 12
+        },
+        "placeholder_offset": {
+            "rows": 3,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "耐用年限4",
+        "label_info": {
+            "row": 3,
+            "col": 12
+        },
+        "placeholder_offset": {
+            "rows": 4,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "已提折旧",
+        "label_info": {
+            "row": 3,
+            "col": 13
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 2,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "月折旧额1",
+        "label_info": {
+            "row": 3,
+            "col": 14
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "月折旧额2",
+        "label_info": {
+            "row": 3,
+            "col": 14
+        },
+        "placeholder_offset": {
+            "rows": 2,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "月折旧额3",
+        "label_info": {
+            "row": 3,
+            "col": 14
+        },
+        "placeholder_offset": {
+            "rows": 3,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "月折旧额4",
+        "label_info": {
+            "row": 3,
+            "col": 14
+        },
+        "placeholder_offset": {
+            "rows": 4,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "财产管理部门",
+        "label_info": {
+            "row": 8,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "负责人",
+        "label_info": {
+            "row": 8,
+            "col": 0
+        },
+        "placeholder_offset": [
+            {
+                "rows": 0,
+                "cols": 0
+            },
+            {
+                "rows": 0,
+                "cols": 0
+            }
+        ],
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "经办",
+        "label_info": {
+            "row": 8,
+            "col": 0
+        },
+        "placeholder_offset": [
+            {
+                "rows": 0,
+                "cols": 0
+            },
+            {
+                "rows": 0,
+                "cols": 0
+            }
+        ],
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "财会部门",
+        "label_info": {
+            "row": 8,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "注",
+        "label_info": {
+            "row": 8,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    }
+]

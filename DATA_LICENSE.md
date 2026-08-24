@@ -7,7 +7,8 @@ source documents and retained source elements.
   the MIT License.
 - **NEST-authored artifacts:** NEST annotations, schemas, metadata, prompts,
   synthetic contexts and filled instances, and derived evaluation metadata are
-  released under CC BY 4.0 unless a file states otherwise.
+  released under [CC BY 4.0](LICENSE-CC-BY-4.0.txt) unless a file states
+  otherwise.
 - **Original third-party documents:** Original PDFs, source images, and Office
   documents are not distributed by NEST.
 - **Normalized benchmark inputs:** Normalized HTML and HTML-rendered PNG inputs are
@@ -19,3 +20,8 @@ entry documents the best available source information; it does not itself grant 
 replace rights under the applicable source terms.
 
 Third-party dependencies retain their own licenses.
+
+The complete normalized inputs, annotations, metadata, synthetic artifacts, and
+rendered PNGs in a versioned benchmark release are distributed together. Original
+third-party PDF, image, and Office files are not benchmark inputs and are not
+distributed.

@@ -1,0 +1,69 @@
+{
+  "The George Washington University\nHonorarium Recipient Form": {
+    "Paying Department:": {
+      "[NULL1]": "1. If the recipient is a current employee of GW, or has been an employee at any point during the current calendar year, process the request through Payroll.",
+      "[NULL2]": "2. Form needs to be filled out completely and in advance of the event.",
+      "[NULL3]": "3. For a new domestic honorarium recipient, please submit the completed and approved Honorarium Recipient Form to Accounts Payable using GW iBuy+ Invoice. Note that a new honorarium recipient is required to attach a completed and signed W9 form to the Honorarium Recipient Form. Following review by Accounts Payable, the honorarium form with the W9 form will be forwarded to Supplier Maintenance for registration.",
+      "[NULL4]": "4. For a new international recipient, please send the completed and approved Honorarium Recipient Form to Accounts Payable using GW iBuy+ Invoice. A W-8BEN and an Alien Information Request Form are required to be attached to the Honorarium Recipient Form. Please see more information about the rules and conditions for payment, including, e.g., payment guidelines, tax treatment, and special rules relating to payment of honoraria to individuals who are not U.S. citizens or permanent residents. Following review by Accounts Payable, the honorarium packet will be forwarded to Supplier Maintenance for registration."
+    },
+    "To be completed only by the Individual:": {
+      "Recipient Name:": "John Q. Public",
+      "Last Four Digits of SSN:": "1234",
+      "Are you a U.S. Citizen or Permanent Resident? (if no see a, b, and c below)": "No",
+      "a. Indicate the type of your visa (for example, B-1/B2, VWB/VWT, J-1 etc.:_________________________________Certain Visas, such as F-1, G-4, H-1B, and O-1, have extremely restrictive work authorization requirements. Please consult with the International Service Office before engaging the individual for the honorarium services to determine eligibility.": "J-1",
+      "[NULL5]": "b. Complete the W-8BEN & Alien Information Request Form located at: https://taxdepartment.gwu.edu/university-tax-frequently-asked-questions",
+      "[NULL6]": "c. Give all three forms, along with a copy of your passport and visa, to your Department contact. (Passport and visa not required if not entering the U.S.)",
+      "Recipient's Address": "1234 University Ave NW, Apt 5, Washington, DC 20052",
+      "Recipient's Phone": "(202) 555-0123",
+      "Recipient's Email": "john.public@example.com",
+      "Honorarium Recipient Signature:": "John Q. Public",
+      "Date:": "2026-05-17",
+      "***To receive your payment by direct deposit please complete***": {
+        "Bank Name:": "National Bank of Example",
+        "Remittance Email Address:": "payments@recipientbank.example",
+        "Routing Number:": "021000021",
+        "Account Number:": "123456789012"
+      },
+      "[NULL7]": "Completed forms should be returned to your Departmental Contact"
+    },
+    "To be completed only by the Department:": {
+      "Oracle Alias": "GW_DEPT_CS",
+      "Natural Account:": "710100",
+      "Amount:": "$1,500.00",
+      "Required for Foreign Accounts:": "Yes",
+      "Regions": "North America",
+      "Type of Activity": "Guest Lecture",
+      "Please provide description and location of activity or event, including the Recipient's role. [Example: Deliver lecture on \"Topic Name\" at GW XYZ Department in Arlington, VA; Assist in Evaluating Applicants for ABC] or provide a copy of the event program:": "Deliver lecture on \"Modern Data Systems\" at GW Computer Science Department in Washington, DC; Speaker role.",
+      "Project:": "N/A",
+      "Task:": "N/A",
+      "Award:": "N/A",
+      "Expenditure Type:": "Honorarium Payment",
+      "Date:": "2026-06-15",
+      "Expenditure Organization:": "GW Department of Computer Science",
+      "Expenditure Date:": "2026-06-15",
+      "OVPR Approval Signature & Stamp": "Approved - OVPR, 2026-05-13",
+      "Dept. Contact Name:": "Mary Johnson",
+      "Dept. Contact Email:": "mary.johnson@gwu.edu",
+      "Dept. Contact Phone Number:": "(202) 555-0456",
+      "School / Division:": "School of Engineering and Applied Science",
+      "Approver's Name & Title (Please Print):": "Dr. Alice Smith, Department Chair",
+      "VP/Dean Print&Sign (if over $2000.00):": "N/A"
+    },
+    "To be completed only by Accounts Payable:": {
+      "[NULL8]": {
+        "choices": [
+          "Employee",
+          "Non-Employee",
+          "NONE"
+        ],
+        "value": "Non-Employee"
+      },
+      "Tax Reporting:": "Form 1099-NEC",
+      "Supplier #:": "S-00012345",
+      "Supplier Site:": "Primary",
+      "Invoice #:": "INV-2026-0001",
+      "Invoice Date:": "2026-05-10",
+      "Audited By & Date:": "Jane Doe, 2026-05-12"
+    }
+  }
+}

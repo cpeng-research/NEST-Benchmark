@@ -1,0 +1,46 @@
+{
+    "Notification of Accident":{
+        "[NULL1]":"I (hereinafter referred as 'employee') was injured in an accident arising out of and in the course of my employment. Details are as follows: (Note to employee (1))",
+        "A. Particulars of the employee":{
+            "Name of employee (Surname first)":"",
+            "Identity Card/Passport No.":"",
+            "Residential Tel. No. / Mobile Tel. No.":"/",
+            "Address":"",
+            "Date of Birth(Day/Month/Year)":"",
+            "Sex":{
+                "choices":[
+                    "Male",
+                    "Female"
+                ],
+                "value":""
+            },
+            "Occupation":"",
+            "An apprentice":{
+                "choices":[
+                    "Yes",
+                    "No"
+                ],
+                "value":""
+            }
+        },
+        "B. Particulars of employer (Note to employee (2))":{
+            "Name of employing company/person\n(Please provide full name of employing company/person)":"",
+            "choices":[
+                "Construction Industry",
+                "Transportation & Logistics Industry",
+                "Catering & Hotels Industry",
+                "Others"
+            ],
+            "value":"",
+            "Name of Contact Person":"",
+            "Telephone No.":"",
+            "Address":""
+        },
+        "C. Particulars of principal contractor (if applicable) (Note to employee (3))":{
+            "[NULL2]":"Name of principal contractor (Please provide full name of principal contractor)",
+            "Name of Contact Person":"",
+            "Telephone No.":"",
+            "Address":""
+        }
+    }
+}

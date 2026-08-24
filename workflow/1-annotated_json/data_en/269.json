@@ -1,0 +1,84 @@
+{
+  "Patient's Name (Last, First, MI): [PH1]": "",
+  "[PH1]": "",
+  "Patient's Home Phone Number: [PH2] Alternate Phone Number (□ cell or □ work): [PH3]": "",
+  "[PH2]": "",
+  "[PH3]": "",
+  "E-Mail Address: [PH4]": "",
+  "[PH4]": "",
+  "Address: [PH5] Apt.# [PH6]": "",
+  "[PH5]": "",
+  "[PH6]": "",
+  "City: [PH7]": "",
+  "[PH7]": "",
+  "State: [PH8]": "",
+  "[PH8]": "",
+  "Zip: [PH9]": "",
+  "[PH9]": "",
+  "Date of Birth: [PH10] Age: [PH11] Sex: M □ F □ Social Security Number: [PH12]": "",
+  "[PH10]": "",
+  "[PH11]": "",
+  "[PH12]": "",
+  "Sex": {
+    "choices": ["M", "F"],
+    "value": ""
+  },
+  "Marital Status: □ Married □ Single □ Divorced □ Widowed": {
+    "choices": ["Married", "Single", "Divorced", "Widowed"],
+    "value": ""
+  },
+  "Patient's Employer: [PH13]": "",
+  "[PH13]": "",
+  "Employment Status: \nFull time\nPart time\nUnemployed\nRetired\nStudent\nOther: [PH14]": {
+    "choices": ["Full time", "Part time", "Unemployed", "Retired", "Student", {"Other": "[PH14]"}],
+    "value": ""
+  },
+  "[PH14]": "",
+  "Emergency Contact: [PH15] Relationship to Patient: [PH16]": "",
+  "[PH15]": "",
+  "[PH16]": "",
+  "Address: [PH17] Phone number: [PH18]": "",
+  "[PH17]": "",
+  "[PH18]": "",
+  "INSURANCE INFORMATION\n\nPrimary Insurance: [PH19]\nPatient is Subscriber/Policy Holder: Y □ N □": {
+    "Primary Insurance: [PH19]": "",
+    "[PH19]": "",
+    "Patient is Subscriber/Policy Holder": {
+      "choices": ["Y", "N"],
+      "value": ""
+    }
+  },
+  "[NULL1]": {
+    "Secondary Insurance: [PH20]\nPatient is Subscriber/Policy Holder: Y □ N □": {
+      "Secondary Insurance: [PH20]": "",
+      "[PH20]": "",
+      "Patient is Subscriber/Policy Holder": {
+        "choices": ["Y", "N"],
+        "value": ""
+      }
+    }
+  },
+  "INSURED INFORMATION (IF OTHER THAN PATIENT)- We will request to scan your ID and insurance card": {
+    "Subscriber/Policy Holder: [PH21] Relationship to Patient: [PH22]": "",
+    "[PH21]": "",
+    "[PH22]": "",
+    "Address: [PH23]": "",
+    "[PH23]": "",
+    "Social Security Number: [PH24]": "",
+    "[PH24]": "",
+    "Date of Birth: [PH25]": "",
+    "[PH25]": "",
+    "His or Her Employer: [PH26] Work Phone Number: [PH27]": "",
+    "[PH26]": "",
+    "[PH27]": ""
+  },
+  "RELEASE OF INFORMATION": {
+    "I hereby give permission to the person(s) listed below to receive information about the care of the above named patient.": "",
+    "Name(s): [PH28] Relationship to Patient: [PH29]": "",
+    "[PH28]": "",
+    "[PH29]": "",
+    "Inova Medical Group reserves the right to charge a fee for any scheduled visits that are:\n1. Cancelled with less than 24 hours notice\n2. Are missed without calling to cancel (no show)\n\nCancellation Fee schedule: New Patient $50.00; Established Patient $35.00\n\nPatient/Parent or Guardian Signature: [PH30] Date: [PH31]": "",
+    "[PH30]": "",
+    "[PH31]": ""
+  }
+}

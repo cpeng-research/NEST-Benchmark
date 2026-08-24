@@ -1,0 +1,86 @@
+{
+  "Bill of Lading": {
+    "Company": "Northshore Electronics Inc.",
+    "No.": "BOL-20260708-014",
+    "Address": "4500 Innovation Dr., Building 3",
+    "City, State, ZIP": "Cleveland, OH, 44114",
+    "Date": "2026-07-08",
+    "FROM": {
+      "Name": "Northshore Main Warehouse",
+      "Date": "2026-07-08",
+      "Dept": "Logistics",
+      "Acct": "NSE-7734"
+    },
+    "TO": {
+      "Name": "TechMart DC Receiving",
+      "Company": "TechMart Retailers, Inc.",
+      "Street": "1550 Market St",
+      "City, State": "Columbus, OH",
+      "Zip Code": "43215"
+    },
+    "[NULL1]": [
+      {
+        "Number of Packages": "2",
+        "Kind of Package, Description of Articles, Special Marks, and Exceptions": "Plastic totes containing 200 HDMI cables - Keep dry",
+        "Weight (Subject to Change)": "88 lbs",
+        "Serial Numbers": "HDMI-26-0001 to HDMI-26-0200"
+      },
+      {
+        "Number of Packages": "1",
+        "Kind of Package, Description of Articles, Special Marks, and Exceptions": "Crate with 4 managed network switches - Fragile",
+        "Weight (Subject to Change)": "54 lbs",
+        "Serial Numbers": "NS-3100-01 to NS-3100-04"
+      },
+      {
+        "Number of Packages": "1",
+        "Kind of Package, Description of Articles, Special Marks, and Exceptions": "Pallet with 24 cartons of surge protectors",
+        "Weight (Subject to Change)": "360 lbs",
+        "Serial Numbers": "SPX-24-0001 to SPX-24-0024"
+      },
+      {
+        "Number of Packages": "8",
+        "Kind of Package, Description of Articles, Special Marks, and Exceptions": "Small cartons with brochures - Not for resale",
+        "Weight (Subject to Change)": "28 lbs",
+        "Serial Numbers": "MKT-2026-001 to MKT-2026-008"
+      },
+      {
+        "Number of Packages": "4",
+        "Kind of Package, Description of Articles, Special Marks, and Exceptions": "Metal crates containing demo kiosks - Heavy",
+        "Weight (Subject to Change)": "520 lbs",
+        "Serial Numbers": "KIO-2026-001 to KIO-2026-004"
+      }
+    ],
+    "Shipping Instructions": {
+      "Check one": {
+        "choices": [
+          "Next Day",
+          "Second Day",
+          "Routine",
+          "Shipper",
+          "Recipient",
+          "Third Party"
+        ],
+        "value": "Second Day"
+      },
+      "COD Amt Due": "$0.00"
+    },
+    "For Shipping Use Only": {
+      "Method": "2-Day Air",
+      "Date": "2026-07-08",
+      "Bill No.": "SHP-743210",
+      "Shipped By": "A. Sandoval",
+      "Ship. Cost": "$212.50",
+      "Dept. Chgd": "LOG-224"
+    },
+    "[NULL2]": {
+      "Delivered by": "P. Nguyen",
+      "Date": "2026-07-10"
+    },
+    "[NULL3]": {
+      "Received by": "T. Alvarez",
+      "Date": "2026-07-10",
+      "# Boxes": "16"
+    },
+    "Comments": "Packed per order #PO-7342. Shock indicators attached; two pallets banded and stretch-wrapped. Seal NS1842 applied; no visible damage at pickup."
+  }
+}

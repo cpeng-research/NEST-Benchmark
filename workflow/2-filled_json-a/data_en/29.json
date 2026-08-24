@@ -1,0 +1,57 @@
+{
+  "IRP REGISTRATION AUTHORIZATION INFORMATION": {
+    "INSTRUCTIONS": "If the OWNER of the vehicle is DIFFERENT from the registrant,complete sections 1 and 2.",
+    "SECTION 1 ": {
+      "PRIMARY REGISTRANT INFORMATION": {
+        "Registrant's Name": "Alice B. Turner",
+        "Date of Birth": "04/12/1985",
+        "Vehicle Make": "Ford",
+        "Year": "2019",
+        "Is the vehicle leased?": {
+          "select": [
+            "Yes",
+            "No"
+          ],
+          "value": "No"
+        },
+        "Vehicle ID Number(VIN)": "1FTFW1E50KFC12345"
+      }
+    },
+    "SECTION 2": {
+      "REGISTRATION AUTHORIZATION (Owner must complete this section)": {
+        "Vehicle Owner's Name": "Robert L. Turner",
+        "Date of Birth": "09/03/1978",
+        "Address": "122 Maple Avenue",
+        "Apt.#": "4B",
+        "City": "Albany",
+        "State": {
+          "select": [
+            "AL",
+            "AK",
+            "AZ",
+            "AR",
+            "CA",
+            "CO",
+            "CT",
+            "DE",
+            "FL",
+            "GA",
+            "NY"
+          ],
+          "value": "NY"
+        },
+        "ZIP Code": "12207",
+        "(Signature of Owner or of Person Authorized to Sign)": "Robert L. Turner",
+        "(Date)": "05/17/2026",
+        "(If signing for a corporation,print your full name and title here)": "N/A"
+      }
+    },
+    "OFFICE USE ONLY": {
+      "Proof of ID and Ownership Provided": "Yes - State ID and Title",
+      "Reg./Title No.": "NYT-7890123",
+      "State": "NY",
+      "Reviewed By": "M. Johnson",
+      "Date": "05/17/2026"
+    }
+  }
+}

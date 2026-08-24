@@ -1,0 +1,56 @@
+{
+    "Income of Non-Resident Spouse or Common-Law Partner\nfor the Canada Child Benefit": {
+        "Step 1 – Tax year information": {
+            "For which tax year are you sending this form?": {
+                "Year": "2024"
+            }
+        },
+        "Step 2 – Your information\nAs the CCB recipient, enter your information.": {
+            "Social insurance number (SIN):": "123456789",
+            "First name:": "Alex",
+            "Last name:": "Taylor",
+            "Phone numbers:": {
+                "Home:": "416-555-0100",
+                "Work:": "416-555-0110",
+                "Cell:": "416-555-0120",
+                "Ext:": "101"
+            },
+            "Mailing address": {
+                "Apt. No. – Street No. Street name, PO Box, RR:": "Unit 12 - 100 King St W",
+                "City:": "Toronto",
+                "Province or territory (or country, if outside Canada):": "ON",
+                "Postal or ZIP code:": "M5X 1A1"
+            },
+            "Home address": {
+                "[NULL1]": {
+                    "choices": [
+                        "Same as mailing address"
+                    ],
+                    "value": "Same as mailing address"
+                },
+                "Apt. No. – Street No. Street name, RR:": "Unit 12 - 100 King St W",
+                "City:": "Toronto",
+                "Province or territory (or country, if outside Canada):": "ON",
+                "Postal or ZIP code:": "M5X 1A1"
+            }
+        },
+        "Step 3 – Your spouse or common-law partner's information": {
+            "Social insurance number (SIN):": "N/A",
+            "[NULL2]": {
+                "choices": [
+                    "Select this box if your spouse or common-law partner does not have a SIN:"
+                ],
+                "value": "Select this box if your spouse or common-law partner does not have a SIN:"
+            },
+            "First name:": "Maria",
+            "Last name:": "Gonzalez",
+            "Does your spouse or common-law partner live in Canada?": {
+                "choices": [
+                    "Yes",
+                    "No"
+                ],
+                "value": "No"
+            }
+        }
+    }
+}

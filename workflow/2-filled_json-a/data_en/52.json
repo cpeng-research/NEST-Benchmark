@@ -1,0 +1,64 @@
+{
+    "AUTHORIZATION FOR DISCLOSURE OF MEDICAL OR DENTAL INFORMATION": {
+        "SECTION I - PATIENT DATA": {
+            "1. NAME (Last, First, Middle Initial)": "Doe, John A",
+            "2. DATE OF BIRTH (YYYYMMDD)": "19850423",
+            "3. SOCIAL SECURITY NUMBER": "123-45-6789",
+            "4. PERIOD OF TREATMENT: FROM - TO (YYYYMMDD)": "20240101 - 20240430",
+            "5. TYPE OF TREATMENT (X one)": {
+                "choice": [
+                    "OUTPATIENT",
+                    "INPATIENT",
+                    "BOTH"
+                ],
+                "value": "OUTPATIENT"
+            }
+        },
+        "SECTION II - DISCLOSURE": {
+            "6. I AUTHORIZE [PH1] (Name of Facility/TRICARE Health Plan)\nTO RELEASE MY PATIENT INFORMATION TO:": {
+                "a. NAME OF PERSON OR ORGANIZATION TO RECEIVE MY MEDICAL INFORMATION": "Acme Health Services",
+                "b. ADDRESS (Street, City, State and ZIP Code)": "123 Main St, Anytown, CA 90210",
+                "c. TELEPHONE (Include Area Code)": "555-123-4567",
+                "d. FAX (Include Area Code)": "555-987-6543"
+            },
+            "[PH1]": "Naval Medical Center San Diego",
+            "7. REASON FOR REQUEST/USE OF MEDICAL INFORMATION (X as applicable)": {
+                "choices": [
+                    "PERSONAL USE",
+                    "CONTINUED MEDICAL CARE",
+                    "SCHOOL",
+                    "INSURANCE",
+                    "RETIREMENT/SEPARATION",
+                    {
+                        "OTHER (Specify)___": ""
+                    }
+                ],
+                "value": "CONTINUED MEDICAL CARE"
+            },
+            "8. INFORMATION TO BE RELEASED": "Clinic progress notes, laboratory results, radiology reports, and immunization records.",
+            "9. AUTHORIZATION START DATE (YYYYMMDD)": "20240501",
+            "10. AUTHORIZATION EXPIRATION": {
+                "choices": [
+                    "DATE (YYYYMMDD)",
+                    "ACTION COMPLETED"
+                ],
+                "value": "DATE (YYYYMMDD)"
+            }
+        },
+        "III - Release Authorization": {
+            "11. SIGNATURE OF PATIENT/PARENT/LEGAL REPRESENTATIVE": "John A. Doe",
+            "12. RELATIONSHIP TO PATIENT (If applicable)": "Self",
+            "13. DATE (YYYYMMDD)": "20240415"
+        },
+        "IV - For Staff Use Only": {
+            "14. X IF APPLICABLE:": {
+                "choices": [
+                    "AUTHORIZATION REVOKED"
+                ],
+                "value": "AUTHORIZATION REVOKED"
+            },
+            "15. REVOCATION COMPLETED BY": "Records Release Coordinator, Naval Medical Center San Diego",
+            "16. DATE (YYYYMMDD)": "20240420"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "Request for legal assistance and/or indemnification form": {
+        "Section D – Request for private counsel": {
+            "Do you wish to retain private counsel?": {
+                "choices": [
+                    "Yes",
+                    "No"
+                ],
+                "value": "Yes"
+            },
+            "[NULL1]": "If no, please continue to section E. If yes, please include the requested information below.",
+            "Private counsel name:": "Johnson & Smith Law LLP (Attn: Jane M. Johnson, Senior Counsel)",
+            "Position title:": "Senior Counsel",
+            "Fee schedule:": "Hourly rate: $350/hr; Retainer: $5,000; Monthly billing with detailed time entries",
+            "Address:": "123 Legal Ave, Suite 400, Ottawa, ON K1A 0A1",
+            "Reason for requesting private counsel:": "Independent representation required due to potential conflict of interest with government counsel and the specialized nature of the employment-related allegations; counsel retained to advise on defence strategy and represent at hearings and any subsequent litigation."
+        },
+        "Section E – Attachments": {
+            "Attach the documents that apply to your request": {
+                "choices": [
+                    "Emails, screenshots, plans, photographs, or other items, to provide a better understanding of the exact nature of the incident(s);",
+                    "Copies of any reports made to the police related to the incident(s);",
+                    "Additional documentation considered relevant.",
+                    "A copy of any correspondence received from a government agency in connection with the legal action",
+                    "Employees with access to CRA systems - A signed copy of the Request for Legal Representation by the Attorney General of Canada, unless seeking private counsel."
+                ],
+                "value": [
+                    "Emails, screenshots, plans, photographs, or other items, to provide a better understanding of the exact nature of the incident(s);",
+                    "Copies of any reports made to the police related to the incident(s);",
+                    "A copy of any correspondence received from a government agency in connection with the legal action",
+                    "Additional documentation considered relevant."
+                ]
+            }
+        }
+    }
+}

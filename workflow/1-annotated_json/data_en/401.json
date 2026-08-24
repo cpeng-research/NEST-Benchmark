@@ -1,0 +1,52 @@
+{
+    "Mail Enquiry Form":{
+        "Category of Item":{
+            "choices":[
+                "Registered Mail",
+                "Insured Letter",
+                "Ordinary Parcel",
+                "Insured Parcel",
+                "Speedpost",
+                "Local CourierPost",
+                "EC-Get"
+            ],
+            "value":""
+        },
+        "Date of Posting":{
+            "Day":"",
+            "Month":"",
+            "Year":""
+        },
+        "[NULL1]":"(Enquiries about Speedpost items and other postal items must be made within 3 months and 5 months respectively from the date of posting. ",
+        "Item Number":"",
+        "Contact Details of Enquirer":{
+            "Name":"",
+            "Daytime Contact Tel. No ":"",
+            "Fax No.":"",
+            "Correspondence Address ":"",
+            "Postal Code (if applicable) ":"",
+            "E-mail ":"",
+            "The Enquirer is:":{
+                "choices":[
+                    "Sender",
+                    "Addressee",
+                    "Authorised Agent"
+                ],
+                "value":""
+            }
+        },
+        "Name and Full Address of Sender at the Time of Posting\n(Please complete this section if the information is different from that of the Enquirer above.)":{
+            "Name":"",
+            "Destination ":"",
+            "Address ":"",
+            "[NULL2]":"*If the item was posted under the name of a company, the Enquirer will be required to produce a copy of the valid Business Registration Certificate.",
+            "Postal Code (if applicable) ":""
+        },
+        "Details of Mail Contents and Packing":{
+            "Contents & Quantity":"",
+            "Value of Contents (Please indicate the currency used)# ":"",
+            "Detailed Description of Packing ":"",
+            "[NULL3]":"# Where necessary, the Enquirer will be required to produce a referenced invoice or receipt bearing the date of issue, the name, address, telephone number, signature / company chop of the merchant, and description of the purchase as a proof."
+        }
+    }
+}

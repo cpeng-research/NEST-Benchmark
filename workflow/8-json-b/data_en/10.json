@@ -1,0 +1,74 @@
+{
+  "Customer Refund Request Form": {
+    "Please submit this completed form and all supporting documents via one of the following methods": {
+      "Email": "returns@northshoregoods.com",
+      "Upload": "https://portal.northshoregoods.com/refunds/upload",
+      "Mail": "North Shore Goods, Attn: Refunds, 940 Pine Ave, Tacoma, WA 98402"
+    },
+    "Customer Information": {
+      "First Name": "Miguel",
+      "Last Name": "Santos",
+      "Email Address": "miguel.santos@example.org",
+      "Phone Number": "+1-206-555-4420"
+    },
+    "Order Details": {
+      "Order Number/Invoice#": "INV-2026-23791",
+      "Product/Service Name": "Smart Home Thermostat T500",
+      "Purchase Date": "2026-04-22",
+      "Amount Paid": "$179.00"
+    },
+    "Reason for Refund": {
+      "choices": [
+        "Item arrived damaged",
+        "Late delivery",
+        "Duplicate payment",
+        "Wrong item received",
+        "Ordered by mistake",
+        "Subscription canceled but still charged",
+        "Item not as described",
+        "Canceled order",
+        "Unauthorized charge",
+        "Item not received",
+        "Changed my mind",
+        {
+          "Other please specify___": ""
+        }
+      ],
+      "value": "Wrong item received"
+    },
+    "Preferred Refund Method": {
+      "choices": [
+        "Original payment method",
+        "Store credit/gift card",
+        "Bank transfer(please provide account details below)"
+      ],
+      "value": "Bank transfer(please provide account details below)"
+    },
+    "Bank Details (if applicable)": {
+      "Account Name": "Miguel Santos",
+      "Bank Name": "Cascade Federal Credit Union",
+      "Account Number/BAN": "8730045612",
+      "SWIFT/BIC(if international)": "CFCUUS6L"
+    },
+    "Attachments": {
+      "choices": [
+        "Copy of invoice or receipt",
+        "Order confirmation email",
+        "Photos of damaged product",
+        {
+          "Other please specify___": ""
+        }
+      ],
+      "value": "Copy of invoice or receipt; Order confirmation email"
+    },
+    "Refund Policy Acknowledgment": {
+      "choices": [
+        "I understand that this refund request is subject to the terms and conditions outlined in Company Name's official refund policy.Submission of this form does not guarantee approval."
+      ],
+      "value": "I understand that this refund request is subject to the terms and conditions outlined in Company Name's official refund policy.Submission of this form does not guarantee approval."
+    },
+    "[NULL1]": "I hereby confirm that the information provided above is true and complete.I request a refund in accordance with the company's refund policy.",
+    "Signature": "Miguel Santos",
+    "Date": "2026-05-28"
+  }
+}

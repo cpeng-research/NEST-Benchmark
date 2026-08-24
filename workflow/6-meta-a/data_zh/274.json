@@ -1,0 +1,504 @@
+[
+    {
+        "key": "姓名",
+        "label_info": {
+            "row": 2,
+            "col": 1
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "性别",
+        "label_info": {
+            "row": 2,
+            "col": 5
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "工号",
+        "label_info": {
+            "row": 2,
+            "col": 7
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "部门",
+        "label_info": {
+            "row": 2,
+            "col": 9
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 2
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "职位",
+        "label_info": {
+            "row": 2,
+            "col": 13
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "入职日期",
+        "label_info": {
+            "row": 3,
+            "col": 1
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "申请日期",
+        "label_info": {
+            "row": 3,
+            "col": 5
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 2
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "最后在职",
+        "label_info": {
+            "row": 3,
+            "col": 9
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 2
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "工资待遇",
+        "label_info": {
+            "row": 3,
+            "col": 13
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 1
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "离职原因",
+        "label_info": {
+            "row": 4,
+            "col": 1
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 2
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "离职类别",
+        "label_info": {
+            "row": 5,
+            "col": 0
+        },
+        "placeholder_offset": [
+            {
+                "rows": 0,
+                "cols": 1
+            },
+            {
+                "rows": 0,
+                "cols": 1
+            },
+            {
+                "rows": 0,
+                "cols": 1
+            },
+            {
+                "rows": 0,
+                "cols": 1
+            }
+        ],
+        "is_object_type": false,
+        "is_non_pure_text": true,
+        "type": "SO"
+    },
+    {
+        "key": "部门主管意见",
+        "label_info": {
+            "row": 6,
+            "col": 1
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "部门主管签字",
+        "label_info": {
+            "row": 6,
+            "col": 8
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "实际出勤天数",
+        "label_info": {
+            "row": 8,
+            "col": 1
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 2
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "其它假",
+        "label_info": {
+            "row": 8,
+            "col": 11
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 2
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "应扣事项/天数",
+        "label_info": {
+            "row": 9,
+            "col": 1
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 2
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "合计",
+        "label_info": {
+            "row": 9,
+            "col": 11
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 2
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "考勤员",
+        "label_info": {
+            "row": 10,
+            "col": 1
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "是否交齐1",
+        "label_info": {
+            "row": 11,
+            "col": 4
+        },
+        "placeholder_offset": {
+            "rows": 1,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": true,
+        "type": "LI"
+    },
+    {
+        "key": "是否交齐",
+        "label_info": {
+            "row": 11,
+            "col": 4
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": true,
+        "type": "LI"
+    },
+    {
+        "key": "是否交齐2",
+        "label_info": {
+            "row": 11,
+            "col": 4
+        },
+        "placeholder_offset": {
+            "rows": 3,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": true,
+        "type": "LI"
+    },
+    {
+        "key": "是否交齐3",
+        "label_info": {
+            "row": 11,
+            "col": 4
+        },
+        "placeholder_offset": {
+            "rows": 4,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": true,
+        "type": "LI"
+    },
+    {
+        "key": "是否交齐3",
+        "label_info": {
+            "row": 11,
+            "col": 4
+        },
+        "placeholder_offset": {
+            "rows": 4,
+            "cols": 0
+        },
+        "is_object_type": true,
+        "is_non_pure_text": true,
+        "type": "LI"
+    },
+    {
+        "key": "已还",
+        "label_info": {
+            "row": 11,
+            "col": 6
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "应扣款",
+        "label_info": {
+            "row": 11,
+            "col": 10
+        },
+        "placeholder_offset": [
+            {
+                "rows": 1,
+                "cols": 0
+            },
+            {
+                "rows": 3,
+                "cols": 0
+            },
+            {
+                "rows": 4,
+                "cols": 0
+            }
+        ],
+        "is_object_type": true,
+        "is_non_pure_text": false,
+        "type": "LI"
+    },
+    {
+        "key": "交接人签字",
+        "label_info": {
+            "row": 12,
+            "col": 12
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "部门主管",
+        "label_info": {
+            "row": 13,
+            "col": 12
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "库存管理处",
+        "label_info": {
+            "row": 14,
+            "col": 12
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "财务部",
+        "label_info": {
+            "row": 15,
+            "col": 12
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "行政人事部审批",
+        "label_info": {
+            "row": 16,
+            "col": 1
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 3
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "总经理审批",
+        "label_info": {
+            "row": 17,
+            "col": 1
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 3
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "SI"
+    },
+    {
+        "key": "结算后应发工资",
+        "label_info": {
+            "row": 20,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    },
+    {
+        "key": "本人确认无异议后签字",
+        "label_info": {
+            "row": 21,
+            "col": 0
+        },
+        "placeholder_offset": {
+            "rows": 0,
+            "cols": 0
+        },
+        "is_object_type": false,
+        "is_non_pure_text": false,
+        "type": "GI"
+    }
+]

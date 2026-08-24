@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Patient Information Form</title>
+</head>
+<body style="margin: 0; padding: 10px; background-color: #ffffff; font-family: Arial, sans-serif;">
+    <table border="1" cellpadding="4" cellspacing="0" style="width: 100%; border-collapse: collapse; font-size: 14px;">
+        <tr>
+            <td colspan="4" style="font-weight: bold;">Patient Information</td>
+        </tr>
+        <tr>
+            <td style="width: 25%;">Name:</td>
+            <td style="width: 40%;">Maria Lopez</td>
+            <td style="width: 15%;">DOB (MM/DD/YYYY):</td>
+            <td style="width: 20%;">08/15/1987</td>
+        </tr>
+        <tr>
+            <td>
+                Gender:
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender" checked> Female
+                <input type="radio" name="gender"> Other: _______
+            </td>
+            <td colspan="3">
+                Preferred Pronouns:
+                <input type="checkbox"> He/Him
+                <input type="checkbox" checked> She/Her
+                <input type="checkbox"> They/Them
+                <input type="checkbox"> Other: <input type="text" style="border: none; border-bottom: 1px solid black; width: 150px;" value="N/A">
+            </td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td>123 Maple St Apt 4B</td>
+            <td>City</td>
+            <td>Austin</td>
+        </tr>
+        <tr>
+            <td>State: <input type="text" style="border: none; border-bottom: 1px solid black; width: 100px;" value="TX"></td>
+            <td>Zip: <input type="text" style="border: none; border-bottom: 1px solid black; width: 100px;" value="78701"></td>
+            <td>Phone: <input type="text" style="border: none; border-bottom: 1px solid black; width: 150px;" value="512-555-0143"></td>
+            <td>N/A</td>
+        </tr>
+        <tr>
+            <td>Email: <input type="text" style="border: none; border-bottom: 1px solid black; width: 200px;" value="maria.lopez@example.com"></td>
+            <td colspan="3">
+                Preferred Contact Method:
+                <input type="checkbox" checked> Phone
+                <input type="checkbox"> Email
+                <input type="checkbox"> Text
+            </td>
+        </tr>
+        <tr>
+            <td>Emergency Contact Name:</td>
+            <td>Carlos Lopez</td>
+            <td>Phone:</td>
+            <td>512-555-2198</td>
+        </tr>
+        <tr>
+            <td>Relationship to Patient</td>
+            <td colspan="3">Spouse</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="font-weight: bold;">Insurance Information (if applicable)</td>
+        </tr>
+        <tr>
+            <td>Provider:</td>
+            <td>Blue Cross Blue Shield</td>
+            <td>Policy number:</td>
+            <td>BCBS123456789</td>
+        </tr>
+        <tr>
+            <td>Group Number:</td>
+            <td>GRP98765</td>
+            <td>Policyholder Name</td>
+            <td>Maria Lopez</td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                Relationship to Patient:
+                <input type="checkbox" checked> Self
+                <input type="checkbox"> Spouse
+                <input type="checkbox"> Parent
+                <input type="checkbox"> Other: <input type="text" style="border: none; border-bottom: 1px solid black; width: 200px;" value="N/A">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4" style="font-weight: bold;">Reason for Visit</td>
+        </tr>
+        <tr>
+            <td colspan="4">Primary Reason for Visit:</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="height: 40px;">Shortness of breath and wheezing</td>
+        </tr>
+        <tr>
+            <td>How long have you had this issue?</td>
+            <td>3 weeks</td>
+            <td colspan="2">
+                Have you been treated for this before?
+                <input type="checkbox" checked> Yes
+                <input type="checkbox"> No
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4" style="font-weight: bold;">Medical History Summary</td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                Do you have any of the following conditions? (Check all that apply)
+                <input type="checkbox"> Diabetes
+                <input type="checkbox" checked> Hypertension
+                <input type="checkbox"> Heart Disease
+                <input type="checkbox" checked> Asthma
+                <input type="checkbox"> Cancer
+                <input type="checkbox"> Stroke
+                <input type="checkbox"> Other: <input type="text" style="border: none; border-bottom: 1px solid black; width: 200px;" value="N/A">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Are you currently taking any medications?
+                <input type="radio" name="medications" checked> Yes
+                <input type="radio" name="medications"> No
+            </td>
+            <td colspan="3">If yes, list medications: Albuterol inhaler (PRN), Lisinopril 10 mg daily</td>
+        </tr>
+        <tr>
+            <td>
+                Do you have any allergies?
+                <input type="radio" name="allergies" checked> Yes
+                <input type="radio" name="allergies"> No
+            </td>
+            <td colspan="3">If yes, list allergies: Penicillin (rash)</td>
+        </tr>
+        <tr>
+            <td>
+                Have you had any surgeries or hospitalizations?
+                <input type="radio" name="surgeries"> Yes
+                <input type="radio" name="surgeries" checked> No
+            </td>
+            <td colspan="3">If yes, list procedures and dates: N/A</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="font-weight: bold;">Lifestyle & Social History</td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                Do you smoke or use tobacco products?
+                <input type="radio" name="tobacco"> Yes
+                <input type="radio" name="tobacco"> No
+                <input type="radio" name="tobacco" checked> Former Smoker
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                Do you consume alcohol?
+                <input type="radio" name="alcohol"> Yes
+                <input type="radio" name="alcohol"> No
+                <input type="radio" name="alcohol" checked> Occasionally
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                Do you use recreational drugs?
+                <input type="radio" name="drugs"> Yes
+                <input type="radio" name="drugs" checked> No
+            </td>
+        </tr>
+        <tr>
+            <td>Occupation:</td>
+            <td colspan="3">Elementary school teacher</td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                Do you have any concerns about access to healthcare, transportation, or financial barriers?
+                <input type="checkbox"> Yes
+                <input type="checkbox" checked> No
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">If yes, please describe: <input type="text" style="border: none; border-bottom: 1px solid black; width: 80%;" value="N/A"></td>
+        </tr>
+        <tr>
+            <td colspan="4" style="font-weight: bold;">Pharmacy Information</td>
+        </tr>
+        <tr>
+            <td>Preferred Pharmacy Name:</td>
+            <td>Community Pharmacy</td>
+            <td>Phone Number:</td>
+            <td>512-555-0100</td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td colspan="3">400 W 2nd St, Austin, TX 78701</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="font-weight: bold;">Consent & Signature</td>
+        </tr>
+        <tr>
+            <td colspan="4">I confirm that the information provided is accurate to the best of my knowledge. - Yes</td>
+        </tr>
+        <tr>
+            <td>Signature:</td>
+            <td>Maria Lopez</td>
+            <td>Date:</td>
+            <td>05/17/2026</td>
+        </tr>
+    </table>
+</body>
+</html>

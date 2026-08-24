@@ -1,0 +1,72 @@
+{
+  "1. Contact Information You must complete all fields. (Please Print)": {
+    "PEBB Benefit Number (P########), Employee ID, University ID": "P12345678",
+    "Last Name": "Smith",
+    "First Name": "Emily",
+    "MI": "R",
+    "Agency #": "12345",
+    "Gender": {
+      "choices": [
+        "F",
+        "M"
+      ],
+      "value": "F"
+    },
+    "[NULL1]": "PEBB and the plans in which you enroll will send all benefit-related correspondence to your contact address.",
+    "Contact Address": {
+      "choices": [
+        "Check if New Address",
+        "NONE"
+      ],
+      "value": "Check if New Address"
+    },
+    "Apt #": "12B",
+    "City": "Seattle",
+    "State": "WA",
+    "Zip": "98101",
+    "Residence Zip": "98102",
+    "Work Zip": "98104",
+    "Work Email": "emily.smith@state.edu",
+    "Personal E-mail (optional)": "emily.smith@gmail.com",
+    "Date of Birth (mm/dd/yyyy)": "03/15/1985",
+    "Work Phone": "(206)555-1234",
+    "Home Phone (optional)": "(206)555-5678"
+  },
+  "2. Domestic Partner Information": {
+    "Last Name": "Johnson",
+    "First Name": "Alex",
+    "Mi": "T",
+    "Date of Birth (mm/dd/yyyy)": "06/22/1986",
+    "Date Eligibility for domestic Partnership was met (mm/dd/yyyy)": "01/01/2019"
+  },
+  "2. Certification of Domestic Partner’s Dependent Children I certify that my domestic partner’s children listed below meet PEBB eligible dependent requirements.": {
+    "[NULL2]": [
+      {
+        "Last Name": "Johnson",
+        "First Name": "Mia",
+        "MI": "A",
+        "Birth Date (mm/dd/yyyy)": "04/05/2010",
+        "Gender": {
+          "choices": [
+            "M",
+            "F"
+          ],
+          "value": "F"
+        }
+      },
+      {
+        "Last Name": "Johnson",
+        "First Name": "Liam",
+        "MI": "B",
+        "Birth Date (mm/dd/yyyy)": "08/30/2012",
+        "Gender": {
+          "choices": [
+            "M",
+            "F"
+          ],
+          "value": "M"
+        }
+      }
+    ]
+  }
+}

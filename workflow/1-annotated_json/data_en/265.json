@@ -1,0 +1,53 @@
+{
+  "Patient Information": {
+    "Name": "",
+    "DOB (MM/DD/YYYY):": "",
+    "Gender:": {
+      "choices": ["Male", "Female", {"Other": "___"}],
+      "value": ""
+    },
+    "Preferred Pronouns:": {
+      "choices": ["He/Him", "She/Her", "They/Them", {"Other": "___"}],
+      "value": ""
+    },
+    "Address:": "",
+    "City": "",
+    "State:": "",
+    "Zip:": "",
+    "Phone:": "",
+    "Email:": "",
+    "Preferred Contact Method:": {
+      "choices": ["Phone", "Email", "Text"],
+      "value": ""
+    },
+    "Primary language:": "",
+    "Interpreter needed?": {
+      "choices": ["Yes", "No"],
+      "value": ""
+    },
+    "Emergency Contact Name:": "",
+    "Phone: [PH1]": "",
+    "[PH1]": "",
+    "Relationship to Patient": "",
+    "Insurance Information (if applicable)": {
+      "Provider:": "",
+      "Policy number:": "",
+      "Group Number:": "",
+      "Policyholder Name": "",
+      "Relationship to Patient:": {
+        "choices": ["Self", "Spouse", "Parent", {"Other": "___"}],
+        "value": ""
+      }
+    },
+    "Pharmacy Information": {
+      "Preferred Pharmacy Name:": "",
+      "Phone Number:": "",
+      "Address:": ""
+    },
+    "Consent & Signature": {
+      "I confirm that the information provided is accurate to the best of my knowledge.": "",
+      "Signature:": "",
+      "Date:": ""
+    }
+  }
+}

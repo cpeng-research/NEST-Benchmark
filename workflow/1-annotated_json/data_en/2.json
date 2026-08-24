@@ -1,0 +1,74 @@
+{
+    "U.S.Department of State STATEMENT OF CONSENT:U.S.PASSPORT ISSUANCE TO A CHILD Print legibly or type using black ink only.Ifyou make an error,complete a new form.Do not correct. Reset": {
+        "SECTION 1.CHILD APPLYING FOR A U.S.PASSPORT(Print your child's name as it appears on the passport application (Form DS-11) and child's birthdate)": {
+            "a.Child's Name (LAST,FIRST MIDDLE)": "",
+            "b.Child's Birthdate(MM-DD-YYYY)": "",
+            "Child's Birthdate": {
+                "choices": [
+                    "Check box if age 16 or 17"
+                ],
+                "value": ""
+            }
+        },
+        "SECTION 2.ADULT APPLYING IN PERSON WITH CHILD UNDER AGE 16(Print name of adult appearing in person to apply for a U.S. passport and relationship to the above-named child)": {
+            "a.Applying Adult's Name (LAST,FIRST MIDDLE)": "",
+            "b.Applying Adult's Relationship to Child (Check one)": {
+                "choices": [
+                    "Legal Parent",
+                    "Legal Guardian",
+                    "Third Party"
+                ],
+                "value": ""
+            }
+        },
+        "SECTION 3. OATH/AFFIRMATION. STOP HERE! Do not sign this form until requested to do so by a Passport Authorizing Officer or Notary. This section must be signed by the affiant(s) named in Section 3 of this form.": {
+            "OATH": "I solemnly swear (oraffrm)that the above information given by me is true and correct to the best of my knowledge and belief.",
+            "[NULL1]":{
+                "1)":{
+                    "Non-Applying Legal Parent/Legal Guardian Signature":"",
+                    "Date":""
+                },
+                "2)":{
+                    "Non-Applying Legal Parent/Legal Guardian Signature":"",
+                    "Date":""
+                }
+            },
+            "[NULL2]":{
+                "1)Non-Applying Legal Parent/Guardian Identifying Documents:":{
+                    "choices":[
+                        "Driver's License",
+                        "Passport",
+                        "Military",
+                        {"Other_________":""}
+                    ],
+                    "value":"",
+                    "Name:":"",
+                    "ID Number:":"",
+                    "Place of Issue:":"",
+                    "Issue Date:":"",
+                    "Expire Date:":""
+                },
+                "2)Non-Applying Legal Parent/Guardian Identifying Documents:":{
+                    "choices":[
+                        "Driver's License",
+                        "Passport",
+                        "Military",
+                        {"Other_________":""}
+                    ],
+                    "value":"",
+                    "Name:":"",
+                    "ID Number:":"",
+                    "Place of Issue:":"",
+                    "Issue Date:":"",
+                    "Expire Date:":""
+                }
+            },
+            "Passport Authorizing Officer or Notary Signature":"",
+            "Date":"",
+            "Location (Agency or City,State)":""
+            
+            
+            
+        }
+    }
+}

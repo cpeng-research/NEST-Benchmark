@@ -1,0 +1,67 @@
+{
+    "Customer Refund Request Form": {
+    "Please submit this completed form and all supporting documents via one of the following methods": {
+        "Email": "",
+        "Upload": "",
+        "Mail": ""
+    },
+    "Customer Information": {
+        "First Name": "",
+        "Last Name": "",
+        "Email Address": "",
+        "Phone Number": ""
+    },
+    "Order Details": {
+        "Order Number/Invoice#": "",
+        "Product/Service Name": "",
+        "Purchase Date": "",
+        "Amount Paid": ""
+    },
+    "Reason for Refund": {
+        "choices": [
+            "Item arrived damaged",
+            "Late delivery",
+            "Duplicate payment",
+            "Wrong item received",
+            "Ordered by mistake",
+            "Subscription canceled but still charged",
+            "Item not as described",
+            "Canceled order",
+            "Unauthorized charge",
+            "Item not received",
+            "Changed my mind",
+            {"Other please specify___":""}
+        ],
+        "value": ""
+    },
+    "Preferred Refund Method": {
+        "choices": [
+            "Original payment method",
+            "Store credit/gift card",
+            "Bank transfer(please provide account details below)"
+        ],
+        "value": ""
+    },
+    "Bank Details (if applicable)": {
+        "Account Name": "",
+        "Bank Name": "",
+        "Account Number/BAN": "",
+        "SWIFT/BIC(if international)": ""
+    },
+    "Attachments": {
+        "choices": [
+            "Copy of invoice or receipt",
+            "Order confirmation email",
+            "Photos of damaged product",
+            {"Other please specify___":""}
+        ],
+        "value": ""
+    },
+    "Refund Policy Acknowledgment": {
+        "choices": ["I understand that this refund request is subject to the terms and conditions outlined in Company Name's official refund policy.Submission of this form does not guarantee approval."],
+        "value": ""
+    },
+    "[NULL1]":"I hereby confirm that the information provided above is true and complete.I request a refund in accordance with the company's refund policy.",
+    "Signature": "",
+    "Date": ""
+}}

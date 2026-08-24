@@ -1,0 +1,80 @@
+{
+  "Patient Information": {
+    "Name": "Noah Patel",
+    "DOB (MM/DD/YYYY):": "09/23/1985",
+    "Gender:": {
+      "choices": [
+        "Male",
+        "Female",
+        {
+          "Other": "___"
+        }
+      ],
+      "value": "Male"
+    },
+    "Preferred Pronouns:": {
+      "choices": [
+        "He/Him",
+        "She/Her",
+        "They/Them",
+        {
+          "Other": "___"
+        }
+      ],
+      "value": "He/Him"
+    },
+    "Address:": "890 Pine Ridge Dr",
+    "City": "Denver",
+    "State:": "CO",
+    "Zip:": "80203",
+    "Phone:": "303-555-0128",
+    "Email:": "noah.patel84@example.com",
+    "Preferred Contact Method:": {
+      "choices": [
+        "Phone",
+        "Email",
+        "Text"
+      ],
+      "value": "Phone"
+    },
+    "Primary language:": "Spanish",
+    "Interpreter needed?": {
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "value": "Yes"
+    },
+    "Emergency Contact Name:": "Priya Patel",
+    "Phone: [PH1]": "720-555-0172",
+    "[PH1]": "Emergency Contact",
+    "Relationship to Patient": "Sister",
+    "Insurance Information (if applicable)": {
+      "Provider:": "UnitedHealthcare",
+      "Policy number:": "UHC-458732914",
+      "Group Number:": "GN-22419",
+      "Policyholder Name": "Anita Patel",
+      "Relationship to Patient:": {
+        "choices": [
+          "Self",
+          "Spouse",
+          "Parent",
+          {
+            "Other": "___"
+          }
+        ],
+        "value": "Parent"
+      }
+    },
+    "Pharmacy Information": {
+      "Preferred Pharmacy Name:": "Walgreens Pharmacy #6789",
+      "Phone Number:": "303-555-0155",
+      "Address:": "2201 Broadway, Denver, CO 80205"
+    },
+    "Consent & Signature": {
+      "I confirm that the information provided is accurate to the best of my knowledge.": "I agree",
+      "Signature:": "Noah Patel",
+      "Date:": "05/19/2026"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+
+{
+  "IRP REGISTRATION AUTHORIZATION INFORMATION": {
+  "INSTRUCTIONS": "If the OWNER of the vehicle is DIFFERENT from the registrant,complete sections 1 and 2.",
+  "SECTION 1 ":{"PRIMARY REGISTRANT INFORMATION": {
+    "Registrant's Name": "",
+    "Date of Birth": "",
+    "Vehicle Make": "",
+    "Year": "",
+    "Is the vehicle leased?": {
+      "select": ["Yes", "No"],
+      "value": ""
+    },
+    "Vehicle ID Number(VIN)": ""
+  }},
+  "SECTION 2":{"REGISTRATION AUTHORIZATION (Owner must complete this section)": {
+    "Vehicle Owner's Name": "",
+    "Date of Birth": "",
+    "Address": "",
+    "Apt.#": "",
+    "City": "",
+    "State": {
+      "select": ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "NY"],
+      "value": ""
+    },
+    "ZIP Code": "",
+    "(Signature of Owner or of Person Authorized to Sign)": "",
+    "(Date)": "",
+    "(If signing for a corporation,print your full name and title here)": ""
+  }},
+  "OFFICE USE ONLY": {
+    "Proof of ID and Ownership Provided": "",
+    "Reg./Title No.": "",
+    "State": "",
+    "Reviewed By": "",
+    "Date": ""
+  }
+}
+}

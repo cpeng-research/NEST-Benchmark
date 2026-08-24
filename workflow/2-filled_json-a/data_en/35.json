@@ -1,0 +1,65 @@
+{
+  "Statement of Person Claiming Refund Due a Deceased Taxpayer": "Claim for refund of decedent's overpayment",
+  "Tax year decedent was due a refund:": {
+    "Calendar year": "2023",
+    "or other tax year beginning": "01/01",
+    "20 (beginning year suffix)": "23",
+    "and ending": "12/31",
+    "20 (ending year suffix)": "23"
+  },
+  "Please print or type": {
+    "Name of decedent.If filing a joint return and both taxpayers are deceased,complete a Form 1310 for each.See instructions.": "John A. Smith",
+    "Date of death": "2024-10-05",
+    "Decedent's social security number": "123-45-6789",
+    "Name of person claiming refund": "Mary L. Jones",
+    "Your social security number": "987-65-4321",
+    "Address of person claiming refund (number and street).If you have a P.O.box,see instructions.": "123 Main St",
+    "Apt.no.": "4B",
+    "City,town or post office,state,and ZIP code.If you have a foreign address,see instructions.": "Springfield, IL 62704"
+  },
+  "Part I Check only one box.Complete Part ll only if you check the box on line C.However,you must complete Part Ⅲ": {
+    "select": [
+      "Surviving spouse requesting reissuance of a refund check recelved in the name of both the decedent and the surviving spouse",
+      "Court-appointed or certified personal representative(defined below)claiming a refund on Form 1040-X or Form 843",
+      "Person. other than A or B,claming refund for the decedent's estate"
+    ],
+    "value": "Person. other than A or B,claming refund for the decedent's estate"
+  },
+  "Part II Complete this part only if you checked the box on line Cabove.": {
+    "1 Did the decedent leave a will?": {
+      "select": [
+        "Yes",
+        "No"
+      ],
+      "value": "Yes"
+    },
+    "2a Has a court appointed a personal representative for the estate of the decedent?": {
+      "select": [
+        "Yes",
+        "No"
+      ],
+      "value": "No"
+    },
+    "2b If you answered \"No\" to 2a,will one be appointed?. If you answered“Yes” to 2a or 2b,the personal representative must file for the refund.": {
+      "select": [
+        "Yes",
+        "No"
+      ],
+      "value": "No"
+    },
+    "3 As the person claiming the refund for the decedent's esstate, will you pay out the refund according to the laws of the state where the decedent was a legal resident? If you answered \"No\" to 3, a refund cannot be made until you submit a court certificate showing your appointment as personal representative or other evidence that you are entitleed under state law to receive the refund.": {
+      "select": [
+        "Yes",
+        "No"
+      ],
+      "value": "Yes"
+    }
+  },
+  "Part Ⅲ Signature and verification.All filers must complete this part.": {
+    "I request a refund of taxes overpaid by or on behalf of the decedent.Under penalties of perjury,I declare that I have examined this claim,and to the best of my knowledge and belief,it is true,correct,and complete.": {
+      "Signature of person claiming refund": "Mary L. Jones",
+      "Date": "2024-04-15",
+      "Phone no.(optional)": "217-555-0123"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "Patient's Name (Last, First, MI): [PH1]": "Doe, John A.",
+  "[PH1]": "Doe, John A.",
+  "Patient's Home Phone Number: [PH2] Alternate Phone Number (□ cell or □ work): [PH3]": "Home: 703-555-0123; Alternate (cell): 703-555-0456",
+  "[PH2]": "703-555-0123",
+  "[PH3]": "703-555-0456",
+  "E-Mail Address: [PH4]": "john.doe@example.com",
+  "[PH4]": "john.doe@example.com",
+  "Address: [PH5] Apt.# [PH6]": "123 Maple Ave Apt 4B",
+  "[PH5]": "123 Maple Ave",
+  "[PH6]": "4B",
+  "City: [PH7]": "Falls Church",
+  "[PH7]": "Falls Church",
+  "State: [PH8]": "VA",
+  "[PH8]": "VA",
+  "Zip: [PH9]": "22046",
+  "[PH9]": "22046",
+  "Date of Birth: [PH10] Age: [PH11] Sex: M □ F □ Social Security Number: [PH12]": "DOB: 1985-08-15; Age: 40; Sex: M; SSN: XXX-XX-6789",
+  "[PH10]": "1985-08-15",
+  "[PH11]": "40",
+  "[PH12]": "XXX-XX-6789",
+  "Sex": {
+    "choices": [
+      "M",
+      "F"
+    ],
+    "value": "M"
+  },
+  "Marital Status: □ Married □ Single □ Divorced □ Widowed": {
+    "choices": [
+      "Married",
+      "Single",
+      "Divorced",
+      "Widowed"
+    ],
+    "value": "Married"
+  },
+  "Patient's Employer: [PH13]": "Inova Health System",
+  "[PH13]": "Inova Health System",
+  "Employment Status: \nFull time\nPart time\nUnemployed\nRetired\nStudent\nOther: [PH14]": {
+    "choices": [
+      "Full time",
+      "Part time",
+      "Unemployed",
+      "Retired",
+      "Student",
+      {
+        "Other": "[PH14]"
+      }
+    ],
+    "value": "Full time"
+  },
+  "[PH14]": "Full time",
+  "Emergency Contact: [PH15] Relationship to Patient: [PH16]": "Jane Doe, Spouse",
+  "[PH15]": "Jane Doe",
+  "[PH16]": "Spouse",
+  "Address: [PH17] Phone number: [PH18]": "123 Maple Ave Apt 4B; 703-555-0789",
+  "[PH17]": "123 Maple Ave Apt 4B",
+  "[PH18]": "703-555-0789",
+  "INSURANCE INFORMATION\n\nPrimary Insurance: [PH19]\nPatient is Subscriber/Policy Holder: Y □ N □": {
+    "Primary Insurance: [PH19]": "BlueCross BlueShield",
+    "[PH19]": "BlueCross BlueShield",
+    "Patient is Subscriber/Policy Holder": {
+      "choices": [
+        "Y",
+        "N"
+      ],
+      "value": "Y"
+    }
+  },
+  "[NULL1]": {
+    "Secondary Insurance: [PH20]\nPatient is Subscriber/Policy Holder: Y □ N □": {
+      "Secondary Insurance: [PH20]": "Aetna",
+      "[PH20]": "Aetna",
+      "Patient is Subscriber/Policy Holder": {
+        "choices": [
+          "Y",
+          "N"
+        ],
+        "value": "N"
+      }
+    }
+  },
+  "INSURED INFORMATION (IF OTHER THAN PATIENT)- We will request to scan your ID and insurance card": {
+    "Subscriber/Policy Holder: [PH21] Relationship to Patient: [PH22]": "John Doe, Self",
+    "[PH21]": "John Doe",
+    "[PH22]": "Self",
+    "Address: [PH23]": "123 Maple Ave Apt 4B",
+    "[PH23]": "123 Maple Ave Apt 4B",
+    "Social Security Number: [PH24]": "XXX-XX-6789",
+    "[PH24]": "XXX-XX-6789",
+    "Date of Birth: [PH25]": "1985-08-15",
+    "[PH25]": "1985-08-15",
+    "His or Her Employer: [PH26] Work Phone Number: [PH27]": "Inova Health System; 703-555-9999",
+    "[PH26]": "Inova Health System",
+    "[PH27]": "703-555-9999"
+  },
+  "RELEASE OF INFORMATION": {
+    "I hereby give permission to the person(s) listed below to receive information about the care of the above named patient.": "I hereby give permission to the person(s) listed below to receive information about the care of the above named patient.",
+    "Name(s): [PH28] Relationship to Patient: [PH29]": "Jane Doe, Spouse",
+    "[PH28]": "Jane Doe",
+    "[PH29]": "Spouse",
+    "Inova Medical Group reserves the right to charge a fee for any scheduled visits that are:\n1. Cancelled with less than 24 hours notice\n2. Are missed without calling to cancel (no show)\n\nCancellation Fee schedule: New Patient $50.00; Established Patient $35.00\n\nPatient/Parent or Guardian Signature: [PH30] Date: [PH31]": "Patient/Parent or Guardian Signature: John Doe Date: 2026-05-17",
+    "[PH30]": "John Doe",
+    "[PH31]": "2026-05-17"
+  }
+}

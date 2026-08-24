@@ -1,0 +1,60 @@
+{
+    "AUTHORIZATION FOR DISCLOSURE OF MEDICAL OR DENTAL INFORMATION": {
+        "SECTION I - PATIENT DATA": {
+            "1. NAME (Last, First, Middle Initial)": "",
+            "2. DATE OF BIRTH (YYYYMMDD)": "",
+            "3. SOCIAL SECURITY NUMBER": "",
+            "4. PERIOD OF TREATMENT: FROM - TO (YYYYMMDD)": "",
+            "5. TYPE OF TREATMENT (X one)": {
+                "choice": ["OUTPATIENT", "INPATIENT", "BOTH"],
+                "value": ""
+            }
+        },
+        "SECTION II - DISCLOSURE": {
+            "6. I AUTHORIZE [PH1] (Name of Facility/TRICARE Health Plan)\nTO RELEASE MY PATIENT INFORMATION TO:":{
+                "a. NAME OF PERSON OR ORGANIZATION TO RECEIVE MY MEDICAL INFORMATION":"",
+                "b. ADDRESS (Street, City, State and ZIP Code)":"",
+                "c. TELEPHONE (Include Area Code)":"",
+                "d. FAX (Include Area Code)":""
+            },
+            "[PH1]":"",
+            "7. REASON FOR REQUEST/USE OF MEDICAL INFORMATION (X as applicable)":{
+                "choices":[
+                    "PERSONAL USE",
+                    "CONTINUED MEDICAL CARE",
+                    "SCHOOL",
+                    "INSURANCE",
+                    "RETIREMENT/SEPARATION",
+                    {"OTHER (Specify)___":""}
+                ],
+                "value":""
+            },
+            "8. INFORMATION TO BE RELEASED":"",
+            "9. AUTHORIZATION START DATE (YYYYMMDD)":"",
+            "10. AUTHORIZATION EXPIRATION":{
+                "choices":[
+                    "DATE (YYYYMMDD)",
+                    "ACTION COMPLETED"
+                ],
+                "value":""
+            }
+        
+        },
+        "III - Release Authorization": {
+            "11. SIGNATURE OF PATIENT/PARENT/LEGAL REPRESENTATIVE":"",
+            "12. RELATIONSHIP TO PATIENT (If applicable)":"",
+            "13. DATE (YYYYMMDD)":""
+        },
+        "IV - For Staff Use Only": {
+            "14. X IF APPLICABLE:":{
+                "choices":[
+                    "AUTHORIZATION REVOKED"
+                ],
+                "value":""
+            },
+            "15. REVOCATION COMPLETED BY":"",
+            "16. DATE (YYYYMMDD)":""
+        }
+    }
+}
+

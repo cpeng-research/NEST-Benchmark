@@ -1,0 +1,41 @@
+{
+    "Pest Control Work Order":{
+        "Order No.:":"",
+        "Client:":"",
+        "Phone:":"",
+        "Address:":"",
+        "Date:":"",
+        "Contact:":"",
+        "Email:":"",
+        "Deadline:":"",
+        "Job Type:":{
+            "choices":[
+                "Inspection",
+                "Treatment",
+                "Follow-Up",
+                {
+                    "Other:":""
+                }
+            ],
+            "value":""
+        },
+        "Job Site:":{
+            "choices":[
+                "Residential",
+                "Commercial",
+                "Indoor",
+                "Outdoor",
+                {
+                    "Other:":""
+                }
+            ],
+            "value":""
+        },
+        "Frequency:":"",
+        "First-Time Account?":"",
+        "Pest(s)":"",
+        "Treatment(s)and Amounts":"",
+        "Application Method":"",
+        "Estimate:":""
+    }
+}
