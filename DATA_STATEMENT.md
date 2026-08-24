@@ -29,7 +29,7 @@ exactly in this package to keep the benchmark inputs and reported results stable
 
 ## Source and Redistribution Audit
 
-`source_provenance_manifest_v1.csv` is the compact reader-facing per-template
+`data/source_provenance_manifest.csv` is the compact reader-facing per-template
 source/provenance manifest. It records sample IDs, split-language and domain labels,
 template paths, titles, the best available source, and a combined license/redistribution
 note.
@@ -42,20 +42,18 @@ Chinese templates come from Ooopic, 51miz, 58pic, or Ibaotu. The primary source 
 still-unresolved English records is Vertex42 and Template.net; government forms use
 their identified item URLs.
 
-The source-provenance manifest is not final. Source metadata and redistribution
-rights still need to be checked source by source before a de-anonymized public
-release. Rows without verified source/license information should not be treated as
-confirmed licensed sources.
+The manifest reports the best source information currently available for each record.
+Entries that identify only a website or finite source pool document that limitation and
+should not be read as confirmed per-item attribution or as a substitute for applicable
+source terms.
 
-The review package is intended for anonymous peer review and reproduction. Before
-public release, each source template should be checked against its source terms. The
-public release will not redistribute original third-party PDFs, images, or office
-documents. It will include the normalized empty and filled HTML and the PNG image inputs
-rendered directly from them, as required to reproduce the benchmark, together with
-provenance locators, NEST-authored annotations/metadata, prompts, synthetic artifacts,
-and code. The PNGs are not copied from original documents. Third-party elements retained
-in normalized HTML or rendered PNGs remain subject to their source terms and are
-excluded from NEST's CC BY 4.0 grant.
+This public repository does not redistribute original third-party PDFs, images, or
+Office documents. It includes the normalized empty and filled HTML and the PNG image
+inputs rendered directly from them, as required to reproduce the benchmark, together
+with provenance locators, NEST-authored annotations/metadata, prompts, synthetic
+artifacts, and code. The PNGs are not copied from original documents. Third-party
+elements retained in normalized HTML or rendered PNGs remain subject to their source
+terms and are excluded from NEST's CC BY 4.0 grant.
 
 ## Privacy
 
@@ -65,5 +63,5 @@ synthetic filled values or model-generated predictions. These values were not
 normalized during package assembly because modifying them would change experimental
 inputs/outputs.
 
-Raw annotator workbooks and feedback documents are not included in this anonymous
-package. IAA JSON annotation directories are included under anonymized labels only.
+Raw annotator workbooks and feedback documents are not included in this public
+repository. IAA JSON annotation directories use anonymized labels only.

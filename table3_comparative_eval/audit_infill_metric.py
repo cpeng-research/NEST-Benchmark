@@ -84,7 +84,7 @@ def main() -> None:
 
     report = render_report(source_rows, table3_rows, table3_summary, table4_rows, table4_summary)
     (args.output_dir / "README.md").write_text(report, encoding="utf-8")
-    print(f"Wrote P0.3 audit artifacts to {args.output_dir}")
+    print(f"Wrote Task 3 metric audit artifacts to {args.output_dir}")
 
 
 def build_source_inventory(source_cache: dict[tuple[str, int], SourceTargets]) -> list[dict[str, Any]]:
@@ -416,7 +416,7 @@ def render_report(
         ),
     )
     lines = [
-        "# P0.3 Task 3 Metric Audit",
+        "# Task 3 Metric Audit",
         "",
         "The audit keeps the submitted bidirectional whole-cell substring matcher as `legacy_v1` and compares it with the source-faithful matcher, which scores each observable filling-cell coordinate once, rejects reverse/partial substring credit, preserves value order through whole-cell text, and evaluates input/selectable control values and states.",
         "",

@@ -12,6 +12,5 @@ The anonymization is applied consistently across:
 - `IAA/results/`
 - IAA scripts and README files that mention annotator labels
 
-The original label mapping is intentionally not included in this anonymous review
-package. JSON annotation file contents were not otherwise rewritten.
-
+The original label mapping is not included in this public repository. JSON annotation
+file contents were not otherwise rewritten.

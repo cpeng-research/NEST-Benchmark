@@ -318,7 +318,7 @@ def submit_batch_manifest(args: argparse.Namespace, manifest: dict[str, Any], ma
             if is_request_too_large_error(exc):
                 raise RuntimeError(
                     f"Batch shard {shard['index']} is too large for the current /v1/files endpoint "
-                    f"({format_bytes(jsonl_path.stat().st_size)}). Re-run 01e with a smaller "
+                    f"({format_bytes(jsonl_path.stat().st_size)}). Re-run this command with a smaller "
                     "--max_jsonl_mb value, for example 50 or 25. The current failed manifest was "
                     f"updated at {manifest_path}."
                 ) from exc
@@ -327,7 +327,7 @@ def submit_batch_manifest(args: argparse.Namespace, manifest: dict[str, Any], ma
                     "The current OPENAI_BASE_URL rejected /v1/files uploads because it requires "
                     "a model name, even after retrying proxy-compatible model parameters. This "
                     "usually means the OpenAI-compatible proxy does not support the Files/Batch "
-                    "API correctly. Use the official OpenAI API endpoint for 01e, or ask the "
+                    "API correctly. Use the official OpenAI API endpoint for batch submission, or ask the "
                     "proxy provider how to pass model names for /v1/files."
                 ) from exc
             raise
