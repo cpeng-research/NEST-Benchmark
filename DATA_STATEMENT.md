@@ -64,4 +64,6 @@ normalized during package assembly because modifying them would change experimen
 inputs/outputs.
 
 Raw annotator workbooks and feedback documents are not included in this public
-repository. IAA JSON annotation directories use anonymized labels only.
+repository. Paper-specific anonymized inter-annotator agreement materials are
+retained in the frozen EMNLP 2026 reproduction repository rather than in this
+actively maintained benchmark repository.

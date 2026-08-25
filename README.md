@@ -23,11 +23,14 @@ repository linked above.
 - `finetune_experiments/`: prepared data and code for the Infilling fine-tuning
   study. Paper-specific predictions/results are kept in the reproduction
   repository.
-- `IAA/`: inter-annotator agreement code and anonymized annotation records.
 - `json_algorithm/`: third-party headers and integration files used by the
   optional C++ JEDIS structural-similarity evaluator. Building the evaluator
   requires a compatible local toolchain; the Python evaluator fails explicitly
   if the executable is unavailable.
+
+Paper-specific inter-annotator agreement materials are retained in the frozen
+[EMNLP 2026 reproduction repository](https://github.com/cpeng-research/NEST-EMNLP2026-Reproduction),
+not in this actively maintained benchmark repository.
 
 ## Data Provenance and Distribution
 

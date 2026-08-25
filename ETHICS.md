@@ -16,10 +16,10 @@ this package, because changing them can alter benchmark results.
 
 ## Annotator Privacy
 
-Raw annotator spreadsheets and feedback documents are excluded. The package includes
-inter-annotator agreement scripts, aggregate result files, and JSON annotation
-directories under anonymized labels such as `annotator_A`. The original mapping from
-anonymized labels to annotators is not included in this public repository.
+Raw annotator spreadsheets, feedback documents, and identity mappings are excluded.
+Paper-specific anonymized inter-annotator agreement materials are retained in the
+frozen EMNLP 2026 reproduction repository rather than in this actively maintained
+benchmark repository.
 
 ## Model Outputs
 
