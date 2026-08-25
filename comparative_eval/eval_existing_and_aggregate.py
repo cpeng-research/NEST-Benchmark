@@ -9,15 +9,15 @@ from pathlib import Path
 if __package__ is None or __package__ == "":
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from table3_comparative_eval.config import (
+from comparative_eval.config import (
     SUPPORTED_CONDITIONS,
     SUPPORTED_MODELS,
     SUPPORTED_TASKS,
     TABLE3_ROOT,
     prediction_dir,
 )
-from table3_comparative_eval.metrics.infill import SOURCE_FAITHFUL_MATCHER, SUPPORTED_INFILL_MATCHERS
-from table3_comparative_eval.utils.io_utils import iter_numeric_files, write_csv, write_json
+from comparative_eval.metrics.infill import SOURCE_FAITHFUL_MATCHER, SUPPORTED_INFILL_MATCHERS
+from comparative_eval.utils.io_utils import iter_numeric_files, write_csv, write_json
 
 
 SUPPORTED_LANGS = ("en", "zh")
@@ -69,7 +69,7 @@ def main() -> None:
     parser.add_argument(
         "--output_prefix",
         default=None,
-        help="Output filename prefix under table3_comparative_eval/results. Defaults to table3_<lang>_partial.",
+        help="Output filename prefix under comparative_eval/results. Defaults to table3_<lang>_partial.",
     )
     parser.add_argument(
         "--dry_run",
@@ -116,9 +116,9 @@ def main() -> None:
 
     output_prefix = args.output_prefix or f"table3_{args.lang}_partial"
     scripts = {
-        "schema": "table3_comparative_eval/eval_schema.py",
-        "alignment": "table3_comparative_eval/eval_alignment.py",
-        "infill": "table3_comparative_eval/eval_infill.py",
+        "schema": "comparative_eval/eval_schema.py",
+        "alignment": "comparative_eval/eval_alignment.py",
+        "infill": "comparative_eval/eval_infill.py",
     }
     failures = run_evaluators(runnable, args, scripts)
 
@@ -129,7 +129,7 @@ def main() -> None:
 
     aggregate_cmd = [
         sys.executable,
-        "table3_comparative_eval/aggregate_table3.py",
+        "comparative_eval/aggregate_table3.py",
         "--lang",
         args.lang,
         "--schema_metric",

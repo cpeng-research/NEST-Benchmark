@@ -8,7 +8,7 @@ from pathlib import Path
 if __package__ is None or __package__ == "":
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from table3_comparative_eval.config import (
+from comparative_eval.config import (
     CLOSED_SOURCE_MODELS,
     OPEN_SOURCE_MODELS,
     SUPPORTED_CONDITIONS,
@@ -18,16 +18,16 @@ from table3_comparative_eval.config import (
     prediction_dir,
     workflow_paths,
 )
-from table3_comparative_eval.prompts import TABLE3_SYSTEM_PROMPT
-from table3_comparative_eval.run_inference import (
+from comparative_eval.prompts import TABLE3_SYSTEM_PROMPT
+from comparative_eval.run_inference import (
     build_jobs,
     optional_int,
     run_openai_predictions,
     should_skip_prediction,
     write_prediction,
 )
-from table3_comparative_eval.utils.io_utils import ensure_dir
-from table3_comparative_eval.utils.openai_utils import strip_thinking
+from comparative_eval.utils.io_utils import ensure_dir
+from comparative_eval.utils.openai_utils import strip_thinking
 
 
 LANGS = ("en", "zh")
@@ -134,7 +134,7 @@ def run_local_matrix(args: argparse.Namespace, local_models: list[str]) -> None:
                     describe_combo("local", args.task, condition, lang, model, pending)
         return
 
-    from table3_comparative_eval.utils.local_model_utils import LocalGenerationConfig, LocalUnslothGenerator
+    from comparative_eval.utils.local_model_utils import LocalGenerationConfig, LocalUnslothGenerator
 
     config = LocalGenerationConfig(
         max_seq_length=args.max_seq_length,

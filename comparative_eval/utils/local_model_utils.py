@@ -3,7 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass, replace
 from typing import Any
 
-from table3_comparative_eval.config import resolve_open_source_model
+from comparative_eval.config import resolve_open_source_model
 
 
 @dataclass(frozen=True)

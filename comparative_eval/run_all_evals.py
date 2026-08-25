@@ -8,8 +8,8 @@ from pathlib import Path
 if __package__ is None or __package__ == "":
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from table3_comparative_eval.config import SUPPORTED_CONDITIONS, SUPPORTED_MODELS, SUPPORTED_TASKS
-from table3_comparative_eval.metrics.infill import SOURCE_FAITHFUL_MATCHER, SUPPORTED_INFILL_MATCHERS
+from comparative_eval.config import SUPPORTED_CONDITIONS, SUPPORTED_MODELS, SUPPORTED_TASKS
+from comparative_eval.metrics.infill import SOURCE_FAITHFUL_MATCHER, SUPPORTED_INFILL_MATCHERS
 
 
 def main() -> None:
@@ -26,9 +26,9 @@ def main() -> None:
     args = parser.parse_args()
 
     scripts = {
-        "schema": "table3_comparative_eval/eval_schema.py",
-        "alignment": "table3_comparative_eval/eval_alignment.py",
-        "infill": "table3_comparative_eval/eval_infill.py",
+        "schema": "comparative_eval/eval_schema.py",
+        "alignment": "comparative_eval/eval_alignment.py",
+        "infill": "comparative_eval/eval_infill.py",
     }
     for model in args.models:
         for task in SUPPORTED_TASKS:
@@ -51,7 +51,7 @@ def main() -> None:
                 subprocess.run(cmd, check=True)
     subprocess.run([
         sys.executable,
-        "table3_comparative_eval/aggregate_table3.py",
+        "comparative_eval/aggregate_table3.py",
         "--lang",
         args.lang,
         "--schema_metric",

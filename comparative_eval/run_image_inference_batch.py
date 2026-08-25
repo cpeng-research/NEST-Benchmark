@@ -12,9 +12,9 @@ from typing import Any
 if __package__ is None or __package__ == "":
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from table3_comparative_eval.config import SUPPORTED_CONDITIONS, SUPPORTED_TASKS, TABLE3_ROOT
-from table3_comparative_eval.prompts import TABLE3_SYSTEM_PROMPT
-from table3_comparative_eval.run_image_inference import (
+from comparative_eval.config import SUPPORTED_CONDITIONS, SUPPORTED_TASKS, TABLE3_ROOT
+from comparative_eval.prompts import TABLE3_SYSTEM_PROMPT
+from comparative_eval.run_image_inference import (
     ALL_CONDITIONS,
     ALL_LANGS,
     ALL_TASKS,
@@ -25,9 +25,9 @@ from table3_comparative_eval.run_image_inference import (
     response_usage,
     run_evaluators,
 )
-from table3_comparative_eval.run_inference import optional_int, should_skip_prediction, write_prediction
-from table3_comparative_eval.utils.io_utils import ensure_dir, read_json, write_json
-from table3_comparative_eval.utils.openai_utils import create_client, extract_text
+from comparative_eval.run_inference import optional_int, should_skip_prediction, write_prediction
+from comparative_eval.utils.io_utils import ensure_dir, read_json, write_json
+from comparative_eval.utils.openai_utils import create_client, extract_text
 
 
 BATCH_ENDPOINTS = {
@@ -42,7 +42,7 @@ def main() -> None:
         description=(
             "Prepare, submit, poll, and download OpenAI Batch API jobs for Table 3 "
             "image-based multimodal inference. Downloaded results are written to "
-            "the normal table3_comparative_eval/predictions tree."
+            "the normal comparative_eval/predictions tree."
         )
     )
     parser.add_argument("--mode", choices=["prepare", "submit", "poll", "download", "all"], default="submit")

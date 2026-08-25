@@ -15,9 +15,9 @@ from finetune_experiments.finetune_data import (
     clean_model_name,
     read_jsonl,
 )
-from table3_comparative_eval.config import OPEN_SOURCE_MODEL_PATHS
-from table3_comparative_eval.utils.io_utils import read_json
-from table3_comparative_eval.utils.local_model_utils import (
+from comparative_eval.config import OPEN_SOURCE_MODEL_PATHS
+from comparative_eval.utils.io_utils import read_json
+from comparative_eval.utils.local_model_utils import (
     LocalGenerationConfig,
     is_mlx_model,
     run_mlx_generation,

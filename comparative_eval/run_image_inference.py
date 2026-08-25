@@ -14,17 +14,17 @@ from typing import Any
 if __package__ is None or __package__ == "":
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from table3_comparative_eval.config import (
+from comparative_eval.config import (
     SUPPORTED_CONDITIONS,
     SUPPORTED_TASKS,
     prediction_dir,
     rendered_image_dir,
     workflow_paths,
 )
-from table3_comparative_eval.prompts import TABLE3_SYSTEM_PROMPT
-from table3_comparative_eval.run_inference import optional_int, should_skip_prediction, write_prediction
-from table3_comparative_eval.utils.io_utils import ensure_dir, id_in_range, iter_numeric_files, read_text
-from table3_comparative_eval.utils.openai_utils import create_client, extract_text
+from comparative_eval.prompts import TABLE3_SYSTEM_PROMPT
+from comparative_eval.run_inference import optional_int, should_skip_prediction, write_prediction
+from comparative_eval.utils.io_utils import ensure_dir, id_in_range, iter_numeric_files, read_text
+from comparative_eval.utils.openai_utils import create_client, extract_text
 
 
 LANGS = ("en", "zh")
@@ -56,7 +56,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         description=(
             "Run Table 3 image-based multimodal inference. Results are stored under "
-            "table3_comparative_eval/predictions using a separate prediction model label."
+            "comparative_eval/predictions using a separate prediction model label."
         )
     )
     parser.add_argument("--task", required=True, choices=ALL_TASKS)
@@ -445,9 +445,9 @@ def run_evaluators(
     langs: tuple[str, ...],
 ) -> None:
     evaluator_by_task = {
-        "schema": "table3_comparative_eval/eval_schema.py",
-        "alignment": "table3_comparative_eval/eval_alignment.py",
-        "infill": "table3_comparative_eval/eval_infill.py",
+        "schema": "comparative_eval/eval_schema.py",
+        "alignment": "comparative_eval/eval_alignment.py",
+        "infill": "comparative_eval/eval_infill.py",
     }
     for task in tasks:
         for condition in conditions:

@@ -5,7 +5,7 @@ import unicodedata
 from dataclasses import dataclass
 from typing import Any
 
-from table3_comparative_eval.utils.html_utils import (
+from comparative_eval.utils.html_utils import (
     ALL_LOGICAL_REGIONS_LAYOUT,
     FIRST_TABLE_LAYOUT,
     cell_nodes,

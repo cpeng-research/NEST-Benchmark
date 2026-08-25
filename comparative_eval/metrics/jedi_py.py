@@ -4,7 +4,7 @@ from dataclasses import dataclass
 from functools import lru_cache
 from typing import Any
 
-from table3_comparative_eval.utils.json_utils import normalize_json_text, parse_json_lenient
+from comparative_eval.utils.json_utils import normalize_json_text, parse_json_lenient
 
 
 @dataclass(frozen=True)

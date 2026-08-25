@@ -6,7 +6,7 @@ import sys
 from pathlib import Path
 from typing import Any
 
-from table3_comparative_eval.config import ROOT
+from comparative_eval.config import ROOT
 
 
 ROOT_JSON_REPAIR_SRC = ROOT / "json_repair" / "src"

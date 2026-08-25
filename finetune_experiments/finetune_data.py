@@ -10,14 +10,14 @@ from typing import Any, Iterable
 from bs4 import BeautifulSoup
 from bs4.element import NavigableString, Tag
 
-from table3_comparative_eval.config import ROOT, workflow_paths
-from table3_comparative_eval.prompts import (
+from comparative_eval.config import ROOT, workflow_paths
+from comparative_eval.prompts import (
     TABLE3_SYSTEM_PROMPT,
     alignment_prompt,
     infill_prompt,
     schema_prompt,
 )
-from table3_comparative_eval.utils.io_utils import id_in_range, iter_numeric_files, read_json, read_text
+from comparative_eval.utils.io_utils import id_in_range, iter_numeric_files, read_json, read_text
 
 
 FINETUNE_ROOT = ROOT / "finetune_experiments"
@@ -366,7 +366,7 @@ def new_text_input(soup: BeautifulSoup, name: str) -> Tag:
 
 
 def alignment_gold_self_check(converted_html: str, lang: str, sample_id: int) -> bool:
-    from table3_comparative_eval.eval_alignment import (
+    from comparative_eval.eval_alignment import (
         FIELD_TYPES,
         choose_coordinate_strategy,
         compare_alignment,
@@ -407,7 +407,7 @@ def repair_alignment_html_for_evaluator(
     repair pass appends an extra named input to any target cell still unmatched
     after the direct conversion.
     """
-    from table3_comparative_eval.eval_alignment import (
+    from comparative_eval.eval_alignment import (
         FIELD_TYPES,
         choose_coordinate_strategy,
         compare_alignment,

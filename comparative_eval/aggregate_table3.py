@@ -8,9 +8,9 @@ from pathlib import Path
 if __package__ is None or __package__ == "":
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from table3_comparative_eval.config import SUPPORTED_MODELS, summaries_dir, TABLE3_ROOT
-from table3_comparative_eval.metrics.infill import SOURCE_FAITHFUL_MATCHER, SUPPORTED_INFILL_MATCHERS
-from table3_comparative_eval.utils.io_utils import read_json, write_csv, write_json, write_text
+from comparative_eval.config import SUPPORTED_MODELS, summaries_dir, TABLE3_ROOT
+from comparative_eval.metrics.infill import SOURCE_FAITHFUL_MATCHER, SUPPORTED_INFILL_MATCHERS
+from comparative_eval.utils.io_utils import read_json, write_csv, write_json, write_text
 
 
 TASK_LABELS = {

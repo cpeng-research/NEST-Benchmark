@@ -17,7 +17,7 @@ repository linked above.
 
 - `workflow/`: normalized Empty/Filled HTML, annotations and metadata,
   synthetic artifacts, and HTML-rendered PNG benchmark inputs.
-- `table3_comparative_eval/`: prompts, inference entry points, canonical task
+- `comparative_eval/`: prompts, inference entry points, canonical task
   metrics, and aggregation code. Paper-specific cached predictions are kept in
   the reproduction repository.
 - `finetune_experiments/`: prepared data and code for the Infilling fine-tuning

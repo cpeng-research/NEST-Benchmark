@@ -18,22 +18,22 @@ from finetune_experiments.checkpoint_utils import (
     prediction_path_for_record,
 )
 from finetune_experiments.finetune_data import COMBINED_LANG, DATASET_DIR, FINETUNE_ROOT
-from table3_comparative_eval.config import workflow_paths
-from table3_comparative_eval.metrics.jedi_cpp import compare_json_similarity_cpp
-from table3_comparative_eval.metrics.jedi_py import compare_json_similarity
-from table3_comparative_eval.metrics.infill import (
+from comparative_eval.config import workflow_paths
+from comparative_eval.metrics.jedi_cpp import compare_json_similarity_cpp
+from comparative_eval.metrics.jedi_py import compare_json_similarity
+from comparative_eval.metrics.infill import (
     SOURCE_FAITHFUL_MATCHER,
     SUPPORTED_INFILL_MATCHERS,
 )
-from table3_comparative_eval.eval_schema import (
+from comparative_eval.eval_schema import (
     invalid_prediction_ids_from_rows as schema_invalid_prediction_ids_from_rows,
     parse_schema_json,
     result_row as schema_result_row,
     zero_similarity_result,
 )
-from table3_comparative_eval.utils.eval_cache import CACHE_FIELDNAMES, add_cache_record, cached_row_is_current, prediction_cache_record
-from table3_comparative_eval.utils.io_utils import ensure_dir, read_csv, read_json, read_text, write_csv, write_json
-from table3_comparative_eval.utils.openai_utils import strip_thinking
+from comparative_eval.utils.eval_cache import CACHE_FIELDNAMES, add_cache_record, cached_row_is_current, prediction_cache_record
+from comparative_eval.utils.io_utils import ensure_dir, read_csv, read_json, read_text, write_csv, write_json
+from comparative_eval.utils.openai_utils import strip_thinking
 
 
 RESULTS_DIR = FINETUNE_ROOT / "results"
@@ -152,7 +152,7 @@ def main() -> None:
         output_prefix = args.output_prefix or f"finetune_{clean_model(prediction_model_name)}_{args.lang}_test"
         cmd = [
             sys.executable,
-            "table3_comparative_eval/aggregate_table3.py",
+            "comparative_eval/aggregate_table3.py",
             "--lang",
             args.lang,
             "--schema_metric",
@@ -324,7 +324,7 @@ def evaluate_alignment(
     count_missing_as_zero: bool,
     resume_from_details: bool,
 ) -> None:
-    from table3_comparative_eval.eval_alignment import (
+    from comparative_eval.eval_alignment import (
         FIELD_TYPES,
         alignment_row,
         choose_coordinate_strategy,
@@ -447,7 +447,7 @@ def evaluate_infill(
     resume_from_details: bool,
     infill_matcher: str = SOURCE_FAITHFUL_MATCHER,
 ) -> None:
-    from table3_comparative_eval.eval_infill import (
+    from comparative_eval.eval_infill import (
         compare_infill,
         count_expected_fill_slots,
         infill_row,

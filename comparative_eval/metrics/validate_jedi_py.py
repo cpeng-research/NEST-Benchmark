@@ -9,11 +9,11 @@ from pathlib import Path
 if __package__ is None or __package__ == "":
     sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
-from table3_comparative_eval.config import workflow_paths
-from table3_comparative_eval.metrics.jedi_cpp import compare_json_similarity_cpp
-from table3_comparative_eval.metrics.jedi_py import compare_json_similarity
-from table3_comparative_eval.utils.io_utils import id_in_range, iter_numeric_files, read_json, write_csv
-from table3_comparative_eval.config import details_dir
+from comparative_eval.config import workflow_paths
+from comparative_eval.metrics.jedi_cpp import compare_json_similarity_cpp
+from comparative_eval.metrics.jedi_py import compare_json_similarity
+from comparative_eval.utils.io_utils import id_in_range, iter_numeric_files, read_json, write_csv
+from comparative_eval.config import details_dir
 
 
 def main() -> None:

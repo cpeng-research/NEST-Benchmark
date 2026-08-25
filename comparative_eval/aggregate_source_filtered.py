@@ -8,8 +8,8 @@ from urllib.parse import urlparse
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DETAILS = ROOT / "table3_comparative_eval/results/details"
-OUTPUT = ROOT / "table3_comparative_eval/results/source_filtered"
+DETAILS = ROOT / "comparative_eval/results/details"
+OUTPUT = ROOT / "comparative_eval/results/source_filtered"
 
 MODELS = (
     ("gpt_5", "GPT-5"),

@@ -19,10 +19,10 @@ from finetune_experiments.checkpoint_utils import (
     prediction_path_for_record,
 )
 from finetune_experiments.finetune_data import COMBINED_LANG, DATASET_DIR
-from table3_comparative_eval.prompts import TABLE3_SYSTEM_PROMPT
-from table3_comparative_eval.utils.io_utils import ensure_dir, write_json
-from table3_comparative_eval.utils.local_model_utils import LocalGenerationConfig
-from table3_comparative_eval.utils.openai_utils import strip_thinking
+from comparative_eval.prompts import TABLE3_SYSTEM_PROMPT
+from comparative_eval.utils.io_utils import ensure_dir, write_json
+from comparative_eval.utils.local_model_utils import LocalGenerationConfig
+from comparative_eval.utils.openai_utils import strip_thinking
 
 
 def main() -> None:

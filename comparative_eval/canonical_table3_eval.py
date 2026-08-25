@@ -14,7 +14,7 @@ from typing import Any, Iterable
 if __package__ is None or __package__ == "":
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from table3_comparative_eval.config import (
+from comparative_eval.config import (
     SUPPORTED_CONDITIONS,
     SUPPORTED_TASKS,
     TABLE3_ROOT,
@@ -23,16 +23,16 @@ from table3_comparative_eval.config import (
     rendered_image_dir,
     workflow_paths,
 )
-from table3_comparative_eval.eval_alignment import expand_meta
-from table3_comparative_eval.eval_existing_and_aggregate import (
+from comparative_eval.eval_alignment import expand_meta
+from comparative_eval.eval_existing_and_aggregate import (
     PAPER_TABLE3_MODELS,
     TABLE3_IMAGE_REFERENCE_MODELS,
     discover_coverage,
     run_evaluators,
 )
-from table3_comparative_eval.eval_infill import count_expected_fill_slots
-from table3_comparative_eval.metrics.infill import SOURCE_FAITHFUL_MATCHER, SUPPORTED_INFILL_MATCHERS
-from table3_comparative_eval.utils.io_utils import (
+from comparative_eval.eval_infill import count_expected_fill_slots
+from comparative_eval.metrics.infill import SOURCE_FAITHFUL_MATCHER, SUPPORTED_INFILL_MATCHERS
+from comparative_eval.utils.io_utils import (
     ensure_dir,
     iter_numeric_files,
     read_csv,
@@ -398,9 +398,9 @@ def run_canonical_evaluation(args: argparse.Namespace, models: list[str]) -> Non
         resume_from_details=args.resume_from_details,
     )
     scripts = {
-        "schema": "table3_comparative_eval/eval_schema.py",
-        "alignment": "table3_comparative_eval/eval_alignment.py",
-        "infill": "table3_comparative_eval/eval_infill.py",
+        "schema": "comparative_eval/eval_schema.py",
+        "alignment": "comparative_eval/eval_alignment.py",
+        "infill": "comparative_eval/eval_infill.py",
     }
     failures = run_evaluators(runnable, evaluator_args, scripts)
     if failures:
@@ -441,7 +441,7 @@ def run_canonical_evaluation(args: argparse.Namespace, models: list[str]) -> Non
 
     cmd = [
         sys.executable,
-        "table3_comparative_eval/aggregate_table3.py",
+        "comparative_eval/aggregate_table3.py",
         "--lang",
         args.lang,
         "--schema_metric",

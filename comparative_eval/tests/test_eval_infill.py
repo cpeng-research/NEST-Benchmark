@@ -1,5 +1,5 @@
-from table3_comparative_eval.eval_infill import filter_evaluable_rows
-from table3_comparative_eval.metrics.infill import (
+from comparative_eval.eval_infill import filter_evaluable_rows
+from comparative_eval.metrics.infill import (
     LEGACY_MATCHER,
     SOURCE_FAITHFUL_MATCHER,
     SOURCE_FAITHFUL_V2_MATCHER,

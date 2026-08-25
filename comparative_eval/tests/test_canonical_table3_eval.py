@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import json
 
-from table3_comparative_eval.canonical_table3_eval import prediction_status, summarize_pairs
+from comparative_eval.canonical_table3_eval import prediction_status, summarize_pairs
 
 
 def test_prediction_status_distinguishes_retryable_files(tmp_path):

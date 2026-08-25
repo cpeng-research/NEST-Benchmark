@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from table3_comparative_eval.config import ROOT, rendered_image_dir
+from comparative_eval.config import ROOT, rendered_image_dir
 from workflow.render_html_to_png import collect_tasks
 
 

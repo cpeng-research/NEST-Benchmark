@@ -14,8 +14,8 @@ from typing import Any, Iterable
 if __package__ is None or __package__ == "":
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from table3_comparative_eval.config import ROOT, workflow_paths
-from table3_comparative_eval.metrics.infill import (
+from comparative_eval.config import ROOT, workflow_paths
+from comparative_eval.metrics.infill import (
     InfillCellTarget,
     LegacyTarget,
     build_legacy_targets,
@@ -23,12 +23,12 @@ from table3_comparative_eval.metrics.infill import (
     evaluate_legacy_targets_from_targets,
     evaluate_source_faithful_targets,
 )
-from table3_comparative_eval.utils.html_utils import placeholders_by_cell
-from table3_comparative_eval.utils.openai_utils import strip_thinking
+from comparative_eval.utils.html_utils import placeholders_by_cell
+from comparative_eval.utils.openai_utils import strip_thinking
 
 
-DEFAULT_OUTPUT_DIR = ROOT / "table3_comparative_eval" / "results" / "p03_infill_metric_audit"
-DEFAULT_MANIFEST = ROOT / "table3_comparative_eval" / "results" / "canonical" / "table3_evaluation_manifest.csv"
+DEFAULT_OUTPUT_DIR = ROOT / "comparative_eval" / "results" / "p03_infill_metric_audit"
+DEFAULT_MANIFEST = ROOT / "comparative_eval" / "results" / "canonical" / "table3_evaluation_manifest.csv"
 DEFAULT_TABLE4_DETAILS = (
     ROOT
     / "finetune_experiments"

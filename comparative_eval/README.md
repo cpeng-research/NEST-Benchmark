@@ -36,7 +36,7 @@ Open-weight local models:
 - `Mistral-7B-Instruct-v0.3`
 
 For local inference, configure model paths in
-`table3_comparative_eval/config.py` or pass `--model_path` to
+`comparative_eval/config.py` or pass `--model_path` to
 `run_inference.py`.
 
 ## Re-evaluate Existing Predictions
@@ -44,31 +44,31 @@ For local inference, configure model paths in
 ```bash
 MODELS="gpt-5 gpt-4o gpt-4o-mini gpt-3.5-turbo Llama-3.1-8B-Instruct Qwen2.5-7B-Instruct Gemma-2-9B-it Mistral-7B-Instruct-v0.3"
 
-python table3_comparative_eval/run_all_evals.py --lang en --models $MODELS
-python table3_comparative_eval/run_all_evals.py --lang zh --models $MODELS
-python table3_comparative_eval/aggregate_table3.py --lang both --models $MODELS
+python comparative_eval/run_all_evals.py --lang en --models $MODELS
+python comparative_eval/run_all_evals.py --lang zh --models $MODELS
+python comparative_eval/aggregate_table3.py --lang both --models $MODELS
 ```
 
 Reference outputs are under:
 
-- `table3_comparative_eval/results/details/`
-- `table3_comparative_eval/results/summaries/`
-- `table3_comparative_eval/results/table3_both_partial.*`
+- `comparative_eval/results/details/`
+- `comparative_eval/results/summaries/`
+- `comparative_eval/results/table3_both_partial.*`
 
 ## Re-run Inference
 
 Small API-model smoke test:
 
 ```bash
-python table3_comparative_eval/run_inference.py --task schema --condition empty --model gpt-4o-mini --lang en --start_id 1 --end_id 3
-python table3_comparative_eval/eval_schema.py --condition empty --model gpt-4o-mini --lang en
+python comparative_eval/run_inference.py --task schema --condition empty --model gpt-4o-mini --lang en --start_id 1 --end_id 3
+python comparative_eval/eval_schema.py --condition empty --model gpt-4o-mini --lang en
 ```
 
 Run one task across both languages and both empty/filled conditions:
 
 ```bash
-python table3_comparative_eval/run_task_matrix_inference.py --task schema --model_group api
-python table3_comparative_eval/run_task_matrix_inference.py --task schema --model_group open_source
+python comparative_eval/run_task_matrix_inference.py --task schema --model_group api
+python comparative_eval/run_task_matrix_inference.py --task schema --model_group open_source
 ```
 
 For `--task infill`, inference reads the selected HTML input plus the matching
@@ -80,13 +80,13 @@ not provided as model input.
 Construct one dry-run job for every task, condition, and language:
 
 ```bash
-python table3_comparative_eval/run_image_inference.py --task all --condition both --lang both --limit 1 --dry_run
+python comparative_eval/run_image_inference.py --task all --condition both --lang both --limit 1 --dry_run
 ```
 
 The corresponding OpenAI Batch API entry point is:
 
 ```bash
-python table3_comparative_eval/run_image_inference_batch.py --mode prepare --task all --condition both --lang both --limit 1 --dry_run
+python comparative_eval/run_image_inference_batch.py --mode prepare --task all --condition both --lang both --limit 1 --dry_run
 ```
 
 Both runners store executed outputs under the normal prediction tree using a separate
@@ -100,5 +100,5 @@ schema parsing evaluation. `metrics/jedi_cpp.py` can optionally call the
 bundled C++ JEDI binary under `json_algorithm/` if it has been built locally.
 
 ```bash
-python -m table3_comparative_eval.metrics.validate_jedi_py --lang en --limit 20 --mode tree_edit
+python -m comparative_eval.metrics.validate_jedi_py --lang en --limit 20 --mode tree_edit
 ```

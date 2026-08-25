@@ -20,22 +20,22 @@ from finetune_experiments.checkpoint_utils import (
 )
 from finetune_experiments.evaluate_checkpoint_predictions import gold_file_for_record, read_prediction_text
 from finetune_experiments.finetune_data import COMBINED_LANG, DATASET_DIR, FINETUNE_ROOT, PREDICTIONS_DIR, clean_model_name
-from table3_comparative_eval.config import OPEN_SOURCE_MODELS, prediction_dir, workflow_paths
-from table3_comparative_eval.eval_alignment import (
+from comparative_eval.config import OPEN_SOURCE_MODELS, prediction_dir, workflow_paths
+from comparative_eval.eval_alignment import (
     choose_coordinate_strategy,
     compare_alignment,
     expand_meta,
     resolve_expected_names_from_gold,
 )
-from table3_comparative_eval.eval_schema import parse_schema_json, zero_similarity_result
-from table3_comparative_eval.metrics.infill import (
+from comparative_eval.eval_schema import parse_schema_json, zero_similarity_result
+from comparative_eval.metrics.infill import (
     SOURCE_FAITHFUL_MATCHER,
     SUPPORTED_INFILL_MATCHERS,
     compare_infill,
 )
-from table3_comparative_eval.metrics.jedi_cpp import compare_json_similarity_cpp
-from table3_comparative_eval.metrics.jedi_py import compare_json_similarity
-from table3_comparative_eval.utils.io_utils import ensure_dir, read_csv, read_json, read_text, write_csv, write_json, write_text
+from comparative_eval.metrics.jedi_cpp import compare_json_similarity_cpp
+from comparative_eval.metrics.jedi_py import compare_json_similarity
+from comparative_eval.utils.io_utils import ensure_dir, read_csv, read_json, read_text, write_csv, write_json, write_text
 
 
 RESULTS_DIR = FINETUNE_ROOT / "results"
@@ -535,7 +535,7 @@ def score_schema_record(record: dict[str, Any], pred_text: str, schema_metric: s
 
 
 def score_alignment_record(record: dict[str, Any], pred_html: str) -> tuple[int, int, str]:
-    from table3_comparative_eval.eval_alignment import FIELD_TYPES
+    from comparative_eval.eval_alignment import FIELD_TYPES
 
     sample_id = int(record["sample_id"])
     lang = str(record["lang"])

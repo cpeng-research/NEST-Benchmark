@@ -8,15 +8,15 @@ from pathlib import Path
 if __package__ is None or __package__ == "":
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from table3_comparative_eval.config import SUPPORTED_CONDITIONS, details_dir, prediction_dir, summaries_dir, workflow_paths
-from table3_comparative_eval.utils.eval_cache import CACHE_FIELDNAMES, add_cache_record, cached_row_is_current, prediction_cache_record
-from table3_comparative_eval.metrics.infill import (
+from comparative_eval.config import SUPPORTED_CONDITIONS, details_dir, prediction_dir, summaries_dir, workflow_paths
+from comparative_eval.utils.eval_cache import CACHE_FIELDNAMES, add_cache_record, cached_row_is_current, prediction_cache_record
+from comparative_eval.metrics.infill import (
     SOURCE_FAITHFUL_MATCHER,
     SUPPORTED_INFILL_MATCHERS,
     compare_infill,
 )
-from table3_comparative_eval.utils.io_utils import iter_numeric_files, read_csv, read_text, write_csv, write_json
-from table3_comparative_eval.utils.openai_utils import strip_thinking
+from comparative_eval.utils.io_utils import iter_numeric_files, read_csv, read_text, write_csv, write_json
+from comparative_eval.utils.openai_utils import strip_thinking
 
 
 def main() -> None:

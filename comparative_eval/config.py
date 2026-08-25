@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-TABLE3_ROOT = ROOT / "table3_comparative_eval"
+TABLE3_ROOT = ROOT / "comparative_eval"
 
 CLOSED_SOURCE_MODELS = ("gpt-5", "gpt-4o", "gpt-4o-mini", "gpt-3.5-turbo")
 OPEN_SOURCE_MODEL_PATHS = {

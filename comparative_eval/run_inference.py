@@ -10,7 +10,7 @@ from pathlib import Path
 if __package__ is None or __package__ == "":
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from table3_comparative_eval.config import (
+from comparative_eval.config import (
     SUPPORTED_CONDITIONS,
     SUPPORTED_MODELS,
     SUPPORTED_TASKS,
@@ -18,9 +18,9 @@ from table3_comparative_eval.config import (
     prediction_dir,
     workflow_paths,
 )
-from table3_comparative_eval.prompts import TABLE3_SYSTEM_PROMPT, alignment_prompt, infill_prompt, schema_prompt
-from table3_comparative_eval.utils.io_utils import ensure_dir, id_in_range, iter_numeric_files, read_json, read_text, write_json
-from table3_comparative_eval.utils.openai_utils import create_client, extract_text, strip_thinking
+from comparative_eval.prompts import TABLE3_SYSTEM_PROMPT, alignment_prompt, infill_prompt, schema_prompt
+from comparative_eval.utils.io_utils import ensure_dir, id_in_range, iter_numeric_files, read_json, read_text, write_json
+from comparative_eval.utils.openai_utils import create_client, extract_text, strip_thinking
 
 
 def main() -> None:
@@ -169,7 +169,7 @@ def run_openai_predictions(
 
 
 def run_local_predictions(args: argparse.Namespace, pending: list[tuple[int, str, Path]]) -> None:
-    from table3_comparative_eval.utils.local_model_utils import LocalGenerationConfig, LocalUnslothGenerator
+    from comparative_eval.utils.local_model_utils import LocalGenerationConfig, LocalUnslothGenerator
 
     if args.workers != 1:
         print("Open-source local inference loads one model instance and runs serially; --workers is ignored.")

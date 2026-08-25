@@ -7,9 +7,9 @@ import time
 from pathlib import Path
 from typing import Any
 
-from table3_comparative_eval.config import old_jedi_root
-from table3_comparative_eval.metrics.jedi_py import json_to_bracket_string
-from table3_comparative_eval.utils.json_utils import parse_json_lenient
+from comparative_eval.config import old_jedi_root
+from comparative_eval.metrics.jedi_py import json_to_bracket_string
+from comparative_eval.utils.json_utils import parse_json_lenient
 
 
 def compare_json_similarity_cpp(
