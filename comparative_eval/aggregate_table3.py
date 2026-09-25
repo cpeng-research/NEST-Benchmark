@@ -8,7 +8,7 @@ from pathlib import Path
 if __package__ is None or __package__ == "":
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from comparative_eval.config import SUPPORTED_MODELS, summaries_dir, TABLE3_ROOT
+from comparative_eval.config import SUPPORTED_MODELS, available_languages, summaries_dir, TABLE3_ROOT
 from comparative_eval.metrics.infill import SOURCE_FAITHFUL_MATCHER, SUPPORTED_INFILL_MATCHERS
 from comparative_eval.utils.io_utils import read_json, write_csv, write_json, write_text
 
@@ -18,7 +18,8 @@ TASK_LABELS = {
     "alignment": "Task 2: CH Alignment",
     "infill": "Task 3: Infilling",
 }
-SUPPORTED_LANGS = ("en", "zh")
+SUPPORTED_LANGS = available_languages()
+BASE_LANGS = ("en", "zh")
 COMBINED_LANG = "both"
 IMAGE_REFERENCE_SUFFIX = "-image"
 IMAGE_REFERENCE_LABEL = "Image-input baselines (reference)"
@@ -140,7 +141,7 @@ def validate_infill_summary_versions(
     expected_matcher: str,
     summaries_root: Path,
 ) -> None:
-    langs = SUPPORTED_LANGS if lang == COMBINED_LANG else (lang,)
+    langs = BASE_LANGS if lang == COMBINED_LANG else (lang,)
     mismatches: list[str] = []
     for model in models:
         for condition in ("filled", "empty"):
@@ -192,7 +193,7 @@ def load_combined_score(
 ) -> float | None:
     summaries = [
         data
-        for lang in SUPPORTED_LANGS
+        for lang in BASE_LANGS
         if (data := load_summary(task, condition, lang, model, schema_metric, summaries_root)) is not None
         and int(data.get("sample_count", 0)) > 0
     ]

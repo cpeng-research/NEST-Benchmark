@@ -1,0 +1,55 @@
+{
+  "Datos personales de la persona trabajadora": {
+    "Nombre": "Persona Ficticia A",
+    "DNI/NIE": "SYNTH-DNI-14",
+    "Categoría profesional": "10",
+    "Fecha de nacimiento": "1985-01-01"
+  },
+  "Datos del Servicio (alta o destino del traslado)": {
+    "Institución": "Centro Ficticio",
+    "Código": "COD-SYNTH-14",
+    "Servicio": "Radiología",
+    "Localidad": "Ciudad Ficticia"
+  },
+  "ALTA en dosimetría personal": {
+    "Tipo dosimetría": {
+      "choices": [
+        "Solapa",
+        "Muñeca",
+        "Anillo",
+        "Abdomen",
+        "Delantal",
+        "Cristalino"
+      ],
+      "value": [
+        "Solapa"
+      ]
+    }
+  },
+  "TRASLADO de dosimetría personal desde otro servicio o institución de la misma provincia": {
+    "Tipo dosimetría": {
+      "choices": [
+        "Solapa",
+        "Muñeca",
+        "Anillo",
+        "Abdomen",
+        "Delantal",
+        "Cristalino"
+      ],
+      "value": []
+    },
+    "Historia de origen": "HIST-SYNTH-14"
+  },
+  "Firmas": {
+    "Responsable": {
+      "Fecha": "2026-09-25",
+      "Firmado": "Firma sintética A",
+      "Nombre": "Persona Ficticia B"
+    },
+    "Trabajador": {
+      "Fecha": "2026-09-25",
+      "Firmado": "Firma sintética B",
+      "Nombre": "Persona Ficticia A"
+    }
+  }
+}

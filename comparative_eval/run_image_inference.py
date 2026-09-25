@@ -17,6 +17,7 @@ if __package__ is None or __package__ == "":
 from comparative_eval.config import (
     SUPPORTED_CONDITIONS,
     SUPPORTED_TASKS,
+    available_languages,
     prediction_dir,
     rendered_image_dir,
     workflow_paths,
@@ -27,10 +28,11 @@ from comparative_eval.utils.io_utils import ensure_dir, id_in_range, iter_numeri
 from comparative_eval.utils.openai_utils import create_client, extract_text
 
 
-LANGS = ("en", "zh")
+BASE_LANGS = ("en", "zh")
+LANGS = available_languages()
 ALL_TASKS = (*SUPPORTED_TASKS, "all")
 ALL_CONDITIONS = (*SUPPORTED_CONDITIONS, "both")
-ALL_LANGS = (*LANGS, "both")
+ALL_LANGS = (*LANGS, "both", "all")
 
 
 @dataclass(frozen=True)
@@ -121,7 +123,7 @@ def main() -> None:
     prediction_model_name = args.prediction_model_name or f"{args.api_model}-image"
     selected_tasks = SUPPORTED_TASKS if args.task == "all" else (args.task,)
     selected_conditions = SUPPORTED_CONDITIONS if args.condition == "both" else (args.condition,)
-    selected_langs = LANGS if args.lang == "both" else (args.lang,)
+    selected_langs = BASE_LANGS if args.lang == "both" else LANGS if args.lang == "all" else (args.lang,)
 
     jobs = collect_jobs(
         tasks=selected_tasks,

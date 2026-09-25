@@ -1,0 +1,148 @@
+{
+  "A. Renseignements sur le déclarant": {
+    "A1.i Type de déclarant": {
+      "choices": [
+        "Fabricant",
+        "Importateur"
+      ],
+      "value": [
+        "Importateur"
+      ]
+    },
+    "A1.ii L'importateur a déclaré l'incident au fabricant": {
+      "choices": [
+        "Oui",
+        "Non"
+      ],
+      "value": [
+        "Oui"
+      ]
+    },
+    "A1.iii L'importateur présente un rapport au nom du fabricant": {
+      "choices": [
+        "Oui",
+        "Non"
+      ],
+      "value": [
+        "Non"
+      ]
+    },
+    "A2 Coordonnées du déclarant": "Camille Martin ; camille.martin@example.org ; 613-000-0000 ; télécopieur 613-000-0001",
+    "A3 Numéro de dossier du déclarant": "EX-FR-2026-001",
+    "A4 Numéro de dossier de Santé Canada": "Sans objet (premier dépôt)",
+    "A5 Type de rapport": {
+      "choices": [
+        "Préliminaire",
+        "Mise à jour",
+        "Final",
+        "Préliminaire et final"
+      ],
+      "value": [
+        "Préliminaire et final"
+      ]
+    },
+    "A5 Date prévue du rapport final": "Sans objet",
+    "A5 Date de soumission du rapport précédent": "Sans objet",
+    "A6 Date de présentation": "2026-09-25",
+    "A7 Nom et adresse du fabricant": "Matériel Démonstration Fictif, 10 rue de l'Exemple, Ottawa (Ontario) K1A 0K9",
+    "A7 Nom et adresse de l'importateur": "Importateur Exemple (fictif), 30 avenue du Modèle, Ottawa (Ontario) K1A 0K9",
+    "A8 Numéro d'identification de l'entreprise - fabricant": "ID-FICTIF-001",
+    "A8 Numéro d'identification de l'entreprise - importateur": "ID-FICTIF-002",
+    "A9 Numéro de la licence d'établissement - fabricant": "LICENCE FICTIVE 000001",
+    "A9 Numéro de la licence d'établissement - importateur": "LICENCE FICTIVE 000002"
+  },
+  "B. Renseignements sur l'incident": {
+    "B1.i Classification selon le délai": {
+      "choices": [
+        "10 jours",
+        "30 jours"
+      ],
+      "value": [
+        "30 jours"
+      ]
+    },
+    "B1.ii Lieu de l'incident": {
+      "choices": [
+        "Canadien",
+        "Étranger"
+      ],
+      "value": [
+        "Canadien"
+      ]
+    },
+    "B1.iii Circonstance particulière": {
+      "choices": [
+        "Essai expérimental",
+        "Programme d'accès spécial",
+        "Dispositif émettant des radiations"
+      ],
+      "value": []
+    },
+    "B2 Date de l'incident": "2026-09-15",
+    "B3 Date à laquelle le déclarant a été informé": "2026-09-16",
+    "B4 Conséquences pour le patient": "Aucune lésion observée ; interruption fictive de la surveillance pendant dix minutes, avec risque de détérioration grave si l'anomalie n'avait pas été détectée.",
+    "B5 Détails sur l'incident": "Pendant une surveillance fictive, le capteur s'est déconnecté sans alarme pendant dix minutes ; l'anomalie a été détectée par un contrôle croisé."
+  },
+  "C. Renseignements sur le matériel médical": {
+    "C1 Nom commercial ou de marque": "Moniteur Exemple M1 (fictif)",
+    "C2 Numéro de contrôle, de lot ou de série": "LOT-TEST-001",
+    "C3 Date de péremption": "2027-12-31",
+    "C4.i Classification du matériel": {
+      "choices": [
+        "I",
+        "II",
+        "III",
+        "IV"
+      ],
+      "value": [
+        "II"
+      ]
+    },
+    "C4.ii Numéro d'homologation du matériel": "HOM-FICTIF-001",
+    "C4.iii Numéro d'identification du matériel": "DEV-FICTIF-001",
+    "C4.iv Identificateur du matériel médical du fabricant": "M1-TEST",
+    "C5 Version du logiciel": "1.0-test",
+    "C6 Âge du matériel": "2 ans",
+    "C7 Durée d'utilisation": "3 mois",
+    "C8 Matériel stérilisé": {
+      "choices": [
+        "Oui",
+        "Non"
+      ],
+      "value": [
+        "Non"
+      ]
+    },
+    "C9 Disponibilité du matériel pour une évaluation": {
+      "choices": [
+        "Détruit",
+        "Retourné au fabricant/importateur",
+        "Aucun (avec explication)"
+      ],
+      "value": [
+        "Retourné au fabricant/importateur"
+      ]
+    }
+  },
+  "D. Renseignements sur le plaignant": {
+    "D1 Nature du plaignant": {
+      "choices": [
+        "Consommateur",
+        "Professionnel de la santé",
+        "Autre"
+      ],
+      "value": [
+        "Professionnel de la santé"
+      ]
+    },
+    "D2 Nom du plaignant": "Alex Dubois (fictif)",
+    "D3 Nom de l'établissement de soins de santé": "Clinique Exemple (fictive)",
+    "D4 Adresse": "20 avenue du Modèle, Ottawa (Ontario) K1A 0K9",
+    "D5 Numéro de téléphone et/ou courriel": "613-000-0002 ; alex.dubois@example.org"
+  },
+  "E. Renseignements sur l'enquête": {
+    "E1 Mesures d'enquête et échéancier": "Inspection fictive de l'appareil le 20/09/2026 ; contrôle logiciel et essai de répétition le 22/09/2026.",
+    "E2 Source du problème": "Défaut simulé de connexion du capteur, constaté lors de l'essai fictif.",
+    "E3 Mesures correctives prises": "Retrait du lot fictif de l'essai, contrôle des connexions et mise à jour du protocole de test."
+  }
+}

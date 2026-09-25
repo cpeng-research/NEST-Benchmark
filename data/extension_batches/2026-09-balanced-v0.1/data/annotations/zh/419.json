@@ -1,0 +1,441 @@
+{
+  "id": "zh-ntpc-house-tax-record-request",
+  "candidate_id": "zh-ntpc-house-tax-record-request",
+  "title": "房屋稅課稅資料申請書",
+  "language": "zh",
+  "language_variant": "zh-Hant",
+  "domain": "Finance",
+  "business_topic": "house_tax_record_request",
+  "issuer_id": "tw_ntpc_tax",
+  "template_family": "house-tax-record-request",
+  "source_pages": 1,
+  "retrieved_at": "2026-09-25T12:07:50+00:00",
+  "source_sha256": "62e3983f4093861c03a4c6b5f0548466cb0bcab4a0526c6db23701e7520200f3",
+  "source_url": "https://www.tax.ntpc.gov.tw/sp-onap-fdl-602-f3996a83cb5f4ee29943e40edef724db.html",
+  "landing_url": "https://www.tax.ntpc.gov.tw/sp-onap-cont-28-9bc96-1.html",
+  "license_url": "https://www.tax.ntpc.gov.tw/cp-1090-1104-c6ed0-1.html",
+  "license_note": "The New Taipei City Tax Collection Office website open declaration permits attributed reproduction and adaptation of its own materials, subject to exclusions. Only blank-form functional text and structure are normalized here. This note is not a legal clearance.",
+  "columns": 6,
+  "rows": [
+    [
+      {
+        "text": "房屋稅課稅資料申請書",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "field": "applicant-type",
+        "label": "本",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "property-location",
+        "label": "坐落於本市",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "tax-register",
+        "label": "稅籍編號",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "purpose",
+        "label": "因辦理",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "document-type",
+        "label": "請核發上列",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "此致　新北市政府稅捐稽徵處",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "branch",
+        "label": "分處",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "納稅義務人",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "field": "taxpayer",
+        "label": "納稅義務人",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "taxpayer-sign",
+        "label": "簽章",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "taxpayer-id",
+        "label": "身分證統一編號",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "taxpayer-address",
+        "label": "住址",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "taxpayer-phone",
+        "label": "電話",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "受委託人",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "field": "agent",
+        "label": "受委託人",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "agent-sign",
+        "label": "簽章",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "agent-id",
+        "label": "身分證統一編號",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "agent-address",
+        "label": "住址",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "agent-phone",
+        "label": "電話",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "year",
+        "label": "申請日期：年",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "month",
+        "label": "月",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "day",
+        "label": "日",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "注意事項：依據稅捐稽徵法第 33 條規定，稅捐稽徵機關對納稅人之財產資料應保守秘密。非納稅義務人本人或其繼承人，或未經授權之代理人、辯護人，請勿申請。",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "applicant-type",
+      "label": "本",
+      "path": [
+        "申請房屋",
+        "申請者類型"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "本",
+      "synthetic_value": "人",
+      "options": [
+        "人",
+        "公司"
+      ],
+      "context_evidence": "申請房屋選擇人，不選公司。"
+    },
+    {
+      "id": "property-location",
+      "label": "坐落於本市",
+      "path": [
+        "申請房屋",
+        "坐落於本市"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "坐落於本市",
+      "synthetic_value": "虛構區示例路零號"
+    },
+    {
+      "id": "tax-register",
+      "label": "稅籍編號",
+      "path": [
+        "稅籍編號"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "稅籍編號",
+      "synthetic_value": "SYNTHETIC-TAX-419"
+    },
+    {
+      "id": "purpose",
+      "label": "因辦理",
+      "path": [
+        "因辦理"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "因辦理",
+      "synthetic_value": "資料確認"
+    },
+    {
+      "id": "document-type",
+      "label": "請核發上列",
+      "path": [
+        "請核發上列"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "請核發上列",
+      "synthetic_value": "房屋稅課稅明細表",
+      "options": [
+        "房屋稅課稅明細表",
+        "房屋稅稅籍證明書"
+      ],
+      "context_evidence": "請核發上列房屋稅課稅明細表，不選房屋稅稅籍證明書。"
+    },
+    {
+      "id": "branch",
+      "label": "分處",
+      "path": [
+        "分處"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "分處",
+      "synthetic_value": "虛構分處"
+    },
+    {
+      "id": "taxpayer",
+      "label": "納稅義務人",
+      "path": [
+        "納稅義務人",
+        "姓名"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "納稅義務人",
+      "synthetic_value": "虛構納稅人甲"
+    },
+    {
+      "id": "taxpayer-sign",
+      "label": "簽章",
+      "path": [
+        "納稅義務人",
+        "簽章"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "簽章",
+      "synthetic_value": "虛構納稅人甲之合成簽章"
+    },
+    {
+      "id": "taxpayer-id",
+      "label": "身分證統一編號",
+      "path": [
+        "納稅義務人",
+        "身分證統一編號"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "身分證統一編號",
+      "synthetic_value": "SYNTHETIC-PERSON-419"
+    },
+    {
+      "id": "taxpayer-address",
+      "label": "住址",
+      "path": [
+        "納稅義務人",
+        "住址"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "住址",
+      "synthetic_value": "虛構市示例路零號"
+    },
+    {
+      "id": "taxpayer-phone",
+      "label": "電話",
+      "path": [
+        "納稅義務人",
+        "電話"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "電話",
+      "synthetic_value": "000-000-0419"
+    },
+    {
+      "id": "agent",
+      "label": "受委託人",
+      "path": [
+        "受委託人",
+        "姓名"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "受委託人",
+      "synthetic_value": "虛構代理人乙"
+    },
+    {
+      "id": "agent-sign",
+      "label": "簽章",
+      "path": [
+        "受委託人",
+        "簽章"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "簽章",
+      "synthetic_value": "虛構代理人乙之合成簽章"
+    },
+    {
+      "id": "agent-id",
+      "label": "身分證統一編號",
+      "path": [
+        "受委託人",
+        "身分證統一編號"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "身分證統一編號",
+      "synthetic_value": "SYNTHETIC-AGENT-419"
+    },
+    {
+      "id": "agent-address",
+      "label": "住址",
+      "path": [
+        "受委託人",
+        "住址"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "住址",
+      "synthetic_value": "虛構市另一示例路零號"
+    },
+    {
+      "id": "agent-phone",
+      "label": "電話",
+      "path": [
+        "受委託人",
+        "電話"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "電話",
+      "synthetic_value": "000-000-0420"
+    },
+    {
+      "id": "year",
+      "label": "申請日期：年",
+      "path": [
+        "申請日期",
+        "年"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "申請日期：年",
+      "synthetic_value": "115"
+    },
+    {
+      "id": "month",
+      "label": "月",
+      "path": [
+        "申請日期",
+        "月"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "月",
+      "synthetic_value": "9"
+    },
+    {
+      "id": "day",
+      "label": "日",
+      "path": [
+        "申請日期",
+        "日"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "日",
+      "synthetic_value": "25"
+    }
+  ],
+  "normalization_notes": [
+    "Source is an official blank PDF; HTML is a structured transcription, not the original layout.",
+    "All filled values and contexts are synthetic; no real applicant data is included.",
+    "The address grid and tax-number boxes are merged into semantic fields; printed instructions are abbreviated to the first notice."
+  ],
+  "context": "以下為完全合成的基準測試情境，不是真實申請，也不含真實個人資料。申請房屋選擇人，不選公司。坐落於本市為虛構區示例路零號。稅籍編號為SYNTHETIC-TAX-419。因辦理為資料確認。請核發上列房屋稅課稅明細表，不選房屋稅稅籍證明書。分處為虛構分處。納稅義務人為虛構納稅人甲。簽章為虛構納稅人甲之合成簽章。身分證統一編號為SYNTHETIC-PERSON-419。住址為虛構市示例路零號。電話為000-000-0419。受委託人為虛構代理人乙。簽章為虛構代理人乙之合成簽章。身分證統一編號為SYNTHETIC-AGENT-419。住址為虛構市另一示例路零號。電話為000-000-0420。申請日期：年為115。月為9。日為25。\n"
+}

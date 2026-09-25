@@ -22,27 +22,15 @@ from typing import Any
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
+LANGUAGES = tuple(sorted(path.name[5:] for path in
+                         (PROJECT_ROOT / "workflow/0-html_template").glob("data_*") if path.is_dir()))
 PRESETS = {
-    "empty": {
-        "en": (
-            PROJECT_ROOT / "workflow" / "0-html_template" / "data_en",
-            PROJECT_ROOT / "workflow" / "9-png-a" / "data_en" / "empty",
-        ),
-        "zh": (
-            PROJECT_ROOT / "workflow" / "0-html_template" / "data_zh",
-            PROJECT_ROOT / "workflow" / "9-png-a" / "data_zh" / "empty",
-        ),
-    },
-    "filled": {
-        "en": (
-            PROJECT_ROOT / "workflow" / "3-filled_html-a" / "data_en",
-            PROJECT_ROOT / "workflow" / "9-png-a" / "data_en" / "filled",
-        ),
-        "zh": (
-            PROJECT_ROOT / "workflow" / "3-filled_html-a" / "data_zh",
-            PROJECT_ROOT / "workflow" / "9-png-a" / "data_zh" / "filled",
-        ),
-    },
+    condition: {
+        lang: (
+            PROJECT_ROOT / "workflow" / stage / f"data_{lang}",
+            PROJECT_ROOT / "workflow" / "9-png-a" / f"data_{lang}" / condition,
+        ) for lang in LANGUAGES
+    } for condition, stage in (("empty", "0-html_template"), ("filled", "3-filled_html-a"))
 }
 
 DEFAULT_CHROME_PATHS = [
@@ -763,7 +751,7 @@ def main() -> None:
         required=True,
         help="empty=workflow/0-html_template; filled=workflow/3-filled_html-a",
     )
-    parser.add_argument("--lang", choices=["en", "zh", "both"], default="both")
+    parser.add_argument("--lang", choices=[*LANGUAGES, "both", "all"], default="both")
     parser.add_argument("--start_id", default="", help="Optional numeric start ID.")
     parser.add_argument("--end_id", default="", help="Optional numeric end ID.")
     parser.add_argument(
@@ -821,7 +809,7 @@ def main() -> None:
     args = parser.parse_args()
 
     chrome_path = resolve_chrome(args.chrome)
-    langs = ("en", "zh") if args.lang == "both" else (args.lang,)
+    langs = ("en", "zh") if args.lang == "both" else LANGUAGES if args.lang == "all" else (args.lang,)
     tasks = collect_tasks(args.preset, langs, args.start_id, args.end_id, args.update_mode)
     if not tasks:
         print("No HTML files need rendering.", flush=True)

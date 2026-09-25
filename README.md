@@ -28,14 +28,28 @@ repository linked above.
   requires a compatible local toolchain; the Python evaluator fails explicitly
   if the executable is unavailable.
 
+## September 2026 Extension
+
+The numbered `workflow/` now contains 869 template records: 420 English, 421
+Chinese, 13 French, and 15 Spanish. The 41 additions occupy the same Stage 0-6
+paths and use the same prompts and text-task metrics as the original records.
+
+Stage 9 contains rendered Empty/Filled PNG inputs for all 869 templates.
+Stages 7-8 (a second filled instance) still cover only the original 414
+English and 414 Chinese records. New PNG inputs are not new model baseline
+results.
+Batch dates, sources, reuse notes, and annotation records are under
+[`data/extension_batches/`](data/extension_batches/README.md).
+
 Paper-specific inter-annotator agreement materials are retained in the frozen
 [EMNLP 2026 reproduction repository](https://github.com/cpeng-research/NEST-EMNLP2026-Reproduction),
 not in this actively maintained benchmark repository.
 
 ## Data Provenance and Distribution
 
-The repository provides a provenance manifest covering all 828 research records at
-`data/source_provenance_manifest.csv`. Each row records the template ID, dataset
+The original 828-record provenance manifest remains unchanged at
+`data/source_provenance_manifest.csv`. The current 869-record index is
+`data/source_provenance_manifest_current.csv`. Each row records the template ID, dataset
 split, domain, title, normalized HTML path, best available source information, and
 a concise source-terms note. Exact item URLs are provided where recoverable;
 otherwise, the manifest records the known source website or finite source pool.

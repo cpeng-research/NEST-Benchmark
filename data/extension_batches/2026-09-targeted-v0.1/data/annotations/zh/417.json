@@ -1,0 +1,311 @@
+{
+  "id": "zh-exam-appeal-withdrawal",
+  "candidate_id": "zh-exam-appeal-withdrawal",
+  "title": "訴願撤回申請書",
+  "language": "zh",
+  "language_variant": "zh-Hant",
+  "domain": "GovPublic",
+  "business_topic": "administrative_appeal_withdrawal",
+  "issuer_id": "tw_examination_yuan",
+  "template_family": "administrative_appeal_withdrawal",
+  "source_pages": 2,
+  "retrieved_at": "2026-09-17T17:39:46.321426+00:00",
+  "source_sha256": "521c839a99336f2510f7bc36775c68eb1343a0faf0c1fbd2d42b6295c6c37a7d",
+  "source_url": "https://appeal.exam.gov.tw/File/Download/b5e03d58-c510-4c20-9485-b179d27af030/34",
+  "landing_url": "https://appeal.exam.gov.tw/Other/Other04",
+  "license_url": "https://appeal.exam.gov.tw/Home/Announce",
+  "license_note": "The Examination Yuan's appeal service explicitly releases copyrightable website materials under Open Government Data License, version 1.0. Attribute 考試院 and exact source URL, identify the normalized structure and synthetic completion as adaptations, and imply no endorsement. Logos, third-party specially restricted materials and personal-data rights are excluded. No contrary restriction or filled personal data occurs in this two-page official blank form.",
+  "columns": 6,
+  "rows": [
+    [
+      {
+        "text": "訴願撤回申請書",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "reasons",
+        "label": "茲因",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "other",
+        "label": "其他",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(請勾選或填寫)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "case",
+        "label": "（姓名或案號）",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "申請撤回　訴願(再審)案。",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "此致　考試院",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "role",
+        "label": "申請人",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "signature",
+        "label": "(簽章)",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "id",
+        "label": "身分證統一編號：",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "address",
+        "label": "地址：",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "phone",
+        "label": "電話：",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "中　華　民　國",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "year",
+        "label": "年",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "month",
+        "label": "月",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "day",
+        "label": "日",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "說明：",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "依訴願法第60條規定：「訴願提起後，於決定書送達前，訴願人得撤回之。訴願經撤回後，不得復提起同一之訴願。」。",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "reasons",
+      "label": "茲因",
+      "path": [
+        "茲因"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "茲因",
+      "synthetic_value": [
+        "其他"
+      ],
+      "options": [
+        "原處分機關已撤銷原處分",
+        "同意原處分",
+        "避免訟累",
+        "其他"
+      ],
+      "context_evidence": "撤回原因僅勾選其他，前三項均不勾選。"
+    },
+    {
+      "id": "other",
+      "label": "其他",
+      "path": [
+        "其他"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "其他",
+      "synthetic_value": "改以合成案例內部驗證"
+    },
+    {
+      "id": "case",
+      "label": "（姓名或案號）",
+      "path": [
+        "申請撤回",
+        "姓名或案號"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "（姓名或案號）",
+      "synthetic_value": "SYNTHETIC-APPEAL-001"
+    },
+    {
+      "id": "role",
+      "label": "申請人",
+      "path": [
+        "申請人",
+        "身分類別"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "申請人",
+      "synthetic_value": "訴願人",
+      "options": [
+        "訴願人",
+        "代理人"
+      ],
+      "context_evidence": "申請人身分選訴願人，不選代理人。"
+    },
+    {
+      "id": "signature",
+      "label": "(簽章)",
+      "path": [
+        "申請人",
+        "簽章"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "(簽章)",
+      "synthetic_value": "虛構申請人丙之合成簽章"
+    },
+    {
+      "id": "id",
+      "label": "身分證統一編號：",
+      "path": [
+        "申請人",
+        "身分證統一編號"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "身分證統一編號：",
+      "synthetic_value": "SYNTHETIC-PERSON-003"
+    },
+    {
+      "id": "address",
+      "label": "地址：",
+      "path": [
+        "申請人",
+        "地址"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "地址：",
+      "synthetic_value": "虛構市測試路零號"
+    },
+    {
+      "id": "phone",
+      "label": "電話：",
+      "path": [
+        "申請人",
+        "電話"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "電話：",
+      "synthetic_value": "000-000-0103"
+    },
+    {
+      "id": "year",
+      "label": "年",
+      "path": [
+        "中華民國",
+        "年"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "年",
+      "synthetic_value": "115"
+    },
+    {
+      "id": "month",
+      "label": "月",
+      "path": [
+        "中華民國",
+        "月"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "月",
+      "synthetic_value": "9"
+    },
+    {
+      "id": "day",
+      "label": "日",
+      "path": [
+        "中華民國",
+        "日"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "日",
+      "synthetic_value": "18"
+    }
+  ],
+  "context": "這是一份完全合成、無法律效力的測試案例。撤回原因僅勾選其他，前三項均不勾選。其他原因填改以合成案例內部驗證。申請撤回的姓名或案號填SYNTHETIC-APPEAL-001。申請人身分選訴願人，不選代理人。申請人簽章欄用虛構申請人丙之合成簽章，身分證統一編號是SYNTHETIC-PERSON-003，地址是虛構市測試路零號，電話是000-000-0103。申請日期為中華民國115年9月18日。",
+  "normalization_notes": [
+    "Complete two-page source, including page 2 statutory explanation. Source is native Traditional Chinese; no translation or separation of the explanation page into another sample.",
+    "Retain original reason choices, conditional other-reason blank, combined name-or-case-number blank, applicant-role alternatives, combined signature/name space, identifier, address, phone and individual year/month/day blanks.",
+    "Line-based fields become logical cells in source reading order. Checkbox reason and role groups retain all original options; no fabricated extra applicant-name field. Whitespace and printed leaders are normalized. No original third-party graphics distributed."
+  ],
+  "source_version_note": "The two-page downloadable form has no printed revision date; no version inferred from PDF metadata.",
+  "workflow_identity": {
+    "language": "zh",
+    "id": 417
+  }
+}

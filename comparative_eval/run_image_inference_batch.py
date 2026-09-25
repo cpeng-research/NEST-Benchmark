@@ -17,6 +17,7 @@ from comparative_eval.prompts import TABLE3_SYSTEM_PROMPT
 from comparative_eval.run_image_inference import (
     ALL_CONDITIONS,
     ALL_LANGS,
+    BASE_LANGS,
     ALL_TASKS,
     LANGS,
     ImageJob,
@@ -180,7 +181,7 @@ def main() -> None:
 def prepare_batch_manifest(args: argparse.Namespace, prediction_model_name: str) -> tuple[dict[str, Any], Path]:
     selected_tasks = SUPPORTED_TASKS if args.task == "all" else (args.task,)
     selected_conditions = SUPPORTED_CONDITIONS if args.condition == "both" else (args.condition,)
-    selected_langs = LANGS if args.lang == "both" else (args.lang,)
+    selected_langs = BASE_LANGS if args.lang == "both" else LANGS if args.lang == "all" else (args.lang,)
 
     jobs = collect_jobs(
         tasks=selected_tasks,
@@ -723,7 +724,7 @@ def selections_from_manifest(manifest: dict[str, Any]) -> tuple[tuple[str, ...],
     return (
         tuple(manifest.get("selected_tasks") or SUPPORTED_TASKS),
         tuple(manifest.get("selected_conditions") or SUPPORTED_CONDITIONS),
-        tuple(manifest.get("selected_langs") or LANGS),
+        tuple(manifest.get("selected_langs") or BASE_LANGS),
     )
 
 

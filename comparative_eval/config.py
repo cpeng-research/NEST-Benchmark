@@ -20,6 +20,12 @@ SUPPORTED_TASKS = ("schema", "alignment", "infill")
 SUPPORTED_CONDITIONS = ("empty", "filled")
 
 
+def available_languages() -> tuple[str, ...]:
+    stage = ROOT / "workflow/0-html_template"
+    return tuple(sorted(path.name[5:] for path in stage.glob("data_*")
+                        if path.is_dir() and any(path.glob("[0-9]*.html"))))
+
+
 @dataclass(frozen=True)
 class WorkflowPaths:
     html_empty: Path
@@ -51,7 +57,7 @@ def prediction_dir(task: str, condition: str, lang: str, model: str) -> Path:
 def rendered_image_dir(condition: str, lang: str) -> Path:
     if condition not in SUPPORTED_CONDITIONS:
         raise ValueError(f"Unsupported condition: {condition}")
-    if lang not in {"en", "zh"}:
+    if lang not in available_languages():
         raise ValueError(f"Unsupported language: {lang}")
     return ROOT / "workflow" / "9-png-a" / f"data_{lang}" / condition
 

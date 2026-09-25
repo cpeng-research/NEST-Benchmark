@@ -1,0 +1,386 @@
+{
+  "id": "fr-school-trip-budget",
+  "candidate_id": "fr-school-trip-budget",
+  "title": "Budget prévisionnel premier degré",
+  "language": "fr",
+  "domain": "Education",
+  "business_topic": "school_trip_budget",
+  "issuer_id": "fr_dgesco",
+  "template_family": "school-trip-budget",
+  "source_pages": 1,
+  "retrieved_at": "2026-09-25T15:00:01.636252+00:00",
+  "source_sha256": "5ef57584490a7dadf20b4826e066dcb70bde3af2f2abad64eb6e56f242c85a67",
+  "source_url": "https://eduscol.education.gouv.fr/sites/default/files/document/budget-previsionnel-premier-degredocx-101604.docx",
+  "landing_url": "https://eduscol.education.gouv.fr/5061/sorties-et-voyages-scolaires-dans-le-premier-degre",
+  "license_url": "https://eduscol.education.gouv.fr/4656/mentions-legales",
+  "license_note": "Official blank form, transcribed as functional fields without source artwork or logos. Attribute the issuing agency and source. This note is not a legal clearance.",
+  "columns": 6,
+  "rows": [
+    [
+      {
+        "text": "Budget prévisionnel premier degré",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "outing-type",
+        "label": "Type de sortie",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "DÉPENSES",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "expense-1",
+        "label": "Coût des visites et activités pratiquées",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "expense-2",
+        "label": "Coût du transport",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "expense-3",
+        "label": "Coût de la restauration",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "expense-4",
+        "label": "Coût de l’hébergement",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "expense-5",
+        "label": "Autres dépenses",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "expense-total",
+        "label": "Total",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "RECETTES - Séjour des élèves",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "family",
+        "label": "Participation",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "town",
+        "label": "Contribution de la commune",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "other",
+        "label": "Autres sources (à préciser)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "subtotal1",
+        "label": "Sous total 1",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "RECETTES - Séjour des accompagnateurs",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "escort-town",
+        "label": "Contribution de la commune",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "escort-other",
+        "label": "Autres sources (à préciser)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "subtotal2",
+        "label": "Sous total 2",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "revenue-total",
+        "label": "Total",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "per-pupil",
+        "label": "Coût du séjour par élève",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "outing-type",
+      "label": "Type de sortie",
+      "path": [
+        "Budget prévisionnel premier degré",
+        "Type de sortie"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Type de sortie",
+      "synthetic_value": "Voyage scolaire",
+      "options": [
+        "Sortie scolaire sans nuitée obligatoire",
+        "Sortie scolaire sans nuitée facultative",
+        "Voyage scolaire"
+      ],
+      "context_evidence": "Budget prévisionnel premier degré / Type de sortie: selected Voyage scolaire; all other choices not selected. "
+    },
+    {
+      "id": "expense-1",
+      "label": "Coût des visites et activités pratiquées",
+      "path": [
+        "DÉPENSES",
+        "Coût des visites et activités pratiquées"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Coût des visites et activités pratiquées",
+      "synthetic_value": "100"
+    },
+    {
+      "id": "expense-2",
+      "label": "Coût du transport",
+      "path": [
+        "DÉPENSES",
+        "Coût du transport"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Coût du transport",
+      "synthetic_value": "200"
+    },
+    {
+      "id": "expense-3",
+      "label": "Coût de la restauration",
+      "path": [
+        "DÉPENSES",
+        "Coût de la restauration"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Coût de la restauration",
+      "synthetic_value": "300"
+    },
+    {
+      "id": "expense-4",
+      "label": "Coût de l’hébergement",
+      "path": [
+        "DÉPENSES",
+        "Coût de l’hébergement"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Coût de l’hébergement",
+      "synthetic_value": "400"
+    },
+    {
+      "id": "expense-5",
+      "label": "Autres dépenses",
+      "path": [
+        "DÉPENSES",
+        "Autres dépenses"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Autres dépenses",
+      "synthetic_value": "500"
+    },
+    {
+      "id": "expense-total",
+      "label": "Total",
+      "path": [
+        "DÉPENSES",
+        "Total"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Total",
+      "synthetic_value": "1500"
+    },
+    {
+      "id": "family",
+      "label": "Participation",
+      "path": [
+        "RECETTES - Séjour des élèves",
+        "Participation"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Participation",
+      "synthetic_value": "600"
+    },
+    {
+      "id": "town",
+      "label": "Contribution de la commune",
+      "path": [
+        "RECETTES - Séjour des élèves",
+        "Contribution de la commune"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Contribution de la commune",
+      "synthetic_value": "400"
+    },
+    {
+      "id": "other",
+      "label": "Autres sources (à préciser)",
+      "path": [
+        "RECETTES - Séjour des élèves",
+        "Autres sources (à préciser)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Autres sources (à préciser)",
+      "synthetic_value": "300"
+    },
+    {
+      "id": "subtotal1",
+      "label": "Sous total 1",
+      "path": [
+        "RECETTES - Séjour des élèves",
+        "Sous total 1"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Sous total 1",
+      "synthetic_value": "1300"
+    },
+    {
+      "id": "escort-town",
+      "label": "Contribution de la commune",
+      "path": [
+        "RECETTES - Séjour des accompagnateurs",
+        "Contribution de la commune"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Contribution de la commune",
+      "synthetic_value": "200"
+    },
+    {
+      "id": "escort-other",
+      "label": "Autres sources (à préciser)",
+      "path": [
+        "RECETTES - Séjour des accompagnateurs",
+        "Autres sources (à préciser)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Autres sources (à préciser)",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "subtotal2",
+      "label": "Sous total 2",
+      "path": [
+        "RECETTES - Séjour des accompagnateurs",
+        "Sous total 2"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Sous total 2",
+      "synthetic_value": "200"
+    },
+    {
+      "id": "revenue-total",
+      "label": "Total",
+      "path": [
+        "RECETTES",
+        "Total"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Total",
+      "synthetic_value": "1500"
+    },
+    {
+      "id": "per-pupil",
+      "label": "Coût du séjour par élève",
+      "path": [
+        "RECETTES - Séjour des accompagnateurs",
+        "Coût du séjour par élève"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Coût du séjour par élève",
+      "synthetic_value": "65"
+    }
+  ],
+  "normalization_notes": [
+    "One normalized HTML table represents the complete blank form, including repeated blank rows.",
+    "Source original is linked, not redistributed; filled values and context are synthetic."
+  ],
+  "source_note": "",
+  "context": "All names, identifiers, addresses, dates, amounts and choices below are synthetic benchmark examples, not real applications. Budget prévisionnel premier degré / Type de sortie: selected Voyage scolaire; all other choices not selected. DÉPENSES / Coût des visites et activités pratiquées: 100. DÉPENSES / Coût du transport: 200. DÉPENSES / Coût de la restauration: 300. DÉPENSES / Coût de l’hébergement: 400. DÉPENSES / Autres dépenses: 500. DÉPENSES / Total: 1500. RECETTES - Séjour des élèves / Participation: 600. RECETTES - Séjour des élèves / Contribution de la commune: 400. RECETTES - Séjour des élèves / Autres sources (à préciser): 300. RECETTES - Séjour des élèves / Sous total 1: 1300. RECETTES - Séjour des accompagnateurs / Contribution de la commune: 200. RECETTES - Séjour des accompagnateurs / Autres sources (à préciser): 0. RECETTES - Séjour des accompagnateurs / Sous total 2: 200. RECETTES - Séjour des accompagnateurs / Total: 1500. RECETTES - Séjour des accompagnateurs / Coût du séjour par élève: 65.\n"
+}

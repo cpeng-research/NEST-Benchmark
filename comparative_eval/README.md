@@ -1,7 +1,27 @@
-# Table 3 Comparative Evaluation
+# Comparative Evaluation
 
-This directory contains the implementation and checked-in prediction artifacts
-for the paper's filled-table vs. empty-template comparison.
+This directory contains the benchmark's prompts, inference scripts, and task
+metrics. The numbered workflow now also includes multilingual additions.
+
+## Current Workflow
+
+The existing inference and evaluation commands accept `en`, `zh`, `fr`, and
+`es`. Select a language explicitly to run a new batch; the batch runner's
+default remains `en` and `zh`.
+
+```bash
+python comparative_eval/run_task_matrix_inference.py --task schema \
+  --model_group api --langs fr es --dry_run
+python comparative_eval/run_inference.py --task schema --condition empty \
+  --model gpt-4o-mini --lang fr --start_id 1 --end_id 2
+python comparative_eval/eval_schema.py --condition empty \
+  --model gpt-4o-mini --lang fr
+```
+
+Use `run_inference.py` for model calls and `eval_schema.py`,
+`eval_alignment.py`, or `eval_infill.py` for the corresponding scores. The
+original English ID 189 has a zero-byte empty HTML file; that legacy file is
+unchanged.
 
 ## Inputs
 

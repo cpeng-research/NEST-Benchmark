@@ -6,7 +6,8 @@ This public repository supports benchmark use and reproducibility.
 
 The benchmark is based on form/table templates and derived annotations rather than
 real completed user submissions. Source provenance and source-terms notes are recorded
-in `data/source_provenance_manifest.csv`.
+in `data/source_provenance_manifest.csv` for the original records and
+`data/source_provenance_manifest_current.csv` for the extended collection.
 
 ## Synthetic Filled Values
 
@@ -30,7 +31,8 @@ treated as benchmark artifacts, not as real personal records.
 
 ## Release Safeguards
 
-- The repository provides an 828-record provenance manifest.
+- The repository provides an unchanged 828-record provenance manifest and a
+  869-record current index with batch-specific source records.
 - Original third-party PDFs, images, and Office documents are not distributed.
 - Code is released under MIT; NEST-created artifacts are released under CC BY 4.0;
   retained third-party elements remain subject to their source terms.

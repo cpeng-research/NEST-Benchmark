@@ -14,6 +14,7 @@ from comparative_eval.config import (
     SUPPORTED_CONDITIONS,
     SUPPORTED_MODELS,
     SUPPORTED_TASKS,
+    available_languages,
     is_open_source_model,
     prediction_dir,
     workflow_paths,
@@ -28,7 +29,7 @@ def main() -> None:
     parser.add_argument("--task", required=True, choices=SUPPORTED_TASKS)
     parser.add_argument("--condition", required=True, choices=SUPPORTED_CONDITIONS)
     parser.add_argument("--model", required=True, choices=SUPPORTED_MODELS)
-    parser.add_argument("--lang", default="en", choices=["en", "zh"])
+    parser.add_argument("--lang", default="en", choices=available_languages())
     parser.add_argument("--start_id", type=optional_int, default=None)
     parser.add_argument("--end_id", type=optional_int, default=None)
     parser.add_argument("--limit", type=int, default=0)

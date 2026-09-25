@@ -1,0 +1,355 @@
+{
+  "id": "es-sommer-bronchoscopy",
+  "candidate_id": "es-sommer-bronchoscopy",
+  "title": "CONSENTIMIENTO INFORMADO DE BRONCOSCOPÍA",
+  "language": "es",
+  "domain": "Healthcare",
+  "business_topic": "BronchoscopyConsent",
+  "issuer_id": "ar_hospital_nacional_baldomero_sommer",
+  "template_family": "sommer_bronchoscopy_consent",
+  "source_pages": 1,
+  "source_sha256": "8c03668780b03f096723fa3ec12ce6a1f817469f44bc7c15b5a0871d1005c34c",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/2026/09/hospital_sommer_consentimiento_informado_broncoscopia.pdf",
+  "landing_url": "https://www.argentina.gob.ar/salud/hospitalsommer/consentimientos-informados",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "Argentina.gob.ar explicitly licenses its own content CC BY 4.0 unless otherwise declared. This hospital-authored clinical form is directly linked from its official consent catalogue; neither PDF nor catalogue declares contrary reuse terms. Attribution: Hospital Nacional Dr. Baldomero Sommer, CONSENTIMIENTO INFORMADO DE BRONCOSCOPÍA, source URL above; CC BY 4.0 https://creativecommons.org/licenses/by/4.0/. Adapted to HTML/JSON with synthetic data for the NEST Benchmark; not an official form or endorsed clinical guidance. Logos, national insignia and trademark rights are excluded from this adaptation. Third-party materials, privacy/personality rights and contrary notices are not overridden.",
+  "retrieved_at": "2026-09-17T17:45:41.058376+00:00",
+  "source_version_note": "Undated visible form, current /2026/09/ official catalogue link. HTTP Last-Modified 2026-09-09 21:52:13 GMT; PDF creation/modification metadata 2024-08-28 14:55:35 (no timezone). Metadata is not asserted as a clinical revision date.",
+  "columns": 6,
+  "rows": [
+    [
+      {
+        "text": "CONSENTIMIENTO INFORMADO DE BRONCOSCOPÍA",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Autorizo al Dr. /Dra",
+        "field": "physician",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "y a su equipo médico a realizar procedimientos endoscópicos y a efectuar otra intervención que considere necesaria, tanto por afecciones previas o imprevistas que puedan surgir por el mismo.",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Autorizo la administración de fármacos anestésicos en mi persona que se consideren necesarios para realizar dicho procedimiento.",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Autorizo el uso de los Servicios de Radiologia, Laboratorio y Patología que considere necesarios para arribar al diagnóstico final.",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Me han sido explicados detalladamente la naturaleza y propósito de los procedimientos y la anestesia, posibles métodos alternativos y riesgos de posibles complicaciones en que se incurre.",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Se me ha explicado que el procedimiento no implica garantías ni seguridad de resultados de cura. He leído y comprendido el contenido de cada párrafo.",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nombre y Apellido:",
+        "field": "patient_name",
+        "colspan": 5,
+        "source_page": 1
+      },
+      {
+        "label": "Edad:",
+        "field": "age",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Tel.:",
+        "field": "phone",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "Dirección:",
+        "field": "address",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "DNI.:",
+        "field": "patient_document",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "Obra Social:",
+        "field": "coverage",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FIRMA PACIENTE",
+        "field": "patient_signature",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "FIRMA FAMILIAR",
+        "field": "relative_signature",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "DNI PACIENTE",
+        "field": "patient_signature_document",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "DNI FAMILIAR",
+        "field": "relative_document",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "En",
+        "field": "place_day",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "de",
+        "field": "month",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "de 20",
+        "field": "year_suffix",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "1",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Hospital Nacional “Dr. Baldomero Sommer” – Consentimiento Informado de Broncoscopía",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "physician",
+      "label": "Autorizo al Dr. /Dra",
+      "path": [
+        "CONSENTIMIENTO INFORMADO DE BRONCOSCOPÍA",
+        "Autorizo al Dr. /Dra"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Autorizo al Dr. /Dra",
+      "synthetic_value": "Dra. Alba Ejemplo"
+    },
+    {
+      "id": "patient_name",
+      "label": "Nombre y Apellido:",
+      "path": [
+        "CONSENTIMIENTO INFORMADO DE BRONCOSCOPÍA",
+        "Nombre y Apellido:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre y Apellido:",
+      "synthetic_value": "Elena Modelo"
+    },
+    {
+      "id": "age",
+      "label": "Edad:",
+      "path": [
+        "CONSENTIMIENTO INFORMADO DE BRONCOSCOPÍA",
+        "Edad:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Edad:",
+      "synthetic_value": "47"
+    },
+    {
+      "id": "phone",
+      "label": "Tel.:",
+      "path": [
+        "CONSENTIMIENTO INFORMADO DE BRONCOSCOPÍA",
+        "Tel.:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Tel.:",
+      "synthetic_value": "TELÉFONO SINTÉTICO B01"
+    },
+    {
+      "id": "address",
+      "label": "Dirección:",
+      "path": [
+        "CONSENTIMIENTO INFORMADO DE BRONCOSCOPÍA",
+        "Dirección:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dirección:",
+      "synthetic_value": "Calle Ficticia 101, Villa Ensayo"
+    },
+    {
+      "id": "patient_document",
+      "label": "DNI.:",
+      "path": [
+        "CONSENTIMIENTO INFORMADO DE BRONCOSCOPÍA",
+        "DNI.:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DNI.:",
+      "synthetic_value": "DNI-SINTÉTICO-B01"
+    },
+    {
+      "id": "coverage",
+      "label": "Obra Social:",
+      "path": [
+        "CONSENTIMIENTO INFORMADO DE BRONCOSCOPÍA",
+        "Obra Social:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Obra Social:",
+      "synthetic_value": "Cobertura Ficticia Modelo"
+    },
+    {
+      "id": "patient_signature",
+      "label": "FIRMA PACIENTE",
+      "path": [
+        "CONSENTIMIENTO INFORMADO DE BRONCOSCOPÍA",
+        "FIRMA PACIENTE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "FIRMA PACIENTE",
+      "synthetic_value": "FIRMA SINTÉTICA ELENA"
+    },
+    {
+      "id": "relative_signature",
+      "label": "FIRMA FAMILIAR",
+      "path": [
+        "CONSENTIMIENTO INFORMADO DE BRONCOSCOPÍA",
+        "FIRMA FAMILIAR"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "FIRMA FAMILIAR",
+      "synthetic_value": "FIRMA SINTÉTICA LUCÍA"
+    },
+    {
+      "id": "patient_signature_document",
+      "label": "DNI PACIENTE",
+      "path": [
+        "CONSENTIMIENTO INFORMADO DE BRONCOSCOPÍA",
+        "DNI PACIENTE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DNI PACIENTE",
+      "synthetic_value": "DNI-SINTÉTICO-B01"
+    },
+    {
+      "id": "relative_document",
+      "label": "DNI FAMILIAR",
+      "path": [
+        "CONSENTIMIENTO INFORMADO DE BRONCOSCOPÍA",
+        "DNI FAMILIAR"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DNI FAMILIAR",
+      "synthetic_value": "DNI-SINTÉTICO-B02"
+    },
+    {
+      "id": "place_day",
+      "label": "En",
+      "path": [
+        "CONSENTIMIENTO INFORMADO DE BRONCOSCOPÍA",
+        "En"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "En \nde \nde 20",
+      "synthetic_value": "Villa Ensayo, 19"
+    },
+    {
+      "id": "month",
+      "label": "de",
+      "path": [
+        "CONSENTIMIENTO INFORMADO DE BRONCOSCOPÍA",
+        "de"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "En \nde \nde 20",
+      "synthetic_value": "septiembre"
+    },
+    {
+      "id": "year_suffix",
+      "label": "de 20",
+      "path": [
+        "CONSENTIMIENTO INFORMADO DE BRONCOSCOPÍA",
+        "de 20"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "de 20",
+      "synthetic_value": "26"
+    }
+  ],
+  "context": "CASO TOTALMENTE SINTÉTICO, solo para evaluación de formularios; no describe atención ni consentimiento reales. La paciente ficticia Elena Modelo tiene 47 años, documento DNI-SINTÉTICO-B01, teléfono no operativo TELÉFONO SINTÉTICO B01, domicilio inventado Calle Ficticia 101, Villa Ensayo y cobertura inventada Cobertura Ficticia Modelo. En esta simulación autoriza a la profesional ficticia Dra. Alba Ejemplo para la broncoscopía descrita. Ha leído y comprendido las explicaciones y firma con el marcador tipográfico FIRMA SINTÉTICA ELENA; su DNI se repite como DNI-SINTÉTICO-B01. La familiar ficticia Lucía Modelo acompaña y deja FIRMA SINTÉTICA LUCÍA y DNI-SINTÉTICO-B02. En los tres espacios de la línea final se escriben, respectivamente, Villa Ensayo, 19; septiembre; y 26. El último valor completa el prefijo impreso 20 y representa el año 2026. Todas las identidades, contactos, cobertura y firmas son ficticias.",
+  "normalization_notes": [
+    "Complete one-page standalone source, not an extract. All six clinical paragraphs, six demographic/contact blanks, four signature/identity blanks, physician blank and three final place/date blanks retained (14 targets).",
+    "Six-column grid preserves wide name/narrow age, paired contact and insurance rows, paired patient/family signature columns and the three distinct final blanks. Inline physician sentence is continued on the next row; no wording omitted.",
+    "Printed source labels/punctuation retained, including Radiologia without an accent, DNI.:, Dr. /Dra and fixed de 20. Ruled writing lines and whitespace become target-cell whitespace; they are not substantive text. The final year target is the suffix after the fixed 20, not a full year.",
+    "Source logos/insignia excluded as protected graphics; the textual hospital attribution/footer is preserved. No dropdowns, nested tables or rowspans are needed."
+  ],
+  "workflow_identity": {
+    "language": "es",
+    "id": 3
+  }
+}

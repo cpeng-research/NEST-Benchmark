@@ -1,0 +1,1203 @@
+{
+  "id": "fr-dgesco-daytrip",
+  "candidate_id": "fr-dgesco-daytrip",
+  "title": "FORMULAIRE DE DEMANDE D’AUTORISATION D’UNE SORTIE SCOLAIRE SANS NUITÉE",
+  "language": "fr",
+  "domain": "Education",
+  "business_topic": "Primary school non-overnight outing approval",
+  "issuer": "Ministère de l’Éducation nationale — Direction générale de l’enseignement scolaire (DGESCO)",
+  "issuer_id": "fr_men_dgesco",
+  "template_family": "primary-school-daytrip-authorization",
+  "source_pages": 2,
+  "source_sha256": "3edc1e165c9329f63d832856a38220260bcfecdfc3f5442d9841e75652babba4",
+  "source_url": "https://eduscol.education.gouv.fr/sites/default/files/document/formulaire-demande-autorisation-sortie-sans-nuitee1er-degredocx-101613.docx",
+  "original_source_sha256": "9962c57591c58ffa8c76985569b64ff69072c6319ecda8bddc5bb3b40456171d",
+  "original_source_mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "mime_type": "application/pdf",
+  "converted_from_docx": true,
+  "retrieved_at": "2026-09-17T16:06:39.456485+00:00",
+  "source_version_note": "No publication date or revision number is printed in this DOCX form. The official landing page displays June 2026, while its accompanying guide is labelled December 2025; neither is asserted to be the form publication date. PDF creation metadata only dates the local conversion.",
+  "landing_url": "https://eduscol.education.gouv.fr/5061/sorties-et-voyages-scolaires-dans-le-premier-degre",
+  "license_url": "https://eduscol.education.gouv.fr/4656/mentions-legales",
+  "license_note": "The official Eduscol legal notice explicitly covers both page information and downloadable documents under Etalab 2.0, excluding third-party content, logos, pictograms, photographs and other material whose rights the ministry does not hold. This is DGESCO's official downloadable ministry form, with no conflicting third-party attribution found in the document. Attribute DGESCO and original DOCX URL, note the undated form and landing-page June 2026 date, retrieval time, local conversion and normalized adaptation. No official endorsement or authentic signatures are implied.",
+  "columns": 6,
+  "fields": [
+    {
+      "id": "school-level",
+      "label": "Sortie impliquant des élèves de",
+      "path": [
+        "Informations générales",
+        "Sortie impliquant des élèves de"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "Sortie impliquant des élèves de",
+      "synthetic_value": [
+        "Élémentaire"
+      ],
+      "options": [
+        "Maternelle",
+        "Élémentaire"
+      ],
+      "context_evidence": "La sortie implique uniquement des élèves d’Élémentaire, aucun élève de Maternelle."
+    },
+    {
+      "id": "outing-type",
+      "label": "Type de sortie",
+      "path": [
+        "Informations générales",
+        "Type de sortie"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Type de sortie",
+      "synthetic_value": "Sortie scolaire obligatoire récurrente",
+      "options": [
+        "Sortie scolaire obligatoire récurrente",
+        "Sortie scolaire obligatoire occasionnelle",
+        "Sortie scolaire facultative"
+      ],
+      "context_evidence": "Le type retenu est Sortie scolaire obligatoire récurrente ; ni occasionnelle ni facultative."
+    },
+    {
+      "id": "school",
+      "label": "Nom de l’école",
+      "path": [
+        "Informations générales",
+        "Nom de l’école"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom de l’école",
+      "synthetic_value": "École fictive des Savoirs"
+    },
+    {
+      "id": "address",
+      "label": "Adresse",
+      "path": [
+        "Informations générales",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Adresse",
+      "synthetic_value": "10 rue de l’Exemple"
+    },
+    {
+      "id": "postcode",
+      "label": "Code postal",
+      "path": [
+        "Informations générales",
+        "Code postal"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Code postal",
+      "synthetic_value": "75000"
+    },
+    {
+      "id": "commune",
+      "label": "Commune",
+      "path": [
+        "Informations générales",
+        "Commune"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Commune",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "teacher",
+      "label": "Enseignant référent",
+      "path": [
+        "Informations générales",
+        "Enseignant référent"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Enseignant référent",
+      "synthetic_value": "Alice Martin"
+    },
+    {
+      "id": "phone",
+      "label": "Téléphone permettant de joindre le groupe en cas d’urgence",
+      "path": [
+        "Informations générales",
+        "Téléphone permettant de joindre le groupe en cas d’urgence"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Téléphone permettant de joindre le groupe en cas d’urgence",
+      "synthetic_value": "0100000000"
+    },
+    {
+      "id": "dates",
+      "label": "Date(s) de la sortie",
+      "path": [
+        "Informations générales",
+        "Date(s) de la sortie"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date(s) de la sortie",
+      "synthetic_value": "Du 03/11/2026 au 08/12/2026, chaque mardi"
+    },
+    {
+      "id": "sessions",
+      "label": "Si la sortie scolaire obligatoire est récurrente, nombre de",
+      "path": [
+        "Informations générales",
+        "Si la sortie scolaire obligatoire est récurrente, nombre de"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Si la sortie scolaire obligatoire est récurrente, nombre de",
+      "synthetic_value": "06"
+    },
+    {
+      "id": "departure",
+      "label": "Heure de départ",
+      "path": [
+        "Informations générales",
+        "Heure de départ"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Heure de départ",
+      "synthetic_value": "09:00"
+    },
+    {
+      "id": "return",
+      "label": "Heure de retour",
+      "path": [
+        "Informations générales",
+        "Heure de retour"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Heure de retour",
+      "synthetic_value": "11:00"
+    },
+    {
+      "id": "assembly",
+      "label": "Lieu de rassemblement",
+      "path": [
+        "Informations générales",
+        "Lieu de rassemblement"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Lieu de rassemblement",
+      "synthetic_value": "Cour de l’école"
+    },
+    {
+      "id": "destination",
+      "label": "Lieu(x) de la sortie",
+      "path": [
+        "Informations générales",
+        "Lieu(x) de la sortie"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Lieu(x) de la sortie",
+      "synthetic_value": "Bibliothèque fictive des Apprentissages"
+    },
+    {
+      "id": "meal",
+      "label": "Lieu et mode de restauration",
+      "path": [
+        "Informations générales",
+        "Lieu et mode de restauration"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Lieu et mode de restauration",
+      "synthetic_value": "Déjeuner à l’école après le retour"
+    },
+    {
+      "id": "classes",
+      "label": "Classe(s) participant à la sortie",
+      "path": [
+        "Informations générales",
+        "Classe(s) participant à la sortie"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Classe(s) participant à la sortie",
+      "synthetic_value": "CE1 A, CE1 B, CE2 A et CE2 B"
+    },
+    {
+      "id": "pupils",
+      "label": "Nombre d’élèves",
+      "path": [
+        "Informations générales",
+        "Nombre d’élèves"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre d’élèves",
+      "synthetic_value": "80"
+    },
+    {
+      "id": "adults",
+      "label": "Nombre d’accompagnateurs",
+      "path": [
+        "Informations générales",
+        "Nombre d’accompagnateurs"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre d’accompagnateurs",
+      "synthetic_value": "10"
+    },
+    {
+      "id": "staff-1-1",
+      "label": "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)",
+      "path": [
+        "Équipe d’encadrement",
+        "1",
+        "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)",
+      "synthetic_value": "enseignant"
+    },
+    {
+      "id": "staff-1-2",
+      "label": "Nom",
+      "path": [
+        "Équipe d’encadrement",
+        "1",
+        "Nom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom",
+      "synthetic_value": "Martin"
+    },
+    {
+      "id": "staff-1-3",
+      "label": "Prénom",
+      "path": [
+        "Équipe d’encadrement",
+        "1",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Alice"
+    },
+    {
+      "id": "staff-2-1",
+      "label": "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)",
+      "path": [
+        "Équipe d’encadrement",
+        "2",
+        "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)",
+      "synthetic_value": "enseignant"
+    },
+    {
+      "id": "staff-2-2",
+      "label": "Nom",
+      "path": [
+        "Équipe d’encadrement",
+        "2",
+        "Nom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom",
+      "synthetic_value": "Bernard"
+    },
+    {
+      "id": "staff-2-3",
+      "label": "Prénom",
+      "path": [
+        "Équipe d’encadrement",
+        "2",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Luc"
+    },
+    {
+      "id": "staff-3-1",
+      "label": "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)",
+      "path": [
+        "Équipe d’encadrement",
+        "3",
+        "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)",
+      "synthetic_value": "enseignant"
+    },
+    {
+      "id": "staff-3-2",
+      "label": "Nom",
+      "path": [
+        "Équipe d’encadrement",
+        "3",
+        "Nom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom",
+      "synthetic_value": "Robert"
+    },
+    {
+      "id": "staff-3-3",
+      "label": "Prénom",
+      "path": [
+        "Équipe d’encadrement",
+        "3",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Emma"
+    },
+    {
+      "id": "staff-4-1",
+      "label": "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)",
+      "path": [
+        "Équipe d’encadrement",
+        "4",
+        "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)",
+      "synthetic_value": "enseignant"
+    },
+    {
+      "id": "staff-4-2",
+      "label": "Nom",
+      "path": [
+        "Équipe d’encadrement",
+        "4",
+        "Nom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom",
+      "synthetic_value": "Petit"
+    },
+    {
+      "id": "staff-4-3",
+      "label": "Prénom",
+      "path": [
+        "Équipe d’encadrement",
+        "4",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Hugo"
+    },
+    {
+      "id": "staff-5-1",
+      "label": "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)",
+      "path": [
+        "Équipe d’encadrement",
+        "5",
+        "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)",
+      "synthetic_value": "parent d’élèves"
+    },
+    {
+      "id": "staff-5-2",
+      "label": "Nom",
+      "path": [
+        "Équipe d’encadrement",
+        "5",
+        "Nom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom",
+      "synthetic_value": "Durand"
+    },
+    {
+      "id": "staff-5-3",
+      "label": "Prénom",
+      "path": [
+        "Équipe d’encadrement",
+        "5",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Léa"
+    },
+    {
+      "id": "staff-6-1",
+      "label": "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)",
+      "path": [
+        "Équipe d’encadrement",
+        "6",
+        "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)",
+      "synthetic_value": "parent d’élèves"
+    },
+    {
+      "id": "staff-6-2",
+      "label": "Nom",
+      "path": [
+        "Équipe d’encadrement",
+        "6",
+        "Nom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom",
+      "synthetic_value": "Leroy"
+    },
+    {
+      "id": "staff-6-3",
+      "label": "Prénom",
+      "path": [
+        "Équipe d’encadrement",
+        "6",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Noé"
+    },
+    {
+      "id": "staff-7-1",
+      "label": "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)",
+      "path": [
+        "Équipe d’encadrement",
+        "7",
+        "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)",
+      "synthetic_value": "parent d’élèves"
+    },
+    {
+      "id": "staff-7-2",
+      "label": "Nom",
+      "path": [
+        "Équipe d’encadrement",
+        "7",
+        "Nom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom",
+      "synthetic_value": "Moreau"
+    },
+    {
+      "id": "staff-7-3",
+      "label": "Prénom",
+      "path": [
+        "Équipe d’encadrement",
+        "7",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Inès"
+    },
+    {
+      "id": "staff-8-1",
+      "label": "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)",
+      "path": [
+        "Équipe d’encadrement",
+        "8",
+        "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)",
+      "synthetic_value": "parent d’élèves"
+    },
+    {
+      "id": "staff-8-2",
+      "label": "Nom",
+      "path": [
+        "Équipe d’encadrement",
+        "8",
+        "Nom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom",
+      "synthetic_value": "Simon"
+    },
+    {
+      "id": "staff-8-3",
+      "label": "Prénom",
+      "path": [
+        "Équipe d’encadrement",
+        "8",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Louis"
+    },
+    {
+      "id": "staff-9-1",
+      "label": "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)",
+      "path": [
+        "Équipe d’encadrement",
+        "9",
+        "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)",
+      "synthetic_value": "parent d’élèves"
+    },
+    {
+      "id": "staff-9-2",
+      "label": "Nom",
+      "path": [
+        "Équipe d’encadrement",
+        "9",
+        "Nom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom",
+      "synthetic_value": "Laurent"
+    },
+    {
+      "id": "staff-9-3",
+      "label": "Prénom",
+      "path": [
+        "Équipe d’encadrement",
+        "9",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Jade"
+    },
+    {
+      "id": "staff-10-1",
+      "label": "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)",
+      "path": [
+        "Équipe d’encadrement",
+        "10",
+        "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)",
+      "synthetic_value": "parent d’élèves"
+    },
+    {
+      "id": "staff-10-2",
+      "label": "Nom",
+      "path": [
+        "Équipe d’encadrement",
+        "10",
+        "Nom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom",
+      "synthetic_value": "Michel"
+    },
+    {
+      "id": "staff-10-3",
+      "label": "Prénom",
+      "path": [
+        "Équipe d’encadrement",
+        "10",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Paul"
+    },
+    {
+      "id": "transmitted",
+      "label": "Date de transmission du dossier au directeur d’école",
+      "path": [
+        "Visa",
+        "Date de transmission du dossier au directeur d’école"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date de transmission du dossier au directeur d’école",
+      "synthetic_value": "25/09/2026"
+    },
+    {
+      "id": "decision",
+      "label": "Décision du directeur d’école",
+      "path": [
+        "Visa",
+        "Décision du directeur d’école"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Décision du directeur d’école",
+      "synthetic_value": "Accord",
+      "options": [
+        "Accord",
+        "Refus motivé"
+      ],
+      "context_evidence": "Le directeur d’école donne son Accord ; il ne choisit pas Refus motivé."
+    },
+    {
+      "id": "observations",
+      "label": "Observations",
+      "path": [
+        "Visa",
+        "Observations"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Observations",
+      "synthetic_value": "Sortie inscrite au projet pédagogique ; dix accompagnateurs confirmés"
+    },
+    {
+      "id": "approval-date",
+      "label": "Date",
+      "path": [
+        "Visa",
+        "Date"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date",
+      "synthetic_value": "28/09/2026"
+    },
+    {
+      "id": "approval-signature",
+      "label": "Signature du directeur d’école",
+      "path": [
+        "Visa",
+        "Signature du directeur d’école"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Signature du directeur d’école",
+      "synthetic_value": "SIGNATURE FICTIVE DU DIRECTEUR"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "FORMULAIRE DE DEMANDE D’AUTORISATION D’UNE SORTIE SCOLAIRE SANS NUITÉE",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Informations générales",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Sortie impliquant des élèves de",
+        "field": "school-level",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Type de sortie",
+        "field": "outing-type",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Nom de l’école",
+        "field": "school",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Adresse",
+        "field": "address",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Code postal",
+        "field": "postcode",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Commune",
+        "field": "commune",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Enseignant référent",
+        "field": "teacher",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Téléphone permettant de joindre le groupe en cas d’urgence",
+        "field": "phone",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Date(s) de la sortie : :",
+        "field": "dates",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Si la sortie scolaire obligatoire est récurrente, nombre de",
+        "field": "sessions",
+        "source_page": 1,
+        "colspan": 5
+      },
+      {
+        "text": "séances :",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Heure de départ",
+        "field": "departure",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Heure de retour",
+        "field": "return",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "Lieu de rassemblement",
+        "field": "assembly",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Lieu(x) de la sortie",
+        "field": "destination",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Lieu et mode de restauration",
+        "field": "meal",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Classe(s) participant à la sortie",
+        "field": "classes",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Nombre d’élèves",
+        "field": "pupils",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Nombre d’accompagnateurs",
+        "field": "adults",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Équipe d’encadrement",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Qualité (enseignant, AESH, ATSEM, parent d’élèves, etc.)",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "text": "Nom",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "text": "Prénom",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "staff-1-1",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      },
+      {
+        "field": "staff-1-2",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      },
+      {
+        "field": "staff-1-3",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      }
+    ],
+    [
+      {
+        "field": "staff-2-1",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      },
+      {
+        "field": "staff-2-2",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      },
+      {
+        "field": "staff-2-3",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      }
+    ],
+    [
+      {
+        "field": "staff-3-1",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      },
+      {
+        "field": "staff-3-2",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      },
+      {
+        "field": "staff-3-3",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      }
+    ],
+    [
+      {
+        "field": "staff-4-1",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      },
+      {
+        "field": "staff-4-2",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      },
+      {
+        "field": "staff-4-3",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      }
+    ],
+    [
+      {
+        "field": "staff-5-1",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      },
+      {
+        "field": "staff-5-2",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      },
+      {
+        "field": "staff-5-3",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      }
+    ],
+    [
+      {
+        "field": "staff-6-1",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      },
+      {
+        "field": "staff-6-2",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      },
+      {
+        "field": "staff-6-3",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      }
+    ],
+    [
+      {
+        "field": "staff-7-1",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      },
+      {
+        "field": "staff-7-2",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      },
+      {
+        "field": "staff-7-3",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      }
+    ],
+    [
+      {
+        "field": "staff-8-1",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      },
+      {
+        "field": "staff-8-2",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      },
+      {
+        "field": "staff-8-3",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      }
+    ],
+    [
+      {
+        "field": "staff-9-1",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      },
+      {
+        "field": "staff-9-2",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      },
+      {
+        "field": "staff-9-3",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      }
+    ],
+    [
+      {
+        "field": "staff-10-1",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      },
+      {
+        "field": "staff-10-2",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      },
+      {
+        "field": "staff-10-3",
+        "source_page": 1,
+        "colspan": 2,
+        "text": ""
+      }
+    ],
+    [
+      {
+        "text": "Formulaire de demande d’autorisation d’une sortie scolaire sans nuitée – 1er degré 1",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Joindre un programme détaillé de la sortie ;",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Joindre un budget prévisionnel ;",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Joindre une fiche d’information sur le transport accompagnée, le cas échéant, de la liste des déplacements prévus pendant la sortie.",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Visa",
+        "colspan": 6,
+        "source_page": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Date de transmission du dossier au directeur d’école",
+        "field": "transmitted",
+        "source_page": 2,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Décision du directeur d’école",
+        "field": "decision",
+        "source_page": 2,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Observations",
+        "field": "observations",
+        "source_page": 2,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Date",
+        "field": "approval-date",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "label": "Signature du directeur d’école",
+        "field": "approval-signature",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Formulaire de demande d’autorisation d’une sortie scolaire sans nuitée – 1er degré 2",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ]
+  ],
+  "context": "Scénario entièrement fictif ; ce document n’est pas une demande administrative réelle. L’École fictive des Savoirs se trouve au 10 rue de l’Exemple, 75000 Paris. La sortie implique uniquement des élèves d’Élémentaire, aucun élève de Maternelle. Le type retenu est Sortie scolaire obligatoire récurrente ; ni occasionnelle ni facultative. L’Enseignant référent est Alice Martin ; le téléphone d’urgence fictif est 0100000000. Le calendrier est Du 03/11/2026 au 08/12/2026, chaque mardi, soit 06 séances sur le temps scolaire. Heure de départ : 09:00 ; heure de retour : 11:00. Le rassemblement se fait dans la Cour de l’école. Destination : Bibliothèque fictive des Apprentissages. Restauration : Déjeuner à l’école après le retour. Classes concernées : CE1 A, CE1 B, CE2 A et CE2 B. Le groupe compte 80 élèves et 10 accompagnateurs. La liste d’encadrement dans l’ordre des dix lignes est la suivante. Ligne 1 : qualité enseignant, nom Martin, prénom Alice. Ligne 2 : qualité enseignant, nom Bernard, prénom Luc. Ligne 3 : qualité enseignant, nom Robert, prénom Emma. Ligne 4 : qualité enseignant, nom Petit, prénom Hugo. Ligne 5 : qualité parent d’élèves, nom Durand, prénom Léa. Ligne 6 : qualité parent d’élèves, nom Leroy, prénom Noé. Ligne 7 : qualité parent d’élèves, nom Moreau, prénom Inès. Ligne 8 : qualité parent d’élèves, nom Simon, prénom Louis. Ligne 9 : qualité parent d’élèves, nom Laurent, prénom Jade. Ligne 10 : qualité parent d’élèves, nom Michel, prénom Paul. Le dossier complet, avec programme, budget et fiche de transport, est transmis au directeur le 25/09/2026. Le directeur d’école donne son Accord ; il ne choisit pas Refus motivé. Il inscrit comme Observations : Sortie inscrite au projet pédagogique ; dix accompagnateurs confirmés. La décision est datée du 28/09/2026, et la signature est le texte de test SIGNATURE FICTIVE DU DIRECTEUR, sans signature authentique.",
+  "normalization_notes": [
+    "Official source is DOCX; source_path and source_sha256 deliberately bind the local LibreOffice-derived PDF used by the builder, not the official DOCX. Original DOCX path, MIME, hash and conversion record are separate.",
+    "The complete two-page source is retained, including all ten three-column personnel rows, attachment instructions, Visa section, observations area, signature and both page footers. Original Word XML confirms twelve team-table rows: heading, column labels and ten blank rows; no vMerge and no dropdown content controls.",
+    "Six logical columns express full-width, two-column and three-column source rows with colspans. Team-row numeric suffixes indicate physical row order only, not newly allocated benchmark IDs or invented visible headings.",
+    "Printed character boxes for postal code, telephone, session count and date are each normalized to their original logical field. Dotted guides, typography, wrapping and whitespace are normalized, not substantive instructions.",
+    "The source typo double colon in Date(s) de la sortie : : is preserved in the visible label. The source conditional session-count sentence is retained around its field without dropping the final word séances.",
+    "Signatures are explicit synthetic typed placeholders, not valid official signatures. All case values and names are fictitious."
+  ],
+  "conversion": {
+    "tool": "LibreOffice 25.2.4.3 (AARCH64), writer_pdf_Export",
+    "generated_at": "2026-09-18T00:10:29+08:00",
+    "timestamp_basis": "Local conversion PDF creation metadata, not source publication date",
+    "source_edited": false,
+    "pages": 2,
+    "validation_pdf_sha256": "3edc1e165c9329f63d832856a38220260bcfecdfc3f5442d9841e75652babba4"
+  },
+  "workflow_identity": {
+    "language": "fr",
+    "id": 3
+  }
+}

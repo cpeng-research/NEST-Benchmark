@@ -8,7 +8,7 @@ from pathlib import Path
 if __package__ is None or __package__ == "":
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from comparative_eval.config import SUPPORTED_CONDITIONS, details_dir, prediction_dir, summaries_dir, workflow_paths
+from comparative_eval.config import SUPPORTED_CONDITIONS, available_languages, details_dir, prediction_dir, summaries_dir, workflow_paths
 from comparative_eval.metrics.jedi_cpp import compare_json_similarity_cpp
 from comparative_eval.metrics.jedi_py import compare_json_similarity
 from comparative_eval.utils.eval_cache import CACHE_FIELDNAMES, add_cache_record, cached_row_is_current, prediction_cache_record
@@ -21,7 +21,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Evaluate Table 3 schema parsing.")
     parser.add_argument("--condition", required=True, choices=SUPPORTED_CONDITIONS)
     parser.add_argument("--model", required=True)
-    parser.add_argument("--lang", default="en", choices=["en", "zh"])
+    parser.add_argument("--lang", default="en", choices=available_languages())
     parser.add_argument("--metric", choices=["py_tree", "py_fast", "cpp"], default="py_tree")
     parser.add_argument(
         "--cpp_timeout",

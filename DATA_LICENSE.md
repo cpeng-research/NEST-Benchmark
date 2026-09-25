@@ -15,13 +15,14 @@ source documents and retained source elements.
   distributed with provenance and source-terms notices for benchmark use and are
   not relicensed as NEST-authored content where they retain third-party elements.
 
-The full 828-record provenance manifest is provided for transparency. A manifest
-entry documents the best available source information; it does not itself grant or
-replace rights under the applicable source terms.
+The original 828-record manifest and a current 869-record index are provided
+for transparency. A manifest entry documents the best available source
+information; it does not itself grant or replace rights under the applicable
+source terms.
 
 Third-party dependencies retain their own licenses.
 
-The complete normalized inputs, annotations, metadata, synthetic artifacts, and
-rendered PNGs in a versioned benchmark release are distributed together. Original
-third-party PDF, image, and Office files are not benchmark inputs and are not
-distributed.
+The current text-task inputs, annotations, metadata, and synthetic artifacts are
+distributed together. Rendered PNGs cover all 869 records; Stages 7-8 cover only
+the original 828. Original third-party PDF, image, and Office files are not
+benchmark inputs and are not distributed.

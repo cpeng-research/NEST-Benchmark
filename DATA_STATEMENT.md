@@ -5,6 +5,10 @@ template-level table understanding. The package includes English and Chinese for
 tables across multiple domains, including workplace/HR, business, public service,
 education, finance, and healthcare.
 
+The September 2026 extension adds French and Spanish records alongside additional
+English and Chinese records. Stages 0-6 and 9 are available for these additions;
+Stages 7-8 remain available only for the original 828 records.
+
 The English/Chinese label denotes the dataset split and primary evaluation language,
 not a guarantee of monolingual source content. In particular, some Hong Kong public
 forms assigned to the English split retain parallel English and Chinese text. Their
@@ -29,8 +33,10 @@ exactly in this package to keep the benchmark inputs and reported results stable
 
 ## Source and Redistribution Audit
 
-`data/source_provenance_manifest.csv` is the compact reader-facing per-template
-source/provenance manifest. It records sample IDs, split-language and domain labels,
+`data/source_provenance_manifest.csv` is the unchanged 828-record source snapshot.
+`data/source_provenance_manifest_current.csv` adds the 41 new records and points
+to their batch-specific source and annotation documents in `data/extension_batches/`.
+The manifests record sample IDs, split-language and domain labels,
 template paths, titles, the best available source, and a combined license/redistribution
 note.
 

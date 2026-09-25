@@ -1,0 +1,1023 @@
+{
+  "id": "zh-hpb-traffic-records",
+  "candidate_id": "zh-hpb-traffic-records",
+  "title": "道路交通事故資料申請書",
+  "language": "zh",
+  "language_variant": "zh-Hant",
+  "domain": "GovPublic",
+  "business_topic": "road_traffic_accident_records_application",
+  "issuer_id": "tw_npa_highway_police",
+  "template_family": "hpb_traffic_accident_records_application_1040721",
+  "source_pages": 1,
+  "retrieved_at": "2026-09-17T17:39:28.077276+00:00",
+  "source_sha256": "d7b262b33c7f93de0343eb57cba90f8db010f34185c9c7761d3710d6fe607261",
+  "source_url": "https://a3.hpb.gov.tw/build/document/%E9%81%93%E8%B7%AF%E4%BA%A4%E9%80%9A%E4%BA%8B%E6%95%85%E8%B3%87%E6%96%99%E7%94%B3%E8%AB%8B%E6%9B%B8.pdf",
+  "landing_url": "https://a3.hpb.gov.tw/",
+  "license_url": "https://www.hpb.npa.gov.tw/ch/app/artwebsite/view?id=1626&module=artwebsite&serno=b6573a28-8f45-4240-a103-6ae7f0b6d2d1",
+  "source_version_note": "The native one-page Traditional Chinese blank form prints 1040721版 (ROC 104-07-21, 2015-07-21). This is a printed version marker, not the retrieval date or an assertion of current administrative requirements.",
+  "license_note": "The A3 official service links directly to the Highway Police Bureau's government-website open-data declaration (updated ROC 109-12-01). It permits free, non-exclusive, sublicensable reproduction, adaptation, editing and public transmission of copyrightable website materials with attribution, without time or territory limits. It is a custom government-website open declaration, not an asserted named/versioned OGL. Attribute 內政部警政署國道公路警察局 and the exact source URL; identify logical-grid normalization and wholly synthetic completion as adaptations. Other IP including agency emblems/trademarks, personal-data obligations, specially restricted works and third-party moral rights remain excluded/reserved; no official approval is implied. The blank source has no identified separate restriction or filled personal data.",
+  "license_basis": "official_government_website_open_declaration",
+  "source_original_private": true,
+  "owner": "Chen Peng",
+  "columns": 24,
+  "rows": [
+    [
+      {
+        "text": "道路交通事故資料申請書",
+        "colspan": 18,
+        "source_page": 1,
+        "heading": true
+      },
+      {
+        "field": "form_number",
+        "label": "編號：",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "發生時間",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "accident_year",
+        "label": "年",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "accident_month",
+        "label": "月",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "accident_day",
+        "label": "日",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "accident_hour",
+        "label": "時",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "accident_minute",
+        "label": "分",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "地點",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "accident_location",
+        "text": "",
+        "colspan": 20,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "申請人姓名",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "applicant_name",
+        "text": "",
+        "colspan": 8,
+        "source_page": 1
+      },
+      {
+        "text": "出生 年月日",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "birth_year",
+        "label": "年",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "birth_month",
+        "label": "月",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "birth_day",
+        "label": "日",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "國民身分證 統一編號",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "applicant_id",
+        "text": "",
+        "colspan": 8,
+        "source_page": 1
+      },
+      {
+        "text": "聯絡電話",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "applicant_phone",
+        "text": "",
+        "colspan": 9,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "地址",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "applicant_address",
+        "text": "",
+        "colspan": 20,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "與當事人 關係",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "relationship",
+        "text": "",
+        "colspan": 20,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "delegated_relationship",
+        "label": "受當事人 (關係)",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "text": "委託(請當事人於下欄親自簽章)",
+        "colspan": 10,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "interested_relationship",
+        "label": "當事人之利害關係人 (關係)",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "text": "(請出示證明文件)",
+        "colspan": 10,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "申請事項",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "text": "茲因於上列時間、地點發生道路交通事故，請核發提供閱覽 (擇一勾選)：",
+        "colspan": 20,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "requested_record",
+        "text": "",
+        "colspan": 20,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "text": "現場照片乙份",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "field": "photo_count",
+        "label": "張。",
+        "colspan": 5,
+        "source_page": 1
+      },
+      {
+        "text": "(事故發生7日後可申請)",
+        "colspan": 5,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "臨櫃申請取件 預定取件日期 (由受理單位填寫)",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "pickup_year",
+        "label": "年",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "pickup_month",
+        "label": "月",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "pickup_day",
+        "label": "日",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "text": "案件編號",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "case_number",
+        "text": "",
+        "colspan": 7,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "service_phone",
+        "label": "服務電話：",
+        "colspan": 9,
+        "source_page": 1
+      },
+      {
+        "text": "取件簽名",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "pickup_signature",
+        "text": "",
+        "colspan": 7,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "此致",
+        "colspan": 24,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "receiving_brigade",
+        "label": "國道公路警察局第",
+        "colspan": 9,
+        "source_page": 1
+      },
+      {
+        "field": "receiving_unit",
+        "label": "公路警察大隊",
+        "colspan": 9,
+        "source_page": 1
+      },
+      {
+        "text": "分(小)隊",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "applicant_signature",
+        "label": "申請人簽章：",
+        "colspan": 16,
+        "source_page": 1
+      },
+      {
+        "field": "applicant_seal",
+        "label": "（印）",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "party_signature",
+        "label": "當事人簽章：",
+        "colspan": 12,
+        "source_page": 1
+      },
+      {
+        "field": "party_seal",
+        "label": "（印）",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "text": "(非當事人委託者免填)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "party_id",
+        "label": "身分證統一編號：",
+        "colspan": 24,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "party_address",
+        "label": "地 址：",
+        "colspan": 24,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "party_phone",
+        "label": "電 話：",
+        "colspan": 24,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "申請日期：",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "field": "application_year",
+        "label": "年",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "field": "application_month",
+        "label": "月",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "field": "application_day",
+        "label": "日",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "備註",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "text": "申請或取件時請攜帶身分證正本、印章。",
+        "colspan": 21,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "handling_officer",
+        "label": "承辦人：",
+        "colspan": 8,
+        "source_page": 1
+      },
+      {
+        "field": "supervisor",
+        "label": "主管：",
+        "colspan": 8,
+        "source_page": 1
+      },
+      {
+        "field": "office_stamp",
+        "label": "(單位戳章)",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "附註：",
+        "colspan": 24,
+        "source_page": 1,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "一、 本表可印製一式二聯，一份交申請人，另一份送案卷保存單位併卷備查(分局或審核小組)。",
+        "colspan": 24,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "二、 有關所申請之他造當事人個人資料，應遵守個人資料保護法等相關法令規定，不得違法利用。 於無再使用之必要時，應予以銷毀。",
+        "colspan": 24,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "1040721版",
+        "colspan": 24,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "form_number",
+      "label": "編號：",
+      "path": [
+        "編號"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "編號：",
+      "synthetic_value": "SYNTHETIC-HPB-001"
+    },
+    {
+      "id": "accident_year",
+      "label": "年",
+      "path": [
+        "發生時間",
+        "年"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "發生時間 \n年     月    日     時     分",
+      "synthetic_value": "115"
+    },
+    {
+      "id": "accident_month",
+      "label": "月",
+      "path": [
+        "發生時間",
+        "月"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "發生時間 \n年     月    日     時     分",
+      "synthetic_value": "8"
+    },
+    {
+      "id": "accident_day",
+      "label": "日",
+      "path": [
+        "發生時間",
+        "日"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "發生時間 \n年     月    日     時     分",
+      "synthetic_value": "10"
+    },
+    {
+      "id": "accident_hour",
+      "label": "時",
+      "path": [
+        "發生時間",
+        "時"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "發生時間 \n年     月    日     時     分",
+      "synthetic_value": "14"
+    },
+    {
+      "id": "accident_minute",
+      "label": "分",
+      "path": [
+        "發生時間",
+        "分"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "發生時間 \n年     月    日     時     分",
+      "synthetic_value": "25"
+    },
+    {
+      "id": "accident_location",
+      "label": "地點",
+      "path": [
+        "地點"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "地點",
+      "synthetic_value": "虛構國道測試段零公里處"
+    },
+    {
+      "id": "applicant_name",
+      "label": "申請人姓名",
+      "path": [
+        "申請人姓名",
+        "姓名"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "申請人姓名",
+      "synthetic_value": "虛構代理人乙"
+    },
+    {
+      "id": "birth_year",
+      "label": "年",
+      "path": [
+        "申請人姓名",
+        "出生 年月日",
+        "年"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "出生 \n年月日 \n        年   月   日",
+      "synthetic_value": "80"
+    },
+    {
+      "id": "birth_month",
+      "label": "月",
+      "path": [
+        "申請人姓名",
+        "出生 年月日",
+        "月"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "出生 \n年月日 \n        年   月   日",
+      "synthetic_value": "3"
+    },
+    {
+      "id": "birth_day",
+      "label": "日",
+      "path": [
+        "申請人姓名",
+        "出生 年月日",
+        "日"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "出生 \n年月日 \n        年   月   日",
+      "synthetic_value": "12"
+    },
+    {
+      "id": "applicant_id",
+      "label": "國民身分證 統一編號",
+      "path": [
+        "申請人姓名",
+        "國民身分證 統一編號"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "國民身分證 \n統一編號",
+      "synthetic_value": "SYNTHETIC-APPLICANT-001"
+    },
+    {
+      "id": "applicant_phone",
+      "label": "聯絡電話",
+      "path": [
+        "申請人姓名",
+        "聯絡電話"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "聯絡電話",
+      "synthetic_value": "000-000-0101"
+    },
+    {
+      "id": "applicant_address",
+      "label": "地址",
+      "path": [
+        "申請人姓名",
+        "地址"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "地址",
+      "synthetic_value": "虛構市代理路零號"
+    },
+    {
+      "id": "relationship",
+      "label": "與當事人 關係",
+      "path": [
+        "與當事人 關係",
+        "關係"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "與當事人 \n關係 \n 本人      \n 受當事人      (關係)委託(請當事人於下欄親自簽章) \n 當事人之利害關係人         (關係)(請出示證明文件)",
+      "synthetic_value": "受當事人",
+      "options": [
+        "本人",
+        "受當事人",
+        "當事人之利害關係人"
+      ],
+      "context_evidence": "與當事人關係只選受當事人，不選本人，也不選當事人之利害關係人；本案為當事人委託其姊姊代辦。"
+    },
+    {
+      "id": "delegated_relationship",
+      "label": "受當事人 (關係)",
+      "path": [
+        "與當事人 關係",
+        "受當事人",
+        "(關係)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "受當事人      (關係)委託(請當事人於下欄親自簽章)",
+      "synthetic_value": "姊姊",
+      "conditional_scope": "Active when 受當事人 is selected."
+    },
+    {
+      "id": "interested_relationship",
+      "label": "當事人之利害關係人 (關係)",
+      "path": [
+        "與當事人 關係",
+        "當事人之利害關係人",
+        "(關係)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "當事人之利害關係人         (關係)(請出示證明文件)",
+      "synthetic_value": "不適用（本案為受託代辦）",
+      "conditional_scope": "Inactive: retain the target with an explicit synthetic N/A value; do not remove it."
+    },
+    {
+      "id": "requested_record",
+      "label": "申請事項",
+      "path": [
+        "申請事項",
+        "(擇一勾選)"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "申請事項 \n茲因於上列時間、地點發生道路交通事故，請核發提供閱覽 \n(擇一勾選)： \n  現場圖乙份。(事故發生7日後可申請) \n  現場照片乙份   張。(事故發生7日後可申請) \n  交通事故初步分析研判表乙份。(事故發生30日後可申請)",
+      "synthetic_value": "現場照片乙份 張。(事故發生7日後可申請)",
+      "options": [
+        "現場圖乙份。(事故發生7日後可申請)",
+        "現場照片乙份 張。(事故發生7日後可申請)",
+        "交通事故初步分析研判表乙份。(事故發生30日後可申請)"
+      ],
+      "context_evidence": "申請事項依(擇一勾選)只選現場照片乙份 張。(事故發生7日後可申請)，不選現場圖乙份。(事故發生7日後可申請)，也不選交通事故初步分析研判表乙份。(事故發生30日後可申請)。",
+      "label_position": [
+        9,
+        0
+      ]
+    },
+    {
+      "id": "photo_count",
+      "label": "張。",
+      "path": [
+        "申請事項",
+        "現場照片乙份",
+        "張。"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "現場照片乙份   張。(事故發生7日後可申請)",
+      "synthetic_value": "3",
+      "conditional_scope": "Active for the selected 現場照片乙份 option."
+    },
+    {
+      "id": "pickup_year",
+      "label": "年",
+      "path": [
+        "臨櫃申請取件 預定取件日期 (由受理單位填寫)",
+        "預定取件日期",
+        "年"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "臨櫃申請取件 \n預定取件日期 \n(由受理單位填寫) \n  年      月     日 案件編號",
+      "synthetic_value": "115"
+    },
+    {
+      "id": "pickup_month",
+      "label": "月",
+      "path": [
+        "臨櫃申請取件 預定取件日期 (由受理單位填寫)",
+        "預定取件日期",
+        "月"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "臨櫃申請取件 \n預定取件日期 \n(由受理單位填寫) \n  年      月     日 案件編號",
+      "synthetic_value": "9"
+    },
+    {
+      "id": "pickup_day",
+      "label": "日",
+      "path": [
+        "臨櫃申請取件 預定取件日期 (由受理單位填寫)",
+        "預定取件日期",
+        "日"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "臨櫃申請取件 \n預定取件日期 \n(由受理單位填寫) \n  年      月     日 案件編號",
+      "synthetic_value": "22"
+    },
+    {
+      "id": "case_number",
+      "label": "案件編號",
+      "path": [
+        "臨櫃申請取件 預定取件日期 (由受理單位填寫)",
+        "案件編號"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "案件編號",
+      "synthetic_value": "SYNTHETIC-CASE-001"
+    },
+    {
+      "id": "service_phone",
+      "label": "服務電話：",
+      "path": [
+        "臨櫃申請取件 預定取件日期 (由受理單位填寫)",
+        "服務電話"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "服務電話：",
+      "synthetic_value": "000-000-0100"
+    },
+    {
+      "id": "pickup_signature",
+      "label": "取件簽名",
+      "path": [
+        "臨櫃申請取件 預定取件日期 (由受理單位填寫)",
+        "取件簽名"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "取件簽名",
+      "synthetic_value": "虛構代理人乙之合成取件簽名"
+    },
+    {
+      "id": "receiving_brigade",
+      "label": "國道公路警察局第",
+      "path": [
+        "此致",
+        "國道公路警察局第"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "此致 \n國道公路警察局第   公路警察大隊    分(小)隊",
+      "synthetic_value": "零"
+    },
+    {
+      "id": "receiving_unit",
+      "label": "公路警察大隊",
+      "path": [
+        "此致",
+        "公路警察大隊",
+        "分(小)隊"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "此致 \n國道公路警察局第   公路警察大隊    分(小)隊",
+      "synthetic_value": "示例"
+    },
+    {
+      "id": "applicant_signature",
+      "label": "申請人簽章：",
+      "path": [
+        "申請人簽章",
+        "簽章"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "申請人簽章：                  （印）",
+      "synthetic_value": "虛構代理人乙之合成簽名"
+    },
+    {
+      "id": "applicant_seal",
+      "label": "（印）",
+      "path": [
+        "申請人簽章",
+        "（印）"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "申請人簽章：                  （印）",
+      "synthetic_value": "虛構代理人乙之合成印記"
+    },
+    {
+      "id": "party_signature",
+      "label": "當事人簽章：",
+      "path": [
+        "當事人簽章",
+        "簽章"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "當事人簽章：                  （印）(非當事人委託者免填)",
+      "synthetic_value": "虛構當事人甲之合成簽名"
+    },
+    {
+      "id": "party_seal",
+      "label": "（印）",
+      "path": [
+        "當事人簽章",
+        "（印）"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "當事人簽章：                  （印）(非當事人委託者免填)",
+      "synthetic_value": "虛構當事人甲之合成印記"
+    },
+    {
+      "id": "party_id",
+      "label": "身分證統一編號：",
+      "path": [
+        "當事人簽章",
+        "身分證統一編號："
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "身分證統一編號：",
+      "synthetic_value": "SYNTHETIC-PARTY-001"
+    },
+    {
+      "id": "party_address",
+      "label": "地 址：",
+      "path": [
+        "當事人簽章",
+        "地 址："
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "地    址：",
+      "synthetic_value": "虛構市當事路零號"
+    },
+    {
+      "id": "party_phone",
+      "label": "電 話：",
+      "path": [
+        "當事人簽章",
+        "電 話："
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "電    話：",
+      "synthetic_value": "000-000-0102"
+    },
+    {
+      "id": "application_year",
+      "label": "年",
+      "path": [
+        "申請日期",
+        "年"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "申請日期：         年      月      日",
+      "synthetic_value": "115"
+    },
+    {
+      "id": "application_month",
+      "label": "月",
+      "path": [
+        "申請日期",
+        "月"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "申請日期：         年      月      日",
+      "synthetic_value": "9"
+    },
+    {
+      "id": "application_day",
+      "label": "日",
+      "path": [
+        "申請日期",
+        "日"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "申請日期：         年      月      日",
+      "synthetic_value": "18"
+    },
+    {
+      "id": "handling_officer",
+      "label": "承辦人：",
+      "path": [
+        "承辦人"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "承辦人：",
+      "synthetic_value": "虛構承辦員丙"
+    },
+    {
+      "id": "supervisor",
+      "label": "主管：",
+      "path": [
+        "主管"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "主管：",
+      "synthetic_value": "虛構主管丁"
+    },
+    {
+      "id": "office_stamp",
+      "label": "(單位戳章)",
+      "path": [
+        "(單位戳章)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "(單位戳章)",
+      "synthetic_value": "虛構受理單位之合成戳章"
+    }
+  ],
+  "context": "本案例完全合成，僅用於表格結構與填值測試，無法律效力，不可提交。所有人物、地址、電話、證號、案件編號及受理單位均為虛構；電話不可作實際聯絡，證號不是有效國民身分證號，所有簽名、印記與單位戳章均為合成文字占位，並非真實簽署或蓋印。表頭編號為SYNTHETIC-HPB-001。合成事故發生於民國115年8月10日14時25分，地點為虛構國道測試段零公里處。申請人是虛構代理人乙，出生日期為民國80年3月12日，國民身分證統一編號填SYNTHETIC-APPLICANT-001，聯絡電話填000-000-0101，地址填虛構市代理路零號。與當事人關係只選受當事人，不選本人，也不選當事人之利害關係人；本案為當事人委託其姊姊代辦。因此受當事人後的(關係)填姊姊。未選取的當事人之利害關係人分支仍保留其(關係)欄，該欄使用合成標記不適用（本案為受託代辦），不表示另有利害關係申請。申請事項依(擇一勾選)只選現場照片乙份 張。(事故發生7日後可申請)，不選現場圖乙份。(事故發生7日後可申請)，也不選交通事故初步分析研判表乙份。(事故發生30日後可申請)。現場照片乙份的張數填3。申請日期為民國115年9月18日，距事故已逾7日，符合原表印製的照片申請等待期；本情境不主張現行辦理規則。受理單位在臨櫃申請取件區填預定取件日期民國115年9月22日，案件編號SYNTHETIC-CASE-001，服務電話000-000-0100。本合成情境含預定日期當日完成取件的後續狀態，取件簽名填虛構代理人乙之合成取件簽名。此致機關在國道公路警察局第後填零，公路警察大隊後、分(小)隊前填示例；合稱國道公路警察局第零公路警察大隊示例分(小)隊，此單位不是真實機關。申請人簽章填虛構代理人乙之合成簽名，其（印）填虛構代理人乙之合成印記。受託分支須保留當事人區：當事人為虛構當事人甲，當事人簽章填虛構當事人甲之合成簽名，其（印）填虛構當事人甲之合成印記，身分證統一編號填SYNTHETIC-PARTY-001，地 址填虛構市當事路零號，電 話填000-000-0102。申請日期三格依序填115、9、18。承辦人填虛構承辦員丙，主管填虛構主管丁，(單位戳章)填虛構受理單位之合成戳章。原表備註及兩項附註均為固定文字，不作填值目標。",
+  "normalization_notes": [
+    "Complete native one-page 1040721版 form, not a translated form or split excerpt. Preserve the header number, accident five-part date/time, location, applicant/birth/ID/contact block, relationship alternatives and both relationship blanks, requested record and photo quantity, receipt-office block, two receiving-agency blanks, two signature areas and their separate printed seal positions, party contact block, application date, handling officer, supervisor, office stamp, reminder, both notes and version marker.",
+    "The source's relationship and requested-record labels visually span several lines in shared cells; the pickup label visibly spans its date and service-phone rows. Normalize to 24-column rows with the original left-label/right-content grouping, keep the label in the first row and blank continuation cells beneath it. Birth information remains beside the applicant name; receipt date/case number remain paired above service phone/receipt signature. The shared renderer does not support rowspans, so this is a declared normalized layout, not pixel-identical reconstruction.",
+    "The source's relationship alternatives have circular markers. Represent them with the existing single-choice checkbox group without changing their order or meaning: 本人, 受當事人, 當事人之利害關係人. The source explicitly requires one requested-record option; retain its three square-box alternatives as another single-choice group.",
+    "The two conditional relationship blanks are embedded in choice text in the PDF. Keep both as separate targets on continuation rows beneath the group and use the contiguous original option-plus-(關係) phrase as each label: 受當事人 (關係) and 當事人之利害關係人 (關係). Repeat their source option text to make association unambiguous; retain 委託(請當事人於下欄親自簽章) and (請出示證明文件). No extra question or choice is invented.",
+    "The photo quantity is a distinct blank embedded in the second record option. The option preserves all literal text with PDF whitespace normalized to a single space; the 張。 target follows directly beneath the group with repeated source option context and its printed 7-day condition. The 30-day condition for the third option is also retained.",
+    "Individually fillable year/month/day/hour/minute blanks are independent targets with source-parent paths; they are not collapsed into a date/time string. Separate applicant and principal signature spaces from the visibly designated （印） seal spaces; each seal is a typed synthetic marker, not a generated signature image.",
+    "The large unruled lower source cell is normalized into consecutive 此致, agency-blank, applicant-signature/seal, party-signature/seal/contact and application-date rows in original reading order. Signature and agency grouping is preserved; no nested table or custom renderer is introduced. The two inline agency blanks use the literal preceding source labels 國道公路警察局第 and 公路警察大隊, with 分(小)隊 retained as fixed suffix.",
+    "Normalize extracted PDF whitespace/newlines to spaces in all placeholder labels/options to avoid the original Stage 6 non-DOTALL placeholder regex losing multiline labels. Exact source_anchor values preserve original PDF content-stream whitespace and line breaks. No Chinese wording, punctuation, waiting period, conditional instruction or footnote is translated or intentionally omitted.",
+    "The inactive interested-party relationship target uses a context-grounded synthetic N/A marker because the annotation contract requires nonblank text gold. Applicant, principal, receiving-office and later pickup values are all explicitly contextualized; filling administrative targets models a completed fictional workflow, not applicant authority to fill office-only fields.",
+    "Fonts, border thickness, line leaders and circular-vs-square control artwork are normalized using the shared renderer. The source has no logo or photograph requiring exclusion."
+  ],
+  "compatibility_issues": [
+    {
+      "id": "visual_rowspan_normalization",
+      "representation": "colspans_and_continuation_cells",
+      "details": "Shared renderer cannot represent rowspans. Original grouped labels and horizontal pairing are retained with colspans and blank continuation cells; exact visual rowspans are not claimed."
+    },
+    {
+      "id": "inline_choice_blanks",
+      "representation": "separate_conditional_target_cells",
+      "details": "Two conditional relationship blanks and photo quantity are separately targeted after the associated choice group. Source text is repeated for association rather than silently dropping or merging controls."
+    }
+  ],
+  "workflow_identity": {
+    "language": "zh",
+    "id": 416
+  }
+}

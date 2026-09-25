@@ -1,0 +1,1454 @@
+{
+  "id": "es-biocide-notification",
+  "candidate_id": "es-biocide-notification",
+  "title": "Identificación de biocidas no registrados - notificación",
+  "language": "es",
+  "domain": "Healthcare",
+  "business_topic": "biocide_notification",
+  "issuer_id": "es_ministry_health",
+  "template_family": "biocide-notification",
+  "source_pages": 2,
+  "retrieved_at": "2026-09-25T15:00:07.113940+00:00",
+  "source_sha256": "71362ca8fbf5e55d79344c1d7cba55566ea4dc79b99393184bcd75f86f23d377",
+  "source_url": "https://www.sanidad.gob.es/areas/sanidadAmbiental/biocidas/registro/regPlaguicidas/docs/Formunotificado.pdf",
+  "landing_url": "https://www.sanidad.gob.es/areas/sanidadAmbiental/biocidas/registro/regPlaguicidas/dt2notificanuevo.htm",
+  "license_url": "https://www.sanidad.gob.es/avisoLegal/home.htm",
+  "license_note": "Official blank form, transcribed as functional fields without source artwork or logos. Attribute the issuing agency and source. This note is not a legal clearance.",
+  "columns": 6,
+  "rows": [
+    [
+      {
+        "text": "Identificación de Biocidas no registrados",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "product",
+        "label": "Nombre comercial del producto",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "company",
+        "label": "Nombre de la empresa",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "company-id",
+        "label": "DNI/NIF/CIF",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "address",
+        "label": "Domicilio",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "municipality",
+        "label": "Municipio",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "province",
+        "label": "Provincia País",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "postal",
+        "label": "Código postal",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "phone",
+        "label": "Teléfono de contacto",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "email",
+        "label": "email",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "composition",
+        "label": "Composición cualitativa/cuantitativa del producto al 100%",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Sustancia(s) Activa(s)",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "active-1-name",
+        "label": "NOMBRE",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "active-1-amount",
+        "label": "CANTIDAD",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "active-1-cas",
+        "label": "Nº CAS",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "active-2-name",
+        "label": "NOMBRE",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "active-2-amount",
+        "label": "CANTIDAD",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "active-2-cas",
+        "label": "Nº CAS",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "active-3-name",
+        "label": "NOMBRE",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "active-3-amount",
+        "label": "CANTIDAD",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "active-3-cas",
+        "label": "Nº CAS",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "active-4-name",
+        "label": "NOMBRE",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "active-4-amount",
+        "label": "CANTIDAD",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "active-4-cas",
+        "label": "Nº CAS",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "active-5-name",
+        "label": "NOMBRE",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "active-5-amount",
+        "label": "CANTIDAD",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "active-5-cas",
+        "label": "Nº CAS",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Resto de Sustancias del producto",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "other-6-name",
+        "label": "NOMBRE",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "other-6-amount",
+        "label": "CANTIDAD",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "other-6-cas",
+        "label": "Nº CAS",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "other-7-name",
+        "label": "NOMBRE",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "other-7-amount",
+        "label": "CANTIDAD",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "other-7-cas",
+        "label": "Nº CAS",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "other-8-name",
+        "label": "NOMBRE",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "other-8-amount",
+        "label": "CANTIDAD",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "other-8-cas",
+        "label": "Nº CAS",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "other-9-name",
+        "label": "NOMBRE",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "other-9-amount",
+        "label": "CANTIDAD",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "other-9-cas",
+        "label": "Nº CAS",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "other-10-name",
+        "label": "NOMBRE",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "other-10-amount",
+        "label": "CANTIDAD",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "other-10-cas",
+        "label": "Nº CAS",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "other-11-name",
+        "label": "NOMBRE",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "other-11-amount",
+        "label": "CANTIDAD",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "other-11-cas",
+        "label": "Nº CAS",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "other-12-name",
+        "label": "NOMBRE",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "other-12-amount",
+        "label": "CANTIDAD",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "other-12-cas",
+        "label": "Nº CAS",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "other-13-name",
+        "label": "NOMBRE",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "other-13-amount",
+        "label": "CANTIDAD",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "other-13-cas",
+        "label": "Nº CAS",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "notice-type",
+        "label": "Nueva notificación del producto",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Información complementaria",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "observations",
+        "label": "Observaciones",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "product-type-1",
+        "label": "TP",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "use-1",
+        "label": "USO",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "product-type-2",
+        "label": "TP",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "use-2",
+        "label": "USO",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "product-type-3",
+        "label": "TP",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "use-3",
+        "label": "USO",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "product-type-4",
+        "label": "TP",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "use-4",
+        "label": "USO",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "product-type-5",
+        "label": "TP",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "use-5",
+        "label": "USO",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "product-type-6",
+        "label": "TP",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "use-6",
+        "label": "USO",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "product-type-7",
+        "label": "TP",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "use-7",
+        "label": "USO",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "product-type-8",
+        "label": "TP",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "use-8",
+        "label": "USO",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "attachments",
+        "label": "Documentación complementaria anexa a la solicitud",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "date",
+        "label": "Fecha",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "signature",
+        "label": "Firma del Titular y sello de la empresa",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "product",
+      "label": "Nombre comercial del producto",
+      "path": [
+        "Identificación de Biocidas no registrados",
+        "Nombre comercial del producto"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre comercial del producto",
+      "synthetic_value": "Producto Sintético"
+    },
+    {
+      "id": "company",
+      "label": "Nombre de la empresa",
+      "path": [
+        "Identificación de Biocidas no registrados",
+        "Nombre de la empresa"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre de la empresa",
+      "synthetic_value": "Empresa Ficticia"
+    },
+    {
+      "id": "company-id",
+      "label": "DNI/NIF/CIF",
+      "path": [
+        "Identificación de Biocidas no registrados",
+        "DNI/NIF/CIF"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DNINIFCIF",
+      "synthetic_value": "SYNTH-CIF-13"
+    },
+    {
+      "id": "address",
+      "label": "Domicilio",
+      "path": [
+        "Identificación de Biocidas no registrados",
+        "Domicilio"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Domicilio",
+      "synthetic_value": "Calle Modelo"
+    },
+    {
+      "id": "municipality",
+      "label": "Municipio",
+      "path": [
+        "Identificación de Biocidas no registrados",
+        "Municipio"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Municipio",
+      "synthetic_value": "Ciudad Ficticia"
+    },
+    {
+      "id": "province",
+      "label": "Provincia País",
+      "path": [
+        "Identificación de Biocidas no registrados",
+        "Provincia País"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Provincia País",
+      "synthetic_value": "Provincia Ficticia"
+    },
+    {
+      "id": "postal",
+      "label": "Código postal",
+      "path": [
+        "Identificación de Biocidas no registrados",
+        "Código postal"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Código postal",
+      "synthetic_value": "00000"
+    },
+    {
+      "id": "phone",
+      "label": "Teléfono de contacto",
+      "path": [
+        "Identificación de Biocidas no registrados",
+        "Teléfono de contacto"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Teléfono de contacto",
+      "synthetic_value": "000000000"
+    },
+    {
+      "id": "email",
+      "label": "email",
+      "path": [
+        "Identificación de Biocidas no registrados",
+        "email"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "email",
+      "synthetic_value": "empresa@example.invalid"
+    },
+    {
+      "id": "composition",
+      "label": "Composición cualitativa/cuantitativa del producto al 100%",
+      "path": [
+        "Identificación de Biocidas no registrados",
+        "Composición cualitativa/cuantitativa del producto al 100%"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Composición cualitativa/cuantitativa del producto al 100%",
+      "synthetic_value": "Composición ficticia"
+    },
+    {
+      "id": "active-1-name",
+      "label": "NOMBRE",
+      "path": [
+        "Sustancia(s) Activa(s)",
+        "Sustancia 1",
+        "NOMBRE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "NOMBRE",
+      "synthetic_value": "Sustancia ficticia 1"
+    },
+    {
+      "id": "active-1-amount",
+      "label": "CANTIDAD",
+      "path": [
+        "Sustancia(s) Activa(s)",
+        "Sustancia 1",
+        "CANTIDAD"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CANTIDAD",
+      "synthetic_value": "8%"
+    },
+    {
+      "id": "active-1-cas",
+      "label": "Nº CAS",
+      "path": [
+        "Sustancia(s) Activa(s)",
+        "Sustancia 1",
+        "Nº CAS"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nº CAS",
+      "synthetic_value": "SYNTH-CAS-1"
+    },
+    {
+      "id": "active-2-name",
+      "label": "NOMBRE",
+      "path": [
+        "Sustancia(s) Activa(s)",
+        "Sustancia 2",
+        "NOMBRE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "NOMBRE",
+      "synthetic_value": "Sustancia ficticia 2"
+    },
+    {
+      "id": "active-2-amount",
+      "label": "CANTIDAD",
+      "path": [
+        "Sustancia(s) Activa(s)",
+        "Sustancia 2",
+        "CANTIDAD"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CANTIDAD",
+      "synthetic_value": "8%"
+    },
+    {
+      "id": "active-2-cas",
+      "label": "Nº CAS",
+      "path": [
+        "Sustancia(s) Activa(s)",
+        "Sustancia 2",
+        "Nº CAS"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nº CAS",
+      "synthetic_value": "SYNTH-CAS-2"
+    },
+    {
+      "id": "active-3-name",
+      "label": "NOMBRE",
+      "path": [
+        "Sustancia(s) Activa(s)",
+        "Sustancia 3",
+        "NOMBRE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "NOMBRE",
+      "synthetic_value": "Sustancia ficticia 3"
+    },
+    {
+      "id": "active-3-amount",
+      "label": "CANTIDAD",
+      "path": [
+        "Sustancia(s) Activa(s)",
+        "Sustancia 3",
+        "CANTIDAD"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CANTIDAD",
+      "synthetic_value": "8%"
+    },
+    {
+      "id": "active-3-cas",
+      "label": "Nº CAS",
+      "path": [
+        "Sustancia(s) Activa(s)",
+        "Sustancia 3",
+        "Nº CAS"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nº CAS",
+      "synthetic_value": "SYNTH-CAS-3"
+    },
+    {
+      "id": "active-4-name",
+      "label": "NOMBRE",
+      "path": [
+        "Sustancia(s) Activa(s)",
+        "Sustancia 4",
+        "NOMBRE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "NOMBRE",
+      "synthetic_value": "Sustancia ficticia 4"
+    },
+    {
+      "id": "active-4-amount",
+      "label": "CANTIDAD",
+      "path": [
+        "Sustancia(s) Activa(s)",
+        "Sustancia 4",
+        "CANTIDAD"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CANTIDAD",
+      "synthetic_value": "8%"
+    },
+    {
+      "id": "active-4-cas",
+      "label": "Nº CAS",
+      "path": [
+        "Sustancia(s) Activa(s)",
+        "Sustancia 4",
+        "Nº CAS"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nº CAS",
+      "synthetic_value": "SYNTH-CAS-4"
+    },
+    {
+      "id": "active-5-name",
+      "label": "NOMBRE",
+      "path": [
+        "Sustancia(s) Activa(s)",
+        "Sustancia 5",
+        "NOMBRE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "NOMBRE",
+      "synthetic_value": "Sustancia ficticia 5"
+    },
+    {
+      "id": "active-5-amount",
+      "label": "CANTIDAD",
+      "path": [
+        "Sustancia(s) Activa(s)",
+        "Sustancia 5",
+        "CANTIDAD"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CANTIDAD",
+      "synthetic_value": "8%"
+    },
+    {
+      "id": "active-5-cas",
+      "label": "Nº CAS",
+      "path": [
+        "Sustancia(s) Activa(s)",
+        "Sustancia 5",
+        "Nº CAS"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nº CAS",
+      "synthetic_value": "SYNTH-CAS-5"
+    },
+    {
+      "id": "other-6-name",
+      "label": "NOMBRE",
+      "path": [
+        "Resto de Sustancias del producto",
+        "Sustancia 6",
+        "NOMBRE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "NOMBRE",
+      "synthetic_value": "Sustancia ficticia 6"
+    },
+    {
+      "id": "other-6-amount",
+      "label": "CANTIDAD",
+      "path": [
+        "Resto de Sustancias del producto",
+        "Sustancia 6",
+        "CANTIDAD"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CANTIDAD",
+      "synthetic_value": "8%"
+    },
+    {
+      "id": "other-6-cas",
+      "label": "Nº CAS",
+      "path": [
+        "Resto de Sustancias del producto",
+        "Sustancia 6",
+        "Nº CAS"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nº CAS",
+      "synthetic_value": "SYNTH-CAS-6"
+    },
+    {
+      "id": "other-7-name",
+      "label": "NOMBRE",
+      "path": [
+        "Resto de Sustancias del producto",
+        "Sustancia 7",
+        "NOMBRE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "NOMBRE",
+      "synthetic_value": "Sustancia ficticia 7"
+    },
+    {
+      "id": "other-7-amount",
+      "label": "CANTIDAD",
+      "path": [
+        "Resto de Sustancias del producto",
+        "Sustancia 7",
+        "CANTIDAD"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CANTIDAD",
+      "synthetic_value": "8%"
+    },
+    {
+      "id": "other-7-cas",
+      "label": "Nº CAS",
+      "path": [
+        "Resto de Sustancias del producto",
+        "Sustancia 7",
+        "Nº CAS"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nº CAS",
+      "synthetic_value": "SYNTH-CAS-7"
+    },
+    {
+      "id": "other-8-name",
+      "label": "NOMBRE",
+      "path": [
+        "Resto de Sustancias del producto",
+        "Sustancia 8",
+        "NOMBRE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "NOMBRE",
+      "synthetic_value": "Sustancia ficticia 8"
+    },
+    {
+      "id": "other-8-amount",
+      "label": "CANTIDAD",
+      "path": [
+        "Resto de Sustancias del producto",
+        "Sustancia 8",
+        "CANTIDAD"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CANTIDAD",
+      "synthetic_value": "8%"
+    },
+    {
+      "id": "other-8-cas",
+      "label": "Nº CAS",
+      "path": [
+        "Resto de Sustancias del producto",
+        "Sustancia 8",
+        "Nº CAS"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nº CAS",
+      "synthetic_value": "SYNTH-CAS-8"
+    },
+    {
+      "id": "other-9-name",
+      "label": "NOMBRE",
+      "path": [
+        "Resto de Sustancias del producto",
+        "Sustancia 9",
+        "NOMBRE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "NOMBRE",
+      "synthetic_value": "Sustancia ficticia 9"
+    },
+    {
+      "id": "other-9-amount",
+      "label": "CANTIDAD",
+      "path": [
+        "Resto de Sustancias del producto",
+        "Sustancia 9",
+        "CANTIDAD"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CANTIDAD",
+      "synthetic_value": "8%"
+    },
+    {
+      "id": "other-9-cas",
+      "label": "Nº CAS",
+      "path": [
+        "Resto de Sustancias del producto",
+        "Sustancia 9",
+        "Nº CAS"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nº CAS",
+      "synthetic_value": "SYNTH-CAS-9"
+    },
+    {
+      "id": "other-10-name",
+      "label": "NOMBRE",
+      "path": [
+        "Resto de Sustancias del producto",
+        "Sustancia 10",
+        "NOMBRE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "NOMBRE",
+      "synthetic_value": "Sustancia ficticia 10"
+    },
+    {
+      "id": "other-10-amount",
+      "label": "CANTIDAD",
+      "path": [
+        "Resto de Sustancias del producto",
+        "Sustancia 10",
+        "CANTIDAD"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CANTIDAD",
+      "synthetic_value": "8%"
+    },
+    {
+      "id": "other-10-cas",
+      "label": "Nº CAS",
+      "path": [
+        "Resto de Sustancias del producto",
+        "Sustancia 10",
+        "Nº CAS"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nº CAS",
+      "synthetic_value": "SYNTH-CAS-10"
+    },
+    {
+      "id": "other-11-name",
+      "label": "NOMBRE",
+      "path": [
+        "Resto de Sustancias del producto",
+        "Sustancia 11",
+        "NOMBRE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "NOMBRE",
+      "synthetic_value": "Sustancia ficticia 11"
+    },
+    {
+      "id": "other-11-amount",
+      "label": "CANTIDAD",
+      "path": [
+        "Resto de Sustancias del producto",
+        "Sustancia 11",
+        "CANTIDAD"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CANTIDAD",
+      "synthetic_value": "8%"
+    },
+    {
+      "id": "other-11-cas",
+      "label": "Nº CAS",
+      "path": [
+        "Resto de Sustancias del producto",
+        "Sustancia 11",
+        "Nº CAS"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nº CAS",
+      "synthetic_value": "SYNTH-CAS-11"
+    },
+    {
+      "id": "other-12-name",
+      "label": "NOMBRE",
+      "path": [
+        "Resto de Sustancias del producto",
+        "Sustancia 12",
+        "NOMBRE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "NOMBRE",
+      "synthetic_value": "Sustancia ficticia 12"
+    },
+    {
+      "id": "other-12-amount",
+      "label": "CANTIDAD",
+      "path": [
+        "Resto de Sustancias del producto",
+        "Sustancia 12",
+        "CANTIDAD"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CANTIDAD",
+      "synthetic_value": "8%"
+    },
+    {
+      "id": "other-12-cas",
+      "label": "Nº CAS",
+      "path": [
+        "Resto de Sustancias del producto",
+        "Sustancia 12",
+        "Nº CAS"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nº CAS",
+      "synthetic_value": "SYNTH-CAS-12"
+    },
+    {
+      "id": "other-13-name",
+      "label": "NOMBRE",
+      "path": [
+        "Resto de Sustancias del producto",
+        "Sustancia 13",
+        "NOMBRE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "NOMBRE",
+      "synthetic_value": "Sustancia ficticia 13"
+    },
+    {
+      "id": "other-13-amount",
+      "label": "CANTIDAD",
+      "path": [
+        "Resto de Sustancias del producto",
+        "Sustancia 13",
+        "CANTIDAD"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CANTIDAD",
+      "synthetic_value": "4%"
+    },
+    {
+      "id": "other-13-cas",
+      "label": "Nº CAS",
+      "path": [
+        "Resto de Sustancias del producto",
+        "Sustancia 13",
+        "Nº CAS"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nº CAS",
+      "synthetic_value": "SYNTH-CAS-13"
+    },
+    {
+      "id": "notice-type",
+      "label": "Nueva notificación del producto",
+      "path": [
+        "Resto de Sustancias del producto",
+        "Nueva notificación del producto"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Nueva notificación del producto",
+      "synthetic_value": "Nueva notificación del producto",
+      "options": [
+        "Nueva notificación del producto",
+        "Modificación o actualización de un producto previamente en fecha"
+      ],
+      "context_evidence": "Resto de Sustancias del producto / Nueva notificación del producto: selected Nueva notificación del producto; all other choices not selected. "
+    },
+    {
+      "id": "observations",
+      "label": "Observaciones",
+      "path": [
+        "Información complementaria",
+        "Observaciones"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Observaciones",
+      "synthetic_value": "Sin observaciones ficticias"
+    },
+    {
+      "id": "product-type-1",
+      "label": "TP",
+      "path": [
+        "Información complementaria",
+        "Uso 1",
+        "TP"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "TP",
+      "synthetic_value": "TP-1"
+    },
+    {
+      "id": "use-1",
+      "label": "USO",
+      "path": [
+        "Información complementaria",
+        "Uso 1",
+        "USO"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "USO",
+      "synthetic_value": "Uso ficticio 1"
+    },
+    {
+      "id": "product-type-2",
+      "label": "TP",
+      "path": [
+        "Información complementaria",
+        "Uso 2",
+        "TP"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "TP",
+      "synthetic_value": "TP-2"
+    },
+    {
+      "id": "use-2",
+      "label": "USO",
+      "path": [
+        "Información complementaria",
+        "Uso 2",
+        "USO"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "USO",
+      "synthetic_value": "Uso ficticio 2"
+    },
+    {
+      "id": "product-type-3",
+      "label": "TP",
+      "path": [
+        "Información complementaria",
+        "Uso 3",
+        "TP"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "TP",
+      "synthetic_value": "TP-3"
+    },
+    {
+      "id": "use-3",
+      "label": "USO",
+      "path": [
+        "Información complementaria",
+        "Uso 3",
+        "USO"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "USO",
+      "synthetic_value": "Uso ficticio 3"
+    },
+    {
+      "id": "product-type-4",
+      "label": "TP",
+      "path": [
+        "Información complementaria",
+        "Uso 4",
+        "TP"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "TP",
+      "synthetic_value": "TP-4"
+    },
+    {
+      "id": "use-4",
+      "label": "USO",
+      "path": [
+        "Información complementaria",
+        "Uso 4",
+        "USO"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "USO",
+      "synthetic_value": "Uso ficticio 4"
+    },
+    {
+      "id": "product-type-5",
+      "label": "TP",
+      "path": [
+        "Información complementaria",
+        "Uso 5",
+        "TP"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "TP",
+      "synthetic_value": "TP-5"
+    },
+    {
+      "id": "use-5",
+      "label": "USO",
+      "path": [
+        "Información complementaria",
+        "Uso 5",
+        "USO"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "USO",
+      "synthetic_value": "Uso ficticio 5"
+    },
+    {
+      "id": "product-type-6",
+      "label": "TP",
+      "path": [
+        "Información complementaria",
+        "Uso 6",
+        "TP"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "TP",
+      "synthetic_value": "TP-6"
+    },
+    {
+      "id": "use-6",
+      "label": "USO",
+      "path": [
+        "Información complementaria",
+        "Uso 6",
+        "USO"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "USO",
+      "synthetic_value": "Uso ficticio 6"
+    },
+    {
+      "id": "product-type-7",
+      "label": "TP",
+      "path": [
+        "Información complementaria",
+        "Uso 7",
+        "TP"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "TP",
+      "synthetic_value": "TP-7"
+    },
+    {
+      "id": "use-7",
+      "label": "USO",
+      "path": [
+        "Información complementaria",
+        "Uso 7",
+        "USO"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "USO",
+      "synthetic_value": "Uso ficticio 7"
+    },
+    {
+      "id": "product-type-8",
+      "label": "TP",
+      "path": [
+        "Información complementaria",
+        "Uso 8",
+        "TP"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "TP",
+      "synthetic_value": "TP-8"
+    },
+    {
+      "id": "use-8",
+      "label": "USO",
+      "path": [
+        "Información complementaria",
+        "Uso 8",
+        "USO"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "USO",
+      "synthetic_value": "Uso ficticio 8"
+    },
+    {
+      "id": "attachments",
+      "label": "Documentación complementaria anexa a la solicitud",
+      "path": [
+        "Información complementaria",
+        "Documentación complementaria anexa a la solicitud"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 2,
+      "source_anchor": "Documentación complementaria anexa a la solicitud",
+      "synthetic_value": [
+        "Etiqueta del producto",
+        "Ficha de Datos de Seguridad del producto"
+      ],
+      "options": [
+        "Etiqueta del producto",
+        "Ficha de Datos de Seguridad del producto"
+      ],
+      "context_evidence": "Información complementaria / Documentación complementaria anexa a la solicitud: selected ['Etiqueta del producto', 'Ficha de Datos de Seguridad del producto']; all other choices not selected. "
+    },
+    {
+      "id": "date",
+      "label": "Fecha",
+      "path": [
+        "Información complementaria",
+        "Fecha"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Fecha",
+      "synthetic_value": "2026-09-25"
+    },
+    {
+      "id": "signature",
+      "label": "Firma del Titular y sello de la empresa",
+      "path": [
+        "Información complementaria",
+        "Firma del Titular y sello de la empresa"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Firma del Titular y sello de la empresa",
+      "synthetic_value": "Firma sintética"
+    }
+  ],
+  "normalization_notes": [
+    "One normalized HTML table represents the complete blank form, including repeated blank rows.",
+    "Source original is linked, not redistributed; filled values and context are synthetic."
+  ],
+  "source_note": "Historical regulation references in the source; not a current registration recommendation.",
+  "context": "All names, identifiers, addresses, dates, amounts and choices below are synthetic benchmark examples, not real applications. Identificación de Biocidas no registrados / Nombre comercial del producto: Producto Sintético. Identificación de Biocidas no registrados / Nombre de la empresa: Empresa Ficticia. Identificación de Biocidas no registrados / DNI/NIF/CIF: SYNTH-CIF-13. Identificación de Biocidas no registrados / Domicilio: Calle Modelo. Identificación de Biocidas no registrados / Municipio: Ciudad Ficticia. Identificación de Biocidas no registrados / Provincia País: Provincia Ficticia. Identificación de Biocidas no registrados / Código postal: 00000. Identificación de Biocidas no registrados / Teléfono de contacto: 000000000. Identificación de Biocidas no registrados / email: empresa@example.invalid. Identificación de Biocidas no registrados / Composición cualitativa/cuantitativa del producto al 100%: Composición ficticia. Sustancia(s) Activa(s) / NOMBRE: Sustancia ficticia 1. Sustancia(s) Activa(s) / CANTIDAD: 8%. Sustancia(s) Activa(s) / Nº CAS: SYNTH-CAS-1. Sustancia(s) Activa(s) / NOMBRE: Sustancia ficticia 2. Sustancia(s) Activa(s) / CANTIDAD: 8%. Sustancia(s) Activa(s) / Nº CAS: SYNTH-CAS-2. Sustancia(s) Activa(s) / NOMBRE: Sustancia ficticia 3. Sustancia(s) Activa(s) / CANTIDAD: 8%. Sustancia(s) Activa(s) / Nº CAS: SYNTH-CAS-3. Sustancia(s) Activa(s) / NOMBRE: Sustancia ficticia 4. Sustancia(s) Activa(s) / CANTIDAD: 8%. Sustancia(s) Activa(s) / Nº CAS: SYNTH-CAS-4. Sustancia(s) Activa(s) / NOMBRE: Sustancia ficticia 5. Sustancia(s) Activa(s) / CANTIDAD: 8%. Sustancia(s) Activa(s) / Nº CAS: SYNTH-CAS-5. Resto de Sustancias del producto / NOMBRE: Sustancia ficticia 6. Resto de Sustancias del producto / CANTIDAD: 8%. Resto de Sustancias del producto / Nº CAS: SYNTH-CAS-6. Resto de Sustancias del producto / NOMBRE: Sustancia ficticia 7. Resto de Sustancias del producto / CANTIDAD: 8%. Resto de Sustancias del producto / Nº CAS: SYNTH-CAS-7. Resto de Sustancias del producto / NOMBRE: Sustancia ficticia 8. Resto de Sustancias del producto / CANTIDAD: 8%. Resto de Sustancias del producto / Nº CAS: SYNTH-CAS-8. Resto de Sustancias del producto / NOMBRE: Sustancia ficticia 9. Resto de Sustancias del producto / CANTIDAD: 8%. Resto de Sustancias del producto / Nº CAS: SYNTH-CAS-9. Resto de Sustancias del producto / NOMBRE: Sustancia ficticia 10. Resto de Sustancias del producto / CANTIDAD: 8%. Resto de Sustancias del producto / Nº CAS: SYNTH-CAS-10. Resto de Sustancias del producto / NOMBRE: Sustancia ficticia 11. Resto de Sustancias del producto / CANTIDAD: 8%. Resto de Sustancias del producto / Nº CAS: SYNTH-CAS-11. Resto de Sustancias del producto / NOMBRE: Sustancia ficticia 12. Resto de Sustancias del producto / CANTIDAD: 8%. Resto de Sustancias del producto / Nº CAS: SYNTH-CAS-12. Resto de Sustancias del producto / NOMBRE: Sustancia ficticia 13. Resto de Sustancias del producto / CANTIDAD: 4%. Resto de Sustancias del producto / Nº CAS: SYNTH-CAS-13. Resto de Sustancias del producto / Nueva notificación del producto: selected Nueva notificación del producto; all other choices not selected. Información complementaria / Observaciones: Sin observaciones ficticias. Información complementaria / TP: TP-1. Información complementaria / USO: Uso ficticio 1. Información complementaria / TP: TP-2. Información complementaria / USO: Uso ficticio 2. Información complementaria / TP: TP-3. Información complementaria / USO: Uso ficticio 3. Información complementaria / TP: TP-4. Información complementaria / USO: Uso ficticio 4. Información complementaria / TP: TP-5. Información complementaria / USO: Uso ficticio 5. Información complementaria / TP: TP-6. Información complementaria / USO: Uso ficticio 6. Información complementaria / TP: TP-7. Información complementaria / USO: Uso ficticio 7. Información complementaria / TP: TP-8. Información complementaria / USO: Uso ficticio 8. Información complementaria / Documentación complementaria anexa a la solicitud: selected ['Etiqueta del producto', 'Ficha de Datos de Seguridad del producto']; all other choices not selected. Información complementaria / Fecha: 2026-09-25. Información complementaria / Firma del Titular y sello de la empresa: Firma sintética.\n"
+}

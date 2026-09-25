@@ -1,0 +1,435 @@
+{
+  "id": "es-personal-dosimetry-enrollment",
+  "candidate_id": "es-personal-dosimetry-enrollment",
+  "title": "Alta o traslado de dosimetría personal",
+  "language": "es",
+  "domain": "Healthcare",
+  "business_topic": "occupational_dosimetry_enrollment",
+  "issuer_id": "es_ingesa_cnd",
+  "template_family": "personal-dosimetry-enrollment",
+  "source_pages": 2,
+  "retrieved_at": "2026-09-25T15:00:09.491342+00:00",
+  "source_sha256": "20bd0be8a77dd95835753bb8e5f18e2da5d35cc1b1da164f7cb6461c21d7b8cc",
+  "source_url": "https://ingesa.sanidad.gob.es/cnd/dam/jcr:1b540530-7883-426a-b2c1-02c572ebd734/GSF05.Formulario_de_alta_o_traslado_de_dosimetria_personal.pdf",
+  "landing_url": "https://ingesa.sanidad.gob.es/cnd/Dosimetria/Formularios.html",
+  "license_url": "https://ingesa.sanidad.gob.es/sns/Aviso-Legal",
+  "license_note": "Official blank form, transcribed as functional fields without source artwork or logos. Attribute the issuing agency and source. This note is not a legal clearance.",
+  "columns": 6,
+  "rows": [
+    [
+      {
+        "text": "Datos personales de la persona trabajadora",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "worker",
+        "label": "Nombre",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "worker-id",
+        "label": "DNI/NIE",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "category",
+        "label": "Categoría profesional",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "birth",
+        "label": "Fecha de nacimiento",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Datos del Servicio (alta o destino del traslado)",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "institution",
+        "label": "Institución",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "code",
+        "label": "Código",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "service",
+        "label": "Servicio",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "city",
+        "label": "Localidad",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "ALTA en dosimetría personal",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "enroll-type",
+        "label": "Tipo dosimetría",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "TRASLADO de dosimetría personal desde otro servicio o institución de la misma provincia",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "transfer-type",
+        "label": "Tipo dosimetría",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "origin",
+        "label": "Historia de origen",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Firmas",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "manager-date",
+        "label": "Fecha",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "worker-date",
+        "label": "Fecha",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "manager-sign",
+        "label": "Firmado",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "worker-sign",
+        "label": "Firmado",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "manager-name",
+        "label": "Nombre",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "worker-name",
+        "label": "Nombre",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Relación de categorías profesionales con su código",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "La categoría profesional se selecciona mediante un código de la tabla adjunta.",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "worker",
+      "label": "Nombre",
+      "path": [
+        "Datos personales de la persona trabajadora",
+        "Nombre"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre",
+      "synthetic_value": "Persona Ficticia A"
+    },
+    {
+      "id": "worker-id",
+      "label": "DNI/NIE",
+      "path": [
+        "Datos personales de la persona trabajadora",
+        "DNI/NIE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DNI/NIE",
+      "synthetic_value": "SYNTH-DNI-14"
+    },
+    {
+      "id": "category",
+      "label": "Categoría profesional",
+      "path": [
+        "Datos personales de la persona trabajadora",
+        "Categoría profesional"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Categoría profesional",
+      "synthetic_value": "10"
+    },
+    {
+      "id": "birth",
+      "label": "Fecha de nacimiento",
+      "path": [
+        "Datos personales de la persona trabajadora",
+        "Fecha de nacimiento"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha de nacimiento",
+      "synthetic_value": "1985-01-01"
+    },
+    {
+      "id": "institution",
+      "label": "Institución",
+      "path": [
+        "Datos del Servicio (alta o destino del traslado)",
+        "Institución"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Institución",
+      "synthetic_value": "Centro Ficticio"
+    },
+    {
+      "id": "code",
+      "label": "Código",
+      "path": [
+        "Datos del Servicio (alta o destino del traslado)",
+        "Código"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Código",
+      "synthetic_value": "COD-SYNTH-14"
+    },
+    {
+      "id": "service",
+      "label": "Servicio",
+      "path": [
+        "Datos del Servicio (alta o destino del traslado)",
+        "Servicio"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Servicio",
+      "synthetic_value": "Radiología"
+    },
+    {
+      "id": "city",
+      "label": "Localidad",
+      "path": [
+        "Datos del Servicio (alta o destino del traslado)",
+        "Localidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Localidad",
+      "synthetic_value": "Ciudad Ficticia"
+    },
+    {
+      "id": "enroll-type",
+      "label": "Tipo dosimetría",
+      "path": [
+        "ALTA en dosimetría personal",
+        "Tipo dosimetría"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "Tipo dosimetría",
+      "synthetic_value": [
+        "Solapa"
+      ],
+      "options": [
+        "Solapa",
+        "Muñeca",
+        "Anillo",
+        "Abdomen",
+        "Delantal",
+        "Cristalino"
+      ],
+      "context_evidence": "ALTA en dosimetría personal / Tipo dosimetría: selected ['Solapa']; all other choices not selected. "
+    },
+    {
+      "id": "transfer-type",
+      "label": "Tipo dosimetría",
+      "path": [
+        "TRASLADO de dosimetría personal desde otro servicio o institución de la misma provincia",
+        "Tipo dosimetría"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "Tipo dosimetría",
+      "synthetic_value": [],
+      "options": [
+        "Solapa",
+        "Muñeca",
+        "Anillo",
+        "Abdomen",
+        "Delantal",
+        "Cristalino"
+      ],
+      "context_evidence": "TRASLADO de dosimetría personal desde otro servicio o institución de la misma provincia / Tipo dosimetría: selected []; all other choices not selected. "
+    },
+    {
+      "id": "origin",
+      "label": "Historia de origen",
+      "path": [
+        "TRASLADO de dosimetría personal desde otro servicio o institución de la misma provincia",
+        "Historia de origen"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Historia de origen",
+      "synthetic_value": "HIST-SYNTH-14"
+    },
+    {
+      "id": "manager-date",
+      "label": "Fecha",
+      "path": [
+        "Firmas",
+        "Responsable",
+        "Fecha"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha",
+      "synthetic_value": "2026-09-25"
+    },
+    {
+      "id": "worker-date",
+      "label": "Fecha",
+      "path": [
+        "Firmas",
+        "Trabajador",
+        "Fecha"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha",
+      "synthetic_value": "2026-09-25"
+    },
+    {
+      "id": "manager-sign",
+      "label": "Firmado",
+      "path": [
+        "Firmas",
+        "Responsable",
+        "Firmado"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Firmado",
+      "synthetic_value": "Firma sintética A"
+    },
+    {
+      "id": "worker-sign",
+      "label": "Firmado",
+      "path": [
+        "Firmas",
+        "Trabajador",
+        "Firmado"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Firmado",
+      "synthetic_value": "Firma sintética B"
+    },
+    {
+      "id": "manager-name",
+      "label": "Nombre",
+      "path": [
+        "Firmas",
+        "Responsable",
+        "Nombre"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre",
+      "synthetic_value": "Persona Ficticia B"
+    },
+    {
+      "id": "worker-name",
+      "label": "Nombre",
+      "path": [
+        "Firmas",
+        "Trabajador",
+        "Nombre"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre",
+      "synthetic_value": "Persona Ficticia A"
+    }
+  ],
+  "normalization_notes": [
+    "One normalized HTML table represents the complete blank form, including repeated blank rows.",
+    "Source original is linked, not redistributed; filled values and context are synthetic."
+  ],
+  "source_note": "",
+  "context": "All names, identifiers, addresses, dates, amounts and choices below are synthetic benchmark examples, not real applications. Datos personales de la persona trabajadora / Nombre: Persona Ficticia A. Datos personales de la persona trabajadora / DNI/NIE: SYNTH-DNI-14. Datos personales de la persona trabajadora / Categoría profesional: 10. Datos personales de la persona trabajadora / Fecha de nacimiento: 1985-01-01. Datos del Servicio (alta o destino del traslado) / Institución: Centro Ficticio. Datos del Servicio (alta o destino del traslado) / Código: COD-SYNTH-14. Datos del Servicio (alta o destino del traslado) / Servicio: Radiología. Datos del Servicio (alta o destino del traslado) / Localidad: Ciudad Ficticia. ALTA en dosimetría personal / Tipo dosimetría: selected ['Solapa']; all other choices not selected. TRASLADO de dosimetría personal desde otro servicio o institución de la misma provincia / Tipo dosimetría: selected []; all other choices not selected. TRASLADO de dosimetría personal desde otro servicio o institución de la misma provincia / Historia de origen: HIST-SYNTH-14. Firmas / Fecha: 2026-09-25. Firmas / Fecha: 2026-09-25. Firmas / Firmado: Firma sintética A. Firmas / Firmado: Firma sintética B. Firmas / Nombre: Persona Ficticia B. Firmas / Nombre: Persona Ficticia A.\n"
+}

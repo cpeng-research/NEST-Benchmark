@@ -1,0 +1,542 @@
+{
+  "id": "zh-ntpc-vaccination-record-request",
+  "candidate_id": "zh-ntpc-vaccination-record-request",
+  "title": "新北市政府衛生局預防接種紀錄文件申請書",
+  "language": "zh",
+  "language_variant": "zh-Hant",
+  "domain": "Healthcare",
+  "business_topic": "vaccination_record_request",
+  "issuer_id": "tw_ntpc_health",
+  "template_family": "vaccination-record-request",
+  "source_pages": 2,
+  "retrieved_at": "2026-09-25T12:02:40+00:00",
+  "source_sha256": "402cdce5854fa4440c3a8ee9cc5f96fd4d658a4d8a792168efc5a6f354257d9e",
+  "source_url": "https://bali.health.ntpc.gov.tw/archive/health_ntpc/25/file/%E6%96%B0%E5%8C%97%E5%B8%82%E6%94%BF%E5%BA%9C%E8%A1%9B%E7%94%9F%E5%B1%80%E9%A0%90%E9%98%B2%E6%8E%A5%E7%A8%AE%E7%94%B3%E8%AB%8B%E6%9B%B8.pdf",
+  "landing_url": "https://linkou.health.ntpc.gov.tw/article/%E7%94%B3%E8%AB%8B%E9%A0%90%E6%B3%A8%E8%AD%89%E6%98%8E%E5%85%92%E7%AB%A5%E6%89%8B%E5%86%8A%E6%96%B0%E5%86%A0%E7%96%AB%E8%8B%97%E5%B0%8F%E9%BB%83%E5%8D%A1%E9%81%BA%E5%A4%B1%E8%A3%9C%E7%99%BC%E5%8F%8A%E5%9C%8B%E5%A4%96%E7%96%AB%E8%8B%97%E7%B4%80%E9%8C%84%E8%A3%9C%E7%99%BB%E7%9B%B8%E9%97%9C%E6%BA%96%E5%82%99%E6%96%87%E4%BB%B6",
+  "license_url": "https://www.health.ntpc.gov.tw/article/%E6%94%BF%E5%BA%9C%E7%B6%B2%E7%AB%99%E8%B3%87%E6%96%99%E9%96%8B%E6%94%BE%E5%AE%A3%E5%91%8A",
+  "license_note": "The agency website open-data declaration permits reproduction and adaptation of agency-owned material with attribution, subject to stated exclusions. This extension transcribes the blank form's functional fields, not its images or logos. This note is not a legal clearance.",
+  "columns": 6,
+  "rows": [
+    [
+      {
+        "text": "新北市政府衛生局預防接種紀錄文件申請書 (Application for Vaccination)",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "field": "date-year",
+        "label": "申請日期：年",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "date-month",
+        "label": "月",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "date-day",
+        "label": "日",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "申請人資料 (Applicant Details)",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "field": "app-name",
+        "label": "姓名",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "relationship",
+        "label": "與兒童關係",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "app-id",
+        "label": "身分證統一編號(或護照號碼)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "app-dob",
+        "label": "出生日期",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "app-phone",
+        "label": "電話",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "app-signature",
+        "label": "申請人簽章",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "接種兒童資料 (Child Details)",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "field": "child-name",
+        "label": "姓名",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "child-dob",
+        "label": "出生日期",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "child-id",
+        "label": "身分證統一編號(或護照號碼)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "parents",
+        "label": "家長姓名",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "child-phone",
+        "label": "電話",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "contact-address",
+        "label": "聯絡地址",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "documents",
+        "label": "提供證件",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "language",
+        "label": "申請類別",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "copies",
+        "label": "份數",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "health-booklet",
+        "label": "兒童健康手冊",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "本案依分層負責授權承辦人員決行",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "issue-staff",
+        "label": "核發人員",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "review-staff",
+        "label": "覆核人員",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "archive-clerk",
+        "label": "承辦人",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "head-nurse",
+        "label": "護理長",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "director",
+        "label": "衛生所主任",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "注意事項\n\n1.尚未辦理出生登記者請提列出生證明或相關文件。\n2.申請英文預防接種證明者，英文姓名需與護照相同。\n3.個案或法定監護人未能親自申請者，可具委託書由代理人辦理；如個\n  案未成年，則委託書由法定監護人填具。\n4.申請預防接種需檢附之相關證件如下：\n  ①個案之身份證件(如戶口名簿正本或影本)。\n  ②委託書(非本人或法定監護人親自申請時需檢具)。\n  ③代理人之身份證明文件(如身分證、健保卡、駕照、護照等)。\n  ④現存之預防接種證明文件。\n5.個案如為 12 歲以下且仍有疫苗尚未完成接種之學幼童，請補發「兒童\n  健康手冊」，勿開立單張之「預防接種證明」  ，俾利幼童完成後續疫苗\n  接種。\n6.上述之身份證明文件應於驗畢後歸還，無需影印留存。\n7.①為了幼童的健康，補換發兒童健康手冊者如仍持有舊兒童健康手\n   冊之「預防接種時程及紀錄表」  ，請作廢或銷毀勿再使用。\n  ②請衛生所於新發之兒童健康手冊預防接種時程及紀錄表空白處蓋\n「提醒您!此手冊為重新補發，請攜帶本手冊進行預防接種」戳章，以提\n醒家長。\n\n\n\n\n             (民)衛疾管 07-表三-2/2\n",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "date-year",
+      "label": "申請日期：年",
+      "path": [
+        "申請日期：年"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "申請日期：年",
+      "synthetic_value": "115"
+    },
+    {
+      "id": "date-month",
+      "label": "月",
+      "path": [
+        "月"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "月",
+      "synthetic_value": "9"
+    },
+    {
+      "id": "date-day",
+      "label": "日",
+      "path": [
+        "日"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "日",
+      "synthetic_value": "25"
+    },
+    {
+      "id": "app-name",
+      "label": "姓名",
+      "path": [
+        "申請人資料",
+        "姓名"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "姓名",
+      "synthetic_value": "虛構申請人甲"
+    },
+    {
+      "id": "relationship",
+      "label": "與兒童關係",
+      "path": [
+        "申請人資料",
+        "與兒童關係"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "與兒童關係",
+      "synthetic_value": "家長"
+    },
+    {
+      "id": "app-id",
+      "label": "身分證統一編號(或護照號碼)",
+      "path": [
+        "申請人資料",
+        "身分證統一編號(或護照號碼)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "身分證統一編號(或護照號碼)",
+      "synthetic_value": "SYNTHETIC-APP-418"
+    },
+    {
+      "id": "app-dob",
+      "label": "出生日期",
+      "path": [
+        "申請人資料",
+        "出生日期"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "出生日期",
+      "synthetic_value": "1987-01-02"
+    },
+    {
+      "id": "app-phone",
+      "label": "電話",
+      "path": [
+        "申請人資料",
+        "電話"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "電話",
+      "synthetic_value": "000-000-0418"
+    },
+    {
+      "id": "app-signature",
+      "label": "申請人簽章",
+      "path": [
+        "申請人資料",
+        "申請人簽章"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "申請人簽章",
+      "synthetic_value": "虛構申請人甲之合成簽章"
+    },
+    {
+      "id": "child-name",
+      "label": "姓名",
+      "path": [
+        "接種兒童資料",
+        "姓名"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "姓名",
+      "synthetic_value": "虛構兒童乙"
+    },
+    {
+      "id": "child-dob",
+      "label": "出生日期",
+      "path": [
+        "接種兒童資料",
+        "出生日期"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "出生日期",
+      "synthetic_value": "2020-03-04"
+    },
+    {
+      "id": "child-id",
+      "label": "身分證統一編號(或護照號碼)",
+      "path": [
+        "接種兒童資料",
+        "身分證統一編號(或護照號碼)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "身分證統一編號(或護照號碼)",
+      "synthetic_value": "SYNTHETIC-CHILD-418"
+    },
+    {
+      "id": "parents",
+      "label": "家長姓名",
+      "path": [
+        "接種兒童資料",
+        "家長姓名"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "家長姓名",
+      "synthetic_value": "虛構家長甲"
+    },
+    {
+      "id": "child-phone",
+      "label": "電話",
+      "path": [
+        "接種兒童資料",
+        "電話"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "電話",
+      "synthetic_value": "000-000-0419"
+    },
+    {
+      "id": "contact-address",
+      "label": "聯絡地址",
+      "path": [
+        "接種兒童資料",
+        "聯絡地址"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "聯絡地址",
+      "synthetic_value": "虛構市示例路零號"
+    },
+    {
+      "id": "documents",
+      "label": "提供證件",
+      "path": [
+        "提供證件"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "提供",
+      "synthetic_value": [
+        "原始預防接種紀錄表",
+        "申請人身分證明"
+      ],
+      "options": [
+        "原始預防接種紀錄表",
+        "預防接種證明書",
+        "戶口名簿或出生證明",
+        "申請人身分證明",
+        "委託書",
+        "其他"
+      ],
+      "context_evidence": "提供證件勾選原始預防接種紀錄表及申請人身分證明，其餘不勾選。"
+    },
+    {
+      "id": "language",
+      "label": "申請類別",
+      "path": [
+        "申請類別",
+        "語言"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "申請類別",
+      "synthetic_value": "中文",
+      "options": [
+        "中文",
+        "英文"
+      ],
+      "context_evidence": "申請類別語言勾選中文，不勾選英文。"
+    },
+    {
+      "id": "copies",
+      "label": "份數",
+      "path": [
+        "申請類別",
+        "份數"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "份數",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "health-booklet",
+      "label": "兒童健康手冊",
+      "path": [
+        "申請類別",
+        "兒童健康手冊"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "兒童健康手冊",
+      "synthetic_value": [],
+      "options": [
+        "兒童健康手冊"
+      ],
+      "context_evidence": "兒童健康手冊不勾選。"
+    },
+    {
+      "id": "issue-staff",
+      "label": "核發人員",
+      "path": [
+        "核發人員"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "核發人員",
+      "synthetic_value": "虛構職員甲"
+    },
+    {
+      "id": "review-staff",
+      "label": "覆核人員",
+      "path": [
+        "覆核人員"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "覆核人員",
+      "synthetic_value": "虛構職員乙"
+    },
+    {
+      "id": "archive-clerk",
+      "label": "承辦人",
+      "path": [
+        "歸檔審核",
+        "承辦人"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "承辦人",
+      "synthetic_value": "虛構職員丙"
+    },
+    {
+      "id": "head-nurse",
+      "label": "護理長",
+      "path": [
+        "歸檔審核",
+        "護理長"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "護理長",
+      "synthetic_value": "虛構職員丁"
+    },
+    {
+      "id": "director",
+      "label": "衛生所主任",
+      "path": [
+        "歸檔審核",
+        "衛生所主任"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "衛生所主任",
+      "synthetic_value": "虛構職員戊"
+    }
+  ],
+  "normalization_notes": [
+    "Source is an official blank PDF; HTML is a structured transcription, not the original layout.",
+    "All filled values and contexts are synthetic; no real applicant data is included.",
+    "The source has a second page of instructions; its text is preserved as a static row, not treated as fillable targets."
+  ],
+  "context": "以下為完全合成的基準測試情境，不是真實申請，也不含真實個人資料。申請日期：年為115。月為9。日為25。姓名為虛構申請人甲。與兒童關係為家長。身分證統一編號(或護照號碼)為SYNTHETIC-APP-418。出生日期為1987-01-02。電話為000-000-0418。申請人簽章為虛構申請人甲之合成簽章。姓名為虛構兒童乙。出生日期為2020-03-04。身分證統一編號(或護照號碼)為SYNTHETIC-CHILD-418。家長姓名為虛構家長甲。電話為000-000-0419。聯絡地址為虛構市示例路零號。提供證件勾選原始預防接種紀錄表及申請人身分證明，其餘不勾選。申請類別語言勾選中文，不勾選英文。份數為1。兒童健康手冊不勾選。核發人員為虛構職員甲。覆核人員為虛構職員乙。承辦人為虛構職員丙。護理長為虛構職員丁。衛生所主任為虛構職員戊。\n"
+}

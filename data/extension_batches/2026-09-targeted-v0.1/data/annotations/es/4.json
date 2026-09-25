@@ -1,0 +1,1018 @@
+{
+  "id": "es-anlis-hcv-dialysis",
+  "candidate_id": "es-anlis-hcv-dialysis",
+  "title": "SOLICITUD DE CV DE HEPATITIS C PACIENTES DIALIZADOS",
+  "language": "es",
+  "domain": "Healthcare",
+  "business_topic": "HepatitisCViralLoadDialysisReferral",
+  "issuer_id": "ar_inei_anlis_hepatitis_reference_laboratory",
+  "template_family": "anlis_rg_vh_06_00_hcv_dialysis",
+  "source_pages": 1,
+  "source_sha256": "367dc88ef5bca76d4c2f2a30b999ec2b38586d85611b5eda9cf236b0d02363d4",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/rg_06_ficha_de_solicitud_de_estudios_para_cv_hcv_dializados.pdf",
+  "landing_url": "https://www.argentina.gob.ar/salud/anlis/inei/fichas-e-instructivos-para-derivacion-de-muestras",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "Argentina.gob.ar licenses all its own content under Creative Commons Attribution 4.0 International unless otherwise declared. The official ANLIS/INEI hepatitis catalogue directly links this clinical referral form and the portal terms. The form visibly credits Laboratorio Nacional de Referencia para Hepatitis Virales-INEI-ANLIS C.G. MALBRAN; neither form nor catalogue states contrary terms or credits third-party material. Attribution: that laboratory, SOLICITUD DE CV DE HEPATITIS C PACIENTES DIALIZADOS, RG-VH-06-00, source URL above, CC BY 4.0 https://creativecommons.org/licenses/by/4.0/. Adapted to HTML/JSON with synthetic values for the NEST Benchmark. Changes: ruled spaces and printed choices represented as table targets/checkbox groups, attention glyphs represented as !. No endorsement is implied. Logos, trademarks, third-party rights, privacy/personality rights and any separately declared exceptions are outside this permission; this is not a clinically validated form.",
+  "retrieved_at": "2026-09-17T17:52:49.734112+00:00",
+  "source_version_note": "Visible identifier RG-VH-06-00. No visible issue date. The source instructs users to confirm that this version remains valid before use. HTTP Last-Modified 2025-06-11 15:09:17 GMT; PDF creation/modification metadata 2024-06-18 15:41:22 -03:00. Those technical dates are not a clinical-validity claim.",
+  "columns": 12,
+  "rows": [
+    [
+      {
+        "text": "RG-VH-06-00",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Laboratorio Nacional de Referencia para Hepatitis Virales-INEI-ANLIS C.G. MALBRAN",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "SOLICITUD DE CV DE HEPATITIS C PACIENTES DIALIZADOS",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "DATOS DEL CASO",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FECHA SOLICITUD:___/____/____",
+        "field": "request_date",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "APELLIDO:",
+        "field": "surname",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "NOMBRES:",
+        "field": "names",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "DNI:",
+        "field": "document",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "HIV:",
+        "field": "hiv",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "FECHA NACIMIENTO: ___/____/____",
+        "field": "birth_date",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "SEXO:",
+        "field": "sex",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "EDAD:",
+        "field": "age",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "OCUPACIÓN:",
+        "field": "occupation",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "NACIONALIDAD:",
+        "field": "nationality",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "PROV. RESIDENCIA:",
+        "field": "province",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "CIUDAD:",
+        "field": "city",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "TELÉFONO PACIENTE:",
+        "field": "phone",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "DATOS DE LA INSTITUCIÓN:",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Hospital/Institución:",
+        "field": "hospital",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Ciudad de la institución:",
+        "field": "hospital_city",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nombre del médico:",
+        "field": "physician",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Mail del médico:",
+        "field": "physician_email",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "DATOS DE INTERÉS",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "ESTUDIO DE !",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "text": "TRATAMIENTO PARA HEPATITIS C",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "",
+        "field": "study",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "text": "",
+        "field": "treatment",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Esquema:",
+        "field": "regimen",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Fecha INICIO:___/____/____",
+        "field": "treatment_start",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "Fecha FIN:___/____/____",
+        "field": "treatment_end",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "MUESTRAS:",
+        "field": "specimens",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "text": "",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "OTROS DATOS",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "✓ FECHA COMIENZO DIÁLISIS: _____/_____/_____",
+        "field": "dialysis_start",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "✓ CIRROSIS:",
+        "field": "cirrhosis",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "✓ HEPATITIS:",
+        "field": "hepatitis",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "✓ HCC:",
+        "field": "hcc",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "✓ INMUNOSUPRESIÓN:",
+        "field": "immunosuppression",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "¿Cuál?:",
+        "field": "immunosuppression_detail",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "✓ VACUNA HBV:",
+        "field": "hbv_vaccine",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Dosis:",
+        "field": "vaccine_doses",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Fecha:__/__/__",
+        "field": "vaccine_date",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "✓ EMBARAZO:",
+        "field": "pregnancy",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "Semana:",
+        "field": "pregnancy_week",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "✓ COMORBILIDADES:",
+        "field": "comorbidities",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "RESULTADOS PREVIOS HCV !",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "• Datos de serología (anti-HCV):",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "text": "• Datos de carga viral:",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "",
+        "field": "serology_method",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "Valor",
+        "field": "serology_value",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "UI/ml:",
+        "field": "viral_load",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Log:",
+        "field": "viral_log",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "genotipo:",
+        "field": "genotype",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fecha:___/____/____",
+        "field": "serology_date",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Fecha:___/____/____",
+        "field": "viral_date",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "ELFA: Ensayo de Fluorescencia Ligado a Enzimas/ ELISA: Enzimoinmunoensayo/ QML: quimioluminiscencia/ TR: test rápido",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Debe confirmarse su vigencia antes de hacer uso de esta versión por si ha sido modificada.",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "request_date",
+      "label": "FECHA SOLICITUD:",
+      "path": [
+        "DATOS DEL CASO",
+        "FECHA SOLICITUD:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "FECHA SOLICITUD:",
+      "synthetic_value": "23/09/2026"
+    },
+    {
+      "id": "surname",
+      "label": "APELLIDO:",
+      "path": [
+        "DATOS DEL CASO",
+        "APELLIDO:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "APELLIDO:",
+      "synthetic_value": "Ejemplo"
+    },
+    {
+      "id": "names",
+      "label": "NOMBRES:",
+      "path": [
+        "DATOS DEL CASO",
+        "NOMBRES:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "NOMBRES:",
+      "synthetic_value": "Rafael Modelo"
+    },
+    {
+      "id": "document",
+      "label": "DNI:",
+      "path": [
+        "DATOS DEL CASO",
+        "DNI:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DNI:",
+      "synthetic_value": "DNI-SINTÉTICO-H01"
+    },
+    {
+      "id": "hiv",
+      "label": "HIV:",
+      "path": [
+        "DATOS DEL CASO",
+        "HIV:"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "HIV:",
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "synthetic_value": "NO",
+      "context_evidence": "HIV: NO en el caso simulado."
+    },
+    {
+      "id": "birth_date",
+      "label": "FECHA NACIMIENTO:",
+      "path": [
+        "DATOS DEL CASO",
+        "FECHA NACIMIENTO:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "FECHA NACIMIENTO:",
+      "synthetic_value": "10/03/1970"
+    },
+    {
+      "id": "sex",
+      "label": "SEXO:",
+      "path": [
+        "DATOS DEL CASO",
+        "SEXO:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "SEXO:",
+      "synthetic_value": "M"
+    },
+    {
+      "id": "age",
+      "label": "EDAD:",
+      "path": [
+        "DATOS DEL CASO",
+        "EDAD:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "EDAD:",
+      "synthetic_value": "56"
+    },
+    {
+      "id": "occupation",
+      "label": "OCUPACIÓN:",
+      "path": [
+        "DATOS DEL CASO",
+        "OCUPACIÓN:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "OCUPACIÓN:",
+      "synthetic_value": "Bibliotecario ficticio"
+    },
+    {
+      "id": "nationality",
+      "label": "NACIONALIDAD:",
+      "path": [
+        "DATOS DEL CASO",
+        "NACIONALIDAD:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "NACIONALIDAD:",
+      "synthetic_value": "Argentina"
+    },
+    {
+      "id": "province",
+      "label": "PROV. RESIDENCIA:",
+      "path": [
+        "DATOS DEL CASO",
+        "PROV. RESIDENCIA:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "PROV. RESIDENCIA:",
+      "synthetic_value": "Buenos Aires"
+    },
+    {
+      "id": "city",
+      "label": "CIUDAD:",
+      "path": [
+        "DATOS DEL CASO",
+        "CIUDAD:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CIUDAD:",
+      "synthetic_value": "Villa Ensayo"
+    },
+    {
+      "id": "phone",
+      "label": "TELÉFONO PACIENTE:",
+      "path": [
+        "DATOS DEL CASO",
+        "TELÉFONO PACIENTE:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "TELÉFONO PACIENTE:",
+      "synthetic_value": "TELÉFONO SINTÉTICO H01"
+    },
+    {
+      "id": "hospital",
+      "label": "Hospital/Institución:",
+      "path": [
+        "DATOS DE LA INSTITUCIÓN:",
+        "Hospital/Institución:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Hospital/Institución:",
+      "synthetic_value": "Hospital Ficticio Ensayo"
+    },
+    {
+      "id": "hospital_city",
+      "label": "Ciudad de la institución:",
+      "path": [
+        "DATOS DE LA INSTITUCIÓN:",
+        "Ciudad de la institución:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Ciudad de la institución:",
+      "synthetic_value": "Villa Ensayo"
+    },
+    {
+      "id": "physician",
+      "label": "Nombre del médico:",
+      "path": [
+        "DATOS DE LA INSTITUCIÓN:",
+        "Nombre del médico:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre del médico:",
+      "synthetic_value": "Dra. Clara Simulada"
+    },
+    {
+      "id": "physician_email",
+      "label": "Mail del médico:",
+      "path": [
+        "DATOS DE LA INSTITUCIÓN:",
+        "Mail del médico:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Mail del médico:",
+      "synthetic_value": "clara.simulada@example.org"
+    },
+    {
+      "id": "study",
+      "label": "ESTUDIO DE",
+      "path": [
+        "DATOS DE INTERÉS",
+        "ESTUDIO DE",
+        "ESTUDIO DE"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "ESTUDIO DE",
+      "options": [
+        "Confirmación DIAGNÓSTICA de infección por HCV",
+        "Control post-TRATAMIENTO de infección por HCV"
+      ],
+      "synthetic_value": [
+        "Control post-TRATAMIENTO de infección por HCV"
+      ],
+      "context_evidence": "Se solicita únicamente Control post-TRATAMIENTO de infección por HCV, no Confirmación DIAGNÓSTICA de infección por HCV."
+    },
+    {
+      "id": "treatment",
+      "label": "TRATAMIENTO PARA HEPATITIS C",
+      "path": [
+        "DATOS DE INTERÉS",
+        "TRATAMIENTO PARA HEPATITIS C",
+        "TRATAMIENTO PARA HEPATITIS C"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "TRATAMIENTO PARA HEPATITIS C",
+      "options": [
+        "NO",
+        "SI."
+      ],
+      "synthetic_value": "SI.",
+      "context_evidence": "TRATAMIENTO PARA HEPATITIS C: SI. Se simula un tratamiento ya completado."
+    },
+    {
+      "id": "regimen",
+      "label": "Esquema:",
+      "path": [
+        "DATOS DE INTERÉS",
+        "TRATAMIENTO PARA HEPATITIS C",
+        "Esquema:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Esquema:",
+      "synthetic_value": "ESQUEMA SINTÉTICO H01"
+    },
+    {
+      "id": "treatment_start",
+      "label": "Fecha INICIO:",
+      "path": [
+        "DATOS DE INTERÉS",
+        "TRATAMIENTO PARA HEPATITIS C",
+        "Fecha INICIO:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha INICIO:",
+      "synthetic_value": "01/02/2026"
+    },
+    {
+      "id": "treatment_end",
+      "label": "Fecha FIN:",
+      "path": [
+        "DATOS DE INTERÉS",
+        "TRATAMIENTO PARA HEPATITIS C",
+        "Fecha FIN:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha FIN:",
+      "synthetic_value": "26/04/2026"
+    },
+    {
+      "id": "specimens",
+      "label": "MUESTRAS:",
+      "path": [
+        "DATOS DE INTERÉS",
+        "ESTUDIO DE",
+        "MUESTRAS:"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "MUESTRAS:",
+      "options": [
+        "Suero",
+        "Plasma"
+      ],
+      "synthetic_value": [
+        "Plasma"
+      ],
+      "context_evidence": "MUESTRAS: se remite solo Plasma; no se remite Suero."
+    },
+    {
+      "id": "dialysis_start",
+      "label": "FECHA COMIENZO DIÁLISIS:",
+      "path": [
+        "OTROS DATOS",
+        "FECHA COMIENZO DIÁLISIS:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "FECHA COMIENZO DIÁLISIS:",
+      "synthetic_value": "05/06/2024"
+    },
+    {
+      "id": "cirrhosis",
+      "label": "CIRROSIS:",
+      "path": [
+        "OTROS DATOS",
+        "CIRROSIS:"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "CIRROSIS:",
+      "options": [
+        "NO",
+        "SI"
+      ],
+      "synthetic_value": "NO",
+      "context_evidence": "CIRROSIS: NO; HCC: NO."
+    },
+    {
+      "id": "hepatitis",
+      "label": "HEPATITIS:",
+      "path": [
+        "OTROS DATOS",
+        "HEPATITIS:"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "HEPATITIS:",
+      "options": [
+        "Aguda",
+        "Crónica"
+      ],
+      "synthetic_value": "Crónica",
+      "context_evidence": "HEPATITIS: Crónica, no Aguda, en los antecedentes simulados."
+    },
+    {
+      "id": "hcc",
+      "label": "HCC:",
+      "path": [
+        "OTROS DATOS",
+        "HCC:"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "HCC:",
+      "options": [
+        "NO",
+        "SI"
+      ],
+      "synthetic_value": "NO",
+      "context_evidence": "CIRROSIS: NO; HCC: NO."
+    },
+    {
+      "id": "immunosuppression",
+      "label": "INMUNOSUPRESIÓN:",
+      "path": [
+        "OTROS DATOS",
+        "INMUNOSUPRESIÓN:",
+        "INMUNOSUPRESIÓN:"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "INMUNOSUPRESIÓN:",
+      "options": [
+        "NO",
+        "SI"
+      ],
+      "synthetic_value": "NO",
+      "context_evidence": "INMUNOSUPRESIÓN: NO; su detalle ¿Cuál?: se completa No corresponde."
+    },
+    {
+      "id": "immunosuppression_detail",
+      "label": "¿Cuál?:",
+      "path": [
+        "OTROS DATOS",
+        "INMUNOSUPRESIÓN:",
+        "¿Cuál?:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "¿Cuál?:",
+      "synthetic_value": "No corresponde"
+    },
+    {
+      "id": "hbv_vaccine",
+      "label": "VACUNA HBV:",
+      "path": [
+        "OTROS DATOS",
+        "VACUNA HBV:",
+        "VACUNA HBV:"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "VACUNA HBV:",
+      "options": [
+        "NO",
+        "SI."
+      ],
+      "synthetic_value": "SI.",
+      "context_evidence": "VACUNA HBV: SI. Se registran 3 dosis y fecha 15/07/2024."
+    },
+    {
+      "id": "vaccine_doses",
+      "label": "Dosis:",
+      "path": [
+        "OTROS DATOS",
+        "VACUNA HBV:",
+        "Dosis:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dosis:",
+      "synthetic_value": "3"
+    },
+    {
+      "id": "vaccine_date",
+      "label": "Fecha:",
+      "path": [
+        "OTROS DATOS",
+        "VACUNA HBV:",
+        "Fecha:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dosis:___ Fecha:__/__/__",
+      "synthetic_value": "15/07/2024"
+    },
+    {
+      "id": "pregnancy",
+      "label": "EMBARAZO:",
+      "path": [
+        "OTROS DATOS",
+        "EMBARAZO:",
+        "EMBARAZO:"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "EMBARAZO:",
+      "options": [
+        "NO",
+        "SI"
+      ],
+      "synthetic_value": "NO",
+      "context_evidence": "EMBARAZO: NO; Semana: No corresponde."
+    },
+    {
+      "id": "pregnancy_week",
+      "label": "Semana:",
+      "path": [
+        "OTROS DATOS",
+        "EMBARAZO:",
+        "Semana:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Semana:",
+      "synthetic_value": "No corresponde"
+    },
+    {
+      "id": "comorbidities",
+      "label": "COMORBILIDADES:",
+      "path": [
+        "OTROS DATOS",
+        "COMORBILIDADES:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "COMORBILIDADES:",
+      "synthetic_value": "Enfermedad renal crónica simulada"
+    },
+    {
+      "id": "serology_method",
+      "label": "Datos de serología (anti-HCV):",
+      "path": [
+        "RESULTADOS PREVIOS HCV",
+        "Datos de serología (anti-HCV):",
+        "Datos de serología (anti-HCV):"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "Datos de serología (anti-HCV):",
+      "options": [
+        "TR",
+        "ELISA",
+        "QML/ELFA."
+      ],
+      "synthetic_value": [
+        "ELISA"
+      ],
+      "context_evidence": "La serología previa usa solo ELISA, no TR ni QML/ELFA."
+    },
+    {
+      "id": "serology_value",
+      "label": "Valor",
+      "path": [
+        "RESULTADOS PREVIOS HCV",
+        "Datos de serología (anti-HCV):",
+        "Valor"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Valor",
+      "synthetic_value": "Reactivo sintético"
+    },
+    {
+      "id": "viral_load",
+      "label": "UI/ml:",
+      "path": [
+        "RESULTADOS PREVIOS HCV",
+        "Datos de carga viral:",
+        "UI/ml:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "UI/ml:",
+      "synthetic_value": "100000"
+    },
+    {
+      "id": "viral_log",
+      "label": "Log:",
+      "path": [
+        "RESULTADOS PREVIOS HCV",
+        "Datos de carga viral:",
+        "Log:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Log:",
+      "synthetic_value": "5,0"
+    },
+    {
+      "id": "genotype",
+      "label": "genotipo:",
+      "path": [
+        "RESULTADOS PREVIOS HCV",
+        "Datos de carga viral:",
+        "genotipo:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "genotipo:",
+      "synthetic_value": "1a"
+    },
+    {
+      "id": "serology_date",
+      "label": "Fecha:",
+      "path": [
+        "RESULTADOS PREVIOS HCV",
+        "Datos de serología (anti-HCV):",
+        "Fecha:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha:___/____/____",
+      "synthetic_value": "12/01/2026"
+    },
+    {
+      "id": "viral_date",
+      "label": "Fecha:",
+      "path": [
+        "RESULTADOS PREVIOS HCV",
+        "Datos de carga viral:",
+        "Fecha:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha:___/____/____",
+      "synthetic_value": "13/01/2026"
+    }
+  ],
+  "context": "CASO TOTALMENTE SINTÉTICO de solicitud de laboratorio para evaluar formularios. No contiene una persona real, una muestra real ni un tratamiento recomendado. DATOS DEL CASO: fecha de solicitud 23/09/2026; apellido Ejemplo; nombres Rafael Modelo; documento DNI-SINTÉTICO-H01; fecha de nacimiento 10/03/1970; sexo M; edad 56; ocupación Bibliotecario ficticio; nacionalidad Argentina; provincia Buenos Aires; ciudad ficticia Villa Ensayo; contacto no operativo TELÉFONO SINTÉTICO H01. HIV: NO en el caso simulado. La institución inventada es Hospital Ficticio Ensayo, situada en Villa Ensayo; médica ficticia Dra. Clara Simulada, correo reservado de ejemplo clara.simulada@example.org. Se solicita únicamente Control post-TRATAMIENTO de infección por HCV, no Confirmación DIAGNÓSTICA de infección por HCV. TRATAMIENTO PARA HEPATITIS C: SI. Se simula un tratamiento ya completado. El esquema se registra como ESQUEMA SINTÉTICO H01, con inicio 01/02/2026 y fin 26/04/2026. MUESTRAS: se remite solo Plasma; no se remite Suero. La diálisis ficticia empezó el 05/06/2024. HEPATITIS: Crónica, no Aguda, en los antecedentes simulados. CIRROSIS: NO; HCC: NO. INMUNOSUPRESIÓN: NO; su detalle ¿Cuál?: se completa No corresponde. EMBARAZO: NO; Semana: No corresponde. VACUNA HBV: SI. Se registran 3 dosis y fecha 15/07/2024. En comorbilidades se escribe Enfermedad renal crónica simulada. La serología previa usa solo ELISA, no TR ni QML/ELFA. Su valor se expresa como Reactivo sintético y su fecha es 12/01/2026. La carga viral previa sintética del 13/01/2026 es 100000 UI/ml, Log 5,0 y genotipo 1a. Todas las cifras son datos de prueba, no resultados de laboratorio reales.",
+  "normalization_notes": [
+    "Complete standalone one-page RG-VH-06-00 form. All case, institution, study, treatment, other-data and previous-result controls are retained, including conditional detail/week/dose fields and both previous-result dates.",
+    "A flat twelve-column grid preserves three-part demographics, paired institution fields, study at left/treatment at right, the source's two-column other-data arrangement, and serology at left/viral load at right. No nested table, rowspan or dropdown is introduced or discarded.",
+    "Mutually exclusive status groups are checkbox_single. Study requests, specimen types and serology methods retain independently markable checkbox_multi controls because the source does not explicitly require exactly one. Literal option order and punctuation are preserved, including SI. and QML/ELFA. Source checkmark bullets are represented with ✓ and the two noninteractive circular exclamation glyphs with !.",
+    "One labelled date is one logical date target; its printed slash template is retained. Separate treatment start/end dates and separate result dates are not combined. Ruled underscores outside date templates become target-cell whitespace.",
+    "Repeated Fecha: labels are distinguished by source parent sections. Blank cells retain the original separate headings for ESTUDIO DE, TRATAMIENTO PARA HEPATITIS C and Datos de serología (anti-HCV): rather than introducing invented field labels.",
+    "The institutional attribution, RG-VH-06-00 identifier, abbreviation definitions and mandatory version-validity warning are retained verbatim. All filled values are synthetic, with non-operational contact placeholders and example.org email."
+  ],
+  "workflow_identity": {
+    "language": "es",
+    "id": 4
+  }
+}

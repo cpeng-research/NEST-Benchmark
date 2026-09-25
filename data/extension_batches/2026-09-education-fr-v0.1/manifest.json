@@ -1,0 +1,51 @@
+{
+  "extension_id": "2026-09-education-fr-v0.1",
+  "status": "preview",
+  "published": false,
+  "base_commit": "c0e8a64ed87c7ccdcaca0a05d566c213124ad9da",
+  "workflow_root": "workflow",
+  "template_count": 1,
+  "model_baselines": [],
+  "samples": [
+    {
+      "id": 1,
+      "language": "fr",
+      "source_id": "fr-eduscol-dix-mots-2024-consent-001",
+      "domain": "Education",
+      "business_topic": "ImageVoiceConsent",
+      "issuer_id": "fr_men_dgesco",
+      "template_family": "school_minor_image_voice_consent_dix_mots_2024",
+      "fields": 37,
+      "source_pages": 3,
+      "source_sha256": "aea7fd501961551953019c58a4185728bacfd8af4c925b4c9e5ade7cdf31d1aa",
+      "annotation_path": "data/annotations/fr/1.json",
+      "files": {
+        "workflow/0-html_template/data_fr/1.html": "7ad27e557edfe55803a5a63b9c3212e769a297ba81e991e8bebf83c3ae6c45d1",
+        "workflow/1-annotated_json/data_fr/1.json": "64116f2a247c52d1a1d23dcf8f30521d5aa2783b5f413828b92ac9e150782eba",
+        "workflow/2-filled_json-a/data_fr/1.json": "d7481d63244dbc6c86e65875de5d4454f056dde91e09fec948d718394e743517",
+        "workflow/3-filled_html-a/data_fr/1.html": "727f66c08c3026b47ac5dc72fc50f0f172fefb5f66cb5752653b606aa93e8825",
+        "workflow/4-context-a/data_fr/1.txt": "33eaf95b09a986eb5c21b94a32f5a4cfbf2c1e5edfca054f541c516649825be1",
+        "workflow/5-ph_html-a/data_fr/1.html": "95e295dfa00e30aa307fcb8d7881f0f141ccad42e496450ea7e37db1df345969",
+        "workflow/6-meta-a/data_fr/1.json": "51e64258dce82a66ec3b51586ef36ee134ffaf1e659ac253bfdc5a4077dc0885"
+      },
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ],
+  "evaluation": {
+    "implementation": "existing comparative_eval functions",
+    "ssp": "explicitly select py_tree or cpp for the whole comparison",
+    "cha": "meta_target_cell_input_name_accuracy",
+    "infill": "source_faithful_v3"
+  }
+}

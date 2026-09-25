@@ -1,0 +1,18 @@
+# Source record
+
+All ten sources were retrieved on **2026-09-25**. Original blank documents are linked, not redistributed. `source_sha256` in the manifest identifies each local original used for transcription.
+
+| ID | Issuer and form | Original | Reuse statement |
+| --- | --- | --- | --- |
+| `fr/10` | fr_dgesco: Demande d’autorisation d’un voyage scolaire - premier degré | [Source](https://eduscol.education.gouv.fr/sites/default/files/document/formulaire-demande-autorisation-voyage-scolaire1er-degredocx-101616.docx) | [Notice](https://eduscol.education.gouv.fr/4656/mentions-legales) |
+| `fr/11` | fr_dgesco: Fiche d’information sur le transport | [Source](https://eduscol.education.gouv.fr/sites/default/files/document/fiche-information-transportdocx-101610.docx) | [Notice](https://eduscol.education.gouv.fr/4656/mentions-legales) |
+| `fr/12` | fr_dgesco: Budget prévisionnel premier degré | [Source](https://eduscol.education.gouv.fr/sites/default/files/document/budget-previsionnel-premier-degredocx-101604.docx) | [Notice](https://eduscol.education.gouv.fr/4656/mentions-legales) |
+| `fr/13` | fr_dgesco: Concours Clemenceau - formulaire d’inscription 2025-2026 | [Source](https://eduscol.education.gouv.fr/sites/default/files/document/formulaire-inscription-concours-clemenceaudocx-96669.pdf) | [Notice](https://eduscol.education.gouv.fr/4656/mentions-legales) |
+| `es/12` | es_ministry_health: Solicitud de autorización para retribución de patronos o contratación con la fundación | [Source](https://www.sanidad.gob.es/fundaciones/modelos/docs/autocontratacion.pdf) | [Notice](https://www.sanidad.gob.es/avisoLegal/home.htm) |
+| `es/13` | es_ministry_health: Identificación de biocidas no registrados - notificación | [Source](https://www.sanidad.gob.es/areas/sanidadAmbiental/biocidas/registro/regPlaguicidas/docs/Formunotificado.pdf) | [Notice](https://www.sanidad.gob.es/avisoLegal/home.htm) |
+| `es/14` | es_ingesa_cnd: Alta o traslado de dosimetría personal | [Source](https://ingesa.sanidad.gob.es/cnd/dam/jcr:1b540530-7883-426a-b2c1-02c572ebd734/GSF05.Formulario_de_alta_o_traslado_de_dosimetria_personal.pdf) | [Notice](https://ingesa.sanidad.gob.es/sns/Aviso-Legal) |
+| `es/15` | es_ingesa_cnd: Baja de historia dosimétrica o pérdida de dosímetro | [Source](https://ingesa.sanidad.gob.es/cnd/dam/jcr:5e17e2f1-ef69-4d85-b25e-ea8b6040fca0/GSF06.Formulario_de_baja_historia_o_perdida_dosimetro.pdf) | [Notice](https://ingesa.sanidad.gob.es/sns/Aviso-Legal) |
+| `zh/420` | tw_ntpc_health: 新北市政府長期照顧服務申請書 | [Source](https://www.health.ntpc.gov.tw/archive/file/124014_1_%28%E6%B0%91%29%E8%A1%9B%E9%AB%98%E9%95%B710-%28%E6%B0%91%29%E8%A1%A8%E4%B8%80-%E6%96%B0%E5%8C%97%E5%B8%82%E6%94%BF%E5%BA%9C%E9%95%B7%E6%9C%9F%E7%85%A7%E9%A1%A7%E6%9C%8D%E5%8B%99%E7%94%B3%E8%AB%8B%E6%9B%B8.odt) | [Notice](https://www.health.ntpc.gov.tw/article/%E6%94%BF%E5%BA%9C%E7%B6%B2%E7%AB%99%E8%B3%87%E6%96%99%E9%96%8B%E6%94%BE%E5%AE%A3%E5%91%8A) |
+| `zh/421` | tw_ntpc_health: 長期照顧服務個人資料應用說明及知情同意書 | [Source](https://www.health.ntpc.gov.tw/archive/file/124014_1_%28%E6%B0%91%29%E8%A1%9B%E9%AB%98%E9%95%B710-%28%E6%B0%91%29%E8%A1%A8%E4%BA%8C-%E9%95%B7%E6%9C%9F%E7%85%A7%E9%A1%A7%E6%9C%8D%E5%8B%99%E5%80%8B%E4%BA%BA%E8%B3%87%E6%96%99%E6%87%89%E7%94%A8%E8%AA%AA%E6%98%8E%E5%8F%8A%E7%9F%A5%E6%83%85%E5%90%8C%E6%84%8F%E6%9B%B8.odt) | [Notice](https://www.health.ntpc.gov.tw/article/%E6%94%BF%E5%BA%9C%E7%B6%B2%E7%AB%99%E8%B3%87%E6%96%99%E9%96%8B%E6%94%BE%E5%AE%A3%E5%91%8A) |
+
+Source-site reuse statements apply to agency-owned materials subject to their conditions and exclusions; they do not imply endorsement or include third-party artwork. The HTML/JSON files transcribe blank functional fields and contain synthetic values. Historical-form caveats are in the manifest.

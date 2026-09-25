@@ -1,0 +1,404 @@
+{
+  "id": "es-posadas-contrast-imaging",
+  "candidate_id": "es-posadas-contrast-imaging",
+  "title": "CONSENTIMIENTO INFORMADO",
+  "language": "es",
+  "domain": "Healthcare",
+  "business_topic": "IodinatedContrastImagingConsent",
+  "issuer_id": "ar_hospital_nacional_alejandro_posadas",
+  "template_family": "posadas_iodinated_contrast_consent",
+  "source_pages": 1,
+  "source_sha256": "181a109659e41a5bda335995abc506b283ea0a9ed1ae30507cd278533b33309b",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/2023/04/consentimiento_tac-1.pdf",
+  "landing_url": "https://www.argentina.gob.ar/sites/default/files/2023/04/consentimiento_tac-1.pdf",
+  "landing_note": "The direct official standalone PDF is the source landing. Related official issuer service page https://www.argentina.gob.ar/node/321068 identifies the imaging service; this is issuer context, not a claimed download-catalogue backlink.",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "Argentina.gob.ar explicitly licenses its own content CC BY 4.0 unless otherwise declared. The original PDF identifies Hospital Nac. Prof. Dr. Alejandro Posadas / Servicio de Diagnóstico por Imágenes / Sector Alta Complejidad / Dr Daniel Muñoz and has no contrary rights notice or third-party content credit. Attribution to those printed creators and source URL above is retained; CC BY 4.0 https://creativecommons.org/licenses/by/4.0/. Adapted to HTML/JSON with synthetic data for the NEST Benchmark, not an official or endorsed clinical form. Hospital logo, trademark rights, privacy/personality rights and separately declared third-party rights are excluded. PDF metadata names BlueDeep as the document author; this technical metadata does not replace the visibly credited institution or establish a contrary licence.",
+  "retrieved_at": "2026-09-17T17:44:29.235049+00:00",
+  "source_version_note": "Undated visible form. Official path /2023/04/; HTTP Last-Modified 2023-05-12 13:32:13 GMT; PDF creation/modification metadata 2020-05-28 15:45:15 -03:00. Do not infer a current clinical revision or clinical validity from these technical dates.",
+  "columns": 6,
+  "rows": [
+    [
+      {
+        "label": "Fecha: ………../…….…../……..",
+        "field": "date",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "text": "Hospital Nac. “Prof. Dr. Alejandro Posadas”",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Apellido y Nombre:",
+        "field": "patient_name",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "text": "Servicio de Diagnóstico por Imágenes",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Paciente internado: SI / NO",
+        "field": "inpatient",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Documento:",
+        "field": "document",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "text": "Sector Alta Complejidad",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Peso:",
+        "field": "weight",
+        "source_page": 1
+      },
+      {
+        "label": "Altura:",
+        "field": "height",
+        "source_page": 1
+      },
+      {
+        "label": "Fecha de nacimiento:",
+        "field": "birth_date",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "text": "Dr Daniel Muñoz",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "CONSENTIMIENTO INFORMADO",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Uds. se va a efectuar un examen para el cual se le deberá inyectar un líquido de contraste iodado denominado medio de contraste radiológico iodado.",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Estos medios de contrastes radiológicos pueden, en ocasiones producir reacciones, producir reacciones no deseadas, que se dividen en leves y graves. Afortunadamente, el número de las mismas es muy escaso, pero no existe la forma de detectarlas por anticipado.",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Se le pedirá la ingesta previa de un corticoide y antihistamínico para evitarlas, o por lo menos mitigarlas.",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "El médico que realizara la inyección conoce los síntomas y está preparado para su tratamiento.",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Se aclara que el examen ha sido y es corriente en la práctica médica, y de él se obtendrá información valiosa sobre el estado de salud.",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Reacciones leves: 1 a 10% de pacientes. Estado nauseoso, calor, urticarias.",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Reacciones graves: 0,1% de pacientes. Hipotensión, asma bronquial y edema laríngeo. Se han relatado decesos, alrededor de 0,0005%.",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Consentimiento Informado:",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Autorizo por mi o por un familiar directo a la realización de un examen radiológico, para lo cual se necesita la inyección de medio de contraste.",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Declaro conocer que existe un riesgo potencial ante una reacción adversa, que asumo, eximiendo de responsabilidad, salvo en caso de dolo o negligencia, a los profesionales que indican o realizan el procedimiento.",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Lugar y fecha:",
+        "field": "place_date",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Firma y aclaración:",
+        "field": "signature_name",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "D.N.I:",
+        "field": "signer_document",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(Si firma un familiar, grado de parentesco)",
+        "field": "kinship",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "USTED DEBE TENER LA ABSOLUTA LIBERTAD DE REALIZARSE ESTE PROCEDIMIENTO",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Usted tiene turno el día ……../……../…….",
+        "field": "appointment_date",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "a las ………….. hs.",
+        "field": "appointment_time",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "- Traer estudios anteriores TAC/RMN",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "date",
+      "label": "Fecha:",
+      "path": [
+        "CONSENTIMIENTO INFORMADO",
+        "Fecha:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha:",
+      "synthetic_value": "21/09/2026"
+    },
+    {
+      "id": "patient_name",
+      "label": "Apellido y Nombre:",
+      "path": [
+        "CONSENTIMIENTO INFORMADO",
+        "Apellido y Nombre:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Apellido y Nombre:",
+      "synthetic_value": "Prueba, Mateo"
+    },
+    {
+      "id": "inpatient",
+      "label": "Paciente internado:",
+      "path": [
+        "CONSENTIMIENTO INFORMADO",
+        "Paciente internado:"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Paciente internado:      SI    /   NO",
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "synthetic_value": "NO",
+      "context_evidence": "Paciente internado: NO, porque el caso es ambulatorio."
+    },
+    {
+      "id": "document",
+      "label": "Documento:",
+      "path": [
+        "CONSENTIMIENTO INFORMADO",
+        "Documento:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Documento:",
+      "synthetic_value": "DNI-SINTÉTICO-C01"
+    },
+    {
+      "id": "weight",
+      "label": "Peso:",
+      "path": [
+        "CONSENTIMIENTO INFORMADO",
+        "Peso:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Peso:",
+      "synthetic_value": "72 kg"
+    },
+    {
+      "id": "height",
+      "label": "Altura:",
+      "path": [
+        "CONSENTIMIENTO INFORMADO",
+        "Altura:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Altura:",
+      "synthetic_value": "1,76 m"
+    },
+    {
+      "id": "birth_date",
+      "label": "Fecha de nacimiento:",
+      "path": [
+        "CONSENTIMIENTO INFORMADO",
+        "Fecha de nacimiento:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha de nacimiento:",
+      "synthetic_value": "12/02/1982"
+    },
+    {
+      "id": "place_date",
+      "label": "Lugar y fecha:",
+      "path": [
+        "Consentimiento Informado:",
+        "Lugar y fecha:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Lugar y fecha:",
+      "synthetic_value": "Villa Ensayo, 21/09/2026"
+    },
+    {
+      "id": "signature_name",
+      "label": "Firma y aclaración:",
+      "path": [
+        "Consentimiento Informado:",
+        "Firma y aclaración:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Firma y aclaración:",
+      "synthetic_value": "FIRMA SINTÉTICA SOFÍA; Sofía Prueba"
+    },
+    {
+      "id": "signer_document",
+      "label": "D.N.I:",
+      "path": [
+        "Consentimiento Informado:",
+        "D.N.I:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "D.N.I:",
+      "synthetic_value": "DNI-SINTÉTICO-C02"
+    },
+    {
+      "id": "kinship",
+      "label": "(Si firma un familiar, grado de parentesco)",
+      "path": [
+        "Consentimiento Informado:",
+        "(Si firma un familiar, grado de parentesco)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "(Si firma un familiar, grado de parentesco)",
+      "synthetic_value": "Hermana"
+    },
+    {
+      "id": "appointment_date",
+      "label": "Usted tiene turno el día",
+      "path": [
+        "Usted tiene turno el día",
+        "Usted tiene turno el día"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Usted tiene turno el día",
+      "synthetic_value": "22/09/2026"
+    },
+    {
+      "id": "appointment_time",
+      "label": "a las",
+      "path": [
+        "Usted tiene turno el día",
+        "a las"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "a las ………….. hs.",
+      "synthetic_value": "09:30"
+    }
+  ],
+  "context": "CASO TOTALMENTE SINTÉTICO para una prueba de formulario, no es una indicación clínica ni un consentimiento real. En la cabecera, la fecha es 21/09/2026. El paciente ficticio figura como Prueba, Mateo y su documento es DNI-SINTÉTICO-C01; pesa 72 kg, mide 1,76 m y nació el 12/02/1982. Paciente internado: NO, porque el caso es ambulatorio. En esta simulación firma una familiar directa, su hermana ficticia Sofía Prueba, tras las explicaciones reproducidas en el documento fuente. En Lugar y fecha se consigna Villa Ensayo, 21/09/2026. El único espacio de Firma y aclaración contiene FIRMA SINTÉTICA SOFÍA; Sofía Prueba. El documento de la firmante es DNI-SINTÉTICO-C02 y el grado de parentesco se escribe Hermana. El turno ficticio está fijado para 22/09/2026 a las 09:30. Debe llevar los estudios anteriores según el texto impreso. Todos los datos personales y la firma son marcadores inventados; el contenido histórico del formulario no se presenta como consejo médico.",
+  "normalization_notes": [
+    "Complete one-page standalone hospital form with 13 logical targets. Header identity/anthropometry group remains to the left of printed issuer/service attribution; clinical explanation, consent/signature group, liberty notice and appointment group remain in original order.",
+    "Printed SI / NO marking choices are encoded using the existing exclusive checkbox group kind; both original option labels, order and literal SI / NO text are retained. This is a disclosed presentation normalization, not a new dropdown or a deleted option.",
+    "Single labelled dates and the combined Lugar y fecha and Firma y aclaración spaces are each one source control. Appointment date and time remain separate controls. Dotted writing lines are generally target-cell whitespace; all slash/date templates, fixed hs., label parentheses, source repetitions and substantive punctuation remain visible.",
+    "The duplicated phrase producir reacciones, producir reacciones and original iodado/realizara/por mi spellings are retained without correction. Hospital logo alone omitted; printed institutional and doctor credit retained. The free-form header is not a nested table and needs no rowspan.",
+    "The official standalone PDF is recorded as its own source landing. The related service page is issuer context, not a claimed download-catalogue backlink."
+  ],
+  "workflow_identity": {
+    "language": "es",
+    "id": 5
+  }
+}

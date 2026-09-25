@@ -1,0 +1,692 @@
+{
+  "id": "fr-meae-consular-post-record",
+  "candidate_id": "fr-meae-consular-post-record",
+  "title": "FICHE CONSULAIRE",
+  "language": "fr",
+  "domain": "GovPublic",
+  "business_topic": "Consular post and head-of-post administrative record",
+  "issuer": "Ministère de l’Europe et des Affaires étrangères (MEAE), Protocole / Sous-Direction des Privilèges et Immunités Consulaires",
+  "issuer_id": "fr_meae_protocol",
+  "template_family": "consular-post-administrative-record",
+  "source_pages": 1,
+  "source_sha256": "84377d3777932d333bae9483eb3f57ca28363b947af7d773370c9a867e564d7b",
+  "source_url": "https://www.diplomatie.gouv.fr/files/files/services/ressources-pour-les-diplomates-etrangers/fiche-consulaire.pdf",
+  "mime_type": "application/pdf",
+  "converted_from_docx": false,
+  "original_source_sha256": "84377d3777932d333bae9483eb3f57ca28363b947af7d773370c9a867e564d7b",
+  "original_source_mime_type": "application/pdf",
+  "retrieved_at": "2026-09-17T16:40:59.632000+00:00",
+  "source_version_note": "The original PDF has no printed issue date, version number or revision code. It retains the historical heading MINISTERE DES AFFAIRES ETRANGERES ET DU DEVELOPPEMENT INTERNATIONAL. The official landing page was published 2026-01-22 and updated 2026-07-17; these are page dates, not an asserted PDF publication date. PDF metadata are not used as publication evidence.",
+  "landing_url": "https://www.diplomatie.gouv.fr/fr/services-aux-etrangers/ressources-pour-les-diplomates-etrangers/formulaires-pour-les-diplomates-etrangers",
+  "license_url": "https://www.diplomatie.gouv.fr/fr/mentions-legales",
+  "license_note": "France Diplomatie's official legal notice, updated 2026-03-30, explicitly puts site content under Licence Ouverte 2.0 / April 2017, except explicitly identified third-party IP; it permits modification, extraction, transformation and redistribution with source and last-update attribution and without misleading users. The ministry's official forms page directly links this ministry-headed blank PDF under Sujets consulaires. No contrary credit or third-party content notice was found in the full form. Scope here is the original blank form text and functional layout, not personal data or photographs. The separate photographic-credits rules are not used as permission. Omit the decorative Republic emblem and mark the normalized version and fictional completion as research adaptations, not official records or endorsement. Attribute MEAE/Protocole, original URL, undated source, landing-page update 2026-07-17 and actual retrieval timestamp.",
+  "source_form_style": "native_structured_administrative_form",
+  "columns": 6,
+  "fields": [
+    {
+      "id": "sending-state",
+      "label": "Etat d’envoi",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Etat d’envoi"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Etat d’envoi",
+      "synthetic_value": "République fictive d’Exemplia"
+    },
+    {
+      "id": "post-category",
+      "label": "Consulat général Consulat Vice-Consulat Agence consulaire",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Consulat général / Consulat / Vice-Consulat / Agence consulaire"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Consulat général",
+      "synthetic_value": "Consulat",
+      "options": [
+        "Consulat général",
+        "Consulat",
+        "Vice-Consulat",
+        "Agence consulaire"
+      ],
+      "context_evidence": "La catégorie du poste est uniquement Consulat, et non Consulat général, Vice-Consulat ou Agence consulaire."
+    },
+    {
+      "id": "office-street",
+      "label": "N° et Rue",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Adresse précise et complète des locaux consulaires (*)",
+        "N° et Rue"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "N° et Rue",
+      "synthetic_value": "10 rue Fictive des Exemples"
+    },
+    {
+      "id": "office-postcode",
+      "label": "Code postal",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Adresse précise et complète des locaux consulaires (*)",
+        "Code postal"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Code postal",
+      "synthetic_value": "69000"
+    },
+    {
+      "id": "office-city",
+      "label": "Ville",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Adresse précise et complète des locaux consulaires (*)",
+        "Ville"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Ville",
+      "synthetic_value": "Lyon"
+    },
+    {
+      "id": "office-phone",
+      "label": "Téléphone",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Adresse précise et complète des locaux consulaires (*)",
+        "Téléphone"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Téléphone",
+      "synthetic_value": "0400000000"
+    },
+    {
+      "id": "office-mobile",
+      "label": "T. portable",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Adresse précise et complète des locaux consulaires (*)",
+        "T. portable"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "T. portable",
+      "synthetic_value": "0600000000"
+    },
+    {
+      "id": "office-fax",
+      "label": "Télécopie",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Adresse précise et complète des locaux consulaires (*)",
+        "Télécopie"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Télécopie",
+      "synthetic_value": "0400000001"
+    },
+    {
+      "id": "office-email",
+      "label": "E-mail",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Adresse précise et complète des locaux consulaires (*)",
+        "E-mail"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "E-mail",
+      "synthetic_value": "consulat-fictif@example.org"
+    },
+    {
+      "id": "post-creation-date",
+      "label": "Date de création du poste (date d’acceptation par la France)",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Date de création du poste (date d’acceptation par la France)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de création du poste (date d’acceptation par la France)",
+      "synthetic_value": "02/01/2020"
+    },
+    {
+      "id": "consular-district",
+      "label": "Circonscription consulaire (énumérez les départements)",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Circonscription consulaire (énumérez les départements)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Circonscription consulaire (énumérez les départements)",
+      "synthetic_value": "Rhône, Ain"
+    },
+    {
+      "id": "head-role",
+      "label": "Chef de poste consulaire",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Chef de poste consulaire",
+        "Consul Général de carrière / Consul de carrière / Vice-Consul de carrière / Agent consulaire de carrière / Consul honoraire / Vice-Consul honoraire / Agent consulaire honoraire / Gérant intérimaire"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Chef de poste consulaire",
+      "synthetic_value": "Consul de carrière",
+      "options": [
+        "Consul Général de carrière",
+        "Consul de carrière",
+        "Vice-Consul de carrière",
+        "Agent consulaire de carrière",
+        "Consul honoraire",
+        "Vice-Consul honoraire",
+        "Agent consulaire honoraire",
+        "Gérant intérimaire"
+      ],
+      "context_evidence": "La responsable exerce uniquement comme Consul de carrière ; aucune des sept autres fonctions proposées n’est retenue."
+    },
+    {
+      "id": "head-title",
+      "label": "Titre",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Chef de poste consulaire",
+        "Titre"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Titre",
+      "synthetic_value": "Mme",
+      "options": [
+        "M.",
+        "Mme",
+        "Mlle"
+      ],
+      "context_evidence": "Son titre est Mme, et non M. ou Mlle."
+    },
+    {
+      "id": "head-nationality",
+      "label": "Nationalité",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Chef de poste consulaire",
+        "Nationalité"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nationalité",
+      "synthetic_value": "Exemplienne (fictive)"
+    },
+    {
+      "id": "head-birth-name",
+      "label": "Nom de naissance",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Chef de poste consulaire",
+        "Nom de naissance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom de naissance",
+      "synthetic_value": "Martin"
+    },
+    {
+      "id": "head-given-names",
+      "label": "Prénoms",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Chef de poste consulaire",
+        "Prénoms"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Prénoms",
+      "synthetic_value": "Alice Camille"
+    },
+    {
+      "id": "head-marital-name",
+      "label": "Nom marital",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Chef de poste consulaire",
+        "Nom marital"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom marital",
+      "synthetic_value": "Durand"
+    },
+    {
+      "id": "head-birth-date",
+      "label": "Né(e) le",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Chef de poste consulaire",
+        "Né(e) le"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Né(e) le",
+      "synthetic_value": "12/05/1980"
+    },
+    {
+      "id": "head-birth-place",
+      "label": "Lieu de naissance",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Chef de poste consulaire",
+        "Lieu de naissance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Lieu de naissance",
+      "synthetic_value": "Cité fictive d’Orion"
+    },
+    {
+      "id": "head-birth-country",
+      "label": "Pays",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Chef de poste consulaire",
+        "Pays"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Pays",
+      "synthetic_value": "République fictive d’Exemplia"
+    },
+    {
+      "id": "home-street",
+      "label": "N° et Rue",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Adresse précise et complète du domicile privé",
+        "N° et Rue"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "N° et Rue",
+      "synthetic_value": "20 avenue Fictive des Modèles"
+    },
+    {
+      "id": "home-postcode",
+      "label": "Code postal",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Adresse précise et complète du domicile privé",
+        "Code postal"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Code postal",
+      "synthetic_value": "69000"
+    },
+    {
+      "id": "home-city",
+      "label": "Ville",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Adresse précise et complète du domicile privé",
+        "Ville"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Ville",
+      "synthetic_value": "Lyon"
+    },
+    {
+      "id": "home-phone",
+      "label": "Téléphone",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Adresse précise et complète du domicile privé",
+        "Téléphone"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Téléphone",
+      "synthetic_value": "0400000002"
+    },
+    {
+      "id": "home-fax",
+      "label": "Télécopie",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Adresse précise et complète du domicile privé",
+        "Télécopie"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Télécopie",
+      "synthetic_value": "0400000003"
+    },
+    {
+      "id": "provisional-admission-date",
+      "label": "Date de l'admission provisoire aux fonctions consulaires",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Date de l'admission provisoire aux fonctions consulaires"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de l'admission provisoire aux fonctions consulaires",
+      "synthetic_value": "01/09/2026"
+    },
+    {
+      "id": "exequatur-date",
+      "label": "Date de l'exequatur",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Date de l'exequatur"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de l'exequatur",
+      "synthetic_value": "15/09/2026"
+    },
+    {
+      "id": "observations",
+      "label": "Observations éventuelles",
+      "path": [
+        "FICHE CONSULAIRE",
+        "Observations éventuelles"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Observations éventuelles",
+      "synthetic_value": "Dossier entièrement fictif pour un test de structure ; aucune valeur administrative."
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "MINISTERE DES AFFAIRES ETRANGERES ET DU DEVELOPPEMENT INTERNATIONAL",
+        "source_page": 1,
+        "colspan": 6,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "PROTOCOLE",
+        "source_page": 1,
+        "colspan": 6,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "FICHE CONSULAIRE",
+        "source_page": 1,
+        "colspan": 6,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Etat d’envoi",
+        "field": "sending-state",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "field": "post-category",
+        "source_page": 1,
+        "colspan": 6,
+        "text": ""
+      }
+    ],
+    [
+      {
+        "text": "Adresse précise et complète des locaux consulaires (*)",
+        "source_page": 1,
+        "colspan": 6,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "N° et Rue",
+        "field": "office-street",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Code postal",
+        "field": "office-postcode",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "label": "Ville",
+        "field": "office-city",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "Téléphone",
+        "field": "office-phone",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "label": "T. portable",
+        "field": "office-mobile",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "label": "Télécopie",
+        "field": "office-fax",
+        "source_page": 1,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "label": "E-mail",
+        "field": "office-email",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "(*) Référence : articles 31, 55 - paragraphes 2, 3 et 61 de la Convention de Vienne du 24 avril 1963",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Date de création du poste (date d’acceptation par la France)",
+        "field": "post-creation-date",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Circonscription consulaire (énumérez les départements)",
+        "field": "consular-district",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Chef de poste consulaire",
+        "source_page": 1,
+        "colspan": 6,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "field": "head-role",
+        "source_page": 1,
+        "colspan": 6,
+        "text": ""
+      }
+    ],
+    [
+      {
+        "label": "Titre",
+        "field": "head-title",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Nationalité",
+        "field": "head-nationality",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "Nom de naissance",
+        "field": "head-birth-name",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Prénoms",
+        "field": "head-given-names",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "Nom marital",
+        "field": "head-marital-name",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Né(e) le",
+        "field": "head-birth-date",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "Lieu de naissance",
+        "field": "head-birth-place",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Pays",
+        "field": "head-birth-country",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Adresse précise et complète du domicile privé",
+        "source_page": 1,
+        "colspan": 6,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "N° et Rue",
+        "field": "home-street",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Code postal",
+        "field": "home-postcode",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "label": "Ville",
+        "field": "home-city",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "Téléphone",
+        "field": "home-phone",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Télécopie",
+        "field": "home-fax",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "Date de l'admission provisoire aux fonctions consulaires",
+        "field": "provisional-admission-date",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "Date de l'exequatur",
+        "field": "exequatur-date",
+        "source_page": 1,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "label": "Observations éventuelles",
+        "field": "observations",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Adresser à : Sous-Direction des Privilèges et Immunités Consulaires – 57 boulevard des Invalides – 75007 PARIS",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ]
+  ],
+  "context": "Scénario intégralement fictif pour un test de structure, sans poste consulaire ni personne réels et sans acte administratif authentique. Etat d’envoi : République fictive d’Exemplia. La catégorie du poste est uniquement Consulat, et non Consulat général, Vice-Consulat ou Agence consulaire. Les locaux consulaires fictifs sont au 10 rue Fictive des Exemples, code postal 69000, ville Lyon. Leurs contacts synthétiques sont : Téléphone 0400000000 ; T. portable 0600000000 ; Télécopie 0400000001 ; E-mail consulat-fictif@example.org. Ces numéros sont des placeholders non destinés à être appelés. La date fictive de création du poste et d’acceptation par la France est 02/01/2020. La circonscription à inscrire est Rhône, Ain. La responsable exerce uniquement comme Consul de carrière ; aucune des sept autres fonctions proposées n’est retenue. Son titre est Mme, et non M. ou Mlle. Sa nationalité fictive est Exemplienne (fictive). Son nom de naissance est Martin, ses prénoms sont Alice Camille et son nom marital est Durand. Elle est née le 12/05/1980 à Cité fictive d’Orion, pays République fictive d’Exemplia. Son domicile privé fictif est au 20 avenue Fictive des Modèles, code postal 69000, ville Lyon ; son Téléphone est 0400000002 et sa Télécopie 0400000003, également des placeholders. Son admission provisoire fictive aux fonctions consulaires est datée du 01/09/2026 ; la date fictive de l’exequatur est 15/09/2026. Les Observations éventuelles doivent contenir exactement : Dossier entièrement fictif pour un test de structure ; aucune valeur administrative.",
+  "normalization_notes": [
+    "One complete original PDF page is retained. The source is a native empty structured form, not a letter, a document fragment or a synthesized variant. There are no PDF widgets; visible printed controls are authoritative.",
+    "Six logical columns retain full-width, two-column and three-column field relationships and section ordering using colspans. No source vertical merge or nested target table is flattened. Printed labels and their adjacent blanks form their original single logical fields.",
+    "The consular district's ruled lines are one free-text response area, not multiple separately labeled records. It remains one text target. No blank field is omitted.",
+    "Three native checkbox groups are preserved in source order: consular-post category (four options), head-of-post role (eight), and title (three). Single-choice semantics follow one post's category and one officeholder's role/title; no PDF radio-button behavior or explicit maximum-one wording is claimed.",
+    "The consular-post category has no separate printed group heading. Its field label concatenates its four original option labels in PDF reading order, which remain visible only as checkbox option text; no new visible question is introduced. The schema key merely separates those same options with slashes.",
+    "The eight head-of-post options originally occupy two printed rows in one group; the unchanged helper wraps them vertically in the same logical cell, preserving order and all options. This is the same generic checkbox rendering used for other sources, not a source-specific exception.",
+    "All header wording, starred legal footnote, address labels, date labels, observations and routing footer remain. Source typography, colored bands/borders, whitespace and writing guides are normalized. The graphical Republic emblem is excluded without treating it as an input or asserting a logo license.",
+    "The source's printed historical ministry name, accents, case and straight apostrophes are retained. No publication date is inferred from that name or PDF metadata.",
+    "All completion data represent a fictional country, post and individual and are explicitly synthetic. Contacts use example.org or deliberate non-working numeric placeholders. No real diplomatic appointment, recognition, exequatur or official signature is represented."
+  ],
+  "workflow_identity": {
+    "language": "fr",
+    "id": 5
+  }
+}

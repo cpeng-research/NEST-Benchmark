@@ -1,0 +1,590 @@
+{
+  "id": "es-foundation-patron-authorization",
+  "candidate_id": "es-foundation-patron-authorization",
+  "title": "Solicitud de autorización para retribución de patronos o contratación con la fundación",
+  "language": "es",
+  "domain": "GovPublic",
+  "business_topic": "foundation_governance",
+  "issuer_id": "es_ministry_health",
+  "template_family": "foundation-patron-authorization",
+  "source_pages": 1,
+  "retrieved_at": "2026-09-25T15:00:04.458237+00:00",
+  "source_sha256": "3a11f41faa01fcee8b2f1254e263bbbf86cba561b339d2b64b36f8c6a507ec3b",
+  "source_url": "https://www.sanidad.gob.es/fundaciones/modelos/docs/autocontratacion.pdf",
+  "landing_url": "https://www.sanidad.gob.es/fundaciones/modelos/home.htm",
+  "license_url": "https://www.sanidad.gob.es/avisoLegal/home.htm",
+  "license_note": "Official blank form, transcribed as functional fields without source artwork or logos. Attribute the issuing agency and source. This note is not a legal clearance.",
+  "columns": 6,
+  "rows": [
+    [
+      {
+        "text": "DATOS DE LA FUNDACIÓN",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "name",
+        "label": "Nombre",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "register",
+        "label": "Nº Registro",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "address",
+        "label": "Domicilio",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "number",
+        "label": "Nº",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "floor",
+        "label": "Piso",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "city",
+        "label": "Localidad",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "province",
+        "label": "Provincia",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "postal",
+        "label": "C.P.",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "tax",
+        "label": "CIF",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "phone",
+        "label": "Teléfono",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "email",
+        "label": "Correo electrónico",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "representative",
+        "label": "Representada por D/Dª",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "id",
+        "label": "N.I.F",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "role",
+        "label": "En su condición de",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "EXPONE",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "agreement",
+        "label": "El Patronato ha adoptado el acuerdo de",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "DOCUMENTACIÓN QUE SE ACOMPAÑA",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "documents",
+        "label": "DOCUMENTACIÓN QUE SE ACOMPAÑA",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "DATOS A EFECTOS DE NOTIFICACIÓN",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "contact",
+        "label": "Persona de contacto",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "contact-phone",
+        "label": "Telf",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "contact-email",
+        "label": "Correo electrónico",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "contact-address",
+        "label": "Domicilio",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "contact-number",
+        "label": "Nº",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "contact-floor",
+        "label": "Piso",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "contact-city",
+        "label": "Localidad",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "contact-province",
+        "label": "Provincia",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "contact-postal",
+        "label": "C.P",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "place",
+        "label": "En",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "signature",
+        "label": "Fdo.",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "name",
+      "label": "Nombre",
+      "path": [
+        "DATOS DE LA FUNDACIÓN",
+        "Nombre"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre",
+      "synthetic_value": "Fundación Ficticia"
+    },
+    {
+      "id": "register",
+      "label": "Nº Registro",
+      "path": [
+        "DATOS DE LA FUNDACIÓN",
+        "Nº Registro"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nº Registro",
+      "synthetic_value": "REG-SYNTH-12"
+    },
+    {
+      "id": "address",
+      "label": "Domicilio",
+      "path": [
+        "DATOS DE LA FUNDACIÓN",
+        "Domicilio"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Domicilio",
+      "synthetic_value": "Calle Ejemplo"
+    },
+    {
+      "id": "number",
+      "label": "Nº",
+      "path": [
+        "DATOS DE LA FUNDACIÓN",
+        "Nº"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nº",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "floor",
+      "label": "Piso",
+      "path": [
+        "DATOS DE LA FUNDACIÓN",
+        "Piso"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Piso",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "city",
+      "label": "Localidad",
+      "path": [
+        "DATOS DE LA FUNDACIÓN",
+        "Localidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Localidad",
+      "synthetic_value": "Ciudad Ficticia"
+    },
+    {
+      "id": "province",
+      "label": "Provincia",
+      "path": [
+        "DATOS DE LA FUNDACIÓN",
+        "Provincia"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Provincia",
+      "synthetic_value": "Provincia Ficticia"
+    },
+    {
+      "id": "postal",
+      "label": "C.P.",
+      "path": [
+        "DATOS DE LA FUNDACIÓN",
+        "C.P."
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "C.P.",
+      "synthetic_value": "00000"
+    },
+    {
+      "id": "tax",
+      "label": "CIF",
+      "path": [
+        "DATOS DE LA FUNDACIÓN",
+        "CIF"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CIF",
+      "synthetic_value": "SYNTH-CIF-12"
+    },
+    {
+      "id": "phone",
+      "label": "Teléfono",
+      "path": [
+        "DATOS DE LA FUNDACIÓN",
+        "Teléfono"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Teléfono",
+      "synthetic_value": "000000000"
+    },
+    {
+      "id": "email",
+      "label": "Correo electrónico",
+      "path": [
+        "DATOS DE LA FUNDACIÓN",
+        "Correo electrónico"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Correo electrónico",
+      "synthetic_value": "fundacion@example.invalid"
+    },
+    {
+      "id": "representative",
+      "label": "Representada por D/Dª",
+      "path": [
+        "DATOS DE LA FUNDACIÓN",
+        "Representada por D/Dª"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Representada por D/Dª",
+      "synthetic_value": "Persona Ficticia"
+    },
+    {
+      "id": "id",
+      "label": "N.I.F",
+      "path": [
+        "DATOS DE LA FUNDACIÓN",
+        "N.I.F"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "N.I.F",
+      "synthetic_value": "SYNTH-NIF-12"
+    },
+    {
+      "id": "role",
+      "label": "En su condición de",
+      "path": [
+        "DATOS DE LA FUNDACIÓN",
+        "En su condición de"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "En su condición de",
+      "synthetic_value": "Representante"
+    },
+    {
+      "id": "agreement",
+      "label": "El Patronato ha adoptado el acuerdo de",
+      "path": [
+        "EXPONE",
+        "El Patronato ha adoptado el acuerdo de"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "El Patronato ha adoptado el acuerdo de",
+      "synthetic_value": "Contratar directamente con un patrono o por medio de representante.",
+      "options": [
+        "Remunerar la prestación de servicios",
+        "Contratar directamente con un patrono o por medio de representante."
+      ],
+      "context_evidence": "EXPONE / El Patronato ha adoptado el acuerdo de: selected Contratar directamente con un patrono o por medio de representante.; all other choices not selected. "
+    },
+    {
+      "id": "documents",
+      "label": "DOCUMENTACIÓN QUE SE ACOMPAÑA",
+      "path": [
+        "DOCUMENTACIÓN QUE SE ACOMPAÑA",
+        "DOCUMENTACIÓN QUE SE ACOMPAÑA"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "DOCUMENTACIÓN QUE SE ACOMPAÑA",
+      "synthetic_value": [
+        "Copia del documento",
+        "Certificación del acuerdo del patronato"
+      ],
+      "options": [
+        "Copia del documento",
+        "Certificación del acuerdo del patronato",
+        "Memoria explicativa"
+      ],
+      "context_evidence": "DOCUMENTACIÓN QUE SE ACOMPAÑA / DOCUMENTACIÓN QUE SE ACOMPAÑA: selected ['Copia del documento', 'Certificación del acuerdo del patronato']; all other choices not selected. "
+    },
+    {
+      "id": "contact",
+      "label": "Persona de contacto",
+      "path": [
+        "DATOS A EFECTOS DE NOTIFICACIÓN",
+        "Persona de contacto"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Persona de contacto",
+      "synthetic_value": "Persona Ficticia B"
+    },
+    {
+      "id": "contact-phone",
+      "label": "Telf",
+      "path": [
+        "DATOS A EFECTOS DE NOTIFICACIÓN",
+        "Telf"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Telf",
+      "synthetic_value": "000000001"
+    },
+    {
+      "id": "contact-email",
+      "label": "Correo electrónico",
+      "path": [
+        "DATOS A EFECTOS DE NOTIFICACIÓN",
+        "Correo electrónico"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Correo electrónico",
+      "synthetic_value": "contacto@example.invalid"
+    },
+    {
+      "id": "contact-address",
+      "label": "Domicilio",
+      "path": [
+        "DATOS A EFECTOS DE NOTIFICACIÓN",
+        "Domicilio"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Domicilio",
+      "synthetic_value": "Calle Modelo"
+    },
+    {
+      "id": "contact-number",
+      "label": "Nº",
+      "path": [
+        "DATOS A EFECTOS DE NOTIFICACIÓN",
+        "Nº"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nº",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "contact-floor",
+      "label": "Piso",
+      "path": [
+        "DATOS A EFECTOS DE NOTIFICACIÓN",
+        "Piso"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Piso",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "contact-city",
+      "label": "Localidad",
+      "path": [
+        "DATOS A EFECTOS DE NOTIFICACIÓN",
+        "Localidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Localidad",
+      "synthetic_value": "Ciudad Ficticia"
+    },
+    {
+      "id": "contact-province",
+      "label": "Provincia",
+      "path": [
+        "DATOS A EFECTOS DE NOTIFICACIÓN",
+        "Provincia"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Provincia",
+      "synthetic_value": "Provincia Ficticia"
+    },
+    {
+      "id": "contact-postal",
+      "label": "C.P",
+      "path": [
+        "DATOS A EFECTOS DE NOTIFICACIÓN",
+        "C.P"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "C.P",
+      "synthetic_value": "00000"
+    },
+    {
+      "id": "place",
+      "label": "En",
+      "path": [
+        "DATOS A EFECTOS DE NOTIFICACIÓN",
+        "En"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "En",
+      "synthetic_value": "Ciudad Ficticia"
+    },
+    {
+      "id": "signature",
+      "label": "Fdo.",
+      "path": [
+        "DATOS A EFECTOS DE NOTIFICACIÓN",
+        "Fdo."
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fdo.",
+      "synthetic_value": "Firma sintética"
+    }
+  ],
+  "normalization_notes": [
+    "One normalized HTML table represents the complete blank form, including repeated blank rows.",
+    "Source original is linked, not redistributed; filled values and context are synthetic."
+  ],
+  "source_note": "Historical ministry-branded PDF; treat as form exemplar, not a current filing channel.",
+  "context": "All names, identifiers, addresses, dates, amounts and choices below are synthetic benchmark examples, not real applications. DATOS DE LA FUNDACIÓN / Nombre: Fundación Ficticia. DATOS DE LA FUNDACIÓN / Nº Registro: REG-SYNTH-12. DATOS DE LA FUNDACIÓN / Domicilio: Calle Ejemplo. DATOS DE LA FUNDACIÓN / Nº: 0. DATOS DE LA FUNDACIÓN / Piso: 1. DATOS DE LA FUNDACIÓN / Localidad: Ciudad Ficticia. DATOS DE LA FUNDACIÓN / Provincia: Provincia Ficticia. DATOS DE LA FUNDACIÓN / C.P.: 00000. DATOS DE LA FUNDACIÓN / CIF: SYNTH-CIF-12. DATOS DE LA FUNDACIÓN / Teléfono: 000000000. DATOS DE LA FUNDACIÓN / Correo electrónico: fundacion@example.invalid. DATOS DE LA FUNDACIÓN / Representada por D/Dª: Persona Ficticia. DATOS DE LA FUNDACIÓN / N.I.F: SYNTH-NIF-12. DATOS DE LA FUNDACIÓN / En su condición de: Representante. EXPONE / El Patronato ha adoptado el acuerdo de: selected Contratar directamente con un patrono o por medio de representante.; all other choices not selected. DOCUMENTACIÓN QUE SE ACOMPAÑA / DOCUMENTACIÓN QUE SE ACOMPAÑA: selected ['Copia del documento', 'Certificación del acuerdo del patronato']; all other choices not selected. DATOS A EFECTOS DE NOTIFICACIÓN / Persona de contacto: Persona Ficticia B. DATOS A EFECTOS DE NOTIFICACIÓN / Telf: 000000001. DATOS A EFECTOS DE NOTIFICACIÓN / Correo electrónico: contacto@example.invalid. DATOS A EFECTOS DE NOTIFICACIÓN / Domicilio: Calle Modelo. DATOS A EFECTOS DE NOTIFICACIÓN / Nº: 0. DATOS A EFECTOS DE NOTIFICACIÓN / Piso: 2. DATOS A EFECTOS DE NOTIFICACIÓN / Localidad: Ciudad Ficticia. DATOS A EFECTOS DE NOTIFICACIÓN / Provincia: Provincia Ficticia. DATOS A EFECTOS DE NOTIFICACIÓN / C.P: 00000. DATOS A EFECTOS DE NOTIFICACIÓN / En: Ciudad Ficticia. DATOS A EFECTOS DE NOTIFICACIÓN / Fdo.: Firma sintética.\n"
+}

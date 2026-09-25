@@ -1,0 +1,2499 @@
+{
+  "id": "fr-school-trip-authorization",
+  "candidate_id": "fr-school-trip-authorization",
+  "title": "Demande d’autorisation d’un voyage scolaire - premier degré",
+  "language": "fr",
+  "domain": "Education",
+  "business_topic": "school_trip_authorization",
+  "issuer_id": "fr_dgesco",
+  "template_family": "school-trip-authorization",
+  "source_pages": 3,
+  "retrieved_at": "2026-09-25T14:59:57.992840+00:00",
+  "source_sha256": "9127f5928a9732d49fe469e6436a01721afe35e2490fe15c7c66fff49e19eb56",
+  "source_url": "https://eduscol.education.gouv.fr/sites/default/files/document/formulaire-demande-autorisation-voyage-scolaire1er-degredocx-101616.docx",
+  "landing_url": "https://eduscol.education.gouv.fr/5061/sorties-et-voyages-scolaires-dans-le-premier-degre",
+  "license_url": "https://eduscol.education.gouv.fr/4656/mentions-legales",
+  "license_note": "Official blank form, transcribed as functional fields without source artwork or logos. Attribute the issuing agency and source. This note is not a legal clearance.",
+  "columns": 6,
+  "rows": [
+    [
+      {
+        "text": "Informations générales",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "level",
+        "label": "Voyage impliquant des élèves de",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "trip-type",
+        "label": "Type de voyage",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "school",
+        "label": "Nom de l’école",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "address",
+        "label": "Adresse",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "postal",
+        "label": "Code postal",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "town",
+        "label": "Commune",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "start",
+        "label": "du",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "end",
+        "label": "au",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "nights",
+        "label": "Nombre de nuitées",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "destination",
+        "label": "Département(s) ou pays d’accueil",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "director",
+        "label": "Directeur d’école",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "teacher",
+        "label": "Enseignant référent",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "email",
+        "label": "Courriel",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "phone",
+        "label": "Téléphone",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "emergency",
+        "label": "Téléphone permettant de joindre le groupe en cas d’urgence",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "pupils",
+        "label": "Nombre d’élèves",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "escorts",
+        "label": "Nombre d’accompagnateurs",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Personnels de l’éducation nationale",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Qualité (enseignant, etc.)",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "text": "Nom",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "text": "Prénom",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "text": "Téléphone",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "staff-1-role",
+        "label": "Qualité",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "staff-1-surname",
+        "label": "Nom",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "staff-1-given",
+        "label": "Prénom",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "staff-1-phone",
+        "label": "Téléphone",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "staff-2-role",
+        "label": "Qualité",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "staff-2-surname",
+        "label": "Nom",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "staff-2-given",
+        "label": "Prénom",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "staff-2-phone",
+        "label": "Téléphone",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "staff-3-role",
+        "label": "Qualité",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "staff-3-surname",
+        "label": "Nom",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "staff-3-given",
+        "label": "Prénom",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "staff-3-phone",
+        "label": "Téléphone",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "staff-4-role",
+        "label": "Qualité",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "staff-4-surname",
+        "label": "Nom",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "staff-4-given",
+        "label": "Prénom",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "staff-4-phone",
+        "label": "Téléphone",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "staff-5-role",
+        "label": "Qualité",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "staff-5-surname",
+        "label": "Nom",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "staff-5-given",
+        "label": "Prénom",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "staff-5-phone",
+        "label": "Téléphone",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "staff-6-role",
+        "label": "Qualité",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "staff-6-surname",
+        "label": "Nom",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "staff-6-given",
+        "label": "Prénom",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "staff-6-phone",
+        "label": "Téléphone",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "staff-7-role",
+        "label": "Qualité",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "staff-7-surname",
+        "label": "Nom",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "staff-7-given",
+        "label": "Prénom",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "staff-7-phone",
+        "label": "Téléphone",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Accompagnateurs autres que les personnels de l’éducation nationale",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Qualité",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "text": "Sexe (H/F)",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "text": "Nom de naissance",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "text": "Prénom",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "text": "Date de naissance",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "text": "Lieu de naissance",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "other-1-0",
+        "label": "Qualité",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-1-1",
+        "label": "Sexe (H/F)",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-1-2",
+        "label": "Nom de naissance",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-1-3",
+        "label": "Prénom",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-1-4",
+        "label": "Date de naissance",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-1-5",
+        "label": "Lieu de naissance",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "other-2-0",
+        "label": "Qualité",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-2-1",
+        "label": "Sexe (H/F)",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-2-2",
+        "label": "Nom de naissance",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-2-3",
+        "label": "Prénom",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-2-4",
+        "label": "Date de naissance",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-2-5",
+        "label": "Lieu de naissance",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "other-3-0",
+        "label": "Qualité",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-3-1",
+        "label": "Sexe (H/F)",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-3-2",
+        "label": "Nom de naissance",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-3-3",
+        "label": "Prénom",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-3-4",
+        "label": "Date de naissance",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-3-5",
+        "label": "Lieu de naissance",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "other-4-0",
+        "label": "Qualité",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-4-1",
+        "label": "Sexe (H/F)",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-4-2",
+        "label": "Nom de naissance",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-4-3",
+        "label": "Prénom",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-4-4",
+        "label": "Date de naissance",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-4-5",
+        "label": "Lieu de naissance",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "other-5-0",
+        "label": "Qualité",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-5-1",
+        "label": "Sexe (H/F)",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-5-2",
+        "label": "Nom de naissance",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-5-3",
+        "label": "Prénom",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-5-4",
+        "label": "Date de naissance",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-5-5",
+        "label": "Lieu de naissance",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "other-6-0",
+        "label": "Qualité",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-6-1",
+        "label": "Sexe (H/F)",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-6-2",
+        "label": "Nom de naissance",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-6-3",
+        "label": "Prénom",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-6-4",
+        "label": "Date de naissance",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-6-5",
+        "label": "Lieu de naissance",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "other-7-0",
+        "label": "Qualité",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-7-1",
+        "label": "Sexe (H/F)",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-7-2",
+        "label": "Nom de naissance",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-7-3",
+        "label": "Prénom",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-7-4",
+        "label": "Date de naissance",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-7-5",
+        "label": "Lieu de naissance",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "other-8-0",
+        "label": "Qualité",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-8-1",
+        "label": "Sexe (H/F)",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-8-2",
+        "label": "Nom de naissance",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-8-3",
+        "label": "Prénom",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-8-4",
+        "label": "Date de naissance",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-8-5",
+        "label": "Lieu de naissance",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "other-9-0",
+        "label": "Qualité",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-9-1",
+        "label": "Sexe (H/F)",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-9-2",
+        "label": "Nom de naissance",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-9-3",
+        "label": "Prénom",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-9-4",
+        "label": "Date de naissance",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-9-5",
+        "label": "Lieu de naissance",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "other-10-0",
+        "label": "Qualité",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-10-1",
+        "label": "Sexe (H/F)",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-10-2",
+        "label": "Nom de naissance",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-10-3",
+        "label": "Prénom",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-10-4",
+        "label": "Date de naissance",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "field": "other-10-5",
+        "label": "Lieu de naissance",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Équipe d’encadrement",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "host-first-aid",
+        "label": "Un personnel de la structure d’accueil est formé aux gestes de premiers secours",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "escort-first-aid",
+        "label": "Un accompagnateur du voyage scolaire est formé aux gestes de premiers secours",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Hébergement",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "listed-host",
+        "label": "Structure inscrite au catalogue national des structures d’accueil et d’hébergement",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "host-name",
+        "label": "Nom de la structure d’accueil et d’hébergement",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "host-director",
+        "label": "Nom du responsable",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "host-address",
+        "label": "Adresse",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "host-postal",
+        "label": "Code postal",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "host-town",
+        "label": "Commune",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "host-email",
+        "label": "Courriel",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "host-phone",
+        "label": "Téléphone",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Visas",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "school-sent",
+        "label": "Date de transmission du dossier au directeur d’école",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "school-decision",
+        "label": "Avis du directeur d’école",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "school-notes",
+        "label": "Observations",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "school-date",
+        "label": "Date",
+        "colspan": 1,
+        "source_page": 3
+      },
+      {
+        "field": "school-sign",
+        "label": "Signature du directeur d’école",
+        "colspan": 5,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "inspector-sent",
+        "label": "Date de transmission du dossier à l’IEN chargé de la circonscription",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "inspector-decision",
+        "label": "Décision de l’inspecteur de l’éducation nationale chargé de la circonscription",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "inspector-notes",
+        "label": "Observations",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "inspector-date",
+        "label": "Date",
+        "colspan": 1,
+        "source_page": 3
+      },
+      {
+        "field": "inspector-sign",
+        "label": "Signature de l’IEN chargé de la circonscription",
+        "colspan": 5,
+        "source_page": 3
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "level",
+      "label": "Voyage impliquant des élèves de",
+      "path": [
+        "Informations générales",
+        "Voyage impliquant des élèves de"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Voyage impliquant des élèves de",
+      "synthetic_value": "Élémentaire",
+      "options": [
+        "Maternelle",
+        "Élémentaire"
+      ],
+      "context_evidence": "Informations générales / Voyage impliquant des élèves de: selected Élémentaire; all other choices not selected. "
+    },
+    {
+      "id": "trip-type",
+      "label": "Type de voyage",
+      "path": [
+        "Informations générales",
+        "Type de voyage"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Type de voyage",
+      "synthetic_value": "Voyage scolaire sur le territoire national",
+      "options": [
+        "Voyage scolaire sur le territoire national",
+        "Voyage scolaire à l’étranger"
+      ],
+      "context_evidence": "Informations générales / Type de voyage: selected Voyage scolaire sur le territoire national; all other choices not selected. "
+    },
+    {
+      "id": "school",
+      "label": "Nom de l’école",
+      "path": [
+        "Informations générales",
+        "Nom de l’école"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom de l’école",
+      "synthetic_value": "École fictive des Tilleuls"
+    },
+    {
+      "id": "address",
+      "label": "Adresse",
+      "path": [
+        "Informations générales",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Adresse",
+      "synthetic_value": "12 rue Exemple"
+    },
+    {
+      "id": "postal",
+      "label": "Code postal",
+      "path": [
+        "Informations générales",
+        "Code postal"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Code postal",
+      "synthetic_value": "00000"
+    },
+    {
+      "id": "town",
+      "label": "Commune",
+      "path": [
+        "Informations générales",
+        "Commune"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Commune",
+      "synthetic_value": "Ville fictive"
+    },
+    {
+      "id": "start",
+      "label": "du",
+      "path": [
+        "Informations générales",
+        "du"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date du séjour",
+      "synthetic_value": "2027-04-12"
+    },
+    {
+      "id": "end",
+      "label": "au",
+      "path": [
+        "Informations générales",
+        "au"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "au",
+      "synthetic_value": "2027-04-14"
+    },
+    {
+      "id": "nights",
+      "label": "Nombre de nuitées",
+      "path": [
+        "Informations générales",
+        "Nombre de nuitées"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre de nuitées",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "destination",
+      "label": "Département(s) ou pays d’accueil",
+      "path": [
+        "Informations générales",
+        "Département(s) ou pays d’accueil"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Département(s) ou pays d’accueil",
+      "synthetic_value": "Département fictif"
+    },
+    {
+      "id": "director",
+      "label": "Directeur d’école",
+      "path": [
+        "Informations générales",
+        "Directeur d’école"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Directeur d’école",
+      "synthetic_value": "Personne fictive A"
+    },
+    {
+      "id": "teacher",
+      "label": "Enseignant référent",
+      "path": [
+        "Informations générales",
+        "Enseignant référent"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Enseignant référent",
+      "synthetic_value": "Personne fictive B"
+    },
+    {
+      "id": "email",
+      "label": "Courriel",
+      "path": [
+        "Informations générales",
+        "Courriel"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Courriel",
+      "synthetic_value": "ecole@example.invalid"
+    },
+    {
+      "id": "phone",
+      "label": "Téléphone",
+      "path": [
+        "Informations générales",
+        "Téléphone"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Téléphone",
+      "synthetic_value": "0000000000"
+    },
+    {
+      "id": "emergency",
+      "label": "Téléphone permettant de joindre le groupe en cas d’urgence",
+      "path": [
+        "Informations générales",
+        "Téléphone permettant de joindre le groupe en cas d’urgence"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Téléphone permettant de joindre le groupe en cas d’urgence",
+      "synthetic_value": "0000000001"
+    },
+    {
+      "id": "pupils",
+      "label": "Nombre d’élèves",
+      "path": [
+        "Informations générales",
+        "Nombre d’élèves"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre d’élèves",
+      "synthetic_value": "20"
+    },
+    {
+      "id": "escorts",
+      "label": "Nombre d’accompagnateurs",
+      "path": [
+        "Informations générales",
+        "Nombre d’accompagnateurs"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre d’accompagnateurs",
+      "synthetic_value": "17"
+    },
+    {
+      "id": "staff-1-role",
+      "label": "Qualité",
+      "path": [
+        "Personnel 1",
+        "Qualité"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Qualité",
+      "synthetic_value": "Enseignant"
+    },
+    {
+      "id": "staff-1-surname",
+      "label": "Nom",
+      "path": [
+        "Personnel 1",
+        "Nom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom",
+      "synthetic_value": "Fictif1"
+    },
+    {
+      "id": "staff-1-given",
+      "label": "Prénom",
+      "path": [
+        "Personnel 1",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Prénom1"
+    },
+    {
+      "id": "staff-1-phone",
+      "label": "Téléphone",
+      "path": [
+        "Personnel 1",
+        "Téléphone"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Téléphone",
+      "synthetic_value": "0000000001"
+    },
+    {
+      "id": "staff-2-role",
+      "label": "Qualité",
+      "path": [
+        "Personnel 2",
+        "Qualité"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Qualité",
+      "synthetic_value": "Accompagnateur"
+    },
+    {
+      "id": "staff-2-surname",
+      "label": "Nom",
+      "path": [
+        "Personnel 2",
+        "Nom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom",
+      "synthetic_value": "Fictif2"
+    },
+    {
+      "id": "staff-2-given",
+      "label": "Prénom",
+      "path": [
+        "Personnel 2",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Prénom2"
+    },
+    {
+      "id": "staff-2-phone",
+      "label": "Téléphone",
+      "path": [
+        "Personnel 2",
+        "Téléphone"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Téléphone",
+      "synthetic_value": "0000000002"
+    },
+    {
+      "id": "staff-3-role",
+      "label": "Qualité",
+      "path": [
+        "Personnel 3",
+        "Qualité"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Qualité",
+      "synthetic_value": "Accompagnateur"
+    },
+    {
+      "id": "staff-3-surname",
+      "label": "Nom",
+      "path": [
+        "Personnel 3",
+        "Nom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom",
+      "synthetic_value": "Fictif3"
+    },
+    {
+      "id": "staff-3-given",
+      "label": "Prénom",
+      "path": [
+        "Personnel 3",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Prénom3"
+    },
+    {
+      "id": "staff-3-phone",
+      "label": "Téléphone",
+      "path": [
+        "Personnel 3",
+        "Téléphone"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Téléphone",
+      "synthetic_value": "0000000003"
+    },
+    {
+      "id": "staff-4-role",
+      "label": "Qualité",
+      "path": [
+        "Personnel 4",
+        "Qualité"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Qualité",
+      "synthetic_value": "Accompagnateur"
+    },
+    {
+      "id": "staff-4-surname",
+      "label": "Nom",
+      "path": [
+        "Personnel 4",
+        "Nom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom",
+      "synthetic_value": "Fictif4"
+    },
+    {
+      "id": "staff-4-given",
+      "label": "Prénom",
+      "path": [
+        "Personnel 4",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Prénom4"
+    },
+    {
+      "id": "staff-4-phone",
+      "label": "Téléphone",
+      "path": [
+        "Personnel 4",
+        "Téléphone"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Téléphone",
+      "synthetic_value": "0000000004"
+    },
+    {
+      "id": "staff-5-role",
+      "label": "Qualité",
+      "path": [
+        "Personnel 5",
+        "Qualité"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Qualité",
+      "synthetic_value": "Accompagnateur"
+    },
+    {
+      "id": "staff-5-surname",
+      "label": "Nom",
+      "path": [
+        "Personnel 5",
+        "Nom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom",
+      "synthetic_value": "Fictif5"
+    },
+    {
+      "id": "staff-5-given",
+      "label": "Prénom",
+      "path": [
+        "Personnel 5",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Prénom5"
+    },
+    {
+      "id": "staff-5-phone",
+      "label": "Téléphone",
+      "path": [
+        "Personnel 5",
+        "Téléphone"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Téléphone",
+      "synthetic_value": "0000000005"
+    },
+    {
+      "id": "staff-6-role",
+      "label": "Qualité",
+      "path": [
+        "Personnel 6",
+        "Qualité"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Qualité",
+      "synthetic_value": "Accompagnateur"
+    },
+    {
+      "id": "staff-6-surname",
+      "label": "Nom",
+      "path": [
+        "Personnel 6",
+        "Nom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom",
+      "synthetic_value": "Fictif6"
+    },
+    {
+      "id": "staff-6-given",
+      "label": "Prénom",
+      "path": [
+        "Personnel 6",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Prénom6"
+    },
+    {
+      "id": "staff-6-phone",
+      "label": "Téléphone",
+      "path": [
+        "Personnel 6",
+        "Téléphone"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Téléphone",
+      "synthetic_value": "0000000006"
+    },
+    {
+      "id": "staff-7-role",
+      "label": "Qualité",
+      "path": [
+        "Personnel 7",
+        "Qualité"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Qualité",
+      "synthetic_value": "Accompagnateur"
+    },
+    {
+      "id": "staff-7-surname",
+      "label": "Nom",
+      "path": [
+        "Personnel 7",
+        "Nom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom",
+      "synthetic_value": "Fictif7"
+    },
+    {
+      "id": "staff-7-given",
+      "label": "Prénom",
+      "path": [
+        "Personnel 7",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Prénom7"
+    },
+    {
+      "id": "staff-7-phone",
+      "label": "Téléphone",
+      "path": [
+        "Personnel 7",
+        "Téléphone"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Téléphone",
+      "synthetic_value": "0000000007"
+    },
+    {
+      "id": "other-1-0",
+      "label": "Qualité",
+      "path": [
+        "Autre accompagnateur 1",
+        "Qualité"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Qualité",
+      "synthetic_value": "Parent"
+    },
+    {
+      "id": "other-1-1",
+      "label": "Sexe (H/F)",
+      "path": [
+        "Autre accompagnateur 1",
+        "Sexe (H/F)"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Sexe (H/F)",
+      "synthetic_value": "F"
+    },
+    {
+      "id": "other-1-2",
+      "label": "Nom de naissance",
+      "path": [
+        "Autre accompagnateur 1",
+        "Nom de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom de naissance",
+      "synthetic_value": "Exemple1"
+    },
+    {
+      "id": "other-1-3",
+      "label": "Prénom",
+      "path": [
+        "Autre accompagnateur 1",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Autre1"
+    },
+    {
+      "id": "other-1-4",
+      "label": "Date de naissance",
+      "path": [
+        "Autre accompagnateur 1",
+        "Date de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date de naissance",
+      "synthetic_value": "1980-01-01"
+    },
+    {
+      "id": "other-1-5",
+      "label": "Lieu de naissance",
+      "path": [
+        "Autre accompagnateur 1",
+        "Lieu de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Lieu de naissance",
+      "synthetic_value": "Ville fictive"
+    },
+    {
+      "id": "other-2-0",
+      "label": "Qualité",
+      "path": [
+        "Autre accompagnateur 2",
+        "Qualité"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Qualité",
+      "synthetic_value": "Parent"
+    },
+    {
+      "id": "other-2-1",
+      "label": "Sexe (H/F)",
+      "path": [
+        "Autre accompagnateur 2",
+        "Sexe (H/F)"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Sexe (H/F)",
+      "synthetic_value": "F"
+    },
+    {
+      "id": "other-2-2",
+      "label": "Nom de naissance",
+      "path": [
+        "Autre accompagnateur 2",
+        "Nom de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom de naissance",
+      "synthetic_value": "Exemple2"
+    },
+    {
+      "id": "other-2-3",
+      "label": "Prénom",
+      "path": [
+        "Autre accompagnateur 2",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Autre2"
+    },
+    {
+      "id": "other-2-4",
+      "label": "Date de naissance",
+      "path": [
+        "Autre accompagnateur 2",
+        "Date de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date de naissance",
+      "synthetic_value": "1980-01-01"
+    },
+    {
+      "id": "other-2-5",
+      "label": "Lieu de naissance",
+      "path": [
+        "Autre accompagnateur 2",
+        "Lieu de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Lieu de naissance",
+      "synthetic_value": "Ville fictive"
+    },
+    {
+      "id": "other-3-0",
+      "label": "Qualité",
+      "path": [
+        "Autre accompagnateur 3",
+        "Qualité"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Qualité",
+      "synthetic_value": "Parent"
+    },
+    {
+      "id": "other-3-1",
+      "label": "Sexe (H/F)",
+      "path": [
+        "Autre accompagnateur 3",
+        "Sexe (H/F)"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Sexe (H/F)",
+      "synthetic_value": "F"
+    },
+    {
+      "id": "other-3-2",
+      "label": "Nom de naissance",
+      "path": [
+        "Autre accompagnateur 3",
+        "Nom de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom de naissance",
+      "synthetic_value": "Exemple3"
+    },
+    {
+      "id": "other-3-3",
+      "label": "Prénom",
+      "path": [
+        "Autre accompagnateur 3",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Autre3"
+    },
+    {
+      "id": "other-3-4",
+      "label": "Date de naissance",
+      "path": [
+        "Autre accompagnateur 3",
+        "Date de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date de naissance",
+      "synthetic_value": "1980-01-01"
+    },
+    {
+      "id": "other-3-5",
+      "label": "Lieu de naissance",
+      "path": [
+        "Autre accompagnateur 3",
+        "Lieu de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Lieu de naissance",
+      "synthetic_value": "Ville fictive"
+    },
+    {
+      "id": "other-4-0",
+      "label": "Qualité",
+      "path": [
+        "Autre accompagnateur 4",
+        "Qualité"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Qualité",
+      "synthetic_value": "Parent"
+    },
+    {
+      "id": "other-4-1",
+      "label": "Sexe (H/F)",
+      "path": [
+        "Autre accompagnateur 4",
+        "Sexe (H/F)"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Sexe (H/F)",
+      "synthetic_value": "F"
+    },
+    {
+      "id": "other-4-2",
+      "label": "Nom de naissance",
+      "path": [
+        "Autre accompagnateur 4",
+        "Nom de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom de naissance",
+      "synthetic_value": "Exemple4"
+    },
+    {
+      "id": "other-4-3",
+      "label": "Prénom",
+      "path": [
+        "Autre accompagnateur 4",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Autre4"
+    },
+    {
+      "id": "other-4-4",
+      "label": "Date de naissance",
+      "path": [
+        "Autre accompagnateur 4",
+        "Date de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date de naissance",
+      "synthetic_value": "1980-01-01"
+    },
+    {
+      "id": "other-4-5",
+      "label": "Lieu de naissance",
+      "path": [
+        "Autre accompagnateur 4",
+        "Lieu de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Lieu de naissance",
+      "synthetic_value": "Ville fictive"
+    },
+    {
+      "id": "other-5-0",
+      "label": "Qualité",
+      "path": [
+        "Autre accompagnateur 5",
+        "Qualité"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Qualité",
+      "synthetic_value": "Parent"
+    },
+    {
+      "id": "other-5-1",
+      "label": "Sexe (H/F)",
+      "path": [
+        "Autre accompagnateur 5",
+        "Sexe (H/F)"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Sexe (H/F)",
+      "synthetic_value": "F"
+    },
+    {
+      "id": "other-5-2",
+      "label": "Nom de naissance",
+      "path": [
+        "Autre accompagnateur 5",
+        "Nom de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom de naissance",
+      "synthetic_value": "Exemple5"
+    },
+    {
+      "id": "other-5-3",
+      "label": "Prénom",
+      "path": [
+        "Autre accompagnateur 5",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Autre5"
+    },
+    {
+      "id": "other-5-4",
+      "label": "Date de naissance",
+      "path": [
+        "Autre accompagnateur 5",
+        "Date de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date de naissance",
+      "synthetic_value": "1980-01-01"
+    },
+    {
+      "id": "other-5-5",
+      "label": "Lieu de naissance",
+      "path": [
+        "Autre accompagnateur 5",
+        "Lieu de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Lieu de naissance",
+      "synthetic_value": "Ville fictive"
+    },
+    {
+      "id": "other-6-0",
+      "label": "Qualité",
+      "path": [
+        "Autre accompagnateur 6",
+        "Qualité"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Qualité",
+      "synthetic_value": "Parent"
+    },
+    {
+      "id": "other-6-1",
+      "label": "Sexe (H/F)",
+      "path": [
+        "Autre accompagnateur 6",
+        "Sexe (H/F)"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Sexe (H/F)",
+      "synthetic_value": "F"
+    },
+    {
+      "id": "other-6-2",
+      "label": "Nom de naissance",
+      "path": [
+        "Autre accompagnateur 6",
+        "Nom de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom de naissance",
+      "synthetic_value": "Exemple6"
+    },
+    {
+      "id": "other-6-3",
+      "label": "Prénom",
+      "path": [
+        "Autre accompagnateur 6",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Autre6"
+    },
+    {
+      "id": "other-6-4",
+      "label": "Date de naissance",
+      "path": [
+        "Autre accompagnateur 6",
+        "Date de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date de naissance",
+      "synthetic_value": "1980-01-01"
+    },
+    {
+      "id": "other-6-5",
+      "label": "Lieu de naissance",
+      "path": [
+        "Autre accompagnateur 6",
+        "Lieu de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Lieu de naissance",
+      "synthetic_value": "Ville fictive"
+    },
+    {
+      "id": "other-7-0",
+      "label": "Qualité",
+      "path": [
+        "Autre accompagnateur 7",
+        "Qualité"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Qualité",
+      "synthetic_value": "Parent"
+    },
+    {
+      "id": "other-7-1",
+      "label": "Sexe (H/F)",
+      "path": [
+        "Autre accompagnateur 7",
+        "Sexe (H/F)"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Sexe (H/F)",
+      "synthetic_value": "F"
+    },
+    {
+      "id": "other-7-2",
+      "label": "Nom de naissance",
+      "path": [
+        "Autre accompagnateur 7",
+        "Nom de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom de naissance",
+      "synthetic_value": "Exemple7"
+    },
+    {
+      "id": "other-7-3",
+      "label": "Prénom",
+      "path": [
+        "Autre accompagnateur 7",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Autre7"
+    },
+    {
+      "id": "other-7-4",
+      "label": "Date de naissance",
+      "path": [
+        "Autre accompagnateur 7",
+        "Date de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date de naissance",
+      "synthetic_value": "1980-01-01"
+    },
+    {
+      "id": "other-7-5",
+      "label": "Lieu de naissance",
+      "path": [
+        "Autre accompagnateur 7",
+        "Lieu de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Lieu de naissance",
+      "synthetic_value": "Ville fictive"
+    },
+    {
+      "id": "other-8-0",
+      "label": "Qualité",
+      "path": [
+        "Autre accompagnateur 8",
+        "Qualité"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Qualité",
+      "synthetic_value": "Parent"
+    },
+    {
+      "id": "other-8-1",
+      "label": "Sexe (H/F)",
+      "path": [
+        "Autre accompagnateur 8",
+        "Sexe (H/F)"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Sexe (H/F)",
+      "synthetic_value": "F"
+    },
+    {
+      "id": "other-8-2",
+      "label": "Nom de naissance",
+      "path": [
+        "Autre accompagnateur 8",
+        "Nom de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom de naissance",
+      "synthetic_value": "Exemple8"
+    },
+    {
+      "id": "other-8-3",
+      "label": "Prénom",
+      "path": [
+        "Autre accompagnateur 8",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Autre8"
+    },
+    {
+      "id": "other-8-4",
+      "label": "Date de naissance",
+      "path": [
+        "Autre accompagnateur 8",
+        "Date de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date de naissance",
+      "synthetic_value": "1980-01-01"
+    },
+    {
+      "id": "other-8-5",
+      "label": "Lieu de naissance",
+      "path": [
+        "Autre accompagnateur 8",
+        "Lieu de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Lieu de naissance",
+      "synthetic_value": "Ville fictive"
+    },
+    {
+      "id": "other-9-0",
+      "label": "Qualité",
+      "path": [
+        "Autre accompagnateur 9",
+        "Qualité"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Qualité",
+      "synthetic_value": "Parent"
+    },
+    {
+      "id": "other-9-1",
+      "label": "Sexe (H/F)",
+      "path": [
+        "Autre accompagnateur 9",
+        "Sexe (H/F)"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Sexe (H/F)",
+      "synthetic_value": "F"
+    },
+    {
+      "id": "other-9-2",
+      "label": "Nom de naissance",
+      "path": [
+        "Autre accompagnateur 9",
+        "Nom de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom de naissance",
+      "synthetic_value": "Exemple9"
+    },
+    {
+      "id": "other-9-3",
+      "label": "Prénom",
+      "path": [
+        "Autre accompagnateur 9",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Autre9"
+    },
+    {
+      "id": "other-9-4",
+      "label": "Date de naissance",
+      "path": [
+        "Autre accompagnateur 9",
+        "Date de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date de naissance",
+      "synthetic_value": "1980-01-01"
+    },
+    {
+      "id": "other-9-5",
+      "label": "Lieu de naissance",
+      "path": [
+        "Autre accompagnateur 9",
+        "Lieu de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Lieu de naissance",
+      "synthetic_value": "Ville fictive"
+    },
+    {
+      "id": "other-10-0",
+      "label": "Qualité",
+      "path": [
+        "Autre accompagnateur 10",
+        "Qualité"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Qualité",
+      "synthetic_value": "Parent"
+    },
+    {
+      "id": "other-10-1",
+      "label": "Sexe (H/F)",
+      "path": [
+        "Autre accompagnateur 10",
+        "Sexe (H/F)"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Sexe (H/F)",
+      "synthetic_value": "F"
+    },
+    {
+      "id": "other-10-2",
+      "label": "Nom de naissance",
+      "path": [
+        "Autre accompagnateur 10",
+        "Nom de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom de naissance",
+      "synthetic_value": "Exemple10"
+    },
+    {
+      "id": "other-10-3",
+      "label": "Prénom",
+      "path": [
+        "Autre accompagnateur 10",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Autre10"
+    },
+    {
+      "id": "other-10-4",
+      "label": "Date de naissance",
+      "path": [
+        "Autre accompagnateur 10",
+        "Date de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date de naissance",
+      "synthetic_value": "1980-01-01"
+    },
+    {
+      "id": "other-10-5",
+      "label": "Lieu de naissance",
+      "path": [
+        "Autre accompagnateur 10",
+        "Lieu de naissance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Lieu de naissance",
+      "synthetic_value": "Ville fictive"
+    },
+    {
+      "id": "host-first-aid",
+      "label": "Un personnel de la structure d’accueil est formé aux gestes de premiers secours",
+      "path": [
+        "Équipe d’encadrement",
+        "Un personnel de la structure d’accueil est formé aux gestes de premiers secours"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Un personnel de la structure d’accueil est formé aux gestes de premiers secours",
+      "synthetic_value": "Oui",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "context_evidence": "Équipe d’encadrement / Un personnel de la structure d’accueil est formé aux gestes de premiers secours: selected Oui; all other choices not selected. "
+    },
+    {
+      "id": "escort-first-aid",
+      "label": "Un accompagnateur du voyage scolaire est formé aux gestes de premiers secours",
+      "path": [
+        "Équipe d’encadrement",
+        "Un accompagnateur du voyage scolaire est formé aux gestes de premiers secours"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Un accompagnateur du voyage scolaire est formé aux gestes de premiers secours",
+      "synthetic_value": "Oui",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "context_evidence": "Équipe d’encadrement / Un accompagnateur du voyage scolaire est formé aux gestes de premiers secours: selected Oui; all other choices not selected. "
+    },
+    {
+      "id": "listed-host",
+      "label": "Structure inscrite au catalogue national des structures d’accueil et d’hébergement",
+      "path": [
+        "Hébergement",
+        "Structure inscrite au catalogue national des structures d’accueil et d’hébergement"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Structure inscrite au catalogue national des structures d’accueil et d’hébergement",
+      "synthetic_value": "Oui",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "context_evidence": "Hébergement / Structure inscrite au catalogue national des structures d’accueil et d’hébergement: selected Oui; all other choices not selected. "
+    },
+    {
+      "id": "host-name",
+      "label": "Nom de la structure d’accueil et d’hébergement",
+      "path": [
+        "Hébergement",
+        "Nom de la structure d’accueil et d’hébergement"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom de la structure d’accueil et d’hébergement",
+      "synthetic_value": "Centre fictif"
+    },
+    {
+      "id": "host-director",
+      "label": "Nom du responsable",
+      "path": [
+        "Hébergement",
+        "Nom du responsable"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom du responsable",
+      "synthetic_value": "Personne fictive C"
+    },
+    {
+      "id": "host-address",
+      "label": "Adresse",
+      "path": [
+        "Hébergement",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Adresse",
+      "synthetic_value": "2 rue Exemple"
+    },
+    {
+      "id": "host-postal",
+      "label": "Code postal",
+      "path": [
+        "Hébergement",
+        "Code postal"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Code postal",
+      "synthetic_value": "00000"
+    },
+    {
+      "id": "host-town",
+      "label": "Commune",
+      "path": [
+        "Hébergement",
+        "Commune"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Commune",
+      "synthetic_value": "Ville fictive"
+    },
+    {
+      "id": "host-email",
+      "label": "Courriel",
+      "path": [
+        "Hébergement",
+        "Courriel"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Courriel",
+      "synthetic_value": "contact@example.invalid"
+    },
+    {
+      "id": "host-phone",
+      "label": "Téléphone",
+      "path": [
+        "Hébergement",
+        "Téléphone"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Téléphone",
+      "synthetic_value": "0000000011"
+    },
+    {
+      "id": "school-sent",
+      "label": "Date de transmission du dossier au directeur d’école",
+      "path": [
+        "Visa directeur d’école",
+        "Date de transmission"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Date de transmission du dossier au directeur d’école",
+      "synthetic_value": "2027-02-01"
+    },
+    {
+      "id": "school-decision",
+      "label": "Avis du directeur d’école",
+      "path": [
+        "Visa directeur d’école",
+        "Décision"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 3,
+      "source_anchor": "Avis du directeur d’école",
+      "synthetic_value": "Accord",
+      "options": [
+        "Accord",
+        "Refus motivé"
+      ],
+      "context_evidence": "Visas / Avis du directeur d’école: selected Accord; all other choices not selected. "
+    },
+    {
+      "id": "school-notes",
+      "label": "Observations",
+      "path": [
+        "Visa directeur d’école",
+        "Observations"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Observations",
+      "synthetic_value": "Aucune observation fictive"
+    },
+    {
+      "id": "school-date",
+      "label": "Date",
+      "path": [
+        "Visa directeur d’école",
+        "Date"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Date",
+      "synthetic_value": "2027-02-02"
+    },
+    {
+      "id": "school-sign",
+      "label": "Signature du directeur d’école",
+      "path": [
+        "Visa directeur d’école",
+        "Signature"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Signature du directeur d’école",
+      "synthetic_value": "Signature synthétique"
+    },
+    {
+      "id": "inspector-sent",
+      "label": "Date de transmission du dossier à l’IEN chargé de la circonscription",
+      "path": [
+        "Visa IEN chargé de la circonscription",
+        "Date de transmission"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Date de transmission du dossier à l’IEN chargé de la circonscription",
+      "synthetic_value": "2027-02-01"
+    },
+    {
+      "id": "inspector-decision",
+      "label": "Décision de l’inspecteur de l’éducation nationale chargé de la circonscription",
+      "path": [
+        "Visa IEN chargé de la circonscription",
+        "Décision"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 3,
+      "source_anchor": "Décision de l’inspecteur de l’éducation nationale chargé de la circonscription",
+      "synthetic_value": "Accord",
+      "options": [
+        "Accord",
+        "Refus motivé"
+      ],
+      "context_evidence": "Visas / Décision de l’inspecteur de l’éducation nationale chargé de la circonscription: selected Accord; all other choices not selected. "
+    },
+    {
+      "id": "inspector-notes",
+      "label": "Observations",
+      "path": [
+        "Visa IEN chargé de la circonscription",
+        "Observations"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Observations",
+      "synthetic_value": "Aucune observation fictive"
+    },
+    {
+      "id": "inspector-date",
+      "label": "Date",
+      "path": [
+        "Visa IEN chargé de la circonscription",
+        "Date"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Date",
+      "synthetic_value": "2027-02-02"
+    },
+    {
+      "id": "inspector-sign",
+      "label": "Signature de l’IEN chargé de la circonscription",
+      "path": [
+        "Visa IEN chargé de la circonscription",
+        "Signature"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Signature de l’IEN chargé de la circonscription",
+      "synthetic_value": "Signature synthétique"
+    }
+  ],
+  "normalization_notes": [
+    "One normalized HTML table represents the complete blank form, including repeated blank rows.",
+    "Source original is linked, not redistributed; filled values and context are synthetic."
+  ],
+  "source_note": "",
+  "context": "All names, identifiers, addresses, dates, amounts and choices below are synthetic benchmark examples, not real applications. Informations générales / Voyage impliquant des élèves de: selected Élémentaire; all other choices not selected. Informations générales / Type de voyage: selected Voyage scolaire sur le territoire national; all other choices not selected. Informations générales / Nom de l’école: École fictive des Tilleuls. Informations générales / Adresse: 12 rue Exemple. Informations générales / Code postal: 00000. Informations générales / Commune: Ville fictive. Informations générales / du: 2027-04-12. Informations générales / au: 2027-04-14. Informations générales / Nombre de nuitées: 2. Informations générales / Département(s) ou pays d’accueil: Département fictif. Informations générales / Directeur d’école: Personne fictive A. Informations générales / Enseignant référent: Personne fictive B. Informations générales / Courriel: ecole@example.invalid. Informations générales / Téléphone: 0000000000. Informations générales / Téléphone permettant de joindre le groupe en cas d’urgence: 0000000001. Informations générales / Nombre d’élèves: 20. Informations générales / Nombre d’accompagnateurs: 17. Personnels de l’éducation nationale / Qualité: Enseignant. Personnels de l’éducation nationale / Nom: Fictif1. Personnels de l’éducation nationale / Prénom: Prénom1. Personnels de l’éducation nationale / Téléphone: 0000000001. Personnels de l’éducation nationale / Qualité: Accompagnateur. Personnels de l’éducation nationale / Nom: Fictif2. Personnels de l’éducation nationale / Prénom: Prénom2. Personnels de l’éducation nationale / Téléphone: 0000000002. Personnels de l’éducation nationale / Qualité: Accompagnateur. Personnels de l’éducation nationale / Nom: Fictif3. Personnels de l’éducation nationale / Prénom: Prénom3. Personnels de l’éducation nationale / Téléphone: 0000000003. Personnels de l’éducation nationale / Qualité: Accompagnateur. Personnels de l’éducation nationale / Nom: Fictif4. Personnels de l’éducation nationale / Prénom: Prénom4. Personnels de l’éducation nationale / Téléphone: 0000000004. Personnels de l’éducation nationale / Qualité: Accompagnateur. Personnels de l’éducation nationale / Nom: Fictif5. Personnels de l’éducation nationale / Prénom: Prénom5. Personnels de l’éducation nationale / Téléphone: 0000000005. Personnels de l’éducation nationale / Qualité: Accompagnateur. Personnels de l’éducation nationale / Nom: Fictif6. Personnels de l’éducation nationale / Prénom: Prénom6. Personnels de l’éducation nationale / Téléphone: 0000000006. Personnels de l’éducation nationale / Qualité: Accompagnateur. Personnels de l’éducation nationale / Nom: Fictif7. Personnels de l’éducation nationale / Prénom: Prénom7. Personnels de l’éducation nationale / Téléphone: 0000000007. Accompagnateurs autres que les personnels de l’éducation nationale / Qualité: Parent. Accompagnateurs autres que les personnels de l’éducation nationale / Sexe (H/F): F. Accompagnateurs autres que les personnels de l’éducation nationale / Nom de naissance: Exemple1. Accompagnateurs autres que les personnels de l’éducation nationale / Prénom: Autre1. Accompagnateurs autres que les personnels de l’éducation nationale / Date de naissance: 1980-01-01. Accompagnateurs autres que les personnels de l’éducation nationale / Lieu de naissance: Ville fictive. Accompagnateurs autres que les personnels de l’éducation nationale / Qualité: Parent. Accompagnateurs autres que les personnels de l’éducation nationale / Sexe (H/F): F. Accompagnateurs autres que les personnels de l’éducation nationale / Nom de naissance: Exemple2. Accompagnateurs autres que les personnels de l’éducation nationale / Prénom: Autre2. Accompagnateurs autres que les personnels de l’éducation nationale / Date de naissance: 1980-01-01. Accompagnateurs autres que les personnels de l’éducation nationale / Lieu de naissance: Ville fictive. Accompagnateurs autres que les personnels de l’éducation nationale / Qualité: Parent. Accompagnateurs autres que les personnels de l’éducation nationale / Sexe (H/F): F. Accompagnateurs autres que les personnels de l’éducation nationale / Nom de naissance: Exemple3. Accompagnateurs autres que les personnels de l’éducation nationale / Prénom: Autre3. Accompagnateurs autres que les personnels de l’éducation nationale / Date de naissance: 1980-01-01. Accompagnateurs autres que les personnels de l’éducation nationale / Lieu de naissance: Ville fictive. Accompagnateurs autres que les personnels de l’éducation nationale / Qualité: Parent. Accompagnateurs autres que les personnels de l’éducation nationale / Sexe (H/F): F. Accompagnateurs autres que les personnels de l’éducation nationale / Nom de naissance: Exemple4. Accompagnateurs autres que les personnels de l’éducation nationale / Prénom: Autre4. Accompagnateurs autres que les personnels de l’éducation nationale / Date de naissance: 1980-01-01. Accompagnateurs autres que les personnels de l’éducation nationale / Lieu de naissance: Ville fictive. Accompagnateurs autres que les personnels de l’éducation nationale / Qualité: Parent. Accompagnateurs autres que les personnels de l’éducation nationale / Sexe (H/F): F. Accompagnateurs autres que les personnels de l’éducation nationale / Nom de naissance: Exemple5. Accompagnateurs autres que les personnels de l’éducation nationale / Prénom: Autre5. Accompagnateurs autres que les personnels de l’éducation nationale / Date de naissance: 1980-01-01. Accompagnateurs autres que les personnels de l’éducation nationale / Lieu de naissance: Ville fictive. Accompagnateurs autres que les personnels de l’éducation nationale / Qualité: Parent. Accompagnateurs autres que les personnels de l’éducation nationale / Sexe (H/F): F. Accompagnateurs autres que les personnels de l’éducation nationale / Nom de naissance: Exemple6. Accompagnateurs autres que les personnels de l’éducation nationale / Prénom: Autre6. Accompagnateurs autres que les personnels de l’éducation nationale / Date de naissance: 1980-01-01. Accompagnateurs autres que les personnels de l’éducation nationale / Lieu de naissance: Ville fictive. Accompagnateurs autres que les personnels de l’éducation nationale / Qualité: Parent. Accompagnateurs autres que les personnels de l’éducation nationale / Sexe (H/F): F. Accompagnateurs autres que les personnels de l’éducation nationale / Nom de naissance: Exemple7. Accompagnateurs autres que les personnels de l’éducation nationale / Prénom: Autre7. Accompagnateurs autres que les personnels de l’éducation nationale / Date de naissance: 1980-01-01. Accompagnateurs autres que les personnels de l’éducation nationale / Lieu de naissance: Ville fictive. Accompagnateurs autres que les personnels de l’éducation nationale / Qualité: Parent. Accompagnateurs autres que les personnels de l’éducation nationale / Sexe (H/F): F. Accompagnateurs autres que les personnels de l’éducation nationale / Nom de naissance: Exemple8. Accompagnateurs autres que les personnels de l’éducation nationale / Prénom: Autre8. Accompagnateurs autres que les personnels de l’éducation nationale / Date de naissance: 1980-01-01. Accompagnateurs autres que les personnels de l’éducation nationale / Lieu de naissance: Ville fictive. Accompagnateurs autres que les personnels de l’éducation nationale / Qualité: Parent. Accompagnateurs autres que les personnels de l’éducation nationale / Sexe (H/F): F. Accompagnateurs autres que les personnels de l’éducation nationale / Nom de naissance: Exemple9. Accompagnateurs autres que les personnels de l’éducation nationale / Prénom: Autre9. Accompagnateurs autres que les personnels de l’éducation nationale / Date de naissance: 1980-01-01. Accompagnateurs autres que les personnels de l’éducation nationale / Lieu de naissance: Ville fictive. Accompagnateurs autres que les personnels de l’éducation nationale / Qualité: Parent. Accompagnateurs autres que les personnels de l’éducation nationale / Sexe (H/F): F. Accompagnateurs autres que les personnels de l’éducation nationale / Nom de naissance: Exemple10. Accompagnateurs autres que les personnels de l’éducation nationale / Prénom: Autre10. Accompagnateurs autres que les personnels de l’éducation nationale / Date de naissance: 1980-01-01. Accompagnateurs autres que les personnels de l’éducation nationale / Lieu de naissance: Ville fictive. Équipe d’encadrement / Un personnel de la structure d’accueil est formé aux gestes de premiers secours: selected Oui; all other choices not selected. Équipe d’encadrement / Un accompagnateur du voyage scolaire est formé aux gestes de premiers secours: selected Oui; all other choices not selected. Hébergement / Structure inscrite au catalogue national des structures d’accueil et d’hébergement: selected Oui; all other choices not selected. Hébergement / Nom de la structure d’accueil et d’hébergement: Centre fictif. Hébergement / Nom du responsable: Personne fictive C. Hébergement / Adresse: 2 rue Exemple. Hébergement / Code postal: 00000. Hébergement / Commune: Ville fictive. Hébergement / Courriel: contact@example.invalid. Hébergement / Téléphone: 0000000011. Visas / Date de transmission du dossier au directeur d’école: 2027-02-01. Visas / Avis du directeur d’école: selected Accord; all other choices not selected. Visas / Observations: Aucune observation fictive. Visas / Date: 2027-02-02. Visas / Signature du directeur d’école: Signature synthétique. Visas / Date de transmission du dossier à l’IEN chargé de la circonscription: 2027-02-01. Visas / Décision de l’inspecteur de l’éducation nationale chargé de la circonscription: selected Accord; all other choices not selected. Visas / Observations: Aucune observation fictive. Visas / Date: 2027-02-02. Visas / Signature de l’IEN chargé de la circonscription: Signature synthétique.\n"
+}

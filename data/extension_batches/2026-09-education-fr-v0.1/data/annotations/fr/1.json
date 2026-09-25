@@ -1,0 +1,618 @@
+{
+  "id": "fr-eduscol-dix-mots-2024-consent-001",
+  "candidate_id": "NEST-SRC-20260913-06",
+  "source_sha256": "aea7fd501961551953019c58a4185728bacfd8af4c925b4c9e5ade7cdf31d1aa",
+  "language": "fr",
+  "domain": "Education",
+  "business_topic": "ImageVoiceConsent",
+  "issuer_id": "fr_men_dgesco",
+  "template_family": "school_minor_image_voice_consent_dix_mots_2024",
+  "title": "Autorisation parentale d’enregistrement et d’utilisation de l’image/la voix d’une personne mineure",
+  "source_pages": 3,
+  "columns": 4,
+  "normalization_notes": [
+    "Source unique : les trois pages de source.pdf et leurs extractions page_01/02/03.txt, confrontées visuellement aux trois images page_01/02/03.png dans l’intake NEST-SRC-20260913-06. Le SHA-256 a été recalculé sur le PDF. Aucun contenu d’un autre modèle n’est substitué à celui-ci.",
+    "Il s’agit d’une adaptation sémantique complète, non d’un fac-similé graphique. Les six sections, leur ordre, les deux finalités Dix Mots 2024, l’Institut de France, les instructions, la matrice d’exploitation et tous les paragraphes juridiques et de protection des données sont conservés. Les retours de ligne de composition et les espaces multiples sont normalisés ; les URL coupées en fin de ligne sont réunies sans changer leur contenu. La graphie source « Modes d’exploitation envisagées » est conservée.",
+    "Chaque ligne de rows occupe exactement quatre colonnes. Chaque cellule, qu’elle contienne un titre, du texte, un champ, un libellé ou des cases à cocher, doit avoir exactement deux div frères neutres à l’intérieur de sa cellule de tableau : <td><div>libellé ou texte statique</div><div>valeur ou contrôles</div></td> ; th peut remplacer td pour un titre. Aucun logo graphique, tableau imbriqué, position absolue, identifiant métier dans les enveloppes ni enveloppe décorative supplémentaire. heading signale uniquement une hiérarchie textuelle. Les coordonnées sont calculées par le générateur, jamais inscrites dans cette spécification. Les clés imbriquées de path et les id restent des métadonnées ; ils ne doivent pas apparaître comme texte ou attributs cachés id/name dans les HTML Empty/Filled destinés au modèle.",
+    "Les lignes pointillées, traits de saisie, espaces de signature et espaces réservés entre crochets deviennent des cellules sémantiques. Le placeholder de date après « à l’Institut de France le » appartient à la section 1 et demeure distinct des dates d’enregistrement et de signature. « Autre (précisez) » est un champ de précision du support malgré l’absence d’un trait de saisie dédié ; il reste distinct de ses destinataires.",
+    "La table de la section 3 est réunie : ses cinq lignes de la page 1 sont suivies des deux lignes de la page 2, sous les quatre mêmes en-têtes. Ses sept décisions d’autorisation sont sept groupes checkbox_single distincts, chacun avec les cases OUI et NON ; aucun bouton radio et aucun booléen séparé par option. Le groupe des trois étendues de projection est un seul checkbox_multi, indépendant de la décision d’autorisation de projection.",
+    "Les deux confirmations de compréhension de l’élève constituent un checkbox_multi ; les deux choix « mon image » et « ma voix » constituent un autre checkbox_multi. Le choix parental d’autoriser ou de refuser constitue un seul checkbox_single. Tous les mots des options sources sont conservés. Les cases carrées sont des contrôles et non des caractères dans leurs libellés ; le point après « ma voix » est rendu après le groupe, car il termine la phrase et ne fait pas partie du nom de la modalité.",
+    "Les chemins ajoutent uniquement les groupes sémantiques nécessaires à la désambiguïsation : identification de l’établissement, types de support et représentants légaux 1 et 2. Les deux libellés « Demeurant » conservent des chemins naturels distincts. Le champ Signature (s) reste une seule zone collective, comme dans la source, sans inventer une zone de signature pour chaque parent.",
+    "Les libellés affichés sont uniquement ceux explicitement inscrits dans cell.label ; aucune copie automatique de field.label ou des clés de path. Les sept décisions de la matrice ont pour field.label « Autorisation* », ancré dans l’unique en-tête de colonne, et leur cell.label reste vide. Le groupe de projection se réfère à « Étendue de la diffusion » ; les confirmations de compréhension et la décision parentale se réfèrent respectivement aux titres sources des sections 4 et 5, sans inventer un sous-titre affiché.",
+    "Tous les source_anchor sont des extraits littéraux continus de la page indiquée, après seule normalisation NFKC des espaces ; aucun séparateur inventé ni marqueur de case ajouté. Le texte sort=True entrelace les colonnes au milieu de la deuxième option de projection. Il faut donc confronter également l’extraction native sort=False du même PDF pour vérifier cette option entière ; son texte n’est pas raccourci pour contourner cet artefact d’extraction.",
+    "Le placeholder de responsable du traitement de la section 6 est un champ de configuration du modèle, non une réponse de la famille. Le texte source proposant le chef d’établissement ou le directeur académique est conservé comme libellé de ce champ. Le contexte choisit un collège fictif et donc le chef d’établissement. L’adresse électronique fictive est intégrée à cette même configuration, sans inventer un champ de contact supplémentaire.",
+    "Le contexte et les identités, adresses, contenus de projet et mentions de signature sont explicitement TEST et fictifs. Les champs de téléphone, d’année scolaire et de dates gardent leur format normal sans préfixe TEST ; refusal_word vaut exactement REFUS et les contrôles reprennent exactement les options sources. Leur caractère synthétique est porté par le contexte commun. Toutes les valeurs textuelles apparaissent littéralement dans ce contexte français, sans reproduire une hiérarchie de clés JSON. Les dates de 2024 sont inventées pour le scénario historique Dix Mots 2024, non attestées comme dates réelles de la cérémonie ni comme date de publication du PDF.",
+    "Cas rempli de refus : les sept usages valent NON, le choix parental est le refus et le mot prescrit vaut REFUS. Les sites, destinataires, supports et étendues sélectionnées décrivent seulement des usages envisagés et refusés. Les confirmations positives de l’élève, y compris pour l’image et la voix, ne constituent pas une autorisation effective et ne peuvent pas annuler le refus parental. Les signatures sont remplacées par des mentions TEST tapées, sans signature réelle, fac-similé ni imitation manuscrite.",
+    "Les contacts institutionnels préimprimés, les URL ministérielles, les comptes sociaux historiques, l’adresse dpd@education.gouv.fr, l’URL Culture, www.cnil.fr et l’adresse postale de la CNIL restent des textes statiques de source, pas des données personnelles synthétiques ni des champs à remplir. Ils ne sont ni actualisés ni utilisés pour un envoi.",
+    "Couverture : 37 champs, dont 26 text, 8 checkbox_single et 3 checkbox_multi ; 23 options sources au total, correspondant à 23 cases imprimées. Pages d’origine des champs : page 1 = 18, page 2 = 19, page 3 = 0. La page 3 est néanmoins intégralement représentée par ses deux blocs de contenu substantiel. Les numéros de page 1/3, 2/3, 3/3 et le logo-bloc ministériel avec sa devise sont les seuls indices de mise en page volontairement non reproduits ; la provenance institutionnelle demeure dans les métadonnées et le texte source. Chaque champ porte sa page et son ancre littérale ; les précisions d’interprétation et de couverture sont enregistrées dans cette spécification."
+  ],
+  "context": "TEST UNIQUEMENT - dossier synthétique d’annotation, sans personne réelle, sans établissement réel et sans valeur d’autorisation. Toutes les mentions citées ci-dessous sont des valeurs de test, non un formulaire effectivement signé. Les dates, l’année scolaire et le téléphone sont fictifs même lorsqu’ils conservent leur format normal sans préfixe TEST.\nL’établissement scolaire fictif est « TEST - collège fictif TEST des Dix-Mots ». Son téléphone est « 00 00 00 00 00 » et son code postal et sa commune sont « TEST - 00000 / Commune TEST ». L’année scolaire est « 2023-2024 » et la classe est « TEST - 4e TEST ».\nDans ce scénario historique fictif du concours des Dix Mots 2024, la date de cérémonie à l’Institut de France est « 15/05/2024 ». C’est une date inventée, pas une date réelle attestée. Le projet proposé est « TEST - Dix Mots 2024 : récits de classe » et l’œuvre s’intitule « TEST - Dix mots, une classe ». Les dates d’enregistrement proposées sont « 15/04/2024 et 15/05/2024 ». Les lieux proposés sont « TEST - salle polyvalente du collège fictif TEST des Dix-Mots ; Institut de France (lieu cité par le modèle) ». Aucun événement ni enregistrement réel n’est affirmé.\nLe site à accès réservé envisagé est « TEST - https://ent-test.invalid/dix-mots-2024 ». Les destinataires envisagés du support de stockage amovible sont « TEST - équipe pédagogique TEST et représentants légaux TEST ». Les trois étendues de projection sont envisagées : « Usage collectif dans les classes des élèves enregistrés », « Autres usages institutionnels à vocation éducative, de formation ou de recherche. » et « Usages de communication externe de l’institution. » ; cocher ces trois étendues ne les autorise pas. L’autre support à préciser est « TEST - livret papier du concours des Dix Mots 2024 » ; ses destinataires envisagés sont « TEST - jury pédagogique TEST et représentants légaux TEST ». Les sites Internet et comptes ministériels déjà imprimés dans le modèle demeurent statiques et historiques.\nL’élève est « TEST Élève Camille Exemple » dans les deux champs qui demandent son nom. Cocher les deux confirmations « On m’a expliqué et j’ai compris à quoi servait ce projet. » et « On m’a expliqué et j’ai compris qui pourrait voir cet enregistrement. ». L’élève se dit d’accord pour « mon image » et « ma voix » : cocher ces deux options. La zone de signature de l’élève doit contenir seulement « TEST - emplacement de signature de l’élève ; aucune signature réelle ».\nLe premier représentant légal est « TEST Parent Alex Exemple », domicilié « TEST - 1 voie Fictive, 00000 Commune TEST ». Le second est « TEST Parent Sam Exemple », domicilié « TEST - 2 voie Fictive, 00000 Commune TEST ». Les deux adresses fictives diffèrent, donc la précision conditionnelle de la seconde adresse est applicable. Les représentants refusent la captation de l’image et de la voix : choisir exactement « n’autorise(ons) pas la captation de l’image / de la voix de l’enfant. », laisser l’option d’autorisation non cochée, écrire exactement REFUS et sélectionner NON dans chacune des sept lignes d’exploitation, sans aucun OUI. Les déclarations positives de l’élève ne l’emportent pas sur ce refus. Les dates, lieux, supports, sites, audiences et étendues renseignés décrivent une demande envisagée puis refusée et n’accordent aucun droit d’usage.\nLa déclaration fictive est établie à « TEST - Commune TEST », le « 20/03/2024 », avant les dates proposées. La zone commune de signatures doit contenir seulement « TEST - emplacement des signatures des représentants légaux ; aucune signature réelle ». Ces deux mentions de signature sont du texte tapé de remplacement : aucune personne n’est effectivement signataire, aucune signature manuscrite, numérique ou imitée n’est produite.\nPour la configuration institutionnelle de la section 6, le responsable du traitement est « TEST - chef d’établissement du collège fictif TEST des Dix-Mots, responsable-test@ecole-test.invalid ». Le collège fictif rend pertinente la branche chef d’établissement du placeholder ; le rôle n’est pas choisi par la famille. Les domaines .invalid et le téléphone uniquement composé de zéros ne servent à aucun contact. Les coordonnées officielles préimprimées sont conservées comme contenu source, sans collecte réelle ni transmission. Les identités, adresses, projets et mentions de signature portent TEST ; le téléphone, l’année scolaire, les dates, le mot imposé REFUS et les cases gardent leur format source mais appartiennent exclusivement à ce spécimen TEST. Le scénario ne confirme pas l’applicabilité actuelle du modèle historique et ne constitue pas un avis juridique.",
+  "fields": [
+    {
+      "id": "school_name",
+      "label": "École ou établissement scolaire",
+      "path": ["Identification de l’établissement scolaire", "École ou établissement scolaire"],
+      "kind": "text",
+      "synthetic_value": "TEST - collège fictif TEST des Dix-Mots",
+      "source_page": 1,
+      "source_anchor": "École ou établissement scolaire : _________________________________________________________________"
+    },
+    {
+      "id": "school_phone",
+      "label": "Tél.",
+      "path": ["Identification de l’établissement scolaire", "Tél."],
+      "kind": "text",
+      "synthetic_value": "00 00 00 00 00",
+      "source_page": 1,
+      "source_anchor": "Tél. : _________________________",
+      "semantic_notes": "Numéro fictif composé uniquement de zéros, au format téléphonique ordinaire. La qualification TEST figure dans le contexte commun, pas dans le numéro."
+    },
+    {
+      "id": "school_postal_commune",
+      "label": "Code postal / Commune",
+      "path": ["Identification de l’établissement scolaire", "Code postal / Commune"],
+      "kind": "text",
+      "synthetic_value": "TEST - 00000 / Commune TEST",
+      "source_page": 1,
+      "source_anchor": "Code postal / Commune : ___________________________________",
+      "semantic_notes": "Une seule zone source ; ne pas scinder le code postal et la commune en deux champs. Le code est délibérément fictif."
+    },
+    {
+      "id": "school_year",
+      "label": "Année scolaire",
+      "path": ["Identification de l’établissement scolaire", "Année scolaire"],
+      "kind": "text",
+      "synthetic_value": "2023-2024",
+      "source_page": 1,
+      "source_anchor": "Année scolaire : ________________"
+    },
+    {
+      "id": "school_class",
+      "label": "Classe de",
+      "path": ["Identification de l’établissement scolaire", "Classe de"],
+      "kind": "text",
+      "synthetic_value": "TEST - 4e TEST",
+      "source_page": 1,
+      "source_anchor": "Classe de : _________________________________________"
+    },
+    {
+      "id": "ceremony_date",
+      "label": "le",
+      "path": ["1- Finalités envisagées", "Concours des Dix Mots 2024 à l’Institut de France", "Date de la cérémonie de remise des prix"],
+      "kind": "text",
+      "synthetic_value": "15/05/2024",
+      "source_page": 1,
+      "source_anchor": "cérémonie de remise des prix du concours des Dix Mots 2024 à l’Institut de France le……….",
+      "semantic_notes": "Champ ancré dans la seconde finalité, avant la section 2. Date fictive du scénario, non date réelle attestée. Son label « le » reprend exactement le mot source immédiatement avant la date ; le nom sémantique de la date reste dans path et ne devient pas un nouveau libellé HTML."
+    },
+    {
+      "id": "project_name",
+      "label": "Projet",
+      "path": ["2- Désignation du projet audio-visuel *", "Projet"],
+      "kind": "text",
+      "synthetic_value": "TEST - Dix Mots 2024 : récits de classe",
+      "source_page": 1,
+      "source_anchor": "Projet : « _______________________________________________________________________________________________ »"
+    },
+    {
+      "id": "work_title",
+      "label": "Titre de l’œuvre si applicable",
+      "path": ["2- Désignation du projet audio-visuel *", "Titre de l’œuvre si applicable"],
+      "kind": "text",
+      "synthetic_value": "TEST - Dix mots, une classe",
+      "source_page": 1,
+      "source_anchor": "Titre de l’œuvre si applicable : ___________________________________________________________________________________",
+      "semantic_notes": "Condition source « si applicable » conservée ; le scénario prévoit une œuvre titrée, donc ce champ est rempli."
+    },
+    {
+      "id": "recording_dates",
+      "label": "Date(s) d’enregistrement",
+      "path": ["2- Désignation du projet audio-visuel *", "Date(s) d’enregistrement"],
+      "kind": "text",
+      "synthetic_value": "15/04/2024 et 15/05/2024",
+      "source_page": 1,
+      "source_anchor": "Date(s) d’enregistrement ___________________",
+      "semantic_notes": "Une seule zone pouvant contenir plusieurs dates. Dates envisagées, aucune captation autorisée dans ce cas de refus."
+    },
+    {
+      "id": "recording_places",
+      "label": "Lieu(x) d’enregistrement",
+      "path": ["2- Désignation du projet audio-visuel *", "Lieu(x) d’enregistrement"],
+      "kind": "text",
+      "synthetic_value": "TEST - salle polyvalente du collège fictif TEST des Dix-Mots ; Institut de France (lieu cité par le modèle)",
+      "source_page": 1,
+      "source_anchor": "Lieu(x) d’enregistrement : _____________________________",
+      "semantic_notes": "Une seule zone multivaluée en texte. Institut de France est conservé comme lieu institutionnel source, sans inventer une institution réelle participante."
+    },
+    {
+      "id": "consent_classroom",
+      "context_evidence": "Les représentants refusent la captation de l’image et de la voix : choisir exactement « n’autorise(ons) pas la captation de l’image / de la voix de l’enfant. », laisser l’option d’autorisation non cochée, écrire exactement REFUS et sélectionner NON dans chacune des sept lignes d’exploitation, sans aucun OUI.",
+      "label": "Autorisation*",
+      "path": ["3- Modes d’exploitation envisagées", "Pour un usage collectif dans sa classe", "Autorisation"],
+      "kind": "checkbox_single",
+      "options": ["OUI", "NON"],
+      "synthetic_value": "NON",
+      "source_page": 1,
+      "source_anchor": "Pour un usage",
+      "semantic_notes": "Première ligne de la matrice ; deux cases carrées regroupées en une décision exclusive, pas deux champs booléens."
+    },
+    {
+      "id": "consent_restricted_online",
+      "context_evidence": "Les représentants refusent la captation de l’image et de la voix : choisir exactement « n’autorise(ons) pas la captation de l’image / de la voix de l’enfant. », laisser l’option d’autorisation non cochée, écrire exactement REFUS et sélectionner NON dans chacune des sept lignes d’exploitation, sans aucun OUI.",
+      "label": "Autorisation*",
+      "path": ["3- Modes d’exploitation envisagées", "En Ligne - Site avec accès réservé", "Autorisation"],
+      "kind": "checkbox_single",
+      "options": ["OUI", "NON"],
+      "synthetic_value": "NON",
+      "source_page": 1,
+      "source_anchor": "Site avec accès réservé (ENT, plateforme, extranet …)"
+    },
+    {
+      "id": "restricted_sites",
+      "label": "Précisez le(s) site(s)",
+      "path": ["3- Modes d’exploitation envisagées", "En Ligne - Site avec accès réservé", "Précisez le(s) site(s)"],
+      "kind": "text",
+      "synthetic_value": "TEST - https://ent-test.invalid/dix-mots-2024",
+      "source_page": 1,
+      "source_anchor": "Précisez le(s) site(s) : ……….………………….………",
+      "semantic_notes": "Site fictif envisagé uniquement ; cette précision ne change pas le NON de la ligne. Contrairement à cette zone vide, les sites de la ligne Internet sont déjà imprimés et restent statiques."
+    },
+    {
+      "id": "consent_public_internet",
+      "context_evidence": "Les représentants refusent la captation de l’image et de la voix : choisir exactement « n’autorise(ons) pas la captation de l’image / de la voix de l’enfant. », laisser l’option d’autorisation non cochée, écrire exactement REFUS et sélectionner NON dans chacune des sept lignes d’exploitation, sans aucun OUI.",
+      "label": "Autorisation*",
+      "path": ["3- Modes d’exploitation envisagées", "En Ligne - Internet (monde entier)", "Autorisation"],
+      "kind": "checkbox_single",
+      "options": ["OUI", "NON"],
+      "synthetic_value": "NON",
+      "source_page": 1,
+      "source_anchor": "Internet (monde entier)"
+    },
+    {
+      "id": "consent_removable_storage",
+      "context_evidence": "Les représentants refusent la captation de l’image et de la voix : choisir exactement « n’autorise(ons) pas la captation de l’image / de la voix de l’enfant. », laisser l’option d’autorisation non cochée, écrire exactement REFUS et sélectionner NON dans chacune des sept lignes d’exploitation, sans aucun OUI.",
+      "label": "Autorisation*",
+      "path": ["3- Modes d’exploitation envisagées", "Support de stockage amovible", "Autorisation"],
+      "kind": "checkbox_single",
+      "options": ["OUI", "NON"],
+      "synthetic_value": "NON",
+      "source_page": 1,
+      "source_anchor": "Précisez les destinataires du support :"
+    },
+    {
+      "id": "storage_recipients",
+      "label": "Précisez les destinataires du support",
+      "path": ["3- Modes d’exploitation envisagées", "Support de stockage amovible", "Précisez les destinataires du support"],
+      "kind": "text",
+      "synthetic_value": "TEST - équipe pédagogique TEST et représentants légaux TEST",
+      "source_page": 1,
+      "source_anchor": "Précisez les destinataires du support :",
+      "semantic_notes": "Destinataires envisagés uniquement ; aucune remise de support n’est autorisée."
+    },
+    {
+      "id": "consent_collective_projection",
+      "context_evidence": "Les représentants refusent la captation de l’image et de la voix : choisir exactement « n’autorise(ons) pas la captation de l’image / de la voix de l’enfant. », laisser l’option d’autorisation non cochée, écrire exactement REFUS et sélectionner NON dans chacune des sept lignes d’exploitation, sans aucun OUI.",
+      "label": "Autorisation*",
+      "path": ["3- Modes d’exploitation envisagées", "Projection collective", "Autorisation"],
+      "kind": "checkbox_single",
+      "options": ["OUI", "NON"],
+      "synthetic_value": "NON",
+      "source_page": 1,
+      "source_anchor": "Usage collectif dans les classes des élèves enregistrés"
+    },
+    {
+      "id": "projection_scope",
+      "context_evidence": "Les trois étendues de projection sont envisagées : « Usage collectif dans les classes des élèves enregistrés », « Autres usages institutionnels à vocation éducative, de formation ou de recherche. » et « Usages de communication externe de l’institution. » ; cocher ces trois étendues ne les autorise pas.",
+      "label": "Étendue de la diffusion",
+      "path": ["3- Modes d’exploitation envisagées", "Projection collective", "Étendue de la diffusion"],
+      "kind": "checkbox_multi",
+      "options": [
+        "Usage collectif dans les classes des élèves enregistrés",
+        "Autres usages institutionnels à vocation éducative, de formation ou de recherche.",
+        "Usages de communication externe de l’institution."
+      ],
+      "synthetic_value": [
+        "Usage collectif dans les classes des élèves enregistrés",
+        "Autres usages institutionnels à vocation éducative, de formation ou de recherche.",
+        "Usages de communication externe de l’institution."
+      ],
+      "source_page": 1,
+      "source_anchor": "Usage collectif dans les classes des élèves enregistrés",
+      "semantic_notes": "Un seul groupe de trois cases indépendantes. Les trois étendues sont cochées comme périmètres envisagés par la demande, pas comme trois autorisations. Le NON de consent_collective_projection et le refus parental interdisent toute utilisation dans ce scénario."
+    },
+    {
+      "id": "consent_other_specified",
+      "context_evidence": "Les représentants refusent la captation de l’image et de la voix : choisir exactement « n’autorise(ons) pas la captation de l’image / de la voix de l’enfant. », laisser l’option d’autorisation non cochée, écrire exactement REFUS et sélectionner NON dans chacune des sept lignes d’exploitation, sans aucun OUI.",
+      "label": "Autorisation*",
+      "path": ["3- Modes d’exploitation envisagées", "Autre (précisez)", "Autorisation"],
+      "kind": "checkbox_single",
+      "options": ["OUI", "NON"],
+      "synthetic_value": "NON",
+      "source_page": 2,
+      "source_anchor": "Autre (précisez)",
+      "semantic_notes": "Sixième ligne de la même matrice, en haut de la page 2 ; pas une nouvelle section."
+    },
+    {
+      "id": "other_support",
+      "label": "Autre (précisez)",
+      "path": ["3- Modes d’exploitation envisagées", "Autre (précisez)", "Support"],
+      "kind": "text",
+      "synthetic_value": "TEST - livret papier du concours des Dix Mots 2024",
+      "source_page": 2,
+      "source_anchor": "Autre (précisez)",
+      "semantic_notes": "Placeholder implicite créé par l’instruction « précisez » dans la cellule support, sans trait vierge séparé. Son traitement en champ est explicite ; il ne désigne ni les destinataires de la même ligne ni la ligne sociale « Autre » suivante."
+    },
+    {
+      "id": "other_recipients",
+      "label": "Précisez les destinataires",
+      "path": ["3- Modes d’exploitation envisagées", "Autre (précisez)", "Précisez les destinataires"],
+      "kind": "text",
+      "synthetic_value": "TEST - jury pédagogique TEST et représentants légaux TEST",
+      "source_page": 2,
+      "source_anchor": "Précisez les destinataires :",
+      "semantic_notes": "Destinataires proposés pour le livret TEST, sans autorisation de diffusion."
+    },
+    {
+      "id": "consent_social_networks",
+      "context_evidence": "Les représentants refusent la captation de l’image et de la voix : choisir exactement « n’autorise(ons) pas la captation de l’image / de la voix de l’enfant. », laisser l’option d’autorisation non cochée, écrire exactement REFUS et sélectionner NON dans chacune des sept lignes d’exploitation, sans aucun OUI.",
+      "label": "Autorisation*",
+      "path": ["3- Modes d’exploitation envisagées", "Autre - Réseaux sociaux ministériels", "Autorisation"],
+      "kind": "checkbox_single",
+      "options": ["OUI", "NON"],
+      "synthetic_value": "NON",
+      "source_page": 2,
+      "source_anchor": "Autres modes d’exploitation envisagés : Twitter @eduscol,",
+      "semantic_notes": "Septième ligne ; les plateformes, comptes et URL préimprimés restent du texte fixe et ne sont pas transformés en choix ni en champs."
+    },
+    {
+      "id": "student_comprehension",
+      "context_evidence": "Cocher les deux confirmations « On m’a expliqué et j’ai compris à quoi servait ce projet. » et « On m’a expliqué et j’ai compris qui pourrait voir cet enregistrement. ».",
+      "label": "4- Consentement de l’élève",
+      "path": ["4- Consentement de l’élève", "Compréhension du projet et de sa diffusion"],
+      "kind": "checkbox_multi",
+      "options": [
+        "On m’a expliqué et j’ai compris à quoi servait ce projet.",
+        "On m’a expliqué et j’ai compris qui pourrait voir cet enregistrement."
+      ],
+      "synthetic_value": [
+        "On m’a expliqué et j’ai compris à quoi servait ce projet.",
+        "On m’a expliqué et j’ai compris qui pourrait voir cet enregistrement."
+      ],
+      "source_page": 2,
+      "source_anchor": "On m’a expliqué et j’ai compris à quoi servait ce projet.",
+      "semantic_notes": "Les deux affirmations complètes, chacune associée à une case, forment un seul groupe multisélection. Le label est le titre source de section, situé dans la cellule précédente ; seul le texte des deux options est affiché dans la cellule du groupe, sans sous-titre inventé."
+    },
+    {
+      "id": "student_recording_agreement",
+      "context_evidence": "L’élève se dit d’accord pour « mon image » et « ma voix » : cocher ces deux options.",
+      "label": "Et je suis d’accord pour que l’on enregistre, pour ce projet,",
+      "path": ["4- Consentement de l’élève", "Accord pour l’enregistrement", "Image et voix"],
+      "kind": "checkbox_multi",
+      "options": ["mon image", "ma voix"],
+      "synthetic_value": ["mon image", "ma voix"],
+      "source_page": 2,
+      "source_anchor": "Et je suis d’accord pour que l’on enregistre, pour ce projet, mon image ma voix.",
+      "semantic_notes": "Un seul groupe à deux cases, pas deux booléens. Accord déclaré de l’élève seulement ; le refus parental prévaut dans le scénario. Le point final source est une cellule statique de ponctuation dans rows."
+    },
+    {
+      "id": "student_name",
+      "label": "Nom prénom de l’élève",
+      "path": ["4- Consentement de l’élève", "Nom prénom de l’élève"],
+      "kind": "text",
+      "synthetic_value": "TEST Élève Camille Exemple",
+      "source_page": 2,
+      "source_anchor": "Nom prénom de l’élève : …………………………………………………."
+    },
+    {
+      "id": "student_signature",
+      "label": "Signature",
+      "path": ["4- Consentement de l’élève", "Signature"],
+      "kind": "text",
+      "synthetic_value": "TEST - emplacement de signature de l’élève ; aucune signature réelle",
+      "source_page": 2,
+      "source_anchor": "Signature :",
+      "semantic_notes": "Zone blanche de signature convertie en champ textuel ; mention TEST tapée seulement, sans graphisme manuscrit ni imitation."
+    },
+    {
+      "id": "guardian_1_name",
+      "label": "Je (Nous) soussigné(e)(s) : [Nom – Prénom]",
+      "path": ["5- Autorisation parentale", "Représentant légal 1", "Nom – Prénom"],
+      "kind": "text",
+      "synthetic_value": "TEST Parent Alex Exemple",
+      "source_page": 2,
+      "source_anchor": "Je (Nous) soussigné(e)(s) : [Nom – Prénom]",
+      "semantic_notes": "Premier placeholder nominatif parental. Les crochets dans le libellé conservent l’instruction source et ne constituent pas une seconde valeur."
+    },
+    {
+      "id": "guardian_1_address",
+      "label": "Demeurant : [adresse]",
+      "path": ["5- Autorisation parentale", "Représentant légal 1", "Demeurant"],
+      "kind": "text",
+      "synthetic_value": "TEST - 1 voie Fictive, 00000 Commune TEST",
+      "source_page": 2,
+      "source_anchor": "Demeurant : [adresse]"
+    },
+    {
+      "id": "guardian_2_name",
+      "label": "Et [Nom – Prénom]",
+      "path": ["5- Autorisation parentale", "Représentant légal 2", "Nom – Prénom"],
+      "kind": "text",
+      "synthetic_value": "TEST Parent Sam Exemple",
+      "source_page": 2,
+      "source_anchor": "Et [Nom – Prénom]"
+    },
+    {
+      "id": "guardian_2_address",
+      "label": "Demeurant : [adresses à préciser si différentes]",
+      "path": ["5- Autorisation parentale", "Représentant légal 2", "Demeurant"],
+      "kind": "text",
+      "synthetic_value": "TEST - 2 voie Fictive, 00000 Commune TEST",
+      "source_page": 2,
+      "source_anchor": "Demeurant : [adresses à préciser si différentes]",
+      "semantic_notes": "Le scénario donne deux adresses différentes : la condition source est satisfaite et le champ reste rempli. Le chemin distingue naturellement les deux occurrences de Demeurant."
+    },
+    {
+      "id": "represented_student_name",
+      "label": "Agissant en qualité de représentant(s) légal(aux) de : [Nom – Prénom de l’élève]",
+      "path": ["5- Autorisation parentale", "Enfant représenté", "Nom – Prénom de l’élève"],
+      "kind": "text",
+      "synthetic_value": "TEST Élève Camille Exemple",
+      "source_page": 2,
+      "source_anchor": "Agissant en qualité de représentant(s) légal(aux) de : [Nom – Prénom de l’élève]",
+      "semantic_notes": "Deuxième occurrence source de l’identité de l’élève ; champ distinct de student_name mais valeur identique."
+    },
+    {
+      "id": "parental_consent",
+      "context_evidence": "Les représentants refusent la captation de l’image et de la voix : choisir exactement « n’autorise(ons) pas la captation de l’image / de la voix de l’enfant. », laisser l’option d’autorisation non cochée, écrire exactement REFUS et sélectionner NON dans chacune des sept lignes d’exploitation, sans aucun OUI.",
+      "label": "5- Autorisation parentale",
+      "path": ["5- Autorisation parentale", "Décision des représentants légaux"],
+      "kind": "checkbox_single",
+      "options": [
+        "autorise(ons) la captation de l’image / de la voix de l’enfant et l’utilisation qui en sera faite par son école / établissement scolaire.",
+        "n’autorise(ons) pas la captation de l’image / de la voix de l’enfant."
+      ],
+      "synthetic_value": "n’autorise(ons) pas la captation de l’image / de la voix de l’enfant.",
+      "source_page": 2,
+      "source_anchor": "n’autorise(ons) pas la captation de l’image / de la voix de l’enfant.",
+      "semantic_notes": "Un groupe exclusif à deux cases carrées, avec les deux phrases intégrales. Le refus est prioritaire sur l’accord de l’élève et sur toute indication de périmètre envisagé ; ne pas interpréter une précision renseignée comme une autorisation."
+    },
+    {
+      "id": "refusal_word",
+      "label": "Merci d’écrire lisiblement le mot « REFUS »",
+      "path": ["5- Autorisation parentale", "Confirmation du refus", "Mot REFUS"],
+      "kind": "text",
+      "synthetic_value": "REFUS",
+      "source_page": 2,
+      "source_anchor": "Merci d’écrire lisiblement le mot « REFUS » : _______________",
+      "semantic_notes": "Valeur littérale REFUS, sans TEST ajouté à la valeur et sans paraphrase. Le contexte marque tout le dossier comme TEST. Ce champ est conditionnel au refus ; la branche retenue le remplit et évite de simuler une valeur manquante dans une branche d’autorisation."
+    },
+    {
+      "id": "signing_place",
+      "label": "Fait à",
+      "path": ["5- Autorisation parentale", "Établissement de la déclaration", "Fait à"],
+      "kind": "text",
+      "synthetic_value": "TEST - Commune TEST",
+      "source_page": 2,
+      "source_anchor": "Fait à ………………………………………….."
+    },
+    {
+      "id": "signing_date",
+      "label": "Le",
+      "path": ["5- Autorisation parentale", "Établissement de la déclaration", "Le"],
+      "kind": "text",
+      "synthetic_value": "20/03/2024",
+      "source_page": 2,
+      "source_anchor": "Le ……………………………………………. Signature (s) :",
+      "semantic_notes": "Date fictive de déclaration, antérieure aux dates d’enregistrement envisagées et incluse dans l’année scolaire TEST 2023-2024."
+    },
+    {
+      "id": "guardian_signatures",
+      "label": "Signature (s)",
+      "path": ["5- Autorisation parentale", "Établissement de la déclaration", "Signature (s)"],
+      "kind": "text",
+      "synthetic_value": "TEST - emplacement des signatures des représentants légaux ; aucune signature réelle",
+      "source_page": 2,
+      "source_anchor": "Le ……………………………………………. Signature (s) :",
+      "semantic_notes": "Une seule zone source, même avec deux représentants. Mention tapée de remplacement uniquement ; aucune signature n’est produite ou attribuée à une personne."
+    },
+    {
+      "id": "data_controller",
+      "label": "[Le chef d’établissement pour les collèges et lycées ou le directeur académique des services de l’éducation nationale pour les écoles]",
+      "path": ["6- Pour exercer vos droits", "Configuration institutionnelle", "Responsable du traitement"],
+      "kind": "text",
+      "synthetic_value": "TEST - chef d’établissement du collège fictif TEST des Dix-Mots, responsable-test@ecole-test.invalid",
+      "source_page": 2,
+      "source_anchor": "Les données recueillies au sein de ce formulaire font l’objet d’un traitement par [Le chef d’établissement pour les collèges et lycées ou le directeur académique des services de l’éducation nationale pour les écoles] afin de répondre à une mission d’intérêt public.",
+      "semantic_notes": "Placeholder explicite de configuration par l’institution, pas champ d’identité d’un parent et pas sélecteur de consentement. Le collège TEST rend pertinente la branche chef d’établissement ; conserver les deux branches du texte modèle dans le libellé, ainsi que tout le paragraphe autour du champ."
+    }
+  ],
+  "rows": [
+    [
+      {"text": "Autorisation parentale d’enregistrement et d’utilisation de l’image/la voix d’une personne mineure", "heading": true, "colspan": 4, "source_page": 1}
+    ],
+    [
+      {"text": "La présente demande est destinée à recueillir le consentement et les autorisations nécessaires dans le cadre de l’enregistrement, la captation, l’exploitation et l’utilisation de l’image des élèves (photographie, voix) quel que soit le procédé envisagé. Elle est formulée dans le cadre du projet spécifié ci-dessous et les objectifs ont été préalablement expliqués aux élèves et leurs responsables légaux.", "colspan": 4, "source_page": 1}
+    ],
+    [
+      {"text": "Vu le Code Civil (article 9), la Déclaration universelle des droits de l’homme (article 12), la Convention européenne des droits de l’homme (article 8) et la Charte des droits fondamentaux de l’Union européenne (article 7)", "colspan": 4, "source_page": 1}
+    ],
+    [
+      {"text": "Vu le règlement général européen N°2016/679 du 27 avril 2016 relatif à la protection des personnes physiques à l’égard du traitement des données à caractère personnel et à la libre circulation des données (RGPD) et à la loi n°78-17 du 06 janvier 1978 modifiée le 29 juin 2018 relative à l’informatique, aux fichiers et aux libertés", "colspan": 4, "source_page": 1}
+    ],
+    [
+      {"field": "school_name", "label": "École ou établissement scolaire :", "colspan": 4, "source_page": 1}
+    ],
+    [
+      {"field": "school_phone", "label": "Tél. :", "colspan": 2, "source_page": 1},
+      {"field": "school_postal_commune", "label": "Code postal / Commune :", "colspan": 2, "source_page": 1}
+    ],
+    [
+      {"field": "school_year", "label": "Année scolaire :", "colspan": 2, "source_page": 1},
+      {"field": "school_class", "label": "Classe de :", "colspan": 2, "source_page": 1}
+    ],
+    [
+      {"text": "1- Finalités envisagées", "heading": true, "colspan": 4, "source_page": 1}
+    ],
+    [
+      {"text": "Gestion administrative, activités pédagogiques,\nMerci de détailler autant que possible les différentes finalités envisagées et de les compléter si besoin :", "colspan": 4, "source_page": 1}
+    ],
+    [
+      {"text": "Publication sur les supports de communication du ministère de l’Éducation nationale et de la Jeunesse et du ministère de la Culture des œuvres créées en classe dans le cadre du concours des Dix Mots 2024 et susceptibles de représenter les élèves et leur professeur.", "colspan": 4, "source_page": 1}
+    ],
+    [
+      {"text": "Publication sur les supports de communication du ministère de l’Éducation nationale et de la Jeunesse et du ministère de la Culture des captations réalisées lors de la cérémonie de remise des prix du concours des Dix Mots 2024 à l’Institut de France", "colspan": 3, "source_page": 1},
+      {"field": "ceremony_date", "label": "le", "colspan": 1, "source_page": 1}
+    ],
+    [
+      {"text": "2- Désignation du projet audio-visuel *", "heading": true, "colspan": 4, "source_page": 1}
+    ],
+    [
+      {"field": "project_name", "label": "Projet : «", "colspan": 3, "source_page": 1},
+      {"text": "»", "colspan": 1, "source_page": 1}
+    ],
+    [
+      {"field": "work_title", "label": "Titre de l’œuvre si applicable :", "colspan": 4, "source_page": 1}
+    ],
+    [
+      {"text": "L’enregistrement aura lieu aux dates/moments et lieux indiqués ci-après.", "colspan": 4, "source_page": 1}
+    ],
+    [
+      {"field": "recording_dates", "label": "Date(s) d’enregistrement", "colspan": 2, "source_page": 1},
+      {"field": "recording_places", "label": "Lieu(x) d’enregistrement :", "colspan": 2, "source_page": 1}
+    ],
+    [
+      {"text": "La présente autorisation est consentie à titre gratuit. Le producteur de l’œuvre audiovisuelle créée ou le bénéficiaire de l’enregistrement exercera l’intégralité des droits d’exploitation attachés à cette œuvre/cet enregistrement. L’œuvre/l’enregistrement demeurera sa propriété exclusive. Le producteur/le bénéficiaire de l’autorisation s’interdit expressément de céder les présentes autorisations à un tiers.", "colspan": 4, "source_page": 1}
+    ],
+    [
+      {"text": "* Le cas échéant", "colspan": 4, "source_page": 1}
+    ],
+    [
+      {"text": "3- Modes d’exploitation envisagées", "heading": true, "colspan": 4, "source_page": 1}
+    ],
+    [
+      {"text": "Autorisation*", "heading": true, "colspan": 1, "source_page": 1},
+      {"text": "support", "heading": true, "colspan": 1, "source_page": 1},
+      {"text": "Conservation", "heading": true, "colspan": 1, "source_page": 1},
+      {"text": "Étendue de la diffusion", "heading": true, "colspan": 1, "source_page": 1}
+    ],
+    [
+      {"field": "consent_classroom", "label": "", "colspan": 1, "source_page": 1},
+      {"text": "Pour un usage collectif dans sa classe", "colspan": 1, "source_page": 1},
+      {"text": "1 année scolaire", "colspan": 1, "source_page": 1},
+      {"text": "Personnels administratifs, équipe pédagogique et vie scolaire, élèves de l’établissement", "colspan": 1, "source_page": 1}
+    ],
+    [
+      {"field": "consent_restricted_online", "label": "", "colspan": 1, "source_page": 1},
+      {"text": "En Ligne", "colspan": 1, "source_page": 1},
+      {"text": "1 année scolaire", "colspan": 1, "source_page": 1},
+      {"field": "restricted_sites", "label": "Site avec accès réservé (ENT, plateforme, extranet …)\nPrécisez le(s) site(s) :", "colspan": 1, "source_page": 1}
+    ],
+    [
+      {"field": "consent_public_internet", "label": "", "colspan": 1, "source_page": 1},
+      {"text": "En Ligne", "colspan": 1, "source_page": 1},
+      {"text": "1 année scolaire", "colspan": 1, "source_page": 1},
+      {"text": "Internet (monde entier)\nPrécisez le(s) site(s) : https://eduscol.education.fr/, https://www.education.gouv.fr/, sites Internet du ministère de la Culture et terminant par « culture.gouv.fr »", "colspan": 1, "source_page": 1}
+    ],
+    [
+      {"field": "consent_removable_storage", "label": "", "colspan": 1, "source_page": 1},
+      {"text": "Support de stockage amovible", "colspan": 1, "source_page": 1},
+      {"text": "1 année scolaire", "colspan": 1, "source_page": 1},
+      {"field": "storage_recipients", "label": "Précisez les destinataires du support :", "colspan": 1, "source_page": 1}
+    ],
+    [
+      {"field": "consent_collective_projection", "label": "", "colspan": 1, "source_page": 1},
+      {"text": "Projection collective", "colspan": 1, "source_page": 1},
+      {"text": "1 année scolaire", "colspan": 1, "source_page": 1},
+      {"field": "projection_scope", "label": "", "colspan": 1, "source_page": 1}
+    ],
+    [
+      {"field": "consent_other_specified", "label": "", "colspan": 1, "source_page": 2},
+      {"field": "other_support", "label": "Autre (précisez)", "colspan": 1, "source_page": 2},
+      {"text": "1 année scolaire", "colspan": 1, "source_page": 2},
+      {"field": "other_recipients", "label": "Précisez les destinataires :", "colspan": 1, "source_page": 2}
+    ],
+    [
+      {"field": "consent_social_networks", "label": "", "colspan": 1, "source_page": 2},
+      {"text": "Autre", "colspan": 1, "source_page": 2},
+      {"text": "1 année scolaire", "colspan": 1, "source_page": 2},
+      {"text": "Autres modes d’exploitation envisagés : Twitter @eduscol, Twitter @education_gouv, Facebook @eduscol, Facebook @education.gouv, Youtube @eduscol, Youtube @EducationFrance\nRéseaux sociaux du ministère de la Culture\nTwitter : @ministereCC (https://twitter.com/ministerecc)\nFacebook : @culture.Gouv (https://www.facebook.com/Culture.Gouv)\nInstagram : @culture_gouv (https://www.instagram.com/culture_gouv/)\nLinkedIn : https://fr.linkedin.com/company/ministere-de-la-culture-et-de-la-communication\nYoutube @MinisteredelaCultureFrance\nhttps://www.youtube.com/channel/UCiAzGffvKfhuGsPsCmVe8sQ", "colspan": 1, "source_page": 2}
+    ],
+    [
+      {"text": "* Cocher les cases", "colspan": 4, "source_page": 2}
+    ],
+    [
+      {"text": "4- Consentement de l’élève", "heading": true, "colspan": 4, "source_page": 2}
+    ],
+    [
+      {"field": "student_comprehension", "label": "", "colspan": 4, "source_page": 2}
+    ],
+    [
+      {"field": "student_recording_agreement", "label": "Et je suis d’accord pour que l’on enregistre, pour ce projet,", "colspan": 3, "source_page": 2},
+      {"text": ".", "colspan": 1, "source_page": 2}
+    ],
+    [
+      {"field": "student_name", "label": "Nom prénom de l’élève :", "colspan": 4, "source_page": 2}
+    ],
+    [
+      {"field": "student_signature", "label": "Signature :", "colspan": 4, "source_page": 2}
+    ],
+    [
+      {"text": "5- Autorisation parentale", "heading": true, "colspan": 4, "source_page": 2}
+    ],
+    [
+      {"field": "guardian_1_name", "label": "Je (Nous) soussigné(e)(s) : [Nom – Prénom]", "colspan": 4, "source_page": 2}
+    ],
+    [
+      {"field": "guardian_1_address", "label": "Demeurant : [adresse]", "colspan": 4, "source_page": 2}
+    ],
+    [
+      {"field": "guardian_2_name", "label": "Et [Nom – Prénom]", "colspan": 4, "source_page": 2}
+    ],
+    [
+      {"field": "guardian_2_address", "label": "Demeurant : [adresses à préciser si différentes]", "colspan": 4, "source_page": 2}
+    ],
+    [
+      {"field": "represented_student_name", "label": "Agissant en qualité de représentant(s) légal(aux) de : [Nom – Prénom de l’élève]", "colspan": 4, "source_page": 2}
+    ],
+    [
+      {"text": "Je reconnais être entièrement investi de mes droits civils à son égard. Je reconnais expressément que le mineur que je représente n’est lié par aucun contrat exclusif pour l’utilisation de son image et/ou de sa voix, voire de son nom et", "colspan": 4, "source_page": 2}
+    ],
+    [
+      {"field": "parental_consent", "label": "", "colspan": 4, "source_page": 2}
+    ],
+    [
+      {"field": "refusal_word", "label": "Merci d’écrire lisiblement le mot « REFUS » :", "colspan": 4, "source_page": 2}
+    ],
+    [
+      {"field": "signing_place", "label": "Fait à", "colspan": 4, "source_page": 2}
+    ],
+    [
+      {"field": "signing_date", "label": "Le", "colspan": 2, "source_page": 2},
+      {"field": "guardian_signatures", "label": "Signature (s) :", "colspan": 2, "source_page": 2}
+    ],
+    [
+      {"text": "6- Pour exercer vos droits", "heading": true, "colspan": 4, "source_page": 2}
+    ],
+    [
+      {"text": "Les données recueillies au sein de ce formulaire font l’objet d’un traitement par", "colspan": 4, "source_page": 2}
+    ],
+    [
+      {"field": "data_controller", "label": "[Le chef d’établissement pour les collèges et lycées ou le directeur académique des services de l’éducation nationale pour les écoles]", "colspan": 4, "source_page": 2}
+    ],
+    [
+      {"text": "afin de répondre à une mission d’intérêt public. Ces données ne sont pas conservées au-delà de l’année scolaire relative à la présente autorisation. Les informations vous concernant ainsi que votre enfant ne sont transmises qu’aux seules personnes en charge du traitement de la présente autorisation.", "colspan": 4, "source_page": 2}
+    ],
+    [
+      {"text": "Vous disposez d’un droit d’accès aux données vous concernant, d’un droit de rectification, d’un droit d’opposition et d’un droit à la limitation du traitement de vos données. Vous disposez également d’un droit à l’effacement concernant l’image/la voix enregistrée et utilisée dans le cadre décrit ci-dessus.", "colspan": 4, "source_page": 2}
+    ],
+    [
+      {"text": "Pour exercer vos droits ou pour toute question sur le traitement de vos données, vous pouvez contacter le délégué à la protection des données à l’adresse suivante: dpd@education.gouv.fr ou en consultant la page", "colspan": 4, "source_page": 2}
+    ],
+    [
+      {"text": "https://www.culture.gouv.fr/fr/Donnees-personnelles-et-cookies. Si vous estimez que vos droits ne sont pas respectés, vous pouvez adresser une réclamation auprès de la CNIL, en ligne sur www.cnil.fr ou par voie postale à l’adresse suivante : 3 place de Fontenoy – TSA 80715 – 75334 PARIS Cedex 07", "colspan": 4, "source_page": 3}
+    ],
+    [
+      {"text": "Fait en autant d’originaux que nécessaire (représentants légaux, organisateur projet et établissement scolaire).", "colspan": 4, "source_page": 3}
+    ]
+  ]
+}

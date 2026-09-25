@@ -14,7 +14,7 @@ from bs4 import BeautifulSoup
 if __package__ is None or __package__ == "":
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from comparative_eval.config import SUPPORTED_CONDITIONS, details_dir, prediction_dir, summaries_dir, workflow_paths
+from comparative_eval.config import SUPPORTED_CONDITIONS, available_languages, details_dir, prediction_dir, summaries_dir, workflow_paths
 from comparative_eval.utils.eval_cache import CACHE_FIELDNAMES, add_cache_record, cached_row_is_current, prediction_cache_record
 from comparative_eval.utils.io_utils import iter_numeric_files, read_csv, read_json, read_text, write_csv, write_json
 from comparative_eval.utils.openai_utils import strip_thinking
@@ -58,7 +58,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Evaluate Table 3 cell-header alignment.")
     parser.add_argument("--condition", required=True, choices=SUPPORTED_CONDITIONS)
     parser.add_argument("--model", required=True)
-    parser.add_argument("--lang", default="en", choices=["en", "zh"])
+    parser.add_argument("--lang", default="en", choices=available_languages())
     parser.add_argument(
         "--resume_from_details",
         "--resume-from-details",

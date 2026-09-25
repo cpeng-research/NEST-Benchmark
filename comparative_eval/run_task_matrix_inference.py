@@ -14,6 +14,7 @@ from comparative_eval.config import (
     SUPPORTED_CONDITIONS,
     SUPPORTED_MODELS,
     SUPPORTED_TASKS,
+    available_languages,
     is_open_source_model,
     prediction_dir,
     workflow_paths,
@@ -30,19 +31,20 @@ from comparative_eval.utils.io_utils import ensure_dir
 from comparative_eval.utils.openai_utils import strip_thinking
 
 
-LANGS = ("en", "zh")
+LANGS = available_languages()
+DEFAULT_LANGS = ("en", "zh")
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(
         description=(
-            "Run one Table 3 task across empty/filled conditions, en/zh languages, "
+            "Run one benchmark task across empty/filled conditions and selected languages, "
             "and a selected model group."
         )
     )
     parser.add_argument("--task", required=True, choices=SUPPORTED_TASKS)
     parser.add_argument("--model_group", "--model-group", dest="model_group", choices=["api", "open_source", "all"], default="all")
-    parser.add_argument("--langs", nargs="*", choices=LANGS, default=list(LANGS))
+    parser.add_argument("--langs", nargs="*", choices=LANGS, default=list(DEFAULT_LANGS))
     parser.add_argument("--conditions", nargs="*", choices=SUPPORTED_CONDITIONS, default=list(SUPPORTED_CONDITIONS))
     parser.add_argument("--models", nargs="*", choices=SUPPORTED_MODELS, default=list(SUPPORTED_MODELS))
     parser.add_argument("--start_id", type=optional_int, default=None)
