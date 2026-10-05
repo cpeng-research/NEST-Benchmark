@@ -1,0 +1,175 @@
+{
+  "Identificación de la institución": {
+    "Establecimiento notificador:": "Hospital Ficticio de Guardia",
+    "Provincia:": "Santa Fe",
+    "Departamento:": "Departamento Modelo",
+    "Fecha de notificación:": "14/09/2026",
+    "Apellido y nombre del notificador": "Dr. Rafael Ejemplo",
+    "Teléfono:": "0000-000114",
+    "Correo electrónico:": "notificador114@example.invalid"
+  },
+  "Identificación del caso": {
+    "Tipo de documento:": {
+      "choices": [
+        "DNI",
+        "DE",
+        "IND"
+      ],
+      "value": [
+        "DNI"
+      ]
+    },
+    "Nº": "40000114",
+    "Apellido y Nombre:": "Paciente Ficticio Catorce",
+    "Teléfono:": "0000-000115",
+    "Fecha de nacimiento:": "11/04/1991",
+    "Lugar de residencia: Provincia": "Santa Fe",
+    "Departamento:": "Departamento Modelo",
+    "Localidad:": "Ciudad Ejemplo",
+    "Domicilio: Calle / Mza:": "Calle Simulada",
+    "Nº domicilio": "114",
+    "Piso": "1",
+    "Depto:": "B",
+    "Cód. Postal:": "3000"
+  },
+  "Información clínica": {
+    "Fecha de primera consulta": "12/09/2026",
+    "Internado": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "SI"
+      ]
+    },
+    "Fecha de internación inicial": "12/09/2026",
+    "Persona Gestante": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    }
+  },
+  "Signos y síntomas": {
+    "Fecha del accidente:": "12/09/2026",
+    "Tipo de accidente": {
+      "choices": [
+        "No significativo",
+        "Leve",
+        "Grave"
+      ],
+      "value": [
+        "Grave"
+      ]
+    }
+  },
+  "Profilaxis post exposición": {
+    "Inmunoglobulina antirrábica:": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "SI"
+      ]
+    },
+    "Fecha de inicio:": "12/09/2026",
+    "Fecha fin:": "12/09/2026",
+    "Vacuna antirrábica PPE": {
+      "choices": [
+        "1er Dosis:",
+        "2da Dosis:",
+        "3er Dosis:",
+        "4er Dosis:"
+      ],
+      "value": [
+        "1er Dosis:"
+      ]
+    },
+    "Fecha primera dosis": "12/09/2026"
+  },
+  "Internación y egreso": {
+    "Fecha de internación": "12/09/2026",
+    "Cuidados intensivos": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "SI"
+      ]
+    },
+    "Curado/Mejorado:": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "SI"
+      ]
+    },
+    "Fallecido:": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "Fecha de egreso": "14/09/2026"
+  },
+  "Antecedentes epidemiológicos": {
+    "País": "Argentina",
+    "Provincia": "Santa Fe",
+    "Localidad": "Localidad de Viaje",
+    "Fecha Inicio": "09/09/2026",
+    "Fecha Fin": "14/09/2026",
+    "Ámbito del APR": {
+      "choices": [
+        "Vía Pública",
+        "Domicilio",
+        "Lugar de Viaje",
+        "Otro"
+      ],
+      "value": [
+        "Lugar de Viaje"
+      ]
+    },
+    "Animal que produjo el APR": {
+      "choices": [
+        "Contacto con murciélago",
+        "Contacto con perro - Sin vacunar",
+        "Contacto con gato - Sin vacunar",
+        "Contacto con perro - Vacunado",
+        "Contacto con gato - Vacunado",
+        "Contacto con animal silvestre",
+        "Contacto con animal de importancia económica",
+        "Animal agresor disponible para observación antirrábica",
+        "Animal agresor no disponible para observación antirrábica"
+      ],
+      "value": [
+        "Contacto con perro - Sin vacunar",
+        "Animal agresor disponible para observación antirrábica"
+      ]
+    },
+    "OBSERVACIONES": "Herida ficticia en mano, limpieza local y seguimiento del animal iniciados."
+  },
+  "Clasificación de caso": {
+    "CLASIFICACIÓN DE CASO": {
+      "choices": [
+        "Caso confirmado",
+        "Caso invalidado por epidemiología"
+      ],
+      "value": [
+        "Caso confirmado"
+      ]
+    },
+    "Nombre y apellido del notificador": "Dr. Rafael Ejemplo",
+    "Firma": "Firma sintética del Dr. Rafael Ejemplo"
+  }
+}

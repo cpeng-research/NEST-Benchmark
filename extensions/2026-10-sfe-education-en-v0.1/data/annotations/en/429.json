@@ -1,0 +1,220 @@
+{
+  "id": "en-sfe-masters-loan-request-2627",
+  "language": "en",
+  "domain": "Education",
+  "title": "Postgraduate Master's Loan request form - 2026 to 2027",
+  "template_family": "masters-loan-request",
+  "issuer": "Student Loans Company / Student Finance England",
+  "issuer_id": "SLC-SFE",
+  "source_pages": 3,
+  "columns": 1,
+  "rows": [
+    [
+      {
+        "text": "Your details",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "crn",
+        "label": "Customer Reference Number",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "name",
+        "label": "Full name",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Information about your loan",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "amount_mode",
+        "label": "How much would you like to borrow in total?",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "amount",
+        "label": "A different amount",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Terms and conditions",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "My Obligations",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Sharing Information",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "confirmation_crn",
+        "label": "Customer Reference Number",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "signature",
+        "label": "Your signature (in ink)",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "date",
+        "label": "Today’s date",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "crn",
+      "label": "Customer Reference Number",
+      "source_page": 1,
+      "source_anchor": "Customer Reference Number",
+      "path": [
+        "Your details",
+        "Customer Reference Number"
+      ],
+      "kind": "text",
+      "synthetic_value": "10000000006"
+    },
+    {
+      "id": "name",
+      "label": "Full name",
+      "source_page": 1,
+      "source_anchor": "Full name",
+      "path": [
+        "Your details",
+        "Full name"
+      ],
+      "kind": "text",
+      "synthetic_value": "Alex Sample"
+    },
+    {
+      "id": "amount_mode",
+      "label": "How much would you like to borrow in total?",
+      "source_page": 1,
+      "source_anchor": "How much would you like to borrow in total?",
+      "path": [
+        "Information about your loan",
+        "How much would you like to borrow in total?"
+      ],
+      "kind": "checkbox_single",
+      "options": [
+        "The maximum amount of £13,206",
+        "A different amount"
+      ],
+      "synthetic_value": [
+        "A different amount"
+      ],
+      "context_evidence": "Information about your loan / How much would you like to borrow in total?: A different amount."
+    },
+    {
+      "id": "amount",
+      "label": "A different amount",
+      "source_page": 1,
+      "source_anchor": "A different amount",
+      "path": [
+        "Information about your loan",
+        "Different amount requested"
+      ],
+      "kind": "text",
+      "synthetic_value": "8500"
+    },
+    {
+      "id": "confirmation_crn",
+      "label": "Customer Reference Number",
+      "source_page": 3,
+      "source_anchor": "Customer Reference Number",
+      "path": [
+        "Sharing Information",
+        "Customer Reference Number"
+      ],
+      "kind": "text",
+      "synthetic_value": "10000000006"
+    },
+    {
+      "id": "signature",
+      "label": "Your signature (in ink)",
+      "source_page": 3,
+      "source_anchor": "Your signature (in ink)",
+      "path": [
+        "Sharing Information",
+        "Your signature (in ink)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Alex Sample (synthetic signature)"
+    },
+    {
+      "id": "date",
+      "label": "Today’s date",
+      "source_page": 3,
+      "source_anchor": "Today’s date",
+      "path": [
+        "Sharing Information",
+        "Today’s date"
+      ],
+      "kind": "text",
+      "synthetic_value": "05102026"
+    }
+  ],
+  "source_url": "https://assets.publishing.service.gov.uk/media/6a4e6d686dc61525ffaacf47/sfe_pgl_loan_request_form_2627_o.pdf",
+  "landing_url": "https://www.gov.uk/government/publications/2026-to-2027-postgraduate-masters-loan-request-form",
+  "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "license_note": "GOV.UK landing page states Open Government Licence v3.0 except where otherwise stated; normalized functional form only, without logos or source artwork.",
+  "source_sha256": "c74c96ba8139979b78e896f8f276b684c994dc2a5274a9ee30a9e073543b1962",
+  "retrieved_at": "2026-10-05",
+  "source_version": "2026 to 2027 academic year",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "kind": "official_landing_dates",
+    "value": "Published 2026-07-20; last updated 2026-07-20",
+    "source_url": "https://www.gov.uk/government/publications/2026-to-2027-postgraduate-masters-loan-request-form",
+    "detail": "Dates refer to the official publication page, not independently dated PDF file bytes."
+  },
+  "context": "Fictional test record. All names, addresses, costs and signatures are synthetic.\nYour details / Customer Reference Number: 10000000006.\nYour details / Full name: Alex Sample.\nInformation about your loan / How much would you like to borrow in total?: A different amount.\nInformation about your loan / Different amount requested: 8500.\nSharing Information / Customer Reference Number: 10000000006.\nSharing Information / Your signature (in ink): Alex Sample (synthetic signature).\nSharing Information / Today’s date: 05102026.",
+  "workflow_identity": {
+    "language": "en",
+    "id": 429
+  }
+}

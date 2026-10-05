@@ -1,0 +1,678 @@
+{
+  "id": "fr-142-releve-frais-generaux",
+  "language": "fr",
+  "domain": "Business",
+  "business_topic": "Relevé de frais généraux",
+  "issuer_id": "Direction générale des finances publiques",
+  "template_family": "releve-frais-generaux",
+  "title": "Relevé de frais généraux",
+  "source_pages": 2,
+  "source_sha256": "db3a35d1fe9429915dc75e2c210ab8c730c559692300fd6f1c316f52977ab171",
+  "retrieved_at": "2026-10-05T03:06:18+08:00",
+  "source_version": "2067-SD; Cerfa 11093*27; (2026)",
+  "source_url": "https://www.impots.gouv.fr/sites/default/files/formulaires/2067-sd/2026/2067-sd_5360.pdf",
+  "landing_url": "https://www.impots.gouv.fr/formulaire/2067-sd/releve-des-frais-generaux",
+  "license_url": "https://www.impots.gouv.fr/mentions-legales",
+  "license_note": "DGFiP site notice: public information under Licence Ouverte Etalab 2.0, except explicit third-party intellectual property. Source text and field structure are normalized; the original PDF and DGFiP graphics are not redistributed.",
+  "source_date_evidence": {
+    "kind": "PDF printed mark; DGFiP listing millésime",
+    "value": "2067-SD; Cerfa 11093*27; (2026)",
+    "landing": "DGFiP form listing, Millésime 2026",
+    "pdf_version_mark": "2067-SD; Cerfa 11093*27; (2026)",
+    "publisher_listing_millesime": "2026",
+    "scope": "The listing millésime is recorded separately from the PDF print mark."
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "Identification et exercice",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Désignation de l' entreprise",
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Adresse",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "ANNÉE",
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "du",
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "au",
+        "field": "f005",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "A. Personnes les mieux rémunérées",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NOM, PRÉNOM ET EMPLOI OCCUPÉ",
+        "field": "f006",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "ADRESSE COMPLÈTE",
+        "field": "f007",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "A. Rémunérations et charges",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Montant des rémunérations",
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Montant des indemnités",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Valeur des avantages en nature",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Montant des remboursements",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "TOTAL DES COLONNES",
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Frais de voyage",
+        "field": "f013",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "aux véhicules et autres biens",
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "aux immeubles",
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "TOTAL DES COLONNES",
+        "field": "f016",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "TOTAUX",
+        "field": "f017",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "B. Autres frais",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Cadeaux de toute nature",
+        "field": "f018",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Frais de réception",
+        "field": "f019",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Totaux",
+        "field": "f020",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "C. Éléments de référence",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "de l'exercice",
+        "field": "f021",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "de l'exercice précédent",
+        "field": "f022",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "de l'exercice",
+        "field": "f023",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "de l'exercice précédent",
+        "field": "f024",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nom et qualité du signataire",
+        "field": "f025",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "À",
+        "field": "f026",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Le",
+        "field": "f027",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Signature",
+        "field": "f028",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Notice",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Seuils, personnes concernées et définitions des neuf colonnes : notice imprimée.",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Source : Direction générale des finances publiques; https://www.impots.gouv.fr/sites/default/files/formulaires/2067-sd/2026/2067-sd_5360.pdf; DGFiP form listing, Millésime 2026.",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Désignation de l' entreprise",
+      "path": [
+        "Page 1",
+        "Identification et exercice",
+        "Désignation de l' entreprise"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Désignation de l' entreprise",
+      "synthetic_value": "Exemple Industrie SAS"
+    },
+    {
+      "id": "f002",
+      "label": "Adresse",
+      "path": [
+        "Page 1",
+        "Identification et exercice",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Adresse",
+      "synthetic_value": "16 rue de l’Usine, 59000 Lille"
+    },
+    {
+      "id": "f003",
+      "label": "ANNÉE",
+      "path": [
+        "Page 1",
+        "Identification et exercice",
+        "ANNÉE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "ANNÉE",
+      "synthetic_value": "2026"
+    },
+    {
+      "id": "f004",
+      "label": "du",
+      "path": [
+        "Page 1",
+        "Identification et exercice",
+        "Exercice",
+        "du"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "du",
+      "synthetic_value": "01/01/2026"
+    },
+    {
+      "id": "f005",
+      "label": "au",
+      "path": [
+        "Page 1",
+        "Identification et exercice",
+        "Exercice",
+        "au"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "au",
+      "synthetic_value": "31/12/2026"
+    },
+    {
+      "id": "f006",
+      "label": "NOM, PRÉNOM ET EMPLOI OCCUPÉ",
+      "path": [
+        "Page 1",
+        "A. Personnes les mieux rémunérées",
+        "NOM, PRÉNOM ET EMPLOI OCCUPÉ"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "NOM, PRÉNOM ET EMPLOI OCCUPÉ",
+      "synthetic_value": "1 Martin Camille, direction; 2 Petit Morgan, finances; 3 Dubois Alex, ventes; 4 Laurent Sam, opérations; 5 Bernard Léa, technique"
+    },
+    {
+      "id": "f007",
+      "label": "ADRESSE COMPLÈTE",
+      "path": [
+        "Page 1",
+        "A. Personnes les mieux rémunérées",
+        "ADRESSE COMPLÈTE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "ADRESSE COMPLÈTE",
+      "synthetic_value": "1-5 : 16 rue de l’Usine, 59000 Lille"
+    },
+    {
+      "id": "f008",
+      "label": "Montant des rémunérations",
+      "path": [
+        "Page 1",
+        "A. Rémunérations et charges",
+        "Colonne 1, personnes 1-5",
+        "Montant des rémunérations"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant des rémunérations",
+      "synthetic_value": "120 000; 110 000; 105 000; 100 000; 95 000 €"
+    },
+    {
+      "id": "f009",
+      "label": "Montant des indemnités",
+      "path": [
+        "Page 1",
+        "A. Rémunérations et charges",
+        "Colonne 2, personnes 1-5",
+        "Montant des indemnités"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant des indemnités",
+      "synthetic_value": "0; 0; 0; 0; 0 €"
+    },
+    {
+      "id": "f010",
+      "label": "Valeur des avantages en nature",
+      "path": [
+        "Page 1",
+        "A. Rémunérations et charges",
+        "Colonne 3, personnes 1-5",
+        "Valeur des avantages en nature"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Valeur des avantages en nature",
+      "synthetic_value": "0; 0; 0; 0; 0 €"
+    },
+    {
+      "id": "f011",
+      "label": "Montant des remboursements",
+      "path": [
+        "Page 1",
+        "A. Rémunérations et charges",
+        "Colonne 4, personnes 1-5",
+        "Montant des remboursements"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant des remboursements",
+      "synthetic_value": "0; 0; 0; 0; 0 €"
+    },
+    {
+      "id": "f012",
+      "label": "TOTAL DES COLONNES",
+      "path": [
+        "Page 1",
+        "A. Rémunérations et charges",
+        "Colonne 5, personnes 1-5",
+        "TOTAL DES COLONNES"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "TOTAL DES COLONNES",
+      "synthetic_value": "120 000; 110 000; 105 000; 100 000; 95 000 €"
+    },
+    {
+      "id": "f013",
+      "label": "Frais de voyage",
+      "path": [
+        "Page 1",
+        "A. Rémunérations et charges",
+        "Colonne 6, personnes 1-5",
+        "Frais de voyage"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Frais de voyage",
+      "synthetic_value": "0; 0; 0; 0; 0 €"
+    },
+    {
+      "id": "f014",
+      "label": "aux véhicules et autres biens",
+      "path": [
+        "Page 1",
+        "A. Rémunérations et charges",
+        "Colonne 7, personnes 1-5",
+        "aux véhicules et autres biens"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "aux véhicules et autres biens",
+      "synthetic_value": "0; 0; 0; 0; 0 €"
+    },
+    {
+      "id": "f015",
+      "label": "aux immeubles",
+      "path": [
+        "Page 1",
+        "A. Rémunérations et charges",
+        "Colonne 8, personnes 1-5",
+        "aux immeubles"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "aux immeubles",
+      "synthetic_value": "0; 0; 0; 0; 0 €"
+    },
+    {
+      "id": "f016",
+      "label": "TOTAL DES COLONNES",
+      "path": [
+        "Page 1",
+        "A. Rémunérations et charges",
+        "Colonne 9, personnes 1-5",
+        "TOTAL DES COLONNES"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "TOTAL DES COLONNES",
+      "synthetic_value": "0; 0; 0; 0; 0 €"
+    },
+    {
+      "id": "f017",
+      "label": "TOTAUX",
+      "path": [
+        "Page 1",
+        "A. Rémunérations et charges",
+        "TOTAUX"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "TOTAUX",
+      "synthetic_value": "Colonne 5 : 530 000 €; colonne 9 : 0 €"
+    },
+    {
+      "id": "f018",
+      "label": "Cadeaux de toute nature",
+      "path": [
+        "Page 1",
+        "B. Autres frais",
+        "Cadeaux de toute nature"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cadeaux de toute nature",
+      "synthetic_value": "3 200 €"
+    },
+    {
+      "id": "f019",
+      "label": "Frais de réception",
+      "path": [
+        "Page 1",
+        "B. Autres frais",
+        "Frais de réception"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Frais de réception",
+      "synthetic_value": "6 400 €"
+    },
+    {
+      "id": "f020",
+      "label": "Totaux",
+      "path": [
+        "Page 1",
+        "B. Autres frais",
+        "Autres frais",
+        "Totaux"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Totaux",
+      "synthetic_value": "9 600 €"
+    },
+    {
+      "id": "f021",
+      "label": "de l'exercice",
+      "path": [
+        "Page 1",
+        "C. Éléments de référence",
+        "Total des dépenses - exercice 2026",
+        "de l'exercice"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "de l'exercice",
+      "synthetic_value": "539 600 €"
+    },
+    {
+      "id": "f022",
+      "label": "de l'exercice précédent",
+      "path": [
+        "Page 1",
+        "C. Éléments de référence",
+        "Total des dépenses - exercice 2025",
+        "de l'exercice précédent"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "de l'exercice précédent",
+      "synthetic_value": "500 000 €"
+    },
+    {
+      "id": "f023",
+      "label": "de l'exercice",
+      "path": [
+        "Page 1",
+        "C. Éléments de référence",
+        "Bénéfices imposables - exercice 2026",
+        "de l'exercice"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "de l'exercice",
+      "synthetic_value": "900 000 €"
+    },
+    {
+      "id": "f024",
+      "label": "de l'exercice précédent",
+      "path": [
+        "Page 1",
+        "C. Éléments de référence",
+        "Bénéfices imposables - exercice 2025",
+        "de l'exercice précédent"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "de l'exercice précédent",
+      "synthetic_value": "850 000 €"
+    },
+    {
+      "id": "f025",
+      "label": "Nom et qualité du signataire",
+      "path": [
+        "Page 1",
+        "C. Éléments de référence",
+        "Nom et qualité du signataire"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom et qualité du signataire",
+      "synthetic_value": "Camille Martin, présidente"
+    },
+    {
+      "id": "f026",
+      "label": "À",
+      "path": [
+        "Page 1",
+        "C. Éléments de référence",
+        "Signature - lieu",
+        "À"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "À",
+      "synthetic_value": "Lille"
+    },
+    {
+      "id": "f027",
+      "label": "Le",
+      "path": [
+        "Page 1",
+        "C. Éléments de référence",
+        "Signature - date",
+        "Le"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Le",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "f028",
+      "label": "Signature",
+      "path": [
+        "Page 1",
+        "C. Éléments de référence",
+        "Signature",
+        "Signature"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Signature",
+      "synthetic_value": "Camille Martin"
+    }
+  ],
+  "context": "Exemple fictif de remplissage, sans transmission.\nIdentification et exercice /  / Désignation de l' entreprise: Exemple Industrie SAS\nIdentification et exercice /  / Adresse: 16 rue de l’Usine, 59000 Lille\nIdentification et exercice /  / ANNÉE: 2026\nIdentification et exercice / Exercice / du: 01/01/2026\nIdentification et exercice / Exercice / au: 31/12/2026\nA. Personnes les mieux rémunérées /  / NOM, PRÉNOM ET EMPLOI OCCUPÉ: 1 Martin Camille, direction; 2 Petit Morgan, finances; 3 Dubois Alex, ventes; 4 Laurent Sam, opérations; 5 Bernard Léa, technique\nA. Personnes les mieux rémunérées /  / ADRESSE COMPLÈTE: 1-5 : 16 rue de l’Usine, 59000 Lille\nA. Rémunérations et charges / Colonne 1, personnes 1-5 / Montant des rémunérations: 120 000; 110 000; 105 000; 100 000; 95 000 €\nA. Rémunérations et charges / Colonne 2, personnes 1-5 / Montant des indemnités: 0; 0; 0; 0; 0 €\nA. Rémunérations et charges / Colonne 3, personnes 1-5 / Valeur des avantages en nature: 0; 0; 0; 0; 0 €\nA. Rémunérations et charges / Colonne 4, personnes 1-5 / Montant des remboursements: 0; 0; 0; 0; 0 €\nA. Rémunérations et charges / Colonne 5, personnes 1-5 / TOTAL DES COLONNES: 120 000; 110 000; 105 000; 100 000; 95 000 €\nA. Rémunérations et charges / Colonne 6, personnes 1-5 / Frais de voyage: 0; 0; 0; 0; 0 €\nA. Rémunérations et charges / Colonne 7, personnes 1-5 / aux véhicules et autres biens: 0; 0; 0; 0; 0 €\nA. Rémunérations et charges / Colonne 8, personnes 1-5 / aux immeubles: 0; 0; 0; 0; 0 €\nA. Rémunérations et charges / Colonne 9, personnes 1-5 / TOTAL DES COLONNES: 0; 0; 0; 0; 0 €\nA. Rémunérations et charges /  / TOTAUX: Colonne 5 : 530 000 €; colonne 9 : 0 €\nB. Autres frais /  / Cadeaux de toute nature: 3 200 €\nB. Autres frais /  / Frais de réception: 6 400 €\nB. Autres frais / Autres frais / Totaux: 9 600 €\nC. Éléments de référence / Total des dépenses - exercice 2026 / de l'exercice: 539 600 €\nC. Éléments de référence / Total des dépenses - exercice 2025 / de l'exercice précédent: 500 000 €\nC. Éléments de référence / Bénéfices imposables - exercice 2026 / de l'exercice: 900 000 €\nC. Éléments de référence / Bénéfices imposables - exercice 2025 / de l'exercice précédent: 850 000 €\nC. Éléments de référence /  / Nom et qualité du signataire: Camille Martin, présidente\nC. Éléments de référence / Signature - lieu / À: Lille\nC. Éléments de référence / Signature - date / Le: 05/10/2026\nC. Éléments de référence / Signature / Signature: Camille Martin",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 142
+  }
+}

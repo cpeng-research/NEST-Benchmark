@@ -1,0 +1,175 @@
+{
+  "DATOS DEL PACIENTE": {
+    "Fecha": "26/09/2026",
+    "Apellido y nombre": "Marina Paciente Ejemplo",
+    "Sexo": "F",
+    "Número de documento": "DNI-FICTICIO-59",
+    "Fecha de nacimiento": "12/04/1981",
+    "Jurisdicción": "Buenos Aires",
+    "Hospital": "Hospital Ficticio de Ejemplo",
+    "Mail": "marina59@example.invalid",
+    "Número de contacto": "000-000-0059"
+  },
+  "DATOS DEL MÉDICO TRATANTE": {
+    "Apellido y nombre": "Elena Médica Ejemplo",
+    "Mail": "elena59@example.invalid",
+    "Número de contacto": "000-000-0159"
+  },
+  "ANTECEDENTES DE HEPATITIS C": {
+    "Fecha de diagnóstico de hepatitis C": "01/04/2020",
+    "Causas de transmisión de hepatitis C": {
+      "choices": [
+        "Transfusión de sangre o hemoderivados",
+        "Tatuajes o piercing",
+        "Procedimientos médicos invasivos",
+        "Drogas",
+        "Desconocida"
+      ],
+      "value": [
+        "Transfusión de sangre o hemoderivados"
+      ]
+    },
+    "¿La causa persiste?": {
+      "choices": [
+        "Sí",
+        "No"
+      ],
+      "value": [
+        "No"
+      ]
+    },
+    "Grado de fibrosis hepática": {
+      "choices": [
+        "F0",
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "value": [
+        "F2"
+      ]
+    },
+    "Cirrosis compensada": {
+      "choices": [
+        "Cirrosis compensada",
+        "Cirrosis descompensada"
+      ],
+      "value": []
+    },
+    "APRI": "0,8 ficticio",
+    "Genotipo": {
+      "Valor": "1a ficticio",
+      "Desconocido": {
+        "choices": [
+          "Desconocido"
+        ],
+        "value": []
+      }
+    },
+    "Enfermedad asociada": {
+      "choices": [
+        "No",
+        "Sí"
+      ],
+      "value": [
+        "No"
+      ]
+    },
+    "¿Cúal?": "",
+    "Coinfección con VIH": {
+      "choices": [
+        "No",
+        "Sí"
+      ],
+      "value": [
+        "No"
+      ]
+    },
+    "Coinfección con hepatitis B": {
+      "choices": [
+        "No",
+        "Sí"
+      ],
+      "value": [
+        "No"
+      ]
+    },
+    "Medicación habitual": "Ninguna en el supuesto"
+  },
+  "ANTECEDENTES DE TRATAMIENTO/S PREVIO/S PARA HEPATITIS C": {
+    "Número de tratamiento/s previo/s para hepatitis C recibido/s": "1",
+    "Esquema de tratamiento previo indicado": "Sofosbuvir 400 mg y daclatasvir 60 mg diarios, esquema ficticio no prescripción",
+    "Duración de tratamiento previo indicada en semanas": "12",
+    "Fecha de finalización de tratamiento/s": "01/04/2026",
+    "Completó el tratamiento indicado": {
+      "choices": [
+        "Sí",
+        "No"
+      ],
+      "value": [
+        "Sí"
+      ]
+    },
+    "Indicar número de comprimidos/días ingeridos": "168 comprimidos / 84 días, supuesto ficticio",
+    "En caso de no tomar toda la medicación indicar causa": {
+      "choices": [
+        "Olvido",
+        "Reacción adversa",
+        "Otra"
+      ],
+      "value": []
+    },
+    "Reacción adversa": {
+      "¿Cúal?": ""
+    },
+    "Otra": {
+      "¿Cúal?": ""
+    },
+    "Carga viral al inicio del tratamiento": {
+      "Valor": "1000000 UI/ml ficticios",
+      "Fecha": "01/01/2026"
+    },
+    "Carga viral a las 12 semanas de fin de tratamiento": {
+      "Valor": "800000 UI/ml ficticios",
+      "Fecha": "24/06/2026"
+    },
+    "¿Dispone de genotipo del VHC en el control de respuesta viral sostenida?": {
+      "choices": [
+        "Sí",
+        "No"
+      ],
+      "value": [
+        "Sí"
+      ]
+    },
+    "¿Tomó medicación concomitantemente al tratamiento del VHC?": {
+      "choices": [
+        "Sí",
+        "No"
+      ],
+      "value": [
+        "No"
+      ]
+    },
+    "Medicación concomitante": {
+      "¿Cúal?": "",
+      "Dosis": "",
+      "Duración": ""
+    },
+    "¿Se mandó a estudiar Resistencia antiviral?": {
+      "choices": [
+        "Sí",
+        "No"
+      ],
+      "value": [
+        "Sí"
+      ]
+    },
+    "Resistencia antiviral": {
+      "Resultado": "Variante ficticia documentada",
+      "Lugar": "Laboratorio Ficticio de Ejemplo",
+      "Fecha": "01/07/2026"
+    }
+  }
+}

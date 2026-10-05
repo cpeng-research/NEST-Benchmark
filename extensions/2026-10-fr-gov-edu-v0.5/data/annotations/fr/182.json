@@ -1,0 +1,982 @@
+{
+  "id": "fr-dgac-uas-derogation-r5-v4",
+  "language": "fr",
+  "domain": "GovPublic",
+  "title": "Demande de dérogation préfectorale pour drone",
+  "template_family": "dgac-uas-derogation-r5-v4",
+  "issuer": "DGAC/DSAC",
+  "issuer_id": "DGAC/DSAC",
+  "source_pages": 4,
+  "columns": 1,
+  "rows": [
+    [
+      {
+        "text": "Exploitant",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "exploitant_nom",
+        "label": "Nom",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "exploitant_numero",
+        "label": "N° d’enregistrement d’exploitant UAS",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "exploitant_adresse",
+        "label": "Adresse",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "contact_nom",
+        "label": "Nom",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "contact_telephone",
+        "label": "Téléphone portable",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "contact_courriel",
+        "label": "Courriel",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Dérogations demandées",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "derog_nuit",
+        "label": "Dérogation à l’interdiction de voler de nuit",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "derog_hauteur",
+        "label": "Dérogation aux hauteurs maximales d’évolution",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Dates des vols",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "debut_date",
+        "label": "Date",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "debut_heure",
+        "label": "Heure",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "fin_date",
+        "label": "Date",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "fin_heure",
+        "label": "Heure",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Aéronefs",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "aeronef1_constructeur",
+        "label": "Constructeur",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "aeronef1_modele",
+        "label": "Modèle",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "aeronef1_classe",
+        "label": "Mention de classe éventuelle",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "aeronef1_enregistrement",
+        "label": "N° d’enregistrement UAS",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "aeronef1_masse",
+        "label": "Masse maximale prévue pour les vols",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "aeronef2_constructeur",
+        "label": "Constructeur",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "aeronef2_modele",
+        "label": "Modèle",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "aeronef2_classe",
+        "label": "Mention de classe éventuelle",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "aeronef2_enregistrement",
+        "label": "N° d’enregistrement UAS",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "aeronef2_masse",
+        "label": "Masse maximale prévue pour les vols",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "aeronef3_constructeur",
+        "label": "Constructeur",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "aeronef3_modele",
+        "label": "Modèle",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "aeronef3_classe",
+        "label": "Mention de classe éventuelle",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "aeronef3_enregistrement",
+        "label": "N° d’enregistrement UAS",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "aeronef3_masse",
+        "label": "Masse maximale prévue pour les vols",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Description des vols",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "site_type",
+        "label": "Site(s)",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "code_postal",
+        "label": "Code postal",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "localites",
+        "label": "Localité(s)",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "adresses",
+        "label": "Adresse(s)",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "hauteur",
+        "label": "Hauteur maximale de vol",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "distance",
+        "label": "Distance maximale au télépilote",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "vitesse",
+        "label": "Vitesse maximale d’évolution",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Vol et espace aérien",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "vue",
+        "label": "En vue directe",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "espaces",
+        "label": "Espaces aériens contrôlés/réglementés éventuellement pénétrés",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "objet",
+        "label": "Objet des vols et justification du besoin de la dérogation",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Engagement de l'exploitant",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "engagements",
+        "label": "Je soussigné, représentant l’exploitant identifié au §1 ci-dessus",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "fait_a",
+        "label": "A",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "date_signature",
+        "label": "Le",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "signataire",
+        "label": "Nom",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Informations et consignes officielles",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "Cette page contient les coordonnées, délais et autorisations complémentaires indiqués par l'émetteur.",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "exploitant_nom",
+      "label": "Nom",
+      "source_page": 1,
+      "source_anchor": "Nom",
+      "path": [
+        "Exploitant",
+        "Nom"
+      ],
+      "kind": "text",
+      "synthetic_value": "Exploitation Exemple"
+    },
+    {
+      "id": "exploitant_numero",
+      "label": "N° d’enregistrement d’exploitant UAS",
+      "source_page": 1,
+      "source_anchor": "N° d’enregistrement d’exploitant UAS",
+      "path": [
+        "Exploitant",
+        "Numéro UAS"
+      ],
+      "kind": "text",
+      "synthetic_value": "FRA000000000000"
+    },
+    {
+      "id": "exploitant_adresse",
+      "label": "Adresse",
+      "source_page": 1,
+      "source_anchor": "Adresse",
+      "path": [
+        "Exploitant",
+        "Adresse"
+      ],
+      "kind": "text",
+      "synthetic_value": "12 rue Exemple, 75012 Paris"
+    },
+    {
+      "id": "contact_nom",
+      "label": "Nom",
+      "source_page": 1,
+      "source_anchor": "Nom",
+      "path": [
+        "Point de contact opérationnel",
+        "Nom"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille Martin"
+    },
+    {
+      "id": "contact_telephone",
+      "label": "Téléphone portable",
+      "source_page": 1,
+      "source_anchor": "Téléphone portable",
+      "path": [
+        "Point de contact opérationnel",
+        "Téléphone"
+      ],
+      "kind": "text",
+      "synthetic_value": "06 00 00 00 00"
+    },
+    {
+      "id": "contact_courriel",
+      "label": "Courriel",
+      "source_page": 1,
+      "source_anchor": "Courriel",
+      "path": [
+        "Point de contact opérationnel",
+        "Courriel"
+      ],
+      "kind": "text",
+      "synthetic_value": "contact@example.invalid"
+    },
+    {
+      "id": "derog_nuit",
+      "label": "Dérogation à l’interdiction de voler de nuit",
+      "source_page": 1,
+      "source_anchor": "Dérogation à l’interdiction de voler de nuit",
+      "path": [
+        "Dérogations demandées",
+        "Dérogation à l’interdiction de voler de nuit"
+      ],
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "Exploitation en catégorie Spécifique hors scénario standard selon une autorisation d’exploitation générique"
+      ],
+      "options": [
+        "Exploitation en vue directe en catégorie Ouverte",
+        "Exploitation en catégorie Spécifique hors scénario standard selon une autorisation d’exploitation générique",
+        "Autres cas d’activités : exploitation en catégorie Spécifique hors scénario standard"
+      ],
+      "context_evidence": "Dérogations demandées / Dérogation à l’interdiction de voler de nuit : Exploitation en catégorie Spécifique hors scénario standard selon une autorisation d’exploitation générique."
+    },
+    {
+      "id": "derog_hauteur",
+      "label": "Dérogation aux hauteurs maximales d’évolution",
+      "source_page": 1,
+      "source_anchor": "Dérogation aux hauteurs maximales d’évolution",
+      "path": [
+        "Dérogations demandées",
+        "Dérogation aux hauteurs maximales d’évolution"
+      ],
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "Activités hors vue (autres que catégorie ouverte ou aéromodélisme) avec un aéronef de masse supérieure à 2kg et à une hauteur supérieure à 50 m au-dessus de la surface"
+      ],
+      "options": [
+        "Activités hors vue (autres que catégorie ouverte ou aéromodélisme) avec un aéronef de masse supérieure à 2kg et à une hauteur supérieure à 50 m au-dessus de la surface",
+        "Activités hors vue (autres que catégorie ouverte ou aéromodélisme) avec un aéronef de masse inférieure à 2kg et à une hauteur supérieure à 120 m au-dessus de la surface"
+      ],
+      "context_evidence": "Dérogations demandées / Dérogation aux hauteurs maximales d’évolution : Activités hors vue (autres que catégorie ouverte ou aéromodélisme) avec un aéronef de masse supérieure à 2kg et à une hauteur supérieure à 50 m au-dessus de la surface."
+    },
+    {
+      "id": "debut_date",
+      "label": "Date",
+      "source_page": 2,
+      "source_anchor": "Date",
+      "path": [
+        "Dates des vols",
+        "debut",
+        "Date"
+      ],
+      "kind": "text",
+      "synthetic_value": "20/11/2026"
+    },
+    {
+      "id": "debut_heure",
+      "label": "Heure",
+      "source_page": 2,
+      "source_anchor": "Heure",
+      "path": [
+        "Dates des vols",
+        "debut",
+        "Heure"
+      ],
+      "kind": "text",
+      "synthetic_value": "20:30"
+    },
+    {
+      "id": "fin_date",
+      "label": "Date",
+      "source_page": 2,
+      "source_anchor": "Date",
+      "path": [
+        "Dates des vols",
+        "fin",
+        "Date"
+      ],
+      "kind": "text",
+      "synthetic_value": "20/11/2026"
+    },
+    {
+      "id": "fin_heure",
+      "label": "Heure",
+      "source_page": 2,
+      "source_anchor": "Heure",
+      "path": [
+        "Dates des vols",
+        "fin",
+        "Heure"
+      ],
+      "kind": "text",
+      "synthetic_value": "21:30"
+    },
+    {
+      "id": "aeronef1_constructeur",
+      "label": "Constructeur",
+      "source_page": 2,
+      "source_anchor": "Constructeur",
+      "path": [
+        "Aéronefs",
+        "Aéronef 1",
+        "Constructeur"
+      ],
+      "kind": "text",
+      "synthetic_value": "Drone Exemple"
+    },
+    {
+      "id": "aeronef1_modele",
+      "label": "Modèle",
+      "source_page": 2,
+      "source_anchor": "Modèle",
+      "path": [
+        "Aéronefs",
+        "Aéronef 1",
+        "Modèle"
+      ],
+      "kind": "text",
+      "synthetic_value": "DX-1"
+    },
+    {
+      "id": "aeronef1_classe",
+      "label": "Mention de classe éventuelle",
+      "source_page": 2,
+      "source_anchor": "Mention de classe éventuelle",
+      "path": [
+        "Aéronefs",
+        "Aéronef 1",
+        "Mention de classe éventuelle"
+      ],
+      "kind": "text",
+      "synthetic_value": "C2"
+    },
+    {
+      "id": "aeronef1_enregistrement",
+      "label": "N° d’enregistrement UAS",
+      "source_page": 2,
+      "source_anchor": "N° d’enregistrement UAS",
+      "path": [
+        "Aéronefs",
+        "Aéronef 1",
+        "N° d’enregistrement UAS"
+      ],
+      "kind": "text",
+      "synthetic_value": "F-EX000"
+    },
+    {
+      "id": "aeronef1_masse",
+      "label": "Masse maximale prévue pour les vols",
+      "source_page": 2,
+      "source_anchor": "Masse maximale prévue pour les vols",
+      "path": [
+        "Aéronefs",
+        "Aéronef 1",
+        "Masse maximale prévue pour les vols"
+      ],
+      "kind": "text",
+      "synthetic_value": "2,5 kg"
+    },
+    {
+      "id": "aeronef2_constructeur",
+      "label": "Constructeur",
+      "source_page": 2,
+      "source_anchor": "Constructeur",
+      "path": [
+        "Aéronefs",
+        "Aéronef 2",
+        "Constructeur"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef2_modele",
+      "label": "Modèle",
+      "source_page": 2,
+      "source_anchor": "Modèle",
+      "path": [
+        "Aéronefs",
+        "Aéronef 2",
+        "Modèle"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef2_classe",
+      "label": "Mention de classe éventuelle",
+      "source_page": 2,
+      "source_anchor": "Mention de classe éventuelle",
+      "path": [
+        "Aéronefs",
+        "Aéronef 2",
+        "Mention de classe éventuelle"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef2_enregistrement",
+      "label": "N° d’enregistrement UAS",
+      "source_page": 2,
+      "source_anchor": "N° d’enregistrement UAS",
+      "path": [
+        "Aéronefs",
+        "Aéronef 2",
+        "N° d’enregistrement UAS"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef2_masse",
+      "label": "Masse maximale prévue pour les vols",
+      "source_page": 2,
+      "source_anchor": "Masse maximale prévue pour les vols",
+      "path": [
+        "Aéronefs",
+        "Aéronef 2",
+        "Masse maximale prévue pour les vols"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef3_constructeur",
+      "label": "Constructeur",
+      "source_page": 2,
+      "source_anchor": "Constructeur",
+      "path": [
+        "Aéronefs",
+        "Aéronef 3",
+        "Constructeur"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef3_modele",
+      "label": "Modèle",
+      "source_page": 2,
+      "source_anchor": "Modèle",
+      "path": [
+        "Aéronefs",
+        "Aéronef 3",
+        "Modèle"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef3_classe",
+      "label": "Mention de classe éventuelle",
+      "source_page": 2,
+      "source_anchor": "Mention de classe éventuelle",
+      "path": [
+        "Aéronefs",
+        "Aéronef 3",
+        "Mention de classe éventuelle"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef3_enregistrement",
+      "label": "N° d’enregistrement UAS",
+      "source_page": 2,
+      "source_anchor": "N° d’enregistrement UAS",
+      "path": [
+        "Aéronefs",
+        "Aéronef 3",
+        "N° d’enregistrement UAS"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef3_masse",
+      "label": "Masse maximale prévue pour les vols",
+      "source_page": 2,
+      "source_anchor": "Masse maximale prévue pour les vols",
+      "path": [
+        "Aéronefs",
+        "Aéronef 3",
+        "Masse maximale prévue pour les vols"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "site_type",
+      "label": "Site(s)",
+      "source_page": 2,
+      "source_anchor": "Site(s)",
+      "path": [
+        "Description des vols",
+        "Site(s)"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Hors zone peuplée"
+      ],
+      "options": [
+        "Hors zone peuplée",
+        "En zone peuplée"
+      ],
+      "context_evidence": "Description des vols / Site(s) : Hors zone peuplée."
+    },
+    {
+      "id": "code_postal",
+      "label": "Code postal",
+      "source_page": 2,
+      "source_anchor": "Code postal",
+      "path": [
+        "Description des vols",
+        "Code postal"
+      ],
+      "kind": "text",
+      "synthetic_value": "91120"
+    },
+    {
+      "id": "localites",
+      "label": "Localité(s)",
+      "source_page": 2,
+      "source_anchor": "Localité(s)",
+      "path": [
+        "Description des vols",
+        "Localité(s)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Palaiseau"
+    },
+    {
+      "id": "adresses",
+      "label": "Adresse(s)",
+      "source_page": 2,
+      "source_anchor": "Adresse(s)",
+      "path": [
+        "Description des vols",
+        "Adresse(s)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Zone Exemple"
+    },
+    {
+      "id": "hauteur",
+      "label": "Hauteur maximale de vol",
+      "source_page": 2,
+      "source_anchor": "Hauteur maximale de vol",
+      "path": [
+        "Description des vols",
+        "Hauteur maximale de vol"
+      ],
+      "kind": "text",
+      "synthetic_value": "60 m"
+    },
+    {
+      "id": "distance",
+      "label": "Distance maximale au télépilote",
+      "source_page": 2,
+      "source_anchor": "Distance maximale au télépilote",
+      "path": [
+        "Description des vols",
+        "Distance maximale au télépilote"
+      ],
+      "kind": "text",
+      "synthetic_value": "200 m"
+    },
+    {
+      "id": "vitesse",
+      "label": "Vitesse maximale d’évolution",
+      "source_page": 2,
+      "source_anchor": "Vitesse maximale d’évolution",
+      "path": [
+        "Description des vols",
+        "Vitesse maximale d’évolution"
+      ],
+      "kind": "text",
+      "synthetic_value": "8 m/s"
+    },
+    {
+      "id": "vue",
+      "label": "En vue directe",
+      "source_page": 3,
+      "source_anchor": "En vue directe",
+      "path": [
+        "Vol et espace aérien",
+        "En vue directe"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Hors vue"
+      ],
+      "options": [
+        "En vue directe",
+        "Hors vue"
+      ],
+      "context_evidence": "Vol et espace aérien / En vue directe : Hors vue."
+    },
+    {
+      "id": "espaces",
+      "label": "Espaces aériens contrôlés/réglementés éventuellement pénétrés",
+      "source_page": 3,
+      "source_anchor": "Espaces aériens contrôlés/réglementés éventuellement pénétrés",
+      "path": [
+        "Vol et espace aérien",
+        "Espaces aériens contrôlés/réglementés éventuellement pénétrés"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "objet",
+      "label": "Objet des vols et justification du besoin de la dérogation",
+      "source_page": 3,
+      "source_anchor": "Objet des vols et justification du besoin de la dérogation",
+      "path": [
+        "Vol et espace aérien",
+        "Objet des vols et justification du besoin de la dérogation"
+      ],
+      "kind": "text",
+      "synthetic_value": "Inspection fictive nécessitant une opération en soirée"
+    },
+    {
+      "id": "engagements",
+      "label": "Je soussigné, représentant l’exploitant identifié au §1 ci-dessus",
+      "source_page": 3,
+      "source_anchor": "Je soussigné, représentant l’exploitant identifié au §1 ci-dessus",
+      "path": [
+        "Engagement de l'exploitant",
+        "Je soussigné, représentant l’exploitant identifié au §1 ci-dessus"
+      ],
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "Certifie l’exactitude des renseignements figurant dans la présente déclaration",
+        "M’engage à",
+        "Déclare qu’une assurance couvrant les risques liés aux opérations prévues a été contractée"
+      ],
+      "options": [
+        "Certifie l’exactitude des renseignements figurant dans la présente déclaration",
+        "M’engage à",
+        "Déclare qu’une assurance couvrant les risques liés aux opérations prévues a été contractée"
+      ],
+      "context_evidence": "Engagement de l'exploitant / Je soussigné, représentant l’exploitant identifié au §1 ci-dessus : Certifie l’exactitude des renseignements figurant dans la présente déclaration, M’engage à, Déclare qu’une assurance couvrant les risques liés aux opérations prévues a été contractée."
+    },
+    {
+      "id": "fait_a",
+      "label": "A",
+      "source_page": 3,
+      "source_anchor": "A",
+      "path": [
+        "Engagement de l'exploitant",
+        "A"
+      ],
+      "kind": "text",
+      "synthetic_value": "Palaiseau"
+    },
+    {
+      "id": "date_signature",
+      "label": "Le",
+      "source_page": 3,
+      "source_anchor": "Le",
+      "path": [
+        "Engagement de l'exploitant",
+        "Le"
+      ],
+      "kind": "text",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "signataire",
+      "label": "Nom",
+      "source_page": 3,
+      "source_anchor": "Nom",
+      "path": [
+        "Engagement de l'exploitant",
+        "Nom"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille Martin"
+    }
+  ],
+  "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/Form_R5-UAS-DEROG_v4.pdf",
+  "landing_url": "https://www.ecologie.gouv.fr/politiques-publiques/exploitation-drones-categorie-specifique",
+  "license_url": "https://www.ecologie.gouv.fr/mentions-legales",
+  "license_note": "Ecologie site content: Etalab 2.0 absent third-party notice; source and known update date credited; branding and artwork excluded from retained fields.",
+  "source_sha256": "8eaedbefd05ae2678b15e82b37931e6b19352e06c3073b21eb07ecb6245ad7cf",
+  "retrieved_at": "2026-10-04T19:06:01.323198+00:00",
+  "source_version": "R5-UAS-DEROG_v4",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "kind": "Printed form identifier, v4",
+    "value": "R5-UAS-DEROG_v4",
+    "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/Form_R5-UAS-DEROG_v4.pdf"
+  },
+  "context": "Dossier fictif à des fins d'évaluation, sans identité réelle ni dépôt administratif.\nExploitant / Nom : Exploitation Exemple.\nExploitant / Numéro UAS : FRA000000000000.\nExploitant / Adresse : 12 rue Exemple, 75012 Paris.\nPoint de contact opérationnel / Nom : Camille Martin.\nPoint de contact opérationnel / Téléphone : 06 00 00 00 00.\nPoint de contact opérationnel / Courriel : contact@example.invalid.\nDérogations demandées / Dérogation à l’interdiction de voler de nuit : Exploitation en catégorie Spécifique hors scénario standard selon une autorisation d’exploitation générique.\nDérogations demandées / Dérogation aux hauteurs maximales d’évolution : Activités hors vue (autres que catégorie ouverte ou aéromodélisme) avec un aéronef de masse supérieure à 2kg et à une hauteur supérieure à 50 m au-dessus de la surface.\nDates des vols / debut / Date : 20/11/2026.\nDates des vols / debut / Heure : 20:30.\nDates des vols / fin / Date : 20/11/2026.\nDates des vols / fin / Heure : 21:30.\nAéronefs / Aéronef 1 / Constructeur : Drone Exemple.\nAéronefs / Aéronef 1 / Modèle : DX-1.\nAéronefs / Aéronef 1 / Mention de classe éventuelle : C2.\nAéronefs / Aéronef 1 / N° d’enregistrement UAS : F-EX000.\nAéronefs / Aéronef 1 / Masse maximale prévue pour les vols : 2,5 kg.\nAéronefs / Aéronef 2 / Constructeur : Sans objet.\nAéronefs / Aéronef 2 / Modèle : Sans objet.\nAéronefs / Aéronef 2 / Mention de classe éventuelle : Sans objet.\nAéronefs / Aéronef 2 / N° d’enregistrement UAS : Sans objet.\nAéronefs / Aéronef 2 / Masse maximale prévue pour les vols : Sans objet.\nAéronefs / Aéronef 3 / Constructeur : Sans objet.\nAéronefs / Aéronef 3 / Modèle : Sans objet.\nAéronefs / Aéronef 3 / Mention de classe éventuelle : Sans objet.\nAéronefs / Aéronef 3 / N° d’enregistrement UAS : Sans objet.\nAéronefs / Aéronef 3 / Masse maximale prévue pour les vols : Sans objet.\nDescription des vols / Site(s) : Hors zone peuplée.\nDescription des vols / Code postal : 91120.\nDescription des vols / Localité(s) : Palaiseau.\nDescription des vols / Adresse(s) : Zone Exemple.\nDescription des vols / Hauteur maximale de vol : 60 m.\nDescription des vols / Distance maximale au télépilote : 200 m.\nDescription des vols / Vitesse maximale d’évolution : 8 m/s.\nVol et espace aérien / En vue directe : Hors vue.\nVol et espace aérien / Espaces aériens contrôlés/réglementés éventuellement pénétrés : Sans objet.\nVol et espace aérien / Objet des vols et justification du besoin de la dérogation : Inspection fictive nécessitant une opération en soirée.\nEngagement de l'exploitant / Je soussigné, représentant l’exploitant identifié au §1 ci-dessus : Certifie l’exactitude des renseignements figurant dans la présente déclaration, M’engage à, Déclare qu’une assurance couvrant les risques liés aux opérations prévues a été contractée.\nEngagement de l'exploitant / A : Palaiseau.\nEngagement de l'exploitant / Le : 05/10/2026.\nEngagement de l'exploitant / Nom : Camille Martin.",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 182
+  }
+}

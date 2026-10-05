@@ -1,0 +1,77 @@
+{
+  "extension_id": "2026-10-ukhsa-healthcare-en-v0.1",
+  "added_on": "2026-10-05",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 2,
+  "samples": [
+    {
+      "id": 436,
+      "language": "en",
+      "title": "S1: Hepatitis viruses investigation request form",
+      "source_id": "en-ukhsa-436-hepatitis-viruses-s1-2026",
+      "domain": "Healthcare",
+      "issuer_id": "UKHSA",
+      "template_family": "ukhsa-hepatitis-viruses-s1-2026",
+      "source_pages": 1,
+      "source_sha256": "7457ae81a38c41746d03c34a3e98cc8585eafdf8bcd6d66a113f9d4cabb17c15",
+      "fields": 48,
+      "files": {
+        "workflow/0-html_template/data_en/436.html": "07467550869beb814d634558fc4c2bf5f3dd92ba7f47675ca57154f940c2c0af",
+        "workflow/1-annotated_json/data_en/436.json": "90b27cb6c774985201db017257778c799dc7862313b19201c2cff8df7478e152",
+        "workflow/2-filled_json-a/data_en/436.json": "e7fcea57ad4a64af0ff768cc4a465ba0dd2c7a5bbf3ca1920cfae52c4c689efa",
+        "workflow/3-filled_html-a/data_en/436.html": "0b2f6fec3ad8fc496c026a42e336d6be527c53e1f1be1fc37c6eb7a82e598fa3",
+        "workflow/4-context-a/data_en/436.txt": "9a6428b0898101f78e42562a39958d01866724893187054134a0f87f0d917fd8",
+        "workflow/5-ph_html-a/data_en/436.html": "d0f204ee892c893adf716c015b611fbae61b4e9874d6b4d5810668ee1381eeed",
+        "workflow/6-meta-a/data_en/436.json": "656c617b10edef23f2ed57b7e277d36dcc27ef81bd4358462fda9655d3669824"
+      },
+      "annotation_path": "data/annotations/en/436.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 439,
+      "language": "en",
+      "title": "S19: Human herpesvirus 8 (HHV-8) referral form",
+      "source_id": "en-ukhsa-439-human-herpesvirus-8-s19-2026",
+      "domain": "Healthcare",
+      "issuer_id": "UKHSA",
+      "template_family": "ukhsa-human-herpesvirus-8-s19-2026",
+      "source_pages": 1,
+      "source_sha256": "56490154f7575090d96d15c34ae3885fdd555d91e0a237969481ba19bb3c94f6",
+      "fields": 36,
+      "files": {
+        "workflow/0-html_template/data_en/439.html": "122b77873bfe1d7959a9c33acffad696d4b512e856eb28b9d77094ee157495f7",
+        "workflow/1-annotated_json/data_en/439.json": "2f654e442081296b3854e139014ac6320bedadc7c450961cb22fbbb3b8bba54d",
+        "workflow/2-filled_json-a/data_en/439.json": "5ac08ad7bdbd57dd749ce51fbd95c2d6d78ee3cd8c4be5f7e5756073dcb2a9e0",
+        "workflow/3-filled_html-a/data_en/439.html": "05b5afd4fbf26bbff8f9714dcd15d682f7398772cc34a23c0b3c5d215eadfff0",
+        "workflow/4-context-a/data_en/439.txt": "91fd14c6ca26170d8075aa3137d1a8e5fdc81517fb31e9a199de6ee72bce9239",
+        "workflow/5-ph_html-a/data_en/439.html": "0e5e3a1a690d1fea67e63fc074c3c7aa12d1b589a43f90c6311c419dbd971511",
+        "workflow/6-meta-a/data_en/439.json": "841e6059f32712736ed166ae2b26cf5044c76ffbcb79d3b43399f9510d51a40a"
+      },
+      "annotation_path": "data/annotations/en/439.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}

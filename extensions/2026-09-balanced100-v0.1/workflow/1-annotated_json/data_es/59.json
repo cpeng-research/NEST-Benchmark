@@ -1,0 +1,155 @@
+{
+  "DATOS DEL PACIENTE": {
+    "Fecha": "",
+    "Apellido y nombre": "",
+    "Sexo": "",
+    "Número de documento": "",
+    "Fecha de nacimiento": "",
+    "Jurisdicción": "",
+    "Hospital": "",
+    "Mail": "",
+    "Número de contacto": ""
+  },
+  "DATOS DEL MÉDICO TRATANTE": {
+    "Apellido y nombre": "",
+    "Mail": "",
+    "Número de contacto": ""
+  },
+  "ANTECEDENTES DE HEPATITIS C": {
+    "Fecha de diagnóstico de hepatitis C": "",
+    "Causas de transmisión de hepatitis C": {
+      "choices": [
+        "Transfusión de sangre o hemoderivados",
+        "Tatuajes o piercing",
+        "Procedimientos médicos invasivos",
+        "Drogas",
+        "Desconocida"
+      ],
+      "value": []
+    },
+    "¿La causa persiste?": {
+      "choices": [
+        "Sí",
+        "No"
+      ],
+      "value": []
+    },
+    "Grado de fibrosis hepática": {
+      "choices": [
+        "F0",
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "value": []
+    },
+    "Cirrosis compensada": {
+      "choices": [
+        "Cirrosis compensada",
+        "Cirrosis descompensada"
+      ],
+      "value": []
+    },
+    "APRI": "",
+    "Genotipo": {
+      "Valor": "",
+      "Desconocido": {
+        "choices": [
+          "Desconocido"
+        ],
+        "value": []
+      }
+    },
+    "Enfermedad asociada": {
+      "choices": [
+        "No",
+        "Sí"
+      ],
+      "value": []
+    },
+    "¿Cúal?": "",
+    "Coinfección con VIH": {
+      "choices": [
+        "No",
+        "Sí"
+      ],
+      "value": []
+    },
+    "Coinfección con hepatitis B": {
+      "choices": [
+        "No",
+        "Sí"
+      ],
+      "value": []
+    },
+    "Medicación habitual": ""
+  },
+  "ANTECEDENTES DE TRATAMIENTO/S PREVIO/S PARA HEPATITIS C": {
+    "Número de tratamiento/s previo/s para hepatitis C recibido/s": "",
+    "Esquema de tratamiento previo indicado": "",
+    "Duración de tratamiento previo indicada en semanas": "",
+    "Fecha de finalización de tratamiento/s": "",
+    "Completó el tratamiento indicado": {
+      "choices": [
+        "Sí",
+        "No"
+      ],
+      "value": []
+    },
+    "Indicar número de comprimidos/días ingeridos": "",
+    "En caso de no tomar toda la medicación indicar causa": {
+      "choices": [
+        "Olvido",
+        "Reacción adversa",
+        "Otra"
+      ],
+      "value": []
+    },
+    "Reacción adversa": {
+      "¿Cúal?": ""
+    },
+    "Otra": {
+      "¿Cúal?": ""
+    },
+    "Carga viral al inicio del tratamiento": {
+      "Valor": "",
+      "Fecha": ""
+    },
+    "Carga viral a las 12 semanas de fin de tratamiento": {
+      "Valor": "",
+      "Fecha": ""
+    },
+    "¿Dispone de genotipo del VHC en el control de respuesta viral sostenida?": {
+      "choices": [
+        "Sí",
+        "No"
+      ],
+      "value": []
+    },
+    "¿Tomó medicación concomitantemente al tratamiento del VHC?": {
+      "choices": [
+        "Sí",
+        "No"
+      ],
+      "value": []
+    },
+    "Medicación concomitante": {
+      "¿Cúal?": "",
+      "Dosis": "",
+      "Duración": ""
+    },
+    "¿Se mandó a estudiar Resistencia antiviral?": {
+      "choices": [
+        "Sí",
+        "No"
+      ],
+      "value": []
+    },
+    "Resistencia antiviral": {
+      "Resultado": "",
+      "Lugar": "",
+      "Fecha": ""
+    }
+  }
+}

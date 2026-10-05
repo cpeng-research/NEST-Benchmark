@@ -1,0 +1,1759 @@
+{
+  "id": "fr-100-acompte-is",
+  "language": "fr",
+  "domain": "Finance",
+  "business_topic": "Relevé d'acompte d'impôt sur les sociétés 2026",
+  "issuer_id": "Émetteur du formulaire administratif : Ministère chargé des finances",
+  "template_family": "acompte-is",
+  "title": "Relevé d'acompte d'impôt sur les sociétés 2026",
+  "source_pages": 2,
+  "source_sha256": "1cc24f7503cb85ffd37c6421c626c8090dea222475a342a62e05d0e99e17210e",
+  "retrieved_at": "2026-10-05T01:48:59+08:00",
+  "source_version": "2571-SD; Cerfa 12403*24; millésime 2026",
+  "source_url": "https://www.impots.gouv.fr/sites/default/files/formulaires/2571-sd/2026/2571-sd_5288.pdf",
+  "landing_url": "https://entreprendre.service-public.gouv.fr/vosdroits/R21800",
+  "license_url": "https://www.impots.gouv.fr/mentions-legales",
+  "license_note": "DGFiP site notice: public information under Licence Ouverte Etalab 2.0, except explicit third-party intellectual property. Source text and field structure are normalized; the original PDF and DGFiP graphics are not redistributed.",
+  "source_date_evidence": {
+    "kind": "PDF printed mark and DGFiP listing millesime",
+    "value": "2571-SD; Cerfa 12403*24; millésime 2026; DGFiP millesime 2026",
+    "landing": "Vérifié le 05 novembre 2025 - Entreprendre Service Public / Direction de l'information légale et administrative (Premier ministre)",
+    "pdf_version_mark": "2571-SD; Cerfa 12403*24; millésime 2026",
+    "publisher_listing_millesime": "2026",
+    "scope": "Landing-page verification date is distinct from the printed PDF version mark."
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "Identification et exercice",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "DENOMINATION",
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Adresse",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SIRET",
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Exercice social du",
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "au",
+        "field": "f005",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Versements d'IS et contributions assimilées",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Impôt sur les Sociétés",
+        "field": "f006",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Impôt sur les Sociétés",
+        "field": "f007",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Minorations",
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Dont crédit d'impôt pour la compétitivité et l'emploi",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Dont report en arrière de déficit",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Dont crédit d'impôt pour investissement en Corse",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Dont crédit d'impôt recherche",
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Dont réduction d'impôt mécénat",
+        "field": "f013",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Dont réduction d'impôt collectivités outre-mer",
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Dont crédit d'impôt recherche collaborative",
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Dont créance d'impôt logement locatif intermédiaire",
+        "field": "f016",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Dont réduction d'impôt prêt à taux zéro mobilité",
+        "field": "f017",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Dont excédent du précédent exercice",
+        "field": "f018",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Contribution sur les Revenus Locatifs",
+        "field": "f019",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Contribution Sociale",
+        "field": "f020",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Contribution exceptionnelle sur les bénéfices des grandes entreprises",
+        "field": "f021",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Contribution exceptionnelle sur les entreprises de transport maritime",
+        "field": "f022",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Montant d'impôt sur les sociétés et contributions assimilées à payer",
+        "field": "f023",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Plus-value article 208C du CGI",
+        "field": "f024",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Montant total à payer",
+        "field": "f025",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Contribution Sociale",
+        "field": "f026",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Paiement, date et signature du redevable",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Date",
+        "field": "f027",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Téléphone",
+        "field": "f028",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Paiement",
+        "field": "f029",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "signature du redevable",
+        "field": "f030",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Paiement par imputation",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Contribution visée",
+        "field": "f031",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Date de l'échéance",
+        "field": "f032",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Montant à Imputer",
+        "field": "f033",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Somme, dates et numéro d'opération : cadre réservé à l'administration.",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Aide au calcul : acomptes bruts",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "A01 - Acompte d’impôt sur les sociétés (au taux normal à 25 %)",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "BASE",
+        "field": "f034",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "TAUX",
+        "field": "f035",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "MONTANT",
+        "field": "f036",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "A02 - Acompte d’impôt sur les sociétés (au taux réduit à 15 %)",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "BASE",
+        "field": "f037",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "TAUX",
+        "field": "f038",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "MONTANT",
+        "field": "f039",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "A03 - Acompte sur résultat net de concession des licences d’exploitation",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "BASE",
+        "field": "f040",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "TAUX",
+        "field": "f041",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "MONTANT",
+        "field": "f042",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Aide au calcul : total d'IS",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "A04",
+        "field": "f043",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "A05",
+        "field": "f044",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "A06",
+        "field": "f045",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Aide au calcul : imputations",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "A07",
+        "field": "f046",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "A08",
+        "field": "f047",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "A09",
+        "field": "f048",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "A10",
+        "field": "f049",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "A11",
+        "field": "f050",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "A12",
+        "field": "f051",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "A13",
+        "field": "f052",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "A14",
+        "field": "f053",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "A15",
+        "field": "f054",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "A16",
+        "field": "f055",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "A17",
+        "field": "f056",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "A18",
+        "field": "f057",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Aide au calcul : contributions assimilées",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "BASE",
+        "field": "f058",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "TAUX",
+        "field": "f059",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "MONTANT",
+        "field": "f060",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "B02",
+        "field": "f061",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "BASE",
+        "field": "f062",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "TAUX",
+        "field": "f063",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "MONTANT",
+        "field": "f064",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "B04",
+        "field": "f065",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "B05",
+        "field": "f066",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Chiffre d’affaires",
+        "field": "f067",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "BASE",
+        "field": "f068",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "TAUX",
+        "field": "f069",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "MONTANT",
+        "field": "f070",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "B08",
+        "field": "f071",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Chiffre d’affaires",
+        "field": "f072",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "BASE",
+        "field": "f073",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "MONTANT",
+        "field": "f074",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "B11",
+        "field": "f075",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Aide au calcul : total du versement",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "C01",
+        "field": "f076",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "C02",
+        "field": "f077",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "C03",
+        "field": "f078",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Source : Émetteur du formulaire administratif : Ministère chargé des finances; https://www.impots.gouv.fr/sites/default/files/formulaires/2571-sd/2026/2571-sd_5288.pdf; Vérifié le 05 novembre 2025 - Entreprendre Service Public / Direction de l'information légale et administrative (Premier ministre).",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "DENOMINATION",
+      "path": [
+        "Page 1",
+        "Identification et exercice",
+        "DENOMINATION"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DENOMINATION",
+      "synthetic_value": "Exemple Industrie SAS"
+    },
+    {
+      "id": "f002",
+      "label": "Adresse",
+      "path": [
+        "Page 1",
+        "Identification et exercice",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Adresse",
+      "synthetic_value": "20 rue Exemple, 69002 Lyon"
+    },
+    {
+      "id": "f003",
+      "label": "SIRET",
+      "path": [
+        "Page 1",
+        "Identification et exercice",
+        "SIRET"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "SIRET",
+      "synthetic_value": "00000000000100"
+    },
+    {
+      "id": "f004",
+      "label": "Exercice social du",
+      "path": [
+        "Page 1",
+        "Identification et exercice",
+        "Exercice social du"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Exercice social du",
+      "synthetic_value": "01/01/2026"
+    },
+    {
+      "id": "f005",
+      "label": "au",
+      "path": [
+        "Page 1",
+        "Identification et exercice",
+        "Fin de l'exercice",
+        "au"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "au",
+      "synthetic_value": "31/12/2026"
+    },
+    {
+      "id": "f006",
+      "label": "Impôt sur les Sociétés",
+      "path": [
+        "Page 1",
+        "Versements d'IS et contributions assimilées",
+        "Imputations, case 01",
+        "Impôt sur les Sociétés"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "01",
+      "synthetic_value": "500"
+    },
+    {
+      "id": "f007",
+      "label": "Impôt sur les Sociétés",
+      "path": [
+        "Page 1",
+        "Versements d'IS et contributions assimilées",
+        "Montants à payer, case 03",
+        "Impôt sur les Sociétés"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "03",
+      "synthetic_value": "7000"
+    },
+    {
+      "id": "f008",
+      "label": "Minorations",
+      "path": [
+        "Page 1",
+        "Versements d'IS et contributions assimilées",
+        "Minoration IS",
+        "Minorations"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "Minorations",
+      "synthetic_value": [],
+      "options": [
+        "04"
+      ],
+      "context_evidence": "Minorations: "
+    },
+    {
+      "id": "f009",
+      "label": "Dont crédit d'impôt pour la compétitivité et l'emploi",
+      "path": [
+        "Page 1",
+        "Versements d'IS et contributions assimilées",
+        "Dont crédit d'impôt pour la compétitivité et l'emploi"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dont crédit d'impôt pour la compétitivité et l'emploi",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f010",
+      "label": "Dont report en arrière de déficit",
+      "path": [
+        "Page 1",
+        "Versements d'IS et contributions assimilées",
+        "Dont report en arrière de déficit"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dont report en arrière de déficit",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f011",
+      "label": "Dont crédit d'impôt pour investissement en Corse",
+      "path": [
+        "Page 1",
+        "Versements d'IS et contributions assimilées",
+        "Dont crédit d'impôt pour investissement en Corse"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dont crédit d'impôt pour investissement en Corse",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f012",
+      "label": "Dont crédit d'impôt recherche",
+      "path": [
+        "Page 1",
+        "Versements d'IS et contributions assimilées",
+        "Dont crédit d'impôt recherche"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dont crédit d'impôt recherche",
+      "synthetic_value": "500"
+    },
+    {
+      "id": "f013",
+      "label": "Dont réduction d'impôt mécénat",
+      "path": [
+        "Page 1",
+        "Versements d'IS et contributions assimilées",
+        "Dont réduction d'impôt mécénat"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dont réduction d'impôt mécénat",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f014",
+      "label": "Dont réduction d'impôt collectivités outre-mer",
+      "path": [
+        "Page 1",
+        "Versements d'IS et contributions assimilées",
+        "Dont réduction d'impôt collectivités outre-mer"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dont réduction d'impôt collectivités outre-mer",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f015",
+      "label": "Dont crédit d'impôt recherche collaborative",
+      "path": [
+        "Page 1",
+        "Versements d'IS et contributions assimilées",
+        "Dont crédit d'impôt recherche collaborative"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dont crédit d'impôt recherche collaborative",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f016",
+      "label": "Dont créance d'impôt logement locatif intermédiaire",
+      "path": [
+        "Page 1",
+        "Versements d'IS et contributions assimilées",
+        "Dont créance d'impôt logement locatif intermédiaire"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dont créance d'impôt logement locatif intermédiaire",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f017",
+      "label": "Dont réduction d'impôt prêt à taux zéro mobilité",
+      "path": [
+        "Page 1",
+        "Versements d'IS et contributions assimilées",
+        "Dont réduction d'impôt prêt à taux zéro mobilité"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dont réduction d'impôt prêt à taux zéro mobilité",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f018",
+      "label": "Dont excédent du précédent exercice",
+      "path": [
+        "Page 1",
+        "Versements d'IS et contributions assimilées",
+        "Dont excédent du précédent exercice"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dont excédent du précédent exercice",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f019",
+      "label": "Contribution sur les Revenus Locatifs",
+      "path": [
+        "Page 1",
+        "Versements d'IS et contributions assimilées",
+        "Contribution sur les Revenus Locatifs"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Contribution sur les Revenus Locatifs",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f020",
+      "label": "Contribution Sociale",
+      "path": [
+        "Page 1",
+        "Versements d'IS et contributions assimilées",
+        "Contribution Sociale"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Contribution Sociale",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f021",
+      "label": "Contribution exceptionnelle sur les bénéfices des grandes entreprises",
+      "path": [
+        "Page 1",
+        "Versements d'IS et contributions assimilées",
+        "Contribution exceptionnelle sur les bénéfices des grandes entreprises"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Contribution exceptionnelle sur les bénéfices des grandes entreprises",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f022",
+      "label": "Contribution exceptionnelle sur les entreprises de transport maritime",
+      "path": [
+        "Page 1",
+        "Versements d'IS et contributions assimilées",
+        "Contribution exceptionnelle sur les entreprises de transport maritime"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Contribution exceptionnelle sur les entreprises de transport maritime",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f023",
+      "label": "Montant d'impôt sur les sociétés et contributions assimilées à payer",
+      "path": [
+        "Page 1",
+        "Versements d'IS et contributions assimilées",
+        "Montant d'impôt sur les sociétés et contributions assimilées à payer"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant d'impôt sur les sociétés et contributions assimilées à payer",
+      "synthetic_value": "7000"
+    },
+    {
+      "id": "f024",
+      "label": "Plus-value article 208C du CGI",
+      "path": [
+        "Page 1",
+        "Versements d'IS et contributions assimilées",
+        "Plus-value article 208C du CGI"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus-value article 208C du CGI",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f025",
+      "label": "Montant total à payer",
+      "path": [
+        "Page 1",
+        "Versements d'IS et contributions assimilées",
+        "Montant total à payer"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant total à payer",
+      "synthetic_value": "7000"
+    },
+    {
+      "id": "f026",
+      "label": "Contribution Sociale",
+      "path": [
+        "Page 1",
+        "Versements d'IS et contributions assimilées",
+        "Minoration de contribution",
+        "Contribution Sociale"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "Contribution Sociale",
+      "synthetic_value": [],
+      "options": [
+        "09"
+      ],
+      "context_evidence": "Contribution Sociale: "
+    },
+    {
+      "id": "f027",
+      "label": "Date",
+      "path": [
+        "Page 1",
+        "Paiement, date et signature du redevable",
+        "Date"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "f028",
+      "label": "Téléphone",
+      "path": [
+        "Page 1",
+        "Paiement, date et signature du redevable",
+        "Téléphone"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Téléphone",
+      "synthetic_value": "0400000100"
+    },
+    {
+      "id": "f029",
+      "label": "Paiement",
+      "path": [
+        "Page 1",
+        "Paiement, date et signature du redevable",
+        "Paiement"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Paiement",
+      "synthetic_value": "Télépaiement",
+      "options": [
+        "Chèque",
+        "Télépaiement",
+        "Virement"
+      ],
+      "context_evidence": "Paiement: Télépaiement"
+    },
+    {
+      "id": "f030",
+      "label": "signature du redevable",
+      "path": [
+        "Page 1",
+        "Paiement, date et signature du redevable",
+        "signature du redevable"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "signature du redevable",
+      "synthetic_value": "Camille Martin"
+    },
+    {
+      "id": "f031",
+      "label": "Contribution visée",
+      "path": [
+        "Page 1",
+        "Paiement par imputation",
+        "Contribution visée"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Contribution visée",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "f032",
+      "label": "Date de l'échéance",
+      "path": [
+        "Page 1",
+        "Paiement par imputation",
+        "Date de l'échéance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de l'échéance",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "f033",
+      "label": "Montant à Imputer",
+      "path": [
+        "Page 1",
+        "Paiement par imputation",
+        "Montant à Imputer"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant à Imputer",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f034",
+      "label": "BASE",
+      "path": [
+        "Page 2",
+        "A01 - Acompte d’impôt sur les sociétés (au taux normal à 25 %)",
+        "A01",
+        "BASE"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "BASE",
+      "synthetic_value": "30000"
+    },
+    {
+      "id": "f035",
+      "label": "TAUX",
+      "path": [
+        "Page 2",
+        "A01 - Acompte d’impôt sur les sociétés (au taux normal à 25 %)",
+        "A01",
+        "TAUX"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "TAUX",
+      "synthetic_value": "25 %"
+    },
+    {
+      "id": "f036",
+      "label": "MONTANT",
+      "path": [
+        "Page 2",
+        "A01 - Acompte d’impôt sur les sociétés (au taux normal à 25 %)",
+        "A01",
+        "MONTANT"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "MONTANT",
+      "synthetic_value": "7500"
+    },
+    {
+      "id": "f037",
+      "label": "BASE",
+      "path": [
+        "Page 2",
+        "A02 - Acompte d’impôt sur les sociétés (au taux réduit à 15 %)",
+        "A02",
+        "BASE"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "BASE",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f038",
+      "label": "TAUX",
+      "path": [
+        "Page 2",
+        "A02 - Acompte d’impôt sur les sociétés (au taux réduit à 15 %)",
+        "A02",
+        "TAUX"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "TAUX",
+      "synthetic_value": "15 %"
+    },
+    {
+      "id": "f039",
+      "label": "MONTANT",
+      "path": [
+        "Page 2",
+        "A02 - Acompte d’impôt sur les sociétés (au taux réduit à 15 %)",
+        "A02",
+        "MONTANT"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "MONTANT",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f040",
+      "label": "BASE",
+      "path": [
+        "Page 2",
+        "A03 - Acompte sur résultat net de concession des licences d’exploitation",
+        "A03",
+        "BASE"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "BASE",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f041",
+      "label": "TAUX",
+      "path": [
+        "Page 2",
+        "A03 - Acompte sur résultat net de concession des licences d’exploitation",
+        "A03",
+        "TAUX"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "TAUX",
+      "synthetic_value": "10 %"
+    },
+    {
+      "id": "f042",
+      "label": "MONTANT",
+      "path": [
+        "Page 2",
+        "A03 - Acompte sur résultat net de concession des licences d’exploitation",
+        "A03",
+        "MONTANT"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "MONTANT",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f043",
+      "label": "A04",
+      "path": [
+        "Page 2",
+        "Aide au calcul : total d'IS",
+        "A04"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "A04",
+      "synthetic_value": "7500"
+    },
+    {
+      "id": "f044",
+      "label": "A05",
+      "path": [
+        "Page 2",
+        "Aide au calcul : total d'IS",
+        "A05"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "A05",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f045",
+      "label": "A06",
+      "path": [
+        "Page 2",
+        "Aide au calcul : total d'IS",
+        "A06"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "A06",
+      "synthetic_value": "7500"
+    },
+    {
+      "id": "f046",
+      "label": "A07",
+      "path": [
+        "Page 2",
+        "Aide au calcul : imputations",
+        "A07"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "A07",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f047",
+      "label": "A08",
+      "path": [
+        "Page 2",
+        "Aide au calcul : imputations",
+        "A08"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "A08",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f048",
+      "label": "A09",
+      "path": [
+        "Page 2",
+        "Aide au calcul : imputations",
+        "A09"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "A09",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f049",
+      "label": "A10",
+      "path": [
+        "Page 2",
+        "Aide au calcul : imputations",
+        "A10"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "A10",
+      "synthetic_value": "500"
+    },
+    {
+      "id": "f050",
+      "label": "A11",
+      "path": [
+        "Page 2",
+        "Aide au calcul : imputations",
+        "A11"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "A11",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f051",
+      "label": "A12",
+      "path": [
+        "Page 2",
+        "Aide au calcul : imputations",
+        "A12"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "A12",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f052",
+      "label": "A13",
+      "path": [
+        "Page 2",
+        "Aide au calcul : imputations",
+        "A13"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "A13",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f053",
+      "label": "A14",
+      "path": [
+        "Page 2",
+        "Aide au calcul : imputations",
+        "A14"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "A14",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f054",
+      "label": "A15",
+      "path": [
+        "Page 2",
+        "Aide au calcul : imputations",
+        "A15"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "A15",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f055",
+      "label": "A16",
+      "path": [
+        "Page 2",
+        "Aide au calcul : imputations",
+        "A16"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "A16",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f056",
+      "label": "A17",
+      "path": [
+        "Page 2",
+        "Aide au calcul : imputations",
+        "A17"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "A17",
+      "synthetic_value": "500"
+    },
+    {
+      "id": "f057",
+      "label": "A18",
+      "path": [
+        "Page 2",
+        "Aide au calcul : imputations",
+        "A18"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "A18",
+      "synthetic_value": "7000"
+    },
+    {
+      "id": "f058",
+      "label": "BASE",
+      "path": [
+        "Page 2",
+        "Aide au calcul : contributions assimilées",
+        "B01",
+        "BASE"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "BASE",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f059",
+      "label": "TAUX",
+      "path": [
+        "Page 2",
+        "Aide au calcul : contributions assimilées",
+        "B01",
+        "TAUX"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "TAUX",
+      "synthetic_value": "2,5 %"
+    },
+    {
+      "id": "f060",
+      "label": "MONTANT",
+      "path": [
+        "Page 2",
+        "Aide au calcul : contributions assimilées",
+        "B01",
+        "MONTANT"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "MONTANT",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f061",
+      "label": "B02",
+      "path": [
+        "Page 2",
+        "Aide au calcul : contributions assimilées",
+        "Montant",
+        "B02"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "B02",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f062",
+      "label": "BASE",
+      "path": [
+        "Page 2",
+        "Aide au calcul : contributions assimilées",
+        "B03",
+        "BASE"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "BASE",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f063",
+      "label": "TAUX",
+      "path": [
+        "Page 2",
+        "Aide au calcul : contributions assimilées",
+        "B03",
+        "TAUX"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "TAUX",
+      "synthetic_value": "3,3 %"
+    },
+    {
+      "id": "f064",
+      "label": "MONTANT",
+      "path": [
+        "Page 2",
+        "Aide au calcul : contributions assimilées",
+        "B03",
+        "MONTANT"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "MONTANT",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f065",
+      "label": "B04",
+      "path": [
+        "Page 2",
+        "Aide au calcul : contributions assimilées",
+        "Montant",
+        "B04"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "B04",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f066",
+      "label": "B05",
+      "path": [
+        "Page 2",
+        "Aide au calcul : contributions assimilées",
+        "Montant",
+        "B05"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "B05",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f067",
+      "label": "Chiffre d’affaires",
+      "path": [
+        "Page 2",
+        "Aide au calcul : contributions assimilées",
+        "B06",
+        "Chiffre d’affaires"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Chiffre d’affaires",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f068",
+      "label": "BASE",
+      "path": [
+        "Page 2",
+        "Aide au calcul : contributions assimilées",
+        "B07",
+        "BASE"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "BASE",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f069",
+      "label": "TAUX",
+      "path": [
+        "Page 2",
+        "Aide au calcul : contributions assimilées",
+        "B07",
+        "TAUX"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "TAUX",
+      "synthetic_value": "0 %"
+    },
+    {
+      "id": "f070",
+      "label": "MONTANT",
+      "path": [
+        "Page 2",
+        "Aide au calcul : contributions assimilées",
+        "B07",
+        "MONTANT"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "MONTANT",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f071",
+      "label": "B08",
+      "path": [
+        "Page 2",
+        "Aide au calcul : contributions assimilées",
+        "Montant",
+        "B08"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "B08",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f072",
+      "label": "Chiffre d’affaires",
+      "path": [
+        "Page 2",
+        "Aide au calcul : contributions assimilées",
+        "B09",
+        "Chiffre d’affaires"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Chiffre d’affaires",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f073",
+      "label": "BASE",
+      "path": [
+        "Page 2",
+        "Aide au calcul : contributions assimilées",
+        "B10",
+        "BASE"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "BASE",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f074",
+      "label": "MONTANT",
+      "path": [
+        "Page 2",
+        "Aide au calcul : contributions assimilées",
+        "B10; taux imprimé 12,00 %",
+        "MONTANT"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "MONTANT",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f075",
+      "label": "B11",
+      "path": [
+        "Page 2",
+        "Aide au calcul : contributions assimilées",
+        "Montant",
+        "B11"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "B11",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f076",
+      "label": "C01",
+      "path": [
+        "Page 2",
+        "Aide au calcul : total du versement",
+        "C01"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "C01",
+      "synthetic_value": "7000"
+    },
+    {
+      "id": "f077",
+      "label": "C02",
+      "path": [
+        "Page 2",
+        "Aide au calcul : total du versement",
+        "C02"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "C02",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f078",
+      "label": "C03",
+      "path": [
+        "Page 2",
+        "Aide au calcul : total du versement",
+        "C03"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "C03",
+      "synthetic_value": "7000"
+    }
+  ],
+  "context": "Exemple fictif de remplissage, sans transmission.\nIdentification et exercice /  / DENOMINATION: Exemple Industrie SAS\nIdentification et exercice /  / Adresse: 20 rue Exemple, 69002 Lyon\nIdentification et exercice /  / SIRET: 00000000000100\nIdentification et exercice /  / Exercice social du: 01/01/2026\nIdentification et exercice / Fin de l'exercice / au: 31/12/2026\nVersements d'IS et contributions assimilées / Imputations, case 01 / Impôt sur les Sociétés: 500\nVersements d'IS et contributions assimilées / Montants à payer, case 03 / Impôt sur les Sociétés: 7000\nVersements d'IS et contributions assimilées / Minoration IS / Minorations: \nVersements d'IS et contributions assimilées /  / Dont crédit d'impôt pour la compétitivité et l'emploi: 0\nVersements d'IS et contributions assimilées /  / Dont report en arrière de déficit: 0\nVersements d'IS et contributions assimilées /  / Dont crédit d'impôt pour investissement en Corse: 0\nVersements d'IS et contributions assimilées /  / Dont crédit d'impôt recherche: 500\nVersements d'IS et contributions assimilées /  / Dont réduction d'impôt mécénat: 0\nVersements d'IS et contributions assimilées /  / Dont réduction d'impôt collectivités outre-mer: 0\nVersements d'IS et contributions assimilées /  / Dont crédit d'impôt recherche collaborative: 0\nVersements d'IS et contributions assimilées /  / Dont créance d'impôt logement locatif intermédiaire: 0\nVersements d'IS et contributions assimilées /  / Dont réduction d'impôt prêt à taux zéro mobilité: 0\nVersements d'IS et contributions assimilées /  / Dont excédent du précédent exercice: 0\nVersements d'IS et contributions assimilées /  / Contribution sur les Revenus Locatifs: 0\nVersements d'IS et contributions assimilées /  / Contribution Sociale: 0\nVersements d'IS et contributions assimilées /  / Contribution exceptionnelle sur les bénéfices des grandes entreprises: 0\nVersements d'IS et contributions assimilées /  / Contribution exceptionnelle sur les entreprises de transport maritime: 0\nVersements d'IS et contributions assimilées /  / Montant d'impôt sur les sociétés et contributions assimilées à payer: 7000\nVersements d'IS et contributions assimilées /  / Plus-value article 208C du CGI: 0\nVersements d'IS et contributions assimilées /  / Montant total à payer: 7000\nVersements d'IS et contributions assimilées / Minoration de contribution / Contribution Sociale: \nPaiement, date et signature du redevable /  / Date: 05/10/2026\nPaiement, date et signature du redevable /  / Téléphone: 0400000100\nPaiement, date et signature du redevable /  / Paiement: Télépaiement\nPaiement, date et signature du redevable /  / signature du redevable: Camille Martin\nPaiement par imputation /  / Contribution visée: Sans objet\nPaiement par imputation /  / Date de l'échéance: Sans objet\nPaiement par imputation /  / Montant à Imputer: 0\nA01 - Acompte d’impôt sur les sociétés (au taux normal à 25 %) / A01 / BASE: 30000\nA01 - Acompte d’impôt sur les sociétés (au taux normal à 25 %) / A01 / TAUX: 25 %\nA01 - Acompte d’impôt sur les sociétés (au taux normal à 25 %) / A01 / MONTANT: 7500\nA02 - Acompte d’impôt sur les sociétés (au taux réduit à 15 %) / A02 / BASE: 0\nA02 - Acompte d’impôt sur les sociétés (au taux réduit à 15 %) / A02 / TAUX: 15 %\nA02 - Acompte d’impôt sur les sociétés (au taux réduit à 15 %) / A02 / MONTANT: 0\nA03 - Acompte sur résultat net de concession des licences d’exploitation / A03 / BASE: 0\nA03 - Acompte sur résultat net de concession des licences d’exploitation / A03 / TAUX: 10 %\nA03 - Acompte sur résultat net de concession des licences d’exploitation / A03 / MONTANT: 0\nAide au calcul : total d'IS /  / A04: 7500\nAide au calcul : total d'IS /  / A05: 0\nAide au calcul : total d'IS /  / A06: 7500\nAide au calcul : imputations /  / A07: 0\nAide au calcul : imputations /  / A08: 0\nAide au calcul : imputations /  / A09: 0\nAide au calcul : imputations /  / A10: 500\nAide au calcul : imputations /  / A11: 0\nAide au calcul : imputations /  / A12: 0\nAide au calcul : imputations /  / A13: 0\nAide au calcul : imputations /  / A14: 0\nAide au calcul : imputations /  / A15: 0\nAide au calcul : imputations /  / A16: 0\nAide au calcul : imputations /  / A17: 500\nAide au calcul : imputations /  / A18: 7000\nAide au calcul : contributions assimilées / B01 / BASE: 0\nAide au calcul : contributions assimilées / B01 / TAUX: 2,5 %\nAide au calcul : contributions assimilées / B01 / MONTANT: 0\nAide au calcul : contributions assimilées / Montant / B02: 0\nAide au calcul : contributions assimilées / B03 / BASE: 0\nAide au calcul : contributions assimilées / B03 / TAUX: 3,3 %\nAide au calcul : contributions assimilées / B03 / MONTANT: 0\nAide au calcul : contributions assimilées / Montant / B04: 0\nAide au calcul : contributions assimilées / Montant / B05: 0\nAide au calcul : contributions assimilées / B06 / Chiffre d’affaires: 0\nAide au calcul : contributions assimilées / B07 / BASE: 0\nAide au calcul : contributions assimilées / B07 / TAUX: 0 %\nAide au calcul : contributions assimilées / B07 / MONTANT: 0\nAide au calcul : contributions assimilées / Montant / B08: 0\nAide au calcul : contributions assimilées / B09 / Chiffre d’affaires: 0\nAide au calcul : contributions assimilées / B10 / BASE: 0\nAide au calcul : contributions assimilées / B10; taux imprimé 12,00 % / MONTANT: 0\nAide au calcul : contributions assimilées / Montant / B11: 0\nAide au calcul : total du versement /  / C01: 7000\nAide au calcul : total du versement /  / C02: 0\nAide au calcul : total du versement /  / C03: 7000",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 100
+  }
+}

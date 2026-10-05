@@ -1,0 +1,884 @@
+[
+  {
+    "key": "Saisir les deux chiffres du département (ex : 01)",
+    "label_info": {
+      "row": 2,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Nom (3 premières lettres)",
+    "label_info": {
+      "row": 5,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Prénom (première lettre)",
+    "label_info": {
+      "row": 5,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Sexe",
+    "label_info": {
+      "row": 6,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Poids",
+    "label_info": {
+      "row": 7,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Taille",
+    "label_info": {
+      "row": 7,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Date de Naissance",
+    "label_info": {
+      "row": 7,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Age",
+    "label_info": {
+      "row": 8,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Si la déclaration concerne un nouveau-né, les médicaments ont été reçus :",
+    "label_info": {
+      "row": 9,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "par le nouveau-né",
+    "label_info": {
+      "row": 10,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "trimestre(s)",
+    "label_info": {
+      "row": 11,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "si disponible, indiquer la date des dernières règles",
+    "label_info": {
+      "row": 12,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Identification du professionnel de santé et coordonnées (code postal)",
+    "label_info": {
+      "row": 13,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Antécédents du patient / Facteurs ayant pu favoriser la survenue de l’effet indésirable",
+    "label_info": {
+      "row": 15,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Médicament",
+    "label_info": {
+      "row": 18,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Voie d’administration",
+    "label_info": {
+      "row": 18,
+      "col": 1
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Posologie",
+    "label_info": {
+      "row": 18,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Début d’utilisation",
+    "label_info": {
+      "row": 18,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Fin d’utilisation",
+    "label_info": {
+      "row": 18,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Indication",
+    "label_info": {
+      "row": 18,
+      "col": 5
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Médicament",
+    "label_info": {
+      "row": 19,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Voie d’administration",
+    "label_info": {
+      "row": 19,
+      "col": 1
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Posologie",
+    "label_info": {
+      "row": 19,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Début d’utilisation",
+    "label_info": {
+      "row": 19,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Fin d’utilisation",
+    "label_info": {
+      "row": 19,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Indication",
+    "label_info": {
+      "row": 19,
+      "col": 5
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Médicament",
+    "label_info": {
+      "row": 20,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Voie d’administration",
+    "label_info": {
+      "row": 20,
+      "col": 1
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Posologie",
+    "label_info": {
+      "row": 20,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Début d’utilisation",
+    "label_info": {
+      "row": 20,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Fin d’utilisation",
+    "label_info": {
+      "row": 20,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Indication",
+    "label_info": {
+      "row": 20,
+      "col": 5
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Médicament",
+    "label_info": {
+      "row": 21,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Voie d’administration",
+    "label_info": {
+      "row": 21,
+      "col": 1
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Posologie",
+    "label_info": {
+      "row": 21,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Début d’utilisation",
+    "label_info": {
+      "row": 21,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Fin d’utilisation",
+    "label_info": {
+      "row": 21,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Indication",
+    "label_info": {
+      "row": 21,
+      "col": 5
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Médicament",
+    "label_info": {
+      "row": 22,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Voie d’administration",
+    "label_info": {
+      "row": 22,
+      "col": 1
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Posologie",
+    "label_info": {
+      "row": 22,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Début d’utilisation",
+    "label_info": {
+      "row": 22,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Fin d’utilisation",
+    "label_info": {
+      "row": 22,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Indication",
+    "label_info": {
+      "row": 22,
+      "col": 5
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Médicament",
+    "label_info": {
+      "row": 23,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Voie d’administration",
+    "label_info": {
+      "row": 23,
+      "col": 1
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Posologie",
+    "label_info": {
+      "row": 23,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Début d’utilisation",
+    "label_info": {
+      "row": 23,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Fin d’utilisation",
+    "label_info": {
+      "row": 23,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Indication",
+    "label_info": {
+      "row": 23,
+      "col": 5
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "indiquer leurs numéros de lot",
+    "label_info": {
+      "row": 26,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Service hospitalier dans lequel le produit a été administré",
+    "label_info": {
+      "row": 27,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Pharmacie qui a délivré le produit",
+    "label_info": {
+      "row": 27,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "préciser leurs dénominations ainsi que leurs numéros de lot",
+    "label_info": {
+      "row": 29,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Déclaration d’hémovigilance",
+    "label_info": {
+      "row": 30,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Département de survenue",
+    "label_info": {
+      "row": 32,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Date de survenue",
+    "label_info": {
+      "row": 32,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Durée de l’effet",
+    "label_info": {
+      "row": 32,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Gravité",
+    "label_info": {
+      "row": 34,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Evolution",
+    "label_info": {
+      "row": 36,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Guérison",
+    "label_info": {
+      "row": 37,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Décès",
+    "label_info": {
+      "row": 38,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Description de l’effet indésirable",
+    "label_info": {
+      "row": 41,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  }
+]

@@ -1,0 +1,462 @@
+{
+  "id": "es-health-41-patient-request",
+  "language": "es",
+  "domain": "Healthcare",
+  "business_topic": "patient-request",
+  "title": "Planilla de Solicitud para Pacientes",
+  "issuer_id": "Hospital Nacional Profesor Alejandro Posadas",
+  "template_family": "patient-request",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/2022/10/planilla_de_solicitud_para_pacientes_2025_para_completar_1.pdf",
+  "landing_url": "https://www.argentina.gob.ar/salud/hospital-nacional-posadas/formularios-hospital-posadas",
+  "source_sha256": "ccc9bacc45eb8568ea371bdd21cafd90d94a6528aec950f05230f687fab2f6b1",
+  "source_pages": 2,
+  "retrieved_at": "2026-09-26T10:15:03.953213+00:00",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "Fuente: institución nacional emisora y Argentina.gob.ar. Texto institucional bajo CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), salvo indicación contraria; normalización de estructura y omisión de gráficos, sin logotipos ni patrocinio.",
+  "columns": 6,
+  "rows": [
+    [
+      {
+        "text": "A COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f001",
+        "label": "FECHA",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f002",
+        "label": "INSUMOS",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f003",
+        "label": "INTERNADO",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f004",
+        "label": "Nombre y Apellido del paciente:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f005",
+        "label": "DNI",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f006",
+        "label": "Fecha de nacimiento",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f007",
+        "label": "Edad",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f008",
+        "label": "Tel.",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f009",
+        "label": "Correo electrónico",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f010",
+        "label": "N° Historia Clínica",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f011",
+        "label": "Piso",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f012",
+        "label": "Cama",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f013",
+        "label": "Obra Social",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f014",
+        "label": "Cual",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f015",
+        "label": "DIAGNÓSTICO",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f016",
+        "label": "INSUMO / ESTUDIO solicitado",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "RESUMEN de Historia Clínica:",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f017",
+        "label": "RESUMEN de Historia Clínica:",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f018",
+        "label": "Observaciones",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "MEDICO SOLICITANTE",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f019",
+        "label": "APELLIDO Y NOMBRE:",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f020",
+        "label": "N° DE MATRÍCULA:",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Fuente: Hospital Nacional Profesor Alejandro Posadas. Documento: Planilla de Solicitud para Pacientes. Versión/identificador impreso: no declarado. https://www.argentina.gob.ar/sites/default/files/2022/10/planilla_de_solicitud_para_pacientes_2025_para_completar_1.pdf. Recuperado: 2026-09-26. Condiciones de reutilización: https://www.argentina.gob.ar/terminos-y-condiciones. Fuente: institución nacional emisora y Argentina.gob.ar. Texto institucional bajo CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), salvo indicación contraria; normalización de estructura y omisión de gráficos, sin logotipos ni patrocinio. Adaptación de estructura con datos ficticios.",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "FECHA",
+      "path": [
+        "A COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE",
+        "FECHA"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "FECHA",
+      "synthetic_value": "26/09/2026"
+    },
+    {
+      "id": "f002",
+      "label": "INSUMOS",
+      "path": [
+        "A COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE",
+        "INSUMOS"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "INSUMOS",
+      "synthetic_value": "INSUMOS",
+      "options": [
+        "INSUMOS",
+        "ESTUDIOS"
+      ],
+      "context_evidence": "A COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE / INSUMOS: selección [\"INSUMOS\"]; las demás opciones no se marcan."
+    },
+    {
+      "id": "f003",
+      "label": "INTERNADO",
+      "path": [
+        "A COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE",
+        "INTERNADO"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "INTERNADO",
+      "synthetic_value": "INTERNADO",
+      "options": [
+        "INTERNADO",
+        "AMBULATORIO"
+      ],
+      "context_evidence": "A COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE / INTERNADO: selección [\"INTERNADO\"]; las demás opciones no se marcan."
+    },
+    {
+      "id": "f004",
+      "label": "Nombre y Apellido del paciente:",
+      "path": [
+        "A COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE",
+        "Nombre y Apellido del paciente:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre y Apellido del paciente:",
+      "synthetic_value": "Marina Paciente Ejemplo"
+    },
+    {
+      "id": "f005",
+      "label": "DNI",
+      "path": [
+        "A COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE",
+        "DNI"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DNI",
+      "synthetic_value": "DNI-FICTICIO-41"
+    },
+    {
+      "id": "f006",
+      "label": "Fecha de nacimiento",
+      "path": [
+        "A COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE",
+        "Fecha de nacimiento"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha de nacimiento",
+      "synthetic_value": "12/04/1981"
+    },
+    {
+      "id": "f007",
+      "label": "Edad",
+      "path": [
+        "A COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE",
+        "Edad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Edad",
+      "synthetic_value": "45"
+    },
+    {
+      "id": "f008",
+      "label": "Tel.",
+      "path": [
+        "A COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE",
+        "Tel."
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Tel.",
+      "synthetic_value": "000-000-0041"
+    },
+    {
+      "id": "f009",
+      "label": "Correo electrónico",
+      "path": [
+        "A COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE",
+        "Correo electrónico"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Correo electrónico",
+      "synthetic_value": "marina41@example.invalid"
+    },
+    {
+      "id": "f010",
+      "label": "N° Historia Clínica",
+      "path": [
+        "A COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE",
+        "N° Historia Clínica"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "N° Historia Clínica",
+      "synthetic_value": "HC-FICTICIA-41"
+    },
+    {
+      "id": "f011",
+      "label": "Piso",
+      "path": [
+        "A COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE",
+        "Piso"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Piso",
+      "synthetic_value": "3"
+    },
+    {
+      "id": "f012",
+      "label": "Cama",
+      "path": [
+        "A COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE",
+        "Cama"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cama",
+      "synthetic_value": "12"
+    },
+    {
+      "id": "f013",
+      "label": "Obra Social",
+      "path": [
+        "A COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE",
+        "Obra Social"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Obra Social",
+      "synthetic_value": "SI",
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "A COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE / Obra Social: selección [\"SI\"]; las demás opciones no se marcan."
+    },
+    {
+      "id": "f014",
+      "label": "Cual",
+      "path": [
+        "A COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE",
+        "Cual"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cual",
+      "synthetic_value": "Obra Social Ficticia"
+    },
+    {
+      "id": "f015",
+      "label": "DIAGNÓSTICO",
+      "path": [
+        "A COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE",
+        "DIAGNÓSTICO"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DIAGNÓSTICO",
+      "synthetic_value": "Fractura de tibia en recuperación, supuesto ficticio"
+    },
+    {
+      "id": "f016",
+      "label": "INSUMO / ESTUDIO solicitado",
+      "path": [
+        "A COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE",
+        "INSUMO / ESTUDIO solicitado"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "INSUMO / ESTUDIO solicitado",
+      "synthetic_value": "Ortesis de apoyo ficticia"
+    },
+    {
+      "id": "f017",
+      "label": "RESUMEN de Historia Clínica:",
+      "path": [
+        "RESUMEN de Historia Clínica:",
+        "RESUMEN de Historia Clínica:"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "RESUMEN de Historia Clínica:",
+      "synthetic_value": "Paciente ficticia internada tras cirugía de fractura de tibia; se solicita una ortesis para la recuperación."
+    },
+    {
+      "id": "f018",
+      "label": "Observaciones",
+      "path": [
+        "RESUMEN de Historia Clínica:",
+        "Observaciones"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Observaciones",
+      "synthetic_value": "Solicitud ficticia de un insumo; sin estudio adicional."
+    },
+    {
+      "id": "f019",
+      "label": "APELLIDO Y NOMBRE:",
+      "path": [
+        "MEDICO SOLICITANTE",
+        "APELLIDO Y NOMBRE:"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "APELLIDO Y NOMBRE:",
+      "synthetic_value": "Elena Médica Ejemplo"
+    },
+    {
+      "id": "f020",
+      "label": "N° DE MATRÍCULA:",
+      "path": [
+        "MEDICO SOLICITANTE",
+        "N° DE MATRÍCULA:"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "N° DE MATRÍCULA:",
+      "synthetic_value": "MATRÍCULA-FICTICIA-41"
+    }
+  ],
+  "source_version": null,
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "value": null,
+    "kind": "update_date_not_stated",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/2022/10/planilla_de_solicitud_para_pacientes_2025_para_completar_1.pdf",
+    "detail": "No edition number or document update date stated on the inspected pages. Document title and exact hashed original identify this source; retrieval is separate."
+  },
+  "context": "Caso de prueba enteramente ficticio. Las identidades, instituciones, documentos, resultados y firmas son sintéticos. No se presenta una solicitud real.\nA COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE / FECHA: 26/09/2026.\nA COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE / INSUMOS: selección [\"INSUMOS\"]; las demás opciones no se marcan.\nA COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE / INTERNADO: selección [\"INTERNADO\"]; las demás opciones no se marcan.\nA COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE / Nombre y Apellido del paciente:: Marina Paciente Ejemplo.\nA COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE / DNI: DNI-FICTICIO-41.\nA COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE / Fecha de nacimiento: 12/04/1981.\nA COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE / Edad: 45.\nA COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE / Tel.: 000-000-0041.\nA COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE / Correo electrónico: marina41@example.invalid.\nA COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE / N° Historia Clínica: HC-FICTICIA-41.\nA COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE / Piso: 3.\nA COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE / Cama: 12.\nA COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE / Obra Social: selección [\"SI\"]; las demás opciones no se marcan.\nA COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE / Cual: Obra Social Ficticia.\nA COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE / DIAGNÓSTICO: Fractura de tibia en recuperación, supuesto ficticio.\nA COMPLETAR POR EL ÁREA ASISTENCIAL SOLICITANTE / INSUMO / ESTUDIO solicitado: Ortesis de apoyo ficticia.\nRESUMEN de Historia Clínica: / RESUMEN de Historia Clínica:: Paciente ficticia internada tras cirugía de fractura de tibia; se solicita una ortesis para la recuperación..\nRESUMEN de Historia Clínica: / Observaciones: Solicitud ficticia de un insumo; sin estudio adicional..\nMEDICO SOLICITANTE / APELLIDO Y NOMBRE:: Elena Médica Ejemplo.\nMEDICO SOLICITANTE / N° DE MATRÍCULA:: MATRÍCULA-FICTICIA-41.",
+  "workflow_identity": {
+    "language": "es",
+    "id": 41
+  }
+}

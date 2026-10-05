@@ -1,0 +1,260 @@
+{
+  "Page 1": {
+    "Patient": {
+      "Nom*": "",
+      "Prénom*": "",
+      "Date de naissance*": "",
+      "Téléphone": "",
+      "Courriel": ""
+    },
+    "Tierce personne": {
+      "Tierce personne": {
+        "choices": [
+          "Représentant légal (obligatoire pour les mineurs)",
+          "Personne de confiance, si l’état clinique du patient ne lui\npermet pas de répondre à l’investigation de l’ARS"
+        ],
+        "value": []
+      },
+      "Nom": "",
+      "Prénom": "",
+      "Téléphone": "",
+      "Courriel": ""
+    },
+    "Identification": {
+      "Sexe*": {
+        "choices": [
+          "F",
+          "M",
+          "I"
+        ],
+        "value": []
+      },
+      "Année de naissance": "",
+      "Age": "",
+      "Précisez": {
+        "choices": [
+          "ans",
+          "mois (si < 2 ans)",
+          "jours (si < 1 mois)"
+        ],
+        "value": []
+      },
+      "Code postal du domicile*": "",
+      "Pays si patient résidant à l’étranger": "",
+      "Le patient (ou le tiers) est-il informé du diagnostic*": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": []
+      },
+      "L’état clinique du patient lui permet-il de répondre à l’investigation": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": []
+      },
+      "Code d’anonymat (à remplir par l’ARS)": "",
+      "Date de signalement*": ""
+    },
+    "Biologie": {
+      "1": {
+        "RT-PCR": {
+          "Date": "",
+          "Résultat": {
+            "choices": [
+              "Positif",
+              "Négatif",
+              "Non fait"
+            ],
+            "value": []
+          }
+        }
+      },
+      "RT-PCR autre": {
+        "Nature du prélèvement": ""
+      },
+      "2": {
+        "RT-PCR": {
+          "Date": "",
+          "Résultat": {
+            "choices": [
+              "Positif",
+              "Négatif",
+              "Non fait"
+            ],
+            "value": []
+          }
+        }
+      },
+      "3": {
+        "IgM": {
+          "Date": "",
+          "Résultat": {
+            "choices": [
+              "Positif",
+              "Négatif",
+              "Non fait"
+            ],
+            "value": []
+          }
+        }
+      },
+      "4": {
+        "IgG": {
+          "Date": "",
+          "Résultat": {
+            "choices": [
+              "Positif",
+              "Négatif",
+              "Non fait"
+            ],
+            "value": []
+          },
+          "Séro-conversion": {
+            "choices": [
+              "Séro-conversion"
+            ],
+            "value": []
+          },
+          "Multiplication par 4": {
+            "choices": [
+              "Multiplication par 4"
+            ],
+            "value": []
+          }
+        }
+      }
+    },
+    "Clinique": {
+      "Date des premiers signes cliniques": "",
+      "Fièvre": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": []
+      },
+      "Douleurs articulaires": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": []
+      }
+    },
+    "Évolution": {
+      "Hospitalisation": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": []
+      },
+      "Réanimation": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": []
+      },
+      "Décès": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": []
+      }
+    },
+    "Exposition(s) à risque dans les 15 jours précédant les premiers signes cliniques (plusieurs réponses possibles)": {
+      "Séjour à l’étranger / dans un territoire ultramarin": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": []
+      },
+      "si oui, précisez-le(s) pays/territoire(s)": "",
+      "Séjour étranger": {
+        "Retour": ""
+      },
+      "Avant symptômes": {
+        "Séjour": {
+          "choices": [
+            "oui",
+            "non",
+            "nsp"
+          ],
+          "value": []
+        },
+        "Département": "",
+        "Retour": ""
+      }
+    },
+    "Déplacement dans les 7 jours après la date de début des signes cliniques (période virémique)": {
+      "Après symptômes": {
+        "Séjour": {
+          "choices": [
+            "oui",
+            "non",
+            "nsp"
+          ],
+          "value": []
+        },
+        "Département": "",
+        "Retour": ""
+      },
+      "Existence d’autres cas dans l’entourage": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": []
+      }
+    },
+    "Antécédents": {
+      "Vaccination Chikungunya": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": []
+      },
+      "Année": ""
+    },
+    "Médecin prescripteur / Signalant1 (ou tampon)": {
+      "Nom / RPPS": "",
+      "Lieux d’exercice": "",
+      "Adresse": "",
+      "Téléphone": "",
+      "Courriel": ""
+    },
+    "Biologiste2 (ou tampon)": {
+      "Biologiste": {
+        "Nom": {
+          "RPPS": ""
+        },
+        "LBM": {
+          "Finess": ""
+        },
+        "Adresse": "",
+        "Téléphone": "",
+        "Courriel": ""
+      }
+    },
+    "ARS (tampon)": {
+      "ARS (tampon)": ""
+    }
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "id": "es-174-fonadis-acreditacion",
+  "language": "es",
+  "domain": "Business",
+  "business_topic": "Autorización de acreditación de pagos en cuenta bancaria",
+  "title": "Autorización de acreditación de pagos en cuenta bancaria",
+  "issuer_id": "Tesorería General de la Nación",
+  "template_family": "fonadis-acreditacion",
+  "source_pages": 1,
+  "source_sha256": "319e16e91ad2f34121812c4069e76b0c09a251291a8a47ebec988e52866e1fd9",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/2025/03/formulario_autorizacion_de_acreditacion_de_pagos_del_tesoro_nacional_en_cuenta_bancaria_-_fonadis_2025_0.pdf",
+  "landing_url": "https://www.argentina.gob.ar/servicio/programa-de-fortalecimiento-de-establecimientos-comerciales-que-empleen-personas-con",
+  "license_url": "https://www.argentina.gob.ar/acerca",
+  "license_note": "Argentina.gob.ar states CC BY 4.0 for its published material. Normalized text and form structure only; no artwork or official endorsement. Contrary notices and third-party content require separate screening.",
+  "retrieved_at": "2026-10-05",
+  "source_version": "FONADIS 2025 download label; no printed revision",
+  "source_date_evidence": {
+    "kind": "PDF file ModDate",
+    "value": "2020-06-06",
+    "raw": "D:20200606121504-03'00'",
+    "scope": "PDF file metadata only; not an official publication, effective, or current-version date.",
+    "version_basis": "The official PDF filename and program download label contain FONADIS 2025; the PDF itself has older metadata, so 2025 is not asserted as its issue date.",
+    "retrieval_timestamp_utc": "2026-10-04T18:40:55.705360+00:00"
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "AUTORIZACION DE ACREDITACION DE PAGOS DEL TESORO NACIONAL EN CUENTA BANCARIA",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Localidad,",
+        "field": "f001",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Denominación del Organismo donde se presenta",
+        "field": "f002",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Apellido y Nombre",
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Carácter por el cual firma",
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Razón Social/",
+        "field": "f005",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Número de CUIT Impositivo",
+        "field": "f006",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "DATOS DE LA CUENTA BANCARIA",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "CUENTA CORRIENTE/ DE AHORRO: CODIGO y Nº",
+        "field": "f007",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "CBU DE LA CUENTA",
+        "field": "f008",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "C.U.I.T. CUENTA CORRIENTE/ DE AHORRO",
+        "field": "f009",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "TITULARIDAD",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "DENOMINACION",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "BANCO",
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "SUCURSAL",
+        "field": "f013",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "DOMICILIO",
+        "field": "f014",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Certificación bancaria del cuadro de datos de la cuenta",
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Firma y aclaración del beneficiario",
+        "field": "f016",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Localidad,",
+      "path": [
+        "Página 1",
+        "Datos del beneficiario",
+        "Localidad,"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Localidad,",
+      "synthetic_value": "Córdoba, 05/10/2026",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f002",
+      "label": "Denominación del Organismo donde se presenta",
+      "path": [
+        "Página 1",
+        "Datos del beneficiario",
+        "Denominación del Organismo donde se presenta"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Denominación del Organismo donde se presenta",
+      "synthetic_value": "Organismo ficticio",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f003",
+      "label": "Apellido y Nombre",
+      "path": [
+        "Página 1",
+        "Datos del beneficiario",
+        "Apellido y Nombre"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Apellido y Nombre",
+      "synthetic_value": "Lucía Pérez",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f004",
+      "label": "Carácter por el cual firma",
+      "path": [
+        "Página 1",
+        "Datos del beneficiario",
+        "Carácter por el cual firma"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Carácter por el cual firma",
+      "synthetic_value": "Presidenta",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f005",
+      "label": "Razón Social/",
+      "path": [
+        "Página 1",
+        "Datos del beneficiario",
+        "Razón Social/"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Razón Social/",
+      "synthetic_value": "Empresa Ejemplo SRL",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f006",
+      "label": "Número de CUIT Impositivo",
+      "path": [
+        "Página 1",
+        "Datos del beneficiario",
+        "Número de CUIT Impositivo"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Número de CUIT Impositivo",
+      "synthetic_value": "30-00000001-0",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f007",
+      "label": "CUENTA CORRIENTE/ DE AHORRO: CODIGO y Nº",
+      "path": [
+        "Página 1",
+        "Cuenta bancaria",
+        "CUENTA CORRIENTE/ DE AHORRO: CODIGO y Nº"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CUENTA CORRIENTE/ DE AHORRO: CODIGO y Nº",
+      "synthetic_value": "Cuenta corriente 000123",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f008",
+      "label": "CBU DE LA CUENTA",
+      "path": [
+        "Página 1",
+        "Cuenta bancaria",
+        "CBU DE LA CUENTA"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CBU DE LA CUENTA",
+      "synthetic_value": "0000000000000000000000",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f009",
+      "label": "C.U.I.T. CUENTA CORRIENTE/ DE AHORRO",
+      "path": [
+        "Página 1",
+        "Cuenta bancaria",
+        "C.U.I.T. CUENTA CORRIENTE/ DE AHORRO"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "C.U.I.T. CUENTA CORRIENTE/ DE AHORRO",
+      "synthetic_value": "30-00000001-0",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f010",
+      "label": "TITULARIDAD",
+      "path": [
+        "Página 1",
+        "Cuenta bancaria",
+        "TITULARIDAD"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "TITULARIDAD",
+      "synthetic_value": "Empresa Ejemplo SRL",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f011",
+      "label": "DENOMINACION",
+      "path": [
+        "Página 1",
+        "Cuenta bancaria",
+        "DENOMINACION"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DENOMINACION",
+      "synthetic_value": "Cuenta operativa",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f012",
+      "label": "BANCO",
+      "path": [
+        "Página 1",
+        "Cuenta bancaria",
+        "BANCO"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "BANCO",
+      "synthetic_value": "Banco de Ejemplo",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f013",
+      "label": "SUCURSAL",
+      "path": [
+        "Página 1",
+        "Cuenta bancaria",
+        "SUCURSAL"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "SUCURSAL",
+      "synthetic_value": "Sucursal Central 001",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f014",
+      "label": "DOMICILIO",
+      "path": [
+        "Página 1",
+        "Cuenta bancaria",
+        "DOMICILIO"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DOMICILIO",
+      "synthetic_value": "Calle Ficticia 25, Córdoba",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f015",
+      "label": "Certificación bancaria del cuadro de datos de la cuenta",
+      "path": [
+        "Página 1",
+        "Certificaciones",
+        "Certificación bancaria del cuadro de datos de la cuenta"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Certificación bancaria del cuadro de datos de la cuenta",
+      "synthetic_value": "Certificación ficticia",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f016",
+      "label": "Firma y aclaración del beneficiario",
+      "path": [
+        "Página 1",
+        "Certificaciones",
+        "Firma y aclaración del beneficiario"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Firma y aclaración del beneficiario",
+      "synthetic_value": "Lucía Pérez - firma ficticia",
+      "source_visible_blank": true
+    }
+  ],
+  "context": "Datos ficticios de prueba; no corresponde a una solicitud real.\nDatos del beneficiario / Localidad,: Córdoba, 05/10/2026\nDatos del beneficiario / Denominación del Organismo donde se presenta: Organismo ficticio\nDatos del beneficiario / Apellido y Nombre: Lucía Pérez\nDatos del beneficiario / Carácter por el cual firma: Presidenta\nDatos del beneficiario / Razón Social/: Empresa Ejemplo SRL\nDatos del beneficiario / Número de CUIT Impositivo: 30-00000001-0\nCuenta bancaria / CUENTA CORRIENTE/ DE AHORRO: CODIGO y Nº: Cuenta corriente 000123\nCuenta bancaria / CBU DE LA CUENTA: 0000000000000000000000\nCuenta bancaria / C.U.I.T. CUENTA CORRIENTE/ DE AHORRO: 30-00000001-0\nCuenta bancaria / TITULARIDAD: Empresa Ejemplo SRL\nCuenta bancaria / DENOMINACION: Cuenta operativa\nCuenta bancaria / BANCO: Banco de Ejemplo\nCuenta bancaria / SUCURSAL: Sucursal Central 001\nCuenta bancaria / DOMICILIO: Calle Ficticia 25, Córdoba\nCertificaciones / Certificación bancaria del cuadro de datos de la cuenta: Certificación ficticia\nCertificaciones / Firma y aclaración del beneficiario: Lucía Pérez - firma ficticia\n",
+  "workflow_identity": {
+    "language": "es",
+    "id": 174
+  }
+}

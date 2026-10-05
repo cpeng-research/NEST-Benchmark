@@ -1,0 +1,433 @@
+{
+  "id": "fr-141-credit-pret-avance-mutation",
+  "language": "fr",
+  "domain": "Finance",
+  "business_topic": "Crédit d’impôt au titre des prêts avance mutation sans intérêt",
+  "issuer_id": "Direction générale des finances publiques",
+  "template_family": "credit-pret-avance-mutation",
+  "title": "Crédit d’impôt au titre des prêts avance mutation sans intérêt",
+  "source_pages": 2,
+  "source_sha256": "41c7523523bbfe7ff1a999959545ccf204ed9b2ed65878857820ff4400c349db",
+  "retrieved_at": "2026-10-05T03:00:54+08:00",
+  "source_version": "2078-H-SD; Cerfa 17590*01; (2026)",
+  "source_url": "https://www.impots.gouv.fr/sites/default/files/formulaires/2078-h-sd/2026/2078-h-sd_5329.pdf",
+  "landing_url": "https://www.impots.gouv.fr/formulaire/2078-h-sd/credit-dimpot-par",
+  "license_url": "https://www.impots.gouv.fr/mentions-legales",
+  "license_note": "DGFiP site notice: public information under Licence Ouverte Etalab 2.0, except explicit third-party intellectual property. Source text and field structure are normalized; the original PDF and DGFiP graphics are not redistributed.",
+  "source_date_evidence": {
+    "kind": "PDF printed mark; DGFiP listing millésime",
+    "value": "2078-H-SD; Cerfa 17590*01; (2026)",
+    "landing": "DGFiP form listing, Millésime 2026",
+    "pdf_version_mark": "2078-H-SD; Cerfa 17590*01; (2026)",
+    "publisher_listing_millesime": "2026",
+    "scope": "The listing millésime is recorded separately from the PDF print mark."
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "Identification de l’entreprise",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Au titre de l’année",
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Exercice du",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "au",
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Dénomination de l’entreprise",
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Adresse",
+        "field": "f005",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "N° SIREN",
+        "field": "f006",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Cadre du régime de groupe réservé à une société mère, sans objet dans cet exemple.",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "I. Crédit d’impôt disponible",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Crédit d’impôt de l’entreprise imputable ou à reverser",
+        "field": "f007",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Quote-part du crédit d’impôt résultant de la participation",
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Montant total du crédit d'impôt imputable ou à reverser",
+        "field": "f009",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "II. Participations dans des sociétés de personnes",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nom et adresse des sociétés de personnes ou groupements assimilés",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "% de droits détenus",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Quote-part du crédit d’impôt",
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Montant total du crédit d’impôt dégagé",
+        "field": "f013",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "III. Répartition entre associés",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Nom et adresse des associés et n° SIREN",
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "% de droits détenus",
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Quote-part du crédit",
+        "field": "f016",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "TOTAL",
+        "field": "f017",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Instruction imprimée relative à la restitution du crédit non imputé.",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Source : Direction générale des finances publiques; https://www.impots.gouv.fr/sites/default/files/formulaires/2078-h-sd/2026/2078-h-sd_5329.pdf; DGFiP form listing, Millésime 2026.",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Au titre de l’année",
+      "path": [
+        "Page 1",
+        "Identification de l’entreprise",
+        "Au titre de l’année"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Au titre de l’année",
+      "synthetic_value": "2026"
+    },
+    {
+      "id": "f002",
+      "label": "Exercice du",
+      "path": [
+        "Page 1",
+        "Identification de l’entreprise",
+        "Exercice du"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Exercice du",
+      "synthetic_value": "01/01/2026"
+    },
+    {
+      "id": "f003",
+      "label": "au",
+      "path": [
+        "Page 1",
+        "Identification de l’entreprise",
+        "au"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "au",
+      "synthetic_value": "31/12/2026"
+    },
+    {
+      "id": "f004",
+      "label": "Dénomination de l’entreprise",
+      "path": [
+        "Page 1",
+        "Identification de l’entreprise",
+        "Dénomination de l’entreprise"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dénomination de l’entreprise",
+      "synthetic_value": "Exemple Prêts SA"
+    },
+    {
+      "id": "f005",
+      "label": "Adresse",
+      "path": [
+        "Page 1",
+        "Identification de l’entreprise",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Adresse",
+      "synthetic_value": "7 avenue Centrale, 75009 Paris"
+    },
+    {
+      "id": "f006",
+      "label": "N° SIREN",
+      "path": [
+        "Page 1",
+        "Identification de l’entreprise",
+        "N° SIREN"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "N° SIREN",
+      "synthetic_value": "000000141"
+    },
+    {
+      "id": "f007",
+      "label": "Crédit d’impôt de l’entreprise imputable ou à reverser",
+      "path": [
+        "Page 1",
+        "I. Crédit d’impôt disponible",
+        "Ligne 1",
+        "Crédit d’impôt de l’entreprise imputable ou à reverser"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Crédit d’impôt de l’entreprise imputable ou à reverser",
+      "synthetic_value": "4 000 €"
+    },
+    {
+      "id": "f008",
+      "label": "Quote-part du crédit d’impôt résultant de la participation",
+      "path": [
+        "Page 1",
+        "I. Crédit d’impôt disponible",
+        "Ligne 2",
+        "Quote-part du crédit d’impôt résultant de la participation"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Quote-part du crédit d’impôt résultant de la participation",
+      "synthetic_value": "0 €"
+    },
+    {
+      "id": "f009",
+      "label": "Montant total du crédit d'impôt imputable ou à reverser",
+      "path": [
+        "Page 1",
+        "I. Crédit d’impôt disponible",
+        "Ligne 3",
+        "Montant total du crédit d'impôt imputable ou à reverser"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant total du crédit d'impôt imputable ou à reverser",
+      "synthetic_value": "4 000 €"
+    },
+    {
+      "id": "f010",
+      "label": "Nom et adresse des sociétés de personnes ou groupements assimilés",
+      "path": [
+        "Page 1",
+        "II. Participations dans des sociétés de personnes",
+        "Nom et adresse des sociétés de personnes ou groupements assimilés"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom et adresse des sociétés de personnes ou groupements assimilés",
+      "synthetic_value": "Aucune participation"
+    },
+    {
+      "id": "f011",
+      "label": "% de droits détenus",
+      "path": [
+        "Page 1",
+        "II. Participations dans des sociétés de personnes",
+        "% de droits détenus"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "% de droits détenus",
+      "synthetic_value": "0 %"
+    },
+    {
+      "id": "f012",
+      "label": "Quote-part du crédit d’impôt",
+      "path": [
+        "Page 1",
+        "II. Participations dans des sociétés de personnes",
+        "Quote-part du crédit d’impôt"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Quote-part du crédit d’impôt",
+      "synthetic_value": "0 €"
+    },
+    {
+      "id": "f013",
+      "label": "Montant total du crédit d’impôt dégagé",
+      "path": [
+        "Page 1",
+        "II. Participations dans des sociétés de personnes",
+        "Ligne 4",
+        "Montant total du crédit d’impôt dégagé"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant total du crédit d’impôt dégagé",
+      "synthetic_value": "0 €"
+    },
+    {
+      "id": "f014",
+      "label": "Nom et adresse des associés et n° SIREN",
+      "path": [
+        "Page 2",
+        "III. Répartition entre associés",
+        "Nom et adresse des associés et n° SIREN"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom et adresse des associés et n° SIREN",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "f015",
+      "label": "% de droits détenus",
+      "path": [
+        "Page 2",
+        "III. Répartition entre associés",
+        "% de droits détenus"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "% de droits détenus",
+      "synthetic_value": "0 %"
+    },
+    {
+      "id": "f016",
+      "label": "Quote-part du crédit",
+      "path": [
+        "Page 2",
+        "III. Répartition entre associés",
+        "Quote-part du crédit"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Quote-part du crédit",
+      "synthetic_value": "0 €"
+    },
+    {
+      "id": "f017",
+      "label": "TOTAL",
+      "path": [
+        "Page 2",
+        "III. Répartition entre associés",
+        "TOTAL"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "TOTAL",
+      "synthetic_value": "0 €"
+    }
+  ],
+  "context": "Exemple fictif de remplissage, sans transmission.\nIdentification de l’entreprise /  / Au titre de l’année: 2026\nIdentification de l’entreprise /  / Exercice du: 01/01/2026\nIdentification de l’entreprise /  / au: 31/12/2026\nIdentification de l’entreprise /  / Dénomination de l’entreprise: Exemple Prêts SA\nIdentification de l’entreprise /  / Adresse: 7 avenue Centrale, 75009 Paris\nIdentification de l’entreprise /  / N° SIREN: 000000141\nI. Crédit d’impôt disponible / Ligne 1 / Crédit d’impôt de l’entreprise imputable ou à reverser: 4 000 €\nI. Crédit d’impôt disponible / Ligne 2 / Quote-part du crédit d’impôt résultant de la participation: 0 €\nI. Crédit d’impôt disponible / Ligne 3 / Montant total du crédit d'impôt imputable ou à reverser: 4 000 €\nII. Participations dans des sociétés de personnes /  / Nom et adresse des sociétés de personnes ou groupements assimilés: Aucune participation\nII. Participations dans des sociétés de personnes /  / % de droits détenus: 0 %\nII. Participations dans des sociétés de personnes /  / Quote-part du crédit d’impôt: 0 €\nII. Participations dans des sociétés de personnes / Ligne 4 / Montant total du crédit d’impôt dégagé: 0 €\nIII. Répartition entre associés /  / Nom et adresse des associés et n° SIREN: Sans objet\nIII. Répartition entre associés /  / % de droits détenus: 0 %\nIII. Répartition entre associés /  / Quote-part du crédit: 0 €\nIII. Répartition entre associés /  / TOTAL: 0 €",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 141
+  }
+}

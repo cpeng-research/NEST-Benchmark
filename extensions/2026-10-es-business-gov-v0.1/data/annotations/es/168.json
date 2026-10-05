@@ -1,0 +1,327 @@
+{
+  "id": "es-168-anac-horas-anses",
+  "language": "es",
+  "domain": "GovPublic",
+  "business_topic": "Solicitud de certificación de horas de vuelo para ANSES",
+  "title": "Solicitud de certificación de horas de vuelo para ANSES",
+  "issuer_id": "ANAC",
+  "template_family": "anac-horas-anses",
+  "source_pages": 1,
+  "source_sha256": "f2f4e629f67c920c7f17d576c6acf150c4e7baac9069eec2b9aa132f33a0e121",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/2021/05/solicitud-certif-hs-vuelo-anses.pdf",
+  "landing_url": "https://www.argentina.gob.ar/anac/personal-aeronautico/foliado-de-libro-de-vuelo/certificaciones-de-horas-de-vuelo",
+  "license_url": "https://www.argentina.gob.ar/acerca",
+  "license_note": "Argentina.gob.ar states CC BY 4.0 for its published material. Normalized text and form structure only; no artwork or official endorsement. Contrary notices and third-party content require separate screening.",
+  "retrieved_at": "2026-10-05",
+  "source_version": "No version stated",
+  "source_date_evidence": {
+    "kind": "PDF file ModDate",
+    "value": "2019-08-27",
+    "raw": "D:20190827165109-03'00'",
+    "scope": "PDF file metadata only; not an official publication, effective, or current-version date.",
+    "version_basis": "The ANAC ANSES flight-hours PDF and official landing link show no revision code.",
+    "retrieval_timestamp_utc": "2026-10-04T18:40:55.649453+00:00"
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "Solicitud de certificación de horas de vuelo",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "BUENOS AIRES,",
+        "field": "f001",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "ANSES/",
+        "field": "f002",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Adjunto fotocopia de la última hoja del libro de vuelo foliado",
+        "field": "f003",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Adjunto fotocopia del último vuelo de Junio de 1994",
+        "field": "f004",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Adjunto fotocopia del último vuelo de cada corte de empresas en que voló",
+        "field": "f005",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Adjunto fotocopia del Psicofísico vigente",
+        "field": "f006",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Firma del Solicitante",
+        "field": "f007",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Aclaración de Firma",
+        "field": "f008",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "DNI",
+        "field": "f009",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Tipo y N° de Licencia",
+        "field": "f010",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "N° de Teléfono y Celular",
+        "field": "f011",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "e-mail",
+        "field": "f012",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "BUENOS AIRES,",
+      "path": [
+        "Página 1",
+        "Encabezado",
+        "BUENOS AIRES,"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "BUENOS AIRES,",
+      "synthetic_value": "05 de octubre de 2026",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f002",
+      "label": "ANSES/",
+      "path": [
+        "Página 1",
+        "Destino",
+        "ANSES/"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "ANSES/",
+      "synthetic_value": "ANSES - trámite ficticio",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f003",
+      "label": "Adjunto fotocopia de la última hoja del libro de vuelo foliado",
+      "path": [
+        "Página 1",
+        "Documentos adjuntos",
+        "Adjunto fotocopia de la última hoja del libro de vuelo foliado"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Adjunto fotocopia de la última hoja del libro de vuelo foliado",
+      "synthetic_value": "si",
+      "source_visible_blank": true,
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "Documentos adjuntos / Adjunto fotocopia de la última hoja del libro de vuelo foliado: si"
+    },
+    {
+      "id": "f004",
+      "label": "Adjunto fotocopia del último vuelo de Junio de 1994",
+      "path": [
+        "Página 1",
+        "Documentos adjuntos",
+        "Adjunto fotocopia del último vuelo de Junio de 1994"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Adjunto fotocopia del último vuelo de Junio de 1994",
+      "synthetic_value": "si",
+      "source_visible_blank": true,
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "Documentos adjuntos / Adjunto fotocopia del último vuelo de Junio de 1994: si"
+    },
+    {
+      "id": "f005",
+      "label": "Adjunto fotocopia del último vuelo de cada corte de empresas en que voló",
+      "path": [
+        "Página 1",
+        "Documentos adjuntos",
+        "Adjunto fotocopia del último vuelo de cada corte de empresas en que voló"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Adjunto fotocopia del último vuelo de cada corte de empresas en que voló",
+      "synthetic_value": "no",
+      "source_visible_blank": true,
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "Documentos adjuntos / Adjunto fotocopia del último vuelo de cada corte de empresas en que voló: no"
+    },
+    {
+      "id": "f006",
+      "label": "Adjunto fotocopia del Psicofísico vigente",
+      "path": [
+        "Página 1",
+        "Documentos adjuntos",
+        "Adjunto fotocopia del Psicofísico vigente"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Adjunto fotocopia del Psicofísico vigente",
+      "synthetic_value": "si",
+      "source_visible_blank": true,
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "Documentos adjuntos / Adjunto fotocopia del Psicofísico vigente: si"
+    },
+    {
+      "id": "f007",
+      "label": "Firma del Solicitante",
+      "path": [
+        "Página 1",
+        "Firma y contacto",
+        "Firma del Solicitante"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Firma del Solicitante",
+      "synthetic_value": "Firma ficticia",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f008",
+      "label": "Aclaración de Firma",
+      "path": [
+        "Página 1",
+        "Firma y contacto",
+        "Aclaración de Firma"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Aclaración de Firma",
+      "synthetic_value": "Elena Suárez",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f009",
+      "label": "DNI",
+      "path": [
+        "Página 1",
+        "Firma y contacto",
+        "DNI"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DNI",
+      "synthetic_value": "00000001",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f010",
+      "label": "Tipo y N° de Licencia",
+      "path": [
+        "Página 1",
+        "Firma y contacto",
+        "Tipo y N° de Licencia"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Tipo y N° de Licencia",
+      "synthetic_value": "Piloto privado L-0001",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f011",
+      "label": "N° de Teléfono y Celular",
+      "path": [
+        "Página 1",
+        "Firma y contacto",
+        "N° de Teléfono y Celular"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "N° de Teléfono y Celular",
+      "synthetic_value": "011 4000 0000",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f012",
+      "label": "e-mail",
+      "path": [
+        "Página 1",
+        "Firma y contacto",
+        "e-mail"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "e-mail",
+      "synthetic_value": "elena@example.org",
+      "source_visible_blank": true
+    }
+  ],
+  "context": "Datos ficticios de prueba; no corresponde a una solicitud real.\nEncabezado / BUENOS AIRES,: 05 de octubre de 2026\nDestino / ANSES/: ANSES - trámite ficticio\nDocumentos adjuntos / Adjunto fotocopia de la última hoja del libro de vuelo foliado: si\nDocumentos adjuntos / Adjunto fotocopia del último vuelo de Junio de 1994: si\nDocumentos adjuntos / Adjunto fotocopia del último vuelo de cada corte de empresas en que voló: no\nDocumentos adjuntos / Adjunto fotocopia del Psicofísico vigente: si\nFirma y contacto / Firma del Solicitante: Firma ficticia\nFirma y contacto / Aclaración de Firma: Elena Suárez\nFirma y contacto / DNI: 00000001\nFirma y contacto / Tipo y N° de Licencia: Piloto privado L-0001\nFirma y contacto / N° de Teléfono y Celular: 011 4000 0000\nFirma y contacto / e-mail: elena@example.org\n",
+  "workflow_identity": {
+    "language": "es",
+    "id": 168
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "id": "fr-elysee-prim-attestation-2027",
+  "language": "fr",
+  "domain": "Education",
+  "title": "Attestation de participation Élysée Prim - premier degré",
+  "template_family": "elysee-prim-attestation-2027",
+  "issuer": "DGESCO",
+  "issuer_id": "DGESCO",
+  "source_pages": 1,
+  "columns": 1,
+  "rows": [
+    [
+      {
+        "text": "Programme Élysée Prim - année scolaire 2027-2028",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Attestation de participation au programme Élysée Prim pour les enseignants du premier degré, à compléter par les services académiques.",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "academie",
+        "label": "Académie de",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "civilite",
+        "label": "Madame/Monsieur",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "enseignant",
+        "label": "Madame/Monsieur",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "qualite_departement",
+        "label": "Professeur des écoles/instituteur dans le département",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "ecole",
+        "label": "Dans l’école",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "adresse",
+        "label": "Adresse",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "ville",
+        "label": "Ville",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Le professeur participera au programme du 1er août 2027 au 31 juillet 2028, tout en restant rémunéré par son autorité de tutelle en France.",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "fait_a",
+        "label": "Fait à",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "date",
+        "label": "le",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "signataire",
+        "label": "Nom et signature de l’IA-DASEN",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "academie",
+      "label": "Académie de",
+      "source_page": 1,
+      "source_anchor": "Académie de",
+      "path": [
+        "Programme Élysée Prim - année scolaire 2027-2028",
+        "Académie de"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "civilite",
+      "label": "Madame/Monsieur",
+      "source_page": 1,
+      "source_anchor": "Madame/Monsieur",
+      "path": [
+        "Programme Élysée Prim - année scolaire 2027-2028",
+        "Madame/Monsieur"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Madame"
+      ],
+      "options": [
+        "Madame",
+        "Monsieur"
+      ],
+      "context_evidence": "Programme Élysée Prim - année scolaire 2027-2028 / Madame/Monsieur : Madame."
+    },
+    {
+      "id": "enseignant",
+      "label": "Madame/Monsieur",
+      "source_page": 1,
+      "source_anchor": "Madame/Monsieur",
+      "path": [
+        "Programme Élysée Prim - année scolaire 2027-2028",
+        "Nom de l'enseignant"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille Martin"
+    },
+    {
+      "id": "qualite_departement",
+      "label": "Professeur des écoles/instituteur dans le département",
+      "source_page": 1,
+      "source_anchor": "Professeur des écoles/instituteur dans le département",
+      "path": [
+        "Programme Élysée Prim - année scolaire 2027-2028",
+        "Professeur des écoles/instituteur dans le département"
+      ],
+      "kind": "text",
+      "synthetic_value": "Professeure des écoles, Paris"
+    },
+    {
+      "id": "ecole",
+      "label": "Dans l’école",
+      "source_page": 1,
+      "source_anchor": "Dans l’école",
+      "path": [
+        "Programme Élysée Prim - année scolaire 2027-2028",
+        "Dans l’école"
+      ],
+      "kind": "text",
+      "synthetic_value": "École Exemple"
+    },
+    {
+      "id": "adresse",
+      "label": "Adresse",
+      "source_page": 1,
+      "source_anchor": "Adresse",
+      "path": [
+        "Programme Élysée Prim - année scolaire 2027-2028",
+        "Adresse"
+      ],
+      "kind": "text",
+      "synthetic_value": "12 rue Exemple"
+    },
+    {
+      "id": "ville",
+      "label": "Ville",
+      "source_page": 1,
+      "source_anchor": "Ville",
+      "path": [
+        "Programme Élysée Prim - année scolaire 2027-2028",
+        "Ville"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "fait_a",
+      "label": "Fait à",
+      "source_page": 1,
+      "source_anchor": "Fait à",
+      "path": [
+        "Programme Élysée Prim - année scolaire 2027-2028",
+        "Fait à"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "date",
+      "label": "le",
+      "source_page": 1,
+      "source_anchor": "le",
+      "path": [
+        "Programme Élysée Prim - année scolaire 2027-2028",
+        "le"
+      ],
+      "kind": "text",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "signataire",
+      "label": "Nom et signature de l’IA-DASEN",
+      "source_page": 1,
+      "source_anchor": "Nom et signature de l’IA-DASEN",
+      "path": [
+        "Programme Élysée Prim - année scolaire 2027-2028",
+        "Nom et signature de l’IA-DASEN"
+      ],
+      "kind": "text",
+      "synthetic_value": "Julien Dubois (signature fictive)"
+    }
+  ],
+  "source_url": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-elysee-prim-attestation-participation-premier-degre-formulaire-2-127601.docx",
+  "landing_url": "https://eduscol.education.gouv.fr/5133/echange-franco-allemand-programme-elysee-prim",
+  "license_url": "https://eduscol.education.gouv.fr/4656/mentions-legales",
+  "license_note": "Eduscol legal notice applies Etalab 2.0 to downloadable documents, excluding third-party contributions. Ministry-authored form text only; artwork and logos excluded.",
+  "source_sha256": "f75b5e52c9ca86d8f9f03fa73c2b5b11521fb7a8d40a09279354b9e56add1eaf",
+  "retrieved_at": "2026-10-04T18:10:27.002226+00:00",
+  "source_version": "année scolaire 2027-2028",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "kind": "printed_document_date_or_version",
+    "value": "année scolaire 2027-2028",
+    "source_url": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-elysee-prim-attestation-participation-premier-degre-formulaire-2-127601.docx",
+    "detail": "Printed document evidence; not a website update claim."
+  },
+  "context": "Dossier fictif à des fins d'évaluation, sans identité réelle ni dépôt administratif.\nProgramme Élysée Prim - année scolaire 2027-2028 / Académie de : Paris.\nProgramme Élysée Prim - année scolaire 2027-2028 / Madame/Monsieur : Madame.\nProgramme Élysée Prim - année scolaire 2027-2028 / Nom de l'enseignant : Camille Martin.\nProgramme Élysée Prim - année scolaire 2027-2028 / Professeur des écoles/instituteur dans le département : Professeure des écoles, Paris.\nProgramme Élysée Prim - année scolaire 2027-2028 / Dans l’école : École Exemple.\nProgramme Élysée Prim - année scolaire 2027-2028 / Adresse : 12 rue Exemple.\nProgramme Élysée Prim - année scolaire 2027-2028 / Ville : Paris.\nProgramme Élysée Prim - année scolaire 2027-2028 / Fait à : Paris.\nProgramme Élysée Prim - année scolaire 2027-2028 / le : 05/10/2026.\nProgramme Élysée Prim - année scolaire 2027-2028 / Nom et signature de l’IA-DASEN : Julien Dubois (signature fictive).",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 114
+  },
+  "review_pdf_sha256": "9f99703fef047724fe287e1fe0c26303395c18e030cce84b424a03bd3dca527d",
+  "source_conversion": {
+    "method": "LibreOffice PDF export without content edits",
+    "original_sha256": "f75b5e52c9ca86d8f9f03fa73c2b5b11521fb7a8d40a09279354b9e56add1eaf",
+    "review_pdf_sha256": "9f99703fef047724fe287e1fe0c26303395c18e030cce84b424a03bd3dca527d"
+  }
+}

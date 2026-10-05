@@ -1,0 +1,884 @@
+[
+  {
+    "key": "FECHA SOLICITUD",
+    "label_info": {
+      "row": 2,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "APELLIDO",
+    "label_info": {
+      "row": 2,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "NOMBRES",
+    "label_info": {
+      "row": 2,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "DNI",
+    "label_info": {
+      "row": 3,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "HIV",
+    "label_info": {
+      "row": 3,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "FECHA NACIMIENTO",
+    "label_info": {
+      "row": 3,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "SEXO",
+    "label_info": {
+      "row": 3,
+      "col": 5
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "EDAD",
+    "label_info": {
+      "row": 4,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "OCUPACIÓN",
+    "label_info": {
+      "row": 4,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "NACIONALIDAD",
+    "label_info": {
+      "row": 4,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "PROV. RESIDENCIA",
+    "label_info": {
+      "row": 5,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "CIUDAD",
+    "label_info": {
+      "row": 5,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "TELÉFONO PACIENTE",
+    "label_info": {
+      "row": 5,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Hospital/Institución",
+    "label_info": {
+      "row": 7,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Ciudad de la institución",
+    "label_info": {
+      "row": 7,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Nombre del médico",
+    "label_info": {
+      "row": 8,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Mail del médico",
+    "label_info": {
+      "row": 8,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "ESTUDIO DE",
+    "label_info": {
+      "row": 10,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "MUESTRAS",
+    "label_info": {
+      "row": 11,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "TRATAMIENTO",
+    "label_info": {
+      "row": 13,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Esquema",
+    "label_info": {
+      "row": 14,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Fecha INICIO",
+    "label_info": {
+      "row": 15,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Fecha FIN",
+    "label_info": {
+      "row": 15,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "HEPATITIS",
+    "label_info": {
+      "row": 17,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "INMUNOSUPRESIÓN",
+    "label_info": {
+      "row": 18,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "¿Cuál?",
+    "label_info": {
+      "row": 19,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "EMBARAZO",
+    "label_info": {
+      "row": 20,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Semana",
+    "label_info": {
+      "row": 21,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "CIRROSIS",
+    "label_info": {
+      "row": 22,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "HCC",
+    "label_info": {
+      "row": 23,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "VACUNA HBV",
+    "label_info": {
+      "row": 24,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Dosis",
+    "label_info": {
+      "row": 25,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Fecha",
+    "label_info": {
+      "row": 25,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "COMORBILIDADES",
+    "label_info": {
+      "row": 26,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "anti-HCV",
+    "label_info": {
+      "row": 28,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Valor",
+    "label_info": {
+      "row": 29,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Fecha",
+    "label_info": {
+      "row": 29,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "carga viral",
+    "label_info": {
+      "row": 30,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "genotipo",
+    "label_info": {
+      "row": 30,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Fecha",
+    "label_info": {
+      "row": 30,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "anti-HDV",
+    "label_info": {
+      "row": 32,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Valor",
+    "label_info": {
+      "row": 33,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Fecha",
+    "label_info": {
+      "row": 33,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "HBsAg",
+    "label_info": {
+      "row": 35,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Valor",
+    "label_info": {
+      "row": 35,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "anti-HBs",
+    "label_info": {
+      "row": 36,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Valor",
+    "label_info": {
+      "row": 36,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "anti-HBc",
+    "label_info": {
+      "row": 37,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Valor",
+    "label_info": {
+      "row": 37,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Fecha",
+    "label_info": {
+      "row": 38,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Carga viral",
+    "label_info": {
+      "row": 39,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Fecha",
+    "label_info": {
+      "row": 39,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "ALAT (TGP)",
+    "label_info": {
+      "row": 42,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "ASAT (TGO)",
+    "label_info": {
+      "row": 42,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Bilirrubina total",
+    "label_info": {
+      "row": 43,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Bilirrubina directa",
+    "label_info": {
+      "row": 43,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "TP",
+    "label_info": {
+      "row": 43,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "FACTORES DE RIESGO",
+    "label_info": {
+      "row": 45,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Año",
+    "label_info": {
+      "row": 47,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Año",
+    "label_info": {
+      "row": 47,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "SÍNTOMAS",
+    "label_info": {
+      "row": 49,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "SÍNTOMAS",
+    "label_info": {
+      "row": 49,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "SÍNTOMAS",
+    "label_info": {
+      "row": 49,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  }
+]

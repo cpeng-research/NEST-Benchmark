@@ -1,0 +1,406 @@
+{
+  "id": "fr-dgac-high-risk-spo-v2",
+  "language": "fr",
+  "domain": "GovPublic",
+  "title": "Autorisation d'exploitation spécialisée commerciale à haut risque",
+  "template_family": "dgac-high-risk-spo-v2",
+  "issuer": "DGAC/DSAC",
+  "issuer_id": "DGAC/DSAC",
+  "source_pages": 1,
+  "columns": 1,
+  "rows": [
+    [
+      {
+        "text": "R5-SPO-F2-V2 - Exploitant SPO",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "nom_officiel",
+        "label": "Nom officiel",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "nom_commercial",
+        "label": "Nom commercial (si différent)",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "adresse",
+        "label": "Adresse",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "adresse_postale",
+        "label": "Adresse postale (si différente)",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "contact",
+        "label": "Téléphone / fax / email",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "numero_exploitant",
+        "label": "N° d’exploitant déclaré (si applicable)",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Exploitations SPO commerciales à haut risque",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "aeronef",
+        "label": "Type(s) aéronef(s) et immatriculation(s)",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "operations",
+        "label": "Exploitations spécialisées commerciales à haut risque envisagées",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "zones",
+        "label": "Zones ou sites d’exploitation envisagés",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Dossier de demande - références et versions",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "gestion",
+        "label": "Description du système de gestion et de la structure organisationnelle de l’exploitant",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "risques",
+        "label": "Dossier d’évaluation des risques des exploitations envisagées",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "procedures",
+        "label": "Procédures d’exploitation standard",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "conformite",
+        "label": "Matrice de conformité au règlement",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Signature de l'exploitant",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "fonction",
+        "label": "Fonction",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "nom",
+        "label": "Nom",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "lieu_date",
+        "label": "Lieu et Date",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "signature",
+        "label": "Signature",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "nom_officiel",
+      "label": "Nom officiel",
+      "source_page": 1,
+      "source_anchor": "Nom officiel",
+      "path": [
+        "R5-SPO-F2-V2 - Exploitant SPO",
+        "Nom officiel"
+      ],
+      "kind": "text",
+      "synthetic_value": "Aéro Exemple SAS"
+    },
+    {
+      "id": "nom_commercial",
+      "label": "Nom commercial (si différent)",
+      "source_page": 1,
+      "source_anchor": "Nom commercial (si différent)",
+      "path": [
+        "R5-SPO-F2-V2 - Exploitant SPO",
+        "Nom commercial (si différent)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Aéro Exemple"
+    },
+    {
+      "id": "adresse",
+      "label": "Adresse",
+      "source_page": 1,
+      "source_anchor": "Adresse",
+      "path": [
+        "R5-SPO-F2-V2 - Exploitant SPO",
+        "Adresse"
+      ],
+      "kind": "text",
+      "synthetic_value": "12 rue Exemple, 75012 Paris"
+    },
+    {
+      "id": "adresse_postale",
+      "label": "Adresse postale (si différente)",
+      "source_page": 1,
+      "source_anchor": "Adresse postale (si différente)",
+      "path": [
+        "R5-SPO-F2-V2 - Exploitant SPO",
+        "Adresse postale (si différente)"
+      ],
+      "kind": "text",
+      "synthetic_value": "BP 123, 75012 Paris"
+    },
+    {
+      "id": "contact",
+      "label": "Téléphone / fax / email",
+      "source_page": 1,
+      "source_anchor": "Téléphone / fax / email",
+      "path": [
+        "R5-SPO-F2-V2 - Exploitant SPO",
+        "Téléphone / fax / email"
+      ],
+      "kind": "text",
+      "synthetic_value": "01 00 00 00 01 / sans fax / contact@example.invalid"
+    },
+    {
+      "id": "numero_exploitant",
+      "label": "N° d’exploitant déclaré (si applicable)",
+      "source_page": 1,
+      "source_anchor": "N° d’exploitant déclaré (si applicable)",
+      "path": [
+        "R5-SPO-F2-V2 - Exploitant SPO",
+        "N° d’exploitant déclaré (si applicable)"
+      ],
+      "kind": "text",
+      "synthetic_value": "SPO-EX-001"
+    },
+    {
+      "id": "aeronef",
+      "label": "Type(s) aéronef(s) et immatriculation(s)",
+      "source_page": 1,
+      "source_anchor": "Type(s) aéronef(s) et immatriculation(s)",
+      "path": [
+        "Exploitations SPO commerciales à haut risque",
+        "Type(s) aéronef(s) et immatriculation(s)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Hélicoptère Exemple H1, F-EXAB"
+    },
+    {
+      "id": "operations",
+      "label": "Exploitations spécialisées commerciales à haut risque envisagées",
+      "source_page": 1,
+      "source_anchor": "Exploitations spécialisées commerciales à haut risque envisagées",
+      "path": [
+        "Exploitations SPO commerciales à haut risque",
+        "Exploitations spécialisées commerciales à haut risque envisagées"
+      ],
+      "kind": "text",
+      "synthetic_value": "Travaux aériens fictifs"
+    },
+    {
+      "id": "zones",
+      "label": "Zones ou sites d’exploitation envisagés",
+      "source_page": 1,
+      "source_anchor": "Zones ou sites d’exploitation envisagés",
+      "path": [
+        "Exploitations SPO commerciales à haut risque",
+        "Zones ou sites d’exploitation envisagés"
+      ],
+      "kind": "text",
+      "synthetic_value": "Site fictif en Île-de-France"
+    },
+    {
+      "id": "gestion",
+      "label": "Description du système de gestion et de la structure organisationnelle de l’exploitant",
+      "source_page": 1,
+      "source_anchor": "Description du système de gestion et de la structure organisationnelle de l’exploitant",
+      "path": [
+        "Dossier de demande - références et versions",
+        "Description du système de gestion et de la structure organisationnelle de l’exploitant"
+      ],
+      "kind": "text",
+      "synthetic_value": "SGS-EX, v1"
+    },
+    {
+      "id": "risques",
+      "label": "Dossier d’évaluation des risques des exploitations envisagées",
+      "source_page": 1,
+      "source_anchor": "Dossier d’évaluation des risques des exploitations envisagées",
+      "path": [
+        "Dossier de demande - références et versions",
+        "Dossier d’évaluation des risques des exploitations envisagées"
+      ],
+      "kind": "text",
+      "synthetic_value": "RIS-EX, v1"
+    },
+    {
+      "id": "procedures",
+      "label": "Procédures d’exploitation standard",
+      "source_page": 1,
+      "source_anchor": "Procédures d’exploitation standard",
+      "path": [
+        "Dossier de demande - références et versions",
+        "Procédures d’exploitation standard"
+      ],
+      "kind": "text",
+      "synthetic_value": "SOP-EX, v1"
+    },
+    {
+      "id": "conformite",
+      "label": "Matrice de conformité au règlement",
+      "source_page": 1,
+      "source_anchor": "Matrice de conformité au règlement",
+      "path": [
+        "Dossier de demande - références et versions",
+        "Matrice de conformité au règlement"
+      ],
+      "kind": "text",
+      "synthetic_value": "MAT-EX, v1"
+    },
+    {
+      "id": "fonction",
+      "label": "Fonction",
+      "source_page": 1,
+      "source_anchor": "Fonction",
+      "path": [
+        "Signature de l'exploitant",
+        "Fonction"
+      ],
+      "kind": "text",
+      "synthetic_value": "Directrice des opérations"
+    },
+    {
+      "id": "nom",
+      "label": "Nom",
+      "source_page": 1,
+      "source_anchor": "Nom",
+      "path": [
+        "Signature de l'exploitant",
+        "Nom"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille Martin"
+    },
+    {
+      "id": "lieu_date",
+      "label": "Lieu et Date",
+      "source_page": 1,
+      "source_anchor": "Lieu et Date",
+      "path": [
+        "Signature de l'exploitant",
+        "Lieu et Date"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paris, 05/10/2026"
+    },
+    {
+      "id": "signature",
+      "label": "Signature",
+      "source_page": 1,
+      "source_anchor": "Signature",
+      "path": [
+        "Signature de l'exploitant",
+        "Signature"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille Martin (signature fictive)"
+    }
+  ],
+  "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/R5-SPO-F2.pdf",
+  "landing_url": "https://www.ecologie.gouv.fr/politiques-publiques/guides-exploitants-daeronefs",
+  "license_url": "https://www.ecologie.gouv.fr/mentions-legales",
+  "license_note": "Ecologie legal notice applies Etalab 2.0 to site content absent a third-party rights notice; source and known last-update date must be attributed. Ministry-authored form text only.",
+  "source_sha256": "4cf99b5c8e3125968288613098d69191223cd38c30dc9343269826ebcef0bd6d",
+  "retrieved_at": "2026-10-04T18:08:56.037856+00:00",
+  "source_version": "R5-SPO-F2-V2",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "kind": "printed_document_date_or_version",
+    "value": "R5-SPO-F2-V2",
+    "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/R5-SPO-F2.pdf",
+    "detail": "Printed document evidence; not a website update claim."
+  },
+  "context": "Dossier fictif à des fins d'évaluation, sans identité réelle ni dépôt administratif.\nR5-SPO-F2-V2 - Exploitant SPO / Nom officiel : Aéro Exemple SAS.\nR5-SPO-F2-V2 - Exploitant SPO / Nom commercial (si différent) : Aéro Exemple.\nR5-SPO-F2-V2 - Exploitant SPO / Adresse : 12 rue Exemple, 75012 Paris.\nR5-SPO-F2-V2 - Exploitant SPO / Adresse postale (si différente) : BP 123, 75012 Paris.\nR5-SPO-F2-V2 - Exploitant SPO / Téléphone / fax / email : 01 00 00 00 01 / sans fax / contact@example.invalid.\nR5-SPO-F2-V2 - Exploitant SPO / N° d’exploitant déclaré (si applicable) : SPO-EX-001.\nExploitations SPO commerciales à haut risque / Type(s) aéronef(s) et immatriculation(s) : Hélicoptère Exemple H1, F-EXAB.\nExploitations SPO commerciales à haut risque / Exploitations spécialisées commerciales à haut risque envisagées : Travaux aériens fictifs.\nExploitations SPO commerciales à haut risque / Zones ou sites d’exploitation envisagés : Site fictif en Île-de-France.\nDossier de demande - références et versions / Description du système de gestion et de la structure organisationnelle de l’exploitant : SGS-EX, v1.\nDossier de demande - références et versions / Dossier d’évaluation des risques des exploitations envisagées : RIS-EX, v1.\nDossier de demande - références et versions / Procédures d’exploitation standard : SOP-EX, v1.\nDossier de demande - références et versions / Matrice de conformité au règlement : MAT-EX, v1.\nSignature de l'exploitant / Fonction : Directrice des opérations.\nSignature de l'exploitant / Nom : Camille Martin.\nSignature de l'exploitant / Lieu et Date : Paris, 05/10/2026.\nSignature de l'exploitant / Signature : Camille Martin (signature fictive).",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 109
+  }
+}

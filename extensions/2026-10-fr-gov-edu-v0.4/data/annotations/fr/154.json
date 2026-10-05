@@ -1,0 +1,525 @@
+{
+  "id": "fr-dgac-ulm-f001-classe1-2019",
+  "language": "fr",
+  "domain": "GovPublic",
+  "title": "Éléments descriptifs d'un ULM classe 1",
+  "template_family": "dgac-ulm-f001-classe1-2019",
+  "issuer": "DGAC/DSAC",
+  "issuer_id": "DGAC/DSAC",
+  "source_pages": 1,
+  "columns": 1,
+  "rows": [
+    [
+      {
+        "text": "Contexte",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "contexte",
+        "label": "une demande de fiche d’identification",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "serie",
+        "label": "de série",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "marques",
+        "label": "Marques d’identification",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "marques_absentes",
+        "label": "Cocher la case si l’ULM n’a pas encore de",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Éléments descriptifs de l'ULM",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "constructeur",
+        "label": "Constructeur",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "modele",
+        "label": "Appellation/modèle",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "occupants",
+        "label": "Occupant(s)",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "masse_min",
+        "label": "Masse minimale",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "masse_max",
+        "label": "Masse maximale",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "voile_fabricant",
+        "label": "Fabricant",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "voile_modele",
+        "label": "Modèle / référence",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "voile_surface",
+        "label": "Surface à plat",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "resistance",
+        "label": "Résistance minimale d’ancrage",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "autres_limites",
+        "label": "Autres limitations",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "equipement",
+        "label": "Equipements spéciaux obligatoires",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "activites",
+        "label": "Activités particulières",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "autre_activite",
+        "label": "AU (préciser)",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Dossier d'utilisation",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "manuel_usage",
+        "label": "Titre ou référence du manuel d’utilisation",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "manuel_entretien",
+        "label": "Titre ou référence du manuel d’entretien",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Signature",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "date",
+        "label": "Date",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "signature",
+        "label": "Nom, prénom, signature",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "contexte",
+      "label": "une demande de fiche d’identification",
+      "source_page": 1,
+      "source_anchor": "une demande de fiche d’identification",
+      "path": [
+        "Contexte",
+        "une demande de fiche d’identification"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "une demande de fiche d’identification"
+      ],
+      "options": [
+        "une demande de fiche d’identification",
+        "une déclaration de modification majeure de l’ULM"
+      ],
+      "context_evidence": "Contexte / une demande de fiche d’identification : une demande de fiche d’identification."
+    },
+    {
+      "id": "serie",
+      "label": "de série",
+      "source_page": 1,
+      "source_anchor": "de série",
+      "path": [
+        "Contexte",
+        "de série"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "de série"
+      ],
+      "options": [
+        "de série",
+        "non de série"
+      ],
+      "context_evidence": "Contexte / de série : de série."
+    },
+    {
+      "id": "marques",
+      "label": "Marques d’identification",
+      "source_page": 1,
+      "source_anchor": "Marques d’identification",
+      "path": [
+        "Contexte",
+        "Marques d’identification"
+      ],
+      "kind": "text",
+      "synthetic_value": "F-JEXA"
+    },
+    {
+      "id": "marques_absentes",
+      "label": "Cocher la case si l’ULM n’a pas encore de",
+      "source_page": 1,
+      "source_anchor": "Cocher la case si l’ULM n’a pas encore de",
+      "path": [
+        "Contexte",
+        "Cocher la case si l’ULM n’a pas encore de"
+      ],
+      "kind": "checkbox_multi",
+      "synthetic_value": [],
+      "options": [
+        "Cocher la case si l’ULM n’a pas encore de"
+      ],
+      "context_evidence": "Contexte / Cocher la case si l’ULM n’a pas encore de : ."
+    },
+    {
+      "id": "constructeur",
+      "label": "Constructeur",
+      "source_page": 1,
+      "source_anchor": "Constructeur",
+      "path": [
+        "Éléments descriptifs de l'ULM",
+        "Constructeur"
+      ],
+      "kind": "text",
+      "synthetic_value": "Aéro Exemple"
+    },
+    {
+      "id": "modele",
+      "label": "Appellation/modèle",
+      "source_page": 1,
+      "source_anchor": "Appellation/modèle",
+      "path": [
+        "Éléments descriptifs de l'ULM",
+        "Appellation/modèle"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paramoteur EX-1"
+    },
+    {
+      "id": "occupants",
+      "label": "Occupant(s)",
+      "source_page": 1,
+      "source_anchor": "Occupant(s)",
+      "path": [
+        "Éléments descriptifs de l'ULM",
+        "Occupant(s)"
+      ],
+      "kind": "text",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "masse_min",
+      "label": "Masse minimale",
+      "source_page": 1,
+      "source_anchor": "Masse minimale",
+      "path": [
+        "Éléments descriptifs de l'ULM",
+        "Masse minimale"
+      ],
+      "kind": "text",
+      "synthetic_value": "75 kg"
+    },
+    {
+      "id": "masse_max",
+      "label": "Masse maximale",
+      "source_page": 1,
+      "source_anchor": "Masse maximale",
+      "path": [
+        "Éléments descriptifs de l'ULM",
+        "Masse maximale"
+      ],
+      "kind": "text",
+      "synthetic_value": "140 kg"
+    },
+    {
+      "id": "voile_fabricant",
+      "label": "Fabricant",
+      "source_page": 1,
+      "source_anchor": "Fabricant",
+      "path": [
+        "Éléments descriptifs de l'ULM",
+        "Fabricant"
+      ],
+      "kind": "text",
+      "synthetic_value": "Voile Exemple"
+    },
+    {
+      "id": "voile_modele",
+      "label": "Modèle / référence",
+      "source_page": 1,
+      "source_anchor": "Modèle / référence",
+      "path": [
+        "Éléments descriptifs de l'ULM",
+        "Modèle / référence"
+      ],
+      "kind": "text",
+      "synthetic_value": "VEX-2"
+    },
+    {
+      "id": "voile_surface",
+      "label": "Surface à plat",
+      "source_page": 1,
+      "source_anchor": "Surface à plat",
+      "path": [
+        "Éléments descriptifs de l'ULM",
+        "Surface à plat"
+      ],
+      "kind": "text",
+      "synthetic_value": "25 m2"
+    },
+    {
+      "id": "resistance",
+      "label": "Résistance minimale d’ancrage",
+      "source_page": 1,
+      "source_anchor": "Résistance minimale d’ancrage",
+      "path": [
+        "Éléments descriptifs de l'ULM",
+        "Résistance minimale d’ancrage"
+      ],
+      "kind": "text",
+      "synthetic_value": "700 daN"
+    },
+    {
+      "id": "autres_limites",
+      "label": "Autres limitations",
+      "source_page": 1,
+      "source_anchor": "Autres limitations",
+      "path": [
+        "Éléments descriptifs de l'ULM",
+        "Autres limitations"
+      ],
+      "kind": "text",
+      "synthetic_value": "Conditions décrites au manuel EX-1"
+    },
+    {
+      "id": "equipement",
+      "label": "Equipements spéciaux obligatoires",
+      "source_page": 1,
+      "source_anchor": "Equipements spéciaux obligatoires",
+      "path": [
+        "Éléments descriptifs de l'ULM",
+        "Equipements spéciaux obligatoires"
+      ],
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "parachute de sécurité"
+      ],
+      "options": [
+        "parachute de sécurité",
+        "coque, flotteurs"
+      ],
+      "context_evidence": "Éléments descriptifs de l'ULM / Equipements spéciaux obligatoires : parachute de sécurité."
+    },
+    {
+      "id": "activites",
+      "label": "Activités particulières",
+      "source_page": 1,
+      "source_anchor": "Activités particulières",
+      "path": [
+        "Éléments descriptifs de l'ULM",
+        "Activités particulières"
+      ],
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "OA"
+      ],
+      "options": [
+        "EA",
+        "LP",
+        "LC",
+        "TC",
+        "HL",
+        "RB",
+        "PUL",
+        "LI",
+        "OA",
+        "AU"
+      ],
+      "context_evidence": "Éléments descriptifs de l'ULM / Activités particulières : OA."
+    },
+    {
+      "id": "autre_activite",
+      "label": "AU (préciser)",
+      "source_page": 1,
+      "source_anchor": "AU (préciser)",
+      "path": [
+        "Éléments descriptifs de l'ULM",
+        "AU (préciser)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "manuel_usage",
+      "label": "Titre ou référence du manuel d’utilisation",
+      "source_page": 1,
+      "source_anchor": "Titre ou référence du manuel d’utilisation",
+      "path": [
+        "Dossier d'utilisation",
+        "Titre ou référence du manuel d’utilisation"
+      ],
+      "kind": "text",
+      "synthetic_value": "MU-EX-1"
+    },
+    {
+      "id": "manuel_entretien",
+      "label": "Titre ou référence du manuel d’entretien",
+      "source_page": 1,
+      "source_anchor": "Titre ou référence du manuel d’entretien",
+      "path": [
+        "Dossier d'utilisation",
+        "Titre ou référence du manuel d’entretien"
+      ],
+      "kind": "text",
+      "synthetic_value": "ME-EX-1"
+    },
+    {
+      "id": "date",
+      "label": "Date",
+      "source_page": 1,
+      "source_anchor": "Date",
+      "path": [
+        "Signature",
+        "Date"
+      ],
+      "kind": "text",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "signature",
+      "label": "Nom, prénom, signature",
+      "source_page": 1,
+      "source_anchor": "Nom, prénom, signature",
+      "path": [
+        "Signature",
+        "Nom, prénom, signature"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille Martin (signature fictive)"
+    }
+  ],
+  "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/R8-ULM_F001_FR_classe_1.pdf",
+  "landing_url": "https://www.ecologie.gouv.fr/politiques-publiques/ulm-demarches-constructeurs-dulm-serie",
+  "license_url": "https://www.ecologie.gouv.fr/mentions-legales",
+  "license_note": "Ecologie site content: Etalab 2.0 absent third-party notice; source and known update date credited; branding and artwork excluded from retained fields.",
+  "source_sha256": "fdb69f279783c86fd47d5a6cfe66fc104ccfccbd85de060c486344dc0b03d2bd",
+  "retrieved_at": "2026-10-04T19:14:47.645657+00:00",
+  "source_version": "R8-ULM-F001; version 27/06/2019",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "kind": "Printed form identifier and version date",
+    "value": "R8-ULM-F001; version 27/06/2019",
+    "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/R8-ULM_F001_FR_classe_1.pdf"
+  },
+  "context": "Dossier fictif à des fins d'évaluation, sans identité réelle ni dépôt administratif.\nContexte / une demande de fiche d’identification : une demande de fiche d’identification.\nContexte / de série : de série.\nContexte / Marques d’identification : F-JEXA.\nContexte / Cocher la case si l’ULM n’a pas encore de : .\nÉléments descriptifs de l'ULM / Constructeur : Aéro Exemple.\nÉléments descriptifs de l'ULM / Appellation/modèle : Paramoteur EX-1.\nÉléments descriptifs de l'ULM / Occupant(s) : 1.\nÉléments descriptifs de l'ULM / Masse minimale : 75 kg.\nÉléments descriptifs de l'ULM / Masse maximale : 140 kg.\nÉléments descriptifs de l'ULM / Fabricant : Voile Exemple.\nÉléments descriptifs de l'ULM / Modèle / référence : VEX-2.\nÉléments descriptifs de l'ULM / Surface à plat : 25 m2.\nÉléments descriptifs de l'ULM / Résistance minimale d’ancrage : 700 daN.\nÉléments descriptifs de l'ULM / Autres limitations : Conditions décrites au manuel EX-1.\nÉléments descriptifs de l'ULM / Equipements spéciaux obligatoires : parachute de sécurité.\nÉléments descriptifs de l'ULM / Activités particulières : OA.\nÉléments descriptifs de l'ULM / AU (préciser) : Sans objet.\nDossier d'utilisation / Titre ou référence du manuel d’utilisation : MU-EX-1.\nDossier d'utilisation / Titre ou référence du manuel d’entretien : ME-EX-1.\nSignature / Date : 05/10/2026.\nSignature / Nom, prénom, signature : Camille Martin (signature fictive).",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 154
+  }
+}

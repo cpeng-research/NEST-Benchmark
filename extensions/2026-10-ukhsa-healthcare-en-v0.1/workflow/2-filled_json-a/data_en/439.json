@@ -1,0 +1,130 @@
+{
+  "SENDER’S INFORMATION": {
+    "Sender name and address": "Example Hospital Laboratory, 1 Example Road, London",
+    "Postcode": "ZZ1 1ZZ",
+    "Report to be sent FAO": "Dr A Taylor",
+    "Contact Phone": "+44 20 0000 0000",
+    "Ext": "101",
+    "Purchase order number": "PO-439-001",
+    "Project code": "SYN-439"
+  },
+  "PATIENT/SOURCE INFORMATION": {
+    "Source type": {
+      "choices": [
+        "Human",
+        "Animal",
+        "Other*"
+      ],
+      "value": [
+        "Human",
+        "Other*"
+      ]
+    },
+    "*Please specify": "Human transplant tissue",
+    "NHS number": "000 000 0000",
+    "Surname": "Taylor",
+    "Forename": "Alex",
+    "Sex": {
+      "choices": [
+        "male",
+        "female"
+      ],
+      "value": [
+        "female"
+      ]
+    },
+    "Date of birth": "05/06/1988",
+    "Age": "38",
+    "Patient’s postcode": "ZZ1 1ZZ",
+    "Patient’s HPT": "Example HPT",
+    "Hospital number": "H439001",
+    "Hospital name": "Example Hospital",
+    "Ward/ clinic name": "Infectious Diseases",
+    "Ward type": "Medical",
+    "Have previous samples been sent to UKHSA": {
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "value": [
+        "Yes"
+      ]
+    },
+    "UKHSA reference number": "UKHSA-PRIOR-439",
+    "Medico-legal case": {
+      "choices": [
+        "Medico-legal case"
+      ],
+      "value": []
+    }
+  },
+  "SAMPLE INFORMATION": {
+    "Your reference": "SYN-439-01",
+    "Sample type": {
+      "choices": [
+        "Serum",
+        "Plasma",
+        "EDTA whole blood",
+        "Other (please specify)"
+      ],
+      "value": [
+        "Serum",
+        "Other (please specify)"
+      ]
+    },
+    "Other sample type": "Tissue biopsy",
+    "Date of collection": "01/10/2026",
+    "Time": "10:30",
+    "Date sent to UKHSA": "02/10/2026",
+    "If yes, give all relevant details": "Potential high-risk exposure; reference laboratory consulted",
+    "Please tick the box if your clinical sample is post mortem": {
+      "choices": [
+        "Please tick the box if your clinical sample is post mortem"
+      ],
+      "value": []
+    }
+  },
+  "TESTS REQUESTED": {
+    "HHV-8 DNA PCR": {
+      "choices": [
+        "HHV-8 DNA PCR"
+      ],
+      "value": [
+        "HHV-8 DNA PCR"
+      ]
+    }
+  },
+  "CLINICAL/EPIDEMIOLOGICAL INFORMATION": {
+    "Clinical findings and risk factors": {
+      "choices": [
+        "No Symptoms",
+        "Enchephalitis/CNS",
+        "Kaposi's sarcoma",
+        "Multicentric Castleman's disease",
+        "Pleural / pericardial effusion",
+        "HLH",
+        "Pancytopaenia / neutropaenia",
+        "Lymphadenopathy",
+        "Fever",
+        "Rash / lesions",
+        "HIV-1 co-infected",
+        "EBV/CMV/ other herpes virus co-infection (please specify below)",
+        "Organ / tissue transplant recipient",
+        "Organ / tissue donor",
+        "MSM",
+        "Origin in endemic area",
+        "Other (please specify below)"
+      ],
+      "value": [
+        "Kaposi's sarcoma",
+        "Organ / tissue transplant recipient"
+      ]
+    }
+  },
+  "CLINICAL/TREATMENT HISTORY (IF RELEVANT)": {
+    "CLINICAL/TREATMENT HISTORY (IF RELEVANT)": "Synthetic immunosuppressed transplant recipient with suspected HHV-8."
+  },
+  "OTHER COMMENTS": {
+    "OTHER COMMENTS": "Synthetic referral; no identifying patient data."
+  }
+}

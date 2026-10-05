@@ -1,0 +1,595 @@
+{
+  "id": "fr-144-contribution-revenus-locatifs",
+  "language": "fr",
+  "domain": "Finance",
+  "business_topic": "Contribution sur les revenus locatifs",
+  "issuer_id": "Direction générale des finances publiques",
+  "template_family": "contribution-revenus-locatifs",
+  "title": "Contribution sur les revenus locatifs",
+  "source_pages": 2,
+  "source_sha256": "814b083f4610d8302945154e53a0769f72de3c4a4c707977ba194054e39e5155",
+  "retrieved_at": "2026-10-05T03:06:21+08:00",
+  "source_version": "2073-SD; (09-2026)",
+  "source_url": "https://www.impots.gouv.fr/sites/default/files/formulaires/2073-sd/2026/2073-sd_5565.pdf",
+  "landing_url": "https://www.impots.gouv.fr/formulaire/2073-sd/contribution-sur-les-revenus-locatifs",
+  "license_url": "https://www.impots.gouv.fr/mentions-legales",
+  "license_note": "DGFiP site notice: public information under Licence Ouverte Etalab 2.0, except explicit third-party intellectual property. Source text and field structure are normalized; the original PDF and DGFiP graphics are not redistributed.",
+  "source_date_evidence": {
+    "kind": "PDF printed mark; DGFiP listing millésime",
+    "value": "2073-SD; (09-2026)",
+    "landing": "DGFiP form listing, Millésime 2026",
+    "pdf_version_mark": "2073-SD; (09-2026)",
+    "publisher_listing_millesime": "2026",
+    "scope": "The listing millésime is recorded separately from the PDF print mark."
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "Destinataire et établissement",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Identification du destinataire",
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Adresse de l’établissement",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SIE",
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Numéro de dossier",
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Clé",
+        "field": "f005",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Période d’imposition",
+        "field": "f006",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Code service",
+        "field": "f007",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "N° d’identification de l’établissement (SIRET)",
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Coordonnées, date et signature",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Téléphone",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Adresse électronique",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "A",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "le",
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nom et qualité du signataire",
+        "field": "f013",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Signature",
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Paiement par virement",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Virement (Nombre",
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "RÉFÉRENCE",
+        "field": "f016",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Calcul de l’acompte",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Recettes nettes imposables perçues au cours de l’année précédente",
+        "field": "f017",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Acompte à payer",
+        "field": "f018",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Solde de la contribution",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Contribution due au titre de la période d’imposition",
+        "field": "f019",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Acompte versé l’année précédente",
+        "field": "f020",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Solde de contribution à payer",
+        "field": "f021",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Excédent de contribution constaté",
+        "field": "f022",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Total à payer ou à restituer",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Total de CRL dû",
+        "field": "f023",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Total de CRL dont le remboursement est demandé",
+        "field": "f024",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Notice",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Règles d’utilisation, assiette, taux et sanctions : notice imprimée au verso.",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Source : Direction générale des finances publiques; https://www.impots.gouv.fr/sites/default/files/formulaires/2073-sd/2026/2073-sd_5565.pdf; DGFiP form listing, Millésime 2026.",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Identification du destinataire",
+      "path": [
+        "Page 1",
+        "Destinataire et établissement",
+        "Identification du destinataire"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Identification du destinataire",
+      "synthetic_value": "Association Exemple Immeubles"
+    },
+    {
+      "id": "f002",
+      "label": "Adresse de l’établissement",
+      "path": [
+        "Page 1",
+        "Destinataire et établissement",
+        "Adresse de l’établissement"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Adresse de l’établissement",
+      "synthetic_value": "5 rue des Jardins, 75010 Paris"
+    },
+    {
+      "id": "f003",
+      "label": "SIE",
+      "path": [
+        "Page 1",
+        "Destinataire et établissement",
+        "SIE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "SIE",
+      "synthetic_value": "SIE Paris 10e"
+    },
+    {
+      "id": "f004",
+      "label": "Numéro de dossier",
+      "path": [
+        "Page 1",
+        "Destinataire et établissement",
+        "Numéro de dossier"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Numéro de dossier",
+      "synthetic_value": "DOS-144"
+    },
+    {
+      "id": "f005",
+      "label": "Clé",
+      "path": [
+        "Page 1",
+        "Destinataire et établissement",
+        "Clé"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Clé",
+      "synthetic_value": "A"
+    },
+    {
+      "id": "f006",
+      "label": "Période d’imposition",
+      "path": [
+        "Page 1",
+        "Destinataire et établissement",
+        "Période d’imposition"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Période d’imposition",
+      "synthetic_value": "2025"
+    },
+    {
+      "id": "f007",
+      "label": "Code service",
+      "path": [
+        "Page 1",
+        "Destinataire et établissement",
+        "Code service"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Code service",
+      "synthetic_value": "SIE-10"
+    },
+    {
+      "id": "f008",
+      "label": "N° d’identification de l’établissement (SIRET)",
+      "path": [
+        "Page 1",
+        "Destinataire et établissement",
+        "N° d’identification de l’établissement (SIRET)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "N° d’identification de l’établissement (SIRET)",
+      "synthetic_value": "00000000000144"
+    },
+    {
+      "id": "f009",
+      "label": "Téléphone",
+      "path": [
+        "Page 1",
+        "Coordonnées, date et signature",
+        "Téléphone"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Téléphone",
+      "synthetic_value": "0100000144"
+    },
+    {
+      "id": "f010",
+      "label": "Adresse électronique",
+      "path": [
+        "Page 1",
+        "Coordonnées, date et signature",
+        "Adresse électronique"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Adresse électronique",
+      "synthetic_value": "administration@example.org"
+    },
+    {
+      "id": "f011",
+      "label": "A",
+      "path": [
+        "Page 1",
+        "Coordonnées, date et signature",
+        "Lieu",
+        "A"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "A",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "f012",
+      "label": "le",
+      "path": [
+        "Page 1",
+        "Coordonnées, date et signature",
+        "Date",
+        "le"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "le",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "f013",
+      "label": "Nom et qualité du signataire",
+      "path": [
+        "Page 1",
+        "Coordonnées, date et signature",
+        "Nom et qualité du signataire"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom et qualité du signataire",
+      "synthetic_value": "Camille Martin, trésorière"
+    },
+    {
+      "id": "f014",
+      "label": "Signature",
+      "path": [
+        "Page 1",
+        "Coordonnées, date et signature",
+        "Signature"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Signature",
+      "synthetic_value": "Camille Martin"
+    },
+    {
+      "id": "f015",
+      "label": "Virement (Nombre",
+      "path": [
+        "Page 1",
+        "Paiement par virement",
+        "Virement (Nombre"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Virement (Nombre",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "f016",
+      "label": "RÉFÉRENCE",
+      "path": [
+        "Page 1",
+        "Paiement par virement",
+        "RÉFÉRENCE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "RÉFÉRENCE",
+      "synthetic_value": "2073/2026/00000000000144"
+    },
+    {
+      "id": "f017",
+      "label": "Recettes nettes imposables perçues au cours de l’année précédente",
+      "path": [
+        "Page 1",
+        "Calcul de l’acompte",
+        "A",
+        "Recettes nettes imposables perçues au cours de l’année précédente"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Recettes nettes imposables perçues au cours de l’année précédente",
+      "synthetic_value": "12 000 €"
+    },
+    {
+      "id": "f018",
+      "label": "Acompte à payer",
+      "path": [
+        "Page 1",
+        "Calcul de l’acompte",
+        "B",
+        "Acompte à payer"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Acompte à payer",
+      "synthetic_value": "225 €"
+    },
+    {
+      "id": "f019",
+      "label": "Contribution due au titre de la période d’imposition",
+      "path": [
+        "Page 1",
+        "Solde de la contribution",
+        "C",
+        "Contribution due au titre de la période d’imposition"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Contribution due au titre de la période d’imposition",
+      "synthetic_value": "300 €"
+    },
+    {
+      "id": "f020",
+      "label": "Acompte versé l’année précédente",
+      "path": [
+        "Page 1",
+        "Solde de la contribution",
+        "D",
+        "Acompte versé l’année précédente"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Acompte versé l’année précédente",
+      "synthetic_value": "200 €"
+    },
+    {
+      "id": "f021",
+      "label": "Solde de contribution à payer",
+      "path": [
+        "Page 1",
+        "Solde de la contribution",
+        "E",
+        "Solde de contribution à payer"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Solde de contribution à payer",
+      "synthetic_value": "100 €"
+    },
+    {
+      "id": "f022",
+      "label": "Excédent de contribution constaté",
+      "path": [
+        "Page 1",
+        "Solde de la contribution",
+        "F",
+        "Excédent de contribution constaté"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Excédent de contribution constaté",
+      "synthetic_value": "0 €"
+    },
+    {
+      "id": "f023",
+      "label": "Total de CRL dû",
+      "path": [
+        "Page 1",
+        "Total à payer ou à restituer",
+        "G",
+        "Total de CRL dû"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Total de CRL dû",
+      "synthetic_value": "325 €"
+    },
+    {
+      "id": "f024",
+      "label": "Total de CRL dont le remboursement est demandé",
+      "path": [
+        "Page 1",
+        "Total à payer ou à restituer",
+        "H",
+        "Total de CRL dont le remboursement est demandé"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Total de CRL dont le remboursement est demandé",
+      "synthetic_value": "0 €"
+    }
+  ],
+  "context": "Exemple fictif de remplissage, sans transmission.\nDestinataire et établissement /  / Identification du destinataire: Association Exemple Immeubles\nDestinataire et établissement /  / Adresse de l’établissement: 5 rue des Jardins, 75010 Paris\nDestinataire et établissement /  / SIE: SIE Paris 10e\nDestinataire et établissement /  / Numéro de dossier: DOS-144\nDestinataire et établissement /  / Clé: A\nDestinataire et établissement /  / Période d’imposition: 2025\nDestinataire et établissement /  / Code service: SIE-10\nDestinataire et établissement /  / N° d’identification de l’établissement (SIRET): 00000000000144\nCoordonnées, date et signature /  / Téléphone: 0100000144\nCoordonnées, date et signature /  / Adresse électronique: administration@example.org\nCoordonnées, date et signature / Lieu / A: Paris\nCoordonnées, date et signature / Date / le: 05/10/2026\nCoordonnées, date et signature /  / Nom et qualité du signataire: Camille Martin, trésorière\nCoordonnées, date et signature /  / Signature: Camille Martin\nPaiement par virement /  / Virement (Nombre: 1\nPaiement par virement /  / RÉFÉRENCE: 2073/2026/00000000000144\nCalcul de l’acompte / A / Recettes nettes imposables perçues au cours de l’année précédente: 12 000 €\nCalcul de l’acompte / B / Acompte à payer: 225 €\nSolde de la contribution / C / Contribution due au titre de la période d’imposition: 300 €\nSolde de la contribution / D / Acompte versé l’année précédente: 200 €\nSolde de la contribution / E / Solde de contribution à payer: 100 €\nSolde de la contribution / F / Excédent de contribution constaté: 0 €\nTotal à payer ou à restituer / G / Total de CRL dû: 325 €\nTotal à payer ou à restituer / H / Total de CRL dont le remboursement est demandé: 0 €",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 144
+  }
+}

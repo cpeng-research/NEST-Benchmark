@@ -1,0 +1,549 @@
+{
+  "id": "fr-143-frais-etats-non-cooperatifs",
+  "language": "fr",
+  "domain": "Business",
+  "business_topic": "Relevé des frais déductibles liés à des États et territoires non coopératifs",
+  "issuer_id": "Direction générale des finances publiques",
+  "template_family": "frais-etats-non-cooperatifs",
+  "title": "Relevé des frais déductibles liés à des États et territoires non coopératifs",
+  "source_pages": 1,
+  "source_sha256": "9765f9421375dbb6503b6cc7cf9196ca0c6ad3a7f050c9a9f5d9ace374a85ec1",
+  "retrieved_at": "2026-10-05T03:06:19+08:00",
+  "source_version": "2067-BIS-SD; Cerfa 14596*03; DGFiP millésime 2026",
+  "source_url": "https://www.impots.gouv.fr/sites/default/files/formulaires/2067-bis-sd/2026/2067-bis-sd_5279.pdf",
+  "landing_url": "https://www.impots.gouv.fr/formulaire/2067-bis-sd/releve-de-frais-deductibles-lies-des-etats-et-territoires-non-cooperatifs",
+  "license_url": "https://www.impots.gouv.fr/mentions-legales",
+  "license_note": "DGFiP site notice: public information under Licence Ouverte Etalab 2.0, except explicit third-party intellectual property. Source text and field structure are normalized; the original PDF and DGFiP graphics are not redistributed.",
+  "source_date_evidence": {
+    "kind": "PDF printed mark; DGFiP listing millésime",
+    "value": "2067-BIS-SD; Cerfa 14596*03; DGFiP millésime 2026",
+    "landing": "DGFiP form listing, Millésime 2026",
+    "pdf_version_mark": "2067-BIS-SD; Cerfa 14596*03",
+    "publisher_listing_millesime": "2026",
+    "scope": "The listing millésime is recorded separately from the PDF print mark."
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "Identification de l’établissement",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nom de l'établissement",
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "N° d'identification (SIRET)",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Exercice social",
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Total des dépenses visées à l'article 238A du CGI",
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Intérêts et autres produits",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Typologie de la dépense",
+        "field": "f005",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Pays de",
+        "field": "f006",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Description détaillé de la dépense",
+        "field": "f007",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Montant de la dépense",
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Versement effectué",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "TOTAL (2)",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Redevances de licences et droits analogues",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Typologie de la dépense",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Pays de",
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Description détaillé de la dépense",
+        "field": "f013",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Montant de la dépense",
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Versement effectué",
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "TOTAL (3)",
+        "field": "f016",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Rémunérations de services",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Typologie de la dépense",
+        "field": "f017",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Pays de",
+        "field": "f018",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Description détaillé de la dépense",
+        "field": "f019",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Montant de la dépense",
+        "field": "f020",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Versement effectué",
+        "field": "f021",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "TOTAL (4)",
+        "field": "f022",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Réintégration fiscale",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Total des dépenses devant être réintégrées au tableau 2058A",
+        "field": "f023",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Source : Direction générale des finances publiques; https://www.impots.gouv.fr/sites/default/files/formulaires/2067-bis-sd/2026/2067-bis-sd_5279.pdf; DGFiP form listing, Millésime 2026.",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Nom de l'établissement",
+      "path": [
+        "Page 1",
+        "Identification de l’établissement",
+        "Nom de l'établissement"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom de l'établissement",
+      "synthetic_value": "Exemple International SAS"
+    },
+    {
+      "id": "f002",
+      "label": "N° d'identification (SIRET)",
+      "path": [
+        "Page 1",
+        "Identification de l’établissement",
+        "N° d'identification (SIRET)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "N° d'identification (SIRET)",
+      "synthetic_value": "00000000000143"
+    },
+    {
+      "id": "f003",
+      "label": "Exercice social",
+      "path": [
+        "Page 1",
+        "Identification de l’établissement",
+        "Exercice social"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Exercice social",
+      "synthetic_value": "01/01/2026 au 31/12/2026"
+    },
+    {
+      "id": "f004",
+      "label": "Total des dépenses visées à l'article 238A du CGI",
+      "path": [
+        "Page 1",
+        "Identification de l’établissement",
+        "Total des dépenses visées à l'article 238A du CGI"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Total des dépenses visées à l'article 238A du CGI",
+      "synthetic_value": "1 750 €"
+    },
+    {
+      "id": "f005",
+      "label": "Typologie de la dépense",
+      "path": [
+        "Page 1",
+        "Intérêts et autres produits",
+        "Typologie de la dépense"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Typologie de la dépense",
+      "synthetic_value": "Intérêts et autres produits"
+    },
+    {
+      "id": "f006",
+      "label": "Pays de",
+      "path": [
+        "Page 1",
+        "Intérêts et autres produits",
+        "Situation du bénéficiaire",
+        "Pays de"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Pays de",
+      "synthetic_value": "État X fictif"
+    },
+    {
+      "id": "f007",
+      "label": "Description détaillé de la dépense",
+      "path": [
+        "Page 1",
+        "Intérêts et autres produits",
+        "Description détaillé de la dépense"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Description détaillé de la dépense",
+      "synthetic_value": "Intérêts contractuels fictifs"
+    },
+    {
+      "id": "f008",
+      "label": "Montant de la dépense",
+      "path": [
+        "Page 1",
+        "Intérêts et autres produits",
+        "Montant de la dépense"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant de la dépense",
+      "synthetic_value": "1 000 €"
+    },
+    {
+      "id": "f009",
+      "label": "Versement effectué",
+      "path": [
+        "Page 1",
+        "Intérêts et autres produits",
+        "Compte dans un territoire non coopératif",
+        "Versement effectué"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Versement effectué",
+      "synthetic_value": "Non"
+    },
+    {
+      "id": "f010",
+      "label": "TOTAL (2)",
+      "path": [
+        "Page 1",
+        "Intérêts et autres produits",
+        "TOTAL (2)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "TOTAL (2)",
+      "synthetic_value": "1 000 €"
+    },
+    {
+      "id": "f011",
+      "label": "Typologie de la dépense",
+      "path": [
+        "Page 1",
+        "Redevances de licences et droits analogues",
+        "Typologie de la dépense"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Typologie de la dépense",
+      "synthetic_value": "Redevances de licences et droits analogues"
+    },
+    {
+      "id": "f012",
+      "label": "Pays de",
+      "path": [
+        "Page 1",
+        "Redevances de licences et droits analogues",
+        "Situation du bénéficiaire",
+        "Pays de"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Pays de",
+      "synthetic_value": "État X fictif"
+    },
+    {
+      "id": "f013",
+      "label": "Description détaillé de la dépense",
+      "path": [
+        "Page 1",
+        "Redevances de licences et droits analogues",
+        "Description détaillé de la dépense"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Description détaillé de la dépense",
+      "synthetic_value": "Licence de marque fictive"
+    },
+    {
+      "id": "f014",
+      "label": "Montant de la dépense",
+      "path": [
+        "Page 1",
+        "Redevances de licences et droits analogues",
+        "Montant de la dépense"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant de la dépense",
+      "synthetic_value": "500 €"
+    },
+    {
+      "id": "f015",
+      "label": "Versement effectué",
+      "path": [
+        "Page 1",
+        "Redevances de licences et droits analogues",
+        "Compte dans un territoire non coopératif",
+        "Versement effectué"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Versement effectué",
+      "synthetic_value": "Non"
+    },
+    {
+      "id": "f016",
+      "label": "TOTAL (3)",
+      "path": [
+        "Page 1",
+        "Redevances de licences et droits analogues",
+        "TOTAL (3)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "TOTAL (3)",
+      "synthetic_value": "500 €"
+    },
+    {
+      "id": "f017",
+      "label": "Typologie de la dépense",
+      "path": [
+        "Page 1",
+        "Rémunérations de services",
+        "Typologie de la dépense"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Typologie de la dépense",
+      "synthetic_value": "Rémunérations de services"
+    },
+    {
+      "id": "f018",
+      "label": "Pays de",
+      "path": [
+        "Page 1",
+        "Rémunérations de services",
+        "Situation du bénéficiaire",
+        "Pays de"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Pays de",
+      "synthetic_value": "État X fictif"
+    },
+    {
+      "id": "f019",
+      "label": "Description détaillé de la dépense",
+      "path": [
+        "Page 1",
+        "Rémunérations de services",
+        "Description détaillé de la dépense"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Description détaillé de la dépense",
+      "synthetic_value": "Prestation de conseil fictive"
+    },
+    {
+      "id": "f020",
+      "label": "Montant de la dépense",
+      "path": [
+        "Page 1",
+        "Rémunérations de services",
+        "Montant de la dépense"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant de la dépense",
+      "synthetic_value": "250 €"
+    },
+    {
+      "id": "f021",
+      "label": "Versement effectué",
+      "path": [
+        "Page 1",
+        "Rémunérations de services",
+        "Compte dans un territoire non coopératif",
+        "Versement effectué"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Versement effectué",
+      "synthetic_value": "Non"
+    },
+    {
+      "id": "f022",
+      "label": "TOTAL (4)",
+      "path": [
+        "Page 1",
+        "Rémunérations de services",
+        "TOTAL (4)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "TOTAL (4)",
+      "synthetic_value": "250 €"
+    },
+    {
+      "id": "f023",
+      "label": "Total des dépenses devant être réintégrées au tableau 2058A",
+      "path": [
+        "Page 1",
+        "Réintégration fiscale",
+        "Total des dépenses devant être réintégrées au tableau 2058A"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Total des dépenses devant être réintégrées au tableau 2058A",
+      "synthetic_value": "0 €"
+    }
+  ],
+  "context": "Exemple fictif de remplissage, sans transmission.\nIdentification de l’établissement /  / Nom de l'établissement: Exemple International SAS\nIdentification de l’établissement /  / N° d'identification (SIRET): 00000000000143\nIdentification de l’établissement /  / Exercice social: 01/01/2026 au 31/12/2026\nIdentification de l’établissement /  / Total des dépenses visées à l'article 238A du CGI: 1 750 €\nIntérêts et autres produits /  / Typologie de la dépense: Intérêts et autres produits\nIntérêts et autres produits / Situation du bénéficiaire / Pays de: État X fictif\nIntérêts et autres produits /  / Description détaillé de la dépense: Intérêts contractuels fictifs\nIntérêts et autres produits /  / Montant de la dépense: 1 000 €\nIntérêts et autres produits / Compte dans un territoire non coopératif / Versement effectué: Non\nIntérêts et autres produits /  / TOTAL (2): 1 000 €\nRedevances de licences et droits analogues /  / Typologie de la dépense: Redevances de licences et droits analogues\nRedevances de licences et droits analogues / Situation du bénéficiaire / Pays de: État X fictif\nRedevances de licences et droits analogues /  / Description détaillé de la dépense: Licence de marque fictive\nRedevances de licences et droits analogues /  / Montant de la dépense: 500 €\nRedevances de licences et droits analogues / Compte dans un territoire non coopératif / Versement effectué: Non\nRedevances de licences et droits analogues /  / TOTAL (3): 500 €\nRémunérations de services /  / Typologie de la dépense: Rémunérations de services\nRémunérations de services / Situation du bénéficiaire / Pays de: État X fictif\nRémunérations de services /  / Description détaillé de la dépense: Prestation de conseil fictive\nRémunérations de services /  / Montant de la dépense: 250 €\nRémunérations de services / Compte dans un territoire non coopératif / Versement effectué: Non\nRémunérations de services /  / TOTAL (4): 250 €\nRéintégration fiscale /  / Total des dépenses devant être réintégrées au tableau 2058A: 0 €",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 143
+  }
+}

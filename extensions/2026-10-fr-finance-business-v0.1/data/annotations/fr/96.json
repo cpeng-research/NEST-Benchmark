@@ -1,0 +1,866 @@
+{
+  "id": "fr-96-attestation-formation",
+  "language": "fr",
+  "domain": "Finance",
+  "business_topic": "Demande d'attestation pour formation professionnelle continue",
+  "issuer_id": "Émetteur du formulaire administratif : Ministère chargé des finances",
+  "template_family": "attestation-formation",
+  "title": "Demande d'attestation pour formation professionnelle continue",
+  "source_pages": 4,
+  "source_sha256": "b0712bedf3b743f1120d3797d89cac8592341c5139db3e6bc3fa7b07c882623c",
+  "retrieved_at": "2026-10-05T01:49:39+08:00",
+  "source_version": "3511-SD; Cerfa 10219*22; millésime 2026",
+  "source_url": "https://www.impots.gouv.fr/sites/default/files/formulaires/3511-sd/2026/3511-sd_4894.pdf",
+  "landing_url": "https://entreprendre.service-public.gouv.fr/vosdroits/R19113",
+  "license_url": "https://www.impots.gouv.fr/mentions-legales",
+  "license_note": "DGFiP site notice: public information under Licence Ouverte Etalab 2.0, except explicit third-party intellectual property. Source text and field structure are normalized; the original PDF and DGFiP graphics are not redistributed.",
+  "source_date_evidence": {
+    "kind": "PDF printed mark and DGFiP listing millesime",
+    "value": "3511-SD; Cerfa 10219*22; millésime 2026; DGFiP millesime 2026",
+    "landing": "Vérifié le 05 novembre 2025 - Entreprendre Service Public / Direction de l'information légale et administrative (Premier ministre)",
+    "pdf_version_mark": "3511-SD; Cerfa 10219*22; millésime 2026",
+    "publisher_listing_millesime": "2026",
+    "scope": "Landing-page verification date is distinct from the printed PDF version mark."
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "Exemplaire 1 - Autorité administrative : identification",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "DÉNOMINATION ET ADRESSE",
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "N° SIRET du principal établissement",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "DESCRIPTION PRÉCISE DE L’ACTIVITÉ",
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Numéro de déclaration d’activité",
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Ou date de l’arrêté d’agrément",
+        "field": "f005",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Exemplaire 1 - Autorité administrative : service compétent et signature",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "ADRESSE DU SERVICE DES IMPÔTS COMPÉTENT",
+        "field": "f006",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "A",
+        "field": "f007",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "le",
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Nom et signature",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Accusé de réception, accord/refus et cachet : cadre réservé à l'administration.",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Exemplaire 2 - Service des impôts : identification",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "DÉNOMINATION ET ADRESSE",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "N° SIRET du principal établissement",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "DESCRIPTION PRÉCISE DE L’ACTIVITÉ",
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Numéro de déclaration d’activité",
+        "field": "f013",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Ou date de l’arrêté d’agrément",
+        "field": "f014",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Exemplaire 2 - Service des impôts : service compétent et signature",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "ADRESSE DU SERVICE DES IMPÔTS COMPÉTENT",
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "A",
+        "field": "f016",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "le",
+        "field": "f017",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Nom et signature",
+        "field": "f018",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Accusé de réception, accord/refus et cachet : cadre réservé à l'administration.",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Exemplaire 3 - Autorité délivrante : identification",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "DÉNOMINATION ET ADRESSE",
+        "field": "f019",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "label": "N° SIRET du principal établissement",
+        "field": "f020",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "DESCRIPTION PRÉCISE DE L’ACTIVITÉ",
+        "field": "f021",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "label": "Numéro de déclaration d’activité",
+        "field": "f022",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "Ou date de l’arrêté d’agrément",
+        "field": "f023",
+        "colspan": 4,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Exemplaire 3 - Autorité délivrante : service compétent et signature",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "ADRESSE DU SERVICE DES IMPÔTS COMPÉTENT",
+        "field": "f024",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "label": "A",
+        "field": "f025",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "le",
+        "field": "f026",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "label": "Nom et signature",
+        "field": "f027",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Accusé de réception, accord/refus et cachet : cadre réservé à l'administration.",
+        "colspan": 4,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Exemplaire 4 - Déclarant : identification",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "DÉNOMINATION ET ADRESSE",
+        "field": "f028",
+        "colspan": 2,
+        "source_page": 4
+      },
+      {
+        "label": "N° SIRET du principal établissement",
+        "field": "f029",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "DESCRIPTION PRÉCISE DE L’ACTIVITÉ",
+        "field": "f030",
+        "colspan": 2,
+        "source_page": 4
+      },
+      {
+        "label": "Numéro de déclaration d’activité",
+        "field": "f031",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "Ou date de l’arrêté d’agrément",
+        "field": "f032",
+        "colspan": 4,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "Exemplaire 4 - Déclarant : service compétent et signature",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "ADRESSE DU SERVICE DES IMPÔTS COMPÉTENT",
+        "field": "f033",
+        "colspan": 2,
+        "source_page": 4
+      },
+      {
+        "label": "A",
+        "field": "f034",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "le",
+        "field": "f035",
+        "colspan": 2,
+        "source_page": 4
+      },
+      {
+        "label": "Nom et signature",
+        "field": "f036",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "Accusé de réception, accord/refus et cachet : cadre réservé à l'administration.",
+        "colspan": 4,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "Source : Émetteur du formulaire administratif : Ministère chargé des finances; https://www.impots.gouv.fr/sites/default/files/formulaires/3511-sd/2026/3511-sd_4894.pdf; Vérifié le 05 novembre 2025 - Entreprendre Service Public / Direction de l'information légale et administrative (Premier ministre).",
+        "colspan": 4,
+        "source_page": 4
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "DÉNOMINATION ET ADRESSE",
+      "path": [
+        "Page 1",
+        "Exemplaire 1 - Autorité administrative : identification",
+        "DÉNOMINATION ET ADRESSE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DÉNOMINATION ET ADRESSE",
+      "synthetic_value": "Formation Exemple SARL, 4 rue Exemple, 44000 Nantes"
+    },
+    {
+      "id": "f002",
+      "label": "N° SIRET du principal établissement",
+      "path": [
+        "Page 1",
+        "Exemplaire 1 - Autorité administrative : identification",
+        "N° SIRET du principal établissement"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "N° SIRET du principal établissement",
+      "synthetic_value": "00000000000096"
+    },
+    {
+      "id": "f003",
+      "label": "DESCRIPTION PRÉCISE DE L’ACTIVITÉ",
+      "path": [
+        "Page 1",
+        "Exemplaire 1 - Autorité administrative : identification",
+        "DESCRIPTION PRÉCISE DE L’ACTIVITÉ"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DESCRIPTION PRÉCISE DE L’ACTIVITÉ",
+      "synthetic_value": "Formation professionnelle en comptabilité"
+    },
+    {
+      "id": "f004",
+      "label": "Numéro de déclaration d’activité",
+      "path": [
+        "Page 1",
+        "Exemplaire 1 - Autorité administrative : identification",
+        "Numéro de déclaration d’activité"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Numéro de déclaration d’activité",
+      "synthetic_value": "52440000996"
+    },
+    {
+      "id": "f005",
+      "label": "Ou date de l’arrêté d’agrément",
+      "path": [
+        "Page 1",
+        "Exemplaire 1 - Autorité administrative : identification",
+        "Ou date de l’arrêté d’agrément"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Ou date de l’arrêté d’agrément",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "f006",
+      "label": "ADRESSE DU SERVICE DES IMPÔTS COMPÉTENT",
+      "path": [
+        "Page 1",
+        "Exemplaire 1 - Autorité administrative : service compétent et signature",
+        "ADRESSE DU SERVICE DES IMPÔTS COMPÉTENT"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "ADRESSE DU SERVICE DES IMPÔTS COMPÉTENT",
+      "synthetic_value": "SIE Nantes Centre, 44000 Nantes"
+    },
+    {
+      "id": "f007",
+      "label": "A",
+      "path": [
+        "Page 1",
+        "Exemplaire 1 - Autorité administrative : service compétent et signature",
+        "Lieu de signature",
+        "A"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "A",
+      "synthetic_value": "Nantes"
+    },
+    {
+      "id": "f008",
+      "label": "le",
+      "path": [
+        "Page 1",
+        "Exemplaire 1 - Autorité administrative : service compétent et signature",
+        "Date de signature",
+        "le"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "le",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "f009",
+      "label": "Nom et signature",
+      "path": [
+        "Page 1",
+        "Exemplaire 1 - Autorité administrative : service compétent et signature",
+        "Nom et signature"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom et signature",
+      "synthetic_value": "Camille Martin"
+    },
+    {
+      "id": "f010",
+      "label": "DÉNOMINATION ET ADRESSE",
+      "path": [
+        "Page 2",
+        "Exemplaire 2 - Service des impôts : identification",
+        "DÉNOMINATION ET ADRESSE"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "DÉNOMINATION ET ADRESSE",
+      "synthetic_value": "Formation Exemple SARL, 4 rue Exemple, 44000 Nantes"
+    },
+    {
+      "id": "f011",
+      "label": "N° SIRET du principal établissement",
+      "path": [
+        "Page 2",
+        "Exemplaire 2 - Service des impôts : identification",
+        "N° SIRET du principal établissement"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "N° SIRET du principal établissement",
+      "synthetic_value": "00000000000096"
+    },
+    {
+      "id": "f012",
+      "label": "DESCRIPTION PRÉCISE DE L’ACTIVITÉ",
+      "path": [
+        "Page 2",
+        "Exemplaire 2 - Service des impôts : identification",
+        "DESCRIPTION PRÉCISE DE L’ACTIVITÉ"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "DESCRIPTION PRÉCISE DE L’ACTIVITÉ",
+      "synthetic_value": "Formation professionnelle en comptabilité"
+    },
+    {
+      "id": "f013",
+      "label": "Numéro de déclaration d’activité",
+      "path": [
+        "Page 2",
+        "Exemplaire 2 - Service des impôts : identification",
+        "Numéro de déclaration d’activité"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Numéro de déclaration d’activité",
+      "synthetic_value": "52440000996"
+    },
+    {
+      "id": "f014",
+      "label": "Ou date de l’arrêté d’agrément",
+      "path": [
+        "Page 2",
+        "Exemplaire 2 - Service des impôts : identification",
+        "Ou date de l’arrêté d’agrément"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Ou date de l’arrêté d’agrément",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "f015",
+      "label": "ADRESSE DU SERVICE DES IMPÔTS COMPÉTENT",
+      "path": [
+        "Page 2",
+        "Exemplaire 2 - Service des impôts : service compétent et signature",
+        "ADRESSE DU SERVICE DES IMPÔTS COMPÉTENT"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "ADRESSE DU SERVICE DES IMPÔTS COMPÉTENT",
+      "synthetic_value": "SIE Nantes Centre, 44000 Nantes"
+    },
+    {
+      "id": "f016",
+      "label": "A",
+      "path": [
+        "Page 2",
+        "Exemplaire 2 - Service des impôts : service compétent et signature",
+        "Lieu de signature",
+        "A"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "A",
+      "synthetic_value": "Nantes"
+    },
+    {
+      "id": "f017",
+      "label": "le",
+      "path": [
+        "Page 2",
+        "Exemplaire 2 - Service des impôts : service compétent et signature",
+        "Date de signature",
+        "le"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "le",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "f018",
+      "label": "Nom et signature",
+      "path": [
+        "Page 2",
+        "Exemplaire 2 - Service des impôts : service compétent et signature",
+        "Nom et signature"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom et signature",
+      "synthetic_value": "Camille Martin"
+    },
+    {
+      "id": "f019",
+      "label": "DÉNOMINATION ET ADRESSE",
+      "path": [
+        "Page 3",
+        "Exemplaire 3 - Autorité délivrante : identification",
+        "DÉNOMINATION ET ADRESSE"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "DÉNOMINATION ET ADRESSE",
+      "synthetic_value": "Formation Exemple SARL, 4 rue Exemple, 44000 Nantes"
+    },
+    {
+      "id": "f020",
+      "label": "N° SIRET du principal établissement",
+      "path": [
+        "Page 3",
+        "Exemplaire 3 - Autorité délivrante : identification",
+        "N° SIRET du principal établissement"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "N° SIRET du principal établissement",
+      "synthetic_value": "00000000000096"
+    },
+    {
+      "id": "f021",
+      "label": "DESCRIPTION PRÉCISE DE L’ACTIVITÉ",
+      "path": [
+        "Page 3",
+        "Exemplaire 3 - Autorité délivrante : identification",
+        "DESCRIPTION PRÉCISE DE L’ACTIVITÉ"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "DESCRIPTION PRÉCISE DE L’ACTIVITÉ",
+      "synthetic_value": "Formation professionnelle en comptabilité"
+    },
+    {
+      "id": "f022",
+      "label": "Numéro de déclaration d’activité",
+      "path": [
+        "Page 3",
+        "Exemplaire 3 - Autorité délivrante : identification",
+        "Numéro de déclaration d’activité"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Numéro de déclaration d’activité",
+      "synthetic_value": "52440000996"
+    },
+    {
+      "id": "f023",
+      "label": "Ou date de l’arrêté d’agrément",
+      "path": [
+        "Page 3",
+        "Exemplaire 3 - Autorité délivrante : identification",
+        "Ou date de l’arrêté d’agrément"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Ou date de l’arrêté d’agrément",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "f024",
+      "label": "ADRESSE DU SERVICE DES IMPÔTS COMPÉTENT",
+      "path": [
+        "Page 3",
+        "Exemplaire 3 - Autorité délivrante : service compétent et signature",
+        "ADRESSE DU SERVICE DES IMPÔTS COMPÉTENT"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "ADRESSE DU SERVICE DES IMPÔTS COMPÉTENT",
+      "synthetic_value": "SIE Nantes Centre, 44000 Nantes"
+    },
+    {
+      "id": "f025",
+      "label": "A",
+      "path": [
+        "Page 3",
+        "Exemplaire 3 - Autorité délivrante : service compétent et signature",
+        "Lieu de signature",
+        "A"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "A",
+      "synthetic_value": "Nantes"
+    },
+    {
+      "id": "f026",
+      "label": "le",
+      "path": [
+        "Page 3",
+        "Exemplaire 3 - Autorité délivrante : service compétent et signature",
+        "Date de signature",
+        "le"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "le",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "f027",
+      "label": "Nom et signature",
+      "path": [
+        "Page 3",
+        "Exemplaire 3 - Autorité délivrante : service compétent et signature",
+        "Nom et signature"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Nom et signature",
+      "synthetic_value": "Camille Martin"
+    },
+    {
+      "id": "f028",
+      "label": "DÉNOMINATION ET ADRESSE",
+      "path": [
+        "Page 4",
+        "Exemplaire 4 - Déclarant : identification",
+        "DÉNOMINATION ET ADRESSE"
+      ],
+      "kind": "text",
+      "source_page": 4,
+      "source_anchor": "DÉNOMINATION ET ADRESSE",
+      "synthetic_value": "Formation Exemple SARL, 4 rue Exemple, 44000 Nantes"
+    },
+    {
+      "id": "f029",
+      "label": "N° SIRET du principal établissement",
+      "path": [
+        "Page 4",
+        "Exemplaire 4 - Déclarant : identification",
+        "N° SIRET du principal établissement"
+      ],
+      "kind": "text",
+      "source_page": 4,
+      "source_anchor": "N° SIRET du principal établissement",
+      "synthetic_value": "00000000000096"
+    },
+    {
+      "id": "f030",
+      "label": "DESCRIPTION PRÉCISE DE L’ACTIVITÉ",
+      "path": [
+        "Page 4",
+        "Exemplaire 4 - Déclarant : identification",
+        "DESCRIPTION PRÉCISE DE L’ACTIVITÉ"
+      ],
+      "kind": "text",
+      "source_page": 4,
+      "source_anchor": "DESCRIPTION PRÉCISE DE L’ACTIVITÉ",
+      "synthetic_value": "Formation professionnelle en comptabilité"
+    },
+    {
+      "id": "f031",
+      "label": "Numéro de déclaration d’activité",
+      "path": [
+        "Page 4",
+        "Exemplaire 4 - Déclarant : identification",
+        "Numéro de déclaration d’activité"
+      ],
+      "kind": "text",
+      "source_page": 4,
+      "source_anchor": "Numéro de déclaration d’activité",
+      "synthetic_value": "52440000996"
+    },
+    {
+      "id": "f032",
+      "label": "Ou date de l’arrêté d’agrément",
+      "path": [
+        "Page 4",
+        "Exemplaire 4 - Déclarant : identification",
+        "Ou date de l’arrêté d’agrément"
+      ],
+      "kind": "text",
+      "source_page": 4,
+      "source_anchor": "Ou date de l’arrêté d’agrément",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "f033",
+      "label": "ADRESSE DU SERVICE DES IMPÔTS COMPÉTENT",
+      "path": [
+        "Page 4",
+        "Exemplaire 4 - Déclarant : service compétent et signature",
+        "ADRESSE DU SERVICE DES IMPÔTS COMPÉTENT"
+      ],
+      "kind": "text",
+      "source_page": 4,
+      "source_anchor": "ADRESSE DU SERVICE DES IMPÔTS COMPÉTENT",
+      "synthetic_value": "SIE Nantes Centre, 44000 Nantes"
+    },
+    {
+      "id": "f034",
+      "label": "A",
+      "path": [
+        "Page 4",
+        "Exemplaire 4 - Déclarant : service compétent et signature",
+        "Lieu de signature",
+        "A"
+      ],
+      "kind": "text",
+      "source_page": 4,
+      "source_anchor": "A",
+      "synthetic_value": "Nantes"
+    },
+    {
+      "id": "f035",
+      "label": "le",
+      "path": [
+        "Page 4",
+        "Exemplaire 4 - Déclarant : service compétent et signature",
+        "Date de signature",
+        "le"
+      ],
+      "kind": "text",
+      "source_page": 4,
+      "source_anchor": "le",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "f036",
+      "label": "Nom et signature",
+      "path": [
+        "Page 4",
+        "Exemplaire 4 - Déclarant : service compétent et signature",
+        "Nom et signature"
+      ],
+      "kind": "text",
+      "source_page": 4,
+      "source_anchor": "Nom et signature",
+      "synthetic_value": "Camille Martin"
+    }
+  ],
+  "context": "Exemple fictif de remplissage, sans transmission.\nExemplaire 1 - Autorité administrative : identification /  / DÉNOMINATION ET ADRESSE: Formation Exemple SARL, 4 rue Exemple, 44000 Nantes\nExemplaire 1 - Autorité administrative : identification /  / N° SIRET du principal établissement: 00000000000096\nExemplaire 1 - Autorité administrative : identification /  / DESCRIPTION PRÉCISE DE L’ACTIVITÉ: Formation professionnelle en comptabilité\nExemplaire 1 - Autorité administrative : identification /  / Numéro de déclaration d’activité: 52440000996\nExemplaire 1 - Autorité administrative : identification /  / Ou date de l’arrêté d’agrément: Sans objet\nExemplaire 1 - Autorité administrative : service compétent et signature /  / ADRESSE DU SERVICE DES IMPÔTS COMPÉTENT: SIE Nantes Centre, 44000 Nantes\nExemplaire 1 - Autorité administrative : service compétent et signature / Lieu de signature / A: Nantes\nExemplaire 1 - Autorité administrative : service compétent et signature / Date de signature / le: 05/10/2026\nExemplaire 1 - Autorité administrative : service compétent et signature /  / Nom et signature: Camille Martin\nExemplaire 2 - Service des impôts : identification /  / DÉNOMINATION ET ADRESSE: Formation Exemple SARL, 4 rue Exemple, 44000 Nantes\nExemplaire 2 - Service des impôts : identification /  / N° SIRET du principal établissement: 00000000000096\nExemplaire 2 - Service des impôts : identification /  / DESCRIPTION PRÉCISE DE L’ACTIVITÉ: Formation professionnelle en comptabilité\nExemplaire 2 - Service des impôts : identification /  / Numéro de déclaration d’activité: 52440000996\nExemplaire 2 - Service des impôts : identification /  / Ou date de l’arrêté d’agrément: Sans objet\nExemplaire 2 - Service des impôts : service compétent et signature /  / ADRESSE DU SERVICE DES IMPÔTS COMPÉTENT: SIE Nantes Centre, 44000 Nantes\nExemplaire 2 - Service des impôts : service compétent et signature / Lieu de signature / A: Nantes\nExemplaire 2 - Service des impôts : service compétent et signature / Date de signature / le: 05/10/2026\nExemplaire 2 - Service des impôts : service compétent et signature /  / Nom et signature: Camille Martin\nExemplaire 3 - Autorité délivrante : identification /  / DÉNOMINATION ET ADRESSE: Formation Exemple SARL, 4 rue Exemple, 44000 Nantes\nExemplaire 3 - Autorité délivrante : identification /  / N° SIRET du principal établissement: 00000000000096\nExemplaire 3 - Autorité délivrante : identification /  / DESCRIPTION PRÉCISE DE L’ACTIVITÉ: Formation professionnelle en comptabilité\nExemplaire 3 - Autorité délivrante : identification /  / Numéro de déclaration d’activité: 52440000996\nExemplaire 3 - Autorité délivrante : identification /  / Ou date de l’arrêté d’agrément: Sans objet\nExemplaire 3 - Autorité délivrante : service compétent et signature /  / ADRESSE DU SERVICE DES IMPÔTS COMPÉTENT: SIE Nantes Centre, 44000 Nantes\nExemplaire 3 - Autorité délivrante : service compétent et signature / Lieu de signature / A: Nantes\nExemplaire 3 - Autorité délivrante : service compétent et signature / Date de signature / le: 05/10/2026\nExemplaire 3 - Autorité délivrante : service compétent et signature /  / Nom et signature: Camille Martin\nExemplaire 4 - Déclarant : identification /  / DÉNOMINATION ET ADRESSE: Formation Exemple SARL, 4 rue Exemple, 44000 Nantes\nExemplaire 4 - Déclarant : identification /  / N° SIRET du principal établissement: 00000000000096\nExemplaire 4 - Déclarant : identification /  / DESCRIPTION PRÉCISE DE L’ACTIVITÉ: Formation professionnelle en comptabilité\nExemplaire 4 - Déclarant : identification /  / Numéro de déclaration d’activité: 52440000996\nExemplaire 4 - Déclarant : identification /  / Ou date de l’arrêté d’agrément: Sans objet\nExemplaire 4 - Déclarant : service compétent et signature /  / ADRESSE DU SERVICE DES IMPÔTS COMPÉTENT: SIE Nantes Centre, 44000 Nantes\nExemplaire 4 - Déclarant : service compétent et signature / Lieu de signature / A: Nantes\nExemplaire 4 - Déclarant : service compétent et signature / Date de signature / le: 05/10/2026\nExemplaire 4 - Déclarant : service compétent et signature /  / Nom et signature: Camille Martin",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 96
+  }
+}

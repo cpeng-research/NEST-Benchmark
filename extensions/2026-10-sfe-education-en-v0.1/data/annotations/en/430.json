@@ -1,0 +1,186 @@
+{
+  "id": "en-sfe-masters-document-return-2627",
+  "language": "en",
+  "domain": "Education",
+  "title": "Postgraduate Master's document return form - 2026 to 2027",
+  "template_family": "masters-document-return",
+  "issuer": "Student Loans Company / Student Finance England",
+  "issuer_id": "SLC-SFE",
+  "source_pages": 1,
+  "columns": 1,
+  "rows": [
+    [
+      {
+        "text": "Your details",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "crn",
+        "label": "Customer Reference Number",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "name",
+        "label": "Full Name",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Your evidence",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "documents",
+        "label": "What type of documents are you sending?",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "other_details",
+        "label": "Other – give details",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Declaration",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "signature",
+        "label": "Your signature (in ink)",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "date",
+        "label": "Today’s date",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "crn",
+      "label": "Customer Reference Number",
+      "source_page": 1,
+      "source_anchor": "Customer Reference Number",
+      "path": [
+        "Your details",
+        "Customer Reference Number"
+      ],
+      "kind": "text",
+      "synthetic_value": "10000000007"
+    },
+    {
+      "id": "name",
+      "label": "Full Name",
+      "source_page": 1,
+      "source_anchor": "Full Name",
+      "path": [
+        "Your details",
+        "Full Name"
+      ],
+      "kind": "text",
+      "synthetic_value": "Alex Sample"
+    },
+    {
+      "id": "documents",
+      "label": "What type of documents are you sending?",
+      "source_page": 1,
+      "source_anchor": "What type of documents are you sending?",
+      "path": [
+        "Your evidence",
+        "What type of documents are you sending?"
+      ],
+      "kind": "checkbox_single",
+      "options": [
+        "Identity documents",
+        "Residency documents",
+        "Other – give details"
+      ],
+      "synthetic_value": [
+        "Residency documents"
+      ],
+      "context_evidence": "Your evidence / What type of documents are you sending?: Residency documents."
+    },
+    {
+      "id": "other_details",
+      "label": "Other – give details",
+      "source_page": 1,
+      "source_anchor": "Other – give details",
+      "path": [
+        "Your evidence",
+        "Other – give details"
+      ],
+      "kind": "text",
+      "synthetic_value": "Not applicable"
+    },
+    {
+      "id": "signature",
+      "label": "Your signature (in ink)",
+      "source_page": 1,
+      "source_anchor": "Your signature (in ink)",
+      "path": [
+        "Declaration",
+        "Your signature (in ink)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Alex Sample (synthetic signature)"
+    },
+    {
+      "id": "date",
+      "label": "Today’s date",
+      "source_page": 1,
+      "source_anchor": "Today’s date",
+      "path": [
+        "Declaration",
+        "Today’s date"
+      ],
+      "kind": "text",
+      "synthetic_value": "05102026"
+    }
+  ],
+  "source_url": "https://assets.publishing.service.gov.uk/media/6a4e6c9743f694ee291df823/sfe_pgl_document_return_form_2627_o.pdf",
+  "landing_url": "https://www.gov.uk/government/publications/2026-to-2027-postgraduate-masters-document-return-form",
+  "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "license_note": "GOV.UK landing page states Open Government Licence v3.0 except where otherwise stated; normalized functional form only, without logos or source artwork.",
+  "source_sha256": "129bcd1e66d71d4679e11e1a25ec15a571e3f0f7e9420e8b272e45c1c63daf28",
+  "retrieved_at": "2026-10-05",
+  "source_version": "2026 to 2027 academic year",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "kind": "official_landing_dates",
+    "value": "Published 2026-07-20; last updated 2026-07-20",
+    "source_url": "https://www.gov.uk/government/publications/2026-to-2027-postgraduate-masters-document-return-form",
+    "detail": "Dates refer to the official publication page, not independently dated PDF file bytes."
+  },
+  "context": "Fictional test record. All names, addresses, costs and signatures are synthetic.\nYour details / Customer Reference Number: 10000000007.\nYour details / Full Name: Alex Sample.\nYour evidence / What type of documents are you sending?: Residency documents.\nYour evidence / Other – give details: Not applicable.\nDeclaration / Your signature (in ink): Alex Sample (synthetic signature).\nDeclaration / Today’s date: 05102026.",
+  "workflow_identity": {
+    "language": "en",
+    "id": 430
+  }
+}

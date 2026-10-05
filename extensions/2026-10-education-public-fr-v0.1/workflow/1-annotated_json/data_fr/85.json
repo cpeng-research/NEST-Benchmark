@@ -1,0 +1,85 @@
+{
+  "Pièces à fournir - délivrance QC/QT restreinte": {
+    "Délivrance QC/QT restreinte à État tiers OACI": {
+      "choices": [
+        "Original/Copies/Scan du passeport, de la carte d'identité",
+        "Original/Copie/Scan de la licence OACI avec les qualifications associées",
+        "Original/Copie/Scan du certificat médical délivré conformément à l'annexe 1",
+        "Original/Copie/Scan de l’authentification de votre licence OACI",
+        "Dans le cas d’une délivrance d’une QT HPAC/MP ou une QC/QT avec un IR associée",
+        "Justificatif du paiement des readvances"
+      ],
+      "value": []
+    }
+  },
+  "Levée de restriction - pièces et exigences": {
+    "Levée de restriction": {
+      "choices": [
+        "Satisfaire aux exigences d’expériences définies dans la section",
+        "04Formexa (EN) ou 17Formexa (FR) si QC/QT hors HPAC",
+        "25Formexa (EN) si QT HPAC",
+        "01Formexa (EN) si QT(A) MP",
+        "11Formexa (EN) si QT(H)",
+        "Attestation de suivi d’un stage Hautes Performances Avion",
+        "Attestation de formation préliminaire ATO approuvée à une qualification multimoteurs",
+        "Copie du certificat théorique ATPL(A ou H) ou PL(A ou H)",
+        "QT MP ou QT HPAC en MPO",
+        "Attestation qui prouve de la réalisation de l’Advanced UPRT Part FCL",
+        "Dans le C/R de test, la case suivante doit être mentionnée"
+      ],
+      "value": []
+    }
+  },
+  "1/3. Information sur le candidat": {
+    "Nom/Prénom": "",
+    "Date et lieu de naissance": "",
+    "Adresse": "",
+    "Code postale": "",
+    "Pays": "",
+    "Tél": "",
+    "Courriel": ""
+  },
+  "2/3. Information sur votre demande": {
+    "N° licence EASA": "",
+    "Type de licence EASA": "",
+    "N° licence OACI": "",
+    "Type de licence OACI": "",
+    "Acte à effectuer": {
+      "choices": [
+        "Délivrance QC/QT restreinte",
+        "Levée de restriction"
+      ],
+      "value": []
+    },
+    "Nom QC/QT": "",
+    "Catégorie": {
+      "choices": [
+        "Avion",
+        "Hélico"
+      ],
+      "value": []
+    },
+    "Si avion": {
+      "choices": [
+        "HPA",
+        "QT HPA Complexe",
+        "QT MP"
+      ],
+      "value": []
+    },
+    "Si Hélico": {
+      "choices": [
+        "QT ME",
+        "QT MP"
+      ],
+      "value": []
+    },
+    "Expérience totale": "",
+    "Expérience pilote sur la": ""
+  },
+  "3/3. Validation des données renseignées": {
+    "Fait à": "",
+    "Le": "",
+    "Signature": ""
+  }
+}

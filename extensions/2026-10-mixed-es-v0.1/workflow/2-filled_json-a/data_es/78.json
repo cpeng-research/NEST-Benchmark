@@ -1,0 +1,91 @@
+{
+  "DDJJ para la Tramitación de la Autorización para el Cobro de la Asignación por Hijo con Discapacidad": {
+    "Solicitud": {
+      "Código Dependencia": "DEP-SIM-78-A",
+      "UDAI": "UDAI SIMULADA"
+    }
+  },
+  "Rubro 1  - Datos del Titular": {
+    "CUIL": "20-40000078-5",
+    "Nº de Documento": "DNI-SIM-7801",
+    "Apellido/s y Nombre/s": "Mario Titular Ficticio",
+    "Domicilio": "Calle Modelo 78",
+    "Localidad": "Localidad Ejemplo",
+    "Provincia": "Provincia Ficticia",
+    "Código Postal": "1000",
+    "Teléfono de Contacto": "000 000 078",
+    "Correo Electrónico": "titular78@example.invalid",
+    "Estado Civil": "Soltero"
+  },
+  "Rubro 2  - Datos del Discapacitado": {
+    "CUIL": "27-40000078-4",
+    "Nº de Documento": "DNI-SIM-7802",
+    "Apellido/s y Nombre/s": "Nora Beneficiaria Ficticia",
+    "Fecha de Nacimiento": "01/01/2010",
+    "Edad": "16",
+    "Sexo": {
+      "choices": [
+        "Masculino",
+        "Femenino"
+      ],
+      "value": [
+        "Femenino"
+      ]
+    },
+    "Domicilio": "Calle Modelo 78",
+    "Localidad": "Localidad Ejemplo",
+    "Provincia": "Provincia Ficticia",
+    "Código Postal": "1000",
+    "Teléfono de Contacto": "000 000 078",
+    "Correo Electrónico": "beneficiaria78@example.invalid",
+    "Estado Civil": "Soltera"
+  },
+  "Rubro 3  -  Situación Laboral/Previsional del Titular": {
+    "Situación Laboral/Previsional del Titular": {
+      "choices": [
+        "Jubilado y/o Pensionado",
+        "Trabajador en Relación de Dependencia / ART",
+        "Titular de la Asignación Universal",
+        "Titular de la Prestación por Desempleo",
+        "Decreto Nº 614/2013"
+      ],
+      "value": [
+        "Trabajador en Relación de Dependencia / ART"
+      ]
+    }
+  },
+  "Rubro 4  -  Representante": {
+    "CUIL": "20-40000079-3",
+    "Nº de Documento": "DNI-SIM-7803",
+    "Apellido/s y Nombre/s": "Pablo Representante Ficticio",
+    "Teléfono de Contacto": "000 000 079",
+    "Correo Electrónico": "representante78@example.invalid",
+    "Firma del Representante o Impresión Dígito Pulgar Derecho": "Firma sintética del representante"
+  },
+  "CONSTANCIA DE RECEPCIÓN": {
+    "Código Dependencia": "DEP-SIM-78-B",
+    "UDAI": "UDAI SIMULADA",
+    "CUIL Titular": "20-40000078-5",
+    "Nombre del titular": "Mario Titular Ficticio",
+    "CUIL Discapacitado": "27-40000078-4",
+    "Nombre del discapacitado": "Nora Beneficiaria Ficticia",
+    "Trámite Presentado": {
+      "choices": [
+        "Aceptado",
+        "Rechazado"
+      ],
+      "value": [
+        "Rechazado"
+      ]
+    },
+    "Motivo:": "Falta documentación simulada para acreditar el estado a cargo.",
+    "Firma,  Aclaración y Legajo del Agente Interviniente": "Firma y legajo sintéticos AG-SIM-78",
+    "Fecha de Recepción y Sello de ANSES": "05/10/2026; sello sintético"
+  },
+  "Form. PS.2.71. (Dorso)": {
+    "Rubro 6 - Observaciones": "Revisión simulada de documentos de la solicitud.",
+    "Firma y Aclaración del Titular": "Firma sintética de Mario Titular Ficticio",
+    "Firma, Aclaración y Legajo del Agente Interviniente": "Firma y legajo sintéticos AG-SIM-78",
+    "Fecha de Recepción y sello de ANSES": "05/10/2026; sello sintético"
+  }
+}

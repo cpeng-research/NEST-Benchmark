@@ -1,0 +1,149 @@
+{
+  "id": "es-health-64-ergometry-consent",
+  "language": "es",
+  "domain": "Healthcare",
+  "business_topic": "ergometry-consent",
+  "title": "Consentimiento informado de la prueba ergométrica graduada",
+  "issuer_id": "Hospital Nacional Dr. Baldomero Sommer",
+  "template_family": "ergometry-consent",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/2026/09/hospital_sommer_consentimiento_informado_ergometria_graduada.pdf",
+  "landing_url": "https://www.argentina.gob.ar/salud/hospitalsommer/consentimientos-informados",
+  "source_sha256": "cd6aa266cea5ff69d9ce24847156711fb9886f794ffe77c25d8a912331ca998a",
+  "source_pages": 1,
+  "retrieved_at": "2026-09-26T10:52:05.208090+00:00",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "Fuente: institución nacional emisora y Argentina.gob.ar. Texto institucional bajo CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), salvo indicación contraria; normalización de estructura y omisión de gráficos, sin logotipos ni patrocinio.",
+  "columns": 6,
+  "rows": [
+    [
+      {
+        "text": "CONSENTIMIENTO INFORMADO DE LA PRUEBA ERGOMÉTRICA GRADUADA",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Es un ejercicio programado que aumenta en forma progresiva las necesidades de sangre del corazón, hecho que se produce también durante cualquier práctica deportiva. La forma de estudiar el corazón en condiciones de demanda aumentada requiere provocar situaciones que aumentan el flujo sanguíneo al corazón. El ejercicio es la forma más fisiológica de provocar un aumento del trabajo cardíaco. Las complicaciones durante la realización de este estudio son excepcionales, pudiendo producirse dolor de pecho, falta de aire, cambios en la presión arterial y arritmias. Durante todo el procedimiento estará controlado por un médico/a y por un técnico/a en prácticas cardiológicas, quien/es monitorearán durante el estudio su presión arterial, frecuencia cardíaca y lo interrogarán sobre los síntomas que pueda sentir. He comprendido el texto, han sido contestadas todas mis preguntas y consiento que se me realice la prueba ergométrica. ",
+        "colspan": 6,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "LUEGO DE SU ÚLTIMA VISITA AL CARDIÓLOGO, SI TIENE O TUVO DOLOR DE PECHO, FALTA DE AIRE, PALPITACIONES O ALGÚN OTRO SÍNTOMA QUE LE GENERE INQUIETUD, INFÓRMELO ANTES DE LA REALIZACIÓN DEL ESTUDIO. ",
+        "colspan": 6,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "PREPARACIÓN PARA ERGOMETRÍA - NO SUSPENDER MEDICACIÓN  - DESAYUNAR (NO CAFÉ)  - ROPA CÓMODA PARA REALIZAR EJERCICIO.  - TRAER ZAPATILLAS  - NO FUMAR.  ",
+        "colspan": 6,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "field": "f001",
+        "label": "FECHA",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f002",
+        "label": "FIRMA PACIENTE O RESPONSABLE",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f003",
+        "label": "ACLARACIÓN",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f004",
+        "label": "DNI",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Fuente: Hospital Nacional Dr. Baldomero Sommer. Documento: Consentimiento informado de la prueba ergométrica graduada. Versión/identificador impreso: no declarado. https://www.argentina.gob.ar/sites/default/files/2026/09/hospital_sommer_consentimiento_informado_ergometria_graduada.pdf. Recuperado: 2026-09-26. Condiciones de reutilización: https://www.argentina.gob.ar/terminos-y-condiciones. Fuente: institución nacional emisora y Argentina.gob.ar. Texto institucional bajo CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), salvo indicación contraria; normalización de estructura y omisión de gráficos, sin logotipos ni patrocinio. Adaptación de estructura con datos ficticios.",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "FECHA",
+      "path": [
+        "CONSENTIMIENTO INFORMADO DE LA PRUEBA ERGOMÉTRICA GRADUADA",
+        "FECHA"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "FECHA",
+      "synthetic_value": "26/09/2026"
+    },
+    {
+      "id": "f002",
+      "label": "FIRMA PACIENTE O RESPONSABLE",
+      "path": [
+        "CONSENTIMIENTO INFORMADO DE LA PRUEBA ERGOMÉTRICA GRADUADA",
+        "FIRMA PACIENTE O RESPONSABLE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "FIRMA PACIENTE O RESPONSABLE",
+      "synthetic_value": "FIRMA FICTICIA - Marina Paciente Ejemplo"
+    },
+    {
+      "id": "f003",
+      "label": "ACLARACIÓN",
+      "path": [
+        "CONSENTIMIENTO INFORMADO DE LA PRUEBA ERGOMÉTRICA GRADUADA",
+        "ACLARACIÓN"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "ACLARACIÓN",
+      "synthetic_value": "Marina Paciente Ejemplo"
+    },
+    {
+      "id": "f004",
+      "label": "DNI",
+      "path": [
+        "CONSENTIMIENTO INFORMADO DE LA PRUEBA ERGOMÉTRICA GRADUADA",
+        "DNI"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DNI",
+      "synthetic_value": "DNI-FICTICIO-64"
+    }
+  ],
+  "source_version": null,
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "value": null,
+    "kind": "update_date_not_stated",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/2026/09/hospital_sommer_consentimiento_informado_ergometria_graduada.pdf",
+    "detail": "No edition number or document update date stated on the inspected pages. Document title and exact hashed original identify this source; retrieval is separate."
+  },
+  "context": "Caso de prueba enteramente ficticio. Las identidades, instituciones, documentos, resultados y firmas son sintéticos. No se presenta una solicitud real.\nCONSENTIMIENTO INFORMADO DE LA PRUEBA ERGOMÉTRICA GRADUADA / FECHA: 26/09/2026.\nCONSENTIMIENTO INFORMADO DE LA PRUEBA ERGOMÉTRICA GRADUADA / FIRMA PACIENTE O RESPONSABLE: FIRMA FICTICIA - Marina Paciente Ejemplo.\nCONSENTIMIENTO INFORMADO DE LA PRUEBA ERGOMÉTRICA GRADUADA / ACLARACIÓN: Marina Paciente Ejemplo.\nCONSENTIMIENTO INFORMADO DE LA PRUEBA ERGOMÉTRICA GRADUADA / DNI: DNI-FICTICIO-64.\nLa paciente adulta ficticia recibió respuesta a sus preguntas y consiente la prueba ergométrica graduada. En este supuesto no tuvo nuevos síntomas tras su visita a cardiología; conoce la advertencia y la preparación impresa. No es autorización real ni consejo médico.",
+  "workflow_identity": {
+    "language": "es",
+    "id": 64
+  }
+}

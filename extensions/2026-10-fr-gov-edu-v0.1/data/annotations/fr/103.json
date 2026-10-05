@@ -1,0 +1,222 @@
+{
+  "id": "fr-cgdd-service-opinion-2023",
+  "language": "fr",
+  "domain": "GovPublic",
+  "title": "Avis du chef de service pour évaluation par comité",
+  "template_family": "cgdd-service-opinion-2023",
+  "issuer": "CGDD",
+  "issuer_id": "CGDD",
+  "source_pages": 1,
+  "columns": 1,
+  "rows": [
+    [
+      {
+        "text": "Avis du (de la) Chef(fe) de service - mars 2023",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Éléments justifiant une évaluation de l'agent par un comité et commentaires sur les activités, productions et faits présentés.",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "agent",
+        "label": "Civilité/Nom/Prénom de l’agent(e)",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "comite",
+        "label": "Comité de domaine",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "avis",
+        "label": "Avis du (de la) chef(fe) de service",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "date",
+        "label": "Date",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "chef",
+        "label": "Civilité/Nom/Prénom du (de la) chef(fe) de service",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "service",
+        "label": "Service",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "fonction",
+        "label": "Fonction",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "signature",
+        "label": "Signature",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Comités de domaine proposés : Bâtiments, Énergie et climat, Géotechnique et risques naturels, Gestion durable des ressources naturelles, Habitat, Infrastructures, Ouvrages d'art, Risques, Systèmes d'information, Transports durables.",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "agent",
+      "label": "Civilité/Nom/Prénom de l’agent(e)",
+      "source_page": 1,
+      "source_anchor": "Civilité/Nom/Prénom de l’agent(e)",
+      "path": [
+        "Avis du (de la) Chef(fe) de service - mars 2023",
+        "Civilité/Nom/Prénom de l’agent(e)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Mme Camille Martin"
+    },
+    {
+      "id": "comite",
+      "label": "Comité de domaine",
+      "source_page": 1,
+      "source_anchor": "Comité de domaine",
+      "path": [
+        "Avis du (de la) Chef(fe) de service - mars 2023",
+        "Comité de domaine"
+      ],
+      "kind": "text",
+      "synthetic_value": "Énergie et climat"
+    },
+    {
+      "id": "avis",
+      "label": "Avis du (de la) chef(fe) de service",
+      "source_page": 1,
+      "source_anchor": "Avis du (de la) chef(fe) de service",
+      "path": [
+        "Avis du (de la) Chef(fe) de service - mars 2023",
+        "Avis du (de la) chef(fe) de service"
+      ],
+      "kind": "text",
+      "synthetic_value": "Avis favorable au regard des travaux présentés."
+    },
+    {
+      "id": "date",
+      "label": "Date",
+      "source_page": 1,
+      "source_anchor": "Date",
+      "path": [
+        "Avis du (de la) Chef(fe) de service - mars 2023",
+        "Date"
+      ],
+      "kind": "text",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "chef",
+      "label": "Civilité/Nom/Prénom du (de la) chef(fe) de service",
+      "source_page": 1,
+      "source_anchor": "Civilité/Nom/Prénom du (de la) chef(fe) de service",
+      "path": [
+        "Avis du (de la) Chef(fe) de service - mars 2023",
+        "Civilité/Nom/Prénom du (de la) chef(fe) de service"
+      ],
+      "kind": "text",
+      "synthetic_value": "M. Julien Dubois"
+    },
+    {
+      "id": "service",
+      "label": "Service",
+      "source_page": 1,
+      "source_anchor": "Service",
+      "path": [
+        "Avis du (de la) Chef(fe) de service - mars 2023",
+        "Service"
+      ],
+      "kind": "text",
+      "synthetic_value": "Service fictif des études"
+    },
+    {
+      "id": "fonction",
+      "label": "Fonction",
+      "source_page": 1,
+      "source_anchor": "Fonction",
+      "path": [
+        "Avis du (de la) Chef(fe) de service - mars 2023",
+        "Fonction"
+      ],
+      "kind": "text",
+      "synthetic_value": "Chef de service"
+    },
+    {
+      "id": "signature",
+      "label": "Signature",
+      "source_page": 1,
+      "source_anchor": "Signature",
+      "path": [
+        "Avis du (de la) Chef(fe) de service - mars 2023",
+        "Signature"
+      ],
+      "kind": "text",
+      "synthetic_value": "Julien Dubois (signature fictive)"
+    }
+  ],
+  "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/CGDD_CD_Formulaire_Chef_de_service_Avis_vs22032023.docx",
+  "landing_url": "https://www.ecologie.gouv.fr/politiques-publiques/evaluation-activites-dexpertise-scientifique-technique-comites-domaine",
+  "license_url": "https://www.ecologie.gouv.fr/mentions-legales",
+  "license_note": "Ecologie legal notice applies Etalab 2.0 to site content absent a third-party rights notice; source and known last-update date must be attributed. Ministry-authored form text only.",
+  "source_sha256": "36416d4918e03e2ebb40a6c2cdb975d710d36e042e9617331e650b0e3603a8ee",
+  "retrieved_at": "2026-10-04T18:08:38.281344+00:00",
+  "source_version": "mars 2023",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "kind": "printed_document_date_or_version",
+    "value": "mars 2023",
+    "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/CGDD_CD_Formulaire_Chef_de_service_Avis_vs22032023.docx",
+    "detail": "Printed document evidence; not a website update claim."
+  },
+  "context": "Dossier fictif à des fins d'évaluation, sans identité réelle ni dépôt administratif.\nAvis du (de la) Chef(fe) de service - mars 2023 / Civilité/Nom/Prénom de l’agent(e) : Mme Camille Martin.\nAvis du (de la) Chef(fe) de service - mars 2023 / Comité de domaine : Énergie et climat.\nAvis du (de la) Chef(fe) de service - mars 2023 / Avis du (de la) chef(fe) de service : Avis favorable au regard des travaux présentés..\nAvis du (de la) Chef(fe) de service - mars 2023 / Date : 05/10/2026.\nAvis du (de la) Chef(fe) de service - mars 2023 / Civilité/Nom/Prénom du (de la) chef(fe) de service : M. Julien Dubois.\nAvis du (de la) Chef(fe) de service - mars 2023 / Service : Service fictif des études.\nAvis du (de la) Chef(fe) de service - mars 2023 / Fonction : Chef de service.\nAvis du (de la) Chef(fe) de service - mars 2023 / Signature : Julien Dubois (signature fictive).",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 103
+  },
+  "review_pdf_sha256": "9d264666c31f6c45eebfc34e87dcad9d1da95c9aceb3a5b08f4e718f4feb0c25",
+  "source_conversion": {
+    "method": "LibreOffice PDF export without content edits",
+    "original_sha256": "36416d4918e03e2ebb40a6c2cdb975d710d36e042e9617331e650b0e3603a8ee",
+    "review_pdf_sha256": "9d264666c31f6c45eebfc34e87dcad9d1da95c9aceb3a5b08f4e718f4feb0c25"
+  }
+}

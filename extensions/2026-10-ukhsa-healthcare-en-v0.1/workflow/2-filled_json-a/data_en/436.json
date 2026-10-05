@@ -1,0 +1,248 @@
+{
+  "SENDER’S INFORMATION": {
+    "Sender name and address": "Example Hospital Laboratory, 1 Example Road, London",
+    "Postcode": "ZZ1 1ZZ",
+    "Report to be sent FAO": "Dr A Taylor",
+    "Contact Phone": "+44 20 0000 0000",
+    "Ext": "101",
+    "Purchase order number": "PO-436-001",
+    "Project code": "SYN-436"
+  },
+  "PATIENT/SOURCE INFORMATION": {
+    "Patient type": {
+      "choices": [
+        "Inpatient",
+        "Outpatient",
+        "GP Patient",
+        "Other*"
+      ],
+      "value": [
+        "Other*"
+      ]
+    },
+    "*Please specify": "Home-care referral",
+    "NHS number": "000 000 0000",
+    "Surname": "Taylor",
+    "Forename": "Alex",
+    "Sex": {
+      "choices": [
+        "male",
+        "female"
+      ],
+      "value": [
+        "female"
+      ]
+    },
+    "Date of birth": "05/06/1988",
+    "Age": "38",
+    "Patient’s postcode": "ZZ1 1ZZ",
+    "Hospital number": "H436001",
+    "Hospital name": "Example Hospital",
+    "Ward/ clinic name": "Infectious Diseases",
+    "Ward type": "Medical",
+    "Ethnic information": {
+      "choices": [
+        "White",
+        "Black Caribbean",
+        "Black African",
+        "Black other",
+        "Indian / Pakistani / Bangladeshi",
+        "Other/mixed"
+      ],
+      "value": [
+        "White"
+      ]
+    },
+    "Country of birth": "United Kingdom",
+    "Country of origin": "United Kingdom",
+    "Have previous samples been sent to UKHSA?": {
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "value": [
+        "Yes"
+      ]
+    },
+    "UKHSA reference number": "UKHSA-PRIOR-436"
+  },
+  "SAMPLE INFORMATION": {
+    "Your reference": "SYN-436-01",
+    "Sample type": {
+      "choices": [
+        "Serum",
+        "Plasma",
+        "EDTA whole blood"
+      ],
+      "value": [
+        "Serum"
+      ]
+    },
+    "Date of collection": "01/10/2026",
+    "Time": "10:30",
+    "Date sent to UKHSA": "02/10/2026",
+    "If yes, give all relevant details": "Potential high-risk exposure; reference laboratory consulted",
+    "Please tick the box if your clinical sample is post mortem": {
+      "choices": [
+        "Please tick the box if your clinical sample is post mortem"
+      ],
+      "value": []
+    }
+  },
+  "TESTS REQUESTED": {
+    "Requested tests": {
+      "choices": [
+        "HAV confirmation",
+        "HAV RNA",
+        "HBV serology",
+        "HBV viral load",
+        "HBsAg quantification",
+        "anti-HBs",
+        "HCV confirmation",
+        "HCV viral load",
+        "HDV serology",
+        "HDV RNA",
+        "HDV serology + RNA",
+        "HEV serology",
+        "HEV RNA",
+        "HEV serology + RNA"
+      ],
+      "value": [
+        "HBV serology",
+        "HBV viral load"
+      ]
+    },
+    "Other requested tests": "HBV genotype panel"
+  },
+  "SENDER’S LABORATORY RESULTS": {
+    "anti-HAV IgM": {
+      "choices": [
+        "POS",
+        "NEG",
+        "EQV"
+      ],
+      "value": [
+        "NEG"
+      ]
+    },
+    "anti-HAV IgG": {
+      "choices": [
+        "POS",
+        "NEG",
+        "EQV"
+      ],
+      "value": [
+        "POS"
+      ]
+    },
+    "HBsAg": {
+      "choices": [
+        "POS",
+        "NEG",
+        "EQV"
+      ],
+      "value": [
+        "POS"
+      ]
+    },
+    "HBeAg": {
+      "choices": [
+        "POS",
+        "NEG",
+        "EQV"
+      ],
+      "value": [
+        "NEG"
+      ]
+    },
+    "anti-HBe": {
+      "choices": [
+        "POS",
+        "NEG",
+        "EQV"
+      ],
+      "value": [
+        "POS"
+      ]
+    },
+    "anti-HBc total": {
+      "choices": [
+        "POS",
+        "NEG",
+        "EQV"
+      ],
+      "value": [
+        "POS"
+      ]
+    },
+    "anti-HBc IgM": {
+      "choices": [
+        "POS",
+        "NEG",
+        "EQV"
+      ],
+      "value": [
+        "NEG"
+      ]
+    },
+    "anti-HBs IU/L": "24 IU/L",
+    "anti-HCV EIA": {
+      "choices": [
+        "POS",
+        "NEG",
+        "EQV"
+      ],
+      "value": [
+        "NEG"
+      ]
+    },
+    "Other sender laboratory results": "Previous HBV DNA positive"
+  },
+  "CLINICAL/EPIDEMIOLOGICAL INFORMATION": {
+    "Antiviral therapy": {
+      "choices": [
+        "Interferon",
+        "Ribavirin",
+        "Lamivudine",
+        "Tenofovir",
+        "Adefovir",
+        "HAART (if HIV-infected)"
+      ],
+      "value": [
+        "Tenofovir"
+      ]
+    },
+    "Risk group (tick one or more)": {
+      "choices": [
+        "Homo/bisexual",
+        "IV drug abuser",
+        "Bleeding disorder",
+        "Transfusion recipient",
+        "Transplant recipient"
+      ],
+      "value": [
+        "Transfusion recipient"
+      ]
+    },
+    "Indicate if this individual is a": {
+      "choices": [
+        "Antenatal client",
+        "Organ/Tissue Donor",
+        "Healthcare worker",
+        "Needle-stick injury recipient",
+        "Needle-stick injury donor",
+        "Vaccinee",
+        "Participant in an outbreak investigation",
+        "HIV co-infected",
+        "Blood donor",
+        "Traveller"
+      ],
+      "value": [
+        "Healthcare worker"
+      ]
+    }
+  },
+  "OTHER COMMENTS": {
+    "OTHER COMMENTS": "Synthetic hepatitis referral, no identifying patient data."
+  }
+}

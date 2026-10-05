@@ -1,0 +1,3386 @@
+{
+  "id": "es-health-52-dosimetry-institution",
+  "language": "es",
+  "domain": "Healthcare",
+  "business_topic": "dosimetry-institution",
+  "title": "Alta o modificación de institución dosimétrica - GS-F01 (2022)",
+  "issuer_id": "INGESA - Centro Nacional de Dosimetría",
+  "template_family": "dosimetry-institution",
+  "source_url": "https://ingesa.sanidad.gob.es/cnd/dam/jcr:8bb085c6-8be0-4a1a-9941-5f0a8c5b33b6/GSF01.Formulario_de_alta_o_modificacion_de_institucion_dosimetrica.pdf",
+  "landing_url": "https://ingesa.sanidad.gob.es/cnd/Dosimetria/Formularios.html",
+  "source_sha256": "d22df44954f0f720263f76c37952c9ef58ee77cd2eaa510f80882e5d9cf5e240",
+  "source_pages": 4,
+  "retrieved_at": "2026-09-26T10:15:36.044844+00:00",
+  "license_url": "https://www.sanidad.gob.es/avisoLegal/home.htm",
+  "license_note": "Fuente: Ministerio de Sanidad / INGESA / Centro Nacional de Dosimetría. Origen de los datos: INGESA. El aviso del Ministerio de Sanidad cubre sus subdominios; reutilización con atribución, preservación del sentido y fecha/versión impresa, sin patrocinio ni logotipos.",
+  "columns": 6,
+  "rows": [
+    [
+      {
+        "text": "Validación (Uso interno del CND)",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f001",
+        "label": "Validación (Uso interno del CND)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Rellenar el Código en caso de modificación.",
+        "colspan": 6,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "Datos de la Institución / 1",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f002",
+        "label": "Institución",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f003",
+        "label": "Código",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f004",
+        "label": "Dirección",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f005",
+        "label": "Localidad",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f006",
+        "label": "Teléfono",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f007",
+        "label": "Código postal",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f008",
+        "label": "Tipo de Institución",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f009",
+        "label": "Dependencia de la Institución",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "En caso de ALTA o MODIFICACIÓN de más de una Institución Dosimétrica, adjúntense las páginas necesarias.",
+        "colspan": 6,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "ID: Uso interno del CND.",
+        "colspan": 6,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "Datos de la Gerencia o Titular de la Institución",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f010",
+        "label": "Nombre",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f011",
+        "label": "ID",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f012",
+        "label": "Correo electrónico",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f013",
+        "label": "Dirección",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f014",
+        "label": "Teléfono",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f015",
+        "label": "Localidad",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f016",
+        "label": "Código postal",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "ID: Uso interno del CND.",
+        "colspan": 6,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "Datos de la persona responsable de la Protección Radiológica de la Institución",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f017",
+        "label": "Nombre",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f018",
+        "label": "ID",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f019",
+        "label": "Institución",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f020",
+        "label": "DNI/NIE",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f021",
+        "label": "Servicio o Unidad",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f022",
+        "label": "Cargo",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f023",
+        "label": "Correo electrónico",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f024",
+        "label": "Dirección",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f025",
+        "label": "Teléfono",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f026",
+        "label": "Localidad",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f027",
+        "label": "Código postal",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Firma de la Gerencia",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f028",
+        "label": "Fecha",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f029",
+        "label": "Firmado: La Gerencia o Titular de la Institución",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f030",
+        "label": "Nombre",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Firma de Protección Radiológica",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f031",
+        "label": "Fecha",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f032",
+        "label": "Firmado: Responsable de la Protección Radiológica",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f033",
+        "label": "Nombre",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Firma CND",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f034",
+        "label": "Fecha",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f035",
+        "label": "Firmado: La Dirección Gerencia del CND",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f036",
+        "label": "Nombre",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(1) La Gerencia o Titular de la Institución autoriza a la persona responsable de la Protección Radiológica a la consulta del historial dosimétrico del personal de dicha Institución con fines de protección radiológica. (2) La Gerencia o Titular de la Institución encomienda a la persona responsable de la Protección Radiológica autorizar con su firma las posibles asignaciones o modificaciones de dosis en los casos de pérdida de información dosimétrica, de acuerdo con la Guía de Seguridad 7.1 (2006) del Consejo de Seguridad Nuclear, GS 07-01. (3) En caso de existir una autoridad previa, la nueva autoridad sustituirá a la anterior, cuyas facultades quedarán revocadas. (4) A la persona responsable de la Protección Radiológica se le proporcionará por email una clave de acceso a la web del CND. Por motivos de protección de datos no se admitirán correos electrónicos de uso compartido. (5) Rellénese de acuerdo a los códigos indicados en la tabla adjunta. ",
+        "colspan": 6,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "En atención a lo dispuesto en el artículo 13 del Reglamento (UE) 2016/679, de 27 de abril de 2016, le informamos que el Responsable del Tratamiento de sus datos es el Centro Nacional de Dosimetría (CND), con NIF Q4677004F. La Finalidad del Tratamiento de datos personales es el alta o modificación de institución dosimétrica, y la realización de tareas administrativas derivadas. Los datos han sido facilitados por usted, por su organización, por persona por usted autorizada o han sido obtenidos a través de otras fuentes legitimadas. La base de legitimación de sus datos personales es el cumplimiento de una obligación legal aplicable al Responsable del Tratamiento y el cumplimiento de una misión realizada en interés público o en el ejercicio de poderes públicos conferidos al responsable del tratamiento. Tratamos datos identificativos y profesionales. Sus datos no serán comunicados a terceros salvo para la correcta ejecución del servicio, o el cumplimiento de obligaciones legales. Usted podrá acceder, corregir, eliminar, oponerse y solicitar la limitación de sus datos personales, así como conocer si es sujeto de decisiones automatizadas. Puede ejercitar sus derechos, así como obtener más información en Avenida Campanar 21, CP 46009, Valencia, España, o en el correo electrónico del Delegado de Protección de Datos; dpdcnd@ingesa.sanidad.gob.es ",
+        "colspan": 6,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "Avda. Campanar 21 - 46009 Valencia - www.cnd.es. altas.cnd@ingesa.sanidad.gob.es - Tel. 96 346 17 41 - Fax 91 209 03 45",
+        "colspan": 6,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "Código: Uso interno del CND.",
+        "colspan": 6,
+        "source_page": 2,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "Datos de la Institución / 2",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f037",
+        "label": "Institución",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f038",
+        "label": "Código",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f039",
+        "label": "Dirección",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f040",
+        "label": "Localidad",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f041",
+        "label": "Teléfono",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f042",
+        "label": "Código postal",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f043",
+        "label": "Tipo de Institución",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f044",
+        "label": "Dependencia de la Institución",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Datos de la Institución / 3",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f045",
+        "label": "Institución",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f046",
+        "label": "Código",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f047",
+        "label": "Dirección",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f048",
+        "label": "Localidad",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f049",
+        "label": "Teléfono",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f050",
+        "label": "Código postal",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f051",
+        "label": "Tipo de Institución",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f052",
+        "label": "Dependencia de la Institución",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Datos de la Institución / 4",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f053",
+        "label": "Institución",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f054",
+        "label": "Código",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f055",
+        "label": "Dirección",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f056",
+        "label": "Localidad",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f057",
+        "label": "Teléfono",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f058",
+        "label": "Código postal",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f059",
+        "label": "Tipo de Institución",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f060",
+        "label": "Dependencia de la Institución",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Datos de la Institución / 5",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f061",
+        "label": "Institución",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f062",
+        "label": "Código",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f063",
+        "label": "Dirección",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f064",
+        "label": "Localidad",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f065",
+        "label": "Teléfono",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f066",
+        "label": "Código postal",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f067",
+        "label": "Tipo de Institución",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f068",
+        "label": "Dependencia de la Institución",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Datos de la Institución / 6",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f069",
+        "label": "Institución",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f070",
+        "label": "Código",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f071",
+        "label": "Dirección",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f072",
+        "label": "Localidad",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f073",
+        "label": "Teléfono",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f074",
+        "label": "Código postal",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f075",
+        "label": "Tipo de Institución",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f076",
+        "label": "Dependencia de la Institución",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Datos de la Institución / 7",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f077",
+        "label": "Institución",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f078",
+        "label": "Código",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f079",
+        "label": "Dirección",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f080",
+        "label": "Localidad",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f081",
+        "label": "Teléfono",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f082",
+        "label": "Código postal",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f083",
+        "label": "Tipo de Institución",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f084",
+        "label": "Dependencia de la Institución",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Datos de la Institución / 8",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f085",
+        "label": "Institución",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f086",
+        "label": "Código",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f087",
+        "label": "Dirección",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f088",
+        "label": "Localidad",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f089",
+        "label": "Teléfono",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f090",
+        "label": "Código postal",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f091",
+        "label": "Tipo de Institución",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f092",
+        "label": "Dependencia de la Institución",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Código: Uso interno del CND.",
+        "colspan": 6,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "Datos de la Institución / 9",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "f093",
+        "label": "Institución",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "f094",
+        "label": "Código",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "f095",
+        "label": "Dirección",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "f096",
+        "label": "Localidad",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "f097",
+        "label": "Teléfono",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "f098",
+        "label": "Código postal",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "f099",
+        "label": "Tipo de Institución",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "f100",
+        "label": "Dependencia de la Institución",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Datos de la Institución / 10",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "f101",
+        "label": "Institución",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "f102",
+        "label": "Código",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "f103",
+        "label": "Dirección",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "f104",
+        "label": "Localidad",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "f105",
+        "label": "Teléfono",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "f106",
+        "label": "Código postal",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "f107",
+        "label": "Tipo de Institución",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "f108",
+        "label": "Dependencia de la Institución",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Datos de la Institución / 11",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "f109",
+        "label": "Institución",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "f110",
+        "label": "Código",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "f111",
+        "label": "Dirección",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "f112",
+        "label": "Localidad",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "f113",
+        "label": "Teléfono",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "f114",
+        "label": "Código postal",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "f115",
+        "label": "Tipo de Institución",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "f116",
+        "label": "Dependencia de la Institución",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Datos de la Institución / 12",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "f117",
+        "label": "Institución",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "f118",
+        "label": "Código",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "f119",
+        "label": "Dirección",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "f120",
+        "label": "Localidad",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "f121",
+        "label": "Teléfono",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "f122",
+        "label": "Código postal",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "f123",
+        "label": "Tipo de Institución",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "f124",
+        "label": "Dependencia de la Institución",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Datos de la Institución / 13",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "f125",
+        "label": "Institución",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "f126",
+        "label": "Código",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "f127",
+        "label": "Dirección",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "f128",
+        "label": "Localidad",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "f129",
+        "label": "Teléfono",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "f130",
+        "label": "Código postal",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "f131",
+        "label": "Tipo de Institución",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "f132",
+        "label": "Dependencia de la Institución",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Datos de la Institución / 14",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "f133",
+        "label": "Institución",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "f134",
+        "label": "Código",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "f135",
+        "label": "Dirección",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "f136",
+        "label": "Localidad",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "f137",
+        "label": "Teléfono",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "f138",
+        "label": "Código postal",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "f139",
+        "label": "Tipo de Institución",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "f140",
+        "label": "Dependencia de la Institución",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Relación de tipos de Institución con su código / X",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "f141",
+        "label": "Otros",
+        "colspan": 6,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "Relación de dependencias de la Institución con su código / CS",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "f142",
+        "label": "Servicio de Salud o Consejería de Sanidad de",
+        "colspan": 6,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "Relación de dependencias de la Institución con su código / XX",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "f143",
+        "label": "Otros",
+        "colspan": 6,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "Relación de cargos con su código / 15",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "f144",
+        "label": "Otros",
+        "colspan": 6,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "Relación de tipos de Institución con su código",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "H",
+        "colspan": 1,
+        "source_page": 4
+      },
+      {
+        "text": "Hospital",
+        "colspan": 5,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "A",
+        "colspan": 1,
+        "source_page": 4
+      },
+      {
+        "text": "Centro de Atención Especializada",
+        "colspan": 5,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "C",
+        "colspan": 1,
+        "source_page": 4
+      },
+      {
+        "text": "Centro de Atención Primaria",
+        "colspan": 5,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "N",
+        "colspan": 1,
+        "source_page": 4
+      },
+      {
+        "text": "No sanitario",
+        "colspan": 5,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "Relación de dependencias de la Institución con su código",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "MS",
+        "colspan": 1,
+        "source_page": 4
+      },
+      {
+        "text": "Ministerio de Sanidad",
+        "colspan": 5,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "PR",
+        "colspan": 1,
+        "source_page": 4
+      },
+      {
+        "text": "Institución privada",
+        "colspan": 5,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "IN",
+        "colspan": 1,
+        "source_page": 4
+      },
+      {
+        "text": "INGESA",
+        "colspan": 5,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "PC",
+        "colspan": 1,
+        "source_page": 4
+      },
+      {
+        "text": "Protección Civil",
+        "colspan": 5,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "UN",
+        "colspan": 1,
+        "source_page": 4
+      },
+      {
+        "text": "Universidades",
+        "colspan": 5,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "Relación de cargos con su código",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "00",
+        "colspan": 1,
+        "source_page": 4
+      },
+      {
+        "text": "Director/a Gerente",
+        "colspan": 5,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "01",
+        "colspan": 1,
+        "source_page": 4
+      },
+      {
+        "text": "Director/a Médico/a",
+        "colspan": 5,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "02",
+        "colspan": 1,
+        "source_page": 4
+      },
+      {
+        "text": "Jefe/a de Protección Radiológica",
+        "colspan": 5,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "03",
+        "colspan": 1,
+        "source_page": 4
+      },
+      {
+        "text": "Radiofísico/a",
+        "colspan": 5,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "04",
+        "colspan": 1,
+        "source_page": 4
+      },
+      {
+        "text": "Técnico/a de Protección Radiológica",
+        "colspan": 5,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "05",
+        "colspan": 1,
+        "source_page": 4
+      },
+      {
+        "text": "Jefe/a de Prevención de Riesgos Laborales",
+        "colspan": 5,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "06",
+        "colspan": 1,
+        "source_page": 4
+      },
+      {
+        "text": "Médico/a de Prevención de Riesgos Laborales",
+        "colspan": 5,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "07",
+        "colspan": 1,
+        "source_page": 4
+      },
+      {
+        "text": "Técnico/a de Prevención de Riesgos Laborales",
+        "colspan": 5,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "08",
+        "colspan": 1,
+        "source_page": 4
+      },
+      {
+        "text": "Jefe/a de Servicio",
+        "colspan": 5,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "09",
+        "colspan": 1,
+        "source_page": 4
+      },
+      {
+        "text": "Jefe/a de Sección",
+        "colspan": 5,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "10",
+        "colspan": 1,
+        "source_page": 4
+      },
+      {
+        "text": "Jefe/a de Unidad",
+        "colspan": 5,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "11",
+        "colspan": 1,
+        "source_page": 4
+      },
+      {
+        "text": "Médico/a",
+        "colspan": 5,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "12",
+        "colspan": 1,
+        "source_page": 4
+      },
+      {
+        "text": "Personal de enfermería",
+        "colspan": 5,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "13",
+        "colspan": 1,
+        "source_page": 4
+      },
+      {
+        "text": "Técnico/a de Imagen o Radioterapia",
+        "colspan": 5,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "14",
+        "colspan": 1,
+        "source_page": 4
+      },
+      {
+        "text": "Personal de Administración",
+        "colspan": 5,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "* Ésta es una tabla de cargos genérica. La legislación vigente define quién puede ejercer como responsable de Protección Radiológica de una Institución.",
+        "colspan": 6,
+        "source_page": 4,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "Fuente: INGESA - Centro Nacional de Dosimetría. Documento: Alta o modificación de institución dosimétrica - GS-F01 (2022). Versión/identificador impreso: GS-F01 (2022). https://ingesa.sanidad.gob.es/cnd/dam/jcr:8bb085c6-8be0-4a1a-9941-5f0a8c5b33b6/GSF01.Formulario_de_alta_o_modificacion_de_institucion_dosimetrica.pdf. Recuperado: 2026-09-26. Condiciones de reutilización: https://www.sanidad.gob.es/avisoLegal/home.htm. Fuente: Ministerio de Sanidad / INGESA / Centro Nacional de Dosimetría. Origen de los datos: INGESA. El aviso del Ministerio de Sanidad cubre sus subdominios; reutilización con atribución, preservación del sentido y fecha/versión impresa, sin patrocinio ni logotipos. Adaptación de estructura con datos ficticios. Fecha de actualización impresa: 2022 (printed form code).",
+        "colspan": 6,
+        "source_page": 4
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Validación (Uso interno del CND)",
+      "path": [
+        "Validación (Uso interno del CND)",
+        "Validación (Uso interno del CND)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Validación (Uso interno del CND)",
+      "synthetic_value": "VALIDACIÓN FICTICIA - expediente de prueba completo"
+    },
+    {
+      "id": "f002",
+      "label": "Institución",
+      "path": [
+        "Datos de la Institución / 1",
+        "Institución"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Institución",
+      "synthetic_value": "Hospital Ficticio de la Red 1"
+    },
+    {
+      "id": "f003",
+      "label": "Código",
+      "path": [
+        "Datos de la Institución / 1",
+        "Código"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Código",
+      "synthetic_value": "CND-FICTICIO-01"
+    },
+    {
+      "id": "f004",
+      "label": "Dirección",
+      "path": [
+        "Datos de la Institución / 1",
+        "Dirección"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dirección",
+      "synthetic_value": "Calle Ejemplo 1"
+    },
+    {
+      "id": "f005",
+      "label": "Localidad",
+      "path": [
+        "Datos de la Institución / 1",
+        "Localidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Localidad",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f006",
+      "label": "Teléfono",
+      "path": [
+        "Datos de la Institución / 1",
+        "Teléfono"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Teléfono",
+      "synthetic_value": "000-000-0001"
+    },
+    {
+      "id": "f007",
+      "label": "Código postal",
+      "path": [
+        "Datos de la Institución / 1",
+        "Código postal"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Código postal",
+      "synthetic_value": "46009"
+    },
+    {
+      "id": "f008",
+      "label": "Tipo de Institución",
+      "path": [
+        "Datos de la Institución / 1",
+        "Tipo de Institución"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Tipo de Institución",
+      "synthetic_value": "H"
+    },
+    {
+      "id": "f009",
+      "label": "Dependencia de la Institución",
+      "path": [
+        "Datos de la Institución / 1",
+        "Dependencia de la Institución"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dependencia de la Institución",
+      "synthetic_value": "IN"
+    },
+    {
+      "id": "f010",
+      "label": "Nombre",
+      "path": [
+        "Datos de la Gerencia o Titular de la Institución",
+        "Nombre"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre",
+      "synthetic_value": "Dora Gerente Ejemplo"
+    },
+    {
+      "id": "f011",
+      "label": "ID",
+      "path": [
+        "Datos de la Gerencia o Titular de la Institución",
+        "ID"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "ID",
+      "synthetic_value": "ID-FICTICIO-GERENCIA"
+    },
+    {
+      "id": "f012",
+      "label": "Correo electrónico",
+      "path": [
+        "Datos de la Gerencia o Titular de la Institución",
+        "Correo electrónico"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Correo electrónico",
+      "synthetic_value": "dora52@example.invalid"
+    },
+    {
+      "id": "f013",
+      "label": "Dirección",
+      "path": [
+        "Datos de la Gerencia o Titular de la Institución",
+        "Dirección"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dirección",
+      "synthetic_value": "Calle Ejemplo 1"
+    },
+    {
+      "id": "f014",
+      "label": "Teléfono",
+      "path": [
+        "Datos de la Gerencia o Titular de la Institución",
+        "Teléfono"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Teléfono",
+      "synthetic_value": "000-000-0052"
+    },
+    {
+      "id": "f015",
+      "label": "Localidad",
+      "path": [
+        "Datos de la Gerencia o Titular de la Institución",
+        "Localidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Localidad",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f016",
+      "label": "Código postal",
+      "path": [
+        "Datos de la Gerencia o Titular de la Institución",
+        "Código postal"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Código postal",
+      "synthetic_value": "46009"
+    },
+    {
+      "id": "f017",
+      "label": "Nombre",
+      "path": [
+        "Datos de la persona responsable de la Protección Radiológica de la Institución",
+        "Nombre"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre",
+      "synthetic_value": "Elena Radiofísica Ejemplo"
+    },
+    {
+      "id": "f018",
+      "label": "ID",
+      "path": [
+        "Datos de la persona responsable de la Protección Radiológica de la Institución",
+        "ID"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "ID",
+      "synthetic_value": "ID-FICTICIO-PR"
+    },
+    {
+      "id": "f019",
+      "label": "Institución",
+      "path": [
+        "Datos de la persona responsable de la Protección Radiológica de la Institución",
+        "Institución"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Institución",
+      "synthetic_value": "Hospital Ficticio de la Red 1"
+    },
+    {
+      "id": "f020",
+      "label": "DNI/NIE",
+      "path": [
+        "Datos de la persona responsable de la Protección Radiológica de la Institución",
+        "DNI/NIE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DNI/NIE",
+      "synthetic_value": "DNI-FICTICIO-52"
+    },
+    {
+      "id": "f021",
+      "label": "Servicio o Unidad",
+      "path": [
+        "Datos de la persona responsable de la Protección Radiológica de la Institución",
+        "Servicio o Unidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Servicio o Unidad",
+      "synthetic_value": "Protección Radiológica"
+    },
+    {
+      "id": "f022",
+      "label": "Cargo",
+      "path": [
+        "Datos de la persona responsable de la Protección Radiológica de la Institución",
+        "Cargo"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cargo",
+      "synthetic_value": "02"
+    },
+    {
+      "id": "f023",
+      "label": "Correo electrónico",
+      "path": [
+        "Datos de la persona responsable de la Protección Radiológica de la Institución",
+        "Correo electrónico"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Correo electrónico",
+      "synthetic_value": "elena52@example.invalid"
+    },
+    {
+      "id": "f024",
+      "label": "Dirección",
+      "path": [
+        "Datos de la persona responsable de la Protección Radiológica de la Institución",
+        "Dirección"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dirección",
+      "synthetic_value": "Calle Ejemplo 1"
+    },
+    {
+      "id": "f025",
+      "label": "Teléfono",
+      "path": [
+        "Datos de la persona responsable de la Protección Radiológica de la Institución",
+        "Teléfono"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Teléfono",
+      "synthetic_value": "000-000-0152"
+    },
+    {
+      "id": "f026",
+      "label": "Localidad",
+      "path": [
+        "Datos de la persona responsable de la Protección Radiológica de la Institución",
+        "Localidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Localidad",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f027",
+      "label": "Código postal",
+      "path": [
+        "Datos de la persona responsable de la Protección Radiológica de la Institución",
+        "Código postal"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Código postal",
+      "synthetic_value": "46009"
+    },
+    {
+      "id": "f028",
+      "label": "Fecha",
+      "path": [
+        "Firma de la Gerencia",
+        "Fecha"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha",
+      "synthetic_value": "26/09/2026"
+    },
+    {
+      "id": "f029",
+      "label": "Firmado: La Gerencia o Titular de la Institución",
+      "path": [
+        "Firma de la Gerencia",
+        "Firmado: La Gerencia o Titular de la Institución"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Firmado: La Gerencia o Titular de la Institución",
+      "synthetic_value": "FIRMA FICTICIA - Dora Gerente Ejemplo"
+    },
+    {
+      "id": "f030",
+      "label": "Nombre",
+      "path": [
+        "Firma de la Gerencia",
+        "Nombre"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre",
+      "synthetic_value": "Dora Gerente Ejemplo"
+    },
+    {
+      "id": "f031",
+      "label": "Fecha",
+      "path": [
+        "Firma de Protección Radiológica",
+        "Fecha"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha",
+      "synthetic_value": "26/09/2026"
+    },
+    {
+      "id": "f032",
+      "label": "Firmado: Responsable de la Protección Radiológica",
+      "path": [
+        "Firma de Protección Radiológica",
+        "Firmado: Responsable de la Protección Radiológica"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Firmado: Responsable de la Protección Radiológica",
+      "synthetic_value": "FIRMA FICTICIA - Elena Radiofísica Ejemplo"
+    },
+    {
+      "id": "f033",
+      "label": "Nombre",
+      "path": [
+        "Firma de Protección Radiológica",
+        "Nombre"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre",
+      "synthetic_value": "Elena Radiofísica Ejemplo"
+    },
+    {
+      "id": "f034",
+      "label": "Fecha",
+      "path": [
+        "Firma CND",
+        "Fecha"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha",
+      "synthetic_value": "26/09/2026"
+    },
+    {
+      "id": "f035",
+      "label": "Firmado: La Dirección Gerencia del CND",
+      "path": [
+        "Firma CND",
+        "Firmado: La Dirección Gerencia del CND"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Firmado: La Dirección Gerencia del CND",
+      "synthetic_value": "FIRMA FICTICIA - Inés Gerente Ficticia CND"
+    },
+    {
+      "id": "f036",
+      "label": "Nombre",
+      "path": [
+        "Firma CND",
+        "Nombre"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre",
+      "synthetic_value": "Inés Gerente Ficticia CND"
+    },
+    {
+      "id": "f037",
+      "label": "Institución",
+      "path": [
+        "Datos de la Institución / 2",
+        "Institución"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Institución",
+      "synthetic_value": "Hospital Ficticio de la Red 2"
+    },
+    {
+      "id": "f038",
+      "label": "Código",
+      "path": [
+        "Datos de la Institución / 2",
+        "Código"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Código",
+      "synthetic_value": "CND-FICTICIO-02"
+    },
+    {
+      "id": "f039",
+      "label": "Dirección",
+      "path": [
+        "Datos de la Institución / 2",
+        "Dirección"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Dirección",
+      "synthetic_value": "Calle Ejemplo 2"
+    },
+    {
+      "id": "f040",
+      "label": "Localidad",
+      "path": [
+        "Datos de la Institución / 2",
+        "Localidad"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Localidad",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f041",
+      "label": "Teléfono",
+      "path": [
+        "Datos de la Institución / 2",
+        "Teléfono"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Teléfono",
+      "synthetic_value": "000-000-0002"
+    },
+    {
+      "id": "f042",
+      "label": "Código postal",
+      "path": [
+        "Datos de la Institución / 2",
+        "Código postal"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Código postal",
+      "synthetic_value": "46009"
+    },
+    {
+      "id": "f043",
+      "label": "Tipo de Institución",
+      "path": [
+        "Datos de la Institución / 2",
+        "Tipo de Institución"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Tipo de Institución",
+      "synthetic_value": "H"
+    },
+    {
+      "id": "f044",
+      "label": "Dependencia de la Institución",
+      "path": [
+        "Datos de la Institución / 2",
+        "Dependencia de la Institución"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Dependencia de la Institución",
+      "synthetic_value": "IN"
+    },
+    {
+      "id": "f045",
+      "label": "Institución",
+      "path": [
+        "Datos de la Institución / 3",
+        "Institución"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Institución",
+      "synthetic_value": "Hospital Ficticio de la Red 3"
+    },
+    {
+      "id": "f046",
+      "label": "Código",
+      "path": [
+        "Datos de la Institución / 3",
+        "Código"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Código",
+      "synthetic_value": "CND-FICTICIO-03"
+    },
+    {
+      "id": "f047",
+      "label": "Dirección",
+      "path": [
+        "Datos de la Institución / 3",
+        "Dirección"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Dirección",
+      "synthetic_value": "Calle Ejemplo 3"
+    },
+    {
+      "id": "f048",
+      "label": "Localidad",
+      "path": [
+        "Datos de la Institución / 3",
+        "Localidad"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Localidad",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f049",
+      "label": "Teléfono",
+      "path": [
+        "Datos de la Institución / 3",
+        "Teléfono"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Teléfono",
+      "synthetic_value": "000-000-0003"
+    },
+    {
+      "id": "f050",
+      "label": "Código postal",
+      "path": [
+        "Datos de la Institución / 3",
+        "Código postal"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Código postal",
+      "synthetic_value": "46009"
+    },
+    {
+      "id": "f051",
+      "label": "Tipo de Institución",
+      "path": [
+        "Datos de la Institución / 3",
+        "Tipo de Institución"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Tipo de Institución",
+      "synthetic_value": "H"
+    },
+    {
+      "id": "f052",
+      "label": "Dependencia de la Institución",
+      "path": [
+        "Datos de la Institución / 3",
+        "Dependencia de la Institución"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Dependencia de la Institución",
+      "synthetic_value": "IN"
+    },
+    {
+      "id": "f053",
+      "label": "Institución",
+      "path": [
+        "Datos de la Institución / 4",
+        "Institución"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Institución",
+      "synthetic_value": "Hospital Ficticio de la Red 4"
+    },
+    {
+      "id": "f054",
+      "label": "Código",
+      "path": [
+        "Datos de la Institución / 4",
+        "Código"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Código",
+      "synthetic_value": "CND-FICTICIO-04"
+    },
+    {
+      "id": "f055",
+      "label": "Dirección",
+      "path": [
+        "Datos de la Institución / 4",
+        "Dirección"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Dirección",
+      "synthetic_value": "Calle Ejemplo 4"
+    },
+    {
+      "id": "f056",
+      "label": "Localidad",
+      "path": [
+        "Datos de la Institución / 4",
+        "Localidad"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Localidad",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f057",
+      "label": "Teléfono",
+      "path": [
+        "Datos de la Institución / 4",
+        "Teléfono"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Teléfono",
+      "synthetic_value": "000-000-0004"
+    },
+    {
+      "id": "f058",
+      "label": "Código postal",
+      "path": [
+        "Datos de la Institución / 4",
+        "Código postal"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Código postal",
+      "synthetic_value": "46009"
+    },
+    {
+      "id": "f059",
+      "label": "Tipo de Institución",
+      "path": [
+        "Datos de la Institución / 4",
+        "Tipo de Institución"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Tipo de Institución",
+      "synthetic_value": "H"
+    },
+    {
+      "id": "f060",
+      "label": "Dependencia de la Institución",
+      "path": [
+        "Datos de la Institución / 4",
+        "Dependencia de la Institución"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Dependencia de la Institución",
+      "synthetic_value": "IN"
+    },
+    {
+      "id": "f061",
+      "label": "Institución",
+      "path": [
+        "Datos de la Institución / 5",
+        "Institución"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Institución",
+      "synthetic_value": "Hospital Ficticio de la Red 5"
+    },
+    {
+      "id": "f062",
+      "label": "Código",
+      "path": [
+        "Datos de la Institución / 5",
+        "Código"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Código",
+      "synthetic_value": "CND-FICTICIO-05"
+    },
+    {
+      "id": "f063",
+      "label": "Dirección",
+      "path": [
+        "Datos de la Institución / 5",
+        "Dirección"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Dirección",
+      "synthetic_value": "Calle Ejemplo 5"
+    },
+    {
+      "id": "f064",
+      "label": "Localidad",
+      "path": [
+        "Datos de la Institución / 5",
+        "Localidad"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Localidad",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f065",
+      "label": "Teléfono",
+      "path": [
+        "Datos de la Institución / 5",
+        "Teléfono"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Teléfono",
+      "synthetic_value": "000-000-0005"
+    },
+    {
+      "id": "f066",
+      "label": "Código postal",
+      "path": [
+        "Datos de la Institución / 5",
+        "Código postal"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Código postal",
+      "synthetic_value": "46009"
+    },
+    {
+      "id": "f067",
+      "label": "Tipo de Institución",
+      "path": [
+        "Datos de la Institución / 5",
+        "Tipo de Institución"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Tipo de Institución",
+      "synthetic_value": "H"
+    },
+    {
+      "id": "f068",
+      "label": "Dependencia de la Institución",
+      "path": [
+        "Datos de la Institución / 5",
+        "Dependencia de la Institución"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Dependencia de la Institución",
+      "synthetic_value": "IN"
+    },
+    {
+      "id": "f069",
+      "label": "Institución",
+      "path": [
+        "Datos de la Institución / 6",
+        "Institución"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Institución",
+      "synthetic_value": "Hospital Ficticio de la Red 6"
+    },
+    {
+      "id": "f070",
+      "label": "Código",
+      "path": [
+        "Datos de la Institución / 6",
+        "Código"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Código",
+      "synthetic_value": "CND-FICTICIO-06"
+    },
+    {
+      "id": "f071",
+      "label": "Dirección",
+      "path": [
+        "Datos de la Institución / 6",
+        "Dirección"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Dirección",
+      "synthetic_value": "Calle Ejemplo 6"
+    },
+    {
+      "id": "f072",
+      "label": "Localidad",
+      "path": [
+        "Datos de la Institución / 6",
+        "Localidad"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Localidad",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f073",
+      "label": "Teléfono",
+      "path": [
+        "Datos de la Institución / 6",
+        "Teléfono"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Teléfono",
+      "synthetic_value": "000-000-0006"
+    },
+    {
+      "id": "f074",
+      "label": "Código postal",
+      "path": [
+        "Datos de la Institución / 6",
+        "Código postal"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Código postal",
+      "synthetic_value": "46009"
+    },
+    {
+      "id": "f075",
+      "label": "Tipo de Institución",
+      "path": [
+        "Datos de la Institución / 6",
+        "Tipo de Institución"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Tipo de Institución",
+      "synthetic_value": "H"
+    },
+    {
+      "id": "f076",
+      "label": "Dependencia de la Institución",
+      "path": [
+        "Datos de la Institución / 6",
+        "Dependencia de la Institución"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Dependencia de la Institución",
+      "synthetic_value": "IN"
+    },
+    {
+      "id": "f077",
+      "label": "Institución",
+      "path": [
+        "Datos de la Institución / 7",
+        "Institución"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Institución",
+      "synthetic_value": "Hospital Ficticio de la Red 7"
+    },
+    {
+      "id": "f078",
+      "label": "Código",
+      "path": [
+        "Datos de la Institución / 7",
+        "Código"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Código",
+      "synthetic_value": "CND-FICTICIO-07"
+    },
+    {
+      "id": "f079",
+      "label": "Dirección",
+      "path": [
+        "Datos de la Institución / 7",
+        "Dirección"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Dirección",
+      "synthetic_value": "Calle Ejemplo 7"
+    },
+    {
+      "id": "f080",
+      "label": "Localidad",
+      "path": [
+        "Datos de la Institución / 7",
+        "Localidad"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Localidad",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f081",
+      "label": "Teléfono",
+      "path": [
+        "Datos de la Institución / 7",
+        "Teléfono"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Teléfono",
+      "synthetic_value": "000-000-0007"
+    },
+    {
+      "id": "f082",
+      "label": "Código postal",
+      "path": [
+        "Datos de la Institución / 7",
+        "Código postal"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Código postal",
+      "synthetic_value": "46009"
+    },
+    {
+      "id": "f083",
+      "label": "Tipo de Institución",
+      "path": [
+        "Datos de la Institución / 7",
+        "Tipo de Institución"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Tipo de Institución",
+      "synthetic_value": "H"
+    },
+    {
+      "id": "f084",
+      "label": "Dependencia de la Institución",
+      "path": [
+        "Datos de la Institución / 7",
+        "Dependencia de la Institución"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Dependencia de la Institución",
+      "synthetic_value": "IN"
+    },
+    {
+      "id": "f085",
+      "label": "Institución",
+      "path": [
+        "Datos de la Institución / 8",
+        "Institución"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Institución",
+      "synthetic_value": "Hospital Ficticio de la Red 8"
+    },
+    {
+      "id": "f086",
+      "label": "Código",
+      "path": [
+        "Datos de la Institución / 8",
+        "Código"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Código",
+      "synthetic_value": "CND-FICTICIO-08"
+    },
+    {
+      "id": "f087",
+      "label": "Dirección",
+      "path": [
+        "Datos de la Institución / 8",
+        "Dirección"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Dirección",
+      "synthetic_value": "Calle Ejemplo 8"
+    },
+    {
+      "id": "f088",
+      "label": "Localidad",
+      "path": [
+        "Datos de la Institución / 8",
+        "Localidad"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Localidad",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f089",
+      "label": "Teléfono",
+      "path": [
+        "Datos de la Institución / 8",
+        "Teléfono"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Teléfono",
+      "synthetic_value": "000-000-0008"
+    },
+    {
+      "id": "f090",
+      "label": "Código postal",
+      "path": [
+        "Datos de la Institución / 8",
+        "Código postal"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Código postal",
+      "synthetic_value": "46009"
+    },
+    {
+      "id": "f091",
+      "label": "Tipo de Institución",
+      "path": [
+        "Datos de la Institución / 8",
+        "Tipo de Institución"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Tipo de Institución",
+      "synthetic_value": "H"
+    },
+    {
+      "id": "f092",
+      "label": "Dependencia de la Institución",
+      "path": [
+        "Datos de la Institución / 8",
+        "Dependencia de la Institución"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Dependencia de la Institución",
+      "synthetic_value": "IN"
+    },
+    {
+      "id": "f093",
+      "label": "Institución",
+      "path": [
+        "Datos de la Institución / 9",
+        "Institución"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Institución",
+      "synthetic_value": "Hospital Ficticio de la Red 9"
+    },
+    {
+      "id": "f094",
+      "label": "Código",
+      "path": [
+        "Datos de la Institución / 9",
+        "Código"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Código",
+      "synthetic_value": "CND-FICTICIO-09"
+    },
+    {
+      "id": "f095",
+      "label": "Dirección",
+      "path": [
+        "Datos de la Institución / 9",
+        "Dirección"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Dirección",
+      "synthetic_value": "Calle Ejemplo 9"
+    },
+    {
+      "id": "f096",
+      "label": "Localidad",
+      "path": [
+        "Datos de la Institución / 9",
+        "Localidad"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Localidad",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f097",
+      "label": "Teléfono",
+      "path": [
+        "Datos de la Institución / 9",
+        "Teléfono"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Teléfono",
+      "synthetic_value": "000-000-0009"
+    },
+    {
+      "id": "f098",
+      "label": "Código postal",
+      "path": [
+        "Datos de la Institución / 9",
+        "Código postal"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Código postal",
+      "synthetic_value": "46009"
+    },
+    {
+      "id": "f099",
+      "label": "Tipo de Institución",
+      "path": [
+        "Datos de la Institución / 9",
+        "Tipo de Institución"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Tipo de Institución",
+      "synthetic_value": "H"
+    },
+    {
+      "id": "f100",
+      "label": "Dependencia de la Institución",
+      "path": [
+        "Datos de la Institución / 9",
+        "Dependencia de la Institución"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Dependencia de la Institución",
+      "synthetic_value": "IN"
+    },
+    {
+      "id": "f101",
+      "label": "Institución",
+      "path": [
+        "Datos de la Institución / 10",
+        "Institución"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Institución",
+      "synthetic_value": "Hospital Ficticio de la Red 10"
+    },
+    {
+      "id": "f102",
+      "label": "Código",
+      "path": [
+        "Datos de la Institución / 10",
+        "Código"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Código",
+      "synthetic_value": "CND-FICTICIO-10"
+    },
+    {
+      "id": "f103",
+      "label": "Dirección",
+      "path": [
+        "Datos de la Institución / 10",
+        "Dirección"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Dirección",
+      "synthetic_value": "Calle Ejemplo 10"
+    },
+    {
+      "id": "f104",
+      "label": "Localidad",
+      "path": [
+        "Datos de la Institución / 10",
+        "Localidad"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Localidad",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f105",
+      "label": "Teléfono",
+      "path": [
+        "Datos de la Institución / 10",
+        "Teléfono"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Teléfono",
+      "synthetic_value": "000-000-0010"
+    },
+    {
+      "id": "f106",
+      "label": "Código postal",
+      "path": [
+        "Datos de la Institución / 10",
+        "Código postal"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Código postal",
+      "synthetic_value": "46009"
+    },
+    {
+      "id": "f107",
+      "label": "Tipo de Institución",
+      "path": [
+        "Datos de la Institución / 10",
+        "Tipo de Institución"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Tipo de Institución",
+      "synthetic_value": "H"
+    },
+    {
+      "id": "f108",
+      "label": "Dependencia de la Institución",
+      "path": [
+        "Datos de la Institución / 10",
+        "Dependencia de la Institución"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Dependencia de la Institución",
+      "synthetic_value": "IN"
+    },
+    {
+      "id": "f109",
+      "label": "Institución",
+      "path": [
+        "Datos de la Institución / 11",
+        "Institución"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Institución",
+      "synthetic_value": "Hospital Ficticio de la Red 11"
+    },
+    {
+      "id": "f110",
+      "label": "Código",
+      "path": [
+        "Datos de la Institución / 11",
+        "Código"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Código",
+      "synthetic_value": "CND-FICTICIO-11"
+    },
+    {
+      "id": "f111",
+      "label": "Dirección",
+      "path": [
+        "Datos de la Institución / 11",
+        "Dirección"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Dirección",
+      "synthetic_value": "Calle Ejemplo 11"
+    },
+    {
+      "id": "f112",
+      "label": "Localidad",
+      "path": [
+        "Datos de la Institución / 11",
+        "Localidad"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Localidad",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f113",
+      "label": "Teléfono",
+      "path": [
+        "Datos de la Institución / 11",
+        "Teléfono"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Teléfono",
+      "synthetic_value": "000-000-0011"
+    },
+    {
+      "id": "f114",
+      "label": "Código postal",
+      "path": [
+        "Datos de la Institución / 11",
+        "Código postal"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Código postal",
+      "synthetic_value": "46009"
+    },
+    {
+      "id": "f115",
+      "label": "Tipo de Institución",
+      "path": [
+        "Datos de la Institución / 11",
+        "Tipo de Institución"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Tipo de Institución",
+      "synthetic_value": "H"
+    },
+    {
+      "id": "f116",
+      "label": "Dependencia de la Institución",
+      "path": [
+        "Datos de la Institución / 11",
+        "Dependencia de la Institución"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Dependencia de la Institución",
+      "synthetic_value": "IN"
+    },
+    {
+      "id": "f117",
+      "label": "Institución",
+      "path": [
+        "Datos de la Institución / 12",
+        "Institución"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Institución",
+      "synthetic_value": "Hospital Ficticio de la Red 12"
+    },
+    {
+      "id": "f118",
+      "label": "Código",
+      "path": [
+        "Datos de la Institución / 12",
+        "Código"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Código",
+      "synthetic_value": "CND-FICTICIO-12"
+    },
+    {
+      "id": "f119",
+      "label": "Dirección",
+      "path": [
+        "Datos de la Institución / 12",
+        "Dirección"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Dirección",
+      "synthetic_value": "Calle Ejemplo 12"
+    },
+    {
+      "id": "f120",
+      "label": "Localidad",
+      "path": [
+        "Datos de la Institución / 12",
+        "Localidad"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Localidad",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f121",
+      "label": "Teléfono",
+      "path": [
+        "Datos de la Institución / 12",
+        "Teléfono"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Teléfono",
+      "synthetic_value": "000-000-0012"
+    },
+    {
+      "id": "f122",
+      "label": "Código postal",
+      "path": [
+        "Datos de la Institución / 12",
+        "Código postal"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Código postal",
+      "synthetic_value": "46009"
+    },
+    {
+      "id": "f123",
+      "label": "Tipo de Institución",
+      "path": [
+        "Datos de la Institución / 12",
+        "Tipo de Institución"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Tipo de Institución",
+      "synthetic_value": "H"
+    },
+    {
+      "id": "f124",
+      "label": "Dependencia de la Institución",
+      "path": [
+        "Datos de la Institución / 12",
+        "Dependencia de la Institución"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Dependencia de la Institución",
+      "synthetic_value": "IN"
+    },
+    {
+      "id": "f125",
+      "label": "Institución",
+      "path": [
+        "Datos de la Institución / 13",
+        "Institución"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Institución",
+      "synthetic_value": "Hospital Ficticio de la Red 13"
+    },
+    {
+      "id": "f126",
+      "label": "Código",
+      "path": [
+        "Datos de la Institución / 13",
+        "Código"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Código",
+      "synthetic_value": "CND-FICTICIO-13"
+    },
+    {
+      "id": "f127",
+      "label": "Dirección",
+      "path": [
+        "Datos de la Institución / 13",
+        "Dirección"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Dirección",
+      "synthetic_value": "Calle Ejemplo 13"
+    },
+    {
+      "id": "f128",
+      "label": "Localidad",
+      "path": [
+        "Datos de la Institución / 13",
+        "Localidad"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Localidad",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f129",
+      "label": "Teléfono",
+      "path": [
+        "Datos de la Institución / 13",
+        "Teléfono"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Teléfono",
+      "synthetic_value": "000-000-0013"
+    },
+    {
+      "id": "f130",
+      "label": "Código postal",
+      "path": [
+        "Datos de la Institución / 13",
+        "Código postal"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Código postal",
+      "synthetic_value": "46009"
+    },
+    {
+      "id": "f131",
+      "label": "Tipo de Institución",
+      "path": [
+        "Datos de la Institución / 13",
+        "Tipo de Institución"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Tipo de Institución",
+      "synthetic_value": "H"
+    },
+    {
+      "id": "f132",
+      "label": "Dependencia de la Institución",
+      "path": [
+        "Datos de la Institución / 13",
+        "Dependencia de la Institución"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Dependencia de la Institución",
+      "synthetic_value": "IN"
+    },
+    {
+      "id": "f133",
+      "label": "Institución",
+      "path": [
+        "Datos de la Institución / 14",
+        "Institución"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Institución",
+      "synthetic_value": "Hospital Ficticio de la Red 14"
+    },
+    {
+      "id": "f134",
+      "label": "Código",
+      "path": [
+        "Datos de la Institución / 14",
+        "Código"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Código",
+      "synthetic_value": "CND-FICTICIO-14"
+    },
+    {
+      "id": "f135",
+      "label": "Dirección",
+      "path": [
+        "Datos de la Institución / 14",
+        "Dirección"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Dirección",
+      "synthetic_value": "Calle Ejemplo 14"
+    },
+    {
+      "id": "f136",
+      "label": "Localidad",
+      "path": [
+        "Datos de la Institución / 14",
+        "Localidad"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Localidad",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f137",
+      "label": "Teléfono",
+      "path": [
+        "Datos de la Institución / 14",
+        "Teléfono"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Teléfono",
+      "synthetic_value": "000-000-0014"
+    },
+    {
+      "id": "f138",
+      "label": "Código postal",
+      "path": [
+        "Datos de la Institución / 14",
+        "Código postal"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Código postal",
+      "synthetic_value": "46009"
+    },
+    {
+      "id": "f139",
+      "label": "Tipo de Institución",
+      "path": [
+        "Datos de la Institución / 14",
+        "Tipo de Institución"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Tipo de Institución",
+      "synthetic_value": "H"
+    },
+    {
+      "id": "f140",
+      "label": "Dependencia de la Institución",
+      "path": [
+        "Datos de la Institución / 14",
+        "Dependencia de la Institución"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Dependencia de la Institución",
+      "synthetic_value": "IN"
+    },
+    {
+      "id": "f141",
+      "label": "Otros",
+      "path": [
+        "Relación de tipos de Institución con su código / X",
+        "Otros"
+      ],
+      "kind": "text",
+      "source_page": 4,
+      "source_anchor": "Otros",
+      "synthetic_value": "",
+      "condition": "las instituciones del supuesto usan H, no X"
+    },
+    {
+      "id": "f142",
+      "label": "Servicio de Salud o Consejería de Sanidad de",
+      "path": [
+        "Relación de dependencias de la Institución con su código / CS",
+        "Servicio de Salud o Consejería de Sanidad de"
+      ],
+      "kind": "text",
+      "source_page": 4,
+      "source_anchor": "Servicio de Salud o Consejería de Sanidad de",
+      "synthetic_value": "",
+      "condition": "dependencia IN; no se utiliza CS"
+    },
+    {
+      "id": "f143",
+      "label": "Otros",
+      "path": [
+        "Relación de dependencias de la Institución con su código / XX",
+        "Otros"
+      ],
+      "kind": "text",
+      "source_page": 4,
+      "source_anchor": "Otros",
+      "synthetic_value": "",
+      "condition": "dependencia IN; no se utiliza XX"
+    },
+    {
+      "id": "f144",
+      "label": "Otros",
+      "path": [
+        "Relación de cargos con su código / 15",
+        "Otros"
+      ],
+      "kind": "text",
+      "source_page": 4,
+      "source_anchor": "Otros",
+      "synthetic_value": "",
+      "condition": "responsable de Protección Radiológica con código 02"
+    }
+  ],
+  "source_version": "GS-F01 (2022)",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "value": "2022",
+    "kind": "printed_version_year",
+    "source_url": "https://ingesa.sanidad.gob.es/cnd/dam/jcr:8bb085c6-8be0-4a1a-9941-5f0a8c5b33b6/GSF01.Formulario_de_alta_o_modificacion_de_institucion_dosimetrica.pdf",
+    "detail": "Printed document identifier/version: GS-F01 (2022). Year precision only; no month/day stated."
+  },
+  "context": "Caso de prueba enteramente ficticio. Las identidades, instituciones, documentos, resultados y firmas son sintéticos. No se presenta una solicitud real.\nSe solicita modificación de una red ficticia de catorce instituciones previamente dadas de alta; todos los códigos institucionales ya existen en el supuesto. La primera es la institución de referencia. Los cargos y dependencias se indican con los códigos impresos.\nValidación (Uso interno del CND) / Validación (Uso interno del CND): VALIDACIÓN FICTICIA - expediente de prueba completo.\nDatos de la Institución / 1 / Institución: Hospital Ficticio de la Red 1.\nDatos de la Institución / 1 / Código: CND-FICTICIO-01.\nDatos de la Institución / 1 / Dirección: Calle Ejemplo 1.\nDatos de la Institución / 1 / Localidad: Valencia.\nDatos de la Institución / 1 / Teléfono: 000-000-0001.\nDatos de la Institución / 1 / Código postal: 46009.\nDatos de la Institución / 1 / Tipo de Institución: H.\nDatos de la Institución / 1 / Dependencia de la Institución: IN.\nDatos de la Gerencia o Titular de la Institución / Nombre: Dora Gerente Ejemplo.\nDatos de la Gerencia o Titular de la Institución / ID: ID-FICTICIO-GERENCIA.\nDatos de la Gerencia o Titular de la Institución / Correo electrónico: dora52@example.invalid.\nDatos de la Gerencia o Titular de la Institución / Dirección: Calle Ejemplo 1.\nDatos de la Gerencia o Titular de la Institución / Teléfono: 000-000-0052.\nDatos de la Gerencia o Titular de la Institución / Localidad: Valencia.\nDatos de la Gerencia o Titular de la Institución / Código postal: 46009.\nDatos de la persona responsable de la Protección Radiológica de la Institución / Nombre: Elena Radiofísica Ejemplo.\nDatos de la persona responsable de la Protección Radiológica de la Institución / ID: ID-FICTICIO-PR.\nDatos de la persona responsable de la Protección Radiológica de la Institución / Institución: Hospital Ficticio de la Red 1.\nDatos de la persona responsable de la Protección Radiológica de la Institución / DNI/NIE: DNI-FICTICIO-52.\nDatos de la persona responsable de la Protección Radiológica de la Institución / Servicio o Unidad: Protección Radiológica.\nDatos de la persona responsable de la Protección Radiológica de la Institución / Cargo: 02.\nDatos de la persona responsable de la Protección Radiológica de la Institución / Correo electrónico: elena52@example.invalid.\nDatos de la persona responsable de la Protección Radiológica de la Institución / Dirección: Calle Ejemplo 1.\nDatos de la persona responsable de la Protección Radiológica de la Institución / Teléfono: 000-000-0152.\nDatos de la persona responsable de la Protección Radiológica de la Institución / Localidad: Valencia.\nDatos de la persona responsable de la Protección Radiológica de la Institución / Código postal: 46009.\nFirma de la Gerencia / Fecha: 26/09/2026.\nFirma de la Gerencia / Firmado: La Gerencia o Titular de la Institución: FIRMA FICTICIA - Dora Gerente Ejemplo.\nFirma de la Gerencia / Nombre: Dora Gerente Ejemplo.\nFirma de Protección Radiológica / Fecha: 26/09/2026.\nFirma de Protección Radiológica / Firmado: Responsable de la Protección Radiológica: FIRMA FICTICIA - Elena Radiofísica Ejemplo.\nFirma de Protección Radiológica / Nombre: Elena Radiofísica Ejemplo.\nFirma CND / Fecha: 26/09/2026.\nFirma CND / Firmado: La Dirección Gerencia del CND: FIRMA FICTICIA - Inés Gerente Ficticia CND.\nFirma CND / Nombre: Inés Gerente Ficticia CND.\nDatos de la Institución / 2 / Institución: Hospital Ficticio de la Red 2.\nDatos de la Institución / 2 / Código: CND-FICTICIO-02.\nDatos de la Institución / 2 / Dirección: Calle Ejemplo 2.\nDatos de la Institución / 2 / Localidad: Valencia.\nDatos de la Institución / 2 / Teléfono: 000-000-0002.\nDatos de la Institución / 2 / Código postal: 46009.\nDatos de la Institución / 2 / Tipo de Institución: H.\nDatos de la Institución / 2 / Dependencia de la Institución: IN.\nDatos de la Institución / 3 / Institución: Hospital Ficticio de la Red 3.\nDatos de la Institución / 3 / Código: CND-FICTICIO-03.\nDatos de la Institución / 3 / Dirección: Calle Ejemplo 3.\nDatos de la Institución / 3 / Localidad: Valencia.\nDatos de la Institución / 3 / Teléfono: 000-000-0003.\nDatos de la Institución / 3 / Código postal: 46009.\nDatos de la Institución / 3 / Tipo de Institución: H.\nDatos de la Institución / 3 / Dependencia de la Institución: IN.\nDatos de la Institución / 4 / Institución: Hospital Ficticio de la Red 4.\nDatos de la Institución / 4 / Código: CND-FICTICIO-04.\nDatos de la Institución / 4 / Dirección: Calle Ejemplo 4.\nDatos de la Institución / 4 / Localidad: Valencia.\nDatos de la Institución / 4 / Teléfono: 000-000-0004.\nDatos de la Institución / 4 / Código postal: 46009.\nDatos de la Institución / 4 / Tipo de Institución: H.\nDatos de la Institución / 4 / Dependencia de la Institución: IN.\nDatos de la Institución / 5 / Institución: Hospital Ficticio de la Red 5.\nDatos de la Institución / 5 / Código: CND-FICTICIO-05.\nDatos de la Institución / 5 / Dirección: Calle Ejemplo 5.\nDatos de la Institución / 5 / Localidad: Valencia.\nDatos de la Institución / 5 / Teléfono: 000-000-0005.\nDatos de la Institución / 5 / Código postal: 46009.\nDatos de la Institución / 5 / Tipo de Institución: H.\nDatos de la Institución / 5 / Dependencia de la Institución: IN.\nDatos de la Institución / 6 / Institución: Hospital Ficticio de la Red 6.\nDatos de la Institución / 6 / Código: CND-FICTICIO-06.\nDatos de la Institución / 6 / Dirección: Calle Ejemplo 6.\nDatos de la Institución / 6 / Localidad: Valencia.\nDatos de la Institución / 6 / Teléfono: 000-000-0006.\nDatos de la Institución / 6 / Código postal: 46009.\nDatos de la Institución / 6 / Tipo de Institución: H.\nDatos de la Institución / 6 / Dependencia de la Institución: IN.\nDatos de la Institución / 7 / Institución: Hospital Ficticio de la Red 7.\nDatos de la Institución / 7 / Código: CND-FICTICIO-07.\nDatos de la Institución / 7 / Dirección: Calle Ejemplo 7.\nDatos de la Institución / 7 / Localidad: Valencia.\nDatos de la Institución / 7 / Teléfono: 000-000-0007.\nDatos de la Institución / 7 / Código postal: 46009.\nDatos de la Institución / 7 / Tipo de Institución: H.\nDatos de la Institución / 7 / Dependencia de la Institución: IN.\nDatos de la Institución / 8 / Institución: Hospital Ficticio de la Red 8.\nDatos de la Institución / 8 / Código: CND-FICTICIO-08.\nDatos de la Institución / 8 / Dirección: Calle Ejemplo 8.\nDatos de la Institución / 8 / Localidad: Valencia.\nDatos de la Institución / 8 / Teléfono: 000-000-0008.\nDatos de la Institución / 8 / Código postal: 46009.\nDatos de la Institución / 8 / Tipo de Institución: H.\nDatos de la Institución / 8 / Dependencia de la Institución: IN.\nDatos de la Institución / 9 / Institución: Hospital Ficticio de la Red 9.\nDatos de la Institución / 9 / Código: CND-FICTICIO-09.\nDatos de la Institución / 9 / Dirección: Calle Ejemplo 9.\nDatos de la Institución / 9 / Localidad: Valencia.\nDatos de la Institución / 9 / Teléfono: 000-000-0009.\nDatos de la Institución / 9 / Código postal: 46009.\nDatos de la Institución / 9 / Tipo de Institución: H.\nDatos de la Institución / 9 / Dependencia de la Institución: IN.\nDatos de la Institución / 10 / Institución: Hospital Ficticio de la Red 10.\nDatos de la Institución / 10 / Código: CND-FICTICIO-10.\nDatos de la Institución / 10 / Dirección: Calle Ejemplo 10.\nDatos de la Institución / 10 / Localidad: Valencia.\nDatos de la Institución / 10 / Teléfono: 000-000-0010.\nDatos de la Institución / 10 / Código postal: 46009.\nDatos de la Institución / 10 / Tipo de Institución: H.\nDatos de la Institución / 10 / Dependencia de la Institución: IN.\nDatos de la Institución / 11 / Institución: Hospital Ficticio de la Red 11.\nDatos de la Institución / 11 / Código: CND-FICTICIO-11.\nDatos de la Institución / 11 / Dirección: Calle Ejemplo 11.\nDatos de la Institución / 11 / Localidad: Valencia.\nDatos de la Institución / 11 / Teléfono: 000-000-0011.\nDatos de la Institución / 11 / Código postal: 46009.\nDatos de la Institución / 11 / Tipo de Institución: H.\nDatos de la Institución / 11 / Dependencia de la Institución: IN.\nDatos de la Institución / 12 / Institución: Hospital Ficticio de la Red 12.\nDatos de la Institución / 12 / Código: CND-FICTICIO-12.\nDatos de la Institución / 12 / Dirección: Calle Ejemplo 12.\nDatos de la Institución / 12 / Localidad: Valencia.\nDatos de la Institución / 12 / Teléfono: 000-000-0012.\nDatos de la Institución / 12 / Código postal: 46009.\nDatos de la Institución / 12 / Tipo de Institución: H.\nDatos de la Institución / 12 / Dependencia de la Institución: IN.\nDatos de la Institución / 13 / Institución: Hospital Ficticio de la Red 13.\nDatos de la Institución / 13 / Código: CND-FICTICIO-13.\nDatos de la Institución / 13 / Dirección: Calle Ejemplo 13.\nDatos de la Institución / 13 / Localidad: Valencia.\nDatos de la Institución / 13 / Teléfono: 000-000-0013.\nDatos de la Institución / 13 / Código postal: 46009.\nDatos de la Institución / 13 / Tipo de Institución: H.\nDatos de la Institución / 13 / Dependencia de la Institución: IN.\nDatos de la Institución / 14 / Institución: Hospital Ficticio de la Red 14.\nDatos de la Institución / 14 / Código: CND-FICTICIO-14.\nDatos de la Institución / 14 / Dirección: Calle Ejemplo 14.\nDatos de la Institución / 14 / Localidad: Valencia.\nDatos de la Institución / 14 / Teléfono: 000-000-0014.\nDatos de la Institución / 14 / Código postal: 46009.\nDatos de la Institución / 14 / Tipo de Institución: H.\nDatos de la Institución / 14 / Dependencia de la Institución: IN.\nRelación de tipos de Institución con su código / X / Otros: se deja vacío; las instituciones del supuesto usan H, no X.\nRelación de dependencias de la Institución con su código / CS / Servicio de Salud o Consejería de Sanidad de: se deja vacío; dependencia IN; no se utiliza CS.\nRelación de dependencias de la Institución con su código / XX / Otros: se deja vacío; dependencia IN; no se utiliza XX.\nRelación de cargos con su código / 15 / Otros: se deja vacío; responsable de Protección Radiológica con código 02.",
+  "source_credit_details": {
+    "source_sha256": "d22df44954f0f720263f76c37952c9ef58ee77cd2eaa510f80882e5d9cf5e240",
+    "printed_version_year": "2022",
+    "original_pdf_modification_metadata": "D:20220926114648+02'00'"
+  },
+  "workflow_identity": {
+    "language": "es",
+    "id": 52
+  }
+}

@@ -1,0 +1,842 @@
+[
+  {
+    "key": "Nom*",
+    "label_info": {
+      "row": 6,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Tierce personne",
+    "label_info": {
+      "row": 6,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Prénom*",
+    "label_info": {
+      "row": 7,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Nom",
+    "label_info": {
+      "row": 7,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Date de naissance*",
+    "label_info": {
+      "row": 8,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Prénom",
+    "label_info": {
+      "row": 8,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Téléphone",
+    "label_info": {
+      "row": 9,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Téléphone",
+    "label_info": {
+      "row": 9,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Courriel",
+    "label_info": {
+      "row": 10,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Courriel",
+    "label_info": {
+      "row": 10,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Sexe*",
+    "label_info": {
+      "row": 13,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Année de naissance",
+    "label_info": {
+      "row": 14,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Age",
+    "label_info": {
+      "row": 14,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Précisez",
+    "label_info": {
+      "row": 15,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Code postal du domicile*",
+    "label_info": {
+      "row": 16,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Pays si patient résidant à l’étranger",
+    "label_info": {
+      "row": 17,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Le patient (ou le tiers) est-il informé du diagnostic*",
+    "label_info": {
+      "row": 18,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "L’état clinique du patient lui permet-il de répondre à l’investigation",
+    "label_info": {
+      "row": 19,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Code d’anonymat (à remplir par l’ARS)",
+    "label_info": {
+      "row": 20,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Date de signalement*",
+    "label_info": {
+      "row": 21,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Date",
+    "label_info": {
+      "row": 24,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Test",
+    "label_info": {
+      "row": 24,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Autre",
+    "label_info": {
+      "row": 25,
+      "col": 1
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Date",
+    "label_info": {
+      "row": 25,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Test",
+    "label_info": {
+      "row": 25,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Date",
+    "label_info": {
+      "row": 26,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Test",
+    "label_info": {
+      "row": 26,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Date",
+    "label_info": {
+      "row": 27,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Test",
+    "label_info": {
+      "row": 27,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Séro-conversion",
+    "label_info": {
+      "row": 27,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Multiplication par 4",
+    "label_info": {
+      "row": 27,
+      "col": 5
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Date des premiers signes cliniques",
+    "label_info": {
+      "row": 29,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Fièvre",
+    "label_info": {
+      "row": 30,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Douleurs articulaires",
+    "label_info": {
+      "row": 31,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Hospitalisation",
+    "label_info": {
+      "row": 33,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Réanimation",
+    "label_info": {
+      "row": 34,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Décès",
+    "label_info": {
+      "row": 35,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Séjour à l’étranger / dans un territoire ultramarin",
+    "label_info": {
+      "row": 37,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "si oui, précisez-le(s) pays/territoire(s)",
+    "label_info": {
+      "row": 38,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Date de retour",
+    "label_info": {
+      "row": 39,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Séjour dans un département hors du département de résidence",
+    "label_info": {
+      "row": 40,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "si oui, précisez-le(s) département(s)",
+    "label_info": {
+      "row": 41,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Date de retour",
+    "label_info": {
+      "row": 42,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Séjour dans un département hors du département de résidence",
+    "label_info": {
+      "row": 44,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "si oui, précisez-le(s) département(s)",
+    "label_info": {
+      "row": 45,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Date de retour",
+    "label_info": {
+      "row": 46,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Existence d’autres cas dans l’entourage",
+    "label_info": {
+      "row": 47,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Vaccination Chikungunya",
+    "label_info": {
+      "row": 49,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Année",
+    "label_info": {
+      "row": 50,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Nom / RPPS",
+    "label_info": {
+      "row": 52,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Nom / RPPS",
+    "label_info": {
+      "row": 52,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Lieux d’exercice",
+    "label_info": {
+      "row": 53,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "LBM / Finess",
+    "label_info": {
+      "row": 53,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Adresse",
+    "label_info": {
+      "row": 54,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Adresse",
+    "label_info": {
+      "row": 54,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Téléphone",
+    "label_info": {
+      "row": 55,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Téléphone",
+    "label_info": {
+      "row": 55,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Courriel",
+    "label_info": {
+      "row": 56,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Courriel",
+    "label_info": {
+      "row": 56,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "ARS (tampon)",
+    "label_info": {
+      "row": 58,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  }
+]

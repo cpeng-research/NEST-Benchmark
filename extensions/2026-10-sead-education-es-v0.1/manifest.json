@@ -1,0 +1,44 @@
+{
+  "extension_id": "2026-10-sead-education-es-v0.1",
+  "added_on": "2026-10-05",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 1,
+  "samples": [
+    {
+      "id": 131,
+      "language": "es",
+      "title": "Ficha de inscripción 2026 del Servicio de Educación a Distancia",
+      "source_id": "es-131-sead-inscripcion-2026",
+      "domain": "Education",
+      "issuer_id": "Secretaría de Educación / SEAD",
+      "template_family": "sead-inscripcion-2026",
+      "source_pages": 2,
+      "source_sha256": "6a3576a67de62c068336cc7a8f47431d517743961f0a5082017cdc5e08c7556a",
+      "fields": 43,
+      "files": {
+        "workflow/0-html_template/data_es/131.html": "488aa06e456296c9de24717499b5ecb5a6d04abfd6fa7415a4b8b3ba1dfbbd81",
+        "workflow/1-annotated_json/data_es/131.json": "70aafcec711d6b58b719e5f22b8f7c13c198362678e578a16f65841c4d874f3e",
+        "workflow/2-filled_json-a/data_es/131.json": "75e5fbb682a83536595b7ebfbc9dacedcebb1632a0f35d1f54de8ac72ff5a801",
+        "workflow/3-filled_html-a/data_es/131.html": "5d63b2e71636f5b2c0d8f2a08098bf7e0e92e3d1b9bb6592475f3c64fb18f74e",
+        "workflow/4-context-a/data_es/131.txt": "24eba0afdbeea7ad8dc4f38e177cf048470032100dbaf40f66c9cd8d0cd4ad38",
+        "workflow/5-ph_html-a/data_es/131.html": "e344a65fed2ed896d6803ada8a7b6130db452c9125197d16494746c166f92759",
+        "workflow/6-meta-a/data_es/131.json": "73c60c64ec660b6caaa51ad9c8be4d9f439d3346bce60897027c10e52850240a"
+      },
+      "annotation_path": "data/annotations/es/131.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      },
+      "business_topic": "distance-school-registration"
+    }
+  ]
+}

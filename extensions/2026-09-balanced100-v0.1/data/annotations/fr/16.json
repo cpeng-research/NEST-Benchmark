@@ -1,0 +1,328 @@
+{
+  "id": "fr-oepre-attestation",
+  "language": "fr",
+  "domain": "Education",
+  "title": "OEPRE - Attestation de participation et de compétences",
+  "template_family": "oepre-attestation",
+  "source_pages": 1,
+  "columns": 6,
+  "rows": [
+    [
+      {
+        "text": "Attestation de participation à la formation et de compétences acquises en langue française",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Ouvrir l’école aux parents pour la réussite des enfants",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "academie",
+        "label": "ACADÉMIE DE",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "annee",
+        "label": "Année scolaire :",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "nom",
+        "label": "NOM usuel :",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "prenom",
+        "label": "Prénom :",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "naissance",
+        "label": "Né (le) :",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "adresse",
+        "label": "Demeurant :",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "ville",
+        "label": "à",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "assiduite",
+        "label": "a suivi avec assiduité la formation",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "heures",
+        "label": "pour un nombre total d’heures :",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "competences",
+        "label": "a atteint les compétences linguistiques requises pour se présenter à un test ou un examen de niveau",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "niveau",
+        "label": "cocher la case correspondante",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Programme national destiné aux parents étrangers allophones volontaires : maîtrise de la langue française ; connaissance des valeurs de la République et mise en œuvre dans la société française ; connaissance du fonctionnement et des attentes de l’École vis-à-vis des élèves et des parents.",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "chef",
+        "label": "Le directeur académique des services de l’éducation nationale/Le chef d’établissement",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "formatrice",
+        "label": "La(le) formatrice(eur)",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "academie",
+      "label": "ACADÉMIE DE",
+      "source_page": 1,
+      "source_anchor": "ACADÉMIE DE",
+      "path": [
+        "Attestation de participation à la formation et de compétences acquises en langue française",
+        "ACADÉMIE DE"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "annee",
+      "label": "Année scolaire :",
+      "source_page": 1,
+      "source_anchor": "Année scolaire :",
+      "path": [
+        "Attestation de participation à la formation et de compétences acquises en langue française",
+        "Année scolaire :"
+      ],
+      "kind": "text",
+      "synthetic_value": "2025-2026"
+    },
+    {
+      "id": "nom",
+      "label": "NOM usuel :",
+      "source_page": 1,
+      "source_anchor": "NOM usuel :",
+      "path": [
+        "Attestation de participation à la formation et de compétences acquises en langue française",
+        "NOM usuel :"
+      ],
+      "kind": "text",
+      "synthetic_value": "Martin"
+    },
+    {
+      "id": "prenom",
+      "label": "Prénom :",
+      "source_page": 1,
+      "source_anchor": "Prénom :",
+      "path": [
+        "Attestation de participation à la formation et de compétences acquises en langue française",
+        "Prénom :"
+      ],
+      "kind": "text",
+      "synthetic_value": "Lucie"
+    },
+    {
+      "id": "naissance",
+      "label": "Né (le) :",
+      "source_page": 1,
+      "source_anchor": "Né (le) :",
+      "path": [
+        "Attestation de participation à la formation et de compétences acquises en langue française",
+        "Né (le) :"
+      ],
+      "kind": "text",
+      "synthetic_value": "12/05/1988"
+    },
+    {
+      "id": "adresse",
+      "label": "Demeurant :",
+      "source_page": 1,
+      "source_anchor": "Demeurant :",
+      "path": [
+        "Attestation de participation à la formation et de compétences acquises en langue française",
+        "Demeurant :"
+      ],
+      "kind": "text",
+      "synthetic_value": "10 rue Fictive"
+    },
+    {
+      "id": "ville",
+      "label": "à",
+      "source_page": 1,
+      "source_anchor": "à",
+      "path": [
+        "Attestation de participation à la formation et de compétences acquises en langue française",
+        "à"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "assiduite",
+      "label": "a suivi avec assiduité la formation",
+      "source_page": 1,
+      "source_anchor": "a suivi avec assiduité la formation",
+      "path": [
+        "Attestation de participation à la formation et de compétences acquises en langue française",
+        "a suivi avec assiduité la formation"
+      ],
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "a suivi avec assiduité la formation"
+      ],
+      "options": [
+        "a suivi avec assiduité la formation"
+      ],
+      "context_evidence": "Attestation de participation à la formation et de compétences acquises en langue française / a suivi avec assiduité la formation : a suivi avec assiduité la formation."
+    },
+    {
+      "id": "heures",
+      "label": "pour un nombre total d’heures :",
+      "source_page": 1,
+      "source_anchor": "pour un nombre total d’heures :",
+      "path": [
+        "Attestation de participation à la formation et de compétences acquises en langue française",
+        "pour un nombre total d’heures :"
+      ],
+      "kind": "text",
+      "synthetic_value": "120"
+    },
+    {
+      "id": "competences",
+      "label": "a atteint les compétences linguistiques requises pour se présenter à un test ou un examen de niveau",
+      "source_page": 1,
+      "source_anchor": "a atteint les compétences linguistiques requises pour se présenter à un test ou un examen de niveau",
+      "path": [
+        "Attestation de participation à la formation et de compétences acquises en langue française",
+        "a atteint les compétences linguistiques requises pour se présenter à un test ou un examen de niveau"
+      ],
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "a atteint les compétences linguistiques requises pour se présenter à un test ou un examen de niveau"
+      ],
+      "options": [
+        "a atteint les compétences linguistiques requises pour se présenter à un test ou un examen de niveau"
+      ],
+      "context_evidence": "Attestation de participation à la formation et de compétences acquises en langue française / a atteint les compétences linguistiques requises pour se présenter à un test ou un examen de niveau : a atteint les compétences linguistiques requises pour se présenter à un test ou un examen de niveau."
+    },
+    {
+      "id": "niveau",
+      "label": "cocher la case correspondante",
+      "source_page": 1,
+      "source_anchor": "cocher la case correspondante",
+      "path": [
+        "Attestation de participation à la formation et de compétences acquises en langue française",
+        "cocher la case correspondante"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "A2"
+      ],
+      "options": [
+        "A1",
+        "A2"
+      ],
+      "context_evidence": "Attestation de participation à la formation et de compétences acquises en langue française / cocher la case correspondante : A2."
+    },
+    {
+      "id": "chef",
+      "label": "Le directeur académique des services de l’éducation nationale/Le chef d’établissement",
+      "source_page": 1,
+      "source_anchor": "Le directeur académique des services de l’éducation nationale/Le chef d’établissement",
+      "path": [
+        "Attestation de participation à la formation et de compétences acquises en langue française",
+        "Le directeur académique des services de l’éducation nationale/Le chef d’établissement"
+      ],
+      "kind": "text",
+      "synthetic_value": "Signature fictive Camille Moreau"
+    },
+    {
+      "id": "formatrice",
+      "label": "La(le) formatrice(eur)",
+      "source_page": 1,
+      "source_anchor": "La(le) formatrice(eur)",
+      "path": [
+        "Attestation de participation à la formation et de compétences acquises en langue française",
+        "La(le) formatrice(eur)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Signature fictive Alex Laurent"
+    }
+  ],
+  "source_url": "https://eduscol.education.gouv.fr/sites/default/files/document/ensel979annexe6750690pdf-90147.pdf",
+  "landing_url": "https://eduscol.education.gouv.fr/5103/ouvrir-l-ecole-aux-parents-pour-la-reussite-des-enfants",
+  "license_url": "https://eduscol.education.gouv.fr/4656/mentions-legales",
+  "issuer_id": "dgesco-eduscol",
+  "retrieved_at": "2026-09-26T10:36:13.605955+00:00",
+  "source_sha256": "4b16861e7d9548c2674f3348e7a77c59b8996804d2b65c4f4ded7a0256d8c59f",
+  "license_note": "DGESCO / Eduscol legal notice, section Autorisation de reproduction des contenus, explicitly applies Etalab 2.0 to downloadable documents, excluding third-party works. This complete national-program attestation is jointly headed by the education and interior ministries, with no third-party text attribution or contrary terms. Both emblems are omitted. Attribute DGESCO, the original document URL and retrieval date. Source text and functional structure only; no logos or artwork. Original artwork and logos omitted. Normalized layout and synthetic completion are adaptations without official endorsement.",
+  "source_version": "OEPRE national attestation, Annex 6 of circular 2017-060",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "value": "Annexe 6",
+    "kind": "document_version",
+    "source_url": "https://eduscol.education.gouv.fr/sites/default/files/document/ensel979annexe6750690pdf-90147.pdf",
+    "detail": "Official OEPRE landing identifies circular of 3 April 2017; form itself has no last-update date."
+  },
+  "context": "Exemple fictif destiné au benchmark ; il ne constitue pas un document administratif réel.\nAttestation de participation à la formation et de compétences acquises en langue française / ACADÉMIE DE : Paris.\nAttestation de participation à la formation et de compétences acquises en langue française / Année scolaire : : 2025-2026.\nAttestation de participation à la formation et de compétences acquises en langue française / NOM usuel : : Martin.\nAttestation de participation à la formation et de compétences acquises en langue française / Prénom : : Lucie.\nAttestation de participation à la formation et de compétences acquises en langue française / Né (le) : : 12/05/1988.\nAttestation de participation à la formation et de compétences acquises en langue française / Demeurant : : 10 rue Fictive.\nAttestation de participation à la formation et de compétences acquises en langue française / à : Paris.\nAttestation de participation à la formation et de compétences acquises en langue française / a suivi avec assiduité la formation : a suivi avec assiduité la formation. Les autres options ne sont pas sélectionnées.\nAttestation de participation à la formation et de compétences acquises en langue française / pour un nombre total d’heures : : 120.\nAttestation de participation à la formation et de compétences acquises en langue française / a atteint les compétences linguistiques requises pour se présenter à un test ou un examen de niveau : a atteint les compétences linguistiques requises pour se présenter à un test ou un examen de niveau. Les autres options ne sont pas sélectionnées.\nAttestation de participation à la formation et de compétences acquises en langue française / cocher la case correspondante : A2. Les autres options ne sont pas sélectionnées.\nAttestation de participation à la formation et de compétences acquises en langue française / Le directeur académique des services de l’éducation nationale/Le chef d’établissement : Signature fictive Camille Moreau.\nAttestation de participation à la formation et de compétences acquises en langue française / La(le) formatrice(eur) : Signature fictive Alex Laurent.",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 16
+  }
+}

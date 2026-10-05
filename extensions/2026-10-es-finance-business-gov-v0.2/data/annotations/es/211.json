@@ -1,0 +1,438 @@
+{
+  "id": "es-211-factor8-alta",
+  "language": "es",
+  "domain": "GovPublic",
+  "title": "Alta de beneficiario al programa de Factor VIII",
+  "business_topic": "Alta de beneficiario al programa de Factor VIII",
+  "issuer_id": "SSSalud",
+  "template_family": "factor8-alta",
+  "source_pages": 1,
+  "source_sha256": "4227e4f679ca9e3952cb8f9f6b0efd40fee26e96841a7c09a9649fc0b894ebfd",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/2025/07/anexo_iii_-_ddjj_-_nota_para_alta_de_beneficiario_al_programa.pdf",
+  "landing_url": "https://www.argentina.gob.ar/servicio/solicitar-la-adquisicion-del-medicamento-factor-viii-para-beneficiarios-mayores-de-21-anos",
+  "license_url": "https://www.argentina.gob.ar/acerca",
+  "license_note": "Argentina.gob.ar states CC BY 4.0 for its published content. This candidate uses normalized form text and structure, not source PDF artwork or logos. The portal statement does not override contrary PDF-specific or third-party notices.",
+  "retrieved_at": "2026-10-05",
+  "source_version": "Programa Factor VIII 2025, Anexo III",
+  "source_date_evidence": {
+    "kind": "printed form year and official service-page annex label",
+    "value": "2025",
+    "raw": "Buenos Aires, [blank] de 2025; ANEXO III on the official download list",
+    "scope": "Printed template year and service-page annex designation, not a claim that a later revision does not exist.",
+    "retrieval_timestamp_utc": "2026-10-04T19:32:54.459922+00:00"
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "Solicitud de medicación",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Buenos Aires,",
+        "field": "f001",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Sr. Superintendente de Servicios de Salud",
+        "field": "f002",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "El Sr/a",
+        "field": "f003",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nombre y Apellido:",
+        "field": "f004",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nº de afiliado:",
+        "field": "f005",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fecha de alta en el Agente del Seguro:",
+        "field": "f006",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fecha de inicio del tratamiento:",
+        "field": "f007",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fecha de Nacimiento:",
+        "field": "f008",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "DNI:",
+        "field": "f009",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Sexo:",
+        "field": "f010",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Domicilio:",
+        "field": "f011",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Localidad:",
+        "field": "f012",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Tel. de contacto:",
+        "field": "f013",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Correo electrónico:",
+        "field": "f014",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "C.U.I.L:",
+        "field": "f015",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Peso: (expresados en Kg)",
+        "field": "f016",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Dirección de Correo electrónico institucional del Agente del Seguro",
+        "field": "f017",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Firma del presidente o apoderado del Agente del Seguro",
+        "field": "f018",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Buenos Aires,",
+      "path": [
+        "Página 1",
+        "Alta de beneficiario",
+        "Buenos Aires,"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Buenos Aires,",
+      "synthetic_value": "05/10",
+      "source_widgets": []
+    },
+    {
+      "id": "f002",
+      "label": "Sr. Superintendente de Servicios de Salud",
+      "path": [
+        "Página 1",
+        "Alta de beneficiario",
+        "Sr. Superintendente de Servicios de Salud"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Sr. Superintendente de Servicios de Salud",
+      "synthetic_value": "Autoridad destinataria",
+      "source_widgets": []
+    },
+    {
+      "id": "f003",
+      "label": "El Sr/a",
+      "path": [
+        "Página 1",
+        "Alta de beneficiario",
+        "El Sr/a"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "El Sr/a",
+      "synthetic_value": "Elena Pérez",
+      "source_widgets": []
+    },
+    {
+      "id": "f004",
+      "label": "Nombre y Apellido:",
+      "path": [
+        "Página 1",
+        "Alta de beneficiario",
+        "Nombre y Apellido:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre y Apellido:",
+      "synthetic_value": "Lucía Torres",
+      "source_widgets": []
+    },
+    {
+      "id": "f005",
+      "label": "Nº de afiliado:",
+      "path": [
+        "Página 1",
+        "Alta de beneficiario",
+        "Nº de afiliado:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nº de afiliado:",
+      "synthetic_value": "AF-0001",
+      "source_widgets": []
+    },
+    {
+      "id": "f006",
+      "label": "Fecha de alta en el Agente del Seguro:",
+      "path": [
+        "Página 1",
+        "Alta de beneficiario",
+        "Fecha de alta en el Agente del Seguro:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha de alta en el Agente del Seguro:",
+      "synthetic_value": "01/09/2026",
+      "source_widgets": []
+    },
+    {
+      "id": "f007",
+      "label": "Fecha de inicio del tratamiento:",
+      "path": [
+        "Página 1",
+        "Alta de beneficiario",
+        "Fecha de inicio del tratamiento:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha de inicio del tratamiento:",
+      "synthetic_value": "10/10/2026",
+      "source_widgets": []
+    },
+    {
+      "id": "f008",
+      "label": "Fecha de Nacimiento:",
+      "path": [
+        "Página 1",
+        "Alta de beneficiario",
+        "Fecha de Nacimiento:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha de Nacimiento:",
+      "synthetic_value": "01/01/1990",
+      "source_widgets": []
+    },
+    {
+      "id": "f009",
+      "label": "DNI:",
+      "path": [
+        "Página 1",
+        "Alta de beneficiario",
+        "DNI:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DNI:",
+      "synthetic_value": "00000001",
+      "source_widgets": []
+    },
+    {
+      "id": "f010",
+      "label": "Sexo:",
+      "path": [
+        "Página 1",
+        "Alta de beneficiario",
+        "Sexo:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Sexo:",
+      "synthetic_value": "F",
+      "source_widgets": []
+    },
+    {
+      "id": "f011",
+      "label": "Domicilio:",
+      "path": [
+        "Página 1",
+        "Alta de beneficiario",
+        "Domicilio:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Domicilio:",
+      "synthetic_value": "Calle Ejemplo 20",
+      "source_widgets": []
+    },
+    {
+      "id": "f012",
+      "label": "Localidad:",
+      "path": [
+        "Página 1",
+        "Alta de beneficiario",
+        "Localidad:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Localidad:",
+      "synthetic_value": "Rosario",
+      "source_widgets": []
+    },
+    {
+      "id": "f013",
+      "label": "Tel. de contacto:",
+      "path": [
+        "Página 1",
+        "Alta de beneficiario",
+        "Tel. de contacto:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Tel. de contacto:",
+      "synthetic_value": "0341 400 0000",
+      "source_widgets": []
+    },
+    {
+      "id": "f014",
+      "label": "Correo electrónico:",
+      "path": [
+        "Página 1",
+        "Alta de beneficiario",
+        "Correo electrónico:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Correo electrónico:",
+      "synthetic_value": "lucia@example.org",
+      "source_widgets": []
+    },
+    {
+      "id": "f015",
+      "label": "C.U.I.L:",
+      "path": [
+        "Página 1",
+        "Alta de beneficiario",
+        "C.U.I.L:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "C.U.I.L:",
+      "synthetic_value": "27-00000001-2",
+      "source_widgets": []
+    },
+    {
+      "id": "f016",
+      "label": "Peso: (expresados en Kg)",
+      "path": [
+        "Página 1",
+        "Alta de beneficiario",
+        "Peso: (expresados en Kg)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Peso: (expresados en Kg)",
+      "synthetic_value": "64",
+      "source_widgets": []
+    },
+    {
+      "id": "f017",
+      "label": "Dirección de Correo electrónico institucional del Agente del Seguro",
+      "path": [
+        "Página 1",
+        "Alta de beneficiario",
+        "Dirección de Correo electrónico institucional del Agente del Seguro"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dirección de Correo electrónico institucional del Agente del Seguro",
+      "synthetic_value": "contacto@obra-ejemplo.org",
+      "source_widgets": []
+    },
+    {
+      "id": "f018",
+      "label": "Firma del presidente o apoderado del Agente del Seguro",
+      "path": [
+        "Página 1",
+        "Alta de beneficiario",
+        "Firma del presidente o apoderado del Agente del Seguro"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Firma del presidente o apoderado del Agente del Seguro",
+      "synthetic_value": "Elena Pérez",
+      "source_widgets": []
+    }
+  ],
+  "context": "Datos ficticios de prueba; no corresponden a una solicitud real.\nAlta de beneficiario / Buenos Aires,: 05/10\nAlta de beneficiario / Sr. Superintendente de Servicios de Salud: Autoridad destinataria\nAlta de beneficiario / El Sr/a: Elena Pérez\nAlta de beneficiario / Nombre y Apellido:: Lucía Torres\nAlta de beneficiario / Nº de afiliado:: AF-0001\nAlta de beneficiario / Fecha de alta en el Agente del Seguro:: 01/09/2026\nAlta de beneficiario / Fecha de inicio del tratamiento:: 10/10/2026\nAlta de beneficiario / Fecha de Nacimiento:: 01/01/1990\nAlta de beneficiario / DNI:: 00000001\nAlta de beneficiario / Sexo:: F\nAlta de beneficiario / Domicilio:: Calle Ejemplo 20\nAlta de beneficiario / Localidad:: Rosario\nAlta de beneficiario / Tel. de contacto:: 0341 400 0000\nAlta de beneficiario / Correo electrónico:: lucia@example.org\nAlta de beneficiario / C.U.I.L:: 27-00000001-2\nAlta de beneficiario / Peso: (expresados en Kg): 64\nAlta de beneficiario / Dirección de Correo electrónico institucional del Agente del Seguro: contacto@obra-ejemplo.org\nAlta de beneficiario / Firma del presidente o apoderado del Agente del Seguro: Elena Pérez\n",
+  "workflow_identity": {
+    "language": "es",
+    "id": 211
+  }
+}

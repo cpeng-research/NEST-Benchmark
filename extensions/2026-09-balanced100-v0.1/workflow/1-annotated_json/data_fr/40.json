@@ -1,0 +1,165 @@
+{
+  "Page 1": {
+    "FORMULAIRE D’ENREGISTREMENT DES CORRESPONDANTS LOCAUX DE MATERIOVIGILANCE ET/OU DE REACTOVIGILANCE ET DES EMAILS D’ALERTE": {
+      "Cocher s’il s’agit de l’enregistrement d’un correspondant local:": {
+        "choices": [
+          "Matériovigilance*",
+          "Réactovigilance**"
+        ],
+        "value": []
+      }
+    },
+    "1. ETABLISSEMENT": {
+      "Nom de l’établissement*": "",
+      "Adresse": "",
+      "Code postal": "",
+      "Ville": "",
+      "Standard": "",
+      "Identifiant de l’établissement (n° SIRET/SIREN)*": "",
+      "Type de structure*": {
+        "choices": [
+          "Etablissement de santé public",
+          "Etablissement de santé privé",
+          "Etablissement de Santé Privé d’Intérêt Collectif (ESPIC)"
+        ],
+        "value": []
+      },
+      "Précisez le type de structure*": {
+        "choices": [
+          "CHU",
+          "Clinique",
+          "Hôpital privé",
+          "Centre de Lutte Contre le Cancer (CLCC)",
+          "Etablissement Français du Sang (EFS)",
+          "Soins Médicaux et de Réadaptation (SMR)",
+          "Centre hospitalier",
+          "Hospitalisation à Domicile (HAD)",
+          "Prestataire de Santé à Domicile",
+          "Centre de dialyse",
+          "Autre"
+        ],
+        "value": []
+      },
+      "Autre, précisez": ""
+    },
+    "2. EMAILS D’ALERTE": {
+      "Matériovigilance": "",
+      "Réactovigilance": ""
+    }
+  },
+  "Page 2": {
+    "MATERIOVIGILANCE": {
+      "Enregistrement": {
+        "choices": [
+          "MATERIOVIGILANCE"
+        ],
+        "value": []
+      },
+      "Adresse mail générique pour la matériovigilance": "",
+      "TITULAIRE": {
+        "NOM": "",
+        "Prénom": "",
+        "Service": "",
+        "Fonction": "",
+        "Téléphone": "",
+        "Email": "",
+        "Communication des coordonnées": {
+          "choices": [
+            "OUI",
+            "NON"
+          ],
+          "value": []
+        }
+      },
+      "SUPPLEANT 1": {
+        "NOM": "",
+        "Prénom": "",
+        "Service": "",
+        "Fonction": "",
+        "Téléphone": "",
+        "Email": "",
+        "Communication des coordonnées": {
+          "choices": [
+            "OUI",
+            "NON"
+          ],
+          "value": []
+        }
+      },
+      "SUPPLEANT 2": {
+        "NOM": "",
+        "Prénom": "",
+        "Service": "",
+        "Fonction": "",
+        "Téléphone": "",
+        "Email": "",
+        "Communication des coordonnées": {
+          "choices": [
+            "OUI",
+            "NON"
+          ],
+          "value": []
+        }
+      }
+    },
+    "REACTOVIGILANCE": {
+      "Enregistrement": {
+        "choices": [
+          "REACTOVIGILANCE"
+        ],
+        "value": []
+      },
+      "Adresse mail générique pour la réactovigilance": "",
+      "TITULAIRE": {
+        "NOM": "",
+        "Prénom": "",
+        "Service": "",
+        "Fonction": "",
+        "Téléphone": "",
+        "Email": "",
+        "Communication des coordonnées": {
+          "choices": [
+            "OUI",
+            "NON"
+          ],
+          "value": []
+        }
+      },
+      "SUPPLEANT 1": {
+        "NOM": "",
+        "Prénom": "",
+        "Service": "",
+        "Fonction": "",
+        "Téléphone": "",
+        "Email": "",
+        "Communication des coordonnées": {
+          "choices": [
+            "OUI",
+            "NON"
+          ],
+          "value": []
+        }
+      },
+      "SUPPLEANT 2": {
+        "NOM": "",
+        "Prénom": "",
+        "Service": "",
+        "Fonction": "",
+        "Téléphone": "",
+        "Email": "",
+        "Communication des coordonnées": {
+          "choices": [
+            "OUI",
+            "NON"
+          ],
+          "value": []
+        }
+      }
+    },
+    "Le directeur de l’établissement": {
+      "Date": "",
+      "Directeur": "",
+      "Signature": ""
+    }
+  }
+}

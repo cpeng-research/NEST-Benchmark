@@ -1,0 +1,65 @@
+{
+  "Página 1": {
+    "Datos de la persona solicitante": {
+      "fecha": "05/10/2026",
+      "Nombre": "María Ejemplo",
+      "DNI": "00000000",
+      "Domicilio": "Calle Ficticia 15",
+      "Localidad": "Córdoba",
+      "Provincia": "Córdoba",
+      "CP": "5000",
+      "País": "Argentina",
+      "Teléfono": "351 400 0000",
+      "Correo electrónico": "maria@example.org"
+    },
+    "Solicitud": {
+      "¿Qué querés saber?": "Solicito información ficticia sobre el expediente de ejemplo durante 2025, por correo electrónico."
+    }
+  },
+  "Página 2": {
+    "Solicitud": {
+      "¿Qué organismo suponés que tiene la información?": "Organismo ficticio de referencia"
+    },
+    "Datos estadísticos (opcional)": {
+      "Edad": "34",
+      "Género": "Mujer",
+      "Sector": {
+        "choices": [
+          "ONG",
+          "Medio de comunicación",
+          "Empresa",
+          "Estudiante",
+          "Sindicato",
+          "Institución pública",
+          "Partido político",
+          "Docente/investigador",
+          "Particular",
+          "Senador/diputado"
+        ],
+        "value": [
+          "Particular"
+        ]
+      },
+      "Otro (indicar cuál)": "No aplica",
+      "Profesión": "Docente",
+      "Máximo nivel de estudios alcanzados": {
+        "choices": [
+          "No informa",
+          "Primaria incompleta",
+          "Primaria Completa",
+          "Secundario incompleto",
+          "Secundario completo",
+          "Terciario incompleto",
+          "Terciario completo",
+          "Universitario incompleto",
+          "Universitario completo",
+          "Posgrado incompleto",
+          "Posgrado completo"
+        ],
+        "value": [
+          "Universitario completo"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,660 @@
+{
+  "Page 2": {
+    "Généralités et critère d'éligibilité": {
+      "Éligibilité": {
+        "choices": [
+          "Oui",
+          "Non"
+        ],
+        "value": []
+      },
+      "Répondant": {
+        "choices": [
+          "Le patient",
+          "Un parent ou un proche",
+          "Le patient avec un parent ou un proche"
+        ],
+        "value": []
+      },
+      "Séjour précédent": {
+        "choices": [
+          "Non, jamais",
+          "Oui, il y a longtemps",
+          "Oui, récemment",
+          "Je ne me rappelle plus"
+        ],
+        "value": []
+      },
+      "Orientation": {
+        "choices": [
+          "Par un service d’Urgence",
+          "Par un médecin (généraliste / spécialiste)",
+          "Par un proche (membre de la famille, ami)",
+          "Par un autre établissement",
+          "Autre"
+        ],
+        "value": []
+      }
+    }
+  },
+  "Page 3": {
+    "Votre Accueil": {
+      "Que pensez-vous de l’accessibilité de l’établissement de santé (transport, parking, signalétique) ?": {
+        "choices": [
+          "Mauvaise",
+          "Faible",
+          "Moyenne",
+          "Bonne",
+          "Excellente",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Que pensez-vous de l’accueil réservé par le personnel administratif lors de votre admission (admission / bureau des entrées) ?": {
+        "choices": [
+          "Mauvais",
+          "Faible",
+          "Moyen",
+          "Bon",
+          "Excellent",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Que pensez-vous de l’accueil dans le(s) service(s) de soins (service des Urgences exclu) ?": {
+        "choices": [
+          "Mauvais",
+          "Faible",
+          "Moyen",
+          "Bon",
+          "Excellent",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Que pensez-vous de l’identification (badge, présentation, …) des personnes travaillant dans le(s) service(s) de soins (médecins, infirmiers(es), aide-soignants(es), sages-femmes…) ?": {
+        "choices": [
+          "Mauvaise",
+          "Faible",
+          "Moyenne",
+          "Bonne",
+          "Excellente",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Avez-vous eu accès au livret d’accueil pour les patients (format papier, format électronique, …) ?": {
+        "choices": [
+          "Oui",
+          "Non",
+          "Je ne me souviens plus"
+        ],
+        "value": []
+      },
+      "Que pensez-vous de la clarté des informations contenues dans le livret d’accueil pour les patients ?": {
+        "choices": [
+          "Mauvaise",
+          "Faible",
+          "Moyenne",
+          "Bonne",
+          "Excellente",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Avez-vous été informé(e) de l’existence des représentants d’usagers dans l’établissement ?": {
+        "choices": [
+          "Oui",
+          "Non"
+        ],
+        "value": []
+      },
+      "Que pensez-vous des horaires de visite ?": {
+        "choices": [
+          "Mauvais",
+          "Faible",
+          "Moyen",
+          "Bon",
+          "Excellent",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Globalement, quelle est votre appréciation de l’accueil dans l’établissement ?": {
+        "choices": [
+          "Mauvais",
+          "Faible",
+          "Moyen",
+          "Bon",
+          "Excellent",
+          "Sans avis"
+        ],
+        "value": []
+      }
+    }
+  },
+  "Page 4": {
+    "Votre Prise En Charge": {
+      "Avez-vous reçu spontanément (sans le demander) des explications sur votre état de santé, votre traitement, vos soins, etc… ?": {
+        "choices": [
+          "Jamais",
+          "Rarement",
+          "Parfois",
+          "Souvent",
+          "Toujours",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Les médecins, les chirurgiens ou les sages-femmes du service ont-ils répondu à vos questions ?": {
+        "choices": [
+          "Je n’ai pas eu de questions à poser",
+          "Non, je n’ai eu aucune réponse à mes questions",
+          "Oui"
+        ],
+        "value": []
+      },
+      "Que pensez-vous de la clarté des réponses des médecins, des chirurgiens ou des sages-femmes du service ?": {
+        "choices": [
+          "Mauvaise",
+          "Faible",
+          "Moyenne",
+          "Bonne",
+          "Excellente",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Avez-vous (vous ou vos proches) souhaité participer aux décisions concernant vos soins ou votre traitement ?": {
+        "choices": [
+          "Oui",
+          "Non"
+        ],
+        "value": []
+      },
+      "Avez-vous (vous ou vos proches) pu participer aux décisions concernant vos soins ou votre traitement ?": {
+        "choices": [
+          "Jamais",
+          "Rarement",
+          "Parfois",
+          "Souvent",
+          "Toujours",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Avez-vous bénéficié d’une écoute attentive des médecins, des chirurgiens ou des sages- femmes ?": {
+        "choices": [
+          "Jamais",
+          "Rarement",
+          "Parfois",
+          "Souvent",
+          "Toujours",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Avez-vous bénéficié d’une écoute attentive des infirmier(e)s ou des aide-soignant(e)s ?": {
+        "choices": [
+          "Jamais",
+          "Rarement",
+          "Parfois",
+          "Souvent",
+          "Toujours",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Avez-vous ressenti de l’inquiétude, de l’anxiété au cours de votre hospitalisation ?": {
+        "choices": [
+          "Oui",
+          "Non"
+        ],
+        "value": []
+      },
+      "Que pensez-vous du soutien des médecins, des chirurgiens ou des sages-femmes qui vous ont pris en charge ?": {
+        "choices": [
+          "Mauvais",
+          "Faible",
+          "Moyen",
+          "Bon",
+          "Excellent",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Que pensez-vous du soutien des infirmier(e)s ou des aide-soignant(e)s qui vous ont pris en charge ?": {
+        "choices": [
+          "Mauvais",
+          "Faible",
+          "Moyen",
+          "Bon",
+          "Excellent",
+          "Sans avis"
+        ],
+        "value": []
+      }
+    }
+  },
+  "Page 5": {
+    "Votre Prise En Charge (suite)": {
+      "Avez-vous eu besoin d’aide pour les activités courantes (se laver, s’habiller, manger, se déplacer, …) ?": {
+        "choices": [
+          "Oui",
+          "Non"
+        ],
+        "value": []
+      },
+      "Que pensez-vous de l’aide reçue pour les activités courantes ?": {
+        "choices": [
+          "Mauvaise",
+          "Faible",
+          "Moyenne",
+          "Bonne",
+          "Excellente",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Avez-vous eu besoin d’aide de façon urgente au cours de votre hospitalisation (malaise, perfusion débranchée, fin de perfusion, aller aux toilettes, …) ?": {
+        "choices": [
+          "Oui",
+          "Non"
+        ],
+        "value": []
+      },
+      "Que pensez-vous du délai d’attente pour avoir de l’aide de façon urgente ?": {
+        "choices": [
+          "Mauvais",
+          "Faible",
+          "Moyen",
+          "Bon",
+          "Excellent",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Que pensez-vous du respect de votre intimité lors de votre prise en charge ?": {
+        "choices": [
+          "Mauvais",
+          "Faible",
+          "Moyen",
+          "Bon",
+          "Excellent",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Que pensez-vous du respect de la confidentialité et du secret professionnel lors de votre prise en charge ?": {
+        "choices": [
+          "Mauvais",
+          "Faible",
+          "Moyen",
+          "Bon",
+          "Excellent",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Les médecins / chirurgiens / sages-femmes parlaient-ils / elles devant vous comme si vous n’étiez pas là ?": {
+        "choices": [
+          "Jamais",
+          "Rarement",
+          "Parfois",
+          "Souvent",
+          "Toujours",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Les infirmiers(ères) / aide-soignant(e)s parlaient-ils / elles devant vous comme si vous n’étiez pas là ?": {
+        "choices": [
+          "Jamais",
+          "Rarement",
+          "Parfois",
+          "Souvent",
+          "Toujours",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Pendant cette hospitalisation, avez-vous eu des douleurs ?": {
+        "choices": [
+          "Extrêmement intenses",
+          "Intenses",
+          "Modérées",
+          "Faibles",
+          "Pas de douleur"
+        ],
+        "value": []
+      },
+      "Que pensez-vous de la façon dont ces douleurs ont été prises en charge ?": {
+        "choices": [
+          "Mauvaise",
+          "Faible",
+          "Moyenne",
+          "Bonne",
+          "Excellente",
+          "Sans avis"
+        ],
+        "value": []
+      }
+    }
+  },
+  "Page 6": {
+    "Votre Prise En Charge (fin)": {
+      "Pendant cette hospitalisation, avez-vous eu d’autres inconforts liés à votre maladie (nausée, mauvaise position, vertiges, etc…) ?": {
+        "choices": [
+          "Oui",
+          "Non"
+        ],
+        "value": []
+      },
+      "Que pensez-vous de la façon dont ces autres inconforts ont été pris en charge ?": {
+        "choices": [
+          "Mauvaise",
+          "Faible",
+          "Moyenne",
+          "Bonne",
+          "Excellente",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Globalement, comment évaluez-vous la qualité de votre prise en charge / de vos soins dans le service par les médecins / chirurgiens / sages-femmes ?": {
+        "choices": [
+          "Mauvaise",
+          "Faible",
+          "Moyenne",
+          "Bonne",
+          "Excellente",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Globalement, comment évaluez-vous la qualité de votre prise en charge / de vos soins dans le service par les infirmiers(ères) / aide-soignant(e)s ?": {
+        "choices": [
+          "Mauvaise",
+          "Faible",
+          "Moyenne",
+          "Bonne",
+          "Excellente",
+          "Sans avis"
+        ],
+        "value": []
+      }
+    }
+  },
+  "Page 7": {
+    "Chambre Et Repas": {
+      "Vous étiez dans une chambre ?": {
+        "choices": [
+          "Simple",
+          "Double"
+        ],
+        "value": []
+      },
+      "Que pensez-vous du confort de votre chambre ?": {
+        "choices": [
+          "Mauvais",
+          "Faible",
+          "Moyen",
+          "Bon",
+          "Excellent",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Que pensez-vous de la propreté de votre chambre ?": {
+        "choices": [
+          "Mauvaise",
+          "Faible",
+          "Moyenne",
+          "Bonne",
+          "Excellente",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Que pensez-vous de la température de votre chambre ?": {
+        "choices": [
+          "Mauvaise",
+          "Faible",
+          "Moyenne",
+          "Bonne",
+          "Excellente",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Que pensez-vous du calme et de la tranquillité de votre chambre ?": {
+        "choices": [
+          "Mauvais",
+          "Faible",
+          "Moyen",
+          "Bon",
+          "Excellent",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Avez-vous pris un repas pendant votre hospitalisation ?": {
+        "choices": [
+          "Oui",
+          "Non"
+        ],
+        "value": []
+      },
+      "Que pensez-vous de la qualité des repas qui vous ont été servis ?": {
+        "choices": [
+          "Mauvaise",
+          "Faible",
+          "Moyenne",
+          "Bonne",
+          "Excellente",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Que pensez-vous de la variété des plats ?": {
+        "choices": [
+          "Mauvaise",
+          "Faible",
+          "Moyenne",
+          "Bonne",
+          "Excellente",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Globalement, quelle est votre appréciation de vos repas lors de votre prise en charge ?": {
+        "choices": [
+          "Mauvais",
+          "Faible",
+          "Moyen",
+          "Bon",
+          "Excellent",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Globalement, quelle est votre appréciation de votre chambre lors de votre prise en charge ?": {
+        "choices": [
+          "Mauvais",
+          "Faible",
+          "Moyen",
+          "Bon",
+          "Excellent",
+          "Sans avis"
+        ],
+        "value": []
+      }
+    }
+  },
+  "Page 8": {
+    "L’organisation De Votre Sortie": {
+      "Que pensez-vous de la façon dont votre sortie a été organisée (annonce de votre date de sortie, destination à la sortie,…) ?": {
+        "choices": [
+          "Mauvaise",
+          "Faible",
+          "Moyenne",
+          "Bonne",
+          "Excellente",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Avez-vous reçu des informations sur les médicaments à prendre après votre sortie (dosage, horaires, effets indésirables) ?": {
+        "choices": [
+          "Je n’avais pas de médicaments à prendre après ma sortie",
+          "Non, aucune information ne m’a été donnée",
+          "Oui"
+        ],
+        "value": []
+      },
+      "Que pensez-vous des informations que vous avez reçues sur les médicaments à prendre après votre sortie ?": {
+        "choices": [
+          "Mauvaise",
+          "Faible",
+          "Moyenne",
+          "Bonne",
+          "Excellente",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Avez-vous reçu des informations sur la reprise de vos activités après votre sortie (travail, sport, activités habituelles) ?": {
+        "choices": [
+          "Oui",
+          "Non"
+        ],
+        "value": []
+      },
+      "Que pensez-vous des informations que vous avez reçues sur la reprise de vos activités après votre sortie ?": {
+        "choices": [
+          "Mauvaise",
+          "Faible",
+          "Moyenne",
+          "Bonne",
+          "Excellente",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Avez-vous reçu des informations sur les signes ou complications devant vous amener à recontacter l’hôpital ou votre médecin ?": {
+        "choices": [
+          "Oui",
+          "Non"
+        ],
+        "value": []
+      },
+      "Que pensez-vous des informations que vous avez reçues sur les signes ou complications devant vous amener à recontacter l’hôpital ou votre médecin ?": {
+        "choices": [
+          "Mauvaise",
+          "Faible",
+          "Moyenne",
+          "Bonne",
+          "Excellente",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Avez-vous reçu des informations sur votre suivi après votre sortie (prochains rendez-vous, prochaines étapes) ?": {
+        "choices": [
+          "Oui",
+          "Non"
+        ],
+        "value": []
+      },
+      "Que pensez-vous des informations que vous avez reçues sur le suivi après votre sortie ?": {
+        "choices": [
+          "Mauvaise",
+          "Faible",
+          "Moyenne",
+          "Bonne",
+          "Excellente",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Globalement, quelle est votre appréciation de l’organisation de votre sortie ?": {
+        "choices": [
+          "Mauvaise",
+          "Faible",
+          "Moyenne",
+          "Bonne",
+          "Excellente",
+          "Sans avis"
+        ],
+        "value": []
+      }
+    }
+  },
+  "Page 9": {
+    "Opinion Générale Sur Votre Hospitalisation": {
+      "Quelle est votre opinion générale sur l’ensemble de votre séjour (accueil, prise en charge, chambre et repas, sortie) ?": {
+        "choices": [
+          "Mauvais",
+          "Faible",
+          "Moyen",
+          "Bon",
+          "Excellent",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Recommanderiez-vous cet établissement de santé à vos amis ou membres de votre famille s’ils devaient être hospitalisés pour la même raison que vous ?": {
+        "choices": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Si vous deviez être à nouveau hospitalisé pour la même raison, reviendriez-vous dans cet établissement ?": {
+        "choices": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "Sans avis"
+        ],
+        "value": []
+      }
+    },
+    "Pour Finir, Informations Vous Concernant": {
+      "Comment vous sentez-vous aujourd’hui par rapport au jour de votre admission ?": {
+        "choices": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "Sans avis"
+        ],
+        "value": []
+      },
+      "Sur une échelle de 1 à 7, quel est votre niveau de satisfaction sur la vie en général ?": {
+        "choices": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "Sans avis"
+        ],
+        "value": []
+      }
+    },
+    "Pour En Savoir Plus": {
+      "Commentaire positif": "",
+      "Commentaire négatif": ""
+    }
+  }
+}

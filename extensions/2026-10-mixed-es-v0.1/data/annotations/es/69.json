@@ -1,0 +1,1424 @@
+{
+  "id": "es-mix-69-cnd-calibration",
+  "language": "es",
+  "domain": "Healthcare",
+  "title": "Petición de calibración",
+  "issuer_id": "INGESA / Centro Nacional de Dosimetria",
+  "template_family": "cnd-calibration",
+  "source_url": "https://ingesa.sanidad.gob.es/cnd/dam/jcr:d10b8d16-2bae-4779-b8ca-636ff397cd18/PG-03.F1-Formulario_Peticion_Calibracion.pdf",
+  "landing_url": "https://ingesa.sanidad.gob.es/cnd/Laboratorio/Cartera-de-servicios.html",
+  "license_url": "https://ingesa.sanidad.gob.es/sns/Aviso-Legal",
+  "license_note": "Origen de los datos: INGESA. Adaptación con atribución; sin patrocinio, conservando fecha/versión e información pública aplicable.",
+  "source_sha256": "d33f85ff186ff828ce8bb1fdc95a5c404f058538ac081a0b3b0af10ec5e6c426",
+  "source_pages": 2,
+  "source_date_evidence": {
+    "source": "pdf_page",
+    "page": 1,
+    "literal": "PG-03.F01 v.2.2",
+    "kind": "printed_form_code_and_revision",
+    "note": "No PDF metadata or URL path used as semantic date"
+  },
+  "source_version": "PG-03.F01 v.2.2",
+  "retrieved_at": "2026-10-04T16:59:10.506382+00:00",
+  "columns": 6,
+  "rows": [
+    [
+      {
+        "text": "PETICIÓN DE CALIBRACIÓN",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "PG-03.F01 v.2.2; Código de petición: (Uso interno)",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "Datos y dirección fiscal de la institución o empresa (donde se liquidará el servicio)",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f001",
+        "label": "Institución o empresa:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f002",
+        "label": "Dirección:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f003",
+        "label": "CIF:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f004",
+        "label": "Ciudad:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f005",
+        "label": "Código postal:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f006",
+        "label": "Provincia:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Código: (Uso interno)",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "Datos de la institución o empresa para la emisión del certificado (en caso de ser diferente de la fiscal)",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f007",
+        "label": "Institución o empresa:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f008",
+        "label": "Dirección:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f009",
+        "label": "Ciudad:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f010",
+        "label": "Código postal:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f011",
+        "label": "Provincia:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Datos del solicitante",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f012",
+        "label": "Nombre:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f013",
+        "label": "Cargo:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f014",
+        "label": "Teléfono:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f015",
+        "label": "Fax:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f016",
+        "label": "E-mail:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Datos del personal técnico de contacto",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f017",
+        "label": "Nombre:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f018",
+        "label": "Servicio o Departamento:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f019",
+        "label": "Cargo:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f020",
+        "label": "Teléfono:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f021",
+        "label": "Fax:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f022",
+        "label": "E-mail:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Datos del personal administrativo de contacto",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f023",
+        "label": "Nombre:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f024",
+        "label": "Servicio o Departamento:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f025",
+        "label": "Cargo:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f026",
+        "label": "Teléfono:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f027",
+        "label": "Fax:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f028",
+        "label": "E-mail:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Instrumento a calibrar",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "Código: (Uso interno)",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f029",
+        "label": "Marca:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f030",
+        "label": "Modelo:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f031",
+        "label": "Nº Serie:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Electrómetro asociado",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "Código: (Uso interno)",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f032",
+        "label": "Marca:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f033",
+        "label": "Modelo:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f034",
+        "label": "Nº Serie:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f035",
+        "label": "Nº de certificado de calibración previo en nuestro laboratorio:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Características de calibración",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "Modo de funcionamiento (Indíquese INTEGRACIÓN y/o TASA)",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f036",
+        "label": "Código de calidad(1)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f037",
+        "label": "Modo de funcionamiento",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f038",
+        "label": "Escala",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f039",
+        "label": "Caperuza de build-up(2)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f040",
+        "label": "Código de calidad(1)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f041",
+        "label": "Modo de funcionamiento",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f042",
+        "label": "Escala",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f043",
+        "label": "Caperuza de build-up(2)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f044",
+        "label": "Código de calidad(1)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f045",
+        "label": "Modo de funcionamiento",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f046",
+        "label": "Escala",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f047",
+        "label": "Caperuza de build-up(2)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f048",
+        "label": "Código de calidad(1)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f049",
+        "label": "Modo de funcionamiento",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f050",
+        "label": "Escala",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f051",
+        "label": "Caperuza de build-up(2)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f052",
+        "label": "Código de calidad(1)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f053",
+        "label": "Modo de funcionamiento",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f054",
+        "label": "Escala",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f055",
+        "label": "Caperuza de build-up(2)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f056",
+        "label": "Fecha:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f057",
+        "label": "Sello de la institución:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f058",
+        "label": "Firmado:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f059",
+        "label": "Nombre:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(1) Especifíquese la calidad deseada teniendo en cuenta las tablas de calidades de radiación disponibles, incluidas en la página web del Laboratorio. \n(2) Si la cámara dispone de caperuza de “build-up”, indique Si o No según desee que el instrumento se calibre con o sin ella.  \nEl envío de equipos al Laboratorio de Metrología de Radiaciones Ionizantes del CND será realizado previa aceptación del presupuesto y en la fecha \nasignada en el mismo. \n(Uso interno) \n(Uso interno) \n(Uso interno) \n(Uso interno)",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "PETICIÓN DE CALIBRACIÓN - protección de datos",
+        "colspan": 6,
+        "source_page": 2,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "PETICIÓN DE \nCALIBRACIÓN \n \n \n \n \nPágina 2 de 2 \nAvda. Campanar 21. 46009 Valencia  -  www.cnd.es  \nlaboratorio.cnd@ingesa.sanidad.gob.es  -  Tel. 96 346 17 09 / 96 349 79 22  -  Fax 91 209 03 45 \n \n \n \n \nEn atención a lo dispuesto en el artículo 13 del Reglamento (UE) 2016/679 y el art. 11 de la Ley Orgánica 3/2018, de Protección \nde Datos Personales y Garantía de Derechos Digitales, le informamos que el Responsable de Tratamiento de los datos \npersonales es el Centro Nacional de Dosimetría (CND), con NIF Q4677004F. La finalidad del tratamiento es la prestación del \nservicio de calibración y/o irradiación de instrumentos, sujeto a precio público, del Laboratorio de Metrología de Radiaciones \nIonizantes del CND, así como la realización de las tareas administrativas y obligaciones fiscales derivadas. Los datos han sido \nfacilitados por usted, por su organización, por persona por usted autorizada o han sido obtenidos a través de otras fuentes \nlegitimadas. Se tratan datos personales identificativos, profesionales y aquellos necesarios para el desarrollo del servicio. Los \ndatos serán comunicados a terceros cuando así lo disponga la normativa vigente. Las bases de legitimación para el tratamiento \nde los datos contenidos en el presente formulario, y aquellos que pudieran tratarse durante el desarrollo del mismo, son; el \ncumplimiento de la prestación del servicio -artículo 6.1.b) RGPD-, el cumplimiento de una obligación legal aplicable al \nresponsable del tratamiento -artículo 6.1.c) RGPD-, y el cumplimiento de una misión realizada en interés público -artículo 6.1.e) \nRGPD-. El plazo de conservación será el establecido en la normativa de protección radiológica, de conservación de documentos \no cualquier otra de aplicación. \nDe acuerdo con la legislación vigente tiene los siguientes derechos:- Derecho a solicitar el acceso a sus datos personales.- \nDerecho a solicitar su rectificación o supresión.- Derecho a solicitar la limitación de su tratamiento- Derecho a oponerse al \ntratamiento.- Derecho a la portabilidad de los datos. Cualquier persona tiene derecho a obtener confirmación sobre si estamos \ntratando datos personales que les conciernan, o no. Las personas interesadas tienen derecho a acceder a sus datos personales, \nasí como a solicitar la rectificación de los datos inexactos o, en su caso, solicitar su supresión cuando, entre otros motivos, los \ndatos que ya no sean necesarios para los fines que fueron recogidos. En determinadas circunstancias, los interesados podrán \nsolicitar la limitación del tratamiento de sus datos, en cuyo caso únicamente los conservaremos para el ejercicio o la defensa de \nreclamaciones. Por motivos relacionados con su situación particular, los interesados podrán oponerse al tratamiento de sus \ndatos. El Responsable del fichero dejará de tratar los datos, salvo por motivos legítimos imperiosos, o el ejercicio o la defensa \nde posibles reclamaciones. Puede ponerse en contacto con el Delegado de Protección de Datos del CND en la dirección postal \nAvenida Campanar, 21, CP 46009, Valencia o bien mediante correo electrónico en el buzón dpdcnd@ingesa.sanidad.gob.es.",
+        "colspan": 6,
+        "source_page": 2,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "Fuente: INGESA / Centro Nacional de Dosimetria. Documento: Petición de calibración. Versión o fecha propia: PG-03.F01 v.2.2. https://ingesa.sanidad.gob.es/cnd/dam/jcr:d10b8d16-2bae-4779-b8ca-636ff397cd18/PG-03.F1-Formulario_Peticion_Calibracion.pdf. Condiciones: https://ingesa.sanidad.gob.es/sns/Aviso-Legal. Adaptación con datos sintéticos.",
+        "colspan": 6,
+        "source_page": 2,
+        "role": "attribution"
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Institución o empresa:",
+      "path": [
+        "Datos y dirección fiscal de la institución o empresa (donde se liquidará el servicio)",
+        "Institución o empresa:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Institución o empresa:",
+      "synthetic_value": "Laboratorio Simulado Fiscal"
+    },
+    {
+      "id": "f002",
+      "label": "Dirección:",
+      "path": [
+        "Datos y dirección fiscal de la institución o empresa (donde se liquidará el servicio)",
+        "Dirección:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dirección:",
+      "synthetic_value": "Calle Ficticia 69"
+    },
+    {
+      "id": "f003",
+      "label": "CIF:",
+      "path": [
+        "Datos y dirección fiscal de la institución o empresa (donde se liquidará el servicio)",
+        "CIF:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CIF:",
+      "synthetic_value": "CIF-SIM-069"
+    },
+    {
+      "id": "f004",
+      "label": "Ciudad:",
+      "path": [
+        "Datos y dirección fiscal de la institución o empresa (donde se liquidará el servicio)",
+        "Ciudad:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Ciudad:",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f005",
+      "label": "Código postal:",
+      "path": [
+        "Datos y dirección fiscal de la institución o empresa (donde se liquidará el servicio)",
+        "Código postal:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Código postal:",
+      "synthetic_value": "46009"
+    },
+    {
+      "id": "f006",
+      "label": "Provincia:",
+      "path": [
+        "Datos y dirección fiscal de la institución o empresa (donde se liquidará el servicio)",
+        "Provincia:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Provincia:",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f007",
+      "label": "Institución o empresa:",
+      "path": [
+        "Datos de la institución o empresa para la emisión del certificado (en caso de ser diferente de la fiscal)",
+        "Institución o empresa:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Institución o empresa:",
+      "synthetic_value": "Centro Simulado de Metrología",
+      "condition": "Los datos del certificado difieren de los fiscales"
+    },
+    {
+      "id": "f008",
+      "label": "Dirección:",
+      "path": [
+        "Datos de la institución o empresa para la emisión del certificado (en caso de ser diferente de la fiscal)",
+        "Dirección:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dirección:",
+      "synthetic_value": "Avenida Inventada 70",
+      "condition": "Los datos del certificado difieren de los fiscales"
+    },
+    {
+      "id": "f009",
+      "label": "Ciudad:",
+      "path": [
+        "Datos de la institución o empresa para la emisión del certificado (en caso de ser diferente de la fiscal)",
+        "Ciudad:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Ciudad:",
+      "synthetic_value": "Valencia",
+      "condition": "Los datos del certificado difieren de los fiscales"
+    },
+    {
+      "id": "f010",
+      "label": "Código postal:",
+      "path": [
+        "Datos de la institución o empresa para la emisión del certificado (en caso de ser diferente de la fiscal)",
+        "Código postal:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Código postal:",
+      "synthetic_value": "46009",
+      "condition": "Los datos del certificado difieren de los fiscales"
+    },
+    {
+      "id": "f011",
+      "label": "Provincia:",
+      "path": [
+        "Datos de la institución o empresa para la emisión del certificado (en caso de ser diferente de la fiscal)",
+        "Provincia:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Provincia:",
+      "synthetic_value": "Valencia",
+      "condition": "Los datos del certificado difieren de los fiscales"
+    },
+    {
+      "id": "f012",
+      "label": "Nombre:",
+      "path": [
+        "Datos del solicitante",
+        "Nombre:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre:",
+      "synthetic_value": "Alba Solicitante Ficticia"
+    },
+    {
+      "id": "f013",
+      "label": "Cargo:",
+      "path": [
+        "Datos del solicitante",
+        "Cargo:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cargo:",
+      "synthetic_value": "Jefa de laboratorio"
+    },
+    {
+      "id": "f014",
+      "label": "Teléfono:",
+      "path": [
+        "Datos del solicitante",
+        "Teléfono:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Teléfono:",
+      "synthetic_value": "000 000 069"
+    },
+    {
+      "id": "f015",
+      "label": "Fax:",
+      "path": [
+        "Datos del solicitante",
+        "Fax:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fax:",
+      "synthetic_value": "000 000 072"
+    },
+    {
+      "id": "f016",
+      "label": "E-mail:",
+      "path": [
+        "Datos del solicitante",
+        "E-mail:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "E-mail:",
+      "synthetic_value": "solicitante69@example.invalid"
+    },
+    {
+      "id": "f017",
+      "label": "Nombre:",
+      "path": [
+        "Datos del personal técnico de contacto",
+        "Nombre:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre:",
+      "synthetic_value": "Berta Técnica Ficticia"
+    },
+    {
+      "id": "f018",
+      "label": "Servicio o Departamento:",
+      "path": [
+        "Datos del personal técnico de contacto",
+        "Servicio o Departamento:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Servicio o Departamento:",
+      "synthetic_value": "Metrología"
+    },
+    {
+      "id": "f019",
+      "label": "Cargo:",
+      "path": [
+        "Datos del personal técnico de contacto",
+        "Cargo:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cargo:",
+      "synthetic_value": "Técnica"
+    },
+    {
+      "id": "f020",
+      "label": "Teléfono:",
+      "path": [
+        "Datos del personal técnico de contacto",
+        "Teléfono:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Teléfono:",
+      "synthetic_value": "000 000 070"
+    },
+    {
+      "id": "f021",
+      "label": "Fax:",
+      "path": [
+        "Datos del personal técnico de contacto",
+        "Fax:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fax:",
+      "synthetic_value": "000 000 072"
+    },
+    {
+      "id": "f022",
+      "label": "E-mail:",
+      "path": [
+        "Datos del personal técnico de contacto",
+        "E-mail:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "E-mail:",
+      "synthetic_value": "tecnica69@example.invalid"
+    },
+    {
+      "id": "f023",
+      "label": "Nombre:",
+      "path": [
+        "Datos del personal administrativo de contacto",
+        "Nombre:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre:",
+      "synthetic_value": "Carlos Administrativo Ficticio"
+    },
+    {
+      "id": "f024",
+      "label": "Servicio o Departamento:",
+      "path": [
+        "Datos del personal administrativo de contacto",
+        "Servicio o Departamento:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Servicio o Departamento:",
+      "synthetic_value": "Administración"
+    },
+    {
+      "id": "f025",
+      "label": "Cargo:",
+      "path": [
+        "Datos del personal administrativo de contacto",
+        "Cargo:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cargo:",
+      "synthetic_value": "Gestor"
+    },
+    {
+      "id": "f026",
+      "label": "Teléfono:",
+      "path": [
+        "Datos del personal administrativo de contacto",
+        "Teléfono:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Teléfono:",
+      "synthetic_value": "000 000 071"
+    },
+    {
+      "id": "f027",
+      "label": "Fax:",
+      "path": [
+        "Datos del personal administrativo de contacto",
+        "Fax:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fax:",
+      "synthetic_value": "000 000 072"
+    },
+    {
+      "id": "f028",
+      "label": "E-mail:",
+      "path": [
+        "Datos del personal administrativo de contacto",
+        "E-mail:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "E-mail:",
+      "synthetic_value": "administracion69@example.invalid"
+    },
+    {
+      "id": "f029",
+      "label": "Marca:",
+      "path": [
+        "Instrumento a calibrar",
+        "Marca:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Marca:",
+      "synthetic_value": "Marca simulada instrumento"
+    },
+    {
+      "id": "f030",
+      "label": "Modelo:",
+      "path": [
+        "Instrumento a calibrar",
+        "Modelo:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Modelo:",
+      "synthetic_value": "Modelo SIM-INS"
+    },
+    {
+      "id": "f031",
+      "label": "Nº Serie:",
+      "path": [
+        "Instrumento a calibrar",
+        "Nº Serie:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nº Serie:",
+      "synthetic_value": "SERIE-SIM-INS"
+    },
+    {
+      "id": "f032",
+      "label": "Marca:",
+      "path": [
+        "Electrómetro asociado",
+        "Marca:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Marca:",
+      "synthetic_value": "Marca simulada electrómetro"
+    },
+    {
+      "id": "f033",
+      "label": "Modelo:",
+      "path": [
+        "Electrómetro asociado",
+        "Modelo:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Modelo:",
+      "synthetic_value": "Modelo SIM-ELE"
+    },
+    {
+      "id": "f034",
+      "label": "Nº Serie:",
+      "path": [
+        "Electrómetro asociado",
+        "Nº Serie:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nº Serie:",
+      "synthetic_value": "SERIE-SIM-ELE"
+    },
+    {
+      "id": "f035",
+      "label": "Nº de certificado de calibración previo en nuestro laboratorio:",
+      "path": [
+        "Electrómetro asociado",
+        "Nº de certificado de calibración previo en nuestro laboratorio:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nº de certificado de calibración previo en nuestro laboratorio:",
+      "synthetic_value": "CERT-SIM-ANT-069"
+    },
+    {
+      "id": "f036",
+      "label": "Código de calidad(1)",
+      "path": [
+        "Características de calibración",
+        "Fila 1",
+        "Código de calidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Código de calidad(1)",
+      "synthetic_value": "CAL-SIM-01"
+    },
+    {
+      "id": "f037",
+      "label": "Modo de funcionamiento",
+      "path": [
+        "Características de calibración",
+        "Fila 1",
+        "Modo de funcionamiento"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Modo de funcionamiento",
+      "synthetic_value": "INTEGRACIÓN"
+    },
+    {
+      "id": "f038",
+      "label": "Escala",
+      "path": [
+        "Características de calibración",
+        "Fila 1",
+        "Escala"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Escala",
+      "synthetic_value": "Escala simulada 1"
+    },
+    {
+      "id": "f039",
+      "label": "Caperuza de build-up(2)",
+      "path": [
+        "Características de calibración",
+        "Fila 1",
+        "Caperuza"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Caperuza de build-up(2)",
+      "synthetic_value": "Si",
+      "options": [
+        "Si",
+        "No"
+      ],
+      "context_evidence": "Características de calibración / Fila 1 / Caperuza: selección simulada Si."
+    },
+    {
+      "id": "f040",
+      "label": "Código de calidad(1)",
+      "path": [
+        "Características de calibración",
+        "Fila 2",
+        "Código de calidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Código de calidad(1)",
+      "synthetic_value": "CAL-SIM-02"
+    },
+    {
+      "id": "f041",
+      "label": "Modo de funcionamiento",
+      "path": [
+        "Características de calibración",
+        "Fila 2",
+        "Modo de funcionamiento"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Modo de funcionamiento",
+      "synthetic_value": "TASA"
+    },
+    {
+      "id": "f042",
+      "label": "Escala",
+      "path": [
+        "Características de calibración",
+        "Fila 2",
+        "Escala"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Escala",
+      "synthetic_value": "Escala simulada 2"
+    },
+    {
+      "id": "f043",
+      "label": "Caperuza de build-up(2)",
+      "path": [
+        "Características de calibración",
+        "Fila 2",
+        "Caperuza"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Caperuza de build-up(2)",
+      "synthetic_value": "No",
+      "options": [
+        "Si",
+        "No"
+      ],
+      "context_evidence": "Características de calibración / Fila 2 / Caperuza: selección simulada No."
+    },
+    {
+      "id": "f044",
+      "label": "Código de calidad(1)",
+      "path": [
+        "Características de calibración",
+        "Fila 3",
+        "Código de calidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Código de calidad(1)",
+      "synthetic_value": "CAL-SIM-03"
+    },
+    {
+      "id": "f045",
+      "label": "Modo de funcionamiento",
+      "path": [
+        "Características de calibración",
+        "Fila 3",
+        "Modo de funcionamiento"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Modo de funcionamiento",
+      "synthetic_value": "INTEGRACIÓN"
+    },
+    {
+      "id": "f046",
+      "label": "Escala",
+      "path": [
+        "Características de calibración",
+        "Fila 3",
+        "Escala"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Escala",
+      "synthetic_value": "Escala simulada 3"
+    },
+    {
+      "id": "f047",
+      "label": "Caperuza de build-up(2)",
+      "path": [
+        "Características de calibración",
+        "Fila 3",
+        "Caperuza"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Caperuza de build-up(2)",
+      "synthetic_value": "Si",
+      "options": [
+        "Si",
+        "No"
+      ],
+      "context_evidence": "Características de calibración / Fila 3 / Caperuza: selección simulada Si."
+    },
+    {
+      "id": "f048",
+      "label": "Código de calidad(1)",
+      "path": [
+        "Características de calibración",
+        "Fila 4",
+        "Código de calidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Código de calidad(1)",
+      "synthetic_value": "CAL-SIM-04"
+    },
+    {
+      "id": "f049",
+      "label": "Modo de funcionamiento",
+      "path": [
+        "Características de calibración",
+        "Fila 4",
+        "Modo de funcionamiento"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Modo de funcionamiento",
+      "synthetic_value": "TASA"
+    },
+    {
+      "id": "f050",
+      "label": "Escala",
+      "path": [
+        "Características de calibración",
+        "Fila 4",
+        "Escala"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Escala",
+      "synthetic_value": "Escala simulada 4"
+    },
+    {
+      "id": "f051",
+      "label": "Caperuza de build-up(2)",
+      "path": [
+        "Características de calibración",
+        "Fila 4",
+        "Caperuza"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Caperuza de build-up(2)",
+      "synthetic_value": "No",
+      "options": [
+        "Si",
+        "No"
+      ],
+      "context_evidence": "Características de calibración / Fila 4 / Caperuza: selección simulada No."
+    },
+    {
+      "id": "f052",
+      "label": "Código de calidad(1)",
+      "path": [
+        "Características de calibración",
+        "Fila 5",
+        "Código de calidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Código de calidad(1)",
+      "synthetic_value": "CAL-SIM-05"
+    },
+    {
+      "id": "f053",
+      "label": "Modo de funcionamiento",
+      "path": [
+        "Características de calibración",
+        "Fila 5",
+        "Modo de funcionamiento"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Modo de funcionamiento",
+      "synthetic_value": "INTEGRACIÓN"
+    },
+    {
+      "id": "f054",
+      "label": "Escala",
+      "path": [
+        "Características de calibración",
+        "Fila 5",
+        "Escala"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Escala",
+      "synthetic_value": "Escala simulada 5"
+    },
+    {
+      "id": "f055",
+      "label": "Caperuza de build-up(2)",
+      "path": [
+        "Características de calibración",
+        "Fila 5",
+        "Caperuza"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Caperuza de build-up(2)",
+      "synthetic_value": "Si",
+      "options": [
+        "Si",
+        "No"
+      ],
+      "context_evidence": "Características de calibración / Fila 5 / Caperuza: selección simulada Si."
+    },
+    {
+      "id": "f056",
+      "label": "Fecha:",
+      "path": [
+        "Características de calibración",
+        "Fecha:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha:",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "f057",
+      "label": "Sello de la institución:",
+      "path": [
+        "Características de calibración",
+        "Sello de la institución:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Sello de la institución:",
+      "synthetic_value": "Sello sintético del laboratorio"
+    },
+    {
+      "id": "f058",
+      "label": "Firmado:",
+      "path": [
+        "Características de calibración",
+        "Firmado:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Firmado:",
+      "synthetic_value": "Firma sintética de Alba Solicitante Ficticia"
+    },
+    {
+      "id": "f059",
+      "label": "Nombre:",
+      "path": [
+        "Características de calibración",
+        "Nombre del firmante"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre:",
+      "synthetic_value": "Alba Solicitante Ficticia"
+    }
+  ],
+  "context": "Caso sintético para evaluación; nombres, instituciones, datos, decisiones y firmas son ficticios.\nDatos y dirección fiscal de la institución o empresa (donde se liquidará el servicio) / Institución o empresa:: Laboratorio Simulado Fiscal.\nDatos y dirección fiscal de la institución o empresa (donde se liquidará el servicio) / Dirección:: Calle Ficticia 69.\nDatos y dirección fiscal de la institución o empresa (donde se liquidará el servicio) / CIF:: CIF-SIM-069.\nDatos y dirección fiscal de la institución o empresa (donde se liquidará el servicio) / Ciudad:: Valencia.\nDatos y dirección fiscal de la institución o empresa (donde se liquidará el servicio) / Código postal:: 46009.\nDatos y dirección fiscal de la institución o empresa (donde se liquidará el servicio) / Provincia:: Valencia.\nDatos de la institución o empresa para la emisión del certificado (en caso de ser diferente de la fiscal) / Institución o empresa:: Centro Simulado de Metrología.\nDatos de la institución o empresa para la emisión del certificado (en caso de ser diferente de la fiscal) / Dirección:: Avenida Inventada 70.\nDatos de la institución o empresa para la emisión del certificado (en caso de ser diferente de la fiscal) / Ciudad:: Valencia.\nDatos de la institución o empresa para la emisión del certificado (en caso de ser diferente de la fiscal) / Código postal:: 46009.\nDatos de la institución o empresa para la emisión del certificado (en caso de ser diferente de la fiscal) / Provincia:: Valencia.\nDatos del solicitante / Nombre:: Alba Solicitante Ficticia.\nDatos del solicitante / Cargo:: Jefa de laboratorio.\nDatos del solicitante / Teléfono:: 000 000 069.\nDatos del solicitante / Fax:: 000 000 072.\nDatos del solicitante / E-mail:: solicitante69@example.invalid.\nDatos del personal técnico de contacto / Nombre:: Berta Técnica Ficticia.\nDatos del personal técnico de contacto / Servicio o Departamento:: Metrología.\nDatos del personal técnico de contacto / Cargo:: Técnica.\nDatos del personal técnico de contacto / Teléfono:: 000 000 070.\nDatos del personal técnico de contacto / Fax:: 000 000 072.\nDatos del personal técnico de contacto / E-mail:: tecnica69@example.invalid.\nDatos del personal administrativo de contacto / Nombre:: Carlos Administrativo Ficticio.\nDatos del personal administrativo de contacto / Servicio o Departamento:: Administración.\nDatos del personal administrativo de contacto / Cargo:: Gestor.\nDatos del personal administrativo de contacto / Teléfono:: 000 000 071.\nDatos del personal administrativo de contacto / Fax:: 000 000 072.\nDatos del personal administrativo de contacto / E-mail:: administracion69@example.invalid.\nInstrumento a calibrar / Marca:: Marca simulada instrumento.\nInstrumento a calibrar / Modelo:: Modelo SIM-INS.\nInstrumento a calibrar / Nº Serie:: SERIE-SIM-INS.\nElectrómetro asociado / Marca:: Marca simulada electrómetro.\nElectrómetro asociado / Modelo:: Modelo SIM-ELE.\nElectrómetro asociado / Nº Serie:: SERIE-SIM-ELE.\nElectrómetro asociado / Nº de certificado de calibración previo en nuestro laboratorio:: CERT-SIM-ANT-069.\nCaracterísticas de calibración / Fila 1 / Código de calidad: CAL-SIM-01.\nCaracterísticas de calibración / Fila 1 / Modo de funcionamiento: INTEGRACIÓN.\nCaracterísticas de calibración / Fila 1 / Escala: Escala simulada 1.\nCaracterísticas de calibración / Fila 1 / Caperuza: selección simulada Si.\nCaracterísticas de calibración / Fila 2 / Código de calidad: CAL-SIM-02.\nCaracterísticas de calibración / Fila 2 / Modo de funcionamiento: TASA.\nCaracterísticas de calibración / Fila 2 / Escala: Escala simulada 2.\nCaracterísticas de calibración / Fila 2 / Caperuza: selección simulada No.\nCaracterísticas de calibración / Fila 3 / Código de calidad: CAL-SIM-03.\nCaracterísticas de calibración / Fila 3 / Modo de funcionamiento: INTEGRACIÓN.\nCaracterísticas de calibración / Fila 3 / Escala: Escala simulada 3.\nCaracterísticas de calibración / Fila 3 / Caperuza: selección simulada Si.\nCaracterísticas de calibración / Fila 4 / Código de calidad: CAL-SIM-04.\nCaracterísticas de calibración / Fila 4 / Modo de funcionamiento: TASA.\nCaracterísticas de calibración / Fila 4 / Escala: Escala simulada 4.\nCaracterísticas de calibración / Fila 4 / Caperuza: selección simulada No.\nCaracterísticas de calibración / Fila 5 / Código de calidad: CAL-SIM-05.\nCaracterísticas de calibración / Fila 5 / Modo de funcionamiento: INTEGRACIÓN.\nCaracterísticas de calibración / Fila 5 / Escala: Escala simulada 5.\nCaracterísticas de calibración / Fila 5 / Caperuza: selección simulada Si.\nCaracterísticas de calibración / Fecha:: 05/10/2026.\nCaracterísticas de calibración / Sello de la institución:: Sello sintético del laboratorio.\nCaracterísticas de calibración / Firmado:: Firma sintética de Alba Solicitante Ficticia.\nCaracterísticas de calibración / Nombre del firmante: Alba Solicitante Ficticia.",
+  "workflow_identity": {
+    "language": "es",
+    "id": 69
+  }
+}

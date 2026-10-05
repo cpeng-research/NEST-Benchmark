@@ -1,0 +1,602 @@
+{
+  "id": "zh-nsw-edu-excursion-parent-info",
+  "language": "zh",
+  "domain": "Education",
+  "title": "给家长或照顾者的短途旅行信息",
+  "template_family": "excursion-parent-information",
+  "issuer": "New South Wales Department of Education",
+  "issuer_id": "NSW-EDU",
+  "source_pages": 3,
+  "columns": 2,
+  "rows": [
+    [
+      {
+        "text": "短途旅行详情",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "place",
+        "label": "短途旅行地点 / Place of excursion",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "date",
+        "label": "短途旅行日期 / Date/s of excursion",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "departure_place",
+        "label": "出发地点 / Place of departure",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "departure_time",
+        "label": "出发时间 / Time of departure",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "return_place",
+        "label": "返回地点 / Place of return",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "return_time",
+        "label": "返回时间 / Time of return",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "cost",
+        "label": "短途旅行费用 / Cost of excursion",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "payment_due",
+        "label": "付款截止日期 / Payment due date",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "objectives",
+        "label": "短途旅行目标 / Excursion objectives",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "transport",
+        "label": "交通详情 / Transport details",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "emergency_staff",
+        "label": "接受过紧急救护培训的员工 / Staff member with emergency care training",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "cpr_staff",
+        "label": "接受过心肺复苏术（CPR）培训的员工 / Staff member with Cardio Pulmonary Resuscitation (CPR) training",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "supervisory_staff",
+        "label": "其他监护人员 / Other supervisory staff",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "bring",
+        "label": "学生在短途旅行时需要携带下列物品： / Teacher to tick what students need to bring",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "bring_other_detail",
+        "label": "其他 / Other",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "本次旅行所涉及的其他事项已在下面勾选。相关详情请见随后几页。",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "other_activities",
+        "label": "本次旅行所涉及的其他事项已在下面勾选。相关详情请见随后几页。 / Teacher to tick any other activities involved in this excursion",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "accommodation",
+        "label": "预定住宿地点 / Where accommodation is booked",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "additional_info",
+        "label": "补充信息 / Additional information",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "flotation_devices",
+        "label": "拟在必要时提供的浮水装置 / Types of flotation devices to be provided by the school and how they will be used",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Teacher to complete the following information",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "school_name",
+        "label": "学校名称 / School name",
+        "colspan": 1,
+        "source_page": 3
+      },
+      {
+        "field": "school_phone",
+        "label": "学校电话号码 / School phone number",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "coordinator",
+        "label": "短途旅行协调人姓名和签名 / Name and signature of excursion coordinator",
+        "colspan": 1,
+        "source_page": 3
+      },
+      {
+        "field": "principal",
+        "label": "校长姓名和签名 / Name and signature of principal",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "signed_date",
+        "label": "日期 / Date",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "place",
+      "label": "短途旅行地点",
+      "source_page": 1,
+      "source_anchor": "短途旅行地点",
+      "display_label": "短途旅行地点 / Place of excursion",
+      "source_label_zh": "短途旅行地点",
+      "kind": "text",
+      "synthetic_value": "Example Museum",
+      "path": [
+        "短途旅行详情",
+        "短途旅行地点"
+      ]
+    },
+    {
+      "id": "date",
+      "label": "短途旅行日期",
+      "source_page": 1,
+      "source_anchor": "短途旅行日期",
+      "display_label": "短途旅行日期 / Date/s of excursion",
+      "source_label_zh": "短途旅行日期",
+      "kind": "text",
+      "synthetic_value": "12 October 2026",
+      "path": [
+        "短途旅行详情",
+        "短途旅行日期"
+      ]
+    },
+    {
+      "id": "departure_place",
+      "label": "出发地点",
+      "source_page": 1,
+      "source_anchor": "出发地点",
+      "display_label": "出发地点 / Place of departure",
+      "source_label_zh": "出发地点",
+      "kind": "text",
+      "synthetic_value": "Example School",
+      "path": [
+        "短途旅行详情",
+        "出发地点"
+      ]
+    },
+    {
+      "id": "departure_time",
+      "label": "出发时间",
+      "source_page": 1,
+      "source_anchor": "出发时间",
+      "display_label": "出发时间 / Time of departure",
+      "source_label_zh": "出发时间",
+      "kind": "text",
+      "synthetic_value": "09:00",
+      "path": [
+        "短途旅行详情",
+        "出发时间"
+      ]
+    },
+    {
+      "id": "return_place",
+      "label": "返回地点",
+      "source_page": 1,
+      "source_anchor": "返回地点",
+      "display_label": "返回地点 / Place of return",
+      "source_label_zh": "返回地点",
+      "kind": "text",
+      "synthetic_value": "Example School",
+      "path": [
+        "短途旅行详情",
+        "返回地点"
+      ]
+    },
+    {
+      "id": "return_time",
+      "label": "返回时间",
+      "source_page": 1,
+      "source_anchor": "返回时间",
+      "display_label": "返回时间 / Time of return",
+      "source_label_zh": "返回时间",
+      "kind": "text",
+      "synthetic_value": "15:00",
+      "path": [
+        "短途旅行详情",
+        "返回时间"
+      ]
+    },
+    {
+      "id": "cost",
+      "label": "短途旅行费用",
+      "source_page": 1,
+      "source_anchor": "短途旅行费用",
+      "display_label": "短途旅行费用 / Cost of excursion",
+      "source_label_zh": "短途旅行费用",
+      "kind": "text",
+      "synthetic_value": "AUD 20",
+      "path": [
+        "短途旅行详情",
+        "短途旅行费用"
+      ]
+    },
+    {
+      "id": "payment_due",
+      "label": "付款截止日期",
+      "source_page": 1,
+      "source_anchor": "付款截止日期",
+      "display_label": "付款截止日期 / Payment due date",
+      "source_label_zh": "付款截止日期",
+      "kind": "text",
+      "synthetic_value": "9 October 2026",
+      "path": [
+        "短途旅行详情",
+        "付款截止日期"
+      ]
+    },
+    {
+      "id": "objectives",
+      "label": "短途旅行目标",
+      "source_page": 1,
+      "source_anchor": "短途旅行目标",
+      "display_label": "短途旅行目标 / Excursion objectives",
+      "source_label_zh": "短途旅行目标",
+      "kind": "text",
+      "synthetic_value": "Museum learning activity",
+      "path": [
+        "短途旅行详情",
+        "短途旅行目标"
+      ]
+    },
+    {
+      "id": "transport",
+      "label": "交通详情",
+      "source_page": 1,
+      "source_anchor": "交通详情",
+      "display_label": "交通详情 / Transport details",
+      "source_label_zh": "交通详情",
+      "kind": "text",
+      "synthetic_value": "School bus",
+      "path": [
+        "短途旅行详情",
+        "交通详情"
+      ]
+    },
+    {
+      "id": "emergency_staff",
+      "label": "接受过紧急救护培训的员工",
+      "source_page": 1,
+      "source_anchor": "接受过紧急救护培训的员工",
+      "display_label": "接受过紧急救护培训的员工 / Staff member with emergency care training",
+      "source_label_zh": "接受过紧急救护培训的员工",
+      "kind": "text",
+      "synthetic_value": "Alex Sample",
+      "path": [
+        "短途旅行详情",
+        "接受过紧急救护培训的员工"
+      ]
+    },
+    {
+      "id": "cpr_staff",
+      "label": "接受过心肺复苏术（CPR）培训的员工",
+      "source_page": 1,
+      "source_anchor": "接受过心肺复苏术（CPR）培训的员工",
+      "display_label": "接受过心肺复苏术（CPR）培训的员工 / Staff member with Cardio Pulmonary Resuscitation (CPR) training",
+      "source_label_zh": "接受过心肺复苏术（CPR）培训的员工",
+      "kind": "text",
+      "synthetic_value": "Jia Sample",
+      "path": [
+        "短途旅行详情",
+        "接受过心肺复苏术（CPR）培训的员工"
+      ]
+    },
+    {
+      "id": "supervisory_staff",
+      "label": "其他监护人员",
+      "source_page": 1,
+      "source_anchor": "其他监护人员",
+      "display_label": "其他监护人员 / Other supervisory staff",
+      "source_label_zh": "其他监护人员",
+      "kind": "text",
+      "synthetic_value": "Mei Sample",
+      "path": [
+        "短途旅行详情",
+        "其他监护人员"
+      ]
+    },
+    {
+      "id": "bring",
+      "label": "学生在短途旅行时需要携带下列物品：",
+      "source_page": 1,
+      "source_anchor": "学生在短途旅行时需要携带下列物品：",
+      "display_label": "学生在短途旅行时需要携带下列物品： / Teacher to tick what students need to bring",
+      "source_label_zh": "学生在短途旅行时需要携带下列物品：",
+      "kind": "checkbox_multi",
+      "options": [
+        "泳衣、毛巾、塑料袋",
+        "从家里带零食、午餐、饮料",
+        "雨衣等防水的衣服",
+        "午餐可在短途旅行期间购买",
+        "换洗的衣物",
+        "午餐的费用包括在短途旅行费用中",
+        "保暖的衣物",
+        "全套校服",
+        "太阳帽、防晒霜",
+        "其他"
+      ],
+      "synthetic_value": [
+        "从家里带零食、午餐、饮料",
+        "太阳帽、防晒霜",
+        "其他"
+      ],
+      "path": [
+        "短途旅行详情",
+        "学生在短途旅行时需要携带下列物品："
+      ],
+      "context_evidence": "短途旅行详情 / 学生在短途旅行时需要携带下列物品：: selected options are 从家里带零食、午餐、饮料; 太阳帽、防晒霜; 其他"
+    },
+    {
+      "id": "bring_other_detail",
+      "label": "Other",
+      "source_page": 1,
+      "source_anchor": "其他",
+      "display_label": "其他 / Other",
+      "source_label_zh": "其他",
+      "kind": "text",
+      "synthetic_value": "备用学习材料",
+      "path": [
+        "短途旅行详情",
+        "其他物品内容"
+      ]
+    },
+    {
+      "id": "other_activities",
+      "label": "本次旅行所涉及的其他事项已在下面勾选。相关详情请见随后几页。",
+      "source_page": 2,
+      "source_anchor": "本次旅行所涉及的其他事项已在下面勾选。相关详情请见随后几页。",
+      "display_label": "本次旅行所涉及的其他事项已在下面勾选。相关详情请见随后几页。 / Teacher to tick any other activities involved in this excursion",
+      "source_label_zh": "本次旅行所涉及的其他事项已在下面勾选。相关详情请见随后几页。",
+      "kind": "checkbox_multi",
+      "options": [
+        "没有其他活动",
+        "游泳活动",
+        "乘飞机旅行",
+        "水上活动",
+        "旅行保险",
+        "过夜短途旅行"
+      ],
+      "synthetic_value": [
+        "没有其他活动"
+      ],
+      "path": [
+        "本次旅行所涉及的其他事项已在下面勾选。相关详情请见随后几页。",
+        "本次旅行所涉及的其他事项已在下面勾选。相关详情请见随后几页。"
+      ],
+      "context_evidence": "本次旅行所涉及的其他事项已在下面勾选。相关详情请见随后几页。 / 本次旅行所涉及的其他事项已在下面勾选。相关详情请见随后几页。: selected options are 没有其他活动"
+    },
+    {
+      "id": "accommodation",
+      "label": "预定住宿地点",
+      "source_page": 2,
+      "source_anchor": "预定住宿地点",
+      "display_label": "预定住宿地点 / Where accommodation is booked",
+      "source_label_zh": "预定住宿地点",
+      "kind": "text",
+      "synthetic_value": "Not applicable",
+      "path": [
+        "本次旅行所涉及的其他事项已在下面勾选。相关详情请见随后几页。",
+        "预定住宿地点"
+      ]
+    },
+    {
+      "id": "additional_info",
+      "label": "补充信息",
+      "source_page": 2,
+      "source_anchor": "补充信息",
+      "display_label": "补充信息 / Additional information",
+      "source_label_zh": "补充信息",
+      "kind": "text",
+      "synthetic_value": "Day trip only",
+      "path": [
+        "本次旅行所涉及的其他事项已在下面勾选。相关详情请见随后几页。",
+        "补充信息"
+      ]
+    },
+    {
+      "id": "flotation_devices",
+      "label": "拟在必要时提供的浮水装置",
+      "source_page": 2,
+      "source_anchor": "拟在必要时提供的浮水装置",
+      "display_label": "拟在必要时提供的浮水装置 / Types of flotation devices to be provided by the school and how they will be used",
+      "source_label_zh": "拟在必要时提供的浮水装置",
+      "kind": "text",
+      "synthetic_value": "Not applicable",
+      "path": [
+        "本次旅行所涉及的其他事项已在下面勾选。相关详情请见随后几页。",
+        "拟在必要时提供的浮水装置"
+      ]
+    },
+    {
+      "id": "school_name",
+      "label": "学校名称",
+      "source_page": 3,
+      "source_anchor": "学校名称",
+      "display_label": "学校名称 / School name",
+      "source_label_zh": "学校名称",
+      "kind": "text",
+      "synthetic_value": "Example School",
+      "path": [
+        "Teacher to complete the following information",
+        "学校名称"
+      ]
+    },
+    {
+      "id": "school_phone",
+      "label": "学校电话号码",
+      "source_page": 3,
+      "source_anchor": "学校电话号码",
+      "display_label": "学校电话号码 / School phone number",
+      "source_label_zh": "学校电话号码",
+      "kind": "text",
+      "synthetic_value": "0200000007",
+      "path": [
+        "Teacher to complete the following information",
+        "学校电话号码"
+      ]
+    },
+    {
+      "id": "coordinator",
+      "label": "短途旅行协调人姓名和签名",
+      "source_page": 3,
+      "source_anchor": "短途旅行协调人姓名和签名",
+      "display_label": "短途旅行协调人姓名和签名 / Name and signature of excursion coordinator",
+      "source_label_zh": "短途旅行协调人姓名和签名",
+      "kind": "text",
+      "synthetic_value": "Alex Sample",
+      "path": [
+        "Teacher to complete the following information",
+        "短途旅行协调人姓名和签名"
+      ]
+    },
+    {
+      "id": "principal",
+      "label": "校长姓名和签名",
+      "source_page": 3,
+      "source_anchor": "校长姓名和签名",
+      "display_label": "校长姓名和签名 / Name and signature of principal",
+      "source_label_zh": "校长姓名和签名",
+      "kind": "text",
+      "synthetic_value": "Kai Sample",
+      "path": [
+        "Teacher to complete the following information",
+        "校长姓名和签名"
+      ]
+    },
+    {
+      "id": "signed_date",
+      "label": "日期",
+      "source_page": 3,
+      "source_anchor": "日期",
+      "display_label": "日期 / Date",
+      "source_label_zh": "日期",
+      "kind": "text",
+      "synthetic_value": "5 October 2026",
+      "path": [
+        "Teacher to complete the following information",
+        "日期"
+      ]
+    }
+  ],
+  "source_url": "https://education.nsw.gov.au/content/dam/main-education/going-to-a-public-school/media/documents/translated-documents-/parent-information-form/chinese-simplified-excursion-parent-information.pdf",
+  "landing_url": "https://education.nsw.gov.au/schooling/translated-documents/parent-information-form",
+  "license_url": "https://education.nsw.gov.au/about-us/copyright.html",
+  "license_note": "NSW Department of Education website content is CC BY 4.0; NSW logos, trademarks and third-party material are excluded. The normalized version omits logos and artwork.",
+  "source_sha256": "5819a3704ac5366b4ca6bec76325515d208300ffe4d5e6590b6b51d78fea9726",
+  "retrieved_at": "2026-10-05",
+  "source_version": "No edition number printed in this PDF",
+  "source_updated_at": "2026-02-04",
+  "source_date_evidence": {
+    "kind": "official_landing_and_pdf_metadata",
+    "value": "Official landing page last modified 2026-02-04; PDF CreationDate=D:20220207153106+11'00'; PDF ModDate=D:20250213150037+01'00'",
+    "source_url": "https://education.nsw.gov.au/schooling/translated-documents/parent-information-form",
+    "detail": "The landing-page date and PDF metadata are recorded separately; neither is asserted to be a content revision date."
+  },
+  "context": "Fictional test record; all persons, places and contact details are synthetic.\n短途旅行详情 / 短途旅行地点: Example Museum.\n短途旅行详情 / 短途旅行日期: 12 October 2026.\n短途旅行详情 / 出发地点: Example School.\n短途旅行详情 / 出发时间: 09:00.\n短途旅行详情 / 返回地点: Example School.\n短途旅行详情 / 返回时间: 15:00.\n短途旅行详情 / 短途旅行费用: AUD 20.\n短途旅行详情 / 付款截止日期: 9 October 2026.\n短途旅行详情 / 短途旅行目标: Museum learning activity.\n短途旅行详情 / 交通详情: School bus.\n短途旅行详情 / 接受过紧急救护培训的员工: Alex Sample.\n短途旅行详情 / 接受过心肺复苏术（CPR）培训的员工: Jia Sample.\n短途旅行详情 / 其他监护人员: Mei Sample.\n短途旅行详情 / 学生在短途旅行时需要携带下列物品：: selected options are 从家里带零食、午餐、饮料; 太阳帽、防晒霜; 其他.\n短途旅行详情 / 其他物品内容: 备用学习材料.\n本次旅行所涉及的其他事项已在下面勾选。相关详情请见随后几页。 / 本次旅行所涉及的其他事项已在下面勾选。相关详情请见随后几页。: selected options are 没有其他活动.\n本次旅行所涉及的其他事项已在下面勾选。相关详情请见随后几页。 / 预定住宿地点: Not applicable.\n本次旅行所涉及的其他事项已在下面勾选。相关详情请见随后几页。 / 补充信息: Day trip only.\n本次旅行所涉及的其他事项已在下面勾选。相关详情请见随后几页。 / 拟在必要时提供的浮水装置: Not applicable.\nTeacher to complete the following information / 学校名称: Example School.\nTeacher to complete the following information / 学校电话号码: 0200000007.\nTeacher to complete the following information / 短途旅行协调人姓名和签名: Alex Sample.\nTeacher to complete the following information / 校长姓名和签名: Kai Sample.\nTeacher to complete the following information / 日期: 5 October 2026.",
+  "workflow_identity": {
+    "language": "zh",
+    "id": 424
+  }
+}

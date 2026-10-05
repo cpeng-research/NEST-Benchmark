@@ -1,0 +1,582 @@
+{
+  "id": "es-159-anac-validez-licencia",
+  "language": "es",
+  "domain": "GovPublic",
+  "business_topic": "Solicitud de Certificado de Validez de Licencia",
+  "title": "Solicitud de Certificado de Validez de Licencia",
+  "issuer_id": "ANAC",
+  "template_family": "anac-validez-licencia",
+  "source_pages": 1,
+  "source_sha256": "a52d17fc83ba820f9c4edfab8e730bfa6f9da686c17302368f68bdedd24e1308",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/2021/05/modelo-solicitud-certificado-validez-2022.pdf",
+  "landing_url": "https://www.argentina.gob.ar/anac/personal-aeronautico/formularios-para-descargar",
+  "license_url": "https://www.argentina.gob.ar/acerca",
+  "license_note": "Argentina.gob.ar states CC BY 4.0 for its published material. Normalized text and form structure only; no artwork or official endorsement. Contrary notices and third-party content require separate screening.",
+  "retrieved_at": "2026-10-05",
+  "source_version": "2022 file label; no printed revision",
+  "source_date_evidence": {
+    "kind": "PDF file ModDate",
+    "value": "2022-08-19",
+    "raw": "D:20220819142255Z",
+    "scope": "PDF file metadata only; not an official publication, effective, or current-version date.",
+    "version_basis": "The official ANAC PDF filename contains 2022; this is a file label, not a verified issue date.",
+    "retrieval_timestamp_utc": "2026-10-04T18:40:55.432213+00:00"
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "Solicitud de Certificado de Validez de Licencia",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nro. Licencia",
+        "field": "f001",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Apellido/s",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Nombre/s",
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Domicilio",
+        "field": "f004",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Localidad",
+        "field": "f005",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Provincia",
+        "field": "f006",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Cód. Postal",
+        "field": "f007",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Doc. Único de Identidad",
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Teléfono Fijo",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Teléfono Móvil",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Correo electrónico",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Información adicional",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Retira Personalmente",
+        "field": "f012",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nombre y Apellido del Autorizado",
+        "field": "f013",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "DUI",
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Documentos agregados",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fotocopia de Licencia a certificar",
+        "field": "f015",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Pago del trámite",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nro. De Recibo Oficial",
+        "field": "f016",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Importe",
+        "field": "f017",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fecha",
+        "field": "f018",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Interviniente",
+        "field": "f019",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Declaración jurada",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Declaro bajo juramento que la información arriba detallada se ajusta a la verdad.",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Firma del solicitante",
+        "field": "f020",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Aclaración",
+        "field": "f021",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "DUI",
+        "field": "f022",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Lugar y Fecha:",
+        "field": "f023",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Nro. Licencia",
+      "path": [
+        "Página 1",
+        "Datos personales",
+        "Nro. Licencia"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nro. Licencia",
+      "synthetic_value": "L-000123",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f002",
+      "label": "Apellido/s",
+      "path": [
+        "Página 1",
+        "Datos personales",
+        "Apellido/s"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Apellido/s",
+      "synthetic_value": "Pérez",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f003",
+      "label": "Nombre/s",
+      "path": [
+        "Página 1",
+        "Datos personales",
+        "Nombre/s"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre/s",
+      "synthetic_value": "Lucía",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f004",
+      "label": "Domicilio",
+      "path": [
+        "Página 1",
+        "Datos personales",
+        "Domicilio"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Domicilio",
+      "synthetic_value": "Calle Ficticia 123",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f005",
+      "label": "Localidad",
+      "path": [
+        "Página 1",
+        "Datos personales",
+        "Localidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Localidad",
+      "synthetic_value": "Córdoba",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f006",
+      "label": "Provincia",
+      "path": [
+        "Página 1",
+        "Datos personales",
+        "Provincia"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Provincia",
+      "synthetic_value": "Córdoba",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f007",
+      "label": "Cód. Postal",
+      "path": [
+        "Página 1",
+        "Datos personales",
+        "Cód. Postal"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cód. Postal",
+      "synthetic_value": "5000",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f008",
+      "label": "Doc. Único de Identidad",
+      "path": [
+        "Página 1",
+        "Datos personales",
+        "Doc. Único de Identidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Doc. Único de Identidad",
+      "synthetic_value": "00000001",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f009",
+      "label": "Teléfono Fijo",
+      "path": [
+        "Página 1",
+        "Datos personales",
+        "Teléfono Fijo"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Teléfono Fijo",
+      "synthetic_value": "0351 4000000",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f010",
+      "label": "Teléfono Móvil",
+      "path": [
+        "Página 1",
+        "Datos personales",
+        "Teléfono Móvil"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Teléfono Móvil",
+      "synthetic_value": "0351 150000000",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f011",
+      "label": "Correo electrónico",
+      "path": [
+        "Página 1",
+        "Datos personales",
+        "Correo electrónico"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Correo electrónico",
+      "synthetic_value": "lucia@example.org",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f012",
+      "label": "Retira Personalmente",
+      "path": [
+        "Página 1",
+        "Información adicional",
+        "Retira Personalmente"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Retira Personalmente",
+      "synthetic_value": "Si",
+      "source_visible_blank": true,
+      "options": [
+        "Si",
+        "No"
+      ],
+      "context_evidence": "Información adicional / Retira Personalmente: Si"
+    },
+    {
+      "id": "f013",
+      "label": "Nombre y Apellido del Autorizado",
+      "path": [
+        "Página 1",
+        "Tercero Autorizado",
+        "Nombre y Apellido del Autorizado"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre y Apellido del Autorizado",
+      "synthetic_value": "Sergio Paz",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f014",
+      "label": "DUI",
+      "path": [
+        "Página 1",
+        "Tercero Autorizado",
+        "DUI"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DUI",
+      "synthetic_value": "00000002",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f015",
+      "label": "Fotocopia de Licencia a certificar",
+      "path": [
+        "Página 1",
+        "Documentos agregados",
+        "Fotocopia de Licencia a certificar"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "Fotocopia de Licencia a certificar",
+      "synthetic_value": [
+        "Fotocopia de Licencia a certificar",
+        "Fotocopia de DUI"
+      ],
+      "source_visible_blank": true,
+      "options": [
+        "Fotocopia de Licencia a certificar",
+        "Fotocopia de DUI",
+        "Fotocopia del Certificado Médico (Vigente)"
+      ],
+      "context_evidence": "Documentos agregados / Fotocopia de Licencia a certificar: Fotocopia de Licencia a certificar, Fotocopia de DUI"
+    },
+    {
+      "id": "f016",
+      "label": "Nro. De Recibo Oficial",
+      "path": [
+        "Página 1",
+        "Pago del trámite",
+        "Nro. De Recibo Oficial"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nro. De Recibo Oficial",
+      "synthetic_value": "R-0001",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f017",
+      "label": "Importe",
+      "path": [
+        "Página 1",
+        "Pago del trámite",
+        "Importe"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Importe",
+      "synthetic_value": "1000",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f018",
+      "label": "Fecha",
+      "path": [
+        "Página 1",
+        "Pago del trámite",
+        "Fecha"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha",
+      "synthetic_value": "05/10/2026",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f019",
+      "label": "Interviniente",
+      "path": [
+        "Página 1",
+        "Pago del trámite",
+        "Interviniente"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Interviniente",
+      "synthetic_value": "Unidad de Caja",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f020",
+      "label": "Firma del solicitante",
+      "path": [
+        "Página 1",
+        "Declaración jurada",
+        "Firma del solicitante"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Firma del solicitante",
+      "synthetic_value": "Firma ficticia",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f021",
+      "label": "Aclaración",
+      "path": [
+        "Página 1",
+        "Declaración jurada",
+        "Aclaración"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Aclaración",
+      "synthetic_value": "Lucía Pérez",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f022",
+      "label": "DUI",
+      "path": [
+        "Página 1",
+        "Declaración jurada",
+        "DUI"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DUI",
+      "synthetic_value": "00000001",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f023",
+      "label": "Lugar y Fecha:",
+      "path": [
+        "Página 1",
+        "Declaración jurada",
+        "Lugar y Fecha:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Lugar y Fecha:",
+      "synthetic_value": "Córdoba, 05 de octubre de 2026",
+      "source_visible_blank": true
+    }
+  ],
+  "context": "Datos ficticios de prueba; no corresponde a una solicitud real.\nDatos personales / Nro. Licencia: L-000123\nDatos personales / Apellido/s: Pérez\nDatos personales / Nombre/s: Lucía\nDatos personales / Domicilio: Calle Ficticia 123\nDatos personales / Localidad: Córdoba\nDatos personales / Provincia: Córdoba\nDatos personales / Cód. Postal: 5000\nDatos personales / Doc. Único de Identidad: 00000001\nDatos personales / Teléfono Fijo: 0351 4000000\nDatos personales / Teléfono Móvil: 0351 150000000\nDatos personales / Correo electrónico: lucia@example.org\nInformación adicional / Retira Personalmente: Si\nTercero Autorizado / Nombre y Apellido del Autorizado: Sergio Paz\nTercero Autorizado / DUI: 00000002\nDocumentos agregados / Fotocopia de Licencia a certificar: Fotocopia de Licencia a certificar, Fotocopia de DUI\nPago del trámite / Nro. De Recibo Oficial: R-0001\nPago del trámite / Importe: 1000\nPago del trámite / Fecha: 05/10/2026\nPago del trámite / Interviniente: Unidad de Caja\nDeclaración jurada / Firma del solicitante: Firma ficticia\nDeclaración jurada / Aclaración: Lucía Pérez\nDeclaración jurada / DUI: 00000001\nDeclaración jurada / Lugar y Fecha:: Córdoba, 05 de octubre de 2026\n",
+  "workflow_identity": {
+    "language": "es",
+    "id": 159
+  }
+}

@@ -1,0 +1,2683 @@
+{
+  "id": "fr-dgac-low-altitude-overflight-v10",
+  "language": "fr",
+  "domain": "GovPublic",
+  "title": "Demande d'autorisation de survol basse hauteur",
+  "template_family": "dgac-low-altitude-overflight-v10",
+  "issuer": "DGAC/DSAC",
+  "issuer_id": "DGAC/DSAC",
+  "source_pages": 9,
+  "columns": 1,
+  "rows": [
+    [
+      {
+        "text": "Cadre réservé à l’administration - R5-AUT-VOL-F1 V10",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "reception",
+        "label": "Date de réception",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "enregistrement",
+        "label": "Numéro d'enregistrement",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Informations et coordonnées de l’exploitant",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "exploitant_nom",
+        "label": "Nom officiel",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "exploitant_raison",
+        "label": "Raison sociale",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "exploitant_numero",
+        "label": "N° voie",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "exploitant_extension",
+        "label": "Extension",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "exploitant_boite",
+        "label": "Boite postale",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "exploitant_voie",
+        "label": "Nom de voie",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "exploitant_code",
+        "label": "Code postal",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "exploitant_localite",
+        "label": "Localité",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "exploitant_telephone",
+        "label": "N° de téléphone",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "exploitant_telecopie",
+        "label": "N° de télécopie",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "exploitant_courriel",
+        "label": "Adresse électronique",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Nature de la demande d’autorisation",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "vol_agglo",
+        "label": "Demande d’autorisation de survol au-dessus des zones à fortes densité",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Type d’exploitation et opérations",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "airops",
+        "label": "L’exploitation est soumise à la règlementation européenne opérationnelle",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "operations_listees",
+        "label": "Les opérations correspondent à l’une au moins des opérations listées en page 2",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "La page 2 définit les opérations et seuils de la rubrique 4; elle ne comporte pas de champ à remplir.",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Informations et coordonnées du donneur d’ordre",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "donneur_nom",
+        "label": "Nom officiel",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "donneur_raison",
+        "label": "Raison sociale",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "donneur_numero",
+        "label": "N° voie",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "donneur_extension",
+        "label": "Extension",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "donneur_boite",
+        "label": "Boite postale",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "donneur_voie",
+        "label": "Nom de voie",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "donneur_code",
+        "label": "Code postal",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "donneur_localite",
+        "label": "Localité",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "donneur_telephone",
+        "label": "N° de téléphone",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "donneur_telecopie",
+        "label": "N° de télécopie",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "donneur_courriel",
+        "label": "Adresse électronique",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "VOL AGGLO - Données opérationnelles",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "agglo_operations",
+        "label": "Opérations prévues",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "agglo_regime",
+        "label": "Régime du vol (VFR Jour ou Nuit)",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "agglo_hauteur",
+        "label": "Hauteur minimale AGL",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "agglo_date",
+        "label": "Date des vols ou durée vols",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "agglo_departement",
+        "label": "Département(s)",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "agglo_lieux",
+        "label": "Lieux survolés",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "VOL AGGLO - Justificatifs d’exploitation",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "agglo_declaration",
+        "label": "Accusé de réception déclaration ORO.DEC.100",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "agglo_etranger",
+        "label": "Autorisation ORO.SPO.100",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "agglo_haut_risque",
+        "label": "Autorisation « haut risque » ORO.SPO.110",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "agglo_map",
+        "label": "Manuel d’Activité Particulière (MAP)",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "agglo_checklist",
+        "label": "Les listes de vérifications et l’évaluation des risques ont été développées pour les opérations objets de cette demande",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "VOL AGGLO - Aéronefs utilisés",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "aeronef_1_categorie",
+        "label": "Catégorie (*)",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "aeronef_1_type",
+        "label": "Type",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "aeronef_1_immatriculation",
+        "label": "Immatriculation",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "aeronef_1_equipements",
+        "label": "Equipements (**)",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "aeronef_1_performance",
+        "label": "Performance assurée pour Hélico (***)",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "aeronef_2_categorie",
+        "label": "Catégorie (*)",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "aeronef_2_type",
+        "label": "Type",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "aeronef_2_immatriculation",
+        "label": "Immatriculation",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "aeronef_2_equipements",
+        "label": "Equipements (**)",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "aeronef_2_performance",
+        "label": "Performance assurée pour Hélico (***)",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "aeronef_3_categorie",
+        "label": "Catégorie (*)",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "aeronef_3_type",
+        "label": "Type",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "aeronef_3_immatriculation",
+        "label": "Immatriculation",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "aeronef_3_equipements",
+        "label": "Equipements (**)",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "aeronef_3_performance",
+        "label": "Performance assurée pour Hélico (***)",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "aeronef_4_categorie",
+        "label": "Catégorie (*)",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "aeronef_4_type",
+        "label": "Type",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "aeronef_4_immatriculation",
+        "label": "Immatriculation",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "aeronef_4_equipements",
+        "label": "Equipements (**)",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "aeronef_4_performance",
+        "label": "Performance assurée pour Hélico (***)",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "aeronef_5_categorie",
+        "label": "Catégorie (*)",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "aeronef_5_type",
+        "label": "Type",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "aeronef_5_immatriculation",
+        "label": "Immatriculation",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "aeronef_5_equipements",
+        "label": "Equipements (**)",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "aeronef_5_performance",
+        "label": "Performance assurée pour Hélico (***)",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_1_nom",
+        "label": "Nom - prénom",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_1_licence",
+        "label": "Licence/Qualif",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_1_numero",
+        "label": "N° de licence",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_1_dnc",
+        "label": "Réf DNC",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_1_fonction",
+        "label": "Fonction",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_2_nom",
+        "label": "Nom - prénom",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_2_licence",
+        "label": "Licence/Qualif",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_2_numero",
+        "label": "N° de licence",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_2_dnc",
+        "label": "Réf DNC",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_2_fonction",
+        "label": "Fonction",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_3_nom",
+        "label": "Nom - prénom",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_3_licence",
+        "label": "Licence/Qualif",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_3_numero",
+        "label": "N° de licence",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_3_dnc",
+        "label": "Réf DNC",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_3_fonction",
+        "label": "Fonction",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_4_nom",
+        "label": "Nom - prénom",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_4_licence",
+        "label": "Licence/Qualif",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_4_numero",
+        "label": "N° de licence",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_4_dnc",
+        "label": "Réf DNC",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_4_fonction",
+        "label": "Fonction",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_5_nom",
+        "label": "Nom - prénom",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_5_licence",
+        "label": "Licence/Qualif",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_5_numero",
+        "label": "N° de licence",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_5_dnc",
+        "label": "Réf DNC",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_5_fonction",
+        "label": "Fonction",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_6_nom",
+        "label": "Nom - prénom",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_6_licence",
+        "label": "Licence/Qualif",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_6_numero",
+        "label": "N° de licence",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_6_dnc",
+        "label": "Réf DNC",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipage_6_fonction",
+        "label": "Fonction",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "VOL AGGLO - Lieux survolés",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "lieu_situation",
+        "label": "Situation, Tracé ou périmètre",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "lieu_communes",
+        "label": "Commune(s) survolée(s)",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "lieu_niveau",
+        "label": "Niveau minimal sollicité (AGL ou AMSL)",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "lieu_altitude",
+        "label": "Altitude NGF moyenne",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "Itinéraire proposé",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "aerodrome",
+        "label": "Aérodrome (ou autre emplacement) de départ et d’arrivée",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "itineraire",
+        "label": "Itinéraire pour rejoindre et quitter le(s) site(s) à survoler",
+        "colspan": 1,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "Conditions particulières et faisabilité",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "field": "stationnaire",
+        "label": "Le vol est stationnaire, lent ou vertical",
+        "colspan": 1,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "field": "precautions",
+        "label": "Précisez, motiver, et indiquer les précautions prises pour assurer la sécurité des vols",
+        "colspan": 1,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "field": "panne",
+        "label": "En cas de panne moteur les conditions d’exploitation permettent-elles de continuer le vol",
+        "colspan": 1,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "field": "etude",
+        "label": "Référence étude",
+        "colspan": 1,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "field": "aires",
+        "label": "Si non, fournir une carte faisant apparaitre les aires de recueil",
+        "colspan": 1,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "field": "observations",
+        "label": "Autres observations",
+        "colspan": 1,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "text": "VOL RASANT - Données opérationnelles",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 6
+      }
+    ],
+    [
+      {
+        "field": "rasant_operations",
+        "label": "Opérations prévues",
+        "colspan": 1,
+        "source_page": 6
+      }
+    ],
+    [
+      {
+        "field": "rasant_regime",
+        "label": "Régime du vol (VFR Jour ou Nuit)",
+        "colspan": 1,
+        "source_page": 6
+      }
+    ],
+    [
+      {
+        "field": "rasant_hauteur",
+        "label": "Hauteur minimale AGL",
+        "colspan": 1,
+        "source_page": 6
+      }
+    ],
+    [
+      {
+        "field": "rasant_date",
+        "label": "Date des vols ou durée vols",
+        "colspan": 1,
+        "source_page": 6
+      }
+    ],
+    [
+      {
+        "field": "rasant_portee",
+        "label": "Portée de l’autorisation",
+        "colspan": 1,
+        "source_page": 6
+      }
+    ],
+    [
+      {
+        "field": "rasant_declaration",
+        "label": "Accusé de réception déclaration ORO.DEC.100",
+        "colspan": 1,
+        "source_page": 6
+      }
+    ],
+    [
+      {
+        "field": "rasant_etranger",
+        "label": "Autorisation ORO.SPO.100",
+        "colspan": 1,
+        "source_page": 6
+      }
+    ],
+    [
+      {
+        "field": "rasant_haut_risque",
+        "label": "Autorisation « haut risque » ORO.SPO.110",
+        "colspan": 1,
+        "source_page": 6
+      }
+    ],
+    [
+      {
+        "field": "rasant_map",
+        "label": "Manuel d’Activité Particulière (MAP)",
+        "colspan": 1,
+        "source_page": 6
+      }
+    ],
+    [
+      {
+        "field": "rasant_checklist",
+        "label": "Les listes de vérifications et l’évaluation des risques ont été développées pour les opérations objets de cette demande",
+        "colspan": 1,
+        "source_page": 6
+      }
+    ],
+    [
+      {
+        "field": "rasant_securite",
+        "label": "Une étude de sécurité a été développée pour les opérations objets de cette demande",
+        "colspan": 1,
+        "source_page": 6
+      }
+    ],
+    [
+      {
+        "text": "Déclaration et signature",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 7
+      }
+    ],
+    [
+      {
+        "field": "certification",
+        "label": "Je certifie sur l’honneur l’exactitude des renseignements fournis",
+        "colspan": 1,
+        "source_page": 7
+      }
+    ],
+    [
+      {
+        "field": "fait_a",
+        "label": "Fait à",
+        "colspan": 1,
+        "source_page": 7
+      }
+    ],
+    [
+      {
+        "field": "fait_le",
+        "label": "Le",
+        "colspan": 1,
+        "source_page": 7
+      }
+    ],
+    [
+      {
+        "field": "signature",
+        "label": "Signature du demandeur",
+        "colspan": 1,
+        "source_page": 7
+      }
+    ],
+    [
+      {
+        "text": "Pièces à joindre pour une demande initiale - VOL AGGLO",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 8
+      }
+    ],
+    [
+      {
+        "text": "La liste décrit les justificatifs selon le régime d'exploitation, le pays de l'exploitant et le cas applicable; cette page ne contient pas de champ à remplir.",
+        "colspan": 1,
+        "source_page": 8
+      }
+    ],
+    [
+      {
+        "text": "Pièces à joindre pour une demande initiale - VOL RASANT",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 9
+      }
+    ],
+    [
+      {
+        "text": "La liste décrit les justificatifs AIROPS, SAO ou hors règlements européens; cette page ne contient pas de champ à remplir.",
+        "colspan": 1,
+        "source_page": 9
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "reception",
+      "label": "Date de réception",
+      "source_page": 1,
+      "source_anchor": "Date de réception",
+      "path": [
+        "Cadre réservé à l’administration - R5-AUT-VOL-F1 V10",
+        "Date de réception"
+      ],
+      "kind": "text",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "enregistrement",
+      "label": "Numéro d'enregistrement",
+      "source_page": 1,
+      "source_anchor": "Numéro d'enregistrement",
+      "path": [
+        "Cadre réservé à l’administration - R5-AUT-VOL-F1 V10",
+        "Numéro d'enregistrement"
+      ],
+      "kind": "text",
+      "synthetic_value": "DOSSIER-FICTIF-001"
+    },
+    {
+      "id": "exploitant_nom",
+      "label": "Nom officiel",
+      "source_page": 1,
+      "source_anchor": "Nom officiel",
+      "path": [
+        "Informations et coordonnées de l’exploitant",
+        "Nom officiel"
+      ],
+      "kind": "text",
+      "synthetic_value": "Aéro Exemple"
+    },
+    {
+      "id": "exploitant_raison",
+      "label": "Raison sociale",
+      "source_page": 1,
+      "source_anchor": "Raison sociale",
+      "path": [
+        "Informations et coordonnées de l’exploitant",
+        "Raison sociale"
+      ],
+      "kind": "text",
+      "synthetic_value": "Aéro Exemple SAS"
+    },
+    {
+      "id": "exploitant_numero",
+      "label": "N° voie",
+      "source_page": 1,
+      "source_anchor": "N° voie",
+      "path": [
+        "Informations et coordonnées de l’exploitant",
+        "N° voie"
+      ],
+      "kind": "text",
+      "synthetic_value": "12"
+    },
+    {
+      "id": "exploitant_extension",
+      "label": "Extension",
+      "source_page": 1,
+      "source_anchor": "Extension",
+      "path": [
+        "Informations et coordonnées de l’exploitant",
+        "Extension"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "exploitant_boite",
+      "label": "Boite postale",
+      "source_page": 1,
+      "source_anchor": "Boite postale",
+      "path": [
+        "Informations et coordonnées de l’exploitant",
+        "Boite postale"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "exploitant_voie",
+      "label": "Nom de voie",
+      "source_page": 1,
+      "source_anchor": "Nom de voie",
+      "path": [
+        "Informations et coordonnées de l’exploitant",
+        "Nom de voie"
+      ],
+      "kind": "text",
+      "synthetic_value": "rue Exemple"
+    },
+    {
+      "id": "exploitant_code",
+      "label": "Code postal",
+      "source_page": 1,
+      "source_anchor": "Code postal",
+      "path": [
+        "Informations et coordonnées de l’exploitant",
+        "Code postal"
+      ],
+      "kind": "text",
+      "synthetic_value": "75012"
+    },
+    {
+      "id": "exploitant_localite",
+      "label": "Localité",
+      "source_page": 1,
+      "source_anchor": "Localité",
+      "path": [
+        "Informations et coordonnées de l’exploitant",
+        "Localité"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "exploitant_telephone",
+      "label": "N° de téléphone",
+      "source_page": 1,
+      "source_anchor": "N° de téléphone",
+      "path": [
+        "Informations et coordonnées de l’exploitant",
+        "N° de téléphone"
+      ],
+      "kind": "text",
+      "synthetic_value": "01 00 00 00 01"
+    },
+    {
+      "id": "exploitant_telecopie",
+      "label": "N° de télécopie",
+      "source_page": 1,
+      "source_anchor": "N° de télécopie",
+      "path": [
+        "Informations et coordonnées de l’exploitant",
+        "N° de télécopie"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "exploitant_courriel",
+      "label": "Adresse électronique",
+      "source_page": 1,
+      "source_anchor": "Adresse électronique",
+      "path": [
+        "Informations et coordonnées de l’exploitant",
+        "Adresse électronique"
+      ],
+      "kind": "text",
+      "synthetic_value": "contact@example.invalid"
+    },
+    {
+      "id": "vol_agglo",
+      "label": "Demande d’autorisation de survol au-dessus des zones à fortes densité",
+      "source_page": 1,
+      "source_anchor": "Demande d’autorisation de survol au-dessus des zones à fortes densité",
+      "path": [
+        "Nature de la demande d’autorisation",
+        "Demande d’autorisation de survol au-dessus des zones à fortes densité"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "VOL AGGLO"
+      ],
+      "options": [
+        "VOL AGGLO",
+        "VOL RASANT"
+      ],
+      "context_evidence": "Nature de la demande d’autorisation / Demande d’autorisation de survol au-dessus des zones à fortes densité : VOL AGGLO."
+    },
+    {
+      "id": "airops",
+      "label": "L’exploitation est soumise à la règlementation européenne opérationnelle",
+      "source_page": 1,
+      "source_anchor": "L’exploitation est soumise à la règlementation européenne opérationnelle",
+      "path": [
+        "Type d’exploitation et opérations",
+        "L’exploitation est soumise à la règlementation européenne opérationnelle"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Oui"
+      ],
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "context_evidence": "Type d’exploitation et opérations / L’exploitation est soumise à la règlementation européenne opérationnelle : Oui."
+    },
+    {
+      "id": "operations_listees",
+      "label": "Les opérations correspondent à l’une au moins des opérations listées en page 2",
+      "source_page": 1,
+      "source_anchor": "Les opérations correspondent à l’une au moins des opérations listées en page 2",
+      "path": [
+        "Type d’exploitation et opérations",
+        "Les opérations correspondent à l’une au moins des opérations listées en page 2"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Oui"
+      ],
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "context_evidence": "Type d’exploitation et opérations / Les opérations correspondent à l’une au moins des opérations listées en page 2 : Oui."
+    },
+    {
+      "id": "donneur_nom",
+      "label": "Nom officiel",
+      "source_page": 3,
+      "source_anchor": "Nom officiel",
+      "path": [
+        "Informations et coordonnées du donneur d’ordre",
+        "Nom officiel"
+      ],
+      "kind": "text",
+      "synthetic_value": "Collectivité Exemple"
+    },
+    {
+      "id": "donneur_raison",
+      "label": "Raison sociale",
+      "source_page": 3,
+      "source_anchor": "Raison sociale",
+      "path": [
+        "Informations et coordonnées du donneur d’ordre",
+        "Raison sociale"
+      ],
+      "kind": "text",
+      "synthetic_value": "Collectivité Exemple"
+    },
+    {
+      "id": "donneur_numero",
+      "label": "N° voie",
+      "source_page": 3,
+      "source_anchor": "N° voie",
+      "path": [
+        "Informations et coordonnées du donneur d’ordre",
+        "N° voie"
+      ],
+      "kind": "text",
+      "synthetic_value": "20"
+    },
+    {
+      "id": "donneur_extension",
+      "label": "Extension",
+      "source_page": 3,
+      "source_anchor": "Extension",
+      "path": [
+        "Informations et coordonnées du donneur d’ordre",
+        "Extension"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "donneur_boite",
+      "label": "Boite postale",
+      "source_page": 3,
+      "source_anchor": "Boite postale",
+      "path": [
+        "Informations et coordonnées du donneur d’ordre",
+        "Boite postale"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "donneur_voie",
+      "label": "Nom de voie",
+      "source_page": 3,
+      "source_anchor": "Nom de voie",
+      "path": [
+        "Informations et coordonnées du donneur d’ordre",
+        "Nom de voie"
+      ],
+      "kind": "text",
+      "synthetic_value": "avenue Exemple"
+    },
+    {
+      "id": "donneur_code",
+      "label": "Code postal",
+      "source_page": 3,
+      "source_anchor": "Code postal",
+      "path": [
+        "Informations et coordonnées du donneur d’ordre",
+        "Code postal"
+      ],
+      "kind": "text",
+      "synthetic_value": "75013"
+    },
+    {
+      "id": "donneur_localite",
+      "label": "Localité",
+      "source_page": 3,
+      "source_anchor": "Localité",
+      "path": [
+        "Informations et coordonnées du donneur d’ordre",
+        "Localité"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "donneur_telephone",
+      "label": "N° de téléphone",
+      "source_page": 3,
+      "source_anchor": "N° de téléphone",
+      "path": [
+        "Informations et coordonnées du donneur d’ordre",
+        "N° de téléphone"
+      ],
+      "kind": "text",
+      "synthetic_value": "01 00 00 00 02"
+    },
+    {
+      "id": "donneur_telecopie",
+      "label": "N° de télécopie",
+      "source_page": 3,
+      "source_anchor": "N° de télécopie",
+      "path": [
+        "Informations et coordonnées du donneur d’ordre",
+        "N° de télécopie"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "donneur_courriel",
+      "label": "Adresse électronique",
+      "source_page": 3,
+      "source_anchor": "Adresse électronique",
+      "path": [
+        "Informations et coordonnées du donneur d’ordre",
+        "Adresse électronique"
+      ],
+      "kind": "text",
+      "synthetic_value": "ordre@example.invalid"
+    },
+    {
+      "id": "agglo_operations",
+      "label": "Opérations prévues",
+      "source_page": 3,
+      "source_anchor": "Opérations prévues",
+      "path": [
+        "VOL AGGLO - Données opérationnelles",
+        "Opérations prévues"
+      ],
+      "kind": "text",
+      "synthetic_value": "Prise de vues fictive"
+    },
+    {
+      "id": "agglo_regime",
+      "label": "Régime du vol (VFR Jour ou Nuit)",
+      "source_page": 3,
+      "source_anchor": "Régime du vol (VFR Jour ou Nuit)",
+      "path": [
+        "VOL AGGLO - Données opérationnelles",
+        "Régime du vol (VFR Jour ou Nuit)"
+      ],
+      "kind": "text",
+      "synthetic_value": "VFR Jour"
+    },
+    {
+      "id": "agglo_hauteur",
+      "label": "Hauteur minimale AGL",
+      "source_page": 3,
+      "source_anchor": "Hauteur minimale AGL",
+      "path": [
+        "VOL AGGLO - Données opérationnelles",
+        "Hauteur minimale AGL"
+      ],
+      "kind": "text",
+      "synthetic_value": "120 m"
+    },
+    {
+      "id": "agglo_date",
+      "label": "Date des vols ou durée vols",
+      "source_page": 3,
+      "source_anchor": "Date des vols ou durée vols",
+      "path": [
+        "VOL AGGLO - Données opérationnelles",
+        "Date des vols ou durée vols"
+      ],
+      "kind": "text",
+      "synthetic_value": "15/10/2026"
+    },
+    {
+      "id": "agglo_departement",
+      "label": "Département(s)",
+      "source_page": 3,
+      "source_anchor": "Département(s)",
+      "path": [
+        "VOL AGGLO - Données opérationnelles",
+        "Département(s)"
+      ],
+      "kind": "text",
+      "synthetic_value": "75"
+    },
+    {
+      "id": "agglo_lieux",
+      "label": "Lieux survolés",
+      "source_page": 3,
+      "source_anchor": "Lieux survolés",
+      "path": [
+        "VOL AGGLO - Données opérationnelles",
+        "Lieux survolés"
+      ],
+      "kind": "text",
+      "synthetic_value": "Périmètre fictif à Paris"
+    },
+    {
+      "id": "agglo_declaration",
+      "label": "Accusé de réception déclaration ORO.DEC.100",
+      "source_page": 3,
+      "source_anchor": "Accusé de réception déclaration ORO.DEC.100",
+      "path": [
+        "VOL AGGLO - Justificatifs d’exploitation",
+        "Accusé de réception déclaration ORO.DEC.100"
+      ],
+      "kind": "text",
+      "synthetic_value": "N° fictif 001; 01/10/2026; DSAC"
+    },
+    {
+      "id": "agglo_etranger",
+      "label": "Autorisation ORO.SPO.100",
+      "source_page": 3,
+      "source_anchor": "Autorisation ORO.SPO.100",
+      "path": [
+        "VOL AGGLO - Justificatifs d’exploitation",
+        "Autorisation ORO.SPO.100"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet - aéronef communautaire"
+    },
+    {
+      "id": "agglo_haut_risque",
+      "label": "Autorisation « haut risque » ORO.SPO.110",
+      "source_page": 3,
+      "source_anchor": "Autorisation « haut risque » ORO.SPO.110",
+      "path": [
+        "VOL AGGLO - Justificatifs d’exploitation",
+        "Autorisation « haut risque » ORO.SPO.110"
+      ],
+      "kind": "text",
+      "synthetic_value": "N° fictif HR-001; 01/10/2026; DSAC"
+    },
+    {
+      "id": "agglo_map",
+      "label": "Manuel d’Activité Particulière (MAP)",
+      "source_page": 3,
+      "source_anchor": "Manuel d’Activité Particulière (MAP)",
+      "path": [
+        "VOL AGGLO - Justificatifs d’exploitation",
+        "Manuel d’Activité Particulière (MAP)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet - exploitant AIROPS"
+    },
+    {
+      "id": "agglo_checklist",
+      "label": "Les listes de vérifications et l’évaluation des risques ont été développées pour les opérations objets de cette demande",
+      "source_page": 3,
+      "source_anchor": "Les listes de vérifications et l’évaluation des risques ont été développées pour les opérations objets de cette demande",
+      "path": [
+        "VOL AGGLO - Justificatifs d’exploitation",
+        "Les listes de vérifications et l’évaluation des risques ont été développées pour les opérations objets de cette demande"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Les listes de vérifications et l’évaluation des risques ont été développées pour les opérations objets de cette demande"
+      ],
+      "options": [
+        "Les listes de vérifications et l’évaluation des risques ont été développées pour les opérations objets de cette demande"
+      ],
+      "context_evidence": "VOL AGGLO - Justificatifs d’exploitation / Les listes de vérifications et l’évaluation des risques ont été développées pour les opérations objets de cette demande : Les listes de vérifications et l’évaluation des risques ont été développées pour les opérations objets de cette demande."
+    },
+    {
+      "id": "aeronef_1_categorie",
+      "label": "Catégorie (*)",
+      "source_page": 4,
+      "source_anchor": "Catégorie (*)",
+      "path": [
+        "VOL AGGLO - Aéronefs utilisés",
+        "Aéronef 1",
+        "Catégorie (*)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Hélicoptère"
+    },
+    {
+      "id": "aeronef_1_type",
+      "label": "Type",
+      "source_page": 4,
+      "source_anchor": "Type",
+      "path": [
+        "VOL AGGLO - Aéronefs utilisés",
+        "Aéronef 1",
+        "Type"
+      ],
+      "kind": "text",
+      "synthetic_value": "Type fictif H1"
+    },
+    {
+      "id": "aeronef_1_immatriculation",
+      "label": "Immatriculation",
+      "source_page": 4,
+      "source_anchor": "Immatriculation",
+      "path": [
+        "VOL AGGLO - Aéronefs utilisés",
+        "Aéronef 1",
+        "Immatriculation"
+      ],
+      "kind": "text",
+      "synthetic_value": "F-EXMP"
+    },
+    {
+      "id": "aeronef_1_equipements",
+      "label": "Equipements (**)",
+      "source_page": 4,
+      "source_anchor": "Equipements (**)",
+      "path": [
+        "VOL AGGLO - Aéronefs utilisés",
+        "Aéronef 1",
+        "Equipements (**)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Caméra fictive"
+    },
+    {
+      "id": "aeronef_1_performance",
+      "label": "Performance assurée pour Hélico (***)",
+      "source_page": 4,
+      "source_anchor": "Performance assurée pour Hélico (***)",
+      "path": [
+        "VOL AGGLO - Aéronefs utilisés",
+        "Aéronef 1",
+        "Performance assurée pour Hélico (***)"
+      ],
+      "kind": "text",
+      "synthetic_value": "(a)"
+    },
+    {
+      "id": "aeronef_2_categorie",
+      "label": "Catégorie (*)",
+      "source_page": 4,
+      "source_anchor": "Catégorie (*)",
+      "path": [
+        "VOL AGGLO - Aéronefs utilisés",
+        "Aéronef 2",
+        "Catégorie (*)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef_2_type",
+      "label": "Type",
+      "source_page": 4,
+      "source_anchor": "Type",
+      "path": [
+        "VOL AGGLO - Aéronefs utilisés",
+        "Aéronef 2",
+        "Type"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef_2_immatriculation",
+      "label": "Immatriculation",
+      "source_page": 4,
+      "source_anchor": "Immatriculation",
+      "path": [
+        "VOL AGGLO - Aéronefs utilisés",
+        "Aéronef 2",
+        "Immatriculation"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef_2_equipements",
+      "label": "Equipements (**)",
+      "source_page": 4,
+      "source_anchor": "Equipements (**)",
+      "path": [
+        "VOL AGGLO - Aéronefs utilisés",
+        "Aéronef 2",
+        "Equipements (**)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef_2_performance",
+      "label": "Performance assurée pour Hélico (***)",
+      "source_page": 4,
+      "source_anchor": "Performance assurée pour Hélico (***)",
+      "path": [
+        "VOL AGGLO - Aéronefs utilisés",
+        "Aéronef 2",
+        "Performance assurée pour Hélico (***)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef_3_categorie",
+      "label": "Catégorie (*)",
+      "source_page": 4,
+      "source_anchor": "Catégorie (*)",
+      "path": [
+        "VOL AGGLO - Aéronefs utilisés",
+        "Aéronef 3",
+        "Catégorie (*)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef_3_type",
+      "label": "Type",
+      "source_page": 4,
+      "source_anchor": "Type",
+      "path": [
+        "VOL AGGLO - Aéronefs utilisés",
+        "Aéronef 3",
+        "Type"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef_3_immatriculation",
+      "label": "Immatriculation",
+      "source_page": 4,
+      "source_anchor": "Immatriculation",
+      "path": [
+        "VOL AGGLO - Aéronefs utilisés",
+        "Aéronef 3",
+        "Immatriculation"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef_3_equipements",
+      "label": "Equipements (**)",
+      "source_page": 4,
+      "source_anchor": "Equipements (**)",
+      "path": [
+        "VOL AGGLO - Aéronefs utilisés",
+        "Aéronef 3",
+        "Equipements (**)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef_3_performance",
+      "label": "Performance assurée pour Hélico (***)",
+      "source_page": 4,
+      "source_anchor": "Performance assurée pour Hélico (***)",
+      "path": [
+        "VOL AGGLO - Aéronefs utilisés",
+        "Aéronef 3",
+        "Performance assurée pour Hélico (***)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef_4_categorie",
+      "label": "Catégorie (*)",
+      "source_page": 4,
+      "source_anchor": "Catégorie (*)",
+      "path": [
+        "VOL AGGLO - Aéronefs utilisés",
+        "Aéronef 4",
+        "Catégorie (*)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef_4_type",
+      "label": "Type",
+      "source_page": 4,
+      "source_anchor": "Type",
+      "path": [
+        "VOL AGGLO - Aéronefs utilisés",
+        "Aéronef 4",
+        "Type"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef_4_immatriculation",
+      "label": "Immatriculation",
+      "source_page": 4,
+      "source_anchor": "Immatriculation",
+      "path": [
+        "VOL AGGLO - Aéronefs utilisés",
+        "Aéronef 4",
+        "Immatriculation"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef_4_equipements",
+      "label": "Equipements (**)",
+      "source_page": 4,
+      "source_anchor": "Equipements (**)",
+      "path": [
+        "VOL AGGLO - Aéronefs utilisés",
+        "Aéronef 4",
+        "Equipements (**)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef_4_performance",
+      "label": "Performance assurée pour Hélico (***)",
+      "source_page": 4,
+      "source_anchor": "Performance assurée pour Hélico (***)",
+      "path": [
+        "VOL AGGLO - Aéronefs utilisés",
+        "Aéronef 4",
+        "Performance assurée pour Hélico (***)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef_5_categorie",
+      "label": "Catégorie (*)",
+      "source_page": 4,
+      "source_anchor": "Catégorie (*)",
+      "path": [
+        "VOL AGGLO - Aéronefs utilisés",
+        "Aéronef 5",
+        "Catégorie (*)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef_5_type",
+      "label": "Type",
+      "source_page": 4,
+      "source_anchor": "Type",
+      "path": [
+        "VOL AGGLO - Aéronefs utilisés",
+        "Aéronef 5",
+        "Type"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef_5_immatriculation",
+      "label": "Immatriculation",
+      "source_page": 4,
+      "source_anchor": "Immatriculation",
+      "path": [
+        "VOL AGGLO - Aéronefs utilisés",
+        "Aéronef 5",
+        "Immatriculation"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef_5_equipements",
+      "label": "Equipements (**)",
+      "source_page": 4,
+      "source_anchor": "Equipements (**)",
+      "path": [
+        "VOL AGGLO - Aéronefs utilisés",
+        "Aéronef 5",
+        "Equipements (**)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "aeronef_5_performance",
+      "label": "Performance assurée pour Hélico (***)",
+      "source_page": 4,
+      "source_anchor": "Performance assurée pour Hélico (***)",
+      "path": [
+        "VOL AGGLO - Aéronefs utilisés",
+        "Aéronef 5",
+        "Performance assurée pour Hélico (***)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "equipage_1_nom",
+      "label": "Nom - prénom",
+      "source_page": 4,
+      "source_anchor": "Nom - prénom",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 1",
+        "Nom - prénom"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille Martin"
+    },
+    {
+      "id": "equipage_1_licence",
+      "label": "Licence/Qualif",
+      "source_page": 4,
+      "source_anchor": "Licence/Qualif",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 1",
+        "Licence/Qualif"
+      ],
+      "kind": "text",
+      "synthetic_value": "CPL(H) fictive"
+    },
+    {
+      "id": "equipage_1_numero",
+      "label": "N° de licence",
+      "source_page": 4,
+      "source_anchor": "N° de licence",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 1",
+        "N° de licence"
+      ],
+      "kind": "text",
+      "synthetic_value": "LIC-001"
+    },
+    {
+      "id": "equipage_1_dnc",
+      "label": "Réf DNC",
+      "source_page": 4,
+      "source_anchor": "Réf DNC",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 1",
+        "Réf DNC"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "equipage_1_fonction",
+      "label": "Fonction",
+      "source_page": 4,
+      "source_anchor": "Fonction",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 1",
+        "Fonction"
+      ],
+      "kind": "text",
+      "synthetic_value": "Pilote"
+    },
+    {
+      "id": "equipage_2_nom",
+      "label": "Nom - prénom",
+      "source_page": 4,
+      "source_anchor": "Nom - prénom",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 2",
+        "Nom - prénom"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "equipage_2_licence",
+      "label": "Licence/Qualif",
+      "source_page": 4,
+      "source_anchor": "Licence/Qualif",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 2",
+        "Licence/Qualif"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "equipage_2_numero",
+      "label": "N° de licence",
+      "source_page": 4,
+      "source_anchor": "N° de licence",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 2",
+        "N° de licence"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "equipage_2_dnc",
+      "label": "Réf DNC",
+      "source_page": 4,
+      "source_anchor": "Réf DNC",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 2",
+        "Réf DNC"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "equipage_2_fonction",
+      "label": "Fonction",
+      "source_page": 4,
+      "source_anchor": "Fonction",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 2",
+        "Fonction"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "equipage_3_nom",
+      "label": "Nom - prénom",
+      "source_page": 4,
+      "source_anchor": "Nom - prénom",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 3",
+        "Nom - prénom"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "equipage_3_licence",
+      "label": "Licence/Qualif",
+      "source_page": 4,
+      "source_anchor": "Licence/Qualif",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 3",
+        "Licence/Qualif"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "equipage_3_numero",
+      "label": "N° de licence",
+      "source_page": 4,
+      "source_anchor": "N° de licence",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 3",
+        "N° de licence"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "equipage_3_dnc",
+      "label": "Réf DNC",
+      "source_page": 4,
+      "source_anchor": "Réf DNC",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 3",
+        "Réf DNC"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "equipage_3_fonction",
+      "label": "Fonction",
+      "source_page": 4,
+      "source_anchor": "Fonction",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 3",
+        "Fonction"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "equipage_4_nom",
+      "label": "Nom - prénom",
+      "source_page": 4,
+      "source_anchor": "Nom - prénom",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 4",
+        "Nom - prénom"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "equipage_4_licence",
+      "label": "Licence/Qualif",
+      "source_page": 4,
+      "source_anchor": "Licence/Qualif",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 4",
+        "Licence/Qualif"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "equipage_4_numero",
+      "label": "N° de licence",
+      "source_page": 4,
+      "source_anchor": "N° de licence",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 4",
+        "N° de licence"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "equipage_4_dnc",
+      "label": "Réf DNC",
+      "source_page": 4,
+      "source_anchor": "Réf DNC",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 4",
+        "Réf DNC"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "equipage_4_fonction",
+      "label": "Fonction",
+      "source_page": 4,
+      "source_anchor": "Fonction",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 4",
+        "Fonction"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "equipage_5_nom",
+      "label": "Nom - prénom",
+      "source_page": 4,
+      "source_anchor": "Nom - prénom",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 5",
+        "Nom - prénom"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "equipage_5_licence",
+      "label": "Licence/Qualif",
+      "source_page": 4,
+      "source_anchor": "Licence/Qualif",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 5",
+        "Licence/Qualif"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "equipage_5_numero",
+      "label": "N° de licence",
+      "source_page": 4,
+      "source_anchor": "N° de licence",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 5",
+        "N° de licence"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "equipage_5_dnc",
+      "label": "Réf DNC",
+      "source_page": 4,
+      "source_anchor": "Réf DNC",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 5",
+        "Réf DNC"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "equipage_5_fonction",
+      "label": "Fonction",
+      "source_page": 4,
+      "source_anchor": "Fonction",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 5",
+        "Fonction"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "equipage_6_nom",
+      "label": "Nom - prénom",
+      "source_page": 4,
+      "source_anchor": "Nom - prénom",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 6",
+        "Nom - prénom"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "equipage_6_licence",
+      "label": "Licence/Qualif",
+      "source_page": 4,
+      "source_anchor": "Licence/Qualif",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 6",
+        "Licence/Qualif"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "equipage_6_numero",
+      "label": "N° de licence",
+      "source_page": 4,
+      "source_anchor": "N° de licence",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 6",
+        "N° de licence"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "equipage_6_dnc",
+      "label": "Réf DNC",
+      "source_page": 4,
+      "source_anchor": "Réf DNC",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 6",
+        "Réf DNC"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "equipage_6_fonction",
+      "label": "Fonction",
+      "source_page": 4,
+      "source_anchor": "Fonction",
+      "path": [
+        "VOL AGGLO - Pilotes et autres membres d’équipage",
+        "Membre 6",
+        "Fonction"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "lieu_situation",
+      "label": "Situation, Tracé ou périmètre",
+      "source_page": 4,
+      "source_anchor": "Situation, Tracé ou périmètre",
+      "path": [
+        "VOL AGGLO - Lieux survolés",
+        "Situation, Tracé ou périmètre"
+      ],
+      "kind": "text",
+      "synthetic_value": "Périmètre fictif de 1 km"
+    },
+    {
+      "id": "lieu_communes",
+      "label": "Commune(s) survolée(s)",
+      "source_page": 4,
+      "source_anchor": "Commune(s) survolée(s)",
+      "path": [
+        "VOL AGGLO - Lieux survolés",
+        "Commune(s) survolée(s)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "lieu_niveau",
+      "label": "Niveau minimal sollicité (AGL ou AMSL)",
+      "source_page": 4,
+      "source_anchor": "Niveau minimal sollicité (AGL ou AMSL)",
+      "path": [
+        "VOL AGGLO - Lieux survolés",
+        "Niveau minimal sollicité (AGL ou AMSL)"
+      ],
+      "kind": "text",
+      "synthetic_value": "120 m AGL"
+    },
+    {
+      "id": "lieu_altitude",
+      "label": "Altitude NGF moyenne",
+      "source_page": 4,
+      "source_anchor": "Altitude NGF moyenne",
+      "path": [
+        "VOL AGGLO - Lieux survolés",
+        "Altitude NGF moyenne"
+      ],
+      "kind": "text",
+      "synthetic_value": "50 m"
+    },
+    {
+      "id": "aerodrome",
+      "label": "Aérodrome (ou autre emplacement) de départ et d’arrivée",
+      "source_page": 4,
+      "source_anchor": "Aérodrome (ou autre emplacement) de départ et d’arrivée",
+      "path": [
+        "Itinéraire proposé",
+        "Aérodrome (ou autre emplacement) de départ et d’arrivée"
+      ],
+      "kind": "text",
+      "synthetic_value": "Aérodrome fictif de départ et d'arrivée"
+    },
+    {
+      "id": "itineraire",
+      "label": "Itinéraire pour rejoindre et quitter le(s) site(s) à survoler",
+      "source_page": 4,
+      "source_anchor": "Itinéraire pour rejoindre et quitter le(s) site(s) à survoler",
+      "path": [
+        "Itinéraire proposé",
+        "Itinéraire pour rejoindre et quitter le(s) site(s) à survoler"
+      ],
+      "kind": "text",
+      "synthetic_value": "Tracé fictif avec aire de recueil indiquée sur carte"
+    },
+    {
+      "id": "stationnaire",
+      "label": "Le vol est stationnaire, lent ou vertical",
+      "source_page": 5,
+      "source_anchor": "Le vol est stationnaire, lent ou vertical",
+      "path": [
+        "Conditions particulières et faisabilité",
+        "Le vol est stationnaire, lent ou vertical"
+      ],
+      "kind": "text",
+      "synthetic_value": "Non"
+    },
+    {
+      "id": "precautions",
+      "label": "Précisez, motiver, et indiquer les précautions prises pour assurer la sécurité des vols",
+      "source_page": 5,
+      "source_anchor": "Précisez, motiver, et indiquer les précautions prises pour assurer la sécurité des vols",
+      "path": [
+        "Conditions particulières et faisabilité",
+        "Précisez, motiver, et indiquer les précautions prises pour assurer la sécurité des vols"
+      ],
+      "kind": "text",
+      "synthetic_value": "Procédure fictive de limitation du risque au sol."
+    },
+    {
+      "id": "panne",
+      "label": "En cas de panne moteur les conditions d’exploitation permettent-elles de continuer le vol",
+      "source_page": 5,
+      "source_anchor": "En cas de panne moteur les conditions d’exploitation permettent-elles de continuer le vol",
+      "path": [
+        "Conditions particulières et faisabilité",
+        "En cas de panne moteur les conditions d’exploitation permettent-elles de continuer le vol"
+      ],
+      "kind": "text",
+      "synthetic_value": "Oui, selon étude fictive."
+    },
+    {
+      "id": "etude",
+      "label": "Référence étude",
+      "source_page": 5,
+      "source_anchor": "Référence étude",
+      "path": [
+        "Conditions particulières et faisabilité",
+        "Référence étude"
+      ],
+      "kind": "text",
+      "synthetic_value": "Étude fictive de performance E-001, masse maximale 2 100 kg"
+    },
+    {
+      "id": "aires",
+      "label": "Si non, fournir une carte faisant apparaitre les aires de recueil",
+      "source_page": 5,
+      "source_anchor": "Si non, fournir une carte faisant apparaitre les aires de recueil",
+      "path": [
+        "Conditions particulières et faisabilité",
+        "Si non, fournir une carte faisant apparaitre les aires de recueil"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet - étude fictive positive"
+    },
+    {
+      "id": "observations",
+      "label": "Autres observations",
+      "source_page": 5,
+      "source_anchor": "Autres observations",
+      "path": [
+        "Conditions particulières et faisabilité",
+        "Autres observations"
+      ],
+      "kind": "text",
+      "synthetic_value": "Aucune"
+    },
+    {
+      "id": "rasant_operations",
+      "label": "Opérations prévues",
+      "source_page": 6,
+      "source_anchor": "Opérations prévues",
+      "path": [
+        "VOL RASANT - Données opérationnelles",
+        "Opérations prévues"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet - demande VOL AGGLO"
+    },
+    {
+      "id": "rasant_regime",
+      "label": "Régime du vol (VFR Jour ou Nuit)",
+      "source_page": 6,
+      "source_anchor": "Régime du vol (VFR Jour ou Nuit)",
+      "path": [
+        "VOL RASANT - Données opérationnelles",
+        "Régime du vol (VFR Jour ou Nuit)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "rasant_hauteur",
+      "label": "Hauteur minimale AGL",
+      "source_page": 6,
+      "source_anchor": "Hauteur minimale AGL",
+      "path": [
+        "VOL RASANT - Données opérationnelles",
+        "Hauteur minimale AGL"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "rasant_date",
+      "label": "Date des vols ou durée vols",
+      "source_page": 6,
+      "source_anchor": "Date des vols ou durée vols",
+      "path": [
+        "VOL RASANT - Données opérationnelles",
+        "Date des vols ou durée vols"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "rasant_portee",
+      "label": "Portée de l’autorisation",
+      "source_page": 6,
+      "source_anchor": "Portée de l’autorisation",
+      "path": [
+        "VOL RASANT - Données opérationnelles",
+        "Portée de l’autorisation"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "rasant_declaration",
+      "label": "Accusé de réception déclaration ORO.DEC.100",
+      "source_page": 6,
+      "source_anchor": "Accusé de réception déclaration ORO.DEC.100",
+      "path": [
+        "VOL RASANT - Données opérationnelles",
+        "Accusé de réception déclaration ORO.DEC.100"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "rasant_etranger",
+      "label": "Autorisation ORO.SPO.100",
+      "source_page": 6,
+      "source_anchor": "Autorisation ORO.SPO.100",
+      "path": [
+        "VOL RASANT - Données opérationnelles",
+        "Autorisation ORO.SPO.100"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "rasant_haut_risque",
+      "label": "Autorisation « haut risque » ORO.SPO.110",
+      "source_page": 6,
+      "source_anchor": "Autorisation « haut risque » ORO.SPO.110",
+      "path": [
+        "VOL RASANT - Données opérationnelles",
+        "Autorisation « haut risque » ORO.SPO.110"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "rasant_map",
+      "label": "Manuel d’Activité Particulière (MAP)",
+      "source_page": 6,
+      "source_anchor": "Manuel d’Activité Particulière (MAP)",
+      "path": [
+        "VOL RASANT - Données opérationnelles",
+        "Manuel d’Activité Particulière (MAP)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "rasant_checklist",
+      "label": "Les listes de vérifications et l’évaluation des risques ont été développées pour les opérations objets de cette demande",
+      "source_page": 6,
+      "source_anchor": "Les listes de vérifications et l’évaluation des risques ont été développées pour les opérations objets de cette demande",
+      "path": [
+        "VOL RASANT - Données opérationnelles",
+        "Les listes de vérifications et l’évaluation des risques ont été développées pour les opérations objets de cette demande"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Les listes de vérifications et l’évaluation des risques ont été développées pour les opérations objets de cette demande"
+      ],
+      "options": [
+        "Les listes de vérifications et l’évaluation des risques ont été développées pour les opérations objets de cette demande"
+      ],
+      "context_evidence": "VOL RASANT - Données opérationnelles / Les listes de vérifications et l’évaluation des risques ont été développées pour les opérations objets de cette demande : Les listes de vérifications et l’évaluation des risques ont été développées pour les opérations objets de cette demande."
+    },
+    {
+      "id": "rasant_securite",
+      "label": "Une étude de sécurité a été développée pour les opérations objets de cette demande",
+      "source_page": 6,
+      "source_anchor": "Une étude de sécurité a été développée pour les opérations objets de cette demande",
+      "path": [
+        "VOL RASANT - Données opérationnelles",
+        "Une étude de sécurité a été développée pour les opérations objets de cette demande"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Une étude de sécurité a été développée pour les opérations objets de cette demande"
+      ],
+      "options": [
+        "Une étude de sécurité a été développée pour les opérations objets de cette demande"
+      ],
+      "context_evidence": "VOL RASANT - Données opérationnelles / Une étude de sécurité a été développée pour les opérations objets de cette demande : Une étude de sécurité a été développée pour les opérations objets de cette demande."
+    },
+    {
+      "id": "certification",
+      "label": "Je certifie sur l’honneur l’exactitude des renseignements fournis",
+      "source_page": 7,
+      "source_anchor": "Je certifie sur l’honneur l’exactitude des renseignements fournis",
+      "path": [
+        "Déclaration et signature",
+        "Je certifie sur l’honneur l’exactitude des renseignements fournis"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Je certifie sur l’honneur l’exactitude des renseignements fournis"
+      ],
+      "options": [
+        "Je certifie sur l’honneur l’exactitude des renseignements fournis"
+      ],
+      "context_evidence": "Déclaration et signature / Je certifie sur l’honneur l’exactitude des renseignements fournis : Je certifie sur l’honneur l’exactitude des renseignements fournis."
+    },
+    {
+      "id": "fait_a",
+      "label": "Fait à",
+      "source_page": 7,
+      "source_anchor": "Fait à",
+      "path": [
+        "Déclaration et signature",
+        "Fait à"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "fait_le",
+      "label": "Le",
+      "source_page": 7,
+      "source_anchor": "Le",
+      "path": [
+        "Déclaration et signature",
+        "Le"
+      ],
+      "kind": "text",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "signature",
+      "label": "Signature du demandeur",
+      "source_page": 7,
+      "source_anchor": "Signature du demandeur",
+      "path": [
+        "Déclaration et signature",
+        "Signature du demandeur"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille Martin (signature fictive)"
+    }
+  ],
+  "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/Demande_autorisation_survol_travail_aerien_R5-AUT-VOL-F1-V10_03-06-2026.pdf",
+  "landing_url": "https://www.ecologie.gouv.fr/politiques-publiques/guides-exploitants-daeronefs",
+  "license_url": "https://www.ecologie.gouv.fr/mentions-legales",
+  "license_note": "Ecologie legal notice applies Etalab 2.0 to site content absent a third-party rights notice; source and known last-update date must be attributed. Ministry-authored form text only.",
+  "source_sha256": "30999ae3ce7871ed08c4dcb9242bd0ccba647b87bfa59bda78c680e36daebdc0",
+  "retrieved_at": "2026-10-04T18:08:57.413979+00:00",
+  "source_version": "R5-AUT-VOL-F1 V10",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "kind": "printed_document_date_or_version",
+    "value": "R5-AUT-VOL-F1 V10",
+    "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/Demande_autorisation_survol_travail_aerien_R5-AUT-VOL-F1-V10_03-06-2026.pdf",
+    "detail": "Printed document evidence; not a website update claim."
+  },
+  "context": "Dossier fictif à des fins d'évaluation, sans identité réelle ni dépôt administratif.\nCadre réservé à l’administration - R5-AUT-VOL-F1 V10 / Date de réception : 05/10/2026.\nCadre réservé à l’administration - R5-AUT-VOL-F1 V10 / Numéro d'enregistrement : DOSSIER-FICTIF-001.\nInformations et coordonnées de l’exploitant / Nom officiel : Aéro Exemple.\nInformations et coordonnées de l’exploitant / Raison sociale : Aéro Exemple SAS.\nInformations et coordonnées de l’exploitant / N° voie : 12.\nInformations et coordonnées de l’exploitant / Extension : Sans objet.\nInformations et coordonnées de l’exploitant / Boite postale : Sans objet.\nInformations et coordonnées de l’exploitant / Nom de voie : rue Exemple.\nInformations et coordonnées de l’exploitant / Code postal : 75012.\nInformations et coordonnées de l’exploitant / Localité : Paris.\nInformations et coordonnées de l’exploitant / N° de téléphone : 01 00 00 00 01.\nInformations et coordonnées de l’exploitant / N° de télécopie : Sans objet.\nInformations et coordonnées de l’exploitant / Adresse électronique : contact@example.invalid.\nNature de la demande d’autorisation / Demande d’autorisation de survol au-dessus des zones à fortes densité : VOL AGGLO.\nType d’exploitation et opérations / L’exploitation est soumise à la règlementation européenne opérationnelle : Oui.\nType d’exploitation et opérations / Les opérations correspondent à l’une au moins des opérations listées en page 2 : Oui.\nInformations et coordonnées du donneur d’ordre / Nom officiel : Collectivité Exemple.\nInformations et coordonnées du donneur d’ordre / Raison sociale : Collectivité Exemple.\nInformations et coordonnées du donneur d’ordre / N° voie : 20.\nInformations et coordonnées du donneur d’ordre / Extension : Sans objet.\nInformations et coordonnées du donneur d’ordre / Boite postale : Sans objet.\nInformations et coordonnées du donneur d’ordre / Nom de voie : avenue Exemple.\nInformations et coordonnées du donneur d’ordre / Code postal : 75013.\nInformations et coordonnées du donneur d’ordre / Localité : Paris.\nInformations et coordonnées du donneur d’ordre / N° de téléphone : 01 00 00 00 02.\nInformations et coordonnées du donneur d’ordre / N° de télécopie : Sans objet.\nInformations et coordonnées du donneur d’ordre / Adresse électronique : ordre@example.invalid.\nVOL AGGLO - Données opérationnelles / Opérations prévues : Prise de vues fictive.\nVOL AGGLO - Données opérationnelles / Régime du vol (VFR Jour ou Nuit) : VFR Jour.\nVOL AGGLO - Données opérationnelles / Hauteur minimale AGL : 120 m.\nVOL AGGLO - Données opérationnelles / Date des vols ou durée vols : 15/10/2026.\nVOL AGGLO - Données opérationnelles / Département(s) : 75.\nVOL AGGLO - Données opérationnelles / Lieux survolés : Périmètre fictif à Paris.\nVOL AGGLO - Justificatifs d’exploitation / Accusé de réception déclaration ORO.DEC.100 : N° fictif 001; 01/10/2026; DSAC.\nVOL AGGLO - Justificatifs d’exploitation / Autorisation ORO.SPO.100 : Sans objet - aéronef communautaire.\nVOL AGGLO - Justificatifs d’exploitation / Autorisation « haut risque » ORO.SPO.110 : N° fictif HR-001; 01/10/2026; DSAC.\nVOL AGGLO - Justificatifs d’exploitation / Manuel d’Activité Particulière (MAP) : Sans objet - exploitant AIROPS.\nVOL AGGLO - Justificatifs d’exploitation / Les listes de vérifications et l’évaluation des risques ont été développées pour les opérations objets de cette demande : Les listes de vérifications et l’évaluation des risques ont été développées pour les opérations objets de cette demande.\nVOL AGGLO - Aéronefs utilisés / Aéronef 1 / Catégorie (*) : Hélicoptère.\nVOL AGGLO - Aéronefs utilisés / Aéronef 1 / Type : Type fictif H1.\nVOL AGGLO - Aéronefs utilisés / Aéronef 1 / Immatriculation : F-EXMP.\nVOL AGGLO - Aéronefs utilisés / Aéronef 1 / Equipements (**) : Caméra fictive.\nVOL AGGLO - Aéronefs utilisés / Aéronef 1 / Performance assurée pour Hélico (***) : (a).\nVOL AGGLO - Aéronefs utilisés / Aéronef 2 / Catégorie (*) : Sans objet.\nVOL AGGLO - Aéronefs utilisés / Aéronef 2 / Type : Sans objet.\nVOL AGGLO - Aéronefs utilisés / Aéronef 2 / Immatriculation : Sans objet.\nVOL AGGLO - Aéronefs utilisés / Aéronef 2 / Equipements (**) : Sans objet.\nVOL AGGLO - Aéronefs utilisés / Aéronef 2 / Performance assurée pour Hélico (***) : Sans objet.\nVOL AGGLO - Aéronefs utilisés / Aéronef 3 / Catégorie (*) : Sans objet.\nVOL AGGLO - Aéronefs utilisés / Aéronef 3 / Type : Sans objet.\nVOL AGGLO - Aéronefs utilisés / Aéronef 3 / Immatriculation : Sans objet.\nVOL AGGLO - Aéronefs utilisés / Aéronef 3 / Equipements (**) : Sans objet.\nVOL AGGLO - Aéronefs utilisés / Aéronef 3 / Performance assurée pour Hélico (***) : Sans objet.\nVOL AGGLO - Aéronefs utilisés / Aéronef 4 / Catégorie (*) : Sans objet.\nVOL AGGLO - Aéronefs utilisés / Aéronef 4 / Type : Sans objet.\nVOL AGGLO - Aéronefs utilisés / Aéronef 4 / Immatriculation : Sans objet.\nVOL AGGLO - Aéronefs utilisés / Aéronef 4 / Equipements (**) : Sans objet.\nVOL AGGLO - Aéronefs utilisés / Aéronef 4 / Performance assurée pour Hélico (***) : Sans objet.\nVOL AGGLO - Aéronefs utilisés / Aéronef 5 / Catégorie (*) : Sans objet.\nVOL AGGLO - Aéronefs utilisés / Aéronef 5 / Type : Sans objet.\nVOL AGGLO - Aéronefs utilisés / Aéronef 5 / Immatriculation : Sans objet.\nVOL AGGLO - Aéronefs utilisés / Aéronef 5 / Equipements (**) : Sans objet.\nVOL AGGLO - Aéronefs utilisés / Aéronef 5 / Performance assurée pour Hélico (***) : Sans objet.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 1 / Nom - prénom : Camille Martin.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 1 / Licence/Qualif : CPL(H) fictive.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 1 / N° de licence : LIC-001.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 1 / Réf DNC : Sans objet.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 1 / Fonction : Pilote.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 2 / Nom - prénom : Sans objet.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 2 / Licence/Qualif : Sans objet.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 2 / N° de licence : Sans objet.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 2 / Réf DNC : Sans objet.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 2 / Fonction : Sans objet.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 3 / Nom - prénom : Sans objet.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 3 / Licence/Qualif : Sans objet.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 3 / N° de licence : Sans objet.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 3 / Réf DNC : Sans objet.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 3 / Fonction : Sans objet.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 4 / Nom - prénom : Sans objet.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 4 / Licence/Qualif : Sans objet.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 4 / N° de licence : Sans objet.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 4 / Réf DNC : Sans objet.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 4 / Fonction : Sans objet.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 5 / Nom - prénom : Sans objet.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 5 / Licence/Qualif : Sans objet.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 5 / N° de licence : Sans objet.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 5 / Réf DNC : Sans objet.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 5 / Fonction : Sans objet.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 6 / Nom - prénom : Sans objet.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 6 / Licence/Qualif : Sans objet.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 6 / N° de licence : Sans objet.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 6 / Réf DNC : Sans objet.\nVOL AGGLO - Pilotes et autres membres d’équipage / Membre 6 / Fonction : Sans objet.\nVOL AGGLO - Lieux survolés / Situation, Tracé ou périmètre : Périmètre fictif de 1 km.\nVOL AGGLO - Lieux survolés / Commune(s) survolée(s) : Paris.\nVOL AGGLO - Lieux survolés / Niveau minimal sollicité (AGL ou AMSL) : 120 m AGL.\nVOL AGGLO - Lieux survolés / Altitude NGF moyenne : 50 m.\nItinéraire proposé / Aérodrome (ou autre emplacement) de départ et d’arrivée : Aérodrome fictif de départ et d'arrivée.\nItinéraire proposé / Itinéraire pour rejoindre et quitter le(s) site(s) à survoler : Tracé fictif avec aire de recueil indiquée sur carte.\nConditions particulières et faisabilité / Le vol est stationnaire, lent ou vertical : Non.\nConditions particulières et faisabilité / Précisez, motiver, et indiquer les précautions prises pour assurer la sécurité des vols : Procédure fictive de limitation du risque au sol..\nConditions particulières et faisabilité / En cas de panne moteur les conditions d’exploitation permettent-elles de continuer le vol : Oui, selon étude fictive..\nConditions particulières et faisabilité / Référence étude : Étude fictive de performance E-001, masse maximale 2 100 kg.\nConditions particulières et faisabilité / Si non, fournir une carte faisant apparaitre les aires de recueil : Sans objet - étude fictive positive.\nConditions particulières et faisabilité / Autres observations : Aucune.\nVOL RASANT - Données opérationnelles / Opérations prévues : Sans objet - demande VOL AGGLO.\nVOL RASANT - Données opérationnelles / Régime du vol (VFR Jour ou Nuit) : Sans objet.\nVOL RASANT - Données opérationnelles / Hauteur minimale AGL : Sans objet.\nVOL RASANT - Données opérationnelles / Date des vols ou durée vols : Sans objet.\nVOL RASANT - Données opérationnelles / Portée de l’autorisation : Sans objet.\nVOL RASANT - Données opérationnelles / Accusé de réception déclaration ORO.DEC.100 : Sans objet.\nVOL RASANT - Données opérationnelles / Autorisation ORO.SPO.100 : Sans objet.\nVOL RASANT - Données opérationnelles / Autorisation « haut risque » ORO.SPO.110 : Sans objet.\nVOL RASANT - Données opérationnelles / Manuel d’Activité Particulière (MAP) : Sans objet.\nVOL RASANT - Données opérationnelles / Les listes de vérifications et l’évaluation des risques ont été développées pour les opérations objets de cette demande : Les listes de vérifications et l’évaluation des risques ont été développées pour les opérations objets de cette demande.\nVOL RASANT - Données opérationnelles / Une étude de sécurité a été développée pour les opérations objets de cette demande : Une étude de sécurité a été développée pour les opérations objets de cette demande.\nDéclaration et signature / Je certifie sur l’honneur l’exactitude des renseignements fournis : Je certifie sur l’honneur l’exactitude des renseignements fournis.\nDéclaration et signature / Fait à : Paris.\nDéclaration et signature / Le : 05/10/2026.\nDéclaration et signature / Signature du demandeur : Camille Martin (signature fictive).",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 110
+  }
+}

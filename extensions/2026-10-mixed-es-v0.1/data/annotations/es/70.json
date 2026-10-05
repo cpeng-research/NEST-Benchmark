@@ -1,0 +1,1522 @@
+{
+  "id": "es-mix-70-cnd-irradiation",
+  "language": "es",
+  "domain": "Healthcare",
+  "title": "Petición de irradiación",
+  "issuer_id": "INGESA / Centro Nacional de Dosimetria",
+  "template_family": "cnd-irradiation",
+  "source_url": "https://ingesa.sanidad.gob.es/cnd/dam/jcr:3a1d299f-dbdf-41b7-bcd8-8248f1752972/PG-03.F2-Formulario_Peticion_Irradiacion.pdf",
+  "landing_url": "https://ingesa.sanidad.gob.es/cnd/Laboratorio/Cartera-de-servicios.html",
+  "license_url": "https://ingesa.sanidad.gob.es/sns/Aviso-Legal",
+  "license_note": "Origen de los datos: INGESA. Adaptación con atribución; sin patrocinio, conservando fecha/versión e información pública aplicable.",
+  "source_sha256": "7d7aaa89f206a67cb90b23a5776bc47a8dbc55446116431ad6e30bf58b630291",
+  "source_pages": 2,
+  "source_date_evidence": {
+    "source": "pdf_page",
+    "page": 1,
+    "literal": "PG-03.F02 v.2.2",
+    "kind": "printed_form_code_and_revision",
+    "note": "No PDF metadata or URL path used as semantic date"
+  },
+  "source_version": "PG-03.F02 v.2.2",
+  "retrieved_at": "2026-10-04T16:59:10.506382+00:00",
+  "columns": 6,
+  "rows": [
+    [
+      {
+        "text": "PETICIÓN DE IRRADIACIÓN",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "PG-03.F02 v.2.2; Código de petición: (Uso interno)",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "Datos y dirección fiscal de la institución o empresa (donde se liquidará el servicio)",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f001",
+        "label": "Institución o empresa:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f002",
+        "label": "Dirección:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f003",
+        "label": "CIF:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f004",
+        "label": "Ciudad:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f005",
+        "label": "Código postal:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f006",
+        "label": "Provincia:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Código: (Uso interno)",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "Datos de la institución o empresa para la emisión del certificado (en caso de ser diferente de la fiscal)",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f007",
+        "label": "Institución o empresa:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f008",
+        "label": "Dirección:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f009",
+        "label": "Ciudad:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f010",
+        "label": "Código postal:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f011",
+        "label": "Provincia:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Datos del solicitante",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f012",
+        "label": "Nombre:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f013",
+        "label": "Cargo:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f014",
+        "label": "Teléfono:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f015",
+        "label": "Fax:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f016",
+        "label": "E-mail:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Datos del personal técnico de contacto",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f017",
+        "label": "Nombre:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f018",
+        "label": "Servicio o Departamento:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f019",
+        "label": "Cargo:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f020",
+        "label": "Teléfono:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f021",
+        "label": "Fax:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f022",
+        "label": "E-mail:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Datos del personal administrativo de contacto",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f023",
+        "label": "Nombre:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f024",
+        "label": "Servicio o Departamento:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f025",
+        "label": "Cargo:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f026",
+        "label": "Teléfono:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f027",
+        "label": "Fax:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f028",
+        "label": "E-mail:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Dosímetros a irradiar",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f029",
+        "label": "Marca:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f030",
+        "label": "Modelo o descripción:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Características de la irradiación",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "Dosis a irradiar (2): Hp(10) (mSv); Hp(0,07) (mSv); Hp(3) (mSv); Kair (mGy)",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f031",
+        "label": "Identificación de los dosímetros",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f032",
+        "label": "Código de calidad(1)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f033",
+        "label": "Hp(10)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f034",
+        "label": "Hp(0,07)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f035",
+        "label": "Hp(3)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f036",
+        "label": "Kair",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f037",
+        "label": "Identificación de los dosímetros",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f038",
+        "label": "Código de calidad(1)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f039",
+        "label": "Hp(10)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f040",
+        "label": "Hp(0,07)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f041",
+        "label": "Hp(3)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f042",
+        "label": "Kair",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f043",
+        "label": "Identificación de los dosímetros",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f044",
+        "label": "Código de calidad(1)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f045",
+        "label": "Hp(10)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f046",
+        "label": "Hp(0,07)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f047",
+        "label": "Hp(3)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f048",
+        "label": "Kair",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f049",
+        "label": "Identificación de los dosímetros",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f050",
+        "label": "Código de calidad(1)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f051",
+        "label": "Hp(10)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f052",
+        "label": "Hp(0,07)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f053",
+        "label": "Hp(3)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f054",
+        "label": "Kair",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f055",
+        "label": "Identificación de los dosímetros",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f056",
+        "label": "Código de calidad(1)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f057",
+        "label": "Hp(10)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f058",
+        "label": "Hp(0,07)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f059",
+        "label": "Hp(3)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f060",
+        "label": "Kair",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f061",
+        "label": "Identificación de los dosímetros de fondo(3):",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f062",
+        "label": "Identificación de los dosímetros de reserva(4):",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f063",
+        "label": "Fecha:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f064",
+        "label": "Sello de la institución:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f065",
+        "label": "Firmado:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f066",
+        "label": "Nombre:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(1) Especifíquese la calidad deseada teniendo en cuenta las tablas de calidades de radiación disponibles, incluidas en la página web del Laboratorio. \n(2) Elegir la magnitud a usar en cada caso. \n(3) Es necesario incluir un mínimo de dosímetros. \n(4) Es aconsejable incluirlos, aunque queda a criterio del cliente. \nEl envío de los dosímetros al Laboratorio de Metrología de Radiaciones Ionizantes del CND será realizado previa aceptación del presupuesto y en la fecha \nasignada en el mismo. \n(Uso interno) \n(Uso interno)",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "PETICIÓN DE IRRADIACIÓN - protección de datos",
+        "colspan": 6,
+        "source_page": 2,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "PETICIÓN DE \nIRRADIACIÓN \n \n \nPágina 2 de 2 \nAvda. Campanar 21  -  46009 Valencia  -  www.cnd.es \nlaboratorio.cnd@ingesa.sanidad.gob.es  -  Tel. 96 346 17 09 / 96 349 79 22 -  Fax 91 209 03 45 \n \n \nEn atención a lo dispuesto en el artículo 13 del Reglamento (UE) 2016/679 y el art. 11 de la Ley Orgánica 3/2018, de Protección \nde Datos Personales y Garantía de Derechos Digitales, le informamos que el Responsable de Tratamiento de los datos \npersonales es el Centro Nacional de Dosimetría (CND), con NIF Q4677004F. La finalidad del tratamiento es la prestación del \nservicio de calibración y/o irradiación de instrumentos, sujeto a precio público, del Laboratorio de Metrología de Radiaciones \nIonizantes del CND, así como la realización de las tareas administrativas y obligaciones fiscales derivadas. Los datos han sido \nfacilitados por usted, por su organización, por persona por usted autorizada o han sido obtenidos a través de otras fuentes \nlegitimadas. Se tratan datos personales identificativos, profesionales y aquellos necesarios para el desarrollo del servicio. Los \ndatos serán comunicados a terceros cuando así lo disponga la normativa vigente. Las bases de legitimación para el tratamiento \nde los datos contenidos en el presente formulario, y aquellos que pudieran tratarse durante el desarrollo del mismo, son; el \ncumplimiento de la prestación del servicio -artículo 6.1.b) RGPD-, el cumplimiento de una obligación legal aplicable al \nresponsable del tratamiento -artículo 6.1.c) RGPD-, y el cumplimiento de una misión realizada en interés público -artículo 6.1.e) \nRGPD-. El plazo de conservación será el establecido en la normativa de protección radiológica, de conservación de documentos \no cualquier otra de aplicación. \nDe acuerdo con la legislación vigente tiene los siguientes derechos:- Derecho a solicitar el acceso a sus datos personales.- \nDerecho a solicitar su rectificación o supresión.- Derecho a solicitar la limitación de su tratamiento- Derecho a oponerse al \ntratamiento.- Derecho a la portabilidad de los datos. Cualquier persona tiene derecho a obtener confirmación sobre si estamos \ntratando datos personales que les conciernan, o no. Las personas interesadas tienen derecho a acceder a sus datos personales, \nasí como a solicitar la rectificación de los datos inexactos o, en su caso, solicitar su supresión cuando, entre otros motivos, los \ndatos que ya no sean necesarios para los fines que fueron recogidos. En determinadas circunstancias, los interesados podrán \nsolicitar la limitación del tratamiento de sus datos, en cuyo caso únicamente los conservaremos para el ejercicio o la defensa \nde reclamaciones. Por motivos relacionados con su situación particular, los interesados podrán oponerse al tratamiento de sus \ndatos. El Responsable del fichero dejará de tratar los datos, salvo por motivos legítimos imperiosos, o el ejercicio o la defensa \nde posibles reclamaciones. Puede ponerse en contacto con el Delegado de Protección de Datos del CND en la dirección postal \nAvenida Campanar, 21, CP 46009, Valencia o bien mediante correo electrónico en el buzón dpdcnd@ingesa.sanidad.gob.es.",
+        "colspan": 6,
+        "source_page": 2,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "Fuente: INGESA / Centro Nacional de Dosimetria. Documento: Petición de irradiación. Versión o fecha propia: PG-03.F02 v.2.2. https://ingesa.sanidad.gob.es/cnd/dam/jcr:3a1d299f-dbdf-41b7-bcd8-8248f1752972/PG-03.F2-Formulario_Peticion_Irradiacion.pdf. Condiciones: https://ingesa.sanidad.gob.es/sns/Aviso-Legal. Adaptación con datos sintéticos.",
+        "colspan": 6,
+        "source_page": 2,
+        "role": "attribution"
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Institución o empresa:",
+      "path": [
+        "Datos y dirección fiscal de la institución o empresa (donde se liquidará el servicio)",
+        "Institución o empresa:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Institución o empresa:",
+      "synthetic_value": "Laboratorio Simulado Fiscal"
+    },
+    {
+      "id": "f002",
+      "label": "Dirección:",
+      "path": [
+        "Datos y dirección fiscal de la institución o empresa (donde se liquidará el servicio)",
+        "Dirección:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dirección:",
+      "synthetic_value": "Calle Ficticia 69"
+    },
+    {
+      "id": "f003",
+      "label": "CIF:",
+      "path": [
+        "Datos y dirección fiscal de la institución o empresa (donde se liquidará el servicio)",
+        "CIF:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CIF:",
+      "synthetic_value": "CIF-SIM-069"
+    },
+    {
+      "id": "f004",
+      "label": "Ciudad:",
+      "path": [
+        "Datos y dirección fiscal de la institución o empresa (donde se liquidará el servicio)",
+        "Ciudad:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Ciudad:",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f005",
+      "label": "Código postal:",
+      "path": [
+        "Datos y dirección fiscal de la institución o empresa (donde se liquidará el servicio)",
+        "Código postal:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Código postal:",
+      "synthetic_value": "46009"
+    },
+    {
+      "id": "f006",
+      "label": "Provincia:",
+      "path": [
+        "Datos y dirección fiscal de la institución o empresa (donde se liquidará el servicio)",
+        "Provincia:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Provincia:",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f007",
+      "label": "Institución o empresa:",
+      "path": [
+        "Datos de la institución o empresa para la emisión del certificado (en caso de ser diferente de la fiscal)",
+        "Institución o empresa:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Institución o empresa:",
+      "synthetic_value": "Centro Simulado de Metrología",
+      "condition": "Los datos del certificado difieren de los fiscales"
+    },
+    {
+      "id": "f008",
+      "label": "Dirección:",
+      "path": [
+        "Datos de la institución o empresa para la emisión del certificado (en caso de ser diferente de la fiscal)",
+        "Dirección:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dirección:",
+      "synthetic_value": "Avenida Inventada 70",
+      "condition": "Los datos del certificado difieren de los fiscales"
+    },
+    {
+      "id": "f009",
+      "label": "Ciudad:",
+      "path": [
+        "Datos de la institución o empresa para la emisión del certificado (en caso de ser diferente de la fiscal)",
+        "Ciudad:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Ciudad:",
+      "synthetic_value": "Valencia",
+      "condition": "Los datos del certificado difieren de los fiscales"
+    },
+    {
+      "id": "f010",
+      "label": "Código postal:",
+      "path": [
+        "Datos de la institución o empresa para la emisión del certificado (en caso de ser diferente de la fiscal)",
+        "Código postal:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Código postal:",
+      "synthetic_value": "46009",
+      "condition": "Los datos del certificado difieren de los fiscales"
+    },
+    {
+      "id": "f011",
+      "label": "Provincia:",
+      "path": [
+        "Datos de la institución o empresa para la emisión del certificado (en caso de ser diferente de la fiscal)",
+        "Provincia:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Provincia:",
+      "synthetic_value": "Valencia",
+      "condition": "Los datos del certificado difieren de los fiscales"
+    },
+    {
+      "id": "f012",
+      "label": "Nombre:",
+      "path": [
+        "Datos del solicitante",
+        "Nombre:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre:",
+      "synthetic_value": "Alba Solicitante Ficticia"
+    },
+    {
+      "id": "f013",
+      "label": "Cargo:",
+      "path": [
+        "Datos del solicitante",
+        "Cargo:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cargo:",
+      "synthetic_value": "Jefa de laboratorio"
+    },
+    {
+      "id": "f014",
+      "label": "Teléfono:",
+      "path": [
+        "Datos del solicitante",
+        "Teléfono:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Teléfono:",
+      "synthetic_value": "000 000 069"
+    },
+    {
+      "id": "f015",
+      "label": "Fax:",
+      "path": [
+        "Datos del solicitante",
+        "Fax:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fax:",
+      "synthetic_value": "000 000 072"
+    },
+    {
+      "id": "f016",
+      "label": "E-mail:",
+      "path": [
+        "Datos del solicitante",
+        "E-mail:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "E-mail:",
+      "synthetic_value": "solicitante69@example.invalid"
+    },
+    {
+      "id": "f017",
+      "label": "Nombre:",
+      "path": [
+        "Datos del personal técnico de contacto",
+        "Nombre:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre:",
+      "synthetic_value": "Berta Técnica Ficticia"
+    },
+    {
+      "id": "f018",
+      "label": "Servicio o Departamento:",
+      "path": [
+        "Datos del personal técnico de contacto",
+        "Servicio o Departamento:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Servicio o Departamento:",
+      "synthetic_value": "Metrología"
+    },
+    {
+      "id": "f019",
+      "label": "Cargo:",
+      "path": [
+        "Datos del personal técnico de contacto",
+        "Cargo:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cargo:",
+      "synthetic_value": "Técnica"
+    },
+    {
+      "id": "f020",
+      "label": "Teléfono:",
+      "path": [
+        "Datos del personal técnico de contacto",
+        "Teléfono:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Teléfono:",
+      "synthetic_value": "000 000 070"
+    },
+    {
+      "id": "f021",
+      "label": "Fax:",
+      "path": [
+        "Datos del personal técnico de contacto",
+        "Fax:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fax:",
+      "synthetic_value": "000 000 072"
+    },
+    {
+      "id": "f022",
+      "label": "E-mail:",
+      "path": [
+        "Datos del personal técnico de contacto",
+        "E-mail:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "E-mail:",
+      "synthetic_value": "tecnica69@example.invalid"
+    },
+    {
+      "id": "f023",
+      "label": "Nombre:",
+      "path": [
+        "Datos del personal administrativo de contacto",
+        "Nombre:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre:",
+      "synthetic_value": "Carlos Administrativo Ficticio"
+    },
+    {
+      "id": "f024",
+      "label": "Servicio o Departamento:",
+      "path": [
+        "Datos del personal administrativo de contacto",
+        "Servicio o Departamento:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Servicio o Departamento:",
+      "synthetic_value": "Administración"
+    },
+    {
+      "id": "f025",
+      "label": "Cargo:",
+      "path": [
+        "Datos del personal administrativo de contacto",
+        "Cargo:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cargo:",
+      "synthetic_value": "Gestor"
+    },
+    {
+      "id": "f026",
+      "label": "Teléfono:",
+      "path": [
+        "Datos del personal administrativo de contacto",
+        "Teléfono:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Teléfono:",
+      "synthetic_value": "000 000 071"
+    },
+    {
+      "id": "f027",
+      "label": "Fax:",
+      "path": [
+        "Datos del personal administrativo de contacto",
+        "Fax:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fax:",
+      "synthetic_value": "000 000 072"
+    },
+    {
+      "id": "f028",
+      "label": "E-mail:",
+      "path": [
+        "Datos del personal administrativo de contacto",
+        "E-mail:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "E-mail:",
+      "synthetic_value": "administracion69@example.invalid"
+    },
+    {
+      "id": "f029",
+      "label": "Marca:",
+      "path": [
+        "Dosímetros a irradiar",
+        "Marca:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Marca:",
+      "synthetic_value": "Dosímetro Marca Ficticia"
+    },
+    {
+      "id": "f030",
+      "label": "Modelo o descripción:",
+      "path": [
+        "Dosímetros a irradiar",
+        "Modelo o descripción:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Modelo o descripción:",
+      "synthetic_value": "Modelo SIM-IRR-70"
+    },
+    {
+      "id": "f031",
+      "label": "Identificación de los dosímetros",
+      "path": [
+        "Características de la irradiación",
+        "Fila 1",
+        "Identificación"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Identificación de los dosímetros",
+      "synthetic_value": "DOS-SIM-01"
+    },
+    {
+      "id": "f032",
+      "label": "Código de calidad(1)",
+      "path": [
+        "Características de la irradiación",
+        "Fila 1",
+        "Código de calidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Código de calidad(1)",
+      "synthetic_value": "CAL-SIM-01"
+    },
+    {
+      "id": "f033",
+      "label": "Hp(10)",
+      "path": [
+        "Características de la irradiación",
+        "Fila 1",
+        "Hp(10)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Hp(10)",
+      "synthetic_value": "1.0"
+    },
+    {
+      "id": "f034",
+      "label": "Hp(0,07)",
+      "path": [
+        "Características de la irradiación",
+        "Fila 1",
+        "Hp(0,07)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Hp(0,07)",
+      "synthetic_value": "No aplica"
+    },
+    {
+      "id": "f035",
+      "label": "Hp(3)",
+      "path": [
+        "Características de la irradiación",
+        "Fila 1",
+        "Hp(3)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Hp(3)",
+      "synthetic_value": "No aplica"
+    },
+    {
+      "id": "f036",
+      "label": "Kair",
+      "path": [
+        "Características de la irradiación",
+        "Fila 1",
+        "Kair"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Kair",
+      "synthetic_value": "No aplica"
+    },
+    {
+      "id": "f037",
+      "label": "Identificación de los dosímetros",
+      "path": [
+        "Características de la irradiación",
+        "Fila 2",
+        "Identificación"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Identificación de los dosímetros",
+      "synthetic_value": "DOS-SIM-02"
+    },
+    {
+      "id": "f038",
+      "label": "Código de calidad(1)",
+      "path": [
+        "Características de la irradiación",
+        "Fila 2",
+        "Código de calidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Código de calidad(1)",
+      "synthetic_value": "CAL-SIM-02"
+    },
+    {
+      "id": "f039",
+      "label": "Hp(10)",
+      "path": [
+        "Características de la irradiación",
+        "Fila 2",
+        "Hp(10)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Hp(10)",
+      "synthetic_value": "No aplica"
+    },
+    {
+      "id": "f040",
+      "label": "Hp(0,07)",
+      "path": [
+        "Características de la irradiación",
+        "Fila 2",
+        "Hp(0,07)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Hp(0,07)",
+      "synthetic_value": "2.0"
+    },
+    {
+      "id": "f041",
+      "label": "Hp(3)",
+      "path": [
+        "Características de la irradiación",
+        "Fila 2",
+        "Hp(3)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Hp(3)",
+      "synthetic_value": "No aplica"
+    },
+    {
+      "id": "f042",
+      "label": "Kair",
+      "path": [
+        "Características de la irradiación",
+        "Fila 2",
+        "Kair"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Kair",
+      "synthetic_value": "No aplica"
+    },
+    {
+      "id": "f043",
+      "label": "Identificación de los dosímetros",
+      "path": [
+        "Características de la irradiación",
+        "Fila 3",
+        "Identificación"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Identificación de los dosímetros",
+      "synthetic_value": "DOS-SIM-03"
+    },
+    {
+      "id": "f044",
+      "label": "Código de calidad(1)",
+      "path": [
+        "Características de la irradiación",
+        "Fila 3",
+        "Código de calidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Código de calidad(1)",
+      "synthetic_value": "CAL-SIM-03"
+    },
+    {
+      "id": "f045",
+      "label": "Hp(10)",
+      "path": [
+        "Características de la irradiación",
+        "Fila 3",
+        "Hp(10)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Hp(10)",
+      "synthetic_value": "No aplica"
+    },
+    {
+      "id": "f046",
+      "label": "Hp(0,07)",
+      "path": [
+        "Características de la irradiación",
+        "Fila 3",
+        "Hp(0,07)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Hp(0,07)",
+      "synthetic_value": "No aplica"
+    },
+    {
+      "id": "f047",
+      "label": "Hp(3)",
+      "path": [
+        "Características de la irradiación",
+        "Fila 3",
+        "Hp(3)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Hp(3)",
+      "synthetic_value": "3.0"
+    },
+    {
+      "id": "f048",
+      "label": "Kair",
+      "path": [
+        "Características de la irradiación",
+        "Fila 3",
+        "Kair"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Kair",
+      "synthetic_value": "No aplica"
+    },
+    {
+      "id": "f049",
+      "label": "Identificación de los dosímetros",
+      "path": [
+        "Características de la irradiación",
+        "Fila 4",
+        "Identificación"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Identificación de los dosímetros",
+      "synthetic_value": "DOS-SIM-04"
+    },
+    {
+      "id": "f050",
+      "label": "Código de calidad(1)",
+      "path": [
+        "Características de la irradiación",
+        "Fila 4",
+        "Código de calidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Código de calidad(1)",
+      "synthetic_value": "CAL-SIM-04"
+    },
+    {
+      "id": "f051",
+      "label": "Hp(10)",
+      "path": [
+        "Características de la irradiación",
+        "Fila 4",
+        "Hp(10)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Hp(10)",
+      "synthetic_value": "No aplica"
+    },
+    {
+      "id": "f052",
+      "label": "Hp(0,07)",
+      "path": [
+        "Características de la irradiación",
+        "Fila 4",
+        "Hp(0,07)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Hp(0,07)",
+      "synthetic_value": "No aplica"
+    },
+    {
+      "id": "f053",
+      "label": "Hp(3)",
+      "path": [
+        "Características de la irradiación",
+        "Fila 4",
+        "Hp(3)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Hp(3)",
+      "synthetic_value": "No aplica"
+    },
+    {
+      "id": "f054",
+      "label": "Kair",
+      "path": [
+        "Características de la irradiación",
+        "Fila 4",
+        "Kair"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Kair",
+      "synthetic_value": "4.0"
+    },
+    {
+      "id": "f055",
+      "label": "Identificación de los dosímetros",
+      "path": [
+        "Características de la irradiación",
+        "Fila 5",
+        "Identificación"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Identificación de los dosímetros",
+      "synthetic_value": "DOS-SIM-05"
+    },
+    {
+      "id": "f056",
+      "label": "Código de calidad(1)",
+      "path": [
+        "Características de la irradiación",
+        "Fila 5",
+        "Código de calidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Código de calidad(1)",
+      "synthetic_value": "CAL-SIM-05"
+    },
+    {
+      "id": "f057",
+      "label": "Hp(10)",
+      "path": [
+        "Características de la irradiación",
+        "Fila 5",
+        "Hp(10)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Hp(10)",
+      "synthetic_value": "5.0"
+    },
+    {
+      "id": "f058",
+      "label": "Hp(0,07)",
+      "path": [
+        "Características de la irradiación",
+        "Fila 5",
+        "Hp(0,07)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Hp(0,07)",
+      "synthetic_value": "No aplica"
+    },
+    {
+      "id": "f059",
+      "label": "Hp(3)",
+      "path": [
+        "Características de la irradiación",
+        "Fila 5",
+        "Hp(3)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Hp(3)",
+      "synthetic_value": "No aplica"
+    },
+    {
+      "id": "f060",
+      "label": "Kair",
+      "path": [
+        "Características de la irradiación",
+        "Fila 5",
+        "Kair"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Kair",
+      "synthetic_value": "No aplica"
+    },
+    {
+      "id": "f061",
+      "label": "Identificación de los dosímetros de fondo(3):",
+      "path": [
+        "Características de la irradiación",
+        "Identificación de los dosímetros de fondo(3):"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Identificación de los dosímetros de fondo(3):",
+      "synthetic_value": "FONDO-SIM-01, FONDO-SIM-02"
+    },
+    {
+      "id": "f062",
+      "label": "Identificación de los dosímetros de reserva(4):",
+      "path": [
+        "Características de la irradiación",
+        "Identificación de los dosímetros de reserva(4):"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Identificación de los dosímetros de reserva(4):",
+      "synthetic_value": "RESERVA-SIM-01"
+    },
+    {
+      "id": "f063",
+      "label": "Fecha:",
+      "path": [
+        "Características de la irradiación",
+        "Fecha:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha:",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "f064",
+      "label": "Sello de la institución:",
+      "path": [
+        "Características de la irradiación",
+        "Sello de la institución:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Sello de la institución:",
+      "synthetic_value": "Sello sintético del laboratorio"
+    },
+    {
+      "id": "f065",
+      "label": "Firmado:",
+      "path": [
+        "Características de la irradiación",
+        "Firmado:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Firmado:",
+      "synthetic_value": "Firma sintética de Alba Solicitante Ficticia"
+    },
+    {
+      "id": "f066",
+      "label": "Nombre:",
+      "path": [
+        "Características de la irradiación",
+        "Nombre del firmante"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre:",
+      "synthetic_value": "Alba Solicitante Ficticia"
+    }
+  ],
+  "context": "Caso sintético para evaluación; nombres, instituciones, datos, decisiones y firmas son ficticios.\nDatos y dirección fiscal de la institución o empresa (donde se liquidará el servicio) / Institución o empresa:: Laboratorio Simulado Fiscal.\nDatos y dirección fiscal de la institución o empresa (donde se liquidará el servicio) / Dirección:: Calle Ficticia 69.\nDatos y dirección fiscal de la institución o empresa (donde se liquidará el servicio) / CIF:: CIF-SIM-069.\nDatos y dirección fiscal de la institución o empresa (donde se liquidará el servicio) / Ciudad:: Valencia.\nDatos y dirección fiscal de la institución o empresa (donde se liquidará el servicio) / Código postal:: 46009.\nDatos y dirección fiscal de la institución o empresa (donde se liquidará el servicio) / Provincia:: Valencia.\nDatos de la institución o empresa para la emisión del certificado (en caso de ser diferente de la fiscal) / Institución o empresa:: Centro Simulado de Metrología.\nDatos de la institución o empresa para la emisión del certificado (en caso de ser diferente de la fiscal) / Dirección:: Avenida Inventada 70.\nDatos de la institución o empresa para la emisión del certificado (en caso de ser diferente de la fiscal) / Ciudad:: Valencia.\nDatos de la institución o empresa para la emisión del certificado (en caso de ser diferente de la fiscal) / Código postal:: 46009.\nDatos de la institución o empresa para la emisión del certificado (en caso de ser diferente de la fiscal) / Provincia:: Valencia.\nDatos del solicitante / Nombre:: Alba Solicitante Ficticia.\nDatos del solicitante / Cargo:: Jefa de laboratorio.\nDatos del solicitante / Teléfono:: 000 000 069.\nDatos del solicitante / Fax:: 000 000 072.\nDatos del solicitante / E-mail:: solicitante69@example.invalid.\nDatos del personal técnico de contacto / Nombre:: Berta Técnica Ficticia.\nDatos del personal técnico de contacto / Servicio o Departamento:: Metrología.\nDatos del personal técnico de contacto / Cargo:: Técnica.\nDatos del personal técnico de contacto / Teléfono:: 000 000 070.\nDatos del personal técnico de contacto / Fax:: 000 000 072.\nDatos del personal técnico de contacto / E-mail:: tecnica69@example.invalid.\nDatos del personal administrativo de contacto / Nombre:: Carlos Administrativo Ficticio.\nDatos del personal administrativo de contacto / Servicio o Departamento:: Administración.\nDatos del personal administrativo de contacto / Cargo:: Gestor.\nDatos del personal administrativo de contacto / Teléfono:: 000 000 071.\nDatos del personal administrativo de contacto / Fax:: 000 000 072.\nDatos del personal administrativo de contacto / E-mail:: administracion69@example.invalid.\nDosímetros a irradiar / Marca:: Dosímetro Marca Ficticia.\nDosímetros a irradiar / Modelo o descripción:: Modelo SIM-IRR-70.\nCaracterísticas de la irradiación / Fila 1 / Identificación: DOS-SIM-01.\nCaracterísticas de la irradiación / Fila 1 / Código de calidad: CAL-SIM-01.\nCaracterísticas de la irradiación / Fila 1 / Hp(10): 1.0.\nCaracterísticas de la irradiación / Fila 1 / Hp(0,07): No aplica.\nCaracterísticas de la irradiación / Fila 1 / Hp(3): No aplica.\nCaracterísticas de la irradiación / Fila 1 / Kair: No aplica.\nCaracterísticas de la irradiación / Fila 2 / Identificación: DOS-SIM-02.\nCaracterísticas de la irradiación / Fila 2 / Código de calidad: CAL-SIM-02.\nCaracterísticas de la irradiación / Fila 2 / Hp(10): No aplica.\nCaracterísticas de la irradiación / Fila 2 / Hp(0,07): 2.0.\nCaracterísticas de la irradiación / Fila 2 / Hp(3): No aplica.\nCaracterísticas de la irradiación / Fila 2 / Kair: No aplica.\nCaracterísticas de la irradiación / Fila 3 / Identificación: DOS-SIM-03.\nCaracterísticas de la irradiación / Fila 3 / Código de calidad: CAL-SIM-03.\nCaracterísticas de la irradiación / Fila 3 / Hp(10): No aplica.\nCaracterísticas de la irradiación / Fila 3 / Hp(0,07): No aplica.\nCaracterísticas de la irradiación / Fila 3 / Hp(3): 3.0.\nCaracterísticas de la irradiación / Fila 3 / Kair: No aplica.\nCaracterísticas de la irradiación / Fila 4 / Identificación: DOS-SIM-04.\nCaracterísticas de la irradiación / Fila 4 / Código de calidad: CAL-SIM-04.\nCaracterísticas de la irradiación / Fila 4 / Hp(10): No aplica.\nCaracterísticas de la irradiación / Fila 4 / Hp(0,07): No aplica.\nCaracterísticas de la irradiación / Fila 4 / Hp(3): No aplica.\nCaracterísticas de la irradiación / Fila 4 / Kair: 4.0.\nCaracterísticas de la irradiación / Fila 5 / Identificación: DOS-SIM-05.\nCaracterísticas de la irradiación / Fila 5 / Código de calidad: CAL-SIM-05.\nCaracterísticas de la irradiación / Fila 5 / Hp(10): 5.0.\nCaracterísticas de la irradiación / Fila 5 / Hp(0,07): No aplica.\nCaracterísticas de la irradiación / Fila 5 / Hp(3): No aplica.\nCaracterísticas de la irradiación / Fila 5 / Kair: No aplica.\nCaracterísticas de la irradiación / Identificación de los dosímetros de fondo(3):: FONDO-SIM-01, FONDO-SIM-02.\nCaracterísticas de la irradiación / Identificación de los dosímetros de reserva(4):: RESERVA-SIM-01.\nCaracterísticas de la irradiación / Fecha:: 05/10/2026.\nCaracterísticas de la irradiación / Sello de la institución:: Sello sintético del laboratorio.\nCaracterísticas de la irradiación / Firmado:: Firma sintética de Alba Solicitante Ficticia.\nCaracterísticas de la irradiación / Nombre del firmante: Alba Solicitante Ficticia.",
+  "workflow_identity": {
+    "language": "es",
+    "id": 70
+  }
+}

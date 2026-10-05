@@ -1,0 +1,323 @@
+{
+  "id": "es-health-46-multiple-sclerosis",
+  "language": "es",
+  "domain": "Healthcare",
+  "business_topic": "multiple-sclerosis",
+  "title": "Planilla para evaluar personas con esclerosis múltiple",
+  "issuer_id": "Hospital Nacional Profesor Alejandro Posadas / Servicio Nacional de Rehabilitación",
+  "template_family": "multiple-sclerosis",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/2022/10/planilla_cud_esclerosis_multiple.pdf",
+  "landing_url": "https://www.argentina.gob.ar/salud/hospital-nacional-posadas/formularios-hospital-posadas",
+  "source_sha256": "b1d7eb71a6c880f89d8c57ae9c7b7ea152aa153e6d713f0ed0c484a786b10703",
+  "source_pages": 2,
+  "retrieved_at": "2026-09-26T10:15:19.889811+00:00",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "Fuente: institución nacional emisora y Argentina.gob.ar. Texto institucional bajo CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), salvo indicación contraria; normalización de estructura y omisión de gráficos, sin logotipos ni patrocinio.",
+  "columns": 6,
+  "rows": [
+    [
+      {
+        "text": "Este certificado deberá ser completado por médico especialista en Neurología con letra clara y en forma completa. El mismo tiene carácter de declaración jurada. La Junta Evaluadora del Servicio Nacional de Rehabilitación podrá pedir información ampliatoria al Médico que evaluó a la persona. ",
+        "colspan": 6,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "POR FAVOR LEA ATENTAMENTE. Es importante cumplir con todos los requisitos a fines de evitar demoras e impugnaciones.",
+        "colspan": 6,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "PLANILLA PARA EVALUAR PERSONAS CON ESCLEROSIS MULTIPLE",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f001",
+        "label": "Apellido y Nombre",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f002",
+        "label": "DNI",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f003",
+        "label": "Tipo de Esclerosis múltiple",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f004",
+        "label": "Tiempo de evolución de la enfermedad",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Especificar drogas, dosis utilizadas y tiempo de duración de cada uno de los esquemas terapéuticos.",
+        "colspan": 6,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "field": "f005",
+        "label": "Tratamientos recibidos",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Especificar drogas y dosis utilizadas.",
+        "colspan": 6,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "field": "f006",
+        "label": "Tratamiento actual",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Grado de discapacidad según EDSS",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f007",
+        "label": "Grado de discapacidad según EDSS",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f008",
+        "label": "Adjuntar informes de los estudios realizados para abordar al diagnóstico",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Antecedentes, estado actual, respuesta a los tratamientos instaurados, etc.",
+        "colspan": 6,
+        "source_page": 2,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "field": "f009",
+        "label": "Resumen de historia clínica completo",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Certificación",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f010",
+        "label": "FECHA",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f011",
+        "label": "Firma y sello del médico actuante",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Fuente: Hospital Nacional Profesor Alejandro Posadas / Servicio Nacional de Rehabilitación. Documento: Planilla para evaluar personas con esclerosis múltiple. Versión/identificador impreso: no declarado. https://www.argentina.gob.ar/sites/default/files/2022/10/planilla_cud_esclerosis_multiple.pdf. Recuperado: 2026-09-26. Condiciones de reutilización: https://www.argentina.gob.ar/terminos-y-condiciones. Fuente: institución nacional emisora y Argentina.gob.ar. Texto institucional bajo CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), salvo indicación contraria; normalización de estructura y omisión de gráficos, sin logotipos ni patrocinio. Adaptación de estructura con datos ficticios.",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Apellido y Nombre",
+      "path": [
+        "PLANILLA PARA EVALUAR PERSONAS CON ESCLEROSIS MULTIPLE",
+        "Apellido y Nombre"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Apellido y Nombre",
+      "synthetic_value": "Marina Paciente Ejemplo"
+    },
+    {
+      "id": "f002",
+      "label": "DNI",
+      "path": [
+        "PLANILLA PARA EVALUAR PERSONAS CON ESCLEROSIS MULTIPLE",
+        "DNI"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DNI",
+      "synthetic_value": "DNI-FICTICIO-46"
+    },
+    {
+      "id": "f003",
+      "label": "Tipo de Esclerosis múltiple",
+      "path": [
+        "PLANILLA PARA EVALUAR PERSONAS CON ESCLEROSIS MULTIPLE",
+        "Tipo de Esclerosis múltiple"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Tipo de Esclerosis múltiple",
+      "synthetic_value": "Remitente recurrente, supuesto ficticio"
+    },
+    {
+      "id": "f004",
+      "label": "Tiempo de evolución de la enfermedad",
+      "path": [
+        "PLANILLA PARA EVALUAR PERSONAS CON ESCLEROSIS MULTIPLE",
+        "Tiempo de evolución de la enfermedad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Tiempo de evolución de la enfermedad",
+      "synthetic_value": "5 años"
+    },
+    {
+      "id": "f005",
+      "label": "Tratamientos recibidos",
+      "path": [
+        "PLANILLA PARA EVALUAR PERSONAS CON ESCLEROSIS MULTIPLE",
+        "Tratamientos recibidos"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Tratamientos recibidos",
+      "synthetic_value": "Interferón beta-1a 30 microgramos una vez por semana durante dos años, supuesto ficticio, no prescripción."
+    },
+    {
+      "id": "f006",
+      "label": "Tratamiento actual",
+      "path": [
+        "PLANILLA PARA EVALUAR PERSONAS CON ESCLEROSIS MULTIPLE",
+        "Tratamiento actual"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Tratamiento actual",
+      "synthetic_value": "Interferón beta-1a 44 microgramos tres veces por semana, supuesto ficticio, no prescripción."
+    },
+    {
+      "id": "f007",
+      "label": "Grado de discapacidad según EDSS",
+      "path": [
+        "Grado de discapacidad según EDSS",
+        "Grado de discapacidad según EDSS"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Grado de discapacidad según EDSS",
+      "synthetic_value": "4,0 (supuesto ficticio)"
+    },
+    {
+      "id": "f008",
+      "label": "Adjuntar informes de los estudios realizados para abordar al diagnóstico",
+      "path": [
+        "Grado de discapacidad según EDSS",
+        "Adjuntar informes de los estudios realizados para abordar al diagnóstico"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Adjuntar informes de los estudios realizados para abordar al diagnóstico",
+      "synthetic_value": "Informes ficticios de RMN y evaluación neurológica adjuntos."
+    },
+    {
+      "id": "f009",
+      "label": "Resumen de historia clínica completo",
+      "path": [
+        "Grado de discapacidad según EDSS",
+        "Resumen de historia clínica completo"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Resumen de historia clínica completo",
+      "synthetic_value": "Evolución de cinco años, respuesta parcial a tratamientos; marcha autónoma limitada en el supuesto."
+    },
+    {
+      "id": "f010",
+      "label": "FECHA",
+      "path": [
+        "Certificación",
+        "FECHA"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "FECHA",
+      "synthetic_value": "26/09/2026"
+    },
+    {
+      "id": "f011",
+      "label": "Firma y sello del médico actuante",
+      "path": [
+        "Certificación",
+        "Firma y sello del médico actuante"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Firma y sello del médico actuante",
+      "synthetic_value": "FIRMA Y SELLO FICTICIOS - Elena Médica Ejemplo"
+    }
+  ],
+  "source_version": null,
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "value": null,
+    "kind": "update_date_not_stated",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/2022/10/planilla_cud_esclerosis_multiple.pdf",
+    "detail": "No edition number or document update date stated on the inspected pages. Document title and exact hashed original identify this source; retrieval is separate."
+  },
+  "context": "Caso de prueba enteramente ficticio. Las identidades, instituciones, documentos, resultados y firmas son sintéticos. No se presenta una solicitud real.\nPLANILLA PARA EVALUAR PERSONAS CON ESCLEROSIS MULTIPLE / Apellido y Nombre: Marina Paciente Ejemplo.\nPLANILLA PARA EVALUAR PERSONAS CON ESCLEROSIS MULTIPLE / DNI: DNI-FICTICIO-46.\nPLANILLA PARA EVALUAR PERSONAS CON ESCLEROSIS MULTIPLE / Tipo de Esclerosis múltiple: Remitente recurrente, supuesto ficticio.\nPLANILLA PARA EVALUAR PERSONAS CON ESCLEROSIS MULTIPLE / Tiempo de evolución de la enfermedad: 5 años.\nPLANILLA PARA EVALUAR PERSONAS CON ESCLEROSIS MULTIPLE / Tratamientos recibidos: Interferón beta-1a 30 microgramos una vez por semana durante dos años, supuesto ficticio, no prescripción..\nPLANILLA PARA EVALUAR PERSONAS CON ESCLEROSIS MULTIPLE / Tratamiento actual: Interferón beta-1a 44 microgramos tres veces por semana, supuesto ficticio, no prescripción..\nGrado de discapacidad según EDSS / Grado de discapacidad según EDSS: 4,0 (supuesto ficticio).\nGrado de discapacidad según EDSS / Adjuntar informes de los estudios realizados para abordar al diagnóstico: Informes ficticios de RMN y evaluación neurológica adjuntos..\nGrado de discapacidad según EDSS / Resumen de historia clínica completo: Evolución de cinco años, respuesta parcial a tratamientos; marcha autónoma limitada en el supuesto..\nCertificación / FECHA: 26/09/2026.\nCertificación / Firma y sello del médico actuante: FIRMA Y SELLO FICTICIOS - Elena Médica Ejemplo.",
+  "workflow_identity": {
+    "language": "es",
+    "id": 46
+  }
+}

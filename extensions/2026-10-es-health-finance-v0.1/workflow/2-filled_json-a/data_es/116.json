@@ -1,0 +1,248 @@
+{
+  "Establecimiento notificador": {
+    "Establecimiento notificador:": "Hospital Ficticio de Referencia",
+    "Localidad:": "Ciudad Ejemplo",
+    "Departamento:": "Departamento Modelo",
+    "Provincia:": "Buenos Aires",
+    "Fecha de notificación:": "19/04/2026",
+    "Datos del notificador:": "Dra. Clara Ejemplo",
+    "Tel. celular:": "0000-000116"
+  },
+  "Datos del médico": {
+    "Apellido:": "Ejemplo",
+    "Nombre:": "Clara",
+    "Tel. celular:": "0000-000117",
+    "Correo electrónico:": "medica116@example.invalid",
+    "Firma y sello (o número de matrícula):": "MATRICULA-SIM-116"
+  },
+  "Identificación del paciente": {
+    "Apellido y nombre:": "Paciente Ficticio Dieciséis",
+    "Tipo / N° documento/pasaporte:": "Pasaporte SIM-116",
+    "Nacionalidad:": "Argentina",
+    "Fecha de nacimiento:": "12/02/1988",
+    "Edad:": "38",
+    "Sexo:": "Masculino",
+    "Lugar de residencia / Provincia:": "Buenos Aires",
+    "Departamento:": "Departamento Modelo",
+    "Localidad:": "Ciudad Ejemplo",
+    "Calle / Manzana:": "Calle Modelo",
+    "Nº Casa:": "116",
+    "Piso:": "1",
+    "Depto.:": "A",
+    "Cód. Postal:": "1000",
+    "Barrio/Villa/Asentamiento:": "Barrio Ficticio",
+    "Teléfono:": "0000-000118"
+  },
+  "Información clínica": {
+    "Fecha de Inicio de los síntomas (FIS):": "17/04/2026",
+    "Embarazada:": {
+      "choices": [
+        "SÍ",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "Fecha de 1ª consulta:": "18/04/2026",
+    "Establecimiento de 1ª consulta:": "Hospital Ficticio de Referencia",
+    "Sintomático": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "SI"
+      ]
+    },
+    "Signos y Síntomas, Consignar según corresponda:": {
+      "choices": [
+        "Fiebre",
+        "Cefalea intensa",
+        "Fatiga",
+        "Dolor muscular",
+        "Dolor abdominal",
+        "Diarrea",
+        "Hemorragia",
+        "Vómitos",
+        "Otros:"
+      ],
+      "value": [
+        "Cefalea intensa",
+        "Fatiga",
+        "Dolor muscular",
+        "Diarrea",
+        "Vómitos",
+        "Otros:"
+      ]
+    },
+    "Otros:": "Malestar general simulado",
+    "Fecha de internación:": "18/04/2026",
+    "Establecimiento de internación:": "Hospital Ficticio de Referencia",
+    "Terapia Intensiva:": {
+      "choices": [
+        "SÍ",
+        "NO"
+      ],
+      "value": [
+        "SÍ"
+      ]
+    },
+    "Fecha internación UTI:": "18/04/2026",
+    "Fecha alta UTI:": "25/04/2026",
+    "Requerimiento de ARM:": {
+      "choices": [
+        "SÍ",
+        "NO"
+      ],
+      "value": [
+        "SÍ"
+      ]
+    },
+    "Fecha ARM": "19/04/2026",
+    "Fallecido:": {
+      "choices": [
+        "SÍ",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "Fecha de alta:": "28/04/2026"
+  },
+  "Tratamiento": {
+    "Tratamiento específico:": {
+      "choices": [
+        "SÍ",
+        "NO"
+      ],
+      "value": [
+        "SÍ"
+      ]
+    },
+    "Especificar:": "Terapia de anticuerpos monoclonales simulada",
+    "Desde primer hito": "19/04/2026",
+    "Desde segundo hito": "20/04/2026"
+  },
+  "Antecedente epidemiológico": {
+    "Comentarios:": "Seguimiento epidemiológico sintético de contacto cercano.",
+    "Caso bajo riesgo": {
+      "choices": [
+        "Caso bajo riesgo",
+        "Contacto alto riesgo",
+        "Personal de salud",
+        "Miembro de ONG de ayuda",
+        "Contacto con caso sosp.",
+        "Contacto muestra laboratorio EVE",
+        "Miembro de Fuerza de",
+        "Contacto con un animal",
+        "Contacto con restos humanos",
+        "Otros:"
+      ],
+      "value": [
+        "Contacto alto riesgo",
+        "Personal de salud",
+        "Contacto con caso sosp.",
+        "Otros:"
+      ]
+    },
+    "Otro antecedente": "Contacto comunitario ficticio"
+  },
+  "Antecedente de vacunación": {
+    "Vacuna Candid #1 (FHA):": {
+      "choices": [
+        "SÍ",
+        "NO"
+      ],
+      "value": [
+        "SÍ"
+      ],
+      "Fecha": "01/03/2024"
+    },
+    "Vacuna contra Fiebre amarilla:": {
+      "choices": [
+        "SÍ",
+        "NO"
+      ],
+      "value": [
+        "SÍ"
+      ],
+      "Fecha": "01/03/2025"
+    },
+    "Vacuna antileptospirosis:": {
+      "choices": [
+        "SÍ",
+        "NO"
+      ],
+      "value": [
+        "SÍ"
+      ],
+      "Fecha": "01/04/2025"
+    }
+  },
+  "Antecedente de viaje": {
+    "¿Viajó durante los últimos 45 días?": {
+      "choices": [
+        "NO",
+        "SI"
+      ],
+      "value": [
+        "SI"
+      ]
+    },
+    "Destino/s:": "Localidad de viaje ficticia",
+    "Fecha de viaje": "05/04/2026",
+    "Fecha de regreso": "16/04/2026",
+    "Ingreso por vía:": {
+      "choices": [
+        "Aerea",
+        "Terrestre",
+        "Marítima/Fluvial"
+      ],
+      "value": [
+        "Aerea"
+      ]
+    }
+  },
+  "Laboratorio": {
+    "Establecimiento de toma de muestra:": "Laboratorio Ficticio de Referencia",
+    "Tipo de muestra": "Suero",
+    "Fecha de toma": "18/04/2026",
+    "Determinación": "Virus del Ébola",
+    "Técnica": "PCR simulada",
+    "Resultado": "Reactivo simulado",
+    "Establecimiento de derivación:": "Laboratorio Ficticio Nacional",
+    "Fecha de derivación:": "18/04/2026"
+  },
+  "Sospecha clínica": {
+    "¿Fue estudiado para otras patologías vinculadas a SFAI?:": {
+      "choices": [
+        "SÍ",
+        "NO"
+      ],
+      "value": [
+        "SÍ"
+      ]
+    },
+    "Fiebre amarilla": {
+      "choices": [
+        "Fiebre amarilla",
+        "Dengue",
+        "Paludismo",
+        "Hantavirosis",
+        "FHA",
+        "Leptospirosis",
+        "Otros arbovirus",
+        "Otros:"
+      ],
+      "value": [
+        "Fiebre amarilla",
+        "Dengue",
+        "Paludismo",
+        "Otros:"
+      ]
+    },
+    "Otro diferencial": "Enfermedad febril ficticia descartada"
+  }
+}

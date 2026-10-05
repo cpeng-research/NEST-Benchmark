@@ -1,0 +1,276 @@
+{
+  "IDENTIFICACIÓN DEL ESTABLECIMIENTO NOTIFICADOR": {
+    "Establecimiento notificador:": "",
+    "Provincia:": "",
+    "Departamento:": "",
+    "Fecha de notificación:": "",
+    "Apellido y nombre del notificador/a:": "",
+    "Teléfono:": "",
+    "Correo electrónico:": ""
+  },
+  "IDENTIFICACIÓN DEL CASO": {
+    "Identidad y residencia": {
+      "Nombre y Apellido:": "",
+      "Tipo de documento": "",
+      "Número de documento": "",
+      "Provincia": "",
+      "Departamento:": "",
+      "Localidad:": "",
+      "Calle / Manzana:": "",
+      "Número de calle": "",
+      "Piso": "",
+      "Depto.:": "",
+      "Cód. Postal:": "",
+      "Teléfono:": "",
+      "Fecha de nacimiento:": "",
+      "Edad:": ""
+    },
+    "Sexo legal:": {
+      "choices": [
+        "Femenino",
+        "Masculino",
+        "No Binario"
+      ],
+      "value": []
+    },
+    "Género:": {
+      "choices": [
+        "Mujer CIS",
+        "Varón CIS",
+        "Mujer Trans",
+        "Varón Trans",
+        "Desconocido",
+        "Otro"
+      ],
+      "value": []
+    }
+  },
+  "INFORMACIÓN CLÍNICA": {
+    "Fecha de Inicio de síntomas:": "",
+    "Fecha de consulta:": "",
+    "Establecimiento de 1ª consulta:": "",
+    "Fecha de Internación:": "",
+    "Establecimiento internación:": "",
+    "Terapia Intensiva:": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": []
+    },
+    "Fecha internación UTI": "",
+    "Requerimiento de ARM:": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": []
+    },
+    "Fecha de ARM": ""
+  },
+  "SIGNOS Y SÍNTOMAS Y OTROS ANTECEDENTES": {
+    "SIGNOS Y SÍNTOMAS Y OTROS ANTECEDENTES": {
+      "choices": [
+        "Celulitis",
+        "Síndrome de shock tóxico estreptocócico",
+        "Artritis Séptica",
+        "Antecedente de traumatismo",
+        "Abscesos",
+        "Fascitis necrotizante",
+        "Antecedente de cirugía",
+        "Antecedente de eccema",
+        "Sepsis",
+        "Miositis",
+        "Antecedente de impétigo",
+        "Antecedentes de otras lesiones en piel",
+        "Fiebre (> ó igual a 38º) sin foco",
+        "Endocarditis",
+        "Antecedente de quemadura",
+        "Antecedente de varicela"
+      ],
+      "value": []
+    }
+  },
+  "DIAGNÓSTICO REFERIDO": {
+    "Diagnóstico": {
+      "choices": [
+        "Neumonía",
+        "Shock Séptico",
+        "Sepsis",
+        "Fascitis necrotizante",
+        "Bacteriemia oculta",
+        "Osteomielitis",
+        "Artritis séptica",
+        "Celulitis",
+        "Impétigo",
+        "Absceso"
+      ],
+      "value": []
+    },
+    "Otro": ""
+  },
+  "LABORATORIO": {
+    "Establecimiento de toma de muestra:": "",
+    "Fecha de toma de muestra:": "",
+    "Muestra:": {
+      "choices": [
+        "Sangre",
+        "Punción de partes blandas",
+        "Absceso",
+        "Aislamiento"
+      ],
+      "value": []
+    },
+    "Otra muestra": ""
+  },
+  "Factores de riesgo/ Vías más probables de transmisión:": {
+    "Factores de riesgo/ Vías más probables de transmisión:": {
+      "choices": [
+        "Usuario de drogas intravenosas",
+        "Contacto con un caso confirmado"
+      ],
+      "value": []
+    },
+    "Usuario de drogas intravenosas": {
+      "Lugar de contacto": ""
+    },
+    "Contacto con un caso confirmado": {
+      "Lugar de contacto": ""
+    },
+    "Antecedentes de IRA reciente:": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": []
+    },
+    "¿Cuál?": {
+      "choices": [
+        "Infección por COVID-19",
+        "Enfermedad tipo influenza",
+        "Otra"
+      ],
+      "value": []
+    },
+    "Otra IRA": ""
+  },
+  "Antecedente de vacunación": {
+    "Grupo B": {
+      "Estado de antecedente": {
+        "choices": [
+          "Constatada",
+          "Referida",
+          "Sin dato"
+        ],
+        "value": []
+      },
+      "Dosis recibidas": "",
+      "Fecha de última dosis": ""
+    },
+    "Conjugada (ACWY)": {
+      "Estado de antecedente": {
+        "choices": [
+          "Constatada",
+          "Referida",
+          "Sin dato"
+        ],
+        "value": []
+      },
+      "Dosis recibidas": "",
+      "Fecha de última dosis": ""
+    },
+    "VPN 23": {
+      "Estado de antecedente": {
+        "choices": [
+          "Constatada",
+          "Referida",
+          "Sin dato"
+        ],
+        "value": []
+      },
+      "Dosis recibidas": "",
+      "Fecha de última dosis": ""
+    },
+    "VCN 13": {
+      "Estado de antecedente": {
+        "choices": [
+          "Constatada",
+          "Referida",
+          "Sin dato"
+        ],
+        "value": []
+      },
+      "Dosis recibidas": "",
+      "Fecha de última dosis": ""
+    },
+    "Cuádruple Bacteriana (DPT - Hib)": {
+      "Estado de antecedente": {
+        "choices": [
+          "Constatada",
+          "Referida",
+          "Sin dato"
+        ],
+        "value": []
+      },
+      "Dosis recibidas": "",
+      "Fecha de última dosis": ""
+    },
+    "Pentavalente (DPT-HB -Hib)": {
+      "Estado de antecedente": {
+        "choices": [
+          "Constatada",
+          "Referida",
+          "Sin dato"
+        ],
+        "value": []
+      },
+      "Dosis recibidas": "",
+      "Fecha de última dosis": ""
+    },
+    "Séxtuple (DPT-HB -Hib-IPV)": {
+      "Estado de antecedente": {
+        "choices": [
+          "Constatada",
+          "Referida",
+          "Sin dato"
+        ],
+        "value": []
+      },
+      "Dosis recibidas": "",
+      "Fecha de última dosis": ""
+    },
+    "Vacuna triple viral (Sarampión rubéola y paperas)": {
+      "Estado de antecedente": {
+        "choices": [
+          "Constatada",
+          "Referida",
+          "Sin dato"
+        ],
+        "value": []
+      },
+      "Dosis recibidas": "",
+      "Fecha de última dosis": ""
+    }
+  },
+  "CLASIFICACIONES DE CASO": {
+    "CLASIFICACIONES DE CASO": {
+      "choices": [
+        "Caso sospechoso de Haemophilus influenzae",
+        "Caso probable de Haemophilus influenzae",
+        "Caso confirmado de Haemophilus influenzae",
+        "Caso sospechoso de Streptococcus pneumoniae",
+        "Caso probable de Streptococcus pneumoniae",
+        "Caso confirmado de Streptococcus pneumoniae",
+        "Caso sospechoso de Neisseria meningitidis",
+        "Caso probable de Neisseria meningitidis",
+        "Caso confirmado de Neisseria meningitidis",
+        "Caso sospechoso de otro agente invasivo",
+        "Caso probable de otro agente invasivo",
+        "Caso confirmado de otro agente invasivo",
+        "Caso confirmado de Streptococcus pyogenes"
+      ],
+      "value": []
+    },
+    "Fecha y aclaración notificador/a": ""
+  }
+}

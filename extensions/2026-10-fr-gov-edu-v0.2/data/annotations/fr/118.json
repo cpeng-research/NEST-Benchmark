@@ -1,0 +1,414 @@
+{
+  "id": "fr-bourse-procuration-2026-2027",
+  "language": "fr",
+  "domain": "Education",
+  "title": "Procuration annuelle pour paiement des bourses",
+  "template_family": "bourse-procuration-2026-2027",
+  "issuer": "DGESCO",
+  "issuer_id": "DGESCO",
+  "source_pages": 1,
+  "columns": 1,
+  "rows": [
+    [
+      {
+        "text": "Cadre à compléter par l'établissement - année scolaire 2026/2027",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "etablissement",
+        "label": "Nom de l'établissement",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "uai",
+        "label": "UAI",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "departement",
+        "label": "Département",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Responsable de l'élève",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "responsable",
+        "label": "Je soussigné(e) (nom et prénom)",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "adresse",
+        "label": "adresse",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "code_postal",
+        "label": "code postal",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "commune",
+        "label": "commune",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "qualite",
+        "label": "père",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "eleve",
+        "label": "nom et prénom de l'élève",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "classe",
+        "label": "en classe de",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Représentant légal de l'établissement",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "representant",
+        "label": "Nom - prénom et fonction du représentant légal de l’établissement",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Signatures de la procuration",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "lieu_responsable",
+        "label": "A",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "date_responsable",
+        "label": "le",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "signature_responsable",
+        "label": "Signature du responsable de l’élève",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "lieu_etablissement",
+        "label": "A",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "date_etablissement",
+        "label": "le",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "signature_etablissement",
+        "label": "Signature du représentant légal de l’établissement",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "etablissement",
+      "label": "Nom de l'établissement",
+      "source_page": 1,
+      "source_anchor": "Nom de l'établissement",
+      "path": [
+        "Cadre à compléter par l'établissement - année scolaire 2026/2027",
+        "Nom de l'établissement"
+      ],
+      "kind": "text",
+      "synthetic_value": "Collège Exemple, 12 rue Exemple, 75012 Paris"
+    },
+    {
+      "id": "uai",
+      "label": "UAI",
+      "source_page": 1,
+      "source_anchor": "UAI",
+      "path": [
+        "Cadre à compléter par l'établissement - année scolaire 2026/2027",
+        "UAI"
+      ],
+      "kind": "text",
+      "synthetic_value": "0750001A"
+    },
+    {
+      "id": "departement",
+      "label": "Département",
+      "source_page": 1,
+      "source_anchor": "Département",
+      "path": [
+        "Cadre à compléter par l'établissement - année scolaire 2026/2027",
+        "Département"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "responsable",
+      "label": "Je soussigné(e) (nom et prénom)",
+      "source_page": 1,
+      "source_anchor": "Je soussigné(e) (nom et prénom)",
+      "path": [
+        "Responsable de l'élève",
+        "Je soussigné(e) (nom et prénom)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille Martin"
+    },
+    {
+      "id": "adresse",
+      "label": "adresse",
+      "source_page": 1,
+      "source_anchor": "adresse",
+      "path": [
+        "Responsable de l'élève",
+        "adresse"
+      ],
+      "kind": "text",
+      "synthetic_value": "14 rue Démo"
+    },
+    {
+      "id": "code_postal",
+      "label": "code postal",
+      "source_page": 1,
+      "source_anchor": "code postal",
+      "path": [
+        "Responsable de l'élève",
+        "code postal"
+      ],
+      "kind": "text",
+      "synthetic_value": "75012"
+    },
+    {
+      "id": "commune",
+      "label": "commune",
+      "source_page": 1,
+      "source_anchor": "commune",
+      "path": [
+        "Responsable de l'élève",
+        "commune"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "qualite",
+      "label": "père",
+      "source_page": 1,
+      "source_anchor": "père",
+      "path": [
+        "Responsable de l'élève",
+        "père"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "mère"
+      ],
+      "options": [
+        "père",
+        "mère",
+        "représentant légal de l’enfant"
+      ],
+      "context_evidence": "Responsable de l'élève / père : mère."
+    },
+    {
+      "id": "eleve",
+      "label": "nom et prénom de l'élève",
+      "source_page": 1,
+      "source_anchor": "nom et prénom de l'élève",
+      "path": [
+        "Responsable de l'élève",
+        "nom et prénom de l'élève"
+      ],
+      "kind": "text",
+      "synthetic_value": "Alex Martin"
+    },
+    {
+      "id": "classe",
+      "label": "en classe de",
+      "source_page": 1,
+      "source_anchor": "en classe de",
+      "path": [
+        "Responsable de l'élève",
+        "en classe de"
+      ],
+      "kind": "text",
+      "synthetic_value": "Quatrième B"
+    },
+    {
+      "id": "representant",
+      "label": "Nom - prénom et fonction du représentant légal de l’établissement",
+      "source_page": 1,
+      "source_anchor": "Nom - prénom et fonction du représentant légal de l’établissement",
+      "path": [
+        "Représentant légal de l'établissement",
+        "Nom - prénom et fonction du représentant légal de l’établissement"
+      ],
+      "kind": "text",
+      "synthetic_value": "Julien Dubois, chef d'établissement"
+    },
+    {
+      "id": "lieu_responsable",
+      "label": "A",
+      "source_page": 1,
+      "source_anchor": "A",
+      "path": [
+        "Signatures de la procuration",
+        "Lieu du responsable de l'élève"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "date_responsable",
+      "label": "le",
+      "source_page": 1,
+      "source_anchor": "le",
+      "path": [
+        "Signatures de la procuration",
+        "Date du responsable de l'élève"
+      ],
+      "kind": "text",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "signature_responsable",
+      "label": "Signature du responsable de l’élève",
+      "source_page": 1,
+      "source_anchor": "Signature du responsable de l’élève",
+      "path": [
+        "Signatures de la procuration",
+        "Signature du responsable de l’élève"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille Martin (signature fictive)"
+    },
+    {
+      "id": "lieu_etablissement",
+      "label": "A",
+      "source_page": 1,
+      "source_anchor": "A",
+      "path": [
+        "Signatures de la procuration",
+        "Lieu du représentant de l'établissement"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "date_etablissement",
+      "label": "le",
+      "source_page": 1,
+      "source_anchor": "le",
+      "path": [
+        "Signatures de la procuration",
+        "Date du représentant de l'établissement"
+      ],
+      "kind": "text",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "signature_etablissement",
+      "label": "Signature du représentant légal de l’établissement",
+      "source_page": 1,
+      "source_anchor": "Signature du représentant légal de l’établissement",
+      "path": [
+        "Signatures de la procuration",
+        "Signature du représentant légal de l’établissement"
+      ],
+      "kind": "text",
+      "synthetic_value": "Julien Dubois (signature fictive)"
+    }
+  ],
+  "source_url": "https://eduscol.education.gouv.fr/sites/default/files/document/annexe-procuration-lycees-et-colleges2026-2027pdf-120660.pdf",
+  "landing_url": "https://www.education.gouv.fr/les-bourses-de-college-et-de-lycee-326728",
+  "license_url": "https://eduscol.education.gouv.fr/4656/mentions-legales",
+  "license_note": "Eduscol legal notice applies Etalab 2.0 to downloadable documents, excluding third-party contributions. Ministry-authored form text only; artwork and logos excluded.",
+  "source_sha256": "d082a45745cfc74a1b76c6275da2653b14fd884510be8ab14b251d7cbc021a9d",
+  "retrieved_at": "2026-10-04T18:27:49.893902+00:00",
+  "source_version": "Année scolaire 2026 / 2027",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "kind": "printed_document_date_or_version",
+    "value": "2026 / 2027",
+    "source_url": "https://eduscol.education.gouv.fr/sites/default/files/document/annexe-procuration-lycees-et-colleges2026-2027pdf-120660.pdf",
+    "detail": "Printed document evidence; not a website update claim."
+  },
+  "context": "Dossier fictif à des fins d'évaluation, sans identité réelle ni dépôt administratif.\nCadre à compléter par l'établissement - année scolaire 2026/2027 / Nom de l'établissement : Collège Exemple, 12 rue Exemple, 75012 Paris.\nCadre à compléter par l'établissement - année scolaire 2026/2027 / UAI : 0750001A.\nCadre à compléter par l'établissement - année scolaire 2026/2027 / Département : Paris.\nResponsable de l'élève / Je soussigné(e) (nom et prénom) : Camille Martin.\nResponsable de l'élève / adresse : 14 rue Démo.\nResponsable de l'élève / code postal : 75012.\nResponsable de l'élève / commune : Paris.\nResponsable de l'élève / père : mère.\nResponsable de l'élève / nom et prénom de l'élève : Alex Martin.\nResponsable de l'élève / en classe de : Quatrième B.\nReprésentant légal de l'établissement / Nom - prénom et fonction du représentant légal de l’établissement : Julien Dubois, chef d'établissement.\nSignatures de la procuration / Lieu du responsable de l'élève : Paris.\nSignatures de la procuration / Date du responsable de l'élève : 05/10/2026.\nSignatures de la procuration / Signature du responsable de l’élève : Camille Martin (signature fictive).\nSignatures de la procuration / Lieu du représentant de l'établissement : Paris.\nSignatures de la procuration / Date du représentant de l'établissement : 05/10/2026.\nSignatures de la procuration / Signature du représentant légal de l’établissement : Julien Dubois (signature fictive).",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 118
+  }
+}

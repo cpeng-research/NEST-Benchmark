@@ -1,0 +1,1906 @@
+{
+  "id": "es-mix-74-anlis-invasive-strep",
+  "language": "es",
+  "domain": "Healthcare",
+  "title": "Otras infecciones invasivas: ficha de notificación, investigación epidemiológica y solicitud de estudios de laboratorio",
+  "issuer_id": "ANLIS / INEI / Departamento Bacteriologia",
+  "template_family": "anlis-invasive-strep",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/pyogenes_vigilancia_planilla_derivacion.pdf",
+  "landing_url": "https://www.argentina.gob.ar/salud/anlis/inei/departamento-bacteriologia/instructivos-y-planillas",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "Contenido del portal estatal Argentina.gob.ar bajo CC BY 4.0, salvo indicación contraria; adaptación con atribución, sin logotipos ni respaldo institucional.",
+  "source_sha256": "0804cad98af545fbb4fcf262c428b443564178e4868971a23ad066914fddce29",
+  "source_pages": 2,
+  "source_date_evidence": {
+    "source": "pdf_page",
+    "page": 1,
+    "literal": "ACTUALIZACIÓN SEPTIEMBRE 2023",
+    "kind": "printed_form_update_month_and_year",
+    "note": "No PDF metadata or URL path used as semantic date"
+  },
+  "source_version": "ACTUALIZACIÓN SEPTIEMBRE 2023",
+  "retrieved_at": "2026-10-04T16:59:10.506382+00:00",
+  "columns": 6,
+  "rows": [
+    [
+      {
+        "text": "OTRAS INFECCIONES INVASIVAS (Inmunoprevenibles y otras)",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "FICHA DE NOTIFICACIÓN, INVESTIGACIÓN EPIDEMIOLÓGICA Y SOLICITUD DE ESTUDIOS DE LABORATORIO",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "ACTUALIZACIÓN SEPTIEMBRE 2023",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "DEFINICIÓN DE CASO \nConsultar en Manual de Normas y procedimientos de vigilancia  \nLink: https://bancos.salud.gob.ar/recurso/manual-de-normas-y-procedimientos-de-vigilancia-y-control-de-eventos-de-notificacion",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "IDENTIFICACIÓN DEL ESTABLECIMIENTO NOTIFICADOR",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f001",
+        "label": "Establecimiento notificador:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f002",
+        "label": "Provincia:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f003",
+        "label": "Departamento:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f004",
+        "label": "Fecha de notificación:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f005",
+        "label": "Apellido y nombre del notificador/a:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f006",
+        "label": "Teléfono:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f007",
+        "label": "Correo electrónico:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "IDENTIFICACIÓN DEL CASO",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f008",
+        "label": "Nombre y Apellido:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f009",
+        "label": "Tipo de documento",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f010",
+        "label": "Nº",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f011",
+        "label": "Provincia",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f012",
+        "label": "Departamento:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f013",
+        "label": "Localidad:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f014",
+        "label": "Calle / Manzana:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f015",
+        "label": "Nº",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f016",
+        "label": "Piso",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f017",
+        "label": "Depto.:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f018",
+        "label": "Cód. Postal:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f019",
+        "label": "Teléfono:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f020",
+        "label": "Fecha de nacimiento:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f021",
+        "label": "Edad:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f022",
+        "label": "Sexo legal:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f023",
+        "label": "Género:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "INFORMACIÓN CLÍNICA",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f024",
+        "label": "Fecha de Inicio de síntomas:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f025",
+        "label": "Fecha de consulta:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f026",
+        "label": "Establecimiento de 1ª consulta:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f027",
+        "label": "Fecha de Internación:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f028",
+        "label": "Establecimiento internación:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f029",
+        "label": "Terapia Intensiva:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f030",
+        "label": "Fecha internación UTI",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f031",
+        "label": "Requerimiento de ARM:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f032",
+        "label": "Fecha:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "SIGNOS Y SÍNTOMAS Y OTROS ANTECEDENTES",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f033",
+        "label": "SIGNOS Y SÍNTOMAS Y OTROS ANTECEDENTES",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "DIAGNÓSTICO REFERIDO",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "Diagnóstico (Al menos uno obligatorio)",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f034",
+        "label": "Diagnóstico",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f035",
+        "label": "Otro",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "LABORATORIO",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f036",
+        "label": "Establecimiento de toma de muestra:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f037",
+        "label": "Fecha de toma de muestra:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f038",
+        "label": "Muestra:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f039",
+        "label": "Otra",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "EPIDEMIOLOGÍA",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "OTRAS INFECCIONES INVASIVAS (Inmunoprevenibles y otras)",
+        "colspan": 6,
+        "source_page": 2,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "FICHA DE NOTIFICACIÓN, INVESTIGACIÓN EPIDEMIOLÓGICA Y SOLICITUD DE ESTUDIOS DE LABORATORIO",
+        "colspan": 6,
+        "source_page": 2,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "ACTUALIZACIÓN SEPTIEMBRE 2023",
+        "colspan": 6,
+        "source_page": 2,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "Factores de riesgo/ Vías más probables de transmisión:",
+        "colspan": 6,
+        "source_page": 2,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f040",
+        "label": "Factores de riesgo/ Vías más probables de transmisión:",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f041",
+        "label": "Lugar de contacto:",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f042",
+        "label": "Lugar de contacto:",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f043",
+        "label": "Antecedentes de IRA reciente:",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f044",
+        "label": "¿Cuál?",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f045",
+        "label": "Otra",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Antecedente de vacunación",
+        "colspan": 6,
+        "source_page": 2,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "Vacunación al día según esquema nacional. Fechas de vacunación (si presenta carnet, colocar fecha completa; Si es referida, colocar mes/año).",
+        "colspan": 6,
+        "source_page": 2,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "Grupo B",
+        "colspan": 6,
+        "source_page": 2,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f046",
+        "label": "Vacuna",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f047",
+        "label": "Número total de dosis recibidas:",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f048",
+        "label": "Fecha de última dosis:",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Conjugada (ACWY)",
+        "colspan": 6,
+        "source_page": 2,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f049",
+        "label": "Vacuna",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f050",
+        "label": "Número total de dosis recibidas:",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f051",
+        "label": "Fecha de última dosis:",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "VPN 23",
+        "colspan": 6,
+        "source_page": 2,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f052",
+        "label": "Vacuna",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f053",
+        "label": "Número total de dosis recibidas:",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f054",
+        "label": "Fecha de última dosis:",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "VCN 13",
+        "colspan": 6,
+        "source_page": 2,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f055",
+        "label": "Vacuna",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f056",
+        "label": "Número total de dosis recibidas:",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f057",
+        "label": "Fecha de última dosis:",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Cuádruple Bacteriana (DPT - Hib)",
+        "colspan": 6,
+        "source_page": 2,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f058",
+        "label": "Vacuna",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f059",
+        "label": "Número total de dosis recibidas:",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f060",
+        "label": "Fecha de última dosis:",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Pentavalente (DPT-HB -Hib)",
+        "colspan": 6,
+        "source_page": 2,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f061",
+        "label": "Vacuna",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f062",
+        "label": "Número total de dosis recibidas:",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f063",
+        "label": "Fecha de última dosis:",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Séxtuple (DPT-HB -Hib-IPV)",
+        "colspan": 6,
+        "source_page": 2,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f064",
+        "label": "Vacuna",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f065",
+        "label": "Número total de dosis recibidas:",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f066",
+        "label": "Fecha de última dosis:",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Vacuna triple viral (Sarampión rubéola y paperas)",
+        "colspan": 6,
+        "source_page": 2,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f067",
+        "label": "Vacuna",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f068",
+        "label": "Número total de dosis recibidas:",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f069",
+        "label": "Fecha de última dosis:",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "CLASIFICACIONES DE CASO",
+        "colspan": 6,
+        "source_page": 2,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f070",
+        "label": "CLASIFICACIONES DE CASO",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f071",
+        "label": "Fecha y aclaración notificador/a",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Fuente: ANLIS / INEI / Departamento Bacteriologia. Documento: Otras infecciones invasivas: ficha de notificación, investigación epidemiológica y solicitud de estudios de laboratorio. Versión o fecha propia: ACTUALIZACIÓN SEPTIEMBRE 2023. https://www.argentina.gob.ar/sites/default/files/pyogenes_vigilancia_planilla_derivacion.pdf. Condiciones: https://www.argentina.gob.ar/terminos-y-condiciones. Adaptación con datos sintéticos.",
+        "colspan": 6,
+        "source_page": 2,
+        "role": "attribution"
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Establecimiento notificador:",
+      "path": [
+        "IDENTIFICACIÓN DEL ESTABLECIMIENTO NOTIFICADOR",
+        "Establecimiento notificador:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Establecimiento notificador:",
+      "synthetic_value": "Hospital Ficticio 74"
+    },
+    {
+      "id": "f002",
+      "label": "Provincia:",
+      "path": [
+        "IDENTIFICACIÓN DEL ESTABLECIMIENTO NOTIFICADOR",
+        "Provincia:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Provincia:",
+      "synthetic_value": "Provincia Ficticia"
+    },
+    {
+      "id": "f003",
+      "label": "Departamento:",
+      "path": [
+        "IDENTIFICACIÓN DEL ESTABLECIMIENTO NOTIFICADOR",
+        "Departamento:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Departamento:",
+      "synthetic_value": "Departamento Ejemplo"
+    },
+    {
+      "id": "f004",
+      "label": "Fecha de notificación:",
+      "path": [
+        "IDENTIFICACIÓN DEL ESTABLECIMIENTO NOTIFICADOR",
+        "Fecha de notificación:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha de notificación:",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "f005",
+      "label": "Apellido y nombre del notificador/a:",
+      "path": [
+        "IDENTIFICACIÓN DEL ESTABLECIMIENTO NOTIFICADOR",
+        "Apellido y nombre del notificador/a:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Apellido y nombre del notificador/a:",
+      "synthetic_value": "Marina Notificadora Ficticia"
+    },
+    {
+      "id": "f006",
+      "label": "Teléfono:",
+      "path": [
+        "IDENTIFICACIÓN DEL ESTABLECIMIENTO NOTIFICADOR",
+        "Teléfono:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Teléfono:",
+      "synthetic_value": "000 000 074"
+    },
+    {
+      "id": "f007",
+      "label": "Correo electrónico:",
+      "path": [
+        "IDENTIFICACIÓN DEL ESTABLECIMIENTO NOTIFICADOR",
+        "Correo electrónico:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Correo electrónico:",
+      "synthetic_value": "notifica74@example.invalid"
+    },
+    {
+      "id": "f008",
+      "label": "Nombre y Apellido:",
+      "path": [
+        "IDENTIFICACIÓN DEL CASO",
+        "Identidad y residencia",
+        "Nombre y Apellido:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre y Apellido:",
+      "synthetic_value": "Paciente Ficticio Setenta y Cuatro"
+    },
+    {
+      "id": "f009",
+      "label": "Tipo de documento",
+      "path": [
+        "IDENTIFICACIÓN DEL CASO",
+        "Identidad y residencia",
+        "Tipo de documento"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Tipo de documento",
+      "synthetic_value": "DNI simulado"
+    },
+    {
+      "id": "f010",
+      "label": "Nº",
+      "path": [
+        "IDENTIFICACIÓN DEL CASO",
+        "Identidad y residencia",
+        "Número de documento"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nº",
+      "synthetic_value": "DNI-SIM-7401"
+    },
+    {
+      "id": "f011",
+      "label": "Provincia",
+      "path": [
+        "IDENTIFICACIÓN DEL CASO",
+        "Identidad y residencia",
+        "Provincia"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Provincia",
+      "synthetic_value": "Provincia Ficticia"
+    },
+    {
+      "id": "f012",
+      "label": "Departamento:",
+      "path": [
+        "IDENTIFICACIÓN DEL CASO",
+        "Identidad y residencia",
+        "Departamento:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Departamento:",
+      "synthetic_value": "Departamento Ejemplo"
+    },
+    {
+      "id": "f013",
+      "label": "Localidad:",
+      "path": [
+        "IDENTIFICACIÓN DEL CASO",
+        "Identidad y residencia",
+        "Localidad:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Localidad:",
+      "synthetic_value": "Localidad Ficticia"
+    },
+    {
+      "id": "f014",
+      "label": "Calle / Manzana:",
+      "path": [
+        "IDENTIFICACIÓN DEL CASO",
+        "Identidad y residencia",
+        "Calle / Manzana:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Calle / Manzana:",
+      "synthetic_value": "Calle Inventada 74"
+    },
+    {
+      "id": "f015",
+      "label": "Nº",
+      "path": [
+        "IDENTIFICACIÓN DEL CASO",
+        "Identidad y residencia",
+        "Número de calle"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nº",
+      "synthetic_value": "74"
+    },
+    {
+      "id": "f016",
+      "label": "Piso",
+      "path": [
+        "IDENTIFICACIÓN DEL CASO",
+        "Identidad y residencia",
+        "Piso"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Piso",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "f017",
+      "label": "Depto.:",
+      "path": [
+        "IDENTIFICACIÓN DEL CASO",
+        "Identidad y residencia",
+        "Depto.:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Depto.:",
+      "synthetic_value": "B"
+    },
+    {
+      "id": "f018",
+      "label": "Cód. Postal:",
+      "path": [
+        "IDENTIFICACIÓN DEL CASO",
+        "Identidad y residencia",
+        "Cód. Postal:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cód. Postal:",
+      "synthetic_value": "1000"
+    },
+    {
+      "id": "f019",
+      "label": "Teléfono:",
+      "path": [
+        "IDENTIFICACIÓN DEL CASO",
+        "Identidad y residencia",
+        "Teléfono:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Teléfono:",
+      "synthetic_value": "000 000 074"
+    },
+    {
+      "id": "f020",
+      "label": "Fecha de nacimiento:",
+      "path": [
+        "IDENTIFICACIÓN DEL CASO",
+        "Identidad y residencia",
+        "Fecha de nacimiento:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha de nacimiento:",
+      "synthetic_value": "01/01/2018"
+    },
+    {
+      "id": "f021",
+      "label": "Edad:",
+      "path": [
+        "IDENTIFICACIÓN DEL CASO",
+        "Identidad y residencia",
+        "Edad:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Edad:",
+      "synthetic_value": "8"
+    },
+    {
+      "id": "f022",
+      "label": "Sexo legal:",
+      "path": [
+        "IDENTIFICACIÓN DEL CASO",
+        "Sexo legal:"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Sexo legal:",
+      "synthetic_value": "Masculino",
+      "options": [
+        "Femenino",
+        "Masculino",
+        "No Binario"
+      ],
+      "context_evidence": "IDENTIFICACIÓN DEL CASO / Sexo legal:: selección simulada Masculino."
+    },
+    {
+      "id": "f023",
+      "label": "Género:",
+      "path": [
+        "IDENTIFICACIÓN DEL CASO",
+        "Género:"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Género:",
+      "synthetic_value": "Varón CIS",
+      "options": [
+        "Mujer CIS",
+        "Varón CIS",
+        "Mujer Trans",
+        "Varón Trans",
+        "Desconocido",
+        "Otro"
+      ],
+      "context_evidence": "IDENTIFICACIÓN DEL CASO / Género:: selección simulada Varón CIS."
+    },
+    {
+      "id": "f024",
+      "label": "Fecha de Inicio de síntomas:",
+      "path": [
+        "INFORMACIÓN CLÍNICA",
+        "Fecha de Inicio de síntomas:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha de Inicio de síntomas:",
+      "synthetic_value": "01/10/2026"
+    },
+    {
+      "id": "f025",
+      "label": "Fecha de consulta:",
+      "path": [
+        "INFORMACIÓN CLÍNICA",
+        "Fecha de consulta:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha de consulta:",
+      "synthetic_value": "02/10/2026"
+    },
+    {
+      "id": "f026",
+      "label": "Establecimiento de 1ª consulta:",
+      "path": [
+        "INFORMACIÓN CLÍNICA",
+        "Establecimiento de 1ª consulta:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Establecimiento de 1ª consulta:",
+      "synthetic_value": "Centro Ficticio de Primera Consulta"
+    },
+    {
+      "id": "f027",
+      "label": "Fecha de Internación:",
+      "path": [
+        "INFORMACIÓN CLÍNICA",
+        "Fecha de Internación:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha de Internación:",
+      "synthetic_value": "03/10/2026"
+    },
+    {
+      "id": "f028",
+      "label": "Establecimiento internación:",
+      "path": [
+        "INFORMACIÓN CLÍNICA",
+        "Establecimiento internación:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Establecimiento internación:",
+      "synthetic_value": "Hospital Ficticio 74"
+    },
+    {
+      "id": "f029",
+      "label": "Terapia Intensiva:",
+      "path": [
+        "INFORMACIÓN CLÍNICA",
+        "Terapia Intensiva:"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Terapia Intensiva:",
+      "synthetic_value": "NO",
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "INFORMACIÓN CLÍNICA / Terapia Intensiva:: selección simulada NO."
+    },
+    {
+      "id": "f030",
+      "label": "Fecha internación UTI",
+      "path": [
+        "INFORMACIÓN CLÍNICA",
+        "Fecha internación UTI"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha internación UTI",
+      "synthetic_value": "No aplica",
+      "condition": "Terapia Intensiva = SI"
+    },
+    {
+      "id": "f031",
+      "label": "Requerimiento de ARM:",
+      "path": [
+        "INFORMACIÓN CLÍNICA",
+        "Requerimiento de ARM:"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Requerimiento de ARM:",
+      "synthetic_value": "NO",
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "INFORMACIÓN CLÍNICA / Requerimiento de ARM:: selección simulada NO."
+    },
+    {
+      "id": "f032",
+      "label": "Fecha:",
+      "path": [
+        "INFORMACIÓN CLÍNICA",
+        "Fecha de ARM"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha:",
+      "synthetic_value": "No aplica",
+      "condition": "Requerimiento de ARM = SI"
+    },
+    {
+      "id": "f033",
+      "label": "SIGNOS Y SÍNTOMAS Y OTROS ANTECEDENTES",
+      "path": [
+        "SIGNOS Y SÍNTOMAS Y OTROS ANTECEDENTES",
+        "SIGNOS Y SÍNTOMAS Y OTROS ANTECEDENTES"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "SIGNOS Y SÍNTOMAS Y OTROS ANTECEDENTES",
+      "synthetic_value": [
+        "Sepsis",
+        "Fiebre (> ó igual a 38º) sin foco"
+      ],
+      "options": [
+        "Celulitis",
+        "Síndrome de shock tóxico estreptocócico",
+        "Artritis Séptica",
+        "Antecedente de traumatismo",
+        "Abscesos",
+        "Fascitis necrotizante",
+        "Antecedente de cirugía",
+        "Antecedente de eccema",
+        "Sepsis",
+        "Miositis",
+        "Antecedente de impétigo",
+        "Antecedentes de otras lesiones en piel",
+        "Fiebre (> ó igual a 38º) sin foco",
+        "Endocarditis",
+        "Antecedente de quemadura",
+        "Antecedente de varicela"
+      ],
+      "context_evidence": "SIGNOS Y SÍNTOMAS Y OTROS ANTECEDENTES / SIGNOS Y SÍNTOMAS Y OTROS ANTECEDENTES: selección simulada Sepsis, Fiebre (> ó igual a 38º) sin foco."
+    },
+    {
+      "id": "f034",
+      "label": "Diagnóstico",
+      "path": [
+        "DIAGNÓSTICO REFERIDO",
+        "Diagnóstico"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "Diagnóstico",
+      "synthetic_value": [
+        "Sepsis"
+      ],
+      "options": [
+        "Neumonía",
+        "Shock Séptico",
+        "Sepsis",
+        "Fascitis necrotizante",
+        "Bacteriemia oculta",
+        "Osteomielitis",
+        "Artritis séptica",
+        "Celulitis",
+        "Impétigo",
+        "Absceso"
+      ],
+      "context_evidence": "DIAGNÓSTICO REFERIDO / Diagnóstico: selección simulada Sepsis."
+    },
+    {
+      "id": "f035",
+      "label": "Otro",
+      "path": [
+        "DIAGNÓSTICO REFERIDO",
+        "Otro"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Otro",
+      "synthetic_value": "No aplica",
+      "condition": "Se selecciona Otro en diagnóstico"
+    },
+    {
+      "id": "f036",
+      "label": "Establecimiento de toma de muestra:",
+      "path": [
+        "LABORATORIO",
+        "Establecimiento de toma de muestra:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Establecimiento de toma de muestra:",
+      "synthetic_value": "Laboratorio Ficticio 74"
+    },
+    {
+      "id": "f037",
+      "label": "Fecha de toma de muestra:",
+      "path": [
+        "LABORATORIO",
+        "Fecha de toma de muestra:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha de toma de muestra:",
+      "synthetic_value": "03/10/2026"
+    },
+    {
+      "id": "f038",
+      "label": "Muestra:",
+      "path": [
+        "LABORATORIO",
+        "Muestra:"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "Muestra:",
+      "synthetic_value": [
+        "Sangre",
+        "Aislamiento"
+      ],
+      "options": [
+        "Sangre",
+        "Punción de partes blandas",
+        "Absceso",
+        "Aislamiento"
+      ],
+      "context_evidence": "LABORATORIO / Muestra:: selección simulada Sangre, Aislamiento."
+    },
+    {
+      "id": "f039",
+      "label": "Otra",
+      "path": [
+        "LABORATORIO",
+        "Otra muestra"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Otra",
+      "synthetic_value": "No aplica",
+      "condition": "Muestra = Otra"
+    },
+    {
+      "id": "f040",
+      "label": "Factores de riesgo/ Vías más probables de transmisión:",
+      "path": [
+        "Factores de riesgo/ Vías más probables de transmisión:",
+        "Factores de riesgo/ Vías más probables de transmisión:"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 2,
+      "source_anchor": "Factores de riesgo/ Vías más probables de transmisión:",
+      "synthetic_value": [
+        "Contacto con un caso confirmado"
+      ],
+      "options": [
+        "Usuario de drogas intravenosas",
+        "Contacto con un caso confirmado"
+      ],
+      "context_evidence": "Factores de riesgo/ Vías más probables de transmisión: / Factores de riesgo/ Vías más probables de transmisión:: selección simulada Contacto con un caso confirmado."
+    },
+    {
+      "id": "f041",
+      "label": "Lugar de contacto:",
+      "path": [
+        "Factores de riesgo/ Vías más probables de transmisión:",
+        "Usuario de drogas intravenosas",
+        "Lugar de contacto"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Lugar de contacto:",
+      "synthetic_value": "No aplica",
+      "condition": "Se marca Usuario de drogas intravenosas"
+    },
+    {
+      "id": "f042",
+      "label": "Lugar de contacto:",
+      "path": [
+        "Factores de riesgo/ Vías más probables de transmisión:",
+        "Contacto con un caso confirmado",
+        "Lugar de contacto"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Lugar de contacto:",
+      "synthetic_value": "Escuela Ficticia 74",
+      "condition": "Se marca Contacto con un caso confirmado"
+    },
+    {
+      "id": "f043",
+      "label": "Antecedentes de IRA reciente:",
+      "path": [
+        "Factores de riesgo/ Vías más probables de transmisión:",
+        "Antecedentes de IRA reciente:"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Antecedentes de IRA reciente:",
+      "synthetic_value": "SI",
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "Factores de riesgo/ Vías más probables de transmisión: / Antecedentes de IRA reciente:: selección simulada SI."
+    },
+    {
+      "id": "f044",
+      "label": "¿Cuál?",
+      "path": [
+        "Factores de riesgo/ Vías más probables de transmisión:",
+        "¿Cuál?"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "¿Cuál?",
+      "synthetic_value": "Infección por COVID-19",
+      "options": [
+        "Infección por COVID-19",
+        "Enfermedad tipo influenza",
+        "Otra"
+      ],
+      "context_evidence": "Factores de riesgo/ Vías más probables de transmisión: / ¿Cuál?: selección simulada Infección por COVID-19.",
+      "condition": "Antecedentes de IRA reciente = SI"
+    },
+    {
+      "id": "f045",
+      "label": "Otra",
+      "path": [
+        "Factores de riesgo/ Vías más probables de transmisión:",
+        "Otra IRA"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Otra",
+      "synthetic_value": "No aplica",
+      "condition": "IRA reciente = Otra"
+    },
+    {
+      "id": "f046",
+      "label": "Vacuna",
+      "path": [
+        "Antecedente de vacunación",
+        "Grupo B",
+        "Estado de antecedente"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Vacuna",
+      "synthetic_value": "Sin dato",
+      "options": [
+        "Constatada",
+        "Referida",
+        "Sin dato"
+      ],
+      "context_evidence": "Antecedente de vacunación / Grupo B / Estado de antecedente: selección simulada Sin dato."
+    },
+    {
+      "id": "f047",
+      "label": "Número total de dosis recibidas:",
+      "path": [
+        "Antecedente de vacunación",
+        "Grupo B",
+        "Dosis recibidas"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Número total de dosis recibidas:",
+      "synthetic_value": "No consta"
+    },
+    {
+      "id": "f048",
+      "label": "Fecha de última dosis:",
+      "path": [
+        "Antecedente de vacunación",
+        "Grupo B",
+        "Fecha de última dosis"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Fecha de última dosis:",
+      "synthetic_value": "No consta"
+    },
+    {
+      "id": "f049",
+      "label": "Vacuna",
+      "path": [
+        "Antecedente de vacunación",
+        "Conjugada (ACWY)",
+        "Estado de antecedente"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Vacuna",
+      "synthetic_value": "Sin dato",
+      "options": [
+        "Constatada",
+        "Referida",
+        "Sin dato"
+      ],
+      "context_evidence": "Antecedente de vacunación / Conjugada (ACWY) / Estado de antecedente: selección simulada Sin dato."
+    },
+    {
+      "id": "f050",
+      "label": "Número total de dosis recibidas:",
+      "path": [
+        "Antecedente de vacunación",
+        "Conjugada (ACWY)",
+        "Dosis recibidas"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Número total de dosis recibidas:",
+      "synthetic_value": "No consta"
+    },
+    {
+      "id": "f051",
+      "label": "Fecha de última dosis:",
+      "path": [
+        "Antecedente de vacunación",
+        "Conjugada (ACWY)",
+        "Fecha de última dosis"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Fecha de última dosis:",
+      "synthetic_value": "No consta"
+    },
+    {
+      "id": "f052",
+      "label": "Vacuna",
+      "path": [
+        "Antecedente de vacunación",
+        "VPN 23",
+        "Estado de antecedente"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Vacuna",
+      "synthetic_value": "Sin dato",
+      "options": [
+        "Constatada",
+        "Referida",
+        "Sin dato"
+      ],
+      "context_evidence": "Antecedente de vacunación / VPN 23 / Estado de antecedente: selección simulada Sin dato."
+    },
+    {
+      "id": "f053",
+      "label": "Número total de dosis recibidas:",
+      "path": [
+        "Antecedente de vacunación",
+        "VPN 23",
+        "Dosis recibidas"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Número total de dosis recibidas:",
+      "synthetic_value": "No consta"
+    },
+    {
+      "id": "f054",
+      "label": "Fecha de última dosis:",
+      "path": [
+        "Antecedente de vacunación",
+        "VPN 23",
+        "Fecha de última dosis"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Fecha de última dosis:",
+      "synthetic_value": "No consta"
+    },
+    {
+      "id": "f055",
+      "label": "Vacuna",
+      "path": [
+        "Antecedente de vacunación",
+        "VCN 13",
+        "Estado de antecedente"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Vacuna",
+      "synthetic_value": "Sin dato",
+      "options": [
+        "Constatada",
+        "Referida",
+        "Sin dato"
+      ],
+      "context_evidence": "Antecedente de vacunación / VCN 13 / Estado de antecedente: selección simulada Sin dato."
+    },
+    {
+      "id": "f056",
+      "label": "Número total de dosis recibidas:",
+      "path": [
+        "Antecedente de vacunación",
+        "VCN 13",
+        "Dosis recibidas"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Número total de dosis recibidas:",
+      "synthetic_value": "No consta"
+    },
+    {
+      "id": "f057",
+      "label": "Fecha de última dosis:",
+      "path": [
+        "Antecedente de vacunación",
+        "VCN 13",
+        "Fecha de última dosis"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Fecha de última dosis:",
+      "synthetic_value": "No consta"
+    },
+    {
+      "id": "f058",
+      "label": "Vacuna",
+      "path": [
+        "Antecedente de vacunación",
+        "Cuádruple Bacteriana (DPT - Hib)",
+        "Estado de antecedente"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Vacuna",
+      "synthetic_value": "Sin dato",
+      "options": [
+        "Constatada",
+        "Referida",
+        "Sin dato"
+      ],
+      "context_evidence": "Antecedente de vacunación / Cuádruple Bacteriana (DPT - Hib) / Estado de antecedente: selección simulada Sin dato."
+    },
+    {
+      "id": "f059",
+      "label": "Número total de dosis recibidas:",
+      "path": [
+        "Antecedente de vacunación",
+        "Cuádruple Bacteriana (DPT - Hib)",
+        "Dosis recibidas"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Número total de dosis recibidas:",
+      "synthetic_value": "No consta"
+    },
+    {
+      "id": "f060",
+      "label": "Fecha de última dosis:",
+      "path": [
+        "Antecedente de vacunación",
+        "Cuádruple Bacteriana (DPT - Hib)",
+        "Fecha de última dosis"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Fecha de última dosis:",
+      "synthetic_value": "No consta"
+    },
+    {
+      "id": "f061",
+      "label": "Vacuna",
+      "path": [
+        "Antecedente de vacunación",
+        "Pentavalente (DPT-HB -Hib)",
+        "Estado de antecedente"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Vacuna",
+      "synthetic_value": "Sin dato",
+      "options": [
+        "Constatada",
+        "Referida",
+        "Sin dato"
+      ],
+      "context_evidence": "Antecedente de vacunación / Pentavalente (DPT-HB -Hib) / Estado de antecedente: selección simulada Sin dato."
+    },
+    {
+      "id": "f062",
+      "label": "Número total de dosis recibidas:",
+      "path": [
+        "Antecedente de vacunación",
+        "Pentavalente (DPT-HB -Hib)",
+        "Dosis recibidas"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Número total de dosis recibidas:",
+      "synthetic_value": "No consta"
+    },
+    {
+      "id": "f063",
+      "label": "Fecha de última dosis:",
+      "path": [
+        "Antecedente de vacunación",
+        "Pentavalente (DPT-HB -Hib)",
+        "Fecha de última dosis"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Fecha de última dosis:",
+      "synthetic_value": "No consta"
+    },
+    {
+      "id": "f064",
+      "label": "Vacuna",
+      "path": [
+        "Antecedente de vacunación",
+        "Séxtuple (DPT-HB -Hib-IPV)",
+        "Estado de antecedente"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Vacuna",
+      "synthetic_value": "Sin dato",
+      "options": [
+        "Constatada",
+        "Referida",
+        "Sin dato"
+      ],
+      "context_evidence": "Antecedente de vacunación / Séxtuple (DPT-HB -Hib-IPV) / Estado de antecedente: selección simulada Sin dato."
+    },
+    {
+      "id": "f065",
+      "label": "Número total de dosis recibidas:",
+      "path": [
+        "Antecedente de vacunación",
+        "Séxtuple (DPT-HB -Hib-IPV)",
+        "Dosis recibidas"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Número total de dosis recibidas:",
+      "synthetic_value": "No consta"
+    },
+    {
+      "id": "f066",
+      "label": "Fecha de última dosis:",
+      "path": [
+        "Antecedente de vacunación",
+        "Séxtuple (DPT-HB -Hib-IPV)",
+        "Fecha de última dosis"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Fecha de última dosis:",
+      "synthetic_value": "No consta"
+    },
+    {
+      "id": "f067",
+      "label": "Vacuna",
+      "path": [
+        "Antecedente de vacunación",
+        "Vacuna triple viral (Sarampión rubéola y paperas)",
+        "Estado de antecedente"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Vacuna",
+      "synthetic_value": "Sin dato",
+      "options": [
+        "Constatada",
+        "Referida",
+        "Sin dato"
+      ],
+      "context_evidence": "Antecedente de vacunación / Vacuna triple viral (Sarampión rubéola y paperas) / Estado de antecedente: selección simulada Sin dato."
+    },
+    {
+      "id": "f068",
+      "label": "Número total de dosis recibidas:",
+      "path": [
+        "Antecedente de vacunación",
+        "Vacuna triple viral (Sarampión rubéola y paperas)",
+        "Dosis recibidas"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Número total de dosis recibidas:",
+      "synthetic_value": "No consta"
+    },
+    {
+      "id": "f069",
+      "label": "Fecha de última dosis:",
+      "path": [
+        "Antecedente de vacunación",
+        "Vacuna triple viral (Sarampión rubéola y paperas)",
+        "Fecha de última dosis"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Fecha de última dosis:",
+      "synthetic_value": "No consta"
+    },
+    {
+      "id": "f070",
+      "label": "CLASIFICACIONES DE CASO",
+      "path": [
+        "CLASIFICACIONES DE CASO",
+        "CLASIFICACIONES DE CASO"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "CLASIFICACIONES DE CASO",
+      "synthetic_value": "Caso confirmado de Streptococcus pyogenes",
+      "options": [
+        "Caso sospechoso de Haemophilus influenzae",
+        "Caso probable de Haemophilus influenzae",
+        "Caso confirmado de Haemophilus influenzae",
+        "Caso sospechoso de Streptococcus pneumoniae",
+        "Caso probable de Streptococcus pneumoniae",
+        "Caso confirmado de Streptococcus pneumoniae",
+        "Caso sospechoso de Neisseria meningitidis",
+        "Caso probable de Neisseria meningitidis",
+        "Caso confirmado de Neisseria meningitidis",
+        "Caso sospechoso de otro agente invasivo",
+        "Caso probable de otro agente invasivo",
+        "Caso confirmado de otro agente invasivo",
+        "Caso confirmado de Streptococcus pyogenes"
+      ],
+      "context_evidence": "CLASIFICACIONES DE CASO / CLASIFICACIONES DE CASO: selección simulada Caso confirmado de Streptococcus pyogenes."
+    },
+    {
+      "id": "f071",
+      "label": "Fecha y aclaración notificador/a",
+      "path": [
+        "CLASIFICACIONES DE CASO",
+        "Fecha y aclaración notificador/a"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Fecha y aclaración notificador/a",
+      "synthetic_value": "05/10/2026; Marina Notificadora Ficticia"
+    }
+  ],
+  "context": "Caso sintético para evaluación; nombres, instituciones, datos, decisiones y firmas son ficticios.\nIDENTIFICACIÓN DEL ESTABLECIMIENTO NOTIFICADOR / Establecimiento notificador:: Hospital Ficticio 74.\nIDENTIFICACIÓN DEL ESTABLECIMIENTO NOTIFICADOR / Provincia:: Provincia Ficticia.\nIDENTIFICACIÓN DEL ESTABLECIMIENTO NOTIFICADOR / Departamento:: Departamento Ejemplo.\nIDENTIFICACIÓN DEL ESTABLECIMIENTO NOTIFICADOR / Fecha de notificación:: 05/10/2026.\nIDENTIFICACIÓN DEL ESTABLECIMIENTO NOTIFICADOR / Apellido y nombre del notificador/a:: Marina Notificadora Ficticia.\nIDENTIFICACIÓN DEL ESTABLECIMIENTO NOTIFICADOR / Teléfono:: 000 000 074.\nIDENTIFICACIÓN DEL ESTABLECIMIENTO NOTIFICADOR / Correo electrónico:: notifica74@example.invalid.\nIDENTIFICACIÓN DEL CASO / Identidad y residencia / Nombre y Apellido:: Paciente Ficticio Setenta y Cuatro.\nIDENTIFICACIÓN DEL CASO / Identidad y residencia / Tipo de documento: DNI simulado.\nIDENTIFICACIÓN DEL CASO / Identidad y residencia / Número de documento: DNI-SIM-7401.\nIDENTIFICACIÓN DEL CASO / Identidad y residencia / Provincia: Provincia Ficticia.\nIDENTIFICACIÓN DEL CASO / Identidad y residencia / Departamento:: Departamento Ejemplo.\nIDENTIFICACIÓN DEL CASO / Identidad y residencia / Localidad:: Localidad Ficticia.\nIDENTIFICACIÓN DEL CASO / Identidad y residencia / Calle / Manzana:: Calle Inventada 74.\nIDENTIFICACIÓN DEL CASO / Identidad y residencia / Número de calle: 74.\nIDENTIFICACIÓN DEL CASO / Identidad y residencia / Piso: 1.\nIDENTIFICACIÓN DEL CASO / Identidad y residencia / Depto.:: B.\nIDENTIFICACIÓN DEL CASO / Identidad y residencia / Cód. Postal:: 1000.\nIDENTIFICACIÓN DEL CASO / Identidad y residencia / Teléfono:: 000 000 074.\nIDENTIFICACIÓN DEL CASO / Identidad y residencia / Fecha de nacimiento:: 01/01/2018.\nIDENTIFICACIÓN DEL CASO / Identidad y residencia / Edad:: 8.\nIDENTIFICACIÓN DEL CASO / Sexo legal:: selección simulada Masculino.\nIDENTIFICACIÓN DEL CASO / Género:: selección simulada Varón CIS.\nINFORMACIÓN CLÍNICA / Fecha de Inicio de síntomas:: 01/10/2026.\nINFORMACIÓN CLÍNICA / Fecha de consulta:: 02/10/2026.\nINFORMACIÓN CLÍNICA / Establecimiento de 1ª consulta:: Centro Ficticio de Primera Consulta.\nINFORMACIÓN CLÍNICA / Fecha de Internación:: 03/10/2026.\nINFORMACIÓN CLÍNICA / Establecimiento internación:: Hospital Ficticio 74.\nINFORMACIÓN CLÍNICA / Terapia Intensiva:: selección simulada NO.\nINFORMACIÓN CLÍNICA / Fecha internación UTI: No aplica.\nINFORMACIÓN CLÍNICA / Requerimiento de ARM:: selección simulada NO.\nINFORMACIÓN CLÍNICA / Fecha de ARM: No aplica.\nSIGNOS Y SÍNTOMAS Y OTROS ANTECEDENTES / SIGNOS Y SÍNTOMAS Y OTROS ANTECEDENTES: selección simulada Sepsis, Fiebre (> ó igual a 38º) sin foco.\nDIAGNÓSTICO REFERIDO / Diagnóstico: selección simulada Sepsis.\nDIAGNÓSTICO REFERIDO / Otro: No aplica.\nLABORATORIO / Establecimiento de toma de muestra:: Laboratorio Ficticio 74.\nLABORATORIO / Fecha de toma de muestra:: 03/10/2026.\nLABORATORIO / Muestra:: selección simulada Sangre, Aislamiento.\nLABORATORIO / Otra muestra: No aplica.\nFactores de riesgo/ Vías más probables de transmisión: / Factores de riesgo/ Vías más probables de transmisión:: selección simulada Contacto con un caso confirmado.\nFactores de riesgo/ Vías más probables de transmisión: / Usuario de drogas intravenosas / Lugar de contacto: No aplica.\nFactores de riesgo/ Vías más probables de transmisión: / Contacto con un caso confirmado / Lugar de contacto: Escuela Ficticia 74.\nFactores de riesgo/ Vías más probables de transmisión: / Antecedentes de IRA reciente:: selección simulada SI.\nFactores de riesgo/ Vías más probables de transmisión: / ¿Cuál?: selección simulada Infección por COVID-19.\nFactores de riesgo/ Vías más probables de transmisión: / Otra IRA: No aplica.\nAntecedente de vacunación / Grupo B / Estado de antecedente: selección simulada Sin dato.\nAntecedente de vacunación / Grupo B / Dosis recibidas: No consta.\nAntecedente de vacunación / Grupo B / Fecha de última dosis: No consta.\nAntecedente de vacunación / Conjugada (ACWY) / Estado de antecedente: selección simulada Sin dato.\nAntecedente de vacunación / Conjugada (ACWY) / Dosis recibidas: No consta.\nAntecedente de vacunación / Conjugada (ACWY) / Fecha de última dosis: No consta.\nAntecedente de vacunación / VPN 23 / Estado de antecedente: selección simulada Sin dato.\nAntecedente de vacunación / VPN 23 / Dosis recibidas: No consta.\nAntecedente de vacunación / VPN 23 / Fecha de última dosis: No consta.\nAntecedente de vacunación / VCN 13 / Estado de antecedente: selección simulada Sin dato.\nAntecedente de vacunación / VCN 13 / Dosis recibidas: No consta.\nAntecedente de vacunación / VCN 13 / Fecha de última dosis: No consta.\nAntecedente de vacunación / Cuádruple Bacteriana (DPT - Hib) / Estado de antecedente: selección simulada Sin dato.\nAntecedente de vacunación / Cuádruple Bacteriana (DPT - Hib) / Dosis recibidas: No consta.\nAntecedente de vacunación / Cuádruple Bacteriana (DPT - Hib) / Fecha de última dosis: No consta.\nAntecedente de vacunación / Pentavalente (DPT-HB -Hib) / Estado de antecedente: selección simulada Sin dato.\nAntecedente de vacunación / Pentavalente (DPT-HB -Hib) / Dosis recibidas: No consta.\nAntecedente de vacunación / Pentavalente (DPT-HB -Hib) / Fecha de última dosis: No consta.\nAntecedente de vacunación / Séxtuple (DPT-HB -Hib-IPV) / Estado de antecedente: selección simulada Sin dato.\nAntecedente de vacunación / Séxtuple (DPT-HB -Hib-IPV) / Dosis recibidas: No consta.\nAntecedente de vacunación / Séxtuple (DPT-HB -Hib-IPV) / Fecha de última dosis: No consta.\nAntecedente de vacunación / Vacuna triple viral (Sarampión rubéola y paperas) / Estado de antecedente: selección simulada Sin dato.\nAntecedente de vacunación / Vacuna triple viral (Sarampión rubéola y paperas) / Dosis recibidas: No consta.\nAntecedente de vacunación / Vacuna triple viral (Sarampión rubéola y paperas) / Fecha de última dosis: No consta.\nCLASIFICACIONES DE CASO / CLASIFICACIONES DE CASO: selección simulada Caso confirmado de Streptococcus pyogenes.\nCLASIFICACIONES DE CASO / Fecha y aclaración notificador/a: 05/10/2026; Marina Notificadora Ficticia.",
+  "workflow_identity": {
+    "language": "es",
+    "id": 74
+  }
+}

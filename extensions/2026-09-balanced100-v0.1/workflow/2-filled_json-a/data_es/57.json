@@ -1,0 +1,338 @@
+{
+  "DATOS DEL CASO": {
+    "FECHA SOLICITUD": "26/09/2026",
+    "APELLIDO": "Paciente Ejemplo",
+    "NOMBRES": "Marina",
+    "DNI": "DNI-FICTICIO-57",
+    "HIV": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "FECHA NACIMIENTO": "12/04/1981",
+    "SEXO": "F",
+    "EDAD": "45",
+    "OCUPACIÓN": "Administrativa ficticia",
+    "NACIONALIDAD": "Argentina",
+    "PROV. RESIDENCIA": "Buenos Aires",
+    "CIUDAD": "Villa Ficticia",
+    "TELÉFONO PACIENTE": "000-000-0057"
+  },
+  "DATOS DE LA INSTITUCIÓN": {
+    "Hospital/Institución": "Hospital Ficticio de Ejemplo",
+    "Ciudad de la institución": "Villa Ficticia",
+    "Nombre del médico": "Elena Médica Ejemplo",
+    "Mail del médico": "elena57@example.invalid"
+  },
+  "DATOS DE INTERÉS / ESTUDIO DE": {
+    "ESTUDIO DE": {
+      "choices": [
+        "Estudio de infección por virus de Hepatitis A",
+        "Estudio de infección por virus de Hepatitis E"
+      ],
+      "value": [
+        "Estudio de infección por virus de Hepatitis A",
+        "Estudio de infección por virus de Hepatitis E"
+      ]
+    },
+    "MUESTRAS": {
+      "choices": [
+        "Suero",
+        "Plasma",
+        "Materia Fecal"
+      ],
+      "value": [
+        "Suero",
+        "Plasma",
+        "Materia Fecal"
+      ]
+    }
+  },
+  "DATOS DE INTERÉS / OTROS DATOS": {
+    "CONTACTO CON CASO POSITIVO": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "SI"
+      ]
+    },
+    "ZONA": {
+      "choices": [
+        "urbana",
+        "rural (<20000 habitantes)"
+      ],
+      "value": [
+        "urbana"
+      ]
+    },
+    "AGUA": {
+      "choices": [
+        "corriente",
+        "pozo",
+        "envasada"
+      ],
+      "value": [
+        "corriente"
+      ]
+    },
+    "CLOACAS": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "SI"
+      ]
+    },
+    "ALIMENTOS": {
+      "choices": [
+        "cerdo",
+        "mariscos",
+        "carne poco cocida",
+        "vísceras",
+        "embutidos artesanales"
+      ],
+      "value": [
+        "cerdo"
+      ]
+    },
+    "ANIMALES DOMÉSTICOS": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "¿Cuál?": "",
+    "ACTIVIDADES": {
+      "choices": [
+        "camping",
+        "pesca",
+        "caza",
+        "náuticas",
+        "jardinería/huerta"
+      ],
+      "value": [
+        "jardinería/huerta"
+      ]
+    }
+  },
+  "INFORMACIÓN ESENCIAL": {
+    "HEPATITIS": {
+      "choices": [
+        "Aguda",
+        "Crónica"
+      ],
+      "value": [
+        "Aguda"
+      ]
+    },
+    "FECHA DE INICIO DE SÍNTOMAS": "20/09/2026",
+    "FECHA DE TOMA DE MUESTRA SUERO": "24/09/2026",
+    "FECHA DE MUESTRA MATERIA FECAL": "24/09/2026",
+    "VACUNA HAV": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "SI"
+      ]
+    },
+    "Dosis": "1",
+    "Fecha ultima dosis": "01/02/2010",
+    "VIAJE": {
+      "choices": [
+        "Interior",
+        "Exterior"
+      ],
+      "value": [
+        "Interior"
+      ]
+    },
+    "Lugar y fecha": "Villa Ficticia Interior, 10/09/2026"
+  },
+  "RESULTADOS PREVIOS": {
+    "anti-HAV IgM": {
+      "valor": "Negativo, ensayo ficticio",
+      "Método": {
+        "choices": [
+          "ELISA",
+          "QML/ELFA"
+        ],
+        "value": [
+          "ELISA"
+        ]
+      },
+      "Fecha": "22/09/2026"
+    },
+    "anti-HAV IgG": {
+      "valor": "Negativo, ensayo ficticio",
+      "Método": {
+        "choices": [
+          "ELISA",
+          "QML/ELFA"
+        ],
+        "value": [
+          "ELISA"
+        ]
+      },
+      "Fecha": "22/09/2026"
+    },
+    "anti-HEV IgM": {
+      "valor": "Negativo, ensayo ficticio",
+      "Método": {
+        "choices": [
+          "ELISA",
+          "QML/ELFA"
+        ],
+        "value": [
+          "ELISA"
+        ]
+      },
+      "Fecha": "22/09/2026"
+    },
+    "anti-HEV IgG": {
+      "valor": "Negativo, ensayo ficticio",
+      "Método": {
+        "choices": [
+          "ELISA",
+          "QML/ELFA"
+        ],
+        "value": [
+          "ELISA"
+        ]
+      },
+      "Fecha": "22/09/2026"
+    },
+    "HAV-RNA": {
+      "Resultado": "No detectado, ensayo ficticio",
+      "Fecha": "22/09/2026"
+    },
+    "HEV-RNA": {
+      "Resultado": "No detectado, ensayo ficticio",
+      "Fecha": "22/09/2026"
+    }
+  },
+  "DATOS CLÍNICOS": {
+    "Inmunosupresión": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "¿Cuál?": "",
+    "Comorbilidades": "Sin comorbilidad en el supuesto",
+    "EMBARAZO": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "Semana": "",
+    "CIRROSIS": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "HCC": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "SÍNTOMAS": {
+      "Columna 1": {
+        "choices": [
+          "Asintomático",
+          "Ictericia",
+          "Coluria",
+          "Hepatomegalia",
+          "Esplenomegalia"
+        ],
+        "value": [
+          "Ictericia",
+          "Coluria"
+        ]
+      },
+      "Columna 2": {
+        "choices": [
+          "Ascitis",
+          "Prurito",
+          "Encefalopatía",
+          "Dolor Abdominal",
+          "Astenia"
+        ],
+        "value": [
+          "Astenia"
+        ]
+      },
+      "Columna 3": {
+        "choices": [
+          "Acolia",
+          "Hiporexia",
+          "Ictericia",
+          "Hemorragia"
+        ],
+        "value": [
+          "Ictericia"
+        ]
+      }
+    }
+  },
+  "DATOS CLÍNICOS / HEPATOGRAMA": {
+    "ALAT (TGP)": "180",
+    "ASAT (TGO)": "140",
+    "Bilirrubina total": "2,0",
+    "Bilirrubina directa": "1,2",
+    "TP": "13 segundos"
+  },
+  "DATOS CLÍNICOS / FACTORES DE RIESGO": {
+    "FACTORES DE RIESGO": {
+      "choices": [
+        "HSH",
+        "DEV",
+        "Droga inhalatoria",
+        "Transfusión.",
+        "Diálisis.",
+        "Alcoholismo",
+        "Prácticas médicas no seguras",
+        "Prácticas sexuales sin protección",
+        "Múltiples parejas sexuales",
+        "Desconocido"
+      ],
+      "value": [
+        "Desconocido"
+      ]
+    }
+  },
+  "FACTORES DE RIESGO": {
+    "Transfusión": {
+      "Año": ""
+    },
+    "Diálisis": {
+      "Año": ""
+    }
+  }
+}

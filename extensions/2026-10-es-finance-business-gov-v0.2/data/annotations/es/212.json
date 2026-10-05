@@ -1,0 +1,401 @@
+{
+  "id": "es-212-factor8-baja",
+  "language": "es",
+  "domain": "GovPublic",
+  "title": "Notificación de baja de beneficiario de Factor VIII",
+  "business_topic": "Notificación de baja de beneficiario de Factor VIII",
+  "issuer_id": "SSSalud",
+  "template_family": "factor8-baja",
+  "source_pages": 1,
+  "source_sha256": "a89d07860cfafb5bf18542c61909d843f76630664b6ff334457a4c57a83c6b0a",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/2025/07/anexo_v_-_nota_para_notificacion_de_baja_de_beneficiario.pdf",
+  "landing_url": "https://www.argentina.gob.ar/servicio/solicitar-la-adquisicion-del-medicamento-factor-viii-para-beneficiarios-mayores-de-21-anos",
+  "license_url": "https://www.argentina.gob.ar/acerca",
+  "license_note": "Argentina.gob.ar states CC BY 4.0 for its published content. This candidate uses normalized form text and structure, not source PDF artwork or logos. The portal statement does not override contrary PDF-specific or third-party notices.",
+  "retrieved_at": "2026-10-05",
+  "source_version": "Programa Factor VIII 2025, Anexo V",
+  "source_date_evidence": {
+    "kind": "printed form year and official service-page annex label",
+    "value": "2025",
+    "raw": "Buenos Aires, [blank] de 2025; ANEXO V on the official download list",
+    "scope": "Printed template year and service-page annex designation, not a claim that a later revision does not exist.",
+    "retrieval_timestamp_utc": "2026-10-04T19:32:58.926582+00:00"
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "Nota para notificación de baja de beneficiario",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Buenos Aires,",
+        "field": "f001",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Sr. Superintendente de Servicios de Salud",
+        "field": "f002",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "El Sr./Sra.",
+        "field": "f003",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Obra Social",
+        "field": "f004",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Programa",
+        "field": "f005",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nombre y Apellido:",
+        "field": "f006",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nº de afiliado:",
+        "field": "f007",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "C.U.I.L:",
+        "field": "f008",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Motivo de la Baja:",
+        "field": "f009",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fecha de fallecimiento",
+        "field": "f010",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nueva Obra Social de destino:",
+        "field": "f011",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fecha efectiva del cambio:",
+        "field": "f012",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(Firma) Nombre y Apellido del Responsable Legal",
+        "field": "f013",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Obra Social",
+        "field": "f014",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Sello de la Entidad",
+        "field": "f015",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Cargo",
+        "field": "f016",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Buenos Aires,",
+      "path": [
+        "Página 1",
+        "Baja de beneficiario",
+        "Buenos Aires,"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Buenos Aires,",
+      "synthetic_value": "05/10",
+      "source_widgets": []
+    },
+    {
+      "id": "f002",
+      "label": "Sr. Superintendente de Servicios de Salud",
+      "path": [
+        "Página 1",
+        "Baja de beneficiario",
+        "Sr. Superintendente de Servicios de Salud"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Sr. Superintendente de Servicios de Salud",
+      "synthetic_value": "Autoridad destinataria",
+      "source_widgets": []
+    },
+    {
+      "id": "f003",
+      "label": "El Sr./Sra.",
+      "path": [
+        "Página 1",
+        "Baja de beneficiario",
+        "El Sr./Sra."
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "El Sr./Sra.",
+      "synthetic_value": "Elena Pérez",
+      "source_widgets": []
+    },
+    {
+      "id": "f004",
+      "label": "Obra Social",
+      "path": [
+        "Página 1",
+        "Baja de beneficiario",
+        "Obra Social solicitante"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Obra Social",
+      "synthetic_value": "Obra Social Ejemplo",
+      "source_widgets": []
+    },
+    {
+      "id": "f005",
+      "label": "Programa",
+      "path": [
+        "Página 1",
+        "Baja de beneficiario",
+        "Programa"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Programa",
+      "synthetic_value": "Hemofilia A Severa",
+      "source_widgets": []
+    },
+    {
+      "id": "f006",
+      "label": "Nombre y Apellido:",
+      "path": [
+        "Página 1",
+        "Baja de beneficiario",
+        "Nombre y Apellido:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre y Apellido:",
+      "synthetic_value": "Lucía Torres",
+      "source_widgets": []
+    },
+    {
+      "id": "f007",
+      "label": "Nº de afiliado:",
+      "path": [
+        "Página 1",
+        "Baja de beneficiario",
+        "Nº de afiliado:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nº de afiliado:",
+      "synthetic_value": "AF-0001",
+      "source_widgets": []
+    },
+    {
+      "id": "f008",
+      "label": "C.U.I.L:",
+      "path": [
+        "Página 1",
+        "Baja de beneficiario",
+        "C.U.I.L:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "C.U.I.L:",
+      "synthetic_value": "27-00000001-2",
+      "source_widgets": []
+    },
+    {
+      "id": "f009",
+      "label": "Motivo de la Baja:",
+      "path": [
+        "Página 1",
+        "Baja de beneficiario",
+        "Motivo de la Baja:"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Motivo de la Baja:",
+      "options": [
+        "Fallecimiento",
+        "Cambio de Obra Social"
+      ],
+      "synthetic_value": [
+        "Cambio de Obra Social"
+      ],
+      "context_evidence": "Baja de beneficiario / Motivo de la Baja:: Cambio de Obra Social",
+      "source_widgets": []
+    },
+    {
+      "id": "f010",
+      "label": "Fecha de fallecimiento",
+      "path": [
+        "Página 1",
+        "En caso de Fallecimiento",
+        "Fecha de fallecimiento"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha de fallecimiento",
+      "synthetic_value": "No aplica",
+      "source_widgets": []
+    },
+    {
+      "id": "f011",
+      "label": "Nueva Obra Social de destino:",
+      "path": [
+        "Página 1",
+        "En caso de Cambio de Obra Social",
+        "Nueva Obra Social de destino:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nueva Obra Social de destino:",
+      "synthetic_value": "Obra Social Destino",
+      "source_widgets": []
+    },
+    {
+      "id": "f012",
+      "label": "Fecha efectiva del cambio:",
+      "path": [
+        "Página 1",
+        "En caso de Cambio de Obra Social",
+        "Fecha efectiva del cambio:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha efectiva del cambio:",
+      "synthetic_value": "01/10/2026",
+      "source_widgets": []
+    },
+    {
+      "id": "f013",
+      "label": "(Firma) Nombre y Apellido del Responsable Legal",
+      "path": [
+        "Página 1",
+        "Cierre",
+        "(Firma) Nombre y Apellido del Responsable Legal"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "(Firma) Nombre y Apellido del Responsable Legal",
+      "synthetic_value": "Elena Pérez",
+      "source_widgets": []
+    },
+    {
+      "id": "f014",
+      "label": "Obra Social",
+      "path": [
+        "Página 1",
+        "Cierre",
+        "Obra Social"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Obra Social",
+      "synthetic_value": "Obra Social Ejemplo",
+      "source_widgets": []
+    },
+    {
+      "id": "f015",
+      "label": "Sello de la Entidad",
+      "path": [
+        "Página 1",
+        "Cierre",
+        "Sello de la Entidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Sello de la Entidad",
+      "synthetic_value": "Sello ficticio",
+      "source_widgets": []
+    },
+    {
+      "id": "f016",
+      "label": "Cargo",
+      "path": [
+        "Página 1",
+        "Cierre",
+        "Cargo"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cargo",
+      "synthetic_value": "Presidenta",
+      "source_widgets": []
+    }
+  ],
+  "context": "Datos ficticios de prueba; no corresponden a una solicitud real.\nBaja de beneficiario / Buenos Aires,: 05/10\nBaja de beneficiario / Sr. Superintendente de Servicios de Salud: Autoridad destinataria\nBaja de beneficiario / El Sr./Sra.: Elena Pérez\nBaja de beneficiario / Obra Social solicitante: Obra Social Ejemplo\nBaja de beneficiario / Programa: Hemofilia A Severa\nBaja de beneficiario / Nombre y Apellido:: Lucía Torres\nBaja de beneficiario / Nº de afiliado:: AF-0001\nBaja de beneficiario / C.U.I.L:: 27-00000001-2\nBaja de beneficiario / Motivo de la Baja:: Cambio de Obra Social\nEn caso de Fallecimiento / Fecha de fallecimiento: No aplica\nEn caso de Cambio de Obra Social / Nueva Obra Social de destino:: Obra Social Destino\nEn caso de Cambio de Obra Social / Fecha efectiva del cambio:: 01/10/2026\nCierre / (Firma) Nombre y Apellido del Responsable Legal: Elena Pérez\nCierre / Obra Social: Obra Social Ejemplo\nCierre / Sello de la Entidad: Sello ficticio\nCierre / Cargo: Presidenta\n",
+  "workflow_identity": {
+    "language": "es",
+    "id": 212
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "id": "zh-nsw-edu-hsc-parent-meeting",
+  "language": "zh",
+  "domain": "Education",
+  "title": "高中文凭最低标准家长会议要求",
+  "template_family": "hsc-parent-meeting-request",
+  "issuer": "New South Wales Department of Education",
+  "issuer_id": "NSW-EDU",
+  "source_pages": 1,
+  "columns": 1,
+  "rows": [
+    [
+      {
+        "text": "高中文凭（HSC）最低标准家长会议要求",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "student",
+        "label": "学生姓名 / Name of student",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "parent",
+        "label": "家长姓名 / Name of parent",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "meeting_date",
+        "label": "会议日期 / Date for meeting",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "not_met",
+        "label": "您的孩子在以下方面没达到标准",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "student",
+      "label": "学生姓名",
+      "source_page": 1,
+      "source_anchor": "学生姓名",
+      "display_label": "学生姓名 / Name of student",
+      "source_label_zh": "学生姓名",
+      "kind": "text",
+      "synthetic_value": "Lin Sample",
+      "path": [
+        "高中文凭（HSC）最低标准家长会议要求",
+        "学生姓名"
+      ]
+    },
+    {
+      "id": "parent",
+      "label": "家长姓名",
+      "source_page": 1,
+      "source_anchor": "家长姓名",
+      "display_label": "家长姓名 / Name of parent",
+      "source_label_zh": "家长姓名",
+      "kind": "text",
+      "synthetic_value": "Mei Sample",
+      "path": [
+        "高中文凭（HSC）最低标准家长会议要求",
+        "家长姓名"
+      ]
+    },
+    {
+      "id": "meeting_date",
+      "label": "会议日期",
+      "source_page": 1,
+      "source_anchor": "会议日期",
+      "display_label": "会议日期 / Date for meeting",
+      "source_label_zh": "会议日期",
+      "kind": "text",
+      "synthetic_value": "12 October 2026",
+      "path": [
+        "高中文凭（HSC）最低标准家长会议要求",
+        "会议日期"
+      ]
+    },
+    {
+      "id": "not_met",
+      "label": "您的孩子在以下方面没达到标准",
+      "source_page": 1,
+      "source_anchor": "您的孩子在以下方面没达到标准",
+      "display_label": "您的孩子在以下方面没达到标准",
+      "source_label_zh": "您的孩子在以下方面没达到标准",
+      "kind": "checkbox_multi",
+      "options": [
+        "阅读",
+        "计算",
+        "写作"
+      ],
+      "synthetic_value": [
+        "阅读"
+      ],
+      "path": [
+        "高中文凭（HSC）最低标准家长会议要求",
+        "您的孩子在以下方面没达到标准"
+      ],
+      "context_evidence": "高中文凭（HSC）最低标准家长会议要求 / 您的孩子在以下方面没达到标准: selected options are 阅读"
+    }
+  ],
+  "source_url": "https://education.nsw.gov.au/content/dam/main-education/going-to-a-public-school/media/documents/translated-documents-/hsc-minimum-standard-parent-meeting-request/HSC-mInimum-standard-meeting-request-chinese-simplified.pdf",
+  "landing_url": "https://education.nsw.gov.au/schooling/translated-documents/hsc-minimum-standard-parent-meeting-request",
+  "license_url": "https://education.nsw.gov.au/about-us/copyright.html",
+  "license_note": "NSW Department of Education website content is CC BY 4.0; NSW logos, trademarks and third-party material are excluded. The normalized version omits logos and artwork.",
+  "source_sha256": "62d89bffe965bd9c323339de51c5cd04f88762158882c8a414aa6d07ff7e09e9",
+  "retrieved_at": "2026-10-05",
+  "source_version": "No edition number printed in this PDF",
+  "source_updated_at": "2026-02-04",
+  "source_date_evidence": {
+    "kind": "official_landing_and_pdf_metadata",
+    "value": "Official landing page last modified 2026-02-04; PDF CreationDate=D:20200407144414+10'00'; PDF ModDate=D:20250213162022+01'00'",
+    "source_url": "https://education.nsw.gov.au/schooling/translated-documents/hsc-minimum-standard-parent-meeting-request",
+    "detail": "The landing-page date and PDF metadata are recorded separately; neither is asserted to be a content revision date."
+  },
+  "context": "Fictional test record; all persons, places and contact details are synthetic.\n高中文凭（HSC）最低标准家长会议要求 / 学生姓名: Lin Sample.\n高中文凭（HSC）最低标准家长会议要求 / 家长姓名: Mei Sample.\n高中文凭（HSC）最低标准家长会议要求 / 会议日期: 12 October 2026.\n高中文凭（HSC）最低标准家长会议要求 / 您的孩子在以下方面没达到标准: selected options are 阅读.",
+  "workflow_identity": {
+    "language": "zh",
+    "id": 426
+  }
+}

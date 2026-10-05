@@ -1,0 +1,103 @@
+{
+  "Pièces à fournir - délivrance QC/QT restreinte": {
+    "Délivrance QC/QT restreinte à État tiers OACI": {
+      "choices": [
+        "Original/Copies/Scan du passeport, de la carte d'identité",
+        "Original/Copie/Scan de la licence OACI avec les qualifications associées",
+        "Original/Copie/Scan du certificat médical délivré conformément à l'annexe 1",
+        "Original/Copie/Scan de l’authentification de votre licence OACI",
+        "Dans le cas d’une délivrance d’une QT HPAC/MP ou une QC/QT avec un IR associée",
+        "Justificatif du paiement des readvances"
+      ],
+      "value": [
+        "Original/Copies/Scan du passeport, de la carte d'identité",
+        "Original/Copie/Scan de la licence OACI avec les qualifications associées",
+        "Original/Copie/Scan du certificat médical délivré conformément à l'annexe 1",
+        "Original/Copie/Scan de l’authentification de votre licence OACI",
+        "Justificatif du paiement des readvances"
+      ]
+    }
+  },
+  "Levée de restriction - pièces et exigences": {
+    "Levée de restriction": {
+      "choices": [
+        "Satisfaire aux exigences d’expériences définies dans la section",
+        "04Formexa (EN) ou 17Formexa (FR) si QC/QT hors HPAC",
+        "25Formexa (EN) si QT HPAC",
+        "01Formexa (EN) si QT(A) MP",
+        "11Formexa (EN) si QT(H)",
+        "Attestation de suivi d’un stage Hautes Performances Avion",
+        "Attestation de formation préliminaire ATO approuvée à une qualification multimoteurs",
+        "Copie du certificat théorique ATPL(A ou H) ou PL(A ou H)",
+        "QT MP ou QT HPAC en MPO",
+        "Attestation qui prouve de la réalisation de l’Advanced UPRT Part FCL",
+        "Dans le C/R de test, la case suivante doit être mentionnée"
+      ],
+      "value": [
+        "Satisfaire aux exigences d’expériences définies dans la section",
+        "01Formexa (EN) si QT(A) MP",
+        "Copie du certificat théorique ATPL(A ou H) ou PL(A ou H)",
+        "QT MP ou QT HPAC en MPO",
+        "Attestation qui prouve de la réalisation de l’Advanced UPRT Part FCL"
+      ]
+    }
+  },
+  "1/3. Information sur le candidat": {
+    "Nom/Prénom": "Camille Martin",
+    "Date et lieu de naissance": "15/04/1985, Paris",
+    "Adresse": "12 rue Exemple",
+    "Code postale": "75012",
+    "Pays": "France",
+    "Tél": "06 00 00 00 01",
+    "Courriel": "camille.martin@example.invalid"
+  },
+  "2/3. Information sur votre demande": {
+    "N° licence EASA": "FRA-FCL-EX-001",
+    "Type de licence EASA": "ATPL(A)",
+    "N° licence OACI": "OACI-EX-001",
+    "Type de licence OACI": "ATPL(A)",
+    "Acte à effectuer": {
+      "choices": [
+        "Délivrance QC/QT restreinte",
+        "Levée de restriction"
+      ],
+      "value": [
+        "Levée de restriction"
+      ]
+    },
+    "Nom QC/QT": "A320",
+    "Catégorie": {
+      "choices": [
+        "Avion",
+        "Hélico"
+      ],
+      "value": [
+        "Avion"
+      ]
+    },
+    "Si avion": {
+      "choices": [
+        "HPA",
+        "QT HPA Complexe",
+        "QT MP"
+      ],
+      "value": [
+        "QT MP"
+      ]
+    },
+    "Si Hélico": {
+      "choices": [
+        "QT ME",
+        "QT MP"
+      ],
+      "value": []
+    },
+    "Expérience totale": "1800 heures",
+    "Expérience pilote sur la": "550 heures"
+  },
+  "3/3. Validation des données renseignées": {
+    "Fait à": "Paris",
+    "Le": "05/10/2026",
+    "Signature": "Camille Martin (signature fictive)"
+  }
+}

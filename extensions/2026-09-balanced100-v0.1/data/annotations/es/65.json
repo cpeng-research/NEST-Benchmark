@@ -1,0 +1,844 @@
+{
+  "id": "es-health-65-coverage-complaint",
+  "language": "es",
+  "domain": "Healthcare",
+  "business_topic": "coverage-complaint",
+  "title": "Formulario de denuncia de cobertura prestacional",
+  "issuer_id": "Superintendencia de Servicios de Salud - Ministerio de Salud de la Nación Argentina",
+  "template_family": "coverage-complaint",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/2020/01/formulario_de_denuncia_3.pdf",
+  "landing_url": "https://www.argentina.gob.ar/servicio/reclamar-por-problematicas-de-cobertura-prestacional",
+  "source_sha256": "d0b36e1c8b6d11ea4c756181d6c07ea32738b1ac74c55feb0ebc83f1ec7397ba",
+  "source_pages": 1,
+  "retrieved_at": "2026-09-26T10:16:34.303707+00:00",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "Fuente: institución nacional emisora y Argentina.gob.ar. Texto institucional bajo CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), salvo indicación contraria; normalización de estructura y omisión de gráficos, sin logotipos ni patrocinio.",
+  "columns": 6,
+  "rows": [
+    [
+      {
+        "text": "A completar por personal del Organismo",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f001",
+        "label": "Nº",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Datos del Titular",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f002",
+        "label": "Apellido/s",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f003",
+        "label": "Nombre/s",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f004",
+        "label": "Documento",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f005",
+        "label": "Número",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f006",
+        "label": "CUIT",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f007",
+        "label": "Número",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f008",
+        "label": "Obra social o Entidad de Medicina Prepaga denunciada",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Domicilio del titular/apoderado que presenta el reclamo",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f009",
+        "label": "Calle",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f010",
+        "label": "Número",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f011",
+        "label": "Piso",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f012",
+        "label": "Depto",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f013",
+        "label": "Código Postal",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f014",
+        "label": "Localidad",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f015",
+        "label": "Provincia",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f016",
+        "label": "Teléfono",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f017",
+        "label": "Correo electrónico",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Se informa que las notificaciones y/o traslados se realizarán a la dirección de correo electrónico declarada.",
+        "colspan": 6,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "field": "f018",
+        "label": "Solicito que las notifiacionesy/o traslados sean remitidas por correo postal a domicilio.",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Tipo de presentación",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f019",
+        "label": "Tipo de presentación",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Completar solo en caso de que sea en representación de el/los beneficiario/s a su cargo.",
+        "colspan": 6,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "Apellido/s Nombre/s",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "text": "Tipo y Nº de documento",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "text": "CUIL/CUIT",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f020",
+        "label": "",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f021",
+        "label": "",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f022",
+        "label": "",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f023",
+        "label": "",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f024",
+        "label": "",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f025",
+        "label": "",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f026",
+        "label": "",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f027",
+        "label": "",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f028",
+        "label": "",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Reclamo",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f029",
+        "label": "Síntesis del reclamo",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f030",
+        "label": "Detalle de la documentación que se adjunta",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "El presente formulario reviste el carácter de declaración jurada, debiendo ser completada sin falsear ningún dato, sujetando a los infractores a las penalidades previstas en los artículos 172, 292,293, del Código Penal por delito de estafa y falsificación de documentos. ",
+        "colspan": 6,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "field": "f031",
+        "label": "Autorizo a compulsar el expediente a",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f032",
+        "label": "DNI",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f033",
+        "label": "Lugar y fecha",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f034",
+        "label": "Firma y sello del receptor",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f035",
+        "label": "Firma y aclaración",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Bartolomé Mitre 434 | C1036AAH Ciudad Autónoma de Buenos Aires | Argentina. 0800 222 SALUD (72583) | www.argentina.gob.ar/sssalud",
+        "colspan": 6,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "Fuente: Superintendencia de Servicios de Salud - Ministerio de Salud de la Nación Argentina. Documento: Formulario de denuncia de cobertura prestacional. Versión/identificador impreso: no declarado. https://www.argentina.gob.ar/sites/default/files/2020/01/formulario_de_denuncia_3.pdf. Recuperado: 2026-09-26. Condiciones de reutilización: https://www.argentina.gob.ar/terminos-y-condiciones. Fuente: institución nacional emisora y Argentina.gob.ar. Texto institucional bajo CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), salvo indicación contraria; normalización de estructura y omisión de gráficos, sin logotipos ni patrocinio. Adaptación de estructura con datos ficticios.",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Nº",
+      "path": [
+        "A completar por personal del Organismo",
+        "Nº"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nº",
+      "synthetic_value": "EXPEDIENTE-FICTICIO-65"
+    },
+    {
+      "id": "f002",
+      "label": "Apellido/s",
+      "path": [
+        "Datos del Titular",
+        "Apellido/s"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Apellido/s",
+      "synthetic_value": "Titular Ejemplo"
+    },
+    {
+      "id": "f003",
+      "label": "Nombre/s",
+      "path": [
+        "Datos del Titular",
+        "Nombre/s"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre/s",
+      "synthetic_value": "Marina"
+    },
+    {
+      "id": "f004",
+      "label": "Documento",
+      "path": [
+        "Datos del Titular",
+        "Documento"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Documento",
+      "synthetic_value": "DNI",
+      "options": [
+        "DNI",
+        "CI",
+        "LC"
+      ],
+      "context_evidence": "Datos del Titular / Documento: selección [\"DNI\"]; las demás opciones no se marcan."
+    },
+    {
+      "id": "f005",
+      "label": "Número",
+      "path": [
+        "Datos del Titular",
+        "Documento",
+        "Número"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Número",
+      "synthetic_value": "DNI-FICTICIO-65"
+    },
+    {
+      "id": "f006",
+      "label": "CUIT",
+      "path": [
+        "Datos del Titular",
+        "CUIT"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "CUIT",
+      "synthetic_value": "CUIL",
+      "options": [
+        "CUIT",
+        "CUIL"
+      ],
+      "context_evidence": "Datos del Titular / CUIT: selección [\"CUIL\"]; las demás opciones no se marcan."
+    },
+    {
+      "id": "f007",
+      "label": "Número",
+      "path": [
+        "Datos del Titular",
+        "CUIT/CUIL",
+        "Número"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Número",
+      "synthetic_value": "CUIL-FICTICIO-65"
+    },
+    {
+      "id": "f008",
+      "label": "Obra social o Entidad de Medicina Prepaga denunciada",
+      "path": [
+        "Datos del Titular",
+        "Obra social o Entidad de Medicina Prepaga denunciada"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Obra social o Entidad de Medicina Prepaga denunciada",
+      "synthetic_value": "Obra Social Ficticia de Ejemplo"
+    },
+    {
+      "id": "f009",
+      "label": "Calle",
+      "path": [
+        "Domicilio del titular/apoderado que presenta el reclamo",
+        "Calle"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Calle",
+      "synthetic_value": "Calle Ejemplo"
+    },
+    {
+      "id": "f010",
+      "label": "Número",
+      "path": [
+        "Domicilio del titular/apoderado que presenta el reclamo",
+        "Número"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Número",
+      "synthetic_value": "65"
+    },
+    {
+      "id": "f011",
+      "label": "Piso",
+      "path": [
+        "Domicilio del titular/apoderado que presenta el reclamo",
+        "Piso"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Piso",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "f012",
+      "label": "Depto",
+      "path": [
+        "Domicilio del titular/apoderado que presenta el reclamo",
+        "Depto"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Depto",
+      "synthetic_value": "A"
+    },
+    {
+      "id": "f013",
+      "label": "Código Postal",
+      "path": [
+        "Domicilio del titular/apoderado que presenta el reclamo",
+        "Código Postal"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Código Postal",
+      "synthetic_value": "1000"
+    },
+    {
+      "id": "f014",
+      "label": "Localidad",
+      "path": [
+        "Domicilio del titular/apoderado que presenta el reclamo",
+        "Localidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Localidad",
+      "synthetic_value": "Villa Ficticia"
+    },
+    {
+      "id": "f015",
+      "label": "Provincia",
+      "path": [
+        "Domicilio del titular/apoderado que presenta el reclamo",
+        "Provincia"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Provincia",
+      "synthetic_value": "Buenos Aires"
+    },
+    {
+      "id": "f016",
+      "label": "Teléfono",
+      "path": [
+        "Domicilio del titular/apoderado que presenta el reclamo",
+        "Teléfono"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Teléfono",
+      "synthetic_value": "000-000-0065"
+    },
+    {
+      "id": "f017",
+      "label": "Correo electrónico",
+      "path": [
+        "Domicilio del titular/apoderado que presenta el reclamo",
+        "Correo electrónico"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Correo electrónico",
+      "synthetic_value": "marina65@example.invalid"
+    },
+    {
+      "id": "f018",
+      "label": "Solicito que las notifiacionesy/o traslados sean remitidas por correo postal a domicilio.",
+      "path": [
+        "Domicilio del titular/apoderado que presenta el reclamo",
+        "Solicito que las notifiacionesy/o traslados sean remitidas por correo postal a domicilio."
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "Solicito que las notifiacionesy/o traslados sean remitidas por correo postal a domicilio.",
+      "synthetic_value": [],
+      "options": [
+        "Solicito que las notifiacionesy/o traslados sean remitidas por correo postal a domicilio."
+      ],
+      "context_evidence": "Domicilio del titular/apoderado que presenta el reclamo / Solicito que las notifiacionesy/o traslados sean remitidas por correo postal a domicilio.: selección []; las demás opciones no se marcan."
+    },
+    {
+      "id": "f019",
+      "label": "Tipo de presentación",
+      "path": [
+        "Tipo de presentación",
+        "Tipo de presentación"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Tipo de presentación",
+      "synthetic_value": "En representación de el/los beneficiario/s a su cargo.",
+      "options": [
+        "Presentación personal",
+        "En representación de el/los beneficiario/s a su cargo."
+      ],
+      "context_evidence": "Tipo de presentación / Tipo de presentación: selección [\"En representación de el/los beneficiario/s a su cargo.\"]; las demás opciones no se marcan."
+    },
+    {
+      "id": "f020",
+      "label": "Apellido/s Nombre/s",
+      "path": [
+        "Tipo de presentación",
+        "Beneficiarios",
+        "Fila 1",
+        "Apellido/s Nombre/s"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Apellido/s Nombre/s",
+      "synthetic_value": "Luz Beneficiaria Ejemplo"
+    },
+    {
+      "id": "f021",
+      "label": "Tipo y Nº de documento",
+      "path": [
+        "Tipo de presentación",
+        "Beneficiarios",
+        "Fila 1",
+        "Tipo y Nº de documento"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Tipo y Nº de documento",
+      "synthetic_value": "DNI-FICTICIO-BENEFICIARIA-65"
+    },
+    {
+      "id": "f022",
+      "label": "CUIL/CUIT",
+      "path": [
+        "Tipo de presentación",
+        "Beneficiarios",
+        "Fila 1",
+        "CUIL/CUIT"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CUIL/CUIT",
+      "synthetic_value": "CUIL-FICTICIO-BENEFICIARIA-65"
+    },
+    {
+      "id": "f023",
+      "label": "Apellido/s Nombre/s",
+      "path": [
+        "Tipo de presentación",
+        "Beneficiarios",
+        "Fila 2",
+        "Apellido/s Nombre/s"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Apellido/s Nombre/s",
+      "synthetic_value": "",
+      "condition": "única beneficiaria a cargo en este reclamo"
+    },
+    {
+      "id": "f024",
+      "label": "Tipo y Nº de documento",
+      "path": [
+        "Tipo de presentación",
+        "Beneficiarios",
+        "Fila 2",
+        "Tipo y Nº de documento"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Tipo y Nº de documento",
+      "synthetic_value": "",
+      "condition": "única beneficiaria a cargo en este reclamo"
+    },
+    {
+      "id": "f025",
+      "label": "CUIL/CUIT",
+      "path": [
+        "Tipo de presentación",
+        "Beneficiarios",
+        "Fila 2",
+        "CUIL/CUIT"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CUIL/CUIT",
+      "synthetic_value": "",
+      "condition": "única beneficiaria a cargo en este reclamo"
+    },
+    {
+      "id": "f026",
+      "label": "Apellido/s Nombre/s",
+      "path": [
+        "Tipo de presentación",
+        "Beneficiarios",
+        "Fila 3",
+        "Apellido/s Nombre/s"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Apellido/s Nombre/s",
+      "synthetic_value": "",
+      "condition": "única beneficiaria a cargo en este reclamo"
+    },
+    {
+      "id": "f027",
+      "label": "Tipo y Nº de documento",
+      "path": [
+        "Tipo de presentación",
+        "Beneficiarios",
+        "Fila 3",
+        "Tipo y Nº de documento"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Tipo y Nº de documento",
+      "synthetic_value": "",
+      "condition": "única beneficiaria a cargo en este reclamo"
+    },
+    {
+      "id": "f028",
+      "label": "CUIL/CUIT",
+      "path": [
+        "Tipo de presentación",
+        "Beneficiarios",
+        "Fila 3",
+        "CUIL/CUIT"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CUIL/CUIT",
+      "synthetic_value": "",
+      "condition": "única beneficiaria a cargo en este reclamo"
+    },
+    {
+      "id": "f029",
+      "label": "Síntesis del reclamo",
+      "path": [
+        "Reclamo",
+        "Síntesis del reclamo"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Síntesis del reclamo",
+      "synthetic_value": "Reclamo ficticio por demora en autorización de rehabilitación de Luz Beneficiaria Ejemplo, hija a cargo de Marina Titular Ejemplo."
+    },
+    {
+      "id": "f030",
+      "label": "Detalle de la documentación que se adjunta",
+      "path": [
+        "Reclamo",
+        "Detalle de la documentación que se adjunta"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Detalle de la documentación que se adjunta",
+      "synthetic_value": "Credencial ficticia, indicación de rehabilitación ficticia y constancia ficticia de solicitud sin respuesta."
+    },
+    {
+      "id": "f031",
+      "label": "Autorizo a compulsar el expediente a",
+      "path": [
+        "Reclamo",
+        "Autorizo a compulsar el expediente a"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Autorizo a compulsar el expediente a",
+      "synthetic_value": "Inés Apoderada Ejemplo"
+    },
+    {
+      "id": "f032",
+      "label": "DNI",
+      "path": [
+        "Reclamo",
+        "DNI"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DNI",
+      "synthetic_value": "DNI-FICTICIO-APODERADA-65"
+    },
+    {
+      "id": "f033",
+      "label": "Lugar y fecha",
+      "path": [
+        "Reclamo",
+        "Lugar y fecha"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Lugar y fecha",
+      "synthetic_value": "Villa Ficticia, 26/09/2026"
+    },
+    {
+      "id": "f034",
+      "label": "Firma y sello del receptor",
+      "path": [
+        "Reclamo",
+        "Firma y sello del receptor"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Firma y sello del receptor",
+      "synthetic_value": "FIRMA Y SELLO FICTICIOS - René Receptor Ejemplo"
+    },
+    {
+      "id": "f035",
+      "label": "Firma y aclaración",
+      "path": [
+        "Reclamo",
+        "Firma y aclaración"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Firma y aclaración",
+      "synthetic_value": "FIRMA FICTICIA - Marina Titular Ejemplo"
+    }
+  ],
+  "source_version": null,
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "value": null,
+    "kind": "update_date_not_stated",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/2020/01/formulario_de_denuncia_3.pdf",
+    "detail": "No edition number or document update date stated on the inspected pages. Document title and exact hashed original identify this source; retrieval is separate."
+  },
+  "context": "Caso de prueba enteramente ficticio. Las identidades, instituciones, documentos, resultados y firmas son sintéticos. No se presenta una solicitud real.\nA completar por personal del Organismo / Nº: EXPEDIENTE-FICTICIO-65.\nDatos del Titular / Apellido/s: Titular Ejemplo.\nDatos del Titular / Nombre/s: Marina.\nDatos del Titular / Documento: selección [\"DNI\"]; las demás opciones no se marcan.\nDatos del Titular / Documento / Número: DNI-FICTICIO-65.\nDatos del Titular / CUIT: selección [\"CUIL\"]; las demás opciones no se marcan.\nDatos del Titular / CUIT/CUIL / Número: CUIL-FICTICIO-65.\nDatos del Titular / Obra social o Entidad de Medicina Prepaga denunciada: Obra Social Ficticia de Ejemplo.\nDomicilio del titular/apoderado que presenta el reclamo / Calle: Calle Ejemplo.\nDomicilio del titular/apoderado que presenta el reclamo / Número: 65.\nDomicilio del titular/apoderado que presenta el reclamo / Piso: 2.\nDomicilio del titular/apoderado que presenta el reclamo / Depto: A.\nDomicilio del titular/apoderado que presenta el reclamo / Código Postal: 1000.\nDomicilio del titular/apoderado que presenta el reclamo / Localidad: Villa Ficticia.\nDomicilio del titular/apoderado que presenta el reclamo / Provincia: Buenos Aires.\nDomicilio del titular/apoderado que presenta el reclamo / Teléfono: 000-000-0065.\nDomicilio del titular/apoderado que presenta el reclamo / Correo electrónico: marina65@example.invalid.\nDomicilio del titular/apoderado que presenta el reclamo / Solicito que las notifiacionesy/o traslados sean remitidas por correo postal a domicilio.: selección []; las demás opciones no se marcan.\nTipo de presentación / Tipo de presentación: selección [\"En representación de el/los beneficiario/s a su cargo.\"]; las demás opciones no se marcan.\nTipo de presentación / Beneficiarios / Fila 1 / Apellido/s Nombre/s: Luz Beneficiaria Ejemplo.\nTipo de presentación / Beneficiarios / Fila 1 / Tipo y Nº de documento: DNI-FICTICIO-BENEFICIARIA-65.\nTipo de presentación / Beneficiarios / Fila 1 / CUIL/CUIT: CUIL-FICTICIO-BENEFICIARIA-65.\nTipo de presentación / Beneficiarios / Fila 2 / Apellido/s Nombre/s: se deja vacío; única beneficiaria a cargo en este reclamo.\nTipo de presentación / Beneficiarios / Fila 2 / Tipo y Nº de documento: se deja vacío; única beneficiaria a cargo en este reclamo.\nTipo de presentación / Beneficiarios / Fila 2 / CUIL/CUIT: se deja vacío; única beneficiaria a cargo en este reclamo.\nTipo de presentación / Beneficiarios / Fila 3 / Apellido/s Nombre/s: se deja vacío; única beneficiaria a cargo en este reclamo.\nTipo de presentación / Beneficiarios / Fila 3 / Tipo y Nº de documento: se deja vacío; única beneficiaria a cargo en este reclamo.\nTipo de presentación / Beneficiarios / Fila 3 / CUIL/CUIT: se deja vacío; única beneficiaria a cargo en este reclamo.\nReclamo / Síntesis del reclamo: Reclamo ficticio por demora en autorización de rehabilitación de Luz Beneficiaria Ejemplo, hija a cargo de Marina Titular Ejemplo..\nReclamo / Detalle de la documentación que se adjunta: Credencial ficticia, indicación de rehabilitación ficticia y constancia ficticia de solicitud sin respuesta..\nReclamo / Autorizo a compulsar el expediente a: Inés Apoderada Ejemplo.\nReclamo / DNI: DNI-FICTICIO-APODERADA-65.\nReclamo / Lugar y fecha: Villa Ficticia, 26/09/2026.\nReclamo / Firma y sello del receptor: FIRMA Y SELLO FICTICIOS - René Receptor Ejemplo.\nReclamo / Firma y aclaración: FIRMA FICTICIA - Marina Titular Ejemplo.\nLa titular ficticia Marina representa sólo a su hija Luz, única beneficiaria a cargo en el reclamo; las filas 2 y 3 quedan vacías. Acepta notificaciones electrónicas, no solicita correo postal. Inés queda autorizada para compulsar el expediente; personal ficticio del organismo completa número y recepción.",
+  "workflow_identity": {
+    "language": "es",
+    "id": 65
+  }
+}

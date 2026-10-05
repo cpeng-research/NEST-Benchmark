@@ -41,6 +41,17 @@ results.
 Batch dates, sources, reuse notes, and annotation records are under
 [`data/extension_batches/`](data/extension_batches/README.md).
 
+## Versioned Additions Through October 2026
+
+The main `workflow/` retains its 869 records. A further 231 distinct templates
+are packaged in versioned directories under `extensions/`: 77 in the September
+batch and 154 in 24 October batches. Reading the main workflow together with
+these additions yields 1,100 text-task templates (435 English, 426 Chinese,
+125 Spanish, and 114 French). The additions provide numbered stages 0-6 and
+source records; they do not add model baseline predictions. See the
+[extension release index](extensions/RELEASE_1100.md) for batch paths and the
+shared workflow entry point.
+
 Paper-specific inter-annotator agreement materials are retained in the frozen
 [EMNLP 2026 reproduction repository](https://github.com/cpeng-research/NEST-EMNLP2026-Reproduction),
 not in this actively maintained benchmark repository.

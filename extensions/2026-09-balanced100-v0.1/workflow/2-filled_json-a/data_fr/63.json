@@ -1,0 +1,353 @@
+{
+  "Page 1": {
+    "Patient": {
+      "Nom*": "MOREAU",
+      "Prénom*": "PAUL",
+      "Date de naissance*": "14/02/1988",
+      "Téléphone": "06 00 00 00 14",
+      "Courriel": "paul.moreau@example.org"
+    },
+    "Tierce personne": {
+      "Tierce personne": {
+        "choices": [
+          "Représentant légal (obligatoire pour les mineurs)",
+          "Personne de confiance, si l’état clinique du patient ne lui\npermet pas de répondre à l’investigation de l’ARS"
+        ],
+        "value": []
+      },
+      "Nom": "",
+      "Prénom": "",
+      "Téléphone": "",
+      "Courriel": ""
+    },
+    "Identification": {
+      "Sexe*": {
+        "choices": [
+          "F",
+          "M",
+          "I"
+        ],
+        "value": [
+          "M"
+        ]
+      },
+      "Année de naissance": "1988",
+      "Age": "38",
+      "Précisez": {
+        "choices": [
+          "ans",
+          "mois (si < 2 ans)",
+          "jours (si < 1 mois)"
+        ],
+        "value": [
+          "ans"
+        ]
+      },
+      "Code postal du domicile*": "69003",
+      "Pays si patient résidant à l’étranger": "",
+      "Le patient (ou le tiers) est-il informé du diagnostic*": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": [
+          "oui"
+        ]
+      },
+      "L’état clinique du patient lui permet-il de répondre à l’investigation": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": [
+          "oui"
+        ]
+      },
+      "Code d’anonymat (à remplir par l’ARS)": "FICTIF6300000000",
+      "Date de signalement*": "26/09/2026"
+    },
+    "Biologie": {
+      "1": {
+        "RT-PCR": {
+          "Date": "22/09/2026",
+          "Résultat": {
+            "choices": [
+              "Positif",
+              "Négatif",
+              "Non fait"
+            ],
+            "value": [
+              "Positif"
+            ]
+          }
+        }
+      },
+      "RT-PCR autre": {
+        "Nature du prélèvement": ""
+      },
+      "2": {
+        "RT-PCR": {
+          "Date": "",
+          "Résultat": {
+            "choices": [
+              "Positif",
+              "Négatif",
+              "Non fait"
+            ],
+            "value": [
+              "Non fait"
+            ]
+          }
+        }
+      },
+      "3": {
+        "NS1": {
+          "Date": "22/09/2026",
+          "Résultat": {
+            "choices": [
+              "Positif",
+              "Négatif",
+              "Non fait"
+            ],
+            "value": [
+              "Positif"
+            ]
+          }
+        }
+      },
+      "4": {
+        "IgM": {
+          "Date": "22/09/2026",
+          "Résultat": {
+            "choices": [
+              "Positif",
+              "Négatif",
+              "Non fait"
+            ],
+            "value": [
+              "Positif"
+            ]
+          }
+        }
+      },
+      "5": {
+        "IgG": {
+          "Date": "22/09/2026",
+          "Résultat": {
+            "choices": [
+              "Positif",
+              "Négatif",
+              "Non fait"
+            ],
+            "value": [
+              "Négatif"
+            ]
+          },
+          "Séro-conversion": {
+            "choices": [
+              "Séro-conversion"
+            ],
+            "value": []
+          },
+          "Multiplication par 4": {
+            "choices": [
+              "Multiplication par 4"
+            ],
+            "value": []
+          }
+        }
+      },
+      "Sérotype": {
+        "choices": [
+          "DEN1",
+          "DEN2",
+          "DEN3",
+          "DEN4",
+          "Inconnu/non fait"
+        ],
+        "value": [
+          "DEN2"
+        ]
+      }
+    },
+    "Clinique": {
+      "Date des premiers signes cliniques": "20/09/2026",
+      "Fièvre > 38,5° C": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": [
+          "oui"
+        ]
+      },
+      "Signes algiques (myalgies, arthralgies, céphalées…)": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": [
+          "oui"
+        ]
+      }
+    },
+    "Évolution": {
+      "Hospitalisation": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": [
+          "oui"
+        ]
+      },
+      "Réanimation": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": [
+          "non"
+        ]
+      },
+      "Décès": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": [
+          "non"
+        ]
+      }
+    },
+    "Exposition(s) à risque dans les 15 jours précédant les premiers signes cliniques (plusieurs réponses possibles)": {
+      "Séjour à l’étranger / dans un territoire ultramarin": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": [
+          "oui"
+        ]
+      },
+      "si oui, précisez-le(s) pays/territoire(s)": "Brésil",
+      "Séjour étranger": {
+        "Retour": "18/09/2026"
+      },
+      "Avant symptômes": {
+        "Séjour": {
+          "choices": [
+            "oui",
+            "non",
+            "nsp"
+          ],
+          "value": [
+            "non"
+          ]
+        },
+        "Département": "",
+        "Retour": ""
+      }
+    },
+    "Déplacement dans les 7 jours après la date de début des signes cliniques (période virémique)": {
+      "Après symptômes": {
+        "Séjour": {
+          "choices": [
+            "oui",
+            "non",
+            "nsp"
+          ],
+          "value": [
+            "non"
+          ]
+        },
+        "Département": "",
+        "Retour": ""
+      },
+      "Existence d’autres cas dans l’entourage": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": [
+          "non"
+        ]
+      }
+    },
+    "Antécédents": {
+      "Vaccination dengue": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": [
+          "non"
+        ]
+      },
+      "Année": "",
+      "Vaccination autre flavivirus (TBE, encéphalite japonaise, fièvre jaune)": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": [
+          "non"
+        ]
+      },
+      "Antécédent d’infection par le virus de la dengue": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": [
+          "non"
+        ]
+      },
+      "Antécédent d’infection par un autre flavivirus (dengue, Zika, West Nile, TBE, encéphalite japonaise, fièvre jaune, Usutu)": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": [
+          "non"
+        ]
+      }
+    },
+    "Médecin prescripteur / Signalant1 (ou tampon)": {
+      "Nom / RPPS": "Claire Garnier / 10123456789",
+      "Lieux d’exercice": "Centre hospitalier fictif des Tilleuls",
+      "Adresse": "18 rue des Tilleuls, 69003 Lyon",
+      "Téléphone": "04 00 00 00 11",
+      "Courriel": "claire.garnier@example.org"
+    },
+    "Biologiste2 (ou tampon)": {
+      "Biologiste": {
+        "Nom": {
+          "RPPS": "Luc Martin / 10123456780"
+        },
+        "LBM": {
+          "Finess": "Laboratoire fictif / 690000123"
+        },
+        "Adresse": "18 rue des Tilleuls, 69003 Lyon",
+        "Téléphone": "04 00 00 00 12",
+        "Courriel": "luc.martin@example.org"
+      }
+    },
+    "ARS (tampon)": {
+      "ARS (tampon)": "ARS Auvergne-Rhône-Alpes (tampon fictif)"
+    }
+  }
+}

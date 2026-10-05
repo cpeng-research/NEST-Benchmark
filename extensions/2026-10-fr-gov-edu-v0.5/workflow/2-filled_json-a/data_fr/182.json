@@ -1,0 +1,113 @@
+{
+  "Exploitant": {
+    "Nom": "Exploitation Exemple",
+    "Numéro UAS": "FRA000000000000",
+    "Adresse": "12 rue Exemple, 75012 Paris"
+  },
+  "Point de contact opérationnel": {
+    "Nom": "Camille Martin",
+    "Téléphone": "06 00 00 00 00",
+    "Courriel": "contact@example.invalid"
+  },
+  "Dérogations demandées": {
+    "Dérogation à l’interdiction de voler de nuit": {
+      "choices": [
+        "Exploitation en vue directe en catégorie Ouverte",
+        "Exploitation en catégorie Spécifique hors scénario standard selon une autorisation d’exploitation générique",
+        "Autres cas d’activités : exploitation en catégorie Spécifique hors scénario standard"
+      ],
+      "value": [
+        "Exploitation en catégorie Spécifique hors scénario standard selon une autorisation d’exploitation générique"
+      ]
+    },
+    "Dérogation aux hauteurs maximales d’évolution": {
+      "choices": [
+        "Activités hors vue (autres que catégorie ouverte ou aéromodélisme) avec un aéronef de masse supérieure à 2kg et à une hauteur supérieure à 50 m au-dessus de la surface",
+        "Activités hors vue (autres que catégorie ouverte ou aéromodélisme) avec un aéronef de masse inférieure à 2kg et à une hauteur supérieure à 120 m au-dessus de la surface"
+      ],
+      "value": [
+        "Activités hors vue (autres que catégorie ouverte ou aéromodélisme) avec un aéronef de masse supérieure à 2kg et à une hauteur supérieure à 50 m au-dessus de la surface"
+      ]
+    }
+  },
+  "Dates des vols": {
+    "debut": {
+      "Date": "20/11/2026",
+      "Heure": "20:30"
+    },
+    "fin": {
+      "Date": "20/11/2026",
+      "Heure": "21:30"
+    }
+  },
+  "Aéronefs": {
+    "Aéronef 1": {
+      "Constructeur": "Drone Exemple",
+      "Modèle": "DX-1",
+      "Mention de classe éventuelle": "C2",
+      "N° d’enregistrement UAS": "F-EX000",
+      "Masse maximale prévue pour les vols": "2,5 kg"
+    },
+    "Aéronef 2": {
+      "Constructeur": "Sans objet",
+      "Modèle": "Sans objet",
+      "Mention de classe éventuelle": "Sans objet",
+      "N° d’enregistrement UAS": "Sans objet",
+      "Masse maximale prévue pour les vols": "Sans objet"
+    },
+    "Aéronef 3": {
+      "Constructeur": "Sans objet",
+      "Modèle": "Sans objet",
+      "Mention de classe éventuelle": "Sans objet",
+      "N° d’enregistrement UAS": "Sans objet",
+      "Masse maximale prévue pour les vols": "Sans objet"
+    }
+  },
+  "Description des vols": {
+    "Site(s)": {
+      "choices": [
+        "Hors zone peuplée",
+        "En zone peuplée"
+      ],
+      "value": [
+        "Hors zone peuplée"
+      ]
+    },
+    "Code postal": "91120",
+    "Localité(s)": "Palaiseau",
+    "Adresse(s)": "Zone Exemple",
+    "Hauteur maximale de vol": "60 m",
+    "Distance maximale au télépilote": "200 m",
+    "Vitesse maximale d’évolution": "8 m/s"
+  },
+  "Vol et espace aérien": {
+    "En vue directe": {
+      "choices": [
+        "En vue directe",
+        "Hors vue"
+      ],
+      "value": [
+        "Hors vue"
+      ]
+    },
+    "Espaces aériens contrôlés/réglementés éventuellement pénétrés": "Sans objet",
+    "Objet des vols et justification du besoin de la dérogation": "Inspection fictive nécessitant une opération en soirée"
+  },
+  "Engagement de l'exploitant": {
+    "Je soussigné, représentant l’exploitant identifié au §1 ci-dessus": {
+      "choices": [
+        "Certifie l’exactitude des renseignements figurant dans la présente déclaration",
+        "M’engage à",
+        "Déclare qu’une assurance couvrant les risques liés aux opérations prévues a été contractée"
+      ],
+      "value": [
+        "Certifie l’exactitude des renseignements figurant dans la présente déclaration",
+        "M’engage à",
+        "Déclare qu’une assurance couvrant les risques liés aux opérations prévues a été contractée"
+      ]
+    },
+    "A": "Palaiseau",
+    "Le": "05/10/2026",
+    "Nom": "Camille Martin"
+  }
+}

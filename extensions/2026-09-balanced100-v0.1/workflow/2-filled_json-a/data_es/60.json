@@ -1,0 +1,268 @@
+{
+  "DATOS INSTITUCION DERIVANTE": {
+    "Institución derivante": "Hospital Ficticio de Ejemplo",
+    "Servicio": "Neumonología ficticia",
+    "Dirección Postal": "Calle Ejemplo 60, Villa Ficticia",
+    "Teléfono": "000-000-0060",
+    "Correo electrónico": "laboratorio60@example.invalid"
+  },
+  "CARACTERISTICAS DEL CULTIVO": {
+    "Desarrollo en": {
+      "choices": [
+        "LJ",
+        "ST",
+        "MGIT",
+        "KO"
+      ],
+      "value": [
+        "LJ"
+      ]
+    },
+    "Positividad": {
+      "choices": [
+        "<20 col",
+        "1+",
+        "2+",
+        "3+"
+      ],
+      "value": [
+        "2+"
+      ]
+    },
+    "Velocidad de desarrollo": {
+      "choices": [
+        "<7 días",
+        ">7 días"
+      ],
+      "value": [
+        ">7 días"
+      ]
+    },
+    "Pigmentación": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "Características de las colonias": {
+      "choices": [
+        "Rugosas",
+        "Lisas"
+      ],
+      "value": [
+        "Rugosas"
+      ]
+    }
+  },
+  "Identificación / Prueba de sensibilidad": {
+    "Identificado como": "M. tuberculosis, supuesto ficticio",
+    "Sensible a": "Isoniazida y rifampicina ficticias",
+    "Resistente a": "Ninguna de las probadas, supuesto ficticio"
+  },
+  "Identificación": {
+    "Método utilizado": {
+      "choices": [
+        "ICL",
+        "Xpert",
+        "LPA",
+        "MALDI TOF"
+      ],
+      "value": [
+        "ICL"
+      ]
+    }
+  },
+  "Prueba de sensibilidad": {
+    "Método utilizado": {
+      "choices": [
+        "Nitratasa",
+        "Prop. medio sólido",
+        "MGIT",
+        "Xpert",
+        "LPA",
+        "Otro"
+      ],
+      "value": [
+        "MGIT"
+      ]
+    }
+  },
+  "TRATAMIENTO": {
+    "mes": "agosto",
+    "Año de inicio": "2026",
+    "Se le administró las siguientes drogas": "Isoniazida, rifampicina, pirazinamida y etambutol en supuesto ficticio, no prescripción",
+    "La evolución del paciente con este tratamiento es": {
+      "choices": [
+        "buena",
+        "estable",
+        "mala"
+      ],
+      "value": [
+        "buena"
+      ]
+    }
+  },
+  "Resultados de estudios bacteriológicos anteriores": {
+    "Fila 1": {
+      "Fecha": "20/08/2026",
+      "Muestra estudiada": "Esputo",
+      "Baciloscopía": "2+",
+      "Cultivo": "Positivo ficticio",
+      "Identificado como": "M. tuberculosis ficticia",
+      "Sensible a": "Isoniazida y rifampicina ficticias",
+      "Resistente a": "Ninguna probada ficticia"
+    },
+    "Fila 2": {
+      "Fecha": "",
+      "Muestra estudiada": "",
+      "Baciloscopía": "",
+      "Cultivo": "",
+      "Identificado como": "",
+      "Sensible a": "",
+      "Resistente a": ""
+    },
+    "Fila 3": {
+      "Fecha": "",
+      "Muestra estudiada": "",
+      "Baciloscopía": "",
+      "Cultivo": "",
+      "Identificado como": "",
+      "Sensible a": "",
+      "Resistente a": ""
+    },
+    "Fila 4": {
+      "Fecha": "",
+      "Muestra estudiada": "",
+      "Baciloscopía": "",
+      "Cultivo": "",
+      "Identificado como": "",
+      "Sensible a": "",
+      "Resistente a": ""
+    }
+  },
+  "SOSPECHA DE": {
+    "SOSPECHA DE": {
+      "choices": [
+        "Contaminación cruzada de laboratorio",
+        "Transmisión intrainstitucional"
+      ],
+      "value": []
+    }
+  },
+  "DATOS DEL PACIENTE": {
+    "Apellido y Nombres*": "Marina Paciente Ejemplo",
+    "HC Nº": "HC-FICTICIA-60",
+    "Documento*": "DNI-FICTICIO-60",
+    "Fecha de nacimiento*": "12/04/1981",
+    "Edad": "45",
+    "Nacionalidad": "Argentina",
+    "Domicilio*": "Calle Ejemplo 60",
+    "Localidad*": "Villa Ficticia",
+    "Partido/Dpto*": "Partido Ficticio",
+    "Provincia*": "Buenos Aires",
+    "País de residencia anterior": "",
+    "Teléfono*": "000-000-0160",
+    "Sexo": {
+      "choices": [
+        "F",
+        "M",
+        "Otro"
+      ],
+      "value": [
+        "F"
+      ]
+    },
+    "Servicio que deriva la muestra": "Neumonología, Hospital Ficticio de Ejemplo",
+    "Fecha": "26/09/2026"
+  },
+  "ESTUDIOS REQUERIDOS": {
+    "ESTUDIOS REQUERIDOS": {
+      "choices": [
+        "Baciloscopía",
+        "Cultivo",
+        "Prueba de sensibilidad",
+        "Prueba rápida diagnóstica"
+      ],
+      "value": [
+        "Prueba de sensibilidad"
+      ]
+    },
+    "Para diagnóstico": {
+      "choices": [
+        "Para diagnóstico",
+        "Para control de tratamiento"
+      ],
+      "value": [
+        "Para control de tratamiento"
+      ]
+    },
+    "Muestra": {
+      "choices": [
+        "1ra",
+        "2da",
+        "3ra"
+      ],
+      "value": []
+    },
+    "Mes de tratamiento": "2",
+    "Muestra de": "Aislamiento de esputo ficticio",
+    "Resultado de la baciloscopía": "2+ ficticio",
+    "Fecha de toma de muestra": "24/09/2026",
+    "N° de derivación de SISA (ID de derivación)*": "SISA-FICTICIO-60",
+    "Nombre y Apellido del Médico*": "Elena Médica Ejemplo",
+    "Tel": "000-000-0260",
+    "Email*": "elena60@example.invalid"
+  },
+  "ANTECEDENTES DEL PACIENTE": {
+    "ANTECEDENTES DEL PACIENTE": {
+      "choices": [
+        "Sintomático respiratorio con dos o más baciloscopías de esputo negativas",
+        "Enfermedad extrapulmonar",
+        "Tratamiento previo para tuberculosis",
+        "Personal de salud",
+        "Persona privada de la libertad",
+        "Contacto de paciente con TB resistente a las drogas",
+        "Inmunocomprometido",
+        "Persona que vive con diabetes",
+        "Niño",
+        "Consumo problemático de alcohol y/o drogas",
+        "Otro (indique)"
+      ],
+      "value": [
+        "Tratamiento previo para tuberculosis"
+      ]
+    },
+    "Tratamiento previo": {
+      "Respuesta": {
+        "choices": [
+          "No",
+          "Si"
+        ],
+        "value": [
+          "Si"
+        ]
+      },
+      "Categoría": {
+        "choices": [
+          "Recuperado a la pérdida de seguimiento",
+          "Falla de tratamiento",
+          "Tratamiento completo",
+          "Curado"
+        ],
+        "value": [
+          "Curado"
+        ]
+      }
+    },
+    "Otro": {
+      "Descripción": ""
+    }
+  },
+  "Certificación": {
+    "Firma y sello": "FIRMA Y SELLO FICTICIOS - Elena Médica Ejemplo",
+    "Fecha": "26/09/2026"
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "DATOS DEL CASO": {
+    "FECHA SOLICITUD": "",
+    "APELLIDO": "",
+    "NOMBRES": "",
+    "DNI": "",
+    "HIV": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": []
+    },
+    "FECHA NACIMIENTO": "",
+    "SEXO": "",
+    "EDAD": "",
+    "OCUPACIÓN": "",
+    "NACIONALIDAD": "",
+    "PROV. RESIDENCIA": "",
+    "CIUDAD": "",
+    "TELÉFONO PACIENTE": ""
+  },
+  "DATOS DE LA INSTITUCIÓN": {
+    "Hospital/Institución": "",
+    "Ciudad de la institución": "",
+    "Nombre del médico": "",
+    "Mail del médico": ""
+  },
+  "DATOS DE INTERÉS / ESTUDIO DE": {
+    "ESTUDIO DE": {
+      "choices": [
+        "Confirmación DIAGNÓSTICA de infección por HCV",
+        "Control post-TRATAMIENTO de infección por HCV",
+        "Confirmación DIAGNÓSTICA de infección por HBV",
+        "Monitoreo de infección por HBV CON TRATAMIENTO",
+        "Monitoreo de infección por HBV SIN TRATAMIENTO",
+        "Estudio de infección por virus de Hepatitis D"
+      ],
+      "value": []
+    },
+    "MUESTRAS": {
+      "choices": [
+        "Suero",
+        "Plasma"
+      ],
+      "value": []
+    }
+  },
+  "DATOS DE INTERÉS / TRATAMIENTO": {
+    "TRATAMIENTO": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": []
+    },
+    "Esquema": "",
+    "Fecha INICIO": "",
+    "Fecha FIN": ""
+  },
+  "DATOS DE INTERÉS / OTROS DATOS": {
+    "HEPATITIS": {
+      "choices": [
+        "Aguda",
+        "Crónica"
+      ],
+      "value": []
+    },
+    "INMUNOSUPRESIÓN": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": []
+    },
+    "¿Cuál?": "",
+    "EMBARAZO": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": []
+    },
+    "Semana": "",
+    "CIRROSIS": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": []
+    },
+    "HCC": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": []
+    },
+    "VACUNA HBV": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": []
+    },
+    "Dosis": "",
+    "COMORBILIDADES": ""
+  },
+  "OTROS DATOS": {
+    "VACUNA HBV": {
+      "Fecha": ""
+    }
+  },
+  "RESULTADOS PREVIOS / HCV": {
+    "anti-HCV": {
+      "choices": [
+        "TR",
+        "ELISA",
+        "QML/ELFA"
+      ],
+      "value": []
+    },
+    "Valor": "",
+    "Fecha": "",
+    "carga viral": "",
+    "genotipo": ""
+  },
+  "RESULTADOS PREVIOS": {
+    "HCV": {
+      "carga viral": {
+        "Fecha": ""
+      }
+    },
+    "HBV": {
+      "HBsAg": {
+        "Método": {
+          "choices": [
+            "TR",
+            "ELISA",
+            "QML/ELFA"
+          ],
+          "value": []
+        },
+        "Valor": ""
+      },
+      "anti-HBs": {
+        "Método": {
+          "choices": [
+            "TR",
+            "ELISA",
+            "QML/ELFA"
+          ],
+          "value": []
+        },
+        "Valor": ""
+      },
+      "anti-HBc": {
+        "Método": {
+          "choices": [
+            "ELISA",
+            "QML/ELFA"
+          ],
+          "value": []
+        },
+        "Valor": ""
+      },
+      "Marcadores": {
+        "Fecha compartida": ""
+      },
+      "Carga viral": {
+        "Fecha": ""
+      }
+    }
+  },
+  "RESULTADOS PREVIOS / HDV": {
+    "anti-HDV": {
+      "choices": [
+        "ELISA",
+        "QML/ELFA"
+      ],
+      "value": []
+    },
+    "Valor": "",
+    "Fecha": ""
+  },
+  "RESULTADOS PREVIOS / HBV": {
+    "Carga viral": ""
+  },
+  "DATOS CLÍNICOS / HEPATOGRAMA": {
+    "ALAT (TGP)": "",
+    "ASAT (TGO)": "",
+    "Bilirrubina total": "",
+    "Bilirrubina directa": "",
+    "TP": ""
+  },
+  "DATOS CLÍNICOS / FACTORES DE RIESGO": {
+    "FACTORES DE RIESGO": {
+      "choices": [
+        "HSH",
+        "DEV",
+        "Droga inhalatoria",
+        "Transfusión.",
+        "Diálisis.",
+        "Alcoholismo",
+        "Prácticas médicas no seguras",
+        "Prácticas sexuales sin protección",
+        "Múltiples parejas sexuales",
+        "Desconocido"
+      ],
+      "value": []
+    }
+  },
+  "FACTORES DE RIESGO": {
+    "Transfusión": {
+      "Año": ""
+    },
+    "Diálisis": {
+      "Año": ""
+    }
+  },
+  "DATOS CLÍNICOS": {
+    "SÍNTOMAS": {
+      "Columna 1": {
+        "choices": [
+          "Asintomático",
+          "Ictericia",
+          "Coluria",
+          "Hepatomegalia",
+          "Esplenomegalia"
+        ],
+        "value": []
+      },
+      "Columna 2": {
+        "choices": [
+          "Ascitis",
+          "Prurito",
+          "Encefalopatía",
+          "Dolor Abdominal",
+          "Astenia"
+        ],
+        "value": []
+      },
+      "Columna 3": {
+        "choices": [
+          "Acolia",
+          "Hiporexia",
+          "Ictericia",
+          "Hemorragia"
+        ],
+        "value": []
+      }
+    }
+  }
+}

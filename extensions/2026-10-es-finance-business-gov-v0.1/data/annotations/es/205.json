@@ -1,0 +1,134 @@
+{
+  "id": "es-205-inase-fo179",
+  "language": "es",
+  "domain": "Business",
+  "title": "Técnicas opcionales a acreditar",
+  "business_topic": "Técnicas opcionales a acreditar",
+  "issuer_id": "INASE",
+  "template_family": "inase-fo179",
+  "source_pages": 1,
+  "source_sha256": "2e8340b3f143c11480ddb17f5d02a23294491367d6d8e7c27a5c80c95af96dff",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/fo_179-rev.02-listado_de_tecnicas_a_acreditar.pdf",
+  "landing_url": "https://www.argentina.gob.ar/servicio/acreditar-un-laboratorio-de-analisis-de-semillas",
+  "license_url": "https://www.argentina.gob.ar/acerca",
+  "license_note": "Argentina.gob.ar states CC BY 4.0 for its published content. This candidate uses normalized form text and structure, not the source PDF artwork or any logo. The portal statement does not override contrary PDF-specific or third-party notices.",
+  "retrieved_at": "2026-10-05",
+  "source_version": "FO179 Rev.02",
+  "source_date_evidence": {
+    "kind": "printed PDF header",
+    "value": "2024-01-03",
+    "raw": "CÓDIGO: FO 179 REVISION: 02 FECHA EMISIÓN: 03/01/2024",
+    "scope": "Issue date and revision printed on this PDF; no assertion of later version status.",
+    "retrieval_timestamp_utc": "2026-10-04T19:09:57.115282+00:00"
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "LISTADO DE TECNICAS A ACREDITAR",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "ALCANCE MÍNIMO DE LA ACREDITACIÓN",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "ALCANCE OPCIONAL",
+        "field": "f001",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "ALCANCE OPCIONAL",
+      "path": [
+        "Página 1",
+        "ALCANCE OPCIONAL",
+        "ALCANCE OPCIONAL"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "ALCANCE OPCIONAL",
+      "options": [
+        "Viabilidad por la prueba tetrazolio",
+        "Peso de 1000 semillas",
+        "Determinación del contenido de humedad",
+        "Análisis de semillas recubiertas",
+        "Análisis de repeticiones por peso"
+      ],
+      "synthetic_value": [
+        "Viabilidad por la prueba tetrazolio",
+        "Determinación del contenido de humedad"
+      ],
+      "context_evidence": "ALCANCE OPCIONAL / ALCANCE OPCIONAL: Viabilidad por la prueba tetrazolio, Determinación del contenido de humedad",
+      "source_widgets": [
+        {
+          "name": "Button1",
+          "page": 1,
+          "rect": [
+            104.8,
+            369.2,
+            113.7,
+            378.7
+          ]
+        },
+        {
+          "name": "Button3",
+          "page": 1,
+          "rect": [
+            104.3,
+            399.9,
+            113.7,
+            408.3
+          ]
+        },
+        {
+          "name": "Button4",
+          "page": 1,
+          "rect": [
+            104.8,
+            430.4,
+            113.7,
+            438.9
+          ]
+        },
+        {
+          "name": "Button5",
+          "page": 1,
+          "rect": [
+            105.3,
+            460.4,
+            114.3,
+            468.9
+          ]
+        },
+        {
+          "name": "Button6",
+          "page": 1,
+          "rect": [
+            104.8,
+            490.4,
+            113.7,
+            499.4
+          ]
+        }
+      ]
+    }
+  ],
+  "context": "Datos ficticios de prueba; no corresponde a una solicitud real.\nALCANCE OPCIONAL / ALCANCE OPCIONAL: Viabilidad por la prueba tetrazolio, Determinación del contenido de humedad\n",
+  "workflow_identity": {
+    "language": "es",
+    "id": 205
+  }
+}

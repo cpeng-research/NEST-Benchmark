@@ -1,0 +1,216 @@
+{
+  "id": "es-207-fna-asentimiento",
+  "language": "es",
+  "domain": "Finance",
+  "title": "Asentimiento conyugal para préstamo FNA",
+  "business_topic": "Asentimiento conyugal para préstamo FNA",
+  "issuer_id": "FNA",
+  "template_family": "fna-asentimiento",
+  "source_pages": 1,
+  "source_sha256": "1e61c46ff81dfd5bd01bb60ae4f793c431a9ffe3c5808abaf8844f7e9bf11e38",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/fna-_asentimiento_conyugal_1.pdf",
+  "landing_url": "https://www.argentina.gob.ar/servicio/pedir-un-microcredito-para-actividades-creativas",
+  "license_url": "https://www.argentina.gob.ar/acerca",
+  "license_note": "Argentina.gob.ar states CC BY 4.0 for its published content. This candidate uses normalized form text and structure, not the source PDF artwork or any logo. The portal statement does not override contrary PDF-specific or third-party notices.",
+  "retrieved_at": "2026-10-05",
+  "source_version": "No printed revision",
+  "source_date_evidence": {
+    "kind": "PDF file metadata date",
+    "value": "2015-08-26",
+    "raw": "D:20150826142902",
+    "scope": "File metadata only; not an official issue, effective or current-version date.",
+    "retrieval_timestamp_utc": "2026-10-04T19:09:58.949970+00:00"
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "Asentimiento conyugal",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Préstamo Nº",
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Expte. Nº",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Buenos Aires,",
+        "field": "f003",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "mi cónyuge",
+        "field": "f004",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FIRMA",
+        "field": "f005",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Aclaración de firma:",
+        "field": "f006",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "D.N.I.:",
+        "field": "f007",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Domicilio:",
+        "field": "f008",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Préstamo Nº",
+      "path": [
+        "Página 1",
+        "Encabezado",
+        "Préstamo Nº"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Préstamo Nº",
+      "synthetic_value": "PR-0001",
+      "source_widgets": []
+    },
+    {
+      "id": "f002",
+      "label": "Expte. Nº",
+      "path": [
+        "Página 1",
+        "Encabezado",
+        "Expte. Nº"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Expte. Nº",
+      "synthetic_value": "EXP-0001",
+      "source_widgets": []
+    },
+    {
+      "id": "f003",
+      "label": "Buenos Aires,",
+      "path": [
+        "Página 1",
+        "Encabezado",
+        "Fecha"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Buenos Aires,",
+      "synthetic_value": "05/10/2026",
+      "source_widgets": []
+    },
+    {
+      "id": "f004",
+      "label": "mi cónyuge",
+      "path": [
+        "Página 1",
+        "Declaración",
+        "Cónyuge"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "mi cónyuge",
+      "synthetic_value": "Alejandro Gómez",
+      "source_widgets": []
+    },
+    {
+      "id": "f005",
+      "label": "FIRMA",
+      "path": [
+        "Página 1",
+        "Firma",
+        "FIRMA"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "FIRMA",
+      "synthetic_value": "Elena Pérez",
+      "source_widgets": []
+    },
+    {
+      "id": "f006",
+      "label": "Aclaración de firma:",
+      "path": [
+        "Página 1",
+        "Identificación",
+        "Aclaración de firma:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Aclaración de firma:",
+      "synthetic_value": "Elena Pérez",
+      "source_widgets": []
+    },
+    {
+      "id": "f007",
+      "label": "D.N.I.:",
+      "path": [
+        "Página 1",
+        "Identificación",
+        "D.N.I.:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "D.N.I.:",
+      "synthetic_value": "00000004",
+      "source_widgets": []
+    },
+    {
+      "id": "f008",
+      "label": "Domicilio:",
+      "path": [
+        "Página 1",
+        "Identificación",
+        "Domicilio:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Domicilio:",
+      "synthetic_value": "Calle Ejemplo 9, Buenos Aires",
+      "source_widgets": []
+    }
+  ],
+  "context": "Datos ficticios de prueba; no corresponde a una solicitud real.\nEncabezado / Préstamo Nº: PR-0001\nEncabezado / Expte. Nº: EXP-0001\nEncabezado / Fecha: 05/10/2026\nDeclaración / Cónyuge: Alejandro Gómez\nFirma / FIRMA: Elena Pérez\nIdentificación / Aclaración de firma:: Elena Pérez\nIdentificación / D.N.I.:: 00000004\nIdentificación / Domicilio:: Calle Ejemplo 9, Buenos Aires\n",
+  "workflow_identity": {
+    "language": "es",
+    "id": 207
+  }
+}

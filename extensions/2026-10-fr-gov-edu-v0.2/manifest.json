@@ -1,0 +1,145 @@
+{
+  "extension_id": "2026-10-fr-gov-edu-v0.2",
+  "added_on": "2026-10-05",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 4,
+  "samples": [
+    {
+      "id": 104,
+      "language": "fr",
+      "title": "Déclaration d'intention de mise en liste de flotte",
+      "source_id": "fr-dgac-fleet-intention-ed1-v1",
+      "domain": "GovPublic",
+      "issuer_id": "DGAC/DSAC",
+      "template_family": "dgac-fleet-intention-ed1-v1",
+      "source_pages": 3,
+      "source_sha256": "5b3be87eb9787599fd0e3b6a5b6c79abadbc5765b7711c950df3c8ebeaeb4a56",
+      "fields": 30,
+      "files": {
+        "workflow/0-html_template/data_fr/104.html": "7b9f236fcfe9b26a9f1bff45d357a14fed0a91354e90d072b12fc3738250be2c",
+        "workflow/1-annotated_json/data_fr/104.json": "581bd93299449ff10010ca9b03992f54a9a8a0329122d1d96500a3dea6c80882",
+        "workflow/2-filled_json-a/data_fr/104.json": "6297409a120bf945b5cde9d5a8046bec5b311c971e9649d7260589c8bac8ffcd",
+        "workflow/3-filled_html-a/data_fr/104.html": "3a0f624f1e4a464d26ff74a84f9420f728e0a5583386db93343bbe1c5902daf3",
+        "workflow/4-context-a/data_fr/104.txt": "c6681efa5f10a468329f762f436b6b2d38d91827bc708b8e8fb4b4052efd431f",
+        "workflow/5-ph_html-a/data_fr/104.html": "d8f5a5c998597082e95f60991c81d2e49833c722e055d9e603e8ff9779fe0d5d",
+        "workflow/6-meta-a/data_fr/104.json": "c422c41156fa4a65d80db8874742cf9dce04eec6d42a3dedab9bb7ce879a957b"
+      },
+      "annotation_path": "data/annotations/fr/104.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 106,
+      "language": "fr",
+      "title": "Déclaration d'exploitation de ballons",
+      "source_id": "fr-dgac-balloon-declaration-v4-1",
+      "domain": "GovPublic",
+      "issuer_id": "DGAC/DSAC",
+      "template_family": "dgac-balloon-declaration-v4-1",
+      "source_pages": 2,
+      "source_sha256": "d3ef49c6aaeedb1354037725d0d00b8f53fed24bb08e5ead7df406a1731dfb2b",
+      "fields": 40,
+      "files": {
+        "workflow/0-html_template/data_fr/106.html": "92cb9a05e172c9729cd85b829ad19dc4af6acbe897d293abe02b28e633a646ce",
+        "workflow/1-annotated_json/data_fr/106.json": "f04dc87186e2d83cebbf40dd69ccf14069c4a913e669d9d2d5c3f3aa3159d957",
+        "workflow/2-filled_json-a/data_fr/106.json": "d58edf6988791d5f1c8175efa80d5161a5ac4c05f761179afa099fe2a7dfe1e2",
+        "workflow/3-filled_html-a/data_fr/106.html": "de8df5f0b1d83c1acb337c29057f23b7a8d4b061cd3ba47d3ce946ccdc3e280c",
+        "workflow/4-context-a/data_fr/106.txt": "fbc5715a215222860f47af1be1852db36fe9231ae2b5c41535b34ec24ef56b07",
+        "workflow/5-ph_html-a/data_fr/106.html": "22bdc2d3a85a5c497051485bed337119b8148a98d64ef532e85265081365e4d7",
+        "workflow/6-meta-a/data_fr/106.json": "688acda27581dc3b274aef3639ec2298335dee5460175c6665157c9bdc6254df"
+      },
+      "annotation_path": "data/annotations/fr/106.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 108,
+      "language": "fr",
+      "title": "Notification d'utilisation d'une liste minimale d'équipement",
+      "source_id": "fr-dgac-minimum-equipment-v2",
+      "domain": "GovPublic",
+      "issuer_id": "DGAC/DSAC",
+      "template_family": "dgac-minimum-equipment-v2",
+      "source_pages": 2,
+      "source_sha256": "4c972c7d1e2dcdab9bc9ea7eadf75caca12870e94d9844703694d139c3491bca",
+      "fields": 16,
+      "files": {
+        "workflow/0-html_template/data_fr/108.html": "8ff31ff4629753a8488e462669660d176d77080e53a51b70f54038471cda1f0c",
+        "workflow/1-annotated_json/data_fr/108.json": "6c5dd5e06c031b35ac0265ba4a3f2d6e637a41432042650d816067210408b037",
+        "workflow/2-filled_json-a/data_fr/108.json": "fded572d7e9058961dd48d8a84456d6b6d0fecded106cc04cd8046c07f7822a8",
+        "workflow/3-filled_html-a/data_fr/108.html": "39278c49df93707afc40e96143e569f0f611c0660ea5622112cf45e5f0461bb0",
+        "workflow/4-context-a/data_fr/108.txt": "d0ee3dfd954047efd2fe9ebfaaa80e0cdbdcb47ecea3103d4fbac8a1a0e2371b",
+        "workflow/5-ph_html-a/data_fr/108.html": "c16d9e19667fdbd4d7a112d0fb8f5a47db6003cb48329c0a4707192f5a48f6b6",
+        "workflow/6-meta-a/data_fr/108.json": "882b98c9880ce70ec0442b269761bfe461cb8149a14d5cd486cb82f7527bb5c1"
+      },
+      "annotation_path": "data/annotations/fr/108.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 118,
+      "language": "fr",
+      "title": "Procuration annuelle pour paiement des bourses",
+      "source_id": "fr-bourse-procuration-2026-2027",
+      "domain": "Education",
+      "issuer_id": "DGESCO",
+      "template_family": "bourse-procuration-2026-2027",
+      "source_pages": 1,
+      "source_sha256": "d082a45745cfc74a1b76c6275da2653b14fd884510be8ab14b251d7cbc021a9d",
+      "fields": 17,
+      "files": {
+        "workflow/0-html_template/data_fr/118.html": "08e84e0f463d1cdff4570f5f3f332b11e1f07cb16fcf8d3c2e6c0226ea0551ad",
+        "workflow/1-annotated_json/data_fr/118.json": "012e61b765ed20b22520c31700e78342d908a959d1fdb0e48ce9205ac16c2e2f",
+        "workflow/2-filled_json-a/data_fr/118.json": "900e8c82cfb5ac25c001ddce68d4984ac91fcb955e4c015ba85aab1c57425f32",
+        "workflow/3-filled_html-a/data_fr/118.html": "2a4cc7c19163be61fc29a23779cd614895489562117c4ef34cecda431cbd5371",
+        "workflow/4-context-a/data_fr/118.txt": "f0fad2b468e8680cdbb0ff409987e6a2fe0442b7bb4cdbea9286a8e661bae622",
+        "workflow/5-ph_html-a/data_fr/118.html": "e2577d0223619ff81bd9d4a06dc96b0f36732e3a48f41f723064042f72cb2567",
+        "workflow/6-meta-a/data_fr/118.json": "18c10e2d50a8e0f4f5229b9d33456ba203c3b54e79f043ec921d89fa40a38e32"
+      },
+      "annotation_path": "data/annotations/fr/118.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}

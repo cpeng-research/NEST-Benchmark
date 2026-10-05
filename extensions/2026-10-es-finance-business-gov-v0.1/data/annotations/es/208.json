@@ -1,0 +1,298 @@
+{
+  "id": "es-208-inv-infracciones",
+  "language": "es",
+  "domain": "Finance",
+  "title": "Solicitud de acogimiento al régimen voluntario de infracciones",
+  "business_topic": "Solicitud de acogimiento al régimen voluntario de infracciones",
+  "issuer_id": "INV",
+  "template_family": "inv-infracciones",
+  "source_pages": 1,
+  "source_sha256": "56a61ffc65041612e8fa9eb6fe363c2c651dd02973de055d7076912773b469e1",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/2025/05/formulario_regimen_voluntario_de_infracciones_14878_y_24566.pdf",
+  "landing_url": "https://www.argentina.gob.ar/servicio/regimen-voluntario-de-reconocimiento-de-infracciones-leyes-14878-y-24566",
+  "license_url": "https://www.argentina.gob.ar/acerca",
+  "license_note": "Argentina.gob.ar states CC BY 4.0 for its published content. This candidate uses normalized form text and structure, not the source PDF artwork or any logo. The portal statement does not override contrary PDF-specific or third-party notices.",
+  "retrieved_at": "2026-10-05",
+  "source_version": "Anexo II a Resolución C.5/09",
+  "source_date_evidence": {
+    "kind": "printed PDF header",
+    "value": "2009",
+    "raw": "2009 year header; ANEXO II A LA RESOLUCION N° C. 5/09",
+    "scope": "Printed form edition/year only; the official service page separately describes the regime as in force.",
+    "retrieval_timestamp_utc": "2026-10-04T19:09:59.408237+00:00"
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "FORMULARIO DE SOLICITUD DE ACOGIMIENTO AL REGIMEN DE RECONOCIMIENTO VOLUNTARIO DE INFRACCIONES",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "El que suscribe",
+        "field": "f001",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "D.N.l. N°",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "en mi carácter de",
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "firma",
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "CUIT N°",
+        "field": "f005",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "bajo el N°",
+        "field": "f006",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "constituyendo domicilio especial en",
+        "field": "f007",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "RESOLUCION N°",
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Expediente N°",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Lugar:",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Fecha:",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Firma, aclaración y D.N.I.",
+        "field": "f012",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "El que suscribe",
+      "path": [
+        "Página 1",
+        "Solicitante y firma",
+        "El que suscribe"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "El que suscribe",
+      "synthetic_value": "Mario Suárez",
+      "source_widgets": []
+    },
+    {
+      "id": "f002",
+      "label": "D.N.l. N°",
+      "path": [
+        "Página 1",
+        "Solicitante y firma",
+        "D.N.l. N°"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "D.N.l. N°",
+      "synthetic_value": "00000005",
+      "source_widgets": []
+    },
+    {
+      "id": "f003",
+      "label": "en mi carácter de",
+      "path": [
+        "Página 1",
+        "Solicitante y firma",
+        "en mi carácter de"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "en mi carácter de",
+      "synthetic_value": "Representante",
+      "source_widgets": []
+    },
+    {
+      "id": "f004",
+      "label": "firma",
+      "path": [
+        "Página 1",
+        "Solicitante y firma",
+        "Firma comercial"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "firma",
+      "synthetic_value": "Viñedos Ejemplo SA",
+      "source_widgets": []
+    },
+    {
+      "id": "f005",
+      "label": "CUIT N°",
+      "path": [
+        "Página 1",
+        "Solicitante y firma",
+        "CUIT N°"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CUIT N°",
+      "synthetic_value": "30-00000001-1",
+      "source_widgets": []
+    },
+    {
+      "id": "f006",
+      "label": "bajo el N°",
+      "path": [
+        "Página 1",
+        "Solicitante y firma",
+        "Número de inscripción INV"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "bajo el N°",
+      "synthetic_value": "INV-0001",
+      "source_widgets": []
+    },
+    {
+      "id": "f007",
+      "label": "constituyendo domicilio especial en",
+      "path": [
+        "Página 1",
+        "Solicitante y firma",
+        "constituyendo domicilio especial en"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "constituyendo domicilio especial en",
+      "synthetic_value": "Calle Ejemplo 50",
+      "source_widgets": []
+    },
+    {
+      "id": "f008",
+      "label": "RESOLUCION N°",
+      "path": [
+        "Página 1",
+        "Solicitante y firma",
+        "RESOLUCION N°"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "RESOLUCION N°",
+      "synthetic_value": "C.5/09",
+      "source_widgets": []
+    },
+    {
+      "id": "f009",
+      "label": "Expediente N°",
+      "path": [
+        "Página 1",
+        "Solicitante y firma",
+        "Expediente N°"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Expediente N°",
+      "synthetic_value": "EXP-0002",
+      "source_widgets": []
+    },
+    {
+      "id": "f010",
+      "label": "Lugar:",
+      "path": [
+        "Página 1",
+        "Solicitante y firma",
+        "Lugar:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Lugar:",
+      "synthetic_value": "Mendoza",
+      "source_widgets": []
+    },
+    {
+      "id": "f011",
+      "label": "Fecha:",
+      "path": [
+        "Página 1",
+        "Solicitante y firma",
+        "Fecha:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha:",
+      "synthetic_value": "05/10/2026",
+      "source_widgets": []
+    },
+    {
+      "id": "f012",
+      "label": "Firma, aclaración y D.N.I.",
+      "path": [
+        "Página 1",
+        "Solicitante y firma",
+        "Firma, aclaración y D.N.I."
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Firma, aclaración y D.N.I.",
+      "synthetic_value": "Mario Suárez, DNI 00000005",
+      "source_widgets": []
+    }
+  ],
+  "context": "Datos ficticios de prueba; no corresponde a una solicitud real.\nSolicitante y firma / El que suscribe: Mario Suárez\nSolicitante y firma / D.N.l. N°: 00000005\nSolicitante y firma / en mi carácter de: Representante\nSolicitante y firma / Firma comercial: Viñedos Ejemplo SA\nSolicitante y firma / CUIT N°: 30-00000001-1\nSolicitante y firma / Número de inscripción INV: INV-0001\nSolicitante y firma / constituyendo domicilio especial en: Calle Ejemplo 50\nSolicitante y firma / RESOLUCION N°: C.5/09\nSolicitante y firma / Expediente N°: EXP-0002\nSolicitante y firma / Lugar:: Mendoza\nSolicitante y firma / Fecha:: 05/10/2026\nSolicitante y firma / Firma, aclaración y D.N.I.: Mario Suárez, DNI 00000005\n",
+  "workflow_identity": {
+    "language": "es",
+    "id": 208
+  }
+}

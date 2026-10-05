@@ -1,0 +1,71 @@
+{
+  "Section 1 Personal details": {
+    "Customer Reference Number": "10000000005",
+    "Title": {
+      "choices": [
+        "Mr",
+        "Mrs",
+        "Miss",
+        "Ms"
+      ],
+      "value": [
+        "Ms"
+      ]
+    },
+    "Forename(s)": "Alex",
+    "Surname": "Sample",
+    "Date of birth (DDMMYYYY)": "01012001"
+  },
+  "Section 2 Medical professional details": {
+    "Full name": "Dr Jamie Example",
+    "Job title": "GP",
+    "Certificate or registration number": "EXAMPLE001",
+    "Type of practice or organisation": {
+      "choices": [
+        "GP Practice",
+        "Primary Care Team",
+        "Secondary Care Team",
+        "Hospital",
+        "Other (give details below)"
+      ],
+      "value": [
+        "GP Practice"
+      ]
+    },
+    "Name of practice or organisation": "Example Medical Practice",
+    "Address": "1 Example Road, Exampleton",
+    "Postcode": "EX1 1EX",
+    "Contact number": "+44 20 0000 0000",
+    "What is your professional": "Treating clinician"
+  },
+  "Section 3 About the student’s disability": {
+    "Does the student have": {
+      "choices": [
+        "No - go to section 4",
+        "Yes - go to 3.2"
+      ],
+      "value": [
+        "Yes - go to 3.2"
+      ]
+    },
+    "Diagnosis or working diagnosis": "Example mobility condition",
+    "Date of diagnosis (DDMMYYYY)": "01012024",
+    "Explain how the student’s disability": "Reduced walking endurance during study",
+    "Does the student’s disability have a": {
+      "choices": [
+        "No - go to section 4",
+        "Yes - go to 3.5"
+      ],
+      "value": [
+        "Yes - go to 3.5"
+      ]
+    },
+    "3.5": {
+      "Explain how the student’s disability": "Needs accessible transport for longer journeys"
+    }
+  },
+  "Section 4 Medical professional declaration": {
+    "Medical professional signature": "Jamie Example (synthetic signature)",
+    "Today’s date (DDMMYYYY)": "05102026"
+  }
+}

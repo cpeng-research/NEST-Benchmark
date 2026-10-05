@@ -1,0 +1,83 @@
+{
+  "Datos del paciente": {
+    "Nombre y apellido": "Marina Paciente Ejemplo",
+    "Tipo y número de documento de identidad": "DNI-FICTICIO-42",
+    "Edad": "45",
+    "Sexo": "Femenino",
+    "Domicilio": "Calle Ejemplo 42",
+    "Localidad": "Villa Ficticia",
+    "Provincia": "Buenos Aires",
+    "Teléfono": "000-000-0042",
+    "Celular": "000-000-0142",
+    "Correo electrónico": "marina42@example.invalid",
+    "Diagnóstico": "Artritis reumatoidea, supuesto ficticio",
+    "N° de ciclo": "1",
+    "Altura": "160 cm",
+    "Peso": "60 kg",
+    "Superficie corporal": "1,62 m2"
+  },
+  "Datos del médico tratante": {
+    "Apellido y nombre del médico tratante": "Elena Médica Ejemplo",
+    "Especialidad": "Reumatología",
+    "Servicio": "Reumatología ficticia",
+    "Sello de la institución": "SELLO FICTICIO",
+    "Jefe de Servicio o Director que avala": "Dora Directora Ejemplo",
+    "Teléfono de contacto con médico": "000-000-0242",
+    "Interno": "42",
+    "Celular": "000-000-0342",
+    "Correo Electrónico": "elena42@example.invalid"
+  },
+  "Diagnóstico que justifica la indicación efectuada": {
+    "Diagnóstico": "Artritis reumatoidea activa, supuesto ficticio",
+    "Fecha del diagnóstico": "01/05/2024",
+    "Resumen de historia clínica (incluir estadío e inmunohistoquímica)": "Artritis reumatoidea con actividad persistente; inmunohistoquímica no aplicable. Caso ficticio no oncológico.",
+    "Métodos complementarios de diagnóstico": "Evaluación clínica y laboratorio ficticios.",
+    "Estado general y funcional del paciente": "Ambulante, sin deterioro cognitivo ni insuficiencia respiratoria, cardíaca, renal o hepatopatía en el supuesto.",
+    "Aclarar": {
+      "choices": [
+        "Ambulante",
+        "Semi ambulante",
+        "No ambulante"
+      ],
+      "value": [
+        "Ambulante"
+      ]
+    },
+    "Tratamientos previos": "Tratamiento convencional ficticio durante seis meses, sin respuesta suficiente.",
+    "Tipo de terapia/s previa/s": "Tratamiento farmacológico convencional desde 01/03/2026; sin cirugía, radioterapia ni diálisis."
+  },
+  "Tipo de terapia": {
+    "Tipo de terapia": {
+      "choices": [
+        "NEOADYUVANCIA",
+        "ADYUVANCIA",
+        "AVANZADO",
+        "1° LÍNEA",
+        "2° LÍNEA",
+        "3° LÍNEA"
+      ],
+      "value": []
+    }
+  },
+  "Esquema terapéutico solicitado": {
+    "Número total de ciclos": "6",
+    "Frecuencia de los ciclos": "Cada 4 semanas",
+    "Tiempo de tratamiento": "24 semanas",
+    "Fecha programada de inicio de tratamiento": "01/10/2026",
+    "Medicamentos (incluir sólo con nombre genérico)": "Abatacept (supuesto ficticio)",
+    "Dosis/m2 o Kg": "",
+    "Dosis total por ciclo": "500 mg/ciclo ficticio",
+    "Días de admin.": "1, 8, 15 y 22",
+    "Intervalo": "7 días",
+    "Fundamentación del tratamiento solicitado": "Actividad persistente en el supuesto ficticio tras tratamiento convencional; no es una prescripción real.",
+    "Entidad": "Hospital Ficticio de Ejemplo",
+    "Sello": "SELLO FICTICIO"
+  },
+  "Apellido y nombre del Director de la entidad": {
+    "Apellido y nombre del Director de la entidad": "Dora Directora Ejemplo",
+    "Firma": "FIRMA FICTICIA - Dora Directora Ejemplo",
+    "Sello": "SELLO FICTICIO - Dirección",
+    "Firma y sello del prescriptor": "FIRMA Y SELLO FICTICIOS - Elena Médica Ejemplo",
+    "Fecha de prescripción": "26/09/2026"
+  }
+}

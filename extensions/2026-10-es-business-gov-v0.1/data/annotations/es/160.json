@@ -1,0 +1,156 @@
+{
+  "id": "es-160-anac-autorizacion",
+  "language": "es",
+  "domain": "GovPublic",
+  "business_topic": "Autorización para trámites ante ANAC",
+  "title": "Autorización para trámites ante ANAC",
+  "issuer_id": "ANAC",
+  "template_family": "anac-autorizacion",
+  "source_pages": 1,
+  "source_sha256": "607840839d37508a2493a1ef6ff4578a2bac93ca9974c72bd74fd6729c9779d0",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/2021/05/autorizaci-n.pdf",
+  "landing_url": "https://www.argentina.gob.ar/anac/personal-aeronautico/formularios-para-descargar",
+  "license_url": "https://www.argentina.gob.ar/acerca",
+  "license_note": "Argentina.gob.ar states CC BY 4.0 for its published material. Normalized text and form structure only; no artwork or official endorsement. Contrary notices and third-party content require separate screening.",
+  "retrieved_at": "2026-10-05",
+  "source_version": "No version stated",
+  "source_date_evidence": {
+    "kind": "PDF file ModDate",
+    "value": "2015-11-18",
+    "raw": "D:20151118110257-03'00'",
+    "scope": "PDF file metadata only; not an official publication, effective, or current-version date.",
+    "version_basis": "The ANAC authorization PDF and official landing link show no revision code.",
+    "retrieval_timestamp_utc": "2026-10-04T18:40:55.464125+00:00"
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "AUTORIZACIÓN",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Señor",
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "DNI",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "a realizar las gestiones y diligenciar en mi nombre y representación",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "TRAMITES AUTORIZADOS:",
+        "field": "f003",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Firma de quien autoriza y DNI",
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Firma autoridad Certificante",
+        "field": "f005",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Señor",
+      "path": [
+        "Página 1",
+        "Persona autorizada",
+        "Señor"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Señor",
+      "synthetic_value": "Carlos Ruiz",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f002",
+      "label": "DNI",
+      "path": [
+        "Página 1",
+        "Persona autorizada",
+        "DNI"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DNI",
+      "synthetic_value": "00000003",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f003",
+      "label": "TRAMITES AUTORIZADOS:",
+      "path": [
+        "Página 1",
+        "Trámites autorizados",
+        "TRAMITES AUTORIZADOS:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "TRAMITES AUTORIZADOS:",
+      "synthetic_value": "Presentar una solicitud de licencia ficticia.",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f004",
+      "label": "Firma de quien autoriza y DNI",
+      "path": [
+        "Página 1",
+        "Firmas",
+        "Firma de quien autoriza y DNI"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Firma de quien autoriza y DNI",
+      "synthetic_value": "Firma ficticia - DNI 00000004",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f005",
+      "label": "Firma autoridad Certificante",
+      "path": [
+        "Página 1",
+        "Firmas",
+        "Firma autoridad Certificante"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Firma autoridad Certificante",
+      "synthetic_value": "Firma de certificación ficticia",
+      "source_visible_blank": true
+    }
+  ],
+  "context": "Datos ficticios de prueba; no corresponde a una solicitud real.\nPersona autorizada / Señor: Carlos Ruiz\nPersona autorizada / DNI: 00000003\nTrámites autorizados / TRAMITES AUTORIZADOS:: Presentar una solicitud de licencia ficticia.\nFirmas / Firma de quien autoriza y DNI: Firma ficticia - DNI 00000004\nFirmas / Firma autoridad Certificante: Firma de certificación ficticia\n",
+  "workflow_identity": {
+    "language": "es",
+    "id": 160
+  }
+}

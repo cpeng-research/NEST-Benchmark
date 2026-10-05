@@ -1,0 +1,695 @@
+{
+  "id": "fr-138-imputation-creance-fiscale",
+  "language": "fr",
+  "domain": "Finance",
+  "business_topic": "Demande d’imputation d’une créance fiscale sur une échéance à venir",
+  "issuer_id": "Direction générale des finances publiques",
+  "template_family": "imputation-creance-fiscale",
+  "title": "Demande d’imputation d’une créance fiscale sur une échéance à venir",
+  "source_pages": 3,
+  "source_sha256": "f5c97a31537b6ba5c7d841d70abdd0bb4eaa48654f0a85e0f8e9cae87ef822b0",
+  "retrieved_at": "2026-10-05T03:00:50+08:00",
+  "source_version": "3516-SD; Cerfa 12619*10; (05-2026)",
+  "source_url": "https://www.impots.gouv.fr/sites/default/files/formulaires/3516-sd/2026/3516-sd_5540.pdf",
+  "landing_url": "https://www.impots.gouv.fr/formulaire/3516-sd/demande-dimputation-dune-creance-fiscale-sur-une-echeance-venir",
+  "license_url": "https://www.impots.gouv.fr/mentions-legales",
+  "license_note": "DGFiP site notice: public information under Licence Ouverte Etalab 2.0, except explicit third-party intellectual property. Source text and field structure are normalized; the original PDF and DGFiP graphics are not redistributed.",
+  "source_date_evidence": {
+    "kind": "PDF printed mark; DGFiP listing millésime",
+    "value": "3516-SD; Cerfa 12619*10; (05-2026)",
+    "landing": "DGFiP form listing, Millésime 2026",
+    "pdf_version_mark": "3516-SD; Cerfa 12619*10; (05-2026)",
+    "publisher_listing_millesime": "2026",
+    "scope": "The listing millésime is recorded separately from the PDF print mark."
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "Mode d’emploi",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Conditions de transmission et délai de la demande : texte imprimé non remplissable.",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "VOLET 1 - Identification de l’entreprise",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Nom/Prénom ou dénomination de l’entreprise",
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Adresse du principal établissement",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "N° SIRET",
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Tél.",
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Mél",
+        "field": "f005",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "N° dossier",
+        "field": "f006",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "VOLET 1 - Créance dont l’imputation est demandée",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Nature",
+        "field": "f007",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Période d’imposition ou exercice social",
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Montant total de la créance",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Autre (Exemple : suite à réclamation",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "VOLET 1 - Impôt ou taxe réglé",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Nature",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Date limite de paiement",
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Montant à imputer",
+        "field": "f013",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Signature",
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "VOLET 2 - Identification de l’entreprise",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Nom/Prénom ou dénomination de l’entreprise",
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Adresse du principal établissement",
+        "field": "f016",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "N° SIRET",
+        "field": "f017",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Tél.",
+        "field": "f018",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Mél",
+        "field": "f019",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "N° dossier",
+        "field": "f020",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "VOLET 2 - Créance dont l’imputation est demandée",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Nature",
+        "field": "f021",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Période d’imposition ou exercice social",
+        "field": "f022",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Montant total de la créance",
+        "field": "f023",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Autre (Exemple : suite à réclamation",
+        "field": "f024",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "VOLET 2 - Rappel de l’impôt ou taxe réglé",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "Déclarations de",
+        "field": "f025",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "label": "Date limite de paiement",
+        "field": "f026",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "Montant à imputer",
+        "field": "f027",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "label": "Signature",
+        "field": "f028",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Source : Direction générale des finances publiques; https://www.impots.gouv.fr/sites/default/files/formulaires/3516-sd/2026/3516-sd_5540.pdf; DGFiP form listing, Millésime 2026.",
+        "colspan": 4,
+        "source_page": 3
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Nom/Prénom ou dénomination de l’entreprise",
+      "path": [
+        "Page 2",
+        "VOLET 1 - Identification de l’entreprise",
+        "Nom/Prénom ou dénomination de l’entreprise"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom/Prénom ou dénomination de l’entreprise",
+      "synthetic_value": "Exemple Services SAS"
+    },
+    {
+      "id": "f002",
+      "label": "Adresse du principal établissement",
+      "path": [
+        "Page 2",
+        "VOLET 1 - Identification de l’entreprise",
+        "Adresse du principal établissement"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Adresse du principal établissement",
+      "synthetic_value": "3 rue du Commerce, 75002 Paris"
+    },
+    {
+      "id": "f003",
+      "label": "N° SIRET",
+      "path": [
+        "Page 2",
+        "VOLET 1 - Identification de l’entreprise",
+        "N° SIRET"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "N° SIRET",
+      "synthetic_value": "00000000000138"
+    },
+    {
+      "id": "f004",
+      "label": "Tél.",
+      "path": [
+        "Page 2",
+        "VOLET 1 - Identification de l’entreprise",
+        "Tél."
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Tél.",
+      "synthetic_value": "0100000138"
+    },
+    {
+      "id": "f005",
+      "label": "Mél",
+      "path": [
+        "Page 2",
+        "VOLET 1 - Identification de l’entreprise",
+        "Mél"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Mél",
+      "synthetic_value": "comptabilite@example.org"
+    },
+    {
+      "id": "f006",
+      "label": "N° dossier",
+      "path": [
+        "Page 2",
+        "VOLET 1 - Identification de l’entreprise",
+        "N° dossier"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "N° dossier",
+      "synthetic_value": "DOS-138"
+    },
+    {
+      "id": "f007",
+      "label": "Nature",
+      "path": [
+        "Page 2",
+        "VOLET 1 - Créance dont l’imputation est demandée",
+        "Nature"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Nature",
+      "synthetic_value": "TVA",
+      "options": [
+        "TVA",
+        "Excédent d’IS",
+        "Créance restituable",
+        "TS"
+      ],
+      "context_evidence": "Nature: TVA"
+    },
+    {
+      "id": "f008",
+      "label": "Période d’imposition ou exercice social",
+      "path": [
+        "Page 2",
+        "VOLET 1 - Créance dont l’imputation est demandée",
+        "Période d’imposition ou exercice social"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Période d’imposition ou exercice social",
+      "synthetic_value": "3e trimestre 2026"
+    },
+    {
+      "id": "f009",
+      "label": "Montant total de la créance",
+      "path": [
+        "Page 2",
+        "VOLET 1 - Créance dont l’imputation est demandée",
+        "Montant total de la créance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Montant total de la créance",
+      "synthetic_value": "1 000 €"
+    },
+    {
+      "id": "f010",
+      "label": "Autre (Exemple : suite à réclamation",
+      "path": [
+        "Page 2",
+        "VOLET 1 - Créance dont l’imputation est demandée",
+        "Autre (Exemple : suite à réclamation"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Autre (Exemple : suite à réclamation",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "f011",
+      "label": "Nature",
+      "path": [
+        "Page 2",
+        "VOLET 1 - Impôt ou taxe réglé",
+        "Nature"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Nature",
+      "synthetic_value": "IS",
+      "options": [
+        "TVA",
+        "IS",
+        "TS",
+        "CRL",
+        "PEEC"
+      ],
+      "context_evidence": "Nature: IS"
+    },
+    {
+      "id": "f012",
+      "label": "Date limite de paiement",
+      "path": [
+        "Page 2",
+        "VOLET 1 - Impôt ou taxe réglé",
+        "Date limite de paiement"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date limite de paiement",
+      "synthetic_value": "15/12/2026"
+    },
+    {
+      "id": "f013",
+      "label": "Montant à imputer",
+      "path": [
+        "Page 2",
+        "VOLET 1 - Impôt ou taxe réglé",
+        "Montant à imputer"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Montant à imputer",
+      "synthetic_value": "1 000 €"
+    },
+    {
+      "id": "f014",
+      "label": "Signature",
+      "path": [
+        "Page 2",
+        "VOLET 1 - Impôt ou taxe réglé",
+        "Signature"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Signature",
+      "synthetic_value": "Camille Martin"
+    },
+    {
+      "id": "f015",
+      "label": "Nom/Prénom ou dénomination de l’entreprise",
+      "path": [
+        "Page 2",
+        "VOLET 2 - Identification de l’entreprise",
+        "Nom/Prénom ou dénomination de l’entreprise"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom/Prénom ou dénomination de l’entreprise",
+      "synthetic_value": "Exemple Services SAS"
+    },
+    {
+      "id": "f016",
+      "label": "Adresse du principal établissement",
+      "path": [
+        "Page 2",
+        "VOLET 2 - Identification de l’entreprise",
+        "Adresse du principal établissement"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Adresse du principal établissement",
+      "synthetic_value": "3 rue du Commerce, 75002 Paris"
+    },
+    {
+      "id": "f017",
+      "label": "N° SIRET",
+      "path": [
+        "Page 2",
+        "VOLET 2 - Identification de l’entreprise",
+        "N° SIRET"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "N° SIRET",
+      "synthetic_value": "00000000000138"
+    },
+    {
+      "id": "f018",
+      "label": "Tél.",
+      "path": [
+        "Page 2",
+        "VOLET 2 - Identification de l’entreprise",
+        "Tél."
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Tél.",
+      "synthetic_value": "0100000138"
+    },
+    {
+      "id": "f019",
+      "label": "Mél",
+      "path": [
+        "Page 2",
+        "VOLET 2 - Identification de l’entreprise",
+        "Mél"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Mél",
+      "synthetic_value": "comptabilite@example.org"
+    },
+    {
+      "id": "f020",
+      "label": "N° dossier",
+      "path": [
+        "Page 2",
+        "VOLET 2 - Identification de l’entreprise",
+        "N° dossier"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "N° dossier",
+      "synthetic_value": "DOS-138"
+    },
+    {
+      "id": "f021",
+      "label": "Nature",
+      "path": [
+        "Page 2",
+        "VOLET 2 - Créance dont l’imputation est demandée",
+        "Nature"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Nature",
+      "synthetic_value": "TVA",
+      "options": [
+        "TVA",
+        "Excédent d’IS",
+        "Créance restituable",
+        "TS"
+      ],
+      "context_evidence": "Nature: TVA"
+    },
+    {
+      "id": "f022",
+      "label": "Période d’imposition ou exercice social",
+      "path": [
+        "Page 2",
+        "VOLET 2 - Créance dont l’imputation est demandée",
+        "Période d’imposition ou exercice social"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Période d’imposition ou exercice social",
+      "synthetic_value": "3e trimestre 2026"
+    },
+    {
+      "id": "f023",
+      "label": "Montant total de la créance",
+      "path": [
+        "Page 2",
+        "VOLET 2 - Créance dont l’imputation est demandée",
+        "Montant total de la créance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Montant total de la créance",
+      "synthetic_value": "1 000 €"
+    },
+    {
+      "id": "f024",
+      "label": "Autre (Exemple : suite à réclamation",
+      "path": [
+        "Page 2",
+        "VOLET 2 - Créance dont l’imputation est demandée",
+        "Autre (Exemple : suite à réclamation"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Autre (Exemple : suite à réclamation",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "f025",
+      "label": "Déclarations de",
+      "path": [
+        "Page 3",
+        "VOLET 2 - Rappel de l’impôt ou taxe réglé",
+        "Déclarations de"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 3,
+      "source_anchor": "Déclarations de",
+      "synthetic_value": "IS",
+      "options": [
+        "TVA",
+        "IS",
+        "TS",
+        "CRL",
+        "PEEC"
+      ],
+      "context_evidence": "Déclarations de: IS"
+    },
+    {
+      "id": "f026",
+      "label": "Date limite de paiement",
+      "path": [
+        "Page 3",
+        "VOLET 2 - Rappel de l’impôt ou taxe réglé",
+        "Date limite de paiement"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Date limite de paiement",
+      "synthetic_value": "15/12/2026"
+    },
+    {
+      "id": "f027",
+      "label": "Montant à imputer",
+      "path": [
+        "Page 3",
+        "VOLET 2 - Rappel de l’impôt ou taxe réglé",
+        "Montant à imputer"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Montant à imputer",
+      "synthetic_value": "1 000 €"
+    },
+    {
+      "id": "f028",
+      "label": "Signature",
+      "path": [
+        "Page 3",
+        "VOLET 2 - Rappel de l’impôt ou taxe réglé",
+        "Signature"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Signature",
+      "synthetic_value": "Camille Martin"
+    }
+  ],
+  "context": "Exemple fictif de remplissage, sans transmission.\nVOLET 1 - Identification de l’entreprise /  / Nom/Prénom ou dénomination de l’entreprise: Exemple Services SAS\nVOLET 1 - Identification de l’entreprise /  / Adresse du principal établissement: 3 rue du Commerce, 75002 Paris\nVOLET 1 - Identification de l’entreprise /  / N° SIRET: 00000000000138\nVOLET 1 - Identification de l’entreprise /  / Tél.: 0100000138\nVOLET 1 - Identification de l’entreprise /  / Mél: comptabilite@example.org\nVOLET 1 - Identification de l’entreprise /  / N° dossier: DOS-138\nVOLET 1 - Créance dont l’imputation est demandée /  / Nature: TVA\nVOLET 1 - Créance dont l’imputation est demandée /  / Période d’imposition ou exercice social: 3e trimestre 2026\nVOLET 1 - Créance dont l’imputation est demandée /  / Montant total de la créance: 1 000 €\nVOLET 1 - Créance dont l’imputation est demandée /  / Autre (Exemple : suite à réclamation: Sans objet\nVOLET 1 - Impôt ou taxe réglé /  / Nature: IS\nVOLET 1 - Impôt ou taxe réglé /  / Date limite de paiement: 15/12/2026\nVOLET 1 - Impôt ou taxe réglé /  / Montant à imputer: 1 000 €\nVOLET 1 - Impôt ou taxe réglé /  / Signature: Camille Martin\nVOLET 2 - Identification de l’entreprise /  / Nom/Prénom ou dénomination de l’entreprise: Exemple Services SAS\nVOLET 2 - Identification de l’entreprise /  / Adresse du principal établissement: 3 rue du Commerce, 75002 Paris\nVOLET 2 - Identification de l’entreprise /  / N° SIRET: 00000000000138\nVOLET 2 - Identification de l’entreprise /  / Tél.: 0100000138\nVOLET 2 - Identification de l’entreprise /  / Mél: comptabilite@example.org\nVOLET 2 - Identification de l’entreprise /  / N° dossier: DOS-138\nVOLET 2 - Créance dont l’imputation est demandée /  / Nature: TVA\nVOLET 2 - Créance dont l’imputation est demandée /  / Période d’imposition ou exercice social: 3e trimestre 2026\nVOLET 2 - Créance dont l’imputation est demandée /  / Montant total de la créance: 1 000 €\nVOLET 2 - Créance dont l’imputation est demandée /  / Autre (Exemple : suite à réclamation: Sans objet\nVOLET 2 - Rappel de l’impôt ou taxe réglé /  / Déclarations de: IS\nVOLET 2 - Rappel de l’impôt ou taxe réglé /  / Date limite de paiement: 15/12/2026\nVOLET 2 - Rappel de l’impôt ou taxe réglé /  / Montant à imputer: 1 000 €\nVOLET 2 - Rappel de l’impôt ou taxe réglé /  / Signature: Camille Martin",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 138
+  }
+}

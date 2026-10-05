@@ -1,0 +1,439 @@
+{
+  "id": "fr-dgesco-secondary-school-trip-budget",
+  "language": "fr",
+  "domain": "Education",
+  "title": "Budget prévisionnel d'une sortie scolaire du second degré",
+  "template_family": "dgesco-secondary-school-trip-budget",
+  "issuer": "DGESCO",
+  "issuer_id": "DGESCO",
+  "source_pages": 1,
+  "columns": 1,
+  "rows": [
+    [
+      {
+        "text": "Budget prévisionnel second degré",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "sortie_type",
+        "label": "Type de sortie",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Dépenses",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "voyagiste",
+        "label": "Coût voyagiste",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "transport",
+        "label": "Coût du transport",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "restauration",
+        "label": "Coût de la restauration",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "hebergement",
+        "label": "Coût de l’hébergement",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "autres_depenses",
+        "label": "Autres dépenses",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "depenses_total",
+        "label": "Total",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Recettes - séjour des élèves",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "familles",
+        "label": "Participation",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "etablissement_eleves",
+        "label": "Contribution de l’établissement",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "subventions_eleves",
+        "label": "Dons/subventions",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "autres_eleves",
+        "label": "Autres sources",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "sous_total1",
+        "label": "Sous total 1",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Recettes - séjour des accompagnateurs",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "etablissement_accompagnateurs",
+        "label": "Contribution de l’établissement",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "subventions_accompagnateurs",
+        "label": "Dons/subventions",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "autres_accompagnateurs",
+        "label": "Autres sources",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "sous_total2",
+        "label": "Sous total 2",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "recettes_total",
+        "label": "Total",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "cout_eleve",
+        "label": "Coût du séjour par élève",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "sortie_type",
+      "label": "Type de sortie",
+      "source_page": 1,
+      "source_anchor": "Type de sortie",
+      "path": [
+        "Budget prévisionnel second degré",
+        "Type de sortie"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Voyage scolaire"
+      ],
+      "options": [
+        "Sortie scolaire sans nuitée obligatoire",
+        "Sortie scolaire sans nuitée facultative",
+        "Voyage scolaire"
+      ],
+      "context_evidence": "Budget prévisionnel second degré / Type de sortie : Voyage scolaire."
+    },
+    {
+      "id": "voyagiste",
+      "label": "Coût voyagiste",
+      "source_page": 1,
+      "source_anchor": "Coût voyagiste",
+      "path": [
+        "Dépenses",
+        "Coût voyagiste"
+      ],
+      "kind": "text",
+      "synthetic_value": "2 100 €"
+    },
+    {
+      "id": "transport",
+      "label": "Coût du transport",
+      "source_page": 1,
+      "source_anchor": "Coût du transport",
+      "path": [
+        "Dépenses",
+        "Coût du transport"
+      ],
+      "kind": "text",
+      "synthetic_value": "600 €"
+    },
+    {
+      "id": "restauration",
+      "label": "Coût de la restauration",
+      "source_page": 1,
+      "source_anchor": "Coût de la restauration",
+      "path": [
+        "Dépenses",
+        "Coût de la restauration"
+      ],
+      "kind": "text",
+      "synthetic_value": "350 €"
+    },
+    {
+      "id": "hebergement",
+      "label": "Coût de l’hébergement",
+      "source_page": 1,
+      "source_anchor": "Coût de l’hébergement",
+      "path": [
+        "Dépenses",
+        "Coût de l’hébergement"
+      ],
+      "kind": "text",
+      "synthetic_value": "900 €"
+    },
+    {
+      "id": "autres_depenses",
+      "label": "Autres dépenses",
+      "source_page": 1,
+      "source_anchor": "Autres dépenses",
+      "path": [
+        "Dépenses",
+        "Autres dépenses"
+      ],
+      "kind": "text",
+      "synthetic_value": "150 €"
+    },
+    {
+      "id": "depenses_total",
+      "label": "Total",
+      "source_page": 1,
+      "source_anchor": "Total",
+      "path": [
+        "Dépenses",
+        "Total"
+      ],
+      "kind": "text",
+      "synthetic_value": "4 100 €"
+    },
+    {
+      "id": "familles",
+      "label": "Participation",
+      "source_page": 1,
+      "source_anchor": "Participation",
+      "path": [
+        "Recettes - séjour des élèves",
+        "Participation"
+      ],
+      "kind": "text",
+      "synthetic_value": "2 000 €"
+    },
+    {
+      "id": "etablissement_eleves",
+      "label": "Contribution de l’établissement",
+      "source_page": 1,
+      "source_anchor": "Contribution de l’établissement",
+      "path": [
+        "Recettes - séjour des élèves",
+        "Contribution de l’établissement"
+      ],
+      "kind": "text",
+      "synthetic_value": "500 €"
+    },
+    {
+      "id": "subventions_eleves",
+      "label": "Dons/subventions",
+      "source_page": 1,
+      "source_anchor": "Dons/subventions",
+      "path": [
+        "Recettes - séjour des élèves",
+        "Dons/subventions"
+      ],
+      "kind": "text",
+      "synthetic_value": "200 €"
+    },
+    {
+      "id": "autres_eleves",
+      "label": "Autres sources",
+      "source_page": 1,
+      "source_anchor": "Autres sources",
+      "path": [
+        "Recettes - séjour des élèves",
+        "Autres sources"
+      ],
+      "kind": "text",
+      "synthetic_value": "100 €"
+    },
+    {
+      "id": "sous_total1",
+      "label": "Sous total 1",
+      "source_page": 1,
+      "source_anchor": "Sous total 1",
+      "path": [
+        "Recettes - séjour des élèves",
+        "Sous total 1"
+      ],
+      "kind": "text",
+      "synthetic_value": "2 800 €"
+    },
+    {
+      "id": "etablissement_accompagnateurs",
+      "label": "Contribution de l’établissement",
+      "source_page": 1,
+      "source_anchor": "Contribution de l’établissement",
+      "path": [
+        "Recettes - séjour des accompagnateurs",
+        "Contribution de l’établissement"
+      ],
+      "kind": "text",
+      "synthetic_value": "900 €"
+    },
+    {
+      "id": "subventions_accompagnateurs",
+      "label": "Dons/subventions",
+      "source_page": 1,
+      "source_anchor": "Dons/subventions",
+      "path": [
+        "Recettes - séjour des accompagnateurs",
+        "Dons/subventions"
+      ],
+      "kind": "text",
+      "synthetic_value": "300 €"
+    },
+    {
+      "id": "autres_accompagnateurs",
+      "label": "Autres sources",
+      "source_page": 1,
+      "source_anchor": "Autres sources",
+      "path": [
+        "Recettes - séjour des accompagnateurs",
+        "Autres sources"
+      ],
+      "kind": "text",
+      "synthetic_value": "100 €"
+    },
+    {
+      "id": "sous_total2",
+      "label": "Sous total 2",
+      "source_page": 1,
+      "source_anchor": "Sous total 2",
+      "path": [
+        "Recettes - séjour des accompagnateurs",
+        "Sous total 2"
+      ],
+      "kind": "text",
+      "synthetic_value": "1 300 €"
+    },
+    {
+      "id": "recettes_total",
+      "label": "Total",
+      "source_page": 1,
+      "source_anchor": "Total",
+      "path": [
+        "Recettes - séjour des accompagnateurs",
+        "Total"
+      ],
+      "kind": "text",
+      "synthetic_value": "4 100 €"
+    },
+    {
+      "id": "cout_eleve",
+      "label": "Coût du séjour par élève",
+      "source_page": 1,
+      "source_anchor": "Coût du séjour par élève",
+      "path": [
+        "Recettes - séjour des accompagnateurs",
+        "Coût du séjour par élève"
+      ],
+      "kind": "text",
+      "synthetic_value": "140 €"
+    }
+  ],
+  "source_url": "https://eduscol.education.gouv.fr/sites/default/files/document/budget-previsionnel-second-degredocx-101607.docx",
+  "landing_url": "https://eduscol.education.gouv.fr/5037/sorties-et-voyages-scolaires-dans-le-second-degre",
+  "license_url": "https://eduscol.education.gouv.fr/4656/mentions-legales",
+  "license_note": "Eduscol downloadable documents: Etalab 2.0, excluding third-party material; no third-party indication in this original.",
+  "source_sha256": "c2197281a8b0f27f79c315f83e57fae799dd642430c29508d7208f8fd1ea5840",
+  "retrieved_at": "2026-10-04T19:11:53.654613+00:00",
+  "source_version": "Original DOCX modified 2023-09-05",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "kind": "OOXML core metadata; not asserted as a publication date",
+    "value": "Original DOCX modified 2023-09-05",
+    "source_url": "https://eduscol.education.gouv.fr/sites/default/files/document/budget-previsionnel-second-degredocx-101607.docx"
+  },
+  "context": "Dossier fictif à des fins d'évaluation, sans identité réelle ni dépôt administratif.\nBudget prévisionnel second degré / Type de sortie : Voyage scolaire.\nDépenses / Coût voyagiste : 2 100 €.\nDépenses / Coût du transport : 600 €.\nDépenses / Coût de la restauration : 350 €.\nDépenses / Coût de l’hébergement : 900 €.\nDépenses / Autres dépenses : 150 €.\nDépenses / Total : 4 100 €.\nRecettes - séjour des élèves / Participation : 2 000 €.\nRecettes - séjour des élèves / Contribution de l’établissement : 500 €.\nRecettes - séjour des élèves / Dons/subventions : 200 €.\nRecettes - séjour des élèves / Autres sources : 100 €.\nRecettes - séjour des élèves / Sous total 1 : 2 800 €.\nRecettes - séjour des accompagnateurs / Contribution de l’établissement : 900 €.\nRecettes - séjour des accompagnateurs / Dons/subventions : 300 €.\nRecettes - séjour des accompagnateurs / Autres sources : 100 €.\nRecettes - séjour des accompagnateurs / Sous total 2 : 1 300 €.\nRecettes - séjour des accompagnateurs / Total : 4 100 €.\nRecettes - séjour des accompagnateurs / Coût du séjour par élève : 140 €.",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 150
+  },
+  "review_pdf_sha256": "2072be0349b8018e4b720ab557d80f8ed842c65ee00602422e9de337f9c4bd92",
+  "source_conversion": {
+    "method": "LibreOffice PDF export without content edits",
+    "original_sha256": "c2197281a8b0f27f79c315f83e57fae799dd642430c29508d7208f8fd1ea5840",
+    "review_pdf_sha256": "2072be0349b8018e4b720ab557d80f8ed842c65ee00602422e9de337f9c4bd92"
+  }
+}

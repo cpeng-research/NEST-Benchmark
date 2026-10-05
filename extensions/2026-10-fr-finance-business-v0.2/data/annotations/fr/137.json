@@ -1,0 +1,781 @@
+{
+  "id": "fr-137-recu-mecenat-entreprise",
+  "language": "fr",
+  "domain": "Finance",
+  "business_topic": "Reçu des dons et versements effectués par les entreprises",
+  "issuer_id": "Direction générale des finances publiques",
+  "template_family": "recu-mecenat-entreprise",
+  "title": "Reçu des dons et versements effectués par les entreprises",
+  "source_pages": 2,
+  "source_sha256": "7a08ebce32f153d560015dd8a8e9c3d44683a52cef9cf657e8328d60ef5d0728",
+  "retrieved_at": "2026-10-05T03:00:46+08:00",
+  "source_version": "2041-MEC-SD; Cerfa 16216*03; DGFiP millésime 2026",
+  "source_url": "https://www.impots.gouv.fr/sites/default/files/formulaires/2041-mec-sd/2026/2041-mec-sd_4811.pdf",
+  "landing_url": "https://www.impots.gouv.fr/formulaire/2041-mec-sd/recu-des-dons-et-versements-effectues-par-les-entreprises-au-titre-de",
+  "license_url": "https://www.impots.gouv.fr/mentions-legales",
+  "license_note": "DGFiP site notice: public information under Licence Ouverte Etalab 2.0, except explicit third-party intellectual property. Source text and field structure are normalized; the original PDF and DGFiP graphics are not redistributed.",
+  "source_date_evidence": {
+    "kind": "PDF printed mark; DGFiP listing millésime",
+    "value": "2041-MEC-SD; Cerfa 16216*03; DGFiP millésime 2026",
+    "landing": "DGFiP form listing, Millésime 2026",
+    "pdf_version_mark": "2041-MEC-SD; Cerfa 16216*03",
+    "publisher_listing_millesime": "2026",
+    "scope": "The listing millésime is recorded separately from the PDF print mark."
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "Organisme bénéficiaire des dons et versements",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Numéro d’ordre du reçu",
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Dénomination de l’organisme",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Numéro SIREN ou RNA",
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Adresse",
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "N°",
+        "field": "f005",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Rue",
+        "field": "f006",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Code postal",
+        "field": "f007",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Commune",
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Pays",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Objet",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Catégorie de l’organisme",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Cochez la case qui vous concerne",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Précisez si vous êtes",
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Agrément et catégorie complémentaire",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Organisme agréé ayant pour objet exclusif d’accorder des aides financières",
+        "field": "f013",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Date de l’agrément",
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Entreprise donatrice",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Dénomination de l’entreprise",
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Forme juridique",
+        "field": "f016",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Numéro SIREN",
+        "field": "f017",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Adresse",
+        "field": "f018",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "N°",
+        "field": "f019",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Rue",
+        "field": "f020",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Code postal",
+        "field": "f021",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Commune",
+        "field": "f022",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Dons et versements effectués par l’entreprise",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "dons en nature pour une valeur en euros égale à",
+        "field": "f023",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "valeur totale des dons en nature en toutes lettres",
+        "field": "f024",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Description exhaustive des biens et prestations reçus et acceptés",
+        "field": "f025",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "versements pour une valeur totale égale à",
+        "field": "f026",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "total des versements en toutes lettres",
+        "field": "f027",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Forme des versements",
+        "field": "f028",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Montant total des dons et versements reçus par l’organisme",
+        "field": "f029",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "montant total des dons et versements en toutes lettres",
+        "field": "f030",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Date ou période au cours de laquelle les dons et versements ont été effectués",
+        "field": "f031",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Le",
+        "field": "f032",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Date et signature",
+        "field": "f033",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Source : Direction générale des finances publiques; https://www.impots.gouv.fr/sites/default/files/formulaires/2041-mec-sd/2026/2041-mec-sd_4811.pdf; DGFiP form listing, Millésime 2026.",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Numéro d’ordre du reçu",
+      "path": [
+        "Page 1",
+        "Organisme bénéficiaire des dons et versements",
+        "Numéro d’ordre du reçu"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Numéro d’ordre du reçu",
+      "synthetic_value": "REC-2026-137"
+    },
+    {
+      "id": "f002",
+      "label": "Dénomination de l’organisme",
+      "path": [
+        "Page 1",
+        "Organisme bénéficiaire des dons et versements",
+        "Dénomination de l’organisme"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dénomination de l’organisme",
+      "synthetic_value": "Association Initiative Exemple"
+    },
+    {
+      "id": "f003",
+      "label": "Numéro SIREN ou RNA",
+      "path": [
+        "Page 1",
+        "Organisme bénéficiaire des dons et versements",
+        "Numéro SIREN ou RNA"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Numéro SIREN ou RNA",
+      "synthetic_value": "W00000137"
+    },
+    {
+      "id": "f004",
+      "label": "Adresse",
+      "path": [
+        "Page 1",
+        "Organisme bénéficiaire des dons et versements",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Adresse",
+      "synthetic_value": "12 rue des Associations, 69002 Lyon"
+    },
+    {
+      "id": "f005",
+      "label": "N°",
+      "path": [
+        "Page 1",
+        "Organisme bénéficiaire des dons et versements",
+        "N°"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "N°",
+      "synthetic_value": "12"
+    },
+    {
+      "id": "f006",
+      "label": "Rue",
+      "path": [
+        "Page 1",
+        "Organisme bénéficiaire des dons et versements",
+        "Rue"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Rue",
+      "synthetic_value": "rue des Associations"
+    },
+    {
+      "id": "f007",
+      "label": "Code postal",
+      "path": [
+        "Page 1",
+        "Organisme bénéficiaire des dons et versements",
+        "Code postal"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Code postal",
+      "synthetic_value": "69002"
+    },
+    {
+      "id": "f008",
+      "label": "Commune",
+      "path": [
+        "Page 1",
+        "Organisme bénéficiaire des dons et versements",
+        "Commune"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Commune",
+      "synthetic_value": "Lyon"
+    },
+    {
+      "id": "f009",
+      "label": "Pays",
+      "path": [
+        "Page 1",
+        "Organisme bénéficiaire des dons et versements",
+        "Pays"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Pays",
+      "synthetic_value": "France"
+    },
+    {
+      "id": "f010",
+      "label": "Objet",
+      "path": [
+        "Page 1",
+        "Organisme bénéficiaire des dons et versements",
+        "Objet"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Objet",
+      "synthetic_value": "Accompagnement économique local à but non lucratif"
+    },
+    {
+      "id": "f011",
+      "label": "Cochez la case qui vous concerne",
+      "path": [
+        "Page 1",
+        "Catégorie de l’organisme",
+        "Cochez la case qui vous concerne"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Cochez la case qui vous concerne",
+      "synthetic_value": "Œuvre ou organisme d’intérêt général",
+      "options": [
+        "Œuvre ou organisme d’intérêt général",
+        "Association cultuelle",
+        "Établissement d’enseignement supérieur",
+        "Établissement d’enseignement supérieur consulaire",
+        "Société ou organisme public ou privé agréé",
+        "Organisme public ou privé dont la gestion est désintéressée",
+        "Projet de thèse proposé au mécénat de doctorat",
+        "Société nationale de programme",
+        "Fondation du patrimoine",
+        "Fonds de dotation"
+      ],
+      "context_evidence": "Cochez la case qui vous concerne: Œuvre ou organisme d’intérêt général"
+    },
+    {
+      "id": "f012",
+      "label": "Précisez si vous êtes",
+      "path": [
+        "Page 1",
+        "Catégorie de l’organisme",
+        "Précisez si vous êtes"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Précisez si vous êtes",
+      "synthetic_value": "Association loi 1901",
+      "options": [
+        "Association loi 1901",
+        "Association ou fondation reconnue d’utilité publique",
+        "Fondation universitaire",
+        "Fondation d’entreprise",
+        "Musée de France",
+        "Organismes sans but lucratif fournissant gratuitement une aide alimentaire",
+        "Autres"
+      ],
+      "context_evidence": "Précisez si vous êtes: Association loi 1901"
+    },
+    {
+      "id": "f013",
+      "label": "Organisme agréé ayant pour objet exclusif d’accorder des aides financières",
+      "path": [
+        "Page 2",
+        "Agrément et catégorie complémentaire",
+        "Organisme agréé ayant pour objet exclusif d’accorder des aides financières"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Organisme agréé ayant pour objet exclusif d’accorder des aides financières",
+      "synthetic_value": "Organisme agréé ayant pour objet exclusif d’accorder des aides financières",
+      "options": [
+        "Organisme agréé ayant pour objet exclusif d’accorder des aides financières",
+        "Fédération ou union d’organismes",
+        "Organismes ayant pour objet la sauvegarde",
+        "Organisme établi dans un État membre de l’Union européenne"
+      ],
+      "context_evidence": "Organisme agréé ayant pour objet exclusif d’accorder des aides financières: Organisme agréé ayant pour objet exclusif d’accorder des aides financières"
+    },
+    {
+      "id": "f014",
+      "label": "Date de l’agrément",
+      "path": [
+        "Page 2",
+        "Agrément et catégorie complémentaire",
+        "Date de l’agrément"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date de l’agrément",
+      "synthetic_value": "15/01/2025"
+    },
+    {
+      "id": "f015",
+      "label": "Dénomination de l’entreprise",
+      "path": [
+        "Page 2",
+        "Entreprise donatrice",
+        "Dénomination de l’entreprise"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Dénomination de l’entreprise",
+      "synthetic_value": "Exemple Conseil SAS"
+    },
+    {
+      "id": "f016",
+      "label": "Forme juridique",
+      "path": [
+        "Page 2",
+        "Entreprise donatrice",
+        "Forme juridique"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Forme juridique",
+      "synthetic_value": "SAS"
+    },
+    {
+      "id": "f017",
+      "label": "Numéro SIREN",
+      "path": [
+        "Page 2",
+        "Entreprise donatrice",
+        "Numéro SIREN"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Numéro SIREN",
+      "synthetic_value": "000000137"
+    },
+    {
+      "id": "f018",
+      "label": "Adresse",
+      "path": [
+        "Page 2",
+        "Entreprise donatrice",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Adresse",
+      "synthetic_value": "4 rue Centrale, 69002 Lyon"
+    },
+    {
+      "id": "f019",
+      "label": "N°",
+      "path": [
+        "Page 2",
+        "Entreprise donatrice",
+        "N°"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "N°",
+      "synthetic_value": "4"
+    },
+    {
+      "id": "f020",
+      "label": "Rue",
+      "path": [
+        "Page 2",
+        "Entreprise donatrice",
+        "Rue"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Rue",
+      "synthetic_value": "rue Centrale"
+    },
+    {
+      "id": "f021",
+      "label": "Code postal",
+      "path": [
+        "Page 2",
+        "Entreprise donatrice",
+        "Code postal"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Code postal",
+      "synthetic_value": "69002"
+    },
+    {
+      "id": "f022",
+      "label": "Commune",
+      "path": [
+        "Page 2",
+        "Entreprise donatrice",
+        "Commune"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Commune",
+      "synthetic_value": "Lyon"
+    },
+    {
+      "id": "f023",
+      "label": "dons en nature pour une valeur en euros égale à",
+      "path": [
+        "Page 2",
+        "Dons et versements effectués par l’entreprise",
+        "dons en nature pour une valeur en euros égale à"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "dons en nature pour une valeur en euros égale à",
+      "synthetic_value": "0 €"
+    },
+    {
+      "id": "f024",
+      "label": "valeur totale des dons en nature en toutes lettres",
+      "path": [
+        "Page 2",
+        "Dons et versements effectués par l’entreprise",
+        "valeur totale des dons en nature en toutes lettres"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "valeur totale des dons en nature en toutes lettres",
+      "synthetic_value": "zéro euro"
+    },
+    {
+      "id": "f025",
+      "label": "Description exhaustive des biens et prestations reçus et acceptés",
+      "path": [
+        "Page 2",
+        "Dons et versements effectués par l’entreprise",
+        "Description exhaustive des biens et prestations reçus et acceptés"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Description exhaustive des biens et prestations reçus et acceptés",
+      "synthetic_value": "Aucun don en nature"
+    },
+    {
+      "id": "f026",
+      "label": "versements pour une valeur totale égale à",
+      "path": [
+        "Page 2",
+        "Dons et versements effectués par l’entreprise",
+        "versements pour une valeur totale égale à"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "versements pour une valeur totale égale à",
+      "synthetic_value": "500 €"
+    },
+    {
+      "id": "f027",
+      "label": "total des versements en toutes lettres",
+      "path": [
+        "Page 2",
+        "Dons et versements effectués par l’entreprise",
+        "total des versements en toutes lettres"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "total des versements en toutes lettres",
+      "synthetic_value": "cinq cents euros"
+    },
+    {
+      "id": "f028",
+      "label": "Forme des versements",
+      "path": [
+        "Page 2",
+        "Dons et versements effectués par l’entreprise",
+        "Forme des versements"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 2,
+      "source_anchor": "Forme des versements",
+      "synthetic_value": "Virement, prélèvement ou carte bancaire",
+      "options": [
+        "Remise d’espèces",
+        "Chèque",
+        "Virement, prélèvement ou carte bancaire",
+        "Autre"
+      ],
+      "context_evidence": "Forme des versements: Virement, prélèvement ou carte bancaire"
+    },
+    {
+      "id": "f029",
+      "label": "Montant total des dons et versements reçus par l’organisme",
+      "path": [
+        "Page 2",
+        "Dons et versements effectués par l’entreprise",
+        "Montant total des dons et versements reçus par l’organisme"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Montant total des dons et versements reçus par l’organisme",
+      "synthetic_value": "500 €"
+    },
+    {
+      "id": "f030",
+      "label": "montant total des dons et versements en toutes lettres",
+      "path": [
+        "Page 2",
+        "Dons et versements effectués par l’entreprise",
+        "montant total des dons et versements en toutes lettres"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "montant total des dons et versements en toutes lettres",
+      "synthetic_value": "cinq cents euros"
+    },
+    {
+      "id": "f031",
+      "label": "Date ou période au cours de laquelle les dons et versements ont été effectués",
+      "path": [
+        "Page 2",
+        "Dons et versements effectués par l’entreprise",
+        "Date ou période au cours de laquelle les dons et versements ont été effectués"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date ou période au cours de laquelle les dons et versements ont été effectués",
+      "synthetic_value": "25/09/2026"
+    },
+    {
+      "id": "f032",
+      "label": "Le",
+      "path": [
+        "Page 2",
+        "Dons et versements effectués par l’entreprise",
+        "Date de signature",
+        "Le"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Le",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "f033",
+      "label": "Date et signature",
+      "path": [
+        "Page 2",
+        "Dons et versements effectués par l’entreprise",
+        "Date et signature"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date et signature",
+      "synthetic_value": "05/10/2026, Morgan Petit, présidente"
+    }
+  ],
+  "context": "Exemple fictif de remplissage, sans transmission.\nOrganisme bénéficiaire des dons et versements /  / Numéro d’ordre du reçu: REC-2026-137\nOrganisme bénéficiaire des dons et versements /  / Dénomination de l’organisme: Association Initiative Exemple\nOrganisme bénéficiaire des dons et versements /  / Numéro SIREN ou RNA: W00000137\nOrganisme bénéficiaire des dons et versements /  / Adresse: 12 rue des Associations, 69002 Lyon\nOrganisme bénéficiaire des dons et versements /  / N°: 12\nOrganisme bénéficiaire des dons et versements /  / Rue: rue des Associations\nOrganisme bénéficiaire des dons et versements /  / Code postal: 69002\nOrganisme bénéficiaire des dons et versements /  / Commune: Lyon\nOrganisme bénéficiaire des dons et versements /  / Pays: France\nOrganisme bénéficiaire des dons et versements /  / Objet: Accompagnement économique local à but non lucratif\nCatégorie de l’organisme /  / Cochez la case qui vous concerne: Œuvre ou organisme d’intérêt général\nCatégorie de l’organisme /  / Précisez si vous êtes: Association loi 1901\nAgrément et catégorie complémentaire /  / Organisme agréé ayant pour objet exclusif d’accorder des aides financières: Organisme agréé ayant pour objet exclusif d’accorder des aides financières\nAgrément et catégorie complémentaire /  / Date de l’agrément: 15/01/2025\nEntreprise donatrice /  / Dénomination de l’entreprise: Exemple Conseil SAS\nEntreprise donatrice /  / Forme juridique: SAS\nEntreprise donatrice /  / Numéro SIREN: 000000137\nEntreprise donatrice /  / Adresse: 4 rue Centrale, 69002 Lyon\nEntreprise donatrice /  / N°: 4\nEntreprise donatrice /  / Rue: rue Centrale\nEntreprise donatrice /  / Code postal: 69002\nEntreprise donatrice /  / Commune: Lyon\nDons et versements effectués par l’entreprise /  / dons en nature pour une valeur en euros égale à: 0 €\nDons et versements effectués par l’entreprise /  / valeur totale des dons en nature en toutes lettres: zéro euro\nDons et versements effectués par l’entreprise /  / Description exhaustive des biens et prestations reçus et acceptés: Aucun don en nature\nDons et versements effectués par l’entreprise /  / versements pour une valeur totale égale à: 500 €\nDons et versements effectués par l’entreprise /  / total des versements en toutes lettres: cinq cents euros\nDons et versements effectués par l’entreprise /  / Forme des versements: Virement, prélèvement ou carte bancaire\nDons et versements effectués par l’entreprise /  / Montant total des dons et versements reçus par l’organisme: 500 €\nDons et versements effectués par l’entreprise /  / montant total des dons et versements en toutes lettres: cinq cents euros\nDons et versements effectués par l’entreprise /  / Date ou période au cours de laquelle les dons et versements ont été effectués: 25/09/2026\nDons et versements effectués par l’entreprise / Date de signature / Le: 05/10/2026\nDons et versements effectués par l’entreprise /  / Date et signature: 05/10/2026, Morgan Petit, présidente",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 137
+  }
+}

@@ -1,0 +1,787 @@
+{
+  "id": "es-mix-68-remediar-health-centre",
+  "language": "es",
+  "domain": "Healthcare",
+  "title": "Incorporación de establecimientos de salud",
+  "issuer_id": "Ministerio de Salud de Argentina / Remediar",
+  "template_family": "remediar-health-centre",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/bancos/2021-06/formulario-alta-establecimientos-centros-de-salud.pdf",
+  "landing_url": "https://www.argentina.gob.ar/salud/remediar/formularios",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "Contenido del portal estatal Argentina.gob.ar bajo CC BY 4.0, salvo indicación contraria; adaptación con atribución, sin logotipos ni respaldo institucional.",
+  "source_sha256": "9f480456f87fb18766d2ce443eaa86f14a5e7468f6124436f2bf7ca5ee8c3bff",
+  "source_pages": 2,
+  "source_date_evidence": {
+    "source": "pdf_page",
+    "page": 1,
+    "literal": "Revisión: 5",
+    "kind": "printed_revision_with_vigencia_04_01_2021",
+    "note": "No PDF metadata or URL path used as semantic date"
+  },
+  "source_version": "Revisión: 5",
+  "retrieved_at": "2026-10-04T16:59:10.506382+00:00",
+  "columns": 6,
+  "rows": [
+    [
+      {
+        "text": "Incorporación de Establecimientos de Salud",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "ANEXO II; PROGRAMA NACIONAL REMEDIAR; F-03-P-11-FO-01; Revisión: 5; Vigencia: 04/01/2021",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f001",
+        "label": "1.1. Nombre del Establecimiento:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f002",
+        "label": "1.2. Código SIISA:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "1.3. Domicilio: (Calle / Ruta. Indicar nombre completo, intersecciones, número. Si no existieran nombres de calles indicar referencias locales: escuelas, policía, etc. Si fuera sobre ruta, indicar kilómetro)",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f003",
+        "label": "1.3. Domicilio:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f004",
+        "label": "Localidad:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f005",
+        "label": "Municipio:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f006",
+        "label": "Departamento:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f007",
+        "label": "Provincia:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f008",
+        "label": "Código Postal:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f009",
+        "label": "Teléfono (del Establ. o de ref.):",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f010",
+        "label": "1.4. Dependencia:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f011",
+        "label": "1.5. Horario de atención a pacientes:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f012",
+        "label": "1.6. Horario de recepción de medicamentos:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f013",
+        "label": "1.7. Consultas Médicas Mensuales:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f014",
+        "label": "1.8. ¿Cuenta con prescriptor matriculado?:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f015",
+        "label": "1.9. Horas Médicas Semanales:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f016",
+        "label": "1.10. Horas de Enfermería Semanales:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f017",
+        "label": "1.11. Tiene Farmacia o Depósito?",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f018",
+        "label": "1.12. Cantidad de camas:",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "2. DATOS DEL PERSONAL RESPONSABLE DE LA RECEPCION DE LOS BOTIQUINES",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f019",
+        "label": "2.1. Apellido y Nombre",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f020",
+        "label": "Tipo y Número de Documento",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f021",
+        "label": "Cargo",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f022",
+        "label": "2.2. Apellido y Nombre",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f023",
+        "label": "Tipo y Número de Documento",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f024",
+        "label": "Cargo",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f025",
+        "label": "2.3. Apellido y Nombre",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f026",
+        "label": "Tipo y Número de Documento",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f027",
+        "label": "Cargo",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "IF-2021-28791218-APN-DNMYTS#MS; Página 1 de 2",
+        "colspan": 6,
+        "source_page": 1,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "Incorporación de Establecimientos de Salud - firmas e instrucciones",
+        "colspan": 6,
+        "source_page": 2,
+        "heading": true,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "F-03-P-11-FO-01; Revisión: 5; Vigencia: 04/01/2021",
+        "colspan": 6,
+        "source_page": 2,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "field": "f028",
+        "label": "Firma del Solicitante:",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f029",
+        "label": "Aclaración de Firma:",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f030",
+        "label": "Cargo:",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f031",
+        "label": "Fecha:",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f032",
+        "label": "Firma del Responsable Provincial:",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Información relevante para completar el Formulario de Incorporación de Establecimientos de \nSalud \n \n \n1.1. \nNombre del Establecimiento: se refiere al nombre completo del Centro de Salud \n1.2. \nCódigo SIISA: para ser incorporado al Programa, previamente debe ingresarse el \nEstablecimiento de Salud al Sistema Integrado de Información Sanitaria Argentino. \n1.3. \nDomicilio: debe registrarse en este campo el domicilio exacto del Establecimiento. Si las \ncalles de la localidad no tuvieran nombre, es necesario registrar una referencia local de \nubicación. Ej.“Calle de entrada S/N, al lado de la iglesia”, “Calle principal S/N, enfrente de \nla Escuela N° XX”, etc. En el caso que el Centro de Salud se encuentre ubicado sobre una \nruta, deberá consignarse el km. Ej. “Sobre Ruta 9, km 125” o “Sobre Ruta 9, 25 km al N de \nCapital Federal” \nTeléfono: Si el centro de salud no dispusiera de un número telefónico, se solicita informar \nalgún teléfono de referencia (municipalidad, cabina pública, médico del caps, etc.) \n1.10 Tiene Farmacia / Depósito: Se solicita se consigne si el Centro de Salud dispone de un \nlugar seguro para guardar los medicamentos (sin humedad, con llave, etc.) \n2. Responsables: Se solicita se designen como mínimo dos responsables por la recepción, \nguarda y administración del botiquín. Es importante tener en cuenta que el botiquín será \nentregado únicamente a los responsables que se hayan informado y ante la presentación \ndel documento de identidad. Es por ello que se sugiere designar como responsables al \npersonal que trabaja a diario en el centro. \n \nCondiciones mínimas para que el establecimiento sea incorporado al Programa: \n \n \nSer establecimiento de salud y/o institución del Sector Público, según Codificación Federal de \nestablecimientos de salud conforme Resolución 298/2011 del Ministerio de Salud- \nEstablecimiento de salud sin internación de diagnóstico y tratamiento -ESSIDT 50. \n \nRealizar doscientas (200) consultas mensuales o más. \n \nOfrecer atención de por lo menos un prescriptor matriculado. \n \nDisponer de un lugar destinado para el correcto almacenamiento y distribución de los \nmedicamentos. \n \nNo cobrar bajo ningún concepto la atención médica y no médica, ni la realización de prácticas \ncomplementarias, ni los medicamentos en el efector \n \nIngreso del establecimiento en el Sistema Integrado de Información Sanitaria Argentino (SIISA): \ncontar con el código SIISA correspondiente. \n \n \nSe informa que los establecimientos de salud serán visitados por personal del Programa, a los \nfines de verificar los datos consignados en la planilla. \nIF-2021-28791218-APN-DNMYTS#MS\nPágina 2 de 2",
+        "colspan": 6,
+        "source_page": 2,
+        "heading": false,
+        "role": "source_fixed"
+      }
+    ],
+    [
+      {
+        "text": "Fuente: Ministerio de Salud de Argentina / Remediar. Documento: Incorporación de establecimientos de salud. Versión o fecha propia: Revisión: 5. https://www.argentina.gob.ar/sites/default/files/bancos/2021-06/formulario-alta-establecimientos-centros-de-salud.pdf. Condiciones: https://www.argentina.gob.ar/terminos-y-condiciones. Adaptación con datos sintéticos.",
+        "colspan": 6,
+        "source_page": 2,
+        "role": "attribution"
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "1.1. Nombre del Establecimiento:",
+      "path": [
+        "1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR",
+        "1.1. Nombre del Establecimiento:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "1.1. Nombre del Establecimiento:",
+      "synthetic_value": "Centro de Salud Ficticio del Sur"
+    },
+    {
+      "id": "f002",
+      "label": "1.2. Código SIISA:",
+      "path": [
+        "1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR",
+        "1.2. Código SIISA:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "1.2. Código SIISA:",
+      "synthetic_value": "SIISA-SIM-068"
+    },
+    {
+      "id": "f003",
+      "label": "1.3. Domicilio:",
+      "path": [
+        "1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR",
+        "1.3. Domicilio:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "1.3. Domicilio:",
+      "synthetic_value": "Calle Modelo 68"
+    },
+    {
+      "id": "f004",
+      "label": "Localidad:",
+      "path": [
+        "1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR",
+        "Localidad:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Localidad:",
+      "synthetic_value": "Localidad Ejemplo"
+    },
+    {
+      "id": "f005",
+      "label": "Municipio:",
+      "path": [
+        "1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR",
+        "Municipio:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Municipio:",
+      "synthetic_value": "Municipio Ejemplo"
+    },
+    {
+      "id": "f006",
+      "label": "Departamento:",
+      "path": [
+        "1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR",
+        "Departamento:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Departamento:",
+      "synthetic_value": "Departamento Ejemplo"
+    },
+    {
+      "id": "f007",
+      "label": "Provincia:",
+      "path": [
+        "1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR",
+        "Provincia:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Provincia:",
+      "synthetic_value": "Provincia Ficticia"
+    },
+    {
+      "id": "f008",
+      "label": "Código Postal:",
+      "path": [
+        "1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR",
+        "Código Postal:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Código Postal:",
+      "synthetic_value": "1000"
+    },
+    {
+      "id": "f009",
+      "label": "Teléfono (del Establ. o de ref.):",
+      "path": [
+        "1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR",
+        "Teléfono (del Establ. o de ref.):"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Teléfono (del Establ. o de ref.):",
+      "synthetic_value": "000 000 068"
+    },
+    {
+      "id": "f010",
+      "label": "1.4. Dependencia:",
+      "path": [
+        "1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR",
+        "1.4. Dependencia:"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "1.4. Dependencia:",
+      "synthetic_value": "Municipal",
+      "options": [
+        "Nacional",
+        "Provincial",
+        "Municipal"
+      ],
+      "context_evidence": "1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR / 1.4. Dependencia:: selección simulada Municipal."
+    },
+    {
+      "id": "f011",
+      "label": "1.5. Horario de atención a pacientes:",
+      "path": [
+        "1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR",
+        "1.5. Horario de atención a pacientes:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "1.5. Horario de atención a pacientes:",
+      "synthetic_value": "Lunes a viernes, 08:00-16:00"
+    },
+    {
+      "id": "f012",
+      "label": "1.6. Horario de recepción de medicamentos:",
+      "path": [
+        "1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR",
+        "1.6. Horario de recepción de medicamentos:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "1.6. Horario de recepción de medicamentos:",
+      "synthetic_value": "Lunes a viernes, 09:00-15:00"
+    },
+    {
+      "id": "f013",
+      "label": "1.7. Consultas Médicas Mensuales:",
+      "path": [
+        "1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR",
+        "1.7. Consultas Médicas Mensuales:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "1.7. Consultas Médicas Mensuales:",
+      "synthetic_value": "240"
+    },
+    {
+      "id": "f014",
+      "label": "1.8. ¿Cuenta con prescriptor matriculado?:",
+      "path": [
+        "1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR",
+        "1.8. ¿Cuenta con prescriptor matriculado?:"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "1.8. ¿Cuenta con prescriptor matriculado?:",
+      "synthetic_value": "SI",
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR / 1.8. ¿Cuenta con prescriptor matriculado?:: selección simulada SI."
+    },
+    {
+      "id": "f015",
+      "label": "1.9. Horas Médicas Semanales:",
+      "path": [
+        "1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR",
+        "1.9. Horas Médicas Semanales:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "1.9. Horas Médicas Semanales:",
+      "synthetic_value": "40"
+    },
+    {
+      "id": "f016",
+      "label": "1.10. Horas de Enfermería Semanales:",
+      "path": [
+        "1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR",
+        "1.10. Horas de Enfermería Semanales:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "1.10. Horas de Enfermería Semanales:",
+      "synthetic_value": "60"
+    },
+    {
+      "id": "f017",
+      "label": "1.11. Tiene Farmacia o Depósito?",
+      "path": [
+        "1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR",
+        "1.11. Tiene Farmacia o Depósito?"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "1.11. Tiene Farmacia o Depósito?",
+      "synthetic_value": "SI",
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR / 1.11. Tiene Farmacia o Depósito?: selección simulada SI."
+    },
+    {
+      "id": "f018",
+      "label": "1.12. Cantidad de camas:",
+      "path": [
+        "1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR",
+        "1.12. Cantidad de camas:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "1.12. Cantidad de camas:",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f019",
+      "label": "2.1. Apellido y Nombre",
+      "path": [
+        "2. DATOS DEL PERSONAL RESPONSABLE DE LA RECEPCION DE LOS BOTIQUINES",
+        "Responsable 1",
+        "Nombre"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "2.1. Apellido y Nombre",
+      "synthetic_value": "Andrea Receptora Ficticia"
+    },
+    {
+      "id": "f020",
+      "label": "Tipo y Número de Documento",
+      "path": [
+        "2. DATOS DEL PERSONAL RESPONSABLE DE LA RECEPCION DE LOS BOTIQUINES",
+        "Responsable 1",
+        "Documento"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Tipo y Número de Documento",
+      "synthetic_value": "DNI-SIM-6801"
+    },
+    {
+      "id": "f021",
+      "label": "Cargo",
+      "path": [
+        "2. DATOS DEL PERSONAL RESPONSABLE DE LA RECEPCION DE LOS BOTIQUINES",
+        "Responsable 1",
+        "Cargo"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cargo",
+      "synthetic_value": "Farmacéutica"
+    },
+    {
+      "id": "f022",
+      "label": "2.2. Apellido y Nombre",
+      "path": [
+        "2. DATOS DEL PERSONAL RESPONSABLE DE LA RECEPCION DE LOS BOTIQUINES",
+        "Responsable 2",
+        "Nombre"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "2.2. Apellido y Nombre",
+      "synthetic_value": "Bruno Receptor Ficticio"
+    },
+    {
+      "id": "f023",
+      "label": "Tipo y Número de Documento",
+      "path": [
+        "2. DATOS DEL PERSONAL RESPONSABLE DE LA RECEPCION DE LOS BOTIQUINES",
+        "Responsable 2",
+        "Documento"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Tipo y Número de Documento",
+      "synthetic_value": "DNI-SIM-6802"
+    },
+    {
+      "id": "f024",
+      "label": "Cargo",
+      "path": [
+        "2. DATOS DEL PERSONAL RESPONSABLE DE LA RECEPCION DE LOS BOTIQUINES",
+        "Responsable 2",
+        "Cargo"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cargo",
+      "synthetic_value": "Enfermero"
+    },
+    {
+      "id": "f025",
+      "label": "2.3. Apellido y Nombre",
+      "path": [
+        "2. DATOS DEL PERSONAL RESPONSABLE DE LA RECEPCION DE LOS BOTIQUINES",
+        "Responsable 3",
+        "Nombre"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "2.3. Apellido y Nombre",
+      "synthetic_value": "Carla Receptora Ficticia"
+    },
+    {
+      "id": "f026",
+      "label": "Tipo y Número de Documento",
+      "path": [
+        "2. DATOS DEL PERSONAL RESPONSABLE DE LA RECEPCION DE LOS BOTIQUINES",
+        "Responsable 3",
+        "Documento"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Tipo y Número de Documento",
+      "synthetic_value": "DNI-SIM-6803"
+    },
+    {
+      "id": "f027",
+      "label": "Cargo",
+      "path": [
+        "2. DATOS DEL PERSONAL RESPONSABLE DE LA RECEPCION DE LOS BOTIQUINES",
+        "Responsable 3",
+        "Cargo"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cargo",
+      "synthetic_value": "Administrativa"
+    },
+    {
+      "id": "f028",
+      "label": "Firma del Solicitante:",
+      "path": [
+        "Incorporación de Establecimientos de Salud - firmas e instrucciones",
+        "Firma del Solicitante:"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Firma del Solicitante:",
+      "synthetic_value": "Firma sintética de Andrea Receptora Ficticia"
+    },
+    {
+      "id": "f029",
+      "label": "Aclaración de Firma:",
+      "path": [
+        "Incorporación de Establecimientos de Salud - firmas e instrucciones",
+        "Aclaración de Firma:"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Aclaración de Firma:",
+      "synthetic_value": "Andrea Receptora Ficticia"
+    },
+    {
+      "id": "f030",
+      "label": "Cargo:",
+      "path": [
+        "Incorporación de Establecimientos de Salud - firmas e instrucciones",
+        "Cargo del solicitante"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Cargo:",
+      "synthetic_value": "Farmacéutica"
+    },
+    {
+      "id": "f031",
+      "label": "Fecha:",
+      "path": [
+        "Incorporación de Establecimientos de Salud - firmas e instrucciones",
+        "Fecha:"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Fecha:",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "f032",
+      "label": "Firma del Responsable Provincial:",
+      "path": [
+        "Incorporación de Establecimientos de Salud - firmas e instrucciones",
+        "Firma del Responsable Provincial:"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Firma del Responsable Provincial:",
+      "synthetic_value": "Firma sintética de responsable provincial"
+    }
+  ],
+  "context": "Caso sintético para evaluación; nombres, instituciones, datos, decisiones y firmas son ficticios.\n1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR / 1.1. Nombre del Establecimiento:: Centro de Salud Ficticio del Sur.\n1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR / 1.2. Código SIISA:: SIISA-SIM-068.\n1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR / 1.3. Domicilio:: Calle Modelo 68.\n1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR / Localidad:: Localidad Ejemplo.\n1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR / Municipio:: Municipio Ejemplo.\n1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR / Departamento:: Departamento Ejemplo.\n1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR / Provincia:: Provincia Ficticia.\n1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR / Código Postal:: 1000.\n1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR / Teléfono (del Establ. o de ref.):: 000 000 068.\n1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR / 1.4. Dependencia:: selección simulada Municipal.\n1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR / 1.5. Horario de atención a pacientes:: Lunes a viernes, 08:00-16:00.\n1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR / 1.6. Horario de recepción de medicamentos:: Lunes a viernes, 09:00-15:00.\n1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR / 1.7. Consultas Médicas Mensuales:: 240.\n1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR / 1.8. ¿Cuenta con prescriptor matriculado?:: selección simulada SI.\n1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR / 1.9. Horas Médicas Semanales:: 40.\n1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR / 1.10. Horas de Enfermería Semanales:: 60.\n1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR / 1.11. Tiene Farmacia o Depósito?: selección simulada SI.\n1. INFORMACIÓN SOBRE EL ESTABLECIMIENTO DE SALUD A INCORPORAR / 1.12. Cantidad de camas:: 0.\n2. DATOS DEL PERSONAL RESPONSABLE DE LA RECEPCION DE LOS BOTIQUINES / Responsable 1 / Nombre: Andrea Receptora Ficticia.\n2. DATOS DEL PERSONAL RESPONSABLE DE LA RECEPCION DE LOS BOTIQUINES / Responsable 1 / Documento: DNI-SIM-6801.\n2. DATOS DEL PERSONAL RESPONSABLE DE LA RECEPCION DE LOS BOTIQUINES / Responsable 1 / Cargo: Farmacéutica.\n2. DATOS DEL PERSONAL RESPONSABLE DE LA RECEPCION DE LOS BOTIQUINES / Responsable 2 / Nombre: Bruno Receptor Ficticio.\n2. DATOS DEL PERSONAL RESPONSABLE DE LA RECEPCION DE LOS BOTIQUINES / Responsable 2 / Documento: DNI-SIM-6802.\n2. DATOS DEL PERSONAL RESPONSABLE DE LA RECEPCION DE LOS BOTIQUINES / Responsable 2 / Cargo: Enfermero.\n2. DATOS DEL PERSONAL RESPONSABLE DE LA RECEPCION DE LOS BOTIQUINES / Responsable 3 / Nombre: Carla Receptora Ficticia.\n2. DATOS DEL PERSONAL RESPONSABLE DE LA RECEPCION DE LOS BOTIQUINES / Responsable 3 / Documento: DNI-SIM-6803.\n2. DATOS DEL PERSONAL RESPONSABLE DE LA RECEPCION DE LOS BOTIQUINES / Responsable 3 / Cargo: Administrativa.\nIncorporación de Establecimientos de Salud - firmas e instrucciones / Firma del Solicitante:: Firma sintética de Andrea Receptora Ficticia.\nIncorporación de Establecimientos de Salud - firmas e instrucciones / Aclaración de Firma:: Andrea Receptora Ficticia.\nIncorporación de Establecimientos de Salud - firmas e instrucciones / Cargo del solicitante: Farmacéutica.\nIncorporación de Establecimientos de Salud - firmas e instrucciones / Fecha:: 05/10/2026.\nIncorporación de Establecimientos de Salud - firmas e instrucciones / Firma del Responsable Provincial:: Firma sintética de responsable provincial.",
+  "workflow_identity": {
+    "language": "es",
+    "id": 68
+  }
+}

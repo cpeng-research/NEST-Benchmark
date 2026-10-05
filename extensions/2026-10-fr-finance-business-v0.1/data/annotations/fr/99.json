@@ -1,0 +1,951 @@
+{
+  "id": "fr-99-suivi-transmission-ei",
+  "language": "fr",
+  "domain": "Finance",
+  "business_topic": "État de suivi de l'entreprise individuelle transmise",
+  "issuer_id": "Émetteur du formulaire administratif : Ministère chargé des finances",
+  "template_family": "suivi-transmission-ei",
+  "title": "État de suivi de l'entreprise individuelle transmise",
+  "source_pages": 2,
+  "source_sha256": "aff28f736f55e738fac5f648cd508a8768a408a76162c037f9f6d14a44fe009d",
+  "retrieved_at": "2026-10-05T01:50:32+08:00",
+  "source_version": "2104-SD; Cerfa 13439*04; millésime 2026",
+  "source_url": "https://www.impots.gouv.fr/sites/default/files/formulaires/2104-sd/2026/2104-sd_5308.pdf",
+  "landing_url": "https://entreprendre.service-public.gouv.fr/vosdroits/R18884",
+  "license_url": "https://www.impots.gouv.fr/mentions-legales",
+  "license_note": "DGFiP site notice: public information under Licence Ouverte Etalab 2.0, except explicit third-party intellectual property. Source text and field structure are normalized; the original PDF and DGFiP graphics are not redistributed.",
+  "source_date_evidence": {
+    "kind": "PDF printed mark and DGFiP listing millesime",
+    "value": "2104-SD; Cerfa 13439*04; millésime 2026; DGFiP millesime 2026",
+    "landing": "Vérifié le 11 janvier 2017 - Entreprendre Service Public / Direction de l'information légale et administrative (Premier ministre)",
+    "pdf_version_mark": "2104-SD; Cerfa 13439*04; millésime 2026",
+    "publisher_listing_millesime": "2026",
+    "scope": "Landing-page verification date is distinct from the printed PDF version mark."
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "Transmission et entreprise individuelle",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Date de réalisation de l’opération de transmission à titre gratuit",
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Dénomination commerciale",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "n° SIRET",
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Adresse",
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "II. Bénéficiaires de la transmission",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nom des bénéficiaires",
+        "field": "f005",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Adresse",
+        "field": "f006",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Préciser si le bénéficiaire",
+        "field": "f007",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "n° SIRET",
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "III. Répartition des droits sur les biens transmis",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Bénéficiaires",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Fraction de la pleine",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fraction de l’usufruit",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Fraction de la nue-propriété",
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "IV. Immobilisations et plus-values reportées",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Brevets",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Brevets",
+        "field": "f013",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "court terme",
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "long terme",
+        "field": "f015",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Autres droits incorporels",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Autres droits incorporels",
+        "field": "f016",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "court terme",
+        "field": "f017",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "long terme",
+        "field": "f018",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Terrains",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Terrains",
+        "field": "f019",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "court terme",
+        "field": "f020",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "long terme",
+        "field": "f021",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Constructions",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Constructions",
+        "field": "f022",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "court terme",
+        "field": "f023",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "long terme",
+        "field": "f024",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Installations techniques",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Installations techniques",
+        "field": "f025",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "court terme",
+        "field": "f026",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "long terme",
+        "field": "f027",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Autres immobilisations corporelles",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Autres immobilisations corporelles",
+        "field": "f028",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "court terme",
+        "field": "f029",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "long terme",
+        "field": "f030",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Participations",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Participations",
+        "field": "f031",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "court terme",
+        "field": "f032",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "long terme",
+        "field": "f033",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Autres immobilisations financières",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Autres immobilisations financières",
+        "field": "f034",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "court terme",
+        "field": "f035",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "long terme",
+        "field": "f036",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Total des plus-values en report",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "TOTAL",
+        "field": "f037",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "TOTAL",
+        "field": "f038",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Source : Émetteur du formulaire administratif : Ministère chargé des finances; https://www.impots.gouv.fr/sites/default/files/formulaires/2104-sd/2026/2104-sd_5308.pdf; Vérifié le 11 janvier 2017 - Entreprendre Service Public / Direction de l'information légale et administrative (Premier ministre).",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Date de réalisation de l’opération de transmission à titre gratuit",
+      "path": [
+        "Page 1",
+        "Transmission et entreprise individuelle",
+        "Date de réalisation de l’opération de transmission à titre gratuit"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de réalisation de l’opération de transmission à titre gratuit",
+      "synthetic_value": "15/09/2026"
+    },
+    {
+      "id": "f002",
+      "label": "Dénomination commerciale",
+      "path": [
+        "Page 1",
+        "Transmission et entreprise individuelle",
+        "Entreprise transmise",
+        "Dénomination commerciale"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dénomination commerciale",
+      "synthetic_value": "Atelier Exemple"
+    },
+    {
+      "id": "f003",
+      "label": "n° SIRET",
+      "path": [
+        "Page 1",
+        "Transmission et entreprise individuelle",
+        "Entreprise transmise",
+        "n° SIRET"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "n° SIRET",
+      "synthetic_value": "00000000000099"
+    },
+    {
+      "id": "f004",
+      "label": "Adresse",
+      "path": [
+        "Page 1",
+        "Transmission et entreprise individuelle",
+        "Entreprise transmise",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Adresse",
+      "synthetic_value": "7 rue Exemple, 44000 Nantes"
+    },
+    {
+      "id": "f005",
+      "label": "Nom des bénéficiaires",
+      "path": [
+        "Page 1",
+        "II. Bénéficiaires de la transmission",
+        "Deux bénéficiaires, ordre des lignes",
+        "Nom des bénéficiaires"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom des bénéficiaires",
+      "synthetic_value": "Camille Martin ; Alex Petit"
+    },
+    {
+      "id": "f006",
+      "label": "Adresse",
+      "path": [
+        "Page 1",
+        "II. Bénéficiaires de la transmission",
+        "Deux bénéficiaires, ordre des lignes",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Adresse",
+      "synthetic_value": "Camille : 7 rue Exemple, Nantes ; Alex : 9 rue Exemple, Nantes"
+    },
+    {
+      "id": "f007",
+      "label": "Préciser si le bénéficiaire",
+      "path": [
+        "Page 1",
+        "II. Bénéficiaires de la transmission",
+        "Qualité d'exploitant",
+        "Préciser si le bénéficiaire"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Préciser si le bénéficiaire",
+      "synthetic_value": "Camille : oui ; Alex : oui"
+    },
+    {
+      "id": "f008",
+      "label": "n° SIRET",
+      "path": [
+        "Page 1",
+        "II. Bénéficiaires de la transmission",
+        "Deux bénéficiaires",
+        "n° SIRET"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "n° SIRET",
+      "synthetic_value": "Camille : 00000000000199 ; Alex : 00000000000299"
+    },
+    {
+      "id": "f009",
+      "label": "Bénéficiaires",
+      "path": [
+        "Page 1",
+        "III. Répartition des droits sur les biens transmis",
+        "Ordre des lignes",
+        "Bénéficiaires"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Bénéficiaires",
+      "synthetic_value": "Camille Martin ; Alex Petit"
+    },
+    {
+      "id": "f010",
+      "label": "Fraction de la pleine",
+      "path": [
+        "Page 1",
+        "III. Répartition des droits sur les biens transmis",
+        "Pleine propriété",
+        "Fraction de la pleine"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fraction de la pleine",
+      "synthetic_value": "Camille : 60 % ; Alex : 40 %"
+    },
+    {
+      "id": "f011",
+      "label": "Fraction de l’usufruit",
+      "path": [
+        "Page 1",
+        "III. Répartition des droits sur les biens transmis",
+        "Usufruit",
+        "Fraction de l’usufruit"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fraction de l’usufruit",
+      "synthetic_value": "Camille : 0 % ; Alex : 0 %"
+    },
+    {
+      "id": "f012",
+      "label": "Fraction de la nue-propriété",
+      "path": [
+        "Page 1",
+        "III. Répartition des droits sur les biens transmis",
+        "Nue-propriété",
+        "Fraction de la nue-propriété"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fraction de la nue-propriété",
+      "synthetic_value": "Camille : 0 % ; Alex : 0 %"
+    },
+    {
+      "id": "f013",
+      "label": "Brevets",
+      "path": [
+        "Page 2",
+        "Brevets",
+        "Nature des immobilisations",
+        "Brevets"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Brevets",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "f014",
+      "label": "court terme",
+      "path": [
+        "Page 2",
+        "Brevets",
+        "Plus-value en report",
+        "court terme"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "court terme",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f015",
+      "label": "long terme",
+      "path": [
+        "Page 2",
+        "Brevets",
+        "Plus-value en report",
+        "long terme"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "long terme",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f016",
+      "label": "Autres droits incorporels",
+      "path": [
+        "Page 2",
+        "Autres droits incorporels",
+        "Nature des immobilisations",
+        "Autres droits incorporels"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Autres droits incorporels",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "f017",
+      "label": "court terme",
+      "path": [
+        "Page 2",
+        "Autres droits incorporels",
+        "Plus-value en report",
+        "court terme"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "court terme",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f018",
+      "label": "long terme",
+      "path": [
+        "Page 2",
+        "Autres droits incorporels",
+        "Plus-value en report",
+        "long terme"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "long terme",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f019",
+      "label": "Terrains",
+      "path": [
+        "Page 2",
+        "Terrains",
+        "Nature des immobilisations",
+        "Terrains"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Terrains",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "f020",
+      "label": "court terme",
+      "path": [
+        "Page 2",
+        "Terrains",
+        "Plus-value en report",
+        "court terme"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "court terme",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f021",
+      "label": "long terme",
+      "path": [
+        "Page 2",
+        "Terrains",
+        "Plus-value en report",
+        "long terme"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "long terme",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f022",
+      "label": "Constructions",
+      "path": [
+        "Page 2",
+        "Constructions",
+        "Nature des immobilisations",
+        "Constructions"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Constructions",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "f023",
+      "label": "court terme",
+      "path": [
+        "Page 2",
+        "Constructions",
+        "Plus-value en report",
+        "court terme"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "court terme",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f024",
+      "label": "long terme",
+      "path": [
+        "Page 2",
+        "Constructions",
+        "Plus-value en report",
+        "long terme"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "long terme",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f025",
+      "label": "Installations techniques",
+      "path": [
+        "Page 2",
+        "Installations techniques",
+        "Nature des immobilisations",
+        "Installations techniques"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Installations techniques",
+      "synthetic_value": "Tour de fabrication"
+    },
+    {
+      "id": "f026",
+      "label": "court terme",
+      "path": [
+        "Page 2",
+        "Installations techniques",
+        "Plus-value en report",
+        "court terme"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "court terme",
+      "synthetic_value": "3000"
+    },
+    {
+      "id": "f027",
+      "label": "long terme",
+      "path": [
+        "Page 2",
+        "Installations techniques",
+        "Plus-value en report",
+        "long terme"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "long terme",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f028",
+      "label": "Autres immobilisations corporelles",
+      "path": [
+        "Page 2",
+        "Autres immobilisations corporelles",
+        "Nature des immobilisations",
+        "Autres immobilisations corporelles"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Autres immobilisations corporelles",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "f029",
+      "label": "court terme",
+      "path": [
+        "Page 2",
+        "Autres immobilisations corporelles",
+        "Plus-value en report",
+        "court terme"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "court terme",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f030",
+      "label": "long terme",
+      "path": [
+        "Page 2",
+        "Autres immobilisations corporelles",
+        "Plus-value en report",
+        "long terme"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "long terme",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f031",
+      "label": "Participations",
+      "path": [
+        "Page 2",
+        "Participations",
+        "Nature des immobilisations",
+        "Participations"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Participations",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "f032",
+      "label": "court terme",
+      "path": [
+        "Page 2",
+        "Participations",
+        "Plus-value en report",
+        "court terme"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "court terme",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f033",
+      "label": "long terme",
+      "path": [
+        "Page 2",
+        "Participations",
+        "Plus-value en report",
+        "long terme"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "long terme",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f034",
+      "label": "Autres immobilisations financières",
+      "path": [
+        "Page 2",
+        "Autres immobilisations financières",
+        "Nature des immobilisations",
+        "Autres immobilisations financières"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Autres immobilisations financières",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "f035",
+      "label": "court terme",
+      "path": [
+        "Page 2",
+        "Autres immobilisations financières",
+        "Plus-value en report",
+        "court terme"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "court terme",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f036",
+      "label": "long terme",
+      "path": [
+        "Page 2",
+        "Autres immobilisations financières",
+        "Plus-value en report",
+        "long terme"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "long terme",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f037",
+      "label": "TOTAL",
+      "path": [
+        "Page 2",
+        "Total des plus-values en report",
+        "Court terme",
+        "TOTAL"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "TOTAL",
+      "synthetic_value": "3000"
+    },
+    {
+      "id": "f038",
+      "label": "TOTAL",
+      "path": [
+        "Page 2",
+        "Total des plus-values en report",
+        "Long terme",
+        "TOTAL"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "TOTAL",
+      "synthetic_value": "0"
+    }
+  ],
+  "context": "Exemple fictif de remplissage, sans transmission.\nTransmission et entreprise individuelle /  / Date de réalisation de l’opération de transmission à titre gratuit: 15/09/2026\nTransmission et entreprise individuelle / Entreprise transmise / Dénomination commerciale: Atelier Exemple\nTransmission et entreprise individuelle / Entreprise transmise / n° SIRET: 00000000000099\nTransmission et entreprise individuelle / Entreprise transmise / Adresse: 7 rue Exemple, 44000 Nantes\nII. Bénéficiaires de la transmission / Deux bénéficiaires, ordre des lignes / Nom des bénéficiaires: Camille Martin ; Alex Petit\nII. Bénéficiaires de la transmission / Deux bénéficiaires, ordre des lignes / Adresse: Camille : 7 rue Exemple, Nantes ; Alex : 9 rue Exemple, Nantes\nII. Bénéficiaires de la transmission / Qualité d'exploitant / Préciser si le bénéficiaire: Camille : oui ; Alex : oui\nII. Bénéficiaires de la transmission / Deux bénéficiaires / n° SIRET: Camille : 00000000000199 ; Alex : 00000000000299\nIII. Répartition des droits sur les biens transmis / Ordre des lignes / Bénéficiaires: Camille Martin ; Alex Petit\nIII. Répartition des droits sur les biens transmis / Pleine propriété / Fraction de la pleine: Camille : 60 % ; Alex : 40 %\nIII. Répartition des droits sur les biens transmis / Usufruit / Fraction de l’usufruit: Camille : 0 % ; Alex : 0 %\nIII. Répartition des droits sur les biens transmis / Nue-propriété / Fraction de la nue-propriété: Camille : 0 % ; Alex : 0 %\nBrevets / Nature des immobilisations / Brevets: Sans objet\nBrevets / Plus-value en report / court terme: 0\nBrevets / Plus-value en report / long terme: 0\nAutres droits incorporels / Nature des immobilisations / Autres droits incorporels: Sans objet\nAutres droits incorporels / Plus-value en report / court terme: 0\nAutres droits incorporels / Plus-value en report / long terme: 0\nTerrains / Nature des immobilisations / Terrains: Sans objet\nTerrains / Plus-value en report / court terme: 0\nTerrains / Plus-value en report / long terme: 0\nConstructions / Nature des immobilisations / Constructions: Sans objet\nConstructions / Plus-value en report / court terme: 0\nConstructions / Plus-value en report / long terme: 0\nInstallations techniques / Nature des immobilisations / Installations techniques: Tour de fabrication\nInstallations techniques / Plus-value en report / court terme: 3000\nInstallations techniques / Plus-value en report / long terme: 0\nAutres immobilisations corporelles / Nature des immobilisations / Autres immobilisations corporelles: Sans objet\nAutres immobilisations corporelles / Plus-value en report / court terme: 0\nAutres immobilisations corporelles / Plus-value en report / long terme: 0\nParticipations / Nature des immobilisations / Participations: Sans objet\nParticipations / Plus-value en report / court terme: 0\nParticipations / Plus-value en report / long terme: 0\nAutres immobilisations financières / Nature des immobilisations / Autres immobilisations financières: Sans objet\nAutres immobilisations financières / Plus-value en report / court terme: 0\nAutres immobilisations financières / Plus-value en report / long terme: 0\nTotal des plus-values en report / Court terme / TOTAL: 3000\nTotal des plus-values en report / Long terme / TOTAL: 0",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 99
+  }
+}

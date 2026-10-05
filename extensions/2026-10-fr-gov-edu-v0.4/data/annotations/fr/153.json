@@ -1,0 +1,889 @@
+{
+  "id": "fr-dgaln-ecoptz-emprunteur-copro-2025",
+  "language": "fr",
+  "domain": "GovPublic",
+  "title": "Éco-PTZ : emprunteur copropriété",
+  "template_family": "dgaln-ecoptz-emprunteur-copro-2025",
+  "issuer": "DGALN",
+  "issuer_id": "DGALN",
+  "source_pages": 2,
+  "columns": 1,
+  "rows": [
+    [
+      {
+        "text": "Identité syndic",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "representant",
+        "label": "Nom et prénom du représentant",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "syndic_nature",
+        "label": "Nature du syndic",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "societe",
+        "label": "Nom de la société représentant le syndicat de copropriétaires",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Adresse de réalisation des travaux",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "batiments",
+        "label": "Nom(s) du (des) bâtiment(s) concerné(s) par le prêt",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "numero",
+        "label": "N°",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "voie",
+        "label": "Voie",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "cp",
+        "label": "Code postal",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "ville",
+        "label": "Ville",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Copropriété",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "copro_nom",
+        "label": "Nom de la copropriété",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "logements_total",
+        "label": "Nombre total de logements dans la copropriété",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "logements_participants",
+        "label": "Nombre de logements appartenant à des copropriétaires participant au prêt",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "batiments_nombre",
+        "label": "Nombre de bâtiments faisant l’objet de travaux financés par le prêt",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Type d'éco-PTZ",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "pret_type",
+        "label": "Eco-PTZ initial",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "initial_montant",
+        "label": "Montant prêté au titre de l’éco-PTZ",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "initial_date",
+        "label": "Date d’émission de l’offre de l’éco-PTZ",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Caractéristiques des travaux",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "travaux_type",
+        "label": "Type de travaux",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "plafond",
+        "label": "Plafond total de l'éco-PTZ",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "travaux_copro",
+        "label": "Total des travaux d’amélioration de la performance",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "travaux_participants",
+        "label": "Total des travaux d’amélioration de la performance",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "frais_copro",
+        "label": "Total des frais éligibles",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "frais_participants",
+        "label": "Total des frais éligibles",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "autres_copro",
+        "label": "Total des autres travaux et des autres frais",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "autres_participants",
+        "label": "Total des autres travaux et des autres frais",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "total_copro",
+        "label": "TOTAL en € TTC des travaux et frais finançables par un éco-PTZ",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "total_participants",
+        "label": "TOTAL en € TTC des travaux et frais finançables par un éco-PTZ",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "pret_demande",
+        "label": "Montant de l’éco-PTZ demandé en €",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "pret_duree",
+        "label": "Durée de l’éco-PTZ demandé en mois",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Demande accompagnée",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "piece_entreprises",
+        "label": "formulaire(s) « entreprise »",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "piece_devis_travaux",
+        "label": "devis pour les travaux d’amélioration de la performance énergétique",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "piece_devis_frais",
+        "label": "devis pour les frais",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "piece_pv_pret",
+        "label": "procès-verbal de l’assemblée générale de copropriétaires ayant décidé la souscription du prêt",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "piece_liste",
+        "label": "liste des copropriétaires se portant adhérents au prêt",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "piece_pv_travaux",
+        "label": "procès-verbal de l’assemblée générale de copropriétaires ayant décidé de la réalisation des travaux",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "piece_audit",
+        "label": "audit énergétique",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "piece_spanc",
+        "label": "attestation de contrôle du Service Public d’Assainissement Non Collectif",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Engagements du syndic et signature",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Le syndic atteste l'éligibilité des logements, les montants et l'exactitude des renseignements.",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "fait_a",
+        "label": "Fait à",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "date",
+        "label": "Le",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "signature",
+        "label": "Signature(s) ou visa et cachet",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "representant",
+      "label": "Nom et prénom du représentant",
+      "source_page": 1,
+      "source_anchor": "Nom et prénom du représentant",
+      "path": [
+        "Identité syndic",
+        "Nom et prénom du représentant"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille Martin"
+    },
+    {
+      "id": "syndic_nature",
+      "label": "Nature du syndic",
+      "source_page": 1,
+      "source_anchor": "Nature du syndic",
+      "path": [
+        "Identité syndic",
+        "Nature du syndic"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "professionnel"
+      ],
+      "options": [
+        "bénévole",
+        "professionnel"
+      ],
+      "context_evidence": "Identité syndic / Nature du syndic : professionnel."
+    },
+    {
+      "id": "societe",
+      "label": "Nom de la société représentant le syndicat de copropriétaires",
+      "source_page": 1,
+      "source_anchor": "Nom de la société représentant le syndicat de copropriétaires",
+      "path": [
+        "Identité syndic",
+        "Nom de la société représentant le syndicat de copropriétaires"
+      ],
+      "kind": "text",
+      "synthetic_value": "Syndic Exemple"
+    },
+    {
+      "id": "batiments",
+      "label": "Nom(s) du (des) bâtiment(s) concerné(s) par le prêt",
+      "source_page": 1,
+      "source_anchor": "Nom(s) du (des) bâtiment(s) concerné(s) par le prêt",
+      "path": [
+        "Adresse de réalisation des travaux",
+        "Nom(s) du (des) bâtiment(s) concerné(s) par le prêt"
+      ],
+      "kind": "text",
+      "synthetic_value": "Bâtiment A"
+    },
+    {
+      "id": "numero",
+      "label": "N°",
+      "source_page": 1,
+      "source_anchor": "N°",
+      "path": [
+        "Adresse de réalisation des travaux",
+        "N°"
+      ],
+      "kind": "text",
+      "synthetic_value": "12"
+    },
+    {
+      "id": "voie",
+      "label": "Voie",
+      "source_page": 1,
+      "source_anchor": "Voie",
+      "path": [
+        "Adresse de réalisation des travaux",
+        "Voie"
+      ],
+      "kind": "text",
+      "synthetic_value": "rue Exemple"
+    },
+    {
+      "id": "cp",
+      "label": "Code postal",
+      "source_page": 1,
+      "source_anchor": "Code postal",
+      "path": [
+        "Adresse de réalisation des travaux",
+        "Code postal"
+      ],
+      "kind": "text",
+      "synthetic_value": "75012"
+    },
+    {
+      "id": "ville",
+      "label": "Ville",
+      "source_page": 1,
+      "source_anchor": "Ville",
+      "path": [
+        "Adresse de réalisation des travaux",
+        "Ville"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "copro_nom",
+      "label": "Nom de la copropriété",
+      "source_page": 1,
+      "source_anchor": "Nom de la copropriété",
+      "path": [
+        "Copropriété",
+        "Nom de la copropriété"
+      ],
+      "kind": "text",
+      "synthetic_value": "Résidence Exemple"
+    },
+    {
+      "id": "logements_total",
+      "label": "Nombre total de logements dans la copropriété",
+      "source_page": 1,
+      "source_anchor": "Nombre total de logements dans la copropriété",
+      "path": [
+        "Copropriété",
+        "Nombre total de logements dans la copropriété"
+      ],
+      "kind": "text",
+      "synthetic_value": "24"
+    },
+    {
+      "id": "logements_participants",
+      "label": "Nombre de logements appartenant à des copropriétaires participant au prêt",
+      "source_page": 1,
+      "source_anchor": "Nombre de logements appartenant à des copropriétaires participant au prêt",
+      "path": [
+        "Copropriété",
+        "Nombre de logements appartenant à des copropriétaires participant au prêt"
+      ],
+      "kind": "text",
+      "synthetic_value": "18"
+    },
+    {
+      "id": "batiments_nombre",
+      "label": "Nombre de bâtiments faisant l’objet de travaux financés par le prêt",
+      "source_page": 1,
+      "source_anchor": "Nombre de bâtiments faisant l’objet de travaux financés par le prêt",
+      "path": [
+        "Copropriété",
+        "Nombre de bâtiments faisant l’objet de travaux financés par le prêt"
+      ],
+      "kind": "text",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "pret_type",
+      "label": "Eco-PTZ initial",
+      "source_page": 1,
+      "source_anchor": "Eco-PTZ initial",
+      "path": [
+        "Type d'éco-PTZ",
+        "Eco-PTZ initial"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Eco-PTZ initial"
+      ],
+      "options": [
+        "Eco-PTZ initial",
+        "Eco-prêt complémentaire à un éco-PTZ initial"
+      ],
+      "context_evidence": "Type d'éco-PTZ / Eco-PTZ initial : Eco-PTZ initial."
+    },
+    {
+      "id": "initial_montant",
+      "label": "Montant prêté au titre de l’éco-PTZ",
+      "source_page": 1,
+      "source_anchor": "Montant prêté au titre de l’éco-PTZ",
+      "path": [
+        "Type d'éco-PTZ",
+        "Montant prêté au titre de l’éco-PTZ"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "initial_date",
+      "label": "Date d’émission de l’offre de l’éco-PTZ",
+      "source_page": 1,
+      "source_anchor": "Date d’émission de l’offre de l’éco-PTZ",
+      "path": [
+        "Type d'éco-PTZ",
+        "Date d’émission de l’offre de l’éco-PTZ"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "travaux_type",
+      "label": "Type de travaux",
+      "source_page": 1,
+      "source_anchor": "Type de travaux",
+      "path": [
+        "Caractéristiques des travaux",
+        "Type de travaux"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Bouquet 3 actions ou plus"
+      ],
+      "options": [
+        "Action seule (hors isolation parois vitrées)",
+        "Action seule (dont isolation parois vitrées)",
+        "Bouquet 2 actions",
+        "Bouquet 3 actions ou plus",
+        "Performance énergétique globale",
+        "Assainissement"
+      ],
+      "context_evidence": "Caractéristiques des travaux / Type de travaux : Bouquet 3 actions ou plus."
+    },
+    {
+      "id": "plafond",
+      "label": "Plafond total de l'éco-PTZ",
+      "source_page": 1,
+      "source_anchor": "Plafond total de l'éco-PTZ",
+      "path": [
+        "Caractéristiques des travaux",
+        "Plafond total de l'éco-PTZ"
+      ],
+      "kind": "text",
+      "synthetic_value": "50 000 €"
+    },
+    {
+      "id": "travaux_copro",
+      "label": "Total des travaux d’amélioration de la performance",
+      "source_page": 1,
+      "source_anchor": "Total des travaux d’amélioration de la performance",
+      "path": [
+        "Caractéristiques des travaux",
+        "Total des travaux d’amélioration de la performance",
+        "Copropriété"
+      ],
+      "kind": "text",
+      "synthetic_value": "80 000 €"
+    },
+    {
+      "id": "travaux_participants",
+      "label": "Total des travaux d’amélioration de la performance",
+      "source_page": 1,
+      "source_anchor": "Total des travaux d’amélioration de la performance",
+      "path": [
+        "Caractéristiques des travaux",
+        "Total des travaux d’amélioration de la performance",
+        "Participants"
+      ],
+      "kind": "text",
+      "synthetic_value": "60 000 €"
+    },
+    {
+      "id": "frais_copro",
+      "label": "Total des frais éligibles",
+      "source_page": 1,
+      "source_anchor": "Total des frais éligibles",
+      "path": [
+        "Caractéristiques des travaux",
+        "Total des frais éligibles",
+        "Copropriété"
+      ],
+      "kind": "text",
+      "synthetic_value": "4 000 €"
+    },
+    {
+      "id": "frais_participants",
+      "label": "Total des frais éligibles",
+      "source_page": 1,
+      "source_anchor": "Total des frais éligibles",
+      "path": [
+        "Caractéristiques des travaux",
+        "Total des frais éligibles",
+        "Participants"
+      ],
+      "kind": "text",
+      "synthetic_value": "3 000 €"
+    },
+    {
+      "id": "autres_copro",
+      "label": "Total des autres travaux et des autres frais",
+      "source_page": 1,
+      "source_anchor": "Total des autres travaux et des autres frais",
+      "path": [
+        "Caractéristiques des travaux",
+        "Total des autres travaux et des autres frais",
+        "Copropriété"
+      ],
+      "kind": "text",
+      "synthetic_value": "2 000 €"
+    },
+    {
+      "id": "autres_participants",
+      "label": "Total des autres travaux et des autres frais",
+      "source_page": 1,
+      "source_anchor": "Total des autres travaux et des autres frais",
+      "path": [
+        "Caractéristiques des travaux",
+        "Total des autres travaux et des autres frais",
+        "Participants"
+      ],
+      "kind": "text",
+      "synthetic_value": "1 500 €"
+    },
+    {
+      "id": "total_copro",
+      "label": "TOTAL en € TTC des travaux et frais finançables par un éco-PTZ",
+      "source_page": 1,
+      "source_anchor": "TOTAL en € TTC des travaux et frais finançables par un éco-PTZ",
+      "path": [
+        "Caractéristiques des travaux",
+        "TOTAL en € TTC des travaux et frais finançables par un éco-PTZ",
+        "Copropriété"
+      ],
+      "kind": "text",
+      "synthetic_value": "86 000 €"
+    },
+    {
+      "id": "total_participants",
+      "label": "TOTAL en € TTC des travaux et frais finançables par un éco-PTZ",
+      "source_page": 1,
+      "source_anchor": "TOTAL en € TTC des travaux et frais finançables par un éco-PTZ",
+      "path": [
+        "Caractéristiques des travaux",
+        "TOTAL en € TTC des travaux et frais finançables par un éco-PTZ",
+        "Participants"
+      ],
+      "kind": "text",
+      "synthetic_value": "64 500 €"
+    },
+    {
+      "id": "pret_demande",
+      "label": "Montant de l’éco-PTZ demandé en €",
+      "source_page": 1,
+      "source_anchor": "Montant de l’éco-PTZ demandé en €",
+      "path": [
+        "Caractéristiques des travaux",
+        "Montant de l’éco-PTZ demandé en €"
+      ],
+      "kind": "text",
+      "synthetic_value": "50 000 €"
+    },
+    {
+      "id": "pret_duree",
+      "label": "Durée de l’éco-PTZ demandé en mois",
+      "source_page": 1,
+      "source_anchor": "Durée de l’éco-PTZ demandé en mois",
+      "path": [
+        "Caractéristiques des travaux",
+        "Durée de l’éco-PTZ demandé en mois"
+      ],
+      "kind": "text",
+      "synthetic_value": "180 mois"
+    },
+    {
+      "id": "piece_entreprises",
+      "label": "formulaire(s) « entreprise »",
+      "source_page": 2,
+      "source_anchor": "formulaire(s) « entreprise »",
+      "path": [
+        "Demande accompagnée",
+        "formulaire(s) « entreprise »"
+      ],
+      "kind": "text",
+      "synthetic_value": "Joint"
+    },
+    {
+      "id": "piece_devis_travaux",
+      "label": "devis pour les travaux d’amélioration de la performance énergétique",
+      "source_page": 2,
+      "source_anchor": "devis pour les travaux d’amélioration de la performance énergétique",
+      "path": [
+        "Demande accompagnée",
+        "devis pour les travaux d’amélioration de la performance énergétique"
+      ],
+      "kind": "text",
+      "synthetic_value": "Joint"
+    },
+    {
+      "id": "piece_devis_frais",
+      "label": "devis pour les frais",
+      "source_page": 2,
+      "source_anchor": "devis pour les frais",
+      "path": [
+        "Demande accompagnée",
+        "devis pour les frais"
+      ],
+      "kind": "text",
+      "synthetic_value": "Joint"
+    },
+    {
+      "id": "piece_pv_pret",
+      "label": "procès-verbal de l’assemblée générale de copropriétaires ayant décidé la souscription du prêt",
+      "source_page": 2,
+      "source_anchor": "procès-verbal de l’assemblée générale de copropriétaires ayant décidé la souscription du prêt",
+      "path": [
+        "Demande accompagnée",
+        "procès-verbal de l’assemblée générale de copropriétaires ayant décidé la souscription du prêt"
+      ],
+      "kind": "text",
+      "synthetic_value": "Joint"
+    },
+    {
+      "id": "piece_liste",
+      "label": "liste des copropriétaires se portant adhérents au prêt",
+      "source_page": 2,
+      "source_anchor": "liste des copropriétaires se portant adhérents au prêt",
+      "path": [
+        "Demande accompagnée",
+        "liste des copropriétaires se portant adhérents au prêt"
+      ],
+      "kind": "text",
+      "synthetic_value": "Joint"
+    },
+    {
+      "id": "piece_pv_travaux",
+      "label": "procès-verbal de l’assemblée générale de copropriétaires ayant décidé de la réalisation des travaux",
+      "source_page": 2,
+      "source_anchor": "procès-verbal de l’assemblée générale de copropriétaires ayant décidé de la réalisation des travaux",
+      "path": [
+        "Demande accompagnée",
+        "procès-verbal de l’assemblée générale de copropriétaires ayant décidé de la réalisation des travaux"
+      ],
+      "kind": "text",
+      "synthetic_value": "Joint"
+    },
+    {
+      "id": "piece_audit",
+      "label": "audit énergétique",
+      "source_page": 2,
+      "source_anchor": "audit énergétique",
+      "path": [
+        "Demande accompagnée",
+        "audit énergétique"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "piece_spanc",
+      "label": "attestation de contrôle du Service Public d’Assainissement Non Collectif",
+      "source_page": 2,
+      "source_anchor": "attestation de contrôle du Service Public d’Assainissement Non Collectif",
+      "path": [
+        "Demande accompagnée",
+        "attestation de contrôle du Service Public d’Assainissement Non Collectif"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "fait_a",
+      "label": "Fait à",
+      "source_page": 2,
+      "source_anchor": "Fait à",
+      "path": [
+        "Engagements du syndic et signature",
+        "Fait à"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "date",
+      "label": "Le",
+      "source_page": 2,
+      "source_anchor": "Le",
+      "path": [
+        "Engagements du syndic et signature",
+        "Le"
+      ],
+      "kind": "text",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "signature",
+      "label": "Signature(s) ou visa et cachet",
+      "source_page": 2,
+      "source_anchor": "Signature(s) ou visa et cachet",
+      "path": [
+        "Engagements du syndic et signature",
+        "Signature(s) ou visa et cachet"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille Martin (signature fictive)"
+    }
+  ],
+  "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/Annexe%201.2%20m%C3%A9tropole%20DOM_Emprunteur%20copro_papier.pdf",
+  "landing_url": "https://www.ecologie.gouv.fr/politiques-publiques/eco-pret-taux-zero-eco-ptz",
+  "license_url": "https://www.ecologie.gouv.fr/mentions-legales",
+  "license_note": "Ecologie site content: Etalab 2.0 absent third-party notice; source and known update date credited; branding and artwork excluded from retained fields.",
+  "source_sha256": "37dffcd34c28133c10dcf24877a2962e79c84a36a6e78c25688fc73afb005883",
+  "retrieved_at": "2026-10-04T19:12:00.863457+00:00",
+  "source_version": "Annexe 1.2; applicable à compter du 1er juillet 2025",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "kind": "Printed applicability date",
+    "value": "Annexe 1.2; applicable à compter du 1er juillet 2025",
+    "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/Annexe%201.2%20m%C3%A9tropole%20DOM_Emprunteur%20copro_papier.pdf"
+  },
+  "context": "Dossier fictif à des fins d'évaluation, sans identité réelle ni dépôt administratif.\nIdentité syndic / Nom et prénom du représentant : Camille Martin.\nIdentité syndic / Nature du syndic : professionnel.\nIdentité syndic / Nom de la société représentant le syndicat de copropriétaires : Syndic Exemple.\nAdresse de réalisation des travaux / Nom(s) du (des) bâtiment(s) concerné(s) par le prêt : Bâtiment A.\nAdresse de réalisation des travaux / N° : 12.\nAdresse de réalisation des travaux / Voie : rue Exemple.\nAdresse de réalisation des travaux / Code postal : 75012.\nAdresse de réalisation des travaux / Ville : Paris.\nCopropriété / Nom de la copropriété : Résidence Exemple.\nCopropriété / Nombre total de logements dans la copropriété : 24.\nCopropriété / Nombre de logements appartenant à des copropriétaires participant au prêt : 18.\nCopropriété / Nombre de bâtiments faisant l’objet de travaux financés par le prêt : 1.\nType d'éco-PTZ / Eco-PTZ initial : Eco-PTZ initial.\nType d'éco-PTZ / Montant prêté au titre de l’éco-PTZ : Sans objet.\nType d'éco-PTZ / Date d’émission de l’offre de l’éco-PTZ : Sans objet.\nCaractéristiques des travaux / Type de travaux : Bouquet 3 actions ou plus.\nCaractéristiques des travaux / Plafond total de l'éco-PTZ : 50 000 €.\nCaractéristiques des travaux / Total des travaux d’amélioration de la performance / Copropriété : 80 000 €.\nCaractéristiques des travaux / Total des travaux d’amélioration de la performance / Participants : 60 000 €.\nCaractéristiques des travaux / Total des frais éligibles / Copropriété : 4 000 €.\nCaractéristiques des travaux / Total des frais éligibles / Participants : 3 000 €.\nCaractéristiques des travaux / Total des autres travaux et des autres frais / Copropriété : 2 000 €.\nCaractéristiques des travaux / Total des autres travaux et des autres frais / Participants : 1 500 €.\nCaractéristiques des travaux / TOTAL en € TTC des travaux et frais finançables par un éco-PTZ / Copropriété : 86 000 €.\nCaractéristiques des travaux / TOTAL en € TTC des travaux et frais finançables par un éco-PTZ / Participants : 64 500 €.\nCaractéristiques des travaux / Montant de l’éco-PTZ demandé en € : 50 000 €.\nCaractéristiques des travaux / Durée de l’éco-PTZ demandé en mois : 180 mois.\nDemande accompagnée / formulaire(s) « entreprise » : Joint.\nDemande accompagnée / devis pour les travaux d’amélioration de la performance énergétique : Joint.\nDemande accompagnée / devis pour les frais : Joint.\nDemande accompagnée / procès-verbal de l’assemblée générale de copropriétaires ayant décidé la souscription du prêt : Joint.\nDemande accompagnée / liste des copropriétaires se portant adhérents au prêt : Joint.\nDemande accompagnée / procès-verbal de l’assemblée générale de copropriétaires ayant décidé de la réalisation des travaux : Joint.\nDemande accompagnée / audit énergétique : Sans objet.\nDemande accompagnée / attestation de contrôle du Service Public d’Assainissement Non Collectif : Sans objet.\nEngagements du syndic et signature / Fait à : Paris.\nEngagements du syndic et signature / Le : 05/10/2026.\nEngagements du syndic et signature / Signature(s) ou visa et cachet : Camille Martin (signature fictive).",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 153
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "DATOS DEL HOSPITAL DERIVANTE:": {
+    "Hospital:": "Hospital Ficticio 73",
+    "Ciudad:": "Ciudad Ficticia",
+    "Provincia:": "Provincia Ficticia",
+    "Servicio:": "Laboratorio Clínico Simulado",
+    "Fecha de envío:": "05/10/2026"
+  },
+  "DATOS DEL PACIENTE": {
+    "Apellido:": "Paciente Ficticia",
+    "Nombre:": "Elisa",
+    "DNI:": "DNI-SIM-7301",
+    "Género:": "Mujer",
+    "Fecha de nacimiento": "01/01/1990",
+    "Edad:": "36",
+    "Ciudad de residencia:": "Ciudad Ficticia",
+    "Sexo biológico:": {
+      "choices": [
+        "Masculino",
+        "Femenino"
+      ],
+      "value": [
+        "Femenino"
+      ]
+    },
+    "Embarazo:": {
+      "choices": [
+        "No",
+        "Si"
+      ],
+      "value": [
+        "Si"
+      ]
+    }
+  },
+  "DATOS DE LA/S MUESTRA/S:": {
+    "ID de muestra Suero:": "SUERO-SIM-73",
+    "ID de muestra LCR:": "LCR-SIM-73",
+    "Fecha de Toma de muestra": "04/10/2026",
+    "Material derivado:": {
+      "choices": [
+        "Suero",
+        "LCR"
+      ],
+      "value": [
+        "Suero",
+        "LCR"
+      ]
+    },
+    "Sueros pareados:": {
+      "choices": [
+        "Recién Nacido",
+        "Madre"
+      ],
+      "value": [
+        "Recién Nacido",
+        "Madre"
+      ]
+    },
+    "Concentración de proteínas": "0.4 g/l",
+    "Recuento de células": "3 N°/mm3",
+    "Recuento de CD4:": "500 células/mm3",
+    "Datos de la madre": {
+      "Nombre de la Madre:": "Madre Ficticia",
+      "DNI:": "DNI-SIM-7302",
+      "Edad:": "36",
+      "ID Muestra madre:": "MADRE-SIM-73"
+    },
+    "Estudio solicitado:": {
+      "choices": [
+        "Serología No Treponémica",
+        "Serología Treponémica"
+      ],
+      "value": [
+        "Serología No Treponémica",
+        "Serología Treponémica"
+      ]
+    },
+    "Motivo del Estudio:": {
+      "choices": [
+        "Diagnóstico Sífilis",
+        "Diagnóstico Neurosífilis",
+        "Sífilis Congénita",
+        "Control de tratamiento",
+        "Posible Abuso",
+        "Tamizaje"
+      ],
+      "value": [
+        "Sífilis Congénita"
+      ]
+    }
+  },
+  "DATOS EPIDEMIOLOGICOS:": {
+    "Ocupación:": {
+      "choices": [
+        "Viajante/transportista",
+        "Estudiante",
+        "Trabajador/a sexual",
+        "Otra"
+      ],
+      "value": [
+        "Estudiante"
+      ]
+    },
+    "Otra ocupación": "No aplica",
+    "Tipo de contacto sexual:": {
+      "choices": [
+        "Hombre",
+        "Mujer",
+        "Ambos",
+        "Estable",
+        "Ocasional"
+      ],
+      "value": [
+        "Hombre",
+        "Estable"
+      ]
+    },
+    "Mas de un contacto en 3 meses sin protección:": "No",
+    "Síntomas y signos:": {
+      "choices": [
+        "No",
+        "Si"
+      ],
+      "value": [
+        "Si"
+      ]
+    },
+    "Úlceras": "No",
+    "Manifestaciones:": {
+      "choices": [
+        "Cutáneas",
+        "Neurológicas",
+        "Gomas"
+      ],
+      "value": [
+        "Cutáneas"
+      ]
+    },
+    "Antecedentes obstétricos vinculados a sífilis:": {
+      "choices": [
+        "Partos Prematuros",
+        "Abortos espontáneos",
+        "Ruptura Prematura de Membrana",
+        "Sin antecedentes"
+      ],
+      "value": [
+        "Sin antecedentes"
+      ]
+    },
+    "Antecedentes de otras ITS:": {
+      "choices": [
+        "No",
+        "Si"
+      ],
+      "value": [
+        "Si"
+      ]
+    },
+    "Tipos de otras ITS": {
+      "choices": [
+        "VIH",
+        "Gonorrea",
+        "Sífilis",
+        "Herpes",
+        "HPV",
+        "Clamidia",
+        "Otras"
+      ],
+      "value": [
+        "VIH"
+      ]
+    },
+    "Otras:": "No aplica",
+    "Usa Drogas IV:": "No",
+    "Patología autoinmune de base:": {
+      "choices": [
+        "No",
+        "Si"
+      ],
+      "value": [
+        "No"
+      ]
+    },
+    "Cual:": "No aplica"
+  },
+  "TRATAMIENTO": {
+    "Tomo antibióticos en los últimos 15 días:": {
+      "choices": [
+        "No",
+        "Si"
+      ],
+      "value": [
+        "No"
+      ]
+    },
+    "Cuál:": "No aplica",
+    "Fecha de última toma:": "No aplica",
+    "Tratamiento actual indicado": "Tratamiento ficticio indicado",
+    "Se indicó tratamiento en Pareja": {
+      "choices": [
+        "No",
+        "Si"
+      ],
+      "value": [
+        "No"
+      ]
+    },
+    "Tratamiento de pareja": "No aplica"
+  },
+  "PARA SIFILIS CONGENITA:": {
+    "Síntomas y signos": {
+      "choices": [
+        "No",
+        "Si"
+      ],
+      "value": [
+        "Si"
+      ]
+    },
+    "Síntomas específicos": {
+      "choices": [
+        "Neumopatía",
+        "Laringitis",
+        "Hepatoesplenomegalia",
+        "Linfoadenopatía",
+        "Lesiones óseas"
+      ],
+      "value": [
+        "Neumopatía"
+      ]
+    },
+    "Manifestaciones congénitas": {
+      "choices": [
+        "Oculares",
+        "Mucocutáneas",
+        "Hematológicas",
+        "Neurologicas"
+      ],
+      "value": [
+        "Mucocutáneas"
+      ]
+    },
+    "Estigmas:": {
+      "choices": [
+        "Oftalmológicos",
+        "Orales",
+        "Osteoarticulares",
+        "Faciales"
+      ],
+      "value": [
+        "Orales"
+      ]
+    },
+    "VDRL materna:": {
+      "choices": [
+        "No Reactiva",
+        "Reactiva"
+      ],
+      "value": [
+        "Reactiva"
+      ]
+    },
+    "Título VDRL materna": "1:8 dils",
+    "Prueba confirmatoria:": {
+      "choices": [
+        "Positiva",
+        "Negativa"
+      ],
+      "value": [
+        "Positiva"
+      ]
+    },
+    "VDRL Recién nacido o niño:": {
+      "choices": [
+        "No Reactiva",
+        "Reactiva"
+      ],
+      "value": [
+        "Reactiva"
+      ]
+    },
+    "Título VDRL recién nacido": "1:4 dils"
+  },
+  "TRATAMIENTO MATERNO:": {
+    "Recibió tratamiento durante el embarazo:": {
+      "choices": [
+        "Si",
+        "No"
+      ],
+      "value": [
+        "Si"
+      ]
+    },
+    "Cual:": "Tratamiento materno ficticio",
+    "Número de dosis:": "3",
+    "Fecha de última toma/aplicación:": "01/10/2026"
+  },
+  "Firma y contacto": {
+    "Firma y Sello:": "Firma y sello sintéticos del laboratorio",
+    "E-mail:": "laboratorio73@example.invalid",
+    "Teléfono / WhatsApp:": "000 000 073"
+  },
+  "Consentimiento Informado No Obligatorio": {
+    "Yo,": "Elisa Paciente Ficticia",
+    "Firma y DNI": "Firma sintética; DNI-SIM-7301",
+    "Fecha del consentimiento": "octubre de 2026"
+  }
+}

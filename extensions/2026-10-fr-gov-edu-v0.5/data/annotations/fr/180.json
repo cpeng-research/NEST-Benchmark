@@ -1,0 +1,417 @@
+{
+  "id": "fr-dgac-ulm-f103-carte-2019",
+  "language": "fr",
+  "domain": "GovPublic",
+  "title": "Demande de carte constructeur ULM",
+  "template_family": "dgac-ulm-f103-carte-2019",
+  "issuer": "DGAC/DSAC",
+  "issuer_id": "DGAC/DSAC",
+  "source_pages": 1,
+  "columns": 1,
+  "rows": [
+    [
+      {
+        "text": "Coordonnées du demandeur",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "nom",
+        "label": "Nom, raison sociale",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "adresse",
+        "label": "Adresse",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "cp",
+        "label": "Code postal",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "commune",
+        "label": "Commune",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "pays",
+        "label": "Pays",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "telephone",
+        "label": "Téléphone",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "courriel",
+        "label": "Courriel",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Marques constructeur",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "demande",
+        "label": "Demande de marques associées à un nouveau trigramme",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "choix1",
+        "label": "Choix (choice) 1",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "choix2",
+        "label": "Choix (choice) 2",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "choix3",
+        "label": "Choix (choice) 3",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "trigramme",
+        "label": "Trigramme",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "numero",
+        "label": "Numéro",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Déclaration",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "engagement",
+        "label": "avoir pris connaissance des conditions d’utilisation d’une carte constructeur",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "donnees",
+        "label": "avoir été informé que mes informations à caractère personnel feront l'objet d'un traitement informatisé",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "date",
+        "label": "Date",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "signature",
+        "label": "Nom, prénom, signature",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "nom",
+      "label": "Nom, raison sociale",
+      "source_page": 1,
+      "source_anchor": "Nom, raison sociale",
+      "path": [
+        "Coordonnées du demandeur",
+        "Nom, raison sociale"
+      ],
+      "kind": "text",
+      "synthetic_value": "Aéro Exemple SAS"
+    },
+    {
+      "id": "adresse",
+      "label": "Adresse",
+      "source_page": 1,
+      "source_anchor": "Adresse",
+      "path": [
+        "Coordonnées du demandeur",
+        "Adresse"
+      ],
+      "kind": "text",
+      "synthetic_value": "12 rue Exemple"
+    },
+    {
+      "id": "cp",
+      "label": "Code postal",
+      "source_page": 1,
+      "source_anchor": "Code postal",
+      "path": [
+        "Coordonnées du demandeur",
+        "Code postal"
+      ],
+      "kind": "text",
+      "synthetic_value": "75012"
+    },
+    {
+      "id": "commune",
+      "label": "Commune",
+      "source_page": 1,
+      "source_anchor": "Commune",
+      "path": [
+        "Coordonnées du demandeur",
+        "Commune"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "pays",
+      "label": "Pays",
+      "source_page": 1,
+      "source_anchor": "Pays",
+      "path": [
+        "Coordonnées du demandeur",
+        "Pays"
+      ],
+      "kind": "text",
+      "synthetic_value": "France"
+    },
+    {
+      "id": "telephone",
+      "label": "Téléphone",
+      "source_page": 1,
+      "source_anchor": "Téléphone",
+      "path": [
+        "Coordonnées du demandeur",
+        "Téléphone"
+      ],
+      "kind": "text",
+      "synthetic_value": "01 00 00 00 01"
+    },
+    {
+      "id": "courriel",
+      "label": "Courriel",
+      "source_page": 1,
+      "source_anchor": "Courriel",
+      "path": [
+        "Coordonnées du demandeur",
+        "Courriel"
+      ],
+      "kind": "text",
+      "synthetic_value": "contact@example.invalid"
+    },
+    {
+      "id": "demande",
+      "label": "Demande de marques associées à un nouveau trigramme",
+      "source_page": 1,
+      "source_anchor": "Demande de marques associées à un nouveau trigramme",
+      "path": [
+        "Marques constructeur",
+        "Demande de marques associées à un nouveau trigramme"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Demande de marques associées à un nouveau trigramme"
+      ],
+      "options": [
+        "Demande de marques associées à un nouveau trigramme",
+        "Demande de nouvelles marques associées au trigramme",
+        "Demande de renouvellement des marques"
+      ],
+      "context_evidence": "Marques constructeur / Demande de marques associées à un nouveau trigramme : Demande de marques associées à un nouveau trigramme."
+    },
+    {
+      "id": "choix1",
+      "label": "Choix (choice) 1",
+      "source_page": 1,
+      "source_anchor": "Choix (choice) 1",
+      "path": [
+        "Marques constructeur",
+        "Choix (choice) 1"
+      ],
+      "kind": "text",
+      "synthetic_value": "EXA"
+    },
+    {
+      "id": "choix2",
+      "label": "Choix (choice) 2",
+      "source_page": 1,
+      "source_anchor": "Choix (choice) 2",
+      "path": [
+        "Marques constructeur",
+        "Choix (choice) 2"
+      ],
+      "kind": "text",
+      "synthetic_value": "EXB"
+    },
+    {
+      "id": "choix3",
+      "label": "Choix (choice) 3",
+      "source_page": 1,
+      "source_anchor": "Choix (choice) 3",
+      "path": [
+        "Marques constructeur",
+        "Choix (choice) 3"
+      ],
+      "kind": "text",
+      "synthetic_value": "EXC"
+    },
+    {
+      "id": "trigramme",
+      "label": "Trigramme",
+      "source_page": 1,
+      "source_anchor": "Trigramme",
+      "path": [
+        "Marques constructeur",
+        "Trigramme"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "numero",
+      "label": "Numéro",
+      "source_page": 1,
+      "source_anchor": "Numéro",
+      "path": [
+        "Marques constructeur",
+        "Numéro"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "engagement",
+      "label": "avoir pris connaissance des conditions d’utilisation d’une carte constructeur",
+      "source_page": 1,
+      "source_anchor": "avoir pris connaissance des conditions d’utilisation d’une carte constructeur",
+      "path": [
+        "Déclaration",
+        "avoir pris connaissance des conditions d’utilisation d’une carte constructeur"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "avoir pris connaissance des conditions d’utilisation d’une carte constructeur"
+      ],
+      "options": [
+        "avoir pris connaissance des conditions d’utilisation d’une carte constructeur"
+      ],
+      "context_evidence": "Déclaration / avoir pris connaissance des conditions d’utilisation d’une carte constructeur : avoir pris connaissance des conditions d’utilisation d’une carte constructeur."
+    },
+    {
+      "id": "donnees",
+      "label": "avoir été informé que mes informations à caractère personnel feront l'objet d'un traitement informatisé",
+      "source_page": 1,
+      "source_anchor": "avoir été informé que mes informations à caractère personnel feront l'objet d'un traitement informatisé",
+      "path": [
+        "Déclaration",
+        "avoir été informé que mes informations à caractère personnel feront l'objet d'un traitement informatisé"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "avoir été informé que mes informations à caractère personnel feront l'objet d'un traitement informatisé"
+      ],
+      "options": [
+        "avoir été informé que mes informations à caractère personnel feront l'objet d'un traitement informatisé"
+      ],
+      "context_evidence": "Déclaration / avoir été informé que mes informations à caractère personnel feront l'objet d'un traitement informatisé : avoir été informé que mes informations à caractère personnel feront l'objet d'un traitement informatisé."
+    },
+    {
+      "id": "date",
+      "label": "Date",
+      "source_page": 1,
+      "source_anchor": "Date",
+      "path": [
+        "Déclaration",
+        "Date"
+      ],
+      "kind": "text",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "signature",
+      "label": "Nom, prénom, signature",
+      "source_page": 1,
+      "source_anchor": "Nom, prénom, signature",
+      "path": [
+        "Déclaration",
+        "Nom, prénom, signature"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille Martin (signature fictive)"
+    }
+  ],
+  "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/R8_ULM_F103_Demande_carte_constructeur.pdf",
+  "landing_url": "https://www.ecologie.gouv.fr/politiques-publiques/ulm-demarches-constructeurs-dulm-serie",
+  "license_url": "https://www.ecologie.gouv.fr/mentions-legales",
+  "license_note": "Ecologie site content: Etalab 2.0 absent third-party notice; source and known update date credited; branding and artwork excluded from retained fields.",
+  "source_sha256": "9c36a28c2ab79fa2375b944ebf9a5864ff1e2c602e4c5d0098edda19a2005a35",
+  "retrieved_at": "2026-10-04T19:14:48.424701+00:00",
+  "source_version": "R8-ULM-F103; version 27/06/2019",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "kind": "Printed form identifier and version date",
+    "value": "R8-ULM-F103; version 27/06/2019",
+    "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/R8_ULM_F103_Demande_carte_constructeur.pdf"
+  },
+  "context": "Dossier fictif à des fins d'évaluation, sans identité réelle ni dépôt administratif.\nCoordonnées du demandeur / Nom, raison sociale : Aéro Exemple SAS.\nCoordonnées du demandeur / Adresse : 12 rue Exemple.\nCoordonnées du demandeur / Code postal : 75012.\nCoordonnées du demandeur / Commune : Paris.\nCoordonnées du demandeur / Pays : France.\nCoordonnées du demandeur / Téléphone : 01 00 00 00 01.\nCoordonnées du demandeur / Courriel : contact@example.invalid.\nMarques constructeur / Demande de marques associées à un nouveau trigramme : Demande de marques associées à un nouveau trigramme.\nMarques constructeur / Choix (choice) 1 : EXA.\nMarques constructeur / Choix (choice) 2 : EXB.\nMarques constructeur / Choix (choice) 3 : EXC.\nMarques constructeur / Trigramme : Sans objet.\nMarques constructeur / Numéro : Sans objet.\nDéclaration / avoir pris connaissance des conditions d’utilisation d’une carte constructeur : avoir pris connaissance des conditions d’utilisation d’une carte constructeur.\nDéclaration / avoir été informé que mes informations à caractère personnel feront l'objet d'un traitement informatisé : avoir été informé que mes informations à caractère personnel feront l'objet d'un traitement informatisé.\nDéclaration / Date : 05/10/2026.\nDéclaration / Nom, prénom, signature : Camille Martin (signature fictive).",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 180
+  }
+}

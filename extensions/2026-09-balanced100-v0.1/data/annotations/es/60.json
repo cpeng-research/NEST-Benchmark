@@ -1,0 +1,2303 @@
+{
+  "id": "es-health-60-tb",
+  "language": "es",
+  "domain": "Healthcare",
+  "business_topic": "tb",
+  "title": "Solicitud de estudios bacteriológicos de tuberculosis - RG-BM-08 versión 03",
+  "issuer_id": "ANLIS / INEI Servicio Micobacterias e INER Dr. Emilio Coni - Red Nacional de Laboratorios de Tuberculosis",
+  "template_family": "tb",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/rg-bm-08_solicitud_de_estudios_tb_para_web.pdf",
+  "landing_url": "https://www.argentina.gob.ar/departamento-bacteriologia/instructivos-y-planilla-de-solicitud-de-estudios",
+  "source_sha256": "849a92ae8ecb5768d86122aa8ecd5a0f83404fd99b0dccff3904f9e7a8046b34",
+  "source_pages": 3,
+  "retrieved_at": "2026-09-26T10:15:59.915926+00:00",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "Fuente: institución nacional emisora y Argentina.gob.ar. Texto institucional bajo CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), salvo indicación contraria; normalización de estructura y omisión de gráficos, sin logotipos ni patrocinio.",
+  "columns": 42,
+  "rows": [
+    [
+      {
+        "text": "DATOS INSTITUCION DERIVANTE",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Este documento se considera controlado solo si se accede desde la página web.",
+        "colspan": 42,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "Esta información es la mínima que precisa el laboratorio de referencia para sustentar la elección de los estudios y métodos a aplicar y para mantenerse comunicado con la institución que deriva el estudio. La falta de estos datos puede derivar en que no se utilicen los recursos diagnósticos adecuados para el caso en cuestión y que se demore el diagnóstico. COMPLETAR CON LETRA IMPRENTA, CLARA Y LEGIBLE ",
+        "colspan": 42,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "field": "f001",
+        "label": "Institución derivante",
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f002",
+        "label": "Servicio",
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f003",
+        "label": "Dirección Postal",
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f004",
+        "label": "Teléfono",
+        "colspan": 21,
+        "source_page": 1
+      },
+      {
+        "field": "f005",
+        "label": "Correo electrónico",
+        "colspan": 21,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "CARACTERISTICAS DEL CULTIVO",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Para el caso de derivar aislamientos, marque con una X lo que corresponda.",
+        "colspan": 42,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "field": "f006",
+        "label": "Desarrollo en",
+        "colspan": 14,
+        "source_page": 1
+      },
+      {
+        "field": "f007",
+        "label": "Positividad",
+        "colspan": 7,
+        "source_page": 1
+      },
+      {
+        "field": "f008",
+        "label": "Velocidad de desarrollo",
+        "colspan": 7,
+        "source_page": 1
+      },
+      {
+        "field": "f009",
+        "label": "Pigmentación",
+        "colspan": 7,
+        "source_page": 1
+      },
+      {
+        "field": "f010",
+        "label": "Características de las colonias",
+        "colspan": 7,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Identificación / Prueba de sensibilidad",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f011",
+        "label": "Identificado como",
+        "colspan": 21,
+        "source_page": 1
+      },
+      {
+        "field": "f012",
+        "label": "Método utilizado",
+        "colspan": 21,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f013",
+        "label": "Sensible a",
+        "colspan": 14,
+        "source_page": 1
+      },
+      {
+        "field": "f014",
+        "label": "Resistente a",
+        "colspan": 14,
+        "source_page": 1
+      },
+      {
+        "field": "f015",
+        "label": "Método utilizado",
+        "colspan": 14,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "TRATAMIENTO",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "El tratamiento actual fue iniciado el mes y año indicados a continuación.",
+        "colspan": 42,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "field": "f016",
+        "label": "mes",
+        "colspan": 21,
+        "source_page": 1
+      },
+      {
+        "field": "f017",
+        "label": "de",
+        "colspan": 21,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f018",
+        "label": "Se le administró las siguientes drogas",
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f019",
+        "label": "La evolución del paciente con este tratamiento es",
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Resultados de estudios bacteriológicos anteriores (positivos para micobacterias) del paciente",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Fecha",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "text": "Muestra estudiada",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "text": "Baciloscopía",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "text": "Cultivo",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "text": "Identificado como",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "text": "Sensible a",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "text": "Resistente a",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f020",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "field": "f021",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "field": "f022",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "field": "f023",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "field": "f024",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "field": "f025",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "field": "f026",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f027",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "field": "f028",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "field": "f029",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "field": "f030",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "field": "f031",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "field": "f032",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "field": "f033",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f034",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "field": "f035",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "field": "f036",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "field": "f037",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "field": "f038",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "field": "f039",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "field": "f040",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f041",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "field": "f042",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "field": "f043",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "field": "f044",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "field": "f045",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "field": "f046",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "field": "f047",
+        "label": "",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "SOSPECHA DE",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f048",
+        "label": "SOSPECHA DE",
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(1) ANLIS “Dr. Carlos G. Malbrán” - Instituto Nacional de Enfermedades Infecciosas (INEI) - Departamento de Bacteriología - Servicio Micobacterias - Avda. Vélez Sarsfield 563 - C1282AFF - CABA - Tel: +54 9 11 3754-4001 (2) ANLIS “Dr. Carlos G. Malbrán” - Instituto Nacional de Enfermedades Respiratorias “Dr. Emilio Coni” (INER) – Laboratorio de Micobacterias - Avda. Blas Parera 8260 - CP 3000 - Santa Fe - Tel: (54) 342-489-2830 / 2827 / 2525 / 6851",
+        "colspan": 42,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "DATOS DEL PACIENTE",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f049",
+        "label": "Apellido y Nombres*",
+        "colspan": 14,
+        "source_page": 2
+      },
+      {
+        "field": "f050",
+        "label": "HC Nº",
+        "colspan": 14,
+        "source_page": 2
+      },
+      {
+        "field": "f051",
+        "label": "Documento*",
+        "colspan": 14,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f052",
+        "label": "Fecha de nacimiento*",
+        "colspan": 14,
+        "source_page": 2
+      },
+      {
+        "field": "f053",
+        "label": "Edad",
+        "colspan": 14,
+        "source_page": 2
+      },
+      {
+        "field": "f054",
+        "label": "Nacionalidad",
+        "colspan": 14,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f055",
+        "label": "Domicilio*",
+        "colspan": 14,
+        "source_page": 2
+      },
+      {
+        "field": "f056",
+        "label": "Localidad*",
+        "colspan": 14,
+        "source_page": 2
+      },
+      {
+        "field": "f057",
+        "label": "Partido/Dpto*",
+        "colspan": 14,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f058",
+        "label": "Provincia*",
+        "colspan": 14,
+        "source_page": 2
+      },
+      {
+        "field": "f059",
+        "label": "País de residencia anterior",
+        "colspan": 14,
+        "source_page": 2
+      },
+      {
+        "field": "f060",
+        "label": "Teléfono*",
+        "colspan": 14,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f061",
+        "label": "Sexo",
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f062",
+        "label": "Servicio que deriva la muestra",
+        "colspan": 21,
+        "source_page": 2
+      },
+      {
+        "field": "f063",
+        "label": "Fecha",
+        "colspan": 21,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "ESTUDIOS REQUERIDOS",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f064",
+        "label": "ESTUDIOS REQUERIDOS",
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f065",
+        "label": "Para diagnóstico",
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f066",
+        "label": "Muestra",
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f067",
+        "label": "Mes de tratamiento",
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f068",
+        "label": "Muestra de",
+        "colspan": 14,
+        "source_page": 2
+      },
+      {
+        "field": "f069",
+        "label": "Resultado de la baciloscopía",
+        "colspan": 14,
+        "source_page": 2
+      },
+      {
+        "field": "f070",
+        "label": "Fecha de toma de muestra",
+        "colspan": 14,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f071",
+        "label": "N° de derivación de SISA (ID de derivación)*",
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f072",
+        "label": "Nombre y Apellido del Médico*",
+        "colspan": 21,
+        "source_page": 2
+      },
+      {
+        "field": "f073",
+        "label": "Tel",
+        "colspan": 21,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f074",
+        "label": "Email*",
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "ANTECEDENTES DEL PACIENTE",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f075",
+        "label": "ANTECEDENTES DEL PACIENTE",
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f076",
+        "label": "Tratamiento previo para tuberculosis",
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f077",
+        "label": "Recuperado a la pérdida de seguimiento",
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f078",
+        "label": "Otro (indique)",
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Certificación",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "f079",
+        "label": "Firma y sello",
+        "colspan": 21,
+        "source_page": 2
+      },
+      {
+        "field": "f080",
+        "label": "Fecha",
+        "colspan": 21,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "El Servicio Micobacterias mantiene la confidencialidad de sus usuarios en todo momento, excepto cuando la ley requiere que se libere información confidencial",
+        "colspan": 42,
+        "source_page": 2,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "INSTRUCTIVO PARA EL LLENADO",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "COMPLETAR CON LETRA IMPRENTA, CLARA Y LEGIBLE ",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "DATOS INSTITUCION DERIVANTE",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "- Institución derivante: Nombre de la institución que solicita el estudio (hospital, centro de salud, sistema penitenciario, obra social, clínica, sanatorio, otro)",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Servicio: Nombre del servicio al cual pertenece el profesional solicitante",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Dirección postal: Calle y número de la institución que deriva la muestra",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Teléfono: Número de teléfono del servicio perteneciente a la institución que deriva la muestra",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Fax: Número de fax del servicio perteneciente a la institución que deriva la muestra",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Correo electrónico: Dirección electrónica del servicio y/o profesional que deriva la muestra",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "DATOS DEL PACIENTE",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "* Campos Obligatorios",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Apellido y Nombres: Los que constan en el documento de identidad.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- HC No: Número de historia clínica.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Documento: Tipo y número de documento de identidad.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Fecha de nacimiento: La que figura en el documento de identidad.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Edad: Años cumplidos al momento de la solicitud de la muestra.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Sexo: Marcar una cruz en el casillero F si es femenino, en el M si es masculino o en otro si la persona se percibe no binaria",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Nacionalidad: La que figura en el documento de identidad.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Domicilio: Calle y número de residencia del paciente. Si se encuentra en una unidad carcelaria u otra institución cerrada, indicar nombre y ubicación.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Localidad: Ciudad, región, pueblo, paraje.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Partido/Dpto.: Según la provincia en la que se ubica la localidad de residencia del paciente.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Provincia: Nombre de la provincia a la que pertenece la localidad de residencia del paciente.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- País de residencia anterior: Nombre del país en el que residió con anterioridad, si corresponde.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Teléfono: Fijo y/o celular con código de área.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Servicio que deriva la muestra: Nombre y dirección del servicio público o privado que envía la muestra (hospital, centro de salud, sistema penitenciario, obra social, clínica, sanatorio, otro).",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Fecha: Día, mes y año en que se solicita el estudio.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "ESTUDIOS REQUERIDOS",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "- Baciloscopía: Marcar una cruz si se solicita baciloscopía.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Cultivo: Marcar una cruz si se debe cultivar la muestra.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Prueba de sensibilidad: Marcar una cruz si se solicita prueba de sensibilidad.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Para diagnóstico: Marcar una cruz si la muestra es para diagnóstico.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Muestra: Marcar una cruz en el casillero de 1ra, 2da ó 3era según corresponda.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Para control de tratamiento: Marcar una cruz si se trata de una muestra para control del tratamiento",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Mes de tratamiento: Escribir el número del mes de tratamiento al que corresponde la muestra.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Muestra de: Nombrar el tipo de muestra para la que se solicita el estudio bacteriológico.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Resultado de la baciloscopía: Registrar el resultado de acuerdo a la escala normada para la Red Nacional de Laboratorios de Bacteriología de la Tuberculosis.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Fecha de toma de muestra: Indicar día, mes y año de la toma de muestra",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- N° de derivación de SISA (ID de derivación): Indicar el número de derivación del estudio a través de SISA",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "ANTECEDENTES DEL PACIENTE",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "- Sintomático respiratorio con dos o más baciloscopías de esputo negativas: Marque una cruz en el casillero si este es el motivo de la solicitud del estudio.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Enfermedad extrapulmonar: Marque una cruz si sospecha tuberculosis extrapulmonar.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Tratamiento previo para tuberculosis: Marcar una cruz en el casillero SI (si el paciente recibió tratamiento completo o incompleto para tuberculosis con anterioridad a la solicitud de la muestra) o NO (si el paciente no recibió tratamiento antituberculoso previo a la muestra). Especifique a qué categoría de retratamiento corresponde: Recuperado a la pérdida de seguimiento, Falla de tratamiento, Tratamiento completo o Curado.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Personal de salud: Marque con una cruz si la persona trabaja en una institución de salud.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Privado de la libertad: Marque con una cruz si la persona se encuentra privada de su libertad al momento de la toma de muestra",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Contacto de paciente con TB resistente a las drogas: Marque con una cruz si la persona es contacto de paciente con TB resistente a las drogas",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Inmunocomprometido: Marque con una cruz si la persona es inmunocomprometida por cualquier causa (PVVIH, transplantado, etc)",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Persona que vive con diabetes: Marque con una cruz si la persona vive con diabetes",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Niño: Marque con una cruz si la persona es menor o igual a 15 años",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Consumo problemático de alcohol y/o drogas: Marque con una cruz si la persona presenta consumo problemático de alcohol y/o drogas",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Otro: Marque una cruz en este casillero si el motivo no está listado, marque una cruz en Otro y precise la causa.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Solicitante del o los estudio/s: Nombre y apellido de la persona que solicita el o los estudio/s.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Firma: De la persona que solicita.",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "- Fecha de solicitud del o los estudios",
+        "colspan": 42,
+        "source_page": 3,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "Fuente: ANLIS / INEI Servicio Micobacterias e INER Dr. Emilio Coni - Red Nacional de Laboratorios de Tuberculosis. Documento: Solicitud de estudios bacteriológicos de tuberculosis - RG-BM-08 versión 03. Versión/identificador impreso: RG-BM-08 / Versión 03. https://www.argentina.gob.ar/sites/default/files/rg-bm-08_solicitud_de_estudios_tb_para_web.pdf. Recuperado: 2026-09-26. Condiciones de reutilización: https://www.argentina.gob.ar/terminos-y-condiciones. Fuente: institución nacional emisora y Argentina.gob.ar. Texto institucional bajo CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), salvo indicación contraria; normalización de estructura y omisión de gráficos, sin logotipos ni patrocinio. Adaptación de estructura con datos ficticios.",
+        "colspan": 42,
+        "source_page": 3
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Institución derivante",
+      "path": [
+        "DATOS INSTITUCION DERIVANTE",
+        "Institución derivante"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Institución derivante",
+      "synthetic_value": "Hospital Ficticio de Ejemplo"
+    },
+    {
+      "id": "f002",
+      "label": "Servicio",
+      "path": [
+        "DATOS INSTITUCION DERIVANTE",
+        "Servicio"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Servicio",
+      "synthetic_value": "Neumonología ficticia"
+    },
+    {
+      "id": "f003",
+      "label": "Dirección Postal",
+      "path": [
+        "DATOS INSTITUCION DERIVANTE",
+        "Dirección Postal"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dirección Postal",
+      "synthetic_value": "Calle Ejemplo 60, Villa Ficticia"
+    },
+    {
+      "id": "f004",
+      "label": "Teléfono",
+      "path": [
+        "DATOS INSTITUCION DERIVANTE",
+        "Teléfono"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Teléfono",
+      "synthetic_value": "000-000-0060"
+    },
+    {
+      "id": "f005",
+      "label": "Correo electrónico",
+      "path": [
+        "DATOS INSTITUCION DERIVANTE",
+        "Correo electrónico"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Correo electrónico",
+      "synthetic_value": "laboratorio60@example.invalid"
+    },
+    {
+      "id": "f006",
+      "label": "Desarrollo en",
+      "path": [
+        "CARACTERISTICAS DEL CULTIVO",
+        "Desarrollo en"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Desarrollo en",
+      "synthetic_value": "LJ",
+      "options": [
+        "LJ",
+        "ST",
+        "MGIT",
+        "KO"
+      ],
+      "context_evidence": "CARACTERISTICAS DEL CULTIVO / Desarrollo en: selección [\"LJ\"]; las demás opciones no se marcan."
+    },
+    {
+      "id": "f007",
+      "label": "Positividad",
+      "path": [
+        "CARACTERISTICAS DEL CULTIVO",
+        "Positividad"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Positividad",
+      "synthetic_value": "2+",
+      "options": [
+        "<20 col",
+        "1+",
+        "2+",
+        "3+"
+      ],
+      "context_evidence": "CARACTERISTICAS DEL CULTIVO / Positividad: selección [\"2+\"]; las demás opciones no se marcan."
+    },
+    {
+      "id": "f008",
+      "label": "Velocidad de desarrollo",
+      "path": [
+        "CARACTERISTICAS DEL CULTIVO",
+        "Velocidad de desarrollo"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Velocidad de desarrollo",
+      "synthetic_value": ">7 días",
+      "options": [
+        "<7 días",
+        ">7 días"
+      ],
+      "context_evidence": "CARACTERISTICAS DEL CULTIVO / Velocidad de desarrollo: selección [\">7 días\"]; las demás opciones no se marcan."
+    },
+    {
+      "id": "f009",
+      "label": "Pigmentación",
+      "path": [
+        "CARACTERISTICAS DEL CULTIVO",
+        "Pigmentación"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Pigmentación",
+      "synthetic_value": "NO",
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "CARACTERISTICAS DEL CULTIVO / Pigmentación: selección [\"NO\"]; las demás opciones no se marcan."
+    },
+    {
+      "id": "f010",
+      "label": "Características de las colonias",
+      "path": [
+        "CARACTERISTICAS DEL CULTIVO",
+        "Características de las colonias"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Características de las colonias",
+      "synthetic_value": "Rugosas",
+      "options": [
+        "Rugosas",
+        "Lisas"
+      ],
+      "context_evidence": "CARACTERISTICAS DEL CULTIVO / Características de las colonias: selección [\"Rugosas\"]; las demás opciones no se marcan."
+    },
+    {
+      "id": "f011",
+      "label": "Identificado como",
+      "path": [
+        "Identificación / Prueba de sensibilidad",
+        "Identificado como"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Identificado como",
+      "synthetic_value": "M. tuberculosis, supuesto ficticio"
+    },
+    {
+      "id": "f012",
+      "label": "Método utilizado",
+      "path": [
+        "Identificación",
+        "Método utilizado"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Método utilizado",
+      "synthetic_value": "ICL",
+      "options": [
+        "ICL",
+        "Xpert",
+        "LPA",
+        "MALDI TOF"
+      ],
+      "context_evidence": "Identificación / Método utilizado: selección [\"ICL\"]; las demás opciones no se marcan."
+    },
+    {
+      "id": "f013",
+      "label": "Sensible a",
+      "path": [
+        "Identificación / Prueba de sensibilidad",
+        "Sensible a"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Sensible a",
+      "synthetic_value": "Isoniazida y rifampicina ficticias"
+    },
+    {
+      "id": "f014",
+      "label": "Resistente a",
+      "path": [
+        "Identificación / Prueba de sensibilidad",
+        "Resistente a"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Resistente a",
+      "synthetic_value": "Ninguna de las probadas, supuesto ficticio"
+    },
+    {
+      "id": "f015",
+      "label": "Método utilizado",
+      "path": [
+        "Prueba de sensibilidad",
+        "Método utilizado"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Método utilizado",
+      "synthetic_value": "MGIT",
+      "options": [
+        "Nitratasa",
+        "Prop. medio sólido",
+        "MGIT",
+        "Xpert",
+        "LPA",
+        "Otro"
+      ],
+      "context_evidence": "Prueba de sensibilidad / Método utilizado: selección [\"MGIT\"]; las demás opciones no se marcan."
+    },
+    {
+      "id": "f016",
+      "label": "mes",
+      "path": [
+        "TRATAMIENTO",
+        "mes"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "El tratamiento actual fue iniciado el mes",
+      "synthetic_value": "agosto"
+    },
+    {
+      "id": "f017",
+      "label": "de",
+      "path": [
+        "TRATAMIENTO",
+        "Año de inicio"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "El tratamiento actual fue iniciado el mes",
+      "synthetic_value": "2026"
+    },
+    {
+      "id": "f018",
+      "label": "Se le administró las siguientes drogas",
+      "path": [
+        "TRATAMIENTO",
+        "Se le administró las siguientes drogas"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Se le administró las siguientes drogas",
+      "synthetic_value": "Isoniazida, rifampicina, pirazinamida y etambutol en supuesto ficticio, no prescripción"
+    },
+    {
+      "id": "f019",
+      "label": "La evolución del paciente con este tratamiento es",
+      "path": [
+        "TRATAMIENTO",
+        "La evolución del paciente con este tratamiento es"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "La evolución del paciente con este tratamiento es",
+      "synthetic_value": "buena",
+      "options": [
+        "buena",
+        "estable",
+        "mala"
+      ],
+      "context_evidence": "TRATAMIENTO / La evolución del paciente con este tratamiento es: selección [\"buena\"]; las demás opciones no se marcan."
+    },
+    {
+      "id": "f020",
+      "label": "Fecha",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 1",
+        "Fecha"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha",
+      "synthetic_value": "20/08/2026"
+    },
+    {
+      "id": "f021",
+      "label": "Muestra estudiada",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 1",
+        "Muestra estudiada"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Muestra estudiada",
+      "synthetic_value": "Esputo"
+    },
+    {
+      "id": "f022",
+      "label": "Baciloscopía",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 1",
+        "Baciloscopía"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Baciloscopía",
+      "synthetic_value": "2+"
+    },
+    {
+      "id": "f023",
+      "label": "Cultivo",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 1",
+        "Cultivo"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cultivo",
+      "synthetic_value": "Positivo ficticio"
+    },
+    {
+      "id": "f024",
+      "label": "Identificado como",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 1",
+        "Identificado como"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Identificado como",
+      "synthetic_value": "M. tuberculosis ficticia"
+    },
+    {
+      "id": "f025",
+      "label": "Sensible a",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 1",
+        "Sensible a"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Sensible a",
+      "synthetic_value": "Isoniazida y rifampicina ficticias"
+    },
+    {
+      "id": "f026",
+      "label": "Resistente a",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 1",
+        "Resistente a"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Resistente a",
+      "synthetic_value": "Ninguna probada ficticia"
+    },
+    {
+      "id": "f027",
+      "label": "Fecha",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 2",
+        "Fecha"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha",
+      "synthetic_value": "",
+      "condition": "sin otro estudio previo positivo en el supuesto"
+    },
+    {
+      "id": "f028",
+      "label": "Muestra estudiada",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 2",
+        "Muestra estudiada"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Muestra estudiada",
+      "synthetic_value": "",
+      "condition": "sin otro estudio previo positivo en el supuesto"
+    },
+    {
+      "id": "f029",
+      "label": "Baciloscopía",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 2",
+        "Baciloscopía"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Baciloscopía",
+      "synthetic_value": "",
+      "condition": "sin otro estudio previo positivo en el supuesto"
+    },
+    {
+      "id": "f030",
+      "label": "Cultivo",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 2",
+        "Cultivo"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cultivo",
+      "synthetic_value": "",
+      "condition": "sin otro estudio previo positivo en el supuesto"
+    },
+    {
+      "id": "f031",
+      "label": "Identificado como",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 2",
+        "Identificado como"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Identificado como",
+      "synthetic_value": "",
+      "condition": "sin otro estudio previo positivo en el supuesto"
+    },
+    {
+      "id": "f032",
+      "label": "Sensible a",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 2",
+        "Sensible a"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Sensible a",
+      "synthetic_value": "",
+      "condition": "sin otro estudio previo positivo en el supuesto"
+    },
+    {
+      "id": "f033",
+      "label": "Resistente a",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 2",
+        "Resistente a"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Resistente a",
+      "synthetic_value": "",
+      "condition": "sin otro estudio previo positivo en el supuesto"
+    },
+    {
+      "id": "f034",
+      "label": "Fecha",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 3",
+        "Fecha"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha",
+      "synthetic_value": "",
+      "condition": "sin otro estudio previo positivo en el supuesto"
+    },
+    {
+      "id": "f035",
+      "label": "Muestra estudiada",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 3",
+        "Muestra estudiada"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Muestra estudiada",
+      "synthetic_value": "",
+      "condition": "sin otro estudio previo positivo en el supuesto"
+    },
+    {
+      "id": "f036",
+      "label": "Baciloscopía",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 3",
+        "Baciloscopía"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Baciloscopía",
+      "synthetic_value": "",
+      "condition": "sin otro estudio previo positivo en el supuesto"
+    },
+    {
+      "id": "f037",
+      "label": "Cultivo",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 3",
+        "Cultivo"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cultivo",
+      "synthetic_value": "",
+      "condition": "sin otro estudio previo positivo en el supuesto"
+    },
+    {
+      "id": "f038",
+      "label": "Identificado como",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 3",
+        "Identificado como"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Identificado como",
+      "synthetic_value": "",
+      "condition": "sin otro estudio previo positivo en el supuesto"
+    },
+    {
+      "id": "f039",
+      "label": "Sensible a",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 3",
+        "Sensible a"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Sensible a",
+      "synthetic_value": "",
+      "condition": "sin otro estudio previo positivo en el supuesto"
+    },
+    {
+      "id": "f040",
+      "label": "Resistente a",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 3",
+        "Resistente a"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Resistente a",
+      "synthetic_value": "",
+      "condition": "sin otro estudio previo positivo en el supuesto"
+    },
+    {
+      "id": "f041",
+      "label": "Fecha",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 4",
+        "Fecha"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha",
+      "synthetic_value": "",
+      "condition": "sin otro estudio previo positivo en el supuesto"
+    },
+    {
+      "id": "f042",
+      "label": "Muestra estudiada",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 4",
+        "Muestra estudiada"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Muestra estudiada",
+      "synthetic_value": "",
+      "condition": "sin otro estudio previo positivo en el supuesto"
+    },
+    {
+      "id": "f043",
+      "label": "Baciloscopía",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 4",
+        "Baciloscopía"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Baciloscopía",
+      "synthetic_value": "",
+      "condition": "sin otro estudio previo positivo en el supuesto"
+    },
+    {
+      "id": "f044",
+      "label": "Cultivo",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 4",
+        "Cultivo"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cultivo",
+      "synthetic_value": "",
+      "condition": "sin otro estudio previo positivo en el supuesto"
+    },
+    {
+      "id": "f045",
+      "label": "Identificado como",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 4",
+        "Identificado como"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Identificado como",
+      "synthetic_value": "",
+      "condition": "sin otro estudio previo positivo en el supuesto"
+    },
+    {
+      "id": "f046",
+      "label": "Sensible a",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 4",
+        "Sensible a"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Sensible a",
+      "synthetic_value": "",
+      "condition": "sin otro estudio previo positivo en el supuesto"
+    },
+    {
+      "id": "f047",
+      "label": "Resistente a",
+      "path": [
+        "Resultados de estudios bacteriológicos anteriores",
+        "Fila 4",
+        "Resistente a"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Resistente a",
+      "synthetic_value": "",
+      "condition": "sin otro estudio previo positivo en el supuesto"
+    },
+    {
+      "id": "f048",
+      "label": "SOSPECHA DE",
+      "path": [
+        "SOSPECHA DE",
+        "SOSPECHA DE"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "SOSPECHA DE",
+      "synthetic_value": [],
+      "options": [
+        "Contaminación cruzada de laboratorio",
+        "Transmisión intrainstitucional"
+      ],
+      "context_evidence": "SOSPECHA DE / SOSPECHA DE: selección []; las demás opciones no se marcan."
+    },
+    {
+      "id": "f049",
+      "label": "Apellido y Nombres*",
+      "path": [
+        "DATOS DEL PACIENTE",
+        "Apellido y Nombres*"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Apellido y Nombres*",
+      "synthetic_value": "Marina Paciente Ejemplo"
+    },
+    {
+      "id": "f050",
+      "label": "HC Nº",
+      "path": [
+        "DATOS DEL PACIENTE",
+        "HC Nº"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "HC Nº",
+      "synthetic_value": "HC-FICTICIA-60"
+    },
+    {
+      "id": "f051",
+      "label": "Documento*",
+      "path": [
+        "DATOS DEL PACIENTE",
+        "Documento*"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Documento*",
+      "synthetic_value": "DNI-FICTICIO-60"
+    },
+    {
+      "id": "f052",
+      "label": "Fecha de nacimiento*",
+      "path": [
+        "DATOS DEL PACIENTE",
+        "Fecha de nacimiento*"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Fecha de nacimiento*",
+      "synthetic_value": "12/04/1981"
+    },
+    {
+      "id": "f053",
+      "label": "Edad",
+      "path": [
+        "DATOS DEL PACIENTE",
+        "Edad"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Edad",
+      "synthetic_value": "45"
+    },
+    {
+      "id": "f054",
+      "label": "Nacionalidad",
+      "path": [
+        "DATOS DEL PACIENTE",
+        "Nacionalidad"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nacionalidad",
+      "synthetic_value": "Argentina"
+    },
+    {
+      "id": "f055",
+      "label": "Domicilio*",
+      "path": [
+        "DATOS DEL PACIENTE",
+        "Domicilio*"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Domicilio*",
+      "synthetic_value": "Calle Ejemplo 60"
+    },
+    {
+      "id": "f056",
+      "label": "Localidad*",
+      "path": [
+        "DATOS DEL PACIENTE",
+        "Localidad*"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Localidad*",
+      "synthetic_value": "Villa Ficticia"
+    },
+    {
+      "id": "f057",
+      "label": "Partido/Dpto*",
+      "path": [
+        "DATOS DEL PACIENTE",
+        "Partido/Dpto*"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Partido/Dpto*",
+      "synthetic_value": "Partido Ficticio"
+    },
+    {
+      "id": "f058",
+      "label": "Provincia*",
+      "path": [
+        "DATOS DEL PACIENTE",
+        "Provincia*"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Provincia*",
+      "synthetic_value": "Buenos Aires"
+    },
+    {
+      "id": "f059",
+      "label": "País de residencia anterior",
+      "path": [
+        "DATOS DEL PACIENTE",
+        "País de residencia anterior"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "País de residencia anterior",
+      "synthetic_value": "",
+      "condition": "sin residencia previa en otro país"
+    },
+    {
+      "id": "f060",
+      "label": "Teléfono*",
+      "path": [
+        "DATOS DEL PACIENTE",
+        "Teléfono*"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Teléfono*",
+      "synthetic_value": "000-000-0160"
+    },
+    {
+      "id": "f061",
+      "label": "Sexo",
+      "path": [
+        "DATOS DEL PACIENTE",
+        "Sexo"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Sexo",
+      "synthetic_value": "F",
+      "options": [
+        "F",
+        "M",
+        "Otro"
+      ],
+      "context_evidence": "DATOS DEL PACIENTE / Sexo: selección [\"F\"]; las demás opciones no se marcan."
+    },
+    {
+      "id": "f062",
+      "label": "Servicio que deriva la muestra",
+      "path": [
+        "DATOS DEL PACIENTE",
+        "Servicio que deriva la muestra"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Servicio que deriva la muestra",
+      "synthetic_value": "Neumonología, Hospital Ficticio de Ejemplo"
+    },
+    {
+      "id": "f063",
+      "label": "Fecha",
+      "path": [
+        "DATOS DEL PACIENTE",
+        "Fecha"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Fecha",
+      "synthetic_value": "26/09/2026"
+    },
+    {
+      "id": "f064",
+      "label": "ESTUDIOS REQUERIDOS",
+      "path": [
+        "ESTUDIOS REQUERIDOS",
+        "ESTUDIOS REQUERIDOS"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 2,
+      "source_anchor": "ESTUDIOS REQUERIDOS",
+      "synthetic_value": [
+        "Prueba de sensibilidad"
+      ],
+      "options": [
+        "Baciloscopía",
+        "Cultivo",
+        "Prueba de sensibilidad",
+        "Prueba rápida diagnóstica"
+      ],
+      "context_evidence": "ESTUDIOS REQUERIDOS / ESTUDIOS REQUERIDOS: selección [\"Prueba de sensibilidad\"]; las demás opciones no se marcan."
+    },
+    {
+      "id": "f065",
+      "label": "Para diagnóstico",
+      "path": [
+        "ESTUDIOS REQUERIDOS",
+        "Para diagnóstico"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Para diagnóstico",
+      "synthetic_value": "Para control de tratamiento",
+      "options": [
+        "Para diagnóstico",
+        "Para control de tratamiento"
+      ],
+      "context_evidence": "ESTUDIOS REQUERIDOS / Para diagnóstico: selección [\"Para control de tratamiento\"]; las demás opciones no se marcan."
+    },
+    {
+      "id": "f066",
+      "label": "Muestra",
+      "path": [
+        "ESTUDIOS REQUERIDOS",
+        "Muestra"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Muestra",
+      "synthetic_value": [],
+      "options": [
+        "1ra",
+        "2da",
+        "3ra"
+      ],
+      "context_evidence": "ESTUDIOS REQUERIDOS / Muestra: selección []; las demás opciones no se marcan.",
+      "condition": "control de tratamiento, no serie diagnóstica"
+    },
+    {
+      "id": "f067",
+      "label": "Mes de tratamiento",
+      "path": [
+        "ESTUDIOS REQUERIDOS",
+        "Mes de tratamiento"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Mes de tratamiento",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "f068",
+      "label": "Muestra de",
+      "path": [
+        "ESTUDIOS REQUERIDOS",
+        "Muestra de"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Muestra de",
+      "synthetic_value": "Aislamiento de esputo ficticio"
+    },
+    {
+      "id": "f069",
+      "label": "Resultado de la baciloscopía",
+      "path": [
+        "ESTUDIOS REQUERIDOS",
+        "Resultado de la baciloscopía"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Resultado de la baciloscopía",
+      "synthetic_value": "2+ ficticio"
+    },
+    {
+      "id": "f070",
+      "label": "Fecha de toma de muestra",
+      "path": [
+        "ESTUDIOS REQUERIDOS",
+        "Fecha de toma de muestra"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Fecha de toma de muestra",
+      "synthetic_value": "24/09/2026"
+    },
+    {
+      "id": "f071",
+      "label": "N° de derivación de SISA (ID de derivación)*",
+      "path": [
+        "ESTUDIOS REQUERIDOS",
+        "N° de derivación de SISA (ID de derivación)*"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "N° de derivación de SISA (ID de derivación)*",
+      "synthetic_value": "SISA-FICTICIO-60"
+    },
+    {
+      "id": "f072",
+      "label": "Nombre y Apellido del Médico*",
+      "path": [
+        "ESTUDIOS REQUERIDOS",
+        "Nombre y Apellido del Médico*"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nombre y Apellido del Médico*",
+      "synthetic_value": "Elena Médica Ejemplo"
+    },
+    {
+      "id": "f073",
+      "label": "Tel",
+      "path": [
+        "ESTUDIOS REQUERIDOS",
+        "Tel"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Tel",
+      "synthetic_value": "000-000-0260"
+    },
+    {
+      "id": "f074",
+      "label": "Email*",
+      "path": [
+        "ESTUDIOS REQUERIDOS",
+        "Email*"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Email*",
+      "synthetic_value": "elena60@example.invalid"
+    },
+    {
+      "id": "f075",
+      "label": "ANTECEDENTES DEL PACIENTE",
+      "path": [
+        "ANTECEDENTES DEL PACIENTE",
+        "ANTECEDENTES DEL PACIENTE"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 2,
+      "source_anchor": "ANTECEDENTES DEL PACIENTE",
+      "synthetic_value": [
+        "Tratamiento previo para tuberculosis"
+      ],
+      "options": [
+        "Sintomático respiratorio con dos o más baciloscopías de esputo negativas",
+        "Enfermedad extrapulmonar",
+        "Tratamiento previo para tuberculosis",
+        "Personal de salud",
+        "Persona privada de la libertad",
+        "Contacto de paciente con TB resistente a las drogas",
+        "Inmunocomprometido",
+        "Persona que vive con diabetes",
+        "Niño",
+        "Consumo problemático de alcohol y/o drogas",
+        "Otro (indique)"
+      ],
+      "context_evidence": "ANTECEDENTES DEL PACIENTE / ANTECEDENTES DEL PACIENTE: selección [\"Tratamiento previo para tuberculosis\"]; las demás opciones no se marcan."
+    },
+    {
+      "id": "f076",
+      "label": "Tratamiento previo para tuberculosis",
+      "path": [
+        "ANTECEDENTES DEL PACIENTE",
+        "Tratamiento previo",
+        "Respuesta"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Tratamiento previo para tuberculosis",
+      "synthetic_value": "Si",
+      "options": [
+        "No",
+        "Si"
+      ],
+      "context_evidence": "ANTECEDENTES DEL PACIENTE / Tratamiento previo / Respuesta: selección [\"Si\"]; las demás opciones no se marcan."
+    },
+    {
+      "id": "f077",
+      "label": "Recuperado a la pérdida de seguimiento",
+      "path": [
+        "ANTECEDENTES DEL PACIENTE",
+        "Tratamiento previo",
+        "Categoría"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Recuperado a la pérdida de seguimiento",
+      "synthetic_value": "Curado",
+      "options": [
+        "Recuperado a la pérdida de seguimiento",
+        "Falla de tratamiento",
+        "Tratamiento completo",
+        "Curado"
+      ],
+      "context_evidence": "ANTECEDENTES DEL PACIENTE / Tratamiento previo / Categoría: selección [\"Curado\"]; las demás opciones no se marcan."
+    },
+    {
+      "id": "f078",
+      "label": "Otro (indique)",
+      "path": [
+        "ANTECEDENTES DEL PACIENTE",
+        "Otro",
+        "Descripción"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Otro (indique)",
+      "synthetic_value": "",
+      "condition": "ningún antecedente adicional no listado"
+    },
+    {
+      "id": "f079",
+      "label": "Firma y sello",
+      "path": [
+        "Certificación",
+        "Firma y sello"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Firma y sello",
+      "synthetic_value": "FIRMA Y SELLO FICTICIOS - Elena Médica Ejemplo"
+    },
+    {
+      "id": "f080",
+      "label": "Fecha",
+      "path": [
+        "Certificación",
+        "Fecha"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Fecha",
+      "synthetic_value": "26/09/2026"
+    }
+  ],
+  "source_version": "RG-BM-08 / Versión 03",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "value": null,
+    "kind": "update_date_not_stated",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/rg-bm-08_solicitud_de_estudios_tb_para_web.pdf",
+    "detail": "Printed document identifier/version: RG-BM-08 / Versión 03. No document update date stated on inspected pages; statutory dates, PDF creation and retrieval dates are not substituted."
+  },
+  "context": "Caso de prueba enteramente ficticio. Las identidades, instituciones, documentos, resultados y firmas son sintéticos. No se presenta una solicitud real.\nDATOS INSTITUCION DERIVANTE / Institución derivante: Hospital Ficticio de Ejemplo.\nDATOS INSTITUCION DERIVANTE / Servicio: Neumonología ficticia.\nDATOS INSTITUCION DERIVANTE / Dirección Postal: Calle Ejemplo 60, Villa Ficticia.\nDATOS INSTITUCION DERIVANTE / Teléfono: 000-000-0060.\nDATOS INSTITUCION DERIVANTE / Correo electrónico: laboratorio60@example.invalid.\nCARACTERISTICAS DEL CULTIVO / Desarrollo en: selección [\"LJ\"]; las demás opciones no se marcan.\nCARACTERISTICAS DEL CULTIVO / Positividad: selección [\"2+\"]; las demás opciones no se marcan.\nCARACTERISTICAS DEL CULTIVO / Velocidad de desarrollo: selección [\">7 días\"]; las demás opciones no se marcan.\nCARACTERISTICAS DEL CULTIVO / Pigmentación: selección [\"NO\"]; las demás opciones no se marcan.\nCARACTERISTICAS DEL CULTIVO / Características de las colonias: selección [\"Rugosas\"]; las demás opciones no se marcan.\nIdentificación / Prueba de sensibilidad / Identificado como: M. tuberculosis, supuesto ficticio.\nIdentificación / Método utilizado: selección [\"ICL\"]; las demás opciones no se marcan.\nIdentificación / Prueba de sensibilidad / Sensible a: Isoniazida y rifampicina ficticias.\nIdentificación / Prueba de sensibilidad / Resistente a: Ninguna de las probadas, supuesto ficticio.\nPrueba de sensibilidad / Método utilizado: selección [\"MGIT\"]; las demás opciones no se marcan.\nTRATAMIENTO / mes: agosto.\nTRATAMIENTO / Año de inicio: 2026.\nTRATAMIENTO / Se le administró las siguientes drogas: Isoniazida, rifampicina, pirazinamida y etambutol en supuesto ficticio, no prescripción.\nTRATAMIENTO / La evolución del paciente con este tratamiento es: selección [\"buena\"]; las demás opciones no se marcan.\nResultados de estudios bacteriológicos anteriores / Fila 1 / Fecha: 20/08/2026.\nResultados de estudios bacteriológicos anteriores / Fila 1 / Muestra estudiada: Esputo.\nResultados de estudios bacteriológicos anteriores / Fila 1 / Baciloscopía: 2+.\nResultados de estudios bacteriológicos anteriores / Fila 1 / Cultivo: Positivo ficticio.\nResultados de estudios bacteriológicos anteriores / Fila 1 / Identificado como: M. tuberculosis ficticia.\nResultados de estudios bacteriológicos anteriores / Fila 1 / Sensible a: Isoniazida y rifampicina ficticias.\nResultados de estudios bacteriológicos anteriores / Fila 1 / Resistente a: Ninguna probada ficticia.\nResultados de estudios bacteriológicos anteriores / Fila 2 / Fecha: se deja vacío; sin otro estudio previo positivo en el supuesto.\nResultados de estudios bacteriológicos anteriores / Fila 2 / Muestra estudiada: se deja vacío; sin otro estudio previo positivo en el supuesto.\nResultados de estudios bacteriológicos anteriores / Fila 2 / Baciloscopía: se deja vacío; sin otro estudio previo positivo en el supuesto.\nResultados de estudios bacteriológicos anteriores / Fila 2 / Cultivo: se deja vacío; sin otro estudio previo positivo en el supuesto.\nResultados de estudios bacteriológicos anteriores / Fila 2 / Identificado como: se deja vacío; sin otro estudio previo positivo en el supuesto.\nResultados de estudios bacteriológicos anteriores / Fila 2 / Sensible a: se deja vacío; sin otro estudio previo positivo en el supuesto.\nResultados de estudios bacteriológicos anteriores / Fila 2 / Resistente a: se deja vacío; sin otro estudio previo positivo en el supuesto.\nResultados de estudios bacteriológicos anteriores / Fila 3 / Fecha: se deja vacío; sin otro estudio previo positivo en el supuesto.\nResultados de estudios bacteriológicos anteriores / Fila 3 / Muestra estudiada: se deja vacío; sin otro estudio previo positivo en el supuesto.\nResultados de estudios bacteriológicos anteriores / Fila 3 / Baciloscopía: se deja vacío; sin otro estudio previo positivo en el supuesto.\nResultados de estudios bacteriológicos anteriores / Fila 3 / Cultivo: se deja vacío; sin otro estudio previo positivo en el supuesto.\nResultados de estudios bacteriológicos anteriores / Fila 3 / Identificado como: se deja vacío; sin otro estudio previo positivo en el supuesto.\nResultados de estudios bacteriológicos anteriores / Fila 3 / Sensible a: se deja vacío; sin otro estudio previo positivo en el supuesto.\nResultados de estudios bacteriológicos anteriores / Fila 3 / Resistente a: se deja vacío; sin otro estudio previo positivo en el supuesto.\nResultados de estudios bacteriológicos anteriores / Fila 4 / Fecha: se deja vacío; sin otro estudio previo positivo en el supuesto.\nResultados de estudios bacteriológicos anteriores / Fila 4 / Muestra estudiada: se deja vacío; sin otro estudio previo positivo en el supuesto.\nResultados de estudios bacteriológicos anteriores / Fila 4 / Baciloscopía: se deja vacío; sin otro estudio previo positivo en el supuesto.\nResultados de estudios bacteriológicos anteriores / Fila 4 / Cultivo: se deja vacío; sin otro estudio previo positivo en el supuesto.\nResultados de estudios bacteriológicos anteriores / Fila 4 / Identificado como: se deja vacío; sin otro estudio previo positivo en el supuesto.\nResultados de estudios bacteriológicos anteriores / Fila 4 / Sensible a: se deja vacío; sin otro estudio previo positivo en el supuesto.\nResultados de estudios bacteriológicos anteriores / Fila 4 / Resistente a: se deja vacío; sin otro estudio previo positivo en el supuesto.\nSOSPECHA DE / SOSPECHA DE: selección []; las demás opciones no se marcan.\nDATOS DEL PACIENTE / Apellido y Nombres*: Marina Paciente Ejemplo.\nDATOS DEL PACIENTE / HC Nº: HC-FICTICIA-60.\nDATOS DEL PACIENTE / Documento*: DNI-FICTICIO-60.\nDATOS DEL PACIENTE / Fecha de nacimiento*: 12/04/1981.\nDATOS DEL PACIENTE / Edad: 45.\nDATOS DEL PACIENTE / Nacionalidad: Argentina.\nDATOS DEL PACIENTE / Domicilio*: Calle Ejemplo 60.\nDATOS DEL PACIENTE / Localidad*: Villa Ficticia.\nDATOS DEL PACIENTE / Partido/Dpto*: Partido Ficticio.\nDATOS DEL PACIENTE / Provincia*: Buenos Aires.\nDATOS DEL PACIENTE / País de residencia anterior: se deja vacío; sin residencia previa en otro país.\nDATOS DEL PACIENTE / Teléfono*: 000-000-0160.\nDATOS DEL PACIENTE / Sexo: selección [\"F\"]; las demás opciones no se marcan.\nDATOS DEL PACIENTE / Servicio que deriva la muestra: Neumonología, Hospital Ficticio de Ejemplo.\nDATOS DEL PACIENTE / Fecha: 26/09/2026.\nESTUDIOS REQUERIDOS / ESTUDIOS REQUERIDOS: selección [\"Prueba de sensibilidad\"]; las demás opciones no se marcan.\nESTUDIOS REQUERIDOS / Para diagnóstico: selección [\"Para control de tratamiento\"]; las demás opciones no se marcan.\nESTUDIOS REQUERIDOS / Muestra: selección []; las demás opciones no se marcan.\nESTUDIOS REQUERIDOS / Mes de tratamiento: 2.\nESTUDIOS REQUERIDOS / Muestra de: Aislamiento de esputo ficticio.\nESTUDIOS REQUERIDOS / Resultado de la baciloscopía: 2+ ficticio.\nESTUDIOS REQUERIDOS / Fecha de toma de muestra: 24/09/2026.\nESTUDIOS REQUERIDOS / N° de derivación de SISA (ID de derivación)*: SISA-FICTICIO-60.\nESTUDIOS REQUERIDOS / Nombre y Apellido del Médico*: Elena Médica Ejemplo.\nESTUDIOS REQUERIDOS / Tel: 000-000-0260.\nESTUDIOS REQUERIDOS / Email*: elena60@example.invalid.\nANTECEDENTES DEL PACIENTE / ANTECEDENTES DEL PACIENTE: selección [\"Tratamiento previo para tuberculosis\"]; las demás opciones no se marcan.\nANTECEDENTES DEL PACIENTE / Tratamiento previo / Respuesta: selección [\"Si\"]; las demás opciones no se marcan.\nANTECEDENTES DEL PACIENTE / Tratamiento previo / Categoría: selección [\"Curado\"]; las demás opciones no se marcan.\nANTECEDENTES DEL PACIENTE / Otro / Descripción: se deja vacío; ningún antecedente adicional no listado.\nTuvo tuberculosis previa curada en 2018; ahora hay un episodio ficticio nuevo tratado desde agosto de 2026. Se deriva el aislamiento positivo para sensibilidad, en el segundo mes del tratamiento actual. No existe sospecha de contaminación ni transmisión intrainstitucional.\nCertificación / Firma y sello: FIRMA Y SELLO FICTICIOS - Elena Médica Ejemplo.\nCertificación / Fecha: 26/09/2026.",
+  "workflow_identity": {
+    "language": "es",
+    "id": 60
+  }
+}

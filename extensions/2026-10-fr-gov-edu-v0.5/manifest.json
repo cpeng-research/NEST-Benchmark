@@ -1,0 +1,77 @@
+{
+  "extension_id": "2026-10-fr-gov-edu-v0.5",
+  "added_on": "2026-10-05",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 2,
+  "samples": [
+    {
+      "id": 180,
+      "language": "fr",
+      "title": "Demande de carte constructeur ULM",
+      "source_id": "fr-dgac-ulm-f103-carte-2019",
+      "domain": "GovPublic",
+      "issuer_id": "DGAC/DSAC",
+      "template_family": "dgac-ulm-f103-carte-2019",
+      "source_pages": 1,
+      "source_sha256": "9c36a28c2ab79fa2375b944ebf9a5864ff1e2c602e4c5d0098edda19a2005a35",
+      "fields": 17,
+      "files": {
+        "workflow/0-html_template/data_fr/180.html": "3c031394f64c1029a0e5ce80858dcb061d7cd50ec1ed537f431f237542357250",
+        "workflow/1-annotated_json/data_fr/180.json": "1b5eb17e307083463cd2c25c1b141de9411af98a4c001338607452e20d45b9c5",
+        "workflow/2-filled_json-a/data_fr/180.json": "e20f4365566cbe8c922a2ca7ac2a58631ab7bc988a661d91a04060844876ebc8",
+        "workflow/3-filled_html-a/data_fr/180.html": "fa31ff1c3b40758e43c484cd451cd2d303b085adab4921fad4863a18ed6d87b1",
+        "workflow/4-context-a/data_fr/180.txt": "5462183f4c901ae13aafb5f9bbfb42eb03a30e9448273feef539aceb71c6a66f",
+        "workflow/5-ph_html-a/data_fr/180.html": "8938c9db424d83ccaf9445912bbbca162b8390fb36f6c01cb285abfd6c428d8b",
+        "workflow/6-meta-a/data_fr/180.json": "a3242197fad87aeceed48728e677af2ba72efab522a5c9639df0feb72d29ad81"
+      },
+      "annotation_path": "data/annotations/fr/180.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 182,
+      "language": "fr",
+      "title": "Demande de dérogation préfectorale pour drone",
+      "source_id": "fr-dgac-uas-derogation-r5-v4",
+      "domain": "GovPublic",
+      "issuer_id": "DGAC/DSAC",
+      "template_family": "dgac-uas-derogation-r5-v4",
+      "source_pages": 4,
+      "source_sha256": "8eaedbefd05ae2678b15e82b37931e6b19352e06c3073b21eb07ecb6245ad7cf",
+      "fields": 41,
+      "files": {
+        "workflow/0-html_template/data_fr/182.html": "76595e9d89d01a47a7027d054e9db3e3620d3b315c11658bbbf8b963dbdcfc0d",
+        "workflow/1-annotated_json/data_fr/182.json": "7f8839d177dc080155bef11e70420a8748fd5cd02a7d3fff6840252abf875f1b",
+        "workflow/2-filled_json-a/data_fr/182.json": "fea88cbb9746490b9700b8b7166d0012043cf5f656123d903186d1ef3e067de1",
+        "workflow/3-filled_html-a/data_fr/182.html": "c9d726339f764f943f4614de135af17ee0c584da72a5ca445f2064bb60c45b0a",
+        "workflow/4-context-a/data_fr/182.txt": "3bc70b299bd75525ef6e601af3653eeb831901e91e77b15d9fdd0b9353e69a10",
+        "workflow/5-ph_html-a/data_fr/182.html": "b7997aed198d9acbed6065c32c5db9c25f1939347ff401bfa96ffc241ea4cb3b",
+        "workflow/6-meta-a/data_fr/182.json": "29afb23626c297009cbb54163fac914e8c09d95ea65559978e94f7d2b9f4d984"
+      },
+      "annotation_path": "data/annotations/fr/182.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}

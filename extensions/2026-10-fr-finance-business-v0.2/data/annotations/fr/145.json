@@ -1,0 +1,844 @@
+{
+  "id": "fr-145-credit-metiers-art",
+  "language": "fr",
+  "domain": "Finance",
+  "business_topic": "Crédit d’impôt en faveur des métiers d’art",
+  "issuer_id": "Direction générale des finances publiques",
+  "template_family": "credit-metiers-art",
+  "title": "Crédit d’impôt en faveur des métiers d’art",
+  "source_pages": 3,
+  "source_sha256": "3324ca196d3a4e678b4d1b2fcc78f9f2a789f8612305e76710748cd98ab7c4d0",
+  "retrieved_at": "2026-10-05T03:09:21+08:00",
+  "source_version": "2079-ART-SD; (2026)",
+  "source_url": "https://www.impots.gouv.fr/sites/default/files/formulaires/2079-art-sd/2026/2079-art-sd_5265.pdf",
+  "landing_url": "https://www.impots.gouv.fr/formulaire/2079-art-sd/credit-dimpot-en-faveur-des-metiers-dart",
+  "license_url": "https://www.impots.gouv.fr/mentions-legales",
+  "license_note": "DGFiP site notice: public information under Licence Ouverte Etalab 2.0, except explicit third-party intellectual property. Source text and field structure are normalized; the original PDF and DGFiP graphics are not redistributed.",
+  "source_date_evidence": {
+    "kind": "PDF printed mark; DGFiP listing millésime",
+    "value": "2079-ART-SD; (2026)",
+    "landing": "DGFiP form listing, Millésime 2026",
+    "pdf_version_mark": "2079-ART-SD; (2026)",
+    "publisher_listing_millesime": "2026",
+    "scope": "The listing millésime is recorded separately from the PDF print mark."
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "Entreprise et exercice",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Au titre de l'année",
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Nombre d’intercalaires",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Dénomination de l’entreprise",
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Nature de l’activité exercée",
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Adresse",
+        "field": "f005",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "N° SIREN",
+        "field": "f006",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Exercice clos le",
+        "field": "f007",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "I. Entreprises concernées",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "au moins 30 % de la masse salariale totale",
+        "field": "f008",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Secteurs industriels et label patrimoine vivant : conditions imprimées, non retenues ici.",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "II. Base du crédit d’impôt",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Salaires et charges sociales afférents aux salariés directement affectés",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Dotations aux amortissements des immobilisations",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Frais de dépôt des dessins et modèles",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Les dépenses liées à l’élaboration d’ouvrages",
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Salaires  et charges sociales",
+        "field": "f013",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "II. Base du crédit d’impôt (suite)",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Dotations aux amortissements des immobilisations",
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Frais de dépôt des dessins et modèles",
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Les dépenses liées à l’activité de restauration",
+        "field": "f016",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Frais de défense des dessins et modèles",
+        "field": "f017",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Subventions publiques reçues",
+        "field": "f018",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Total (lignes 1 + 2 + 3",
+        "field": "f019",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "III. Calcul du crédit d’impôt",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Montant du crédit d’impôt (montant ligne 11",
+        "field": "f020",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Montant du crédit d’impôt à taux majoré",
+        "field": "f021",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Quote-part de crédit d’impôt métiers d’art",
+        "field": "f022",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Montant du crédit d’impôt brut avant plafonnement",
+        "field": "f023",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Montant du crédit d’impôt net après plafonnement",
+        "field": "f024",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Montant des aides de minimis",
+        "field": "f025",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Montant cumulé du crédit d'impôt",
+        "field": "f026",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Montant du crédit d'impôt net après plafonnement",
+        "field": "f027",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "IV. Participations dans des sociétés de personnes",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Nom et adresse des sociétés de personnes ou groupements assimilés",
+        "field": "f028",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "% de droits détenus",
+        "field": "f029",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Quote-part du crédit",
+        "field": "f030",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Montant total du crédit d'impôt dégagé",
+        "field": "f031",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "V. Répartition entre associés",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Nom et adresse des associés membres de sociétés de personnes",
+        "field": "f032",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "% de droits détenus",
+        "field": "f033",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Quote-part du crédit",
+        "field": "f034",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Total",
+        "field": "f035",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "VI. Utilisation du crédit d’impôt",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Renvois aux déclarations 2572-SD, 2069-RCI-SD et restitution éventuelle : prose imprimée.",
+        "colspan": 4,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Source : Direction générale des finances publiques; https://www.impots.gouv.fr/sites/default/files/formulaires/2079-art-sd/2026/2079-art-sd_5265.pdf; DGFiP form listing, Millésime 2026.",
+        "colspan": 4,
+        "source_page": 3
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Au titre de l'année",
+      "path": [
+        "Page 1",
+        "Entreprise et exercice",
+        "Au titre de l'année"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Au titre de l'année",
+      "synthetic_value": "2026"
+    },
+    {
+      "id": "f002",
+      "label": "Nombre d’intercalaires",
+      "path": [
+        "Page 1",
+        "Entreprise et exercice",
+        "Nombre d’intercalaires"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre d’intercalaires",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f003",
+      "label": "Dénomination de l’entreprise",
+      "path": [
+        "Page 1",
+        "Entreprise et exercice",
+        "Dénomination de l’entreprise"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dénomination de l’entreprise",
+      "synthetic_value": "Atelier Verre Exemple SAS"
+    },
+    {
+      "id": "f004",
+      "label": "Nature de l’activité exercée",
+      "path": [
+        "Page 1",
+        "Entreprise et exercice",
+        "Nature de l’activité exercée"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nature de l’activité exercée",
+      "synthetic_value": "Création artisanale de verrerie"
+    },
+    {
+      "id": "f005",
+      "label": "Adresse",
+      "path": [
+        "Page 1",
+        "Entreprise et exercice",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Adresse",
+      "synthetic_value": "4 rue des Artisans, 25000 Besançon"
+    },
+    {
+      "id": "f006",
+      "label": "N° SIREN",
+      "path": [
+        "Page 1",
+        "Entreprise et exercice",
+        "N° SIREN"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "N° SIREN",
+      "synthetic_value": "000000145"
+    },
+    {
+      "id": "f007",
+      "label": "Exercice clos le",
+      "path": [
+        "Page 1",
+        "Entreprise et exercice",
+        "Exercice clos le"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Exercice clos le",
+      "synthetic_value": "31/12/2026"
+    },
+    {
+      "id": "f008",
+      "label": "au moins 30 % de la masse salariale totale",
+      "path": [
+        "Page 1",
+        "I. Entreprises concernées",
+        "au moins 30 % de la masse salariale totale"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "au moins 30 % de la masse salariale totale",
+      "synthetic_value": "40 %"
+    },
+    {
+      "id": "f009",
+      "label": "Salaires et charges sociales afférents aux salariés directement affectés",
+      "path": [
+        "Page 1",
+        "II. Base du crédit d’impôt",
+        "Ligne 1",
+        "Salaires et charges sociales afférents aux salariés directement affectés"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Salaires et charges sociales afférents aux salariés directement affectés",
+      "synthetic_value": "100 000 €"
+    },
+    {
+      "id": "f010",
+      "label": "Dotations aux amortissements des immobilisations",
+      "path": [
+        "Page 1",
+        "II. Base du crédit d’impôt",
+        "Ligne 2",
+        "Dotations aux amortissements des immobilisations"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dotations aux amortissements des immobilisations",
+      "synthetic_value": "2 000 €"
+    },
+    {
+      "id": "f011",
+      "label": "Frais de dépôt des dessins et modèles",
+      "path": [
+        "Page 1",
+        "II. Base du crédit d’impôt",
+        "Ligne 3",
+        "Frais de dépôt des dessins et modèles"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Frais de dépôt des dessins et modèles",
+      "synthetic_value": "500 €"
+    },
+    {
+      "id": "f012",
+      "label": "Les dépenses liées à l’élaboration d’ouvrages",
+      "path": [
+        "Page 1",
+        "II. Base du crédit d’impôt",
+        "Ligne 4",
+        "Les dépenses liées à l’élaboration d’ouvrages"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Les dépenses liées à l’élaboration d’ouvrages",
+      "synthetic_value": "1 500 €"
+    },
+    {
+      "id": "f013",
+      "label": "Salaires  et charges sociales",
+      "path": [
+        "Page 1",
+        "II. Base du crédit d’impôt",
+        "Ligne 5",
+        "Salaires  et charges sociales"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Salaires  et charges sociales",
+      "synthetic_value": "0 €"
+    },
+    {
+      "id": "f014",
+      "label": "Dotations aux amortissements des immobilisations",
+      "path": [
+        "Page 2",
+        "II. Base du crédit d’impôt (suite)",
+        "Ligne 6",
+        "Dotations aux amortissements des immobilisations"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Dotations aux amortissements des immobilisations",
+      "synthetic_value": "0 €"
+    },
+    {
+      "id": "f015",
+      "label": "Frais de dépôt des dessins et modèles",
+      "path": [
+        "Page 2",
+        "II. Base du crédit d’impôt (suite)",
+        "Ligne 7",
+        "Frais de dépôt des dessins et modèles"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Frais de dépôt des dessins et modèles",
+      "synthetic_value": "0 €"
+    },
+    {
+      "id": "f016",
+      "label": "Les dépenses liées à l’activité de restauration",
+      "path": [
+        "Page 2",
+        "II. Base du crédit d’impôt (suite)",
+        "Ligne 8",
+        "Les dépenses liées à l’activité de restauration"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Les dépenses liées à l’activité de restauration",
+      "synthetic_value": "0 €"
+    },
+    {
+      "id": "f017",
+      "label": "Frais de défense des dessins et modèles",
+      "path": [
+        "Page 2",
+        "II. Base du crédit d’impôt (suite)",
+        "Ligne 9",
+        "Frais de défense des dessins et modèles"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Frais de défense des dessins et modèles",
+      "synthetic_value": "0 €"
+    },
+    {
+      "id": "f018",
+      "label": "Subventions publiques reçues",
+      "path": [
+        "Page 2",
+        "II. Base du crédit d’impôt (suite)",
+        "Ligne 10",
+        "Subventions publiques reçues"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Subventions publiques reçues",
+      "synthetic_value": "4 000 €"
+    },
+    {
+      "id": "f019",
+      "label": "Total (lignes 1 + 2 + 3",
+      "path": [
+        "Page 2",
+        "II. Base du crédit d’impôt (suite)",
+        "Ligne 11",
+        "Total (lignes 1 + 2 + 3"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Total (lignes 1 + 2 + 3",
+      "synthetic_value": "100 000 €"
+    },
+    {
+      "id": "f020",
+      "label": "Montant du crédit d’impôt (montant ligne 11",
+      "path": [
+        "Page 2",
+        "III. Calcul du crédit d’impôt",
+        "Ligne 12",
+        "Montant du crédit d’impôt (montant ligne 11"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Montant du crédit d’impôt (montant ligne 11",
+      "synthetic_value": "10 000 €"
+    },
+    {
+      "id": "f021",
+      "label": "Montant du crédit d’impôt à taux majoré",
+      "path": [
+        "Page 2",
+        "III. Calcul du crédit d’impôt",
+        "Ligne 13",
+        "Montant du crédit d’impôt à taux majoré"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Montant du crédit d’impôt à taux majoré",
+      "synthetic_value": "0 €"
+    },
+    {
+      "id": "f022",
+      "label": "Quote-part de crédit d’impôt métiers d’art",
+      "path": [
+        "Page 2",
+        "III. Calcul du crédit d’impôt",
+        "Ligne 14",
+        "Quote-part de crédit d’impôt métiers d’art"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Quote-part de crédit d’impôt métiers d’art",
+      "synthetic_value": "0 €"
+    },
+    {
+      "id": "f023",
+      "label": "Montant du crédit d’impôt brut avant plafonnement",
+      "path": [
+        "Page 2",
+        "III. Calcul du crédit d’impôt",
+        "Ligne 15",
+        "Montant du crédit d’impôt brut avant plafonnement"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Montant du crédit d’impôt brut avant plafonnement",
+      "synthetic_value": "10 000 €"
+    },
+    {
+      "id": "f024",
+      "label": "Montant du crédit d’impôt net après plafonnement",
+      "path": [
+        "Page 2",
+        "III. Calcul du crédit d’impôt",
+        "Ligne 16",
+        "Montant du crédit d’impôt net après plafonnement"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Montant du crédit d’impôt net après plafonnement",
+      "synthetic_value": "10 000 €"
+    },
+    {
+      "id": "f025",
+      "label": "Montant des aides de minimis",
+      "path": [
+        "Page 2",
+        "III. Calcul du crédit d’impôt",
+        "Ligne 17",
+        "Montant des aides de minimis"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Montant des aides de minimis",
+      "synthetic_value": "0 €"
+    },
+    {
+      "id": "f026",
+      "label": "Montant cumulé du crédit d'impôt",
+      "path": [
+        "Page 2",
+        "III. Calcul du crédit d’impôt",
+        "Ligne 18",
+        "Montant cumulé du crédit d'impôt"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Montant cumulé du crédit d'impôt",
+      "synthetic_value": "10 000 €"
+    },
+    {
+      "id": "f027",
+      "label": "Montant du crédit d'impôt net après plafonnement",
+      "path": [
+        "Page 2",
+        "III. Calcul du crédit d’impôt",
+        "Ligne 19",
+        "Montant du crédit d'impôt net après plafonnement"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Montant du crédit d'impôt net après plafonnement",
+      "synthetic_value": "10 000 €"
+    },
+    {
+      "id": "f028",
+      "label": "Nom et adresse des sociétés de personnes ou groupements assimilés",
+      "path": [
+        "Page 2",
+        "IV. Participations dans des sociétés de personnes",
+        "Nom et adresse des sociétés de personnes ou groupements assimilés"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom et adresse des sociétés de personnes ou groupements assimilés",
+      "synthetic_value": "Aucune participation"
+    },
+    {
+      "id": "f029",
+      "label": "% de droits détenus",
+      "path": [
+        "Page 2",
+        "IV. Participations dans des sociétés de personnes",
+        "% de droits détenus"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "% de droits détenus",
+      "synthetic_value": "0 %"
+    },
+    {
+      "id": "f030",
+      "label": "Quote-part du crédit",
+      "path": [
+        "Page 2",
+        "IV. Participations dans des sociétés de personnes",
+        "Quote-part du crédit"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Quote-part du crédit",
+      "synthetic_value": "0 €"
+    },
+    {
+      "id": "f031",
+      "label": "Montant total du crédit d'impôt dégagé",
+      "path": [
+        "Page 2",
+        "IV. Participations dans des sociétés de personnes",
+        "Ligne 20",
+        "Montant total du crédit d'impôt dégagé"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Montant total du crédit d'impôt dégagé",
+      "synthetic_value": "0 €"
+    },
+    {
+      "id": "f032",
+      "label": "Nom et adresse des associés membres de sociétés de personnes",
+      "path": [
+        "Page 2",
+        "V. Répartition entre associés",
+        "Nom et adresse des associés membres de sociétés de personnes"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom et adresse des associés membres de sociétés de personnes",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "f033",
+      "label": "% de droits détenus",
+      "path": [
+        "Page 2",
+        "V. Répartition entre associés",
+        "% de droits détenus"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "% de droits détenus",
+      "synthetic_value": "0 %"
+    },
+    {
+      "id": "f034",
+      "label": "Quote-part du crédit",
+      "path": [
+        "Page 2",
+        "V. Répartition entre associés",
+        "Quote-part du crédit"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Quote-part du crédit",
+      "synthetic_value": "0 €"
+    },
+    {
+      "id": "f035",
+      "label": "Total",
+      "path": [
+        "Page 2",
+        "V. Répartition entre associés",
+        "Répartition",
+        "Total"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Total",
+      "synthetic_value": "0 €"
+    }
+  ],
+  "context": "Exemple fictif de remplissage, sans transmission.\nEntreprise et exercice /  / Au titre de l'année: 2026\nEntreprise et exercice /  / Nombre d’intercalaires: 0\nEntreprise et exercice /  / Dénomination de l’entreprise: Atelier Verre Exemple SAS\nEntreprise et exercice /  / Nature de l’activité exercée: Création artisanale de verrerie\nEntreprise et exercice /  / Adresse: 4 rue des Artisans, 25000 Besançon\nEntreprise et exercice /  / N° SIREN: 000000145\nEntreprise et exercice /  / Exercice clos le: 31/12/2026\nI. Entreprises concernées /  / au moins 30 % de la masse salariale totale: 40 %\nII. Base du crédit d’impôt / Ligne 1 / Salaires et charges sociales afférents aux salariés directement affectés: 100 000 €\nII. Base du crédit d’impôt / Ligne 2 / Dotations aux amortissements des immobilisations: 2 000 €\nII. Base du crédit d’impôt / Ligne 3 / Frais de dépôt des dessins et modèles: 500 €\nII. Base du crédit d’impôt / Ligne 4 / Les dépenses liées à l’élaboration d’ouvrages: 1 500 €\nII. Base du crédit d’impôt / Ligne 5 / Salaires  et charges sociales: 0 €\nII. Base du crédit d’impôt (suite) / Ligne 6 / Dotations aux amortissements des immobilisations: 0 €\nII. Base du crédit d’impôt (suite) / Ligne 7 / Frais de dépôt des dessins et modèles: 0 €\nII. Base du crédit d’impôt (suite) / Ligne 8 / Les dépenses liées à l’activité de restauration: 0 €\nII. Base du crédit d’impôt (suite) / Ligne 9 / Frais de défense des dessins et modèles: 0 €\nII. Base du crédit d’impôt (suite) / Ligne 10 / Subventions publiques reçues: 4 000 €\nII. Base du crédit d’impôt (suite) / Ligne 11 / Total (lignes 1 + 2 + 3: 100 000 €\nIII. Calcul du crédit d’impôt / Ligne 12 / Montant du crédit d’impôt (montant ligne 11: 10 000 €\nIII. Calcul du crédit d’impôt / Ligne 13 / Montant du crédit d’impôt à taux majoré: 0 €\nIII. Calcul du crédit d’impôt / Ligne 14 / Quote-part de crédit d’impôt métiers d’art: 0 €\nIII. Calcul du crédit d’impôt / Ligne 15 / Montant du crédit d’impôt brut avant plafonnement: 10 000 €\nIII. Calcul du crédit d’impôt / Ligne 16 / Montant du crédit d’impôt net après plafonnement: 10 000 €\nIII. Calcul du crédit d’impôt / Ligne 17 / Montant des aides de minimis: 0 €\nIII. Calcul du crédit d’impôt / Ligne 18 / Montant cumulé du crédit d'impôt: 10 000 €\nIII. Calcul du crédit d’impôt / Ligne 19 / Montant du crédit d'impôt net après plafonnement: 10 000 €\nIV. Participations dans des sociétés de personnes /  / Nom et adresse des sociétés de personnes ou groupements assimilés: Aucune participation\nIV. Participations dans des sociétés de personnes /  / % de droits détenus: 0 %\nIV. Participations dans des sociétés de personnes /  / Quote-part du crédit: 0 €\nIV. Participations dans des sociétés de personnes / Ligne 20 / Montant total du crédit d'impôt dégagé: 0 €\nV. Répartition entre associés /  / Nom et adresse des associés membres de sociétés de personnes: Sans objet\nV. Répartition entre associés /  / % de droits détenus: 0 %\nV. Répartition entre associés /  / Quote-part du crédit: 0 €\nV. Répartition entre associés / Répartition / Total: 0 €",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 145
+  }
+}

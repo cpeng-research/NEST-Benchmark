@@ -1,0 +1,247 @@
+{
+  "id": "es-213-rnas-ddjj",
+  "language": "es",
+  "domain": "Business",
+  "title": "Declaración jurada de inscripción RNAS",
+  "business_topic": "Declaración jurada de inscripción RNAS",
+  "issuer_id": "SSSalud",
+  "template_family": "rnas-ddjj",
+  "source_pages": 2,
+  "source_sha256": "3ea065e61a95d89326be057726bf3105f274c0009691b2c0ad1dfdf5da05466b",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/2024/02/anexo_i.pdf",
+  "landing_url": "https://www.argentina.gob.ar/servicio/solicitar-inscripcion-en-el-registro-nacional-de-agentes-del-seguro",
+  "license_url": "https://www.argentina.gob.ar/acerca",
+  "license_note": "Argentina.gob.ar states CC BY 4.0 for its published content. This candidate uses normalized form text and structure, not source PDF artwork or logos. The portal statement does not override contrary PDF-specific or third-party notices.",
+  "retrieved_at": "2026-10-05",
+  "source_version": "Anexo I, Resolución 232/24-SSS",
+  "source_date_evidence": {
+    "kind": "printed PDF heading",
+    "value": "2024",
+    "raw": "Anexo I - Resolución 232/24-SSS",
+    "scope": "Resolution/annex identifier printed on the form and named on the official service page.",
+    "retrieval_timestamp_utc": "2026-10-04T19:31:27.679995+00:00"
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "Anexo I - Resolución 232/24-SSS",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "corresponden a la entidad",
+        "field": "f001",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Número de RNEMP",
+        "field": "f002",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nombre de la entidad",
+        "field": "f003",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Número de CUIT",
+        "field": "f004",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Domicilio social",
+        "field": "f005",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Correo electrónico",
+        "field": "f006",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nómina de autoridades (nombre, apellido y DNI)",
+        "field": "f007",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fecha y lugar",
+        "field": "f008",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Firma del representante legal",
+        "field": "f009",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "corresponden a la entidad",
+      "path": [
+        "Página 1",
+        "Formulario de Declaración Jurada:",
+        "corresponden a la entidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "corresponden a la entidad",
+      "synthetic_value": "Entidad Ejemplo",
+      "source_widgets": []
+    },
+    {
+      "id": "f002",
+      "label": "Número de RNEMP",
+      "path": [
+        "Página 1",
+        "Formulario de Declaración Jurada:",
+        "Número de RNEMP"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Número de RNEMP",
+      "synthetic_value": "RNEMP-0001",
+      "source_widgets": []
+    },
+    {
+      "id": "f003",
+      "label": "Nombre de la entidad",
+      "path": [
+        "Página 1",
+        "Formulario de Declaración Jurada:",
+        "Nombre de la entidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre de la entidad",
+      "synthetic_value": "Entidad Ejemplo",
+      "source_widgets": []
+    },
+    {
+      "id": "f004",
+      "label": "Número de CUIT",
+      "path": [
+        "Página 1",
+        "Formulario de Declaración Jurada:",
+        "Número de CUIT"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Número de CUIT",
+      "synthetic_value": "30-00000000-0",
+      "source_widgets": []
+    },
+    {
+      "id": "f005",
+      "label": "Domicilio social",
+      "path": [
+        "Página 1",
+        "Formulario de Declaración Jurada:",
+        "Domicilio social"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Domicilio social",
+      "synthetic_value": "Calle Ejemplo 50",
+      "source_widgets": []
+    },
+    {
+      "id": "f006",
+      "label": "Correo electrónico",
+      "path": [
+        "Página 1",
+        "Formulario de Declaración Jurada:",
+        "Correo electrónico"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Correo electrónico",
+      "synthetic_value": "contacto@entidad-ejemplo.org",
+      "source_widgets": []
+    },
+    {
+      "id": "f007",
+      "label": "Nómina de autoridades (nombre, apellido y DNI)",
+      "path": [
+        "Página 1",
+        "Formulario de Declaración Jurada:",
+        "Nómina de autoridades (nombre, apellido y DNI)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nómina de autoridades (nombre, apellido y DNI)",
+      "synthetic_value": "Elena Pérez, DNI 00000002; Jorge Varela, DNI 00000003",
+      "source_widgets": []
+    },
+    {
+      "id": "f008",
+      "label": "Fecha y lugar",
+      "path": [
+        "Página 1",
+        "Formulario de Declaración Jurada:",
+        "Fecha y lugar"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha y lugar",
+      "synthetic_value": "05/10/2026, Buenos Aires",
+      "source_widgets": []
+    },
+    {
+      "id": "f009",
+      "label": "Firma del representante legal",
+      "path": [
+        "Página 1",
+        "Formulario de Declaración Jurada:",
+        "Firma del representante legal"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Firma del representante legal",
+      "synthetic_value": "Elena Pérez",
+      "source_widgets": []
+    }
+  ],
+  "context": "Datos ficticios de prueba; no corresponden a una solicitud real.\nFormulario de Declaración Jurada: / corresponden a la entidad: Entidad Ejemplo\nFormulario de Declaración Jurada: / Número de RNEMP: RNEMP-0001\nFormulario de Declaración Jurada: / Nombre de la entidad: Entidad Ejemplo\nFormulario de Declaración Jurada: / Número de CUIT: 30-00000000-0\nFormulario de Declaración Jurada: / Domicilio social: Calle Ejemplo 50\nFormulario de Declaración Jurada: / Correo electrónico: contacto@entidad-ejemplo.org\nFormulario de Declaración Jurada: / Nómina de autoridades (nombre, apellido y DNI): Elena Pérez, DNI 00000002; Jorge Varela, DNI 00000003\nFormulario de Declaración Jurada: / Fecha y lugar: 05/10/2026, Buenos Aires\nFormulario de Declaración Jurada: / Firma del representante legal: Elena Pérez\n",
+  "workflow_identity": {
+    "language": "es",
+    "id": 213
+  }
+}

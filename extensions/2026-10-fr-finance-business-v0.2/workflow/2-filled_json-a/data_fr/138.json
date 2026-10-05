@@ -1,0 +1,88 @@
+{
+  "Page 2": {
+    "VOLET 1 - Identification de l’entreprise": {
+      "Nom/Prénom ou dénomination de l’entreprise": "Exemple Services SAS",
+      "Adresse du principal établissement": "3 rue du Commerce, 75002 Paris",
+      "N° SIRET": "00000000000138",
+      "Tél.": "0100000138",
+      "Mél": "comptabilite@example.org",
+      "N° dossier": "DOS-138"
+    },
+    "VOLET 1 - Créance dont l’imputation est demandée": {
+      "Nature": {
+        "choices": [
+          "TVA",
+          "Excédent d’IS",
+          "Créance restituable",
+          "TS"
+        ],
+        "value": [
+          "TVA"
+        ]
+      },
+      "Période d’imposition ou exercice social": "3e trimestre 2026",
+      "Montant total de la créance": "1 000 €",
+      "Autre (Exemple : suite à réclamation": "Sans objet"
+    },
+    "VOLET 1 - Impôt ou taxe réglé": {
+      "Nature": {
+        "choices": [
+          "TVA",
+          "IS",
+          "TS",
+          "CRL",
+          "PEEC"
+        ],
+        "value": [
+          "IS"
+        ]
+      },
+      "Date limite de paiement": "15/12/2026",
+      "Montant à imputer": "1 000 €",
+      "Signature": "Camille Martin"
+    },
+    "VOLET 2 - Identification de l’entreprise": {
+      "Nom/Prénom ou dénomination de l’entreprise": "Exemple Services SAS",
+      "Adresse du principal établissement": "3 rue du Commerce, 75002 Paris",
+      "N° SIRET": "00000000000138",
+      "Tél.": "0100000138",
+      "Mél": "comptabilite@example.org",
+      "N° dossier": "DOS-138"
+    },
+    "VOLET 2 - Créance dont l’imputation est demandée": {
+      "Nature": {
+        "choices": [
+          "TVA",
+          "Excédent d’IS",
+          "Créance restituable",
+          "TS"
+        ],
+        "value": [
+          "TVA"
+        ]
+      },
+      "Période d’imposition ou exercice social": "3e trimestre 2026",
+      "Montant total de la créance": "1 000 €",
+      "Autre (Exemple : suite à réclamation": "Sans objet"
+    }
+  },
+  "Page 3": {
+    "VOLET 2 - Rappel de l’impôt ou taxe réglé": {
+      "Déclarations de": {
+        "choices": [
+          "TVA",
+          "IS",
+          "TS",
+          "CRL",
+          "PEEC"
+        ],
+        "value": [
+          "IS"
+        ]
+      },
+      "Date limite de paiement": "15/12/2026",
+      "Montant à imputer": "1 000 €",
+      "Signature": "Camille Martin"
+    }
+  }
+}

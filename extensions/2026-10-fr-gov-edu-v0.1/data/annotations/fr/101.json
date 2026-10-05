@@ -1,0 +1,271 @@
+{
+  "id": "fr-cgdd-evaluation-request-2023",
+  "language": "fr",
+  "domain": "GovPublic",
+  "title": "Demande d'évaluation et publication des données",
+  "template_family": "cgdd-evaluation-request-2023",
+  "issuer": "CGDD",
+  "issuer_id": "CGDD",
+  "source_pages": 2,
+  "columns": 1,
+  "rows": [
+    [
+      {
+        "text": "Demande d'évaluation - version du 01/03/2023",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "comite",
+        "label": "Je demande à être évalué(e) par le comité de domaine",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "agent",
+        "label": "Nom/prénom",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "demande_date",
+        "label": "Date",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "demande_signature",
+        "label": "Signature",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Publication des données sur Internet et Intranet",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Le pôle ministériel publie les données de qualification des spécialistes et experts; l'agent peut exercer un droit d'opposition à la publication.",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "prise_connaissance",
+        "label": "Je reconnais avoir pris connaissance des éléments ci-dessus.",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "opposition",
+        "label": "Je ne m’oppose pas à la publication des données me concernant listées ci-dessus",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "publication_agent",
+        "label": "Nom/ prénom",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "publication_date",
+        "label": "Date",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "publication_signature",
+        "label": "Signature",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Mention d'information",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Le secrétariat des comités de domaine est responsable du traitement; les données sont conservées jusqu'à un an après la cessation d'activité de l'agent. Les droits d'accès, de rectification et d'opposition s'exercent auprès du secrétariat ou du délégué à la protection des données.",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "comite",
+      "label": "Je demande à être évalué(e) par le comité de domaine",
+      "source_page": 1,
+      "source_anchor": "Je demande à être évalué(e) par le comité de domaine",
+      "path": [
+        "Demande d'évaluation - version du 01/03/2023",
+        "Je demande à être évalué(e) par le comité de domaine"
+      ],
+      "kind": "text",
+      "synthetic_value": "Énergie et climat"
+    },
+    {
+      "id": "agent",
+      "label": "Nom/prénom",
+      "source_page": 1,
+      "source_anchor": "Nom/prénom",
+      "path": [
+        "Demande d'évaluation - version du 01/03/2023",
+        "Nom/prénom"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille Martin"
+    },
+    {
+      "id": "demande_date",
+      "label": "Date",
+      "source_page": 1,
+      "source_anchor": "Date",
+      "path": [
+        "Demande d'évaluation - version du 01/03/2023",
+        "Date de la demande"
+      ],
+      "kind": "text",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "demande_signature",
+      "label": "Signature",
+      "source_page": 1,
+      "source_anchor": "Signature",
+      "path": [
+        "Demande d'évaluation - version du 01/03/2023",
+        "Signature de la demande"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille Martin (signature fictive)"
+    },
+    {
+      "id": "prise_connaissance",
+      "label": "Je reconnais avoir pris connaissance des éléments ci-dessus.",
+      "source_page": 1,
+      "source_anchor": "Je reconnais avoir pris connaissance des éléments ci-dessus.",
+      "path": [
+        "Publication des données sur Internet et Intranet",
+        "Je reconnais avoir pris connaissance des éléments ci-dessus."
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Je reconnais avoir pris connaissance des éléments ci-dessus."
+      ],
+      "options": [
+        "Je reconnais avoir pris connaissance des éléments ci-dessus."
+      ],
+      "context_evidence": "Publication des données sur Internet et Intranet / Je reconnais avoir pris connaissance des éléments ci-dessus. : Je reconnais avoir pris connaissance des éléments ci-dessus.."
+    },
+    {
+      "id": "opposition",
+      "label": "Je ne m’oppose pas à la publication des données me concernant listées ci-dessus",
+      "source_page": 1,
+      "source_anchor": "Je ne m’oppose pas à la publication des données me concernant listées ci-dessus",
+      "path": [
+        "Publication des données sur Internet et Intranet",
+        "Je ne m’oppose pas à la publication des données me concernant listées ci-dessus"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Je ne m’oppose pas à la publication des données me concernant listées ci-dessus"
+      ],
+      "options": [
+        "Je ne m’oppose pas à la publication des données me concernant listées ci-dessus",
+        "Je fais valoir mon droit d’opposition à cette publication."
+      ],
+      "context_evidence": "Publication des données sur Internet et Intranet / Je ne m’oppose pas à la publication des données me concernant listées ci-dessus : Je ne m’oppose pas à la publication des données me concernant listées ci-dessus."
+    },
+    {
+      "id": "publication_agent",
+      "label": "Nom/ prénom",
+      "source_page": 1,
+      "source_anchor": "Nom/ prénom",
+      "path": [
+        "Publication des données sur Internet et Intranet",
+        "Nom/ prénom"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille Martin"
+    },
+    {
+      "id": "publication_date",
+      "label": "Date",
+      "source_page": 1,
+      "source_anchor": "Date",
+      "path": [
+        "Publication des données sur Internet et Intranet",
+        "Date de l'autorisation"
+      ],
+      "kind": "text",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "publication_signature",
+      "label": "Signature",
+      "source_page": 1,
+      "source_anchor": "Signature",
+      "path": [
+        "Publication des données sur Internet et Intranet",
+        "Signature de l'autorisation"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille Martin (signature fictive)"
+    }
+  ],
+  "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/CGDD_CD_Formulaire_Agent_Demande%20Evaluation_vs22032023.docx",
+  "landing_url": "https://www.ecologie.gouv.fr/politiques-publiques/evaluation-activites-dexpertise-scientifique-technique-comites-domaine",
+  "license_url": "https://www.ecologie.gouv.fr/mentions-legales",
+  "license_note": "Ecologie legal notice applies Etalab 2.0 to site content absent a third-party rights notice; source and known last-update date must be attributed. Ministry-authored form text only.",
+  "source_sha256": "5f1260c73a19197a31dcf39bffd6996ad262664d4c09d8dd5d4388d807017e02",
+  "retrieved_at": "2026-10-04T18:08:27.935381+00:00",
+  "source_version": "Version du 01/03/2023",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "kind": "printed_document_date_or_version",
+    "value": "mars 2023",
+    "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/CGDD_CD_Formulaire_Agent_Demande%20Evaluation_vs22032023.docx",
+    "detail": "Printed document evidence; not a website update claim."
+  },
+  "context": "Dossier fictif à des fins d'évaluation, sans identité réelle ni dépôt administratif.\nDemande d'évaluation - version du 01/03/2023 / Je demande à être évalué(e) par le comité de domaine : Énergie et climat.\nDemande d'évaluation - version du 01/03/2023 / Nom/prénom : Camille Martin.\nDemande d'évaluation - version du 01/03/2023 / Date de la demande : 05/10/2026.\nDemande d'évaluation - version du 01/03/2023 / Signature de la demande : Camille Martin (signature fictive).\nPublication des données sur Internet et Intranet / Je reconnais avoir pris connaissance des éléments ci-dessus. : Je reconnais avoir pris connaissance des éléments ci-dessus..\nPublication des données sur Internet et Intranet / Je ne m’oppose pas à la publication des données me concernant listées ci-dessus : Je ne m’oppose pas à la publication des données me concernant listées ci-dessus.\nPublication des données sur Internet et Intranet / Nom/ prénom : Camille Martin.\nPublication des données sur Internet et Intranet / Date de l'autorisation : 05/10/2026.\nPublication des données sur Internet et Intranet / Signature de l'autorisation : Camille Martin (signature fictive).",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 101
+  },
+  "review_pdf_sha256": "c3909f7db16410419722ca89d68550d8760202bfec8301b4e215ae67c0ba6505",
+  "source_conversion": {
+    "method": "LibreOffice PDF export without content edits",
+    "original_sha256": "5f1260c73a19197a31dcf39bffd6996ad262664d4c09d8dd5d4388d807017e02",
+    "review_pdf_sha256": "c3909f7db16410419722ca89d68550d8760202bfec8301b4e215ae67c0ba6505"
+  }
+}

@@ -1,0 +1,771 @@
+{
+  "id": "fr-dgac-fleet-intention-ed1-v1",
+  "language": "fr",
+  "domain": "GovPublic",
+  "title": "Déclaration d'intention de mise en liste de flotte",
+  "template_family": "dgac-fleet-intention-ed1-v1",
+  "issuer": "DGAC/DSAC",
+  "issuer_id": "DGAC/DSAC",
+  "source_pages": 3,
+  "columns": 1,
+  "rows": [
+    [
+      {
+        "text": "R5-CAT-F2 - Informations et coordonnées de l'exploitant",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "nom_officiel",
+        "label": "Nom officiel",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "numero_cta",
+        "label": "Numéro de CTA",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Les opérations envisagées",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "regime",
+        "label": "Régime de vol",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "type_exploitation",
+        "label": "Type d’exploitation",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "approbations",
+        "label": "Autorisations, agréments ou approbations",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "approbations_autres",
+        "label": "Autres",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "zone",
+        "label": "Zone d’exploitation",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "zone_autres",
+        "label": "Autres",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Le ou les aéronefs prévus",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "constructeur",
+        "label": "Constructeur",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "type_classe",
+        "label": "Type/classe",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "immatriculations",
+        "label": "Immatriculation(s)",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "reception",
+        "label": "Date(s) de réception prévue(s)",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "neuf",
+        "label": "Aéronef(s) neuf(s)",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "provenance",
+        "label": "Si non, indiquer provenance",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "commentaire_aeronefs",
+        "label": "Champ libre à disposition",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Équipages de lancement",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "nom_lancement",
+        "label": "Equipage(s) de lancement",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "cv_lancement",
+        "label": "CV joint",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "nom_formateur",
+        "label": "Formateur(s) / TRI",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "cv_formateur",
+        "label": "CV joint",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "nom_examinateur",
+        "label": "Examinateur(s) /TRE",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "cv_examinateur",
+        "label": "CV joint",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Le calendrier",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "date_liste",
+        "label": "Date envisagée pour l’inscription en liste de flotte du ou des aéronef(s)",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "date_livraison",
+        "label": "Date envisagée pour la livraison du ou des aéronef(s)",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "date_sade",
+        "label": "Date envisagée pour le début du SADE de l’équipe de lancement",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "date_dossier",
+        "label": "Date envisagée pour le dépôt du dossier complet",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "date_licence",
+        "label": "Date envisagée pour le dépôt du dossier relatif à la licence d'exploitation (si nécessaire)",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "commentaire_calendrier",
+        "label": "Champ libre à disposition",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Validation du document",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "responsable",
+        "label": "Je soussigné,",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Le cadre responsable déclare que les informations ci-dessus sont exactes.",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "fait_a",
+        "label": "Fait à",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "date_validation",
+        "label": "Le",
+        "colspan": 1,
+        "source_page": 3
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "nom_officiel",
+      "label": "Nom officiel",
+      "source_page": 1,
+      "source_anchor": "Nom officiel",
+      "path": [
+        "R5-CAT-F2 - Informations et coordonnées de l'exploitant",
+        "Nom officiel"
+      ],
+      "kind": "text",
+      "synthetic_value": "Aéro Exemple SAS"
+    },
+    {
+      "id": "numero_cta",
+      "label": "Numéro de CTA",
+      "source_page": 1,
+      "source_anchor": "Numéro de CTA",
+      "path": [
+        "R5-CAT-F2 - Informations et coordonnées de l'exploitant",
+        "Numéro de CTA"
+      ],
+      "kind": "text",
+      "synthetic_value": "CTA-EX-001"
+    },
+    {
+      "id": "regime",
+      "label": "Régime de vol",
+      "source_page": 1,
+      "source_anchor": "Régime de vol",
+      "path": [
+        "Les opérations envisagées",
+        "Régime de vol"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "IFR"
+      ],
+      "options": [
+        "IFR",
+        "VFR"
+      ],
+      "context_evidence": "Les opérations envisagées / Régime de vol : IFR."
+    },
+    {
+      "id": "type_exploitation",
+      "label": "Type d’exploitation",
+      "source_page": 1,
+      "source_anchor": "Type d’exploitation",
+      "path": [
+        "Les opérations envisagées",
+        "Type d’exploitation"
+      ],
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "Opérations d’un point A vers un point A",
+        "Opérations de transport de passagers"
+      ],
+      "options": [
+        "Opérations d’un point A vers un point A",
+        "A vers B",
+        "Opérations de transport de fret",
+        "Opérations de transport de passagers"
+      ],
+      "context_evidence": "Les opérations envisagées / Type d’exploitation : Opérations d’un point A vers un point A, Opérations de transport de passagers."
+    },
+    {
+      "id": "approbations",
+      "label": "Autorisations, agréments ou approbations",
+      "source_page": 1,
+      "source_anchor": "Autorisations, agréments ou approbations",
+      "path": [
+        "Les opérations envisagées",
+        "Autorisations, agréments ou approbations"
+      ],
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "RVSM",
+        "NAT HLA"
+      ],
+      "options": [
+        "Marchandises Dangereuses",
+        "Opérations par faible visibilité",
+        "RVSM",
+        "ETOPS",
+        "PBN complexe",
+        "NAT HLA",
+        "SET-IMC",
+        "NVIS",
+        "Hélitreuillage",
+        "HEMS",
+        "Autres"
+      ],
+      "context_evidence": "Les opérations envisagées / Autorisations, agréments ou approbations : RVSM, NAT HLA."
+    },
+    {
+      "id": "approbations_autres",
+      "label": "Autres",
+      "source_page": 1,
+      "source_anchor": "Autres",
+      "path": [
+        "Les opérations envisagées",
+        "Autorisations, agréments ou approbations",
+        "Précision autres"
+      ],
+      "kind": "text",
+      "synthetic_value": "Aucune autre approbation demandée"
+    },
+    {
+      "id": "zone",
+      "label": "Zone d’exploitation",
+      "source_page": 1,
+      "source_anchor": "Zone d’exploitation",
+      "path": [
+        "Les opérations envisagées",
+        "Zone d’exploitation"
+      ],
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "EUR",
+        "NAT"
+      ],
+      "options": [
+        "EUR",
+        "MID/ASIA",
+        "AFI",
+        "NAT",
+        "PAC",
+        "SAM",
+        "CAR",
+        "NAM",
+        "Monde",
+        "Autres"
+      ],
+      "context_evidence": "Les opérations envisagées / Zone d’exploitation : EUR, NAT."
+    },
+    {
+      "id": "zone_autres",
+      "label": "Autres",
+      "source_page": 1,
+      "source_anchor": "Autres",
+      "path": [
+        "Les opérations envisagées",
+        "Zone d'exploitation",
+        "Précision autres"
+      ],
+      "kind": "text",
+      "synthetic_value": "Aucune autre zone demandée"
+    },
+    {
+      "id": "constructeur",
+      "label": "Constructeur",
+      "source_page": 2,
+      "source_anchor": "Constructeur",
+      "path": [
+        "Le ou les aéronefs prévus",
+        "Constructeur"
+      ],
+      "kind": "text",
+      "synthetic_value": "Constructeur Exemple"
+    },
+    {
+      "id": "type_classe",
+      "label": "Type/classe",
+      "source_page": 2,
+      "source_anchor": "Type/classe",
+      "path": [
+        "Le ou les aéronefs prévus",
+        "Type/classe"
+      ],
+      "kind": "text",
+      "synthetic_value": "Type EX-1"
+    },
+    {
+      "id": "immatriculations",
+      "label": "Immatriculation(s)",
+      "source_page": 2,
+      "source_anchor": "Immatriculation(s)",
+      "path": [
+        "Le ou les aéronefs prévus",
+        "Immatriculation(s)"
+      ],
+      "kind": "text",
+      "synthetic_value": "F-EXAB"
+    },
+    {
+      "id": "reception",
+      "label": "Date(s) de réception prévue(s)",
+      "source_page": 2,
+      "source_anchor": "Date(s) de réception prévue(s)",
+      "path": [
+        "Le ou les aéronefs prévus",
+        "Date(s) de réception prévue(s)"
+      ],
+      "kind": "text",
+      "synthetic_value": "01/12/2026"
+    },
+    {
+      "id": "neuf",
+      "label": "Aéronef(s) neuf(s)",
+      "source_page": 2,
+      "source_anchor": "Aéronef(s) neuf(s)",
+      "path": [
+        "Le ou les aéronefs prévus",
+        "Aéronef(s) neuf(s)"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Aéronef(s) neuf(s)"
+      ],
+      "options": [
+        "Aéronef(s) neuf(s)"
+      ],
+      "context_evidence": "Le ou les aéronefs prévus / Aéronef(s) neuf(s) : Aéronef(s) neuf(s)."
+    },
+    {
+      "id": "provenance",
+      "label": "Si non, indiquer provenance",
+      "source_page": 2,
+      "source_anchor": "Si non, indiquer provenance",
+      "path": [
+        "Le ou les aéronefs prévus",
+        "Si non, indiquer provenance"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "commentaire_aeronefs",
+      "label": "Champ libre à disposition",
+      "source_page": 2,
+      "source_anchor": "Champ libre à disposition",
+      "path": [
+        "Le ou les aéronefs prévus",
+        "Commentaires sur les aéronefs"
+      ],
+      "kind": "text",
+      "synthetic_value": "Premier aéronef fictif"
+    },
+    {
+      "id": "nom_lancement",
+      "label": "Equipage(s) de lancement",
+      "source_page": 2,
+      "source_anchor": "Equipage(s) de lancement",
+      "path": [
+        "Équipages de lancement",
+        "Equipage(s) de lancement",
+        "Nom(s)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille Martin"
+    },
+    {
+      "id": "cv_lancement",
+      "label": "CV joint",
+      "source_page": 2,
+      "source_anchor": "CV joint",
+      "path": [
+        "Équipages de lancement",
+        "Equipage(s) de lancement",
+        "CV joint"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "CV joint"
+      ],
+      "options": [
+        "CV joint"
+      ],
+      "context_evidence": "Équipages de lancement / Equipage(s) de lancement / CV joint : CV joint."
+    },
+    {
+      "id": "nom_formateur",
+      "label": "Formateur(s) / TRI",
+      "source_page": 2,
+      "source_anchor": "Formateur(s) / TRI",
+      "path": [
+        "Équipages de lancement",
+        "Formateur(s) / TRI",
+        "Nom(s)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Julien Dubois"
+    },
+    {
+      "id": "cv_formateur",
+      "label": "CV joint",
+      "source_page": 2,
+      "source_anchor": "CV joint",
+      "path": [
+        "Équipages de lancement",
+        "Formateur(s) / TRI",
+        "CV joint"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "CV joint"
+      ],
+      "options": [
+        "CV joint"
+      ],
+      "context_evidence": "Équipages de lancement / Formateur(s) / TRI / CV joint : CV joint."
+    },
+    {
+      "id": "nom_examinateur",
+      "label": "Examinateur(s) /TRE",
+      "source_page": 2,
+      "source_anchor": "Examinateur(s) /TRE",
+      "path": [
+        "Équipages de lancement",
+        "Examinateur(s) /TRE",
+        "Nom(s)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Alex Moreau"
+    },
+    {
+      "id": "cv_examinateur",
+      "label": "CV joint",
+      "source_page": 2,
+      "source_anchor": "CV joint",
+      "path": [
+        "Équipages de lancement",
+        "Examinateur(s) /TRE",
+        "CV joint"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "CV joint"
+      ],
+      "options": [
+        "CV joint"
+      ],
+      "context_evidence": "Équipages de lancement / Examinateur(s) /TRE / CV joint : CV joint."
+    },
+    {
+      "id": "date_liste",
+      "label": "Date envisagée pour l’inscription en liste de flotte du ou des aéronef(s)",
+      "source_page": 2,
+      "source_anchor": "Date envisagée pour l’inscription en liste de flotte du ou des aéronef(s)",
+      "path": [
+        "Le calendrier",
+        "Date envisagée pour l’inscription en liste de flotte du ou des aéronef(s)"
+      ],
+      "kind": "text",
+      "synthetic_value": "01/12/2026"
+    },
+    {
+      "id": "date_livraison",
+      "label": "Date envisagée pour la livraison du ou des aéronef(s)",
+      "source_page": 2,
+      "source_anchor": "Date envisagée pour la livraison du ou des aéronef(s)",
+      "path": [
+        "Le calendrier",
+        "Date envisagée pour la livraison du ou des aéronef(s)"
+      ],
+      "kind": "text",
+      "synthetic_value": "15/11/2026"
+    },
+    {
+      "id": "date_sade",
+      "label": "Date envisagée pour le début du SADE de l’équipe de lancement",
+      "source_page": 2,
+      "source_anchor": "Date envisagée pour le début du SADE de l’équipe de lancement",
+      "path": [
+        "Le calendrier",
+        "Date envisagée pour le début du SADE de l’équipe de lancement"
+      ],
+      "kind": "text",
+      "synthetic_value": "01/11/2026"
+    },
+    {
+      "id": "date_dossier",
+      "label": "Date envisagée pour le dépôt du dossier complet",
+      "source_page": 2,
+      "source_anchor": "Date envisagée pour le dépôt du dossier complet",
+      "path": [
+        "Le calendrier",
+        "Date envisagée pour le dépôt du dossier complet"
+      ],
+      "kind": "text",
+      "synthetic_value": "15/10/2026"
+    },
+    {
+      "id": "date_licence",
+      "label": "Date envisagée pour le dépôt du dossier relatif à la licence d'exploitation (si nécessaire)",
+      "source_page": 2,
+      "source_anchor": "Date envisagée pour le dépôt du dossier relatif à la licence d'exploitation (si nécessaire)",
+      "path": [
+        "Le calendrier",
+        "Date envisagée pour le dépôt du dossier relatif à la licence d'exploitation (si nécessaire)"
+      ],
+      "kind": "text",
+      "synthetic_value": "15/10/2026"
+    },
+    {
+      "id": "commentaire_calendrier",
+      "label": "Champ libre à disposition",
+      "source_page": 2,
+      "source_anchor": "Champ libre à disposition",
+      "path": [
+        "Le calendrier",
+        "Commentaires sur le calendrier"
+      ],
+      "kind": "text",
+      "synthetic_value": "Calendrier fictif soumis à révision"
+    },
+    {
+      "id": "responsable",
+      "label": "Je soussigné,",
+      "source_page": 3,
+      "source_anchor": "Je soussigné,",
+      "path": [
+        "Validation du document",
+        "Je soussigné,"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille Martin"
+    },
+    {
+      "id": "fait_a",
+      "label": "Fait à",
+      "source_page": 3,
+      "source_anchor": "Fait à",
+      "path": [
+        "Validation du document",
+        "Fait à"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "date_validation",
+      "label": "Le",
+      "source_page": 3,
+      "source_anchor": "Le",
+      "path": [
+        "Validation du document",
+        "Date de validation"
+      ],
+      "kind": "text",
+      "synthetic_value": "05/10/2026"
+    }
+  ],
+  "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/R5_CAT_F2.pdf",
+  "landing_url": "https://www.ecologie.gouv.fr/politiques-publiques/guides-exploitants-daeronefs",
+  "license_url": "https://www.ecologie.gouv.fr/mentions-legales",
+  "license_note": "Ecologie legal notice applies Etalab 2.0 to site content absent a third-party rights notice; source and known last-update date must be attributed. Ministry-authored form text only.",
+  "source_sha256": "5b3be87eb9787599fd0e3b6a5b6c79abadbc5765b7711c950df3c8ebeaeb4a56",
+  "retrieved_at": "2026-10-04T18:16:12.318127+00:00",
+  "source_version": "Ed1 V1 du 18/02/2019",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "kind": "printed_document_date_or_version",
+    "value": "18/02/2019",
+    "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/R5_CAT_F2.pdf",
+    "detail": "Printed document evidence; not a website update claim."
+  },
+  "context": "Dossier fictif à des fins d'évaluation, sans identité réelle ni dépôt administratif.\nR5-CAT-F2 - Informations et coordonnées de l'exploitant / Nom officiel : Aéro Exemple SAS.\nR5-CAT-F2 - Informations et coordonnées de l'exploitant / Numéro de CTA : CTA-EX-001.\nLes opérations envisagées / Régime de vol : IFR.\nLes opérations envisagées / Type d’exploitation : Opérations d’un point A vers un point A, Opérations de transport de passagers.\nLes opérations envisagées / Autorisations, agréments ou approbations : RVSM, NAT HLA.\nLes opérations envisagées / Autorisations, agréments ou approbations / Précision autres : Aucune autre approbation demandée.\nLes opérations envisagées / Zone d’exploitation : EUR, NAT.\nLes opérations envisagées / Zone d'exploitation / Précision autres : Aucune autre zone demandée.\nLe ou les aéronefs prévus / Constructeur : Constructeur Exemple.\nLe ou les aéronefs prévus / Type/classe : Type EX-1.\nLe ou les aéronefs prévus / Immatriculation(s) : F-EXAB.\nLe ou les aéronefs prévus / Date(s) de réception prévue(s) : 01/12/2026.\nLe ou les aéronefs prévus / Aéronef(s) neuf(s) : Aéronef(s) neuf(s).\nLe ou les aéronefs prévus / Si non, indiquer provenance : Sans objet.\nLe ou les aéronefs prévus / Commentaires sur les aéronefs : Premier aéronef fictif.\nÉquipages de lancement / Equipage(s) de lancement / Nom(s) : Camille Martin.\nÉquipages de lancement / Equipage(s) de lancement / CV joint : CV joint.\nÉquipages de lancement / Formateur(s) / TRI / Nom(s) : Julien Dubois.\nÉquipages de lancement / Formateur(s) / TRI / CV joint : CV joint.\nÉquipages de lancement / Examinateur(s) /TRE / Nom(s) : Alex Moreau.\nÉquipages de lancement / Examinateur(s) /TRE / CV joint : CV joint.\nLe calendrier / Date envisagée pour l’inscription en liste de flotte du ou des aéronef(s) : 01/12/2026.\nLe calendrier / Date envisagée pour la livraison du ou des aéronef(s) : 15/11/2026.\nLe calendrier / Date envisagée pour le début du SADE de l’équipe de lancement : 01/11/2026.\nLe calendrier / Date envisagée pour le dépôt du dossier complet : 15/10/2026.\nLe calendrier / Date envisagée pour le dépôt du dossier relatif à la licence d'exploitation (si nécessaire) : 15/10/2026.\nLe calendrier / Commentaires sur le calendrier : Calendrier fictif soumis à révision.\nValidation du document / Je soussigné, : Camille Martin.\nValidation du document / Fait à : Paris.\nValidation du document / Date de validation : 05/10/2026.",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 104
+  }
+}

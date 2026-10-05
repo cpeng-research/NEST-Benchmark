@@ -1,0 +1,44 @@
+{
+  "extension_id": "2026-10-fr-health-public-v0.2",
+  "added_on": "2026-10-05",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 1,
+  "samples": [
+    {
+      "id": 160,
+      "language": "fr",
+      "title": "ULM : déclaration de MMD et/ou VS0",
+      "source_id": "fr-eco-ulm-mass",
+      "domain": "GovPublic",
+      "issuer_id": "Direction générale de l'aviation civile",
+      "template_family": "dgac-r8-ulm-f506-2019",
+      "source_pages": 1,
+      "source_sha256": "8da23cc09324e7e0143457c91790054110e6fc5f86638baef499370965a75400",
+      "fields": 19,
+      "files": {
+        "workflow/0-html_template/data_fr/160.html": "28192930d978dff4c15497dc641cdcb8bf8973a633f67ff072c2ff2aa89a71c1",
+        "workflow/1-annotated_json/data_fr/160.json": "6446d003749dd13bf31b9d470d81917e220cd7053ed86d65597e876b9ea118f4",
+        "workflow/2-filled_json-a/data_fr/160.json": "463a970614f7dfcadeab666d5a33b342fd4978450c78cf80f74f287e34d32c86",
+        "workflow/3-filled_html-a/data_fr/160.html": "d45119a2714e4a55f9e48b2665a370eb8a422ca12cd33193a05b6df2ac870393",
+        "workflow/4-context-a/data_fr/160.txt": "139bf4d36c1eefcace0bb8c1ebe72f8e81d207b67c5fc9d400b7a96f3666c355",
+        "workflow/5-ph_html-a/data_fr/160.html": "019b79de38ccc626037983ed848f2dc6da732e7dcca24ef59582b6f70fd63783",
+        "workflow/6-meta-a/data_fr/160.json": "4b380e0b77ad6a50fd83c48ad86b835da86557dd6a23a2d84e2858c9a3dd57a5"
+      },
+      "annotation_path": "data/annotations/fr/160.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      },
+      "business_topic": "ULM : déclaration de MMD et/ou VS0"
+    }
+  ]
+}

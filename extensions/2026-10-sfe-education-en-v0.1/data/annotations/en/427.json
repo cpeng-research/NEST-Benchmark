@@ -1,0 +1,593 @@
+{
+  "id": "en-sfe-dsa-expenses-2627",
+  "language": "en",
+  "domain": "Education",
+  "title": "DSA - cost claims form for 2026 to 2027",
+  "template_family": "dsa-expenses",
+  "issuer": "Student Loans Company / Student Finance England",
+  "issuer_id": "SLC-SFE",
+  "source_pages": 2,
+  "columns": 1,
+  "rows": [
+    [
+      {
+        "text": "Personal Details",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "crn",
+        "label": "Customer Reference Number",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "name",
+        "label": "Name",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "dob",
+        "label": "Date of birth (DDMMYYYY)",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "address",
+        "label": "Address",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "postcode",
+        "label": "Postcode",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "university",
+        "label": "University or College",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "course",
+        "label": "Course",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Details of your costs",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "item_1_details",
+        "label": "Details of your costs",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "item_1_amount",
+        "label": "Amount (£)",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "item_1_supplier",
+        "label": "Name and address of supplier",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "item_2_details",
+        "label": "Details of your costs",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "item_2_amount",
+        "label": "Amount (£)",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "item_2_supplier",
+        "label": "Name and address of supplier",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "item_3_details",
+        "label": "Details of your costs",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "item_3_amount",
+        "label": "Amount (£)",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "item_3_supplier",
+        "label": "Name and address of supplier",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "item_4_details",
+        "label": "Details of your costs",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "item_4_amount",
+        "label": "Amount (£)",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "item_4_supplier",
+        "label": "Name and address of supplier",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "item_5_details",
+        "label": "Details of your costs",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "item_5_amount",
+        "label": "Amount (£)",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "item_5_supplier",
+        "label": "Name and address of supplier",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "total",
+        "label": "Total claimed",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Declaration",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "declaration_name",
+        "label": "Your full name (in BLOCK CAPITALS)",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "signature",
+        "label": "Signed",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "date",
+        "label": "Today’s date (DDMMYYYY)",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "crn",
+      "label": "Customer Reference Number",
+      "source_page": 1,
+      "source_anchor": "Customer Reference Number",
+      "path": [
+        "Personal Details",
+        "Customer Reference Number"
+      ],
+      "kind": "text",
+      "synthetic_value": "10000000004"
+    },
+    {
+      "id": "name",
+      "label": "Name",
+      "source_page": 1,
+      "source_anchor": "Name",
+      "path": [
+        "Personal Details",
+        "Name"
+      ],
+      "kind": "text",
+      "synthetic_value": "Alex Sample"
+    },
+    {
+      "id": "dob",
+      "label": "Date of birth (DDMMYYYY)",
+      "source_page": 1,
+      "source_anchor": "Date of birth (DDMMYYYY)",
+      "path": [
+        "Personal Details",
+        "Date of birth (DDMMYYYY)"
+      ],
+      "kind": "text",
+      "synthetic_value": "01012001"
+    },
+    {
+      "id": "address",
+      "label": "Address",
+      "source_page": 1,
+      "source_anchor": "Address",
+      "path": [
+        "Personal Details",
+        "Address"
+      ],
+      "kind": "text",
+      "synthetic_value": "1 Example Road, Exampleton"
+    },
+    {
+      "id": "postcode",
+      "label": "Postcode",
+      "source_page": 1,
+      "source_anchor": "Postcode",
+      "path": [
+        "Personal Details",
+        "Postcode"
+      ],
+      "kind": "text",
+      "synthetic_value": "EX1 1EX"
+    },
+    {
+      "id": "university",
+      "label": "University or College",
+      "source_page": 1,
+      "source_anchor": "University or College",
+      "path": [
+        "Personal Details",
+        "University or College"
+      ],
+      "kind": "text",
+      "synthetic_value": "Example University"
+    },
+    {
+      "id": "course",
+      "label": "Course",
+      "source_page": 1,
+      "source_anchor": "Course",
+      "path": [
+        "Personal Details",
+        "Course"
+      ],
+      "kind": "text",
+      "synthetic_value": "Example Education BA"
+    },
+    {
+      "id": "item_1_details",
+      "label": "Details of your costs",
+      "source_page": 2,
+      "source_anchor": "Details of your costs",
+      "path": [
+        "Details of your costs",
+        "Item 1",
+        "Details of your costs"
+      ],
+      "kind": "text",
+      "synthetic_value": "Accessibility travel item 1"
+    },
+    {
+      "id": "item_1_amount",
+      "label": "Amount (£)",
+      "source_page": 2,
+      "source_anchor": "Amount (£)",
+      "path": [
+        "Details of your costs",
+        "Item 1",
+        "Amount (£)"
+      ],
+      "kind": "text",
+      "synthetic_value": "10"
+    },
+    {
+      "id": "item_1_supplier",
+      "label": "Name and address of supplier",
+      "source_page": 2,
+      "source_anchor": "Name and address of supplier",
+      "path": [
+        "Details of your costs",
+        "Item 1",
+        "Name and address of supplier"
+      ],
+      "kind": "text",
+      "synthetic_value": "Supplier 1, Exampleton"
+    },
+    {
+      "id": "item_2_details",
+      "label": "Details of your costs",
+      "source_page": 2,
+      "source_anchor": "Details of your costs",
+      "path": [
+        "Details of your costs",
+        "Item 2",
+        "Details of your costs"
+      ],
+      "kind": "text",
+      "synthetic_value": "Accessibility travel item 2"
+    },
+    {
+      "id": "item_2_amount",
+      "label": "Amount (£)",
+      "source_page": 2,
+      "source_anchor": "Amount (£)",
+      "path": [
+        "Details of your costs",
+        "Item 2",
+        "Amount (£)"
+      ],
+      "kind": "text",
+      "synthetic_value": "20"
+    },
+    {
+      "id": "item_2_supplier",
+      "label": "Name and address of supplier",
+      "source_page": 2,
+      "source_anchor": "Name and address of supplier",
+      "path": [
+        "Details of your costs",
+        "Item 2",
+        "Name and address of supplier"
+      ],
+      "kind": "text",
+      "synthetic_value": "Supplier 2, Exampleton"
+    },
+    {
+      "id": "item_3_details",
+      "label": "Details of your costs",
+      "source_page": 2,
+      "source_anchor": "Details of your costs",
+      "path": [
+        "Details of your costs",
+        "Item 3",
+        "Details of your costs"
+      ],
+      "kind": "text",
+      "synthetic_value": "Accessibility travel item 3"
+    },
+    {
+      "id": "item_3_amount",
+      "label": "Amount (£)",
+      "source_page": 2,
+      "source_anchor": "Amount (£)",
+      "path": [
+        "Details of your costs",
+        "Item 3",
+        "Amount (£)"
+      ],
+      "kind": "text",
+      "synthetic_value": "30"
+    },
+    {
+      "id": "item_3_supplier",
+      "label": "Name and address of supplier",
+      "source_page": 2,
+      "source_anchor": "Name and address of supplier",
+      "path": [
+        "Details of your costs",
+        "Item 3",
+        "Name and address of supplier"
+      ],
+      "kind": "text",
+      "synthetic_value": "Supplier 3, Exampleton"
+    },
+    {
+      "id": "item_4_details",
+      "label": "Details of your costs",
+      "source_page": 2,
+      "source_anchor": "Details of your costs",
+      "path": [
+        "Details of your costs",
+        "Item 4",
+        "Details of your costs"
+      ],
+      "kind": "text",
+      "synthetic_value": "Accessibility travel item 4"
+    },
+    {
+      "id": "item_4_amount",
+      "label": "Amount (£)",
+      "source_page": 2,
+      "source_anchor": "Amount (£)",
+      "path": [
+        "Details of your costs",
+        "Item 4",
+        "Amount (£)"
+      ],
+      "kind": "text",
+      "synthetic_value": "40"
+    },
+    {
+      "id": "item_4_supplier",
+      "label": "Name and address of supplier",
+      "source_page": 2,
+      "source_anchor": "Name and address of supplier",
+      "path": [
+        "Details of your costs",
+        "Item 4",
+        "Name and address of supplier"
+      ],
+      "kind": "text",
+      "synthetic_value": "Supplier 4, Exampleton"
+    },
+    {
+      "id": "item_5_details",
+      "label": "Details of your costs",
+      "source_page": 2,
+      "source_anchor": "Details of your costs",
+      "path": [
+        "Details of your costs",
+        "Item 5",
+        "Details of your costs"
+      ],
+      "kind": "text",
+      "synthetic_value": "Accessibility travel item 5"
+    },
+    {
+      "id": "item_5_amount",
+      "label": "Amount (£)",
+      "source_page": 2,
+      "source_anchor": "Amount (£)",
+      "path": [
+        "Details of your costs",
+        "Item 5",
+        "Amount (£)"
+      ],
+      "kind": "text",
+      "synthetic_value": "50"
+    },
+    {
+      "id": "item_5_supplier",
+      "label": "Name and address of supplier",
+      "source_page": 2,
+      "source_anchor": "Name and address of supplier",
+      "path": [
+        "Details of your costs",
+        "Item 5",
+        "Name and address of supplier"
+      ],
+      "kind": "text",
+      "synthetic_value": "Supplier 5, Exampleton"
+    },
+    {
+      "id": "total",
+      "label": "Total claimed",
+      "source_page": 2,
+      "source_anchor": "Total claimed",
+      "path": [
+        "Details of your costs",
+        "Total claimed"
+      ],
+      "kind": "text",
+      "synthetic_value": "150"
+    },
+    {
+      "id": "declaration_name",
+      "label": "Your full name (in BLOCK CAPITALS)",
+      "source_page": 2,
+      "source_anchor": "Your full name (in BLOCK CAPITALS)",
+      "path": [
+        "Declaration",
+        "Your full name (in BLOCK CAPITALS)"
+      ],
+      "kind": "text",
+      "synthetic_value": "ALEX SAMPLE"
+    },
+    {
+      "id": "signature",
+      "label": "Signed",
+      "source_page": 2,
+      "source_anchor": "Signed",
+      "path": [
+        "Declaration",
+        "Signed"
+      ],
+      "kind": "text",
+      "synthetic_value": "Alex Sample (synthetic signature)"
+    },
+    {
+      "id": "date",
+      "label": "Today’s date (DDMMYYYY)",
+      "source_page": 2,
+      "source_anchor": "Today’s date (DDMMYYYY)",
+      "path": [
+        "Declaration",
+        "Today’s date (DDMMYYYY)"
+      ],
+      "kind": "text",
+      "synthetic_value": "05102026"
+    }
+  ],
+  "source_url": "https://assets.publishing.service.gov.uk/media/69f9c967a40aa2232fede4b3/sfe_dsa_expenses_claim_form_2627_o.pdf",
+  "landing_url": "https://www.gov.uk/government/publications/disabled-students-allowance-expenses",
+  "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "license_note": "GOV.UK landing page states Open Government Licence v3.0 except where otherwise stated; normalized functional form only, without logos or source artwork.",
+  "source_sha256": "d3c9381e3ccce2d189a0bf7c27b36efbc29738ca4921b2d57b58139fd49531df",
+  "retrieved_at": "2026-10-05",
+  "source_version": "2026 to 2027 academic year",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "kind": "official_landing_dates",
+    "value": "Published 2021-06-28; last updated 2026-05-11",
+    "source_url": "https://www.gov.uk/government/publications/disabled-students-allowance-expenses",
+    "detail": "Dates refer to the official publication page, not independently dated PDF file bytes."
+  },
+  "context": "Fictional test record. All names, addresses, costs and signatures are synthetic.\nPersonal Details / Customer Reference Number: 10000000004.\nPersonal Details / Name: Alex Sample.\nPersonal Details / Date of birth (DDMMYYYY): 01012001.\nPersonal Details / Address: 1 Example Road, Exampleton.\nPersonal Details / Postcode: EX1 1EX.\nPersonal Details / University or College: Example University.\nPersonal Details / Course: Example Education BA.\nDetails of your costs / Item 1 / Details of your costs: Accessibility travel item 1.\nDetails of your costs / Item 1 / Amount (£): 10.\nDetails of your costs / Item 1 / Name and address of supplier: Supplier 1, Exampleton.\nDetails of your costs / Item 2 / Details of your costs: Accessibility travel item 2.\nDetails of your costs / Item 2 / Amount (£): 20.\nDetails of your costs / Item 2 / Name and address of supplier: Supplier 2, Exampleton.\nDetails of your costs / Item 3 / Details of your costs: Accessibility travel item 3.\nDetails of your costs / Item 3 / Amount (£): 30.\nDetails of your costs / Item 3 / Name and address of supplier: Supplier 3, Exampleton.\nDetails of your costs / Item 4 / Details of your costs: Accessibility travel item 4.\nDetails of your costs / Item 4 / Amount (£): 40.\nDetails of your costs / Item 4 / Name and address of supplier: Supplier 4, Exampleton.\nDetails of your costs / Item 5 / Details of your costs: Accessibility travel item 5.\nDetails of your costs / Item 5 / Amount (£): 50.\nDetails of your costs / Item 5 / Name and address of supplier: Supplier 5, Exampleton.\nDetails of your costs / Total claimed: 150.\nDeclaration / Your full name (in BLOCK CAPITALS): ALEX SAMPLE.\nDeclaration / Signed: Alex Sample (synthetic signature).\nDeclaration / Today’s date (DDMMYYYY): 05102026.",
+  "workflow_identity": {
+    "language": "en",
+    "id": 427
+  }
+}

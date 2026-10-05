@@ -1,0 +1,284 @@
+{
+  "DATOS DEL CASO": {
+    "FECHA SOLICITUD": "",
+    "APELLIDO": "",
+    "NOMBRES": "",
+    "DNI": "",
+    "HIV": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": []
+    },
+    "FECHA NACIMIENTO": "",
+    "SEXO": "",
+    "EDAD": "",
+    "OCUPACIÓN": "",
+    "NACIONALIDAD": "",
+    "PROV. RESIDENCIA": "",
+    "CIUDAD": "",
+    "TELÉFONO PACIENTE": ""
+  },
+  "DATOS DE LA INSTITUCIÓN": {
+    "Hospital/Institución": "",
+    "Ciudad de la institución": "",
+    "Nombre del médico": "",
+    "Mail del médico": ""
+  },
+  "DATOS DE INTERÉS / ESTUDIO DE": {
+    "ESTUDIO DE": {
+      "choices": [
+        "Estudio de infección por virus de Hepatitis A",
+        "Estudio de infección por virus de Hepatitis E"
+      ],
+      "value": []
+    },
+    "MUESTRAS": {
+      "choices": [
+        "Suero",
+        "Plasma",
+        "Materia Fecal"
+      ],
+      "value": []
+    }
+  },
+  "DATOS DE INTERÉS / OTROS DATOS": {
+    "CONTACTO CON CASO POSITIVO": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": []
+    },
+    "ZONA": {
+      "choices": [
+        "urbana",
+        "rural (<20000 habitantes)"
+      ],
+      "value": []
+    },
+    "AGUA": {
+      "choices": [
+        "corriente",
+        "pozo",
+        "envasada"
+      ],
+      "value": []
+    },
+    "CLOACAS": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": []
+    },
+    "ALIMENTOS": {
+      "choices": [
+        "cerdo",
+        "mariscos",
+        "carne poco cocida",
+        "vísceras",
+        "embutidos artesanales"
+      ],
+      "value": []
+    },
+    "ANIMALES DOMÉSTICOS": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": []
+    },
+    "¿Cuál?": "",
+    "ACTIVIDADES": {
+      "choices": [
+        "camping",
+        "pesca",
+        "caza",
+        "náuticas",
+        "jardinería/huerta"
+      ],
+      "value": []
+    }
+  },
+  "INFORMACIÓN ESENCIAL": {
+    "HEPATITIS": {
+      "choices": [
+        "Aguda",
+        "Crónica"
+      ],
+      "value": []
+    },
+    "FECHA DE INICIO DE SÍNTOMAS": "",
+    "FECHA DE TOMA DE MUESTRA SUERO": "",
+    "FECHA DE MUESTRA MATERIA FECAL": "",
+    "VACUNA HAV": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": []
+    },
+    "Dosis": "",
+    "Fecha ultima dosis": "",
+    "VIAJE": {
+      "choices": [
+        "Interior",
+        "Exterior"
+      ],
+      "value": []
+    },
+    "Lugar y fecha": ""
+  },
+  "RESULTADOS PREVIOS": {
+    "anti-HAV IgM": {
+      "valor": "",
+      "Método": {
+        "choices": [
+          "ELISA",
+          "QML/ELFA"
+        ],
+        "value": []
+      },
+      "Fecha": ""
+    },
+    "anti-HAV IgG": {
+      "valor": "",
+      "Método": {
+        "choices": [
+          "ELISA",
+          "QML/ELFA"
+        ],
+        "value": []
+      },
+      "Fecha": ""
+    },
+    "anti-HEV IgM": {
+      "valor": "",
+      "Método": {
+        "choices": [
+          "ELISA",
+          "QML/ELFA"
+        ],
+        "value": []
+      },
+      "Fecha": ""
+    },
+    "anti-HEV IgG": {
+      "valor": "",
+      "Método": {
+        "choices": [
+          "ELISA",
+          "QML/ELFA"
+        ],
+        "value": []
+      },
+      "Fecha": ""
+    },
+    "HAV-RNA": {
+      "Resultado": "",
+      "Fecha": ""
+    },
+    "HEV-RNA": {
+      "Resultado": "",
+      "Fecha": ""
+    }
+  },
+  "DATOS CLÍNICOS": {
+    "Inmunosupresión": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": []
+    },
+    "¿Cuál?": "",
+    "Comorbilidades": "",
+    "EMBARAZO": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": []
+    },
+    "Semana": "",
+    "CIRROSIS": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": []
+    },
+    "HCC": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": []
+    },
+    "SÍNTOMAS": {
+      "Columna 1": {
+        "choices": [
+          "Asintomático",
+          "Ictericia",
+          "Coluria",
+          "Hepatomegalia",
+          "Esplenomegalia"
+        ],
+        "value": []
+      },
+      "Columna 2": {
+        "choices": [
+          "Ascitis",
+          "Prurito",
+          "Encefalopatía",
+          "Dolor Abdominal",
+          "Astenia"
+        ],
+        "value": []
+      },
+      "Columna 3": {
+        "choices": [
+          "Acolia",
+          "Hiporexia",
+          "Ictericia",
+          "Hemorragia"
+        ],
+        "value": []
+      }
+    }
+  },
+  "DATOS CLÍNICOS / HEPATOGRAMA": {
+    "ALAT (TGP)": "",
+    "ASAT (TGO)": "",
+    "Bilirrubina total": "",
+    "Bilirrubina directa": "",
+    "TP": ""
+  },
+  "DATOS CLÍNICOS / FACTORES DE RIESGO": {
+    "FACTORES DE RIESGO": {
+      "choices": [
+        "HSH",
+        "DEV",
+        "Droga inhalatoria",
+        "Transfusión.",
+        "Diálisis.",
+        "Alcoholismo",
+        "Prácticas médicas no seguras",
+        "Prácticas sexuales sin protección",
+        "Múltiples parejas sexuales",
+        "Desconocido"
+      ],
+      "value": []
+    }
+  },
+  "FACTORES DE RIESGO": {
+    "Transfusión": {
+      "Año": ""
+    },
+    "Diálisis": {
+      "Año": ""
+    }
+  }
+}

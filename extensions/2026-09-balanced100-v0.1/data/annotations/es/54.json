@@ -1,0 +1,905 @@
+{
+  "id": "es-health-54-nonpersonal-dose",
+  "language": "es",
+  "domain": "Healthcare",
+  "business_topic": "nonpersonal-dose",
+  "title": "Alta de dosimetría no personal - GS-F07 (2022)",
+  "issuer_id": "INGESA - Centro Nacional de Dosimetría",
+  "template_family": "nonpersonal-dose",
+  "source_url": "https://ingesa.sanidad.gob.es/cnd/dam/jcr:9d1d7314-3c55-4fa0-a941-1aec726e6533/GSF07.Formulario_de_alta_de_dosimetria_no_personal.pdf",
+  "landing_url": "https://ingesa.sanidad.gob.es/cnd/Dosimetria/Formularios.html",
+  "source_sha256": "a687e5de26bdade4e3629c56fe436c2f9bff127489bfb4a29bafce6a51dadad5",
+  "source_pages": 2,
+  "retrieved_at": "2026-09-26T10:15:39.930293+00:00",
+  "license_url": "https://www.sanidad.gob.es/avisoLegal/home.htm",
+  "license_note": "Fuente: Ministerio de Sanidad / INGESA / Centro Nacional de Dosimetría. Origen de los datos: INGESA. El aviso del Ministerio de Sanidad cubre sus subdominios; reutilización con atribución, preservación del sentido y fecha/versión impresa, sin patrocinio ni logotipos.",
+  "columns": 6,
+  "rows": [
+    [
+      {
+        "text": "Validación (Uso interno del CND)",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f001",
+        "label": "Validación (Uso interno del CND)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Datos de la Institución",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f002",
+        "label": "Institución",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f003",
+        "label": "Localidad",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Datos del Servicio / Rotatorio",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f004",
+        "label": "Servicio",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f005",
+        "label": "Código",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Dosímetros de Solapa",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f006",
+        "label": "Cantidad",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f007",
+        "label": "Meses",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Dosímetros de Muñeca",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f008",
+        "label": "Cantidad",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f009",
+        "label": "Meses",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Dosímetros de Anillo",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f010",
+        "label": "Cantidad",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f011",
+        "label": "Meses",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Dosímetros de Cristalino",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f012",
+        "label": "Cantidad",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f013",
+        "label": "Meses",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f014",
+        "label": "Uso",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Datos del Servicio / Área",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f015",
+        "label": "Servicio",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f016",
+        "label": "Código",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Dosímetros de Solapa",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f017",
+        "label": "Cantidad",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f018",
+        "label": "Meses",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f019",
+        "label": "Uso",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Datos del Servicio / Investigación",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f020",
+        "label": "Servicio",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f021",
+        "label": "Código",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Dosímetros de Solapa",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f022",
+        "label": "Cantidad",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f023",
+        "label": "Meses",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Dosímetros de Muñeca",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f024",
+        "label": "Cantidad",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f025",
+        "label": "Meses",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Dosímetros de Anillo",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f026",
+        "label": "Cantidad",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f027",
+        "label": "Meses",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Dosímetros de Cristalino",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f028",
+        "label": "Cantidad",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f029",
+        "label": "Meses",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f030",
+        "label": "Uso",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Responsable de la Protección Radiológica",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f031",
+        "label": "Fecha",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "o persona usuaria con permiso para la Gestión de Incidencias",
+        "colspan": 6,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "field": "f032",
+        "label": "Firmado: Responsable de la Protección Radiológica",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f033",
+        "label": "Nombre",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Uso interno del CND. Radiofísico/a del CND.",
+        "colspan": 6,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "Vº Bº / CND",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f034",
+        "label": "Fecha",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f035",
+        "label": "Vº Bº",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(1) Las recomendaciones de uso para cada tipo de dosimetría no personal se encuentran en la tabla adjunta. (2) Número de dosímetros nuevos solicitados. (3) Número de meses para los que se solicitan los dosímetros. Déjese en blanco en el caso de que la asignación no sea temporal. (4) Descripción del uso previsto para los dosímetros solicitados. - La lectura de los dosímetros debe ser efectuada mensualmente (RPSRI, art. 27). La persona responsable de la Protección Radiológica debe organizar el recambio de los dosímetros para que sean remitidos al CND para su lectura. - En caso de no recambio de algún dosímetro no personal durante un período de tiempo superior a dieciocho meses, se procederá a dar de baja la correspondiente historia dosimétrica. - Solamente se admitirán peticiones completamente rellenas y con firma identificada de la persona responsable de la Protección Radiológica o persona usuaria con permiso para la Gestión de Incidencias. ",
+        "colspan": 6,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "En atención a lo dispuesto en el artículo 13 del Reglamento (UE) 2016/679, le informamos que el Responsable del Tratamiento de sus datos es el Centro Nacional de Dosimetría (CND), con NIF Q4677004F. La Finalidad del Tratamiento de datos personales es el alta de dosimetría no personal, y la realización de tareas administrativas derivadas. Los datos han sido facilitados por usted, por su organización, por persona por usted autorizada o han sido obtenidos a través de otras fuentes legitimadas. La base de legitimación de sus datos personales es el cumplimiento de una obligación legal aplicable al Responsable del Tratamiento y el cumplimiento de una misión realizada en interés público o en el ejercicio de poderes públicos conferidos al responsable del tratamiento. Tratamos datos identificativos y profesionales. Sus datos no serán comunicados a terceros salvo para la correcta ejecución del servicio o el cumplimiento de obligaciones legales. Usted podrá acceder, corregir, eliminar, oponerse y solicitar la limitación de sus datos personales, así como conocer si es sujeto de decisiones automatizadas. Puede ejercitar sus derechos, así como obtener más información en Avenida Campanar 21, CP 46009, Valencia, España, o en el correo electrónico del Delegado de Protección de Datos; dpdcnd@ingesa.sanidad.gob.es. ",
+        "colspan": 6,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "Avda. Campanar 21 - 46009 Valencia - www.cnd.es. altas.cnd@ingesa.sanidad.gob.es - Tel. 96 346 17 41 - Fax 91 209 03 45",
+        "colspan": 6,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "Tipo / Recomendaciones de uso",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Área",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "text": "Dosímetros indicados para la determinación de dosis en áreas de trabajo que se utilicen posteriormente para la estimación de la dosis al personal expuesto de categoría B, que no necesitan vigilancia dosimétrica individual.",
+        "colspan": 5,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Rotatorio",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "text": "Dosímetros indicados para personal que necesita vigilancia dosimétrica individual y, o bien han perdido su dosímetro o están pendientes de su alta de dosimetría personal.",
+        "colspan": 5,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Investigación",
+        "colspan": 1,
+        "source_page": 2
+      },
+      {
+        "text": "Dosímetros previstos para uso exclusivo de los Servicios de Protección Radiológica, en circunstancias generalmente ajenas a la estimación de dosis a personal expuesto.",
+        "colspan": 5,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Fuente: INGESA - Centro Nacional de Dosimetría. Documento: Alta de dosimetría no personal - GS-F07 (2022). Versión/identificador impreso: GS-F07 (2022). https://ingesa.sanidad.gob.es/cnd/dam/jcr:9d1d7314-3c55-4fa0-a941-1aec726e6533/GSF07.Formulario_de_alta_de_dosimetria_no_personal.pdf. Recuperado: 2026-09-26. Condiciones de reutilización: https://www.sanidad.gob.es/avisoLegal/home.htm. Fuente: Ministerio de Sanidad / INGESA / Centro Nacional de Dosimetría. Origen de los datos: INGESA. El aviso del Ministerio de Sanidad cubre sus subdominios; reutilización con atribución, preservación del sentido y fecha/versión impresa, sin patrocinio ni logotipos. Adaptación de estructura con datos ficticios. Fecha de actualización impresa: 2022 (printed form code).",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Validación (Uso interno del CND)",
+      "path": [
+        "Validación (Uso interno del CND)",
+        "Validación (Uso interno del CND)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Validación (Uso interno del CND)",
+      "synthetic_value": "VALIDACIÓN FICTICIA - expediente de prueba completo"
+    },
+    {
+      "id": "f002",
+      "label": "Institución",
+      "path": [
+        "Datos de la Institución",
+        "Institución"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Institución",
+      "synthetic_value": "Hospital Ficticio de Ejemplo"
+    },
+    {
+      "id": "f003",
+      "label": "Localidad",
+      "path": [
+        "Datos de la Institución",
+        "Localidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Localidad",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f004",
+      "label": "Servicio",
+      "path": [
+        "Datos del Servicio / Rotatorio",
+        "Servicio"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Servicio",
+      "synthetic_value": "Servicio Ficticio Rotatorio"
+    },
+    {
+      "id": "f005",
+      "label": "Código",
+      "path": [
+        "Datos del Servicio / Rotatorio",
+        "Código"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Código",
+      "synthetic_value": "CND-FICTICIO-54-Rotatorio"
+    },
+    {
+      "id": "f006",
+      "label": "Cantidad",
+      "path": [
+        "Datos del Servicio / Rotatorio / Dosímetros de Solapa",
+        "Cantidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cantidad",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "f007",
+      "label": "Meses",
+      "path": [
+        "Datos del Servicio / Rotatorio / Dosímetros de Solapa",
+        "Meses"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Meses",
+      "synthetic_value": "3"
+    },
+    {
+      "id": "f008",
+      "label": "Cantidad",
+      "path": [
+        "Datos del Servicio / Rotatorio / Dosímetros de Muñeca",
+        "Cantidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cantidad",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "f009",
+      "label": "Meses",
+      "path": [
+        "Datos del Servicio / Rotatorio / Dosímetros de Muñeca",
+        "Meses"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Meses",
+      "synthetic_value": "3"
+    },
+    {
+      "id": "f010",
+      "label": "Cantidad",
+      "path": [
+        "Datos del Servicio / Rotatorio / Dosímetros de Anillo",
+        "Cantidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cantidad",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "f011",
+      "label": "Meses",
+      "path": [
+        "Datos del Servicio / Rotatorio / Dosímetros de Anillo",
+        "Meses"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Meses",
+      "synthetic_value": "3"
+    },
+    {
+      "id": "f012",
+      "label": "Cantidad",
+      "path": [
+        "Datos del Servicio / Rotatorio / Dosímetros de Cristalino",
+        "Cantidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cantidad",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "f013",
+      "label": "Meses",
+      "path": [
+        "Datos del Servicio / Rotatorio / Dosímetros de Cristalino",
+        "Meses"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Meses",
+      "synthetic_value": "3"
+    },
+    {
+      "id": "f014",
+      "label": "Uso",
+      "path": [
+        "Datos del Servicio / Rotatorio",
+        "Uso"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Uso",
+      "synthetic_value": "Sustitución temporal de dosímetros personales durante altas ficticias"
+    },
+    {
+      "id": "f015",
+      "label": "Servicio",
+      "path": [
+        "Datos del Servicio / Área",
+        "Servicio"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Servicio",
+      "synthetic_value": "Servicio Ficticio Área"
+    },
+    {
+      "id": "f016",
+      "label": "Código",
+      "path": [
+        "Datos del Servicio / Área",
+        "Código"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Código",
+      "synthetic_value": "CND-FICTICIO-54-Área"
+    },
+    {
+      "id": "f017",
+      "label": "Cantidad",
+      "path": [
+        "Datos del Servicio / Área / Dosímetros de Solapa",
+        "Cantidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cantidad",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "f018",
+      "label": "Meses",
+      "path": [
+        "Datos del Servicio / Área / Dosímetros de Solapa",
+        "Meses"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Meses",
+      "synthetic_value": "3"
+    },
+    {
+      "id": "f019",
+      "label": "Uso",
+      "path": [
+        "Datos del Servicio / Área",
+        "Uso"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Uso",
+      "synthetic_value": "Estimación de exposición de área ficticia"
+    },
+    {
+      "id": "f020",
+      "label": "Servicio",
+      "path": [
+        "Datos del Servicio / Investigación",
+        "Servicio"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Servicio",
+      "synthetic_value": "Servicio Ficticio Investigación"
+    },
+    {
+      "id": "f021",
+      "label": "Código",
+      "path": [
+        "Datos del Servicio / Investigación",
+        "Código"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Código",
+      "synthetic_value": "CND-FICTICIO-54-Investigación"
+    },
+    {
+      "id": "f022",
+      "label": "Cantidad",
+      "path": [
+        "Datos del Servicio / Investigación / Dosímetros de Solapa",
+        "Cantidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cantidad",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "f023",
+      "label": "Meses",
+      "path": [
+        "Datos del Servicio / Investigación / Dosímetros de Solapa",
+        "Meses"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Meses",
+      "synthetic_value": "3"
+    },
+    {
+      "id": "f024",
+      "label": "Cantidad",
+      "path": [
+        "Datos del Servicio / Investigación / Dosímetros de Muñeca",
+        "Cantidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cantidad",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "f025",
+      "label": "Meses",
+      "path": [
+        "Datos del Servicio / Investigación / Dosímetros de Muñeca",
+        "Meses"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Meses",
+      "synthetic_value": "3"
+    },
+    {
+      "id": "f026",
+      "label": "Cantidad",
+      "path": [
+        "Datos del Servicio / Investigación / Dosímetros de Anillo",
+        "Cantidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cantidad",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "f027",
+      "label": "Meses",
+      "path": [
+        "Datos del Servicio / Investigación / Dosímetros de Anillo",
+        "Meses"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Meses",
+      "synthetic_value": "3"
+    },
+    {
+      "id": "f028",
+      "label": "Cantidad",
+      "path": [
+        "Datos del Servicio / Investigación / Dosímetros de Cristalino",
+        "Cantidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cantidad",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "f029",
+      "label": "Meses",
+      "path": [
+        "Datos del Servicio / Investigación / Dosímetros de Cristalino",
+        "Meses"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Meses",
+      "synthetic_value": "3"
+    },
+    {
+      "id": "f030",
+      "label": "Uso",
+      "path": [
+        "Datos del Servicio / Investigación",
+        "Uso"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Uso",
+      "synthetic_value": "Investigación de protección radiológica sin asignación personal"
+    },
+    {
+      "id": "f031",
+      "label": "Fecha",
+      "path": [
+        "Responsable de la Protección Radiológica",
+        "Fecha"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha",
+      "synthetic_value": "26/09/2026"
+    },
+    {
+      "id": "f032",
+      "label": "Firmado: Responsable de la Protección Radiológica",
+      "path": [
+        "Responsable de la Protección Radiológica",
+        "Firmado: Responsable de la Protección Radiológica"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Firmado: Responsable de la Protección Radiológica",
+      "synthetic_value": "FIRMA FICTICIA - Elena Radiofísica Ejemplo"
+    },
+    {
+      "id": "f033",
+      "label": "Nombre",
+      "path": [
+        "Responsable de la Protección Radiológica",
+        "Nombre"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre",
+      "synthetic_value": "Elena Radiofísica Ejemplo"
+    },
+    {
+      "id": "f034",
+      "label": "Fecha",
+      "path": [
+        "Vº Bº / CND",
+        "Fecha"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha",
+      "synthetic_value": "26/09/2026"
+    },
+    {
+      "id": "f035",
+      "label": "Vº Bº",
+      "path": [
+        "Vº Bº / CND",
+        "Vº Bº"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Vº Bº",
+      "synthetic_value": "VISTO BUENO FICTICIO - Radiofísico/a del CND"
+    }
+  ],
+  "source_version": "GS-F07 (2022)",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "value": "2022",
+    "kind": "printed_version_year",
+    "source_url": "https://ingesa.sanidad.gob.es/cnd/dam/jcr:9d1d7314-3c55-4fa0-a941-1aec726e6533/GSF07.Formulario_de_alta_de_dosimetria_no_personal.pdf",
+    "detail": "Printed document identifier/version: GS-F07 (2022). Year precision only; no month/day stated."
+  },
+  "context": "Caso de prueba enteramente ficticio. Las identidades, instituciones, documentos, resultados y firmas son sintéticos. No se presenta una solicitud real.\nTodas las solicitudes del supuesto son temporales por tres meses, con dos dosímetros nuevos de cada tipo indicado, para tres servicios distintos. Los Meses se rellenan por ser temporales.\nValidación (Uso interno del CND) / Validación (Uso interno del CND): VALIDACIÓN FICTICIA - expediente de prueba completo.\nDatos de la Institución / Institución: Hospital Ficticio de Ejemplo.\nDatos de la Institución / Localidad: Valencia.\nDatos del Servicio / Rotatorio / Servicio: Servicio Ficticio Rotatorio.\nDatos del Servicio / Rotatorio / Código: CND-FICTICIO-54-Rotatorio.\nDatos del Servicio / Rotatorio / Dosímetros de Solapa / Cantidad: 2.\nDatos del Servicio / Rotatorio / Dosímetros de Solapa / Meses: 3.\nDatos del Servicio / Rotatorio / Dosímetros de Muñeca / Cantidad: 2.\nDatos del Servicio / Rotatorio / Dosímetros de Muñeca / Meses: 3.\nDatos del Servicio / Rotatorio / Dosímetros de Anillo / Cantidad: 2.\nDatos del Servicio / Rotatorio / Dosímetros de Anillo / Meses: 3.\nDatos del Servicio / Rotatorio / Dosímetros de Cristalino / Cantidad: 2.\nDatos del Servicio / Rotatorio / Dosímetros de Cristalino / Meses: 3.\nDatos del Servicio / Rotatorio / Uso: Sustitución temporal de dosímetros personales durante altas ficticias.\nDatos del Servicio / Área / Servicio: Servicio Ficticio Área.\nDatos del Servicio / Área / Código: CND-FICTICIO-54-Área.\nDatos del Servicio / Área / Dosímetros de Solapa / Cantidad: 2.\nDatos del Servicio / Área / Dosímetros de Solapa / Meses: 3.\nDatos del Servicio / Área / Uso: Estimación de exposición de área ficticia.\nDatos del Servicio / Investigación / Servicio: Servicio Ficticio Investigación.\nDatos del Servicio / Investigación / Código: CND-FICTICIO-54-Investigación.\nDatos del Servicio / Investigación / Dosímetros de Solapa / Cantidad: 2.\nDatos del Servicio / Investigación / Dosímetros de Solapa / Meses: 3.\nDatos del Servicio / Investigación / Dosímetros de Muñeca / Cantidad: 2.\nDatos del Servicio / Investigación / Dosímetros de Muñeca / Meses: 3.\nDatos del Servicio / Investigación / Dosímetros de Anillo / Cantidad: 2.\nDatos del Servicio / Investigación / Dosímetros de Anillo / Meses: 3.\nDatos del Servicio / Investigación / Dosímetros de Cristalino / Cantidad: 2.\nDatos del Servicio / Investigación / Dosímetros de Cristalino / Meses: 3.\nDatos del Servicio / Investigación / Uso: Investigación de protección radiológica sin asignación personal.\nResponsable de la Protección Radiológica / Fecha: 26/09/2026.\nResponsable de la Protección Radiológica / Firmado: Responsable de la Protección Radiológica: FIRMA FICTICIA - Elena Radiofísica Ejemplo.\nResponsable de la Protección Radiológica / Nombre: Elena Radiofísica Ejemplo.\nVº Bº / CND / Fecha: 26/09/2026.\nVº Bº / CND / Vº Bº: VISTO BUENO FICTICIO - Radiofísico/a del CND.",
+  "source_credit_details": {
+    "source_sha256": "a687e5de26bdade4e3629c56fe436c2f9bff127489bfb4a29bafce6a51dadad5",
+    "printed_version_year": "2022",
+    "original_pdf_modification_metadata": "D:20220519133533+02'00'"
+  },
+  "workflow_identity": {
+    "language": "es",
+    "id": 54
+  }
+}

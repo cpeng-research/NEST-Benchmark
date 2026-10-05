@@ -1,0 +1,577 @@
+{
+  "id": "fr-dgeg-cee-fuel-p5-2025",
+  "language": "fr",
+  "domain": "GovPublic",
+  "title": "Déclaration des volumes de carburants automobiles 2025",
+  "template_family": "dgeg-cee-fuel-p5-2025",
+  "issuer": "DGEC",
+  "issuer_id": "DGEC",
+  "source_pages": 1,
+  "columns": 1,
+  "rows": [
+    [
+      {
+        "text": "Partie A - représentant légal de la société",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "a_nom",
+        "label": "Nom",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "a_prenom",
+        "label": "Prénom",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "a_fonction",
+        "label": "Fonction",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "a_societe",
+        "label": "Société",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "a_siren",
+        "label": "N° SIREN",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "a_adresse",
+        "label": "Adresse",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "a_cp",
+        "label": "Code postal",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "a_ville",
+        "label": "Ville",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "a_telephone",
+        "label": "Téléphone",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "a_courriel",
+        "label": "Courriel",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "a_volume",
+        "label": "Carburants pour automobiles mis à la consommation en 2025",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "a_lieu",
+        "label": "Fait à",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "a_date",
+        "label": "Le",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "a_signature",
+        "label": "Cachet et signature",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Partie B - expert-comptable ou comptable public",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "b_nom",
+        "label": "Nom",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "b_prenom",
+        "label": "Prénom",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "b_societe",
+        "label": "Société",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "b_role",
+        "label": "Expert-comptable",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "b_adresse",
+        "label": "Adresse",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "b_cp",
+        "label": "Code postal",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "b_ville",
+        "label": "Ville",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "b_telephone",
+        "label": "Téléphone",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "b_courriel",
+        "label": "Courriel",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "b_lieu",
+        "label": "Fait à",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "b_date",
+        "label": "Le",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "b_signature",
+        "label": "Cachet et signature",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "a_nom",
+      "label": "Nom",
+      "source_page": 1,
+      "source_anchor": "Nom",
+      "path": [
+        "Partie A - représentant légal de la société",
+        "Nom"
+      ],
+      "kind": "text",
+      "synthetic_value": "Martin"
+    },
+    {
+      "id": "a_prenom",
+      "label": "Prénom",
+      "source_page": 1,
+      "source_anchor": "Prénom",
+      "path": [
+        "Partie A - représentant légal de la société",
+        "Prénom"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille"
+    },
+    {
+      "id": "a_fonction",
+      "label": "Fonction",
+      "source_page": 1,
+      "source_anchor": "Fonction",
+      "path": [
+        "Partie A - représentant légal de la société",
+        "Fonction"
+      ],
+      "kind": "text",
+      "synthetic_value": "Directrice"
+    },
+    {
+      "id": "a_societe",
+      "label": "Société",
+      "source_page": 1,
+      "source_anchor": "Société",
+      "path": [
+        "Partie A - représentant légal de la société",
+        "Société"
+      ],
+      "kind": "text",
+      "synthetic_value": "Énergie Exemple SAS"
+    },
+    {
+      "id": "a_siren",
+      "label": "N° SIREN",
+      "source_page": 1,
+      "source_anchor": "N° SIREN",
+      "path": [
+        "Partie A - représentant légal de la société",
+        "N° SIREN"
+      ],
+      "kind": "text",
+      "synthetic_value": "000 000 000"
+    },
+    {
+      "id": "a_adresse",
+      "label": "Adresse",
+      "source_page": 1,
+      "source_anchor": "Adresse",
+      "path": [
+        "Partie A - représentant légal de la société",
+        "Adresse"
+      ],
+      "kind": "text",
+      "synthetic_value": "12 rue Exemple"
+    },
+    {
+      "id": "a_cp",
+      "label": "Code postal",
+      "source_page": 1,
+      "source_anchor": "Code postal",
+      "path": [
+        "Partie A - représentant légal de la société",
+        "Code postal"
+      ],
+      "kind": "text",
+      "synthetic_value": "75012"
+    },
+    {
+      "id": "a_ville",
+      "label": "Ville",
+      "source_page": 1,
+      "source_anchor": "Ville",
+      "path": [
+        "Partie A - représentant légal de la société",
+        "Ville"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "a_telephone",
+      "label": "Téléphone",
+      "source_page": 1,
+      "source_anchor": "Téléphone",
+      "path": [
+        "Partie A - représentant légal de la société",
+        "Téléphone"
+      ],
+      "kind": "text",
+      "synthetic_value": "01 00 00 00 01"
+    },
+    {
+      "id": "a_courriel",
+      "label": "Courriel",
+      "source_page": 1,
+      "source_anchor": "Courriel",
+      "path": [
+        "Partie A - représentant légal de la société",
+        "Courriel"
+      ],
+      "kind": "text",
+      "synthetic_value": "contact@example.invalid"
+    },
+    {
+      "id": "a_volume",
+      "label": "Carburants pour automobiles mis à la consommation en 2025",
+      "source_page": 1,
+      "source_anchor": "Carburants pour automobiles mis à la consommation en 2025",
+      "path": [
+        "Partie A - représentant légal de la société",
+        "Carburants pour automobiles mis à la consommation en 2025"
+      ],
+      "kind": "text",
+      "synthetic_value": "1 250 mètres cubes"
+    },
+    {
+      "id": "a_lieu",
+      "label": "Fait à",
+      "source_page": 1,
+      "source_anchor": "Fait à",
+      "path": [
+        "Partie A - représentant légal de la société",
+        "Fait à"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "a_date",
+      "label": "Le",
+      "source_page": 1,
+      "source_anchor": "Le",
+      "path": [
+        "Partie A - représentant légal de la société",
+        "Le"
+      ],
+      "kind": "text",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "a_signature",
+      "label": "Cachet et signature",
+      "source_page": 1,
+      "source_anchor": "Cachet et signature",
+      "path": [
+        "Partie A - représentant légal de la société",
+        "Cachet et signature"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille Martin (signature fictive)"
+    },
+    {
+      "id": "b_nom",
+      "label": "Nom",
+      "source_page": 1,
+      "source_anchor": "Nom",
+      "path": [
+        "Partie B - expert-comptable ou comptable public",
+        "Nom"
+      ],
+      "kind": "text",
+      "synthetic_value": "Dubois"
+    },
+    {
+      "id": "b_prenom",
+      "label": "Prénom",
+      "source_page": 1,
+      "source_anchor": "Prénom",
+      "path": [
+        "Partie B - expert-comptable ou comptable public",
+        "Prénom"
+      ],
+      "kind": "text",
+      "synthetic_value": "Julien"
+    },
+    {
+      "id": "b_societe",
+      "label": "Société",
+      "source_page": 1,
+      "source_anchor": "Société",
+      "path": [
+        "Partie B - expert-comptable ou comptable public",
+        "Société"
+      ],
+      "kind": "text",
+      "synthetic_value": "Cabinet Exemple"
+    },
+    {
+      "id": "b_role",
+      "label": "Expert-comptable",
+      "source_page": 1,
+      "source_anchor": "Expert-comptable",
+      "path": [
+        "Partie B - expert-comptable ou comptable public",
+        "Expert-comptable"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Expert-comptable"
+      ],
+      "options": [
+        "Expert-comptable",
+        "Commissaire au compte",
+        "Comptable public (pour les régies)"
+      ],
+      "context_evidence": "Partie B - expert-comptable ou comptable public / Expert-comptable : Expert-comptable."
+    },
+    {
+      "id": "b_adresse",
+      "label": "Adresse",
+      "source_page": 1,
+      "source_anchor": "Adresse",
+      "path": [
+        "Partie B - expert-comptable ou comptable public",
+        "Adresse"
+      ],
+      "kind": "text",
+      "synthetic_value": "8 avenue Exemple"
+    },
+    {
+      "id": "b_cp",
+      "label": "Code postal",
+      "source_page": 1,
+      "source_anchor": "Code postal",
+      "path": [
+        "Partie B - expert-comptable ou comptable public",
+        "Code postal"
+      ],
+      "kind": "text",
+      "synthetic_value": "75013"
+    },
+    {
+      "id": "b_ville",
+      "label": "Ville",
+      "source_page": 1,
+      "source_anchor": "Ville",
+      "path": [
+        "Partie B - expert-comptable ou comptable public",
+        "Ville"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "b_telephone",
+      "label": "Téléphone",
+      "source_page": 1,
+      "source_anchor": "Téléphone",
+      "path": [
+        "Partie B - expert-comptable ou comptable public",
+        "Téléphone"
+      ],
+      "kind": "text",
+      "synthetic_value": "01 00 00 00 02"
+    },
+    {
+      "id": "b_courriel",
+      "label": "Courriel",
+      "source_page": 1,
+      "source_anchor": "Courriel",
+      "path": [
+        "Partie B - expert-comptable ou comptable public",
+        "Courriel"
+      ],
+      "kind": "text",
+      "synthetic_value": "expert@example.invalid"
+    },
+    {
+      "id": "b_lieu",
+      "label": "Fait à",
+      "source_page": 1,
+      "source_anchor": "Fait à",
+      "path": [
+        "Partie B - expert-comptable ou comptable public",
+        "Fait à"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "b_date",
+      "label": "Le",
+      "source_page": 1,
+      "source_anchor": "Le",
+      "path": [
+        "Partie B - expert-comptable ou comptable public",
+        "Le"
+      ],
+      "kind": "text",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "b_signature",
+      "label": "Cachet et signature",
+      "source_page": 1,
+      "source_anchor": "Cachet et signature",
+      "path": [
+        "Partie B - expert-comptable ou comptable public",
+        "Cachet et signature"
+      ],
+      "kind": "text",
+      "synthetic_value": "Julien Dubois (signature fictive)"
+    }
+  ],
+  "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/Formulaire%20Carburants%20pour%20automobiles%20P5-2025.pdf",
+  "landing_url": "https://www.ecologie.gouv.fr/politiques-publiques/dispositif-certificats-deconomies-denergie",
+  "license_url": "https://www.ecologie.gouv.fr/mentions-legales",
+  "license_note": "Ecologie site content: Etalab 2.0 absent third-party notice; source and known update date credited; branding and artwork excluded from retained fields.",
+  "source_sha256": "161300a6e11fb5695427d7d9724497d854244e5cbd4b6ae463fbd444ea6e8e6c",
+  "retrieved_at": "2026-10-04T19:12:01.762755+00:00",
+  "source_version": "Déclaration au titre de l'année 2025, période P5",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "kind": "Printed reporting year",
+    "value": "Déclaration au titre de l'année 2025, période P5",
+    "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/Formulaire%20Carburants%20pour%20automobiles%20P5-2025.pdf"
+  },
+  "context": "Dossier fictif à des fins d'évaluation, sans identité réelle ni dépôt administratif.\nPartie A - représentant légal de la société / Nom : Martin.\nPartie A - représentant légal de la société / Prénom : Camille.\nPartie A - représentant légal de la société / Fonction : Directrice.\nPartie A - représentant légal de la société / Société : Énergie Exemple SAS.\nPartie A - représentant légal de la société / N° SIREN : 000 000 000.\nPartie A - représentant légal de la société / Adresse : 12 rue Exemple.\nPartie A - représentant légal de la société / Code postal : 75012.\nPartie A - représentant légal de la société / Ville : Paris.\nPartie A - représentant légal de la société / Téléphone : 01 00 00 00 01.\nPartie A - représentant légal de la société / Courriel : contact@example.invalid.\nPartie A - représentant légal de la société / Carburants pour automobiles mis à la consommation en 2025 : 1 250 mètres cubes.\nPartie A - représentant légal de la société / Fait à : Paris.\nPartie A - représentant légal de la société / Le : 05/10/2026.\nPartie A - représentant légal de la société / Cachet et signature : Camille Martin (signature fictive).\nPartie B - expert-comptable ou comptable public / Nom : Dubois.\nPartie B - expert-comptable ou comptable public / Prénom : Julien.\nPartie B - expert-comptable ou comptable public / Société : Cabinet Exemple.\nPartie B - expert-comptable ou comptable public / Expert-comptable : Expert-comptable.\nPartie B - expert-comptable ou comptable public / Adresse : 8 avenue Exemple.\nPartie B - expert-comptable ou comptable public / Code postal : 75013.\nPartie B - expert-comptable ou comptable public / Ville : Paris.\nPartie B - expert-comptable ou comptable public / Téléphone : 01 00 00 00 02.\nPartie B - expert-comptable ou comptable public / Courriel : expert@example.invalid.\nPartie B - expert-comptable ou comptable public / Fait à : Paris.\nPartie B - expert-comptable ou comptable public / Le : 05/10/2026.\nPartie B - expert-comptable ou comptable public / Cachet et signature : Julien Dubois (signature fictive).",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 151
+  }
+}

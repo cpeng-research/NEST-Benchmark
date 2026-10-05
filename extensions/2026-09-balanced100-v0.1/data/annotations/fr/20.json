@@ -1,0 +1,1533 @@
+{
+  "id": "fr-partnership-request",
+  "language": "fr",
+  "domain": "Education",
+  "title": "Mobilité scolaire - Demande de partenariat",
+  "template_family": "partnership-request",
+  "source_pages": 4,
+  "columns": 6,
+  "rows": [
+    [
+      {
+        "text": "1. PAYS DEMANDÉ",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "3 vœux maximum par ordre de préférence.",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "pays_1",
+        "label": "1er vœu",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "langue_1",
+        "label": "Langue(s) utilisée(s) pour le partenariat",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "pays_2",
+        "label": "2ème vœu",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "langue_2",
+        "label": "Langue(s) utilisée(s) pour le partenariat",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "pays_3",
+        "label": "3ème vœu",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "langue_3",
+        "label": "Langue(s) utilisée(s) pour le partenariat",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "jumelage",
+        "label": "Le cas échéant, nom de la ville avec laquelle votre commune est jumelée dans le pays demandé",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "2. VOTRE ÉTABLISSEMENT",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "nom",
+        "label": "Nom de l’établissement",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "type",
+        "label": "Type d’établissement",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "statut",
+        "label": "Statut de l’établissement",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Chef d’établissement",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "civilite",
+        "label": "Civilité",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "nom_chef",
+        "label": "Nom",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "prenom_chef",
+        "label": "Prénom",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Coordonnées de l’établissement",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "adresse",
+        "label": "Adresse",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "localite",
+        "label": "Code postal /ville / Pays",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "telephone",
+        "label": "Téléphone",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "2. VOTRE ÉTABLISSEMENT - Suite",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "fax",
+        "label": "Fax",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "mail",
+        "label": "Adresse électronique",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "rne",
+        "label": "RNE",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "site",
+        "label": "Site internet",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "academie",
+        "label": "Académie",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "region",
+        "label": "Région",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "departement",
+        "label": "Département",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "environnement",
+        "label": "Environnement économique et socioculturel de l’établissement",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "prioritaire",
+        "label": "L’établissement est-il situé en éducation prioritaire ?",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "langues",
+        "label": "Langues enseignées",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "axes",
+        "label": "Grands axes de votre projet d’établissement",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "effectif",
+        "label": "Nombre total d’élèves dans l’établissement",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "filles",
+        "label": "Filles",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "garcons",
+        "label": "Garçons",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "premiere",
+        "label": "S’agit-il de la première candidature de l’établissement à une demande de partenariat ?",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "precedente",
+        "label": "Si non, en quelle année avez-vous candidaté et pour quel pays ?",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "actif",
+        "label": "Si votre candidature a déjà été retenue",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Si votre candidature a déjà été retenue, votre partenariat est-il encore actif ?",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "3. VOTRE PROJET",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Coordonnateur du projet",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "coord_civilite",
+        "label": "Civilité",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "coord_nom",
+        "label": "Nom",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "coord_prenom",
+        "label": "Prénom",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "coord_discipline",
+        "label": "Fonction ou discipline enseignée",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "coord_tel",
+        "label": "Téléphone",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "coord_mail",
+        "label": "Courriel",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "enseignants",
+        "label": "Nombre d’enseignants impliqués dans le projet",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Nombre d’enseignants en dehors du coordonnateur, en indiquant les disciplines enseignées.",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "3. VOTRE PROJET - Attentes et thèmes",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Merci de bien vouloir sélectionner dans la liste ci-dessous de 1 à 3 propositions qui correspondent à vos attentes, et les numéroter de 1 à 3 par ordre de priorité.",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "attente_0",
+        "label": "Collaboration autour d’un projet pluridisciplinaire",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "attente_1",
+        "label": "Mobilité des élèves",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "attente_2",
+        "label": "Échanges à distance type eTwinning",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "attente_3",
+        "label": "Utilisation des TICE",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "attente_4",
+        "label": "Mutualisation des ressources pédagogiques",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "attente_5",
+        "label": "Mobilité des enseignants",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "attente_6",
+        "label": "Stages en entreprise pour les élèves",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "attente_7",
+        "label": "Autres, précisez",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "distance",
+        "label": "Seriez-vous prêts à vous engager dans un projet reposant uniquement sur des échanges à distance (sans déplacement d’élèves) ?",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "deplacement",
+        "label": "Seriez-vous prêts à vous engager dans un projet supposant des déplacements d’élèves ?",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "precis",
+        "label": "Avez-vous un projet précis ?",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "details",
+        "label": "Si oui, précisez",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "themes",
+        "label": "Sur quels thèmes seriez-vous disposés à collaborer ?",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "4 choix max.",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "theme_autre",
+        "label": "Autres, précisez",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "4. CLASSE(S) PARTICIPANT AU PROJET",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "niveau",
+        "label": "Niveau et, pour le lycée série ou spécialité.",
+        "colspan": 6,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "Le cas échéant, précisez également s’il s’agit de sections européennes ou de langues orientales, de sections binationales ou internationales.",
+        "colspan": 6,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "ages",
+        "label": "Âge des élèves concernés",
+        "colspan": 6,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "participants",
+        "label": "Nombre d’élèves concernés, précisez le nombre de filles et de garçons",
+        "colspan": 6,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "5. LES TICE",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "ordinateurs",
+        "label": "L’établissement dispose-t-il d’une salle informatique ou d’ordinateurs disponibles ?",
+        "colspan": 6,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "internet",
+        "label": "L’établissement dispose-t-il d’une connexion Internet haut débit / de connexion sans fil (WIFI)?",
+        "colspan": 6,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "equipement",
+        "label": "Autres équipements TICE disponible",
+        "colspan": 6,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "Visioconférence, tableau blanc interactif, matériel vidéo…",
+        "colspan": 6,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "field": "date",
+        "label": "Date",
+        "colspan": 3,
+        "source_page": 4
+      },
+      {
+        "field": "signature",
+        "label": "Signature du chef d’établissement",
+        "colspan": 3,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "Ce formulaire doit être signé par le chef d’établissement et transmis directement à la DAREIC de votre académie.",
+        "colspan": 6,
+        "source_page": 4
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "pays_1",
+      "label": "1er vœu",
+      "source_page": 1,
+      "source_anchor": "1er vœu",
+      "path": [
+        "1. PAYS DEMANDÉ",
+        "1er vœu",
+        "Pays"
+      ],
+      "kind": "text",
+      "synthetic_value": "Allemagne"
+    },
+    {
+      "id": "langue_1",
+      "label": "Langue(s) utilisée(s) pour le partenariat",
+      "source_page": 1,
+      "source_anchor": "Langue(s) utilisée(s) pour le partenariat",
+      "path": [
+        "1. PAYS DEMANDÉ",
+        "1er vœu",
+        "Langue(s) utilisée(s) pour le partenariat"
+      ],
+      "kind": "text",
+      "synthetic_value": "Allemand et français"
+    },
+    {
+      "id": "pays_2",
+      "label": "2ème vœu",
+      "source_page": 1,
+      "source_anchor": "2ème vœu",
+      "path": [
+        "1. PAYS DEMANDÉ",
+        "2ème vœu",
+        "Pays"
+      ],
+      "kind": "text",
+      "synthetic_value": "Autriche"
+    },
+    {
+      "id": "langue_2",
+      "label": "Langue(s) utilisée(s) pour le partenariat",
+      "source_page": 1,
+      "source_anchor": "Langue(s) utilisée(s) pour le partenariat",
+      "path": [
+        "1. PAYS DEMANDÉ",
+        "2ème vœu",
+        "Langue(s) utilisée(s) pour le partenariat"
+      ],
+      "kind": "text",
+      "synthetic_value": "Allemand et français"
+    },
+    {
+      "id": "pays_3",
+      "label": "3ème vœu",
+      "source_page": 1,
+      "source_anchor": "3ème vœu",
+      "path": [
+        "1. PAYS DEMANDÉ",
+        "3ème vœu",
+        "Pays"
+      ],
+      "kind": "text",
+      "synthetic_value": "",
+      "inactive_in_scenario": true
+    },
+    {
+      "id": "langue_3",
+      "label": "Langue(s) utilisée(s) pour le partenariat",
+      "source_page": 1,
+      "source_anchor": "Langue(s) utilisée(s) pour le partenariat",
+      "path": [
+        "1. PAYS DEMANDÉ",
+        "3ème vœu",
+        "Langue(s) utilisée(s) pour le partenariat"
+      ],
+      "kind": "text",
+      "synthetic_value": "",
+      "inactive_in_scenario": true
+    },
+    {
+      "id": "jumelage",
+      "label": "Le cas échéant, nom de la ville avec laquelle votre commune est jumelée dans le pays demandé",
+      "source_page": 1,
+      "source_anchor": "Le cas échéant, nom de la ville avec laquelle votre commune est jumelée dans le pays demandé",
+      "path": [
+        "1. PAYS DEMANDÉ",
+        "Le cas échéant, nom de la ville avec laquelle votre commune est jumelée dans le pays demandé"
+      ],
+      "kind": "text",
+      "synthetic_value": "",
+      "inactive_in_scenario": true
+    },
+    {
+      "id": "nom",
+      "label": "Nom de l’établissement",
+      "source_page": 1,
+      "source_anchor": "Nom de l’établissement",
+      "path": [
+        "2. VOTRE ÉTABLISSEMENT",
+        "Nom de l’établissement"
+      ],
+      "kind": "text",
+      "synthetic_value": "Lycée Exemple"
+    },
+    {
+      "id": "type",
+      "label": "Type d’établissement",
+      "source_page": 1,
+      "source_anchor": "Type d’établissement",
+      "path": [
+        "2. VOTRE ÉTABLISSEMENT",
+        "Type d’établissement"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Lycée d’enseignement général et technologique"
+      ],
+      "options": [
+        "Collège",
+        "Lycée d’enseignement général et technologique",
+        "Lycée professionnel",
+        "Lycée polyvalent",
+        "Centre de formation d’apprentis"
+      ],
+      "context_evidence": "2. VOTRE ÉTABLISSEMENT / Type d’établissement : Lycée d’enseignement général et technologique."
+    },
+    {
+      "id": "statut",
+      "label": "Statut de l’établissement",
+      "source_page": 1,
+      "source_anchor": "Statut de l’établissement",
+      "path": [
+        "2. VOTRE ÉTABLISSEMENT",
+        "Statut de l’établissement"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Public"
+      ],
+      "options": [
+        "Public",
+        "Privé"
+      ],
+      "context_evidence": "2. VOTRE ÉTABLISSEMENT / Statut de l’établissement : Public."
+    },
+    {
+      "id": "civilite",
+      "label": "Civilité",
+      "source_page": 1,
+      "source_anchor": "Civilité",
+      "path": [
+        "Chef d’établissement",
+        "Civilité"
+      ],
+      "kind": "text",
+      "synthetic_value": "Madame"
+    },
+    {
+      "id": "nom_chef",
+      "label": "Nom",
+      "source_page": 1,
+      "source_anchor": "Nom",
+      "path": [
+        "Chef d’établissement",
+        "Nom"
+      ],
+      "kind": "text",
+      "synthetic_value": "Moreau"
+    },
+    {
+      "id": "prenom_chef",
+      "label": "Prénom",
+      "source_page": 1,
+      "source_anchor": "Prénom",
+      "path": [
+        "Chef d’établissement",
+        "Prénom"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille"
+    },
+    {
+      "id": "adresse",
+      "label": "Adresse",
+      "source_page": 1,
+      "source_anchor": "Adresse",
+      "path": [
+        "Coordonnées de l’établissement",
+        "Adresse"
+      ],
+      "kind": "text",
+      "synthetic_value": "10 rue Fictive"
+    },
+    {
+      "id": "localite",
+      "label": "Code postal /ville / Pays",
+      "source_page": 1,
+      "source_anchor": "Code postal /ville / Pays",
+      "path": [
+        "Coordonnées de l’établissement",
+        "Code postal /ville / Pays"
+      ],
+      "kind": "text",
+      "synthetic_value": "75000 Paris, France"
+    },
+    {
+      "id": "telephone",
+      "label": "Téléphone",
+      "source_page": 1,
+      "source_anchor": "Téléphone",
+      "path": [
+        "Coordonnées de l’établissement",
+        "Téléphone"
+      ],
+      "kind": "text",
+      "synthetic_value": "01 00 00 00 01"
+    },
+    {
+      "id": "fax",
+      "label": "Fax",
+      "source_page": 2,
+      "source_anchor": "Fax",
+      "path": [
+        "2. VOTRE ÉTABLISSEMENT - Suite",
+        "Fax"
+      ],
+      "kind": "text",
+      "synthetic_value": "",
+      "inactive_in_scenario": true
+    },
+    {
+      "id": "mail",
+      "label": "Adresse électronique",
+      "source_page": 2,
+      "source_anchor": "Adresse électronique",
+      "path": [
+        "2. VOTRE ÉTABLISSEMENT - Suite",
+        "Adresse électronique"
+      ],
+      "kind": "text",
+      "synthetic_value": "contact@lycee.example"
+    },
+    {
+      "id": "rne",
+      "label": "RNE",
+      "source_page": 2,
+      "source_anchor": "RNE",
+      "path": [
+        "2. VOTRE ÉTABLISSEMENT - Suite",
+        "RNE"
+      ],
+      "kind": "text",
+      "synthetic_value": "RNE FICTIF 0750000X"
+    },
+    {
+      "id": "site",
+      "label": "Site internet",
+      "source_page": 2,
+      "source_anchor": "Site internet",
+      "path": [
+        "2. VOTRE ÉTABLISSEMENT - Suite",
+        "Site internet"
+      ],
+      "kind": "text",
+      "synthetic_value": "https://lycee.example"
+    },
+    {
+      "id": "academie",
+      "label": "Académie",
+      "source_page": 2,
+      "source_anchor": "Académie",
+      "path": [
+        "2. VOTRE ÉTABLISSEMENT - Suite",
+        "Académie"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "region",
+      "label": "Région",
+      "source_page": 2,
+      "source_anchor": "Région",
+      "path": [
+        "2. VOTRE ÉTABLISSEMENT - Suite",
+        "Région"
+      ],
+      "kind": "text",
+      "synthetic_value": "Île-de-France"
+    },
+    {
+      "id": "departement",
+      "label": "Département",
+      "source_page": 2,
+      "source_anchor": "Département",
+      "path": [
+        "2. VOTRE ÉTABLISSEMENT - Suite",
+        "Département"
+      ],
+      "kind": "text",
+      "synthetic_value": "75"
+    },
+    {
+      "id": "environnement",
+      "label": "Environnement économique et socioculturel de l’établissement",
+      "source_page": 2,
+      "source_anchor": "Environnement économique et socioculturel de l’établissement",
+      "path": [
+        "2. VOTRE ÉTABLISSEMENT - Suite",
+        "Environnement économique et socioculturel de l’établissement"
+      ],
+      "kind": "text",
+      "synthetic_value": "Établissement urbain accueillant un public socialement diversifié."
+    },
+    {
+      "id": "prioritaire",
+      "label": "L’établissement est-il situé en éducation prioritaire ?",
+      "source_page": 2,
+      "source_anchor": "L’établissement est-il situé en éducation prioritaire ?",
+      "path": [
+        "2. VOTRE ÉTABLISSEMENT - Suite",
+        "L’établissement est-il situé en éducation prioritaire ?"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "non"
+      ],
+      "options": [
+        "oui",
+        "non"
+      ],
+      "context_evidence": "2. VOTRE ÉTABLISSEMENT - Suite / L’établissement est-il situé en éducation prioritaire ? : non."
+    },
+    {
+      "id": "langues",
+      "label": "Langues enseignées",
+      "source_page": 2,
+      "source_anchor": "Langues enseignées",
+      "path": [
+        "2. VOTRE ÉTABLISSEMENT - Suite",
+        "Langues enseignées"
+      ],
+      "kind": "text",
+      "synthetic_value": "Anglais, allemand et espagnol"
+    },
+    {
+      "id": "axes",
+      "label": "Grands axes de votre projet d’établissement",
+      "source_page": 2,
+      "source_anchor": "Grands axes de votre projet d’établissement",
+      "path": [
+        "2. VOTRE ÉTABLISSEMENT - Suite",
+        "Grands axes de votre projet d’établissement"
+      ],
+      "kind": "text",
+      "synthetic_value": "Coopération internationale, langues vivantes et développement durable."
+    },
+    {
+      "id": "effectif",
+      "label": "Nombre total d’élèves dans l’établissement",
+      "source_page": 2,
+      "source_anchor": "Nombre total d’élèves dans l’établissement",
+      "path": [
+        "2. VOTRE ÉTABLISSEMENT - Suite",
+        "Nombre total d’élèves dans l’établissement"
+      ],
+      "kind": "text",
+      "synthetic_value": "800"
+    },
+    {
+      "id": "filles",
+      "label": "Filles",
+      "source_page": 2,
+      "source_anchor": "Filles",
+      "path": [
+        "2. VOTRE ÉTABLISSEMENT - Suite",
+        "Filles"
+      ],
+      "kind": "text",
+      "synthetic_value": "410"
+    },
+    {
+      "id": "garcons",
+      "label": "Garçons",
+      "source_page": 2,
+      "source_anchor": "Garçons",
+      "path": [
+        "2. VOTRE ÉTABLISSEMENT - Suite",
+        "Garçons"
+      ],
+      "kind": "text",
+      "synthetic_value": "390"
+    },
+    {
+      "id": "premiere",
+      "label": "S’agit-il de la première candidature de l’établissement à une demande de partenariat ?",
+      "source_page": 2,
+      "source_anchor": "S’agit-il de la première candidature de l’établissement à une demande de partenariat ?",
+      "path": [
+        "2. VOTRE ÉTABLISSEMENT - Suite",
+        "S’agit-il de la première candidature de l’établissement à une demande de partenariat ?"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "oui"
+      ],
+      "options": [
+        "oui",
+        "non"
+      ],
+      "context_evidence": "2. VOTRE ÉTABLISSEMENT - Suite / S’agit-il de la première candidature de l’établissement à une demande de partenariat ? : oui."
+    },
+    {
+      "id": "precedente",
+      "label": "Si non, en quelle année avez-vous candidaté et pour quel pays ?",
+      "source_page": 2,
+      "source_anchor": "Si non, en quelle année avez-vous candidaté et pour quel pays ?",
+      "path": [
+        "2. VOTRE ÉTABLISSEMENT - Suite",
+        "Si non, en quelle année avez-vous candidaté et pour quel pays ?"
+      ],
+      "kind": "text",
+      "synthetic_value": "",
+      "inactive_in_scenario": true
+    },
+    {
+      "id": "actif",
+      "label": "Si votre candidature a déjà été retenue",
+      "source_page": 2,
+      "source_anchor": "Si votre candidature a déjà été retenue",
+      "path": [
+        "2. VOTRE ÉTABLISSEMENT",
+        "Si votre candidature a déjà été retenue, votre partenariat est-il encore actif ?"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "inactive_in_scenario": true,
+      "options": [
+        "oui",
+        "non"
+      ],
+      "context_evidence": "2. VOTRE ÉTABLISSEMENT / Si votre candidature a déjà été retenue, votre partenariat est-il encore actif ? : laisser vide (non applicable ou ligne inutilisée dans ce scénario)."
+    },
+    {
+      "id": "coord_civilite",
+      "label": "Civilité",
+      "source_page": 2,
+      "source_anchor": "Civilité",
+      "path": [
+        "3. VOTRE PROJET",
+        "Coordonnateur et équipe",
+        "Civilité"
+      ],
+      "kind": "text",
+      "synthetic_value": "Monsieur"
+    },
+    {
+      "id": "coord_nom",
+      "label": "Nom",
+      "source_page": 2,
+      "source_anchor": "Nom",
+      "path": [
+        "3. VOTRE PROJET",
+        "Coordonnateur et équipe",
+        "Nom"
+      ],
+      "kind": "text",
+      "synthetic_value": "Laurent"
+    },
+    {
+      "id": "coord_prenom",
+      "label": "Prénom",
+      "source_page": 2,
+      "source_anchor": "Prénom",
+      "path": [
+        "3. VOTRE PROJET",
+        "Coordonnateur et équipe",
+        "Prénom"
+      ],
+      "kind": "text",
+      "synthetic_value": "Alex"
+    },
+    {
+      "id": "coord_discipline",
+      "label": "Fonction ou discipline enseignée",
+      "source_page": 2,
+      "source_anchor": "Fonction ou discipline enseignée",
+      "path": [
+        "3. VOTRE PROJET",
+        "Coordonnateur et équipe",
+        "Fonction ou discipline enseignée"
+      ],
+      "kind": "text",
+      "synthetic_value": "Enseignant d’allemand"
+    },
+    {
+      "id": "coord_tel",
+      "label": "Téléphone",
+      "source_page": 2,
+      "source_anchor": "Téléphone",
+      "path": [
+        "3. VOTRE PROJET",
+        "Coordonnateur et équipe",
+        "Téléphone"
+      ],
+      "kind": "text",
+      "synthetic_value": "01 00 00 00 02"
+    },
+    {
+      "id": "coord_mail",
+      "label": "Courriel",
+      "source_page": 2,
+      "source_anchor": "Courriel",
+      "path": [
+        "3. VOTRE PROJET",
+        "Coordonnateur et équipe",
+        "Courriel"
+      ],
+      "kind": "text",
+      "synthetic_value": "mobilite@lycee.example"
+    },
+    {
+      "id": "enseignants",
+      "label": "Nombre d’enseignants impliqués dans le projet",
+      "source_page": 2,
+      "source_anchor": "Nombre d’enseignants impliqués dans le projet",
+      "path": [
+        "3. VOTRE PROJET",
+        "Coordonnateur et équipe",
+        "Nombre d’enseignants impliqués dans le projet"
+      ],
+      "kind": "text",
+      "synthetic_value": "3 : histoire-géographie, sciences et français"
+    },
+    {
+      "id": "attente_0",
+      "label": "Collaboration autour d’un projet pluridisciplinaire",
+      "source_page": 3,
+      "source_anchor": "Collaboration autour d’un projet pluridisciplinaire",
+      "path": [
+        "3. VOTRE PROJET",
+        "Attentes numérotées par ordre de priorité",
+        "Collaboration autour d’un projet pluridisciplinaire"
+      ],
+      "kind": "text",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "attente_1",
+      "label": "Mobilité des élèves",
+      "source_page": 3,
+      "source_anchor": "Mobilité des élèves",
+      "path": [
+        "3. VOTRE PROJET",
+        "Attentes numérotées par ordre de priorité",
+        "Mobilité des élèves"
+      ],
+      "kind": "text",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "attente_2",
+      "label": "Échanges à distance type eTwinning",
+      "source_page": 3,
+      "source_anchor": "Échanges à distance type eTwinning",
+      "path": [
+        "3. VOTRE PROJET",
+        "Attentes numérotées par ordre de priorité",
+        "Échanges à distance type eTwinning"
+      ],
+      "kind": "text",
+      "synthetic_value": "3"
+    },
+    {
+      "id": "attente_3",
+      "label": "Utilisation des TICE",
+      "source_page": 3,
+      "source_anchor": "Utilisation des TICE",
+      "path": [
+        "3. VOTRE PROJET",
+        "Attentes numérotées par ordre de priorité",
+        "Utilisation des TICE"
+      ],
+      "kind": "text",
+      "synthetic_value": "",
+      "inactive_in_scenario": true
+    },
+    {
+      "id": "attente_4",
+      "label": "Mutualisation des ressources pédagogiques",
+      "source_page": 3,
+      "source_anchor": "Mutualisation des ressources pédagogiques",
+      "path": [
+        "3. VOTRE PROJET",
+        "Attentes numérotées par ordre de priorité",
+        "Mutualisation des ressources pédagogiques"
+      ],
+      "kind": "text",
+      "synthetic_value": "",
+      "inactive_in_scenario": true
+    },
+    {
+      "id": "attente_5",
+      "label": "Mobilité des enseignants",
+      "source_page": 3,
+      "source_anchor": "Mobilité des enseignants",
+      "path": [
+        "3. VOTRE PROJET",
+        "Attentes numérotées par ordre de priorité",
+        "Mobilité des enseignants"
+      ],
+      "kind": "text",
+      "synthetic_value": "",
+      "inactive_in_scenario": true
+    },
+    {
+      "id": "attente_6",
+      "label": "Stages en entreprise pour les élèves",
+      "source_page": 3,
+      "source_anchor": "Stages en entreprise pour les élèves",
+      "path": [
+        "3. VOTRE PROJET",
+        "Attentes numérotées par ordre de priorité",
+        "Stages en entreprise pour les élèves"
+      ],
+      "kind": "text",
+      "synthetic_value": "",
+      "inactive_in_scenario": true
+    },
+    {
+      "id": "attente_7",
+      "label": "Autres, précisez",
+      "source_page": 3,
+      "source_anchor": "Autres, précisez",
+      "path": [
+        "3. VOTRE PROJET",
+        "Attentes numérotées par ordre de priorité",
+        "Autres, précisez"
+      ],
+      "kind": "text",
+      "synthetic_value": "",
+      "inactive_in_scenario": true
+    },
+    {
+      "id": "distance",
+      "label": "Seriez-vous prêts à vous engager dans un projet reposant uniquement sur des échanges à distance (sans déplacement d’élèves) ?",
+      "source_page": 3,
+      "source_anchor": "Seriez-vous prêts à vous engager dans un projet reposant uniquement sur des échanges à distance (sans déplacement d’élèves) ?",
+      "path": [
+        "3. VOTRE PROJET - Attentes et thèmes",
+        "Seriez-vous prêts à vous engager dans un projet reposant uniquement sur des échanges à distance (sans déplacement d’élèves) ?"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "oui"
+      ],
+      "options": [
+        "oui",
+        "non"
+      ],
+      "context_evidence": "3. VOTRE PROJET - Attentes et thèmes / Seriez-vous prêts à vous engager dans un projet reposant uniquement sur des échanges à distance (sans déplacement d’élèves) ? : oui."
+    },
+    {
+      "id": "deplacement",
+      "label": "Seriez-vous prêts à vous engager dans un projet supposant des déplacements d’élèves ?",
+      "source_page": 3,
+      "source_anchor": "Seriez-vous prêts à vous engager dans un projet supposant des déplacements d’élèves ?",
+      "path": [
+        "3. VOTRE PROJET - Attentes et thèmes",
+        "Seriez-vous prêts à vous engager dans un projet supposant des déplacements d’élèves ?"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "oui"
+      ],
+      "options": [
+        "oui",
+        "non"
+      ],
+      "context_evidence": "3. VOTRE PROJET - Attentes et thèmes / Seriez-vous prêts à vous engager dans un projet supposant des déplacements d’élèves ? : oui."
+    },
+    {
+      "id": "precis",
+      "label": "Avez-vous un projet précis ?",
+      "source_page": 3,
+      "source_anchor": "Avez-vous un projet précis ?",
+      "path": [
+        "3. VOTRE PROJET - Attentes et thèmes",
+        "Avez-vous un projet précis ?"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "oui"
+      ],
+      "options": [
+        "oui",
+        "non"
+      ],
+      "context_evidence": "3. VOTRE PROJET - Attentes et thèmes / Avez-vous un projet précis ? : oui."
+    },
+    {
+      "id": "details",
+      "label": "Si oui, précisez",
+      "source_page": 3,
+      "source_anchor": "Si oui, précisez",
+      "path": [
+        "3. VOTRE PROJET - Attentes et thèmes",
+        "Si oui, précisez"
+      ],
+      "kind": "text",
+      "synthetic_value": "Échanges en ligne puis séjour consacré aux mobilités durables et à la découverte interculturelle."
+    },
+    {
+      "id": "themes",
+      "label": "Sur quels thèmes seriez-vous disposés à collaborer ?",
+      "source_page": 3,
+      "source_anchor": "Sur quels thèmes seriez-vous disposés à collaborer ?",
+      "path": [
+        "3. VOTRE PROJET - Attentes et thèmes",
+        "Sur quels thèmes seriez-vous disposés à collaborer ?"
+      ],
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "Sciences",
+        "Développement durable",
+        "Comparaisons interculturelles"
+      ],
+      "options": [
+        "Sciences",
+        "Théâtre/Arts plastiques",
+        "Musique",
+        "Histoire/géographie",
+        "Médias et Actualités",
+        "Europe",
+        "Développement durable",
+        "Patrimoines locaux",
+        "Comparaisons interculturelles",
+        "Cuisine locale",
+        "Sport",
+        "Spécialités professionnelles",
+        "Citoyenneté",
+        "Technologie",
+        "Autres, précisez"
+      ],
+      "context_evidence": "3. VOTRE PROJET - Attentes et thèmes / Sur quels thèmes seriez-vous disposés à collaborer ? : Sciences, Développement durable, Comparaisons interculturelles."
+    },
+    {
+      "id": "theme_autre",
+      "label": "Autres, précisez",
+      "source_page": 3,
+      "source_anchor": "Autres, précisez",
+      "path": [
+        "3. VOTRE PROJET",
+        "Thèmes",
+        "Autres, précisez"
+      ],
+      "kind": "text",
+      "synthetic_value": "",
+      "inactive_in_scenario": true
+    },
+    {
+      "id": "niveau",
+      "label": "Niveau et, pour le lycée série ou spécialité.",
+      "source_page": 4,
+      "source_anchor": "Niveau et, pour le lycée série ou spécialité.",
+      "path": [
+        "4. CLASSE(S) PARTICIPANT AU PROJET",
+        "Niveau et, pour le lycée série ou spécialité."
+      ],
+      "kind": "text",
+      "synthetic_value": "Une classe de seconde générale, sans section spécifique."
+    },
+    {
+      "id": "ages",
+      "label": "Âge des élèves concernés",
+      "source_page": 4,
+      "source_anchor": "Âge des élèves concernés",
+      "path": [
+        "4. CLASSE(S) PARTICIPANT AU PROJET",
+        "Âge des élèves concernés"
+      ],
+      "kind": "text",
+      "synthetic_value": "15 à 16 ans"
+    },
+    {
+      "id": "participants",
+      "label": "Nombre d’élèves concernés, précisez le nombre de filles et de garçons",
+      "source_page": 4,
+      "source_anchor": "Nombre d’élèves concernés, précisez le nombre de filles et de garçons",
+      "path": [
+        "4. CLASSE(S) PARTICIPANT AU PROJET",
+        "Nombre d’élèves concernés, précisez le nombre de filles et de garçons"
+      ],
+      "kind": "text",
+      "synthetic_value": "30 élèves : 16 filles et 14 garçons"
+    },
+    {
+      "id": "ordinateurs",
+      "label": "L’établissement dispose-t-il d’une salle informatique ou d’ordinateurs disponibles ?",
+      "source_page": 4,
+      "source_anchor": "L’établissement dispose-t-il d’une salle informatique ou d’ordinateurs disponibles ?",
+      "path": [
+        "5. LES TICE",
+        "L’établissement dispose-t-il d’une salle informatique ou d’ordinateurs disponibles ?"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "oui"
+      ],
+      "options": [
+        "oui",
+        "non"
+      ],
+      "context_evidence": "5. LES TICE / L’établissement dispose-t-il d’une salle informatique ou d’ordinateurs disponibles ? : oui."
+    },
+    {
+      "id": "internet",
+      "label": "L’établissement dispose-t-il d’une connexion Internet haut débit / de connexion sans fil (WIFI)?",
+      "source_page": 4,
+      "source_anchor": "L’établissement dispose-t-il d’une connexion Internet haut débit / de connexion sans fil (WIFI)?",
+      "path": [
+        "5. LES TICE",
+        "L’établissement dispose-t-il d’une connexion Internet haut débit / de connexion sans fil (WIFI)?"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "oui"
+      ],
+      "options": [
+        "oui",
+        "non"
+      ],
+      "context_evidence": "5. LES TICE / L’établissement dispose-t-il d’une connexion Internet haut débit / de connexion sans fil (WIFI)? : oui."
+    },
+    {
+      "id": "equipement",
+      "label": "Autres équipements TICE disponible",
+      "source_page": 4,
+      "source_anchor": "Autres équipements TICE disponible",
+      "path": [
+        "5. LES TICE",
+        "Autres équipements TICE disponible"
+      ],
+      "kind": "text",
+      "synthetic_value": "Visioconférence et tableau blanc interactif."
+    },
+    {
+      "id": "date",
+      "label": "Date",
+      "source_page": 4,
+      "source_anchor": "Date",
+      "path": [
+        "5. LES TICE",
+        "Date"
+      ],
+      "kind": "text",
+      "synthetic_value": "15/01/2026"
+    },
+    {
+      "id": "signature",
+      "label": "Signature du chef d’établissement",
+      "source_page": 4,
+      "source_anchor": "Signature du chef d’établissement",
+      "path": [
+        "5. LES TICE",
+        "Signature du chef d’établissement"
+      ],
+      "kind": "text",
+      "synthetic_value": "Signature fictive Camille Moreau"
+    }
+  ],
+  "source_url": "https://cache.media.eduscol.education.fr/file/Mobilite_des_eleves/24/6/Annexe_1_Formulaire_type_demande_de_partenariat_597246.docx",
+  "landing_url": "https://eduscol.education.gouv.fr/sites/default/files/document/fichepratiqueeuropeinternationaloutilsmodelestextesreference1284773pdf-68082.pdf",
+  "license_url": "https://eduscol.education.gouv.fr/4656/mentions-legales",
+  "issuer_id": "dgesco-eduscol",
+  "retrieved_at": "2026-09-26T10:32:01.679040+00:00",
+  "source_sha256": "5c3cfc9e803fe9ba995793150caca7f4fc3e00a7225d2c55e4d00bde92d973c1",
+  "license_note": "DGESCO / Eduscol legal notice, section Autorisation de reproduction des contenus, explicitly applies Etalab 2.0 to downloadable documents, excluding third-party works. The complete four-page national Annex 1 is ministry-authored and carries no external text credit or restrictive notice. Original DOCX and conversion are preserved. Attribute DGESCO, the original document URL and retrieval date. Source text and functional structure only; no logos or artwork. Original artwork and logos omitted. Normalized layout and synthetic completion are adaptations without official endorsement.",
+  "source_version": "Annexe 1 : formulaire type de demande de partenariat, French DOCX",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "value": "Annexe 1",
+    "kind": "document_version",
+    "source_url": "https://cache.media.eduscol.education.fr/file/Mobilite_des_eleves/24/6/Annexe_1_Formulaire_type_demande_de_partenariat_597246.docx",
+    "detail": "Original heading; no explicit edition/update date."
+  },
+  "context": "Exemple fictif destiné au benchmark ; il ne constitue pas un document administratif réel.\n1. PAYS DEMANDÉ / 1er vœu / Pays : Allemagne.\n1. PAYS DEMANDÉ / 1er vœu / Langue(s) utilisée(s) pour le partenariat : Allemand et français.\n1. PAYS DEMANDÉ / 2ème vœu / Pays : Autriche.\n1. PAYS DEMANDÉ / 2ème vœu / Langue(s) utilisée(s) pour le partenariat : Allemand et français.\n1. PAYS DEMANDÉ / 3ème vœu / Pays : laisser vide (non applicable ou ligne inutilisée dans ce scénario).\n1. PAYS DEMANDÉ / 3ème vœu / Langue(s) utilisée(s) pour le partenariat : laisser vide (non applicable ou ligne inutilisée dans ce scénario).\n1. PAYS DEMANDÉ / Le cas échéant, nom de la ville avec laquelle votre commune est jumelée dans le pays demandé : laisser vide (non applicable ou ligne inutilisée dans ce scénario).\n2. VOTRE ÉTABLISSEMENT / Nom de l’établissement : Lycée Exemple.\n2. VOTRE ÉTABLISSEMENT / Type d’établissement : Lycée d’enseignement général et technologique. Les autres options ne sont pas sélectionnées.\n2. VOTRE ÉTABLISSEMENT / Statut de l’établissement : Public. Les autres options ne sont pas sélectionnées.\nChef d’établissement / Civilité : Madame.\nChef d’établissement / Nom : Moreau.\nChef d’établissement / Prénom : Camille.\nCoordonnées de l’établissement / Adresse : 10 rue Fictive.\nCoordonnées de l’établissement / Code postal /ville / Pays : 75000 Paris, France.\nCoordonnées de l’établissement / Téléphone : 01 00 00 00 01.\n2. VOTRE ÉTABLISSEMENT - Suite / Fax : laisser vide (non applicable ou ligne inutilisée dans ce scénario).\n2. VOTRE ÉTABLISSEMENT - Suite / Adresse électronique : contact@lycee.example.\n2. VOTRE ÉTABLISSEMENT - Suite / RNE : RNE FICTIF 0750000X.\n2. VOTRE ÉTABLISSEMENT - Suite / Site internet : https://lycee.example.\n2. VOTRE ÉTABLISSEMENT - Suite / Académie : Paris.\n2. VOTRE ÉTABLISSEMENT - Suite / Région : Île-de-France.\n2. VOTRE ÉTABLISSEMENT - Suite / Département : 75.\n2. VOTRE ÉTABLISSEMENT - Suite / Environnement économique et socioculturel de l’établissement : Établissement urbain accueillant un public socialement diversifié..\n2. VOTRE ÉTABLISSEMENT - Suite / L’établissement est-il situé en éducation prioritaire ? : non. Les autres options ne sont pas sélectionnées.\n2. VOTRE ÉTABLISSEMENT - Suite / Langues enseignées : Anglais, allemand et espagnol.\n2. VOTRE ÉTABLISSEMENT - Suite / Grands axes de votre projet d’établissement : Coopération internationale, langues vivantes et développement durable..\n2. VOTRE ÉTABLISSEMENT - Suite / Nombre total d’élèves dans l’établissement : 800.\n2. VOTRE ÉTABLISSEMENT - Suite / Filles : 410.\n2. VOTRE ÉTABLISSEMENT - Suite / Garçons : 390.\n2. VOTRE ÉTABLISSEMENT - Suite / S’agit-il de la première candidature de l’établissement à une demande de partenariat ? : oui. Les autres options ne sont pas sélectionnées.\n2. VOTRE ÉTABLISSEMENT - Suite / Si non, en quelle année avez-vous candidaté et pour quel pays ? : laisser vide (non applicable ou ligne inutilisée dans ce scénario).\n2. VOTRE ÉTABLISSEMENT / Si votre candidature a déjà été retenue, votre partenariat est-il encore actif ? : laisser vide (non applicable ou ligne inutilisée dans ce scénario). Les autres options ne sont pas sélectionnées.\n3. VOTRE PROJET / Coordonnateur et équipe / Civilité : Monsieur.\n3. VOTRE PROJET / Coordonnateur et équipe / Nom : Laurent.\n3. VOTRE PROJET / Coordonnateur et équipe / Prénom : Alex.\n3. VOTRE PROJET / Coordonnateur et équipe / Fonction ou discipline enseignée : Enseignant d’allemand.\n3. VOTRE PROJET / Coordonnateur et équipe / Téléphone : 01 00 00 00 02.\n3. VOTRE PROJET / Coordonnateur et équipe / Courriel : mobilite@lycee.example.\n3. VOTRE PROJET / Coordonnateur et équipe / Nombre d’enseignants impliqués dans le projet : 3 : histoire-géographie, sciences et français.\n3. VOTRE PROJET / Attentes numérotées par ordre de priorité / Collaboration autour d’un projet pluridisciplinaire : 1.\n3. VOTRE PROJET / Attentes numérotées par ordre de priorité / Mobilité des élèves : 2.\n3. VOTRE PROJET / Attentes numérotées par ordre de priorité / Échanges à distance type eTwinning : 3.\n3. VOTRE PROJET / Attentes numérotées par ordre de priorité / Utilisation des TICE : laisser vide (non applicable ou ligne inutilisée dans ce scénario).\n3. VOTRE PROJET / Attentes numérotées par ordre de priorité / Mutualisation des ressources pédagogiques : laisser vide (non applicable ou ligne inutilisée dans ce scénario).\n3. VOTRE PROJET / Attentes numérotées par ordre de priorité / Mobilité des enseignants : laisser vide (non applicable ou ligne inutilisée dans ce scénario).\n3. VOTRE PROJET / Attentes numérotées par ordre de priorité / Stages en entreprise pour les élèves : laisser vide (non applicable ou ligne inutilisée dans ce scénario).\n3. VOTRE PROJET / Attentes numérotées par ordre de priorité / Autres, précisez : laisser vide (non applicable ou ligne inutilisée dans ce scénario).\n3. VOTRE PROJET - Attentes et thèmes / Seriez-vous prêts à vous engager dans un projet reposant uniquement sur des échanges à distance (sans déplacement d’élèves) ? : oui. Les autres options ne sont pas sélectionnées.\n3. VOTRE PROJET - Attentes et thèmes / Seriez-vous prêts à vous engager dans un projet supposant des déplacements d’élèves ? : oui. Les autres options ne sont pas sélectionnées.\n3. VOTRE PROJET - Attentes et thèmes / Avez-vous un projet précis ? : oui. Les autres options ne sont pas sélectionnées.\n3. VOTRE PROJET - Attentes et thèmes / Si oui, précisez : Échanges en ligne puis séjour consacré aux mobilités durables et à la découverte interculturelle..\n3. VOTRE PROJET - Attentes et thèmes / Sur quels thèmes seriez-vous disposés à collaborer ? : Sciences, Développement durable, Comparaisons interculturelles. Les autres options ne sont pas sélectionnées.\n3. VOTRE PROJET / Thèmes / Autres, précisez : laisser vide (non applicable ou ligne inutilisée dans ce scénario).\n4. CLASSE(S) PARTICIPANT AU PROJET / Niveau et, pour le lycée série ou spécialité. : Une classe de seconde générale, sans section spécifique..\n4. CLASSE(S) PARTICIPANT AU PROJET / Âge des élèves concernés : 15 à 16 ans.\n4. CLASSE(S) PARTICIPANT AU PROJET / Nombre d’élèves concernés, précisez le nombre de filles et de garçons : 30 élèves : 16 filles et 14 garçons.\n5. LES TICE / L’établissement dispose-t-il d’une salle informatique ou d’ordinateurs disponibles ? : oui. Les autres options ne sont pas sélectionnées.\n5. LES TICE / L’établissement dispose-t-il d’une connexion Internet haut débit / de connexion sans fil (WIFI)? : oui. Les autres options ne sont pas sélectionnées.\n5. LES TICE / Autres équipements TICE disponible : Visioconférence et tableau blanc interactif..\n5. LES TICE / Date : 15/01/2026.\n5. LES TICE / Signature du chef d’établissement : Signature fictive Camille Moreau.",
+  "review_pdf_sha256": "c8c1c22fa8fee7ff23d1866d0a66b6593cf52bc58fa3f4caa36cc067192e3a5f",
+  "source_conversion": {
+    "method": "LibreOffice PDF export without content edits",
+    "original_sha256": "5c3cfc9e803fe9ba995793150caca7f4fc3e00a7225d2c55e4d00bde92d973c1",
+    "review_pdf_sha256": "c8c1c22fa8fee7ff23d1866d0a66b6593cf52bc58fa3f4caa36cc067192e3a5f"
+  },
+  "workflow_identity": {
+    "language": "fr",
+    "id": 20
+  }
+}

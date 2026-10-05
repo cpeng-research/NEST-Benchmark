@@ -1,0 +1,110 @@
+{
+  "Identité emprunteur(s)": {
+    "Emprunteur 1": {
+      "Nom": "Martin",
+      "Prénom": "Camille"
+    },
+    "Emprunteur 2": {
+      "Nom": "Dubois",
+      "Prénom": "Julien"
+    },
+    "Catégorie du propriétaire": {
+      "choices": [
+        "particulier",
+        "société civile"
+      ],
+      "value": [
+        "particulier"
+      ]
+    },
+    "dénomination de la société civile": "Sans objet"
+  },
+  "Logement": {
+    "N°": "12",
+    "Voie": "rue Exemple",
+    "Code postal": "75012",
+    "Ville": "Paris",
+    "Nature du logement faisant l’objet des travaux": {
+      "choices": [
+        "maison individuelle",
+        "appartement"
+      ],
+      "value": [
+        "maison individuelle"
+      ]
+    },
+    "Occupation du logement à l’issue des travaux": {
+      "choices": [
+        "par le propriétaire",
+        "mis à disposition gratuitement",
+        "location à titre de résidence principale"
+      ],
+      "value": [
+        "par le propriétaire"
+      ]
+    }
+  },
+  "Type d'éco-PTZ": {
+    "Eco-PTZ initial": {
+      "choices": [
+        "Eco-PTZ initial",
+        "Eco-PTZ complémentaire à un éco-PTZ initial"
+      ],
+      "value": [
+        "Eco-PTZ initial"
+      ]
+    },
+    "Montant prêté au titre de l’éco-PTZ initial": "Sans objet",
+    "Date d’émission de l’offre de l’éco-PTZ initial": "Sans objet",
+    "Type de travaux financé par l’éco-PTZ initial": "Sans objet"
+  },
+  "Caractéristiques des travaux": {
+    "Type de travaux": {
+      "choices": [
+        "Action seule (hors isolation parois vitrées)",
+        "Action seule (dont isolation parois vitrées)",
+        "Bouquet 2 actions",
+        "Bouquet 3 actions ou plus",
+        "Performance énergétique globale",
+        "Assainissement"
+      ],
+      "value": [
+        "Bouquet 2 actions"
+      ]
+    },
+    "Plafond total de l'éco-PTZ": "30 000 €",
+    "Total des  travaux d’amélioration  de  la  performance  énergétique  du  logement": "25 000 €",
+    "Total des frais éligibles": "1 000 €",
+    "TOTAL en € TTC des travaux et frais finançables par un éco-PTZ": "26 000 €",
+    "Montant de l’éco-PTZ demandé en €": "26 000 €",
+    "Durée de l’éco-PTZ demandé en mois": "120 mois"
+  },
+  "Demande accompagnée": {
+    "formulaire(s) « entreprise »": "2",
+    "devis pour les travaux d’amélioration de la performance énergétique": "2",
+    "devis pour les frais": "1",
+    "document(s) attestant de la part des travaux de copropriété": "0",
+    "document(s) attestant de l'occupation du logement": "1",
+    "d’un audit énergétique": {
+      "choices": [
+        "d’un audit énergétique"
+      ],
+      "value": [
+        "d’un audit énergétique"
+      ]
+    },
+    "d’une attestation de contrôle du Service Public d’Assainissement Non Collectif": {
+      "choices": [
+        "d’une attestation de contrôle du Service Public d’Assainissement Non Collectif"
+      ],
+      "value": [
+        "d’une attestation de contrôle du Service Public d’Assainissement Non Collectif"
+      ]
+    }
+  },
+  "Engagements et signature": {
+    "Fait à": "Paris",
+    "Le": "05/10/2026",
+    "Signature(s)": "Camille Martin et Julien Dubois (signatures fictives)"
+  }
+}

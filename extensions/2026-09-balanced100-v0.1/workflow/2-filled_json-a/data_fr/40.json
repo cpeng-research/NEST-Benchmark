@@ -1,0 +1,188 @@
+{
+  "Page 1": {
+    "FORMULAIRE D’ENREGISTREMENT DES CORRESPONDANTS LOCAUX DE MATERIOVIGILANCE ET/OU DE REACTOVIGILANCE ET DES EMAILS D’ALERTE": {
+      "Cocher s’il s’agit de l’enregistrement d’un correspondant local:": {
+        "choices": [
+          "Matériovigilance*",
+          "Réactovigilance**"
+        ],
+        "value": [
+          "Matériovigilance*",
+          "Réactovigilance**"
+        ]
+      }
+    },
+    "1. ETABLISSEMENT": {
+      "Nom de l’établissement*": "Centre hospitalier fictif des Tilleuls",
+      "Adresse": "18 rue des Tilleuls",
+      "Code postal": "69003",
+      "Ville": "Lyon",
+      "Standard": "04 00 00 00 10",
+      "Identifiant de l’établissement (n° SIRET/SIREN)*": "12345678900010",
+      "Type de structure*": {
+        "choices": [
+          "Etablissement de santé public",
+          "Etablissement de santé privé",
+          "Etablissement de Santé Privé d’Intérêt Collectif (ESPIC)"
+        ],
+        "value": [
+          "Etablissement de santé public"
+        ]
+      },
+      "Précisez le type de structure*": {
+        "choices": [
+          "CHU",
+          "Clinique",
+          "Hôpital privé",
+          "Centre de Lutte Contre le Cancer (CLCC)",
+          "Etablissement Français du Sang (EFS)",
+          "Soins Médicaux et de Réadaptation (SMR)",
+          "Centre hospitalier",
+          "Hospitalisation à Domicile (HAD)",
+          "Prestataire de Santé à Domicile",
+          "Centre de dialyse",
+          "Autre"
+        ],
+        "value": [
+          "Centre hospitalier"
+        ]
+      },
+      "Autre, précisez": ""
+    },
+    "2. EMAILS D’ALERTE": {
+      "Matériovigilance": "alertes-dm@example.org",
+      "Réactovigilance": "alertes-div@example.org"
+    }
+  },
+  "Page 2": {
+    "MATERIOVIGILANCE": {
+      "Enregistrement": {
+        "choices": [
+          "MATERIOVIGILANCE"
+        ],
+        "value": [
+          "MATERIOVIGILANCE"
+        ]
+      },
+      "Adresse mail générique pour la matériovigilance": "dm@example.org",
+      "TITULAIRE": {
+        "NOM": "GARNIER",
+        "Prénom": "Claire",
+        "Service": "Pharmacie",
+        "Fonction": "Pharmacien",
+        "Téléphone": "04 00 00 00 11",
+        "Email": "claire.garnier@example.org",
+        "Communication des coordonnées": {
+          "choices": [
+            "OUI",
+            "NON"
+          ],
+          "value": [
+            "OUI"
+          ]
+        }
+      },
+      "SUPPLEANT 1": {
+        "NOM": "MARTIN",
+        "Prénom": "Luc",
+        "Service": "Biologie",
+        "Fonction": "Biologiste",
+        "Téléphone": "04 00 00 00 12",
+        "Email": "luc.martin@example.org",
+        "Communication des coordonnées": {
+          "choices": [
+            "OUI",
+            "NON"
+          ],
+          "value": [
+            "OUI"
+          ]
+        }
+      },
+      "SUPPLEANT 2": {
+        "NOM": "BERNARD",
+        "Prénom": "Anne",
+        "Service": "Qualité",
+        "Fonction": "Responsable qualité",
+        "Téléphone": "04 00 00 00 13",
+        "Email": "anne.bernard@example.org",
+        "Communication des coordonnées": {
+          "choices": [
+            "OUI",
+            "NON"
+          ],
+          "value": [
+            "OUI"
+          ]
+        }
+      }
+    },
+    "REACTOVIGILANCE": {
+      "Enregistrement": {
+        "choices": [
+          "REACTOVIGILANCE"
+        ],
+        "value": [
+          "REACTOVIGILANCE"
+        ]
+      },
+      "Adresse mail générique pour la réactovigilance": "div@example.org",
+      "TITULAIRE": {
+        "NOM": "GARNIER",
+        "Prénom": "Claire",
+        "Service": "Pharmacie",
+        "Fonction": "Pharmacien",
+        "Téléphone": "04 00 00 00 11",
+        "Email": "claire.garnier@example.org",
+        "Communication des coordonnées": {
+          "choices": [
+            "OUI",
+            "NON"
+          ],
+          "value": [
+            "OUI"
+          ]
+        }
+      },
+      "SUPPLEANT 1": {
+        "NOM": "MARTIN",
+        "Prénom": "Luc",
+        "Service": "Biologie",
+        "Fonction": "Biologiste",
+        "Téléphone": "04 00 00 00 12",
+        "Email": "luc.martin@example.org",
+        "Communication des coordonnées": {
+          "choices": [
+            "OUI",
+            "NON"
+          ],
+          "value": [
+            "OUI"
+          ]
+        }
+      },
+      "SUPPLEANT 2": {
+        "NOM": "BERNARD",
+        "Prénom": "Anne",
+        "Service": "Qualité",
+        "Fonction": "Responsable qualité",
+        "Téléphone": "04 00 00 00 13",
+        "Email": "anne.bernard@example.org",
+        "Communication des coordonnées": {
+          "choices": [
+            "OUI",
+            "NON"
+          ],
+          "value": [
+            "OUI"
+          ]
+        }
+      }
+    },
+    "Le directeur de l’établissement": {
+      "Date": "26/09/2026",
+      "Directeur": "Sophie Perrin",
+      "Signature": "Sophie Perrin (signature fictive)"
+    }
+  }
+}

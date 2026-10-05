@@ -1,0 +1,63 @@
+{
+  "Section 1 Personal details": {
+    "Customer Reference Number": "",
+    "Title": {
+      "choices": [
+        "Mr",
+        "Mrs",
+        "Miss",
+        "Ms"
+      ],
+      "value": []
+    },
+    "Forename(s)": "",
+    "Surname": "",
+    "Date of birth (DDMMYYYY)": ""
+  },
+  "Section 2 Medical professional details": {
+    "Full name": "",
+    "Job title": "",
+    "Certificate or registration number": "",
+    "Type of practice or organisation": {
+      "choices": [
+        "GP Practice",
+        "Primary Care Team",
+        "Secondary Care Team",
+        "Hospital",
+        "Other (give details below)"
+      ],
+      "value": []
+    },
+    "Name of practice or organisation": "",
+    "Address": "",
+    "Postcode": "",
+    "Contact number": "",
+    "What is your professional": ""
+  },
+  "Section 3 About the student’s disability": {
+    "Does the student have": {
+      "choices": [
+        "No - go to section 4",
+        "Yes - go to 3.2"
+      ],
+      "value": []
+    },
+    "Diagnosis or working diagnosis": "",
+    "Date of diagnosis (DDMMYYYY)": "",
+    "Explain how the student’s disability": "",
+    "Does the student’s disability have a": {
+      "choices": [
+        "No - go to section 4",
+        "Yes - go to 3.5"
+      ],
+      "value": []
+    },
+    "3.5": {
+      "Explain how the student’s disability": ""
+    }
+  },
+  "Section 4 Medical professional declaration": {
+    "Medical professional signature": "",
+    "Today’s date (DDMMYYYY)": ""
+  }
+}

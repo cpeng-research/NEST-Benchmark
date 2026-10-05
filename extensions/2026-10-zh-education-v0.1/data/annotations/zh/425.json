@@ -1,0 +1,231 @@
+{
+  "id": "zh-nsw-edu-publish-permission",
+  "language": "zh",
+  "domain": "Education",
+  "title": "关于公开与披露信息的一般许可",
+  "template_family": "student-publication-permission",
+  "issuer": "New South Wales Department of Education",
+  "issuer_id": "NSW-EDU",
+  "source_pages": 2,
+  "columns": 1,
+  "rows": [
+    [
+      {
+        "text": "关于公开与披露信息的一般许可",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "return_date",
+        "label": "请填写《许可表》并在以下日期之前交回学校： / Date for return of permission form",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "principal",
+        "label": "校长姓名 / Name of principal",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "school",
+        "label": "学校名称 / Name of school",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "家长/照顾者关于允许公开信息的同意书",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "permission",
+        "label": "家长/照顾者关于允许公开信息的同意书 / Parent/carer permission to publish consent",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "child",
+        "label": "孩子姓名（请正楷书写） / Name of child",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "parent",
+        "label": "家长/照顾者姓名（请正楷书写） / Name of parent/carer",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "signature",
+        "label": "家长/照顾者签名 / Signature of parent/carer",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "signed_date",
+        "label": "日期 / Date",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "return_date",
+      "label": "请填写《许可表》并在以下日期之前交回学校：",
+      "source_page": 1,
+      "source_anchor": "请填写《许可表》并在以下日期之前交回学校：",
+      "display_label": "请填写《许可表》并在以下日期之前交回学校： / Date for return of permission form",
+      "source_label_zh": "请填写《许可表》并在以下日期之前交回学校：",
+      "kind": "text",
+      "synthetic_value": "9 October 2026",
+      "path": [
+        "关于公开与披露信息的一般许可",
+        "请填写《许可表》并在以下日期之前交回学校："
+      ]
+    },
+    {
+      "id": "principal",
+      "label": "校长姓名",
+      "source_page": 1,
+      "source_anchor": "校长姓名",
+      "display_label": "校长姓名 / Name of principal",
+      "source_label_zh": "校长姓名",
+      "kind": "text",
+      "synthetic_value": "Kai Sample",
+      "path": [
+        "关于公开与披露信息的一般许可",
+        "校长姓名"
+      ]
+    },
+    {
+      "id": "school",
+      "label": "学校名称",
+      "source_page": 1,
+      "source_anchor": "学校名称",
+      "display_label": "学校名称 / Name of school",
+      "source_label_zh": "学校名称",
+      "kind": "text",
+      "synthetic_value": "Example School",
+      "path": [
+        "关于公开与披露信息的一般许可",
+        "学校名称"
+      ]
+    },
+    {
+      "id": "permission",
+      "label": "家长/照顾者关于允许公开信息的同意书",
+      "source_page": 2,
+      "source_anchor": "家长/照顾者关于允许公开信息的同意书",
+      "display_label": "家长/照顾者关于允许公开信息的同意书 / Parent/carer permission to publish consent",
+      "source_label_zh": "家长/照顾者关于允许公开信息的同意书",
+      "kind": "checkbox_single",
+      "options": [
+        "我允许学校/教育部公开有关我孩子的上述信息，包括在可公开查阅的沟通材料中公开。",
+        "我不允许学校/教育部公开有关我孩子的上述信息，包括在可公开查阅的沟通材料中公开。"
+      ],
+      "synthetic_value": "我不允许学校/教育部公开有关我孩子的上述信息，包括在可公开查阅的沟通材料中公开。",
+      "path": [
+        "家长/照顾者关于允许公开信息的同意书",
+        "许可决定"
+      ],
+      "context_evidence": "家长/照顾者关于允许公开信息的同意书 / 许可决定: selected options are 我不允许学校/教育部公开有关我孩子的上述信息，包括在可公开查阅的沟通材料中公开。"
+    },
+    {
+      "id": "child",
+      "label": "孩子姓名（请正楷书写）",
+      "source_page": 2,
+      "source_anchor": "孩子姓名（请正楷书写）",
+      "display_label": "孩子姓名（请正楷书写） / Name of child",
+      "source_label_zh": "孩子姓名（请正楷书写）",
+      "kind": "text",
+      "synthetic_value": "Lin Sample",
+      "path": [
+        "家长/照顾者关于允许公开信息的同意书",
+        "孩子姓名（请正楷书写）"
+      ]
+    },
+    {
+      "id": "parent",
+      "label": "家长/照顾者姓名（请正楷书写）",
+      "source_page": 2,
+      "source_anchor": "家长/照顾者姓名（请正楷书写）",
+      "display_label": "家长/照顾者姓名（请正楷书写） / Name of parent/carer",
+      "source_label_zh": "家长/照顾者姓名（请正楷书写）",
+      "kind": "text",
+      "synthetic_value": "Mei Sample",
+      "path": [
+        "家长/照顾者关于允许公开信息的同意书",
+        "家长/照顾者姓名（请正楷书写）"
+      ]
+    },
+    {
+      "id": "signature",
+      "label": "家长/照顾者签名",
+      "source_page": 2,
+      "source_anchor": "家长/照顾者签名",
+      "display_label": "家长/照顾者签名 / Signature of parent/carer",
+      "source_label_zh": "家长/照顾者签名",
+      "kind": "text",
+      "synthetic_value": "Mei Sample",
+      "path": [
+        "家长/照顾者关于允许公开信息的同意书",
+        "家长/照顾者签名"
+      ]
+    },
+    {
+      "id": "signed_date",
+      "label": "日期",
+      "source_page": 2,
+      "source_anchor": "日期",
+      "display_label": "日期 / Date",
+      "source_label_zh": "日期",
+      "kind": "text",
+      "synthetic_value": "5 October 2026",
+      "path": [
+        "家长/照顾者关于允许公开信息的同意书",
+        "日期"
+      ]
+    }
+  ],
+  "source_url": "https://education.nsw.gov.au/content/dam/main-education/going-to-a-public-school/media/documents/translated-documents-/general-permission-to-publish-and-disclose-information/chinese-simplified-general-permission-to-publish.pdf",
+  "landing_url": "https://education.nsw.gov.au/schooling/translated-documents/general-permission-to-publish-and-disclose-information",
+  "license_url": "https://education.nsw.gov.au/about-us/copyright.html",
+  "license_note": "NSW Department of Education website content is CC BY 4.0; NSW logos, trademarks and third-party material are excluded. The normalized version omits logos and artwork.",
+  "source_sha256": "8af5f9b1ba7b0f10279aca57ec345c61912eb7627215d81520a66a16fb604572",
+  "retrieved_at": "2026-10-05",
+  "source_version": "No edition number printed in this PDF",
+  "source_updated_at": "2026-02-04",
+  "source_date_evidence": {
+    "kind": "official_landing_and_pdf_metadata",
+    "value": "Official landing page last modified 2026-02-04; PDF CreationDate=D:20240123120710+11'00'; PDF ModDate=D:20250213164606+01'00'",
+    "source_url": "https://education.nsw.gov.au/schooling/translated-documents/general-permission-to-publish-and-disclose-information",
+    "detail": "The landing-page date and PDF metadata are recorded separately; neither is asserted to be a content revision date."
+  },
+  "context": "Fictional test record; all persons, places and contact details are synthetic.\n关于公开与披露信息的一般许可 / 请填写《许可表》并在以下日期之前交回学校：: 9 October 2026.\n关于公开与披露信息的一般许可 / 校长姓名: Kai Sample.\n关于公开与披露信息的一般许可 / 学校名称: Example School.\n家长/照顾者关于允许公开信息的同意书 / 许可决定: selected options are 我不允许学校/教育部公开有关我孩子的上述信息，包括在可公开查阅的沟通材料中公开。.\n家长/照顾者关于允许公开信息的同意书 / 孩子姓名（请正楷书写）: Lin Sample.\n家长/照顾者关于允许公开信息的同意书 / 家长/照顾者姓名（请正楷书写）: Mei Sample.\n家长/照顾者关于允许公开信息的同意书 / 家长/照顾者签名: Mei Sample.\n家长/照顾者关于允许公开信息的同意书 / 日期: 5 October 2026.",
+  "workflow_identity": {
+    "language": "zh",
+    "id": 425
+  }
+}

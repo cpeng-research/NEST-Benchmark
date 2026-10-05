@@ -1,0 +1,1580 @@
+{
+  "id": "fr-ansm-medication",
+  "title": "Déclaration d’effet indésirable susceptible d’être dû à un médicament",
+  "language": "fr",
+  "domain": "Healthcare",
+  "issuer_id": "Agence nationale de sécurité du médicament et des produits de santé",
+  "template_family": "ansm-cerfa-10011",
+  "source_url": "https://ansm.sante.fr/uploads/2021/11/24/cerfa-10011-07-formulaire-de-declaration-d-un-effet-indesirable-survenu-avec-un-medicament.pdf",
+  "landing_url": "https://ansm.sante.fr/documents/reference/declarer-un-effet-indesirable/comment-declarer-si-vous-etes-professionnel-de-sante",
+  "license_url": "https://ansm.sante.fr/page/mentions-legales",
+  "license_note": "Textual public information reproduced under CRPA L321-1, L321-2 and L322-1. Source: Agence nationale de sécurité du médicament et des produits de santé, CERFA 10011*07, https://ansm.sante.fr/uploads/2021/11/24/cerfa-10011-07-formulaire-de-declaration-d-un-effet-indesirable-survenu-avec-un-medicament.pdf. Document update: not stated in the source; version identified separately. ANSM legal notice explicitly applies these reuse conditions. Original logos, marks, artwork and page design excluded.",
+  "source_sha256": "f22e00735af73c976a8c933f84782d076065682483a673f4a7cb8c96e7254ffc",
+  "source_pages": 2,
+  "source_version": "CERFA 10011*07",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "value": null,
+    "kind": "update_date_not_stated",
+    "source_url": "https://ansm.sante.fr/uploads/2021/11/24/cerfa-10011-07-formulaire-de-declaration-d-un-effet-indesirable-survenu-avec-un-medicament.pdf",
+    "detail": "Document version identified from official catalogue and/or original identifier. No explicit document update date stated; PDF technical timestamps, catalogue validity and retrieval date are not substituted."
+  },
+  "retrieved_at": "2026-09-26T10:17:46.694097+00:00",
+  "business_topic": "Déclaration d’effet indésirable susceptible d’être dû à un médicament",
+  "columns": 6,
+  "rows": [
+    [
+      {
+        "text": "DÉCLARATION D’EFFET INDÉSIRABLE SUSCEPTIBLE D’ÊTRE DÛ À UN MÉDICAMENT OU PRODUIT MENTIONNÉ À L’ART. R.5121-150 du Code de la Santé Publique",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1,
+        "nest_contribution": false
+      }
+    ],
+    [
+      {
+        "text": "DÉCLARATION À ADRESSER AU CRPV DONT VOUS DEPENDEZ GÉOGRAPHIQUEMENT",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1,
+        "nest_contribution": false
+      }
+    ],
+    [
+      {
+        "field": "f1",
+        "label": "Saisir les deux chiffres du département (ex : 01)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Les informations recueillies seront, dans le respect du secret médical, informatisées et communiquées \nau Centre régional de pharmacovigilance (CRPV) et à l'Agence nationale de sécurité du médicament \net des produits de santé (Ansm). Conformément aux articles 34 et 38 à 43 de la loi n° 78-17 relative à \nl'informatique, aux fichiers et aux libertés, le CRPV veillera à assurer la confidentialité des données\n mentionnées sur cette déclaration. Par ailleurs, le patient dispose d'un droit d'accès auprès du CRPV,\nlui permettant d'avoir connaissance de la totalité des informations saisies le concernant et de corriger \nd'éventuelles données inexactes, incomplètes ou équivoques.",
+        "heading": false,
+        "colspan": 6,
+        "source_page": 1,
+        "nest_contribution": false
+      }
+    ],
+    [
+      {
+        "text": "Patient traité",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1,
+        "nest_contribution": false
+      }
+    ],
+    [
+      {
+        "field": "f2",
+        "label": "Nom (3 premières lettres)",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f3",
+        "label": "Prénom (première lettre)",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f4",
+        "label": "Sexe",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f5",
+        "label": "Poids",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f6",
+        "label": "Taille",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f7",
+        "label": "Date de Naissance",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f8",
+        "label": "Age",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f9",
+        "label": "Si la déclaration concerne un nouveau-né, les médicaments ont été reçus :",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f10",
+        "label": "par le nouveau-né",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f11",
+        "label": "trimestre(s)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f12",
+        "label": "si disponible, indiquer la date des dernières règles",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f13",
+        "label": "Identification du professionnel de santé et coordonnées (code postal)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Antécédents du patient / Facteurs ayant pu favoriser la survenue de l’effet indésirable",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1,
+        "nest_contribution": false
+      }
+    ],
+    [
+      {
+        "field": "f14",
+        "label": "Antécédents du patient / Facteurs ayant pu favoriser la survenue de l’effet indésirable",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Médicament",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1,
+        "nest_contribution": false
+      }
+    ],
+    [
+      {
+        "text": "Médicament",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "text": "Voie d’administration",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "text": "Posologie",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "text": "Début d’utilisation",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "text": "Fin d’utilisation",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "text": "Indication",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f15",
+        "label": "Médicament",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f16",
+        "label": "Voie d’administration",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f17",
+        "label": "Posologie",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f18",
+        "label": "Début d’utilisation",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f19",
+        "label": "Fin d’utilisation",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f20",
+        "label": "Indication",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f21",
+        "label": "Médicament",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f22",
+        "label": "Voie d’administration",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f23",
+        "label": "Posologie",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f24",
+        "label": "Début d’utilisation",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f25",
+        "label": "Fin d’utilisation",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f26",
+        "label": "Indication",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f27",
+        "label": "Médicament",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f28",
+        "label": "Voie d’administration",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f29",
+        "label": "Posologie",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f30",
+        "label": "Début d’utilisation",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f31",
+        "label": "Fin d’utilisation",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f32",
+        "label": "Indication",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f33",
+        "label": "Médicament",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f34",
+        "label": "Voie d’administration",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f35",
+        "label": "Posologie",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f36",
+        "label": "Début d’utilisation",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f37",
+        "label": "Fin d’utilisation",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f38",
+        "label": "Indication",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f39",
+        "label": "Médicament",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f40",
+        "label": "Voie d’administration",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f41",
+        "label": "Posologie",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f42",
+        "label": "Début d’utilisation",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f43",
+        "label": "Fin d’utilisation",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f44",
+        "label": "Indication",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f45",
+        "label": "Médicament",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f46",
+        "label": "Voie d’administration",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f47",
+        "label": "Posologie",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f48",
+        "label": "Début d’utilisation",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f49",
+        "label": "Fin d’utilisation",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "field": "f50",
+        "label": "Indication",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Préciser si ATU ou RTU le cas échéant",
+        "heading": false,
+        "colspan": 6,
+        "source_page": 1,
+        "nest_contribution": false
+      }
+    ],
+    [
+      {
+        "text": "En cas d’administration de médicament(s) biologique(s) par exemple médicament dérivé du sang ou vaccin, indiquer leurs numéros de lot",
+        "heading": false,
+        "colspan": 6,
+        "source_page": 1,
+        "nest_contribution": false
+      }
+    ],
+    [
+      {
+        "field": "f51",
+        "label": "indiquer leurs numéros de lot",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f52",
+        "label": "Service hospitalier dans lequel le produit a été administré",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f53",
+        "label": "Pharmacie qui a délivré le produit",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "En cas d’administration associée de produits sanguins labiles",
+        "heading": false,
+        "colspan": 6,
+        "source_page": 1,
+        "nest_contribution": false
+      }
+    ],
+    [
+      {
+        "field": "f54",
+        "label": "préciser leurs dénominations ainsi que leurs numéros de lot",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f55",
+        "label": "Déclaration d’hémovigilance",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Effet",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1,
+        "nest_contribution": false
+      }
+    ],
+    [
+      {
+        "field": "f56",
+        "label": "Département de survenue",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f57",
+        "label": "Date de survenue",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f58",
+        "label": "Durée de l’effet",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Gravité",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1,
+        "nest_contribution": false
+      }
+    ],
+    [
+      {
+        "field": "f59",
+        "label": "Gravité",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Evolution",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1,
+        "nest_contribution": false
+      }
+    ],
+    [
+      {
+        "field": "f60",
+        "label": "Evolution",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f61",
+        "label": "Guérison",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f62",
+        "label": "Décès",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Nature et description de l’effet :\nUtiliser le cadre ci-après",
+        "heading": false,
+        "colspan": 6,
+        "source_page": 1,
+        "nest_contribution": false
+      }
+    ],
+    [
+      {
+        "text": "Description de l’effet indésirable",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 2,
+        "nest_contribution": false
+      }
+    ],
+    [
+      {
+        "field": "f63",
+        "label": "Description de l’effet indésirable",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Bien préciser la chronologie et l'évolution des troubles cliniques et biologiques avec les dates, par exemple : \n- après la survenue de l'effet indésirable, si un (ou plusieurs) médicament(s) ont été arrêtés (préciser lesquels) \n- s'il y a eu disparition de l'effet après arrêt du (ou des) médicament(s) (préciser lesquels) \n- si un ou plusieurs médicaments ont été réintroduit(s) (préciser lesquels) avec l'évolution de l'effet indésirable après réintroduction. \n \nJoindre une copie des pièces médicales disponibles (résultats d'examens bioloqiques, comptes rendus d'hospitalisation etc …)  \n \nLe cas échéant, préciser les conditions de su\nrvenue de l'eff et indésirable (cond itions nor males d'utilisation, erreur m édicamenteuse, surdosage, \nmésusage, abus, effet indésirable lié à une exposition professionnelle). \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nDescription de l’effet indésirable\n \nLes 31 Centres régionaux de pharmacovigilance sont à votre disposition pour toutes informations complémentaires sur le médicament, \nses effets indésirables, son utilisation et son bon usage.",
+        "heading": false,
+        "colspan": 6,
+        "source_page": 2,
+        "nest_contribution": false
+      }
+    ],
+    [
+      {
+        "text": "Les 31 Centres régionaux de pharmacovigilance sont à votre disposition pour toutes informations complémentaires sur le médicament, ses effets indésirables, son utilisation et son bon usage.",
+        "heading": false,
+        "colspan": 6,
+        "source_page": 2,
+        "nest_contribution": false
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f1",
+      "label": "Saisir les deux chiffres du département (ex : 01)",
+      "path": [
+        "Page 1",
+        "DÉCLARATION À ADRESSER AU CRPV DONT VOUS DEPENDEZ GÉOGRAPHIQUEMENT",
+        "Saisir les deux chiffres du département (ex : 01)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Saisir les deux chiffres du département (ex : 01)",
+      "synthetic_value": "69"
+    },
+    {
+      "id": "f2",
+      "label": "Nom (3 premières lettres)",
+      "path": [
+        "Page 1",
+        "Patient traité",
+        "Nom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom (3 premières lettres)",
+      "synthetic_value": "MOR"
+    },
+    {
+      "id": "f3",
+      "label": "Prénom (première lettre)",
+      "path": [
+        "Page 1",
+        "Patient traité",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Prénom (première lettre)",
+      "synthetic_value": "P"
+    },
+    {
+      "id": "f4",
+      "label": "Sexe",
+      "path": [
+        "Page 1",
+        "Patient traité",
+        "Sexe"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Sexe",
+      "synthetic_value": "M",
+      "options": [
+        "F",
+        "M"
+      ],
+      "context_evidence": "Patient traité / Sexe : M"
+    },
+    {
+      "id": "f5",
+      "label": "Poids",
+      "path": [
+        "Page 1",
+        "Patient traité",
+        "Poids"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Poids",
+      "synthetic_value": "78 kg"
+    },
+    {
+      "id": "f6",
+      "label": "Taille",
+      "path": [
+        "Page 1",
+        "Patient traité",
+        "Taille"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Taille",
+      "synthetic_value": "1,76 m"
+    },
+    {
+      "id": "f7",
+      "label": "Date de Naissance",
+      "path": [
+        "Page 1",
+        "Patient traité",
+        "Date de naissance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de Naissance",
+      "synthetic_value": "14/02/1978"
+    },
+    {
+      "id": "f8",
+      "label": "Age",
+      "path": [
+        "Page 1",
+        "Patient traité",
+        "Age"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Age",
+      "synthetic_value": "",
+      "source_condition": "Date de naissance renseignée ; ne pas utiliser le champ alternatif âge"
+    },
+    {
+      "id": "f9",
+      "label": "Si la déclaration concerne un nouveau-né, les médicaments ont été reçus :",
+      "path": [
+        "Page 1",
+        "Patient traité",
+        "Si la déclaration concerne un nouveau-né, les médicaments ont été reçus :"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "Si la déclaration concerne un nouveau-né, les médicaments ont été reçus :",
+      "synthetic_value": [],
+      "source_condition": "Si le patient est un nouveau-né",
+      "options": [
+        "par le nouveau-né",
+        "par la mère durant la grossesse",
+        "par le père"
+      ],
+      "context_evidence": "Patient traité / Si la déclaration concerne un nouveau-né, les médicaments ont été reçus : : aucune case retenue"
+    },
+    {
+      "id": "f10",
+      "label": "par le nouveau-né",
+      "path": [
+        "Page 1",
+        "Patient traité",
+        "par le nouveau-né"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "par le nouveau-né",
+      "synthetic_value": [],
+      "source_condition": "Si nouveau-né et médicament reçu par le nouveau-né",
+      "options": [
+        "directement",
+        "via l’allaitement"
+      ],
+      "context_evidence": "Patient traité / par le nouveau-né : aucune case retenue"
+    },
+    {
+      "id": "f11",
+      "label": "trimestre(s)",
+      "path": [
+        "Page 1",
+        "Patient traité",
+        "trimestre(s)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "trimestre(s)",
+      "synthetic_value": "",
+      "source_condition": "Si médicament reçu par la mère durant la grossesse"
+    },
+    {
+      "id": "f12",
+      "label": "si disponible, indiquer la date des dernières règles",
+      "path": [
+        "Page 1",
+        "Patient traité",
+        "si disponible, indiquer la date des dernières règles"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "si disponible, indiquer la date des dernières règles",
+      "synthetic_value": "",
+      "source_condition": "Si exposition maternelle durant la grossesse"
+    },
+    {
+      "id": "f13",
+      "label": "Identification du professionnel de santé et coordonnées (code postal)",
+      "path": [
+        "Page 1",
+        "Patient traité",
+        "Identification du professionnel de santé et coordonnées (code postal)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Identification du professionnel de santé et coordonnées (code postal)",
+      "synthetic_value": "Claire Garnier, pharmacienne, centre hospitalier fictif des Tilleuls, 18 rue des Tilleuls, 69003 Lyon, 04 00 00 00 11, claire.garnier@example.org"
+    },
+    {
+      "id": "f14",
+      "label": "Antécédents du patient / Facteurs ayant pu favoriser la survenue de l’effet indésirable",
+      "path": [
+        "Page 1",
+        "Antécédents du patient / Facteurs ayant pu favoriser la survenue de l’effet indésirable",
+        "Antécédents du patient / Facteurs ayant pu favoriser la survenue de l’effet indésirable"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Antécédents du patient / Facteurs ayant pu favoriser la survenue de l’effet indésirable",
+      "synthetic_value": "Hypertension traitée ; absence d’allergie médicamenteuse connue."
+    },
+    {
+      "id": "f15",
+      "label": "Médicament",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "1",
+        "Médicament"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Médicament",
+      "synthetic_value": "Amoxicilline (exemple fictif)"
+    },
+    {
+      "id": "f16",
+      "label": "Voie d’administration",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "1",
+        "Voie d’administration"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Voie d’administration",
+      "synthetic_value": "Orale"
+    },
+    {
+      "id": "f17",
+      "label": "Posologie",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "1",
+        "Posologie"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Posologie",
+      "synthetic_value": "500 mg trois fois par jour"
+    },
+    {
+      "id": "f18",
+      "label": "Début d’utilisation",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "1",
+        "Début d’utilisation"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Début d’utilisation",
+      "synthetic_value": "20/09/2026"
+    },
+    {
+      "id": "f19",
+      "label": "Fin d’utilisation",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "1",
+        "Fin d’utilisation"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fin d’utilisation",
+      "synthetic_value": "22/09/2026"
+    },
+    {
+      "id": "f20",
+      "label": "Indication",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "1",
+        "Indication"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Indication",
+      "synthetic_value": "Infection dentaire ; hors ATU/RTU",
+      "source_qualifier": "Préciser si ATU ou RTU le cas échéant"
+    },
+    {
+      "id": "f21",
+      "label": "Médicament",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "2",
+        "Médicament"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Médicament",
+      "synthetic_value": ""
+    },
+    {
+      "id": "f22",
+      "label": "Voie d’administration",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "2",
+        "Voie d’administration"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Voie d’administration",
+      "synthetic_value": ""
+    },
+    {
+      "id": "f23",
+      "label": "Posologie",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "2",
+        "Posologie"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Posologie",
+      "synthetic_value": ""
+    },
+    {
+      "id": "f24",
+      "label": "Début d’utilisation",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "2",
+        "Début d’utilisation"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Début d’utilisation",
+      "synthetic_value": ""
+    },
+    {
+      "id": "f25",
+      "label": "Fin d’utilisation",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "2",
+        "Fin d’utilisation"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fin d’utilisation",
+      "synthetic_value": ""
+    },
+    {
+      "id": "f26",
+      "label": "Indication",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "2",
+        "Indication"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Indication",
+      "synthetic_value": "",
+      "source_qualifier": "Préciser si ATU ou RTU le cas échéant"
+    },
+    {
+      "id": "f27",
+      "label": "Médicament",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "3",
+        "Médicament"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Médicament",
+      "synthetic_value": ""
+    },
+    {
+      "id": "f28",
+      "label": "Voie d’administration",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "3",
+        "Voie d’administration"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Voie d’administration",
+      "synthetic_value": ""
+    },
+    {
+      "id": "f29",
+      "label": "Posologie",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "3",
+        "Posologie"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Posologie",
+      "synthetic_value": ""
+    },
+    {
+      "id": "f30",
+      "label": "Début d’utilisation",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "3",
+        "Début d’utilisation"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Début d’utilisation",
+      "synthetic_value": ""
+    },
+    {
+      "id": "f31",
+      "label": "Fin d’utilisation",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "3",
+        "Fin d’utilisation"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fin d’utilisation",
+      "synthetic_value": ""
+    },
+    {
+      "id": "f32",
+      "label": "Indication",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "3",
+        "Indication"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Indication",
+      "synthetic_value": "",
+      "source_qualifier": "Préciser si ATU ou RTU le cas échéant"
+    },
+    {
+      "id": "f33",
+      "label": "Médicament",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "4",
+        "Médicament"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Médicament",
+      "synthetic_value": ""
+    },
+    {
+      "id": "f34",
+      "label": "Voie d’administration",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "4",
+        "Voie d’administration"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Voie d’administration",
+      "synthetic_value": ""
+    },
+    {
+      "id": "f35",
+      "label": "Posologie",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "4",
+        "Posologie"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Posologie",
+      "synthetic_value": ""
+    },
+    {
+      "id": "f36",
+      "label": "Début d’utilisation",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "4",
+        "Début d’utilisation"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Début d’utilisation",
+      "synthetic_value": ""
+    },
+    {
+      "id": "f37",
+      "label": "Fin d’utilisation",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "4",
+        "Fin d’utilisation"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fin d’utilisation",
+      "synthetic_value": ""
+    },
+    {
+      "id": "f38",
+      "label": "Indication",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "4",
+        "Indication"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Indication",
+      "synthetic_value": "",
+      "source_qualifier": "Préciser si ATU ou RTU le cas échéant"
+    },
+    {
+      "id": "f39",
+      "label": "Médicament",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "5",
+        "Médicament"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Médicament",
+      "synthetic_value": ""
+    },
+    {
+      "id": "f40",
+      "label": "Voie d’administration",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "5",
+        "Voie d’administration"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Voie d’administration",
+      "synthetic_value": ""
+    },
+    {
+      "id": "f41",
+      "label": "Posologie",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "5",
+        "Posologie"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Posologie",
+      "synthetic_value": ""
+    },
+    {
+      "id": "f42",
+      "label": "Début d’utilisation",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "5",
+        "Début d’utilisation"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Début d’utilisation",
+      "synthetic_value": ""
+    },
+    {
+      "id": "f43",
+      "label": "Fin d’utilisation",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "5",
+        "Fin d’utilisation"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fin d’utilisation",
+      "synthetic_value": ""
+    },
+    {
+      "id": "f44",
+      "label": "Indication",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "5",
+        "Indication"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Indication",
+      "synthetic_value": "",
+      "source_qualifier": "Préciser si ATU ou RTU le cas échéant"
+    },
+    {
+      "id": "f45",
+      "label": "Médicament",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "6",
+        "Médicament"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Médicament",
+      "synthetic_value": ""
+    },
+    {
+      "id": "f46",
+      "label": "Voie d’administration",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "6",
+        "Voie d’administration"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Voie d’administration",
+      "synthetic_value": ""
+    },
+    {
+      "id": "f47",
+      "label": "Posologie",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "6",
+        "Posologie"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Posologie",
+      "synthetic_value": ""
+    },
+    {
+      "id": "f48",
+      "label": "Début d’utilisation",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "6",
+        "Début d’utilisation"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Début d’utilisation",
+      "synthetic_value": ""
+    },
+    {
+      "id": "f49",
+      "label": "Fin d’utilisation",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "6",
+        "Fin d’utilisation"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fin d’utilisation",
+      "synthetic_value": ""
+    },
+    {
+      "id": "f50",
+      "label": "Indication",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "6",
+        "Indication"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Indication",
+      "synthetic_value": "",
+      "source_qualifier": "Préciser si ATU ou RTU le cas échéant"
+    },
+    {
+      "id": "f51",
+      "label": "indiquer leurs numéros de lot",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "indiquer leurs numéros de lot"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "indiquer leurs numéros de lot",
+      "synthetic_value": ""
+    },
+    {
+      "id": "f52",
+      "label": "Service hospitalier dans lequel le produit a été administré",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "Service"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Service hospitalier dans lequel le produit a été administré",
+      "synthetic_value": ""
+    },
+    {
+      "id": "f53",
+      "label": "Pharmacie qui a délivré le produit",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "Pharmacie"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Pharmacie qui a délivré le produit",
+      "synthetic_value": "Pharmacie fictive du Parc, Lyon"
+    },
+    {
+      "id": "f54",
+      "label": "préciser leurs dénominations ainsi que leurs numéros de lot",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "préciser leurs dénominations ainsi que leurs numéros de lot"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "préciser leurs dénominations ainsi que leurs numéros de lot",
+      "synthetic_value": "",
+      "source_condition": "En cas d’administration associée de produits sanguins labiles"
+    },
+    {
+      "id": "f55",
+      "label": "Déclaration d’hémovigilance",
+      "path": [
+        "Page 1",
+        "Médicament",
+        "Déclaration d’hémovigilance"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Déclaration d’hémovigilance",
+      "synthetic_value": "non",
+      "options": [
+        "oui",
+        "non"
+      ],
+      "context_evidence": "Médicament / Déclaration d’hémovigilance : non"
+    },
+    {
+      "id": "f56",
+      "label": "Département de survenue",
+      "path": [
+        "Page 1",
+        "Effet",
+        "Département"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Département de survenue",
+      "synthetic_value": "69"
+    },
+    {
+      "id": "f57",
+      "label": "Date de survenue",
+      "path": [
+        "Page 1",
+        "Effet",
+        "Date"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de survenue",
+      "synthetic_value": "22/09/2026"
+    },
+    {
+      "id": "f58",
+      "label": "Durée de l’effet",
+      "path": [
+        "Page 1",
+        "Effet",
+        "Durée"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Durée de l’effet",
+      "synthetic_value": "0,011 an (4 jours)"
+    },
+    {
+      "id": "f59",
+      "label": "Gravité",
+      "path": [
+        "Page 1",
+        "Gravité",
+        "Gravité"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "Gravité",
+      "synthetic_value": [
+        "Non grave"
+      ],
+      "options": [
+        "Hospitalisation ou prolongation d’hospitalisation",
+        "Incapacité ou invalidité permanente",
+        "Mise en jeu du pronostic vital",
+        "Décès",
+        "Anomalie ou malformation congénitale",
+        "Autre situation médicale grave",
+        "Non grave"
+      ],
+      "context_evidence": "Gravité / Gravité : Non grave"
+    },
+    {
+      "id": "f60",
+      "label": "Evolution",
+      "path": [
+        "Page 1",
+        "Evolution",
+        "Evolution"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Evolution",
+      "synthetic_value": "Guérison",
+      "options": [
+        "Guérison",
+        "Sujet non encore rétabli",
+        "Décès",
+        "Inconnue"
+      ],
+      "context_evidence": "Evolution / Evolution : Guérison"
+    },
+    {
+      "id": "f61",
+      "label": "Guérison",
+      "path": [
+        "Page 1",
+        "Evolution",
+        "Guérison"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Guérison",
+      "synthetic_value": "sans séquelle",
+      "source_condition": "Si Guérison",
+      "options": [
+        "sans séquelle",
+        "avec séquelles",
+        "en cours"
+      ],
+      "context_evidence": "Evolution / Guérison : sans séquelle"
+    },
+    {
+      "id": "f62",
+      "label": "Décès",
+      "path": [
+        "Page 1",
+        "Evolution",
+        "Décès"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "Décès",
+      "synthetic_value": [],
+      "source_condition": "Si Décès",
+      "options": [
+        "dû à l’effet",
+        "auquel l’effet a pu contribuer",
+        "sans rapport avec l’effet"
+      ],
+      "context_evidence": "Evolution / Décès : aucune case retenue"
+    },
+    {
+      "id": "f63",
+      "label": "Description de l’effet indésirable",
+      "path": [
+        "Page 2",
+        "Description de l’effet indésirable",
+        "Description de l’effet indésirable"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Bien préciser la chronologie et l'évolution des troubles cliniques et biologiques avec les dates, par exemple :",
+      "synthetic_value": "Éruption cutanée apparue le 22/09/2026 après deux jours de traitement par amoxicilline. Traitement arrêté le même jour. Régression complète le 26/09/2026, sans séquelle. Aucun médicament réintroduit. Utilisation aux doses prescrites, sans erreur, surdosage ou mésusage.",
+      "pdf_caption_evidence": {
+        "page": 2,
+        "widget_name": "topmostSubform[0].Page2[0].Description_effet_indésirable[0]",
+        "detail": "Printed caption visible in original page-2.png, above the native instructions. Caption is XFA appearance content, absent from get_text; same-page instruction serves as native anchor."
+      }
+    }
+  ],
+  "synthetic_context": true,
+  "source_notice": "Exemple fictif. Les personnes, établissements et données renseignées sont synthétiques.",
+  "context": "Situation fictive ; aucun dossier réel.\nDÉCLARATION À ADRESSER AU CRPV DONT VOUS DEPENDEZ GÉOGRAPHIQUEMENT / Saisir les deux chiffres du département (ex : 01) : 69.\nPatient traité / Nom : MOR.\nPatient traité / Prénom : P.\nPatient traité / Sexe : M.\nPatient traité / Poids : 78 kg.\nPatient traité / Taille : 1,76 m.\nPatient traité / Date de naissance : 14/02/1978.\nPatient traité / Age : champ laissé vide.\nPatient traité / Si la déclaration concerne un nouveau-né, les médicaments ont été reçus : : aucune case retenue.\nPatient traité / par le nouveau-né : aucune case retenue.\nPatient traité / trimestre(s) : champ laissé vide.\nPatient traité / si disponible, indiquer la date des dernières règles : champ laissé vide.\nPatient traité / Identification du professionnel de santé et coordonnées (code postal) : Claire Garnier, pharmacienne, centre hospitalier fictif des Tilleuls, 18 rue des Tilleuls, 69003 Lyon, 04 00 00 00 11, claire.garnier@example.org.\nAntécédents du patient / Facteurs ayant pu favoriser la survenue de l’effet indésirable / Antécédents du patient / Facteurs ayant pu favoriser la survenue de l’effet indésirable : Hypertension traitée ; absence d’allergie médicamenteuse connue..\nMédicament / 1 / Médicament : Amoxicilline (exemple fictif).\nMédicament / 1 / Voie d’administration : Orale.\nMédicament / 1 / Posologie : 500 mg trois fois par jour.\nMédicament / 1 / Début d’utilisation : 20/09/2026.\nMédicament / 1 / Fin d’utilisation : 22/09/2026.\nMédicament / 1 / Indication : Infection dentaire ; hors ATU/RTU.\nMédicament / 2 / Médicament : champ laissé vide.\nMédicament / 2 / Voie d’administration : champ laissé vide.\nMédicament / 2 / Posologie : champ laissé vide.\nMédicament / 2 / Début d’utilisation : champ laissé vide.\nMédicament / 2 / Fin d’utilisation : champ laissé vide.\nMédicament / 2 / Indication : champ laissé vide.\nMédicament / 3 / Médicament : champ laissé vide.\nMédicament / 3 / Voie d’administration : champ laissé vide.\nMédicament / 3 / Posologie : champ laissé vide.\nMédicament / 3 / Début d’utilisation : champ laissé vide.\nMédicament / 3 / Fin d’utilisation : champ laissé vide.\nMédicament / 3 / Indication : champ laissé vide.\nMédicament / 4 / Médicament : champ laissé vide.\nMédicament / 4 / Voie d’administration : champ laissé vide.\nMédicament / 4 / Posologie : champ laissé vide.\nMédicament / 4 / Début d’utilisation : champ laissé vide.\nMédicament / 4 / Fin d’utilisation : champ laissé vide.\nMédicament / 4 / Indication : champ laissé vide.\nMédicament / 5 / Médicament : champ laissé vide.\nMédicament / 5 / Voie d’administration : champ laissé vide.\nMédicament / 5 / Posologie : champ laissé vide.\nMédicament / 5 / Début d’utilisation : champ laissé vide.\nMédicament / 5 / Fin d’utilisation : champ laissé vide.\nMédicament / 5 / Indication : champ laissé vide.\nMédicament / 6 / Médicament : champ laissé vide.\nMédicament / 6 / Voie d’administration : champ laissé vide.\nMédicament / 6 / Posologie : champ laissé vide.\nMédicament / 6 / Début d’utilisation : champ laissé vide.\nMédicament / 6 / Fin d’utilisation : champ laissé vide.\nMédicament / 6 / Indication : champ laissé vide.\nMédicament / indiquer leurs numéros de lot : champ laissé vide.\nMédicament / Service : champ laissé vide.\nMédicament / Pharmacie : Pharmacie fictive du Parc, Lyon.\nMédicament / préciser leurs dénominations ainsi que leurs numéros de lot : champ laissé vide.\nMédicament / Déclaration d’hémovigilance : non.\nEffet / Département : 69.\nEffet / Date : 22/09/2026.\nEffet / Durée : 0,011 an (4 jours).\nGravité / Gravité : Non grave.\nEvolution / Evolution : Guérison.\nEvolution / Guérison : sans séquelle.\nEvolution / Décès : aucune case retenue.\nDescription de l’effet indésirable / Description de l’effet indésirable : Éruption cutanée apparue le 22/09/2026 après deux jours de traitement par amoxicilline. Traitement arrêté le même jour. Régression complète le 26/09/2026, sans séquelle. Aucun médicament réintroduit. Utilisation aux doses prescrites, sans erreur, surdosage ou mésusage..",
+  "source_credit_details": {
+    "source_sha256": "f22e00735af73c976a8c933f84782d076065682483a673f4a7cb8c96e7254ffc",
+    "issuer_attachment_date": "2021-11-24"
+  },
+  "workflow_identity": {
+    "language": "fr",
+    "id": 42
+  }
+}

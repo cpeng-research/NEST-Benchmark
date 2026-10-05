@@ -1,0 +1,43 @@
+{
+  "extension_id": "2026-10-ukhsa-flu-en-v0.1",
+  "added_on": "2026-10-05",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 1,
+  "samples": [
+    {
+      "id": 424,
+      "language": "en",
+      "title": "Flu vaccination consent form, 2026 to 2027",
+      "source_id": "en-ukhsa-school-flu-consent-2026",
+      "domain": "Healthcare",
+      "issuer_id": "UKHSA",
+      "template_family": "ukhsa-school-flu-consent-2026",
+      "source_pages": 2,
+      "source_sha256": "c978a0bc35ed6cb7d8c17ae21b00f812107709e1d6c6646f91db23e8bdbab900",
+      "fields": 49,
+      "files": {
+        "workflow/0-html_template/data_en/424.html": "3ab2dbedb3671eec6ce31cb99d102f763b619a66bbc0ce4eac56edd678f967bf",
+        "workflow/1-annotated_json/data_en/424.json": "213819014decb8ec049dc7e6814ae085479227cc02b76ab0f5d3cfd56a115fb1",
+        "workflow/2-filled_json-a/data_en/424.json": "d27f55e858079192cf7c5bb8da6a8fc84eb35e5d71f421cf22e7015a492fa029",
+        "workflow/3-filled_html-a/data_en/424.html": "91d40e194094224cdef7fdbe4cc7d7a621948f9021266dae4eb2b19e0bd0c741",
+        "workflow/4-context-a/data_en/424.txt": "f2b374dd340ba6e697dddbd2e7fac65a8d3d6a88e7055848c6e462d312e70ff5",
+        "workflow/5-ph_html-a/data_en/424.html": "ad334a894edf0dd7697698dd02566cb5b45a9bfbd75fbb4c29420538e5e55b8b",
+        "workflow/6-meta-a/data_en/424.json": "ae1066aa5ec6bd23e4de239c29841f185e3861ff8906223b3ea4e4cfbadd825d"
+      },
+      "annotation_path": "data/annotations/en/424.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}

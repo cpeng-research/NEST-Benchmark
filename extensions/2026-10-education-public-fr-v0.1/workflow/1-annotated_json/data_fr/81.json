@@ -1,0 +1,63 @@
+{
+  "Titulaire (ou demandeur) de la carte d’identification": {
+    "Nom(s)": "",
+    "Adresse": "",
+    "Téléphone": "",
+    "Courriel": ""
+  },
+  "Demande de LSA": {
+    "Demande d’une nouvelle LSA": {
+      "choices": [
+        "Demande d’une nouvelle LSA",
+        "Demande relative à une LSA existante"
+      ],
+      "value": []
+    }
+  },
+  "Demande d’une nouvelle LSA": {
+    "Marques d’identification": "",
+    "Autres marques": "",
+    "Constructeur, modèle": "",
+    "N° de série (si applicable)": ""
+  },
+  "Demande relative à une LSA existante": {
+    "Indicatif d’appel": "",
+    "ULM actuellement listé(s*) sur la LSA": "",
+    "Je demande": {
+      "choices": [
+        "Le renouvellement de la LSA",
+        "La modification de la liste des émetteurs",
+        "La mise à jour du champ « titulaire »",
+        "La mise à jour de l’ULM"
+      ],
+      "value": []
+    },
+    "l’adresse 24 bits doit être conservée": {
+      "choices": [
+        "l’adresse 24 bits doit être conservée",
+        "l’adresse 24 bits peut être désassociée de l’ULM"
+      ],
+      "value": []
+    },
+    "ULM à supprimer de la LSA": "",
+    "ULM déjà identifié(s)": "",
+    "ULM en cours d'identification": {
+      "Constructeur, modèle": "",
+      "N° de série": ""
+    }
+  },
+  "Signature": {
+    "Date": "",
+    "Nom, prénom, signature": ""
+  },
+  "Documents à joindre": {
+    "Documents à joindre": {
+      "choices": [
+        "attestation de conformité R8-ULM-F402  de moins de 2 mois, signée par un atelier agréé",
+        "attestation de conformité R8-ULM-F402  de moins de 2 mois, signée par le titulaire",
+        "accord de l’ancien titulaire"
+      ],
+      "value": []
+    }
+  }
+}

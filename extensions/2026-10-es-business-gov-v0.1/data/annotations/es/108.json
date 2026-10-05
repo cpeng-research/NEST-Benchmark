@@ -1,0 +1,465 @@
+{
+  "id": "es-108-aaip-informacion",
+  "language": "es",
+  "domain": "GovPublic",
+  "business_topic": "Solicitud de información pública",
+  "title": "Solicitud de información pública",
+  "issuer_id": "Agencia de Acceso a la Información Pública",
+  "template_family": "aaip-informacion",
+  "source_pages": 2,
+  "source_sha256": "f282016c7aa7220b6ba57a7ec80f5237e3166b345467aee66985d0e723ff0d0d",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/2018/01/formulario_solicitud_2024.pdf",
+  "landing_url": "https://www.argentina.gob.ar/solicitar-informacion-publica",
+  "license_url": "https://www.argentina.gob.ar/acerca",
+  "license_note": "Argentina.gob.ar states CC BY 4.0 for its published material. Normalized text and form structure only; no PDF artwork, logo or official endorsement. Third-party or contrary notices are not overridden.",
+  "retrieved_at": "2026-10-05",
+  "source_version": "2024 file label; no printed revision",
+  "source_date_evidence": {
+    "kind": "PDF file ModDate",
+    "value": "2024-05-23",
+    "raw": "D:20240523175924+02'00'",
+    "scope": "PDF file metadata only; not an official publication, effective, or current-version date.",
+    "version_basis": "The official PDF filename and PDF metadata title contain 2024; this is a file label, not a verified issue date.",
+    "retrieval_timestamp_utc": "2026-10-04T18:02:06.298243+00:00"
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "Solicitud de información",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Datos de la persona solicitante",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "fecha",
+        "field": "f001",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nombre",
+        "field": "f002",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "DNI",
+        "field": "f003",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Domicilio",
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Localidad",
+        "field": "f005",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Provincia",
+        "field": "f006",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "CP",
+        "field": "f007",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "País",
+        "field": "f008",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Teléfono",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Correo electrónico",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "¿Qué querés saber?",
+        "field": "f011",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "¿Qué organismo suponés que tiene la información?",
+        "field": "f012",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Datos estadísticos (opcional)",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Edad",
+        "field": "f013",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Género",
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Sector",
+        "field": "f015",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Otro (indicar cuál)",
+        "field": "f016",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Profesión",
+        "field": "f017",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Máximo nivel de estudios alcanzados",
+        "field": "f018",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "fecha",
+      "path": [
+        "Página 1",
+        "Datos de la persona solicitante",
+        "fecha"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "fecha",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "f002",
+      "label": "Nombre",
+      "path": [
+        "Página 1",
+        "Datos de la persona solicitante",
+        "Nombre"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre",
+      "synthetic_value": "María Ejemplo"
+    },
+    {
+      "id": "f003",
+      "label": "DNI",
+      "path": [
+        "Página 1",
+        "Datos de la persona solicitante",
+        "DNI"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DNI",
+      "synthetic_value": "00000000"
+    },
+    {
+      "id": "f004",
+      "label": "Domicilio",
+      "path": [
+        "Página 1",
+        "Datos de la persona solicitante",
+        "Domicilio"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Domicilio",
+      "synthetic_value": "Calle Ficticia 15"
+    },
+    {
+      "id": "f005",
+      "label": "Localidad",
+      "path": [
+        "Página 1",
+        "Datos de la persona solicitante",
+        "Localidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Localidad",
+      "synthetic_value": "Córdoba"
+    },
+    {
+      "id": "f006",
+      "label": "Provincia",
+      "path": [
+        "Página 1",
+        "Datos de la persona solicitante",
+        "Provincia"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Provincia",
+      "synthetic_value": "Córdoba"
+    },
+    {
+      "id": "f007",
+      "label": "CP",
+      "path": [
+        "Página 1",
+        "Datos de la persona solicitante",
+        "CP"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CP",
+      "synthetic_value": "5000"
+    },
+    {
+      "id": "f008",
+      "label": "País",
+      "path": [
+        "Página 1",
+        "Datos de la persona solicitante",
+        "País"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "País",
+      "synthetic_value": "Argentina"
+    },
+    {
+      "id": "f009",
+      "label": "Teléfono",
+      "path": [
+        "Página 1",
+        "Datos de la persona solicitante",
+        "Teléfono"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Teléfono",
+      "synthetic_value": "351 400 0000"
+    },
+    {
+      "id": "f010",
+      "label": "Correo electrónico",
+      "path": [
+        "Página 1",
+        "Datos de la persona solicitante",
+        "Correo electrónico"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Correo electrónico",
+      "synthetic_value": "maria@example.org"
+    },
+    {
+      "id": "f011",
+      "label": "¿Qué querés saber?",
+      "path": [
+        "Página 1",
+        "Solicitud",
+        "¿Qué querés saber?"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "¿Qué querés saber?",
+      "synthetic_value": "Solicito información ficticia sobre el expediente de ejemplo durante 2025, por correo electrónico."
+    },
+    {
+      "id": "f012",
+      "label": "¿Qué organismo suponés que tiene la información?",
+      "path": [
+        "Página 2",
+        "Solicitud",
+        "¿Qué organismo suponés que tiene la información?"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "¿Qué organismo suponés que tiene la información?",
+      "synthetic_value": "Organismo ficticio de referencia"
+    },
+    {
+      "id": "f013",
+      "label": "Edad",
+      "path": [
+        "Página 2",
+        "Datos estadísticos (opcional)",
+        "Edad"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Edad",
+      "synthetic_value": "34"
+    },
+    {
+      "id": "f014",
+      "label": "Género",
+      "path": [
+        "Página 2",
+        "Datos estadísticos (opcional)",
+        "Género"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Género",
+      "synthetic_value": "Mujer"
+    },
+    {
+      "id": "f015",
+      "label": "Sector",
+      "path": [
+        "Página 2",
+        "Datos estadísticos (opcional)",
+        "Sector"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 2,
+      "source_anchor": "Sector",
+      "synthetic_value": [
+        "Particular"
+      ],
+      "options": [
+        "ONG",
+        "Medio de comunicación",
+        "Empresa",
+        "Estudiante",
+        "Sindicato",
+        "Institución pública",
+        "Partido político",
+        "Docente/investigador",
+        "Particular",
+        "Senador/diputado"
+      ],
+      "context_evidence": "Datos estadísticos (opcional) / Sector: Particular"
+    },
+    {
+      "id": "f016",
+      "label": "Otro (indicar cuál)",
+      "path": [
+        "Página 2",
+        "Datos estadísticos (opcional)",
+        "Otro (indicar cuál)"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Otro (indicar cuál)",
+      "synthetic_value": "No aplica"
+    },
+    {
+      "id": "f017",
+      "label": "Profesión",
+      "path": [
+        "Página 2",
+        "Datos estadísticos (opcional)",
+        "Profesión"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Profesión",
+      "synthetic_value": "Docente"
+    },
+    {
+      "id": "f018",
+      "label": "Máximo nivel de estudios alcanzados",
+      "path": [
+        "Página 2",
+        "Datos estadísticos (opcional)",
+        "Máximo nivel de estudios alcanzados"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Máximo nivel de estudios alcanzados",
+      "synthetic_value": [
+        "Universitario completo"
+      ],
+      "options": [
+        "No informa",
+        "Primaria incompleta",
+        "Primaria Completa",
+        "Secundario incompleto",
+        "Secundario completo",
+        "Terciario incompleto",
+        "Terciario completo",
+        "Universitario incompleto",
+        "Universitario completo",
+        "Posgrado incompleto",
+        "Posgrado completo"
+      ],
+      "context_evidence": "Datos estadísticos (opcional) / Máximo nivel de estudios alcanzados: Universitario completo"
+    }
+  ],
+  "context": "Datos ficticios de prueba; no corresponde a una solicitud real.\nDatos de la persona solicitante / fecha: 05/10/2026\nDatos de la persona solicitante / Nombre: María Ejemplo\nDatos de la persona solicitante / DNI: 00000000\nDatos de la persona solicitante / Domicilio: Calle Ficticia 15\nDatos de la persona solicitante / Localidad: Córdoba\nDatos de la persona solicitante / Provincia: Córdoba\nDatos de la persona solicitante / CP: 5000\nDatos de la persona solicitante / País: Argentina\nDatos de la persona solicitante / Teléfono: 351 400 0000\nDatos de la persona solicitante / Correo electrónico: maria@example.org\nSolicitud / ¿Qué querés saber?: Solicito información ficticia sobre el expediente de ejemplo durante 2025, por correo electrónico.\nSolicitud / ¿Qué organismo suponés que tiene la información?: Organismo ficticio de referencia\nDatos estadísticos (opcional) / Edad: 34\nDatos estadísticos (opcional) / Género: Mujer\nDatos estadísticos (opcional) / Sector: Particular\nDatos estadísticos (opcional) / Otro (indicar cuál): No aplica\nDatos estadísticos (opcional) / Profesión: Docente\nDatos estadísticos (opcional) / Máximo nivel de estudios alcanzados: Universitario completo\n",
+  "workflow_identity": {
+    "language": "es",
+    "id": 108
+  }
+}

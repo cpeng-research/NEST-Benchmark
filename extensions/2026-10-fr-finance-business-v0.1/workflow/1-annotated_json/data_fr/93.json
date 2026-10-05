@@ -1,0 +1,70 @@
+{
+  "Page 1": {
+    "Mois concerné par la déclaration": {
+      "Veuillez indiquer le mois": ""
+    },
+    "Identification du redevable": {
+      "Redevable": {
+        "Nom et prénoms": "",
+        "Nom de famille": "",
+        "Adresse": "",
+        "Date et lieu de naissance": ""
+      }
+    },
+    "Identification du déclarant": {
+      "Dénomination": "",
+      "Adresse de l’établissement": "",
+      "N° d’identification": ""
+    },
+    "Paiement, date et signature": {
+      "Somme à payer": "",
+      "Mode de paiement": {
+        "choices": [
+          "Numéraire",
+          "Chèque bancaire barré",
+          "Virement sur le compte du Trésor"
+        ],
+        "value": []
+      },
+      "Déclaration": {
+        "Date": "",
+        "Signature": ""
+      }
+    }
+  },
+  "Page 2": {
+    "1 - Revenus distribués soumis au prélèvement forfaitaire": {
+      "Base imposable IK": {
+        "Revenus distribués": ""
+      },
+      "Impôt": {
+        "IL": ""
+      }
+    },
+    "2 - Impatriés, revenus distribués exonérés": {
+      "EA": {
+        "Montant des revenus distribués exonérés": ""
+      }
+    },
+    "3 - Contributions et prélèvements sociaux": {
+      "PQ": {
+        "Contribution sociale généralisée": ""
+      },
+      "PV": {
+        "CRDS": ""
+      },
+      "PF": {
+        "SOUS-TOTAL": ""
+      },
+      "PG": {
+        "Prélèvement de solidarité": ""
+      },
+      "PT": {
+        "TOTAL": ""
+      },
+      "QR": {
+        "MONTANT DE L’IMPÔT À PAYER": ""
+      }
+    }
+  }
+}

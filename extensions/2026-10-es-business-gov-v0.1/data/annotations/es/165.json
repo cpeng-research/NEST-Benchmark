@@ -1,0 +1,436 @@
+{
+  "id": "es-165-senasa-catem-rt",
+  "language": "es",
+  "domain": "GovPublic",
+  "business_topic": "Solicitud de inscripción de profesionales para CATEM, HOSETRAM y FEM",
+  "title": "Solicitud de inscripción de profesionales para CATEM, HOSETRAM y FEM",
+  "issuer_id": "SENASA",
+  "template_family": "senasa-catem-rt",
+  "source_pages": 1,
+  "source_sha256": "388acae6b90446ac8adabb4868e4b5b5c2e935cd6e50e9b5c3ebcb2ec541b059",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/anexo_4_-_inscripcion_rt_0.pdf",
+  "landing_url": "https://www.argentina.gob.ar/servicio/embalajes-de-madera-inscripcionreinscripcion-de-responsables-tecnicos-de-centros-de",
+  "license_url": "https://www.argentina.gob.ar/acerca",
+  "license_note": "Argentina.gob.ar states CC BY 4.0 for its published material. Normalized text and form structure only; no artwork or official endorsement. Contrary notices and third-party content require separate screening.",
+  "retrieved_at": "2026-10-05",
+  "source_version": "Anexo IV; C.432",
+  "source_date_evidence": {
+    "kind": "PDF file ModDate",
+    "value": "2018-06-07",
+    "raw": "D:20180607094058-03'00'",
+    "scope": "PDF file metadata only; not an official publication, effective, or current-version date.",
+    "version_basis": "ANEXO IV and C.432 are printed in the SENASA PDF; no revision date is printed.",
+    "retrieval_timestamp_utc": "2026-10-04T18:40:55.600983+00:00"
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "SOLICITUD DE INSCRIPCIÓN AL REGISTRO DE SENASA DE PROFESIONALES PARA CATEM - HOSETRAM - FEM",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "INSCRIPCIÓN N°",
+        "field": "f001",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Apellido/s y Nombre/s",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "DNI Nº",
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Domicilio Legal",
+        "field": "f004",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Nº",
+        "field": "f005",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Piso",
+        "field": "f006",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Dpto.",
+        "field": "f007",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Localidad",
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Provincia",
+        "field": "f009",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "C. Postal",
+        "field": "f010",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Tel./Fax:",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Correo Electrónico.",
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Título Profesional",
+        "field": "f013",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Expedido por",
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Matrícula Profesional N°",
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Firma",
+        "field": "f016",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "CERTIFICACIÓN",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Certifico que la firma que antecede fue efectuada en mi presencia.",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Lugar y Fecha",
+        "field": "f017",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Firma y sello",
+        "field": "f018",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "INSCRIPCIÓN N°",
+      "path": [
+        "Página 1",
+        "Reservado SENASA",
+        "INSCRIPCIÓN N°"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "INSCRIPCIÓN N°",
+      "synthetic_value": "INS-0001",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f002",
+      "label": "Apellido/s y Nombre/s",
+      "path": [
+        "Página 1",
+        "Datos personales",
+        "Apellido/s y Nombre/s"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Apellido/s y Nombre/s",
+      "synthetic_value": "Lucía Pérez",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f003",
+      "label": "DNI Nº",
+      "path": [
+        "Página 1",
+        "Datos personales",
+        "DNI Nº"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DNI Nº",
+      "synthetic_value": "00000001",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f004",
+      "label": "Domicilio Legal",
+      "path": [
+        "Página 1",
+        "Domicilio Legal",
+        "Domicilio Legal"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Domicilio Legal",
+      "synthetic_value": "Calle Ficticia",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f005",
+      "label": "Nº",
+      "path": [
+        "Página 1",
+        "Domicilio Legal",
+        "Nº"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nº",
+      "synthetic_value": "120",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f006",
+      "label": "Piso",
+      "path": [
+        "Página 1",
+        "Domicilio Legal",
+        "Piso"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Piso",
+      "synthetic_value": "2",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f007",
+      "label": "Dpto.",
+      "path": [
+        "Página 1",
+        "Domicilio Legal",
+        "Dpto."
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dpto.",
+      "synthetic_value": "A",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f008",
+      "label": "Localidad",
+      "path": [
+        "Página 1",
+        "Domicilio Legal",
+        "Localidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Localidad",
+      "synthetic_value": "Córdoba",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f009",
+      "label": "Provincia",
+      "path": [
+        "Página 1",
+        "Domicilio Legal",
+        "Provincia"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Provincia",
+      "synthetic_value": "Córdoba",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f010",
+      "label": "C. Postal",
+      "path": [
+        "Página 1",
+        "Domicilio Legal",
+        "C. Postal"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "C. Postal",
+      "synthetic_value": "5000",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f011",
+      "label": "Tel./Fax:",
+      "path": [
+        "Página 1",
+        "Contacto",
+        "Tel./Fax:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Tel./Fax:",
+      "synthetic_value": "0351 4000000",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f012",
+      "label": "Correo Electrónico.",
+      "path": [
+        "Página 1",
+        "Contacto",
+        "Correo Electrónico."
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Correo Electrónico.",
+      "synthetic_value": "lucia@example.org",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f013",
+      "label": "Título Profesional",
+      "path": [
+        "Página 1",
+        "Profesión",
+        "Título Profesional"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Título Profesional",
+      "synthetic_value": "Ingeniera agrónoma",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f014",
+      "label": "Expedido por",
+      "path": [
+        "Página 1",
+        "Profesión",
+        "Expedido por"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Expedido por",
+      "synthetic_value": "Universidad de Ejemplo",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f015",
+      "label": "Matrícula Profesional N°",
+      "path": [
+        "Página 1",
+        "Profesión",
+        "Matrícula Profesional N°"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Matrícula Profesional N°",
+      "synthetic_value": "MAT-0001",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f016",
+      "label": "Firma",
+      "path": [
+        "Página 1",
+        "Declaración jurada",
+        "Firma"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Firma",
+      "synthetic_value": "Firma ficticia",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f017",
+      "label": "Lugar y Fecha",
+      "path": [
+        "Página 1",
+        "Certificación",
+        "Lugar y Fecha"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Lugar y Fecha",
+      "synthetic_value": "Córdoba, 05/10/2026",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f018",
+      "label": "Firma y sello",
+      "path": [
+        "Página 1",
+        "Certificación",
+        "Firma y sello"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Firma y sello",
+      "synthetic_value": "Firma y sello ficticios",
+      "source_visible_blank": true
+    }
+  ],
+  "context": "Datos ficticios de prueba; no corresponde a una solicitud real.\nReservado SENASA / INSCRIPCIÓN N°: INS-0001\nDatos personales / Apellido/s y Nombre/s: Lucía Pérez\nDatos personales / DNI Nº: 00000001\nDomicilio Legal / Domicilio Legal: Calle Ficticia\nDomicilio Legal / Nº: 120\nDomicilio Legal / Piso: 2\nDomicilio Legal / Dpto.: A\nDomicilio Legal / Localidad: Córdoba\nDomicilio Legal / Provincia: Córdoba\nDomicilio Legal / C. Postal: 5000\nContacto / Tel./Fax:: 0351 4000000\nContacto / Correo Electrónico.: lucia@example.org\nProfesión / Título Profesional: Ingeniera agrónoma\nProfesión / Expedido por: Universidad de Ejemplo\nProfesión / Matrícula Profesional N°: MAT-0001\nDeclaración jurada / Firma: Firma ficticia\nCertificación / Lugar y Fecha: Córdoba, 05/10/2026\nCertificación / Firma y sello: Firma y sello ficticios\n",
+  "workflow_identity": {
+    "language": "es",
+    "id": 165
+  }
+}

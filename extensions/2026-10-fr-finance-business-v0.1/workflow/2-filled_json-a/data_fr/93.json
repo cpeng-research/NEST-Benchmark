@@ -1,0 +1,72 @@
+{
+  "Page 1": {
+    "Mois concerné par la déclaration": {
+      "Veuillez indiquer le mois": "09/2026"
+    },
+    "Identification du redevable": {
+      "Redevable": {
+        "Nom et prénoms": "Camille Martin",
+        "Nom de famille": "Martin",
+        "Adresse": "12 rue Exemple, 69002 Lyon",
+        "Date et lieu de naissance": "15/03/1990, Lyon"
+      }
+    },
+    "Identification du déclarant": {
+      "Dénomination": "Mandataire Fiscal Exemple SAS",
+      "Adresse de l’établissement": "8 rue du Port, 69002 Lyon",
+      "N° d’identification": "CONV-0093"
+    },
+    "Paiement, date et signature": {
+      "Somme à payer": "412",
+      "Mode de paiement": {
+        "choices": [
+          "Numéraire",
+          "Chèque bancaire barré",
+          "Virement sur le compte du Trésor"
+        ],
+        "value": [
+          "Virement sur le compte du Trésor"
+        ]
+      },
+      "Déclaration": {
+        "Date": "05/10/2026",
+        "Signature": "Camille Martin"
+      }
+    }
+  },
+  "Page 2": {
+    "1 - Revenus distribués soumis au prélèvement forfaitaire": {
+      "Base imposable IK": {
+        "Revenus distribués": "1000"
+      },
+      "Impôt": {
+        "IL": "128"
+      }
+    },
+    "2 - Impatriés, revenus distribués exonérés": {
+      "EA": {
+        "Montant des revenus distribués exonérés": "1000"
+      }
+    },
+    "3 - Contributions et prélèvements sociaux": {
+      "PQ": {
+        "Contribution sociale généralisée": "212"
+      },
+      "PV": {
+        "CRDS": "10"
+      },
+      "PF": {
+        "SOUS-TOTAL": "222"
+      },
+      "PG": {
+        "Prélèvement de solidarité": "150"
+      },
+      "PT": {
+        "TOTAL": "372"
+      },
+      "QR": {
+        "MONTANT DE L’IMPÔT À PAYER": "500"
+      }
+    }
+  }
+}

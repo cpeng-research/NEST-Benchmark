@@ -1,0 +1,237 @@
+{
+  "id": "es-178-sipro-administrador",
+  "language": "es",
+  "domain": "Business",
+  "business_topic": "Acta de Administrador Legitimado",
+  "title": "Acta de Administrador Legitimado",
+  "issuer_id": "Oficina Nacional de Contrataciones",
+  "template_family": "sipro-administrador",
+  "source_pages": 1,
+  "source_sha256": "44920a6c58259da24b9b59f94ebad25622035611fbdf97f29b79514ddc647dac",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/administrador-legitimado.pdf",
+  "landing_url": "https://www.argentina.gob.ar/servicio/inscripcion-en-el-sistema-de-proveedores-del-estado",
+  "license_url": "https://www.argentina.gob.ar/acerca",
+  "license_note": "Argentina.gob.ar states CC BY 4.0 for its published material. Normalized text and form structure only; no artwork or official endorsement. Contrary notices and third-party content require separate screening.",
+  "retrieved_at": "2026-10-05",
+  "source_version": "No version stated",
+  "source_date_evidence": {
+    "kind": "PDF file ModDate",
+    "value": "2020-01-03",
+    "raw": "D:20200103142840-03'00'",
+    "scope": "PDF file metadata only; not an official publication, effective, or current-version date.",
+    "version_basis": "The SIPRO PDF bears a 2020 year designation and has 2020 file metadata, but no revision code is printed.",
+    "retrieval_timestamp_utc": "2026-10-04T18:40:55.744365+00:00"
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "ANEXO",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "A los",
+        "field": "f001",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Administrador Legitimado Sr./a.",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "D.N.I.",
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "nacionalidad",
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "calle",
+        "field": "f005",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "ciudad",
+        "field": "f006",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "representación de",
+        "field": "f007",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "C.U.I.T./NIT",
+        "field": "f008",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Administrador Legitimado",
+        "field": "f009",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "A los",
+      "path": [
+        "Página 1",
+        "Acta",
+        "A los"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "A los",
+      "synthetic_value": "05 de octubre de 2026",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f002",
+      "label": "Administrador Legitimado Sr./a.",
+      "path": [
+        "Página 1",
+        "Administrador",
+        "Administrador Legitimado Sr./a."
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Administrador Legitimado Sr./a.",
+      "synthetic_value": "María Pérez",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f003",
+      "label": "D.N.I.",
+      "path": [
+        "Página 1",
+        "Administrador",
+        "D.N.I."
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "D.N.I.",
+      "synthetic_value": "00000001",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f004",
+      "label": "nacionalidad",
+      "path": [
+        "Página 1",
+        "Administrador",
+        "nacionalidad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "nacionalidad",
+      "synthetic_value": "argentina",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f005",
+      "label": "calle",
+      "path": [
+        "Página 1",
+        "Administrador",
+        "calle"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "calle",
+      "synthetic_value": "Calle Ficticia 15",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f006",
+      "label": "ciudad",
+      "path": [
+        "Página 1",
+        "Administrador",
+        "ciudad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "ciudad",
+      "synthetic_value": "Buenos Aires",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f007",
+      "label": "representación de",
+      "path": [
+        "Página 1",
+        "Entidad",
+        "representación de"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "representación de",
+      "synthetic_value": "Empresa de Ejemplo SRL",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f008",
+      "label": "C.U.I.T./NIT",
+      "path": [
+        "Página 1",
+        "Entidad",
+        "C.U.I.T./NIT"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "C.U.I.T./NIT",
+      "synthetic_value": "30-00000001-0",
+      "source_visible_blank": true
+    },
+    {
+      "id": "f009",
+      "label": "Administrador Legitimado",
+      "path": [
+        "Página 1",
+        "Cierre",
+        "Administrador Legitimado"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Administrador Legitimado",
+      "synthetic_value": "Firma ficticia",
+      "source_visible_blank": true
+    }
+  ],
+  "context": "Datos ficticios de prueba; no corresponde a una solicitud real.\nActa / A los: 05 de octubre de 2026\nAdministrador / Administrador Legitimado Sr./a.: María Pérez\nAdministrador / D.N.I.: 00000001\nAdministrador / nacionalidad: argentina\nAdministrador / calle: Calle Ficticia 15\nAdministrador / ciudad: Buenos Aires\nEntidad / representación de: Empresa de Ejemplo SRL\nEntidad / C.U.I.T./NIT: 30-00000001-0\nCierre / Administrador Legitimado: Firma ficticia\n",
+  "workflow_identity": {
+    "language": "es",
+    "id": 178
+  }
+}

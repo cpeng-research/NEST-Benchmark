@@ -1,0 +1,316 @@
+{
+  "IDENTIFICACIÓN DEL ESTABLECIMIENTO NOTIFICADOR": {
+    "Establecimiento notificador:": "Hospital Ficticio 74",
+    "Provincia:": "Provincia Ficticia",
+    "Departamento:": "Departamento Ejemplo",
+    "Fecha de notificación:": "05/10/2026",
+    "Apellido y nombre del notificador/a:": "Marina Notificadora Ficticia",
+    "Teléfono:": "000 000 074",
+    "Correo electrónico:": "notifica74@example.invalid"
+  },
+  "IDENTIFICACIÓN DEL CASO": {
+    "Identidad y residencia": {
+      "Nombre y Apellido:": "Paciente Ficticio Setenta y Cuatro",
+      "Tipo de documento": "DNI simulado",
+      "Número de documento": "DNI-SIM-7401",
+      "Provincia": "Provincia Ficticia",
+      "Departamento:": "Departamento Ejemplo",
+      "Localidad:": "Localidad Ficticia",
+      "Calle / Manzana:": "Calle Inventada 74",
+      "Número de calle": "74",
+      "Piso": "1",
+      "Depto.:": "B",
+      "Cód. Postal:": "1000",
+      "Teléfono:": "000 000 074",
+      "Fecha de nacimiento:": "01/01/2018",
+      "Edad:": "8"
+    },
+    "Sexo legal:": {
+      "choices": [
+        "Femenino",
+        "Masculino",
+        "No Binario"
+      ],
+      "value": [
+        "Masculino"
+      ]
+    },
+    "Género:": {
+      "choices": [
+        "Mujer CIS",
+        "Varón CIS",
+        "Mujer Trans",
+        "Varón Trans",
+        "Desconocido",
+        "Otro"
+      ],
+      "value": [
+        "Varón CIS"
+      ]
+    }
+  },
+  "INFORMACIÓN CLÍNICA": {
+    "Fecha de Inicio de síntomas:": "01/10/2026",
+    "Fecha de consulta:": "02/10/2026",
+    "Establecimiento de 1ª consulta:": "Centro Ficticio de Primera Consulta",
+    "Fecha de Internación:": "03/10/2026",
+    "Establecimiento internación:": "Hospital Ficticio 74",
+    "Terapia Intensiva:": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "Fecha internación UTI": "No aplica",
+    "Requerimiento de ARM:": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "Fecha de ARM": "No aplica"
+  },
+  "SIGNOS Y SÍNTOMAS Y OTROS ANTECEDENTES": {
+    "SIGNOS Y SÍNTOMAS Y OTROS ANTECEDENTES": {
+      "choices": [
+        "Celulitis",
+        "Síndrome de shock tóxico estreptocócico",
+        "Artritis Séptica",
+        "Antecedente de traumatismo",
+        "Abscesos",
+        "Fascitis necrotizante",
+        "Antecedente de cirugía",
+        "Antecedente de eccema",
+        "Sepsis",
+        "Miositis",
+        "Antecedente de impétigo",
+        "Antecedentes de otras lesiones en piel",
+        "Fiebre (> ó igual a 38º) sin foco",
+        "Endocarditis",
+        "Antecedente de quemadura",
+        "Antecedente de varicela"
+      ],
+      "value": [
+        "Sepsis",
+        "Fiebre (> ó igual a 38º) sin foco"
+      ]
+    }
+  },
+  "DIAGNÓSTICO REFERIDO": {
+    "Diagnóstico": {
+      "choices": [
+        "Neumonía",
+        "Shock Séptico",
+        "Sepsis",
+        "Fascitis necrotizante",
+        "Bacteriemia oculta",
+        "Osteomielitis",
+        "Artritis séptica",
+        "Celulitis",
+        "Impétigo",
+        "Absceso"
+      ],
+      "value": [
+        "Sepsis"
+      ]
+    },
+    "Otro": "No aplica"
+  },
+  "LABORATORIO": {
+    "Establecimiento de toma de muestra:": "Laboratorio Ficticio 74",
+    "Fecha de toma de muestra:": "03/10/2026",
+    "Muestra:": {
+      "choices": [
+        "Sangre",
+        "Punción de partes blandas",
+        "Absceso",
+        "Aislamiento"
+      ],
+      "value": [
+        "Sangre",
+        "Aislamiento"
+      ]
+    },
+    "Otra muestra": "No aplica"
+  },
+  "Factores de riesgo/ Vías más probables de transmisión:": {
+    "Factores de riesgo/ Vías más probables de transmisión:": {
+      "choices": [
+        "Usuario de drogas intravenosas",
+        "Contacto con un caso confirmado"
+      ],
+      "value": [
+        "Contacto con un caso confirmado"
+      ]
+    },
+    "Usuario de drogas intravenosas": {
+      "Lugar de contacto": "No aplica"
+    },
+    "Contacto con un caso confirmado": {
+      "Lugar de contacto": "Escuela Ficticia 74"
+    },
+    "Antecedentes de IRA reciente:": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "SI"
+      ]
+    },
+    "¿Cuál?": {
+      "choices": [
+        "Infección por COVID-19",
+        "Enfermedad tipo influenza",
+        "Otra"
+      ],
+      "value": [
+        "Infección por COVID-19"
+      ]
+    },
+    "Otra IRA": "No aplica"
+  },
+  "Antecedente de vacunación": {
+    "Grupo B": {
+      "Estado de antecedente": {
+        "choices": [
+          "Constatada",
+          "Referida",
+          "Sin dato"
+        ],
+        "value": [
+          "Sin dato"
+        ]
+      },
+      "Dosis recibidas": "No consta",
+      "Fecha de última dosis": "No consta"
+    },
+    "Conjugada (ACWY)": {
+      "Estado de antecedente": {
+        "choices": [
+          "Constatada",
+          "Referida",
+          "Sin dato"
+        ],
+        "value": [
+          "Sin dato"
+        ]
+      },
+      "Dosis recibidas": "No consta",
+      "Fecha de última dosis": "No consta"
+    },
+    "VPN 23": {
+      "Estado de antecedente": {
+        "choices": [
+          "Constatada",
+          "Referida",
+          "Sin dato"
+        ],
+        "value": [
+          "Sin dato"
+        ]
+      },
+      "Dosis recibidas": "No consta",
+      "Fecha de última dosis": "No consta"
+    },
+    "VCN 13": {
+      "Estado de antecedente": {
+        "choices": [
+          "Constatada",
+          "Referida",
+          "Sin dato"
+        ],
+        "value": [
+          "Sin dato"
+        ]
+      },
+      "Dosis recibidas": "No consta",
+      "Fecha de última dosis": "No consta"
+    },
+    "Cuádruple Bacteriana (DPT - Hib)": {
+      "Estado de antecedente": {
+        "choices": [
+          "Constatada",
+          "Referida",
+          "Sin dato"
+        ],
+        "value": [
+          "Sin dato"
+        ]
+      },
+      "Dosis recibidas": "No consta",
+      "Fecha de última dosis": "No consta"
+    },
+    "Pentavalente (DPT-HB -Hib)": {
+      "Estado de antecedente": {
+        "choices": [
+          "Constatada",
+          "Referida",
+          "Sin dato"
+        ],
+        "value": [
+          "Sin dato"
+        ]
+      },
+      "Dosis recibidas": "No consta",
+      "Fecha de última dosis": "No consta"
+    },
+    "Séxtuple (DPT-HB -Hib-IPV)": {
+      "Estado de antecedente": {
+        "choices": [
+          "Constatada",
+          "Referida",
+          "Sin dato"
+        ],
+        "value": [
+          "Sin dato"
+        ]
+      },
+      "Dosis recibidas": "No consta",
+      "Fecha de última dosis": "No consta"
+    },
+    "Vacuna triple viral (Sarampión rubéola y paperas)": {
+      "Estado de antecedente": {
+        "choices": [
+          "Constatada",
+          "Referida",
+          "Sin dato"
+        ],
+        "value": [
+          "Sin dato"
+        ]
+      },
+      "Dosis recibidas": "No consta",
+      "Fecha de última dosis": "No consta"
+    }
+  },
+  "CLASIFICACIONES DE CASO": {
+    "CLASIFICACIONES DE CASO": {
+      "choices": [
+        "Caso sospechoso de Haemophilus influenzae",
+        "Caso probable de Haemophilus influenzae",
+        "Caso confirmado de Haemophilus influenzae",
+        "Caso sospechoso de Streptococcus pneumoniae",
+        "Caso probable de Streptococcus pneumoniae",
+        "Caso confirmado de Streptococcus pneumoniae",
+        "Caso sospechoso de Neisseria meningitidis",
+        "Caso probable de Neisseria meningitidis",
+        "Caso confirmado de Neisseria meningitidis",
+        "Caso sospechoso de otro agente invasivo",
+        "Caso probable de otro agente invasivo",
+        "Caso confirmado de otro agente invasivo",
+        "Caso confirmado de Streptococcus pyogenes"
+      ],
+      "value": [
+        "Caso confirmado de Streptococcus pyogenes"
+      ]
+    },
+    "Fecha y aclaración notificador/a": "05/10/2026; Marina Notificadora Ficticia"
+  }
+}

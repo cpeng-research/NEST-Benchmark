@@ -1,0 +1,245 @@
+{
+  "id": "es-health-43-clinical-summary",
+  "language": "es",
+  "domain": "Healthcare",
+  "business_topic": "clinical-summary",
+  "title": "Resumen de Historia Clínica",
+  "issuer_id": "Hospital Nacional Profesor Alejandro Posadas",
+  "template_family": "clinical-summary",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/2022/10/resumen_de_historia_clinica_2024_para_completar.pdf",
+  "landing_url": "https://www.argentina.gob.ar/salud/hospital-nacional-posadas/formularios-hospital-posadas",
+  "source_sha256": "3bd31114a2b19d1f7d6b146c70e2277839b5780d64cd2216625dc7f4d5934e9b",
+  "source_pages": 1,
+  "retrieved_at": "2026-09-26T10:15:11.489396+00:00",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "Fuente: institución nacional emisora y Argentina.gob.ar. Texto institucional bajo CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), salvo indicación contraria; normalización de estructura y omisión de gráficos, sin logotipos ni patrocinio.",
+  "columns": 6,
+  "rows": [
+    [
+      {
+        "text": "Resumen de Historia Clínica",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f001",
+        "label": "Nombre y Apellido",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f002",
+        "label": "Fecha",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f003",
+        "label": "DNI, LC o LE",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f004",
+        "label": "Tel.",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f005",
+        "label": "Correo electrónico",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f006",
+        "label": "DIAGNÓSTICO",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f007",
+        "label": "ESTADO ACTUAL",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f008",
+        "label": "SECUELAS",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f009",
+        "label": "LIMITACIONES FUNCIONALES",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f010",
+        "label": "Firma, aclaración y sello",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Fuente: Hospital Nacional Profesor Alejandro Posadas. Documento: Resumen de Historia Clínica. Versión/identificador impreso: no declarado. https://www.argentina.gob.ar/sites/default/files/2022/10/resumen_de_historia_clinica_2024_para_completar.pdf. Recuperado: 2026-09-26. Condiciones de reutilización: https://www.argentina.gob.ar/terminos-y-condiciones. Fuente: institución nacional emisora y Argentina.gob.ar. Texto institucional bajo CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), salvo indicación contraria; normalización de estructura y omisión de gráficos, sin logotipos ni patrocinio. Adaptación de estructura con datos ficticios.",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Nombre y Apellido",
+      "path": [
+        "Resumen de Historia Clínica",
+        "Nombre y Apellido"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre y Apellido",
+      "synthetic_value": "Marina Paciente Ejemplo"
+    },
+    {
+      "id": "f002",
+      "label": "Fecha",
+      "path": [
+        "Resumen de Historia Clínica",
+        "Fecha"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha",
+      "synthetic_value": "26/09/2026"
+    },
+    {
+      "id": "f003",
+      "label": "DNI, LC o LE",
+      "path": [
+        "Resumen de Historia Clínica",
+        "DNI, LC o LE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DNI, LC o LE",
+      "synthetic_value": "DNI-FICTICIO-43"
+    },
+    {
+      "id": "f004",
+      "label": "Tel.",
+      "path": [
+        "Resumen de Historia Clínica",
+        "Tel."
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Tel.",
+      "synthetic_value": "000-000-0043"
+    },
+    {
+      "id": "f005",
+      "label": "Correo electrónico",
+      "path": [
+        "Resumen de Historia Clínica",
+        "Correo electrónico"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Correo electrónico",
+      "synthetic_value": "marina43@example.invalid"
+    },
+    {
+      "id": "f006",
+      "label": "DIAGNÓSTICO",
+      "path": [
+        "Resumen de Historia Clínica",
+        "DIAGNÓSTICO"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DIAGNÓSTICO",
+      "synthetic_value": "Secuela motora de fractura de tibia, caso ficticio"
+    },
+    {
+      "id": "f007",
+      "label": "ESTADO ACTUAL",
+      "path": [
+        "Resumen de Historia Clínica",
+        "ESTADO ACTUAL"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "ESTADO ACTUAL",
+      "synthetic_value": "Recuperación estable con rehabilitación."
+    },
+    {
+      "id": "f008",
+      "label": "SECUELAS",
+      "path": [
+        "Resumen de Historia Clínica",
+        "SECUELAS"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "SECUELAS",
+      "synthetic_value": "Limitación parcial de movilidad de tobillo."
+    },
+    {
+      "id": "f009",
+      "label": "LIMITACIONES FUNCIONALES",
+      "path": [
+        "Resumen de Historia Clínica",
+        "LIMITACIONES FUNCIONALES"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "LIMITACIONES FUNCIONALES",
+      "synthetic_value": "Marcha con apoyo; dificultad para subir escaleras."
+    },
+    {
+      "id": "f010",
+      "label": "Firma, aclaración y sello",
+      "path": [
+        "Resumen de Historia Clínica",
+        "Firma, aclaración y sello"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Firma, aclaración y sello",
+      "synthetic_value": "FIRMA FICTICIA - Elena Médica Ejemplo - SELLO FICTICIO"
+    }
+  ],
+  "source_version": null,
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "value": null,
+    "kind": "update_date_not_stated",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/2022/10/resumen_de_historia_clinica_2024_para_completar.pdf",
+    "detail": "No edition number or document update date stated on the inspected pages. Document title and exact hashed original identify this source; retrieval is separate."
+  },
+  "context": "Caso de prueba enteramente ficticio. Las identidades, instituciones, documentos, resultados y firmas son sintéticos. No se presenta una solicitud real.\nResumen de Historia Clínica / Nombre y Apellido: Marina Paciente Ejemplo.\nResumen de Historia Clínica / Fecha: 26/09/2026.\nResumen de Historia Clínica / DNI, LC o LE: DNI-FICTICIO-43.\nResumen de Historia Clínica / Tel.: 000-000-0043.\nResumen de Historia Clínica / Correo electrónico: marina43@example.invalid.\nResumen de Historia Clínica / DIAGNÓSTICO: Secuela motora de fractura de tibia, caso ficticio.\nResumen de Historia Clínica / ESTADO ACTUAL: Recuperación estable con rehabilitación..\nResumen de Historia Clínica / SECUELAS: Limitación parcial de movilidad de tobillo..\nResumen de Historia Clínica / LIMITACIONES FUNCIONALES: Marcha con apoyo; dificultad para subir escaleras..\nResumen de Historia Clínica / Firma, aclaración y sello: FIRMA FICTICIA - Elena Médica Ejemplo - SELLO FICTICIO.",
+  "workflow_identity": {
+    "language": "es",
+    "id": 43
+  }
+}

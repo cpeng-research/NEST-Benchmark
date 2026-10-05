@@ -1,0 +1,375 @@
+{
+  "id": "fr-dgac-ulm-f403-address24",
+  "language": "fr",
+  "domain": "GovPublic",
+  "title": "ULM : demande d'une adresse 24 bits",
+  "template_family": "dgac-ulm-f403-address24",
+  "source_pages": 1,
+  "columns": 1,
+  "rows": [
+    [
+      {
+        "text": "R8-ULM-F403 - version 27/06/2019",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Arrêté du 18 avril 2011 relatif à la licence de station d'aéronef. Le demandeur doit être le titulaire ou demandeur de la carte d'identification de l'ULM; un organisme d'entretien peut signer par délégation.",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Titulaire (ou demandeur) de la carte d’identification",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "titulaire_nom",
+        "label": "Nom",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "titulaire_adresse",
+        "label": "Adresse",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "titulaire_telephone",
+        "label": "Téléphone",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "titulaire_courriel",
+        "label": "Courriel",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "ULM",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "indicatif_appel",
+        "label": "Indicatif d’appel",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "aucun_indicatif",
+        "label": "aucun (l’ULM ne possède pas encore de LSA)",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "marques",
+        "label": "Marques d’identification",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "aucunes_marques",
+        "label": "aucunes (l’ULM ne possède pas encore de carte d’identification)",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "constructeur_modele",
+        "label": "Constructeur, modèle",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "numero_serie",
+        "label": "N° de série (si applicable)",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Demande",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "demande_adresse",
+        "label": "Je demande l’attribution d’une adresse 24 bits pour l’ULM ci-dessus",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "L'ajout d'un transpondeur mode S sur une LSA nécessite son codage, le test de la chaîne ATC et l'attestation de conformité R8-ULM-F402.",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Signature",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Je déclare avoir été informé que mes informations à caractère personnel feront l'objet d'un traitement informatisé.",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "date",
+        "label": "Date",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "signataire",
+        "label": "Nom, prénom, signature",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Le dossier est adressé au bureau régional de la DGAC compétent pour le lieu d'attache de l'ULM.",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "titulaire_nom",
+      "label": "Nom",
+      "source_page": 1,
+      "source_anchor": "Nom",
+      "path": [
+        "Titulaire (ou demandeur) de la carte d’identification",
+        "Nom / prénom ou raison sociale"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille Martin"
+    },
+    {
+      "id": "titulaire_adresse",
+      "label": "Adresse",
+      "source_page": 1,
+      "source_anchor": "Adresse",
+      "path": [
+        "Titulaire (ou demandeur) de la carte d’identification",
+        "Adresse"
+      ],
+      "kind": "text",
+      "synthetic_value": "12 rue Exemple, 75012 Paris"
+    },
+    {
+      "id": "titulaire_telephone",
+      "label": "Téléphone",
+      "source_page": 1,
+      "source_anchor": "Téléphone",
+      "path": [
+        "Titulaire (ou demandeur) de la carte d’identification",
+        "Téléphone"
+      ],
+      "kind": "text",
+      "synthetic_value": "01 00 00 00 01"
+    },
+    {
+      "id": "titulaire_courriel",
+      "label": "Courriel",
+      "source_page": 1,
+      "source_anchor": "Courriel",
+      "path": [
+        "Titulaire (ou demandeur) de la carte d’identification",
+        "Courriel"
+      ],
+      "kind": "text",
+      "synthetic_value": "camille.martin@example.invalid"
+    },
+    {
+      "id": "indicatif_appel",
+      "label": "Indicatif d’appel",
+      "source_page": 1,
+      "source_anchor": "Indicatif d’appel",
+      "path": [
+        "ULM",
+        "Indicatif d’appel"
+      ],
+      "kind": "text",
+      "synthetic_value": "F-JABC"
+    },
+    {
+      "id": "aucun_indicatif",
+      "label": "aucun (l’ULM ne possède pas encore de LSA)",
+      "source_page": 1,
+      "source_anchor": "aucun (l’ULM ne possède pas encore de LSA)",
+      "path": [
+        "ULM",
+        "aucun (l’ULM ne possède pas encore de LSA)"
+      ],
+      "kind": "checkbox_multi",
+      "synthetic_value": [],
+      "options": [
+        "aucun (l’ULM ne possède pas encore de LSA)"
+      ],
+      "context_evidence": "ULM / aucun (l’ULM ne possède pas encore de LSA) : ."
+    },
+    {
+      "id": "marques",
+      "label": "Marques d’identification",
+      "source_page": 1,
+      "source_anchor": "Marques d’identification",
+      "path": [
+        "ULM",
+        "Marques d’identification"
+      ],
+      "kind": "text",
+      "synthetic_value": "75ABC"
+    },
+    {
+      "id": "aucunes_marques",
+      "label": "aucunes (l’ULM ne possède pas encore de carte d’identification)",
+      "source_page": 1,
+      "source_anchor": "aucunes (l’ULM ne possède pas encore de carte d’identification)",
+      "path": [
+        "ULM",
+        "aucunes (l’ULM ne possède pas encore de carte d’identification)"
+      ],
+      "kind": "checkbox_multi",
+      "synthetic_value": [],
+      "options": [
+        "aucunes (l’ULM ne possède pas encore de carte d’identification)"
+      ],
+      "context_evidence": "ULM / aucunes (l’ULM ne possède pas encore de carte d’identification) : ."
+    },
+    {
+      "id": "constructeur_modele",
+      "label": "Constructeur, modèle",
+      "source_page": 1,
+      "source_anchor": "Constructeur, modèle",
+      "path": [
+        "ULM",
+        "Constructeur, modèle"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "numero_serie",
+      "label": "N° de série (si applicable)",
+      "source_page": 1,
+      "source_anchor": "N° de série (si applicable)",
+      "path": [
+        "ULM",
+        "N° de série (si applicable)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "demande_adresse",
+      "label": "Je demande l’attribution d’une adresse 24 bits pour l’ULM ci-dessus",
+      "source_page": 1,
+      "source_anchor": "Je demande l’attribution d’une adresse 24 bits pour l’ULM ci-dessus",
+      "path": [
+        "Demande",
+        "Je demande l’attribution d’une adresse 24 bits pour l’ULM ci-dessus"
+      ],
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "Je demande l’attribution d’une adresse 24 bits pour l’ULM ci-dessus"
+      ],
+      "options": [
+        "Je demande l’attribution d’une adresse 24 bits pour l’ULM ci-dessus"
+      ],
+      "context_evidence": "Demande / Je demande l’attribution d’une adresse 24 bits pour l’ULM ci-dessus : Je demande l’attribution d’une adresse 24 bits pour l’ULM ci-dessus."
+    },
+    {
+      "id": "date",
+      "label": "Date",
+      "source_page": 1,
+      "source_anchor": "Date",
+      "path": [
+        "Signature",
+        "Date"
+      ],
+      "kind": "text",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "signataire",
+      "label": "Nom, prénom, signature",
+      "source_page": 1,
+      "source_anchor": "Nom, prénom, signature",
+      "path": [
+        "Signature",
+        "Nom, prénom, signature"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille Martin (signature fictive)"
+    }
+  ],
+  "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/R8_ULM_F403_Demande_adresse_24bits.pdf",
+  "landing_url": "https://www.ecologie.gouv.fr/politiques-publiques/ulm-demarches-constructeurs-dulm-serie",
+  "license_url": "https://www.ecologie.gouv.fr/mentions-legales",
+  "license_note": "Ecologie/Transports legal notice applies Etalab 2.0 absent explicit third-party claim; original DGAC form text only; logos/artwork excluded.",
+  "issuer_id": "DGAC / Ministere charge des transports",
+  "source_sha256": "b98ef42daf81a10ce4fd9a23ead778fc1db697b796a3206f82a96e5a20dab1c3",
+  "source_version": "R8-ULM-F403",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "kind": "printed_document_date_or_version",
+    "value": "version 27/06/2019",
+    "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/R8_ULM_F403_Demande_adresse_24bits.pdf",
+    "detail": "Document-specific printed date/version; not a website update claim."
+  },
+  "context": "Dossier fictif pour évaluer le remplissage; aucune identité réelle ni soumission administrative.\nTitulaire (ou demandeur) de la carte d’identification / Nom / prénom ou raison sociale : Camille Martin.\nTitulaire (ou demandeur) de la carte d’identification / Adresse : 12 rue Exemple, 75012 Paris.\nTitulaire (ou demandeur) de la carte d’identification / Téléphone : 01 00 00 00 01.\nTitulaire (ou demandeur) de la carte d’identification / Courriel : camille.martin@example.invalid.\nULM / Indicatif d’appel : F-JABC.\nULM / aucun (l’ULM ne possède pas encore de LSA) : .\nULM / Marques d’identification : 75ABC.\nULM / aucunes (l’ULM ne possède pas encore de carte d’identification) : .\nULM / Constructeur, modèle : Sans objet.\nULM / N° de série (si applicable) : Sans objet.\nDemande / Je demande l’attribution d’une adresse 24 bits pour l’ULM ci-dessus : Je demande l’attribution d’une adresse 24 bits pour l’ULM ci-dessus.\nSignature / Date : 05/10/2026.\nSignature / Nom, prénom, signature : Camille Martin (signature fictive).",
+  "retrieved_at": "2026-10-04T17:05:05.368232+00:00",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 86
+  }
+}

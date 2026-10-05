@@ -1,0 +1,323 @@
+{
+  "id": "es-health-51-spine",
+  "language": "es",
+  "domain": "Healthcare",
+  "business_topic": "spine",
+  "title": "Planilla de evaluación de personas con patología de columna vertebral",
+  "issuer_id": "Hospital Nacional Profesor Alejandro Posadas / Servicio Nacional de Rehabilitación",
+  "template_family": "spine",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/2022/10/planilla_cud_motor_columna_vertebral.pdf",
+  "landing_url": "https://www.argentina.gob.ar/salud/hospital-nacional-posadas/formularios-hospital-posadas",
+  "source_sha256": "a10b71813637443f62b5a83fe3c4a6ef97f6bd6199a41c75818b05fc1c5d97f7",
+  "source_pages": 1,
+  "retrieved_at": "2026-09-26T10:15:33.877534+00:00",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "Fuente: institución nacional emisora y Argentina.gob.ar. Texto institucional bajo CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), salvo indicación contraria; normalización de estructura y omisión de gráficos, sin logotipos ni patrocinio.",
+  "columns": 6,
+  "rows": [
+    [
+      {
+        "text": "Este certificado deberá ser completado por médico especialista en Traumatología con letra clara y en forma completa. El mismo tiene carácter de declaración jurada. La Junta Evaluadora del Servicio Nacional de Rehabilitación podrá pedir información ampliatoria al profesional que evaluó a la persona. ",
+        "colspan": 6,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "PLANILLA DE EVALUACION DE PERSONAS CON PATOLOGÍA DE COLUMNA VERTEBRAL",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f001",
+        "label": "Apellido y Nombre",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f002",
+        "label": "DNI",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f003",
+        "label": "Diagnóstico principal",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f004",
+        "label": "Diagnóstico secundario",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f005",
+        "label": "Año de comienzo de la patología",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f006",
+        "label": "Tratamientos realizados (médicos y quirúrgicos)",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f007",
+        "label": "Tratamiento rehabilitador aplicado (indicar fecha de comienzo)",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f008",
+        "label": "Alteración en las funciones cardio-respiratorias",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f009",
+        "label": "Tipo de marcha",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f010",
+        "label": "Tropismo muscular",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f011",
+        "label": "En caso de escoliosis: medición de ángulo de COBB y del índice de MOE y NASH",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Estudios e informes. Todos los estudios deben ser presentados en original y fotocopia al momento de ser evaluada la persona. 1- Adjuntar Radiografía de las zonas afectadas con INFORME 2- Adjuntar RMN con INFORME 3- Adjuntar TAC con INFORME 4- Adjuntar EMG con INFORME ",
+        "colspan": 6,
+        "source_page": 1,
+        "role": "instruction"
+      }
+    ],
+    [
+      {
+        "text": "Certificación",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f012",
+        "label": "Fecha",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f013",
+        "label": "Firma y sello del médico actuante",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Fuente: Hospital Nacional Profesor Alejandro Posadas / Servicio Nacional de Rehabilitación. Documento: Planilla de evaluación de personas con patología de columna vertebral. Versión/identificador impreso: ANEXO IV. https://www.argentina.gob.ar/sites/default/files/2022/10/planilla_cud_motor_columna_vertebral.pdf. Recuperado: 2026-09-26. Condiciones de reutilización: https://www.argentina.gob.ar/terminos-y-condiciones. Fuente: institución nacional emisora y Argentina.gob.ar. Texto institucional bajo CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), salvo indicación contraria; normalización de estructura y omisión de gráficos, sin logotipos ni patrocinio. Adaptación de estructura con datos ficticios.",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Apellido y Nombre",
+      "path": [
+        "PLANILLA DE EVALUACION DE PERSONAS CON PATOLOGÍA DE COLUMNA VERTEBRAL",
+        "Apellido y Nombre"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Apellido y Nombre",
+      "synthetic_value": "Marina Paciente Ejemplo"
+    },
+    {
+      "id": "f002",
+      "label": "DNI",
+      "path": [
+        "PLANILLA DE EVALUACION DE PERSONAS CON PATOLOGÍA DE COLUMNA VERTEBRAL",
+        "DNI"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DNI",
+      "synthetic_value": "DNI-FICTICIO-51"
+    },
+    {
+      "id": "f003",
+      "label": "Diagnóstico principal",
+      "path": [
+        "PLANILLA DE EVALUACION DE PERSONAS CON PATOLOGÍA DE COLUMNA VERTEBRAL",
+        "Diagnóstico principal"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Diagnóstico principal",
+      "synthetic_value": "Escoliosis, supuesto ficticio"
+    },
+    {
+      "id": "f004",
+      "label": "Diagnóstico secundario",
+      "path": [
+        "PLANILLA DE EVALUACION DE PERSONAS CON PATOLOGÍA DE COLUMNA VERTEBRAL",
+        "Diagnóstico secundario"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Diagnóstico secundario",
+      "synthetic_value": "Dolor lumbar crónico ficticio"
+    },
+    {
+      "id": "f005",
+      "label": "Año de comienzo de la patología",
+      "path": [
+        "PLANILLA DE EVALUACION DE PERSONAS CON PATOLOGÍA DE COLUMNA VERTEBRAL",
+        "Año de comienzo de la patología"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Año de comienzo de la patología",
+      "synthetic_value": "2018"
+    },
+    {
+      "id": "f006",
+      "label": "Tratamientos realizados (médicos y quirúrgicos)",
+      "path": [
+        "PLANILLA DE EVALUACION DE PERSONAS CON PATOLOGÍA DE COLUMNA VERTEBRAL",
+        "Tratamientos realizados (médicos y quirúrgicos)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Tratamientos realizados (médicos y quirúrgicos)",
+      "synthetic_value": "Tratamiento conservador ficticio, sin cirugía"
+    },
+    {
+      "id": "f007",
+      "label": "Tratamiento rehabilitador aplicado (indicar fecha de comienzo)",
+      "path": [
+        "PLANILLA DE EVALUACION DE PERSONAS CON PATOLOGÍA DE COLUMNA VERTEBRAL",
+        "Tratamiento rehabilitador aplicado (indicar fecha de comienzo)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Tratamiento rehabilitador aplicado (indicar fecha de comienzo)",
+      "synthetic_value": "Fisioterapia desde 01/03/2026"
+    },
+    {
+      "id": "f008",
+      "label": "Alteración en las funciones cardio-respiratorias",
+      "path": [
+        "PLANILLA DE EVALUACION DE PERSONAS CON PATOLOGÍA DE COLUMNA VERTEBRAL",
+        "Alteración en las funciones cardio-respiratorias"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Alteración en las funciones cardio-respiratorias",
+      "synthetic_value": "Sin alteración en el supuesto"
+    },
+    {
+      "id": "f009",
+      "label": "Tipo de marcha",
+      "path": [
+        "PLANILLA DE EVALUACION DE PERSONAS CON PATOLOGÍA DE COLUMNA VERTEBRAL",
+        "Tipo de marcha"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Tipo de marcha",
+      "synthetic_value": "Marcha autónoma limitada"
+    },
+    {
+      "id": "f010",
+      "label": "Tropismo muscular",
+      "path": [
+        "PLANILLA DE EVALUACION DE PERSONAS CON PATOLOGÍA DE COLUMNA VERTEBRAL",
+        "Tropismo muscular"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Tropismo muscular",
+      "synthetic_value": "Conservado en el supuesto"
+    },
+    {
+      "id": "f011",
+      "label": "En caso de escoliosis: medición de ángulo de COBB y del índice de MOE y NASH",
+      "path": [
+        "PLANILLA DE EVALUACION DE PERSONAS CON PATOLOGÍA DE COLUMNA VERTEBRAL",
+        "En caso de escoliosis: medición de ángulo de COBB y del índice de MOE y NASH"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "En caso de escoliosis: medición de ángulo de COBB y del índice de MOE y NASH",
+      "synthetic_value": "COBB 25 grados; MOE y NASH grado 1 (supuesto ficticio)"
+    },
+    {
+      "id": "f012",
+      "label": "Fecha",
+      "path": [
+        "Certificación",
+        "Fecha"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha",
+      "synthetic_value": "26/09/2026"
+    },
+    {
+      "id": "f013",
+      "label": "Firma y sello del médico actuante",
+      "path": [
+        "Certificación",
+        "Firma y sello del médico actuante"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Firma y sello del médico actuante",
+      "synthetic_value": "FIRMA Y SELLO FICTICIOS - Elena Médica Ejemplo"
+    }
+  ],
+  "source_version": "ANEXO IV",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "value": null,
+    "kind": "update_date_not_stated",
+    "source_url": "https://www.argentina.gob.ar/sites/default/files/2022/10/planilla_cud_motor_columna_vertebral.pdf",
+    "detail": "Printed document identifier/version: ANEXO IV. No document update date stated on inspected pages; statutory dates, PDF creation and retrieval dates are not substituted."
+  },
+  "context": "Caso de prueba enteramente ficticio. Las identidades, instituciones, documentos, resultados y firmas son sintéticos. No se presenta una solicitud real.\nPLANILLA DE EVALUACION DE PERSONAS CON PATOLOGÍA DE COLUMNA VERTEBRAL / Apellido y Nombre: Marina Paciente Ejemplo.\nPLANILLA DE EVALUACION DE PERSONAS CON PATOLOGÍA DE COLUMNA VERTEBRAL / DNI: DNI-FICTICIO-51.\nPLANILLA DE EVALUACION DE PERSONAS CON PATOLOGÍA DE COLUMNA VERTEBRAL / Diagnóstico principal: Escoliosis, supuesto ficticio.\nPLANILLA DE EVALUACION DE PERSONAS CON PATOLOGÍA DE COLUMNA VERTEBRAL / Diagnóstico secundario: Dolor lumbar crónico ficticio.\nPLANILLA DE EVALUACION DE PERSONAS CON PATOLOGÍA DE COLUMNA VERTEBRAL / Año de comienzo de la patología: 2018.\nPLANILLA DE EVALUACION DE PERSONAS CON PATOLOGÍA DE COLUMNA VERTEBRAL / Tratamientos realizados (médicos y quirúrgicos): Tratamiento conservador ficticio, sin cirugía.\nPLANILLA DE EVALUACION DE PERSONAS CON PATOLOGÍA DE COLUMNA VERTEBRAL / Tratamiento rehabilitador aplicado (indicar fecha de comienzo): Fisioterapia desde 01/03/2026.\nPLANILLA DE EVALUACION DE PERSONAS CON PATOLOGÍA DE COLUMNA VERTEBRAL / Alteración en las funciones cardio-respiratorias: Sin alteración en el supuesto.\nPLANILLA DE EVALUACION DE PERSONAS CON PATOLOGÍA DE COLUMNA VERTEBRAL / Tipo de marcha: Marcha autónoma limitada.\nPLANILLA DE EVALUACION DE PERSONAS CON PATOLOGÍA DE COLUMNA VERTEBRAL / Tropismo muscular: Conservado en el supuesto.\nPLANILLA DE EVALUACION DE PERSONAS CON PATOLOGÍA DE COLUMNA VERTEBRAL / En caso de escoliosis: medición de ángulo de COBB y del índice de MOE y NASH: COBB 25 grados; MOE y NASH grado 1 (supuesto ficticio).\nCertificación / Fecha: 26/09/2026.\nCertificación / Firma y sello del médico actuante: FIRMA Y SELLO FICTICIOS - Elena Médica Ejemplo.",
+  "workflow_identity": {
+    "language": "es",
+    "id": 51
+  }
+}

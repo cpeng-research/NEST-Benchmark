@@ -1,0 +1,658 @@
+{
+  "id": "fr-140-credit-impot-famille",
+  "language": "fr",
+  "domain": "Finance",
+  "business_topic": "Crédit d’impôt famille",
+  "issuer_id": "Direction générale des finances publiques",
+  "template_family": "credit-impot-famille",
+  "title": "Crédit d’impôt famille",
+  "source_pages": 2,
+  "source_sha256": "0a52e4bd9a468a678154bc7f71da1fc0a09c2152a7475e914c8a6efb4175d1df",
+  "retrieved_at": "2026-10-05T03:00:52+08:00",
+  "source_version": "2069-FA-SD; Cerfa 12444*20; (2026)",
+  "source_url": "https://www.impots.gouv.fr/sites/default/files/formulaires/2069-fa-sd/2026/2069-fa-sd_5295.pdf",
+  "landing_url": "https://www.impots.gouv.fr/formulaire/2069-fa-sd/credit-dimpot-famille",
+  "license_url": "https://www.impots.gouv.fr/mentions-legales",
+  "license_note": "DGFiP site notice: public information under Licence Ouverte Etalab 2.0, except explicit third-party intellectual property. Source text and field structure are normalized; the original PDF and DGFiP graphics are not redistributed.",
+  "source_date_evidence": {
+    "kind": "PDF printed mark; DGFiP listing millésime",
+    "value": "2069-FA-SD; Cerfa 12444*20; (2026)",
+    "landing": "DGFiP form listing, Millésime 2026",
+    "pdf_version_mark": "2069-FA-SD; Cerfa 12444*20; (2026)",
+    "publisher_listing_millesime": "2026",
+    "scope": "The listing millésime is recorded separately from the PDF print mark."
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "Entreprise et période",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Année civile",
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Exercice du",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "au",
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Dénomination de l’entreprise",
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "N° SIREN",
+        "field": "f005",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Nature de l’activité exercée",
+        "field": "f006",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Adresse",
+        "field": "f007",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Le cadre de société mère et celui de l’exploitant individuel sont conditionnels.",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "I. Dépenses ouvrant droit",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Dépenses ayant pour objet de financer la création et le fonctionnement",
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Déduction des subventions publiques reçues",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Crédit d’impôt (ligne 1 – ligne 2) x 50 %",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Dépenses engagées au  titre de l’aide financière",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Déduction des subventions publiques reçues",
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Crédit d’impôt (ligne 4 – ligne 5) x 25 %",
+        "field": "f013",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "II. Calcul du crédit d’impôt",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Montant du crédit d’impôt (lignes 3 + 6)",
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Quote-part de crédit d’impôt résultant de la participation",
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Montant total du crédit d’impôt plafonné à 500 000 €",
+        "field": "f016",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "III. Emploi des dépenses",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Nombre de places financées",
+        "field": "f017",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "En accueil collectif",
+        "field": "f018",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "En accueil individuel",
+        "field": "f019",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "IV. Participations dans des sociétés de personnes",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Nom et adresse des sociétés de personnes ou groupements",
+        "field": "f020",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "% de droits détenus dans la société",
+        "field": "f021",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Quote-part du crédit d’impôt",
+        "field": "f022",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Montant total du crédit d'impôt dégagé",
+        "field": "f023",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "V. Utilisation et répartition",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Renvois fiscaux imprimés; aucune répartition entre associés pour cette SAS.",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Nom et adresse des associés et n° SIREN",
+        "field": "f024",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "% de droits détenus dans la société",
+        "field": "f025",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Quote-part du crédit d’impôt",
+        "field": "f026",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Total",
+        "field": "f027",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Source : Direction générale des finances publiques; https://www.impots.gouv.fr/sites/default/files/formulaires/2069-fa-sd/2026/2069-fa-sd_5295.pdf; DGFiP form listing, Millésime 2026.",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Année civile",
+      "path": [
+        "Page 1",
+        "Entreprise et période",
+        "Année civile"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Année civile",
+      "synthetic_value": "2026"
+    },
+    {
+      "id": "f002",
+      "label": "Exercice du",
+      "path": [
+        "Page 1",
+        "Entreprise et période",
+        "Exercice du"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Exercice du",
+      "synthetic_value": "01/01/2026"
+    },
+    {
+      "id": "f003",
+      "label": "au",
+      "path": [
+        "Page 1",
+        "Entreprise et période",
+        "au"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "au",
+      "synthetic_value": "31/12/2026"
+    },
+    {
+      "id": "f004",
+      "label": "Dénomination de l’entreprise",
+      "path": [
+        "Page 1",
+        "Entreprise et période",
+        "Dénomination de l’entreprise"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dénomination de l’entreprise",
+      "synthetic_value": "Exemple Services SAS"
+    },
+    {
+      "id": "f005",
+      "label": "N° SIREN",
+      "path": [
+        "Page 1",
+        "Entreprise et période",
+        "N° SIREN"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "N° SIREN",
+      "synthetic_value": "000000140"
+    },
+    {
+      "id": "f006",
+      "label": "Nature de l’activité exercée",
+      "path": [
+        "Page 1",
+        "Entreprise et période",
+        "Nature de l’activité exercée"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nature de l’activité exercée",
+      "synthetic_value": "Services aux entreprises"
+    },
+    {
+      "id": "f007",
+      "label": "Adresse",
+      "path": [
+        "Page 1",
+        "Entreprise et période",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Adresse",
+      "synthetic_value": "9 rue de la Gare, 69003 Lyon"
+    },
+    {
+      "id": "f008",
+      "label": "Dépenses ayant pour objet de financer la création et le fonctionnement",
+      "path": [
+        "Page 1",
+        "I. Dépenses ouvrant droit",
+        "Ligne 1",
+        "Dépenses ayant pour objet de financer la création et le fonctionnement"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dépenses ayant pour objet de financer la création et le fonctionnement",
+      "synthetic_value": "20 000 €"
+    },
+    {
+      "id": "f009",
+      "label": "Déduction des subventions publiques reçues",
+      "path": [
+        "Page 1",
+        "I. Dépenses ouvrant droit",
+        "Ligne 2",
+        "Déduction des subventions publiques reçues"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Déduction des subventions publiques reçues",
+      "synthetic_value": "2 000 €"
+    },
+    {
+      "id": "f010",
+      "label": "Crédit d’impôt (ligne 1 – ligne 2) x 50 %",
+      "path": [
+        "Page 1",
+        "I. Dépenses ouvrant droit",
+        "Ligne 3",
+        "Crédit d’impôt (ligne 1 – ligne 2) x 50 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Crédit d’impôt (ligne 1 – ligne 2) x 50 %",
+      "synthetic_value": "9 000 €"
+    },
+    {
+      "id": "f011",
+      "label": "Dépenses engagées au  titre de l’aide financière",
+      "path": [
+        "Page 1",
+        "I. Dépenses ouvrant droit",
+        "Ligne 4",
+        "Dépenses engagées au  titre de l’aide financière"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dépenses engagées au  titre de l’aide financière",
+      "synthetic_value": "4 000 €"
+    },
+    {
+      "id": "f012",
+      "label": "Déduction des subventions publiques reçues",
+      "path": [
+        "Page 1",
+        "I. Dépenses ouvrant droit",
+        "Ligne 5",
+        "Déduction des subventions publiques reçues"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Déduction des subventions publiques reçues",
+      "synthetic_value": "0 €"
+    },
+    {
+      "id": "f013",
+      "label": "Crédit d’impôt (ligne 4 – ligne 5) x 25 %",
+      "path": [
+        "Page 1",
+        "I. Dépenses ouvrant droit",
+        "Ligne 6",
+        "Crédit d’impôt (ligne 4 – ligne 5) x 25 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Crédit d’impôt (ligne 4 – ligne 5) x 25 %",
+      "synthetic_value": "1 000 €"
+    },
+    {
+      "id": "f014",
+      "label": "Montant du crédit d’impôt (lignes 3 + 6)",
+      "path": [
+        "Page 1",
+        "II. Calcul du crédit d’impôt",
+        "Montant du crédit d’impôt (lignes 3 + 6)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant du crédit d’impôt (lignes 3 + 6)",
+      "synthetic_value": "10 000 €"
+    },
+    {
+      "id": "f015",
+      "label": "Quote-part de crédit d’impôt résultant de la participation",
+      "path": [
+        "Page 1",
+        "II. Calcul du crédit d’impôt",
+        "Quote-part de crédit d’impôt résultant de la participation"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Quote-part de crédit d’impôt résultant de la participation",
+      "synthetic_value": "0 €"
+    },
+    {
+      "id": "f016",
+      "label": "Montant total du crédit d’impôt plafonné à 500 000 €",
+      "path": [
+        "Page 1",
+        "II. Calcul du crédit d’impôt",
+        "Montant total du crédit d’impôt plafonné à 500 000 €"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant total du crédit d’impôt plafonné à 500 000 €",
+      "synthetic_value": "10 000 €"
+    },
+    {
+      "id": "f017",
+      "label": "Nombre de places financées",
+      "path": [
+        "Page 2",
+        "III. Emploi des dépenses",
+        "Nombre de places financées"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nombre de places financées",
+      "synthetic_value": "4"
+    },
+    {
+      "id": "f018",
+      "label": "En accueil collectif",
+      "path": [
+        "Page 2",
+        "III. Emploi des dépenses",
+        "En accueil collectif"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "En accueil collectif",
+      "synthetic_value": "100 heures"
+    },
+    {
+      "id": "f019",
+      "label": "En accueil individuel",
+      "path": [
+        "Page 2",
+        "III. Emploi des dépenses",
+        "En accueil individuel"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "En accueil individuel",
+      "synthetic_value": "0 heure"
+    },
+    {
+      "id": "f020",
+      "label": "Nom et adresse des sociétés de personnes ou groupements",
+      "path": [
+        "Page 2",
+        "IV. Participations dans des sociétés de personnes",
+        "Nom et adresse des sociétés de personnes ou groupements"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom et adresse des sociétés de personnes ou groupements",
+      "synthetic_value": "Aucune participation"
+    },
+    {
+      "id": "f021",
+      "label": "% de droits détenus dans la société",
+      "path": [
+        "Page 2",
+        "IV. Participations dans des sociétés de personnes",
+        "% de droits détenus dans la société"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "% de droits détenus dans la société",
+      "synthetic_value": "0 %"
+    },
+    {
+      "id": "f022",
+      "label": "Quote-part du crédit d’impôt",
+      "path": [
+        "Page 2",
+        "IV. Participations dans des sociétés de personnes",
+        "Quote-part du crédit d’impôt"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Quote-part du crédit d’impôt",
+      "synthetic_value": "0 €"
+    },
+    {
+      "id": "f023",
+      "label": "Montant total du crédit d'impôt dégagé",
+      "path": [
+        "Page 2",
+        "IV. Participations dans des sociétés de personnes",
+        "Ligne 13",
+        "Montant total du crédit d'impôt dégagé"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Montant total du crédit d'impôt dégagé",
+      "synthetic_value": "0 €"
+    },
+    {
+      "id": "f024",
+      "label": "Nom et adresse des associés et n° SIREN",
+      "path": [
+        "Page 2",
+        "V. Utilisation et répartition",
+        "Associés",
+        "Nom et adresse des associés et n° SIREN"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom et adresse des associés et n° SIREN",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "f025",
+      "label": "% de droits détenus dans la société",
+      "path": [
+        "Page 2",
+        "V. Utilisation et répartition",
+        "Associés",
+        "% de droits détenus dans la société"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "% de droits détenus dans la société",
+      "synthetic_value": "0 %"
+    },
+    {
+      "id": "f026",
+      "label": "Quote-part du crédit d’impôt",
+      "path": [
+        "Page 2",
+        "V. Utilisation et répartition",
+        "Associés",
+        "Quote-part du crédit d’impôt"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Quote-part du crédit d’impôt",
+      "synthetic_value": "0 €"
+    },
+    {
+      "id": "f027",
+      "label": "Total",
+      "path": [
+        "Page 2",
+        "V. Utilisation et répartition",
+        "Répartition",
+        "Total"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Total",
+      "synthetic_value": "0 €"
+    }
+  ],
+  "context": "Exemple fictif de remplissage, sans transmission.\nEntreprise et période /  / Année civile: 2026\nEntreprise et période /  / Exercice du: 01/01/2026\nEntreprise et période /  / au: 31/12/2026\nEntreprise et période /  / Dénomination de l’entreprise: Exemple Services SAS\nEntreprise et période /  / N° SIREN: 000000140\nEntreprise et période /  / Nature de l’activité exercée: Services aux entreprises\nEntreprise et période /  / Adresse: 9 rue de la Gare, 69003 Lyon\nI. Dépenses ouvrant droit / Ligne 1 / Dépenses ayant pour objet de financer la création et le fonctionnement: 20 000 €\nI. Dépenses ouvrant droit / Ligne 2 / Déduction des subventions publiques reçues: 2 000 €\nI. Dépenses ouvrant droit / Ligne 3 / Crédit d’impôt (ligne 1 – ligne 2) x 50 %: 9 000 €\nI. Dépenses ouvrant droit / Ligne 4 / Dépenses engagées au  titre de l’aide financière: 4 000 €\nI. Dépenses ouvrant droit / Ligne 5 / Déduction des subventions publiques reçues: 0 €\nI. Dépenses ouvrant droit / Ligne 6 / Crédit d’impôt (ligne 4 – ligne 5) x 25 %: 1 000 €\nII. Calcul du crédit d’impôt /  / Montant du crédit d’impôt (lignes 3 + 6): 10 000 €\nII. Calcul du crédit d’impôt /  / Quote-part de crédit d’impôt résultant de la participation: 0 €\nII. Calcul du crédit d’impôt /  / Montant total du crédit d’impôt plafonné à 500 000 €: 10 000 €\nIII. Emploi des dépenses /  / Nombre de places financées: 4\nIII. Emploi des dépenses /  / En accueil collectif: 100 heures\nIII. Emploi des dépenses /  / En accueil individuel: 0 heure\nIV. Participations dans des sociétés de personnes /  / Nom et adresse des sociétés de personnes ou groupements: Aucune participation\nIV. Participations dans des sociétés de personnes /  / % de droits détenus dans la société: 0 %\nIV. Participations dans des sociétés de personnes /  / Quote-part du crédit d’impôt: 0 €\nIV. Participations dans des sociétés de personnes / Ligne 13 / Montant total du crédit d'impôt dégagé: 0 €\nV. Utilisation et répartition / Associés / Nom et adresse des associés et n° SIREN: Sans objet\nV. Utilisation et répartition / Associés / % de droits détenus dans la société: 0 %\nV. Utilisation et répartition / Associés / Quote-part du crédit d’impôt: 0 €\nV. Utilisation et répartition / Répartition / Total: 0 €",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 140
+  }
+}

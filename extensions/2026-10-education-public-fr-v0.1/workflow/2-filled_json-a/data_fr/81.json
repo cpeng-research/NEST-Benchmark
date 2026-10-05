@@ -1,0 +1,72 @@
+{
+  "Titulaire (ou demandeur) de la carte d’identification": {
+    "Nom(s)": "Camille Martin",
+    "Adresse": "12 rue Exemple, 75012 Paris",
+    "Téléphone": "01 00 00 00 01",
+    "Courriel": "camille.martin@example.invalid"
+  },
+  "Demande de LSA": {
+    "Demande d’une nouvelle LSA": {
+      "choices": [
+        "Demande d’une nouvelle LSA",
+        "Demande relative à une LSA existante"
+      ],
+      "value": [
+        "Demande relative à une LSA existante"
+      ]
+    }
+  },
+  "Demande d’une nouvelle LSA": {
+    "Marques d’identification": "Sans objet",
+    "Autres marques": "Sans objet",
+    "Constructeur, modèle": "Sans objet",
+    "N° de série (si applicable)": "Sans objet"
+  },
+  "Demande relative à une LSA existante": {
+    "Indicatif d’appel": "F-JABC",
+    "ULM actuellement listé(s*) sur la LSA": "75ABC",
+    "Je demande": {
+      "choices": [
+        "Le renouvellement de la LSA",
+        "La modification de la liste des émetteurs",
+        "La mise à jour du champ « titulaire »",
+        "La mise à jour de l’ULM"
+      ],
+      "value": [
+        "La modification de la liste des émetteurs",
+        "La mise à jour de l’ULM"
+      ]
+    },
+    "l’adresse 24 bits doit être conservée": {
+      "choices": [
+        "l’adresse 24 bits doit être conservée",
+        "l’adresse 24 bits peut être désassociée de l’ULM"
+      ],
+      "value": [
+        "l’adresse 24 bits doit être conservée"
+      ]
+    },
+    "ULM à supprimer de la LSA": "75ABC",
+    "ULM déjà identifié(s)": "75ABD",
+    "ULM en cours d'identification": {
+      "Constructeur, modèle": "Sans objet",
+      "N° de série": "Sans objet"
+    }
+  },
+  "Signature": {
+    "Date": "05/10/2026",
+    "Nom, prénom, signature": "Camille Martin (signature fictive)"
+  },
+  "Documents à joindre": {
+    "Documents à joindre": {
+      "choices": [
+        "attestation de conformité R8-ULM-F402  de moins de 2 mois, signée par un atelier agréé",
+        "attestation de conformité R8-ULM-F402  de moins de 2 mois, signée par le titulaire",
+        "accord de l’ancien titulaire"
+      ],
+      "value": [
+        "attestation de conformité R8-ULM-F402  de moins de 2 mois, signée par le titulaire"
+      ]
+    }
+  }
+}

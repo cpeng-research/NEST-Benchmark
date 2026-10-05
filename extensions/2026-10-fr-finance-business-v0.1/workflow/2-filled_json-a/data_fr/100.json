@@ -1,0 +1,157 @@
+{
+  "Page 1": {
+    "Identification et exercice": {
+      "DENOMINATION": "Exemple Industrie SAS",
+      "Adresse": "20 rue Exemple, 69002 Lyon",
+      "SIRET": "00000000000100",
+      "Exercice social du": "01/01/2026",
+      "Fin de l'exercice": {
+        "au": "31/12/2026"
+      }
+    },
+    "Versements d'IS et contributions assimilées": {
+      "Imputations, case 01": {
+        "Impôt sur les Sociétés": "500"
+      },
+      "Montants à payer, case 03": {
+        "Impôt sur les Sociétés": "7000"
+      },
+      "Minoration IS": {
+        "Minorations": {
+          "choices": [
+            "04"
+          ],
+          "value": []
+        }
+      },
+      "Dont crédit d'impôt pour la compétitivité et l'emploi": "0",
+      "Dont report en arrière de déficit": "0",
+      "Dont crédit d'impôt pour investissement en Corse": "0",
+      "Dont crédit d'impôt recherche": "500",
+      "Dont réduction d'impôt mécénat": "0",
+      "Dont réduction d'impôt collectivités outre-mer": "0",
+      "Dont crédit d'impôt recherche collaborative": "0",
+      "Dont créance d'impôt logement locatif intermédiaire": "0",
+      "Dont réduction d'impôt prêt à taux zéro mobilité": "0",
+      "Dont excédent du précédent exercice": "0",
+      "Contribution sur les Revenus Locatifs": "0",
+      "Contribution Sociale": "0",
+      "Contribution exceptionnelle sur les bénéfices des grandes entreprises": "0",
+      "Contribution exceptionnelle sur les entreprises de transport maritime": "0",
+      "Montant d'impôt sur les sociétés et contributions assimilées à payer": "7000",
+      "Plus-value article 208C du CGI": "0",
+      "Montant total à payer": "7000",
+      "Minoration de contribution": {
+        "Contribution Sociale": {
+          "choices": [
+            "09"
+          ],
+          "value": []
+        }
+      }
+    },
+    "Paiement, date et signature du redevable": {
+      "Date": "05/10/2026",
+      "Téléphone": "0400000100",
+      "Paiement": {
+        "choices": [
+          "Chèque",
+          "Télépaiement",
+          "Virement"
+        ],
+        "value": [
+          "Télépaiement"
+        ]
+      },
+      "signature du redevable": "Camille Martin"
+    },
+    "Paiement par imputation": {
+      "Contribution visée": "Sans objet",
+      "Date de l'échéance": "Sans objet",
+      "Montant à Imputer": "0"
+    }
+  },
+  "Page 2": {
+    "A01 - Acompte d’impôt sur les sociétés (au taux normal à 25 %)": {
+      "A01": {
+        "BASE": "30000",
+        "TAUX": "25 %",
+        "MONTANT": "7500"
+      }
+    },
+    "A02 - Acompte d’impôt sur les sociétés (au taux réduit à 15 %)": {
+      "A02": {
+        "BASE": "0",
+        "TAUX": "15 %",
+        "MONTANT": "0"
+      }
+    },
+    "A03 - Acompte sur résultat net de concession des licences d’exploitation": {
+      "A03": {
+        "BASE": "0",
+        "TAUX": "10 %",
+        "MONTANT": "0"
+      }
+    },
+    "Aide au calcul : total d'IS": {
+      "A04": "7500",
+      "A05": "0",
+      "A06": "7500"
+    },
+    "Aide au calcul : imputations": {
+      "A07": "0",
+      "A08": "0",
+      "A09": "0",
+      "A10": "500",
+      "A11": "0",
+      "A12": "0",
+      "A13": "0",
+      "A14": "0",
+      "A15": "0",
+      "A16": "0",
+      "A17": "500",
+      "A18": "7000"
+    },
+    "Aide au calcul : contributions assimilées": {
+      "B01": {
+        "BASE": "0",
+        "TAUX": "2,5 %",
+        "MONTANT": "0"
+      },
+      "Montant": {
+        "B02": "0",
+        "B04": "0",
+        "B05": "0",
+        "B08": "0",
+        "B11": "0"
+      },
+      "B03": {
+        "BASE": "0",
+        "TAUX": "3,3 %",
+        "MONTANT": "0"
+      },
+      "B06": {
+        "Chiffre d’affaires": "0"
+      },
+      "B07": {
+        "BASE": "0",
+        "TAUX": "0 %",
+        "MONTANT": "0"
+      },
+      "B09": {
+        "Chiffre d’affaires": "0"
+      },
+      "B10": {
+        "BASE": "0"
+      },
+      "B10; taux imprimé 12,00 %": {
+        "MONTANT": "0"
+      }
+    },
+    "Aide au calcul : total du versement": {
+      "C01": "7000",
+      "C02": "0",
+      "C03": "7000"
+    }
+  }
+}

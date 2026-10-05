@@ -1,0 +1,165 @@
+{
+  "Identificación de la UC": {
+    "Establecimiento notificador:": "Centro de Salud Ficticio",
+    "Localidad:": "Ciudad Ejemplo",
+    "Provincia:": "Mendoza",
+    "Fecha de notificación:": "20/12/2025",
+    "Datos del notificador:": "Dr. Pedro Ejemplo",
+    "Tel. celular:": "0000-000111"
+  },
+  "Identificación del caso": {
+    "Apellido y nombre:": "Sofía Caso Ficticio",
+    "Tipo / N° documento:": "DNI 40000111",
+    "Nacionalidad:": "Argentina",
+    "N° documento de la madre (o persona que gestó al niño o niña):": "DNI 30000111",
+    "Lugar de residencia / Provincia:": "Mendoza",
+    "Departamento:": "Departamento Modelo",
+    "Localidad:": "Ciudad Ejemplo",
+    "Calle / Manzana:": "Calle Simulada",
+    "Nº Casa:": "111",
+    "Piso:": "1",
+    "Depto.:": "A",
+    "Cód. Postal:": "5500",
+    "Barrio/Villa/Asentamiento:": "Barrio Ejemplo",
+    "Teléfono:": "0000-000112",
+    "Fecha de nacimiento:": "10/01/2009",
+    "Edad:": "16",
+    "Sexo:": "Femenino"
+  },
+  "Información clínica": {
+    "Fecha de Inicio de 1º síntomas (FIS):": "17/12/2025",
+    "Fecha de 1ª consulta:": "17/12/2025",
+    "Establecimiento de 1ª consulta:": "Centro de Salud Ficticio",
+    "Fecha de internación:": "17/12/2025",
+    "Establecimiento de internación:": "Hospital Simulado de Mendoza",
+    "Embarazada:": {
+      "choices": [
+        "SÍ",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "Terapia Intensiva:": {
+      "choices": [
+        "SÍ",
+        "NO"
+      ],
+      "value": [
+        "SÍ"
+      ]
+    },
+    "Fecha internación UTI:": "17/12/2025",
+    "Fecha alta UTI:": "19/12/2025",
+    "Requerimiento de ARM:": {
+      "choices": [
+        "SÍ",
+        "NO"
+      ],
+      "value": [
+        "SÍ"
+      ]
+    },
+    "Fecha:": "17/12/2025",
+    "Fallecido:": {
+      "choices": [
+        "SÍ",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    }
+  },
+  "Comorbilidades": {
+    "Comorbilidades": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "SI"
+      ]
+    },
+    "Diabetes mellitus y otros trastornos": {
+      "choices": [
+        "Diabetes mellitus y otros trastornos",
+        "Enfermedades cardiovasculares (HTA,",
+        "Enfermedades del sistema urinario",
+        "Obesidad",
+        "Enfermedad del sistema respiratorio",
+        "Enfermedades cerebrovasculares",
+        "Trastornos mentales orgánicos (Demencia,",
+        "Otras"
+      ],
+      "value": [
+        "Obesidad",
+        "Otras"
+      ]
+    },
+    "Otras": "Asma leve simulada"
+  },
+  "Antecedentes epidemiológicos": {
+    "Factores de riesgo": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "SI"
+      ]
+    },
+    "Exposición laboral": {
+      "choices": [
+        "Exposición laboral",
+        "Exposición recreativa",
+        "Exposición a fuentes de calor",
+        "Actividad física intensa",
+        "Exposición al calor en ambiente interior",
+        "Exposición al calor en ambiente exterior",
+        "Consumo de alcohol y otras sustancias",
+        "Consumo medicamentos",
+        "Personas en situación de calle o de vulnerabilidad extrema",
+        "Otras"
+      ],
+      "value": [
+        "Exposición recreativa",
+        "Actividad física intensa",
+        "Exposición al calor en ambiente exterior",
+        "Otras"
+      ]
+    },
+    "Otras": "Actividad sin sombra simulada",
+    "Personas en situación de calle o de vulnerabilidad extrema": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "Ocupaciones:": "Estudiante ficticia",
+    "Firma y sello": "Firma y sello sintéticos del Dr. Pedro Ejemplo"
+  },
+  "Clasificación de caso": {
+    "Diagnósticos (CIE-10)": {
+      "choices": [
+        "Agotamiento por calor",
+        "Calambres por calor (T67.2)",
+        "Edema por calor (T67.7)",
+        "Erupción por sudor/Miliaria",
+        "Fatiga por calor transitoria",
+        "Golpe de calor (T67.0)",
+        "Síncope por calor (T67.1)",
+        "Otros efectos del calor y de",
+        "Agravamiento de"
+      ],
+      "value": [
+        "Golpe de calor (T67.0)"
+      ]
+    },
+    "Firma y sello": "Firma y sello sintéticos del Dr. Pedro Ejemplo"
+  }
+}

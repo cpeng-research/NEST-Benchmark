@@ -1,0 +1,550 @@
+{
+  "id": "fr-dgac-ulm-f102-serie-2026",
+  "language": "fr",
+  "domain": "GovPublic",
+  "title": "Demande de fiche d'identification d'un ULM de série",
+  "template_family": "dgac-ulm-f102-serie-2026",
+  "issuer": "DGAC/DSAC",
+  "issuer_id": "DGAC/DSAC",
+  "source_pages": 1,
+  "columns": 1,
+  "rows": [
+    [
+      {
+        "text": "Demandeur",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "nom",
+        "label": "Nom, raison sociale",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "adresse",
+        "label": "Adresse",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "cp",
+        "label": "Code postal",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "commune",
+        "label": "Commune",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "pays",
+        "label": "Pays",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "telephone",
+        "label": "Téléphone",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "courriel",
+        "label": "Courriel",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Informations sur l'ULM",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "modele",
+        "label": "Nom du modèle",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "classe",
+        "label": "Classe",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "type_demande",
+        "label": "Nouvelle fiche",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "revision_numero",
+        "label": "Révision de la fiche n°",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "elements_attestes",
+        "label": "j’atteste que l’ULM est conforme aux éléments descriptifs fournis en pièce jointe",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Conformité aux conditions techniques applicables",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "navigabilite",
+        "label": "que l’ULM satisfait aux conditions techniques de navigabilité suivantes",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "ctc",
+        "label": "Caractéristiques particulières",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "ctc_performant",
+        "label": "ULM de classe 3 « performant »",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "ctc_autre",
+        "label": "Autre",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "bruit",
+        "label": "qu’une mesure du bruit émis a été effectuée",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "dossier",
+        "label": "avoir constitué un dossier technique",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Signature et pièces",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "date",
+        "label": "Date",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "signature",
+        "label": "Nom, prénom, signature",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "pieces",
+        "label": "Documents à joindre",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "nom",
+      "label": "Nom, raison sociale",
+      "source_page": 1,
+      "source_anchor": "Nom, raison sociale",
+      "path": [
+        "Demandeur",
+        "Nom, raison sociale"
+      ],
+      "kind": "text",
+      "synthetic_value": "Aéro Exemple SAS"
+    },
+    {
+      "id": "adresse",
+      "label": "Adresse",
+      "source_page": 1,
+      "source_anchor": "Adresse",
+      "path": [
+        "Demandeur",
+        "Adresse"
+      ],
+      "kind": "text",
+      "synthetic_value": "12 rue Exemple"
+    },
+    {
+      "id": "cp",
+      "label": "Code postal",
+      "source_page": 1,
+      "source_anchor": "Code postal",
+      "path": [
+        "Demandeur",
+        "Code postal"
+      ],
+      "kind": "text",
+      "synthetic_value": "75012"
+    },
+    {
+      "id": "commune",
+      "label": "Commune",
+      "source_page": 1,
+      "source_anchor": "Commune",
+      "path": [
+        "Demandeur",
+        "Commune"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "pays",
+      "label": "Pays",
+      "source_page": 1,
+      "source_anchor": "Pays",
+      "path": [
+        "Demandeur",
+        "Pays"
+      ],
+      "kind": "text",
+      "synthetic_value": "France"
+    },
+    {
+      "id": "telephone",
+      "label": "Téléphone",
+      "source_page": 1,
+      "source_anchor": "Téléphone",
+      "path": [
+        "Demandeur",
+        "Téléphone"
+      ],
+      "kind": "text",
+      "synthetic_value": "01 00 00 00 01"
+    },
+    {
+      "id": "courriel",
+      "label": "Courriel",
+      "source_page": 1,
+      "source_anchor": "Courriel",
+      "path": [
+        "Demandeur",
+        "Courriel"
+      ],
+      "kind": "text",
+      "synthetic_value": "contact@example.invalid"
+    },
+    {
+      "id": "modele",
+      "label": "Nom du modèle",
+      "source_page": 1,
+      "source_anchor": "Nom du modèle",
+      "path": [
+        "Informations sur l'ULM",
+        "Nom du modèle"
+      ],
+      "kind": "text",
+      "synthetic_value": "ULM EX-2"
+    },
+    {
+      "id": "classe",
+      "label": "Classe",
+      "source_page": 1,
+      "source_anchor": "Classe",
+      "path": [
+        "Informations sur l'ULM",
+        "Classe"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "3 – multiaxe"
+      ],
+      "options": [
+        "2 – pendulaire",
+        "3 – multiaxe",
+        "4 – autogire",
+        "5 – dirigeable",
+        "6 – hélicoptère"
+      ],
+      "context_evidence": "Informations sur l'ULM / Classe : 3 – multiaxe."
+    },
+    {
+      "id": "type_demande",
+      "label": "Nouvelle fiche",
+      "source_page": 1,
+      "source_anchor": "Nouvelle fiche",
+      "path": [
+        "Informations sur l'ULM",
+        "Nouvelle fiche"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Nouvelle fiche"
+      ],
+      "options": [
+        "Nouvelle fiche",
+        "Révision de la fiche n°"
+      ],
+      "context_evidence": "Informations sur l'ULM / Nouvelle fiche : Nouvelle fiche."
+    },
+    {
+      "id": "revision_numero",
+      "label": "Révision de la fiche n°",
+      "source_page": 1,
+      "source_anchor": "Révision de la fiche n°",
+      "path": [
+        "Informations sur l'ULM",
+        "Révision de la fiche n°"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "elements_attestes",
+      "label": "j’atteste que l’ULM est conforme aux éléments descriptifs fournis en pièce jointe",
+      "source_page": 1,
+      "source_anchor": "j’atteste que l’ULM est conforme aux éléments descriptifs fournis en pièce jointe",
+      "path": [
+        "Informations sur l'ULM",
+        "j’atteste que l’ULM est conforme aux éléments descriptifs fournis en pièce jointe"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "j’atteste que l’ULM est conforme aux éléments descriptifs fournis en pièce jointe"
+      ],
+      "options": [
+        "j’atteste que l’ULM est conforme aux éléments descriptifs fournis en pièce jointe"
+      ],
+      "context_evidence": "Informations sur l'ULM / j’atteste que l’ULM est conforme aux éléments descriptifs fournis en pièce jointe : j’atteste que l’ULM est conforme aux éléments descriptifs fournis en pièce jointe."
+    },
+    {
+      "id": "navigabilite",
+      "label": "que l’ULM satisfait aux conditions techniques de navigabilité suivantes",
+      "source_page": 1,
+      "source_anchor": "que l’ULM satisfait aux conditions techniques de navigabilité suivantes",
+      "path": [
+        "Conformité aux conditions techniques applicables",
+        "que l’ULM satisfait aux conditions techniques de navigabilité suivantes"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "que l’ULM satisfait aux conditions techniques de navigabilité suivantes"
+      ],
+      "options": [
+        "que l’ULM satisfait aux conditions techniques de navigabilité suivantes"
+      ],
+      "context_evidence": "Conformité aux conditions techniques applicables / que l’ULM satisfait aux conditions techniques de navigabilité suivantes : que l’ULM satisfait aux conditions techniques de navigabilité suivantes."
+    },
+    {
+      "id": "ctc",
+      "label": "Caractéristiques particulières",
+      "source_page": 1,
+      "source_anchor": "Caractéristiques particulières",
+      "path": [
+        "Conformité aux conditions techniques applicables",
+        "Caractéristiques particulières"
+      ],
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "Aucune"
+      ],
+      "options": [
+        "Aucune",
+        "Parachute de secours",
+        "Train rentrant",
+        "Hélice à pas variable en vol",
+        "Aptitude au remorquage de planeurs",
+        "Hélicoptères ultralégers",
+        "ULM de classe 3 « performant »",
+        "Autre"
+      ],
+      "context_evidence": "Conformité aux conditions techniques applicables / Caractéristiques particulières : Aucune."
+    },
+    {
+      "id": "ctc_performant",
+      "label": "ULM de classe 3 « performant »",
+      "source_page": 1,
+      "source_anchor": "ULM de classe 3 « performant »",
+      "path": [
+        "Conformité aux conditions techniques applicables",
+        "ULM de classe 3 « performant »"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "ctc_autre",
+      "label": "Autre",
+      "source_page": 1,
+      "source_anchor": "Autre",
+      "path": [
+        "Conformité aux conditions techniques applicables",
+        "Autre"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "bruit",
+      "label": "qu’une mesure du bruit émis a été effectuée",
+      "source_page": 1,
+      "source_anchor": "qu’une mesure du bruit émis a été effectuée",
+      "path": [
+        "Conformité aux conditions techniques applicables",
+        "qu’une mesure du bruit émis a été effectuée"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "qu’une mesure du bruit émis a été effectuée"
+      ],
+      "options": [
+        "qu’une mesure du bruit émis a été effectuée"
+      ],
+      "context_evidence": "Conformité aux conditions techniques applicables / qu’une mesure du bruit émis a été effectuée : qu’une mesure du bruit émis a été effectuée."
+    },
+    {
+      "id": "dossier",
+      "label": "avoir constitué un dossier technique",
+      "source_page": 1,
+      "source_anchor": "avoir constitué un dossier technique",
+      "path": [
+        "Conformité aux conditions techniques applicables",
+        "avoir constitué un dossier technique"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "avoir constitué un dossier technique"
+      ],
+      "options": [
+        "avoir constitué un dossier technique"
+      ],
+      "context_evidence": "Conformité aux conditions techniques applicables / avoir constitué un dossier technique : avoir constitué un dossier technique."
+    },
+    {
+      "id": "date",
+      "label": "Date",
+      "source_page": 1,
+      "source_anchor": "Date",
+      "path": [
+        "Signature et pièces",
+        "Date"
+      ],
+      "kind": "text",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "signature",
+      "label": "Nom, prénom, signature",
+      "source_page": 1,
+      "source_anchor": "Nom, prénom, signature",
+      "path": [
+        "Signature et pièces",
+        "Nom, prénom, signature"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille Martin (signature fictive)"
+    },
+    {
+      "id": "pieces",
+      "label": "Documents à joindre",
+      "source_page": 1,
+      "source_anchor": "Documents à joindre",
+      "path": [
+        "Signature et pièces",
+        "Documents à joindre"
+      ],
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "Eléments descriptifs de l’ULM",
+        "Dossier technique complet"
+      ],
+      "options": [
+        "Eléments descriptifs de l’ULM",
+        "Dossier technique complet",
+        "Rapport de pesée",
+        "Justificatif de paiement de la redevance de 100€",
+        "Mandat donnant délégation au représentant"
+      ],
+      "context_evidence": "Signature et pièces / Documents à joindre : Eléments descriptifs de l’ULM, Dossier technique complet."
+    }
+  ],
+  "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/R8_ULM_F102_fiche_serie_classe_2_6.pdf",
+  "landing_url": "https://www.ecologie.gouv.fr/politiques-publiques/ulm-demarches-constructeurs-dulm-serie",
+  "license_url": "https://www.ecologie.gouv.fr/mentions-legales",
+  "license_note": "Ecologie site content: Etalab 2.0 absent third-party notice; source and known update date credited; branding and artwork excluded from retained fields.",
+  "source_sha256": "ede35d88fdd9a647f2391b6cfa6f2a697c5cbe48b657a6bb82fafc2093dab6de",
+  "retrieved_at": "2026-10-04T19:14:48.052630+00:00",
+  "source_version": "R8-ULM-F102; version du 01/10/2026",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "kind": "Printed form identifier and version date",
+    "value": "R8-ULM-F102; version du 01/10/2026",
+    "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/R8_ULM_F102_fiche_serie_classe_2_6.pdf"
+  },
+  "context": "Dossier fictif à des fins d'évaluation, sans identité réelle ni dépôt administratif.\nDemandeur / Nom, raison sociale : Aéro Exemple SAS.\nDemandeur / Adresse : 12 rue Exemple.\nDemandeur / Code postal : 75012.\nDemandeur / Commune : Paris.\nDemandeur / Pays : France.\nDemandeur / Téléphone : 01 00 00 00 01.\nDemandeur / Courriel : contact@example.invalid.\nInformations sur l'ULM / Nom du modèle : ULM EX-2.\nInformations sur l'ULM / Classe : 3 – multiaxe.\nInformations sur l'ULM / Nouvelle fiche : Nouvelle fiche.\nInformations sur l'ULM / Révision de la fiche n° : Sans objet.\nInformations sur l'ULM / j’atteste que l’ULM est conforme aux éléments descriptifs fournis en pièce jointe : j’atteste que l’ULM est conforme aux éléments descriptifs fournis en pièce jointe.\nConformité aux conditions techniques applicables / que l’ULM satisfait aux conditions techniques de navigabilité suivantes : que l’ULM satisfait aux conditions techniques de navigabilité suivantes.\nConformité aux conditions techniques applicables / Caractéristiques particulières : Aucune.\nConformité aux conditions techniques applicables / ULM de classe 3 « performant » : Sans objet.\nConformité aux conditions techniques applicables / Autre : Sans objet.\nConformité aux conditions techniques applicables / qu’une mesure du bruit émis a été effectuée : qu’une mesure du bruit émis a été effectuée.\nConformité aux conditions techniques applicables / avoir constitué un dossier technique : avoir constitué un dossier technique.\nSignature et pièces / Date : 05/10/2026.\nSignature et pièces / Nom, prénom, signature : Camille Martin (signature fictive).\nSignature et pièces / Documents à joindre : Eléments descriptifs de l’ULM, Dossier technique complet.",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 155
+  }
+}

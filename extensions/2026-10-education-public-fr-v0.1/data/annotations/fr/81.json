@@ -1,0 +1,551 @@
+{
+  "id": "fr-dgac-ulm-f401-station-license",
+  "language": "fr",
+  "domain": "GovPublic",
+  "title": "ULM : demande de licence de station d'aéronef",
+  "template_family": "dgac-ulm-f401-station-license",
+  "source_pages": 1,
+  "columns": 1,
+  "rows": [
+    [
+      {
+        "text": "R8-ULM-F401 - version 27/06/2019",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Arrêté du 18 avril 2011 relatif à la licence de station d'aéronef. Le demandeur doit être le titulaire ou demandeur de la carte d'identification; l'organisme d'entretien peut signer par délégation.",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Titulaire (ou demandeur) de la carte d’identification",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "titulaire_nom",
+        "label": "Nom(s)",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "titulaire_adresse",
+        "label": "Adresse",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "titulaire_telephone",
+        "label": "Téléphone",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "titulaire_courriel",
+        "label": "Courriel",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Demande de LSA",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "type_demande",
+        "label": "Demande d’une nouvelle LSA",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Demande d’une nouvelle LSA",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "nouvelle_marques",
+        "label": "Marques d’identification",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "nouvelle_autres_marques",
+        "label": "Autres marques",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "nouvelle_modele",
+        "label": "Constructeur, modèle",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "nouvelle_serie",
+        "label": "N° de série (si applicable)",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Demande relative à une LSA existante",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "indicatif",
+        "label": "Indicatif d’appel",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "ulm_actuels",
+        "label": "ULM actuellement listé(s*) sur la LSA",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "modifications",
+        "label": "Je demande",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "adresse_24_bits",
+        "label": "l’adresse 24 bits doit être conservée",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "ulm_supprimes",
+        "label": "ULM à supprimer de la LSA",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "ulm_ajoutes_identifies",
+        "label": "ULM déjà identifié(s)",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "ulm_ajoutes_modele",
+        "label": "Constructeur, modèle",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "ulm_ajoutes_serie",
+        "label": "N° de série (si applicable)",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Plusieurs ULM sont possibles uniquement s'ils ont le même titulaire et partagent la même radio VHF.",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Signature",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Je déclare avoir été informé que mes informations à caractère personnel feront l'objet d'un traitement informatisé.",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "date",
+        "label": "Date",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "signature",
+        "label": "Nom, prénom, signature",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Documents à joindre",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "pieces",
+        "label": "Documents à joindre",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Le formulaire et ses pièces jointes sont adressés au bureau régional de la DGAC compétent pour le lieu d'attache de l'ULM.",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "titulaire_nom",
+      "label": "Nom(s)",
+      "source_page": 1,
+      "source_anchor": "Nom(s)",
+      "path": [
+        "Titulaire (ou demandeur) de la carte d’identification",
+        "Nom(s)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille Martin"
+    },
+    {
+      "id": "titulaire_adresse",
+      "label": "Adresse",
+      "source_page": 1,
+      "source_anchor": "Adresse",
+      "path": [
+        "Titulaire (ou demandeur) de la carte d’identification",
+        "Adresse"
+      ],
+      "kind": "text",
+      "synthetic_value": "12 rue Exemple, 75012 Paris"
+    },
+    {
+      "id": "titulaire_telephone",
+      "label": "Téléphone",
+      "source_page": 1,
+      "source_anchor": "Téléphone",
+      "path": [
+        "Titulaire (ou demandeur) de la carte d’identification",
+        "Téléphone"
+      ],
+      "kind": "text",
+      "synthetic_value": "01 00 00 00 01"
+    },
+    {
+      "id": "titulaire_courriel",
+      "label": "Courriel",
+      "source_page": 1,
+      "source_anchor": "Courriel",
+      "path": [
+        "Titulaire (ou demandeur) de la carte d’identification",
+        "Courriel"
+      ],
+      "kind": "text",
+      "synthetic_value": "camille.martin@example.invalid"
+    },
+    {
+      "id": "type_demande",
+      "label": "Demande d’une nouvelle LSA",
+      "source_page": 1,
+      "source_anchor": "Demande d’une nouvelle LSA",
+      "path": [
+        "Demande de LSA",
+        "Demande d’une nouvelle LSA"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Demande relative à une LSA existante"
+      ],
+      "options": [
+        "Demande d’une nouvelle LSA",
+        "Demande relative à une LSA existante"
+      ],
+      "context_evidence": "Demande de LSA / Demande d’une nouvelle LSA : Demande relative à une LSA existante."
+    },
+    {
+      "id": "nouvelle_marques",
+      "label": "Marques d’identification",
+      "source_page": 1,
+      "source_anchor": "Marques d’identification",
+      "path": [
+        "Demande d’une nouvelle LSA",
+        "Marques d’identification"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "nouvelle_autres_marques",
+      "label": "Autres marques",
+      "source_page": 1,
+      "source_anchor": "Autres marques",
+      "path": [
+        "Demande d’une nouvelle LSA",
+        "Autres marques"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "nouvelle_modele",
+      "label": "Constructeur, modèle",
+      "source_page": 1,
+      "source_anchor": "Constructeur, modèle",
+      "path": [
+        "Demande d’une nouvelle LSA",
+        "Constructeur, modèle"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "nouvelle_serie",
+      "label": "N° de série (si applicable)",
+      "source_page": 1,
+      "source_anchor": "N° de série (si applicable)",
+      "path": [
+        "Demande d’une nouvelle LSA",
+        "N° de série (si applicable)"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "indicatif",
+      "label": "Indicatif d’appel",
+      "source_page": 1,
+      "source_anchor": "Indicatif d’appel",
+      "path": [
+        "Demande relative à une LSA existante",
+        "Indicatif d’appel"
+      ],
+      "kind": "text",
+      "synthetic_value": "F-JABC"
+    },
+    {
+      "id": "ulm_actuels",
+      "label": "ULM actuellement listé(s*) sur la LSA",
+      "source_page": 1,
+      "source_anchor": "ULM actuellement listé(s*) sur la LSA",
+      "path": [
+        "Demande relative à une LSA existante",
+        "ULM actuellement listé(s*) sur la LSA"
+      ],
+      "kind": "text",
+      "synthetic_value": "75ABC"
+    },
+    {
+      "id": "modifications",
+      "label": "Je demande",
+      "source_page": 1,
+      "source_anchor": "Je demande",
+      "path": [
+        "Demande relative à une LSA existante",
+        "Je demande"
+      ],
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "La modification de la liste des émetteurs",
+        "La mise à jour de l’ULM"
+      ],
+      "options": [
+        "Le renouvellement de la LSA",
+        "La modification de la liste des émetteurs",
+        "La mise à jour du champ « titulaire »",
+        "La mise à jour de l’ULM"
+      ],
+      "context_evidence": "Demande relative à une LSA existante / Je demande : La modification de la liste des émetteurs, La mise à jour de l’ULM."
+    },
+    {
+      "id": "adresse_24_bits",
+      "label": "l’adresse 24 bits doit être conservée",
+      "source_page": 1,
+      "source_anchor": "l’adresse 24 bits doit être conservée",
+      "path": [
+        "Demande relative à une LSA existante",
+        "l’adresse 24 bits doit être conservée"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "l’adresse 24 bits doit être conservée"
+      ],
+      "options": [
+        "l’adresse 24 bits doit être conservée",
+        "l’adresse 24 bits peut être désassociée de l’ULM"
+      ],
+      "context_evidence": "Demande relative à une LSA existante / l’adresse 24 bits doit être conservée : l’adresse 24 bits doit être conservée."
+    },
+    {
+      "id": "ulm_supprimes",
+      "label": "ULM à supprimer de la LSA",
+      "source_page": 1,
+      "source_anchor": "ULM à supprimer de la LSA",
+      "path": [
+        "Demande relative à une LSA existante",
+        "ULM à supprimer de la LSA"
+      ],
+      "kind": "text",
+      "synthetic_value": "75ABC"
+    },
+    {
+      "id": "ulm_ajoutes_identifies",
+      "label": "ULM déjà identifié(s)",
+      "source_page": 1,
+      "source_anchor": "ULM déjà identifié(s)",
+      "path": [
+        "Demande relative à une LSA existante",
+        "ULM déjà identifié(s)"
+      ],
+      "kind": "text",
+      "synthetic_value": "75ABD"
+    },
+    {
+      "id": "ulm_ajoutes_modele",
+      "label": "Constructeur, modèle",
+      "source_page": 1,
+      "source_anchor": "Constructeur, modèle",
+      "path": [
+        "Demande relative à une LSA existante",
+        "ULM en cours d'identification",
+        "Constructeur, modèle"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "ulm_ajoutes_serie",
+      "label": "N° de série (si applicable)",
+      "source_page": 1,
+      "source_anchor": "N° de série (si applicable)",
+      "path": [
+        "Demande relative à une LSA existante",
+        "ULM en cours d'identification",
+        "N° de série"
+      ],
+      "kind": "text",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "date",
+      "label": "Date",
+      "source_page": 1,
+      "source_anchor": "Date",
+      "path": [
+        "Signature",
+        "Date"
+      ],
+      "kind": "text",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "signature",
+      "label": "Nom, prénom, signature",
+      "source_page": 1,
+      "source_anchor": "Nom, prénom, signature",
+      "path": [
+        "Signature",
+        "Nom, prénom, signature"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille Martin (signature fictive)"
+    },
+    {
+      "id": "pieces",
+      "label": "Documents à joindre",
+      "source_page": 1,
+      "source_anchor": "Documents à joindre",
+      "path": [
+        "Documents à joindre",
+        "Documents à joindre"
+      ],
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "attestation de conformité R8-ULM-F402  de moins de 2 mois, signée par le titulaire"
+      ],
+      "options": [
+        "attestation de conformité R8-ULM-F402  de moins de 2 mois, signée par un atelier agréé",
+        "attestation de conformité R8-ULM-F402  de moins de 2 mois, signée par le titulaire",
+        "accord de l’ancien titulaire"
+      ],
+      "context_evidence": "Documents à joindre / Documents à joindre : attestation de conformité R8-ULM-F402  de moins de 2 mois, signée par le titulaire."
+    }
+  ],
+  "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/R8_ULM_F401_Demande_LSA.pdf",
+  "landing_url": "https://www.ecologie.gouv.fr/politiques-publiques/ulm-demarches-constructeurs-dulm-serie",
+  "license_url": "https://www.ecologie.gouv.fr/mentions-legales",
+  "license_note": "Ecologie/Transports legal notice applies Etalab 2.0 absent explicit third-party claim; original DGAC form text only; logos/artwork excluded.",
+  "issuer_id": "DGAC / Ministere charge des transports",
+  "source_sha256": "5c6d0f45ca9de76b4d05ba18e2ca2853be3481f1b8f389a149c2a963fb0b9615",
+  "source_version": "R8-ULM-F401",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "kind": "printed_document_date_or_version",
+    "value": "version 27/06/2019",
+    "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/R8_ULM_F401_Demande_LSA.pdf",
+    "detail": "Document-specific printed date/version; not a website update claim."
+  },
+  "context": "Dossier fictif pour évaluer le remplissage; aucune identité réelle ni soumission administrative.\nTitulaire (ou demandeur) de la carte d’identification / Nom(s) : Camille Martin.\nTitulaire (ou demandeur) de la carte d’identification / Adresse : 12 rue Exemple, 75012 Paris.\nTitulaire (ou demandeur) de la carte d’identification / Téléphone : 01 00 00 00 01.\nTitulaire (ou demandeur) de la carte d’identification / Courriel : camille.martin@example.invalid.\nDemande de LSA / Demande d’une nouvelle LSA : Demande relative à une LSA existante.\nDemande d’une nouvelle LSA / Marques d’identification : Sans objet.\nDemande d’une nouvelle LSA / Autres marques : Sans objet.\nDemande d’une nouvelle LSA / Constructeur, modèle : Sans objet.\nDemande d’une nouvelle LSA / N° de série (si applicable) : Sans objet.\nDemande relative à une LSA existante / Indicatif d’appel : F-JABC.\nDemande relative à une LSA existante / ULM actuellement listé(s*) sur la LSA : 75ABC.\nDemande relative à une LSA existante / Je demande : La modification de la liste des émetteurs, La mise à jour de l’ULM.\nDemande relative à une LSA existante / l’adresse 24 bits doit être conservée : l’adresse 24 bits doit être conservée.\nDemande relative à une LSA existante / ULM à supprimer de la LSA : 75ABC.\nDemande relative à une LSA existante / ULM déjà identifié(s) : 75ABD.\nDemande relative à une LSA existante / ULM en cours d'identification / Constructeur, modèle : Sans objet.\nDemande relative à une LSA existante / ULM en cours d'identification / N° de série : Sans objet.\nSignature / Date : 05/10/2026.\nSignature / Nom, prénom, signature : Camille Martin (signature fictive).\nDocuments à joindre / Documents à joindre : attestation de conformité R8-ULM-F402  de moins de 2 mois, signée par le titulaire.",
+  "retrieved_at": "2026-10-04T17:05:04.174206+00:00",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 81
+  }
+}

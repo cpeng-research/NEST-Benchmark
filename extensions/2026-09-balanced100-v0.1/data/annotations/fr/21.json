@@ -1,0 +1,1457 @@
+{
+  "id": "fr-student-displacement",
+  "language": "fr",
+  "domain": "Education",
+  "title": "Mobilité scolaire - Déclaration de déplacement d’élèves à l’étranger",
+  "template_family": "student-displacement",
+  "source_pages": 3,
+  "columns": 6,
+  "rows": [
+    [
+      {
+        "text": "DECLARATION DE DEPLACEMENT D’ELEVES A L’ETRANGER",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "À adresser impérativement avant la date prévue de départ à la DAREIC de votre académie.",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "annee",
+        "label": "Année scolaire",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "secteur",
+        "label": "Secteur",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "I – Etablissement",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "type",
+        "label": "Etablissement",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "LPO : entourer SEP - SEG",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "section",
+        "label": "entourer",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "nom",
+        "label": "Nom de l’établissement",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "ville",
+        "label": "Ville",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "mail",
+        "label": "Courriel",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "II – Informations générales sur le déplacement",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "destination",
+        "label": "Lieu de destination (ville(s))",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "pays",
+        "label": "Pays",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "duree",
+        "label": "Durée du séjour (hors déplacement)",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "jours_total",
+        "label": "Nbre de jours total",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "jours_scolaires",
+        "label": "Nbre de jours pris sur temps scolaire",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "aller_depart",
+        "label": "Aller/Date et lieu de départ",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "aller_arrivee",
+        "label": "Date et lieu d’arrivée",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "retour_depart",
+        "label": "Retour/Date et lieu de départ",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "retour_arrivee",
+        "label": "Date et lieu d’arrivée",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "transport",
+        "label": "Mode de transport",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "effectif",
+        "label": "Nombre d’élèves",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Préciser si plusieurs moyens de transport sont empruntés.",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "composition",
+        "label": "Composition du groupe (cocher)",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "niveaux",
+        "label": "Niveau(x)/ Nombre par niveau",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "hebergement",
+        "label": "Hébergement",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "hebergement_autre",
+        "label": "préciser",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "III – Types de mobilité",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "mobilite",
+        "label": "Types de mobilité",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "partenaire",
+        "label": "Nom et nature de l’établissement partenaire",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "partenaire_ville",
+        "label": "Ville où est situé l’établissement à étranger",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "programme",
+        "label": "Nom du programme dans lequel s’inscrit le partenariat",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "convention",
+        "label": "Convention entre les deux partenaires",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Voir annexe 3.",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "signature_fr",
+        "label": "convention cosignée par l’établissement français le",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "signature_etranger",
+        "label": "par l’établissement étranger le",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "reciprocite",
+        "label": "Echange avec réciprocité",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "accueil",
+        "label": "Si oui, dates d’accueil des élèves étrangers au retour",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "appariement",
+        "label": "Appariement",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "validation",
+        "label": "Numéro de références de la validation de l’appariement par le recteur",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "demande_en_cours",
+        "label": "Si validation en cours, date de la demande d’appariement",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "IV – Organisation du voyage scolaire",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "theme",
+        "label": "Thématique ou intitulé du voyage",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "contribution",
+        "label": "Participation financière moyenne par famille",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "pourcentage",
+        "label": "La participation des familles représente",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "cout",
+        "label": "Coût total du voyage",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "aides",
+        "label": "Dispositions éventuelles prises pour permettre la participation des élèves de condition modeste",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "assurance",
+        "label": "Tous les élèves sont-ils assurés ?",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "NB L’assurance des élèves contre les accidents subis ou causés est obligatoire si le voyage est facultatif.",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Personnes désignées pour l’encadrement des élèves",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Souligner le responsable du groupe.",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "1 – Personnels de l’éducation nationale",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "personnel_1_1",
+        "label": "Nom et prénom",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "field": "personnel_1_2",
+        "label": "Qualité",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "field": "personnel_1_3",
+        "label": "Discipline",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "personnel_2_1",
+        "label": "Nom et prénom",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "field": "personnel_2_2",
+        "label": "Qualité",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "field": "personnel_2_3",
+        "label": "Discipline",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "personnel_3_1",
+        "label": "Nom et prénom",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "field": "personnel_3_2",
+        "label": "Qualité",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "field": "personnel_3_3",
+        "label": "Discipline",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "personnel_4_1",
+        "label": "Nom et prénom",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "field": "personnel_4_2",
+        "label": "Qualité",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "field": "personnel_4_3",
+        "label": "Discipline",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "2 Accompagnateurs extérieurs",
+        "heading": true,
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "externe_1_1",
+        "label": "Nom et prénom",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "externe_1_2",
+        "label": "Qualité",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "externe_2_1",
+        "label": "Nom et prénom",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "externe_2_2",
+        "label": "Qualité",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "externe_3_1",
+        "label": "Nom et prénom",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "externe_3_2",
+        "label": "Qualité",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "decision",
+        "label": "Décision du Chef d’établissement/ Directeur",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "field": "date",
+        "label": "Date",
+        "colspan": 3,
+        "source_page": 3
+      },
+      {
+        "field": "signature",
+        "label": "Signature",
+        "colspan": 3,
+        "source_page": 3
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "annee",
+      "label": "Année scolaire",
+      "source_page": 1,
+      "source_anchor": "Année scolaire",
+      "path": [
+        "DECLARATION DE DEPLACEMENT D’ELEVES A L’ETRANGER",
+        "Année scolaire"
+      ],
+      "kind": "text",
+      "synthetic_value": "2025-2026"
+    },
+    {
+      "id": "secteur",
+      "label": "Secteur",
+      "source_page": 1,
+      "source_anchor": "Secteur",
+      "path": [
+        "DECLARATION DE DEPLACEMENT D’ELEVES A L’ETRANGER",
+        "Secteur"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "public"
+      ],
+      "options": [
+        "public",
+        "privé sous contrat"
+      ],
+      "context_evidence": "DECLARATION DE DEPLACEMENT D’ELEVES A L’ETRANGER / Secteur : public."
+    },
+    {
+      "id": "type",
+      "label": "Etablissement",
+      "source_page": 1,
+      "source_anchor": "Etablissement",
+      "path": [
+        "I – Etablissement",
+        "Etablissement"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "LEGT"
+      ],
+      "options": [
+        "Collège",
+        "LEGT",
+        "LPO",
+        "LP"
+      ],
+      "context_evidence": "I – Etablissement / Etablissement : LEGT."
+    },
+    {
+      "id": "section",
+      "label": "entourer",
+      "source_page": 1,
+      "source_anchor": "entourer",
+      "path": [
+        "I – Etablissement",
+        "LPO : entourer SEP – SEG"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "inactive_in_scenario": true,
+      "options": [
+        "SEP",
+        "SEG"
+      ],
+      "context_evidence": "I – Etablissement / LPO : entourer SEP – SEG : laisser vide (non applicable ou ligne inutilisée dans ce scénario)."
+    },
+    {
+      "id": "nom",
+      "label": "Nom de l’établissement",
+      "source_page": 1,
+      "source_anchor": "Nom de l’établissement",
+      "path": [
+        "I – Etablissement",
+        "Nom de l’établissement"
+      ],
+      "kind": "text",
+      "synthetic_value": "Lycée Exemple"
+    },
+    {
+      "id": "ville",
+      "label": "Ville",
+      "source_page": 1,
+      "source_anchor": "Ville",
+      "path": [
+        "I – Etablissement",
+        "Ville"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "mail",
+      "label": "Courriel",
+      "source_page": 1,
+      "source_anchor": "Courriel",
+      "path": [
+        "I – Etablissement",
+        "Courriel"
+      ],
+      "kind": "text",
+      "synthetic_value": "contact@lycee.example"
+    },
+    {
+      "id": "destination",
+      "label": "Lieu de destination (ville(s))",
+      "source_page": 1,
+      "source_anchor": "Lieu de destination (ville(s))",
+      "path": [
+        "II – Informations générales sur le déplacement",
+        "Lieu de destination (ville(s))"
+      ],
+      "kind": "text",
+      "synthetic_value": "Berlin"
+    },
+    {
+      "id": "pays",
+      "label": "Pays",
+      "source_page": 1,
+      "source_anchor": "Pays",
+      "path": [
+        "II – Informations générales sur le déplacement",
+        "Pays"
+      ],
+      "kind": "text",
+      "synthetic_value": "Allemagne"
+    },
+    {
+      "id": "duree",
+      "label": "Durée du séjour (hors déplacement)",
+      "source_page": 1,
+      "source_anchor": "Durée du séjour (hors déplacement)",
+      "path": [
+        "II – Informations générales sur le déplacement",
+        "Durée du séjour (hors déplacement)"
+      ],
+      "kind": "text",
+      "synthetic_value": "5 jours"
+    },
+    {
+      "id": "jours_total",
+      "label": "Nbre de jours total",
+      "source_page": 1,
+      "source_anchor": "Nbre de jours total",
+      "path": [
+        "II – Informations générales sur le déplacement",
+        "Nbre de jours total"
+      ],
+      "kind": "text",
+      "synthetic_value": "7"
+    },
+    {
+      "id": "jours_scolaires",
+      "label": "Nbre de jours pris sur temps scolaire",
+      "source_page": 1,
+      "source_anchor": "Nbre de jours pris sur temps scolaire",
+      "path": [
+        "II – Informations générales sur le déplacement",
+        "Nbre de jours pris sur temps scolaire"
+      ],
+      "kind": "text",
+      "synthetic_value": "5"
+    },
+    {
+      "id": "aller_depart",
+      "label": "Aller/Date et lieu de départ",
+      "source_page": 1,
+      "source_anchor": "Aller/Date et lieu de départ",
+      "path": [
+        "II – Informations générales",
+        "Aller",
+        "Aller/Date et lieu de départ"
+      ],
+      "kind": "text",
+      "synthetic_value": "08/03/2026, Paris"
+    },
+    {
+      "id": "aller_arrivee",
+      "label": "Date et lieu d’arrivée",
+      "source_page": 1,
+      "source_anchor": "Date et lieu d’arrivée",
+      "path": [
+        "II – Informations générales",
+        "Aller",
+        "Date et lieu d’arrivée"
+      ],
+      "kind": "text",
+      "synthetic_value": "08/03/2026, Berlin"
+    },
+    {
+      "id": "retour_depart",
+      "label": "Retour/Date et lieu de départ",
+      "source_page": 1,
+      "source_anchor": "Retour/Date et lieu de départ",
+      "path": [
+        "II – Informations générales",
+        "Retour",
+        "Retour/Date et lieu de départ"
+      ],
+      "kind": "text",
+      "synthetic_value": "14/03/2026, Berlin"
+    },
+    {
+      "id": "retour_arrivee",
+      "label": "Date et lieu d’arrivée",
+      "source_page": 1,
+      "source_anchor": "Date et lieu d’arrivée",
+      "path": [
+        "II – Informations générales",
+        "Retour",
+        "Date et lieu d’arrivée"
+      ],
+      "kind": "text",
+      "synthetic_value": "14/03/2026, Paris"
+    },
+    {
+      "id": "transport",
+      "label": "Mode de transport",
+      "source_page": 1,
+      "source_anchor": "Mode de transport",
+      "path": [
+        "II – Informations générales",
+        "transport",
+        "Mode de transport"
+      ],
+      "kind": "text",
+      "synthetic_value": "Train aller-retour ; transports publics locaux."
+    },
+    {
+      "id": "effectif",
+      "label": "Nombre d’élèves",
+      "source_page": 1,
+      "source_anchor": "Nombre d’élèves",
+      "path": [
+        "II – Informations générales",
+        "effectif",
+        "Nombre d’élèves"
+      ],
+      "kind": "text",
+      "synthetic_value": "30"
+    },
+    {
+      "id": "composition",
+      "label": "Composition du groupe (cocher)",
+      "source_page": 1,
+      "source_anchor": "Composition du groupe (cocher)",
+      "path": [
+        "II – Informations générales sur le déplacement",
+        "Composition du groupe (cocher)"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Classe entière"
+      ],
+      "options": [
+        "Classe entière",
+        "Groupe constitué"
+      ],
+      "context_evidence": "II – Informations générales sur le déplacement / Composition du groupe (cocher) : Classe entière."
+    },
+    {
+      "id": "niveaux",
+      "label": "Niveau(x)/ Nombre par niveau",
+      "source_page": 1,
+      "source_anchor": "Niveau(x)/ Nombre par niveau",
+      "path": [
+        "II – Informations générales sur le déplacement",
+        "Niveau(x)/ Nombre par niveau"
+      ],
+      "kind": "text",
+      "synthetic_value": "Seconde : 30"
+    },
+    {
+      "id": "hebergement",
+      "label": "Hébergement",
+      "source_page": 1,
+      "source_anchor": "Hébergement",
+      "path": [
+        "II – Informations générales sur le déplacement",
+        "Hébergement"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "famille des correspondants"
+      ],
+      "options": [
+        "famille des correspondants",
+        "accueil (en famille) rémunéré",
+        "hôtel/auberge de jeunesse",
+        "autre"
+      ],
+      "context_evidence": "II – Informations générales sur le déplacement / Hébergement : famille des correspondants."
+    },
+    {
+      "id": "hebergement_autre",
+      "label": "préciser",
+      "source_page": 1,
+      "source_anchor": "préciser",
+      "path": [
+        "II – Informations générales",
+        "Hébergement",
+        "Autre : préciser"
+      ],
+      "kind": "text",
+      "synthetic_value": "",
+      "inactive_in_scenario": true
+    },
+    {
+      "id": "mobilite",
+      "label": "Types de mobilité",
+      "source_page": 2,
+      "source_anchor": "Types de mobilité",
+      "path": [
+        "III – Types de mobilité",
+        "Types de mobilité"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Mobilité dans le cadre d’un partenariat avec un établissement étranger"
+      ],
+      "options": [
+        "Mobilité dans le cadre d’un partenariat avec un établissement étranger",
+        "Voyage hors partenariat scolaire"
+      ],
+      "context_evidence": "III – Types de mobilité / Types de mobilité : Mobilité dans le cadre d’un partenariat avec un établissement étranger."
+    },
+    {
+      "id": "partenaire",
+      "label": "Nom et nature de l’établissement partenaire",
+      "source_page": 2,
+      "source_anchor": "Nom et nature de l’établissement partenaire",
+      "path": [
+        "III – Types de mobilité",
+        "Nom et nature de l’établissement partenaire"
+      ],
+      "kind": "text",
+      "synthetic_value": "Gymnasium Exemple, établissement secondaire public"
+    },
+    {
+      "id": "partenaire_ville",
+      "label": "Ville où est situé l’établissement à étranger",
+      "source_page": 2,
+      "source_anchor": "Ville où est situé l’établissement à étranger",
+      "path": [
+        "III – Types de mobilité",
+        "Ville où est situé l’établissement à étranger"
+      ],
+      "kind": "text",
+      "synthetic_value": "Berlin"
+    },
+    {
+      "id": "programme",
+      "label": "Nom du programme dans lequel s’inscrit le partenariat",
+      "source_page": 2,
+      "source_anchor": "Nom du programme dans lequel s’inscrit le partenariat",
+      "path": [
+        "III – Types de mobilité",
+        "Nom du programme dans lequel s’inscrit le partenariat"
+      ],
+      "kind": "text",
+      "synthetic_value": "Projet bilatéral Mobilités durables"
+    },
+    {
+      "id": "convention",
+      "label": "Convention entre les deux partenaires",
+      "source_page": 2,
+      "source_anchor": "Convention entre les deux partenaires",
+      "path": [
+        "III – Types de mobilité",
+        "Convention entre les deux partenaires"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "oui"
+      ],
+      "options": [
+        "oui",
+        "non"
+      ],
+      "context_evidence": "III – Types de mobilité / Convention entre les deux partenaires : oui."
+    },
+    {
+      "id": "signature_fr",
+      "label": "convention cosignée par l’établissement français le",
+      "source_page": 2,
+      "source_anchor": "convention cosignée par l’établissement français le",
+      "path": [
+        "III – Types de mobilité",
+        "convention cosignée par l’établissement français le"
+      ],
+      "kind": "text",
+      "synthetic_value": "15/01/2026"
+    },
+    {
+      "id": "signature_etranger",
+      "label": "par l’établissement étranger le",
+      "source_page": 2,
+      "source_anchor": "par l’établissement étranger le",
+      "path": [
+        "III – Types de mobilité",
+        "par l’établissement étranger le"
+      ],
+      "kind": "text",
+      "synthetic_value": "16/01/2026"
+    },
+    {
+      "id": "reciprocite",
+      "label": "Echange avec réciprocité",
+      "source_page": 2,
+      "source_anchor": "Echange avec réciprocité",
+      "path": [
+        "III – Types de mobilité",
+        "Echange avec réciprocité"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "oui"
+      ],
+      "options": [
+        "oui",
+        "non"
+      ],
+      "context_evidence": "III – Types de mobilité / Echange avec réciprocité : oui."
+    },
+    {
+      "id": "accueil",
+      "label": "Si oui, dates d’accueil des élèves étrangers au retour",
+      "source_page": 2,
+      "source_anchor": "Si oui, dates d’accueil des élèves étrangers au retour",
+      "path": [
+        "III – Types de mobilité",
+        "Si oui, dates d’accueil des élèves étrangers au retour"
+      ],
+      "kind": "text",
+      "synthetic_value": "11/05/2026 au 15/05/2026"
+    },
+    {
+      "id": "appariement",
+      "label": "Appariement",
+      "source_page": 2,
+      "source_anchor": "Appariement",
+      "path": [
+        "III – Types de mobilité",
+        "Appariement"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "oui"
+      ],
+      "options": [
+        "oui",
+        "non"
+      ],
+      "context_evidence": "III – Types de mobilité / Appariement : oui."
+    },
+    {
+      "id": "validation",
+      "label": "Numéro de références de la validation de l’appariement par le recteur",
+      "source_page": 2,
+      "source_anchor": "Numéro de références de la validation de l’appariement par le recteur",
+      "path": [
+        "III – Types de mobilité",
+        "Numéro de références de la validation de l’appariement par le recteur"
+      ],
+      "kind": "text",
+      "synthetic_value": "RÉFÉRENCE FICTIVE PART-2025-001"
+    },
+    {
+      "id": "demande_en_cours",
+      "label": "Si validation en cours, date de la demande d’appariement",
+      "source_page": 2,
+      "source_anchor": "Si validation en cours, date de la demande d’appariement",
+      "path": [
+        "III – Types de mobilité",
+        "Si validation en cours, date de la demande d’appariement"
+      ],
+      "kind": "text",
+      "synthetic_value": "",
+      "inactive_in_scenario": true
+    },
+    {
+      "id": "theme",
+      "label": "Thématique ou intitulé du voyage",
+      "source_page": 2,
+      "source_anchor": "Thématique ou intitulé du voyage",
+      "path": [
+        "IV – Organisation du voyage scolaire",
+        "Thématique ou intitulé du voyage"
+      ],
+      "kind": "text",
+      "synthetic_value": "Mobilités durables et échanges interculturels"
+    },
+    {
+      "id": "contribution",
+      "label": "Participation financière moyenne par famille",
+      "source_page": 2,
+      "source_anchor": "Participation financière moyenne par famille",
+      "path": [
+        "IV – Organisation du voyage scolaire",
+        "Participation financière moyenne par famille"
+      ],
+      "kind": "text",
+      "synthetic_value": "150 €"
+    },
+    {
+      "id": "pourcentage",
+      "label": "La participation des familles représente",
+      "source_page": 2,
+      "source_anchor": "La participation des familles représente",
+      "path": [
+        "IV – Organisation du voyage scolaire",
+        "La participation des familles représente"
+      ],
+      "kind": "text",
+      "synthetic_value": "50 % du coût total"
+    },
+    {
+      "id": "cout",
+      "label": "Coût total du voyage",
+      "source_page": 2,
+      "source_anchor": "Coût total du voyage",
+      "path": [
+        "IV – Organisation du voyage scolaire",
+        "Coût total du voyage"
+      ],
+      "kind": "text",
+      "synthetic_value": "9 000 €"
+    },
+    {
+      "id": "aides",
+      "label": "Dispositions éventuelles prises pour permettre la participation des élèves de condition modeste",
+      "source_page": 2,
+      "source_anchor": "Dispositions éventuelles prises pour permettre la participation des élèves de condition modeste",
+      "path": [
+        "IV – Organisation du voyage scolaire",
+        "Dispositions éventuelles prises pour permettre la participation des élèves de condition modeste"
+      ],
+      "kind": "text",
+      "synthetic_value": "Fonds social et paiement échelonné adaptés aux familles concernées."
+    },
+    {
+      "id": "assurance",
+      "label": "Tous les élèves sont-ils assurés ?",
+      "source_page": 2,
+      "source_anchor": "Tous les élèves sont-ils assurés ?",
+      "path": [
+        "IV – Organisation du voyage scolaire",
+        "Tous les élèves sont-ils assurés ?"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "oui"
+      ],
+      "options": [
+        "oui",
+        "non"
+      ],
+      "context_evidence": "IV – Organisation du voyage scolaire / Tous les élèves sont-ils assurés ? : oui."
+    },
+    {
+      "id": "personnel_1_1",
+      "label": "Nom et prénom",
+      "source_page": 3,
+      "source_anchor": "Nom et prénom",
+      "path": [
+        "Encadrement",
+        "Personnels de l’éducation nationale",
+        "Personne 1",
+        "Nom et prénom"
+      ],
+      "kind": "text",
+      "synthetic_value": "Alex Laurent (responsable du groupe)"
+    },
+    {
+      "id": "personnel_1_2",
+      "label": "Qualité",
+      "source_page": 3,
+      "source_anchor": "Qualité",
+      "path": [
+        "Encadrement",
+        "Personnels de l’éducation nationale",
+        "Personne 1",
+        "Qualité"
+      ],
+      "kind": "text",
+      "synthetic_value": "Professeur"
+    },
+    {
+      "id": "personnel_1_3",
+      "label": "Discipline",
+      "source_page": 3,
+      "source_anchor": "Discipline",
+      "path": [
+        "Encadrement",
+        "Personnels de l’éducation nationale",
+        "Personne 1",
+        "Discipline"
+      ],
+      "kind": "text",
+      "synthetic_value": "Allemand"
+    },
+    {
+      "id": "personnel_2_1",
+      "label": "Nom et prénom",
+      "source_page": 3,
+      "source_anchor": "Nom et prénom",
+      "path": [
+        "Encadrement",
+        "Personnels de l’éducation nationale",
+        "Personne 2",
+        "Nom et prénom"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille Moreau"
+    },
+    {
+      "id": "personnel_2_2",
+      "label": "Qualité",
+      "source_page": 3,
+      "source_anchor": "Qualité",
+      "path": [
+        "Encadrement",
+        "Personnels de l’éducation nationale",
+        "Personne 2",
+        "Qualité"
+      ],
+      "kind": "text",
+      "synthetic_value": "Professeure"
+    },
+    {
+      "id": "personnel_2_3",
+      "label": "Discipline",
+      "source_page": 3,
+      "source_anchor": "Discipline",
+      "path": [
+        "Encadrement",
+        "Personnels de l’éducation nationale",
+        "Personne 2",
+        "Discipline"
+      ],
+      "kind": "text",
+      "synthetic_value": "Histoire-géographie"
+    },
+    {
+      "id": "personnel_3_1",
+      "label": "Nom et prénom",
+      "source_page": 3,
+      "source_anchor": "Nom et prénom",
+      "path": [
+        "Encadrement",
+        "Personnels de l’éducation nationale",
+        "Personne 3",
+        "Nom et prénom"
+      ],
+      "kind": "text",
+      "synthetic_value": "",
+      "inactive_in_scenario": true
+    },
+    {
+      "id": "personnel_3_2",
+      "label": "Qualité",
+      "source_page": 3,
+      "source_anchor": "Qualité",
+      "path": [
+        "Encadrement",
+        "Personnels de l’éducation nationale",
+        "Personne 3",
+        "Qualité"
+      ],
+      "kind": "text",
+      "synthetic_value": "",
+      "inactive_in_scenario": true
+    },
+    {
+      "id": "personnel_3_3",
+      "label": "Discipline",
+      "source_page": 3,
+      "source_anchor": "Discipline",
+      "path": [
+        "Encadrement",
+        "Personnels de l’éducation nationale",
+        "Personne 3",
+        "Discipline"
+      ],
+      "kind": "text",
+      "synthetic_value": "",
+      "inactive_in_scenario": true
+    },
+    {
+      "id": "personnel_4_1",
+      "label": "Nom et prénom",
+      "source_page": 3,
+      "source_anchor": "Nom et prénom",
+      "path": [
+        "Encadrement",
+        "Personnels de l’éducation nationale",
+        "Personne 4",
+        "Nom et prénom"
+      ],
+      "kind": "text",
+      "synthetic_value": "",
+      "inactive_in_scenario": true
+    },
+    {
+      "id": "personnel_4_2",
+      "label": "Qualité",
+      "source_page": 3,
+      "source_anchor": "Qualité",
+      "path": [
+        "Encadrement",
+        "Personnels de l’éducation nationale",
+        "Personne 4",
+        "Qualité"
+      ],
+      "kind": "text",
+      "synthetic_value": "",
+      "inactive_in_scenario": true
+    },
+    {
+      "id": "personnel_4_3",
+      "label": "Discipline",
+      "source_page": 3,
+      "source_anchor": "Discipline",
+      "path": [
+        "Encadrement",
+        "Personnels de l’éducation nationale",
+        "Personne 4",
+        "Discipline"
+      ],
+      "kind": "text",
+      "synthetic_value": "",
+      "inactive_in_scenario": true
+    },
+    {
+      "id": "externe_1_1",
+      "label": "Nom et prénom",
+      "source_page": 3,
+      "source_anchor": "Nom et prénom",
+      "path": [
+        "Encadrement",
+        "Accompagnateurs extérieurs",
+        "Personne 1",
+        "Nom et prénom"
+      ],
+      "kind": "text",
+      "synthetic_value": "Lucie Martin"
+    },
+    {
+      "id": "externe_1_2",
+      "label": "Qualité",
+      "source_page": 3,
+      "source_anchor": "Qualité",
+      "path": [
+        "Encadrement",
+        "Accompagnateurs extérieurs",
+        "Personne 1",
+        "Qualité"
+      ],
+      "kind": "text",
+      "synthetic_value": "Parent accompagnateur"
+    },
+    {
+      "id": "externe_2_1",
+      "label": "Nom et prénom",
+      "source_page": 3,
+      "source_anchor": "Nom et prénom",
+      "path": [
+        "Encadrement",
+        "Accompagnateurs extérieurs",
+        "Personne 2",
+        "Nom et prénom"
+      ],
+      "kind": "text",
+      "synthetic_value": "",
+      "inactive_in_scenario": true
+    },
+    {
+      "id": "externe_2_2",
+      "label": "Qualité",
+      "source_page": 3,
+      "source_anchor": "Qualité",
+      "path": [
+        "Encadrement",
+        "Accompagnateurs extérieurs",
+        "Personne 2",
+        "Qualité"
+      ],
+      "kind": "text",
+      "synthetic_value": "",
+      "inactive_in_scenario": true
+    },
+    {
+      "id": "externe_3_1",
+      "label": "Nom et prénom",
+      "source_page": 3,
+      "source_anchor": "Nom et prénom",
+      "path": [
+        "Encadrement",
+        "Accompagnateurs extérieurs",
+        "Personne 3",
+        "Nom et prénom"
+      ],
+      "kind": "text",
+      "synthetic_value": "",
+      "inactive_in_scenario": true
+    },
+    {
+      "id": "externe_3_2",
+      "label": "Qualité",
+      "source_page": 3,
+      "source_anchor": "Qualité",
+      "path": [
+        "Encadrement",
+        "Accompagnateurs extérieurs",
+        "Personne 3",
+        "Qualité"
+      ],
+      "kind": "text",
+      "synthetic_value": "",
+      "inactive_in_scenario": true
+    },
+    {
+      "id": "decision",
+      "label": "Décision du Chef d’établissement/ Directeur",
+      "source_page": 3,
+      "source_anchor": "Décision du Chef d’établissement/ Directeur",
+      "path": [
+        "2 Accompagnateurs extérieurs",
+        "Décision du Chef d’établissement/ Directeur"
+      ],
+      "kind": "text",
+      "synthetic_value": "Autorisation fictive du voyage facultatif, sous réserve des documents de sécurité et assurances prévus."
+    },
+    {
+      "id": "date",
+      "label": "Date",
+      "source_page": 3,
+      "source_anchor": "Date",
+      "path": [
+        "2 Accompagnateurs extérieurs",
+        "Date"
+      ],
+      "kind": "text",
+      "synthetic_value": "20/02/2026"
+    },
+    {
+      "id": "signature",
+      "label": "Signature",
+      "source_page": 3,
+      "source_anchor": "Signature",
+      "path": [
+        "2 Accompagnateurs extérieurs",
+        "Signature"
+      ],
+      "kind": "text",
+      "synthetic_value": "Signature fictive Camille Moreau"
+    }
+  ],
+  "source_url": "https://cache.media.eduscol.education.fr/file/Mobilite_des_eleves/73/5/Annexe_9_Modele_de_declaration_de_deplacement_d_eleves_594735.doc",
+  "landing_url": "https://eduscol.education.gouv.fr/sites/default/files/document/fichepratiqueeuropeinternationaloutilsmodelestextesreference1284773pdf-68082.pdf",
+  "license_url": "https://eduscol.education.gouv.fr/4656/mentions-legales",
+  "issuer_id": "dgesco-eduscol",
+  "retrieved_at": "2026-09-26T10:32:08.719923+00:00",
+  "source_sha256": "12ab9c319b9580c3dfae4fc6ffbdefafcf124079666a9688a56c96c2062710e7",
+  "license_note": "DGESCO / Eduscol legal notice, section Autorisation de reproduction des contenus, explicitly applies Etalab 2.0 to downloadable documents, excluding third-party works. The three-page ministry Annex 9 travel declaration has no external text credit or restrictive notice. Four national-staff rows and three external-accompanying rows are retained. Attribute DGESCO, the original document URL and retrieval date. Source text and functional structure only; no logos or artwork. Original artwork and logos omitted. Normalized layout and synthetic completion are adaptations without official endorsement.",
+  "source_version": "Annexe 9 : déclaration de déplacement d’élèves, French DOC",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "value": "Annexe 9",
+    "kind": "document_version",
+    "source_url": "https://cache.media.eduscol.education.fr/file/Mobilite_des_eleves/73/5/Annexe_9_Modele_de_declaration_de_deplacement_d_eleves_594735.doc",
+    "detail": "Original heading; school-year slot is blank; no explicit update date."
+  },
+  "context": "Exemple fictif destiné au benchmark ; il ne constitue pas un document administratif réel.\nDECLARATION DE DEPLACEMENT D’ELEVES A L’ETRANGER / Année scolaire : 2025-2026.\nDECLARATION DE DEPLACEMENT D’ELEVES A L’ETRANGER / Secteur : public. Les autres options ne sont pas sélectionnées.\nI – Etablissement / Etablissement : LEGT. Les autres options ne sont pas sélectionnées.\nI – Etablissement / LPO : entourer SEP – SEG : laisser vide (non applicable ou ligne inutilisée dans ce scénario). Les autres options ne sont pas sélectionnées.\nI – Etablissement / Nom de l’établissement : Lycée Exemple.\nI – Etablissement / Ville : Paris.\nI – Etablissement / Courriel : contact@lycee.example.\nII – Informations générales sur le déplacement / Lieu de destination (ville(s)) : Berlin.\nII – Informations générales sur le déplacement / Pays : Allemagne.\nII – Informations générales sur le déplacement / Durée du séjour (hors déplacement) : 5 jours.\nII – Informations générales sur le déplacement / Nbre de jours total : 7.\nII – Informations générales sur le déplacement / Nbre de jours pris sur temps scolaire : 5.\nII – Informations générales / Aller / Aller/Date et lieu de départ : 08/03/2026, Paris.\nII – Informations générales / Aller / Date et lieu d’arrivée : 08/03/2026, Berlin.\nII – Informations générales / Retour / Retour/Date et lieu de départ : 14/03/2026, Berlin.\nII – Informations générales / Retour / Date et lieu d’arrivée : 14/03/2026, Paris.\nII – Informations générales / transport / Mode de transport : Train aller-retour ; transports publics locaux..\nII – Informations générales / effectif / Nombre d’élèves : 30.\nII – Informations générales sur le déplacement / Composition du groupe (cocher) : Classe entière. Les autres options ne sont pas sélectionnées.\nII – Informations générales sur le déplacement / Niveau(x)/ Nombre par niveau : Seconde : 30.\nII – Informations générales sur le déplacement / Hébergement : famille des correspondants. Les autres options ne sont pas sélectionnées.\nII – Informations générales / Hébergement / Autre : préciser : laisser vide (non applicable ou ligne inutilisée dans ce scénario).\nIII – Types de mobilité / Types de mobilité : Mobilité dans le cadre d’un partenariat avec un établissement étranger. Les autres options ne sont pas sélectionnées.\nIII – Types de mobilité / Nom et nature de l’établissement partenaire : Gymnasium Exemple, établissement secondaire public.\nIII – Types de mobilité / Ville où est situé l’établissement à étranger : Berlin.\nIII – Types de mobilité / Nom du programme dans lequel s’inscrit le partenariat : Projet bilatéral Mobilités durables.\nIII – Types de mobilité / Convention entre les deux partenaires : oui. Les autres options ne sont pas sélectionnées.\nIII – Types de mobilité / convention cosignée par l’établissement français le : 15/01/2026.\nIII – Types de mobilité / par l’établissement étranger le : 16/01/2026.\nIII – Types de mobilité / Echange avec réciprocité : oui. Les autres options ne sont pas sélectionnées.\nIII – Types de mobilité / Si oui, dates d’accueil des élèves étrangers au retour : 11/05/2026 au 15/05/2026.\nIII – Types de mobilité / Appariement : oui. Les autres options ne sont pas sélectionnées.\nIII – Types de mobilité / Numéro de références de la validation de l’appariement par le recteur : RÉFÉRENCE FICTIVE PART-2025-001.\nIII – Types de mobilité / Si validation en cours, date de la demande d’appariement : laisser vide (non applicable ou ligne inutilisée dans ce scénario).\nIV – Organisation du voyage scolaire / Thématique ou intitulé du voyage : Mobilités durables et échanges interculturels.\nIV – Organisation du voyage scolaire / Participation financière moyenne par famille : 150 €.\nIV – Organisation du voyage scolaire / La participation des familles représente : 50 % du coût total.\nIV – Organisation du voyage scolaire / Coût total du voyage : 9 000 €.\nIV – Organisation du voyage scolaire / Dispositions éventuelles prises pour permettre la participation des élèves de condition modeste : Fonds social et paiement échelonné adaptés aux familles concernées..\nIV – Organisation du voyage scolaire / Tous les élèves sont-ils assurés ? : oui. Les autres options ne sont pas sélectionnées.\nEncadrement / Personnels de l’éducation nationale / Personne 1 / Nom et prénom : Alex Laurent (responsable du groupe).\nEncadrement / Personnels de l’éducation nationale / Personne 1 / Qualité : Professeur.\nEncadrement / Personnels de l’éducation nationale / Personne 1 / Discipline : Allemand.\nEncadrement / Personnels de l’éducation nationale / Personne 2 / Nom et prénom : Camille Moreau.\nEncadrement / Personnels de l’éducation nationale / Personne 2 / Qualité : Professeure.\nEncadrement / Personnels de l’éducation nationale / Personne 2 / Discipline : Histoire-géographie.\nEncadrement / Personnels de l’éducation nationale / Personne 3 / Nom et prénom : laisser vide (non applicable ou ligne inutilisée dans ce scénario).\nEncadrement / Personnels de l’éducation nationale / Personne 3 / Qualité : laisser vide (non applicable ou ligne inutilisée dans ce scénario).\nEncadrement / Personnels de l’éducation nationale / Personne 3 / Discipline : laisser vide (non applicable ou ligne inutilisée dans ce scénario).\nEncadrement / Personnels de l’éducation nationale / Personne 4 / Nom et prénom : laisser vide (non applicable ou ligne inutilisée dans ce scénario).\nEncadrement / Personnels de l’éducation nationale / Personne 4 / Qualité : laisser vide (non applicable ou ligne inutilisée dans ce scénario).\nEncadrement / Personnels de l’éducation nationale / Personne 4 / Discipline : laisser vide (non applicable ou ligne inutilisée dans ce scénario).\nEncadrement / Accompagnateurs extérieurs / Personne 1 / Nom et prénom : Lucie Martin.\nEncadrement / Accompagnateurs extérieurs / Personne 1 / Qualité : Parent accompagnateur.\nEncadrement / Accompagnateurs extérieurs / Personne 2 / Nom et prénom : laisser vide (non applicable ou ligne inutilisée dans ce scénario).\nEncadrement / Accompagnateurs extérieurs / Personne 2 / Qualité : laisser vide (non applicable ou ligne inutilisée dans ce scénario).\nEncadrement / Accompagnateurs extérieurs / Personne 3 / Nom et prénom : laisser vide (non applicable ou ligne inutilisée dans ce scénario).\nEncadrement / Accompagnateurs extérieurs / Personne 3 / Qualité : laisser vide (non applicable ou ligne inutilisée dans ce scénario).\n2 Accompagnateurs extérieurs / Décision du Chef d’établissement/ Directeur : Autorisation fictive du voyage facultatif, sous réserve des documents de sécurité et assurances prévus..\n2 Accompagnateurs extérieurs / Date : 20/02/2026.\n2 Accompagnateurs extérieurs / Signature : Signature fictive Camille Moreau.",
+  "review_pdf_sha256": "0d8805f99e8f27a538602c918e22b470da1abf0109ccd673653e0aa27eebbf75",
+  "source_conversion": {
+    "method": "LibreOffice PDF export without content edits",
+    "original_sha256": "12ab9c319b9580c3dfae4fc6ffbdefafcf124079666a9688a56c96c2062710e7",
+    "review_pdf_sha256": "0d8805f99e8f27a538602c918e22b470da1abf0109ccd673653e0aa27eebbf75"
+  },
+  "workflow_identity": {
+    "language": "fr",
+    "id": 21
+  }
+}

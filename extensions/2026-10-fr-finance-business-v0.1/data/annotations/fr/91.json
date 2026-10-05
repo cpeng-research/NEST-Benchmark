@@ -1,0 +1,364 @@
+{
+  "id": "fr-91-residence-fiscale-pro",
+  "language": "fr",
+  "domain": "Finance",
+  "business_topic": "Certificat de résidence fiscale pour les professionnels",
+  "issuer_id": "Émetteur du formulaire administratif : Direction générale des finances publiques (DGFiP)",
+  "template_family": "residence-fiscale-pro",
+  "title": "Certificat de résidence fiscale pour les professionnels",
+  "source_pages": 2,
+  "source_sha256": "79ae3da2783d67a31c4da77aab88a7ef8c2049ec84e880570747f939ad235d1d",
+  "retrieved_at": "2026-10-05T02:01:00+08:00",
+  "source_version": "730-FR-ANG-SD; Cerfa 13800*04; notice au 1er janvier 2026",
+  "source_url": "https://www.impots.gouv.fr/sites/default/files/formulaires/730-sd/2026/730-sd_4814.pdf",
+  "landing_url": "https://entreprendre.service-public.gouv.fr/vosdroits/R64423",
+  "license_url": "https://www.impots.gouv.fr/mentions-legales",
+  "license_note": "DGFiP site notice: public information under Licence Ouverte Etalab 2.0, except explicit third-party intellectual property. Source text and field structure are normalized; the original PDF and DGFiP graphics are not redistributed.",
+  "source_date_evidence": {
+    "kind": "PDF printed mark and DGFiP listing millesime",
+    "value": "730-FR-ANG-SD; Cerfa 13800*04; notice au 1er janvier 2026; DGFiP millesime 2026",
+    "landing": "Vérifié le 23 octobre 2025 - Entreprendre Service Public / Direction de l'information légale et administrative (Premier ministre)",
+    "pdf_version_mark": "730-FR-ANG-SD; Cerfa 13800*04; notice au 1er janvier 2026",
+    "publisher_listing_millesime": "2026",
+    "scope": "Landing-page verification date is distinct from the printed PDF version mark."
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "Demande d'application d'une convention fiscale",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Demande d'application de la convention fiscale entre la France et",
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Nature des revenus",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Désignation du bénéficiaire des revenus",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Raison sociale",
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Objet social",
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Adresse complète du siège social",
+        "field": "f005",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Société ou fonds d’investissement",
+        "field": "f006",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nombre de porteurs de parts du fonds",
+        "field": "f007",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Pourcentage de porteurs de parts résidents de",
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Déclaration de l'administration française",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "résident de FRANCE pour l'année",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "numéro fiscal",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "A",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "le",
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Grade / nom et signature",
+        "field": "f013",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Tampon du service : apposition par le service fiscal.",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Notice et renvois",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Utilisation, circuit, explication des renvois et conditions applicables : notice non remplissable.",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Source : Émetteur du formulaire administratif : Direction générale des finances publiques (DGFiP); https://www.impots.gouv.fr/sites/default/files/formulaires/730-sd/2026/730-sd_4814.pdf; Vérifié le 23 octobre 2025 - Entreprendre Service Public / Direction de l'information légale et administrative (Premier ministre).",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Demande d'application de la convention fiscale entre la France et",
+      "path": [
+        "Page 1",
+        "Demande d'application d'une convention fiscale",
+        "État partenaire",
+        "Demande d'application de la convention fiscale entre la France et"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Demande d'application de la convention fiscale entre la France et",
+      "synthetic_value": "Canada"
+    },
+    {
+      "id": "f002",
+      "label": "Nature des revenus",
+      "path": [
+        "Page 1",
+        "Demande d'application d'une convention fiscale",
+        "Nature des revenus"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Nature des revenus",
+      "synthetic_value": "Dividendes",
+      "options": [
+        "Dividendes",
+        "Intérêts",
+        "Redevances"
+      ],
+      "context_evidence": "Nature des revenus: Dividendes"
+    },
+    {
+      "id": "f003",
+      "label": "Raison sociale",
+      "path": [
+        "Page 1",
+        "Désignation du bénéficiaire des revenus",
+        "Raison sociale"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Raison sociale",
+      "synthetic_value": "Exemple Investissements SAS"
+    },
+    {
+      "id": "f004",
+      "label": "Objet social",
+      "path": [
+        "Page 1",
+        "Désignation du bénéficiaire des revenus",
+        "Objet social"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Objet social",
+      "synthetic_value": "Gestion de participations"
+    },
+    {
+      "id": "f005",
+      "label": "Adresse complète du siège social",
+      "path": [
+        "Page 1",
+        "Désignation du bénéficiaire des revenus",
+        "Adresse complète du siège social"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Adresse complète du siège social",
+      "synthetic_value": "12 rue Exemple, 69002 Lyon, France"
+    },
+    {
+      "id": "f006",
+      "label": "Société ou fonds d’investissement",
+      "path": [
+        "Page 1",
+        "Désignation du bénéficiaire des revenus",
+        "Type et nom du véhicule",
+        "Société ou fonds d’investissement"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Société ou fonds d’investissement",
+      "synthetic_value": "Fonds Exemple France"
+    },
+    {
+      "id": "f007",
+      "label": "Nombre de porteurs de parts du fonds",
+      "path": [
+        "Page 1",
+        "Désignation du bénéficiaire des revenus",
+        "Société ou fonds d’investissement",
+        "Nombre de porteurs de parts du fonds"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre de porteurs de parts du fonds",
+      "synthetic_value": "20"
+    },
+    {
+      "id": "f008",
+      "label": "Pourcentage de porteurs de parts résidents de",
+      "path": [
+        "Page 1",
+        "Désignation du bénéficiaire des revenus",
+        "Société ou fonds d’investissement",
+        "Pourcentage de porteurs de parts résidents de"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Pourcentage de porteurs de parts résidents de",
+      "synthetic_value": "75 %"
+    },
+    {
+      "id": "f009",
+      "label": "résident de FRANCE pour l'année",
+      "path": [
+        "Page 1",
+        "Déclaration de l'administration française",
+        "À renseigner par le bénéficiaire",
+        "résident de FRANCE pour l'année"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "résident de FRANCE pour l'année",
+      "synthetic_value": "2026"
+    },
+    {
+      "id": "f010",
+      "label": "numéro fiscal",
+      "path": [
+        "Page 1",
+        "Déclaration de l'administration française",
+        "À renseigner par le bénéficiaire",
+        "numéro fiscal"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "numéro fiscal",
+      "synthetic_value": "000000091"
+    },
+    {
+      "id": "f011",
+      "label": "A",
+      "path": [
+        "Page 1",
+        "Déclaration de l'administration française",
+        "Lieu de délivrance",
+        "A"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "A",
+      "synthetic_value": "Lyon"
+    },
+    {
+      "id": "f012",
+      "label": "le",
+      "path": [
+        "Page 1",
+        "Déclaration de l'administration française",
+        "Date de délivrance",
+        "le"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "le",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "f013",
+      "label": "Grade / nom et signature",
+      "path": [
+        "Page 1",
+        "Déclaration de l'administration française",
+        "Certification du service fiscal",
+        "Grade / nom et signature"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Grade / nom et signature",
+      "synthetic_value": "Agent signataire fictif"
+    }
+  ],
+  "context": "Exemple fictif de remplissage, sans transmission.\nDemande d'application d'une convention fiscale / État partenaire / Demande d'application de la convention fiscale entre la France et: Canada\nDemande d'application d'une convention fiscale /  / Nature des revenus: Dividendes\nDésignation du bénéficiaire des revenus /  / Raison sociale: Exemple Investissements SAS\nDésignation du bénéficiaire des revenus /  / Objet social: Gestion de participations\nDésignation du bénéficiaire des revenus /  / Adresse complète du siège social: 12 rue Exemple, 69002 Lyon, France\nDésignation du bénéficiaire des revenus / Type et nom du véhicule / Société ou fonds d’investissement: Fonds Exemple France\nDésignation du bénéficiaire des revenus / Société ou fonds d’investissement / Nombre de porteurs de parts du fonds: 20\nDésignation du bénéficiaire des revenus / Société ou fonds d’investissement / Pourcentage de porteurs de parts résidents de: 75 %\nDéclaration de l'administration française / À renseigner par le bénéficiaire / résident de FRANCE pour l'année: 2026\nDéclaration de l'administration française / À renseigner par le bénéficiaire / numéro fiscal: 000000091\nDéclaration de l'administration française / Lieu de délivrance / A: Lyon\nDéclaration de l'administration française / Date de délivrance / le: 05/10/2026\nDéclaration de l'administration française / Certification du service fiscal / Grade / nom et signature: Agent signataire fictif",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 91
+  }
+}

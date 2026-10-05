@@ -1,0 +1,284 @@
+{
+  "id": "fr-97-regularite-fiscale",
+  "language": "fr",
+  "domain": "Finance",
+  "business_topic": "Attestation de régularité fiscale pour 2026",
+  "issuer_id": "Émetteur du formulaire administratif : Ministère chargé des finances",
+  "template_family": "regularite-fiscale",
+  "title": "Attestation de régularité fiscale pour 2026",
+  "source_pages": 2,
+  "source_sha256": "d384d9d3ef43dc3b05a013acc1229312782845afcfafc9927efb9577b2eab727",
+  "retrieved_at": "2026-10-05T01:48:41+08:00",
+  "source_version": "3666-SD; Cerfa 10640*25; année 2026",
+  "source_url": "https://www.impots.gouv.fr/sites/default/files/formulaires/3666-sd/2026/3666-sd_5256.pdf",
+  "landing_url": "https://entreprendre.service-public.gouv.fr/vosdroits/R14636",
+  "license_url": "https://www.impots.gouv.fr/mentions-legales",
+  "license_note": "DGFiP site notice: public information under Licence Ouverte Etalab 2.0, except explicit third-party intellectual property. Source text and field structure are normalized; the original PDF and DGFiP graphics are not redistributed.",
+  "source_date_evidence": {
+    "kind": "PDF printed mark and DGFiP listing millesime",
+    "value": "3666-SD; Cerfa 10640*25; année 2026; DGFiP millesime 2026",
+    "landing": "Vérifié le 03 février 2026 - Entreprendre Service Public / Direction de l'information légale et administrative (Premier ministre)",
+    "pdf_version_mark": "3666-SD; Cerfa 10640*25; année 2026",
+    "publisher_listing_millesime": "2026",
+    "scope": "Landing-page verification date is distinct from the printed PDF version mark."
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "Feuillet 1 - service des impôts des entreprises : désignation du demandeur",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NOM, PRÉNOM, DÉNOMINATION",
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "ADRESSE du principal établissement",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "N° SIRET",
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Date et lieu",
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Signature et qualité du demandeur",
+        "field": "f005",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Réception, constat de régularité, date, signature et cachet : cadre réservé à l'administration.",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Feuillet 2 - service des impôts des particuliers : désignation du demandeur",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "NOM, PRÉNOM, DÉNOMINATION",
+        "field": "f006",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "ADRESSE du principal établissement",
+        "field": "f007",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "N° SIRET",
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Date et lieu",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Signature et qualité du demandeur",
+        "field": "f010",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Réception, constat de régularité, date, signature et cachet : cadre réservé à l'administration.",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Source : Émetteur du formulaire administratif : Ministère chargé des finances; https://www.impots.gouv.fr/sites/default/files/formulaires/3666-sd/2026/3666-sd_5256.pdf; Vérifié le 03 février 2026 - Entreprendre Service Public / Direction de l'information légale et administrative (Premier ministre).",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "NOM, PRÉNOM, DÉNOMINATION",
+      "path": [
+        "Page 1",
+        "Feuillet 1 - service des impôts des entreprises : désignation du demandeur",
+        "Feuillet 1 - service des impôts des entreprises",
+        "NOM, PRÉNOM, DÉNOMINATION"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "NOM, PRÉNOM, DÉNOMINATION",
+      "synthetic_value": "Camille Martin, entreprise individuelle"
+    },
+    {
+      "id": "f002",
+      "label": "ADRESSE du principal établissement",
+      "path": [
+        "Page 1",
+        "Feuillet 1 - service des impôts des entreprises : désignation du demandeur",
+        "Feuillet 1 - service des impôts des entreprises",
+        "ADRESSE du principal établissement"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "principal établissement",
+      "synthetic_value": "10 rue Exemple, 59000 Lille"
+    },
+    {
+      "id": "f003",
+      "label": "N° SIRET",
+      "path": [
+        "Page 1",
+        "Feuillet 1 - service des impôts des entreprises : désignation du demandeur",
+        "Feuillet 1 - service des impôts des entreprises",
+        "N° SIRET"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "N° SIRET",
+      "synthetic_value": "00000000000097"
+    },
+    {
+      "id": "f004",
+      "label": "Date et lieu",
+      "path": [
+        "Page 1",
+        "Feuillet 1 - service des impôts des entreprises : désignation du demandeur",
+        "Feuillet 1 - service des impôts des entreprises",
+        "Date et lieu"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date et lieu",
+      "synthetic_value": "05/10/2026, Lille"
+    },
+    {
+      "id": "f005",
+      "label": "Signature et qualité du demandeur",
+      "path": [
+        "Page 1",
+        "Feuillet 1 - service des impôts des entreprises : désignation du demandeur",
+        "Feuillet 1 - service des impôts des entreprises",
+        "Signature et qualité du demandeur"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Signature et qualité du demandeur",
+      "synthetic_value": "Camille Martin, exploitante"
+    },
+    {
+      "id": "f006",
+      "label": "NOM, PRÉNOM, DÉNOMINATION",
+      "path": [
+        "Page 2",
+        "Feuillet 2 - service des impôts des particuliers : désignation du demandeur",
+        "Feuillet 2 - service des impôts des particuliers",
+        "NOM, PRÉNOM, DÉNOMINATION"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "NOM, PRÉNOM, DÉNOMINATION",
+      "synthetic_value": "Camille Martin, entreprise individuelle"
+    },
+    {
+      "id": "f007",
+      "label": "ADRESSE du principal établissement",
+      "path": [
+        "Page 2",
+        "Feuillet 2 - service des impôts des particuliers : désignation du demandeur",
+        "Feuillet 2 - service des impôts des particuliers",
+        "ADRESSE du principal établissement"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "principal établissement",
+      "synthetic_value": "10 rue Exemple, 59000 Lille"
+    },
+    {
+      "id": "f008",
+      "label": "N° SIRET",
+      "path": [
+        "Page 2",
+        "Feuillet 2 - service des impôts des particuliers : désignation du demandeur",
+        "Feuillet 2 - service des impôts des particuliers",
+        "N° SIRET"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "N° SIRET",
+      "synthetic_value": "00000000000097"
+    },
+    {
+      "id": "f009",
+      "label": "Date et lieu",
+      "path": [
+        "Page 2",
+        "Feuillet 2 - service des impôts des particuliers : désignation du demandeur",
+        "Feuillet 2 - service des impôts des particuliers",
+        "Date et lieu"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date et lieu",
+      "synthetic_value": "05/10/2026, Lille"
+    },
+    {
+      "id": "f010",
+      "label": "Signature et qualité du demandeur",
+      "path": [
+        "Page 2",
+        "Feuillet 2 - service des impôts des particuliers : désignation du demandeur",
+        "Feuillet 2 - service des impôts des particuliers",
+        "Signature et qualité du demandeur"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Signature et qualité du demandeur",
+      "synthetic_value": "Camille Martin, exploitante"
+    }
+  ],
+  "context": "Exemple fictif de remplissage, sans transmission.\nFeuillet 1 - service des impôts des entreprises : désignation du demandeur / Feuillet 1 - service des impôts des entreprises / NOM, PRÉNOM, DÉNOMINATION: Camille Martin, entreprise individuelle\nFeuillet 1 - service des impôts des entreprises : désignation du demandeur / Feuillet 1 - service des impôts des entreprises / ADRESSE du principal établissement: 10 rue Exemple, 59000 Lille\nFeuillet 1 - service des impôts des entreprises : désignation du demandeur / Feuillet 1 - service des impôts des entreprises / N° SIRET: 00000000000097\nFeuillet 1 - service des impôts des entreprises : désignation du demandeur / Feuillet 1 - service des impôts des entreprises / Date et lieu: 05/10/2026, Lille\nFeuillet 1 - service des impôts des entreprises : désignation du demandeur / Feuillet 1 - service des impôts des entreprises / Signature et qualité du demandeur: Camille Martin, exploitante\nFeuillet 2 - service des impôts des particuliers : désignation du demandeur / Feuillet 2 - service des impôts des particuliers / NOM, PRÉNOM, DÉNOMINATION: Camille Martin, entreprise individuelle\nFeuillet 2 - service des impôts des particuliers : désignation du demandeur / Feuillet 2 - service des impôts des particuliers / ADRESSE du principal établissement: 10 rue Exemple, 59000 Lille\nFeuillet 2 - service des impôts des particuliers : désignation du demandeur / Feuillet 2 - service des impôts des particuliers / N° SIRET: 00000000000097\nFeuillet 2 - service des impôts des particuliers : désignation du demandeur / Feuillet 2 - service des impôts des particuliers / Date et lieu: 05/10/2026, Lille\nFeuillet 2 - service des impôts des particuliers : désignation du demandeur / Feuillet 2 - service des impôts des particuliers / Signature et qualité du demandeur: Camille Martin, exploitante",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 97
+  }
+}

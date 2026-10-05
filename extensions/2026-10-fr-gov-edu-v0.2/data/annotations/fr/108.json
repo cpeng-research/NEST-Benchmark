@@ -1,0 +1,426 @@
+{
+  "id": "fr-dgac-minimum-equipment-v2",
+  "language": "fr",
+  "domain": "GovPublic",
+  "title": "Notification d'utilisation d'une liste minimale d'équipement",
+  "template_family": "dgac-minimum-equipment-v2",
+  "issuer": "DGAC/DSAC",
+  "issuer_id": "DGAC/DSAC",
+  "source_pages": 2,
+  "columns": 1,
+  "rows": [
+    [
+      {
+        "text": "R5-NCO-F1 v2 - L'exploitant / le propriétaire",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "nom",
+        "label": "Nom",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "contact",
+        "label": "Coordonnées (adresse email et n° téléphone)",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "etablissement",
+        "label": "Lieu où l'exploitant / le propriétaire a son établissement principal",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Liste minimale d'équipement et aéronefs concernés",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "nature",
+        "label": "Déclaration initiale",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "lme_version",
+        "label": "Version et date de la liste minimale d’équipement",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "type_1",
+        "label": "Type d’aéronef",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "immat_1",
+        "label": "Immatriculation",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "type_2",
+        "label": "Type d’aéronef",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "immat_2",
+        "label": "Immatriculation",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "type_3",
+        "label": "Type d’aéronef",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "immat_3",
+        "label": "Immatriculation",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Déclarations de conformité",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "conformite_references",
+        "label": "La liste minimale d’équipement a été développée",
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Déclarations de conformité, suite",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "sans_ajout",
+        "label": "Aucun item n’a été ajouté",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Signature de l'exploitant / du propriétaire",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "La liste minimale d'équipement ne doit pas être jointe au présent formulaire.",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "lieu",
+        "label": "A :",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "date",
+        "label": "Le :",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "signature",
+        "label": "Nom et signature",
+        "colspan": 1,
+        "source_page": 2
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "nom",
+      "label": "Nom",
+      "source_page": 1,
+      "source_anchor": "Nom",
+      "path": [
+        "R5-NCO-F1 v2 - L'exploitant / le propriétaire",
+        "Nom"
+      ],
+      "kind": "text",
+      "synthetic_value": "Aéro Exemple SAS"
+    },
+    {
+      "id": "contact",
+      "label": "Coordonnées (adresse email et n° téléphone)",
+      "source_page": 1,
+      "source_anchor": "Coordonnées (adresse email et n° téléphone)",
+      "path": [
+        "R5-NCO-F1 v2 - L'exploitant / le propriétaire",
+        "Coordonnées (adresse email et n° téléphone)"
+      ],
+      "kind": "text",
+      "synthetic_value": "contact@example.invalid, 01 00 00 00 01"
+    },
+    {
+      "id": "etablissement",
+      "label": "Lieu où l'exploitant / le propriétaire a son établissement principal",
+      "source_page": 1,
+      "source_anchor": "Lieu où l'exploitant / le propriétaire a son établissement principal",
+      "path": [
+        "R5-NCO-F1 v2 - L'exploitant / le propriétaire",
+        "Lieu où l'exploitant / le propriétaire a son établissement principal"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "nature",
+      "label": "Déclaration initiale",
+      "source_page": 1,
+      "source_anchor": "Déclaration initiale",
+      "path": [
+        "Liste minimale d'équipement et aéronefs concernés",
+        "Déclaration initiale"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Déclaration initiale"
+      ],
+      "options": [
+        "Déclaration initiale",
+        "déclaration d’amendement à une LME existante"
+      ],
+      "context_evidence": "Liste minimale d'équipement et aéronefs concernés / Déclaration initiale : Déclaration initiale."
+    },
+    {
+      "id": "lme_version",
+      "label": "Version et date de la liste minimale d’équipement",
+      "source_page": 1,
+      "source_anchor": "Version et date de la liste minimale d’équipement",
+      "path": [
+        "Liste minimale d'équipement et aéronefs concernés",
+        "Version et date de la liste minimale d’équipement"
+      ],
+      "kind": "text",
+      "synthetic_value": "LME-EX v1, 01/10/2026"
+    },
+    {
+      "id": "type_1",
+      "label": "Type d’aéronef",
+      "source_page": 1,
+      "source_anchor": "Type d’aéronef",
+      "path": [
+        "Liste minimale d'équipement et aéronefs concernés",
+        "Aéronef 1",
+        "Type d'aéronef"
+      ],
+      "kind": "text",
+      "synthetic_value": "Type EX-1"
+    },
+    {
+      "id": "immat_1",
+      "label": "Immatriculation",
+      "source_page": 1,
+      "source_anchor": "Immatriculation",
+      "path": [
+        "Liste minimale d'équipement et aéronefs concernés",
+        "Aéronef 1",
+        "Immatriculation"
+      ],
+      "kind": "text",
+      "synthetic_value": "F-EX01"
+    },
+    {
+      "id": "type_2",
+      "label": "Type d’aéronef",
+      "source_page": 1,
+      "source_anchor": "Type d’aéronef",
+      "path": [
+        "Liste minimale d'équipement et aéronefs concernés",
+        "Aéronef 2",
+        "Type d'aéronef"
+      ],
+      "kind": "text",
+      "synthetic_value": "Type EX-2"
+    },
+    {
+      "id": "immat_2",
+      "label": "Immatriculation",
+      "source_page": 1,
+      "source_anchor": "Immatriculation",
+      "path": [
+        "Liste minimale d'équipement et aéronefs concernés",
+        "Aéronef 2",
+        "Immatriculation"
+      ],
+      "kind": "text",
+      "synthetic_value": "F-EX02"
+    },
+    {
+      "id": "type_3",
+      "label": "Type d’aéronef",
+      "source_page": 1,
+      "source_anchor": "Type d’aéronef",
+      "path": [
+        "Liste minimale d'équipement et aéronefs concernés",
+        "Aéronef 3",
+        "Type d'aéronef"
+      ],
+      "kind": "text",
+      "synthetic_value": "Type EX-3"
+    },
+    {
+      "id": "immat_3",
+      "label": "Immatriculation",
+      "source_page": 1,
+      "source_anchor": "Immatriculation",
+      "path": [
+        "Liste minimale d'équipement et aéronefs concernés",
+        "Aéronef 3",
+        "Immatriculation"
+      ],
+      "kind": "text",
+      "synthetic_value": "F-EX03"
+    },
+    {
+      "id": "conformite_references",
+      "label": "La liste minimale d’équipement a été développée",
+      "source_page": 1,
+      "source_anchor": "La liste minimale d’équipement a été développée",
+      "path": [
+        "Déclarations de conformité",
+        "La liste minimale d’équipement a été développée"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "La liste minimale d’équipement a été développée"
+      ],
+      "options": [
+        "La liste minimale d’équipement a été développée"
+      ],
+      "context_evidence": "Déclarations de conformité / La liste minimale d’équipement a été développée : La liste minimale d’équipement a été développée."
+    },
+    {
+      "id": "sans_ajout",
+      "label": "Aucun item n’a été ajouté",
+      "source_page": 2,
+      "source_anchor": "Aucun item n’a été ajouté",
+      "path": [
+        "Déclarations de conformité, suite",
+        "Aucun item n’a été ajouté"
+      ],
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Aucun item n’a été ajouté"
+      ],
+      "options": [
+        "Aucun item n’a été ajouté"
+      ],
+      "context_evidence": "Déclarations de conformité, suite / Aucun item n’a été ajouté : Aucun item n’a été ajouté."
+    },
+    {
+      "id": "lieu",
+      "label": "A :",
+      "source_page": 2,
+      "source_anchor": "A :",
+      "path": [
+        "Signature de l'exploitant / du propriétaire",
+        "Lieu"
+      ],
+      "kind": "text",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "date",
+      "label": "Le :",
+      "source_page": 2,
+      "source_anchor": "Le :",
+      "path": [
+        "Signature de l'exploitant / du propriétaire",
+        "Date"
+      ],
+      "kind": "text",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "signature",
+      "label": "Nom et signature",
+      "source_page": 2,
+      "source_anchor": "Nom et signature",
+      "path": [
+        "Signature de l'exploitant / du propriétaire",
+        "Nom et signature"
+      ],
+      "kind": "text",
+      "synthetic_value": "Camille Martin (signature fictive)"
+    }
+  ],
+  "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/R5-NCO-F1_V2_notification_utilisation_lme_nco.pdf",
+  "landing_url": "https://www.ecologie.gouv.fr/politiques-publiques/guides-exploitants-daeronefs",
+  "license_url": "https://www.ecologie.gouv.fr/mentions-legales",
+  "license_note": "Ecologie legal notice applies Etalab 2.0 to site content absent a third-party rights notice; source and known last-update date must be attributed. Ministry-authored form text only.",
+  "source_sha256": "4c972c7d1e2dcdab9bc9ea7eadf75caca12870e94d9844703694d139c3491bca",
+  "retrieved_at": "2026-10-04T18:08:54.473324+00:00",
+  "source_version": "R5-NCO-F1 v2",
+  "source_updated_at": null,
+  "source_date_evidence": {
+    "kind": "printed_document_date_or_version",
+    "value": "R5-NCO-F1 v2",
+    "source_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/R5-NCO-F1_V2_notification_utilisation_lme_nco.pdf",
+    "detail": "Printed document evidence; not a website update claim."
+  },
+  "context": "Dossier fictif à des fins d'évaluation, sans identité réelle ni dépôt administratif.\nR5-NCO-F1 v2 - L'exploitant / le propriétaire / Nom : Aéro Exemple SAS.\nR5-NCO-F1 v2 - L'exploitant / le propriétaire / Coordonnées (adresse email et n° téléphone) : contact@example.invalid, 01 00 00 00 01.\nR5-NCO-F1 v2 - L'exploitant / le propriétaire / Lieu où l'exploitant / le propriétaire a son établissement principal : Paris.\nListe minimale d'équipement et aéronefs concernés / Déclaration initiale : Déclaration initiale.\nListe minimale d'équipement et aéronefs concernés / Version et date de la liste minimale d’équipement : LME-EX v1, 01/10/2026.\nListe minimale d'équipement et aéronefs concernés / Aéronef 1 / Type d'aéronef : Type EX-1.\nListe minimale d'équipement et aéronefs concernés / Aéronef 1 / Immatriculation : F-EX01.\nListe minimale d'équipement et aéronefs concernés / Aéronef 2 / Type d'aéronef : Type EX-2.\nListe minimale d'équipement et aéronefs concernés / Aéronef 2 / Immatriculation : F-EX02.\nListe minimale d'équipement et aéronefs concernés / Aéronef 3 / Type d'aéronef : Type EX-3.\nListe minimale d'équipement et aéronefs concernés / Aéronef 3 / Immatriculation : F-EX03.\nDéclarations de conformité / La liste minimale d’équipement a été développée : La liste minimale d’équipement a été développée.\nDéclarations de conformité, suite / Aucun item n’a été ajouté : Aucun item n’a été ajouté.\nSignature de l'exploitant / du propriétaire / Lieu : Paris.\nSignature de l'exploitant / du propriétaire / Date : 05/10/2026.\nSignature de l'exploitant / du propriétaire / Nom et signature : Camille Martin (signature fictive).",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 108
+  }
+}

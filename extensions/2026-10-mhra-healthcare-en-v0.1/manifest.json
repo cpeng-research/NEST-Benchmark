@@ -1,0 +1,77 @@
+{
+  "extension_id": "2026-10-mhra-healthcare-en-v0.1",
+  "added_on": "2026-10-05",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 2,
+  "samples": [
+    {
+      "id": 422,
+      "language": "en",
+      "title": "London Region I MHRA Regulatory Sandbox: Provider Expression of Interest",
+      "source_id": "en-mhra-region-i-provider-eoi-2026",
+      "domain": "Healthcare",
+      "issuer_id": "MHRA",
+      "template_family": "mhra-region-i-provider-eoi-2026",
+      "source_pages": 5,
+      "source_sha256": "210fa17cb16858097077563bb677169c9ce300b2faf9de26849e6a5898cd1e8a",
+      "fields": 20,
+      "files": {
+        "workflow/0-html_template/data_en/422.html": "88b57505eb8f4ef6875b2a91c451ed77b7102eacca87579572c4de0585e36995",
+        "workflow/1-annotated_json/data_en/422.json": "dca301a7a80841c3c0f6685b08e7e89b68a9057db580cc28e7c68a8671ed2394",
+        "workflow/2-filled_json-a/data_en/422.json": "159d7453b457ce5a73cbf32c6a8dc38f0b3cae333ad6e584afb3b258a756db84",
+        "workflow/3-filled_html-a/data_en/422.html": "b1c99bdb98847c5f56fb49e23307ebe3815b21ddd755cf31f30c13284f5bd3e6",
+        "workflow/4-context-a/data_en/422.txt": "f900e2401a9cc82f7710b0a1b6abad47a7e428ba4823bb5a85d34d720463db57",
+        "workflow/5-ph_html-a/data_en/422.html": "4c5f2652e7842cbc65f6a9071a7b1b54ffcb8ff4d72acb94bb7b7b83c757d025",
+        "workflow/6-meta-a/data_en/422.json": "9957da294a69290623243e5c2abfd61a306d8dfafb06beb00f4f1450e2bfdd53"
+      },
+      "annotation_path": "data/annotations/en/422.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 423,
+      "language": "en",
+      "title": "London Region I MHRA Regulatory Sandbox: Manufacturer Expression of Interest",
+      "source_id": "en-mhra-region-i-manufacturer-eoi-2026",
+      "domain": "Healthcare",
+      "issuer_id": "MHRA",
+      "template_family": "mhra-region-i-manufacturer-eoi-2026",
+      "source_pages": 6,
+      "source_sha256": "943f23fa1451690b88a23577798f3988d6adc959a6459c368924b6c7fb3aedf8",
+      "fields": 27,
+      "files": {
+        "workflow/0-html_template/data_en/423.html": "67ffec7602069db1848eef1c99a1175e4f1b8e6aa568017847b30aefed07386d",
+        "workflow/1-annotated_json/data_en/423.json": "4a42936fdfda19b7cf36ad815f8668c4278c385ec5297e24be8e41e79a78d8ab",
+        "workflow/2-filled_json-a/data_en/423.json": "0dda8440c45210d69675045823f4c532d77e006e006fd5a96b0aec5a85811e78",
+        "workflow/3-filled_html-a/data_en/423.html": "af84f6c44f8c7dff4887fc122f470c42e7475cc07d04ee80cbbb6185bd2f3062",
+        "workflow/4-context-a/data_en/423.txt": "c5c718fc6c0294865f4d22c2e600e9d57b6aaf4956dc8995485f22a400a584c2",
+        "workflow/5-ph_html-a/data_en/423.html": "418b7a08ef019c36c7c82e148af24e04068e98b97817a1f0718330aa0c6d5a9a",
+        "workflow/6-meta-a/data_en/423.json": "62490f08bd3dffffc4fcf4d72d0a827bc8af0dd75818b40e6124cd5be6a8fb4c"
+      },
+      "annotation_path": "data/annotations/en/423.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}

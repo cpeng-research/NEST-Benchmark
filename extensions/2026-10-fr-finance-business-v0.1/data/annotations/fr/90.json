@@ -1,0 +1,388 @@
+{
+  "id": "fr-90-tva-non-ue",
+  "language": "fr",
+  "domain": "Finance",
+  "business_topic": "Identification au guichet TVA, régime non-UE",
+  "issuer_id": "Émetteur du formulaire administratif : Ministère chargé des finances",
+  "template_family": "tva-non-ue",
+  "title": "Identification au guichet TVA, régime non-UE",
+  "source_pages": 1,
+  "source_sha256": "5f15f97c8d3b54c6bbee9124e9547871b8f1ebe32f2ee388906ac133fbed6548",
+  "retrieved_at": "2026-10-05T01:49:20+08:00",
+  "source_version": "3563-SD; Cerfa 15069*03; (12-2025)",
+  "source_url": "https://www.impots.gouv.fr/sites/default/files/formulaires/3563-sd/2026/3563-sd_3488.pdf",
+  "landing_url": "https://entreprendre.service-public.gouv.fr/vosdroits/R39377",
+  "license_url": "https://www.impots.gouv.fr/mentions-legales",
+  "license_note": "DGFiP site notice: public information under Licence Ouverte Etalab 2.0, except explicit third-party intellectual property. Source text and field structure are normalized; the original PDF and DGFiP graphics are not redistributed.",
+  "source_date_evidence": {
+    "kind": "PDF printed mark and DGFiP listing millesime",
+    "value": "3563-SD; Cerfa 15069*03; (12-2025); DGFiP millesime 2026",
+    "landing": "Vérifié le 18 février 2026 - Entreprendre Service Public / Direction de l'information légale et administrative (Premier ministre)",
+    "pdf_version_mark": "3563-SD; Cerfa 15069*03; (12-2025)",
+    "publisher_listing_millesime": "2026",
+    "scope": "Landing-page verification date is distinct from the printed PDF version mark."
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "Identification du redevable",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "DÉNOMINATION SOCIALE",
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "DÉNOMINATION COMMERCIALE DE LA SOCIÉTÉ",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Numéro",
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Libellé",
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Commune",
+        "field": "f005",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Code postal",
+        "field": "f006",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Pays",
+        "field": "f007",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "NOM ET PRÉNOM DE LA PERSONNE DE CONTACT",
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "ADRESSE DE COURRIER ÉLECTRONIQUE",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "SITE INTERNET DE LA SOCIÉTÉ",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NUMÉRO DE TÉLÉPHONE AU FORMAT INTERNATIONAL",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "PAYS DU SIÈGE DE L’ACTIVITÉ ÉCONOMIQUE DE L’ASSUJETTI",
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Description de l'activité",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "DESCRIPTION LITTÉRALE DE L'ACTIVITÉ",
+        "field": "f013",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Date et signature",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "DATE",
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "NOM ET QUALITÉ DU SIGNATAIRE",
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SIGNATURE",
+        "field": "f016",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Source : Émetteur du formulaire administratif : Ministère chargé des finances; https://www.impots.gouv.fr/sites/default/files/formulaires/3563-sd/2026/3563-sd_3488.pdf; Vérifié le 18 février 2026 - Entreprendre Service Public / Direction de l'information légale et administrative (Premier ministre).",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "DÉNOMINATION SOCIALE",
+      "path": [
+        "Page 1",
+        "Identification du redevable",
+        "DÉNOMINATION SOCIALE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DÉNOMINATION SOCIALE",
+      "synthetic_value": "Example Digital Ltd"
+    },
+    {
+      "id": "f002",
+      "label": "DÉNOMINATION COMMERCIALE DE LA SOCIÉTÉ",
+      "path": [
+        "Page 1",
+        "Identification du redevable",
+        "DÉNOMINATION COMMERCIALE DE LA SOCIÉTÉ"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DÉNOMINATION COMMERCIALE DE LA SOCIÉTÉ",
+      "synthetic_value": "Example Digital"
+    },
+    {
+      "id": "f003",
+      "label": "Numéro",
+      "path": [
+        "Page 1",
+        "Identification du redevable",
+        "Numéro"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Numéro",
+      "synthetic_value": "24"
+    },
+    {
+      "id": "f004",
+      "label": "Libellé",
+      "path": [
+        "Page 1",
+        "Identification du redevable",
+        "Libellé"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Libellé",
+      "synthetic_value": "Sample Street"
+    },
+    {
+      "id": "f005",
+      "label": "Commune",
+      "path": [
+        "Page 1",
+        "Identification du redevable",
+        "Commune"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Commune",
+      "synthetic_value": "London"
+    },
+    {
+      "id": "f006",
+      "label": "Code postal",
+      "path": [
+        "Page 1",
+        "Identification du redevable",
+        "Code postal"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Code postal",
+      "synthetic_value": "EC1A 1AA"
+    },
+    {
+      "id": "f007",
+      "label": "Pays",
+      "path": [
+        "Page 1",
+        "Identification du redevable",
+        "Pays"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Pays",
+      "synthetic_value": "Royaume-Uni"
+    },
+    {
+      "id": "f008",
+      "label": "NOM ET PRÉNOM DE LA PERSONNE DE CONTACT",
+      "path": [
+        "Page 1",
+        "Identification du redevable",
+        "NOM ET PRÉNOM DE LA PERSONNE DE CONTACT"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "NOM ET PRÉNOM DE LA PERSONNE DE CONTACT",
+      "synthetic_value": "Alex Taylor"
+    },
+    {
+      "id": "f009",
+      "label": "ADRESSE DE COURRIER ÉLECTRONIQUE",
+      "path": [
+        "Page 1",
+        "Identification du redevable",
+        "ADRESSE DE COURRIER ÉLECTRONIQUE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "ADRESSE DE COURRIER ÉLECTRONIQUE",
+      "synthetic_value": "alex.taylor@example.org"
+    },
+    {
+      "id": "f010",
+      "label": "SITE INTERNET DE LA SOCIÉTÉ",
+      "path": [
+        "Page 1",
+        "Identification du redevable",
+        "SITE INTERNET DE LA SOCIÉTÉ"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "SITE INTERNET DE LA SOCIÉTÉ",
+      "synthetic_value": "https://example.org"
+    },
+    {
+      "id": "f011",
+      "label": "NUMÉRO DE TÉLÉPHONE AU FORMAT INTERNATIONAL",
+      "path": [
+        "Page 1",
+        "Identification du redevable",
+        "NUMÉRO DE TÉLÉPHONE AU FORMAT INTERNATIONAL"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "NUMÉRO DE TÉLÉPHONE AU FORMAT INTERNATIONAL",
+      "synthetic_value": "+442000000090"
+    },
+    {
+      "id": "f012",
+      "label": "PAYS DU SIÈGE DE L’ACTIVITÉ ÉCONOMIQUE DE L’ASSUJETTI",
+      "path": [
+        "Page 1",
+        "Identification du redevable",
+        "PAYS DU SIÈGE DE L’ACTIVITÉ ÉCONOMIQUE DE L’ASSUJETTI"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "PAYS DU SIÈGE DE L’ACTIVITÉ ÉCONOMIQUE DE L’ASSUJETTI",
+      "synthetic_value": "Royaume-Uni"
+    },
+    {
+      "id": "f013",
+      "label": "DESCRIPTION LITTÉRALE DE L'ACTIVITÉ",
+      "path": [
+        "Page 1",
+        "Description de l'activité",
+        "DESCRIPTION LITTÉRALE DE L'ACTIVITÉ"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DESCRIPTION LITTÉRALE DE L'ACTIVITÉ",
+      "synthetic_value": "Services numériques B2C"
+    },
+    {
+      "id": "f014",
+      "label": "DATE",
+      "path": [
+        "Page 1",
+        "Date et signature",
+        "DATE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DATE",
+      "synthetic_value": "05/10/2026"
+    },
+    {
+      "id": "f015",
+      "label": "NOM ET QUALITÉ DU SIGNATAIRE",
+      "path": [
+        "Page 1",
+        "Date et signature",
+        "NOM ET QUALITÉ DU SIGNATAIRE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "NOM ET QUALITÉ DU SIGNATAIRE",
+      "synthetic_value": "Alex Taylor, directeur"
+    },
+    {
+      "id": "f016",
+      "label": "SIGNATURE",
+      "path": [
+        "Page 1",
+        "Date et signature",
+        "SIGNATURE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "SIGNATURE",
+      "synthetic_value": "Alex Taylor"
+    }
+  ],
+  "context": "Exemple fictif de remplissage, sans transmission.\nIdentification du redevable /  / DÉNOMINATION SOCIALE: Example Digital Ltd\nIdentification du redevable /  / DÉNOMINATION COMMERCIALE DE LA SOCIÉTÉ: Example Digital\nIdentification du redevable /  / Numéro: 24\nIdentification du redevable /  / Libellé: Sample Street\nIdentification du redevable /  / Commune: London\nIdentification du redevable /  / Code postal: EC1A 1AA\nIdentification du redevable /  / Pays: Royaume-Uni\nIdentification du redevable /  / NOM ET PRÉNOM DE LA PERSONNE DE CONTACT: Alex Taylor\nIdentification du redevable /  / ADRESSE DE COURRIER ÉLECTRONIQUE: alex.taylor@example.org\nIdentification du redevable /  / SITE INTERNET DE LA SOCIÉTÉ: https://example.org\nIdentification du redevable /  / NUMÉRO DE TÉLÉPHONE AU FORMAT INTERNATIONAL: +442000000090\nIdentification du redevable /  / PAYS DU SIÈGE DE L’ACTIVITÉ ÉCONOMIQUE DE L’ASSUJETTI: Royaume-Uni\nDescription de l'activité /  / DESCRIPTION LITTÉRALE DE L'ACTIVITÉ: Services numériques B2C\nDate et signature /  / DATE: 05/10/2026\nDate et signature /  / NOM ET QUALITÉ DU SIGNATAIRE: Alex Taylor, directeur\nDate et signature /  / SIGNATURE: Alex Taylor",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 90
+  }
+}

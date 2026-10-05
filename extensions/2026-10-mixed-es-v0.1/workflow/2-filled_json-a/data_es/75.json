@@ -1,0 +1,188 @@
+{
+  "IDENTIFICACIÓN DE LA INSTITUCIÓN": {
+    "Establecimiento notificador:": "Hospital Ficticio 75",
+    "Provincia:": "Provincia Ficticia",
+    "Departamento:": "Departamento Ejemplo",
+    "Fecha de notificación:": "05/10/2026",
+    "Apellido y nombre del notificador": "Lucía Notificadora Ficticia",
+    "Teléfono:": "000 000 075",
+    "Correo electrónico:": "notifica75@example.invalid"
+  },
+  "IDENTIFICACIÓN DEL CASO": {
+    "Tipo de documento:": {
+      "choices": [
+        "DNI",
+        "IND",
+        "DE"
+      ],
+      "value": [
+        "DNI"
+      ]
+    },
+    "Identidad y residencia": {
+      "Número de documento": "DNI-SIM-7501",
+      "Apellido y Nombre:": "Paciente Ficticia Setenta y Cinco",
+      "Teléfono:": "000 000 075",
+      "Fecha de nacimiento:": "01/01/1990",
+      "Provincia": "Provincia Ficticia",
+      "Departamento:": "Departamento Ejemplo",
+      "Localidad:": "Localidad Ficticia",
+      "Calle / Mza:": "Calle Inventada 75",
+      "Número de calle": "75",
+      "Piso": "2",
+      "Depto.:": "A",
+      "Cód. Postal:": "1000"
+    },
+    "Sexo legal:": {
+      "choices": [
+        "Femenino",
+        "Masculino",
+        "No binario",
+        "Indeterminado"
+      ],
+      "value": [
+        "Femenino"
+      ]
+    },
+    "Género:": {
+      "choices": [
+        "Mujer cis",
+        "Mujer trans",
+        "Varon cis",
+        "Varón trans",
+        "Otro",
+        "Desconocido"
+      ],
+      "value": [
+        "Mujer cis"
+      ]
+    }
+  },
+  "INFORMACIÓN CLÍNICA": {
+    "Fecha de primera consulta": "03/10/2026",
+    "Fecha de inicio de síntomas(FIS):": "01/10/2026",
+    "Persona Gestante": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "SI"
+      ]
+    },
+    "Listeriosis en adultos y niños de más de 1 mes de edad": {
+      "choices": [
+        "Inflamación de meninges",
+        "Sepsis"
+      ],
+      "value": [
+        "Sepsis"
+      ]
+    },
+    "Otras: Especificar:": "No aplica",
+    "Listeriosis materno-neonatal (*)": {
+      "choices": [
+        "Parto prematuro sin otra causa aparente",
+        "Sepsis neonatal",
+        "Aborto séptico y/o muerte fetal",
+        "Inflamación de meninges",
+        "Granulomatosis infantiséptica",
+        "Amnionitis"
+      ],
+      "value": [
+        "Inflamación de meninges"
+      ]
+    }
+  },
+  "COMORBILIDADES": {
+    "COMORBILIDADES": {
+      "choices": [
+        "Inmunocomprometido",
+        "Trasplantado"
+      ],
+      "value": [
+        "Inmunocomprometido"
+      ]
+    }
+  },
+  "INTERNACIÓN": {
+    "Internado": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "SI"
+      ]
+    },
+    "Fecha de internación": "04/10/2026",
+    "Cuidados intensivos:": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    }
+  },
+  "EVOLUCIÓN": {
+    "Fallecido": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "Fecha de fallecimiento": "No aplica"
+  },
+  "ANTECEDENTES EPIDEMIOLÓGICOS": {
+    "Antecedente de viaje": {
+      "País:": "País Ficticio",
+      "Provincia:": "Provincia Ficticia",
+      "Localidad:": "Localidad Ficticia",
+      "Fecha Inicio:": "01/09/2026",
+      "Fecha Fin:": "07/09/2026"
+    },
+    "Antecedente de Consumo:": {
+      "choices": [
+        "Alimento o jugos adquiridos en locales de comida",
+        "Frutas y vegetales crudos mal lavados",
+        "Vegetales congelados envasados",
+        "Leche no pasteurizada o derivados lácteos artesanales",
+        "Carne cruda o insuficientemente cocida (pescado, sushi, salmón ahumado, carne vacuna, pollo)",
+        "Fiambres y Embutidos",
+        "Helados"
+      ],
+      "value": [
+        "Leche no pasteurizada o derivados lácteos artesanales"
+      ]
+    }
+  },
+  "MUESTRAS": {
+    "Fecha de Toma": "04/10/2026",
+    "MUESTRAS": {
+      "choices": [
+        "Sangre entera",
+        "Líquido cefalorraquídeo (LCR)",
+        "Líquido amniótico",
+        "Sangre entera del neonato",
+        "Líquido cefalorraquídeo (LCR) del neonato",
+        "Placenta",
+        "Otros"
+      ],
+      "value": [
+        "Sangre entera"
+      ]
+    },
+    "Especificar:": "No aplica"
+  },
+  "OBSERVACIONES": {
+    "OBSERVACIONES": "Notificación sintética sin observaciones adicionales"
+  },
+  "DEFINICIÓN DE CASO": {
+    "Firma": "Firma sintética de Lucía Notificadora Ficticia"
+  }
+}
