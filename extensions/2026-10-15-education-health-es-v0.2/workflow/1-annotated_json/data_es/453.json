@@ -1,0 +1,390 @@
+{
+  "DATOS DEL PACIENTE": {
+    "Nombre y Apellido del paciente": "",
+    "DNI *": "",
+    "Edad": "",
+    "Género": "",
+    "Domicilio de residencia": ""
+  },
+  "INFORMACIÓN OCUPACIONAL": {
+    "Ocupación *": "",
+    "Institución o empresa": ""
+  },
+  "INFORMACIÓN RESPONSABLE DEL ENVÍO": {
+    "Nombre y Apellido *": "",
+    "Hospital/Institución *": "",
+    "Email de contacto *": "",
+    "Teléfono de contacto": "",
+    "Detalle las muestras derivada y fecha de recolección*": "",
+    "Estudios solicitados (marque con una X)": {
+      "choices": [
+        "Antígeno urinario",
+        "PCR",
+        "Cultivo"
+      ],
+      "value": []
+    },
+    "¿Ha solicitado diagnóstico diferencial de otras neumonías atípicas?": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    }
+  },
+  "INFORMACIÓN CLÍNICA *": {
+    "Fecha inicio de los síntomas (completar)": "",
+    "Fiebre (especificar pico febril ºC)": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "Tos productiva (especificar fecha inicio)": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "Tos no productiva": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "Mialgias": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "Neumonía": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "Hospitalización": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "Estadía en UCI": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "Asistencia respiratoria mecánica": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "Óbito": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "especificar pico febril ºC": "",
+    "especificar fecha inicio": "",
+    "Hallazgo radiológico (completar)": "",
+    "Fecha internación (completar)": "",
+    "Tratamiento antibiótico (completar)": "",
+    "Fecha inicio tratamiento antibiótico (completar)": "",
+    "ANTECEDENTES": {
+      "Enfermedad hepática crónica": {
+        "choices": [
+          "si",
+          "no"
+        ],
+        "value": []
+      },
+      "Enfermedad o terapia inmunosupresora": {
+        "choices": [
+          "si",
+          "no"
+        ],
+        "value": []
+      },
+      "Diabetes": {
+        "choices": [
+          "si",
+          "no"
+        ],
+        "value": []
+      },
+      "Enfermedad pulmonar crónica (especificar)": {
+        "choices": [
+          "si",
+          "no"
+        ],
+        "value": []
+      },
+      "Tabaquismo": {
+        "choices": [
+          "si",
+          "no"
+        ],
+        "value": []
+      },
+      "Descripción": ""
+    }
+  },
+  "DATOS DE LABORATORIO 1": {
+    "Leucocitosis": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "Leucopenia": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "Trombocitopenia": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "CPK > 0.25 ng/ml": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "PCR elevada >20mg/l (indicar valor)": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "Hiponatremia (<135 mEq/L)": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "Hipofosfatemia (<2,5mg/dl)": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "Transaminasas elevadas": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "LDH >400": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "Ferritina elevada (>2x normal)": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "Dimero-D elevado": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "Procalcitocina <0.1 mg/L": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "Procalcitonina >0.25 mg/L": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "Hematuria microscópica": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "indicar valor": "",
+    "Otros hallazgos": ""
+  },
+  "DATOS EPIDEMIOLÓGICOS (contestar si o no) *": {
+    "¿Realizó viajes fuera del país durante el último mes?": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "¿Se ha alojado al menos una noche fuera de su domicilio durante los 10 días previos a la aparición síntomas? (Especificar fecha y lugar)": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "¿Ha estado hospitalizado al menos 48 hs antes del inicio de síntomas? (especificar fecha y locación)": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "¿Visitó o trabajó en instituciones nosocomiales durante el período de exposición? (especificar locación y fecha)": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "¿Estuvo expuesto a fuentes, spas, humidificadores durante las dos semanas previas al inicio de los síntomas?": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "¿Estuvo expuesto a ambientes acuáticos recreacionales durante las dos semanas previas al inicio de los síntomas?": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "¿Estuvo expuesto a tierra (jardinería, construcción, producción, etc)?": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": []
+    },
+    "Especificar lugares de tránsito y destino y fechas": "",
+    "Especificar fecha y lugar": "",
+    "especificar fecha y locación": "",
+    "especificar locación y fecha": ""
+  },
+  "Profesional responsable": {
+    "Firma": "",
+    "Aclaración": "",
+    "Matrícula": ""
+  },
+  "Cuestionario generador de hipótesis de exposición": {
+    "Pregunta 1": {
+      "¿trabajó, recibió tratamiento o visitó un hospital? Si afirmativo, registrar locación": ""
+    },
+    "Pregunta 2": {
+      "¿trabajó, recibió tratamiento o visitó un consultorio médico, clínica o dentista? Si afirmativo, registrar locación": ""
+    },
+    "Pregunta 3": {
+      "¿trabajó, residía o visitó un geriátrico? Si afirmativo, registrar locación": ""
+    },
+    "Pregunta 4": {
+      "¿pasó alguna noche fuera de casa (excluyendo los entornos de atención médica), como quedarse en un hotel o ir en un crucero? Si afirmativo, registrar locación": ""
+    },
+    "Pregunta 5": {
+      "¿visitó un hotel sin pernoctar? (por ejemplo, cena, boda, como empleado) Si afirmativo, registrar locación": ""
+    },
+    "Pregunta 6": {
+      "¿asistió a alguna convención o reunión pública? Si afirmativo, registrar locación": ""
+    },
+    "Pregunta 7": {
+      "¿trabajó, residía o visitó una institución de vida en comunidad (por ejemplo, una prisión, un refugio, un dormitorio)? Si afirmativo, registrar locación": ""
+    },
+    "Pregunta 8": {
+      "¿tuvo exposición a alguno de los siguientes ítems ya sea mientras viajaba o en casa?": {
+        "choices": [
+          "Spa, baño caliente tipo Jacuzzi o hidromasaje",
+          "Estuvo CERCA de un baño caliente en hotel o spa, aunque no haya entrado",
+          "Piscina",
+          "Rociadores de agua recreacionales",
+          "Rociadores de agua en el exterior (ej. parque, jardín)",
+          "Sauna con vapor",
+          "Fuentes decorativas",
+          "Humidificadores de ambiente",
+          "Duchas (fuera de su casa)"
+        ],
+        "value": []
+      }
+    },
+    "Pregunta 9": {
+      "¿Usó un nebulizador o algún equipo de terapia respiratoria para el tratamiento de la apnea del sueño, la EPOC, el asma o por cualquier otra razón?": "",
+      "describa qué tipo de agua usa en este dispositivo": "",
+      "cómo lo limpia.": ""
+    },
+    "Pregunta 10": {
+      "El agua de su domicilio proviene": {
+        "choices": [
+          "de la red municipal",
+          "de pozo",
+          "de una cisterna privada",
+          "no sabe"
+        ],
+        "value": []
+      }
+    },
+    "Pregunta 11": {
+      "¿Recuerda alguna construcción general, proyectos de plomería, roturas de cañerías de agua o trabajos en líneas de agua en su casa o en cualquier otro lugar durante los 6 meses antes de enfermarse?": ""
+    },
+    "Pregunta 12": {
+      "¿compró en una tienda o supermercado donde había máquinas que rociaban las frutas y verduras?": ""
+    },
+    "Pregunta 13": {
+      "¿trabajó en un jardín, tuvo contacto con tierra para macetas o visitó un centro de jardinería?": ""
+    },
+    "Pregunta 14": {
+      "¿reside cerca o visitó un área con grandes edificios, como centros comerciales, oficinas u hoteles de gran altura, o edificios industriales?": ""
+    },
+    "Pregunta 15": {
+      "Específicamente, ¿trabaja en alguno de los siguientes entornos?": {
+        "choices": [
+          "Construcción",
+          "Planta industrial/de fabricación con refrigeración o procesos por aspersión de agua",
+          "Operación o mantenimiento del sistema/dispositivo de agua del edificio (p. ej., torres de enfriamiento, plomería, agua caliente)",
+          "Actividades de ocio relacionadas con el agua (por ejemplo, hoteles, cruceros, parques acuáticos)",
+          "Planta de tratamiento de aguas residuales",
+          "Conducción de camiones (larga distancia)",
+          "Lavado de platos (por ejemplo, en una cocina comercial o industrial)",
+          "Servicios de custodia (por ejemplo, servicio de limpieza, trabajo de conserjería)",
+          "Otro trabajo con exposición al agua"
+        ],
+        "value": []
+      }
+    }
+  }
+}

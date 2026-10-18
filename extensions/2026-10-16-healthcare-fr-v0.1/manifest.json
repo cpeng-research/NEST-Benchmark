@@ -1,0 +1,114 @@
+{
+  "extension_id": "2026-10-16-healthcare-fr-v0.1",
+  "added_on": "2026-10-16",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 3,
+  "samples": [
+    {
+      "id": 602,
+      "language": "fr",
+      "title": "Notification des pharmacies qui effectuent des préparations pharmaceutiques pour d’autres pharmaciens par voie de sous-traitance",
+      "source_id": "fr-602-afmps-delegation",
+      "domain": "Healthcare",
+      "issuer_id": "Agence fédérale des médicaments et des produits de santé (AFMPS), Belgique",
+      "template_family": "afmps-delegation",
+      "source_pages": 3,
+      "source_sha256": "b7696a9144ebb1e2e27ecfbc790293b1868b0ee204cc0529337061e63f489c8b",
+      "fields": 8,
+      "files": {
+        "workflow/0-html_template/data_fr/602.html": "ff0ec810e3fec4b8ae72f515446eba9cfeabb9cee3f291b5ba87299135a7af65",
+        "workflow/1-annotated_json/data_fr/602.json": "aebeea895816a9db555b20dab5a35afdcc456fab5ed107e14bd5123a78f25bb9",
+        "workflow/2-filled_json-a/data_fr/602.json": "8a8a4cf68e414bfbf24e594f6a2ebb22adec6339e4dc81abe2a81ea6d6a674e9",
+        "workflow/3-filled_html-a/data_fr/602.html": "11ac062d3fa181b25881a63dbf9bb757ef3f2facce2b7bd56f518bc5b914d143",
+        "workflow/4-context-a/data_fr/602.txt": "d9abcb239b8edf66cacbad2eddef0bcba1b60bcd45e7b72aa3809147eb8c086f",
+        "workflow/5-ph_html-a/data_fr/602.html": "c1f2db26a9a2cb2455dc40d2c10dc278a67dafb0a7d0852eae762b7831b51077",
+        "workflow/6-meta-a/data_fr/602.json": "ff945d15c87323084d7c98aec51fbe82cf06fa069e9279d2e19efb6c1f317d70"
+      },
+      "annotation_path": "data/annotations/fr/602.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      },
+      "business_topic": "Notification des pharmacies qui effectuent des préparations pharmaceutiques pour d’autres pharmaciens par voie de sous-traitance"
+    },
+    {
+      "id": 603,
+      "language": "fr",
+      "title": "Notification de l’existence, du début ou de la cessation de la réalisation de préparation de médication individuelle (PMI) automatisée",
+      "source_id": "fr-603-afmps-pmi",
+      "domain": "Healthcare",
+      "issuer_id": "Agence fédérale des médicaments et des produits de santé (AFMPS), Belgique",
+      "template_family": "afmps-pmi",
+      "source_pages": 1,
+      "source_sha256": "bce50b9498f20d80ea7c73db5f37783b952d7bfa64d27fc02ab35f35fc1b2362",
+      "fields": 12,
+      "files": {
+        "workflow/0-html_template/data_fr/603.html": "d59054fb29c03f398c06fe07f8286ef1e629803ff66b5341ae8c8d71fba7cb9e",
+        "workflow/1-annotated_json/data_fr/603.json": "cd90c16ff199994012956f845c59c3c3b9e9042f1575ed40571fe9a0a97cef71",
+        "workflow/2-filled_json-a/data_fr/603.json": "33d861e4a2d405c9b1eb332be8b3fd2cf0ecefc7ea1df0885f5fedc2c82e2241",
+        "workflow/3-filled_html-a/data_fr/603.html": "6bfd338c74be5181827335038e5fdb894736a039c000d1803f77a101a203427a",
+        "workflow/4-context-a/data_fr/603.txt": "2c79f34fa4a42816bb27b1a26ad800ccfc09da8c6feb5cd9458a73370311efd4",
+        "workflow/5-ph_html-a/data_fr/603.html": "df21868da4feaf46cb698f4a3e39bde3509df394b73af86db3b53dc5bff2e9b5",
+        "workflow/6-meta-a/data_fr/603.json": "43e34a0aa826fde80e0a49680170b9aeeab0f8777d8dc2c407b802db0a4d6343"
+      },
+      "annotation_path": "data/annotations/fr/603.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      },
+      "business_topic": "Notification de l’existence, du début ou de la cessation de la réalisation de préparation de médication individuelle (PMI) automatisée"
+    },
+    {
+      "id": 604,
+      "language": "fr",
+      "title": "Demande d’intervention pour des produits d’alimentation particulière utilisés en cas d’allergie au gluten, à la gliadine ou à la farine de céréales",
+      "source_id": "fr-604-inami-allergy",
+      "domain": "Healthcare",
+      "issuer_id": "Institut national d’assurance maladie-invalidité (INAMI), Belgique",
+      "template_family": "inami-allergy",
+      "source_pages": 1,
+      "source_sha256": "151e46cbcc702d680b45aa81a7afb9d6a2f5dfd0fb06918e400074cfb90a7d6a",
+      "fields": 8,
+      "files": {
+        "workflow/0-html_template/data_fr/604.html": "76b583524c08060caa5c34edaf3157c86f0bda21041afcc105c1778b530b0954",
+        "workflow/1-annotated_json/data_fr/604.json": "c1dacb5a517dd166805fa3826e376875453f06a99f42a0cb4f9cb872a68c460b",
+        "workflow/2-filled_json-a/data_fr/604.json": "a15701677fcb442963095dd06b132be2f15028f0e018a8228d7b269c8f89b2f8",
+        "workflow/3-filled_html-a/data_fr/604.html": "0e4654027f77a4a017facc2fbffb1ab1a4a6f1bb56c2703a84eb5714cc552d4d",
+        "workflow/4-context-a/data_fr/604.txt": "9fc071817c981ac9e0ca71d4eedc8c6097ec19dc5ee9ee0e686b3e1403237ada",
+        "workflow/5-ph_html-a/data_fr/604.html": "19032088fae121615ff6c62a084941ee3c24f9b3db516e5a647d733f008c34d8",
+        "workflow/6-meta-a/data_fr/604.json": "dacc9415929149916c763b28c43305f6a4b5e18ec1ba9a5f2df2c1f5c0ad0366"
+      },
+      "annotation_path": "data/annotations/fr/604.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      },
+      "business_topic": "Demande d’intervention pour des produits d’alimentation particulière utilisés en cas d’allergie au gluten, à la gliadine ou à la farine de céréales"
+    }
+  ]
+}

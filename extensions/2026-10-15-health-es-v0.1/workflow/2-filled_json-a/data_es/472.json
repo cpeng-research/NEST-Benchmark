@@ -1,0 +1,161 @@
+{
+  "DATOS DEL PACIENTE:": {
+    "Provincia, localidad:": "Córdoba, Villa Ficticia",
+    "NOMBre y apellido": "Lucía Simulación",
+    "Edad": "40 años",
+    "Sexo": "Femenino",
+    "peso": "61 kg",
+    "Diagnóstico": "Condición de simulación Alfa"
+  },
+  "DESCRIPCIÓN DEL ERROR (Describa la secuencia de los hechos lo más detallada posible)": {
+    "DESCRIPCIÓN DEL ERROR (Describa la secuencia de los hechos lo más detallada posible)": "En una simulación se confundieron envases con nombres parecidos durante la preparación. La comprobación farmacéutica detectó el error antes de administrar el producto.",
+    "FECHA DEL ERROR:": "14/10/2026",
+    "Si el medicamento sí fue administrado al paciente, describa el desenlace (ej: muerte, tipo de lesión, efecto adverso)": "No corresponde: el medicamento no fue administrado.",
+    "Si el medicamento no fue administrado al paciente, describa la intervención que lo evitó": "La farmacéutica cotejó el nombre genérico con la prescripción y separó ambos envases ficticios."
+  },
+  "TIPO DE ERROR DE MEDICACIÓN (marque todas las que correspondan, puede ser más de una)": {
+    "TIPO DE ERROR DE MEDICACIÓN": {
+      "choices": [
+        "1. Medicamento no indicado/apropiado",
+        "2. Duplicidad terapéutica",
+        "3. Omisión de dosis",
+        "4. Dosis incorrecta (mayor o menor)",
+        "5. Frecuencia/intervalo incorrecto",
+        "6. Forma farmacéutica equivocada",
+        "7. Preparación/manipulación",
+        "8. Técnica de administración incorrecta",
+        "9. Vía de administración equivocada",
+        "10. Paciente equivocado",
+        "11. Duración tratamiento incorrecta",
+        "12. Medicamento vencido/deteriorado",
+        "13. Etiquetado/prospecto/envasado",
+        "14. Falta de cumplimiento paciente",
+        "15. Falta de monitoreo",
+        "16. Otro (especificar)"
+      ],
+      "value": [
+        "1. Medicamento no indicado/apropiado",
+        "7. Preparación/manipulación"
+      ]
+    },
+    "16. Otro (especificar)": "No se identifica otro tipo en la simulación."
+  },
+  "CATEGORÍA DEL ERROR": {
+    "CATEGORÍA DEL ERROR": {
+      "choices": [
+        "Categoría A",
+        "Categoría b",
+        "Categoría c",
+        "Categoría d",
+        "Categoría e",
+        "Categoría f",
+        "Categoría g",
+        "Categoría h",
+        "Categoría i"
+      ],
+      "value": [
+        "Categoría b"
+      ]
+    }
+  },
+  "ETAPA EN LA QUE OCURRIÓ EL ERROR DE MEDICACIÓN": {
+    "ETAPA EN LA QUE OCURRIÓ EL ERROR DE MEDICACIÓN": {
+      "choices": [
+        "1. Prescripción",
+        "2. Transcripción",
+        "3. Dispensación",
+        "4. Almacenamiento",
+        "5. Preparación/Manipulación",
+        "6. Administración",
+        "7. Monitorización/Seguimiento",
+        "8. Otra (especificar)"
+      ],
+      "value": [
+        "5. Preparación/Manipulación"
+      ]
+    },
+    "8. Otra (especificar)": "Ninguna otra etapa identificada."
+  },
+  "¿Quién detectó el error?": {
+    "¿Quién detectó el error?": {
+      "choices": [
+        "Médico",
+        "Enfermero",
+        "Farmacéutico",
+        "Paciente",
+        "Familiar Paciente",
+        "Otro (especificar)"
+      ],
+      "value": [
+        "Farmacéutico"
+      ]
+    },
+    "Otro (especificar)": "No aplica a la persona que detectó el error."
+  },
+  "¿Dónde ocurrió el error?": {
+    "¿Dónde ocurrió el error?": {
+      "choices": [
+        "Hospital",
+        "Farmacia",
+        "Centro Atención Primaria",
+        "Domicilio del paciente",
+        "Consultorio Médico",
+        "Otro (especificar)"
+      ],
+      "value": [
+        "Hospital"
+      ]
+    },
+    "Otro (especificar)": "No aplica al lugar del error."
+  },
+  "Factores contribuyentes": {
+    "Factores contribuyentes": {
+      "choices": [
+        "Falta de información critica del paciente",
+        "Falta de información crítica del medicamento",
+        "Problemas de comunicación de la prescripción",
+        "Problema de nombre de la droga, etiquetado o envasado",
+        "Medicamento mal almacenado o problema de dispensación",
+        "Entorno, personal o volumen de trabajo",
+        "Capacitación inadecuada del personal",
+        "Deficiente educación del paciente sobre su patología y cuidados",
+        "Falta de controles o sistemas de chequeo ineficientes",
+        "Otros (especificar)"
+      ],
+      "value": [
+        "Problema de nombre de la droga, etiquetado o envasado"
+      ]
+    },
+    "Otros (especificar)": "No se notifican otros factores."
+  },
+  "¿ACONSEJARÍA ALGUNA MEDIDA PARA PREVENIR ESTE ERRoR?": {
+    "¿ACONSEJARÍA ALGUNA MEDIDA PARA PREVENIR ESTE ERRoR?": "Separar los envases y mantener un doble control de preparación en este ejercicio ficticio."
+  },
+  "Confusión entre medicamentos": {
+    "Medicamento 1": {
+      "Nombre genérico de la droga": "Sustancia ficticia A472",
+      "Nombre comercial y Laboratorio": "Alfa472 / Laboratorio Simulado A",
+      "Dosis": "Una unidad simulada",
+      "Forma farmacéutica": "solución ficticia A",
+      "Vía de administración": "Vía ficticia de demostración A"
+    },
+    "Medicamento 2": {
+      "Nombre genérico de la droga": "Sustancia ficticia B472",
+      "Nombre comercial y Laboratorio": "AlfaB472 / Laboratorio Simulado B",
+      "Dosis": "Dos unidades simuladas",
+      "Forma farmacéutica": "solución ficticia B",
+      "Vía de administración": "Vía ficticia de demostración B"
+    }
+  },
+  "DATOS DEL COMUNICADOR": {
+    "Apellido y Nombre": "Silvia Prueba",
+    "Profesión/Ocupación": "Farmacéutica ficticia",
+    "Lugar de trabajo": "Hospital Simulado 472",
+    "Dirección": "Calle Ensayo 472, Córdoba",
+    "Tel/Fax": "000-472-0001",
+    "E-mail": "silvia.prueba@example.invalid",
+    "FECHA DE ESTE REPORTE:": "15/10/2026",
+    "PÁG.": "1",
+    "DE": "1"
+  }
+}

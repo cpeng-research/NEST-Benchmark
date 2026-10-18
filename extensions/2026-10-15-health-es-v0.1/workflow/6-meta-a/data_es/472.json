@@ -1,0 +1,536 @@
+[
+  {
+    "key": "Provincia, localidad:",
+    "label_info": {
+      "row": 2,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "NOMBre y apellido",
+    "label_info": {
+      "row": 3,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Edad",
+    "label_info": {
+      "row": 4,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Sexo",
+    "label_info": {
+      "row": 5,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "peso",
+    "label_info": {
+      "row": 6,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Diagnóstico",
+    "label_info": {
+      "row": 7,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "DESCRIPCIÓN DEL ERROR (Describa la secuencia de los hechos lo más detallada posible)",
+    "label_info": {
+      "row": 9,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "FECHA DEL ERROR:",
+    "label_info": {
+      "row": 10,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Si el medicamento sí fue administrado al paciente, describa el desenlace (ej: muerte, tipo de lesión, efecto adverso)",
+    "label_info": {
+      "row": 11,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Si el medicamento no fue administrado al paciente, describa la intervención que lo evitó",
+    "label_info": {
+      "row": 12,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "TIPO DE ERROR DE MEDICACIÓN",
+    "label_info": {
+      "row": 14,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "16. Otro (especificar)",
+    "label_info": {
+      "row": 15,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "CATEGORÍA DEL ERROR",
+    "label_info": {
+      "row": 17,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "ETAPA EN LA QUE OCURRIÓ EL ERROR DE MEDICACIÓN",
+    "label_info": {
+      "row": 20,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "8. Otra (especificar)",
+    "label_info": {
+      "row": 21,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "¿Quién detectó el error?",
+    "label_info": {
+      "row": 23,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "Otro (especificar)",
+    "label_info": {
+      "row": 24,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "¿Dónde ocurrió el error?",
+    "label_info": {
+      "row": 26,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "Otro (especificar)",
+    "label_info": {
+      "row": 27,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Factores contribuyentes",
+    "label_info": {
+      "row": 29,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "Otros (especificar)",
+    "label_info": {
+      "row": 30,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "¿ACONSEJARÍA ALGUNA MEDIDA PARA PREVENIR ESTE ERRoR?",
+    "label_info": {
+      "row": 32,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Nombre genérico de la droga",
+    "label_info": {
+      "row": 35,
+      "col": 0
+    },
+    "placeholder_offset": [
+      {
+        "rows": 0,
+        "cols": 4
+      },
+      {
+        "rows": 0,
+        "cols": 8
+      }
+    ],
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Nombre comercial y Laboratorio",
+    "label_info": {
+      "row": 36,
+      "col": 0
+    },
+    "placeholder_offset": [
+      {
+        "rows": 0,
+        "cols": 4
+      },
+      {
+        "rows": 0,
+        "cols": 8
+      }
+    ],
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Dosis",
+    "label_info": {
+      "row": 37,
+      "col": 0
+    },
+    "placeholder_offset": [
+      {
+        "rows": 0,
+        "cols": 4
+      },
+      {
+        "rows": 0,
+        "cols": 8
+      }
+    ],
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Forma farmacéutica",
+    "label_info": {
+      "row": 38,
+      "col": 0
+    },
+    "placeholder_offset": [
+      {
+        "rows": 0,
+        "cols": 4
+      },
+      {
+        "rows": 0,
+        "cols": 8
+      }
+    ],
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Vía de administración",
+    "label_info": {
+      "row": 39,
+      "col": 0
+    },
+    "placeholder_offset": [
+      {
+        "rows": 0,
+        "cols": 4
+      },
+      {
+        "rows": 0,
+        "cols": 8
+      }
+    ],
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Apellido y Nombre",
+    "label_info": {
+      "row": 41,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Profesión/Ocupación",
+    "label_info": {
+      "row": 42,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Lugar de trabajo",
+    "label_info": {
+      "row": 43,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Dirección",
+    "label_info": {
+      "row": 44,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Tel/Fax",
+    "label_info": {
+      "row": 45,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "E-mail",
+    "label_info": {
+      "row": 46,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "FECHA DE ESTE REPORTE:",
+    "label_info": {
+      "row": 47,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "PÁG.",
+    "label_info": {
+      "row": 48,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "DE",
+    "label_info": {
+      "row": 49,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  }
+]

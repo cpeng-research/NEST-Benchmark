@@ -1,0 +1,125 @@
+{
+  "SENDER’S INFORMATION": {
+    "Name and address": "",
+    "Report to be sent FAO": "",
+    "Contact Phone": "",
+    "Ext": "",
+    "Purchase order number": "",
+    "Postcode": "",
+    "Project code": ""
+  },
+  "PATIENT/SOURCE INFORMATION": {
+    "Care setting": {
+      "choices": [
+        "Inpatient",
+        "Outpatient",
+        "GP Patient"
+      ],
+      "value": []
+    },
+    "NHS number": "",
+    "Sex": {
+      "choices": [
+        "male",
+        "female"
+      ],
+      "value": []
+    },
+    "Surname": "",
+    "Date of birth": "",
+    "Age": "",
+    "Forename": "",
+    "Patient’s postcode": "",
+    "Patient’s HPT": "",
+    "Hospital number": "",
+    "Ward/ clinic name": "",
+    "Hospital name": "",
+    "Ward type": "",
+    "Pregnant": {
+      "choices": [
+        "Yes",
+        "No",
+        "Unknown"
+      ],
+      "value": []
+    },
+    "Weeks": ""
+  },
+  "SAMPLE INFORMATION": {
+    "Your reference": "",
+    "Sample type": {
+      "choices": [
+        "Vesicle Swab",
+        "Vesicle Fluid",
+        "CSF",
+        "Plasma",
+        "Viral isolate",
+        "DNA",
+        "Scab",
+        "*Serum",
+        "Other (please specify)"
+      ],
+      "value": [],
+      "Other": ""
+    },
+    "Hazard details": "",
+    "Post mortem": {
+      "choices": [
+        "Please tick the box if your clinical sample is post mortem"
+      ],
+      "value": []
+    },
+    "Date of collection": "",
+    "Time": "",
+    "Date sent to UKHSA": ""
+  },
+  "TESTS REQUESTED": {
+    "Tests": {
+      "choices": [
+        "VZV IgG",
+        "VZV DNA",
+        "VZV IgM+IgG (IgM will only be performed if IgG is negative and clinical information is provided below)"
+      ],
+      "value": []
+    }
+  },
+  "CLINICAL/EPIDEMIOLOGICAL INFORMATION": {
+    "Clinical purpose": {
+      "choices": [
+        "Pre vaccine screening",
+        "Post exposure",
+        "Confirmation of VZV infection or re-activation"
+      ],
+      "value": []
+    },
+    "Vaccine related samples": {
+      "Vaccine history": {
+        "choices": [
+          "Post vaccine",
+          "Varicella vaccine e.g.MMRV 1st dose Date",
+          "Varicella vaccine 2nd dose Date",
+          "Zostavax (NOT Shingrix) Date"
+        ],
+        "value": []
+      },
+      "First dose date": "",
+      "Second dose date": "",
+      "Zostavax date": ""
+    },
+    "Nature of rash": {
+      "choices": [
+        "At vaccine inoculation site",
+        "Localised away from vaccine inoculation site",
+        "Generalised",
+        "Other (Please give details)"
+      ],
+      "value": [],
+      "Other details": ""
+    },
+    "Date of onset": "",
+    "Date of contact": ""
+  },
+  "OTHER CLINICAL DETAILS": {
+    "Clinical details": ""
+  }
+}

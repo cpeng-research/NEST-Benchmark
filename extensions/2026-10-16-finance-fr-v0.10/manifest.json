@@ -1,0 +1,44 @@
+{
+  "extension_id": "2026-10-16-finance-fr-v0.10",
+  "added_on": "2026-10-16",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 1,
+  "samples": [
+    {
+      "id": 686,
+      "language": "fr",
+      "title": "Taxe sur les bureaux, locaux commerciaux, stockage et stationnement : 6705 B-SD",
+      "source_id": "fr-686-6705-b",
+      "domain": "Finance",
+      "issuer_id": "Direction générale des finances publiques",
+      "template_family": "6705-b",
+      "source_pages": 4,
+      "source_sha256": "cf3f21d1f690d23038f8ce0da4ea5cf4570ce5db3f61af10b9466e6c0ea5f964",
+      "fields": 202,
+      "files": {
+        "workflow/0-html_template/data_fr/686.html": "43ffe38590138bbc927854b2df77fddbeee18e418bd16fafb086d8e59cdc613f",
+        "workflow/1-annotated_json/data_fr/686.json": "0aace4806646152258d2c641d0d6b4ba23e8584ba38bf733bae8977f5260b7f1",
+        "workflow/2-filled_json-a/data_fr/686.json": "ee15b03623f3a8969ec018d046c0665cd126814d61348de3a3654bf14e69a119",
+        "workflow/3-filled_html-a/data_fr/686.html": "570d1f7797530a3f7055d4574b4848487c8c85a387d3a70bf190c924c4774859",
+        "workflow/4-context-a/data_fr/686.txt": "856877ff7b951ad66bf641af9d1b39249251fb5cf583ac5cad7eb43a70219725",
+        "workflow/5-ph_html-a/data_fr/686.html": "67e7b331e4327c81ffc00c27dbfe802f69680bd59672774b5659a3f13130bcec",
+        "workflow/6-meta-a/data_fr/686.json": "f5b8205ef49d350ce9d0fa7a548053595d00e4532986a832d4974ae742627527"
+      },
+      "annotation_path": "data/annotations/fr/686.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      },
+      "business_topic": "Taxe sur les bureaux, locaux commerciaux, stockage et stationnement : 6705 B-SD"
+    }
+  ]
+}

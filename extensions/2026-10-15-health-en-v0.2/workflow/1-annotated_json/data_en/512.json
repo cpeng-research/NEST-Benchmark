@@ -1,0 +1,190 @@
+{
+  "SENDER'S INFORMATION": {
+    "Sender name and address": "",
+    "Report to be sent FAO": "",
+    "Contact Phone": "",
+    "Ext": "",
+    "Purchase order number": "",
+    "Postcode": "",
+    "Project code": "",
+    "UKHSA outbreak/investigation": "",
+    "ILog number": ""
+  },
+  "PATIENT/SOURCE INFORMATION": {
+    "Source type": {
+      "Selections": {
+        "choices": [
+          "Human",
+          "Animal*",
+          "Food*",
+          "Water*",
+          "Environment*",
+          "Other*"
+        ],
+        "value": []
+      },
+      "Details": ""
+    },
+    "Care setting": {
+      "Selections": {
+        "choices": [
+          "Inpatient",
+          "Outpatient",
+          "GP Patient",
+          "Other'"
+        ],
+        "value": []
+      },
+      "Details": ""
+    },
+    "NHS number": "",
+    "Sex": {
+      "choices": [
+        "male",
+        "female"
+      ],
+      "value": []
+    },
+    "Surname": "",
+    "Date of birth": "",
+    "Age": "",
+    "Forename": "",
+    "Patient postcode": "",
+    "Patient HPT": "",
+    "Hospital number": "",
+    "Ward name": "",
+    "Hospital name": "",
+    "Ward type": ""
+  },
+  "SAMPLE INFORMATION": {
+    "Your reference": "",
+    "Hazard status": {
+      "Response": {
+        "choices": [
+          "Group 3",
+          "Group 4",
+          "No",
+          "Unknown"
+        ],
+        "value": []
+      },
+      "Details": ""
+    },
+    "Sample type": {
+      "Selections": {
+        "choices": [
+          "Isolate from Blood",
+          "Isolate from Other",
+          "Serum",
+          "Clinical Sample of",
+          "Other (please specify type and site)"
+        ],
+        "value": []
+      },
+      "Isolate from other details": "",
+      "Clinical sample details": "",
+      "Other details": ""
+    },
+    "Preliminary identification": "",
+    "Presumptive identification": "",
+    "Date of collection": "",
+    "Time": "",
+    "Date sent to UKHSA": "",
+    "Priority status": ""
+  },
+  "TESTS REQUESTED": {
+    "Isolates": {
+      "Primary tests": {
+        "choices": [
+          "Corynebacterium diphtheriae/C. ulcerans/C. pseudotuberculosis",
+          "Streptococcus pneumoniae capsule typing (invasive)"
+        ],
+        "value": []
+      },
+      "Haemophilus": {
+        "Requested": {
+          "choices": [
+            "Haemophilus spp. (invasive)"
+          ],
+          "value": []
+        },
+        "Species": {
+          "choices": [
+            "Haemophilus influenzae",
+            "Other Haemophilus species"
+          ],
+          "value": []
+        }
+      },
+      "Bordetella": {
+        "Requested": {
+          "choices": [
+            "Bordetella spp."
+          ],
+          "value": []
+        },
+        "Species": {
+          "choices": [
+            "Bordetella pertussis",
+            "Other Bordetella species"
+          ],
+          "value": []
+        }
+      }
+    },
+    "MIC Evaluation": {
+      "Selected": {
+        "choices": [
+          "MIC Evaluation"
+        ],
+        "value": []
+      },
+      "Reason": ""
+    },
+    "Sera": {
+      "Tests": {
+        "choices": [
+          "Diphtheria immunity",
+          "Tetanus immunity",
+          "B. pertussis anti-PT IgG antibodies"
+        ],
+        "value": []
+      }
+    }
+  },
+  "SENDERS LABORATORY RESULTS": {
+    "Laboratory results": ""
+  },
+  "CLINICAL/EPIDEMIOLOGICAL INFORMATION": {
+    "Main diagnosis": {
+      "Selections": {
+        "choices": [
+          "Bacteraemia",
+          "Meningitis",
+          "Pneumonia",
+          "Epiglottitis",
+          "Septic arthritis",
+          "Cellulitis",
+          "other (please specify)"
+        ],
+        "value": []
+      },
+      "Other details": ""
+    },
+    "Date of onset": "",
+    "Recent travel": {
+      "Response": {
+        "choices": [
+          "Yes",
+          "No",
+          "Unknown"
+        ],
+        "value": []
+      },
+      "Country": ""
+    }
+  },
+  "COMMENTS": {
+    "Comments": ""
+  }
+}

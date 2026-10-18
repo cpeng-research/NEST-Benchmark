@@ -1,0 +1,136 @@
+{
+  "SENDER’S INFORMATION": {
+    "Sender’s name and address": "",
+    "Contact number:": "",
+    "Hospital name": "",
+    "Ward/clinic name": "",
+    "Hospital number": "",
+    "Patient’s Health Protection Team": "",
+    "Postcode": "",
+    "Purchase order number": ""
+  },
+  "PATIENT/SOURCE INFORMATION": {
+    "NHS number": "",
+    "Surname": "",
+    "Hazard details": "",
+    "Forename": "",
+    "Sex": {
+      "choices": [
+        "Male",
+        "Female",
+        "Not known/other"
+      ],
+      "value": []
+    },
+    "Date of birth": "",
+    "Age": "",
+    "Patient’s postcode": ""
+  },
+  "SAMPLE INFORMATION": {
+    "Your reference": "",
+    "Sample type": {
+      "choices": [
+        "Serum/clotted blood",
+        "Plasma",
+        "EDTA whole blood",
+        "CSF (Please send paired sera)"
+      ],
+      "value": []
+    },
+    "Request": {
+      "choices": [
+        "Brucella serology/PCR (non-canis)",
+        "Brucella canis"
+      ],
+      "value": []
+    },
+    "Date of collection": "",
+    "Time": "",
+    "Antibiotics given?": {
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "value": []
+    },
+    "If canis requested:": {
+      "choices": [
+        "Symptomatic",
+        "Asymptomatic"
+      ],
+      "value": []
+    },
+    "Date sent to UKHSA": "",
+    "Urgency": {
+      "choices": [
+        "Routine",
+        "Urgent"
+      ],
+      "value": []
+    }
+  },
+  "CLINICAL/EPIDEMIOLOGICAL INFORMATION": {
+    "Brucella serology/PCR (non-canis)": {
+      "Risk Factors": {
+        "choices": [
+          "Calving",
+          "Dealing with cattle still births",
+          "Consumption of unpasteurised milk/cheese",
+          "Exposure details"
+        ],
+        "value": []
+      },
+      "State country": ""
+    },
+    "Brucella canis": {
+      "Exposure": {
+        "choices": [
+          "Occupational exposure (e.g. veterinary surgeon)",
+          "Non-occupational exposure (e.g. owner of infected dog)",
+          "Test advised by UKHSA"
+        ],
+        "value": []
+      },
+      "Date of exposure": "",
+      "Detail exposure": {
+        "choices": [
+          "Detail exposure"
+        ],
+        "value": []
+      },
+      "Please state": ""
+    },
+    "Clinical Features": {
+      "choices": [
+        "Acute onset",
+        "Insidious onset",
+        "Fever",
+        "Night sweats",
+        "Fatigue",
+        "Anorexia",
+        "Weight loss",
+        "Headaches",
+        "Arthralgia",
+        "Other (please specify)"
+      ],
+      "value": [],
+      "Other": ""
+    },
+    "Complications": {
+      "choices": [
+        "Epididymo-orchitis",
+        "Bone/joint Involvement",
+        "Endocarditis",
+        "Suppurative organ infection (e.g. spleen)",
+        "Abnormal liver function tests",
+        "Other (please specify)"
+      ],
+      "value": [],
+      "Other": ""
+    },
+    "Date of symptom onset": ""
+  },
+  "OTHER COMMENTS": {
+    "OTHER COMMENTS": ""
+  }
+}

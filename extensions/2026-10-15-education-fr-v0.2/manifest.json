@@ -1,0 +1,77 @@
+{
+  "extension_id": "2026-10-15-education-fr-v0.2",
+  "added_on": "2026-10-15",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 2,
+  "samples": [
+    {
+      "id": 349,
+      "language": "fr",
+      "title": "S’interroger en fonction de son rôle, son positionnement : les métiers de l’établissement et le climat scolaire",
+      "source_id": "fr-349-climat-scolaire-auto-positionnement",
+      "domain": "Education",
+      "issuer_id": "fr-ministere-education-nationale",
+      "template_family": "climat-scolaire-auto-positionnement",
+      "source_pages": 2,
+      "source_sha256": "9db7a61172a841cca8ef719e5b0a76c027e843eec2ea86ffd81919f357625036",
+      "fields": 20,
+      "files": {
+        "workflow/0-html_template/data_fr/349.html": "98229dc0266105aca94b1e469295259ad802e6eaf3159bbb074470158280be64",
+        "workflow/1-annotated_json/data_fr/349.json": "4d1168626a746abe2a1315cd63e41e30ee06b7a167dd0f3b38343fab1934239a",
+        "workflow/2-filled_json-a/data_fr/349.json": "60377e456bf45d2e4365530f6aa4b2151684b959454225526186607419ef9512",
+        "workflow/3-filled_html-a/data_fr/349.html": "33672df04916995f03645fa62a6f3db503cb81e32925a4c889ec0a4f57e01bf1",
+        "workflow/4-context-a/data_fr/349.txt": "22242ea44bba49d143971d6fc06244e36482e19679e95e817d69912d8351c98a",
+        "workflow/5-ph_html-a/data_fr/349.html": "bbe87fa5f5b6bd3352bf0c6f23a4bc83fca489f4ffc7aceda4016b71c239be19",
+        "workflow/6-meta-a/data_fr/349.json": "68655596a3fdfbca881ef97e6533259ddb43796884a66826e3012521434c76e1"
+      },
+      "annotation_path": "data/annotations/fr/349.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 350,
+      "language": "fr",
+      "title": "Outil pour un auto diagnostic du climat scolaire dans une école du premier degré",
+      "source_id": "fr-350-climat-scolaire-auto-diagnostic-ecole",
+      "domain": "Education",
+      "issuer_id": "fr-ministere-education-nationale",
+      "template_family": "climat-scolaire-auto-diagnostic-ecole",
+      "source_pages": 6,
+      "source_sha256": "cf50d4f349bbe205541eebbf51733775f28758dee78153f491de970089013c06",
+      "fields": 14,
+      "files": {
+        "workflow/0-html_template/data_fr/350.html": "b8f46338efb05bd50fcdf2096d106bc1bb8f73f995245d5cc0a5606345872f87",
+        "workflow/1-annotated_json/data_fr/350.json": "7cf7588e094018e5a948ace8e139dd701d55bcacf74145250de4d62bc4696a54",
+        "workflow/2-filled_json-a/data_fr/350.json": "64789892f998972c56c8efb00f189c80d385e81df310580e07888ac2f45d04c1",
+        "workflow/3-filled_html-a/data_fr/350.html": "c71666d126b7412955dbb281c9f7b6d106f1abd673caeb7faee067ce57d1df90",
+        "workflow/4-context-a/data_fr/350.txt": "0005da99f0149981eab70dfaf5eabc122e7257e21e4049adadf2d6a01b0ac739",
+        "workflow/5-ph_html-a/data_fr/350.html": "a42bc95b02355c9dcecb19a85c89c7968fef256e9f9ae554d4f3de33492b8873",
+        "workflow/6-meta-a/data_fr/350.json": "6bac1c0994858ee0022e02f72e7341bf7b23e732935c26f25313726b61e9e19b"
+      },
+      "annotation_path": "data/annotations/fr/350.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}

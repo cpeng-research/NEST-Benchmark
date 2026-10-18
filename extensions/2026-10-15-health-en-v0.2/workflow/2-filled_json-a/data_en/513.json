@@ -1,0 +1,160 @@
+{
+  "Sender details": {
+    "Sending laboratory": {
+      "Name": "Synthetic Northbridge Laboratory",
+      "Address": "18 Example Road, London SW1A 0AA",
+      "Telephone": "020 7946 0123",
+      "Out of hours": "020 7946 0124"
+    },
+    "Health Protection Team": {
+      "Name": "Synthetic London HPT",
+      "Address": "28 Example Road, London SW1A 0AA",
+      "Telephone": "020 7946 0125",
+      "Out of hours": "020 7946 0126"
+    }
+  },
+  "Patient Details": {
+    "Surname": "Example",
+    "Patient Address": "38 Example Road, London",
+    "Forename": "Morgan",
+    "Patient post code": "SW1A 0AA",
+    "Date of birth": "15/03/1992",
+    "Sex": {
+      "choices": [
+        "male",
+        "female"
+      ],
+      "value": [
+        "female"
+      ]
+    },
+    "NHS number": "SYN-NHS-513",
+    "Hospital number": "SYNH513",
+    "Ward": "Synthetic Infection Ward",
+    "Consultant": "Dr Riley Example"
+  },
+  "Clinical Details": {
+    "Date of onset": "01/10/2026",
+    "Fatal case": {
+      "choices": [
+        "yes",
+        "no",
+        "NK"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "Clinical details": "Synthetic meningitis and fever under assessment",
+    "Patient status": {
+      "choices": [
+        "case",
+        "carrier",
+        "contact"
+      ],
+      "value": [
+        "case"
+      ]
+    },
+    "Recent travel": {
+      "Response": {
+        "choices": [
+          "yes",
+          "no",
+          "NK"
+        ],
+        "value": [
+          "yes"
+        ]
+      },
+      "Country": "France"
+    },
+    "Antibiotic treatment": "Synthetic ceftriaxone treatment record",
+    "Case type": {
+      "choices": [
+        "sporadic",
+        "outbreak"
+      ],
+      "value": [
+        "sporadic"
+      ]
+    },
+    "Contact history": {
+      "choices": [
+        "family",
+        "school",
+        "NK"
+      ],
+      "value": [
+        "family"
+      ]
+    },
+    "Further information": "Synthetic hospital transfer; no linked cases recorded",
+    "Meningococcal Vaccination History": {
+      "Selections": {
+        "choices": [
+          "Plain polysaccharide: A, C, Y, W",
+          "Conjugated polysaccharide: A , C, Y, W",
+          "Protein-based vaccine (eg. Bexsero®)"
+        ],
+        "value": [
+          "Conjugated polysaccharide: A , C, Y, W",
+          "Protein-based vaccine (eg. Bexsero®)"
+        ]
+      },
+      "Other": "Synthetic other vaccination record"
+    }
+  },
+  "Sample details": {
+    "N. meningitidis cultures": {
+      "Sample 1": {
+        "Specimen clinical site/ Sample type*": "Synthetic blood isolate 1",
+        "Senders Lab Reference": "SYNMRUC1",
+        "Date of collection": "12/10/2026"
+      },
+      "Sample 2": {
+        "Specimen clinical site/ Sample type*": "Synthetic blood isolate 2",
+        "Senders Lab Reference": "SYNMRUC2",
+        "Date of collection": "13/10/2026"
+      },
+      "Sample 3": {
+        "Specimen clinical site/ Sample type*": "Synthetic blood isolate 3",
+        "Senders Lab Reference": "SYNMRUC3",
+        "Date of collection": "14/10/2026"
+      }
+    },
+    "Real-time PCR": {
+      "Tests": {
+        "choices": [
+          "Meningococcal PCR",
+          "Pneumococcal PCR"
+        ],
+        "value": [
+          "Meningococcal PCR",
+          "Pneumococcal PCR"
+        ]
+      },
+      "Sample 1": {
+        "Specimen clinical site/ Sample type*": "Synthetic EDTA blood sample 1",
+        "Senders Lab Reference": "SYNMRUP1",
+        "Date of collection": "12/10/2026"
+      },
+      "Sample 2": {
+        "Specimen clinical site/ Sample type*": "Synthetic EDTA blood sample 2",
+        "Senders Lab Reference": "SYNMRUP2",
+        "Date of collection": "13/10/2026"
+      },
+      "Sample 3": {
+        "Specimen clinical site/ Sample type*": "Synthetic EDTA blood sample 3",
+        "Senders Lab Reference": "SYNMRUP3",
+        "Date of collection": "14/10/2026"
+      },
+      "Sample 4": {
+        "Specimen clinical site/ Sample type*": "Synthetic EDTA blood sample 4",
+        "Senders Lab Reference": "SYNMRUP4",
+        "Date of collection": "15/10/2026"
+      }
+    },
+    "MRU use only": "Synthetic laboratory receipt and processing record"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "SISTEMA NACIONAL DE FARMACOVIGILANCIA COMUNICACIÓN DE DESVÍOS DE CALIDAD": {
+    "Provincia:": "Córdoba",
+    "Código de identificación (ID local/global):": "ID-SIM-474"
+  },
+  "TIPO DE DESVÍO DE CALIDADVERSA": {
+    "TIPO DE DESVÍO DE CALIDADVERSA": {
+      "choices": [
+        "Falta de efectividad",
+        "Envase-empaque",
+        "Problemas farmacotécnicos",
+        "Contaminación",
+        "Cambio de aspecto",
+        "Rotulación",
+        "Reacción adversa ligada a la calidad",
+        "Otros"
+      ],
+      "value": [
+        "Envase-empaque",
+        "Cambio de aspecto"
+      ]
+    }
+  },
+  "DATOS DEL PACIENTE:": {
+    "Apellido (iniciales)": "PS",
+    "Nombre (iniciales)": "LS",
+    "Peso": "66 kg",
+    "Edad": "44 años",
+    "Sexo": "Femenino"
+  },
+  "DESCRIPCIÓN DEL DESVÍO DE CALIDAD": {
+    "DESCRIPCIÓN DEL DESVÍO DE CALIDAD": "Caso ficticio: precinto dañado y color de solución distinto al habitual; se inmoviliza el envase sin administrarlo.",
+    "¿El medicamento con el desvío se administró al paciente?": {
+      "choices": [
+        "Si",
+        "No"
+      ],
+      "value": [
+        "No"
+      ]
+    },
+    "¿La administración del medicamento al paciente causó un evento adverso?": {
+      "choices": [
+        "Si",
+        "No"
+      ],
+      "value": [
+        "No"
+      ]
+    },
+    "¿Cuál?:": "No ocurrió un evento adverso porque no se administró el medicamento."
+  },
+  "¿Qué resultado tuvo el desvío en el paciente?": {
+    "¿Qué resultado tuvo el desvío en el paciente?": {
+      "choices": [
+        "Requirió tratamiento",
+        "Recuperado ad integrum",
+        "Recuperado con secuelas",
+        "No recuperado aún",
+        "Desconocido",
+        "Requirió o prolongó",
+        "riesgo de vida",
+        "malformación",
+        "otro",
+        "Muerte; fecha:"
+      ],
+      "value": [
+        "otro"
+      ]
+    },
+    "Muerte; fecha:": "No aplica: no falleció el paciente ficticio.",
+    "Exámenes complementarios relevantes (con fecha y resultado):": "No se realizaron estudios; no hubo exposición del paciente.",
+    "Enfermedad de base y condiciones médicas relevantes": "Condición ficticia Alfa; sin otros antecedentes relevantes.",
+    "Medicación concomitante (incluyendo terapias alternativas):": "No consta medicación concomitante en el caso ficticio."
+  },
+  "MEDICAMENTO CON EL DESVÍO": {
+    "1": {
+      "Nombre Genérico": "Sustancia ficticia 474",
+      "Nombre Comercial": "Producto ficticio 474",
+      "Forma farmacéutica": "solución ficticia",
+      "Dosis y vía de administración": "No administrada; vía prevista ficticia",
+      "Indicación de uso": "Indicación ficticia Alfa",
+      "Fecha de vencimiento": "12/2027",
+      "N°Lote/ serie": "LOTE-SIM-474"
+    },
+    "2": {
+      "Nombre Genérico": "No hay otro producto, fila 2",
+      "Nombre Comercial": "No aplica, comercial fila 2",
+      "Forma farmacéutica": "No aplica, forma fila 2",
+      "Dosis y vía de administración": "No aplica, dosis fila 2",
+      "Indicación de uso": "No aplica, indicación fila 2",
+      "Fecha de vencimiento": "No aplica, vencimiento fila 2",
+      "N°Lote/ serie": "No aplica, lote fila 2"
+    },
+    "3": {
+      "Nombre Genérico": "No hay otro producto, fila 3",
+      "Nombre Comercial": "No aplica, comercial fila 3",
+      "Forma farmacéutica": "No aplica, forma fila 3",
+      "Dosis y vía de administración": "No aplica, dosis fila 3",
+      "Indicación de uso": "No aplica, indicación fila 3",
+      "Fecha de vencimiento": "No aplica, vencimiento fila 3",
+      "N°Lote/ serie": "No aplica, lote fila 3"
+    }
+  },
+  "ENVÍO DE MUESTRA": {
+    "¿Se envía muestra del producto con el desvío de calidad?": {
+      "choices": [
+        "Si",
+        "No"
+      ],
+      "value": [
+        "Si"
+      ]
+    },
+    "Cantidad de unidades enviadas:": "1 envase ficticio sin abrir",
+    "Fecha de la detección del desvío y/o del evento:": "14/10/2026",
+    "Fecha de este reporte:": "15/10/2026"
+  },
+  "DATOS DEL COMUNICADOR": {
+    "Apellido y Nombre": "Laura Prueba",
+    "Lugar de trabajo": "Farmacia simulada 474",
+    "Dirección": "Calle Ejemplo 474, Córdoba",
+    "Profesión": "Farmacéutica ficticia",
+    "Teléfono/Fax": "000-474-0001",
+    "E-mail": "laura.prueba@example.invalid"
+  },
+  "PARA USO DEL DEPTO. DE FARMACOVIGILANCIA": {
+    "Imputabilidad": "Evaluación ficticia: pendiente de análisis de muestra",
+    "Seriedad": "Desvío simulado sin exposición",
+    "Notificación N°:": "SNFVG-SIM-474"
+  }
+}

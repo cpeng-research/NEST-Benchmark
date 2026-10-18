@@ -1,0 +1,44 @@
+{
+  "extension_id": "2026-10-16-business-es-v0.3",
+  "added_on": "2026-10-16",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 1,
+  "samples": [
+    {
+      "id": 640,
+      "language": "es",
+      "title": "Solicitud de ensayo de blindajes antibala según Norma RENAR MA.02",
+      "source_id": "es-640-renar-solicituddeenasayodeblindajes",
+      "domain": "Business",
+      "issuer_id": "Registro Nacional de Armas (RENAR/ANMaC)",
+      "template_family": "renar-solicituddeenasayodeblindajes",
+      "source_pages": 1,
+      "source_sha256": "656e135f8b661db6b54551ec4dbc420a3ab0e91b0d9c40f27eb6bb664ac8b1f6",
+      "fields": 31,
+      "files": {
+        "workflow/0-html_template/data_es/640.html": "bb396b01fdda3ef7aa2c894f119edc1a0b54226a83b1501532754a909afe963b",
+        "workflow/1-annotated_json/data_es/640.json": "e8446ba276bcd6a0f92570575e4ce4979f0eb1e5461fb4a6bcb38e0707000ecc",
+        "workflow/2-filled_json-a/data_es/640.json": "141eadbd1d02dc3a832a146d3243acfad60398856cfb2d07b62a8deb3b613677",
+        "workflow/3-filled_html-a/data_es/640.html": "fb47de46191d829b1fa2f8fbf4d81f197711d64d75eb7220f37d14c657a38971",
+        "workflow/4-context-a/data_es/640.txt": "18fbb71d3c0733968c445ab4ac36fb594bf940bfc8a407977f38b9e78676a9eb",
+        "workflow/5-ph_html-a/data_es/640.html": "4e37e261151071486dcb2a0e6e36ba761db5d65a678aa5edb571554274a71274",
+        "workflow/6-meta-a/data_es/640.json": "d93537d393d5e1a91a5cf25fd49eb46cfb749e5354c9092a8424bfe92d00fa20"
+      },
+      "annotation_path": "data/annotations/es/640.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      },
+      "business_topic": "Solicitud de ensayo de blindajes antibala según Norma RENAR MA.02"
+    }
+  ]
+}

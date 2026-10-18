@@ -1,0 +1,77 @@
+{
+  "extension_id": "2026-10-16-finance-fr-v0.8",
+  "added_on": "2026-10-16",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 2,
+  "samples": [
+    {
+      "id": 643,
+      "language": "fr",
+      "title": "Zones franches d’activité nouvelle génération : bénéfice du dispositif outre-mer",
+      "source_id": "fr-643-dgfip-2082-sd-zones-franches-activite",
+      "domain": "Finance",
+      "issuer_id": "Direction générale des finances publiques (DGFiP)",
+      "template_family": "dgfip-2082-sd-zones-franches-activite",
+      "source_pages": 1,
+      "source_sha256": "f07fab7c1671392cbc0f5a45e1145eed1f2c46fee9fe5d7533fbf1f393557b30",
+      "fields": 69,
+      "files": {
+        "workflow/0-html_template/data_fr/643.html": "5487ffe1b347f68afba05db2afe61f444abca0c0e43e5d21a0b0505e3d11246f",
+        "workflow/1-annotated_json/data_fr/643.json": "33d8716089043a9c789c3162374877c0f07a989d3c83f744bac1f488a8a5eece",
+        "workflow/2-filled_json-a/data_fr/643.json": "34ba90fa7be49538c4e4316f17260713963238a5ab361354c7dec18004434d83",
+        "workflow/3-filled_html-a/data_fr/643.html": "996a6fd57b25c19a79d8de3864757700e4462d6134ed9c2870f34df170a0b4c9",
+        "workflow/4-context-a/data_fr/643.txt": "f8e94de0093400becc74a493eca5834f7229fd6b8aa9c0693940989b98c6be21",
+        "workflow/5-ph_html-a/data_fr/643.html": "43baef6c9f76625f18be4efef2c96339e9dedaebe88f849e8fa011d81bb2f204",
+        "workflow/6-meta-a/data_fr/643.json": "a34518177f9490152c76783dab9ca65a1aaa5e7b61f7367f50bd8301767a5a74"
+      },
+      "annotation_path": "data/annotations/fr/643.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 644,
+      "language": "fr",
+      "title": "Hébergement temporaire des personnes en difficulté : exclusion de taxe d’habitation",
+      "source_id": "fr-644-dgfip-1200-gd-sd-hebergement-temporaire-thrs",
+      "domain": "Finance",
+      "issuer_id": "Direction générale des finances publiques (DGFiP)",
+      "template_family": "dgfip-1200-gd-sd-hebergement-temporaire-thrs",
+      "source_pages": 2,
+      "source_sha256": "17c98ad768eed6f18ec4adbc7d5461a9155b93bceb7b44727307c19bd392cc24",
+      "fields": 104,
+      "files": {
+        "workflow/0-html_template/data_fr/644.html": "0a215c3f06dcdd28b83162bbac870aef29f4ebbd92f506cf5eb03e0f1f42b26f",
+        "workflow/1-annotated_json/data_fr/644.json": "bacaa91149026e32a7cb8cf6a51cdf6f60de90ab38e4741c0e6284a8d51c612a",
+        "workflow/2-filled_json-a/data_fr/644.json": "9af4d3cb0555103f2070a36adf3c119ec21e7b5d2141424d7383ab6189b64814",
+        "workflow/3-filled_html-a/data_fr/644.html": "f3c8041462063cd6d513bac8f28c297a102d998a8a615320b9c7fcc8f09e2535",
+        "workflow/4-context-a/data_fr/644.txt": "fc040e52e42b79c6170965c155d2db5f73a9590b96497c1cc389aa8ea2e9b2d9",
+        "workflow/5-ph_html-a/data_fr/644.html": "74841b53aab4a44d8fe32cad384fb5a46cde8d1b306c2317ec9559624a57b957",
+        "workflow/6-meta-a/data_fr/644.json": "36d5e2bdd48563cee1bd3bba8c70bc3454ad2ef37aeb716ee36dc93e82c70c59"
+      },
+      "annotation_path": "data/annotations/fr/644.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}

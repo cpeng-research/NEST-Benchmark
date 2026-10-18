@@ -1,0 +1,77 @@
+{
+  "extension_id": "2026-10-15-health-es-v0.2",
+  "added_on": "2026-10-15",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 2,
+  "samples": [
+    {
+      "id": 473,
+      "language": "es",
+      "title": "SISTEMA NACIONAL DE FARMACOVIGILANCIA EVENTOS ADVERSOS SUPUESTAMENTE ATRIBUIBLES A LA VACUNACIÓN E INMUNIZACIÓN (ESAVI)",
+      "source_id": "es-anmat-esavi-vaccination-notification",
+      "domain": "Healthcare",
+      "issuer_id": "ar-anmat",
+      "template_family": "esavi",
+      "source_pages": 1,
+      "source_sha256": "9fdea39c991097238f7a067225f19c7eb982235134f34c9e70b60446b1ae11ca",
+      "fields": 49,
+      "files": {
+        "workflow/0-html_template/data_es/473.html": "0f27546bd190931adda6974e8de2d0ac7339d5d85385240a9679edc67c112129",
+        "workflow/1-annotated_json/data_es/473.json": "f666acf010ccb02b3760563a5039368a030bb05fbc1f7390628aa912b11ed037",
+        "workflow/2-filled_json-a/data_es/473.json": "c46038db9706cbd2ee170d0b461cf4a5a25658c91fb841f1a6df7bbade1060b3",
+        "workflow/3-filled_html-a/data_es/473.html": "2d870d549eaa531e84539ce1c7ba4e78a2425f07593f5105d31782ca6e22dfa7",
+        "workflow/4-context-a/data_es/473.txt": "ea076a70c35afe0b75f5b17e04e8a1c9cd1b9a93836f65a31a0c4e09e88b69a1",
+        "workflow/5-ph_html-a/data_es/473.html": "4477217b03f408504fff21320d681ecdab581a9322d464a06219dae11196b9fc",
+        "workflow/6-meta-a/data_es/473.json": "b288e6c593fd32121578d2be619f67ada0de9a6b367ffe82f8b241c3e75853f1"
+      },
+      "annotation_path": "data/annotations/es/473.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 474,
+      "language": "es",
+      "title": "SISTEMA NACIONAL DE FARMACOVIGILANCIA COMUNICACIÓN DE DESVÍOS DE CALIDAD",
+      "source_id": "es-anmat-medicinal-quality-defect-notification",
+      "domain": "Healthcare",
+      "issuer_id": "ar-anmat",
+      "template_family": "desvio",
+      "source_pages": 1,
+      "source_sha256": "ffba86a2e790e1f224316bd3752f1a95cbbb40ed3fd62dad15b22c57d8a347d0",
+      "fields": 51,
+      "files": {
+        "workflow/0-html_template/data_es/474.html": "f5e13ce564d34461635d0315d060ae790515212e53782739ab0d1076c8a52856",
+        "workflow/1-annotated_json/data_es/474.json": "accf4afdab871915c8176cfb9771b73159a2b5aa543fd27f2fcd52e20e3b4c37",
+        "workflow/2-filled_json-a/data_es/474.json": "eb9d69c8b92606771a50a29aaea36eb43d8a8ebc50cc26abd253bc701f5937a6",
+        "workflow/3-filled_html-a/data_es/474.html": "d6abb8c2fa4f6150d3eb299f8a110703e997a39a2d857835903114a98d1d6a3b",
+        "workflow/4-context-a/data_es/474.txt": "97bdc9dc6929c17339c40df1f61de1df4788e154ed24b82b9359e0910b76b421",
+        "workflow/5-ph_html-a/data_es/474.html": "7b3069b623f235acf84a932a5fc28580340dd78ea6b7ca7ad18445c89da1401d",
+        "workflow/6-meta-a/data_es/474.json": "14841b64ac39d1f2b6b47cd92ec6205aea80614dcd8e6e7bc64b8187412101bd"
+      },
+      "annotation_path": "data/annotations/es/474.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}

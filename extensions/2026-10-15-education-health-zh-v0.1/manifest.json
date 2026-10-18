@@ -1,0 +1,179 @@
+{
+  "extension_id": "2026-10-15-education-health-zh-v0.1",
+  "added_on": "2026-10-15",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 5,
+  "samples": [
+    {
+      "id": 500,
+      "language": "zh",
+      "title": "同意与全国残障人士保险计划联系",
+      "source_id": "zh-nsw-edu-ndis",
+      "domain": "Education",
+      "issuer_id": "NSW-EDU",
+      "template_family": "ndis-consent",
+      "source_pages": 2,
+      "source_sha256": "1e8912be82b43d0ecfeaa80cd0bf895165238b23c53f6ad4ed64f1f2afaf2dd4",
+      "fields": 18,
+      "files": {
+        "workflow/0-html_template/data_zh/500.html": "160209e3b46133c7872314803991afebd34dc22269ed8317e4ece3c3a3f99cae",
+        "workflow/1-annotated_json/data_zh/500.json": "df51c38bcfc3705374bf426d027c9bea19177f8f35fd20bc6cb4a3c2f762781a",
+        "workflow/2-filled_json-a/data_zh/500.json": "083795b9b461d828a9f4073394d0a5353771e9c162f791a10108def3e546b192",
+        "workflow/3-filled_html-a/data_zh/500.html": "3bdfafc0ae81262da69ee943a04155a6d06d3a980a097b557d0a3e131d7d77a2",
+        "workflow/4-context-a/data_zh/500.txt": "c876685d9f3c1dfb825750d9a56bbd1ae9ec85372871ec2c2c7c4cdf0727b633",
+        "workflow/5-ph_html-a/data_zh/500.html": "56d6a1956b47c8b497a4c0aae0dc6a55beaaad360ada6972691627834856e695",
+        "workflow/6-meta-a/data_zh/500.json": "011034caff95cb61745b1bd4a78631557c70fda75780b1ebdffeff0a87d4c8e6"
+      },
+      "annotation_path": "data/annotations/zh/500.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 501,
+      "language": "zh",
+      "title": "游泳活动情况告知表",
+      "source_id": "zh-nsw-edu-swimming",
+      "domain": "Education",
+      "issuer_id": "NSW-EDU",
+      "template_family": "swimming-consent",
+      "source_pages": 2,
+      "source_sha256": "e83335d53ff51ad9f3929c80efed98eeb775c375bda218ae834c5807f7e71a8a",
+      "fields": 20,
+      "files": {
+        "workflow/0-html_template/data_zh/501.html": "cf443ac271f4727188827788f5e721ba86f509008e5f82259c64a509a1f377d4",
+        "workflow/1-annotated_json/data_zh/501.json": "1d124e2bc941ab28fc7b9372d0d93899cdbc320695eb6b2b9f7577aa4aa8244c",
+        "workflow/2-filled_json-a/data_zh/501.json": "d8c72b56fa736272aec352e44413849215d966f5fece597dfd7a9ac7ecd17dc5",
+        "workflow/3-filled_html-a/data_zh/501.html": "8abefcd952dd3aa8d72b7ea17acaf50fa1690e11fb7adc8abe0243b4cf7cf6f9",
+        "workflow/4-context-a/data_zh/501.txt": "da10dc761f4ef440bef3177084761be360c5a1b400e7addc1681340c4a98d85a",
+        "workflow/5-ph_html-a/data_zh/501.html": "a82e16d25e5047fa018c4575458054a76da3ad7216b2a0bcf291ca8239560d80",
+        "workflow/6-meta-a/data_zh/501.json": "d55cb1a6e77cd16dd60bf02fb4e2d559d24ff2aede1c1c3b80d60cb5b5ca3111"
+      },
+      "annotation_path": "data/annotations/zh/501.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 502,
+      "language": "zh",
+      "title": "關於參加Nitbusters日的同意書",
+      "source_id": "zh-nsw-edu-nitbusters",
+      "domain": "Healthcare",
+      "issuer_id": "NSW-EDU",
+      "template_family": "nitbusters-consent",
+      "source_pages": 1,
+      "source_sha256": "17f8ef331fb63cb9ea0be66497abaf7b3da463453a1baaf13181b306620e4aa5",
+      "fields": 5,
+      "files": {
+        "workflow/0-html_template/data_zh/502.html": "a05b976cb37753ca9fbc49eea94caf646be21bbded340b303444d1e9e767f9ed",
+        "workflow/1-annotated_json/data_zh/502.json": "8d6449f662c71fedcb9e271e2a9edde58363ac4e2d19b5204208217605294974",
+        "workflow/2-filled_json-a/data_zh/502.json": "a1e54395546ea63973664bfac555fc33357a1396c7d927c0337d486bf4f00b06",
+        "workflow/3-filled_html-a/data_zh/502.html": "d7bfc5699fa197995658ce7de5f7f75210e390beb326db043d7fdbd653d3ee11",
+        "workflow/4-context-a/data_zh/502.txt": "d98073dd74fea3d8ce68e5a5fabc3af77754feceed9583ee09ffc54b2eca428c",
+        "workflow/5-ph_html-a/data_zh/502.html": "7eb714f00c00a11a61c6d956595766aa2107851240d076d8f761659976eb4cf6",
+        "workflow/6-meta-a/data_zh/502.json": "235d70a17b216ac06f61dc8f26b0b9679ceb7a6c6274f716c32482f7fac45769"
+      },
+      "annotation_path": "data/annotations/zh/502.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 503,
+      "language": "zh",
+      "title": "家長或撫養人同意在全國評估計劃中免考或退出測試的表格",
+      "source_id": "zh-nsw-edu-naplan",
+      "domain": "Education",
+      "issuer_id": "NSW-EDU",
+      "template_family": "naplan-consent",
+      "source_pages": 2,
+      "source_sha256": "26af2b404732a62ed1e5dc9d0956b1e122899c3eabf4add22bf28ea5d3fbc282",
+      "fields": 12,
+      "files": {
+        "workflow/0-html_template/data_zh/503.html": "d3ace55f55b51fa22ece0998510a411f4a937b8e513a3ffb86f9e98b3bd1ecc9",
+        "workflow/1-annotated_json/data_zh/503.json": "f3a0ee86e47e9b84aa91dd5ad5a738b75dc70a8bcd340bd1c23b2a90ffa3d9b9",
+        "workflow/2-filled_json-a/data_zh/503.json": "2c49b7c96353b739190c2fe0b1430ddad4f8753521d7da68844400ed9e39902c",
+        "workflow/3-filled_html-a/data_zh/503.html": "8b3affa9f73422831e4313f49c06f360e9bcbc2d42916b4ae93825378df5faf3",
+        "workflow/4-context-a/data_zh/503.txt": "9abb6156dd1e8577c06799f61e10394d173ec45c1dd15c694c616ede6bc7f982",
+        "workflow/5-ph_html-a/data_zh/503.html": "afcd800373e5442c62a80a79702fd75027c1b5b4fc023779ce451b53a8d372f9",
+        "workflow/6-meta-a/data_zh/503.json": "eec6d74bd1092ff61523a5c5ff024a94d1b8d92087454cabc67eb4679c76e10d"
+      },
+      "annotation_path": "data/annotations/zh/503.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 504,
+      "language": "zh",
+      "title": "聯絡醫生授權書",
+      "source_id": "zh-nsw-edu-anaphylaxis",
+      "domain": "Healthcare",
+      "issuer_id": "NSW-EDU",
+      "template_family": "anaphylaxis-consent",
+      "source_pages": 1,
+      "source_sha256": "a3bca3cd9910c79c85f282b0ca440da30b2a2387cff56b9479755d7469a61f03",
+      "fields": 10,
+      "files": {
+        "workflow/0-html_template/data_zh/504.html": "c0bf655d4d398bca7173e283756ab3148d4a29a230cb9c1e825ee6245466628c",
+        "workflow/1-annotated_json/data_zh/504.json": "fa99d015e6a4a9b75f0d49c5f8575f340a2cef8cc9630efdf781aa32232b5931",
+        "workflow/2-filled_json-a/data_zh/504.json": "eb633d38e90020414ca3a4e71f81566695084ee25b646fc636b51b6fe860be8f",
+        "workflow/3-filled_html-a/data_zh/504.html": "a1962deebe79bd7ab8f4c04b2d8ebd268532727bf44bea471ac4bc52e0905c87",
+        "workflow/4-context-a/data_zh/504.txt": "03dcef3d61fc7e6c038cfb786e397ede6d72e698162ac84b1458220b67ae1b0e",
+        "workflow/5-ph_html-a/data_zh/504.html": "d6ad0307fa43ecc051860cd3ac8bcb7f7edcbccfd30c9d203c80ac6cb0743161",
+        "workflow/6-meta-a/data_zh/504.json": "d25ef5a76bacb091afb62fa879a7cfa35f738e02bf763682cd76ee817ace151f"
+      },
+      "annotation_path": "data/annotations/zh/504.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}

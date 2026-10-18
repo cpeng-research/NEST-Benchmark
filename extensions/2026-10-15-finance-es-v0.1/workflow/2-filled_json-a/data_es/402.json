@@ -1,0 +1,70 @@
+{
+  "RETIRADO / PENSIONISTA": {
+    "Nombres y Apellidos": "Roberto Alvarez",
+    "Tipo de documento": {
+      "choices": [
+        "DNI",
+        "LE",
+        "LC",
+        "CI"
+      ],
+      "value": [
+        "DNI"
+      ]
+    },
+    "Número de documento": "15123456",
+    "Fuerza": {
+      "choices": [
+        "EJÉRCITO",
+        "ARMADA",
+        "FUERZA AÉREA"
+      ],
+      "value": [
+        "ARMADA"
+      ]
+    },
+    "Fecha de fallecimiento": {
+      "DÍA:": "03",
+      "MES:": "09",
+      "AÑO:": "2026",
+      "Situación": {
+        "choices": [
+          "RETIRADO",
+          "PENSIONISTA"
+        ],
+        "value": [
+          "RETIRADO"
+        ]
+      }
+    }
+  },
+  "Solicitud": {
+    "Indique nombre de la Institución e importe cubierto": "IOSFA, cobertura parcial de 120000 pesos",
+    "Perceptor": {
+      "choices": [
+        "BENEFICIARIO/A",
+        "APODERADO/A"
+      ],
+      "value": [
+        "BENEFICIARIO/A"
+      ]
+    },
+    "Informe el nombre, apellido, domicilio, localidad, teléfono del APODERADO/A, en su caso:": "Ana Alvarez, Mitre 123, Rosario, 0341 555 0240",
+    "Informe en qué carácter formula la solicitud de los haberes devengados (mencionar vínculo familiar):": "Hija del causante",
+    "CBU": "0000000000000000000001"
+  },
+  "SOLICITANTE": {
+    "Nombre y apellido": "Lucía Alvarez",
+    "DOCUMENTO DE IDENTIDAD (Tipo y N°):": "DNI 25123456",
+    "DIRECCIÓN:": "Belgrano 740",
+    "LOCALIDAD:": "Rosario",
+    "T.E.:": "0341 555 0210",
+    "CÓDIGO POSTAL:": "2000",
+    "PROVINCIA:": "Santa Fe",
+    "MAIL:": "lucia.alvarez@example.org"
+  },
+  "Conformidad con los requisitos": {
+    "LUGAR Y FECHA:": "Rosario, 15/10/2026",
+    "Firma del Solicitante:": "Lucía Alvarez"
+  }
+}

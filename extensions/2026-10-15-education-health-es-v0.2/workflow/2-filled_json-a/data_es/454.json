@@ -1,0 +1,221 @@
+{
+  "1. DATOS DEL DECLARANTE": {
+    "Provincia": "Mendoza",
+    "Departamento": "San Rafael",
+    "Localidad": "San Rafael",
+    "Establecimiento Notificante": "Hospital Ficticio del Sur",
+    "Fecha de Notificación": "15/10/2026",
+    "Apellido y Nombre del Profesional": "Sosa, Clara",
+    "Tel.": "+54 261 555 0142",
+    "Fax": "+54 261 555 0143",
+    "e-mail": "clara.sosa@example.org"
+  },
+  "2. IDENTIFICACION DEL PACIENTE": {
+    "Apellido y nombres": "Vega, Bruno",
+    "Fecha de nacimiento": "12/04/1992",
+    "Edad": "34",
+    "Sexo": {
+      "choices": [
+        "M",
+        "F"
+      ],
+      "value": [
+        "M"
+      ]
+    },
+    "DNI": "32765433",
+    "Domicilio actual": "Calle Rural 250",
+    "Tel. propio o vecino": "+54 261 555 0144",
+    "Referencia de ubicación domicilio": "Frente a escuela rural ficticia",
+    "Localidad": "San Rafael",
+    "Ámbito del domicilio": {
+      "choices": [
+        "Urbano",
+        "Rural"
+      ],
+      "value": [
+        "Rural"
+      ]
+    },
+    "Departamento": "San Rafael",
+    "Provincia": "Mendoza"
+  },
+  "3. DATOS CLINICOS": {
+    "Fecha de inicio de la lesión": "10/10/2026",
+    "Fecha diagnóstico clínico": "12/10/2026",
+    "Tipo de lesión/es": "Lesión cutánea con escara",
+    "Ubicación de la lesión/es": "Antebrazo derecho",
+    "SIGNOS (Marcar con una X)": {
+      "choices": [
+        "Fiebre",
+        "Vómitos",
+        "Escalofríos",
+        "Cefaleas",
+        "Astenia",
+        "Edemas",
+        "Náuseas"
+      ],
+      "value": [
+        "Fiebre",
+        "Edemas"
+      ]
+    },
+    "ºC": "38.5",
+    "Otros": "Sin otros signos"
+  },
+  "4. EXAMENES DE LABORATORIO": {
+    "Fecha de toma de muestra..": "12/10/2026",
+    "Tipo de muestra": {
+      "choices": [
+        "Exudado/trasudado",
+        "Pústula",
+        "Sangre",
+        "Suero"
+      ],
+      "value": [
+        "Exudado/trasudado",
+        "Suero"
+      ]
+    },
+    "Pruebas diagnósticas realizadas": {
+      "choices": [
+        "Frotis",
+        "Cultivo e identificación",
+        "Elisa",
+        "Western Blot",
+        "PCR"
+      ],
+      "value": [
+        "Cultivo e identificación",
+        "PCR"
+      ]
+    }
+  },
+  "5. DATOS EPIDEMIOLÓGICOS": {
+    "Ocupación": "Trabajador rural",
+    "Lugar de trabajo": "Establecimiento Ficticio del Sur",
+    "Localidad.": "San Rafael",
+    "Mortandad de animales": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "SI"
+      ]
+    },
+    "Número de animales muertos por especie": "2 bovinos",
+    "Propietario": "Ana Molina",
+    "Estuvo en contacto con": {
+      "choices": [
+        "Carne",
+        "vísceras",
+        "huesos",
+        "cuero",
+        "Suelo posibemente contaminado"
+      ],
+      "value": [
+        "cuero"
+      ]
+    }
+  },
+  "6. ACCIONES DE CONTROL Y PREVENCION": {
+    "Individual": {
+      "Tratamiento del paciente.": {
+        "Tratamiento del paciente.": {
+          "choices": [
+            "Si",
+            "No"
+          ],
+          "value": [
+            "Si"
+          ]
+        },
+        "Droga": "Antibiótico registrado en la historia clínica ficticia"
+      },
+      "Quimioprofilaxis": {
+        "Quimioprofilaxis": {
+          "choices": [
+            "Si",
+            "No"
+          ],
+          "value": [
+            "No"
+          ]
+        },
+        "Droga": "No corresponde"
+      }
+    },
+    "Comunitaria": {
+      "Seguimiento clínico de contactos o expuestos al mismo riesgo": {
+        "choices": [
+          "Si",
+          "No"
+        ],
+        "value": [
+          "Si"
+        ]
+      },
+      "Identificación y eliminación de la fuente de infección": {
+        "choices": [
+          "Si",
+          "No"
+        ],
+        "value": [
+          "Si"
+        ]
+      },
+      "Vacunación de animales": {
+        "choices": [
+          "Si",
+          "No"
+        ],
+        "value": [
+          "Si"
+        ]
+      },
+      "Vacuna utilizada": "Vacuna veterinaria registrada por el servicio ficticio",
+      "período entre vacunaciones": "Según registro veterinario adjunto",
+      "Cómo elimina los cadáveres de animales muertos?": "Procedimiento de eliminación registrado por el servicio veterinario ficticio"
+    }
+  },
+  "7. EVOLUCION Y CLASIFICACION DEL CASO": {
+    "Paciente Hospitalizado": {
+      "choices": [
+        "Si",
+        "No",
+        "Se ignora"
+      ],
+      "value": [
+        "Si"
+      ]
+    },
+    "Fecha hospitalización": "12/10/2026",
+    "Evolución": {
+      "choices": [
+        "Alta sin secuelas",
+        "Alta con secuelas",
+        "Fallecido",
+        "Desconocido"
+      ],
+      "value": [
+        "Alta sin secuelas"
+      ]
+    },
+    "Fecha de evolución": "20/10/2026",
+    "Diagnóstico final": "Carbunco cutáneo confirmado",
+    "Criterio de clasificación": {
+      "choices": [
+        "Laboratorio",
+        "Nexo epidemiológico"
+      ],
+      "value": [
+        "Laboratorio"
+      ]
+    }
+  },
+  "Formalización": {
+    "Fecha": "20/10/2026",
+    "Firma y Sello Médico": "Firma ficticia de Clara Sosa, médica"
+  }
+}

@@ -1,0 +1,408 @@
+[
+  {
+    "key": "N° IDENTIFICADOR BE",
+    "label_info": {
+      "row": 2,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Nombre y Apellido del paciente",
+    "label_info": {
+      "row": 3,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Lugar de residencia: (ciudad, Pcia)",
+    "label_info": {
+      "row": 4,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "DNI",
+    "label_info": {
+      "row": 5,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Sexo",
+    "label_info": {
+      "row": 6,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Edad",
+    "label_info": {
+      "row": 7,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Condiciones habitacionales",
+    "label_info": {
+      "row": 9,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "Contacto con animales",
+    "label_info": {
+      "row": 10,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "Ocupación (completar)",
+    "label_info": {
+      "row": 11,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Viajes durante el último año (completar fecha, lugar)",
+    "label_info": {
+      "row": 12,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Comorbilidad (completar)",
+    "label_info": {
+      "row": 13,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Fecha de inicio de los síntomas (completar)",
+    "label_info": {
+      "row": 14,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Criterios Duke mayores (completar)",
+    "label_info": {
+      "row": 15,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Criterios Duke menores (completar)",
+    "label_info": {
+      "row": 16,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Tratamiento antibiótico previo (completar)",
+    "label_info": {
+      "row": 17,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Evolución* (marcar con una X)",
+    "label_info": {
+      "row": 18,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "Especímenes clínicos enviados",
+    "label_info": {
+      "row": 19,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "Nombre de profesional responsable * (completar)",
+    "label_info": {
+      "row": 21,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Hospital /Ciudad * (completar )",
+    "label_info": {
+      "row": 22,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Email de contacto * (completar)",
+    "label_info": {
+      "row": 23,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Firma",
+    "label_info": {
+      "row": 25,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Aclaración",
+    "label_info": {
+      "row": 26,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Nombre del paciente:",
+    "label_info": {
+      "row": 29,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Nombre del paciente, padre, madre o tutor legal:",
+    "label_info": {
+      "row": 30,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Documento de identidad (tipo y número):",
+    "label_info": {
+      "row": 31,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Parentesco:",
+    "label_info": {
+      "row": 32,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Firma:",
+    "label_info": {
+      "row": 33,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Fecha:",
+    "label_info": {
+      "row": 34,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Firma y sello del profesional",
+    "label_info": {
+      "row": 35,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 2
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  }
+]

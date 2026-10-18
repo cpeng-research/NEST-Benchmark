@@ -1,0 +1,188 @@
+{
+  "1. DATOS DEL DECLARANTE": {
+    "Provincia": "",
+    "Departamento": "",
+    "Localidad": "",
+    "Establecimiento Notificante": "",
+    "Fecha de Notificación": "",
+    "Apellido y Nombre del Profesional": "",
+    "Tel.": "",
+    "Fax": "",
+    "e-mail": ""
+  },
+  "2. IDENTIFICACION DEL PACIENTE": {
+    "Apellido y nombres": "",
+    "Fecha de nacimiento": "",
+    "Edad": "",
+    "Sexo": {
+      "choices": [
+        "M",
+        "F"
+      ],
+      "value": []
+    },
+    "DNI": "",
+    "Domicilio actual": "",
+    "Tel. propio o vecino": "",
+    "Referencia de ubicación domicilio": "",
+    "Localidad": "",
+    "Ámbito del domicilio": {
+      "choices": [
+        "Urbano",
+        "Rural"
+      ],
+      "value": []
+    },
+    "Departamento": "",
+    "Provincia": ""
+  },
+  "3. DATOS CLINICOS": {
+    "Fecha de inicio de la lesión": "",
+    "Fecha diagnóstico clínico": "",
+    "Tipo de lesión/es": "",
+    "Ubicación de la lesión/es": "",
+    "SIGNOS (Marcar con una X)": {
+      "choices": [
+        "Fiebre",
+        "Vómitos",
+        "Escalofríos",
+        "Cefaleas",
+        "Astenia",
+        "Edemas",
+        "Náuseas"
+      ],
+      "value": []
+    },
+    "ºC": "",
+    "Otros": ""
+  },
+  "4. EXAMENES DE LABORATORIO": {
+    "Fecha de toma de muestra..": "",
+    "Tipo de muestra": {
+      "choices": [
+        "Exudado/trasudado",
+        "Pústula",
+        "Sangre",
+        "Suero"
+      ],
+      "value": []
+    },
+    "Pruebas diagnósticas realizadas": {
+      "choices": [
+        "Frotis",
+        "Cultivo e identificación",
+        "Elisa",
+        "Western Blot",
+        "PCR"
+      ],
+      "value": []
+    }
+  },
+  "5. DATOS EPIDEMIOLÓGICOS": {
+    "Ocupación": "",
+    "Lugar de trabajo": "",
+    "Localidad.": "",
+    "Mortandad de animales": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": []
+    },
+    "Número de animales muertos por especie": "",
+    "Propietario": "",
+    "Estuvo en contacto con": {
+      "choices": [
+        "Carne",
+        "vísceras",
+        "huesos",
+        "cuero",
+        "Suelo posibemente contaminado"
+      ],
+      "value": []
+    }
+  },
+  "6. ACCIONES DE CONTROL Y PREVENCION": {
+    "Individual": {
+      "Tratamiento del paciente.": {
+        "Tratamiento del paciente.": {
+          "choices": [
+            "Si",
+            "No"
+          ],
+          "value": []
+        },
+        "Droga": ""
+      },
+      "Quimioprofilaxis": {
+        "Quimioprofilaxis": {
+          "choices": [
+            "Si",
+            "No"
+          ],
+          "value": []
+        },
+        "Droga": ""
+      }
+    },
+    "Comunitaria": {
+      "Seguimiento clínico de contactos o expuestos al mismo riesgo": {
+        "choices": [
+          "Si",
+          "No"
+        ],
+        "value": []
+      },
+      "Identificación y eliminación de la fuente de infección": {
+        "choices": [
+          "Si",
+          "No"
+        ],
+        "value": []
+      },
+      "Vacunación de animales": {
+        "choices": [
+          "Si",
+          "No"
+        ],
+        "value": []
+      },
+      "Vacuna utilizada": "",
+      "período entre vacunaciones": "",
+      "Cómo elimina los cadáveres de animales muertos?": ""
+    }
+  },
+  "7. EVOLUCION Y CLASIFICACION DEL CASO": {
+    "Paciente Hospitalizado": {
+      "choices": [
+        "Si",
+        "No",
+        "Se ignora"
+      ],
+      "value": []
+    },
+    "Fecha hospitalización": "",
+    "Evolución": {
+      "choices": [
+        "Alta sin secuelas",
+        "Alta con secuelas",
+        "Fallecido",
+        "Desconocido"
+      ],
+      "value": []
+    },
+    "Fecha de evolución": "",
+    "Diagnóstico final": "",
+    "Criterio de clasificación": {
+      "choices": [
+        "Laboratorio",
+        "Nexo epidemiológico"
+      ],
+      "value": []
+    }
+  },
+  "Formalización": {
+    "Fecha": "",
+    "Firma y Sello Médico": ""
+  }
+}

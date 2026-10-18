@@ -1,0 +1,449 @@
+{
+  "id": "zh-nsw-edu-ndis",
+  "language": "zh",
+  "title": "同意与全国残障人士保险计划联系",
+  "domain": "Education",
+  "template_family": "ndis-consent",
+  "issuer": "New South Wales Department of Education",
+  "issuer_id": "NSW-EDU",
+  "columns": 3,
+  "rows": [
+    [
+      {
+        "text": "我的孩子的详细资料 / Child’s details",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "child_name",
+        "label": "孩子姓名",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "field": "birth",
+        "label": "孩子生日",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "field": "address",
+        "label": "孩子住址",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "field": "ndis_number",
+        "label": "NDIS 编号（假如知道的话）",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "field": "relationship",
+        "label": "父母或照顾者与孩子关系（例如母亲）",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "field": "phone",
+        "label": "联系电话",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "同意并签名 / Consent and signature",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "period",
+        "label": "我表示同意的期限如下",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "field": "until",
+        "label": "直到下列日期为止 / Until the following date:",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "field": "parent",
+        "label": "父母或照顾者姓名",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "field": "signature",
+        "label": "父母或照顾者签名",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "field": "date",
+        "label": "日期",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "获得允许的 NSW 教育部代表 / Approved NSW Department of Education representatives (up to 3)",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "姓名 / Name；职务 / Position；联系方式 / Contact details",
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "representative_1_name",
+        "label": "代表 1：姓名 / Name",
+        "source_page": 2
+      },
+      {
+        "text": "School principal (or delegate)",
+        "source_page": 2
+      },
+      {
+        "field": "representative_1_contact",
+        "label": "代表 1：联系方式 / Contact details",
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "representative_2_name",
+        "label": "代表 2：姓名 / Name",
+        "source_page": 2
+      },
+      {
+        "field": "representative_2_position",
+        "label": "代表 2：职务 / Position",
+        "source_page": 2
+      },
+      {
+        "field": "representative_2_contact",
+        "label": "代表 2：联系方式 / Contact details",
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "representative_3_name",
+        "label": "代表 3：姓名 / Name",
+        "source_page": 2
+      },
+      {
+        "text": "NDIS Coordinator, (if appropriate)",
+        "source_page": 2
+      },
+      {
+        "field": "representative_3_contact",
+        "label": "代表 3：联系方式 / Contact details",
+        "source_page": 2
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "child_name",
+      "label": "孩子姓名",
+      "source_anchor": "孩子姓名",
+      "source_page": 1,
+      "display_label": "孩子姓名",
+      "path": [
+        "我的孩子的详细资料 / Child’s details",
+        "孩子姓名"
+      ],
+      "kind": "text",
+      "synthetic_value": "Lin Sample"
+    },
+    {
+      "id": "birth",
+      "label": "孩子生日",
+      "source_anchor": "孩子生日",
+      "source_page": 1,
+      "display_label": "孩子生日",
+      "path": [
+        "我的孩子的详细资料 / Child’s details",
+        "孩子生日"
+      ],
+      "kind": "text",
+      "synthetic_value": "1 January 2016"
+    },
+    {
+      "id": "address",
+      "label": "孩子住址",
+      "source_anchor": "孩子住址",
+      "source_page": 1,
+      "display_label": "孩子住址",
+      "path": [
+        "我的孩子的详细资料 / Child’s details",
+        "孩子住址"
+      ],
+      "kind": "text",
+      "synthetic_value": "1 Example Road, Example Town NSW"
+    },
+    {
+      "id": "ndis_number",
+      "label": "NDIS 编号（假如知道的话）",
+      "source_anchor": "NDIS 编号（假如知道的话）",
+      "source_page": 1,
+      "display_label": "NDIS 编号（假如知道的话）",
+      "path": [
+        "我的孩子的详细资料 / Child’s details",
+        "NDIS 编号（假如知道的话）"
+      ],
+      "kind": "text",
+      "synthetic_value": "999000001"
+    },
+    {
+      "id": "relationship",
+      "label": "父母或照顾者与孩子关系（例如母亲）",
+      "source_anchor": "父母或照顾者与孩子关系（例如母亲）",
+      "source_page": 1,
+      "display_label": "父母或照顾者与孩子关系（例如母亲）",
+      "path": [
+        "我的孩子的详细资料 / Child’s details",
+        "父母或照顾者与孩子关系（例如母亲）"
+      ],
+      "kind": "text",
+      "synthetic_value": "Mother"
+    },
+    {
+      "id": "phone",
+      "label": "联系电话",
+      "source_anchor": "联系电话",
+      "source_page": 1,
+      "display_label": "联系电话",
+      "path": [
+        "我的孩子的详细资料 / Child’s details",
+        "联系电话"
+      ],
+      "kind": "text",
+      "synthetic_value": "0200000101"
+    },
+    {
+      "id": "period",
+      "label": "我表示同意的期限如下",
+      "source_anchor": "我表示同意的期限如下",
+      "source_page": 2,
+      "display_label": "我表示同意的期限如下",
+      "path": [
+        "同意并签名 / Consent and signature",
+        "我表示同意的期限如下"
+      ],
+      "kind": "checkbox_single",
+      "options": [
+        "直到再次通知为止",
+        "直到下列日期为止",
+        "仅同意一次"
+      ],
+      "synthetic_value": "直到下列日期为止",
+      "context_evidence": "同意并签名 / Consent and signature / 我表示同意的期限如下: selected options are 直到下列日期为止"
+    },
+    {
+      "id": "until",
+      "label": "Until the following date:",
+      "source_anchor": "Until the following date:",
+      "source_page": 2,
+      "display_label": "直到下列日期为止 / Until the following date:",
+      "path": [
+        "同意并签名 / Consent and signature",
+        "直到下列日期为止 / Until the following date:"
+      ],
+      "kind": "text",
+      "synthetic_value": "31 December 2026"
+    },
+    {
+      "id": "parent",
+      "label": "父母或照顾者姓名",
+      "source_anchor": "父母或照顾者姓名",
+      "source_page": 2,
+      "display_label": "父母或照顾者姓名",
+      "path": [
+        "同意并签名 / Consent and signature",
+        "父母或照顾者姓名"
+      ],
+      "kind": "text",
+      "synthetic_value": "Mei Sample"
+    },
+    {
+      "id": "signature",
+      "label": "父母或照顾者签名",
+      "source_anchor": "父母或照顾者签名",
+      "source_page": 2,
+      "display_label": "父母或照顾者签名",
+      "path": [
+        "同意并签名 / Consent and signature",
+        "父母或照顾者签名"
+      ],
+      "kind": "text",
+      "synthetic_value": "Mei Sample"
+    },
+    {
+      "id": "date",
+      "label": "日期",
+      "source_anchor": "日期",
+      "source_page": 2,
+      "display_label": "日期",
+      "path": [
+        "同意并签名 / Consent and signature",
+        "日期"
+      ],
+      "kind": "text",
+      "synthetic_value": "15 October 2026"
+    },
+    {
+      "id": "representative_1_name",
+      "label": "姓名",
+      "source_anchor": "姓名",
+      "source_page": 2,
+      "display_label": "代表 1：姓名 / Name",
+      "path": [
+        "获得允许的 NSW 教育部代表 / Approved NSW Department of Education representatives (up to 3)",
+        "代表 1",
+        "姓名"
+      ],
+      "kind": "text",
+      "synthetic_value": "Representative Sample 1"
+    },
+    {
+      "id": "representative_1_contact",
+      "label": "联系方式",
+      "source_anchor": "联系方式",
+      "source_page": 2,
+      "display_label": "代表 1：联系方式 / Contact details",
+      "path": [
+        "获得允许的 NSW 教育部代表 / Approved NSW Department of Education representatives (up to 3)",
+        "代表 1",
+        "联系方式"
+      ],
+      "kind": "text",
+      "synthetic_value": "representative1@example.org"
+    },
+    {
+      "id": "representative_2_name",
+      "label": "姓名",
+      "source_anchor": "姓名",
+      "source_page": 2,
+      "display_label": "代表 2：姓名 / Name",
+      "path": [
+        "获得允许的 NSW 教育部代表 / Approved NSW Department of Education representatives (up to 3)",
+        "代表 2",
+        "姓名"
+      ],
+      "kind": "text",
+      "synthetic_value": "Representative Sample 2"
+    },
+    {
+      "id": "representative_2_position",
+      "label": "职务",
+      "source_anchor": "职务",
+      "source_page": 2,
+      "display_label": "代表 2：职务 / Position",
+      "path": [
+        "获得允许的 NSW 教育部代表 / Approved NSW Department of Education representatives (up to 3)",
+        "代表 2",
+        "职务"
+      ],
+      "kind": "text",
+      "synthetic_value": "Learning support teacher"
+    },
+    {
+      "id": "representative_2_contact",
+      "label": "联系方式",
+      "source_anchor": "联系方式",
+      "source_page": 2,
+      "display_label": "代表 2：联系方式 / Contact details",
+      "path": [
+        "获得允许的 NSW 教育部代表 / Approved NSW Department of Education representatives (up to 3)",
+        "代表 2",
+        "联系方式"
+      ],
+      "kind": "text",
+      "synthetic_value": "representative2@example.org"
+    },
+    {
+      "id": "representative_3_name",
+      "label": "姓名",
+      "source_anchor": "姓名",
+      "source_page": 2,
+      "display_label": "代表 3：姓名 / Name",
+      "path": [
+        "获得允许的 NSW 教育部代表 / Approved NSW Department of Education representatives (up to 3)",
+        "代表 3",
+        "姓名"
+      ],
+      "kind": "text",
+      "synthetic_value": "Representative Sample 3"
+    },
+    {
+      "id": "representative_3_contact",
+      "label": "联系方式",
+      "source_anchor": "联系方式",
+      "source_page": 2,
+      "display_label": "代表 3：联系方式 / Contact details",
+      "path": [
+        "获得允许的 NSW 教育部代表 / Approved NSW Department of Education representatives (up to 3)",
+        "代表 3",
+        "联系方式"
+      ],
+      "kind": "text",
+      "synthetic_value": "representative3@example.org"
+    }
+  ],
+  "source_pages": 2,
+  "source_url": "https://education.nsw.gov.au/content/dam/main-education/going-to-a-public-school/media/documents/translated-documents-/ndis-consent-form/chinese-simplified-NDIS-consent-form-2023.pdf",
+  "landing_url": "https://education.nsw.gov.au/schooling/translated-documents/national-disability-insurance-scheme--ndis--consent-form.html",
+  "source_sha256": "1e8912be82b43d0ecfeaa80cd0bf895165238b23c53f6ad4ed64f1f2afaf2dd4",
+  "license_url": "https://education.nsw.gov.au/about-us/copyright.html",
+  "license_note": "NSW Department of Education website content is CC BY 4.0; logos, trademarks and third-party material are excluded. The normalized form omits logos and artwork.",
+  "retrieved_at": "2026-10-15",
+  "source_updated_at": "2026-02-04",
+  "source_version": "2023 source filename",
+  "source_date_evidence": {
+    "kind": "official_landing_and_pdf_metadata",
+    "source_url": "https://education.nsw.gov.au/schooling/translated-documents/national-disability-insurance-scheme--ndis--consent-form.html",
+    "value": "Official landing last modified date=2026-02-04; PDF CreationDate=D:20230222085442+11'00'; PDF ModDate=D:20250213161512+01'00'",
+    "detail": "Landing and PDF metadata dates are recorded separately from the source edition."
+  },
+  "context": "Fictional test record; all persons, locations and contact details are synthetic.\n我的孩子的详细资料 / Child’s details / 孩子姓名: Lin Sample.\n我的孩子的详细资料 / Child’s details / 孩子生日: 1 January 2016.\n我的孩子的详细资料 / Child’s details / 孩子住址: 1 Example Road, Example Town NSW.\n我的孩子的详细资料 / Child’s details / NDIS 编号（假如知道的话）: 999000001.\n我的孩子的详细资料 / Child’s details / 父母或照顾者与孩子关系（例如母亲）: Mother.\n我的孩子的详细资料 / Child’s details / 联系电话: 0200000101.\n同意并签名 / Consent and signature / 我表示同意的期限如下: selected options are 直到下列日期为止.\n同意并签名 / Consent and signature / 直到下列日期为止 / Until the following date:: 31 December 2026.\n同意并签名 / Consent and signature / 父母或照顾者姓名: Mei Sample.\n同意并签名 / Consent and signature / 父母或照顾者签名: Mei Sample.\n同意并签名 / Consent and signature / 日期: 15 October 2026.\n获得允许的 NSW 教育部代表 / Approved NSW Department of Education representatives (up to 3) / 代表 1 / 姓名: Representative Sample 1.\n获得允许的 NSW 教育部代表 / Approved NSW Department of Education representatives (up to 3) / 代表 1 / 联系方式: representative1@example.org.\n获得允许的 NSW 教育部代表 / Approved NSW Department of Education representatives (up to 3) / 代表 2 / 姓名: Representative Sample 2.\n获得允许的 NSW 教育部代表 / Approved NSW Department of Education representatives (up to 3) / 代表 2 / 职务: Learning support teacher.\n获得允许的 NSW 教育部代表 / Approved NSW Department of Education representatives (up to 3) / 代表 2 / 联系方式: representative2@example.org.\n获得允许的 NSW 教育部代表 / Approved NSW Department of Education representatives (up to 3) / 代表 3 / 姓名: Representative Sample 3.\n获得允许的 NSW 教育部代表 / Approved NSW Department of Education representatives (up to 3) / 代表 3 / 联系方式: representative3@example.org.",
+  "workflow_identity": {
+    "language": "zh",
+    "id": 500
+  }
+}

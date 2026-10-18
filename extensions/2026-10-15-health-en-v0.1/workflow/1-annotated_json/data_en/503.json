@@ -1,0 +1,164 @@
+{
+  "SENDER’S INFORMATION": {
+    "Sender’s name and address": "",
+    "Report to be sent FAO": "",
+    "Contact Phone": "",
+    "Ext": "",
+    "Purchase order number": "",
+    "Project code": "",
+    "Postcode": "",
+    "UKHSA outbreak/investigation": {
+      "choices": [
+        "yes"
+      ],
+      "value": [],
+      "Reference": "",
+      "Details": ""
+    }
+  },
+  "PATIENT/SOURCE INFORMATION": {
+    "Source type": {
+      "choices": [
+        "Human",
+        "Animal*",
+        "Water*",
+        "Environment*",
+        "Other*"
+      ],
+      "value": [],
+      "Details": ""
+    },
+    "Care setting": {
+      "choices": [
+        "InPatient",
+        "Outpatient",
+        "GP Patient",
+        "Other*"
+      ],
+      "value": [],
+      "Details": ""
+    },
+    "NHS number": "",
+    "Sex": {
+      "choices": [
+        "Male",
+        "Female"
+      ],
+      "value": []
+    },
+    "Surname": "",
+    "Date of birth": "",
+    "Age": "",
+    "Forename": "",
+    "Patient’s postcode": "",
+    "Patient’s HPT": "",
+    "Hospital number": "",
+    "Ward/clinic name": "",
+    "Hospital name": "",
+    "Ward type": ""
+  },
+  "SAMPLE INFORMATION": {
+    "Your reference": "",
+    "Hazard status": {
+      "choices": [
+        "Group3",
+        "Group4",
+        "No",
+        "Unknown"
+      ],
+      "value": []
+    },
+    "Sample type": {
+      "choices": [
+        "Isolate",
+        "Clinical Sample",
+        "DNA Extract*",
+        "Other (please specify)"
+      ],
+      "value": [],
+      "Other": ""
+    },
+    "Preliminary ID and lab results": "",
+    "Hazard details": "",
+    "Specimen type": {
+      "choices": [
+        "Urine",
+        "Sputum",
+        "BAL",
+        "ETA",
+        "NPA",
+        "Lung Tissue",
+        "Throat Swab (Mycoplasma, Ureaplasma & respiratory Chlamydia only)",
+        "Other (please specify)"
+      ],
+      "value": [],
+      "Other": ""
+    },
+    "Presumptive identification /methodology": "",
+    "Date of collection": "",
+    "Time": "",
+    "Date sent to UKHSA": ""
+  },
+  "TESTS REQUESTED": {
+    "Legionella": {
+      "choices": [
+        "L. pneumophila urinary antigen test confirmation",
+        "L. pneumophila detection/culture/typing (urinary Ag positive)",
+        "Legionella spp. detection/culture/identification (urinary Ag negative)",
+        "Culture for identification, confirmation or typing"
+      ],
+      "value": []
+    },
+    "Mycoplasma & Ureaplasma": {
+      "choices": [
+        "M. pneumoniae PCR, culture & macrolide resistance",
+        "Ureaplasma/ M. hominis PCR & culture",
+        "Mycoplasma culture for identification"
+      ],
+      "value": []
+    },
+    "Respiratory Chlamydia": {
+      "choices": [
+        "Respiratory Chlamydia PCR (C. psittaci/ C. abortus/ C. pneumoniae)"
+      ],
+      "value": []
+    }
+  },
+  "SENDER’S LABORATORY RESULTS": {
+    "L. pneumophila Sgp 1 antigen in urine": {
+      "choices": [
+        "Positive",
+        "Equivocal"
+      ],
+      "value": [],
+      "Assay/Kit": "",
+      "Lot number": ""
+    },
+    "PCR Result": {
+      "choices": [
+        "Positive",
+        "Negative"
+      ],
+      "value": [],
+      "Assay/Kit": "",
+      "Lot number": ""
+    }
+  },
+  "CLINICAL/EPIDEMIOLOGICAL INFORMATION": {
+    "Antibiotics Start Date": "",
+    "Clinical features": {
+      "choices": [
+        "Intensive Care Unit",
+        "Bird contact",
+        "Sheep / ruminant contact",
+        "COVID-19 Positive",
+        "Extracorporeal membrane oxygenation (ECMO)"
+      ],
+      "value": []
+    },
+    "Antibiotics Completion Date": "",
+    "Further Comments": "",
+    "Antibiotics given": "",
+    "Date of onset": ""
+  }
+}

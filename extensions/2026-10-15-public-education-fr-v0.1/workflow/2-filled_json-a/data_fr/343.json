@@ -1,0 +1,161 @@
+{
+  "Objet": {
+    "Nature de la demande": {
+      "choices": [
+        "Nouvelle demande",
+        "Modification de l’autorisation d’exploitation :"
+      ],
+      "value": [
+        "Modification de l’autorisation d’exploitation :"
+      ]
+    },
+    "n° de l'AE à modifier": "FRA-AE-FICTIVE-026"
+  },
+  "1. Données concernant l'exploitant d'UAS": {
+    "1.1 Numéro d’enregistrement de l’exploitant UAS": "FRA-FICTIF-340001",
+    "1.2 Nom de l’exploitant UAS": "Atelier Cartographie Fictive",
+    "1.3 Nom du dirigeant responsable": "Luc Renaud",
+    "1.4 Point de contact opérationnel": {
+      "Nom": "Marie Renaud",
+      "Téléphone": "0100000343",
+      "Courriel": "contact@example.org"
+    }
+  },
+  "2. Détails concernant l’opération UAS": {
+    "2.1 Date prévue de début de l’opération": "01/11/2026",
+    "2.2 Date de fin prévue": "30/11/2026",
+    "2.3 Lieu(x) prévu(s) de l'opération": "Zone fictive de relevé agricole en terrain contrôlé.",
+    "2.4 Référence et révision de l'évaluation des risques": {
+      "Méthode": {
+        "choices": [
+          "SORA version",
+          "PDRA #",
+          "autre"
+        ],
+        "value": [
+          "SORA version"
+        ]
+      },
+      "SORA version": "2.0",
+      "PDRA #": "Sans objet",
+      "autre": "Sans objet"
+    },
+    "2.5 Niveau d'assurance et d'intégrité (SAIL)": "II",
+    "2.6 Type d’opération": {
+      "choices": [
+        "Vol en vue (VLOS)",
+        "Vol hors vue (BVLOS)"
+      ],
+      "value": [
+        "Vol en vue (VLOS)"
+      ]
+    },
+    "2.7 Transport de marchandises dangereuses": {
+      "choices": [
+        "Oui",
+        "Non"
+      ],
+      "value": [
+        "Non"
+      ]
+    },
+    "2.8 Caractérisation des risques au sol": {
+      "2.8.1 Zone d'exploitation": "Zone de terrain contrôlée",
+      "2.8.2 Zone adjacente": "Zone faiblement peuplée"
+    },
+    "2.9 Limite supérieure du volume d’exploitation": "80 m (262 ft) AGL",
+    "2.10 Classe d'espace aérien de l'opération envisagée": {
+      "Classes": {
+        "choices": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "U-space",
+          "Autre, précisez"
+        ],
+        "value": [
+          "G"
+        ]
+      },
+      "Autre, précisez": "Sans objet"
+    },
+    "2.11 Niveau de risque aérien résiduel": {
+      "2.11.1 Volume d'exploitation": {
+        "choices": [
+          "ARC-a",
+          "ARC-b",
+          "ARC-c",
+          "ARC-d"
+        ],
+        "value": [
+          "ARC-a"
+        ]
+      },
+      "2.11.2. Volume adjacent": {
+        "choices": [
+          "ARC-a",
+          "ARC-b",
+          "ARC-c",
+          "ARC-d"
+        ],
+        "value": [
+          "ARC-b"
+        ]
+      }
+    },
+    "2.12 Référence du manuel d'exploitation": "MAN-FICTIF-343 rev.2",
+    "2.13 Référence du dossier de démonstration de conformité": "DOS-FICTIF-343 rev.2"
+  },
+  "3. Données concernant l’UAS ou les UAS": {
+    "3.1 Constructeur": "Constructeur Fictif",
+    "3.2 Modèle": "Aero F343",
+    "3.3 Type d'UAS": {
+      "choices": [
+        "Avion",
+        "Hélicoptère",
+        "Multirotor",
+        "Hybride/VTOL",
+        "Plus léger que l’air / autre"
+      ],
+      "value": [
+        "Multirotor"
+      ]
+    },
+    "3.4 Dimensions caractéristiques maximales": "1.20 m",
+    "3.5 Masse au décollage": "4.00 kg",
+    "3.6 Vitesse maximale": "10 m/s (19.4 kt)",
+    "3.7 Numéro de série ou, le cas échéant, immatriculation": "SN-FICTIF-343",
+    "3.8 Certificat de type (TC) ou rapport de vérification de la conception, le cas échéant": "Sans objet",
+    "3.9 Numéro du certificat de navigabilité (CdN), le cas échéant": "Sans objet",
+    "3.10 Numéro du certificat de puissance acoustique, le cas échéant": "Sans objet",
+    "3.11 Atténuation des effets de l'impact au sol (M2)": {
+      "choices": [
+        "Non",
+        "Oui, faible",
+        "Oui, moyenne",
+        "Oui, élevée"
+      ],
+      "value": [
+        "Non"
+      ]
+    },
+    "3.12 Exigences techniques pour le confinement": {
+      "choices": [
+        "Standard",
+        "Renforcé"
+      ],
+      "value": [
+        "Standard"
+      ]
+    }
+  },
+  "4. Remarques": "Un seul UAS fictif est concerné; couverture d'assurance fictive en place au démarrage.",
+  "Déclaration de conformité": {
+    "Date": "15/10/2026",
+    "Signature": "Luc Renaud (signature fictive)"
+  }
+}

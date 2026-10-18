@@ -1,0 +1,43 @@
+{
+  "extension_id": "2026-10-16-education-fr-v0.3",
+  "added_on": "2026-10-16",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 1,
+  "samples": [
+    {
+      "id": 635,
+      "language": "fr",
+      "title": "Parcoursup : entretien pour faire le point après les réponses des formations",
+      "source_id": "fr-635-parcoursup-entretien-apres-reponses",
+      "domain": "Education",
+      "issuer_id": "fr-ministere-education-nationale",
+      "template_family": "parcoursup-entretien-apres-reponses",
+      "source_pages": 5,
+      "source_sha256": "3fa34ce4fe9809ca147aa7343e0ccbc8e3a431f950c348607818599e5ec8f1af",
+      "fields": 67,
+      "files": {
+        "workflow/0-html_template/data_fr/635.html": "42971e2ab9746ff50edeaf98cb97d160a22a868075a75dc3c2a7afff46f7a01d",
+        "workflow/1-annotated_json/data_fr/635.json": "0d4fe67ad371a93a2526f4412ac18db8805e53f6d2b106f2f2afe412782926bb",
+        "workflow/2-filled_json-a/data_fr/635.json": "30e129f6b93bc168a4008a68aad7a4a6fde4b95e761ad78717c1d357756cad84",
+        "workflow/3-filled_html-a/data_fr/635.html": "d1bb54a11b7daa6cb3270763fce9c349451ca1c91d524e21b1962c4e3775c817",
+        "workflow/4-context-a/data_fr/635.txt": "b47dce8e6103885c48d2d37157b22fb6ea414d676dbb156437103955c2ace47e",
+        "workflow/5-ph_html-a/data_fr/635.html": "054edc9d1a1aaa245b065c51253b1102f9e1bba08369cb5e024a6e8d06377446",
+        "workflow/6-meta-a/data_fr/635.json": "c994642d81834967f5370b1edae93a709778259e0b6e2bc8bb40f47373a79595"
+      },
+      "annotation_path": "data/annotations/fr/635.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}

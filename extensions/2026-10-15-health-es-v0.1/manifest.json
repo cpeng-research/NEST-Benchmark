@@ -1,0 +1,111 @@
+{
+  "extension_id": "2026-10-15-health-es-v0.1",
+  "added_on": "2026-10-15",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 3,
+  "samples": [
+    {
+      "id": 470,
+      "language": "es",
+      "title": "DECLARACIÓN JURADA DEL MÉDICO TRATANTE PARA EL RÉGIMEN DE ACCESIBILIDAD POR EXCEPCIÓN A MEDICAMENTOS",
+      "source_id": "es-anmat-raem-prescriber-declaration",
+      "domain": "Healthcare",
+      "issuer_id": "ar-anmat",
+      "template_family": "raem",
+      "source_pages": 3,
+      "source_sha256": "92e03a8b123bd1db091139e0303d6dd316dc0e1093002ac3dcaf57178656b4d7",
+      "fields": 33,
+      "files": {
+        "workflow/0-html_template/data_es/470.html": "4a1df17b33805a80dfd34b20f68e1eb1e964cecde5a9634482bd16670bed2bc8",
+        "workflow/1-annotated_json/data_es/470.json": "8b484ec8b489a2957178e930d84b924e27bb6dffd12de1668e304ab722d31d17",
+        "workflow/2-filled_json-a/data_es/470.json": "93e2f09a864f38cd0b12eb113903fb9e706686a41c4e47ab576f3f5ea3c944f5",
+        "workflow/3-filled_html-a/data_es/470.html": "3c7ade04bcf843f7a43d8876084f68c1c9fa23f7eff0af557a2a412bdc88e880",
+        "workflow/4-context-a/data_es/470.txt": "c0641fc0cd9fc81a698686d11aa78516951c05b90b046c83884aaf677eda1211",
+        "workflow/5-ph_html-a/data_es/470.html": "248c0518dbf233986a6a5903d95cd1c287043d626c9163f20fdd492382145cde",
+        "workflow/6-meta-a/data_es/470.json": "856436e2a57a7f81c8435f7d769061dc06e5ed2947465a421a5cc93c56245504"
+      },
+      "annotation_path": "data/annotations/es/470.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 471,
+      "language": "es",
+      "title": "Declaración jurada para solicitar el alta de comercialización en el VNM:",
+      "source_id": "es-anmat-vnm-market-entry-declaration",
+      "domain": "Healthcare",
+      "issuer_id": "ar-anmat",
+      "template_family": "vnm",
+      "source_pages": 1,
+      "source_sha256": "19d8c856e664e83c98d24d5cfb4f9908569be1817d727d2a75d99ca5e7392eac",
+      "fields": 10,
+      "files": {
+        "workflow/0-html_template/data_es/471.html": "241b8f4768ba35df8bc2e0b9fcfc89925c0252f8a9215e2e05ddd78b87a74fe8",
+        "workflow/1-annotated_json/data_es/471.json": "ab135cbe5857c56174cc3a722eafb7b2b67be3708e5425fc6b0521a605175c1f",
+        "workflow/2-filled_json-a/data_es/471.json": "e942aac4c3e2ad5c14c782b5a4a87b6a9e49d73e174322f3bd6521162d0878fd",
+        "workflow/3-filled_html-a/data_es/471.html": "d2f34b7258ad0563eb4f340f95c385e63a451cdb6f76d68242fb087805ffc6be",
+        "workflow/4-context-a/data_es/471.txt": "a3a3e8036ad9ea2ff56b6b5a02f9126be0ec3507f7d21931a6147822217a893a",
+        "workflow/5-ph_html-a/data_es/471.html": "d2379f9660075ec163de3f82c3897e57a20907edef4d7626da8955e2f7d45273",
+        "workflow/6-meta-a/data_es/471.json": "e75229cc4dfc9bc7e7d8432596521fb750aa68f4e4c5e05078fcb92ad8d80f85"
+      },
+      "annotation_path": "data/annotations/es/471.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 472,
+      "language": "es",
+      "title": "FICHA DE NOTIFICACION DE ERRORES DE MEDICACIÓN",
+      "source_id": "es-anmat-medication-error-notification",
+      "domain": "Healthcare",
+      "issuer_id": "ar-anmat",
+      "template_family": "medication-error",
+      "source_pages": 1,
+      "source_sha256": "57d5a6d5bbc0ed8f60ae49332ac4a5e6725fd4ab05a0df4ee238cc9e2146cf52",
+      "fields": 41,
+      "files": {
+        "workflow/0-html_template/data_es/472.html": "9c0d808d434f9c23e1bcee2a61a7a4b00c59ff0866377605f8bdb048f9fcd857",
+        "workflow/1-annotated_json/data_es/472.json": "fc3d194c30282178583f6cfae759ff61e4332b41c8a6de5770f20751ff03ee0a",
+        "workflow/2-filled_json-a/data_es/472.json": "112af31a5b9e26e31db0f0f22c2fa66b8a28c58c5bea2e429be56ce86e5b6607",
+        "workflow/3-filled_html-a/data_es/472.html": "d6a0c45e76d4763a25f4c954b2aa0654091565758212b5bf1d90d00f3e8284e7",
+        "workflow/4-context-a/data_es/472.txt": "1cc8092ef850e79d9c8f871ff0b0b8b3b351ea50e8008e8e9c4b2139e31f002c",
+        "workflow/5-ph_html-a/data_es/472.html": "9545badbbd5d8894535bf8a2a951e695cebba8c206059c84274dbc2ba8624582",
+        "workflow/6-meta-a/data_es/472.json": "98704970fd9a00b764c3034c839baf2da463b312ba0368bd251e3c8c4f28587c"
+      },
+      "annotation_path": "data/annotations/es/472.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}

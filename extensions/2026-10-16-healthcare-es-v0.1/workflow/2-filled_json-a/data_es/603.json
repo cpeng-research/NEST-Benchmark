@@ -1,0 +1,242 @@
+{
+  "1. DATOS DEL DECLARANTE": {
+    "Provincia": "Mendoza",
+    "Departamento": "Capital",
+    "Localidad": "Mendoza",
+    "Establecimiento Notificante": "Hospital Sintético del Sur",
+    "Fecha de Notificación": "16/10/2026",
+    "Apellido y Nombre del Profesional": "Clara Vega",
+    "Tel.": "+54 261 555 0142",
+    "Fax": "+54 261 555 0143",
+    "e-mail": "clara.vega@example.org"
+  },
+  "2. IDENTIFICACION DEL PACIENTE": {
+    "Apellido y nombres": "Elena Rivas Pérez",
+    "Fecha de nacimiento": "12/04/1992",
+    "Edad": "34",
+    "Sexo": {
+      "choices": [
+        "M",
+        "F"
+      ],
+      "value": [
+        "F"
+      ]
+    },
+    "DNI": "32765432",
+    "Domicilio actual": "Calle Ejemplo 250",
+    "Tel. propio o vecino": "+54 261 555 0142",
+    "Referencia de ubicación domicilio": "Esquina de Calle Demostración",
+    "Localidad": "Mendoza",
+    "Área de residencia": {
+      "choices": [
+        "Urbano",
+        "Rural"
+      ],
+      "value": [
+        "Urbano"
+      ]
+    },
+    "Departamento": "Capital",
+    "Provincia": "Mendoza"
+  },
+  "3. DATOS CLINICOS": {
+    "Parestesias": {
+      "choices": [
+        "Labios",
+        "Cara",
+        "Brazos",
+        "Dedos de la mano",
+        "Piernas",
+        "Dedos del pie"
+      ],
+      "value": [
+        "Labios",
+        "Cara"
+      ]
+    },
+    "Otras parestesias": "Sin otras parestesias",
+    "Dificultades para": {
+      "choices": [
+        "Hablar",
+        "Respirar",
+        "Estar de pie",
+        "Levantarse"
+      ],
+      "value": [
+        "Hablar"
+      ]
+    },
+    "Otros signos clínicos": {
+      "choices": [
+        "Sensación de ingravidez",
+        "Embotamiento",
+        "Cefalea",
+        "Náuseas",
+        "Mareos",
+        "Parálisis",
+        "Paro respiratorio",
+        "Alteración de la función renal"
+      ],
+      "value": [
+        "Cefalea",
+        "Náuseas"
+      ]
+    },
+    "Otros signos descripción": "Sin otros signos clínicos"
+  },
+  "4. DATOS EPIDEMIOLOGICOS": {
+    "Clase de molusco ingerido": "Mejillones",
+    "Lugar donde lo ingirió": {
+      "choices": [
+        "Captura-Lugar",
+        "Restauran",
+        "Otros"
+      ],
+      "value": [
+        "Restauran"
+      ]
+    },
+    "Captura-Lugar": "No corresponde; adquiridos en restaurante",
+    "Restauran": "Restaurante Sintético del Puerto",
+    "Otros": "Sin otro lugar",
+    "Procedencia del molusco": "Puerto de ejemplo, costa atlántica",
+    "Forma de preparación": {
+      "choices": [
+        "cocido",
+        "crudo",
+        "agregado de limón ó vinagre",
+        "caldo o sopa de mariscos"
+      ],
+      "value": [
+        "cocido"
+      ]
+    },
+    "Nº aproximado de moluscos ingeridos": "12",
+    "Bebida alcohólica": {
+      "choices": [
+        "Si",
+        "No"
+      ],
+      "value": [
+        "No"
+      ]
+    },
+    "Otros alimentos ingeridos simultáneamente": "Arroz y ensalada",
+    "Día y hora de la ingestión de la comida sospechosa:": {
+      "Fecha": "14/10/2026",
+      "Hora": "13:30"
+    },
+    "Fecha y hora de comienzo de los síntomas:": {
+      "Fecha": "14/10/2026",
+      "Hora": "15:00"
+    },
+    "Tipo de caso:": {
+      "Tipo de caso": {
+        "choices": [
+          "esporádico",
+          "asociado a brote"
+        ],
+        "value": [
+          "asociado a brote"
+        ]
+      }
+    }
+  },
+  "5. EXAMENES DE LABORATORIO": {
+    "Material recogido para las muestras": {
+      "choices": [
+        "Moluscos de la zona",
+        "Restos de comida",
+        "Envases de igual partida",
+        "Contenido gástrico"
+      ],
+      "value": [
+        "Moluscos de la zona",
+        "Restos de comida"
+      ]
+    },
+    "Toxicidad del molusco comido": "120 UR/100",
+    "Cantidad ingerida estimada": "18 UR/100",
+    "Observaciones": "Muestras conservadas en refrigeración",
+    "Determinación de toxina en moluscos del área analizada": "115 UR/100",
+    "Fecha": "15/10/2026"
+  },
+  "6. ACCIONES DE CONTROL Y PREVENCION": {
+    "Tratamiento recibido": {
+      "choices": [
+        "Lavado gástrico",
+        "Bicarbonato de Sodio",
+        "Carbón activado",
+        "Asistencia Respiratoria mecánica",
+        "Cuidados Intensivos",
+        "Otros"
+      ],
+      "value": [
+        "Carbón activado"
+      ]
+    },
+    "Describa Otros": "Sin otros tratamientos",
+    "Búsqueda de expuestos": {
+      "choices": [
+        "Si",
+        "No"
+      ],
+      "value": [
+        "Si"
+      ]
+    },
+    "Cuántos?": "4",
+    "Coordinación con otras áreas involucradas (Bromatología-Saneamiento, etc)": {
+      "choices": [
+        "Si",
+        "No"
+      ],
+      "value": [
+        "Si"
+      ]
+    },
+    "Describir brevemente": "Bromatología retiró el lote de mejillones"
+  },
+  "7. EVOLUCION Y CLASIFICACION DEL CASO": {
+    "Paciente Hospitalizado": {
+      "choices": [
+        "Si",
+        "No",
+        "Se ignora"
+      ],
+      "value": [
+        "Si"
+      ]
+    },
+    "Fecha hospitalización": "14/10/2026",
+    "Evolución": {
+      "choices": [
+        "Alta sin secuelas",
+        "Alta con secuelas",
+        "Fallecido",
+        "Desconocido"
+      ],
+      "value": [
+        "Alta sin secuelas"
+      ]
+    },
+    "Fecha evolución": "16/10/2026",
+    "Clasificación del caso": {
+      "choices": [
+        "Caso sospechoso",
+        "Caso confirmado por laboratorio de IPM",
+        "Por Nexo epidemiológico",
+        "Descartado"
+      ],
+      "value": [
+        "Caso confirmado por laboratorio de IPM"
+      ]
+    },
+    "Observaciones": "Evolución favorable y muestra de alimento positiva"
+  },
+  "Formalización": {
+    "Fecha": "16/10/2026",
+    "Firma y Sello Médico": "Firma ficticia de Clara Vega, matrícula sintética 54321"
+  }
+}

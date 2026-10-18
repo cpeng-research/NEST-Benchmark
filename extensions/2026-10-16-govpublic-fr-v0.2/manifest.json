@@ -1,0 +1,43 @@
+{
+  "extension_id": "2026-10-16-govpublic-fr-v0.2",
+  "added_on": "2026-10-16",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 1,
+  "samples": [
+    {
+      "id": 642,
+      "language": "fr",
+      "title": "Demande de renseignements hypothécaires à compter du 1er janvier 1956",
+      "source_id": "fr-642-dgfip-3233-sd-renseignements-hypothecaires",
+      "domain": "GovPublic",
+      "issuer_id": "Direction générale des finances publiques (DGFiP)",
+      "template_family": "dgfip-3233-sd-renseignements-hypothecaires",
+      "source_pages": 3,
+      "source_sha256": "acbf393cd09ea99db3def7a8f2a01bf4250d976de2ec6e65abacaf1d223abc49",
+      "fields": 131,
+      "files": {
+        "workflow/0-html_template/data_fr/642.html": "f5f543c9b0d9442e97fcb56e2b170d8e3dbc1f48dd2d7440516a408bcf903041",
+        "workflow/1-annotated_json/data_fr/642.json": "1a0f7432ffe6288325610763256a63e27bd9c36a684664dc5eed2761dac17371",
+        "workflow/2-filled_json-a/data_fr/642.json": "345cee2a5e5e523e2740d6ee7a03c9b360007b3c06de12985dc0dd95d51a8dbe",
+        "workflow/3-filled_html-a/data_fr/642.html": "f8d9efc5dea36b7582d7d688d70994b4712efd7bfd5484236f16d32156b61716",
+        "workflow/4-context-a/data_fr/642.txt": "f0f10d3d646b659ce0a3a03dd878677bd756a2f9a9efa641966b491a218b0641",
+        "workflow/5-ph_html-a/data_fr/642.html": "ffa33cd497b82bbfcfc462e53b46c39bcee8138896fcaca7afb1f03d96ab4a66",
+        "workflow/6-meta-a/data_fr/642.json": "6ecf1d9af4c5d981f9326eab97291d85e86e795c37be533503a4c907d072621b"
+      },
+      "annotation_path": "data/annotations/fr/642.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}

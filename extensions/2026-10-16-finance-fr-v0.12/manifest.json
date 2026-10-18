@@ -1,0 +1,44 @@
+{
+  "extension_id": "2026-10-16-finance-fr-v0.12",
+  "added_on": "2026-10-16",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 1,
+  "samples": [
+    {
+      "id": 689,
+      "language": "fr",
+      "title": "Sociétés civiles de moyens : déclaration 2036-SD (2026)",
+      "source_id": "fr-689-2036-sd",
+      "domain": "Finance",
+      "issuer_id": "Direction générale des finances publiques",
+      "template_family": "2036-sd",
+      "source_pages": 8,
+      "source_sha256": "ee40c133ee753fd00467b9c678cf2dbce279b958a419c25451570dd2a9bb3a62",
+      "fields": 390,
+      "files": {
+        "workflow/0-html_template/data_fr/689.html": "3db60d6e37f0e02151f00766bcd67fff3528f88083e91ff0fac81033775009f1",
+        "workflow/1-annotated_json/data_fr/689.json": "12c5561f23c83cf450da5faf1c6710c39ca4ed038cddd97f8f8dafa19d503258",
+        "workflow/2-filled_json-a/data_fr/689.json": "01ef41c2493319e3f81cc58f4183d17e857a4dc16547f7ecffbefaa03389f38c",
+        "workflow/3-filled_html-a/data_fr/689.html": "f28f498078815ebad57d5a58d3b828c4e6f306e9b34ed4bcf798fda9b6ffcefc",
+        "workflow/4-context-a/data_fr/689.txt": "fbe8b19ca29179ad8153265a8cc2b26395fb9c9ed4f8f866618a38891d96a7b4",
+        "workflow/5-ph_html-a/data_fr/689.html": "a838d1526ee32a115ccb29f2cdb435e96205e3d9ee84e6cb1ca5a51f4707d851",
+        "workflow/6-meta-a/data_fr/689.json": "c9c1931e75059f18158c1426661b65bce47818ff10b65f2e3e9d0356372a9522"
+      },
+      "annotation_path": "data/annotations/fr/689.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      },
+      "business_topic": "Sociétés civiles de moyens : déclaration 2036-SD (2026)"
+    }
+  ]
+}

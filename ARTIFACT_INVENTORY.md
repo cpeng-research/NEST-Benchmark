@@ -21,3 +21,33 @@ listed in `SHA256SUMS`.
 
 Paper-specific cached predictions and frozen numerical results are maintained in
 the linked EMNLP 2026 reproduction repository.
+
+## Versioned Additions: 15 October 2026
+
+The counts above describe the main `workflow/` directory. Including the separate
+versioned additions, the text-task inventory now contains 1,200 distinct
+language/ID records: 449 English, 431 Chinese, 170 Spanish, and 150 French.
+The additional 331 records remain under `extensions/`, not in the main workflow.
+
+The [current release index](extensions/RELEASE_1200.md) lists the latest 100
+records, all batch paths, and the stages supplied for each. It links to the
+preceding 1,100-template inventory. These latest records provide stages 0-6;
+the image counts above do not include newly rendered versions of these forms.
+
+The root `scripts/verify_dataset.py` checks the main-workflow counts and files
+listed in the root `SHA256SUMS`; it does not discover extension batches.
+Use the existing [shared workflow entry point](extensions/workflow-support-v1/README.md)
+to load the main workflow and selected additions together. To verify a batch's
+files, run `shasum -a 256 -c SHA256SUMS` from that batch directory.
+
+## Versioned Additions: 16 October 2026
+
+Including the latest 100 additions, the combined text-task inventory contains
+1,300 distinct language/ID records: 449 English, 431 Chinese, 215 Spanish, and 205 French.
+The main workflow retains its 869 records; versioned additions provide 431.
+
+The [1,300-template release index](extensions/RELEASE_1300.md) lists each new
+batch and sample ID. All 100 new records provide numbered stages 0-6, source
+and field annotations, and batch checksums. Stages 7-9 and model baseline
+predictions are not included in this increment. Earlier image counts and
+main-workflow counts above remain unchanged.

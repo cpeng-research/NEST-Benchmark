@@ -1,0 +1,213 @@
+{
+  "extension_id": "2026-10-16-healthcare-es-v0.2",
+  "added_on": "2026-10-16",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 6,
+  "samples": [
+    {
+      "id": 604,
+      "language": "es",
+      "title": "Intoxicación/Exposición por monóxido de carbono",
+      "source_id": "es-604-co-exposure",
+      "domain": "Healthcare",
+      "issuer_id": "argentina-salud",
+      "template_family": "co-exposure",
+      "source_pages": 2,
+      "source_sha256": "e644b3c9bec7087bf4fa92821a98026472608b835d6d82c87c857f472e8074fe",
+      "fields": 65,
+      "files": {
+        "workflow/0-html_template/data_es/604.html": "2418691500b8cd516d0d5d70b2b87db5264cb5652effcc64a37dcb0055117333",
+        "workflow/1-annotated_json/data_es/604.json": "2586f44a63d9cd2a44f9ab3959bc5e25fa4a7879d0cab2301a85738c5bff0dcb",
+        "workflow/2-filled_json-a/data_es/604.json": "c31e85114fb2cde5276584b0fa6960a8e115c4f4c76a826db8c4003eab2aa820",
+        "workflow/3-filled_html-a/data_es/604.html": "0013a832893588611b6f139eea7066640eb7191d569eb7a2b9e824b03ee6ba92",
+        "workflow/4-context-a/data_es/604.txt": "fcd781e1fabd0185ea63166f2cc95a0716d891ff680712968b95ef93bb9ee4f9",
+        "workflow/5-ph_html-a/data_es/604.html": "47d62c1bbcf02be584d5e9c965acdcca17c1c42649ee314db29d89b0a938e46d",
+        "workflow/6-meta-a/data_es/604.json": "1cbcd514fb44b2369b9b909d44b79348f8ab03947713673bda535b4f0b75563e"
+      },
+      "annotation_path": "data/annotations/es/604.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 605,
+      "language": "es",
+      "title": "BOTULISMO ALIMENTARIO Y/O POR HERIDAS FICHA DE RECOLECCIÓN DE DATOS",
+      "source_id": "es-605-botulismo",
+      "domain": "Healthcare",
+      "issuer_id": "argentina-salud",
+      "template_family": "botulismo",
+      "source_pages": 2,
+      "source_sha256": "c2bcdce292bba0b4d7984dc9a8ffc76a129ec6e6062d1f415f4ec428de5880ba",
+      "fields": 96,
+      "files": {
+        "workflow/0-html_template/data_es/605.html": "c6c9edea9bc5214c664c8eb667d69016761c2915a0b0dacccea4b5a52c48cff2",
+        "workflow/1-annotated_json/data_es/605.json": "43e58119502047e505f7e4f3ff8820568ee76796159d7ee0a88cd3ab1f5cc409",
+        "workflow/2-filled_json-a/data_es/605.json": "283586933535c5e39662de6b84aa564b93b723360691ca1a302c08965d88fb1c",
+        "workflow/3-filled_html-a/data_es/605.html": "7b09b7cc0a19e70c1f1c910278b596c1b100076c7f138cc2191bd5d19150b314",
+        "workflow/4-context-a/data_es/605.txt": "479fd51dd3f3af6cce94869cb20aaf4e4d11863f7ab4a1b0b91fb2a5998e7e57",
+        "workflow/5-ph_html-a/data_es/605.html": "33d1c8e30b6963e1ec300227136ca37270b04602f93dea78124ff266f4376773",
+        "workflow/6-meta-a/data_es/605.json": "88e3d1365aed48a4ac44c84cea6da567a55eef1e6c2a03bdfb3bd699c735172c"
+      },
+      "annotation_path": "data/annotations/es/605.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 606,
+      "language": "es",
+      "title": "FICHA DE INVESTIGACION DE CASOS DE LEISHMANIASIS CUTANEA MUCOSA/VISCERAL",
+      "source_id": "es-606-leishmaniasis",
+      "domain": "Healthcare",
+      "issuer_id": "argentina-salud",
+      "template_family": "leishmaniasis",
+      "source_pages": 3,
+      "source_sha256": "59d062dd125eed62f71e6f8e1b8a745c52aab31539102688c9ba9c8d1480ae69",
+      "fields": 197,
+      "files": {
+        "workflow/0-html_template/data_es/606.html": "3b12a927c233f4006ecb8720eb72499f2aced3dfe93fd7020800e11acb570e60",
+        "workflow/1-annotated_json/data_es/606.json": "d1b3bf286458eac3ded0380733508aff019b7b48cadbeb0c5788e70d67de0e7d",
+        "workflow/2-filled_json-a/data_es/606.json": "c62a3cca1366b5011402d84a4ce18d1587ce1d60f64cf2343999aa4f8a932dbf",
+        "workflow/3-filled_html-a/data_es/606.html": "312dca5ac8bb880b8e7cc310ee132eb7ca4cf4f78bb99f0118c590ca184de068",
+        "workflow/4-context-a/data_es/606.txt": "7a5d45e2ff820c2532ade0790d38e92bbe44202d4b96c031014d7c1444f782cd",
+        "workflow/5-ph_html-a/data_es/606.html": "7360e371cf1d87564061dc198af6b07b6d067b522bd5ac6dee327dc8a43a98a0",
+        "workflow/6-meta-a/data_es/606.json": "fc4ae6ea3db2151441001f3577d5306702db7241c760d70378d7347f80607114"
+      },
+      "annotation_path": "data/annotations/es/606.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 607,
+      "language": "es",
+      "title": "Listeria monocytogenes Encuesta alimentaria",
+      "source_id": "es-607-listeria-food",
+      "domain": "Healthcare",
+      "issuer_id": "argentina-salud",
+      "template_family": "listeria-food",
+      "source_pages": 4,
+      "source_sha256": "7f7cf45ba17f830e9b8eb4136ba70e9bf4a5b41bc03ac085ec63302397550dd9",
+      "fields": 93,
+      "files": {
+        "workflow/0-html_template/data_es/607.html": "5e9ef205ce36fbced094f2da66e5bdce4a01a10edba2619af879dfdf662ed8cd",
+        "workflow/1-annotated_json/data_es/607.json": "0f0e99329b140426c2bc2e079f3aa63f998fc5cd7a9d3f5f085521005d9df33d",
+        "workflow/2-filled_json-a/data_es/607.json": "64c22c1205d3f3fbef6e5a741dacfa8f8a82a3a39c3211dfe195f642e27c8710",
+        "workflow/3-filled_html-a/data_es/607.html": "8ccfbc7f7d60da553ca2e0dde8d95173432739e8dbd55915e1c4633f9c731084",
+        "workflow/4-context-a/data_es/607.txt": "ad77744434e6565d5362f63d135de0d0302e3158b9b7416a02c1decaf5b29877",
+        "workflow/5-ph_html-a/data_es/607.html": "613308098ad556f08ece891176f7f99ab9c47793bc2b963b18269863c9489bcb",
+        "workflow/6-meta-a/data_es/607.json": "3d9898766120216d67d820719929c4dddd1c0ec1f293be27f9fb0a177b0a3c9c"
+      },
+      "annotation_path": "data/annotations/es/607.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 608,
+      "language": "es",
+      "title": "FICHA DE INVESTIGACION DE CASOS DE ETIOLOGIA DESCONOCIDA",
+      "source_id": "es-608-etiologia",
+      "domain": "Healthcare",
+      "issuer_id": "argentina-salud",
+      "template_family": "etiologia",
+      "source_pages": 2,
+      "source_sha256": "24aee96c4458a1a579ac9ba8a4fb67a332e8609d475053f0d0a5d89d7e2e6021",
+      "fields": 137,
+      "files": {
+        "workflow/0-html_template/data_es/608.html": "252102bda3e802cfb99eb38813a22641fec8b52b96e1386896084f3656da6d75",
+        "workflow/1-annotated_json/data_es/608.json": "d77e995928366df6b180cc8f86a79fe5c45637fb73ecdb3a8a1f169002055526",
+        "workflow/2-filled_json-a/data_es/608.json": "a08bfecc8c276a49a58075efe89fd92a68f96d8fd59e2173a416d27dc0742f0a",
+        "workflow/3-filled_html-a/data_es/608.html": "72fdf593e72766720e8ef8a58c9d39884b2b842ba1efec6acb1b58348603905d",
+        "workflow/4-context-a/data_es/608.txt": "e0412f5096789326b9ed717f1d336cc417355f40b1d31149a280b0ffb77c89cb",
+        "workflow/5-ph_html-a/data_es/608.html": "52f230dca20b96048c81d8908f089e43c84b26d88077e5b96830e19075fcb144",
+        "workflow/6-meta-a/data_es/608.json": "5290d7f5f41d8f8956ae4b35843e4c9d9e4ad3126e4f8f2ab6c057b0d69a8604"
+      },
+      "annotation_path": "data/annotations/es/608.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 609,
+      "language": "es",
+      "title": "PLANILLA DE CONTACTOS ESTRECHOS",
+      "source_id": "es-609-hantavirus-contacts",
+      "domain": "Healthcare",
+      "issuer_id": "argentina-salud",
+      "template_family": "hantavirus-contacts",
+      "source_pages": 1,
+      "source_sha256": "9a69d113d7ea4728c9f7b01ab185b6bf272a1284cc8b0523377893bedbae05e6",
+      "fields": 192,
+      "files": {
+        "workflow/0-html_template/data_es/609.html": "2832acf02798c0634aca49e1bac94ad2b8474908bf1419697a4cad8fe685e51a",
+        "workflow/1-annotated_json/data_es/609.json": "36ee379ed613b3dbd7ac02186b88d495c94fbead9c5ea50eb423f970fc5b080a",
+        "workflow/2-filled_json-a/data_es/609.json": "c105dd0cf7cd1ed02f95764182bf00dfec62bf406a625eb932d371436e72ee0f",
+        "workflow/3-filled_html-a/data_es/609.html": "d9e78862ff672f12491cb637a227d663d4a4cdad7bf141a2e311ea4f2b5679d8",
+        "workflow/4-context-a/data_es/609.txt": "cc4387eeaf24027e984aa71d4356d94d9a547b0362fc15683807cf5c41f25501",
+        "workflow/5-ph_html-a/data_es/609.html": "18a0f7b5a4f2923a86552a542268d9d61c2e0e1cf2665ca872f0c6ab655743ba",
+        "workflow/6-meta-a/data_es/609.json": "f0ea9bb647973ac765fa12026fda5bf74eefe558806b068b6dd44305c5da0420"
+      },
+      "annotation_path": "data/annotations/es/609.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}

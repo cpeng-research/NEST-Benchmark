@@ -1,0 +1,716 @@
+[
+  {
+    "key": "Provincia:",
+    "label_info": {
+      "row": 1,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Código de identificación (ID local/global):",
+    "label_info": {
+      "row": 2,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "TIPO DE DESVÍO DE CALIDADVERSA",
+    "label_info": {
+      "row": 4,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "Apellido (iniciales)",
+    "label_info": {
+      "row": 6,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Nombre (iniciales)",
+    "label_info": {
+      "row": 7,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Peso",
+    "label_info": {
+      "row": 8,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Edad",
+    "label_info": {
+      "row": 9,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Sexo",
+    "label_info": {
+      "row": 10,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "DESCRIPCIÓN DEL DESVÍO DE CALIDAD",
+    "label_info": {
+      "row": 12,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "¿El medicamento con el desvío se administró al paciente?",
+    "label_info": {
+      "row": 13,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "¿La administración del medicamento al paciente causó un evento adverso?",
+    "label_info": {
+      "row": 14,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "¿Cuál?:",
+    "label_info": {
+      "row": 15,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "¿Qué resultado tuvo el desvío en el paciente?",
+    "label_info": {
+      "row": 17,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "Muerte; fecha:",
+    "label_info": {
+      "row": 19,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Exámenes complementarios relevantes (con fecha y resultado):",
+    "label_info": {
+      "row": 20,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Enfermedad de base y condiciones médicas relevantes",
+    "label_info": {
+      "row": 21,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Medicación concomitante (incluyendo terapias alternativas):",
+    "label_info": {
+      "row": 22,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Nombre Genérico",
+    "label_info": {
+      "row": 24,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 1,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Nombre Genérico",
+    "label_info": {
+      "row": 24,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 2,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Nombre Genérico",
+    "label_info": {
+      "row": 24,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 3,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Nombre Comercial",
+    "label_info": {
+      "row": 24,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 1,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Nombre Comercial",
+    "label_info": {
+      "row": 24,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 2,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Nombre Comercial",
+    "label_info": {
+      "row": 24,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 3,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Forma farmacéutica",
+    "label_info": {
+      "row": 24,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 1,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Forma farmacéutica",
+    "label_info": {
+      "row": 24,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 2,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Forma farmacéutica",
+    "label_info": {
+      "row": 24,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 3,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Dosis y vía de administración",
+    "label_info": {
+      "row": 24,
+      "col": 6
+    },
+    "placeholder_offset": {
+      "rows": 1,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Dosis y vía de administración",
+    "label_info": {
+      "row": 24,
+      "col": 6
+    },
+    "placeholder_offset": {
+      "rows": 2,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Dosis y vía de administración",
+    "label_info": {
+      "row": 24,
+      "col": 6
+    },
+    "placeholder_offset": {
+      "rows": 3,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Indicación de uso",
+    "label_info": {
+      "row": 24,
+      "col": 8
+    },
+    "placeholder_offset": {
+      "rows": 1,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Indicación de uso",
+    "label_info": {
+      "row": 24,
+      "col": 8
+    },
+    "placeholder_offset": {
+      "rows": 2,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Indicación de uso",
+    "label_info": {
+      "row": 24,
+      "col": 8
+    },
+    "placeholder_offset": {
+      "rows": 3,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Fecha de vencimiento",
+    "label_info": {
+      "row": 24,
+      "col": 10
+    },
+    "placeholder_offset": {
+      "rows": 1,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Fecha de vencimiento",
+    "label_info": {
+      "row": 24,
+      "col": 10
+    },
+    "placeholder_offset": {
+      "rows": 2,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Fecha de vencimiento",
+    "label_info": {
+      "row": 24,
+      "col": 10
+    },
+    "placeholder_offset": {
+      "rows": 3,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "N°Lote/ serie",
+    "label_info": {
+      "row": 24,
+      "col": 11
+    },
+    "placeholder_offset": {
+      "rows": 1,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "N°Lote/ serie",
+    "label_info": {
+      "row": 24,
+      "col": 11
+    },
+    "placeholder_offset": {
+      "rows": 2,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "N°Lote/ serie",
+    "label_info": {
+      "row": 24,
+      "col": 11
+    },
+    "placeholder_offset": {
+      "rows": 3,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "¿Se envía muestra del producto con el desvío de calidad?",
+    "label_info": {
+      "row": 29,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "Cantidad de unidades enviadas:",
+    "label_info": {
+      "row": 30,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Fecha de la detección del desvío y/o del evento:",
+    "label_info": {
+      "row": 31,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Fecha de este reporte:",
+    "label_info": {
+      "row": 32,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Apellido y Nombre",
+    "label_info": {
+      "row": 34,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Lugar de trabajo",
+    "label_info": {
+      "row": 35,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Dirección",
+    "label_info": {
+      "row": 36,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Profesión",
+    "label_info": {
+      "row": 37,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Teléfono/Fax",
+    "label_info": {
+      "row": 38,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "E-mail",
+    "label_info": {
+      "row": 39,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Imputabilidad",
+    "label_info": {
+      "row": 41,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Seriedad",
+    "label_info": {
+      "row": 42,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Notificación N°:",
+    "label_info": {
+      "row": 43,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  }
+]

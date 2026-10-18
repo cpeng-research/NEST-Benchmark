@@ -1,0 +1,43 @@
+{
+  "extension_id": "2026-10-16-govpublic-fr-v0.1",
+  "added_on": "2026-10-16",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 1,
+  "samples": [
+    {
+      "id": 641,
+      "language": "fr",
+      "title": "Demande d’extrait de matrice cadastrale",
+      "source_id": "fr-641-dgfip-6815-em-sd-extrait-matrice-cadastrale",
+      "domain": "GovPublic",
+      "issuer_id": "Direction générale des finances publiques (DGFiP)",
+      "template_family": "dgfip-6815-em-sd-extrait-matrice-cadastrale",
+      "source_pages": 1,
+      "source_sha256": "9072a0ffd03473ca948863b05020fc07f46b90c7081be83e9625f75eda58f7a2",
+      "fields": 16,
+      "files": {
+        "workflow/0-html_template/data_fr/641.html": "8be05622c07910a4b90a4f2c0c0a405c085a78d64d8db92c0d989ba567c48700",
+        "workflow/1-annotated_json/data_fr/641.json": "db3718942e9daebbf0be62879e40558d1ad76449b13585ddbea8fe5377e7e6bc",
+        "workflow/2-filled_json-a/data_fr/641.json": "87e12520f4c149063d4f6f7a12e2657e9c98b07ac5eaf7ee311ba6b33a6de115",
+        "workflow/3-filled_html-a/data_fr/641.html": "8bd56ef492c7ceece72f4826b1942b85fe670190a55b6af724fe0af6a504f77f",
+        "workflow/4-context-a/data_fr/641.txt": "05d3c62b28908721399d0310da24f1fab1015eb857314820fc852459ca748482",
+        "workflow/5-ph_html-a/data_fr/641.html": "2dbc013bfaaed358465c1fdd50f1128f6e3826e9c525bfd7a3ee13e4321b8ebd",
+        "workflow/6-meta-a/data_fr/641.json": "ee61c6d2e366e70abfca9a8ccf01ca8a39d10fdcd27082f8ef56e4533efd1561"
+      },
+      "annotation_path": "data/annotations/fr/641.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}

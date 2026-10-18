@@ -1,0 +1,222 @@
+{
+  "SENDER'S INFORMATION": {
+    "Sender name and address": "Synthetic Northbridge Laboratory, 18 Example Road, London",
+    "Report to be sent FAO": "Dr Avery Example",
+    "Contact Phone": "020 7946 0123",
+    "Ext": "215",
+    "Purchase order number": "SYNPO512",
+    "Postcode": "SW1A 0AA",
+    "Project code": "SYNP512",
+    "UKHSA outbreak/investigation": "SYNOUT512",
+    "ILog number": "SYNILOG512"
+  },
+  "PATIENT/SOURCE INFORMATION": {
+    "Source type": {
+      "Selections": {
+        "choices": [
+          "Human",
+          "Animal*",
+          "Food*",
+          "Water*",
+          "Environment*",
+          "Other*"
+        ],
+        "value": [
+          "Human"
+        ]
+      },
+      "Details": "Synthetic human patient"
+    },
+    "Care setting": {
+      "Selections": {
+        "choices": [
+          "Inpatient",
+          "Outpatient",
+          "GP Patient",
+          "Other'"
+        ],
+        "value": [
+          "Inpatient"
+        ]
+      },
+      "Details": "Synthetic inpatient service"
+    },
+    "NHS number": "SYN-NHS-512",
+    "Sex": {
+      "choices": [
+        "male",
+        "female"
+      ],
+      "value": [
+        "female"
+      ]
+    },
+    "Surname": "Example",
+    "Date of birth": "15/03/1992",
+    "Age": "34",
+    "Forename": "Morgan",
+    "Patient postcode": "SW1A 0AA",
+    "Patient HPT": "Synthetic London HPT",
+    "Hospital number": "SYNH512",
+    "Ward name": "Synthetic Infection Clinic",
+    "Hospital name": "Synthetic Northbridge Hospital",
+    "Ward type": "Adult infectious diseases"
+  },
+  "SAMPLE INFORMATION": {
+    "Your reference": "SYNS512",
+    "Hazard status": {
+      "Response": {
+        "choices": [
+          "Group 3",
+          "Group 4",
+          "No",
+          "Unknown"
+        ],
+        "value": [
+          "No"
+        ]
+      },
+      "Details": "No additional hazard suspected"
+    },
+    "Sample type": {
+      "Selections": {
+        "choices": [
+          "Isolate from Blood",
+          "Isolate from Other",
+          "Serum",
+          "Clinical Sample of",
+          "Other (please specify type and site)"
+        ],
+        "value": [
+          "Isolate from Blood",
+          "Clinical Sample of",
+          "Other (please specify type and site)"
+        ]
+      },
+      "Isolate from other details": "Synthetic tissue isolate",
+      "Clinical sample details": "Blood",
+      "Other details": "Synthetic throat swab"
+    },
+    "Preliminary identification": "Synthetic pneumococcal screening identification",
+    "Presumptive identification": "Synthetic Streptococcus pneumoniae identification",
+    "Date of collection": "12/10/2026",
+    "Time": "09:30",
+    "Date sent to UKHSA": "13/10/2026",
+    "Priority status": "Routine"
+  },
+  "TESTS REQUESTED": {
+    "Isolates": {
+      "Primary tests": {
+        "choices": [
+          "Corynebacterium diphtheriae/C. ulcerans/C. pseudotuberculosis",
+          "Streptococcus pneumoniae capsule typing (invasive)"
+        ],
+        "value": [
+          "Streptococcus pneumoniae capsule typing (invasive)"
+        ]
+      },
+      "Haemophilus": {
+        "Requested": {
+          "choices": [
+            "Haemophilus spp. (invasive)"
+          ],
+          "value": [
+            "Haemophilus spp. (invasive)"
+          ]
+        },
+        "Species": {
+          "choices": [
+            "Haemophilus influenzae",
+            "Other Haemophilus species"
+          ],
+          "value": [
+            "Haemophilus influenzae"
+          ]
+        }
+      },
+      "Bordetella": {
+        "Requested": {
+          "choices": [
+            "Bordetella spp."
+          ],
+          "value": [
+            "Bordetella spp."
+          ]
+        },
+        "Species": {
+          "choices": [
+            "Bordetella pertussis",
+            "Other Bordetella species"
+          ],
+          "value": [
+            "Bordetella pertussis"
+          ]
+        }
+      }
+    },
+    "MIC Evaluation": {
+      "Selected": {
+        "choices": [
+          "MIC Evaluation"
+        ],
+        "value": [
+          "MIC Evaluation"
+        ]
+      },
+      "Reason": "Synthetic invasive-isolate susceptibility evaluation"
+    },
+    "Sera": {
+      "Tests": {
+        "choices": [
+          "Diphtheria immunity",
+          "Tetanus immunity",
+          "B. pertussis anti-PT IgG antibodies"
+        ],
+        "value": [
+          "Diphtheria immunity",
+          "Tetanus immunity"
+        ]
+      }
+    }
+  },
+  "SENDERS LABORATORY RESULTS": {
+    "Laboratory results": "Synthetic local identification and susceptibility results supplied"
+  },
+  "CLINICAL/EPIDEMIOLOGICAL INFORMATION": {
+    "Main diagnosis": {
+      "Selections": {
+        "choices": [
+          "Bacteraemia",
+          "Meningitis",
+          "Pneumonia",
+          "Epiglottitis",
+          "Septic arthritis",
+          "Cellulitis",
+          "other (please specify)"
+        ],
+        "value": [
+          "Pneumonia",
+          "other (please specify)"
+        ]
+      },
+      "Other details": "Synthetic invasive infection under assessment"
+    },
+    "Date of onset": "01/10/2026",
+    "Recent travel": {
+      "Response": {
+        "choices": [
+          "Yes",
+          "No",
+          "Unknown"
+        ],
+        "value": [
+          "Yes"
+        ]
+      },
+      "Country": "France"
+    }
+  },
+  "COMMENTS": {
+    "Comments": "Synthetic referral only; additional clinical information supplied for laboratory interpretation"
+  }
+}

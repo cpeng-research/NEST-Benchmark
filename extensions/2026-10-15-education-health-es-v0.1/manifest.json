@@ -1,0 +1,179 @@
+{
+  "extension_id": "2026-10-15-education-health-es-v0.1",
+  "added_on": "2026-10-15",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 5,
+  "samples": [
+    {
+      "id": 440,
+      "language": "es",
+      "title": "Un día en el Parque Nacional: inscripción escolar",
+      "source_id": "es-440-education-escuelas",
+      "domain": "Education",
+      "issuer_id": "argentina-administracion-parques-nacionales",
+      "template_family": "education-escuelas",
+      "source_pages": 2,
+      "source_sha256": "8806d5ba2a77f5623b2c04dc48336bb35b532a36cf342ad945541a4d49c7345f",
+      "fields": 18,
+      "files": {
+        "workflow/0-html_template/data_es/440.html": "51224302c8b7eaf00c3c981599d8c5013e6c9271cc9095abd4074eb1363d1b29",
+        "workflow/1-annotated_json/data_es/440.json": "010a45aff6a6a65fb98cac0a57476417402b1ca1db2ccb7ee9a96643c96e3002",
+        "workflow/2-filled_json-a/data_es/440.json": "197eb865debea327e5e87c5878dd266eb7cd1ba64040f012044dfdbd68450a73",
+        "workflow/3-filled_html-a/data_es/440.html": "e0feca11eb6315afc3bdc8d1b834b4a7486050204d7a0872b7b025816bf1a28a",
+        "workflow/4-context-a/data_es/440.txt": "1820bc770789ecf60a3413c2b91ea4fc3a5a304fbafa4af09986350937e7ef38",
+        "workflow/5-ph_html-a/data_es/440.html": "117e3705f8dbcde86c1a925f7542d481e9c79073fbab3aad925feea11bd2e233",
+        "workflow/6-meta-a/data_es/440.json": "8247afaefee05389f45b90262e6693e2594abc4ea9300c21b15eda6d3edd5472"
+      },
+      "annotation_path": "data/annotations/es/440.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 443,
+      "language": "es",
+      "title": "Solicitud de curso de protección radiológica",
+      "source_id": "es-443-education-course-radiology",
+      "domain": "Education",
+      "issuer_id": "ingesa-cnd",
+      "template_family": "education-course-radiology",
+      "source_pages": 1,
+      "source_sha256": "4e9c6fce58f80de672fd0bddc38ed2891b5ad42596a8a80395d4b5a748b4b818",
+      "fields": 21,
+      "files": {
+        "workflow/0-html_template/data_es/443.html": "7794572ae9da8359d7f7d240e6a5be49846d01e36e399fce66ae42a3b9494e28",
+        "workflow/1-annotated_json/data_es/443.json": "a050f19de319ec4f4d297def229bd0a29882142cfe39fb088a557aabb16d4e7a",
+        "workflow/2-filled_json-a/data_es/443.json": "2af8bc0c03118926f8da028a4395d70eb09af729ae9b2ceb9816d2ae22119445",
+        "workflow/3-filled_html-a/data_es/443.html": "e388868c115e3525bd455b6b975c6a76277a1456c503dd32316e53811db961af",
+        "workflow/4-context-a/data_es/443.txt": "2d3cf40695235d329118193627854ab19efa4cba7e1f17b757aefd1e791a5295",
+        "workflow/5-ph_html-a/data_es/443.html": "2f4b5ed994ffc2c9f487944505010c56f858d03dacfc02183910b8b742ef0fd0",
+        "workflow/6-meta-a/data_es/443.json": "7808f1524b14d8ecd4b48c90f41f5e7f5e17b0e2d0865daa39cd1d70247e3167"
+      },
+      "annotation_path": "data/annotations/es/443.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 445,
+      "language": "es",
+      "title": "Solicitud de inscripción a curso de formación de Director Técnico",
+      "source_id": "es-445-education-inase-course",
+      "domain": "Education",
+      "issuer_id": "argentina-inase",
+      "template_family": "education-inase-course",
+      "source_pages": 1,
+      "source_sha256": "e8001fa44ef9b9fe07b9940015fb9a856862703a6fb320cde78b81f2791c61be",
+      "fields": 2,
+      "files": {
+        "workflow/0-html_template/data_es/445.html": "f603d181a58188b9aeb936137e897f0c48ab7c427dc498e09ac0e6cf9b1b0a07",
+        "workflow/1-annotated_json/data_es/445.json": "1838a534a7c7e342fdbf18d1cb7ca53815d09786fcd95bb63d852a3cfd4449ca",
+        "workflow/2-filled_json-a/data_es/445.json": "d0e129b582f3da73cb308a5c188a6d630c1e5b0bc1be74d5e62e31db60602cfc",
+        "workflow/3-filled_html-a/data_es/445.html": "e33fe1a42a549f460b5ffdb2a310156d883ffcf9acdc476b09e642d446be41a7",
+        "workflow/4-context-a/data_es/445.txt": "4df46045aabb4fa7e2b164f0e8cded11e46ee65e2065b312e15784b93bdc9eb2",
+        "workflow/5-ph_html-a/data_es/445.html": "fb43571b27340854fdc6127a734d2147848ebe322b7cd48f9b2889546b096c61",
+        "workflow/6-meta-a/data_es/445.json": "6b8f639ce141d140223ed0b08fb47d41503bdd8a00d0e7eeb5ae4583f14e29da"
+      },
+      "annotation_path": "data/annotations/es/445.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 451,
+      "language": "es",
+      "title": "Enfermedad de Lyme: planilla de derivación",
+      "source_id": "es-451-health-lyme",
+      "domain": "Healthcare",
+      "issuer_id": "argentina-anlis-inei",
+      "template_family": "health-lyme",
+      "source_pages": 1,
+      "source_sha256": "02f851cef836ebe982343343e5e88ab51c078256e08a5a96c4760ca095ac40af",
+      "fields": 31,
+      "files": {
+        "workflow/0-html_template/data_es/451.html": "d30f725d66851ab3c7f818e5591c19e010f9132b94728569ba137300723de641",
+        "workflow/1-annotated_json/data_es/451.json": "03cbf5351369bc60fa5262c5161814bc82a054c9de6b35ff95ca7edcd1144f9e",
+        "workflow/2-filled_json-a/data_es/451.json": "77ba273350c6b8a08edde386b40a2c82d39616eb85a9cf98fd12dadb5a9eccee",
+        "workflow/3-filled_html-a/data_es/451.html": "45f72e6f72de0767346dc7c7cad3e981bccf3e7981b1f9f57f5c79e84fe3f83f",
+        "workflow/4-context-a/data_es/451.txt": "646d5782f07f693656df5b4d3b2e1e8576a737aa020f8cb99174617c41913775",
+        "workflow/5-ph_html-a/data_es/451.html": "317ea8bf3ccf741b6c641eab4c534690c46829bac0c9b891f75b5e9edfe64bee",
+        "workflow/6-meta-a/data_es/451.json": "574c756ab2f221ca5fbf4a62938ca693ed90395d2d0c12e13db518cd62030a3f"
+      },
+      "annotation_path": "data/annotations/es/451.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 452,
+      "language": "es",
+      "title": "Endocarditis con cultivo negativo: derivación y consentimiento",
+      "source_id": "es-452-health-endocarditis",
+      "domain": "Healthcare",
+      "issuer_id": "argentina-anlis-inei",
+      "template_family": "health-endocarditis",
+      "source_pages": 2,
+      "source_sha256": "6f89bd06c8774b69eff2da19e6c53d3b2c8081be8085f3585e57b18779130b90",
+      "fields": 29,
+      "files": {
+        "workflow/0-html_template/data_es/452.html": "9e7d083b67f977dfadba3bdc187a785014f2a2bc00932f3f7478caf7130d09ff",
+        "workflow/1-annotated_json/data_es/452.json": "11c0c2433cde5d1118716ae15c6488c6c7f2b27714b7e0ddfabd73f6b4695056",
+        "workflow/2-filled_json-a/data_es/452.json": "fecf64ae41e2c1b882f4c2b86cfbde6f9c8dd9ae5800687392ead91bc60ac9be",
+        "workflow/3-filled_html-a/data_es/452.html": "185543d3d1b03287d5753252dae79f6b3c1cbdc25e7112b3268a07f221811a9e",
+        "workflow/4-context-a/data_es/452.txt": "a8812061f0f1a0fa5633e7a8bc8df5f50c38edbcee0b8bd8c8d8560abf914998",
+        "workflow/5-ph_html-a/data_es/452.html": "1fbfbf1641af552fb022b3140d64c155addb4c20a84c8edd51a25cb8626abbcc",
+        "workflow/6-meta-a/data_es/452.json": "72f6a47f97aa79795433e628f7731d190824756bf3e30beb747e5c394355b10f"
+      },
+      "annotation_path": "data/annotations/es/452.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}

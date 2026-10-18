@@ -1,0 +1,179 @@
+{
+  "extension_id": "2026-10-15-health-en-v0.1",
+  "added_on": "2026-10-15",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 5,
+  "samples": [
+    {
+      "id": 500,
+      "language": "en",
+      "title": "Brucella Serology Referral",
+      "source_id": "en-ukhsa-500-brucella-y3",
+      "domain": "Healthcare",
+      "issuer_id": "UKHSA",
+      "template_family": "ukhsa-brucella-y3",
+      "source_pages": 1,
+      "source_sha256": "61ca4832a9da0124bbf60a1f13e3b3a033ab0c735bc7fb93e0931e2ac2c80185",
+      "fields": 37,
+      "files": {
+        "workflow/0-html_template/data_en/500.html": "415825407e402ae047421949372c74fcada1bac2a80dcbfd450494215ccf0a87",
+        "workflow/1-annotated_json/data_en/500.json": "0c1e0defe7509c9b11126bc0e2618f44337fac99e657c4147ed9a4af49ca9623",
+        "workflow/2-filled_json-a/data_en/500.json": "11ee8c4f69b7511739a51f88d8194734e2292a4550e9a4aca36d2102c95a2a36",
+        "workflow/3-filled_html-a/data_en/500.html": "fa1b29ebfa1c13e87b6af06e1b31414d4599e281337379063f7d28aff293695a",
+        "workflow/4-context-a/data_en/500.txt": "0abe3508a698356912357d104cf54b851c66b3a6db70e9cafda19e881fbc992c",
+        "workflow/5-ph_html-a/data_en/500.html": "6377d1be611c67653585cc8ce48198bf466b030865c3b6fd8329af5ec8420ce8",
+        "workflow/6-meta-a/data_en/500.json": "9446f7f00d997f03ee2299c32e4c5f83a85f783f04634ad0daf9094ac5d1e64f"
+      },
+      "annotation_path": "data/annotations/en/500.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 501,
+      "language": "en",
+      "title": "Mycobacterium Referral",
+      "source_id": "en-ukhsa-501-mycobacterium-n1",
+      "domain": "Healthcare",
+      "issuer_id": "UKHSA",
+      "template_family": "ukhsa-mycobacterium-n1",
+      "source_pages": 1,
+      "source_sha256": "a45e694d571c0a418b728d2385ebac96d59ff37d1e8d1f934d0f6ac7e75ebaed",
+      "fields": 48,
+      "files": {
+        "workflow/0-html_template/data_en/501.html": "00d2ee79ce44f3d9b1b14e1c0433308a0daa8317baa27f0626e885b2d870999f",
+        "workflow/1-annotated_json/data_en/501.json": "90b5a7f30bcc1999b66d62056014805863ecff6a86e0d4beb66ee1418821c4e7",
+        "workflow/2-filled_json-a/data_en/501.json": "a6585ba34998ec59810cced3c997fccc31b0d1ce4bb6319d2a8b72c22cfd327a",
+        "workflow/3-filled_html-a/data_en/501.html": "d279d2bbc395d5604acfbf254f28b255200e4c751eea7e55960a0bb286e6eef9",
+        "workflow/4-context-a/data_en/501.txt": "ddd8fac79fa4e25dd647c478b1d361824ccd5d6735a2986636f8bb1c807ca807",
+        "workflow/5-ph_html-a/data_en/501.html": "26f98ab61086201c76f5607fbcb0521aee3ddfa573629faefdf40f40c0b672f3",
+        "workflow/6-meta-a/data_en/501.json": "83200dec9663c2c7a27d66636072a07c7c57c029e5aaa8a565f4f48d9fd91144"
+      },
+      "annotation_path": "data/annotations/en/501.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 502,
+      "language": "en",
+      "title": "HHV-6 and HHV-7",
+      "source_id": "en-ukhsa-502-hhv6-hhv7-e18",
+      "domain": "Healthcare",
+      "issuer_id": "UKHSA",
+      "template_family": "ukhsa-hhv6-hhv7-e18",
+      "source_pages": 1,
+      "source_sha256": "ac44355460dba551d8ab06196c8181d38c6b59127ff43d38a274a7b7e6b0b65d",
+      "fields": 49,
+      "files": {
+        "workflow/0-html_template/data_en/502.html": "6961a0fb439f3966e69a50193ccd08c569c5e386e952d98ded1188ae0bb17f51",
+        "workflow/1-annotated_json/data_en/502.json": "f464c0051e432cfadf9e92f58fed23eafb0249ed19eefe44d69c3c3a02f42b66",
+        "workflow/2-filled_json-a/data_en/502.json": "6a95d3858c177082d4763f7a739b520527dbb9746f1b9aa183e3cd1616cdb329",
+        "workflow/3-filled_html-a/data_en/502.html": "08d7d583eeb68f93efdff648fdd83c212ffb438fe601dfc8ff7c310ba48a6943",
+        "workflow/4-context-a/data_en/502.txt": "695da819ab8620cf5644369f1c7e4f1a05d0c2571a0aa58d0aa62b6804b21fad",
+        "workflow/5-ph_html-a/data_en/502.html": "743605465ef42a809d6426a8a3c59a2818d751f992b6a280c4f9ed2aa3548593",
+        "workflow/6-meta-a/data_en/502.json": "96b96e005f843be0e5989121d70aaaf4fbcb5639052492606b46f484f0fb172c"
+      },
+      "annotation_path": "data/annotations/en/502.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 503,
+      "language": "en",
+      "title": "Zoonotic and Acute Respiratory Section",
+      "source_id": "en-ukhsa-503-zoonotic-respiratory-r1",
+      "domain": "Healthcare",
+      "issuer_id": "UKHSA",
+      "template_family": "ukhsa-zoonotic-respiratory-r1",
+      "source_pages": 1,
+      "source_sha256": "488b039c943db0961dba25172c1dfdc92311931989606103b4503f921c46f971",
+      "fields": 53,
+      "files": {
+        "workflow/0-html_template/data_en/503.html": "9f814f3820b1cafd3f8668bda70a867c373d9b1e921f2efa93727402fd25d47d",
+        "workflow/1-annotated_json/data_en/503.json": "86886d12785836476019b83510e0c284faef888ee4e2510224b55a1cc048061f",
+        "workflow/2-filled_json-a/data_en/503.json": "32452f4cbabb2580912525f5e6e3e3607b34b76e2f2efa0765df669982d9d126",
+        "workflow/3-filled_html-a/data_en/503.html": "935ab0fce49337edc8d2dc4da57fe83a061a8d415e29ff23ec58be48eee84865",
+        "workflow/4-context-a/data_en/503.txt": "8b4485f55177f97d1d86dc94628d775d03c76e0ec0cb59ce5e0582f645288ea5",
+        "workflow/5-ph_html-a/data_en/503.html": "5e1ebeb043b5fb6a130b3edef89502b64591621e04830d15b6a56308eb41d457",
+        "workflow/6-meta-a/data_en/503.json": "942e976f4e681110e90d621cf256f70a1bae5f8d8590ff7c2820355ea94a41f3"
+      },
+      "annotation_path": "data/annotations/en/503.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 504,
+      "language": "en",
+      "title": "Varicella Zoster Virus",
+      "source_id": "en-ukhsa-504-vzv-e11",
+      "domain": "Healthcare",
+      "issuer_id": "UKHSA",
+      "template_family": "ukhsa-vzv-e11",
+      "source_pages": 1,
+      "source_sha256": "dc5c40eb7ece88c3ebe4b3e610dc84868c530a796a02638da09d91db37560098",
+      "fields": 41,
+      "files": {
+        "workflow/0-html_template/data_en/504.html": "04caf37b26fa8833fc2071d12128fad20785bc1f9af96728512ac17fa67609ed",
+        "workflow/1-annotated_json/data_en/504.json": "7cef6a635351e2e1071c1c129324497c9a8a8bbe4f1dab99724dcf55d1e13bc7",
+        "workflow/2-filled_json-a/data_en/504.json": "632361073a25579a973d0c92a3723e6fbbbde1fe27ccd77d660e945286095c95",
+        "workflow/3-filled_html-a/data_en/504.html": "680cedf8198b933cae82cf41fdc787985373342db658d99184784eb395f5f0c3",
+        "workflow/4-context-a/data_en/504.txt": "e6a09cf6cfd84aa8a903eb7148dc8d3221686b821b997a5d4fe79cfa66219293",
+        "workflow/5-ph_html-a/data_en/504.html": "1a29b5dffd1fae79a33c7b3068fce31b55b6c9c1440462fc5b55c9147c87cf43",
+        "workflow/6-meta-a/data_en/504.json": "eee804366d84fe3bb9612f779c6b323519b27ae844c3eb985efe9b5fff0acb00"
+      },
+      "annotation_path": "data/annotations/en/504.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}

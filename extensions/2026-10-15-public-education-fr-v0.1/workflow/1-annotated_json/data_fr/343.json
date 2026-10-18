@@ -1,0 +1,141 @@
+{
+  "Objet": {
+    "Nature de la demande": {
+      "choices": [
+        "Nouvelle demande",
+        "Modification de l’autorisation d’exploitation :"
+      ],
+      "value": []
+    },
+    "n° de l'AE à modifier": ""
+  },
+  "1. Données concernant l'exploitant d'UAS": {
+    "1.1 Numéro d’enregistrement de l’exploitant UAS": "",
+    "1.2 Nom de l’exploitant UAS": "",
+    "1.3 Nom du dirigeant responsable": "",
+    "1.4 Point de contact opérationnel": {
+      "Nom": "",
+      "Téléphone": "",
+      "Courriel": ""
+    }
+  },
+  "2. Détails concernant l’opération UAS": {
+    "2.1 Date prévue de début de l’opération": "",
+    "2.2 Date de fin prévue": "",
+    "2.3 Lieu(x) prévu(s) de l'opération": "",
+    "2.4 Référence et révision de l'évaluation des risques": {
+      "Méthode": {
+        "choices": [
+          "SORA version",
+          "PDRA #",
+          "autre"
+        ],
+        "value": []
+      },
+      "SORA version": "",
+      "PDRA #": "",
+      "autre": ""
+    },
+    "2.5 Niveau d'assurance et d'intégrité (SAIL)": "",
+    "2.6 Type d’opération": {
+      "choices": [
+        "Vol en vue (VLOS)",
+        "Vol hors vue (BVLOS)"
+      ],
+      "value": []
+    },
+    "2.7 Transport de marchandises dangereuses": {
+      "choices": [
+        "Oui",
+        "Non"
+      ],
+      "value": []
+    },
+    "2.8 Caractérisation des risques au sol": {
+      "2.8.1 Zone d'exploitation": "",
+      "2.8.2 Zone adjacente": ""
+    },
+    "2.9 Limite supérieure du volume d’exploitation": "",
+    "2.10 Classe d'espace aérien de l'opération envisagée": {
+      "Classes": {
+        "choices": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "U-space",
+          "Autre, précisez"
+        ],
+        "value": []
+      },
+      "Autre, précisez": ""
+    },
+    "2.11 Niveau de risque aérien résiduel": {
+      "2.11.1 Volume d'exploitation": {
+        "choices": [
+          "ARC-a",
+          "ARC-b",
+          "ARC-c",
+          "ARC-d"
+        ],
+        "value": []
+      },
+      "2.11.2. Volume adjacent": {
+        "choices": [
+          "ARC-a",
+          "ARC-b",
+          "ARC-c",
+          "ARC-d"
+        ],
+        "value": []
+      }
+    },
+    "2.12 Référence du manuel d'exploitation": "",
+    "2.13 Référence du dossier de démonstration de conformité": ""
+  },
+  "3. Données concernant l’UAS ou les UAS": {
+    "3.1 Constructeur": "",
+    "3.2 Modèle": "",
+    "3.3 Type d'UAS": {
+      "choices": [
+        "Avion",
+        "Hélicoptère",
+        "Multirotor",
+        "Hybride/VTOL",
+        "Plus léger que l’air / autre"
+      ],
+      "value": []
+    },
+    "3.4 Dimensions caractéristiques maximales": "",
+    "3.5 Masse au décollage": "",
+    "3.6 Vitesse maximale": "",
+    "3.7 Numéro de série ou, le cas échéant, immatriculation": "",
+    "3.8 Certificat de type (TC) ou rapport de vérification de la conception, le cas échéant": "",
+    "3.9 Numéro du certificat de navigabilité (CdN), le cas échéant": "",
+    "3.10 Numéro du certificat de puissance acoustique, le cas échéant": "",
+    "3.11 Atténuation des effets de l'impact au sol (M2)": {
+      "choices": [
+        "Non",
+        "Oui, faible",
+        "Oui, moyenne",
+        "Oui, élevée"
+      ],
+      "value": []
+    },
+    "3.12 Exigences techniques pour le confinement": {
+      "choices": [
+        "Standard",
+        "Renforcé"
+      ],
+      "value": []
+    }
+  },
+  "4. Remarques": "",
+  "Déclaration de conformité": {
+    "Date": "",
+    "Signature": ""
+  }
+}

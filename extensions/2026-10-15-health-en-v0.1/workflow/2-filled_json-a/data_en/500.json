@@ -1,0 +1,164 @@
+{
+  "SENDER’S INFORMATION": {
+    "Sender’s name and address": "Synthetic Northbridge Laboratory, 18 Example Road, London",
+    "Contact number:": "020 7946 0123",
+    "Hospital name": "Synthetic Northbridge Hospital",
+    "Ward/clinic name": "Synthetic Infection Clinic",
+    "Hospital number": "SYNH500",
+    "Patient’s Health Protection Team": "Synthetic London HPT",
+    "Postcode": "SW1A 0AA",
+    "Purchase order number": "SYNPO500"
+  },
+  "PATIENT/SOURCE INFORMATION": {
+    "NHS number": "SYN-NHS-500",
+    "Surname": "Example",
+    "Hazard details": "No additional Hazard Group 3 or 4 pathogen suspected",
+    "Forename": "Morgan",
+    "Sex": {
+      "choices": [
+        "Male",
+        "Female",
+        "Not known/other"
+      ],
+      "value": [
+        "Female"
+      ]
+    },
+    "Date of birth": "15/03/1992",
+    "Age": "34",
+    "Patient’s postcode": "SW1A 0AA"
+  },
+  "SAMPLE INFORMATION": {
+    "Your reference": "SYNB500",
+    "Sample type": {
+      "choices": [
+        "Serum/clotted blood",
+        "Plasma",
+        "EDTA whole blood",
+        "CSF (Please send paired sera)"
+      ],
+      "value": [
+        "Serum/clotted blood"
+      ]
+    },
+    "Request": {
+      "choices": [
+        "Brucella serology/PCR (non-canis)",
+        "Brucella canis"
+      ],
+      "value": [
+        "Brucella serology/PCR (non-canis)",
+        "Brucella canis"
+      ]
+    },
+    "Date of collection": "12/10/2026",
+    "Time": "09:30",
+    "Antibiotics given?": {
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "value": [
+        "Yes"
+      ]
+    },
+    "If canis requested:": {
+      "choices": [
+        "Symptomatic",
+        "Asymptomatic"
+      ],
+      "value": [
+        "Symptomatic"
+      ]
+    },
+    "Date sent to UKHSA": "13/10/2026",
+    "Urgency": {
+      "choices": [
+        "Routine",
+        "Urgent"
+      ],
+      "value": [
+        "Routine"
+      ]
+    }
+  },
+  "CLINICAL/EPIDEMIOLOGICAL INFORMATION": {
+    "Brucella serology/PCR (non-canis)": {
+      "Risk Factors": {
+        "choices": [
+          "Calving",
+          "Dealing with cattle still births",
+          "Consumption of unpasteurised milk/cheese",
+          "Exposure details"
+        ],
+        "value": [
+          "Consumption of unpasteurised milk/cheese",
+          "Exposure details"
+        ]
+      },
+      "State country": "France"
+    },
+    "Brucella canis": {
+      "Exposure": {
+        "choices": [
+          "Occupational exposure (e.g. veterinary surgeon)",
+          "Non-occupational exposure (e.g. owner of infected dog)",
+          "Test advised by UKHSA"
+        ],
+        "value": [
+          "Non-occupational exposure (e.g. owner of infected dog)"
+        ]
+      },
+      "Date of exposure": "20/09/2026",
+      "Detail exposure": {
+        "choices": [
+          "Detail exposure"
+        ],
+        "value": [
+          "Detail exposure"
+        ]
+      },
+      "Please state": "Contact with a dog investigated for Brucella canis"
+    },
+    "Clinical Features": {
+      "choices": [
+        "Acute onset",
+        "Insidious onset",
+        "Fever",
+        "Night sweats",
+        "Fatigue",
+        "Anorexia",
+        "Weight loss",
+        "Headaches",
+        "Arthralgia",
+        "Other (please specify)"
+      ],
+      "value": [
+        "Acute onset",
+        "Fever",
+        "Night sweats",
+        "Fatigue",
+        "Other (please specify)"
+      ],
+      "Other": "Malaise"
+    },
+    "Complications": {
+      "choices": [
+        "Epididymo-orchitis",
+        "Bone/joint Involvement",
+        "Endocarditis",
+        "Suppurative organ infection (e.g. spleen)",
+        "Abnormal liver function tests",
+        "Other (please specify)"
+      ],
+      "value": [
+        "Other (please specify)"
+      ],
+      "Other": "Mild hepatomegaly under assessment"
+    },
+    "Date of symptom onset": "01/10/2026"
+  },
+  "OTHER COMMENTS": {
+    "OTHER COMMENTS": "Paired follow-up serum planned; synthetic referral only"
+  }
+}

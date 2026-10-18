@@ -1,0 +1,195 @@
+{
+  "SENDER’S INFORMATION": {
+    "Sender’s name and address": "Synthetic Northbridge Laboratory, 18 Example Road, London",
+    "Report to be sent FAO": "Dr Avery Example",
+    "Contact Phone": "020 7946 0123",
+    "Ext": "215",
+    "Purchase order number": "SYNPO503",
+    "Project code": "SYNP503",
+    "Postcode": "SW1A 0AA",
+    "UKHSA outbreak/investigation": {
+      "choices": [
+        "yes"
+      ],
+      "value": [
+        "yes"
+      ],
+      "Reference": "SYN-OUTBREAK-503",
+      "Details": "Synthetic cluster under investigation"
+    }
+  },
+  "PATIENT/SOURCE INFORMATION": {
+    "Source type": {
+      "choices": [
+        "Human",
+        "Animal*",
+        "Water*",
+        "Environment*",
+        "Other*"
+      ],
+      "value": [
+        "Human"
+      ],
+      "Details": "Human clinical source"
+    },
+    "Care setting": {
+      "choices": [
+        "InPatient",
+        "Outpatient",
+        "GP Patient",
+        "Other*"
+      ],
+      "value": [
+        "Other*"
+      ],
+      "Details": "Assessment unit"
+    },
+    "NHS number": "SYN-NHS-503",
+    "Sex": {
+      "choices": [
+        "Male",
+        "Female"
+      ],
+      "value": [
+        "Male"
+      ]
+    },
+    "Surname": "Example",
+    "Date of birth": "10/06/1980",
+    "Age": "46",
+    "Forename": "Taylor",
+    "Patient’s postcode": "SW1A 0AA",
+    "Patient’s HPT": "Synthetic London HPT",
+    "Hospital number": "SYNH503",
+    "Ward/clinic name": "Synthetic Infection Clinic",
+    "Hospital name": "Synthetic Northbridge Hospital",
+    "Ward type": "Adult infectious diseases"
+  },
+  "SAMPLE INFORMATION": {
+    "Your reference": "SYNR503",
+    "Hazard status": {
+      "choices": [
+        "Group3",
+        "Group4",
+        "No",
+        "Unknown"
+      ],
+      "value": [
+        "No"
+      ]
+    },
+    "Sample type": {
+      "choices": [
+        "Isolate",
+        "Clinical Sample",
+        "DNA Extract*",
+        "Other (please specify)"
+      ],
+      "value": [
+        "Clinical Sample",
+        "Other (please specify)"
+      ],
+      "Other": "Additional aliquot"
+    },
+    "Preliminary ID and lab results": "No isolate referred; preliminary Legionella urine antigen positive",
+    "Hazard details": "No additional hazard suspected",
+    "Specimen type": {
+      "choices": [
+        "Urine",
+        "Sputum",
+        "BAL",
+        "ETA",
+        "NPA",
+        "Lung Tissue",
+        "Throat Swab (Mycoplasma, Ureaplasma & respiratory Chlamydia only)",
+        "Other (please specify)"
+      ],
+      "value": [
+        "Urine",
+        "Sputum",
+        "Other (please specify)"
+      ],
+      "Other": "Repeat urine aliquot"
+    },
+    "Presumptive identification /methodology": "Legionella pneumophila serogroup 1; urine antigen immunoassay",
+    "Date of collection": "12/10/2026",
+    "Time": "09:30",
+    "Date sent to UKHSA": "13/10/2026"
+  },
+  "TESTS REQUESTED": {
+    "Legionella": {
+      "choices": [
+        "L. pneumophila urinary antigen test confirmation",
+        "L. pneumophila detection/culture/typing (urinary Ag positive)",
+        "Legionella spp. detection/culture/identification (urinary Ag negative)",
+        "Culture for identification, confirmation or typing"
+      ],
+      "value": [
+        "L. pneumophila urinary antigen test confirmation",
+        "L. pneumophila detection/culture/typing (urinary Ag positive)"
+      ]
+    },
+    "Mycoplasma & Ureaplasma": {
+      "choices": [
+        "M. pneumoniae PCR, culture & macrolide resistance",
+        "Ureaplasma/ M. hominis PCR & culture",
+        "Mycoplasma culture for identification"
+      ],
+      "value": [
+        "M. pneumoniae PCR, culture & macrolide resistance"
+      ]
+    },
+    "Respiratory Chlamydia": {
+      "choices": [
+        "Respiratory Chlamydia PCR (C. psittaci/ C. abortus/ C. pneumoniae)"
+      ],
+      "value": [
+        "Respiratory Chlamydia PCR (C. psittaci/ C. abortus/ C. pneumoniae)"
+      ]
+    }
+  },
+  "SENDER’S LABORATORY RESULTS": {
+    "L. pneumophila Sgp 1 antigen in urine": {
+      "choices": [
+        "Positive",
+        "Equivocal"
+      ],
+      "value": [
+        "Positive"
+      ],
+      "Assay/Kit": "Synthetic urine antigen kit",
+      "Lot number": "SYNLOT503A"
+    },
+    "PCR Result": {
+      "choices": [
+        "Positive",
+        "Negative"
+      ],
+      "value": [
+        "Positive"
+      ],
+      "Assay/Kit": "Synthetic PCR assay",
+      "Lot number": "SYNLOT503B"
+    }
+  },
+  "CLINICAL/EPIDEMIOLOGICAL INFORMATION": {
+    "Antibiotics Start Date": "11/10/2026",
+    "Clinical features": {
+      "choices": [
+        "Intensive Care Unit",
+        "Bird contact",
+        "Sheep / ruminant contact",
+        "COVID-19 Positive",
+        "Extracorporeal membrane oxygenation (ECMO)"
+      ],
+      "value": [
+        "Intensive Care Unit",
+        "Bird contact"
+      ]
+    },
+    "Antibiotics Completion Date": "18/10/2026",
+    "Further Comments": "Synthetic pneumonia cluster; bird contact noted",
+    "Antibiotics given": "Azithromycin",
+    "Date of onset": "09/10/2026"
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "Administración": {
+    "Formulario G Nº:": "G-2026-0042",
+    "Expediente Nº:": "DNDA-2026-0042",
+    "Fecha:": "15/10/2026",
+    "Dirección Nacional del Derecho de Autor": {
+      "Firma y sello": "Ana Márquez, Dirección Nacional del Derecho de Autor"
+    }
+  },
+  "Trámite": {
+    "Trámite": {
+      "choices": [
+        "Informe",
+        "Certificado Duplicado",
+        "Devolución de Obra",
+        "Oficio Judicial",
+        "Toma de Razón de actos posteriores a la inscripción"
+      ],
+      "value": [
+        "Toma de Razón de actos posteriores a la inscripción"
+      ]
+    }
+  },
+  "Solicitante": {
+    "Nombre/s": "Lucía",
+    "Apellido/s": "Benítez",
+    "Tel": "011 5550 0201",
+    "Cel": "011 5550 0202",
+    "Domicilio (Calle, Nº, Localidad, Provincia, CP)": "Mitre 420, Rosario, Santa Fe, 2000",
+    "Correo Electrónico": "lucia.benitez@example.org"
+  },
+  "Expediente": {
+    "Expediente 1": {
+      "Número": "DNDA-2024-001",
+      "Fecha": "20/06/2024"
+    },
+    "Expediente 2": {
+      "Número": "DNDA-2024-002",
+      "Fecha": "15/07/2024"
+    },
+    "Expediente 3": {
+      "Número": "DNDA-2024-003",
+      "Fecha": "30/08/2024"
+    }
+  },
+  "Obra": {
+    "Título 1": "Inventario del río",
+    "Título 2": "Mapa del litoral",
+    "Título 3": "Archivo de estaciones"
+  },
+  "Solamente para devolución de obra o toma de razón": {
+    "Acto": {
+      "choices": [
+        "Devolución",
+        "Toma de razón"
+      ],
+      "value": [
+        "Toma de razón"
+      ]
+    },
+    "Autor/es y/o Titular/es": {
+      "Persona 1": {
+        "Nombre/s y Apellido/s": "Lucía Benítez",
+        "DNI": "32123456",
+        "Autor y/o Titular": {
+          "choices": [
+            "Autor",
+            "Titular"
+          ],
+          "value": [
+            "Autor",
+            "Titular"
+          ]
+        },
+        "Firma": "Lucía Benítez"
+      },
+      "Persona 2": {
+        "Nombre/s y Apellido/s": "Miguel Suárez",
+        "DNI": "29123456",
+        "Autor y/o Titular": {
+          "choices": [
+            "Autor",
+            "Titular"
+          ],
+          "value": [
+            "Autor"
+          ]
+        },
+        "Firma": "Miguel Suárez"
+      },
+      "Persona 3": {
+        "Nombre/s y Apellido/s": "Ana Torres",
+        "DNI": "33123456",
+        "Autor y/o Titular": {
+          "choices": [
+            "Autor",
+            "Titular"
+          ],
+          "value": [
+            "Titular"
+          ]
+        },
+        "Firma": "Ana Torres"
+      },
+      "Descripción del pedido (Informe) / Modificaciones a efectuar (Toma de Razón)": "Solicito tomar razón de la incorporación de Mateo Ríos y Rocío Vega como titulares de derechos en las tres obras indicadas, con la conformidad firmada de los titulares actuales."
+    }
+  },
+  "Solamente para Toma de Razón": {
+    "Persona/s a agregar": {
+      "Persona 1": {
+        "Nombre/s": "Mateo",
+        "Apellido/s": "Ríos",
+        "Autor y/o Titular": {
+          "choices": [
+            "Autor",
+            "Titular"
+          ],
+          "value": [
+            "Titular"
+          ]
+        },
+        "Persona jurídica": {
+          "choices": [
+            "SI",
+            "NO"
+          ],
+          "value": [
+            "NO"
+          ]
+        },
+        "CUIT / CUIL / CDI": "20-30123456-7",
+        "Correo Electrónico": "mateo.rios@example.org",
+        "Tel": "011 5550 0211",
+        "DNI / Pasap.": "DNI 30123456",
+        "País": "Argentina",
+        "Cel": "011 5550 0221",
+        "Domicilio (Calle, Nº, Localidad, Provincia, CP, País)": "Belgrano 710, Rosario, Santa Fe, 2000, Argentina",
+        "Firma": "Mateo Ríos"
+      },
+      "Persona 2": {
+        "Nombre/s": "Rocío",
+        "Apellido/s": "Vega",
+        "Autor y/o Titular": {
+          "choices": [
+            "Autor",
+            "Titular"
+          ],
+          "value": [
+            "Titular"
+          ]
+        },
+        "Persona jurídica": {
+          "choices": [
+            "SI",
+            "NO"
+          ],
+          "value": [
+            "NO"
+          ]
+        },
+        "CUIT / CUIL / CDI": "27-34123456-9",
+        "Correo Electrónico": "rocio.vega@example.org",
+        "Tel": "011 5550 0212",
+        "DNI / Pasap.": "DNI 34123456",
+        "País": "Argentina",
+        "Cel": "011 5550 0222",
+        "Domicilio (Calle, Nº, Localidad, Provincia, CP, País)": "Belgrano 720, Rosario, Santa Fe, 2000, Argentina",
+        "Firma": "Rocío Vega"
+      }
+    }
+  },
+  "Solamente para Oficio Judicial": {
+    "Tipo de requerimiento": {
+      "choices": [
+        "Informe",
+        "Pago de tasa"
+      ],
+      "value": []
+    },
+    "Autos": "No corresponde; trámite de toma de razón",
+    "Nº causa": "No corresponde; trámite de toma de razón",
+    "Tribunal": "No corresponde; trámite de toma de razón",
+    "Secretaría": "No corresponde; trámite de toma de razón"
+  },
+  "Observaciones": {
+    "Observaciones": "Se adjuntan autorizaciones de los titulares y documentos de las personas a incorporar."
+  },
+  "Suscripción": {
+    "Solicitante": {
+      "Firma": "Lucía Benítez",
+      "Aclaración": "Lucía Benítez",
+      "DNI": "32123456",
+      "Carácter": "Autora y titular"
+    }
+  }
+}

@@ -1,0 +1,4701 @@
+{
+  "id": "fr-383-remboursement-transfert-credits",
+  "title": "DEMANDE DE REMBOURSEMENT, TRANSFERT ET REVERSEMENT DE CREDITS D'IMPOT, DE CREANCES ET DE REDUCTIONS D’IMPOT",
+  "language": "fr",
+  "domain": "Finance",
+  "issuer_id": "Direction générale des finances publiques (DGFiP)",
+  "template_family": "2573-sd",
+  "business_topic": "DEMANDE DE REMBOURSEMENT, TRANSFERT ET REVERSEMENT DE CREDITS D'IMPOT, DE CREANCES ET DE REDUCTIONS D’IMPOT",
+  "source_url": "https://www.impots.gouv.fr/sites/default/files/formulaires/2573-sd/2026/2573-sd_5287.pdf",
+  "landing_url": "https://www.impots.gouv.fr/formulaire/2573-sd/impot-sur-les-societes-et-contribution-assimilees-demande-de-remboursement-de",
+  "license_url": "https://www.impots.gouv.fr/mentions-legales",
+  "license_note": "DGFiP public information: Licence Ouverte Etalab 2.0, except explicitly identified third-party intellectual property. Attribution and printed edition or undated-edition fetch are retained. DGFiP graphics and original PDFs are not redistributed.",
+  "source_sha256": "f1029221577b6de351a097339f2b4a5b08a4561d382c3256d425e6e0489e5925",
+  "source_pages": 3,
+  "retrieved_at": "2026-10-05T03:00:56+08:00",
+  "source_version": "2573-SD; Cerfa 12486*18; edition undated",
+  "source_date_evidence": {
+    "kind": "edition undated",
+    "source_page": 1,
+    "literal": "2573-SD; Cerfa 12486*18; edition undated",
+    "scope": "Edition is based on printed text, not PDF metadata or URL year. The source was reused from the dated local download."
+  },
+  "columns": 12,
+  "rows": [
+    [
+      {
+        "text": "DEMANDE DE REMBOURSEMENT, TRANSFERT ET REVERSEMENT DE CREDITS D'IMPOT, DE CREANCES ET DE REDUCTIONS D’IMPOT",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "IMPOT SUR LES SOCIETES ET CONTRIBUTIONS ASSIMILEES",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "DENOMINATION",
+        "field": "f0001",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Adresse",
+        "field": "f0002",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Nom et adresse personnelle de l'exploitant",
+        "field": "f0003",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "SIREN",
+        "field": "f0004",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Société bénéficiant du régime de l'intégration fiscale",
+        "field": "f0005",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "I – Demande de remboursement de créances",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "text": "Nature de la créance",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "text": "Année d'origine de la créance",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "text": "Montant de l’intérêt légal",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "text": "Montant du rembourseme nt demandé",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "text": "A compléter exclusivement en cas de demande formulée suite à l'ouverture de conciliation ou d'une procédure collective",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "text": "Motif de la demande",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "text": "Demande d'imputation sur échéance future",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Nature de la créance",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Année d'origine de la créance",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Montant du rembourseme nt demandé",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Nature de la procédure",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Date d'ouverture de la procédure",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Motif de la demande",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Typologie d'impôt ou taxe",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Date de l’échéance",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Montant à utiliser",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "1",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f0006",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0007",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0008",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0009",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0010",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0011",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0012",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0013",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0014",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0015",
+        "source_page": 1,
+        "colspan": 1
+      }
+    ],
+    [
+      {
+        "text": "2",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f0016",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0017",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0018",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0019",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0020",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0021",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0022",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0023",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0024",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0025",
+        "source_page": 1,
+        "colspan": 1
+      }
+    ],
+    [
+      {
+        "text": "3",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f0026",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0027",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0028",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0029",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0030",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0031",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0032",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0033",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0034",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0035",
+        "source_page": 1,
+        "colspan": 1
+      }
+    ],
+    [
+      {
+        "text": "4",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f0036",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0037",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0038",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0039",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0040",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0041",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0042",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0043",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0044",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0045",
+        "source_page": 1,
+        "colspan": 1
+      }
+    ],
+    [
+      {
+        "text": "5",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f0046",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0047",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0048",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0049",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0050",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0051",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0052",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0053",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0054",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0055",
+        "source_page": 1,
+        "colspan": 1
+      }
+    ],
+    [
+      {
+        "text": "6",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f0056",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0057",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0058",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0059",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0060",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0061",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0062",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0063",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0064",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0065",
+        "source_page": 1,
+        "colspan": 1
+      }
+    ],
+    [
+      {
+        "text": "7",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f0066",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0067",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0068",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0069",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0070",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0071",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0072",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0073",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0074",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0075",
+        "source_page": 1,
+        "colspan": 1
+      }
+    ],
+    [
+      {
+        "text": "8",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f0076",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0077",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0078",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0079",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0080",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0081",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0082",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0083",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0084",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0085",
+        "source_page": 1,
+        "colspan": 1
+      }
+    ],
+    [
+      {
+        "text": "9",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f0086",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0087",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0088",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0089",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0090",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0091",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0092",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0093",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0094",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0095",
+        "source_page": 1,
+        "colspan": 1
+      }
+    ],
+    [
+      {
+        "text": "10",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f0096",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0097",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0098",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0099",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0100",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0101",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0102",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0103",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0104",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0105",
+        "source_page": 1,
+        "colspan": 1
+      }
+    ],
+    [
+      {
+        "text": "II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SIREN de la société tête de groupe",
+        "field": "f0106",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "Date de clôture de l'exercice de détermination de la créance née du report en arrière de déficit",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "Date de cession de la créance",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "SIREN de la société à l'origine de la créance",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Montant de la cession",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "1",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f0107",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "field": "f0108",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0109",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0110",
+        "source_page": 1,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "text": "2",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f0111",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "field": "f0112",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0113",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0114",
+        "source_page": 1,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "text": "3",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f0115",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "field": "f0116",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0117",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0118",
+        "source_page": 1,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "text": "4",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f0119",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "field": "f0120",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0121",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0122",
+        "source_page": 1,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "text": "5",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "field": "f0123",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "field": "f0124",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0125",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0126",
+        "source_page": 1,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "text": "III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SIREN de la société absorbante ou bénéficiaire des apports",
+        "field": "f0127",
+        "source_page": 2,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Nature du crédit, de la créance ou de la réduction d'impôt :",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Date du transfert de la créance",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "SIREN de la société à l'origine de la créance",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Montant du transfert",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "1",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f0128",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0129",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0130",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0131",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0132",
+        "source_page": 2,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "text": "2",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f0133",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0134",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0135",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0136",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0137",
+        "source_page": 2,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "text": "3",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f0138",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0139",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0140",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0141",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0142",
+        "source_page": 2,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "text": "4",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f0143",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0144",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0145",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0146",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0147",
+        "source_page": 2,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "text": "5",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f0148",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0149",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0150",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0151",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0152",
+        "source_page": 2,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "text": "IV – Reversement de créances",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Nature du crédit, de la créance ou de la réduction d'impôt :",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Date du transfert de la créance",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Montant du reversement",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "label": "Intérêt de retard",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "1",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f0153",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0154",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0155",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0156",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0157",
+        "source_page": 2,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "text": "2",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f0158",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0159",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0160",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0161",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0162",
+        "source_page": 2,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "text": "3",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f0163",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0164",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0165",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0166",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0167",
+        "source_page": 2,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "text": "4",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f0168",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0169",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0170",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0171",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0172",
+        "source_page": 2,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "text": "5",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f0173",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0174",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0175",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0176",
+        "source_page": 2,
+        "colspan": 2
+      },
+      {
+        "field": "f0177",
+        "source_page": 2,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "text": "V – Cadre réservé à l'Administration",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Numéro MEDOC",
+        "field": "f0178",
+        "source_page": 2,
+        "colspan": 6
+      },
+      {
+        "label": "Cachet du poste comptable",
+        "field": "f0179",
+        "source_page": 2,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Date et signature",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "A",
+        "field": "f0180",
+        "source_page": 2,
+        "colspan": 6
+      },
+      {
+        "label": "LE",
+        "field": "f0181",
+        "source_page": 2,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "SIGNATURE",
+        "field": "f0182",
+        "source_page": 2,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "Page 3 : sans champ à remplir",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Source : Direction générale des finances publiques. https://www.impots.gouv.fr/sites/default/files/formulaires/2573-sd/2026/2573-sd_5287.pdf; 2573-SD; Cerfa 12486*18; edition undated; Licence Ouverte Etalab 2.0.",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f0001",
+      "label": "DENOMINATION",
+      "path": [
+        "Page 1",
+        "IMPOT SUR LES SOCIETES ET CONTRIBUTIONS ASSIMILEES",
+        "DENOMINATION"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DENOMINATION",
+      "synthetic_value": "Exemple Recherche SAS"
+    },
+    {
+      "id": "f0002",
+      "label": "Adresse",
+      "path": [
+        "Page 1",
+        "IMPOT SUR LES SOCIETES ET CONTRIBUTIONS ASSIMILEES",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Adresse",
+      "synthetic_value": "12 rue Exemple, 75000 Paris"
+    },
+    {
+      "id": "f0003",
+      "label": "Nom et adresse personnelle de l'exploitant",
+      "path": [
+        "Page 1",
+        "IMPOT SUR LES SOCIETES ET CONTRIBUTIONS ASSIMILEES",
+        "Nom et adresse personnelle de l'exploitant"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom et adresse personnelle de l'exploitant",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "f0004",
+      "label": "SIREN",
+      "path": [
+        "Page 1",
+        "IMPOT SUR LES SOCIETES ET CONTRIBUTIONS ASSIMILEES",
+        "SIREN"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "SIREN",
+      "synthetic_value": "000000383"
+    },
+    {
+      "id": "f0005",
+      "label": "Société bénéficiant du régime de l'intégration fiscale",
+      "path": [
+        "Page 1",
+        "IMPOT SUR LES SOCIETES ET CONTRIBUTIONS ASSIMILEES",
+        "Société bénéficiant du régime de l'intégration fiscale"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "Société bénéficiant du régime de l'intégration fiscale",
+      "synthetic_value": [],
+      "options": [
+        "Société bénéficiant du régime de l'intégration fiscale"
+      ],
+      "context_evidence": "Page 1 / IMPOT SUR LES SOCIETES ET CONTRIBUTIONS ASSIMILEES / Société bénéficiant du régime de l'intégration fiscale: Aucune sélection"
+    },
+    {
+      "id": "f0006",
+      "label": "Nature de la créance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "1",
+        "Nature de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nature de la créance",
+      "synthetic_value": "CIR",
+      "label_position": [
+        9,
+        2
+      ]
+    },
+    {
+      "id": "f0007",
+      "label": "Année d'origine de la créance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "1",
+        "Année d'origine de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Année d'origine de la créance",
+      "synthetic_value": "2025",
+      "label_position": [
+        9,
+        3
+      ]
+    },
+    {
+      "id": "f0008",
+      "label": "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "1",
+        "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "f0009",
+      "label": "Montant du rembourseme nt demandé",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "1",
+        "Montant du rembourseme nt demandé"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant du rembourseme nt demandé",
+      "synthetic_value": "12000",
+      "label_position": [
+        9,
+        5
+      ]
+    },
+    {
+      "id": "f0010",
+      "label": "Nature de la procédure",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "1",
+        "Nature de la procédure"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nature de la procédure",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        6
+      ]
+    },
+    {
+      "id": "f0011",
+      "label": "Date d'ouverture de la procédure",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "1",
+        "Date d'ouverture de la procédure"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date d'ouverture de la procédure",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        7
+      ]
+    },
+    {
+      "id": "f0012",
+      "label": "Motif de la demande",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "1",
+        "Motif de la demande"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Motif de la demande",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "f0013",
+      "label": "Typologie d'impôt ou taxe",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "1",
+        "Typologie d'impôt ou taxe"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Typologie d'impôt ou taxe",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        9
+      ]
+    },
+    {
+      "id": "f0014",
+      "label": "Date de l’échéance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "1",
+        "Date de l’échéance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de l’échéance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "f0015",
+      "label": "Montant à utiliser",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "1",
+        "Montant à utiliser"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant à utiliser",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        11
+      ]
+    },
+    {
+      "id": "f0016",
+      "label": "Nature de la créance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "2",
+        "Nature de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nature de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        2
+      ]
+    },
+    {
+      "id": "f0017",
+      "label": "Année d'origine de la créance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "2",
+        "Année d'origine de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Année d'origine de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        3
+      ]
+    },
+    {
+      "id": "f0018",
+      "label": "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "2",
+        "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "f0019",
+      "label": "Montant du rembourseme nt demandé",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "2",
+        "Montant du rembourseme nt demandé"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant du rembourseme nt demandé",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        5
+      ]
+    },
+    {
+      "id": "f0020",
+      "label": "Nature de la procédure",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "2",
+        "Nature de la procédure"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nature de la procédure",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        6
+      ]
+    },
+    {
+      "id": "f0021",
+      "label": "Date d'ouverture de la procédure",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "2",
+        "Date d'ouverture de la procédure"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date d'ouverture de la procédure",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        7
+      ]
+    },
+    {
+      "id": "f0022",
+      "label": "Motif de la demande",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "2",
+        "Motif de la demande"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Motif de la demande",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "f0023",
+      "label": "Typologie d'impôt ou taxe",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "2",
+        "Typologie d'impôt ou taxe"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Typologie d'impôt ou taxe",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        9
+      ]
+    },
+    {
+      "id": "f0024",
+      "label": "Date de l’échéance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "2",
+        "Date de l’échéance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de l’échéance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "f0025",
+      "label": "Montant à utiliser",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "2",
+        "Montant à utiliser"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant à utiliser",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        11
+      ]
+    },
+    {
+      "id": "f0026",
+      "label": "Nature de la créance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "3",
+        "Nature de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nature de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        2
+      ]
+    },
+    {
+      "id": "f0027",
+      "label": "Année d'origine de la créance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "3",
+        "Année d'origine de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Année d'origine de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        3
+      ]
+    },
+    {
+      "id": "f0028",
+      "label": "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "3",
+        "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "f0029",
+      "label": "Montant du rembourseme nt demandé",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "3",
+        "Montant du rembourseme nt demandé"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant du rembourseme nt demandé",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        5
+      ]
+    },
+    {
+      "id": "f0030",
+      "label": "Nature de la procédure",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "3",
+        "Nature de la procédure"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nature de la procédure",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        6
+      ]
+    },
+    {
+      "id": "f0031",
+      "label": "Date d'ouverture de la procédure",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "3",
+        "Date d'ouverture de la procédure"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date d'ouverture de la procédure",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        7
+      ]
+    },
+    {
+      "id": "f0032",
+      "label": "Motif de la demande",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "3",
+        "Motif de la demande"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Motif de la demande",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "f0033",
+      "label": "Typologie d'impôt ou taxe",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "3",
+        "Typologie d'impôt ou taxe"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Typologie d'impôt ou taxe",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        9
+      ]
+    },
+    {
+      "id": "f0034",
+      "label": "Date de l’échéance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "3",
+        "Date de l’échéance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de l’échéance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "f0035",
+      "label": "Montant à utiliser",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "3",
+        "Montant à utiliser"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant à utiliser",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        11
+      ]
+    },
+    {
+      "id": "f0036",
+      "label": "Nature de la créance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "4",
+        "Nature de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nature de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        2
+      ]
+    },
+    {
+      "id": "f0037",
+      "label": "Année d'origine de la créance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "4",
+        "Année d'origine de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Année d'origine de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        3
+      ]
+    },
+    {
+      "id": "f0038",
+      "label": "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "4",
+        "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "f0039",
+      "label": "Montant du rembourseme nt demandé",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "4",
+        "Montant du rembourseme nt demandé"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant du rembourseme nt demandé",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        5
+      ]
+    },
+    {
+      "id": "f0040",
+      "label": "Nature de la procédure",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "4",
+        "Nature de la procédure"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nature de la procédure",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        6
+      ]
+    },
+    {
+      "id": "f0041",
+      "label": "Date d'ouverture de la procédure",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "4",
+        "Date d'ouverture de la procédure"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date d'ouverture de la procédure",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        7
+      ]
+    },
+    {
+      "id": "f0042",
+      "label": "Motif de la demande",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "4",
+        "Motif de la demande"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Motif de la demande",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "f0043",
+      "label": "Typologie d'impôt ou taxe",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "4",
+        "Typologie d'impôt ou taxe"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Typologie d'impôt ou taxe",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        9
+      ]
+    },
+    {
+      "id": "f0044",
+      "label": "Date de l’échéance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "4",
+        "Date de l’échéance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de l’échéance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "f0045",
+      "label": "Montant à utiliser",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "4",
+        "Montant à utiliser"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant à utiliser",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        11
+      ]
+    },
+    {
+      "id": "f0046",
+      "label": "Nature de la créance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "5",
+        "Nature de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nature de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        2
+      ]
+    },
+    {
+      "id": "f0047",
+      "label": "Année d'origine de la créance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "5",
+        "Année d'origine de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Année d'origine de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        3
+      ]
+    },
+    {
+      "id": "f0048",
+      "label": "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "5",
+        "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "f0049",
+      "label": "Montant du rembourseme nt demandé",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "5",
+        "Montant du rembourseme nt demandé"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant du rembourseme nt demandé",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        5
+      ]
+    },
+    {
+      "id": "f0050",
+      "label": "Nature de la procédure",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "5",
+        "Nature de la procédure"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nature de la procédure",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        6
+      ]
+    },
+    {
+      "id": "f0051",
+      "label": "Date d'ouverture de la procédure",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "5",
+        "Date d'ouverture de la procédure"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date d'ouverture de la procédure",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        7
+      ]
+    },
+    {
+      "id": "f0052",
+      "label": "Motif de la demande",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "5",
+        "Motif de la demande"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Motif de la demande",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "f0053",
+      "label": "Typologie d'impôt ou taxe",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "5",
+        "Typologie d'impôt ou taxe"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Typologie d'impôt ou taxe",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        9
+      ]
+    },
+    {
+      "id": "f0054",
+      "label": "Date de l’échéance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "5",
+        "Date de l’échéance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de l’échéance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "f0055",
+      "label": "Montant à utiliser",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "5",
+        "Montant à utiliser"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant à utiliser",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        11
+      ]
+    },
+    {
+      "id": "f0056",
+      "label": "Nature de la créance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "6",
+        "Nature de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nature de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        2
+      ]
+    },
+    {
+      "id": "f0057",
+      "label": "Année d'origine de la créance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "6",
+        "Année d'origine de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Année d'origine de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        3
+      ]
+    },
+    {
+      "id": "f0058",
+      "label": "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "6",
+        "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "f0059",
+      "label": "Montant du rembourseme nt demandé",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "6",
+        "Montant du rembourseme nt demandé"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant du rembourseme nt demandé",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        5
+      ]
+    },
+    {
+      "id": "f0060",
+      "label": "Nature de la procédure",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "6",
+        "Nature de la procédure"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nature de la procédure",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        6
+      ]
+    },
+    {
+      "id": "f0061",
+      "label": "Date d'ouverture de la procédure",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "6",
+        "Date d'ouverture de la procédure"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date d'ouverture de la procédure",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        7
+      ]
+    },
+    {
+      "id": "f0062",
+      "label": "Motif de la demande",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "6",
+        "Motif de la demande"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Motif de la demande",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "f0063",
+      "label": "Typologie d'impôt ou taxe",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "6",
+        "Typologie d'impôt ou taxe"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Typologie d'impôt ou taxe",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        9
+      ]
+    },
+    {
+      "id": "f0064",
+      "label": "Date de l’échéance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "6",
+        "Date de l’échéance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de l’échéance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "f0065",
+      "label": "Montant à utiliser",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "6",
+        "Montant à utiliser"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant à utiliser",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        11
+      ]
+    },
+    {
+      "id": "f0066",
+      "label": "Nature de la créance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "7",
+        "Nature de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nature de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        2
+      ]
+    },
+    {
+      "id": "f0067",
+      "label": "Année d'origine de la créance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "7",
+        "Année d'origine de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Année d'origine de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        3
+      ]
+    },
+    {
+      "id": "f0068",
+      "label": "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "7",
+        "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "f0069",
+      "label": "Montant du rembourseme nt demandé",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "7",
+        "Montant du rembourseme nt demandé"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant du rembourseme nt demandé",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        5
+      ]
+    },
+    {
+      "id": "f0070",
+      "label": "Nature de la procédure",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "7",
+        "Nature de la procédure"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nature de la procédure",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        6
+      ]
+    },
+    {
+      "id": "f0071",
+      "label": "Date d'ouverture de la procédure",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "7",
+        "Date d'ouverture de la procédure"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date d'ouverture de la procédure",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        7
+      ]
+    },
+    {
+      "id": "f0072",
+      "label": "Motif de la demande",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "7",
+        "Motif de la demande"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Motif de la demande",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "f0073",
+      "label": "Typologie d'impôt ou taxe",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "7",
+        "Typologie d'impôt ou taxe"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Typologie d'impôt ou taxe",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        9
+      ]
+    },
+    {
+      "id": "f0074",
+      "label": "Date de l’échéance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "7",
+        "Date de l’échéance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de l’échéance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "f0075",
+      "label": "Montant à utiliser",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "7",
+        "Montant à utiliser"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant à utiliser",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        11
+      ]
+    },
+    {
+      "id": "f0076",
+      "label": "Nature de la créance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "8",
+        "Nature de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nature de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        2
+      ]
+    },
+    {
+      "id": "f0077",
+      "label": "Année d'origine de la créance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "8",
+        "Année d'origine de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Année d'origine de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        3
+      ]
+    },
+    {
+      "id": "f0078",
+      "label": "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "8",
+        "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "f0079",
+      "label": "Montant du rembourseme nt demandé",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "8",
+        "Montant du rembourseme nt demandé"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant du rembourseme nt demandé",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        5
+      ]
+    },
+    {
+      "id": "f0080",
+      "label": "Nature de la procédure",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "8",
+        "Nature de la procédure"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nature de la procédure",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        6
+      ]
+    },
+    {
+      "id": "f0081",
+      "label": "Date d'ouverture de la procédure",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "8",
+        "Date d'ouverture de la procédure"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date d'ouverture de la procédure",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        7
+      ]
+    },
+    {
+      "id": "f0082",
+      "label": "Motif de la demande",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "8",
+        "Motif de la demande"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Motif de la demande",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "f0083",
+      "label": "Typologie d'impôt ou taxe",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "8",
+        "Typologie d'impôt ou taxe"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Typologie d'impôt ou taxe",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        9
+      ]
+    },
+    {
+      "id": "f0084",
+      "label": "Date de l’échéance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "8",
+        "Date de l’échéance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de l’échéance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "f0085",
+      "label": "Montant à utiliser",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "8",
+        "Montant à utiliser"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant à utiliser",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        11
+      ]
+    },
+    {
+      "id": "f0086",
+      "label": "Nature de la créance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "9",
+        "Nature de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nature de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        2
+      ]
+    },
+    {
+      "id": "f0087",
+      "label": "Année d'origine de la créance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "9",
+        "Année d'origine de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Année d'origine de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        3
+      ]
+    },
+    {
+      "id": "f0088",
+      "label": "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "9",
+        "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "f0089",
+      "label": "Montant du rembourseme nt demandé",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "9",
+        "Montant du rembourseme nt demandé"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant du rembourseme nt demandé",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        5
+      ]
+    },
+    {
+      "id": "f0090",
+      "label": "Nature de la procédure",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "9",
+        "Nature de la procédure"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nature de la procédure",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        6
+      ]
+    },
+    {
+      "id": "f0091",
+      "label": "Date d'ouverture de la procédure",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "9",
+        "Date d'ouverture de la procédure"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date d'ouverture de la procédure",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        7
+      ]
+    },
+    {
+      "id": "f0092",
+      "label": "Motif de la demande",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "9",
+        "Motif de la demande"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Motif de la demande",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "f0093",
+      "label": "Typologie d'impôt ou taxe",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "9",
+        "Typologie d'impôt ou taxe"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Typologie d'impôt ou taxe",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        9
+      ]
+    },
+    {
+      "id": "f0094",
+      "label": "Date de l’échéance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "9",
+        "Date de l’échéance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de l’échéance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "f0095",
+      "label": "Montant à utiliser",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "9",
+        "Montant à utiliser"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant à utiliser",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        11
+      ]
+    },
+    {
+      "id": "f0096",
+      "label": "Nature de la créance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "10",
+        "Nature de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nature de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        2
+      ]
+    },
+    {
+      "id": "f0097",
+      "label": "Année d'origine de la créance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "10",
+        "Année d'origine de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Année d'origine de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        3
+      ]
+    },
+    {
+      "id": "f0098",
+      "label": "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "10",
+        "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit)",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "f0099",
+      "label": "Montant du rembourseme nt demandé",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "10",
+        "Montant du rembourseme nt demandé"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant du rembourseme nt demandé",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        5
+      ]
+    },
+    {
+      "id": "f0100",
+      "label": "Nature de la procédure",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "10",
+        "Nature de la procédure"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nature de la procédure",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        6
+      ]
+    },
+    {
+      "id": "f0101",
+      "label": "Date d'ouverture de la procédure",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "10",
+        "Date d'ouverture de la procédure"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date d'ouverture de la procédure",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        7
+      ]
+    },
+    {
+      "id": "f0102",
+      "label": "Motif de la demande",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "10",
+        "Motif de la demande"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Motif de la demande",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "f0103",
+      "label": "Typologie d'impôt ou taxe",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "10",
+        "Typologie d'impôt ou taxe"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Typologie d'impôt ou taxe",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        9
+      ]
+    },
+    {
+      "id": "f0104",
+      "label": "Date de l’échéance",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "10",
+        "Date de l’échéance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de l’échéance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "f0105",
+      "label": "Montant à utiliser",
+      "path": [
+        "Page 1",
+        "I – Demande de remboursement de créances",
+        "10",
+        "Montant à utiliser"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant à utiliser",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        9,
+        11
+      ]
+    },
+    {
+      "id": "f0106",
+      "label": "SIREN de la société tête de groupe",
+      "path": [
+        "Page 1",
+        "II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits",
+        "SIREN de la société tête de groupe"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "SIREN de la société tête de groupe",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "f0107",
+      "label": "Date de clôture de l'exercice de détermination de la créance née du report en arrière de déficit",
+      "path": [
+        "Page 1",
+        "II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits",
+        "1",
+        "Date de clôture de l'exercice de détermination de la créance née du report en arrière de déficit"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de clôture de l'exercice de détermination de la créance née du report en arrière de déficit",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        22,
+        3
+      ]
+    },
+    {
+      "id": "f0108",
+      "label": "Date de cession de la créance",
+      "path": [
+        "Page 1",
+        "II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits",
+        "1",
+        "Date de cession de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de cession de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        22,
+        6
+      ]
+    },
+    {
+      "id": "f0109",
+      "label": "SIREN de la société à l'origine de la créance",
+      "path": [
+        "Page 1",
+        "II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits",
+        "1",
+        "SIREN de la société à l'origine de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "SIREN de la société à l'origine de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        22,
+        8
+      ]
+    },
+    {
+      "id": "f0110",
+      "label": "Montant de la cession",
+      "path": [
+        "Page 1",
+        "II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits",
+        "1",
+        "Montant de la cession"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant de la cession",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        22,
+        10
+      ]
+    },
+    {
+      "id": "f0111",
+      "label": "Date de clôture de l'exercice de détermination de la créance née du report en arrière de déficit",
+      "path": [
+        "Page 1",
+        "II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits",
+        "2",
+        "Date de clôture de l'exercice de détermination de la créance née du report en arrière de déficit"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de clôture de l'exercice de détermination de la créance née du report en arrière de déficit",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        22,
+        3
+      ]
+    },
+    {
+      "id": "f0112",
+      "label": "Date de cession de la créance",
+      "path": [
+        "Page 1",
+        "II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits",
+        "2",
+        "Date de cession de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de cession de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        22,
+        6
+      ]
+    },
+    {
+      "id": "f0113",
+      "label": "SIREN de la société à l'origine de la créance",
+      "path": [
+        "Page 1",
+        "II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits",
+        "2",
+        "SIREN de la société à l'origine de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "SIREN de la société à l'origine de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        22,
+        8
+      ]
+    },
+    {
+      "id": "f0114",
+      "label": "Montant de la cession",
+      "path": [
+        "Page 1",
+        "II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits",
+        "2",
+        "Montant de la cession"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant de la cession",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        22,
+        10
+      ]
+    },
+    {
+      "id": "f0115",
+      "label": "Date de clôture de l'exercice de détermination de la créance née du report en arrière de déficit",
+      "path": [
+        "Page 1",
+        "II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits",
+        "3",
+        "Date de clôture de l'exercice de détermination de la créance née du report en arrière de déficit"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de clôture de l'exercice de détermination de la créance née du report en arrière de déficit",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        22,
+        3
+      ]
+    },
+    {
+      "id": "f0116",
+      "label": "Date de cession de la créance",
+      "path": [
+        "Page 1",
+        "II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits",
+        "3",
+        "Date de cession de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de cession de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        22,
+        6
+      ]
+    },
+    {
+      "id": "f0117",
+      "label": "SIREN de la société à l'origine de la créance",
+      "path": [
+        "Page 1",
+        "II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits",
+        "3",
+        "SIREN de la société à l'origine de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "SIREN de la société à l'origine de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        22,
+        8
+      ]
+    },
+    {
+      "id": "f0118",
+      "label": "Montant de la cession",
+      "path": [
+        "Page 1",
+        "II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits",
+        "3",
+        "Montant de la cession"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant de la cession",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        22,
+        10
+      ]
+    },
+    {
+      "id": "f0119",
+      "label": "Date de clôture de l'exercice de détermination de la créance née du report en arrière de déficit",
+      "path": [
+        "Page 1",
+        "II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits",
+        "4",
+        "Date de clôture de l'exercice de détermination de la créance née du report en arrière de déficit"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de clôture de l'exercice de détermination de la créance née du report en arrière de déficit",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        22,
+        3
+      ]
+    },
+    {
+      "id": "f0120",
+      "label": "Date de cession de la créance",
+      "path": [
+        "Page 1",
+        "II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits",
+        "4",
+        "Date de cession de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de cession de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        22,
+        6
+      ]
+    },
+    {
+      "id": "f0121",
+      "label": "SIREN de la société à l'origine de la créance",
+      "path": [
+        "Page 1",
+        "II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits",
+        "4",
+        "SIREN de la société à l'origine de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "SIREN de la société à l'origine de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        22,
+        8
+      ]
+    },
+    {
+      "id": "f0122",
+      "label": "Montant de la cession",
+      "path": [
+        "Page 1",
+        "II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits",
+        "4",
+        "Montant de la cession"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant de la cession",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        22,
+        10
+      ]
+    },
+    {
+      "id": "f0123",
+      "label": "Date de clôture de l'exercice de détermination de la créance née du report en arrière de déficit",
+      "path": [
+        "Page 1",
+        "II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits",
+        "5",
+        "Date de clôture de l'exercice de détermination de la créance née du report en arrière de déficit"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de clôture de l'exercice de détermination de la créance née du report en arrière de déficit",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        22,
+        3
+      ]
+    },
+    {
+      "id": "f0124",
+      "label": "Date de cession de la créance",
+      "path": [
+        "Page 1",
+        "II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits",
+        "5",
+        "Date de cession de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de cession de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        22,
+        6
+      ]
+    },
+    {
+      "id": "f0125",
+      "label": "SIREN de la société à l'origine de la créance",
+      "path": [
+        "Page 1",
+        "II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits",
+        "5",
+        "SIREN de la société à l'origine de la créance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "SIREN de la société à l'origine de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        22,
+        8
+      ]
+    },
+    {
+      "id": "f0126",
+      "label": "Montant de la cession",
+      "path": [
+        "Page 1",
+        "II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits",
+        "5",
+        "Montant de la cession"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant de la cession",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        22,
+        10
+      ]
+    },
+    {
+      "id": "f0127",
+      "label": "SIREN de la société absorbante ou bénéficiaire des apports",
+      "path": [
+        "Page 2",
+        "III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport",
+        "SIREN de la société absorbante ou bénéficiaire des apports"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "SIREN de la société absorbante ou bénéficiaire des apports",
+      "synthetic_value": "Sans objet"
+    },
+    {
+      "id": "f0128",
+      "label": "Nature du crédit, de la créance ou de la réduction d'impôt :",
+      "path": [
+        "Page 2",
+        "III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport",
+        "1",
+        "Nature du crédit, de la créance ou de la réduction d'impôt :"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nature du crédit, de la créance ou de la réduction d'impôt :",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        30,
+        2
+      ]
+    },
+    {
+      "id": "f0129",
+      "label": "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt",
+      "path": [
+        "Page 2",
+        "III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport",
+        "1",
+        "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        30,
+        4
+      ]
+    },
+    {
+      "id": "f0130",
+      "label": "Date du transfert de la créance",
+      "path": [
+        "Page 2",
+        "III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport",
+        "1",
+        "Date du transfert de la créance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date du transfert de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        30,
+        6
+      ]
+    },
+    {
+      "id": "f0131",
+      "label": "SIREN de la société à l'origine de la créance",
+      "path": [
+        "Page 2",
+        "III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport",
+        "1",
+        "SIREN de la société à l'origine de la créance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "SIREN de la société à l'origine de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        30,
+        8
+      ]
+    },
+    {
+      "id": "f0132",
+      "label": "Montant du transfert",
+      "path": [
+        "Page 2",
+        "III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport",
+        "1",
+        "Montant du transfert"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Montant du transfert",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        30,
+        10
+      ]
+    },
+    {
+      "id": "f0133",
+      "label": "Nature du crédit, de la créance ou de la réduction d'impôt :",
+      "path": [
+        "Page 2",
+        "III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport",
+        "2",
+        "Nature du crédit, de la créance ou de la réduction d'impôt :"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nature du crédit, de la créance ou de la réduction d'impôt :",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        30,
+        2
+      ]
+    },
+    {
+      "id": "f0134",
+      "label": "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt",
+      "path": [
+        "Page 2",
+        "III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport",
+        "2",
+        "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        30,
+        4
+      ]
+    },
+    {
+      "id": "f0135",
+      "label": "Date du transfert de la créance",
+      "path": [
+        "Page 2",
+        "III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport",
+        "2",
+        "Date du transfert de la créance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date du transfert de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        30,
+        6
+      ]
+    },
+    {
+      "id": "f0136",
+      "label": "SIREN de la société à l'origine de la créance",
+      "path": [
+        "Page 2",
+        "III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport",
+        "2",
+        "SIREN de la société à l'origine de la créance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "SIREN de la société à l'origine de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        30,
+        8
+      ]
+    },
+    {
+      "id": "f0137",
+      "label": "Montant du transfert",
+      "path": [
+        "Page 2",
+        "III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport",
+        "2",
+        "Montant du transfert"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Montant du transfert",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        30,
+        10
+      ]
+    },
+    {
+      "id": "f0138",
+      "label": "Nature du crédit, de la créance ou de la réduction d'impôt :",
+      "path": [
+        "Page 2",
+        "III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport",
+        "3",
+        "Nature du crédit, de la créance ou de la réduction d'impôt :"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nature du crédit, de la créance ou de la réduction d'impôt :",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        30,
+        2
+      ]
+    },
+    {
+      "id": "f0139",
+      "label": "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt",
+      "path": [
+        "Page 2",
+        "III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport",
+        "3",
+        "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        30,
+        4
+      ]
+    },
+    {
+      "id": "f0140",
+      "label": "Date du transfert de la créance",
+      "path": [
+        "Page 2",
+        "III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport",
+        "3",
+        "Date du transfert de la créance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date du transfert de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        30,
+        6
+      ]
+    },
+    {
+      "id": "f0141",
+      "label": "SIREN de la société à l'origine de la créance",
+      "path": [
+        "Page 2",
+        "III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport",
+        "3",
+        "SIREN de la société à l'origine de la créance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "SIREN de la société à l'origine de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        30,
+        8
+      ]
+    },
+    {
+      "id": "f0142",
+      "label": "Montant du transfert",
+      "path": [
+        "Page 2",
+        "III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport",
+        "3",
+        "Montant du transfert"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Montant du transfert",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        30,
+        10
+      ]
+    },
+    {
+      "id": "f0143",
+      "label": "Nature du crédit, de la créance ou de la réduction d'impôt :",
+      "path": [
+        "Page 2",
+        "III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport",
+        "4",
+        "Nature du crédit, de la créance ou de la réduction d'impôt :"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nature du crédit, de la créance ou de la réduction d'impôt :",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        30,
+        2
+      ]
+    },
+    {
+      "id": "f0144",
+      "label": "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt",
+      "path": [
+        "Page 2",
+        "III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport",
+        "4",
+        "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        30,
+        4
+      ]
+    },
+    {
+      "id": "f0145",
+      "label": "Date du transfert de la créance",
+      "path": [
+        "Page 2",
+        "III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport",
+        "4",
+        "Date du transfert de la créance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date du transfert de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        30,
+        6
+      ]
+    },
+    {
+      "id": "f0146",
+      "label": "SIREN de la société à l'origine de la créance",
+      "path": [
+        "Page 2",
+        "III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport",
+        "4",
+        "SIREN de la société à l'origine de la créance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "SIREN de la société à l'origine de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        30,
+        8
+      ]
+    },
+    {
+      "id": "f0147",
+      "label": "Montant du transfert",
+      "path": [
+        "Page 2",
+        "III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport",
+        "4",
+        "Montant du transfert"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Montant du transfert",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        30,
+        10
+      ]
+    },
+    {
+      "id": "f0148",
+      "label": "Nature du crédit, de la créance ou de la réduction d'impôt :",
+      "path": [
+        "Page 2",
+        "III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport",
+        "5",
+        "Nature du crédit, de la créance ou de la réduction d'impôt :"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nature du crédit, de la créance ou de la réduction d'impôt :",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        30,
+        2
+      ]
+    },
+    {
+      "id": "f0149",
+      "label": "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt",
+      "path": [
+        "Page 2",
+        "III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport",
+        "5",
+        "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        30,
+        4
+      ]
+    },
+    {
+      "id": "f0150",
+      "label": "Date du transfert de la créance",
+      "path": [
+        "Page 2",
+        "III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport",
+        "5",
+        "Date du transfert de la créance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date du transfert de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        30,
+        6
+      ]
+    },
+    {
+      "id": "f0151",
+      "label": "SIREN de la société à l'origine de la créance",
+      "path": [
+        "Page 2",
+        "III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport",
+        "5",
+        "SIREN de la société à l'origine de la créance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "SIREN de la société à l'origine de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        30,
+        8
+      ]
+    },
+    {
+      "id": "f0152",
+      "label": "Montant du transfert",
+      "path": [
+        "Page 2",
+        "III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport",
+        "5",
+        "Montant du transfert"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Montant du transfert",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        30,
+        10
+      ]
+    },
+    {
+      "id": "f0153",
+      "label": "Nature du crédit, de la créance ou de la réduction d'impôt :",
+      "path": [
+        "Page 2",
+        "IV – Reversement de créances",
+        "1",
+        "Nature du crédit, de la créance ou de la réduction d'impôt :"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nature du crédit, de la créance ou de la réduction d'impôt :",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        37,
+        2
+      ]
+    },
+    {
+      "id": "f0154",
+      "label": "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt",
+      "path": [
+        "Page 2",
+        "IV – Reversement de créances",
+        "1",
+        "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        37,
+        4
+      ]
+    },
+    {
+      "id": "f0155",
+      "label": "Date du transfert de la créance",
+      "path": [
+        "Page 2",
+        "IV – Reversement de créances",
+        "1",
+        "Date du transfert de la créance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date du transfert de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        37,
+        6
+      ]
+    },
+    {
+      "id": "f0156",
+      "label": "Montant du reversement",
+      "path": [
+        "Page 2",
+        "IV – Reversement de créances",
+        "1",
+        "Montant du reversement"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Montant du reversement",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        37,
+        8
+      ]
+    },
+    {
+      "id": "f0157",
+      "label": "Intérêt de retard",
+      "path": [
+        "Page 2",
+        "IV – Reversement de créances",
+        "1",
+        "Intérêt de retard"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Intérêt de retard",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        37,
+        10
+      ]
+    },
+    {
+      "id": "f0158",
+      "label": "Nature du crédit, de la créance ou de la réduction d'impôt :",
+      "path": [
+        "Page 2",
+        "IV – Reversement de créances",
+        "2",
+        "Nature du crédit, de la créance ou de la réduction d'impôt :"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nature du crédit, de la créance ou de la réduction d'impôt :",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        37,
+        2
+      ]
+    },
+    {
+      "id": "f0159",
+      "label": "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt",
+      "path": [
+        "Page 2",
+        "IV – Reversement de créances",
+        "2",
+        "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        37,
+        4
+      ]
+    },
+    {
+      "id": "f0160",
+      "label": "Date du transfert de la créance",
+      "path": [
+        "Page 2",
+        "IV – Reversement de créances",
+        "2",
+        "Date du transfert de la créance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date du transfert de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        37,
+        6
+      ]
+    },
+    {
+      "id": "f0161",
+      "label": "Montant du reversement",
+      "path": [
+        "Page 2",
+        "IV – Reversement de créances",
+        "2",
+        "Montant du reversement"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Montant du reversement",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        37,
+        8
+      ]
+    },
+    {
+      "id": "f0162",
+      "label": "Intérêt de retard",
+      "path": [
+        "Page 2",
+        "IV – Reversement de créances",
+        "2",
+        "Intérêt de retard"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Intérêt de retard",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        37,
+        10
+      ]
+    },
+    {
+      "id": "f0163",
+      "label": "Nature du crédit, de la créance ou de la réduction d'impôt :",
+      "path": [
+        "Page 2",
+        "IV – Reversement de créances",
+        "3",
+        "Nature du crédit, de la créance ou de la réduction d'impôt :"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nature du crédit, de la créance ou de la réduction d'impôt :",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        37,
+        2
+      ]
+    },
+    {
+      "id": "f0164",
+      "label": "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt",
+      "path": [
+        "Page 2",
+        "IV – Reversement de créances",
+        "3",
+        "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        37,
+        4
+      ]
+    },
+    {
+      "id": "f0165",
+      "label": "Date du transfert de la créance",
+      "path": [
+        "Page 2",
+        "IV – Reversement de créances",
+        "3",
+        "Date du transfert de la créance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date du transfert de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        37,
+        6
+      ]
+    },
+    {
+      "id": "f0166",
+      "label": "Montant du reversement",
+      "path": [
+        "Page 2",
+        "IV – Reversement de créances",
+        "3",
+        "Montant du reversement"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Montant du reversement",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        37,
+        8
+      ]
+    },
+    {
+      "id": "f0167",
+      "label": "Intérêt de retard",
+      "path": [
+        "Page 2",
+        "IV – Reversement de créances",
+        "3",
+        "Intérêt de retard"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Intérêt de retard",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        37,
+        10
+      ]
+    },
+    {
+      "id": "f0168",
+      "label": "Nature du crédit, de la créance ou de la réduction d'impôt :",
+      "path": [
+        "Page 2",
+        "IV – Reversement de créances",
+        "4",
+        "Nature du crédit, de la créance ou de la réduction d'impôt :"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nature du crédit, de la créance ou de la réduction d'impôt :",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        37,
+        2
+      ]
+    },
+    {
+      "id": "f0169",
+      "label": "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt",
+      "path": [
+        "Page 2",
+        "IV – Reversement de créances",
+        "4",
+        "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        37,
+        4
+      ]
+    },
+    {
+      "id": "f0170",
+      "label": "Date du transfert de la créance",
+      "path": [
+        "Page 2",
+        "IV – Reversement de créances",
+        "4",
+        "Date du transfert de la créance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date du transfert de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        37,
+        6
+      ]
+    },
+    {
+      "id": "f0171",
+      "label": "Montant du reversement",
+      "path": [
+        "Page 2",
+        "IV – Reversement de créances",
+        "4",
+        "Montant du reversement"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Montant du reversement",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        37,
+        8
+      ]
+    },
+    {
+      "id": "f0172",
+      "label": "Intérêt de retard",
+      "path": [
+        "Page 2",
+        "IV – Reversement de créances",
+        "4",
+        "Intérêt de retard"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Intérêt de retard",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        37,
+        10
+      ]
+    },
+    {
+      "id": "f0173",
+      "label": "Nature du crédit, de la créance ou de la réduction d'impôt :",
+      "path": [
+        "Page 2",
+        "IV – Reversement de créances",
+        "5",
+        "Nature du crédit, de la créance ou de la réduction d'impôt :"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nature du crédit, de la créance ou de la réduction d'impôt :",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        37,
+        2
+      ]
+    },
+    {
+      "id": "f0174",
+      "label": "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt",
+      "path": [
+        "Page 2",
+        "IV – Reversement de créances",
+        "5",
+        "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        37,
+        4
+      ]
+    },
+    {
+      "id": "f0175",
+      "label": "Date du transfert de la créance",
+      "path": [
+        "Page 2",
+        "IV – Reversement de créances",
+        "5",
+        "Date du transfert de la créance"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date du transfert de la créance",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        37,
+        6
+      ]
+    },
+    {
+      "id": "f0176",
+      "label": "Montant du reversement",
+      "path": [
+        "Page 2",
+        "IV – Reversement de créances",
+        "5",
+        "Montant du reversement"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Montant du reversement",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        37,
+        8
+      ]
+    },
+    {
+      "id": "f0177",
+      "label": "Intérêt de retard",
+      "path": [
+        "Page 2",
+        "IV – Reversement de créances",
+        "5",
+        "Intérêt de retard"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Intérêt de retard",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        37,
+        10
+      ]
+    },
+    {
+      "id": "f0178",
+      "label": "Numéro MEDOC",
+      "path": [
+        "Page 2",
+        "V – Cadre réservé à l'Administration",
+        "Numéro MEDOC"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Numéro MEDOC",
+      "synthetic_value": "M383"
+    },
+    {
+      "id": "f0179",
+      "label": "Cachet du poste comptable",
+      "path": [
+        "Page 2",
+        "V – Cadre réservé à l'Administration",
+        "Cachet du poste comptable"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Cachet du poste comptable",
+      "synthetic_value": "SIE Exemple"
+    },
+    {
+      "id": "f0180",
+      "label": "A",
+      "path": [
+        "Page 2",
+        "Date et signature",
+        "A"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "A",
+      "synthetic_value": "Paris"
+    },
+    {
+      "id": "f0181",
+      "label": "LE",
+      "path": [
+        "Page 2",
+        "Date et signature",
+        "LE"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "LE",
+      "synthetic_value": "15/10/2026"
+    },
+    {
+      "id": "f0182",
+      "label": "SIGNATURE",
+      "path": [
+        "Page 2",
+        "Date et signature",
+        "SIGNATURE"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "SIGNATURE",
+      "synthetic_value": "Camille Martin"
+    }
+  ],
+  "context": "Exemple fictif de remplissage complet, sans transmission. Les rubriques sans objet sont explicitement renseignées comme telles; les blocs administratifs sont des données fictives distinctes.\nPage 1 / IMPOT SUR LES SOCIETES ET CONTRIBUTIONS ASSIMILEES / DENOMINATION: Exemple Recherche SAS\nPage 1 / IMPOT SUR LES SOCIETES ET CONTRIBUTIONS ASSIMILEES / Adresse: 12 rue Exemple, 75000 Paris\nPage 1 / IMPOT SUR LES SOCIETES ET CONTRIBUTIONS ASSIMILEES / Nom et adresse personnelle de l'exploitant: Sans objet\nPage 1 / IMPOT SUR LES SOCIETES ET CONTRIBUTIONS ASSIMILEES / SIREN: 000000383\nPage 1 / IMPOT SUR LES SOCIETES ET CONTRIBUTIONS ASSIMILEES / Société bénéficiant du régime de l'intégration fiscale: Aucune sélection\nPage 1 / I – Demande de remboursement de créances / 1 / Nature de la créance: CIR\nPage 1 / I – Demande de remboursement de créances / 1 / Année d'origine de la créance: 2025\nPage 1 / I – Demande de remboursement de créances / 1 / Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit): 0\nPage 1 / I – Demande de remboursement de créances / 1 / Montant du rembourseme nt demandé: 12000\nPage 1 / I – Demande de remboursement de créances / 1 / Nature de la procédure: Sans objet\nPage 1 / I – Demande de remboursement de créances / 1 / Date d'ouverture de la procédure: Sans objet\nPage 1 / I – Demande de remboursement de créances / 1 / Motif de la demande: Sans objet\nPage 1 / I – Demande de remboursement de créances / 1 / Typologie d'impôt ou taxe: Sans objet\nPage 1 / I – Demande de remboursement de créances / 1 / Date de l’échéance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 1 / Montant à utiliser: Sans objet\nPage 1 / I – Demande de remboursement de créances / 2 / Nature de la créance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 2 / Année d'origine de la créance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 2 / Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit): Sans objet\nPage 1 / I – Demande de remboursement de créances / 2 / Montant du rembourseme nt demandé: Sans objet\nPage 1 / I – Demande de remboursement de créances / 2 / Nature de la procédure: Sans objet\nPage 1 / I – Demande de remboursement de créances / 2 / Date d'ouverture de la procédure: Sans objet\nPage 1 / I – Demande de remboursement de créances / 2 / Motif de la demande: Sans objet\nPage 1 / I – Demande de remboursement de créances / 2 / Typologie d'impôt ou taxe: Sans objet\nPage 1 / I – Demande de remboursement de créances / 2 / Date de l’échéance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 2 / Montant à utiliser: Sans objet\nPage 1 / I – Demande de remboursement de créances / 3 / Nature de la créance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 3 / Année d'origine de la créance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 3 / Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit): Sans objet\nPage 1 / I – Demande de remboursement de créances / 3 / Montant du rembourseme nt demandé: Sans objet\nPage 1 / I – Demande de remboursement de créances / 3 / Nature de la procédure: Sans objet\nPage 1 / I – Demande de remboursement de créances / 3 / Date d'ouverture de la procédure: Sans objet\nPage 1 / I – Demande de remboursement de créances / 3 / Motif de la demande: Sans objet\nPage 1 / I – Demande de remboursement de créances / 3 / Typologie d'impôt ou taxe: Sans objet\nPage 1 / I – Demande de remboursement de créances / 3 / Date de l’échéance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 3 / Montant à utiliser: Sans objet\nPage 1 / I – Demande de remboursement de créances / 4 / Nature de la créance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 4 / Année d'origine de la créance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 4 / Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit): Sans objet\nPage 1 / I – Demande de remboursement de créances / 4 / Montant du rembourseme nt demandé: Sans objet\nPage 1 / I – Demande de remboursement de créances / 4 / Nature de la procédure: Sans objet\nPage 1 / I – Demande de remboursement de créances / 4 / Date d'ouverture de la procédure: Sans objet\nPage 1 / I – Demande de remboursement de créances / 4 / Motif de la demande: Sans objet\nPage 1 / I – Demande de remboursement de créances / 4 / Typologie d'impôt ou taxe: Sans objet\nPage 1 / I – Demande de remboursement de créances / 4 / Date de l’échéance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 4 / Montant à utiliser: Sans objet\nPage 1 / I – Demande de remboursement de créances / 5 / Nature de la créance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 5 / Année d'origine de la créance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 5 / Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit): Sans objet\nPage 1 / I – Demande de remboursement de créances / 5 / Montant du rembourseme nt demandé: Sans objet\nPage 1 / I – Demande de remboursement de créances / 5 / Nature de la procédure: Sans objet\nPage 1 / I – Demande de remboursement de créances / 5 / Date d'ouverture de la procédure: Sans objet\nPage 1 / I – Demande de remboursement de créances / 5 / Motif de la demande: Sans objet\nPage 1 / I – Demande de remboursement de créances / 5 / Typologie d'impôt ou taxe: Sans objet\nPage 1 / I – Demande de remboursement de créances / 5 / Date de l’échéance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 5 / Montant à utiliser: Sans objet\nPage 1 / I – Demande de remboursement de créances / 6 / Nature de la créance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 6 / Année d'origine de la créance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 6 / Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit): Sans objet\nPage 1 / I – Demande de remboursement de créances / 6 / Montant du rembourseme nt demandé: Sans objet\nPage 1 / I – Demande de remboursement de créances / 6 / Nature de la procédure: Sans objet\nPage 1 / I – Demande de remboursement de créances / 6 / Date d'ouverture de la procédure: Sans objet\nPage 1 / I – Demande de remboursement de créances / 6 / Motif de la demande: Sans objet\nPage 1 / I – Demande de remboursement de créances / 6 / Typologie d'impôt ou taxe: Sans objet\nPage 1 / I – Demande de remboursement de créances / 6 / Date de l’échéance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 6 / Montant à utiliser: Sans objet\nPage 1 / I – Demande de remboursement de créances / 7 / Nature de la créance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 7 / Année d'origine de la créance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 7 / Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit): Sans objet\nPage 1 / I – Demande de remboursement de créances / 7 / Montant du rembourseme nt demandé: Sans objet\nPage 1 / I – Demande de remboursement de créances / 7 / Nature de la procédure: Sans objet\nPage 1 / I – Demande de remboursement de créances / 7 / Date d'ouverture de la procédure: Sans objet\nPage 1 / I – Demande de remboursement de créances / 7 / Motif de la demande: Sans objet\nPage 1 / I – Demande de remboursement de créances / 7 / Typologie d'impôt ou taxe: Sans objet\nPage 1 / I – Demande de remboursement de créances / 7 / Date de l’échéance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 7 / Montant à utiliser: Sans objet\nPage 1 / I – Demande de remboursement de créances / 8 / Nature de la créance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 8 / Année d'origine de la créance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 8 / Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit): Sans objet\nPage 1 / I – Demande de remboursement de créances / 8 / Montant du rembourseme nt demandé: Sans objet\nPage 1 / I – Demande de remboursement de créances / 8 / Nature de la procédure: Sans objet\nPage 1 / I – Demande de remboursement de créances / 8 / Date d'ouverture de la procédure: Sans objet\nPage 1 / I – Demande de remboursement de créances / 8 / Motif de la demande: Sans objet\nPage 1 / I – Demande de remboursement de créances / 8 / Typologie d'impôt ou taxe: Sans objet\nPage 1 / I – Demande de remboursement de créances / 8 / Date de l’échéance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 8 / Montant à utiliser: Sans objet\nPage 1 / I – Demande de remboursement de créances / 9 / Nature de la créance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 9 / Année d'origine de la créance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 9 / Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit): Sans objet\nPage 1 / I – Demande de remboursement de créances / 9 / Montant du rembourseme nt demandé: Sans objet\nPage 1 / I – Demande de remboursement de créances / 9 / Nature de la procédure: Sans objet\nPage 1 / I – Demande de remboursement de créances / 9 / Date d'ouverture de la procédure: Sans objet\nPage 1 / I – Demande de remboursement de créances / 9 / Motif de la demande: Sans objet\nPage 1 / I – Demande de remboursement de créances / 9 / Typologie d'impôt ou taxe: Sans objet\nPage 1 / I – Demande de remboursement de créances / 9 / Date de l’échéance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 9 / Montant à utiliser: Sans objet\nPage 1 / I – Demande de remboursement de créances / 10 / Nature de la créance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 10 / Année d'origine de la créance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 10 / Montant de l’intérêt légal (uniquement dans le cadre du report en arrière de déficit): Sans objet\nPage 1 / I – Demande de remboursement de créances / 10 / Montant du rembourseme nt demandé: Sans objet\nPage 1 / I – Demande de remboursement de créances / 10 / Nature de la procédure: Sans objet\nPage 1 / I – Demande de remboursement de créances / 10 / Date d'ouverture de la procédure: Sans objet\nPage 1 / I – Demande de remboursement de créances / 10 / Motif de la demande: Sans objet\nPage 1 / I – Demande de remboursement de créances / 10 / Typologie d'impôt ou taxe: Sans objet\nPage 1 / I – Demande de remboursement de créances / 10 / Date de l’échéance: Sans objet\nPage 1 / I – Demande de remboursement de créances / 10 / Montant à utiliser: Sans objet\nPage 1 / II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits / SIREN de la société tête de groupe: Sans objet\nPage 1 / II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits / 1 / Date de clôture de l'exercice de détermination de la créance née du report en arrière de déficit: Sans objet\nPage 1 / II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits / 1 / Date de cession de la créance: Sans objet\nPage 1 / II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits / 1 / SIREN de la société à l'origine de la créance: Sans objet\nPage 1 / II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits / 1 / Montant de la cession: Sans objet\nPage 1 / II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits / 2 / Date de clôture de l'exercice de détermination de la créance née du report en arrière de déficit: Sans objet\nPage 1 / II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits / 2 / Date de cession de la créance: Sans objet\nPage 1 / II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits / 2 / SIREN de la société à l'origine de la créance: Sans objet\nPage 1 / II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits / 2 / Montant de la cession: Sans objet\nPage 1 / II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits / 3 / Date de clôture de l'exercice de détermination de la créance née du report en arrière de déficit: Sans objet\nPage 1 / II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits / 3 / Date de cession de la créance: Sans objet\nPage 1 / II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits / 3 / SIREN de la société à l'origine de la créance: Sans objet\nPage 1 / II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits / 3 / Montant de la cession: Sans objet\nPage 1 / II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits / 4 / Date de clôture de l'exercice de détermination de la créance née du report en arrière de déficit: Sans objet\nPage 1 / II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits / 4 / Date de cession de la créance: Sans objet\nPage 1 / II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits / 4 / SIREN de la société à l'origine de la créance: Sans objet\nPage 1 / II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits / 4 / Montant de la cession: Sans objet\nPage 1 / II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits / 5 / Date de clôture de l'exercice de détermination de la créance née du report en arrière de déficit: Sans objet\nPage 1 / II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits / 5 / Date de cession de la créance: Sans objet\nPage 1 / II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits / 5 / SIREN de la société à l'origine de la créance: Sans objet\nPage 1 / II – Cession lors de l’entrée dans un groupe de sociétés (article 223 A du CGI) de créances nées du report en arrière des déficits / 5 / Montant de la cession: Sans objet\nPage 2 / III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport / SIREN de la société absorbante ou bénéficiaire des apports: Sans objet\nPage 2 / III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport / 1 / Nature du crédit, de la créance ou de la réduction d'impôt :: Sans objet\nPage 2 / III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport / 1 / Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt: Sans objet\nPage 2 / III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport / 1 / Date du transfert de la créance: Sans objet\nPage 2 / III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport / 1 / SIREN de la société à l'origine de la créance: Sans objet\nPage 2 / III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport / 1 / Montant du transfert: Sans objet\nPage 2 / III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport / 2 / Nature du crédit, de la créance ou de la réduction d'impôt :: Sans objet\nPage 2 / III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport / 2 / Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt: Sans objet\nPage 2 / III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport / 2 / Date du transfert de la créance: Sans objet\nPage 2 / III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport / 2 / SIREN de la société à l'origine de la créance: Sans objet\nPage 2 / III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport / 2 / Montant du transfert: Sans objet\nPage 2 / III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport / 3 / Nature du crédit, de la créance ou de la réduction d'impôt :: Sans objet\nPage 2 / III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport / 3 / Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt: Sans objet\nPage 2 / III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport / 3 / Date du transfert de la créance: Sans objet\nPage 2 / III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport / 3 / SIREN de la société à l'origine de la créance: Sans objet\nPage 2 / III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport / 3 / Montant du transfert: Sans objet\nPage 2 / III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport / 4 / Nature du crédit, de la créance ou de la réduction d'impôt :: Sans objet\nPage 2 / III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport / 4 / Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt: Sans objet\nPage 2 / III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport / 4 / Date du transfert de la créance: Sans objet\nPage 2 / III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport / 4 / SIREN de la société à l'origine de la créance: Sans objet\nPage 2 / III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport / 4 / Montant du transfert: Sans objet\nPage 2 / III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport / 5 / Nature du crédit, de la créance ou de la réduction d'impôt :: Sans objet\nPage 2 / III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport / 5 / Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt: Sans objet\nPage 2 / III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport / 5 / Date du transfert de la créance: Sans objet\nPage 2 / III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport / 5 / SIREN de la société à l'origine de la créance: Sans objet\nPage 2 / III – Transfert de créances à la société absorbante ou bénéficiaire d'un apport / 5 / Montant du transfert: Sans objet\nPage 2 / IV – Reversement de créances / 1 / Nature du crédit, de la créance ou de la réduction d'impôt :: Sans objet\nPage 2 / IV – Reversement de créances / 1 / Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt: Sans objet\nPage 2 / IV – Reversement de créances / 1 / Date du transfert de la créance: Sans objet\nPage 2 / IV – Reversement de créances / 1 / Montant du reversement: Sans objet\nPage 2 / IV – Reversement de créances / 1 / Intérêt de retard: Sans objet\nPage 2 / IV – Reversement de créances / 2 / Nature du crédit, de la créance ou de la réduction d'impôt :: Sans objet\nPage 2 / IV – Reversement de créances / 2 / Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt: Sans objet\nPage 2 / IV – Reversement de créances / 2 / Date du transfert de la créance: Sans objet\nPage 2 / IV – Reversement de créances / 2 / Montant du reversement: Sans objet\nPage 2 / IV – Reversement de créances / 2 / Intérêt de retard: Sans objet\nPage 2 / IV – Reversement de créances / 3 / Nature du crédit, de la créance ou de la réduction d'impôt :: Sans objet\nPage 2 / IV – Reversement de créances / 3 / Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt: Sans objet\nPage 2 / IV – Reversement de créances / 3 / Date du transfert de la créance: Sans objet\nPage 2 / IV – Reversement de créances / 3 / Montant du reversement: Sans objet\nPage 2 / IV – Reversement de créances / 3 / Intérêt de retard: Sans objet\nPage 2 / IV – Reversement de créances / 4 / Nature du crédit, de la créance ou de la réduction d'impôt :: Sans objet\nPage 2 / IV – Reversement de créances / 4 / Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt: Sans objet\nPage 2 / IV – Reversement de créances / 4 / Date du transfert de la créance: Sans objet\nPage 2 / IV – Reversement de créances / 4 / Montant du reversement: Sans objet\nPage 2 / IV – Reversement de créances / 4 / Intérêt de retard: Sans objet\nPage 2 / IV – Reversement de créances / 5 / Nature du crédit, de la créance ou de la réduction d'impôt :: Sans objet\nPage 2 / IV – Reversement de créances / 5 / Date de clôture de l'exercice de détermination du crédit, de la créance ou de la réduction d'impôt: Sans objet\nPage 2 / IV – Reversement de créances / 5 / Date du transfert de la créance: Sans objet\nPage 2 / IV – Reversement de créances / 5 / Montant du reversement: Sans objet\nPage 2 / IV – Reversement de créances / 5 / Intérêt de retard: Sans objet\nPage 2 / V – Cadre réservé à l'Administration / Numéro MEDOC: M383\nPage 2 / V – Cadre réservé à l'Administration / Cachet du poste comptable: SIE Exemple\nPage 2 / Date et signature / A: Paris\nPage 2 / Date et signature / LE: 15/10/2026\nPage 2 / Date et signature / SIGNATURE: Camille Martin",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 383
+  }
+}

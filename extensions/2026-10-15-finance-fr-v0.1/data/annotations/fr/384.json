@@ -1,0 +1,4305 @@
+{
+  "id": "fr-384-suivi-transfert-actifs",
+  "title": "Etat de suivi des plus-values",
+  "language": "fr",
+  "domain": "Finance",
+  "issuer_id": "Direction générale des finances publiques (DGFiP)",
+  "template_family": "2905-epvl",
+  "business_topic": "Etat de suivi des plus-values",
+  "source_url": "https://www.impots.gouv.fr/sites/default/files/formulaires/2905-epvl/2026/2905-epvl_5304.pdf",
+  "landing_url": "https://www.impots.gouv.fr/formulaire/2905-epvl/etat-de-suivi-des-plus-values-transfert-du-siege-social",
+  "license_url": "https://www.impots.gouv.fr/mentions-legales",
+  "license_note": "DGFiP public information: Licence Ouverte Etalab 2.0, except explicitly identified third-party intellectual property. Attribution and printed edition or undated-edition fetch are retained. DGFiP graphics and original PDFs are not redistributed.",
+  "source_sha256": "2d52c5bbcb9b7547c5d2f55b85b24cbc98950b5b0d4357655ba53e607000ed1b",
+  "source_pages": 2,
+  "retrieved_at": "2026-10-05T03:00:57+08:00",
+  "source_version": "2905-EPVL-SD; Cerfa 14933*07; edition undated",
+  "source_date_evidence": {
+    "kind": "edition undated",
+    "source_page": 1,
+    "literal": "2905-EPVL-SD; Cerfa 14933*07; edition undated",
+    "scope": "Edition is based on printed text, not PDF metadata or URL year. The source was reused from the dated local download."
+  },
+  "columns": 12,
+  "rows": [
+    [
+      {
+        "text": "Etat de suivi des plus-values",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "date limite de paiement",
+        "field": "f0001",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "PAIEMENT, DATE et SIGNATURE",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Date",
+        "field": "f0002",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Signature",
+        "field": "f0003",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Téléphone",
+        "field": "f0004",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Adresse électronique",
+        "field": "f0005",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "PAIEMENT, DATE et SIGNATURE",
+        "field": "f0006",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "RESERVE A L'ADMINISTRATION",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Somme",
+        "field": "f0007",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Date",
+        "field": "f0008",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "N° d'opération",
+        "field": "f0009",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Date de réception",
+        "field": "f0010",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "SIE",
+        "field": "f0011",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "BIC",
+        "field": "f0012",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "REFERENCES",
+        "field": "f0013",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "PERIODE DE LA DECLARATION",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "PERIODE DE LA DECLARATION",
+        "field": "f0014",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "PERIODE DE LA DECLARATION",
+        "field": "f0015",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "PERIODE DE LA DECLARATION",
+        "field": "f0016",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Adresse actuelle de l'entreprise",
+        "field": "f0017",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Nouvelle adresse de l'entreprise, de l’établissement ou de situation de l’actif isolé transféré",
+        "field": "f0018",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Date du transfert",
+        "field": "f0019",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Nature du transfert",
+        "field": "f0020",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Bien",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Valeur d'origine",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Amortissement",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Valeur au jour du transfert",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Plus ou Moins-Value À 25 %",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Plus ou Moins-Value À 19 %",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Plus ou Moins-Value À 15 %",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Plus ou Moins-Value À 10 %",
+        "heading": true,
+        "colspan": 1,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "1",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f0021",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0022",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0023",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0024",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0025",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0026",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0027",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0028",
+        "source_page": 1,
+        "colspan": 1
+      }
+    ],
+    [
+      {
+        "text": "2",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f0029",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0030",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0031",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0032",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0033",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0034",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0035",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0036",
+        "source_page": 1,
+        "colspan": 1
+      }
+    ],
+    [
+      {
+        "text": "3",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f0037",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0038",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0039",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0040",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0041",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0042",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0043",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0044",
+        "source_page": 1,
+        "colspan": 1
+      }
+    ],
+    [
+      {
+        "text": "4",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f0045",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0046",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0047",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0048",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0049",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0050",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0051",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0052",
+        "source_page": 1,
+        "colspan": 1
+      }
+    ],
+    [
+      {
+        "text": "5",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f0053",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0054",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0055",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0056",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0057",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0058",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0059",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0060",
+        "source_page": 1,
+        "colspan": 1
+      }
+    ],
+    [
+      {
+        "text": "6",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f0061",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0062",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0063",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0064",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0065",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0066",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0067",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0068",
+        "source_page": 1,
+        "colspan": 1
+      }
+    ],
+    [
+      {
+        "text": "7",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f0069",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0070",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0071",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0072",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0073",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0074",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0075",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0076",
+        "source_page": 1,
+        "colspan": 1
+      }
+    ],
+    [
+      {
+        "text": "8",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f0077",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0078",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0079",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0080",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0081",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0082",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0083",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0084",
+        "source_page": 1,
+        "colspan": 1
+      }
+    ],
+    [
+      {
+        "text": "9",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f0085",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0086",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0087",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0088",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0089",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0090",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0091",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0092",
+        "source_page": 1,
+        "colspan": 1
+      }
+    ],
+    [
+      {
+        "text": "10",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f0093",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0094",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "field": "f0095",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0096",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0097",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0098",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0099",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "f0100",
+        "source_page": 1,
+        "colspan": 1
+      }
+    ],
+    [
+      {
+        "label": "Montant de la plus value nette",
+        "field": "f0101",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Montant de la plus value nette",
+        "field": "f0102",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Montant de la plus value nette",
+        "field": "f0103",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Montant de la plus value nette",
+        "field": "f0104",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "MONTANT DE L'IMPOT SUR LES SOCIETES ET DES CONTRIBUTIONS ADDITIONNELLES DU SUR CES PLUS-VALUES",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Impôt sur les sociétés total (1)",
+        "field": "f0105",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Total des contributions additionnelles (2)",
+        "field": "f0106",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "1/5 de l'IS et des contributions additionnelles",
+        "field": "f0107",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Date du 1er versement",
+        "field": "f0108",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Solde d'IS et de contributions restant dû",
+        "field": "f0109",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Total de la taxe due (1) + (2) ou (3)",
+        "field": "f0110",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Versement anticipé du solde en une seule fois",
+        "field": "f0111",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "label": "Nom des associés",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "label": "Adresse",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "label": "Nombre de parts détenues",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Ligne 1",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f0112",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0113",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0114",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Ligne 2",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f0115",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0116",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0117",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Ligne 3",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f0118",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0119",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0120",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Ligne 4",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f0121",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0122",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0123",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Ligne 5",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f0124",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0125",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0126",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Ligne 6",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f0127",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0128",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0129",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Ligne 7",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f0130",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0131",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0132",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Ligne 8",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f0133",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0134",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0135",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Ligne 9",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f0136",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0137",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0138",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Ligne 10",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f0139",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0140",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0141",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Ligne 11",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f0142",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0143",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0144",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Ligne 12",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f0145",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0146",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0147",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Ligne 13",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f0148",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0149",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0150",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Ligne 14",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f0151",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0152",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0153",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Ligne 15",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f0154",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0155",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0156",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Ligne 16",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f0157",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0158",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0159",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Ligne 17",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f0160",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0161",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0162",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Ligne 18",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f0163",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0164",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0165",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Ligne 19",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f0166",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0167",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0168",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Ligne 20",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "field": "f0169",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0170",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "field": "f0171",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Source : Direction générale des finances publiques. https://www.impots.gouv.fr/sites/default/files/formulaires/2905-epvl/2026/2905-epvl_5304.pdf; 2905-EPVL-SD; Cerfa 14933*07; edition undated; Licence Ouverte Etalab 2.0.",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f0001",
+      "label": "date limite de paiement",
+      "path": [
+        "Page 1",
+        "Etat de suivi des plus-values",
+        "date limite de paiement"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "date limite de paiement",
+      "synthetic_value": "15/10/2026"
+    },
+    {
+      "id": "f0002",
+      "label": "Date",
+      "path": [
+        "Page 1",
+        "PAIEMENT, DATE et SIGNATURE",
+        "Date"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date",
+      "synthetic_value": "15/10/2026"
+    },
+    {
+      "id": "f0003",
+      "label": "Signature",
+      "path": [
+        "Page 1",
+        "PAIEMENT, DATE et SIGNATURE",
+        "Signature"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Signature",
+      "synthetic_value": "Camille Martin"
+    },
+    {
+      "id": "f0004",
+      "label": "Téléphone",
+      "path": [
+        "Page 1",
+        "PAIEMENT, DATE et SIGNATURE",
+        "Téléphone"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Téléphone",
+      "synthetic_value": "0100000384"
+    },
+    {
+      "id": "f0005",
+      "label": "Adresse électronique",
+      "path": [
+        "Page 1",
+        "PAIEMENT, DATE et SIGNATURE",
+        "Adresse électronique"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Adresse électronique",
+      "synthetic_value": "camille384@example.org"
+    },
+    {
+      "id": "f0006",
+      "label": "PAIEMENT, DATE et SIGNATURE",
+      "path": [
+        "Page 1",
+        "PAIEMENT, DATE et SIGNATURE",
+        "Mode de paiement"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "PAIEMENT, DATE et SIGNATURE",
+      "synthetic_value": "Paiement par virement bancaire",
+      "options": [
+        "Paiement par virement bancaire",
+        "Paiement par imputation"
+      ],
+      "context_evidence": "Page 1 / PAIEMENT, DATE et SIGNATURE / Mode de paiement: Paiement par virement bancaire"
+    },
+    {
+      "id": "f0007",
+      "label": "Somme",
+      "path": [
+        "Page 1",
+        "RESERVE A L'ADMINISTRATION",
+        "Somme"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Somme",
+      "synthetic_value": "10000"
+    },
+    {
+      "id": "f0008",
+      "label": "Date",
+      "path": [
+        "Page 1",
+        "RESERVE A L'ADMINISTRATION",
+        "Date"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date",
+      "synthetic_value": "15/10/2026"
+    },
+    {
+      "id": "f0009",
+      "label": "N° d'opération",
+      "path": [
+        "Page 1",
+        "RESERVE A L'ADMINISTRATION",
+        "N° d'opération"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "N° d'opération",
+      "synthetic_value": "M384"
+    },
+    {
+      "id": "f0010",
+      "label": "Date de réception",
+      "path": [
+        "Page 1",
+        "RESERVE A L'ADMINISTRATION",
+        "Date de réception"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de réception",
+      "synthetic_value": "15/10/2026"
+    },
+    {
+      "id": "f0011",
+      "label": "SIE",
+      "path": [
+        "Page 1",
+        "RESERVE A L'ADMINISTRATION",
+        "SIE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "SIE",
+      "synthetic_value": "SIE Exemple"
+    },
+    {
+      "id": "f0012",
+      "label": "BIC",
+      "path": [
+        "Page 1",
+        "RESERVE A L'ADMINISTRATION",
+        "BIC"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "BIC",
+      "synthetic_value": "EXAMPLE1"
+    },
+    {
+      "id": "f0013",
+      "label": "REFERENCES",
+      "path": [
+        "Page 1",
+        "RESERVE A L'ADMINISTRATION",
+        "REFERENCES"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "REFERENCES",
+      "synthetic_value": "R384"
+    },
+    {
+      "id": "f0014",
+      "label": "PERIODE DE LA DECLARATION",
+      "path": [
+        "Page 1",
+        "PERIODE DE LA DECLARATION",
+        "Année"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "PERIODE DE LA DECLARATION",
+      "synthetic_value": "2026"
+    },
+    {
+      "id": "f0015",
+      "label": "PERIODE DE LA DECLARATION",
+      "path": [
+        "Page 1",
+        "PERIODE DE LA DECLARATION",
+        "dates de début et de fin de période",
+        "Début"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "PERIODE DE LA DECLARATION",
+      "synthetic_value": "01/01/2026"
+    },
+    {
+      "id": "f0016",
+      "label": "PERIODE DE LA DECLARATION",
+      "path": [
+        "Page 1",
+        "PERIODE DE LA DECLARATION",
+        "dates de début et de fin de période",
+        "Fin"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "PERIODE DE LA DECLARATION",
+      "synthetic_value": "30/09/2026"
+    },
+    {
+      "id": "f0017",
+      "label": "Adresse actuelle de l'entreprise",
+      "path": [
+        "Page 1",
+        "PERIODE DE LA DECLARATION",
+        "Adresse actuelle de l'entreprise"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Adresse actuelle de l'entreprise",
+      "synthetic_value": "12 rue Exemple, 75000 Paris"
+    },
+    {
+      "id": "f0018",
+      "label": "Nouvelle adresse de l'entreprise, de l’établissement ou de situation de l’actif isolé transféré",
+      "path": [
+        "Page 1",
+        "PERIODE DE LA DECLARATION",
+        "Nouvelle adresse de l'entreprise, de l’établissement ou de situation de l’actif isolé transféré"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nouvelle adresse de l'entreprise, de l’établissement ou de situation de l’actif isolé transféré",
+      "synthetic_value": "12 rue Exemple, 1000 Bruxelles"
+    },
+    {
+      "id": "f0019",
+      "label": "Date du transfert",
+      "path": [
+        "Page 1",
+        "PERIODE DE LA DECLARATION",
+        "Date du transfert"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date du transfert",
+      "synthetic_value": "30/09/2026"
+    },
+    {
+      "id": "f0020",
+      "label": "Nature du transfert",
+      "path": [
+        "Page 1",
+        "PERIODE DE LA DECLARATION",
+        "Nature du transfert"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nature du transfert",
+      "synthetic_value": "Transfert du siège"
+    },
+    {
+      "id": "f0021",
+      "label": "Bien",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "1",
+        "Bien"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Bien",
+      "synthetic_value": "Machine Exemple",
+      "label_position": [
+        25,
+        2
+      ]
+    },
+    {
+      "id": "f0022",
+      "label": "Valeur d'origine",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "1",
+        "Valeur d'origine"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Valeur d'origine",
+      "synthetic_value": "50000",
+      "label_position": [
+        25,
+        4
+      ]
+    },
+    {
+      "id": "f0023",
+      "label": "Amortissement",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "1",
+        "Amortissement"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Amortissement",
+      "synthetic_value": "10000",
+      "label_position": [
+        25,
+        6
+      ]
+    },
+    {
+      "id": "f0024",
+      "label": "Valeur au jour du transfert",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "1",
+        "Valeur au jour du transfert"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Valeur au jour du transfert",
+      "synthetic_value": "80000",
+      "label_position": [
+        25,
+        7
+      ]
+    },
+    {
+      "id": "f0025",
+      "label": "Plus ou Moins-Value À 25 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "1",
+        "Plus ou Moins-Value À 25 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 25 %",
+      "synthetic_value": "40000",
+      "label_position": [
+        25,
+        8
+      ]
+    },
+    {
+      "id": "f0026",
+      "label": "Plus ou Moins-Value À 19 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "1",
+        "Plus ou Moins-Value À 19 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 19 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        9
+      ]
+    },
+    {
+      "id": "f0027",
+      "label": "Plus ou Moins-Value À 15 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "1",
+        "Plus ou Moins-Value À 15 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 15 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        10
+      ]
+    },
+    {
+      "id": "f0028",
+      "label": "Plus ou Moins-Value À 10 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "1",
+        "Plus ou Moins-Value À 10 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 10 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        11
+      ]
+    },
+    {
+      "id": "f0029",
+      "label": "Bien",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "2",
+        "Bien"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Bien",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        25,
+        2
+      ]
+    },
+    {
+      "id": "f0030",
+      "label": "Valeur d'origine",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "2",
+        "Valeur d'origine"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Valeur d'origine",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        4
+      ]
+    },
+    {
+      "id": "f0031",
+      "label": "Amortissement",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "2",
+        "Amortissement"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Amortissement",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        6
+      ]
+    },
+    {
+      "id": "f0032",
+      "label": "Valeur au jour du transfert",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "2",
+        "Valeur au jour du transfert"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Valeur au jour du transfert",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        7
+      ]
+    },
+    {
+      "id": "f0033",
+      "label": "Plus ou Moins-Value À 25 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "2",
+        "Plus ou Moins-Value À 25 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 25 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        8
+      ]
+    },
+    {
+      "id": "f0034",
+      "label": "Plus ou Moins-Value À 19 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "2",
+        "Plus ou Moins-Value À 19 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 19 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        9
+      ]
+    },
+    {
+      "id": "f0035",
+      "label": "Plus ou Moins-Value À 15 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "2",
+        "Plus ou Moins-Value À 15 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 15 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        10
+      ]
+    },
+    {
+      "id": "f0036",
+      "label": "Plus ou Moins-Value À 10 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "2",
+        "Plus ou Moins-Value À 10 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 10 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        11
+      ]
+    },
+    {
+      "id": "f0037",
+      "label": "Bien",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "3",
+        "Bien"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Bien",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        25,
+        2
+      ]
+    },
+    {
+      "id": "f0038",
+      "label": "Valeur d'origine",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "3",
+        "Valeur d'origine"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Valeur d'origine",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        4
+      ]
+    },
+    {
+      "id": "f0039",
+      "label": "Amortissement",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "3",
+        "Amortissement"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Amortissement",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        6
+      ]
+    },
+    {
+      "id": "f0040",
+      "label": "Valeur au jour du transfert",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "3",
+        "Valeur au jour du transfert"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Valeur au jour du transfert",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        7
+      ]
+    },
+    {
+      "id": "f0041",
+      "label": "Plus ou Moins-Value À 25 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "3",
+        "Plus ou Moins-Value À 25 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 25 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        8
+      ]
+    },
+    {
+      "id": "f0042",
+      "label": "Plus ou Moins-Value À 19 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "3",
+        "Plus ou Moins-Value À 19 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 19 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        9
+      ]
+    },
+    {
+      "id": "f0043",
+      "label": "Plus ou Moins-Value À 15 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "3",
+        "Plus ou Moins-Value À 15 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 15 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        10
+      ]
+    },
+    {
+      "id": "f0044",
+      "label": "Plus ou Moins-Value À 10 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "3",
+        "Plus ou Moins-Value À 10 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 10 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        11
+      ]
+    },
+    {
+      "id": "f0045",
+      "label": "Bien",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "4",
+        "Bien"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Bien",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        25,
+        2
+      ]
+    },
+    {
+      "id": "f0046",
+      "label": "Valeur d'origine",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "4",
+        "Valeur d'origine"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Valeur d'origine",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        4
+      ]
+    },
+    {
+      "id": "f0047",
+      "label": "Amortissement",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "4",
+        "Amortissement"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Amortissement",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        6
+      ]
+    },
+    {
+      "id": "f0048",
+      "label": "Valeur au jour du transfert",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "4",
+        "Valeur au jour du transfert"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Valeur au jour du transfert",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        7
+      ]
+    },
+    {
+      "id": "f0049",
+      "label": "Plus ou Moins-Value À 25 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "4",
+        "Plus ou Moins-Value À 25 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 25 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        8
+      ]
+    },
+    {
+      "id": "f0050",
+      "label": "Plus ou Moins-Value À 19 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "4",
+        "Plus ou Moins-Value À 19 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 19 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        9
+      ]
+    },
+    {
+      "id": "f0051",
+      "label": "Plus ou Moins-Value À 15 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "4",
+        "Plus ou Moins-Value À 15 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 15 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        10
+      ]
+    },
+    {
+      "id": "f0052",
+      "label": "Plus ou Moins-Value À 10 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "4",
+        "Plus ou Moins-Value À 10 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 10 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        11
+      ]
+    },
+    {
+      "id": "f0053",
+      "label": "Bien",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "5",
+        "Bien"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Bien",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        25,
+        2
+      ]
+    },
+    {
+      "id": "f0054",
+      "label": "Valeur d'origine",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "5",
+        "Valeur d'origine"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Valeur d'origine",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        4
+      ]
+    },
+    {
+      "id": "f0055",
+      "label": "Amortissement",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "5",
+        "Amortissement"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Amortissement",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        6
+      ]
+    },
+    {
+      "id": "f0056",
+      "label": "Valeur au jour du transfert",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "5",
+        "Valeur au jour du transfert"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Valeur au jour du transfert",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        7
+      ]
+    },
+    {
+      "id": "f0057",
+      "label": "Plus ou Moins-Value À 25 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "5",
+        "Plus ou Moins-Value À 25 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 25 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        8
+      ]
+    },
+    {
+      "id": "f0058",
+      "label": "Plus ou Moins-Value À 19 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "5",
+        "Plus ou Moins-Value À 19 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 19 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        9
+      ]
+    },
+    {
+      "id": "f0059",
+      "label": "Plus ou Moins-Value À 15 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "5",
+        "Plus ou Moins-Value À 15 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 15 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        10
+      ]
+    },
+    {
+      "id": "f0060",
+      "label": "Plus ou Moins-Value À 10 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "5",
+        "Plus ou Moins-Value À 10 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 10 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        11
+      ]
+    },
+    {
+      "id": "f0061",
+      "label": "Bien",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "6",
+        "Bien"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Bien",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        25,
+        2
+      ]
+    },
+    {
+      "id": "f0062",
+      "label": "Valeur d'origine",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "6",
+        "Valeur d'origine"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Valeur d'origine",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        4
+      ]
+    },
+    {
+      "id": "f0063",
+      "label": "Amortissement",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "6",
+        "Amortissement"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Amortissement",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        6
+      ]
+    },
+    {
+      "id": "f0064",
+      "label": "Valeur au jour du transfert",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "6",
+        "Valeur au jour du transfert"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Valeur au jour du transfert",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        7
+      ]
+    },
+    {
+      "id": "f0065",
+      "label": "Plus ou Moins-Value À 25 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "6",
+        "Plus ou Moins-Value À 25 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 25 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        8
+      ]
+    },
+    {
+      "id": "f0066",
+      "label": "Plus ou Moins-Value À 19 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "6",
+        "Plus ou Moins-Value À 19 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 19 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        9
+      ]
+    },
+    {
+      "id": "f0067",
+      "label": "Plus ou Moins-Value À 15 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "6",
+        "Plus ou Moins-Value À 15 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 15 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        10
+      ]
+    },
+    {
+      "id": "f0068",
+      "label": "Plus ou Moins-Value À 10 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "6",
+        "Plus ou Moins-Value À 10 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 10 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        11
+      ]
+    },
+    {
+      "id": "f0069",
+      "label": "Bien",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "7",
+        "Bien"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Bien",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        25,
+        2
+      ]
+    },
+    {
+      "id": "f0070",
+      "label": "Valeur d'origine",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "7",
+        "Valeur d'origine"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Valeur d'origine",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        4
+      ]
+    },
+    {
+      "id": "f0071",
+      "label": "Amortissement",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "7",
+        "Amortissement"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Amortissement",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        6
+      ]
+    },
+    {
+      "id": "f0072",
+      "label": "Valeur au jour du transfert",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "7",
+        "Valeur au jour du transfert"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Valeur au jour du transfert",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        7
+      ]
+    },
+    {
+      "id": "f0073",
+      "label": "Plus ou Moins-Value À 25 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "7",
+        "Plus ou Moins-Value À 25 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 25 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        8
+      ]
+    },
+    {
+      "id": "f0074",
+      "label": "Plus ou Moins-Value À 19 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "7",
+        "Plus ou Moins-Value À 19 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 19 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        9
+      ]
+    },
+    {
+      "id": "f0075",
+      "label": "Plus ou Moins-Value À 15 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "7",
+        "Plus ou Moins-Value À 15 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 15 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        10
+      ]
+    },
+    {
+      "id": "f0076",
+      "label": "Plus ou Moins-Value À 10 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "7",
+        "Plus ou Moins-Value À 10 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 10 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        11
+      ]
+    },
+    {
+      "id": "f0077",
+      "label": "Bien",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "8",
+        "Bien"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Bien",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        25,
+        2
+      ]
+    },
+    {
+      "id": "f0078",
+      "label": "Valeur d'origine",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "8",
+        "Valeur d'origine"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Valeur d'origine",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        4
+      ]
+    },
+    {
+      "id": "f0079",
+      "label": "Amortissement",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "8",
+        "Amortissement"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Amortissement",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        6
+      ]
+    },
+    {
+      "id": "f0080",
+      "label": "Valeur au jour du transfert",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "8",
+        "Valeur au jour du transfert"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Valeur au jour du transfert",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        7
+      ]
+    },
+    {
+      "id": "f0081",
+      "label": "Plus ou Moins-Value À 25 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "8",
+        "Plus ou Moins-Value À 25 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 25 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        8
+      ]
+    },
+    {
+      "id": "f0082",
+      "label": "Plus ou Moins-Value À 19 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "8",
+        "Plus ou Moins-Value À 19 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 19 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        9
+      ]
+    },
+    {
+      "id": "f0083",
+      "label": "Plus ou Moins-Value À 15 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "8",
+        "Plus ou Moins-Value À 15 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 15 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        10
+      ]
+    },
+    {
+      "id": "f0084",
+      "label": "Plus ou Moins-Value À 10 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "8",
+        "Plus ou Moins-Value À 10 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 10 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        11
+      ]
+    },
+    {
+      "id": "f0085",
+      "label": "Bien",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "9",
+        "Bien"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Bien",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        25,
+        2
+      ]
+    },
+    {
+      "id": "f0086",
+      "label": "Valeur d'origine",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "9",
+        "Valeur d'origine"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Valeur d'origine",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        4
+      ]
+    },
+    {
+      "id": "f0087",
+      "label": "Amortissement",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "9",
+        "Amortissement"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Amortissement",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        6
+      ]
+    },
+    {
+      "id": "f0088",
+      "label": "Valeur au jour du transfert",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "9",
+        "Valeur au jour du transfert"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Valeur au jour du transfert",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        7
+      ]
+    },
+    {
+      "id": "f0089",
+      "label": "Plus ou Moins-Value À 25 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "9",
+        "Plus ou Moins-Value À 25 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 25 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        8
+      ]
+    },
+    {
+      "id": "f0090",
+      "label": "Plus ou Moins-Value À 19 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "9",
+        "Plus ou Moins-Value À 19 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 19 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        9
+      ]
+    },
+    {
+      "id": "f0091",
+      "label": "Plus ou Moins-Value À 15 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "9",
+        "Plus ou Moins-Value À 15 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 15 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        10
+      ]
+    },
+    {
+      "id": "f0092",
+      "label": "Plus ou Moins-Value À 10 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "9",
+        "Plus ou Moins-Value À 10 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 10 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        11
+      ]
+    },
+    {
+      "id": "f0093",
+      "label": "Bien",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "10",
+        "Bien"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Bien",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        25,
+        2
+      ]
+    },
+    {
+      "id": "f0094",
+      "label": "Valeur d'origine",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "10",
+        "Valeur d'origine"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Valeur d'origine",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        4
+      ]
+    },
+    {
+      "id": "f0095",
+      "label": "Amortissement",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "10",
+        "Amortissement"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Amortissement",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        6
+      ]
+    },
+    {
+      "id": "f0096",
+      "label": "Valeur au jour du transfert",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "10",
+        "Valeur au jour du transfert"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Valeur au jour du transfert",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        7
+      ]
+    },
+    {
+      "id": "f0097",
+      "label": "Plus ou Moins-Value À 25 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "10",
+        "Plus ou Moins-Value À 25 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 25 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        8
+      ]
+    },
+    {
+      "id": "f0098",
+      "label": "Plus ou Moins-Value À 19 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "10",
+        "Plus ou Moins-Value À 19 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 19 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        9
+      ]
+    },
+    {
+      "id": "f0099",
+      "label": "Plus ou Moins-Value À 15 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "10",
+        "Plus ou Moins-Value À 15 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 15 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        10
+      ]
+    },
+    {
+      "id": "f0100",
+      "label": "Plus ou Moins-Value À 10 %",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "10",
+        "Plus ou Moins-Value À 10 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Plus ou Moins-Value À 10 %",
+      "synthetic_value": "0",
+      "label_position": [
+        25,
+        11
+      ]
+    },
+    {
+      "id": "f0101",
+      "label": "Montant de la plus value nette",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "Montant de la plus value nette",
+        "À 25 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant de la plus value nette",
+      "synthetic_value": "40000"
+    },
+    {
+      "id": "f0102",
+      "label": "Montant de la plus value nette",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "Montant de la plus value nette",
+        "À 19 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant de la plus value nette",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f0103",
+      "label": "Montant de la plus value nette",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "Montant de la plus value nette",
+        "À 15 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant de la plus value nette",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f0104",
+      "label": "Montant de la plus value nette",
+      "path": [
+        "Page 1",
+        "MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES",
+        "Montant de la plus value nette",
+        "À 10 %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant de la plus value nette",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f0105",
+      "label": "Impôt sur les sociétés total (1)",
+      "path": [
+        "Page 1",
+        "MONTANT DE L'IMPOT SUR LES SOCIETES ET DES CONTRIBUTIONS ADDITIONNELLES DU SUR CES PLUS-VALUES",
+        "Impôt sur les sociétés total (1)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Impôt sur les sociétés total (1)",
+      "synthetic_value": "10000"
+    },
+    {
+      "id": "f0106",
+      "label": "Total des contributions additionnelles (2)",
+      "path": [
+        "Page 1",
+        "MONTANT DE L'IMPOT SUR LES SOCIETES ET DES CONTRIBUTIONS ADDITIONNELLES DU SUR CES PLUS-VALUES",
+        "Total des contributions additionnelles (2)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Total des contributions additionnelles (2)",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f0107",
+      "label": "1/5 de l'IS et des contributions additionnelles",
+      "path": [
+        "Page 1",
+        "MONTANT DE L'IMPOT SUR LES SOCIETES ET DES CONTRIBUTIONS ADDITIONNELLES DU SUR CES PLUS-VALUES",
+        "1/5 de l'IS et des contributions additionnelles"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "1/5 de l'IS et des contributions additionnelles",
+      "synthetic_value": "2000"
+    },
+    {
+      "id": "f0108",
+      "label": "Date du 1er versement",
+      "path": [
+        "Page 1",
+        "MONTANT DE L'IMPOT SUR LES SOCIETES ET DES CONTRIBUTIONS ADDITIONNELLES DU SUR CES PLUS-VALUES",
+        "Date du 1er versement"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date du 1er versement",
+      "synthetic_value": "15/10/2026"
+    },
+    {
+      "id": "f0109",
+      "label": "Solde d'IS et de contributions restant dû",
+      "path": [
+        "Page 1",
+        "MONTANT DE L'IMPOT SUR LES SOCIETES ET DES CONTRIBUTIONS ADDITIONNELLES DU SUR CES PLUS-VALUES",
+        "Solde d'IS et de contributions restant dû"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Solde d'IS et de contributions restant dû",
+      "synthetic_value": "8000"
+    },
+    {
+      "id": "f0110",
+      "label": "Total de la taxe due (1) + (2) ou (3)",
+      "path": [
+        "Page 1",
+        "MONTANT DE L'IMPOT SUR LES SOCIETES ET DES CONTRIBUTIONS ADDITIONNELLES DU SUR CES PLUS-VALUES",
+        "Total de la taxe due (1) + (2) ou (3)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Total de la taxe due (1) + (2) ou (3)",
+      "synthetic_value": "2000"
+    },
+    {
+      "id": "f0111",
+      "label": "Versement anticipé du solde en une seule fois",
+      "path": [
+        "Page 1",
+        "MONTANT DE L'IMPOT SUR LES SOCIETES ET DES CONTRIBUTIONS ADDITIONNELLES DU SUR CES PLUS-VALUES",
+        "Versement anticipé du solde en une seule fois"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "Versement anticipé du solde en une seule fois",
+      "synthetic_value": [],
+      "options": [
+        "Versement anticipé du solde en une seule fois"
+      ],
+      "context_evidence": "Page 1 / MONTANT DE L'IMPOT SUR LES SOCIETES ET DES CONTRIBUTIONS ADDITIONNELLES DU SUR CES PLUS-VALUES / Versement anticipé du solde en une seule fois: Aucune sélection"
+    },
+    {
+      "id": "f0112",
+      "label": "Nom des associés",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 1",
+        "Nom des associés"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom des associés",
+      "synthetic_value": "Camille Martin",
+      "label_position": [
+        49,
+        3
+      ]
+    },
+    {
+      "id": "f0113",
+      "label": "Adresse",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 1",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Adresse",
+      "synthetic_value": "12 rue Exemple, 75000 Paris",
+      "label_position": [
+        49,
+        6
+      ]
+    },
+    {
+      "id": "f0114",
+      "label": "Nombre de parts détenues",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 1",
+        "Nombre de parts détenues"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nombre de parts détenues",
+      "synthetic_value": "100",
+      "label_position": [
+        49,
+        9
+      ]
+    },
+    {
+      "id": "f0115",
+      "label": "Nom des associés",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 2",
+        "Nom des associés"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom des associés",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        3
+      ]
+    },
+    {
+      "id": "f0116",
+      "label": "Adresse",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 2",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Adresse",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        6
+      ]
+    },
+    {
+      "id": "f0117",
+      "label": "Nombre de parts détenues",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 2",
+        "Nombre de parts détenues"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nombre de parts détenues",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        9
+      ]
+    },
+    {
+      "id": "f0118",
+      "label": "Nom des associés",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 3",
+        "Nom des associés"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom des associés",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        3
+      ]
+    },
+    {
+      "id": "f0119",
+      "label": "Adresse",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 3",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Adresse",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        6
+      ]
+    },
+    {
+      "id": "f0120",
+      "label": "Nombre de parts détenues",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 3",
+        "Nombre de parts détenues"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nombre de parts détenues",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        9
+      ]
+    },
+    {
+      "id": "f0121",
+      "label": "Nom des associés",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 4",
+        "Nom des associés"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom des associés",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        3
+      ]
+    },
+    {
+      "id": "f0122",
+      "label": "Adresse",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 4",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Adresse",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        6
+      ]
+    },
+    {
+      "id": "f0123",
+      "label": "Nombre de parts détenues",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 4",
+        "Nombre de parts détenues"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nombre de parts détenues",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        9
+      ]
+    },
+    {
+      "id": "f0124",
+      "label": "Nom des associés",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 5",
+        "Nom des associés"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom des associés",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        3
+      ]
+    },
+    {
+      "id": "f0125",
+      "label": "Adresse",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 5",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Adresse",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        6
+      ]
+    },
+    {
+      "id": "f0126",
+      "label": "Nombre de parts détenues",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 5",
+        "Nombre de parts détenues"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nombre de parts détenues",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        9
+      ]
+    },
+    {
+      "id": "f0127",
+      "label": "Nom des associés",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 6",
+        "Nom des associés"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom des associés",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        3
+      ]
+    },
+    {
+      "id": "f0128",
+      "label": "Adresse",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 6",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Adresse",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        6
+      ]
+    },
+    {
+      "id": "f0129",
+      "label": "Nombre de parts détenues",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 6",
+        "Nombre de parts détenues"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nombre de parts détenues",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        9
+      ]
+    },
+    {
+      "id": "f0130",
+      "label": "Nom des associés",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 7",
+        "Nom des associés"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom des associés",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        3
+      ]
+    },
+    {
+      "id": "f0131",
+      "label": "Adresse",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 7",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Adresse",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        6
+      ]
+    },
+    {
+      "id": "f0132",
+      "label": "Nombre de parts détenues",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 7",
+        "Nombre de parts détenues"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nombre de parts détenues",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        9
+      ]
+    },
+    {
+      "id": "f0133",
+      "label": "Nom des associés",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 8",
+        "Nom des associés"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom des associés",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        3
+      ]
+    },
+    {
+      "id": "f0134",
+      "label": "Adresse",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 8",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Adresse",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        6
+      ]
+    },
+    {
+      "id": "f0135",
+      "label": "Nombre de parts détenues",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 8",
+        "Nombre de parts détenues"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nombre de parts détenues",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        9
+      ]
+    },
+    {
+      "id": "f0136",
+      "label": "Nom des associés",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 9",
+        "Nom des associés"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom des associés",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        3
+      ]
+    },
+    {
+      "id": "f0137",
+      "label": "Adresse",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 9",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Adresse",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        6
+      ]
+    },
+    {
+      "id": "f0138",
+      "label": "Nombre de parts détenues",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 9",
+        "Nombre de parts détenues"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nombre de parts détenues",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        9
+      ]
+    },
+    {
+      "id": "f0139",
+      "label": "Nom des associés",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 10",
+        "Nom des associés"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom des associés",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        3
+      ]
+    },
+    {
+      "id": "f0140",
+      "label": "Adresse",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 10",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Adresse",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        6
+      ]
+    },
+    {
+      "id": "f0141",
+      "label": "Nombre de parts détenues",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 10",
+        "Nombre de parts détenues"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nombre de parts détenues",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        9
+      ]
+    },
+    {
+      "id": "f0142",
+      "label": "Nom des associés",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 11",
+        "Nom des associés"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom des associés",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        3
+      ]
+    },
+    {
+      "id": "f0143",
+      "label": "Adresse",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 11",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Adresse",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        6
+      ]
+    },
+    {
+      "id": "f0144",
+      "label": "Nombre de parts détenues",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 11",
+        "Nombre de parts détenues"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nombre de parts détenues",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        9
+      ]
+    },
+    {
+      "id": "f0145",
+      "label": "Nom des associés",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 12",
+        "Nom des associés"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom des associés",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        3
+      ]
+    },
+    {
+      "id": "f0146",
+      "label": "Adresse",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 12",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Adresse",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        6
+      ]
+    },
+    {
+      "id": "f0147",
+      "label": "Nombre de parts détenues",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 12",
+        "Nombre de parts détenues"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nombre de parts détenues",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        9
+      ]
+    },
+    {
+      "id": "f0148",
+      "label": "Nom des associés",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 13",
+        "Nom des associés"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom des associés",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        3
+      ]
+    },
+    {
+      "id": "f0149",
+      "label": "Adresse",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 13",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Adresse",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        6
+      ]
+    },
+    {
+      "id": "f0150",
+      "label": "Nombre de parts détenues",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 13",
+        "Nombre de parts détenues"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nombre de parts détenues",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        9
+      ]
+    },
+    {
+      "id": "f0151",
+      "label": "Nom des associés",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 14",
+        "Nom des associés"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom des associés",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        3
+      ]
+    },
+    {
+      "id": "f0152",
+      "label": "Adresse",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 14",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Adresse",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        6
+      ]
+    },
+    {
+      "id": "f0153",
+      "label": "Nombre de parts détenues",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 14",
+        "Nombre de parts détenues"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nombre de parts détenues",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        9
+      ]
+    },
+    {
+      "id": "f0154",
+      "label": "Nom des associés",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 15",
+        "Nom des associés"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom des associés",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        3
+      ]
+    },
+    {
+      "id": "f0155",
+      "label": "Adresse",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 15",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Adresse",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        6
+      ]
+    },
+    {
+      "id": "f0156",
+      "label": "Nombre de parts détenues",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 15",
+        "Nombre de parts détenues"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nombre de parts détenues",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        9
+      ]
+    },
+    {
+      "id": "f0157",
+      "label": "Nom des associés",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 16",
+        "Nom des associés"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom des associés",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        3
+      ]
+    },
+    {
+      "id": "f0158",
+      "label": "Adresse",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 16",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Adresse",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        6
+      ]
+    },
+    {
+      "id": "f0159",
+      "label": "Nombre de parts détenues",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 16",
+        "Nombre de parts détenues"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nombre de parts détenues",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        9
+      ]
+    },
+    {
+      "id": "f0160",
+      "label": "Nom des associés",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 17",
+        "Nom des associés"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom des associés",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        3
+      ]
+    },
+    {
+      "id": "f0161",
+      "label": "Adresse",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 17",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Adresse",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        6
+      ]
+    },
+    {
+      "id": "f0162",
+      "label": "Nombre de parts détenues",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 17",
+        "Nombre de parts détenues"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nombre de parts détenues",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        9
+      ]
+    },
+    {
+      "id": "f0163",
+      "label": "Nom des associés",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 18",
+        "Nom des associés"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom des associés",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        3
+      ]
+    },
+    {
+      "id": "f0164",
+      "label": "Adresse",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 18",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Adresse",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        6
+      ]
+    },
+    {
+      "id": "f0165",
+      "label": "Nombre de parts détenues",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 18",
+        "Nombre de parts détenues"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nombre de parts détenues",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        9
+      ]
+    },
+    {
+      "id": "f0166",
+      "label": "Nom des associés",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 19",
+        "Nom des associés"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom des associés",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        3
+      ]
+    },
+    {
+      "id": "f0167",
+      "label": "Adresse",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 19",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Adresse",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        6
+      ]
+    },
+    {
+      "id": "f0168",
+      "label": "Nombre de parts détenues",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 19",
+        "Nombre de parts détenues"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nombre de parts détenues",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        9
+      ]
+    },
+    {
+      "id": "f0169",
+      "label": "Nom des associés",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 20",
+        "Nom des associés"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nom des associés",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        3
+      ]
+    },
+    {
+      "id": "f0170",
+      "label": "Adresse",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 20",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Adresse",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        6
+      ]
+    },
+    {
+      "id": "f0171",
+      "label": "Nombre de parts détenues",
+      "path": [
+        "Page 2",
+        "LISTE DES ASSOCIES AU JOUR DU TRANSFERT",
+        "Ligne 20",
+        "Nombre de parts détenues"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nombre de parts détenues",
+      "synthetic_value": "Sans objet",
+      "label_position": [
+        49,
+        9
+      ]
+    }
+  ],
+  "context": "Exemple fictif de remplissage complet, sans transmission. Les rubriques sans objet sont explicitement renseignées comme telles; les blocs administratifs sont des données fictives distinctes.\nPage 1 / Etat de suivi des plus-values / date limite de paiement: 15/10/2026\nPage 1 / PAIEMENT, DATE et SIGNATURE / Date: 15/10/2026\nPage 1 / PAIEMENT, DATE et SIGNATURE / Signature: Camille Martin\nPage 1 / PAIEMENT, DATE et SIGNATURE / Téléphone: 0100000384\nPage 1 / PAIEMENT, DATE et SIGNATURE / Adresse électronique: camille384@example.org\nPage 1 / PAIEMENT, DATE et SIGNATURE / Mode de paiement: Paiement par virement bancaire\nPage 1 / RESERVE A L'ADMINISTRATION / Somme: 10000\nPage 1 / RESERVE A L'ADMINISTRATION / Date: 15/10/2026\nPage 1 / RESERVE A L'ADMINISTRATION / N° d'opération: M384\nPage 1 / RESERVE A L'ADMINISTRATION / Date de réception: 15/10/2026\nPage 1 / RESERVE A L'ADMINISTRATION / SIE: SIE Exemple\nPage 1 / RESERVE A L'ADMINISTRATION / BIC: EXAMPLE1\nPage 1 / RESERVE A L'ADMINISTRATION / REFERENCES: R384\nPage 1 / PERIODE DE LA DECLARATION / Année: 2026\nPage 1 / PERIODE DE LA DECLARATION / dates de début et de fin de période / Début: 01/01/2026\nPage 1 / PERIODE DE LA DECLARATION / dates de début et de fin de période / Fin: 30/09/2026\nPage 1 / PERIODE DE LA DECLARATION / Adresse actuelle de l'entreprise: 12 rue Exemple, 75000 Paris\nPage 1 / PERIODE DE LA DECLARATION / Nouvelle adresse de l'entreprise, de l’établissement ou de situation de l’actif isolé transféré: 12 rue Exemple, 1000 Bruxelles\nPage 1 / PERIODE DE LA DECLARATION / Date du transfert: 30/09/2026\nPage 1 / PERIODE DE LA DECLARATION / Nature du transfert: Transfert du siège\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 1 / Bien: Machine Exemple\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 1 / Valeur d'origine: 50000\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 1 / Amortissement: 10000\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 1 / Valeur au jour du transfert: 80000\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 1 / Plus ou Moins-Value À 25 %: 40000\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 1 / Plus ou Moins-Value À 19 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 1 / Plus ou Moins-Value À 15 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 1 / Plus ou Moins-Value À 10 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 2 / Bien: Sans objet\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 2 / Valeur d'origine: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 2 / Amortissement: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 2 / Valeur au jour du transfert: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 2 / Plus ou Moins-Value À 25 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 2 / Plus ou Moins-Value À 19 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 2 / Plus ou Moins-Value À 15 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 2 / Plus ou Moins-Value À 10 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 3 / Bien: Sans objet\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 3 / Valeur d'origine: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 3 / Amortissement: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 3 / Valeur au jour du transfert: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 3 / Plus ou Moins-Value À 25 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 3 / Plus ou Moins-Value À 19 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 3 / Plus ou Moins-Value À 15 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 3 / Plus ou Moins-Value À 10 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 4 / Bien: Sans objet\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 4 / Valeur d'origine: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 4 / Amortissement: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 4 / Valeur au jour du transfert: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 4 / Plus ou Moins-Value À 25 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 4 / Plus ou Moins-Value À 19 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 4 / Plus ou Moins-Value À 15 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 4 / Plus ou Moins-Value À 10 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 5 / Bien: Sans objet\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 5 / Valeur d'origine: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 5 / Amortissement: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 5 / Valeur au jour du transfert: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 5 / Plus ou Moins-Value À 25 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 5 / Plus ou Moins-Value À 19 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 5 / Plus ou Moins-Value À 15 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 5 / Plus ou Moins-Value À 10 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 6 / Bien: Sans objet\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 6 / Valeur d'origine: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 6 / Amortissement: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 6 / Valeur au jour du transfert: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 6 / Plus ou Moins-Value À 25 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 6 / Plus ou Moins-Value À 19 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 6 / Plus ou Moins-Value À 15 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 6 / Plus ou Moins-Value À 10 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 7 / Bien: Sans objet\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 7 / Valeur d'origine: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 7 / Amortissement: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 7 / Valeur au jour du transfert: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 7 / Plus ou Moins-Value À 25 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 7 / Plus ou Moins-Value À 19 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 7 / Plus ou Moins-Value À 15 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 7 / Plus ou Moins-Value À 10 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 8 / Bien: Sans objet\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 8 / Valeur d'origine: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 8 / Amortissement: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 8 / Valeur au jour du transfert: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 8 / Plus ou Moins-Value À 25 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 8 / Plus ou Moins-Value À 19 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 8 / Plus ou Moins-Value À 15 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 8 / Plus ou Moins-Value À 10 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 9 / Bien: Sans objet\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 9 / Valeur d'origine: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 9 / Amortissement: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 9 / Valeur au jour du transfert: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 9 / Plus ou Moins-Value À 25 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 9 / Plus ou Moins-Value À 19 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 9 / Plus ou Moins-Value À 15 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 9 / Plus ou Moins-Value À 10 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 10 / Bien: Sans objet\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 10 / Valeur d'origine: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 10 / Amortissement: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 10 / Valeur au jour du transfert: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 10 / Plus ou Moins-Value À 25 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 10 / Plus ou Moins-Value À 19 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 10 / Plus ou Moins-Value À 15 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / 10 / Plus ou Moins-Value À 10 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / Montant de la plus value nette / À 25 %: 40000\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / Montant de la plus value nette / À 19 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / Montant de la plus value nette / À 15 %: 0\nPage 1 / MONTANT DES PLUS-VALUES AFFERENTES AUX ACTIFS TRANSFERES / Montant de la plus value nette / À 10 %: 0\nPage 1 / MONTANT DE L'IMPOT SUR LES SOCIETES ET DES CONTRIBUTIONS ADDITIONNELLES DU SUR CES PLUS-VALUES / Impôt sur les sociétés total (1): 10000\nPage 1 / MONTANT DE L'IMPOT SUR LES SOCIETES ET DES CONTRIBUTIONS ADDITIONNELLES DU SUR CES PLUS-VALUES / Total des contributions additionnelles (2): 0\nPage 1 / MONTANT DE L'IMPOT SUR LES SOCIETES ET DES CONTRIBUTIONS ADDITIONNELLES DU SUR CES PLUS-VALUES / 1/5 de l'IS et des contributions additionnelles: 2000\nPage 1 / MONTANT DE L'IMPOT SUR LES SOCIETES ET DES CONTRIBUTIONS ADDITIONNELLES DU SUR CES PLUS-VALUES / Date du 1er versement: 15/10/2026\nPage 1 / MONTANT DE L'IMPOT SUR LES SOCIETES ET DES CONTRIBUTIONS ADDITIONNELLES DU SUR CES PLUS-VALUES / Solde d'IS et de contributions restant dû: 8000\nPage 1 / MONTANT DE L'IMPOT SUR LES SOCIETES ET DES CONTRIBUTIONS ADDITIONNELLES DU SUR CES PLUS-VALUES / Total de la taxe due (1) + (2) ou (3): 2000\nPage 1 / MONTANT DE L'IMPOT SUR LES SOCIETES ET DES CONTRIBUTIONS ADDITIONNELLES DU SUR CES PLUS-VALUES / Versement anticipé du solde en une seule fois: Aucune sélection\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 1 / Nom des associés: Camille Martin\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 1 / Adresse: 12 rue Exemple, 75000 Paris\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 1 / Nombre de parts détenues: 100\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 2 / Nom des associés: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 2 / Adresse: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 2 / Nombre de parts détenues: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 3 / Nom des associés: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 3 / Adresse: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 3 / Nombre de parts détenues: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 4 / Nom des associés: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 4 / Adresse: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 4 / Nombre de parts détenues: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 5 / Nom des associés: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 5 / Adresse: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 5 / Nombre de parts détenues: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 6 / Nom des associés: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 6 / Adresse: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 6 / Nombre de parts détenues: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 7 / Nom des associés: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 7 / Adresse: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 7 / Nombre de parts détenues: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 8 / Nom des associés: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 8 / Adresse: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 8 / Nombre de parts détenues: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 9 / Nom des associés: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 9 / Adresse: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 9 / Nombre de parts détenues: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 10 / Nom des associés: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 10 / Adresse: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 10 / Nombre de parts détenues: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 11 / Nom des associés: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 11 / Adresse: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 11 / Nombre de parts détenues: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 12 / Nom des associés: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 12 / Adresse: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 12 / Nombre de parts détenues: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 13 / Nom des associés: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 13 / Adresse: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 13 / Nombre de parts détenues: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 14 / Nom des associés: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 14 / Adresse: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 14 / Nombre de parts détenues: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 15 / Nom des associés: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 15 / Adresse: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 15 / Nombre de parts détenues: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 16 / Nom des associés: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 16 / Adresse: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 16 / Nombre de parts détenues: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 17 / Nom des associés: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 17 / Adresse: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 17 / Nombre de parts détenues: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 18 / Nom des associés: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 18 / Adresse: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 18 / Nombre de parts détenues: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 19 / Nom des associés: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 19 / Adresse: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 19 / Nombre de parts détenues: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 20 / Nom des associés: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 20 / Adresse: Sans objet\nPage 2 / LISTE DES ASSOCIES AU JOUR DU TRANSFERT / Ligne 20 / Nombre de parts détenues: Sans objet",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 384
+  }
+}

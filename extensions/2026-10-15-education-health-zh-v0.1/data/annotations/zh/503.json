@@ -1,0 +1,342 @@
+{
+  "id": "zh-nsw-edu-naplan",
+  "language": "zh",
+  "title": "家長或撫養人同意在全國評估計劃中免考或退出測試的表格",
+  "domain": "Education",
+  "template_family": "naplan-consent",
+  "issuer": "New South Wales Department of Education",
+  "issuer_id": "NSW-EDU",
+  "columns": 2,
+  "rows": [
+    [
+      {
+        "text": "全國讀寫及計算能力評估計劃 / National Assessment Program - Literacy and Numeracy (NAPLAN)",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "免考的理由必須由學校提出。家長或撫養人也可以要求讓學生退出測試。退出或免考須填寫同意表格。",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "家長或撫養人同意免考或退出測試",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "naplan_year",
+        "label": "NAPLAN 測試的年級",
+        "source_page": 2,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "field": "student",
+        "label": "父母在此填入學生姓名",
+        "source_page": 2,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "field": "enrolment_year",
+        "label": "父母在此填入錄取年級",
+        "source_page": 2,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "field": "status",
+        "label": "表明你的孩子免考或退出考試。",
+        "source_page": 2,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "field": "tests",
+        "label": "表明你的孩子將免考全國評估計劃的哪些部分。",
+        "source_page": 2,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "text": "學校填入各項測試日期",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "test_date_1",
+        "label": "語言習慣測試：School to delete and insert date of test",
+        "source_page": 2,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "field": "test_date_2",
+        "label": "寫作測試：School to delete and insert date of test",
+        "source_page": 2,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "field": "test_date_3",
+        "label": "閱讀測試：School to delete and insert date of test",
+        "source_page": 2,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "field": "test_date_4",
+        "label": "計算能力測試：School to delete and insert date of test",
+        "source_page": 2,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "text": "家長或撫養人簽署",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "parent",
+        "label": "父母或撫養人姓名",
+        "source_page": 2,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "field": "signature",
+        "label": "家長或撫養人簽名",
+        "source_page": 2,
+        "colspan": 1
+      },
+      {
+        "field": "date",
+        "label": "日期",
+        "source_page": 2,
+        "colspan": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "naplan_year",
+      "label": "NAPLAN 測試的年級",
+      "source_anchor": "NAPLAN 測試的年級",
+      "source_page": 2,
+      "display_label": "NAPLAN 測試的年級",
+      "path": [
+        "家長或撫養人同意免考或退出測試",
+        "NAPLAN 測試的年級"
+      ],
+      "kind": "text",
+      "synthetic_value": "Year 5"
+    },
+    {
+      "id": "student",
+      "label": "父母在此填入學生姓名",
+      "source_anchor": "父母在此填入學生姓名",
+      "source_page": 2,
+      "display_label": "父母在此填入學生姓名",
+      "path": [
+        "家長或撫養人同意免考或退出測試",
+        "父母在此填入學生姓名"
+      ],
+      "kind": "text",
+      "synthetic_value": "Lin Sample"
+    },
+    {
+      "id": "enrolment_year",
+      "label": "父母在此填入錄取年級",
+      "source_anchor": "父母在此填入錄取年級",
+      "source_page": 2,
+      "display_label": "父母在此填入錄取年級",
+      "path": [
+        "家長或撫養人同意免考或退出測試",
+        "父母在此填入錄取年級"
+      ],
+      "kind": "text",
+      "synthetic_value": "Year 5"
+    },
+    {
+      "id": "status",
+      "label": "表明你的孩子免考或退出考試。",
+      "source_anchor": "表明你的孩子免考或退出考試。",
+      "source_page": 2,
+      "display_label": "表明你的孩子免考或退出考試。",
+      "path": [
+        "家長或撫養人同意免考或退出測試",
+        "表明你的孩子免考或退出考試。"
+      ],
+      "kind": "checkbox_single",
+      "options": [
+        "免考 (Exempt)",
+        "退出測試 (Withdrawn)"
+      ],
+      "synthetic_value": "退出測試 (Withdrawn)",
+      "context_evidence": "家長或撫養人同意免考或退出測試 / 表明你的孩子免考或退出考試。: selected options are 退出測試 (Withdrawn)"
+    },
+    {
+      "id": "tests",
+      "label": "表明你的孩子將免考全國評估計劃的哪些部分。",
+      "source_anchor": "表明你的孩子將免考全國評估計劃的哪些部分。",
+      "source_page": 2,
+      "display_label": "表明你的孩子將免考全國評估計劃的哪些部分。",
+      "path": [
+        "家長或撫養人同意免考或退出測試",
+        "表明你的孩子將免考全國評估計劃的哪些部分。"
+      ],
+      "kind": "checkbox_multi",
+      "options": [
+        "語言習慣測試",
+        "寫作測試",
+        "閱讀測試",
+        "計算能力測試"
+      ],
+      "synthetic_value": [
+        "寫作測試",
+        "閱讀測試"
+      ],
+      "context_evidence": "家長或撫養人同意免考或退出測試 / 表明你的孩子將免考全國評估計劃的哪些部分。: selected options are 寫作測試; 閱讀測試"
+    },
+    {
+      "id": "test_date_1",
+      "label": "School to delete and insert date of test",
+      "source_anchor": "School to delete and insert date of test",
+      "source_page": 2,
+      "display_label": "語言習慣測試：School to delete and insert date of test",
+      "path": [
+        "學校填入各項測試日期",
+        "語言習慣測試",
+        "測試日期"
+      ],
+      "kind": "text",
+      "synthetic_value": "11 March 2027"
+    },
+    {
+      "id": "test_date_2",
+      "label": "School to delete and insert date of test",
+      "source_anchor": "School to delete and insert date of test",
+      "source_page": 2,
+      "display_label": "寫作測試：School to delete and insert date of test",
+      "path": [
+        "學校填入各項測試日期",
+        "寫作測試",
+        "測試日期"
+      ],
+      "kind": "text",
+      "synthetic_value": "12 March 2027"
+    },
+    {
+      "id": "test_date_3",
+      "label": "School to delete and insert date of test",
+      "source_anchor": "School to delete and insert date of test",
+      "source_page": 2,
+      "display_label": "閱讀測試：School to delete and insert date of test",
+      "path": [
+        "學校填入各項測試日期",
+        "閱讀測試",
+        "測試日期"
+      ],
+      "kind": "text",
+      "synthetic_value": "13 March 2027"
+    },
+    {
+      "id": "test_date_4",
+      "label": "School to delete and insert date of test",
+      "source_anchor": "School to delete and insert date of test",
+      "source_page": 2,
+      "display_label": "計算能力測試：School to delete and insert date of test",
+      "path": [
+        "學校填入各項測試日期",
+        "計算能力測試",
+        "測試日期"
+      ],
+      "kind": "text",
+      "synthetic_value": "14 March 2027"
+    },
+    {
+      "id": "parent",
+      "label": "父母或撫養人姓名",
+      "source_anchor": "父母或撫養人姓名",
+      "source_page": 2,
+      "display_label": "父母或撫養人姓名",
+      "path": [
+        "家長或撫養人簽署",
+        "父母或撫養人姓名"
+      ],
+      "kind": "text",
+      "synthetic_value": "Mei Sample"
+    },
+    {
+      "id": "signature",
+      "label": "家長或撫養人簽名",
+      "source_anchor": "家長或撫養人簽名",
+      "source_page": 2,
+      "display_label": "家長或撫養人簽名",
+      "path": [
+        "家長或撫養人簽署",
+        "家長或撫養人簽名"
+      ],
+      "kind": "text",
+      "synthetic_value": "Mei Sample"
+    },
+    {
+      "id": "date",
+      "label": "日期",
+      "source_anchor": "日期",
+      "source_page": 2,
+      "display_label": "日期",
+      "path": [
+        "家長或撫養人簽署",
+        "日期"
+      ],
+      "kind": "text",
+      "synthetic_value": "15 October 2026"
+    }
+  ],
+  "source_pages": 2,
+  "source_url": "https://education.nsw.gov.au/content/dam/main-education/going-to-a-public-school/media/documents/translated-documents-/naplan-withdrawal-form/chinese-3.Consent_for_withdrawal.pdf",
+  "landing_url": "https://education.nsw.gov.au/schooling/translated-documents/naplan-consent-for-exemption-or-withdrawal.html",
+  "source_sha256": "26af2b404732a62ed1e5dc9d0956b1e122899c3eabf4add22bf28ea5d3fbc282",
+  "license_url": "https://education.nsw.gov.au/about-us/copyright.html",
+  "license_note": "NSW Department of Education website content is CC BY 4.0; logos, trademarks and third-party material are excluded. The normalized form omits logos and artwork.",
+  "retrieved_at": "2026-10-15",
+  "source_updated_at": "2026-02-04",
+  "source_version": "No edition number printed in this PDF",
+  "source_date_evidence": {
+    "kind": "official_landing_and_pdf_metadata",
+    "source_url": "https://education.nsw.gov.au/schooling/translated-documents/naplan-consent-for-exemption-or-withdrawal.html",
+    "value": "Official landing last modified date=2026-02-04; PDF CreationDate=D:20090302103316+11'00'; PDF ModDate=D:20250213163532+01'00'",
+    "detail": "Landing and PDF metadata dates are recorded separately from the source edition."
+  },
+  "context": "Fictional test record; all persons, locations and contact details are synthetic.\n家長或撫養人同意免考或退出測試 / NAPLAN 測試的年級: Year 5.\n家長或撫養人同意免考或退出測試 / 父母在此填入學生姓名: Lin Sample.\n家長或撫養人同意免考或退出測試 / 父母在此填入錄取年級: Year 5.\n家長或撫養人同意免考或退出測試 / 表明你的孩子免考或退出考試。: selected options are 退出測試 (Withdrawn).\n家長或撫養人同意免考或退出測試 / 表明你的孩子將免考全國評估計劃的哪些部分。: selected options are 寫作測試; 閱讀測試.\n學校填入各項測試日期 / 語言習慣測試 / 測試日期: 11 March 2027.\n學校填入各項測試日期 / 寫作測試 / 測試日期: 12 March 2027.\n學校填入各項測試日期 / 閱讀測試 / 測試日期: 13 March 2027.\n學校填入各項測試日期 / 計算能力測試 / 測試日期: 14 March 2027.\n家長或撫養人簽署 / 父母或撫養人姓名: Mei Sample.\n家長或撫養人簽署 / 家長或撫養人簽名: Mei Sample.\n家長或撫養人簽署 / 日期: 15 October 2026.",
+  "workflow_identity": {
+    "language": "zh",
+    "id": 503
+  }
+}

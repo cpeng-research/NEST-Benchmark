@@ -1,0 +1,826 @@
+{
+  "id": "fr-381-valeur-ajoutee-immeubles",
+  "title": "DÉTERMINATION DE LA VALEUR AJOUTÉE PRODUITE AU COURS DE L’EXERCICE",
+  "language": "fr",
+  "domain": "Finance",
+  "issuer_id": "Direction générale des finances publiques (DGFiP)",
+  "template_family": "2072-e-sd",
+  "business_topic": "DÉTERMINATION DE LA VALEUR AJOUTÉE PRODUITE AU COURS DE L’EXERCICE",
+  "source_url": "https://www.impots.gouv.fr/sites/default/files/formulaires/2072-e-sd/2026/2072-e-sd_5359.pdf",
+  "landing_url": "https://www.impots.gouv.fr/formulaire/2072-e-sd/cotisation-sur-la-valeur-ajoutee-des-entreprises",
+  "license_url": "https://www.impots.gouv.fr/mentions-legales",
+  "license_note": "DGFiP public information: Licence Ouverte Etalab 2.0, except explicitly identified third-party intellectual property. Attribution and printed edition or undated-edition fetch are retained. DGFiP graphics and original PDFs are not redistributed.",
+  "source_sha256": "3738c697c1ba093d0f32bea6a0654399c360af747234300948a76b8260b8ee32",
+  "source_pages": 2,
+  "retrieved_at": "2026-10-05 (original local download; precise time not recorded)",
+  "source_version": "2072-E-SD; Janvier 2026; Cerfa 14027*17",
+  "source_date_evidence": {
+    "kind": "printed PDF mark",
+    "source_page": 1,
+    "literal": "Janvier 2026",
+    "scope": "Edition is based on printed text, not PDF metadata or URL year. The source was reused from the dated local download."
+  },
+  "columns": 12,
+  "rows": [
+    [
+      {
+        "text": "DÉTERMINATION DE LA VALEUR AJOUTÉE PRODUITE AU COURS DE L’EXERCICE",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "IMMEUBLES NUS À USAGE AUTRE QU’HABITATION",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NEANT",
+        "field": "f0001",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "DÉNOMINATION DE L’ENTREPRISE",
+        "field": "f0002",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "ADRESSE DE L’ENTREPRISE",
+        "field": "f0003",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "NOM ET ADRESSE PERSONNELLE DE L’EXPLOITANT",
+        "field": "f0004",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "N° d’identification de l’entreprise (SIREN)",
+        "field": "f0005",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Exercice ouvert le",
+        "field": "f0006",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "et clos le",
+        "field": "f0007",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "I - RECETTES",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "R01",
+        "heading": true,
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Montant brut des fermages ou des loyers encaissés",
+        "field": "f0008",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "R02",
+        "heading": true,
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Dépenses par nature déductibles de l’impôt sur le revenu incombant normalement à la société, la collectivité ou l’organisme sans but lucratif mises par convention à la charge des locataires",
+        "field": "f0009",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "R03",
+        "heading": true,
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Recettes brutes diverses (subventions ANAH, indemnités d’assurances....)",
+        "field": "f0010",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "T01",
+        "heading": true,
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "TOTAL A",
+        "field": "f0011",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "II – DÉDUCTIONS, FRAIS ET CHARGES",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "D01",
+        "heading": true,
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Frais d’administration et de gestion et autres frais de gestion",
+        "field": "f0012",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "D02",
+        "heading": true,
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Primes d’assurances",
+        "field": "f0013",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "D03",
+        "heading": true,
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Dépenses de réparation, d’entretien et d’amélioration",
+        "field": "f0014",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "D06",
+        "heading": true,
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Dépenses spécifiques aux monuments historiques",
+        "field": "f0015",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "D07",
+        "heading": true,
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Charges récupérables non récupérées au départ du locataire",
+        "field": "f0016",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "D08",
+        "heading": true,
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Indemnités d’éviction, frais de relogement",
+        "field": "f0017",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "D09",
+        "heading": true,
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Déductions spécifiques du revenu brut (diminuées des éventuelles réintégrations)",
+        "field": "f0018",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "D10",
+        "heading": true,
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Montant de la déduction au titre de l’amortissement",
+        "field": "f0019",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "D11",
+        "heading": true,
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Provisions pour charges de copropriété payées par les copropriétaires bailleurs et régularisations éventuelles de provisions antérieures",
+        "field": "f0020",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "T02",
+        "heading": true,
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "TOTAL B (D01+D02+D03+D06+D07+D08+D09+D10+D11)",
+        "field": "f0021",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "III – VALEUR AJOUTÉE PRODUITE",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Calcul de la Valeur Ajoutée",
+        "field": "f0022",
+        "source_page": 2,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "IV - COTISATION SUR LA VALEUR AJOUTÉE DES ENTREPRISES (CVAE)",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Mono établissement au sens de la CVAE (cocher la case)",
+        "field": "f0023",
+        "source_page": 2,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Effectifs au sens de la CVAE",
+        "field": "f0024",
+        "source_page": 2,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "date de début",
+        "field": "f0025",
+        "source_page": 2,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "date de fin",
+        "field": "f0026",
+        "source_page": 2,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Valeur ajoutée rentrant dans le dispositif de la CVAE",
+        "field": "f0027",
+        "source_page": 2,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Chiffre d'affaires de référence CVAE",
+        "field": "f0028",
+        "source_page": 2,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Chiffre d’affaires du groupe économique (entreprises répondant aux conditions de détention fixées à l’article 223 A du CGI)",
+        "field": "f0029",
+        "source_page": 2,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Date de cessation",
+        "field": "f0030",
+        "source_page": 2,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "Source : Direction générale des finances publiques. https://www.impots.gouv.fr/sites/default/files/formulaires/2072-e-sd/2026/2072-e-sd_5359.pdf; 2072-E-SD; Janvier 2026; Cerfa 14027*17; Licence Ouverte Etalab 2.0.",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f0001",
+      "label": "NEANT",
+      "path": [
+        "Page 1",
+        "IMMEUBLES NUS À USAGE AUTRE QU’HABITATION",
+        "NEANT"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "NEANT",
+      "synthetic_value": [],
+      "options": [
+        "NEANT"
+      ],
+      "context_evidence": "Page 1 / IMMEUBLES NUS À USAGE AUTRE QU’HABITATION / NEANT: Aucune sélection"
+    },
+    {
+      "id": "f0002",
+      "label": "DÉNOMINATION DE L’ENTREPRISE",
+      "path": [
+        "Page 1",
+        "IMMEUBLES NUS À USAGE AUTRE QU’HABITATION",
+        "DÉNOMINATION DE L’ENTREPRISE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DÉNOMINATION DE L’ENTREPRISE",
+      "synthetic_value": "SCI Exemple"
+    },
+    {
+      "id": "f0003",
+      "label": "ADRESSE DE L’ENTREPRISE",
+      "path": [
+        "Page 1",
+        "IMMEUBLES NUS À USAGE AUTRE QU’HABITATION",
+        "ADRESSE DE L’ENTREPRISE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "ADRESSE DE L’ENTREPRISE",
+      "synthetic_value": "12 rue Exemple, 75000 Paris"
+    },
+    {
+      "id": "f0004",
+      "label": "NOM ET ADRESSE PERSONNELLE DE L’EXPLOITANT",
+      "path": [
+        "Page 1",
+        "IMMEUBLES NUS À USAGE AUTRE QU’HABITATION",
+        "NOM ET ADRESSE PERSONNELLE DE L’EXPLOITANT"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "NOM ET ADRESSE PERSONNELLE DE L’EXPLOITANT",
+      "synthetic_value": "Camille Martin, 14 rue Exemple, 75000 Paris"
+    },
+    {
+      "id": "f0005",
+      "label": "N° d’identification de l’entreprise (SIREN)",
+      "path": [
+        "Page 1",
+        "IMMEUBLES NUS À USAGE AUTRE QU’HABITATION",
+        "N° d’identification de l’entreprise (SIREN)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "N° d’identification de l’entreprise (SIREN)",
+      "synthetic_value": "000000381"
+    },
+    {
+      "id": "f0006",
+      "label": "Exercice ouvert le",
+      "path": [
+        "Page 1",
+        "IMMEUBLES NUS À USAGE AUTRE QU’HABITATION",
+        "Exercice ouvert le"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Exercice ouvert le",
+      "synthetic_value": "01/01/2025"
+    },
+    {
+      "id": "f0007",
+      "label": "et clos le",
+      "path": [
+        "Page 1",
+        "IMMEUBLES NUS À USAGE AUTRE QU’HABITATION",
+        "et clos le"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "et clos le",
+      "synthetic_value": "31/12/2025"
+    },
+    {
+      "id": "f0008",
+      "label": "Montant brut des fermages ou des loyers encaissés",
+      "path": [
+        "Page 1",
+        "I - RECETTES",
+        "R01",
+        "Montant brut des fermages ou des loyers encaissés"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant brut des fermages ou des loyers encaissés",
+      "synthetic_value": "200000"
+    },
+    {
+      "id": "f0009",
+      "label": "Dépenses par nature déductibles de l’impôt sur le revenu incombant normalement à la société, la collectivité ou l’organisme sans but lucratif mises par convention à la charge des locataires",
+      "path": [
+        "Page 1",
+        "I - RECETTES",
+        "R02",
+        "Dépenses par nature déductibles de l’impôt sur le revenu incombant normalement à la société, la collectivité ou l’organisme sans but lucratif mises par convention à la charge des locataires"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dépenses par nature déductibles de l’impôt sur le revenu incombant normalement à la société, la collectivité ou l’organisme sans but lucratif mises par convention à la charge des locataires",
+      "synthetic_value": "10000"
+    },
+    {
+      "id": "f0010",
+      "label": "Recettes brutes diverses (subventions ANAH, indemnités d’assurances....)",
+      "path": [
+        "Page 1",
+        "I - RECETTES",
+        "R03",
+        "Recettes brutes diverses (subventions ANAH, indemnités d’assurances….)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Recettes brutes diverses (subventions ANAH, indemnités d’assurances....)",
+      "synthetic_value": "5000"
+    },
+    {
+      "id": "f0011",
+      "label": "TOTAL A",
+      "path": [
+        "Page 1",
+        "I - RECETTES",
+        "T01",
+        "TOTAL A"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "TOTAL A",
+      "synthetic_value": "215000"
+    },
+    {
+      "id": "f0012",
+      "label": "Frais d’administration et de gestion et autres frais de gestion",
+      "path": [
+        "Page 1",
+        "II – DÉDUCTIONS, FRAIS ET CHARGES",
+        "D01",
+        "Frais d’administration et de gestion et autres frais de gestion"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Frais d’administration et de gestion et autres frais de gestion",
+      "synthetic_value": "10000"
+    },
+    {
+      "id": "f0013",
+      "label": "Primes d’assurances",
+      "path": [
+        "Page 1",
+        "II – DÉDUCTIONS, FRAIS ET CHARGES",
+        "D02",
+        "Primes d’assurances"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Primes d’assurances",
+      "synthetic_value": "3000"
+    },
+    {
+      "id": "f0014",
+      "label": "Dépenses de réparation, d’entretien et d’amélioration",
+      "path": [
+        "Page 1",
+        "II – DÉDUCTIONS, FRAIS ET CHARGES",
+        "D03",
+        "Dépenses de réparation, d’entretien et d’amélioration"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dépenses de réparation, d’entretien et d’amélioration",
+      "synthetic_value": "7000"
+    },
+    {
+      "id": "f0015",
+      "label": "Dépenses spécifiques aux monuments historiques",
+      "path": [
+        "Page 1",
+        "II – DÉDUCTIONS, FRAIS ET CHARGES",
+        "D06",
+        "Dépenses spécifiques aux monuments historiques"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dépenses spécifiques aux monuments historiques",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f0016",
+      "label": "Charges récupérables non récupérées au départ du locataire",
+      "path": [
+        "Page 1",
+        "II – DÉDUCTIONS, FRAIS ET CHARGES",
+        "D07",
+        "Charges récupérables non récupérées au départ du locataire"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Charges récupérables non récupérées au départ du locataire",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f0017",
+      "label": "Indemnités d’éviction, frais de relogement",
+      "path": [
+        "Page 1",
+        "II – DÉDUCTIONS, FRAIS ET CHARGES",
+        "D08",
+        "Indemnités d’éviction, frais de relogement"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Indemnités d’éviction, frais de relogement",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f0018",
+      "label": "Déductions spécifiques du revenu brut (diminuées des éventuelles réintégrations)",
+      "path": [
+        "Page 1",
+        "II – DÉDUCTIONS, FRAIS ET CHARGES",
+        "D09",
+        "Déductions spécifiques du revenu brut (diminuées des éventuelles réintégrations)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Déductions spécifiques du revenu brut (diminuées des éventuelles réintégrations)",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f0019",
+      "label": "Montant de la déduction au titre de l’amortissement",
+      "path": [
+        "Page 1",
+        "II – DÉDUCTIONS, FRAIS ET CHARGES",
+        "D10",
+        "Montant de la déduction au titre de l’amortissement"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant de la déduction au titre de l’amortissement",
+      "synthetic_value": "10000"
+    },
+    {
+      "id": "f0020",
+      "label": "Provisions pour charges de copropriété payées par les copropriétaires bailleurs et régularisations éventuelles de provisions antérieures",
+      "path": [
+        "Page 1",
+        "II – DÉDUCTIONS, FRAIS ET CHARGES",
+        "D11",
+        "Provisions pour charges de copropriété payées par les copropriétaires bailleurs et régularisations éventuelles de provisions antérieures"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Provisions pour charges de copropriété payées par les copropriétaires bailleurs et régularisations éventuelles de provisions antérieures",
+      "synthetic_value": "5000"
+    },
+    {
+      "id": "f0021",
+      "label": "TOTAL B (D01+D02+D03+D06+D07+D08+D09+D10+D11)",
+      "path": [
+        "Page 1",
+        "II – DÉDUCTIONS, FRAIS ET CHARGES",
+        "T02",
+        "TOTAL B (D01+D02+D03+D06+D07+D08+D09+D10+D11)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "TOTAL B (D01+D02+D03+D06+D07+D08+D09+D10+D11)",
+      "synthetic_value": "35000"
+    },
+    {
+      "id": "f0022",
+      "label": "Calcul de la Valeur Ajoutée",
+      "path": [
+        "Page 2",
+        "III – VALEUR AJOUTÉE PRODUITE",
+        "T03",
+        "Calcul de la Valeur Ajoutée"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Calcul de la Valeur Ajoutée",
+      "synthetic_value": "180000"
+    },
+    {
+      "id": "f0023",
+      "label": "Mono établissement au sens de la CVAE (cocher la case)",
+      "path": [
+        "Page 2",
+        "IV - COTISATION SUR LA VALEUR AJOUTÉE DES ENTREPRISES (CVAE)",
+        "Mono établissement au sens de la CVAE (cocher la case)"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 2,
+      "source_anchor": "Mono établissement au sens de la CVAE (cocher la case)",
+      "synthetic_value": [
+        "Mono établissement au sens de la CVAE (cocher la case)"
+      ],
+      "options": [
+        "Mono établissement au sens de la CVAE (cocher la case)"
+      ],
+      "context_evidence": "Page 2 / IV - COTISATION SUR LA VALEUR AJOUTÉE DES ENTREPRISES (CVAE) / Mono établissement au sens de la CVAE (cocher la case): Mono établissement au sens de la CVAE (cocher la case)"
+    },
+    {
+      "id": "f0024",
+      "label": "Effectifs au sens de la CVAE",
+      "path": [
+        "Page 2",
+        "IV - COTISATION SUR LA VALEUR AJOUTÉE DES ENTREPRISES (CVAE)",
+        "Effectifs au sens de la CVAE"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Effectifs au sens de la CVAE",
+      "synthetic_value": "3"
+    },
+    {
+      "id": "f0025",
+      "label": "date de début",
+      "path": [
+        "Page 2",
+        "IV - COTISATION SUR LA VALEUR AJOUTÉE DES ENTREPRISES (CVAE)",
+        "date de début"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "date de début",
+      "synthetic_value": "01/01/2025"
+    },
+    {
+      "id": "f0026",
+      "label": "date de fin",
+      "path": [
+        "Page 2",
+        "IV - COTISATION SUR LA VALEUR AJOUTÉE DES ENTREPRISES (CVAE)",
+        "date de fin"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "date de fin",
+      "synthetic_value": "31/12/2025"
+    },
+    {
+      "id": "f0027",
+      "label": "Valeur ajoutée rentrant dans le dispositif de la CVAE",
+      "path": [
+        "Page 2",
+        "IV - COTISATION SUR LA VALEUR AJOUTÉE DES ENTREPRISES (CVAE)",
+        "Valeur ajoutée rentrant dans le dispositif de la CVAE"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Valeur ajoutée rentrant dans le dispositif de la CVAE",
+      "synthetic_value": "180000"
+    },
+    {
+      "id": "f0028",
+      "label": "Chiffre d'affaires de référence CVAE",
+      "path": [
+        "Page 2",
+        "IV - COTISATION SUR LA VALEUR AJOUTÉE DES ENTREPRISES (CVAE)",
+        "Chiffre d'affaires de référence CVAE"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Chiffre d'affaires de référence CVAE",
+      "synthetic_value": "215000"
+    },
+    {
+      "id": "f0029",
+      "label": "Chiffre d’affaires du groupe économique (entreprises répondant aux conditions de détention fixées à l’article 223 A du CGI)",
+      "path": [
+        "Page 2",
+        "IV - COTISATION SUR LA VALEUR AJOUTÉE DES ENTREPRISES (CVAE)",
+        "Chiffre d’affaires du groupe économique (entreprises répondant aux conditions de détention fixées à l’article 223 A du CGI)"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Chiffre d’affaires du groupe économique (entreprises répondant aux conditions de détention fixées à l’article 223 A du CGI)",
+      "synthetic_value": "215000"
+    },
+    {
+      "id": "f0030",
+      "label": "Date de cessation",
+      "path": [
+        "Page 2",
+        "IV - COTISATION SUR LA VALEUR AJOUTÉE DES ENTREPRISES (CVAE)",
+        "Date de cessation"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date de cessation",
+      "synthetic_value": "Sans objet"
+    }
+  ],
+  "context": "Exemple fictif de remplissage complet, sans transmission. Les rubriques sans objet sont explicitement renseignées comme telles; les blocs administratifs sont des données fictives distinctes.\nPage 1 / IMMEUBLES NUS À USAGE AUTRE QU’HABITATION / NEANT: Aucune sélection\nPage 1 / IMMEUBLES NUS À USAGE AUTRE QU’HABITATION / DÉNOMINATION DE L’ENTREPRISE: SCI Exemple\nPage 1 / IMMEUBLES NUS À USAGE AUTRE QU’HABITATION / ADRESSE DE L’ENTREPRISE: 12 rue Exemple, 75000 Paris\nPage 1 / IMMEUBLES NUS À USAGE AUTRE QU’HABITATION / NOM ET ADRESSE PERSONNELLE DE L’EXPLOITANT: Camille Martin, 14 rue Exemple, 75000 Paris\nPage 1 / IMMEUBLES NUS À USAGE AUTRE QU’HABITATION / N° d’identification de l’entreprise (SIREN): 000000381\nPage 1 / IMMEUBLES NUS À USAGE AUTRE QU’HABITATION / Exercice ouvert le: 01/01/2025\nPage 1 / IMMEUBLES NUS À USAGE AUTRE QU’HABITATION / et clos le: 31/12/2025\nPage 1 / I - RECETTES / R01 / Montant brut des fermages ou des loyers encaissés: 200000\nPage 1 / I - RECETTES / R02 / Dépenses par nature déductibles de l’impôt sur le revenu incombant normalement à la société, la collectivité ou l’organisme sans but lucratif mises par convention à la charge des locataires: 10000\nPage 1 / I - RECETTES / R03 / Recettes brutes diverses (subventions ANAH, indemnités d’assurances….): 5000\nPage 1 / I - RECETTES / T01 / TOTAL A: 215000\nPage 1 / II – DÉDUCTIONS, FRAIS ET CHARGES / D01 / Frais d’administration et de gestion et autres frais de gestion: 10000\nPage 1 / II – DÉDUCTIONS, FRAIS ET CHARGES / D02 / Primes d’assurances: 3000\nPage 1 / II – DÉDUCTIONS, FRAIS ET CHARGES / D03 / Dépenses de réparation, d’entretien et d’amélioration: 7000\nPage 1 / II – DÉDUCTIONS, FRAIS ET CHARGES / D06 / Dépenses spécifiques aux monuments historiques: 0\nPage 1 / II – DÉDUCTIONS, FRAIS ET CHARGES / D07 / Charges récupérables non récupérées au départ du locataire: 0\nPage 1 / II – DÉDUCTIONS, FRAIS ET CHARGES / D08 / Indemnités d’éviction, frais de relogement: 0\nPage 1 / II – DÉDUCTIONS, FRAIS ET CHARGES / D09 / Déductions spécifiques du revenu brut (diminuées des éventuelles réintégrations): 0\nPage 1 / II – DÉDUCTIONS, FRAIS ET CHARGES / D10 / Montant de la déduction au titre de l’amortissement: 10000\nPage 1 / II – DÉDUCTIONS, FRAIS ET CHARGES / D11 / Provisions pour charges de copropriété payées par les copropriétaires bailleurs et régularisations éventuelles de provisions antérieures: 5000\nPage 1 / II – DÉDUCTIONS, FRAIS ET CHARGES / T02 / TOTAL B (D01+D02+D03+D06+D07+D08+D09+D10+D11): 35000\nPage 2 / III – VALEUR AJOUTÉE PRODUITE / T03 / Calcul de la Valeur Ajoutée: 180000\nPage 2 / IV - COTISATION SUR LA VALEUR AJOUTÉE DES ENTREPRISES (CVAE) / Mono établissement au sens de la CVAE (cocher la case): Mono établissement au sens de la CVAE (cocher la case)\nPage 2 / IV - COTISATION SUR LA VALEUR AJOUTÉE DES ENTREPRISES (CVAE) / Effectifs au sens de la CVAE: 3\nPage 2 / IV - COTISATION SUR LA VALEUR AJOUTÉE DES ENTREPRISES (CVAE) / date de début: 01/01/2025\nPage 2 / IV - COTISATION SUR LA VALEUR AJOUTÉE DES ENTREPRISES (CVAE) / date de fin: 31/12/2025\nPage 2 / IV - COTISATION SUR LA VALEUR AJOUTÉE DES ENTREPRISES (CVAE) / Valeur ajoutée rentrant dans le dispositif de la CVAE: 180000\nPage 2 / IV - COTISATION SUR LA VALEUR AJOUTÉE DES ENTREPRISES (CVAE) / Chiffre d'affaires de référence CVAE: 215000\nPage 2 / IV - COTISATION SUR LA VALEUR AJOUTÉE DES ENTREPRISES (CVAE) / Chiffre d’affaires du groupe économique (entreprises répondant aux conditions de détention fixées à l’article 223 A du CGI): 215000\nPage 2 / IV - COTISATION SUR LA VALEUR AJOUTÉE DES ENTREPRISES (CVAE) / Date de cessation: Sans objet",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 381
+  }
+}

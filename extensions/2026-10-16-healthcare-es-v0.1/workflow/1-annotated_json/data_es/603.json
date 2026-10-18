@@ -1,0 +1,207 @@
+{
+  "1. DATOS DEL DECLARANTE": {
+    "Provincia": "",
+    "Departamento": "",
+    "Localidad": "",
+    "Establecimiento Notificante": "",
+    "Fecha de Notificación": "",
+    "Apellido y Nombre del Profesional": "",
+    "Tel.": "",
+    "Fax": "",
+    "e-mail": ""
+  },
+  "2. IDENTIFICACION DEL PACIENTE": {
+    "Apellido y nombres": "",
+    "Fecha de nacimiento": "",
+    "Edad": "",
+    "Sexo": {
+      "choices": [
+        "M",
+        "F"
+      ],
+      "value": []
+    },
+    "DNI": "",
+    "Domicilio actual": "",
+    "Tel. propio o vecino": "",
+    "Referencia de ubicación domicilio": "",
+    "Localidad": "",
+    "Área de residencia": {
+      "choices": [
+        "Urbano",
+        "Rural"
+      ],
+      "value": []
+    },
+    "Departamento": "",
+    "Provincia": ""
+  },
+  "3. DATOS CLINICOS": {
+    "Parestesias": {
+      "choices": [
+        "Labios",
+        "Cara",
+        "Brazos",
+        "Dedos de la mano",
+        "Piernas",
+        "Dedos del pie"
+      ],
+      "value": []
+    },
+    "Otras parestesias": "",
+    "Dificultades para": {
+      "choices": [
+        "Hablar",
+        "Respirar",
+        "Estar de pie",
+        "Levantarse"
+      ],
+      "value": []
+    },
+    "Otros signos clínicos": {
+      "choices": [
+        "Sensación de ingravidez",
+        "Embotamiento",
+        "Cefalea",
+        "Náuseas",
+        "Mareos",
+        "Parálisis",
+        "Paro respiratorio",
+        "Alteración de la función renal"
+      ],
+      "value": []
+    },
+    "Otros signos descripción": ""
+  },
+  "4. DATOS EPIDEMIOLOGICOS": {
+    "Clase de molusco ingerido": "",
+    "Lugar donde lo ingirió": {
+      "choices": [
+        "Captura-Lugar",
+        "Restauran",
+        "Otros"
+      ],
+      "value": []
+    },
+    "Captura-Lugar": "",
+    "Restauran": "",
+    "Otros": "",
+    "Procedencia del molusco": "",
+    "Forma de preparación": {
+      "choices": [
+        "cocido",
+        "crudo",
+        "agregado de limón ó vinagre",
+        "caldo o sopa de mariscos"
+      ],
+      "value": []
+    },
+    "Nº aproximado de moluscos ingeridos": "",
+    "Bebida alcohólica": {
+      "choices": [
+        "Si",
+        "No"
+      ],
+      "value": []
+    },
+    "Otros alimentos ingeridos simultáneamente": "",
+    "Día y hora de la ingestión de la comida sospechosa:": {
+      "Fecha": "",
+      "Hora": ""
+    },
+    "Fecha y hora de comienzo de los síntomas:": {
+      "Fecha": "",
+      "Hora": ""
+    },
+    "Tipo de caso:": {
+      "Tipo de caso": {
+        "choices": [
+          "esporádico",
+          "asociado a brote"
+        ],
+        "value": []
+      }
+    }
+  },
+  "5. EXAMENES DE LABORATORIO": {
+    "Material recogido para las muestras": {
+      "choices": [
+        "Moluscos de la zona",
+        "Restos de comida",
+        "Envases de igual partida",
+        "Contenido gástrico"
+      ],
+      "value": []
+    },
+    "Toxicidad del molusco comido": "",
+    "Cantidad ingerida estimada": "",
+    "Observaciones": "",
+    "Determinación de toxina en moluscos del área analizada": "",
+    "Fecha": ""
+  },
+  "6. ACCIONES DE CONTROL Y PREVENCION": {
+    "Tratamiento recibido": {
+      "choices": [
+        "Lavado gástrico",
+        "Bicarbonato de Sodio",
+        "Carbón activado",
+        "Asistencia Respiratoria mecánica",
+        "Cuidados Intensivos",
+        "Otros"
+      ],
+      "value": []
+    },
+    "Describa Otros": "",
+    "Búsqueda de expuestos": {
+      "choices": [
+        "Si",
+        "No"
+      ],
+      "value": []
+    },
+    "Cuántos?": "",
+    "Coordinación con otras áreas involucradas (Bromatología-Saneamiento, etc)": {
+      "choices": [
+        "Si",
+        "No"
+      ],
+      "value": []
+    },
+    "Describir brevemente": ""
+  },
+  "7. EVOLUCION Y CLASIFICACION DEL CASO": {
+    "Paciente Hospitalizado": {
+      "choices": [
+        "Si",
+        "No",
+        "Se ignora"
+      ],
+      "value": []
+    },
+    "Fecha hospitalización": "",
+    "Evolución": {
+      "choices": [
+        "Alta sin secuelas",
+        "Alta con secuelas",
+        "Fallecido",
+        "Desconocido"
+      ],
+      "value": []
+    },
+    "Fecha evolución": "",
+    "Clasificación del caso": {
+      "choices": [
+        "Caso sospechoso",
+        "Caso confirmado por laboratorio de IPM",
+        "Por Nexo epidemiológico",
+        "Descartado"
+      ],
+      "value": []
+    },
+    "Observaciones": ""
+  },
+  "Formalización": {
+    "Fecha": "",
+    "Firma y Sello Médico": ""
+  }
+}

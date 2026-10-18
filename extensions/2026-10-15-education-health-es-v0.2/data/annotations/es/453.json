@@ -1,0 +1,2560 @@
+{
+  "id": "es-453-health-legionella",
+  "title": "Legionelosis: diagnóstico y cuestionario de exposición",
+  "language": "es",
+  "domain": "Healthcare",
+  "issuer_id": "argentina-anlis-inei",
+  "issuer": "Instituto Nacional de Enfermedades Infecciosas - ANLIS Dr. Carlos G. Malbrán",
+  "template_family": "health-legionella",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/legionelosis-ficha-de-derivacion.pdf",
+  "landing_url": "https://www.argentina.gob.ar/salud/anlis/inei/departamento-bacteriologia/instructivos-y-planillas",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "Contenido oficial de Argentina.gob.ar bajo CC BY 4.0 según sus términos y condiciones; atribución a la entidad emisora. Adaptación estructurada con valores ficticios; el PDF original no se distribuye.",
+  "source_sha256": "e5ea75c0624e09e28e6f00c3e608b3af7f211b41fdfd60d80eaed393a033a4c2",
+  "source_pages": 3,
+  "retrieved_at": "2026-10-14T18:31:24.826650+00:00",
+  "source_version": "Edición sin fecha impresa",
+  "source_date_evidence": {
+    "kind": "undated_edition_dated_retrieval",
+    "value": "No se imprime fecha de edición; fecha de recuperación documentada separadamente."
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "Legionelosis: diagnóstico y cuestionario de exposición",
+        "heading": false,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "             \n \n  \n \n \n1/2 \n \nLos campos marcados *son obligatorios, (no se procesarán muestras que no vengan acompañadas de dichos datos).  \n \nLa ficha de derivación incluye dos páginas. El profesional responsable del envío deberá firmar la última página. \nLa ficha puede ser remitida por email a bacteriologiaespecial@anlis.gob.ar con el asunto: LEGIONELLA: NOMBRE PACIENTE \nLos tiempos de entrega de resultados son: antígeno urinario: 24 hs. PCR: 3 a 10 días hábiles. Cultivo: 10 días hábiles. \nEl instructivo para envío de muestras puede descargarse del enlace: http://www.anlis.gov.ar/be-instructivos/ \n \n",
+        "heading": false,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "DATOS DEL PACIENTE",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nombre y Apellido del paciente",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "DNI *",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Edad",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Género",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Domicilio de residencia",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f005",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "INFORMACIÓN OCUPACIONAL",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Ocupación *",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f006",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Institución o empresa",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f007",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "INFORMACIÓN RESPONSABLE DEL ENVÍO",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nombre y Apellido *",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Hospital/Institución *",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Email de contacto *",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Teléfono de contacto",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Detalle las muestras derivada y fecha de recolección*:",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Estudios solicitados (marque con una X)",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f013",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "¿Ha solicitado diagnóstico diferencial de otras neumonías atípicas?",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "INFORMACIÓN CLÍNICA *",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fecha inicio de los síntomas (completar)",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fiebre (especificar pico febril ºC)",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f016",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Tos productiva (especificar fecha inicio)",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f017",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Tos no productiva",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f018",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Mialgias",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f019",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Neumonía",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f020",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Hospitalización",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f021",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Estadía en UCI",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f022",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Asistencia respiratoria mecánica",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f023",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Óbito",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f024",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "especificar pico febril ºC",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f025",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "especificar fecha inicio",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f026",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Hallazgo radiológico (completar)",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f027",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fecha internación (completar)",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f028",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Tratamiento antibiótico (completar)",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f029",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fecha inicio tratamiento antibiótico (completar)",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f030",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "INFORMACIÓN CLÍNICA * / ANTECEDENTES",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Enfermedad hepática crónica",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f031",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Enfermedad o terapia inmunosupresora",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f032",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Diabetes",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f033",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Enfermedad pulmonar crónica (especificar)",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f034",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Tabaquismo",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f035",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Enfermedad pulmonar crónica (especificar)",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f036",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "DATOS DE LABORATORIO 1",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Leucocitosis",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f037",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Leucopenia",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f038",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Trombocitopenia",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f039",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "CPK > 0.25 ng/ml",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f040",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "PCR elevada >20mg/l (indicar valor)",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f041",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Hiponatremia (<135 mEq/L)",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f042",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Hipofosfatemia (<2,5mg/dl)",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f043",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Transaminasas elevadas",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f044",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "LDH >400",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f045",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Ferritina elevada (>2x normal)",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f046",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Dimero-D elevado",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f047",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Procalcitocina <0.1 mg/L",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f048",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Procalcitonina >0.25 mg/L",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f049",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Hematuria microscópica",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f050",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "indicar valor",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f051",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Otros hallazgos:",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f052",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "1Los marcadores bioquímicos son de utilidad para la sospecha de otras etiologías ante resultados negativos para legionelosis",
+        "heading": false,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "DATOS EPIDEMIOLÓGICOS (contestar si o no) *",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "¿Realizó viajes fuera del país durante el último mes?",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f053",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "¿Se ha alojado al menos una noche fuera de su domicilio durante los 10 días previos a la aparición síntomas? (Especificar fecha y lugar)",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f054",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "¿Ha estado hospitalizado al menos 48 hs antes del inicio de síntomas? (especificar fecha y locación)",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f055",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "¿Visitó o trabajó en instituciones nosocomiales durante el período de exposición? (especificar locación y fecha)",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f056",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "¿Estuvo expuesto a fuentes, spas, humidificadores durante las dos semanas previas al inicio de los síntomas?",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f057",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "¿Estuvo expuesto a ambientes acuáticos recreacionales durante las dos semanas previas al inicio de los síntomas?",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f058",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "¿Estuvo expuesto a tierra (jardinería, construcción, producción, etc)?",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f059",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Especificar lugares de tránsito y destino y fechas",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f060",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Especificar fecha y lugar",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f061",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "especificar fecha y locación",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f062",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "especificar locación y fecha",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f063",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Acepto que los materiales derivados por mí para diagnóstico de legionelosis podrán ser remitidos a otros laboratorios de \nreferencia del Instituto Nacional de Enfermedades Infecciosas para evaluar posibles diagnósticos diferenciales en base al \nanálisis de  los resultados en el contexto clínico y epidemiológico \n \n \n \n",
+        "heading": false,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Profesional responsable",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Firma",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f064",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Aclaración",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f065",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Matrícula",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f066",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "A continuación, se incluye un cuestionario orientador de hipótesis de exposición a L. pneumophila¸ para casos esporádicos. \nEsta información puede resultar esencial para la investigación de brotes de legionelosis comunitarios.  \n \n \n \n",
+        "heading": false,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Cuestionario generador de hipótesis de exposición de la Enfermedad del Legionario. (optativo)",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Preguntas sobre exposición durante los 14 días previos al inicio de los síntomas",
+        "heading": false,
+        "colspan": 4,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Cuestionario generador de hipótesis de exposición / Pregunta 1",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "¿trabajó, recibió tratamiento o visitó un hospital? Si afirmativo, registrar locación",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "field": "f067",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Cuestionario generador de hipótesis de exposición / Pregunta 2",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "¿trabajó, recibió tratamiento o visitó un consultorio médico, clínica o dentista? Si afirmativo, registrar locación",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "field": "f068",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Cuestionario generador de hipótesis de exposición / Pregunta 3",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "¿trabajó, residía o visitó un geriátrico? Si afirmativo, registrar locación",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "field": "f069",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Cuestionario generador de hipótesis de exposición / Pregunta 4",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "¿pasó alguna noche fuera de casa (excluyendo los entornos de atención médica), como quedarse en un hotel o ir en un crucero? Si afirmativo, registrar locación",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "field": "f070",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Cuestionario generador de hipótesis de exposición / Pregunta 5",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "¿visitó un hotel sin pernoctar? (por ejemplo, cena, boda, como empleado) Si afirmativo, registrar locación",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "field": "f071",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Cuestionario generador de hipótesis de exposición / Pregunta 6",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "¿asistió a alguna convención o reunión pública? Si afirmativo, registrar locación",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "field": "f072",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Cuestionario generador de hipótesis de exposición / Pregunta 7",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "¿trabajó, residía o visitó una institución de vida en comunidad (por ejemplo, una prisión, un refugio, un dormitorio)? Si afirmativo, registrar locación",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "field": "f073",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Cuestionario generador de hipótesis de exposición / Pregunta 8",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "¿tuvo exposición a alguno de los siguientes ítems ya sea mientras viajaba o en casa?",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "field": "f074",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Cuestionario generador de hipótesis de exposición / Pregunta 9",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "¿Usó un nebulizador o algún equipo de terapia respiratoria para el tratamiento de la apnea del sueño, la EPOC, el asma o por cualquier otra razón?",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "field": "f075",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "describa qué tipo de agua usa en este dispositivo",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "field": "f076",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "cómo lo limpia.",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "field": "f077",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Cuestionario generador de hipótesis de exposición / Pregunta 10",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "El agua de su domicilio proviene:",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "field": "f078",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Cuestionario generador de hipótesis de exposición / Pregunta 11",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "¿Recuerda alguna construcción general, proyectos de plomería, roturas de cañerías de agua o trabajos en líneas de agua en su casa o en cualquier otro lugar durante los 6 meses antes de enfermarse?",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "field": "f079",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Cuestionario generador de hipótesis de exposición / Pregunta 12",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "¿compró en una tienda o supermercado donde había máquinas que rociaban las frutas y verduras?",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "field": "f080",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Cuestionario generador de hipótesis de exposición / Pregunta 13",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "¿trabajó en un jardín, tuvo contacto con tierra para macetas o visitó un centro de jardinería?",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "field": "f081",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Cuestionario generador de hipótesis de exposición / Pregunta 14",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "¿reside cerca o visitó un área con grandes edificios, como centros comerciales, oficinas u hoteles de gran altura, o edificios industriales?",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "field": "f082",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Cuestionario generador de hipótesis de exposición / Pregunta 15",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "Específicamente, ¿trabaja en alguno de los siguientes entornos?",
+        "colspan": 2,
+        "source_page": 3
+      },
+      {
+        "field": "f083",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Atribución: argentina-anlis-inei. Contenido oficial de Argentina.gob.ar bajo CC BY 4.0 según sus términos y condiciones; atribución a la entidad emisora. Adaptación estructurada con valores ficticios; el PDF original no se distribuye.",
+        "heading": false,
+        "colspan": 4,
+        "source_page": 3
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "path": [
+        "DATOS DEL PACIENTE",
+        "Nombre y Apellido del paciente"
+      ],
+      "label": "Nombre y Apellido del paciente",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre y Apellido del paciente",
+      "synthetic_value": "Lucía Rivas Molina",
+      "context_evidence": "DATOS DEL PACIENTE / Nombre y Apellido del paciente: Lucía Rivas Molina."
+    },
+    {
+      "id": "f002",
+      "path": [
+        "DATOS DEL PACIENTE",
+        "DNI *"
+      ],
+      "label": "DNI *",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DNI *",
+      "synthetic_value": "32765432",
+      "context_evidence": "DATOS DEL PACIENTE / DNI *: 32765432."
+    },
+    {
+      "id": "f003",
+      "path": [
+        "DATOS DEL PACIENTE",
+        "Edad"
+      ],
+      "label": "Edad",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Edad",
+      "synthetic_value": "34",
+      "context_evidence": "DATOS DEL PACIENTE / Edad: 34."
+    },
+    {
+      "id": "f004",
+      "path": [
+        "DATOS DEL PACIENTE",
+        "Género"
+      ],
+      "label": "Género",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Género",
+      "synthetic_value": "Femenino",
+      "context_evidence": "DATOS DEL PACIENTE / Género: Femenino."
+    },
+    {
+      "id": "f005",
+      "path": [
+        "DATOS DEL PACIENTE",
+        "Domicilio de residencia"
+      ],
+      "label": "Domicilio de residencia",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Domicilio de residencia",
+      "synthetic_value": "Calle Ejemplo 250, Mendoza",
+      "context_evidence": "DATOS DEL PACIENTE / Domicilio de residencia: Calle Ejemplo 250, Mendoza."
+    },
+    {
+      "id": "f006",
+      "path": [
+        "INFORMACIÓN OCUPACIONAL",
+        "Ocupación *"
+      ],
+      "label": "Ocupación *",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Ocupación *",
+      "synthetic_value": "Docente",
+      "context_evidence": "INFORMACIÓN OCUPACIONAL / Ocupación *: Docente."
+    },
+    {
+      "id": "f007",
+      "path": [
+        "INFORMACIÓN OCUPACIONAL",
+        "Institución o empresa"
+      ],
+      "label": "Institución o empresa",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Institución o empresa",
+      "synthetic_value": "Escuela Ficticia N° 24",
+      "context_evidence": "INFORMACIÓN OCUPACIONAL / Institución o empresa: Escuela Ficticia N° 24."
+    },
+    {
+      "id": "f008",
+      "path": [
+        "INFORMACIÓN RESPONSABLE DEL ENVÍO",
+        "Nombre y Apellido *"
+      ],
+      "label": "Nombre y Apellido *",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre y Apellido *",
+      "synthetic_value": "Clara Sosa",
+      "context_evidence": "INFORMACIÓN RESPONSABLE DEL ENVÍO / Nombre y Apellido *: Clara Sosa."
+    },
+    {
+      "id": "f009",
+      "path": [
+        "INFORMACIÓN RESPONSABLE DEL ENVÍO",
+        "Hospital/Institución *"
+      ],
+      "label": "Hospital/Institución *",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Hospital/Institución *",
+      "synthetic_value": "Hospital Ficticio del Sur",
+      "context_evidence": "INFORMACIÓN RESPONSABLE DEL ENVÍO / Hospital/Institución *: Hospital Ficticio del Sur."
+    },
+    {
+      "id": "f010",
+      "path": [
+        "INFORMACIÓN RESPONSABLE DEL ENVÍO",
+        "Email de contacto *"
+      ],
+      "label": "Email de contacto *",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Email de contacto *",
+      "synthetic_value": "clara.sosa@example.org",
+      "context_evidence": "INFORMACIÓN RESPONSABLE DEL ENVÍO / Email de contacto *: clara.sosa@example.org."
+    },
+    {
+      "id": "f011",
+      "path": [
+        "INFORMACIÓN RESPONSABLE DEL ENVÍO",
+        "Teléfono de contacto"
+      ],
+      "label": "Teléfono de contacto",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Teléfono de contacto",
+      "synthetic_value": "+54 261 555 0142",
+      "context_evidence": "INFORMACIÓN RESPONSABLE DEL ENVÍO / Teléfono de contacto: +54 261 555 0142."
+    },
+    {
+      "id": "f012",
+      "path": [
+        "INFORMACIÓN RESPONSABLE DEL ENVÍO",
+        "Detalle las muestras derivada y fecha de recolección*"
+      ],
+      "label": "Detalle las muestras derivada y fecha de recolección*:",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Detalle las muestras derivada y fecha de recolección*:",
+      "synthetic_value": "Orina, suero y muestra respiratoria; recolección 12/10/2026",
+      "context_evidence": "INFORMACIÓN RESPONSABLE DEL ENVÍO / Detalle las muestras derivada y fecha de recolección*: Orina, suero y muestra respiratoria; recolección 12/10/2026."
+    },
+    {
+      "id": "f013",
+      "path": [
+        "INFORMACIÓN RESPONSABLE DEL ENVÍO",
+        "Estudios solicitados (marque con una X)"
+      ],
+      "label": "Estudios solicitados (marque con una X)",
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "Estudios solicitados (marque con una X)",
+      "synthetic_value": [
+        "Antígeno urinario",
+        "PCR",
+        "Cultivo"
+      ],
+      "options": [
+        "Antígeno urinario",
+        "PCR",
+        "Cultivo"
+      ],
+      "context_evidence": "INFORMACIÓN RESPONSABLE DEL ENVÍO / Estudios solicitados (marque con una X): Antígeno urinario, PCR, Cultivo."
+    },
+    {
+      "id": "f014",
+      "path": [
+        "INFORMACIÓN RESPONSABLE DEL ENVÍO",
+        "¿Ha solicitado diagnóstico diferencial de otras neumonías atípicas?"
+      ],
+      "label": "¿Ha solicitado diagnóstico diferencial de otras neumonías atípicas?",
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "¿Ha solicitado diagnóstico diferencial de otras neumonías atípicas?",
+      "synthetic_value": "no",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "INFORMACIÓN RESPONSABLE DEL ENVÍO / ¿Ha solicitado diagnóstico diferencial de otras neumonías atípicas?: no."
+    },
+    {
+      "id": "f015",
+      "path": [
+        "INFORMACIÓN CLÍNICA *",
+        "Fecha inicio de los síntomas (completar)"
+      ],
+      "label": "Fecha inicio de los síntomas (completar)",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha inicio de los síntomas (completar)",
+      "synthetic_value": "10/10/2026",
+      "context_evidence": "INFORMACIÓN CLÍNICA * / Fecha inicio de los síntomas (completar): 10/10/2026."
+    },
+    {
+      "id": "f016",
+      "path": [
+        "INFORMACIÓN CLÍNICA *",
+        "Fiebre (especificar pico febril ºC)"
+      ],
+      "label": "Fiebre (especificar pico febril ºC)",
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Fiebre (especificar pico febril ºC)",
+      "synthetic_value": "si",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "INFORMACIÓN CLÍNICA * / Fiebre (especificar pico febril ºC): si."
+    },
+    {
+      "id": "f017",
+      "path": [
+        "INFORMACIÓN CLÍNICA *",
+        "Tos productiva (especificar fecha inicio)"
+      ],
+      "label": "Tos productiva (especificar fecha inicio)",
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Tos productiva (especificar fecha inicio)",
+      "synthetic_value": "si",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "INFORMACIÓN CLÍNICA * / Tos productiva (especificar fecha inicio): si."
+    },
+    {
+      "id": "f018",
+      "path": [
+        "INFORMACIÓN CLÍNICA *",
+        "Tos no productiva"
+      ],
+      "label": "Tos no productiva",
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Tos no productiva",
+      "synthetic_value": "no",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "INFORMACIÓN CLÍNICA * / Tos no productiva: no."
+    },
+    {
+      "id": "f019",
+      "path": [
+        "INFORMACIÓN CLÍNICA *",
+        "Mialgias"
+      ],
+      "label": "Mialgias",
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Mialgias",
+      "synthetic_value": "si",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "INFORMACIÓN CLÍNICA * / Mialgias: si."
+    },
+    {
+      "id": "f020",
+      "path": [
+        "INFORMACIÓN CLÍNICA *",
+        "Neumonía"
+      ],
+      "label": "Neumonía",
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Neumonía",
+      "synthetic_value": "si",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "INFORMACIÓN CLÍNICA * / Neumonía: si."
+    },
+    {
+      "id": "f021",
+      "path": [
+        "INFORMACIÓN CLÍNICA *",
+        "Hospitalización"
+      ],
+      "label": "Hospitalización",
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Hospitalización",
+      "synthetic_value": "si",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "INFORMACIÓN CLÍNICA * / Hospitalización: si."
+    },
+    {
+      "id": "f022",
+      "path": [
+        "INFORMACIÓN CLÍNICA *",
+        "Estadía en UCI"
+      ],
+      "label": "Estadía en UCI",
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Estadía en UCI",
+      "synthetic_value": "no",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "INFORMACIÓN CLÍNICA * / Estadía en UCI: no."
+    },
+    {
+      "id": "f023",
+      "path": [
+        "INFORMACIÓN CLÍNICA *",
+        "Asistencia respiratoria mecánica"
+      ],
+      "label": "Asistencia respiratoria mecánica",
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Asistencia respiratoria mecánica",
+      "synthetic_value": "no",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "INFORMACIÓN CLÍNICA * / Asistencia respiratoria mecánica: no."
+    },
+    {
+      "id": "f024",
+      "path": [
+        "INFORMACIÓN CLÍNICA *",
+        "Óbito"
+      ],
+      "label": "Óbito",
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Óbito",
+      "synthetic_value": "no",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "INFORMACIÓN CLÍNICA * / Óbito: no."
+    },
+    {
+      "id": "f025",
+      "path": [
+        "INFORMACIÓN CLÍNICA *",
+        "especificar pico febril ºC"
+      ],
+      "label": "especificar pico febril ºC",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "especificar pico febril ºC",
+      "synthetic_value": "39.0",
+      "context_evidence": "INFORMACIÓN CLÍNICA * / especificar pico febril ºC: 39.0."
+    },
+    {
+      "id": "f026",
+      "path": [
+        "INFORMACIÓN CLÍNICA *",
+        "especificar fecha inicio"
+      ],
+      "label": "especificar fecha inicio",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "especificar fecha inicio",
+      "synthetic_value": "10/10/2026",
+      "context_evidence": "INFORMACIÓN CLÍNICA * / especificar fecha inicio: 10/10/2026."
+    },
+    {
+      "id": "f027",
+      "path": [
+        "INFORMACIÓN CLÍNICA *",
+        "Hallazgo radiológico (completar)"
+      ],
+      "label": "Hallazgo radiológico (completar)",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Hallazgo radiológico (completar)",
+      "synthetic_value": "Infiltrado pulmonar registrado en el estudio ficticio",
+      "context_evidence": "INFORMACIÓN CLÍNICA * / Hallazgo radiológico (completar): Infiltrado pulmonar registrado en el estudio ficticio."
+    },
+    {
+      "id": "f028",
+      "path": [
+        "INFORMACIÓN CLÍNICA *",
+        "Fecha internación (completar)"
+      ],
+      "label": "Fecha internación (completar)",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha internación (completar)",
+      "synthetic_value": "12/10/2026",
+      "context_evidence": "INFORMACIÓN CLÍNICA * / Fecha internación (completar): 12/10/2026."
+    },
+    {
+      "id": "f029",
+      "path": [
+        "INFORMACIÓN CLÍNICA *",
+        "Tratamiento antibiótico (completar)"
+      ],
+      "label": "Tratamiento antibiótico (completar)",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Tratamiento antibiótico (completar)",
+      "synthetic_value": "Tratamiento registrado en la historia clínica ficticia",
+      "context_evidence": "INFORMACIÓN CLÍNICA * / Tratamiento antibiótico (completar): Tratamiento registrado en la historia clínica ficticia."
+    },
+    {
+      "id": "f030",
+      "path": [
+        "INFORMACIÓN CLÍNICA *",
+        "Fecha inicio tratamiento antibiótico (completar)"
+      ],
+      "label": "Fecha inicio tratamiento antibiótico (completar)",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha inicio tratamiento antibiótico (completar)",
+      "synthetic_value": "12/10/2026",
+      "context_evidence": "INFORMACIÓN CLÍNICA * / Fecha inicio tratamiento antibiótico (completar): 12/10/2026."
+    },
+    {
+      "id": "f031",
+      "path": [
+        "INFORMACIÓN CLÍNICA *",
+        "ANTECEDENTES",
+        "Enfermedad hepática crónica"
+      ],
+      "label": "Enfermedad hepática crónica",
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Enfermedad hepática crónica",
+      "synthetic_value": "no",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "INFORMACIÓN CLÍNICA * / ANTECEDENTES / Enfermedad hepática crónica: no."
+    },
+    {
+      "id": "f032",
+      "path": [
+        "INFORMACIÓN CLÍNICA *",
+        "ANTECEDENTES",
+        "Enfermedad o terapia inmunosupresora"
+      ],
+      "label": "Enfermedad o terapia inmunosupresora",
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Enfermedad o terapia inmunosupresora",
+      "synthetic_value": "no",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "INFORMACIÓN CLÍNICA * / ANTECEDENTES / Enfermedad o terapia inmunosupresora: no."
+    },
+    {
+      "id": "f033",
+      "path": [
+        "INFORMACIÓN CLÍNICA *",
+        "ANTECEDENTES",
+        "Diabetes"
+      ],
+      "label": "Diabetes",
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Diabetes",
+      "synthetic_value": "no",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "INFORMACIÓN CLÍNICA * / ANTECEDENTES / Diabetes: no."
+    },
+    {
+      "id": "f034",
+      "path": [
+        "INFORMACIÓN CLÍNICA *",
+        "ANTECEDENTES",
+        "Enfermedad pulmonar crónica (especificar)"
+      ],
+      "label": "Enfermedad pulmonar crónica (especificar)",
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Enfermedad pulmonar crónica (especificar)",
+      "synthetic_value": "no",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "INFORMACIÓN CLÍNICA * / ANTECEDENTES / Enfermedad pulmonar crónica (especificar): no."
+    },
+    {
+      "id": "f035",
+      "path": [
+        "INFORMACIÓN CLÍNICA *",
+        "ANTECEDENTES",
+        "Tabaquismo"
+      ],
+      "label": "Tabaquismo",
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Tabaquismo",
+      "synthetic_value": "no",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "INFORMACIÓN CLÍNICA * / ANTECEDENTES / Tabaquismo: no."
+    },
+    {
+      "id": "f036",
+      "path": [
+        "INFORMACIÓN CLÍNICA *",
+        "ANTECEDENTES",
+        "Descripción"
+      ],
+      "label": "Enfermedad pulmonar crónica (especificar)",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Enfermedad pulmonar crónica (especificar)",
+      "synthetic_value": "No presenta enfermedad pulmonar crónica",
+      "context_evidence": "INFORMACIÓN CLÍNICA * / ANTECEDENTES / Descripción: No presenta enfermedad pulmonar crónica."
+    },
+    {
+      "id": "f037",
+      "path": [
+        "DATOS DE LABORATORIO 1",
+        "Leucocitosis"
+      ],
+      "label": "Leucocitosis",
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Leucocitosis",
+      "synthetic_value": "si",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "DATOS DE LABORATORIO 1 / Leucocitosis: si."
+    },
+    {
+      "id": "f038",
+      "path": [
+        "DATOS DE LABORATORIO 1",
+        "Leucopenia"
+      ],
+      "label": "Leucopenia",
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Leucopenia",
+      "synthetic_value": "no",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "DATOS DE LABORATORIO 1 / Leucopenia: no."
+    },
+    {
+      "id": "f039",
+      "path": [
+        "DATOS DE LABORATORIO 1",
+        "Trombocitopenia"
+      ],
+      "label": "Trombocitopenia",
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Trombocitopenia",
+      "synthetic_value": "no",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "DATOS DE LABORATORIO 1 / Trombocitopenia: no."
+    },
+    {
+      "id": "f040",
+      "path": [
+        "DATOS DE LABORATORIO 1",
+        "CPK > 0.25 ng/ml"
+      ],
+      "label": "CPK > 0.25 ng/ml",
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "CPK > 0.25 ng/ml",
+      "synthetic_value": "no",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "DATOS DE LABORATORIO 1 / CPK > 0.25 ng/ml: no."
+    },
+    {
+      "id": "f041",
+      "path": [
+        "DATOS DE LABORATORIO 1",
+        "PCR elevada >20mg/l (indicar valor)"
+      ],
+      "label": "PCR elevada >20mg/l (indicar valor)",
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "PCR elevada >20mg/l (indicar valor)",
+      "synthetic_value": "si",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "DATOS DE LABORATORIO 1 / PCR elevada >20mg/l (indicar valor): si."
+    },
+    {
+      "id": "f042",
+      "path": [
+        "DATOS DE LABORATORIO 1",
+        "Hiponatremia (<135 mEq/L)"
+      ],
+      "label": "Hiponatremia (<135 mEq/L)",
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Hiponatremia (<135 mEq/L)",
+      "synthetic_value": "si",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "DATOS DE LABORATORIO 1 / Hiponatremia (<135 mEq/L): si."
+    },
+    {
+      "id": "f043",
+      "path": [
+        "DATOS DE LABORATORIO 1",
+        "Hipofosfatemia (<2,5mg/dl)"
+      ],
+      "label": "Hipofosfatemia (<2,5mg/dl)",
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Hipofosfatemia (<2,5mg/dl)",
+      "synthetic_value": "no",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "DATOS DE LABORATORIO 1 / Hipofosfatemia (<2,5mg/dl): no."
+    },
+    {
+      "id": "f044",
+      "path": [
+        "DATOS DE LABORATORIO 1",
+        "Transaminasas elevadas"
+      ],
+      "label": "Transaminasas elevadas",
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Transaminasas elevadas",
+      "synthetic_value": "no",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "DATOS DE LABORATORIO 1 / Transaminasas elevadas: no."
+    },
+    {
+      "id": "f045",
+      "path": [
+        "DATOS DE LABORATORIO 1",
+        "LDH >400"
+      ],
+      "label": "LDH >400",
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "LDH >400",
+      "synthetic_value": "no",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "DATOS DE LABORATORIO 1 / LDH >400: no."
+    },
+    {
+      "id": "f046",
+      "path": [
+        "DATOS DE LABORATORIO 1",
+        "Ferritina elevada (>2x normal)"
+      ],
+      "label": "Ferritina elevada (>2x normal)",
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Ferritina elevada (>2x normal)",
+      "synthetic_value": "no",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "DATOS DE LABORATORIO 1 / Ferritina elevada (>2x normal): no."
+    },
+    {
+      "id": "f047",
+      "path": [
+        "DATOS DE LABORATORIO 1",
+        "Dimero-D elevado"
+      ],
+      "label": "Dimero-D elevado",
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Dimero-D elevado",
+      "synthetic_value": "no",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "DATOS DE LABORATORIO 1 / Dimero-D elevado: no."
+    },
+    {
+      "id": "f048",
+      "path": [
+        "DATOS DE LABORATORIO 1",
+        "Procalcitocina <0.1 mg/L"
+      ],
+      "label": "Procalcitocina <0.1 mg/L",
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Procalcitocina <0.1 mg/L",
+      "synthetic_value": "no",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "DATOS DE LABORATORIO 1 / Procalcitocina <0.1 mg/L: no."
+    },
+    {
+      "id": "f049",
+      "path": [
+        "DATOS DE LABORATORIO 1",
+        "Procalcitonina >0.25 mg/L"
+      ],
+      "label": "Procalcitonina >0.25 mg/L",
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Procalcitonina >0.25 mg/L",
+      "synthetic_value": "si",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "DATOS DE LABORATORIO 1 / Procalcitonina >0.25 mg/L: si."
+    },
+    {
+      "id": "f050",
+      "path": [
+        "DATOS DE LABORATORIO 1",
+        "Hematuria microscópica"
+      ],
+      "label": "Hematuria microscópica",
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "Hematuria microscópica",
+      "synthetic_value": "no",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "DATOS DE LABORATORIO 1 / Hematuria microscópica: no."
+    },
+    {
+      "id": "f051",
+      "path": [
+        "DATOS DE LABORATORIO 1",
+        "indicar valor"
+      ],
+      "label": "indicar valor",
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "indicar valor",
+      "synthetic_value": "42 mg/l",
+      "context_evidence": "DATOS DE LABORATORIO 1 / indicar valor: 42 mg/l."
+    },
+    {
+      "id": "f052",
+      "path": [
+        "DATOS DE LABORATORIO 1",
+        "Otros hallazgos"
+      ],
+      "label": "Otros hallazgos:",
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Otros hallazgos:",
+      "synthetic_value": "Sodio sérico: 132 mEq/L; leucocitos: 14000 por microlitro",
+      "context_evidence": "DATOS DE LABORATORIO 1 / Otros hallazgos: Sodio sérico: 132 mEq/L; leucocitos: 14000 por microlitro."
+    },
+    {
+      "id": "f053",
+      "path": [
+        "DATOS EPIDEMIOLÓGICOS (contestar si o no) *",
+        "¿Realizó viajes fuera del país durante el último mes?"
+      ],
+      "label": "¿Realizó viajes fuera del país durante el último mes?",
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "¿Realizó viajes fuera del país durante el último mes?",
+      "synthetic_value": "no",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "DATOS EPIDEMIOLÓGICOS (contestar si o no) * / ¿Realizó viajes fuera del país durante el último mes?: no."
+    },
+    {
+      "id": "f054",
+      "path": [
+        "DATOS EPIDEMIOLÓGICOS (contestar si o no) *",
+        "¿Se ha alojado al menos una noche fuera de su domicilio durante los 10 días previos a la aparición síntomas? (Especificar fecha y lugar)"
+      ],
+      "label": "¿Se ha alojado al menos una noche fuera de su domicilio durante los 10 días previos a la aparición síntomas? (Especificar fecha y lugar)",
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "¿Se ha alojado al menos una noche fuera de su domicilio durante los 10 días previos a la aparición síntomas? (Especificar fecha y lugar)",
+      "synthetic_value": "si",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "DATOS EPIDEMIOLÓGICOS (contestar si o no) * / ¿Se ha alojado al menos una noche fuera de su domicilio durante los 10 días previos a la aparición síntomas? (Especificar fecha y lugar): si."
+    },
+    {
+      "id": "f055",
+      "path": [
+        "DATOS EPIDEMIOLÓGICOS (contestar si o no) *",
+        "¿Ha estado hospitalizado al menos 48 hs antes del inicio de síntomas? (especificar fecha y locación)"
+      ],
+      "label": "¿Ha estado hospitalizado al menos 48 hs antes del inicio de síntomas? (especificar fecha y locación)",
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "¿Ha estado hospitalizado al menos 48 hs antes del inicio de síntomas? (especificar fecha y locación)",
+      "synthetic_value": "no",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "DATOS EPIDEMIOLÓGICOS (contestar si o no) * / ¿Ha estado hospitalizado al menos 48 hs antes del inicio de síntomas? (especificar fecha y locación): no."
+    },
+    {
+      "id": "f056",
+      "path": [
+        "DATOS EPIDEMIOLÓGICOS (contestar si o no) *",
+        "¿Visitó o trabajó en instituciones nosocomiales durante el período de exposición? (especificar locación y fecha)"
+      ],
+      "label": "¿Visitó o trabajó en instituciones nosocomiales durante el período de exposición? (especificar locación y fecha)",
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "¿Visitó o trabajó en instituciones nosocomiales durante el período de exposición? (especificar locación y fecha)",
+      "synthetic_value": "no",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "DATOS EPIDEMIOLÓGICOS (contestar si o no) * / ¿Visitó o trabajó en instituciones nosocomiales durante el período de exposición? (especificar locación y fecha): no."
+    },
+    {
+      "id": "f057",
+      "path": [
+        "DATOS EPIDEMIOLÓGICOS (contestar si o no) *",
+        "¿Estuvo expuesto a fuentes, spas, humidificadores durante las dos semanas previas al inicio de los síntomas?"
+      ],
+      "label": "¿Estuvo expuesto a fuentes, spas, humidificadores durante las dos semanas previas al inicio de los síntomas?",
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "¿Estuvo expuesto a fuentes, spas, humidificadores durante las dos semanas previas al inicio de los síntomas?",
+      "synthetic_value": "no",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "DATOS EPIDEMIOLÓGICOS (contestar si o no) * / ¿Estuvo expuesto a fuentes, spas, humidificadores durante las dos semanas previas al inicio de los síntomas?: no."
+    },
+    {
+      "id": "f058",
+      "path": [
+        "DATOS EPIDEMIOLÓGICOS (contestar si o no) *",
+        "¿Estuvo expuesto a ambientes acuáticos recreacionales durante las dos semanas previas al inicio de los síntomas?"
+      ],
+      "label": "¿Estuvo expuesto a ambientes acuáticos recreacionales durante las dos semanas previas al inicio de los síntomas?",
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "¿Estuvo expuesto a ambientes acuáticos recreacionales durante las dos semanas previas al inicio de los síntomas?",
+      "synthetic_value": "no",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "DATOS EPIDEMIOLÓGICOS (contestar si o no) * / ¿Estuvo expuesto a ambientes acuáticos recreacionales durante las dos semanas previas al inicio de los síntomas?: no."
+    },
+    {
+      "id": "f059",
+      "path": [
+        "DATOS EPIDEMIOLÓGICOS (contestar si o no) *",
+        "¿Estuvo expuesto a tierra (jardinería, construcción, producción, etc)?"
+      ],
+      "label": "¿Estuvo expuesto a tierra (jardinería, construcción, producción, etc)?",
+      "kind": "checkbox_single",
+      "source_page": 2,
+      "source_anchor": "¿Estuvo expuesto a tierra (jardinería, construcción, producción, etc)?",
+      "synthetic_value": "no",
+      "options": [
+        "si",
+        "no"
+      ],
+      "context_evidence": "DATOS EPIDEMIOLÓGICOS (contestar si o no) * / ¿Estuvo expuesto a tierra (jardinería, construcción, producción, etc)?: no."
+    },
+    {
+      "id": "f060",
+      "path": [
+        "DATOS EPIDEMIOLÓGICOS (contestar si o no) *",
+        "Especificar lugares de tránsito y destino y fechas"
+      ],
+      "label": "Especificar lugares de tránsito y destino y fechas",
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Especificar lugares de tránsito y destino y fechas",
+      "synthetic_value": "Sin viajes fuera del país",
+      "context_evidence": "DATOS EPIDEMIOLÓGICOS (contestar si o no) * / Especificar lugares de tránsito y destino y fechas: Sin viajes fuera del país."
+    },
+    {
+      "id": "f061",
+      "path": [
+        "DATOS EPIDEMIOLÓGICOS (contestar si o no) *",
+        "Especificar fecha y lugar"
+      ],
+      "label": "Especificar fecha y lugar",
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Especificar fecha y lugar",
+      "synthetic_value": "Hotel Ficticio del Sur, San Rafael; 03/10/2026",
+      "context_evidence": "DATOS EPIDEMIOLÓGICOS (contestar si o no) * / Especificar fecha y lugar: Hotel Ficticio del Sur, San Rafael; 03/10/2026."
+    },
+    {
+      "id": "f062",
+      "path": [
+        "DATOS EPIDEMIOLÓGICOS (contestar si o no) *",
+        "especificar fecha y locación"
+      ],
+      "label": "especificar fecha y locación",
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "especificar fecha y locación",
+      "synthetic_value": "No corresponde: no hospitalización previa",
+      "context_evidence": "DATOS EPIDEMIOLÓGICOS (contestar si o no) * / especificar fecha y locación: No corresponde: no hospitalización previa."
+    },
+    {
+      "id": "f063",
+      "path": [
+        "DATOS EPIDEMIOLÓGICOS (contestar si o no) *",
+        "especificar locación y fecha"
+      ],
+      "label": "especificar locación y fecha",
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "especificar locación y fecha",
+      "synthetic_value": "No corresponde: sin visitas nosocomiales previas",
+      "context_evidence": "DATOS EPIDEMIOLÓGICOS (contestar si o no) * / especificar locación y fecha: No corresponde: sin visitas nosocomiales previas."
+    },
+    {
+      "id": "f064",
+      "path": [
+        "Profesional responsable",
+        "Firma"
+      ],
+      "label": "Firma",
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Firma",
+      "synthetic_value": "Firma ficticia de Clara Sosa",
+      "context_evidence": "Profesional responsable / Firma: Firma ficticia de Clara Sosa."
+    },
+    {
+      "id": "f065",
+      "path": [
+        "Profesional responsable",
+        "Aclaración"
+      ],
+      "label": "Aclaración",
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Aclaración",
+      "synthetic_value": "Clara Sosa",
+      "context_evidence": "Profesional responsable / Aclaración: Clara Sosa."
+    },
+    {
+      "id": "f066",
+      "path": [
+        "Profesional responsable",
+        "Matrícula"
+      ],
+      "label": "Matrícula",
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Matrícula",
+      "synthetic_value": "MP 12345",
+      "context_evidence": "Profesional responsable / Matrícula: MP 12345."
+    },
+    {
+      "id": "f067",
+      "path": [
+        "Cuestionario generador de hipótesis de exposición",
+        "Pregunta 1",
+        "¿trabajó, recibió tratamiento o visitó un hospital? Si afirmativo, registrar locación"
+      ],
+      "label": "¿trabajó, recibió tratamiento o visitó un hospital? Si afirmativo, registrar locación",
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "¿trabajó, recibió tratamiento o visitó un hospital? Si afirmativo, registrar locación",
+      "synthetic_value": "No, no visitó hospitales durante los 14 días previos",
+      "context_evidence": "Cuestionario generador de hipótesis de exposición / Pregunta 1 / ¿trabajó, recibió tratamiento o visitó un hospital? Si afirmativo, registrar locación: No, no visitó hospitales durante los 14 días previos."
+    },
+    {
+      "id": "f068",
+      "path": [
+        "Cuestionario generador de hipótesis de exposición",
+        "Pregunta 2",
+        "¿trabajó, recibió tratamiento o visitó un consultorio médico, clínica o dentista? Si afirmativo, registrar locación"
+      ],
+      "label": "¿trabajó, recibió tratamiento o visitó un consultorio médico, clínica o dentista? Si afirmativo, registrar locación",
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "¿trabajó, recibió tratamiento o visitó un consultorio médico, clínica o dentista? Si afirmativo, registrar locación",
+      "synthetic_value": "No",
+      "context_evidence": "Cuestionario generador de hipótesis de exposición / Pregunta 2 / ¿trabajó, recibió tratamiento o visitó un consultorio médico, clínica o dentista? Si afirmativo, registrar locación: No."
+    },
+    {
+      "id": "f069",
+      "path": [
+        "Cuestionario generador de hipótesis de exposición",
+        "Pregunta 3",
+        "¿trabajó, residía o visitó un geriátrico? Si afirmativo, registrar locación"
+      ],
+      "label": "¿trabajó, residía o visitó un geriátrico? Si afirmativo, registrar locación",
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "¿trabajó, residía o visitó un geriátrico? Si afirmativo, registrar locación",
+      "synthetic_value": "No",
+      "context_evidence": "Cuestionario generador de hipótesis de exposición / Pregunta 3 / ¿trabajó, residía o visitó un geriátrico? Si afirmativo, registrar locación: No."
+    },
+    {
+      "id": "f070",
+      "path": [
+        "Cuestionario generador de hipótesis de exposición",
+        "Pregunta 4",
+        "¿pasó alguna noche fuera de casa (excluyendo los entornos de atención médica), como quedarse en un hotel o ir en un crucero? Si afirmativo, registrar locación"
+      ],
+      "label": "¿pasó alguna noche fuera de casa (excluyendo los entornos de atención médica), como quedarse en un hotel o ir en un crucero? Si afirmativo, registrar locación",
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "¿pasó alguna noche fuera de casa (excluyendo los entornos de atención médica), como quedarse en un hotel o ir en un crucero? Si afirmativo, registrar locación",
+      "synthetic_value": "Sí, Hotel Ficticio del Sur, San Rafael; 03/10/2026",
+      "context_evidence": "Cuestionario generador de hipótesis de exposición / Pregunta 4 / ¿pasó alguna noche fuera de casa (excluyendo los entornos de atención médica), como quedarse en un hotel o ir en un crucero? Si afirmativo, registrar locación: Sí, Hotel Ficticio del Sur, San Rafael; 03/10/2026."
+    },
+    {
+      "id": "f071",
+      "path": [
+        "Cuestionario generador de hipótesis de exposición",
+        "Pregunta 5",
+        "¿visitó un hotel sin pernoctar? (por ejemplo, cena, boda, como empleado) Si afirmativo, registrar locación"
+      ],
+      "label": "¿visitó un hotel sin pernoctar? (por ejemplo, cena, boda, como empleado) Si afirmativo, registrar locación",
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "¿visitó un hotel sin pernoctar? (por ejemplo, cena, boda, como empleado) Si afirmativo, registrar locación",
+      "synthetic_value": "No",
+      "context_evidence": "Cuestionario generador de hipótesis de exposición / Pregunta 5 / ¿visitó un hotel sin pernoctar? (por ejemplo, cena, boda, como empleado) Si afirmativo, registrar locación: No."
+    },
+    {
+      "id": "f072",
+      "path": [
+        "Cuestionario generador de hipótesis de exposición",
+        "Pregunta 6",
+        "¿asistió a alguna convención o reunión pública? Si afirmativo, registrar locación"
+      ],
+      "label": "¿asistió a alguna convención o reunión pública? Si afirmativo, registrar locación",
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "¿asistió a alguna convención o reunión pública? Si afirmativo, registrar locación",
+      "synthetic_value": "No",
+      "context_evidence": "Cuestionario generador de hipótesis de exposición / Pregunta 6 / ¿asistió a alguna convención o reunión pública? Si afirmativo, registrar locación: No."
+    },
+    {
+      "id": "f073",
+      "path": [
+        "Cuestionario generador de hipótesis de exposición",
+        "Pregunta 7",
+        "¿trabajó, residía o visitó una institución de vida en comunidad (por ejemplo, una prisión, un refugio, un dormitorio)? Si afirmativo, registrar locación"
+      ],
+      "label": "¿trabajó, residía o visitó una institución de vida en comunidad (por ejemplo, una prisión, un refugio, un dormitorio)? Si afirmativo, registrar locación",
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "¿trabajó, residía o visitó una institución de vida en comunidad (por ejemplo, una prisión, un refugio, un dormitorio)? Si afirmativo, registrar locación",
+      "synthetic_value": "No",
+      "context_evidence": "Cuestionario generador de hipótesis de exposición / Pregunta 7 / ¿trabajó, residía o visitó una institución de vida en comunidad (por ejemplo, una prisión, un refugio, un dormitorio)? Si afirmativo, registrar locación: No."
+    },
+    {
+      "id": "f074",
+      "path": [
+        "Cuestionario generador de hipótesis de exposición",
+        "Pregunta 8",
+        "¿tuvo exposición a alguno de los siguientes ítems ya sea mientras viajaba o en casa?"
+      ],
+      "label": "¿tuvo exposición a alguno de los siguientes ítems ya sea mientras viajaba o en casa?",
+      "kind": "checkbox_multi",
+      "source_page": 3,
+      "source_anchor": "¿tuvo exposición a alguno de los siguientes ítems ya sea mientras viajaba o en casa?",
+      "synthetic_value": [
+        "Duchas (fuera de su casa)"
+      ],
+      "options": [
+        "Spa, baño caliente tipo Jacuzzi o hidromasaje",
+        "Estuvo CERCA de un baño caliente en hotel o spa, aunque no haya entrado",
+        "Piscina",
+        "Rociadores de agua recreacionales",
+        "Rociadores de agua en el exterior (ej. parque, jardín)",
+        "Sauna con vapor",
+        "Fuentes decorativas",
+        "Humidificadores de ambiente",
+        "Duchas (fuera de su casa)"
+      ],
+      "context_evidence": "Cuestionario generador de hipótesis de exposición / Pregunta 8 / ¿tuvo exposición a alguno de los siguientes ítems ya sea mientras viajaba o en casa?: Duchas (fuera de su casa)."
+    },
+    {
+      "id": "f075",
+      "path": [
+        "Cuestionario generador de hipótesis de exposición",
+        "Pregunta 9",
+        "¿Usó un nebulizador o algún equipo de terapia respiratoria para el tratamiento de la apnea del sueño, la EPOC, el asma o por cualquier otra razón?"
+      ],
+      "label": "¿Usó un nebulizador o algún equipo de terapia respiratoria para el tratamiento de la apnea del sueño, la EPOC, el asma o por cualquier otra razón?",
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "¿Usó un nebulizador o algún equipo de terapia respiratoria para el tratamiento de la apnea del sueño, la EPOC, el asma o por cualquier otra razón?",
+      "synthetic_value": "No utiliza nebulizador ni equipo de terapia respiratoria",
+      "context_evidence": "Cuestionario generador de hipótesis de exposición / Pregunta 9 / ¿Usó un nebulizador o algún equipo de terapia respiratoria para el tratamiento de la apnea del sueño, la EPOC, el asma o por cualquier otra razón?: No utiliza nebulizador ni equipo de terapia respiratoria."
+    },
+    {
+      "id": "f076",
+      "path": [
+        "Cuestionario generador de hipótesis de exposición",
+        "Pregunta 9",
+        "describa qué tipo de agua usa en este dispositivo"
+      ],
+      "label": "describa qué tipo de agua usa en este dispositivo",
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "describa qué tipo de agua usa en este dispositivo",
+      "synthetic_value": "No corresponde",
+      "context_evidence": "Cuestionario generador de hipótesis de exposición / Pregunta 9 / describa qué tipo de agua usa en este dispositivo: No corresponde."
+    },
+    {
+      "id": "f077",
+      "path": [
+        "Cuestionario generador de hipótesis de exposición",
+        "Pregunta 9",
+        "cómo lo limpia."
+      ],
+      "label": "cómo lo limpia.",
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "cómo lo limpia.",
+      "synthetic_value": "No corresponde",
+      "context_evidence": "Cuestionario generador de hipótesis de exposición / Pregunta 9 / cómo lo limpia.: No corresponde."
+    },
+    {
+      "id": "f078",
+      "path": [
+        "Cuestionario generador de hipótesis de exposición",
+        "Pregunta 10",
+        "El agua de su domicilio proviene"
+      ],
+      "label": "El agua de su domicilio proviene:",
+      "kind": "checkbox_single",
+      "source_page": 3,
+      "source_anchor": "El agua de su domicilio proviene:",
+      "synthetic_value": "de la red municipal",
+      "options": [
+        "de la red municipal",
+        "de pozo",
+        "de una cisterna privada",
+        "no sabe"
+      ],
+      "context_evidence": "Cuestionario generador de hipótesis de exposición / Pregunta 10 / El agua de su domicilio proviene: de la red municipal."
+    },
+    {
+      "id": "f079",
+      "path": [
+        "Cuestionario generador de hipótesis de exposición",
+        "Pregunta 11",
+        "¿Recuerda alguna construcción general, proyectos de plomería, roturas de cañerías de agua o trabajos en líneas de agua en su casa o en cualquier otro lugar durante los 6 meses antes de enfermarse?"
+      ],
+      "label": "¿Recuerda alguna construcción general, proyectos de plomería, roturas de cañerías de agua o trabajos en líneas de agua en su casa o en cualquier otro lugar durante los 6 meses antes de enfermarse?",
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "¿Recuerda alguna construcción general, proyectos de plomería, roturas de cañerías de agua o trabajos en líneas de agua en su casa o en cualquier otro lugar durante los 6 meses antes de enfermarse?",
+      "synthetic_value": "No",
+      "context_evidence": "Cuestionario generador de hipótesis de exposición / Pregunta 11 / ¿Recuerda alguna construcción general, proyectos de plomería, roturas de cañerías de agua o trabajos en líneas de agua en su casa o en cualquier otro lugar durante los 6 meses antes de enfermarse?: No."
+    },
+    {
+      "id": "f080",
+      "path": [
+        "Cuestionario generador de hipótesis de exposición",
+        "Pregunta 12",
+        "¿compró en una tienda o supermercado donde había máquinas que rociaban las frutas y verduras?"
+      ],
+      "label": "¿compró en una tienda o supermercado donde había máquinas que rociaban las frutas y verduras?",
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "¿compró en una tienda o supermercado donde había máquinas que rociaban las frutas y verduras?",
+      "synthetic_value": "No",
+      "context_evidence": "Cuestionario generador de hipótesis de exposición / Pregunta 12 / ¿compró en una tienda o supermercado donde había máquinas que rociaban las frutas y verduras?: No."
+    },
+    {
+      "id": "f081",
+      "path": [
+        "Cuestionario generador de hipótesis de exposición",
+        "Pregunta 13",
+        "¿trabajó en un jardín, tuvo contacto con tierra para macetas o visitó un centro de jardinería?"
+      ],
+      "label": "¿trabajó en un jardín, tuvo contacto con tierra para macetas o visitó un centro de jardinería?",
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "¿trabajó en un jardín, tuvo contacto con tierra para macetas o visitó un centro de jardinería?",
+      "synthetic_value": "No",
+      "context_evidence": "Cuestionario generador de hipótesis de exposición / Pregunta 13 / ¿trabajó en un jardín, tuvo contacto con tierra para macetas o visitó un centro de jardinería?: No."
+    },
+    {
+      "id": "f082",
+      "path": [
+        "Cuestionario generador de hipótesis de exposición",
+        "Pregunta 14",
+        "¿reside cerca o visitó un área con grandes edificios, como centros comerciales, oficinas u hoteles de gran altura, o edificios industriales?"
+      ],
+      "label": "¿reside cerca o visitó un área con grandes edificios, como centros comerciales, oficinas u hoteles de gran altura, o edificios industriales?",
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "¿reside cerca o visitó un área con grandes edificios, como centros comerciales, oficinas u hoteles de gran altura, o edificios industriales?",
+      "synthetic_value": "No",
+      "context_evidence": "Cuestionario generador de hipótesis de exposición / Pregunta 14 / ¿reside cerca o visitó un área con grandes edificios, como centros comerciales, oficinas u hoteles de gran altura, o edificios industriales?: No."
+    },
+    {
+      "id": "f083",
+      "path": [
+        "Cuestionario generador de hipótesis de exposición",
+        "Pregunta 15",
+        "Específicamente, ¿trabaja en alguno de los siguientes entornos?"
+      ],
+      "label": "Específicamente, ¿trabaja en alguno de los siguientes entornos?",
+      "kind": "checkbox_multi",
+      "source_page": 3,
+      "source_anchor": "Específicamente, ¿trabaja en alguno de los siguientes entornos?",
+      "synthetic_value": [],
+      "options": [
+        "Construcción",
+        "Planta industrial/de fabricación con refrigeración o procesos por aspersión de agua",
+        "Operación o mantenimiento del sistema/dispositivo de agua del edificio (p. ej., torres de enfriamiento, plomería, agua caliente)",
+        "Actividades de ocio relacionadas con el agua (por ejemplo, hoteles, cruceros, parques acuáticos)",
+        "Planta de tratamiento de aguas residuales",
+        "Conducción de camiones (larga distancia)",
+        "Lavado de platos (por ejemplo, en una cocina comercial o industrial)",
+        "Servicios de custodia (por ejemplo, servicio de limpieza, trabajo de conserjería)",
+        "Otro trabajo con exposición al agua"
+      ],
+      "context_evidence": "Cuestionario generador de hipótesis de exposición / Pregunta 15 / Específicamente, ¿trabaja en alguno de los siguientes entornos?: No se marca ninguna opción; no corresponde en este caso ficticio."
+    }
+  ],
+  "context": "Caso completamente ficticio para completar todos los espacios, incluidos los administrativos. No describe personas ni instituciones reales.\nDATOS DEL PACIENTE / Nombre y Apellido del paciente: Lucía Rivas Molina.\nDATOS DEL PACIENTE / DNI *: 32765432.\nDATOS DEL PACIENTE / Edad: 34.\nDATOS DEL PACIENTE / Género: Femenino.\nDATOS DEL PACIENTE / Domicilio de residencia: Calle Ejemplo 250, Mendoza.\nINFORMACIÓN OCUPACIONAL / Ocupación *: Docente.\nINFORMACIÓN OCUPACIONAL / Institución o empresa: Escuela Ficticia N° 24.\nINFORMACIÓN RESPONSABLE DEL ENVÍO / Nombre y Apellido *: Clara Sosa.\nINFORMACIÓN RESPONSABLE DEL ENVÍO / Hospital/Institución *: Hospital Ficticio del Sur.\nINFORMACIÓN RESPONSABLE DEL ENVÍO / Email de contacto *: clara.sosa@example.org.\nINFORMACIÓN RESPONSABLE DEL ENVÍO / Teléfono de contacto: +54 261 555 0142.\nINFORMACIÓN RESPONSABLE DEL ENVÍO / Detalle las muestras derivada y fecha de recolección*: Orina, suero y muestra respiratoria; recolección 12/10/2026.\nINFORMACIÓN RESPONSABLE DEL ENVÍO / Estudios solicitados (marque con una X): Antígeno urinario, PCR, Cultivo.\nINFORMACIÓN RESPONSABLE DEL ENVÍO / ¿Ha solicitado diagnóstico diferencial de otras neumonías atípicas?: no.\nINFORMACIÓN CLÍNICA * / Fecha inicio de los síntomas (completar): 10/10/2026.\nINFORMACIÓN CLÍNICA * / Fiebre (especificar pico febril ºC): si.\nINFORMACIÓN CLÍNICA * / Tos productiva (especificar fecha inicio): si.\nINFORMACIÓN CLÍNICA * / Tos no productiva: no.\nINFORMACIÓN CLÍNICA * / Mialgias: si.\nINFORMACIÓN CLÍNICA * / Neumonía: si.\nINFORMACIÓN CLÍNICA * / Hospitalización: si.\nINFORMACIÓN CLÍNICA * / Estadía en UCI: no.\nINFORMACIÓN CLÍNICA * / Asistencia respiratoria mecánica: no.\nINFORMACIÓN CLÍNICA * / Óbito: no.\nINFORMACIÓN CLÍNICA * / especificar pico febril ºC: 39.0.\nINFORMACIÓN CLÍNICA * / especificar fecha inicio: 10/10/2026.\nINFORMACIÓN CLÍNICA * / Hallazgo radiológico (completar): Infiltrado pulmonar registrado en el estudio ficticio.\nINFORMACIÓN CLÍNICA * / Fecha internación (completar): 12/10/2026.\nINFORMACIÓN CLÍNICA * / Tratamiento antibiótico (completar): Tratamiento registrado en la historia clínica ficticia.\nINFORMACIÓN CLÍNICA * / Fecha inicio tratamiento antibiótico (completar): 12/10/2026.\nINFORMACIÓN CLÍNICA * / ANTECEDENTES / Enfermedad hepática crónica: no.\nINFORMACIÓN CLÍNICA * / ANTECEDENTES / Enfermedad o terapia inmunosupresora: no.\nINFORMACIÓN CLÍNICA * / ANTECEDENTES / Diabetes: no.\nINFORMACIÓN CLÍNICA * / ANTECEDENTES / Enfermedad pulmonar crónica (especificar): no.\nINFORMACIÓN CLÍNICA * / ANTECEDENTES / Tabaquismo: no.\nINFORMACIÓN CLÍNICA * / ANTECEDENTES / Descripción: No presenta enfermedad pulmonar crónica.\nDATOS DE LABORATORIO 1 / Leucocitosis: si.\nDATOS DE LABORATORIO 1 / Leucopenia: no.\nDATOS DE LABORATORIO 1 / Trombocitopenia: no.\nDATOS DE LABORATORIO 1 / CPK > 0.25 ng/ml: no.\nDATOS DE LABORATORIO 1 / PCR elevada >20mg/l (indicar valor): si.\nDATOS DE LABORATORIO 1 / Hiponatremia (<135 mEq/L): si.\nDATOS DE LABORATORIO 1 / Hipofosfatemia (<2,5mg/dl): no.\nDATOS DE LABORATORIO 1 / Transaminasas elevadas: no.\nDATOS DE LABORATORIO 1 / LDH >400: no.\nDATOS DE LABORATORIO 1 / Ferritina elevada (>2x normal): no.\nDATOS DE LABORATORIO 1 / Dimero-D elevado: no.\nDATOS DE LABORATORIO 1 / Procalcitocina <0.1 mg/L: no.\nDATOS DE LABORATORIO 1 / Procalcitonina >0.25 mg/L: si.\nDATOS DE LABORATORIO 1 / Hematuria microscópica: no.\nDATOS DE LABORATORIO 1 / indicar valor: 42 mg/l.\nDATOS DE LABORATORIO 1 / Otros hallazgos: Sodio sérico: 132 mEq/L; leucocitos: 14000 por microlitro.\nDATOS EPIDEMIOLÓGICOS (contestar si o no) * / ¿Realizó viajes fuera del país durante el último mes?: no.\nDATOS EPIDEMIOLÓGICOS (contestar si o no) * / ¿Se ha alojado al menos una noche fuera de su domicilio durante los 10 días previos a la aparición síntomas? (Especificar fecha y lugar): si.\nDATOS EPIDEMIOLÓGICOS (contestar si o no) * / ¿Ha estado hospitalizado al menos 48 hs antes del inicio de síntomas? (especificar fecha y locación): no.\nDATOS EPIDEMIOLÓGICOS (contestar si o no) * / ¿Visitó o trabajó en instituciones nosocomiales durante el período de exposición? (especificar locación y fecha): no.\nDATOS EPIDEMIOLÓGICOS (contestar si o no) * / ¿Estuvo expuesto a fuentes, spas, humidificadores durante las dos semanas previas al inicio de los síntomas?: no.\nDATOS EPIDEMIOLÓGICOS (contestar si o no) * / ¿Estuvo expuesto a ambientes acuáticos recreacionales durante las dos semanas previas al inicio de los síntomas?: no.\nDATOS EPIDEMIOLÓGICOS (contestar si o no) * / ¿Estuvo expuesto a tierra (jardinería, construcción, producción, etc)?: no.\nDATOS EPIDEMIOLÓGICOS (contestar si o no) * / Especificar lugares de tránsito y destino y fechas: Sin viajes fuera del país.\nDATOS EPIDEMIOLÓGICOS (contestar si o no) * / Especificar fecha y lugar: Hotel Ficticio del Sur, San Rafael; 03/10/2026.\nDATOS EPIDEMIOLÓGICOS (contestar si o no) * / especificar fecha y locación: No corresponde: no hospitalización previa.\nDATOS EPIDEMIOLÓGICOS (contestar si o no) * / especificar locación y fecha: No corresponde: sin visitas nosocomiales previas.\nProfesional responsable / Firma: Firma ficticia de Clara Sosa.\nProfesional responsable / Aclaración: Clara Sosa.\nProfesional responsable / Matrícula: MP 12345.\nCuestionario generador de hipótesis de exposición / Pregunta 1 / ¿trabajó, recibió tratamiento o visitó un hospital? Si afirmativo, registrar locación: No, no visitó hospitales durante los 14 días previos.\nCuestionario generador de hipótesis de exposición / Pregunta 2 / ¿trabajó, recibió tratamiento o visitó un consultorio médico, clínica o dentista? Si afirmativo, registrar locación: No.\nCuestionario generador de hipótesis de exposición / Pregunta 3 / ¿trabajó, residía o visitó un geriátrico? Si afirmativo, registrar locación: No.\nCuestionario generador de hipótesis de exposición / Pregunta 4 / ¿pasó alguna noche fuera de casa (excluyendo los entornos de atención médica), como quedarse en un hotel o ir en un crucero? Si afirmativo, registrar locación: Sí, Hotel Ficticio del Sur, San Rafael; 03/10/2026.\nCuestionario generador de hipótesis de exposición / Pregunta 5 / ¿visitó un hotel sin pernoctar? (por ejemplo, cena, boda, como empleado) Si afirmativo, registrar locación: No.\nCuestionario generador de hipótesis de exposición / Pregunta 6 / ¿asistió a alguna convención o reunión pública? Si afirmativo, registrar locación: No.\nCuestionario generador de hipótesis de exposición / Pregunta 7 / ¿trabajó, residía o visitó una institución de vida en comunidad (por ejemplo, una prisión, un refugio, un dormitorio)? Si afirmativo, registrar locación: No.\nCuestionario generador de hipótesis de exposición / Pregunta 8 / ¿tuvo exposición a alguno de los siguientes ítems ya sea mientras viajaba o en casa?: Duchas (fuera de su casa).\nCuestionario generador de hipótesis de exposición / Pregunta 9 / ¿Usó un nebulizador o algún equipo de terapia respiratoria para el tratamiento de la apnea del sueño, la EPOC, el asma o por cualquier otra razón?: No utiliza nebulizador ni equipo de terapia respiratoria.\nCuestionario generador de hipótesis de exposición / Pregunta 9 / describa qué tipo de agua usa en este dispositivo: No corresponde.\nCuestionario generador de hipótesis de exposición / Pregunta 9 / cómo lo limpia.: No corresponde.\nCuestionario generador de hipótesis de exposición / Pregunta 10 / El agua de su domicilio proviene: de la red municipal.\nCuestionario generador de hipótesis de exposición / Pregunta 11 / ¿Recuerda alguna construcción general, proyectos de plomería, roturas de cañerías de agua o trabajos en líneas de agua en su casa o en cualquier otro lugar durante los 6 meses antes de enfermarse?: No.\nCuestionario generador de hipótesis de exposición / Pregunta 12 / ¿compró en una tienda o supermercado donde había máquinas que rociaban las frutas y verduras?: No.\nCuestionario generador de hipótesis de exposición / Pregunta 13 / ¿trabajó en un jardín, tuvo contacto con tierra para macetas o visitó un centro de jardinería?: No.\nCuestionario generador de hipótesis de exposición / Pregunta 14 / ¿reside cerca o visitó un área con grandes edificios, como centros comerciales, oficinas u hoteles de gran altura, o edificios industriales?: No.\nCuestionario generador de hipótesis de exposición / Pregunta 15 / Específicamente, ¿trabaja en alguno de los siguientes entornos?: No se marca ninguna opción; no corresponde en este caso ficticio.",
+  "workflow_identity": {
+    "language": "es",
+    "id": 453
+  }
+}

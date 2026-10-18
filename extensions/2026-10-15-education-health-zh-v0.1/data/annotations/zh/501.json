@@ -1,0 +1,505 @@
+{
+  "id": "zh-nsw-edu-swimming",
+  "language": "zh",
+  "title": "游泳活动情况告知表",
+  "domain": "Education",
+  "template_family": "swimming-consent",
+  "issuer": "New South Wales Department of Education",
+  "issuer_id": "NSW-EDU",
+  "columns": 3,
+  "rows": [
+    [
+      {
+        "text": "以下信息由负责组织的老师填写 / Organising teacher to complete",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "student",
+        "label": "学生姓名",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "field": "destination",
+        "label": "短途旅行目的地",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "field": "from",
+        "label": "短途旅行日期：从",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "field": "to",
+        "label": "短途旅行日期：至",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "游泳活动如下 / Teacher to list swimming activities below",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "activity_1",
+        "label": "活动 1：活动 (Activity)",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "activity_date_1",
+        "label": "活动 1：日期 (Date)",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "location_1",
+        "label": "活动 1：地点 (Location)",
+        "source_page": 1,
+        "colspan": 1
+      }
+    ],
+    [
+      {
+        "field": "activity_2",
+        "label": "活动 2：活动 (Activity)",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "activity_date_2",
+        "label": "活动 2：日期 (Date)",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "location_2",
+        "label": "活动 2：地点 (Location)",
+        "source_page": 1,
+        "colspan": 1
+      }
+    ],
+    [
+      {
+        "field": "activity_3",
+        "label": "活动 3：活动 (Activity)",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "activity_date_3",
+        "label": "活动 3：日期 (Date)",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "location_3",
+        "label": "活动 3：地点 (Location)",
+        "source_page": 1,
+        "colspan": 1
+      }
+    ],
+    [
+      {
+        "text": "由家长或照顾者作出以下声明 / Declarations by parent/carer",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "ability",
+        "label": "关于建议的游泳活动，我声明我的孩子情况如下",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "游泳能力与参与同意",
+        "heading": true,
+        "colspan": 3,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "field": "tread",
+        "label": "我的孩子可以踩水。",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "field": "float",
+        "label": "我的孩子可以浮在水上。",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "field": "consent",
+        "label": "我已经填好上述有关游泳活动的信息。",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "field": "parent",
+        "label": "家长或照顾者姓名（请工整填写）",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "field": "signature",
+        "label": "家长或照顾者签名",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "field": "date",
+        "label": "日期",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "student",
+      "label": "学生姓名",
+      "source_anchor": "学生姓名",
+      "source_page": 1,
+      "display_label": "学生姓名",
+      "path": [
+        "以下信息由负责组织的老师填写 / Organising teacher to complete",
+        "学生姓名"
+      ],
+      "kind": "text",
+      "synthetic_value": "Lin Sample"
+    },
+    {
+      "id": "destination",
+      "label": "短途旅行目的地",
+      "source_anchor": "短途旅行目的地",
+      "source_page": 1,
+      "display_label": "短途旅行目的地",
+      "path": [
+        "以下信息由负责组织的老师填写 / Organising teacher to complete",
+        "短途旅行目的地"
+      ],
+      "kind": "text",
+      "synthetic_value": "Example Aquatic Centre"
+    },
+    {
+      "id": "from",
+      "label": "从",
+      "source_anchor": "从",
+      "source_page": 1,
+      "display_label": "短途旅行日期：从",
+      "path": [
+        "以下信息由负责组织的老师填写 / Organising teacher to complete",
+        "短途旅行日期：从"
+      ],
+      "kind": "text",
+      "synthetic_value": "20 October 2026"
+    },
+    {
+      "id": "to",
+      "label": "至",
+      "source_anchor": "至",
+      "source_page": 1,
+      "display_label": "短途旅行日期：至",
+      "path": [
+        "以下信息由负责组织的老师填写 / Organising teacher to complete",
+        "短途旅行日期：至"
+      ],
+      "kind": "text",
+      "synthetic_value": "20 October 2026"
+    },
+    {
+      "id": "activity_1",
+      "label": "活动 (Activity)",
+      "source_anchor": "活动 (Activity)",
+      "source_page": 1,
+      "display_label": "活动 1：活动 (Activity)",
+      "path": [
+        "游泳活动如下 / Teacher to list swimming activities below",
+        "活动 1",
+        "活动"
+      ],
+      "kind": "text",
+      "synthetic_value": "Swimming lesson 1"
+    },
+    {
+      "id": "activity_date_1",
+      "label": "日期 (Date)",
+      "source_anchor": "日期 (Date)",
+      "source_page": 1,
+      "display_label": "活动 1：日期 (Date)",
+      "path": [
+        "游泳活动如下 / Teacher to list swimming activities below",
+        "活动 1",
+        "日期"
+      ],
+      "kind": "text",
+      "synthetic_value": "21 October 2026"
+    },
+    {
+      "id": "location_1",
+      "label": "地点 (Location)",
+      "source_anchor": "地点 (Location)",
+      "source_page": 1,
+      "display_label": "活动 1：地点 (Location)",
+      "path": [
+        "游泳活动如下 / Teacher to list swimming activities below",
+        "活动 1",
+        "地点"
+      ],
+      "kind": "text",
+      "synthetic_value": "Example Pool"
+    },
+    {
+      "id": "activity_2",
+      "label": "活动 (Activity)",
+      "source_anchor": "活动 (Activity)",
+      "source_page": 1,
+      "display_label": "活动 2：活动 (Activity)",
+      "path": [
+        "游泳活动如下 / Teacher to list swimming activities below",
+        "活动 2",
+        "活动"
+      ],
+      "kind": "text",
+      "synthetic_value": "Swimming lesson 2"
+    },
+    {
+      "id": "activity_date_2",
+      "label": "日期 (Date)",
+      "source_anchor": "日期 (Date)",
+      "source_page": 1,
+      "display_label": "活动 2：日期 (Date)",
+      "path": [
+        "游泳活动如下 / Teacher to list swimming activities below",
+        "活动 2",
+        "日期"
+      ],
+      "kind": "text",
+      "synthetic_value": "22 October 2026"
+    },
+    {
+      "id": "location_2",
+      "label": "地点 (Location)",
+      "source_anchor": "地点 (Location)",
+      "source_page": 1,
+      "display_label": "活动 2：地点 (Location)",
+      "path": [
+        "游泳活动如下 / Teacher to list swimming activities below",
+        "活动 2",
+        "地点"
+      ],
+      "kind": "text",
+      "synthetic_value": "Example Pool"
+    },
+    {
+      "id": "activity_3",
+      "label": "活动 (Activity)",
+      "source_anchor": "活动 (Activity)",
+      "source_page": 1,
+      "display_label": "活动 3：活动 (Activity)",
+      "path": [
+        "游泳活动如下 / Teacher to list swimming activities below",
+        "活动 3",
+        "活动"
+      ],
+      "kind": "text",
+      "synthetic_value": "Swimming lesson 3"
+    },
+    {
+      "id": "activity_date_3",
+      "label": "日期 (Date)",
+      "source_anchor": "日期 (Date)",
+      "source_page": 1,
+      "display_label": "活动 3：日期 (Date)",
+      "path": [
+        "游泳活动如下 / Teacher to list swimming activities below",
+        "活动 3",
+        "日期"
+      ],
+      "kind": "text",
+      "synthetic_value": "23 October 2026"
+    },
+    {
+      "id": "location_3",
+      "label": "地点 (Location)",
+      "source_anchor": "地点 (Location)",
+      "source_page": 1,
+      "display_label": "活动 3：地点 (Location)",
+      "path": [
+        "游泳活动如下 / Teacher to list swimming activities below",
+        "活动 3",
+        "地点"
+      ],
+      "kind": "text",
+      "synthetic_value": "Example Pool"
+    },
+    {
+      "id": "ability",
+      "label": "关于建议的游泳活动，我声明我的孩子情况如下",
+      "source_anchor": "关于建议的游泳活动，我声明我的孩子情况如下",
+      "source_page": 1,
+      "display_label": "关于建议的游泳活动，我声明我的孩子情况如下",
+      "path": [
+        "由家长或照顾者作出以下声明 / Declarations by parent/carer",
+        "关于建议的游泳活动，我声明我的孩子情况如下"
+      ],
+      "kind": "checkbox_single",
+      "options": [
+        "不会游泳：我的孩子不会游泳。",
+        "不大会游泳：我的孩子对游泳没有信心或在水中感到不自在。",
+        "游泳能力一般：我的孩子游得还可以，但在深水或急流中不是很熟练或自信。",
+        "很会游泳：我的孩子很会游泳，在深水或急流中非常自信。"
+      ],
+      "synthetic_value": "游泳能力一般：我的孩子游得还可以，但在深水或急流中不是很熟练或自信。",
+      "context_evidence": "由家长或照顾者作出以下声明 / Declarations by parent/carer / 关于建议的游泳活动，我声明我的孩子情况如下: selected options are 游泳能力一般：我的孩子游得还可以，但在深水或急流中不是很熟练或自信。"
+    },
+    {
+      "id": "tread",
+      "label": "我的孩子可以踩水。",
+      "source_anchor": "我的孩子可以踩水。",
+      "source_page": 2,
+      "display_label": "我的孩子可以踩水。",
+      "path": [
+        "游泳能力与参与同意",
+        "我的孩子可以踩水。"
+      ],
+      "kind": "checkbox_single",
+      "options": [
+        "可以",
+        "不可以"
+      ],
+      "synthetic_value": "可以",
+      "context_evidence": "游泳能力与参与同意 / 我的孩子可以踩水。: selected options are 可以"
+    },
+    {
+      "id": "float",
+      "label": "我的孩子可以浮在水上。",
+      "source_anchor": "我的孩子可以浮在水上。",
+      "source_page": 2,
+      "display_label": "我的孩子可以浮在水上。",
+      "path": [
+        "游泳能力与参与同意",
+        "我的孩子可以浮在水上。"
+      ],
+      "kind": "checkbox_single",
+      "options": [
+        "可以",
+        "不可以"
+      ],
+      "synthetic_value": "可以",
+      "context_evidence": "游泳能力与参与同意 / 我的孩子可以浮在水上。: selected options are 可以"
+    },
+    {
+      "id": "consent",
+      "label": "我已经填好上述有关游泳活动的信息。",
+      "source_anchor": "我已经填好上述有关游泳活动的信息。",
+      "source_page": 2,
+      "display_label": "我已经填好上述有关游泳活动的信息。",
+      "path": [
+        "游泳能力与参与同意",
+        "我已经填好上述有关游泳活动的信息。"
+      ],
+      "kind": "checkbox_single",
+      "options": [
+        "我同意我的孩子参加游泳活动。",
+        "我不同意我的孩子参加游泳活动。"
+      ],
+      "synthetic_value": "我同意我的孩子参加游泳活动。",
+      "context_evidence": "游泳能力与参与同意 / 我已经填好上述有关游泳活动的信息。: selected options are 我同意我的孩子参加游泳活动。"
+    },
+    {
+      "id": "parent",
+      "label": "家长或照顾者姓名（请工整填写）",
+      "source_anchor": "家长或照顾者姓名（请工整填写）",
+      "source_page": 2,
+      "display_label": "家长或照顾者姓名（请工整填写）",
+      "path": [
+        "游泳能力与参与同意",
+        "家长或照顾者姓名（请工整填写）"
+      ],
+      "kind": "text",
+      "synthetic_value": "Mei Sample"
+    },
+    {
+      "id": "signature",
+      "label": "家长或照顾者签名",
+      "source_anchor": "家长或照顾者签名",
+      "source_page": 2,
+      "display_label": "家长或照顾者签名",
+      "path": [
+        "游泳能力与参与同意",
+        "家长或照顾者签名"
+      ],
+      "kind": "text",
+      "synthetic_value": "Mei Sample"
+    },
+    {
+      "id": "date",
+      "label": "日期",
+      "source_anchor": "日期",
+      "source_page": 2,
+      "display_label": "日期",
+      "path": [
+        "游泳能力与参与同意",
+        "日期"
+      ],
+      "kind": "text",
+      "synthetic_value": "15 October 2026"
+    }
+  ],
+  "source_pages": 2,
+  "source_url": "https://education.nsw.gov.au/content/dam/main-education/going-to-a-public-school/media/documents/translated-documents-/swimming-activities-advice-form/chinese-simplified-excursion-swimming-activities.pdf",
+  "landing_url": "https://education.nsw.gov.au/schooling/translated-documents/swimming-activities-advice-form.html",
+  "source_sha256": "e83335d53ff51ad9f3929c80efed98eeb775c375bda218ae834c5807f7e71a8a",
+  "license_url": "https://education.nsw.gov.au/about-us/copyright.html",
+  "license_note": "NSW Department of Education website content is CC BY 4.0; logos, trademarks and third-party material are excluded. The normalized form omits logos and artwork.",
+  "retrieved_at": "2026-10-15",
+  "source_updated_at": "2026-02-04",
+  "source_version": "No edition number printed in this PDF",
+  "source_date_evidence": {
+    "kind": "official_landing_and_pdf_metadata",
+    "source_url": "https://education.nsw.gov.au/schooling/translated-documents/swimming-activities-advice-form.html",
+    "value": "Official landing last modified date=2026-02-04; PDF CreationDate=D:20220204093007+11'00'; PDF ModDate=D:20250213150057+01'00'",
+    "detail": "Landing and PDF metadata dates are recorded separately from the source edition."
+  },
+  "context": "Fictional test record; all persons, locations and contact details are synthetic.\n以下信息由负责组织的老师填写 / Organising teacher to complete / 学生姓名: Lin Sample.\n以下信息由负责组织的老师填写 / Organising teacher to complete / 短途旅行目的地: Example Aquatic Centre.\n以下信息由负责组织的老师填写 / Organising teacher to complete / 短途旅行日期：从: 20 October 2026.\n以下信息由负责组织的老师填写 / Organising teacher to complete / 短途旅行日期：至: 20 October 2026.\n游泳活动如下 / Teacher to list swimming activities below / 活动 1 / 活动: Swimming lesson 1.\n游泳活动如下 / Teacher to list swimming activities below / 活动 1 / 日期: 21 October 2026.\n游泳活动如下 / Teacher to list swimming activities below / 活动 1 / 地点: Example Pool.\n游泳活动如下 / Teacher to list swimming activities below / 活动 2 / 活动: Swimming lesson 2.\n游泳活动如下 / Teacher to list swimming activities below / 活动 2 / 日期: 22 October 2026.\n游泳活动如下 / Teacher to list swimming activities below / 活动 2 / 地点: Example Pool.\n游泳活动如下 / Teacher to list swimming activities below / 活动 3 / 活动: Swimming lesson 3.\n游泳活动如下 / Teacher to list swimming activities below / 活动 3 / 日期: 23 October 2026.\n游泳活动如下 / Teacher to list swimming activities below / 活动 3 / 地点: Example Pool.\n由家长或照顾者作出以下声明 / Declarations by parent/carer / 关于建议的游泳活动，我声明我的孩子情况如下: selected options are 游泳能力一般：我的孩子游得还可以，但在深水或急流中不是很熟练或自信。.\n游泳能力与参与同意 / 我的孩子可以踩水。: selected options are 可以.\n游泳能力与参与同意 / 我的孩子可以浮在水上。: selected options are 可以.\n游泳能力与参与同意 / 我已经填好上述有关游泳活动的信息。: selected options are 我同意我的孩子参加游泳活动。.\n游泳能力与参与同意 / 家长或照顾者姓名（请工整填写）: Mei Sample.\n游泳能力与参与同意 / 家长或照顾者签名: Mei Sample.\n游泳能力与参与同意 / 日期: 15 October 2026.",
+  "workflow_identity": {
+    "language": "zh",
+    "id": 501
+  }
+}

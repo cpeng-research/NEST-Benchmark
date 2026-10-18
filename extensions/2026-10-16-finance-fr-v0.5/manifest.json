@@ -1,0 +1,44 @@
+{
+  "extension_id": "2026-10-16-finance-fr-v0.5",
+  "added_on": "2026-10-16",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 1,
+  "samples": [
+    {
+      "id": 677,
+      "language": "fr",
+      "title": "Plus-values de cession de biens meubles et parts immobilières : 2048-M-SD",
+      "source_id": "fr-677-2048-m-sd",
+      "domain": "Finance",
+      "issuer_id": "Direction générale des finances publiques",
+      "template_family": "2048-m-sd",
+      "source_pages": 7,
+      "source_sha256": "ee4e126454217c2f37f0b52b46bc12fcbdb3c2496cd525652c4db596052cf1e6",
+      "fields": 205,
+      "files": {
+        "workflow/0-html_template/data_fr/677.html": "2395df2bd201c96dbb156326b835b458167f85f96f3226c2f8da6d6c7c6c3345",
+        "workflow/1-annotated_json/data_fr/677.json": "01472ab9cfca0b694d6a0b0fe9abdfeb7756e2f45419d9388ca7d3b718ff662b",
+        "workflow/2-filled_json-a/data_fr/677.json": "809a050bb49e5b1bebdabdc1396c66c3ed68069840bb31bb20f2858f0d6a308d",
+        "workflow/3-filled_html-a/data_fr/677.html": "2f2a6b424ad41de3406a6b11b1404cabdfc385df654184f5d1f4d315bf405b35",
+        "workflow/4-context-a/data_fr/677.txt": "367f1bfa3f599a07db93790fd3aaf45f2ee220134410f0b51b2ba8573df84525",
+        "workflow/5-ph_html-a/data_fr/677.html": "1ed8992ce8f3aa9120bbda284318f2a90741f84cb5d5b3b3f56ac4dfe6b48af0",
+        "workflow/6-meta-a/data_fr/677.json": "02322eed59909b7aa55858e7909981310f514e74065c04abb97d7d4e7d469163"
+      },
+      "annotation_path": "data/annotations/fr/677.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      },
+      "business_topic": "Plus-values de cession de biens meubles et parts immobilières : 2048-M-SD"
+    }
+  ]
+}

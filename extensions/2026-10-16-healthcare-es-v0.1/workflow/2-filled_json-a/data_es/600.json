@@ -1,0 +1,180 @@
+{
+  "1. DATOS DEL PACIENTE": {
+    "Nombre y Apellido": "Elena Rivas Pérez",
+    "DNI": "32765432",
+    "Edad": "34",
+    "Sexo": "Femenino",
+    "Domicilio real: calle, Nº, Localidad, Provincia": "Calle Ejemplo 250, Mendoza, Mendoza"
+  },
+  "2. DATOS DEL SOLICITANTE": {
+    "Fecha derivación": "16/10/2026",
+    "Establecimiento notificador": "Hospital Sintético del Sur",
+    "Dirección": "Calle Demostración 40, Mendoza",
+    "Nombre del médico": "Clara Vega",
+    "Teléfono": "+54 261 555 0142",
+    "Email": "clara.vega@example.org"
+  },
+  "3. ANTECEDENTES EPIDEMIOLÓGICOS": {
+    "Ocupación y actividad": "Veterinaria de campo",
+    "Condiciones habitacionales (especificar)": "Vivienda rural con agua potable",
+    "Contacto con animales (especificar)": "Contacto con ganado ovino",
+    "Realizó viajes durante el último año ?(lugar, mes )": "San Rafael, septiembre de 2026"
+  },
+  "4.SÍNTOMAS CLÍNICAMENTE COMPATIBLES": {
+    "Fiebre": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "si"
+      ]
+    },
+    "Mialgias": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "si"
+      ]
+    },
+    "Cefalea retrobulbar": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "Rigores": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "Fatiga": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "sintomas gastrointestinales": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "sintomas respiratorios": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "Leucopenia": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "Transaminasas hepáticas elevadas": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "Trombocitopenia": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    }
+  },
+  "5. OTROS DATOS CLÍNICOS": {
+    "Fecha de inicio de los síntomas": "12/10/2026",
+    "Enfermedad inmunosupresora de base": "Sin enfermedad inmunosupresora",
+    "Otras patologías de base": "Sin otras patologías"
+  },
+  "6. Especificar aparición de alguna de las siguientes complicaciones durante el transcurso de la enfermedad": {
+    "Endocarditis": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "Neumonía": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "Meningitis/encefalitis": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "osteomieltitis": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    }
+  },
+  "7. EVOLUCION": {
+    "Hospitalización (en caso afirmativo, fecha de hospitalización y fecha de alta)": "No requirió hospitalización",
+    "Fallecido": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "Tratamiento previo a la toma de muestra": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "si"
+      ]
+    },
+    "En caso afirmativo, especificar tratamiento": "Doxiciclina durante dos días antes de la muestra"
+  }
+}

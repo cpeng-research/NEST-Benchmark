@@ -1,0 +1,263 @@
+{
+  "IDENTIFICACIÓN DE LA INSTITUCIÓN": {
+    "Establecimiento notificador": "Hospital Sintético del Sur",
+    "Localidad": "Mendoza",
+    "Provincia": "Mendoza",
+    "Fecha de notificación": "16/10/2026",
+    "Apellido y nombre del notificador": "Clara Vega",
+    "Rol": "Médica",
+    "Teléfono": "+54 261 555 0142",
+    "Correo electrónico": "clara.vega@example.org",
+    "Firma": "Firma ficticia de Clara Vega"
+  },
+  "IDENTIFICACIÓN DEL CASO": {
+    "ID Evento": "EVENTO-SINT-604",
+    "Apellido y Nombre": "Elena Rivas Pérez",
+    "Tipo/N°documento": "DNI 32765432",
+    "Fecha de nacimiento": "12/04/1992",
+    "Edad": "34",
+    "Sexo": "Femenino",
+    "Provincia": "Mendoza",
+    "Departamento": "Capital",
+    "Localidad": "Mendoza",
+    "Calle / Manzana": "Calle Ejemplo",
+    "Nº/Casa": "250",
+    "Piso": "1",
+    "Depto.": "A",
+    "Cód. Postal": "5500",
+    "Barrio": "Centro",
+    "Teléfono": "+54 261 555 0142",
+    "Correo Electrónico": "elena.rivas@example.org"
+  },
+  "INFORMACIÓN CLÍNICA": {
+    "Fecha de Inicio de 1º síntomas (FIS)": "14/10/2026",
+    "Semana epidemiológica de FIS": "42",
+    "Atención": {
+      "choices": [
+        "Ambulatorio",
+        "Internado"
+      ],
+      "value": [
+        "Internado"
+      ]
+    },
+    "Fecha de 1ª consulta": "14/10/2026",
+    "Establecimiento de 1ª consulta": "Hospital Sintético del Sur",
+    "Embarazo": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "Fecha de internación": "14/10/2026",
+    "UCI/UTI": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "Fecha UCI": "No corresponde",
+    "Fecha de ALTA": "16/10/2026",
+    "Tratamiento desconocido": {
+      "choices": [
+        "Desconocido"
+      ],
+      "value": []
+    },
+    "Tratamiento Hiperbárico": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "Estadío clínico": {
+      "choices": [
+        "Asintomático",
+        "Leve",
+        "Moderado",
+        "Severo"
+      ],
+      "value": [
+        "Leve"
+      ]
+    },
+    "Caso fallecido": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "Lugar de fallecimiento": {
+      "choices": [
+        "Fallecimiento en institución hospitalaria",
+        "Fallecimiento en domicilio"
+      ],
+      "value": []
+    },
+    "Otro lugar de fallecimiento": "No corresponde"
+  },
+  "SIGNOS Y SÍNTOMAS": {
+    "SIGNOS Y SÍNTOMAS": {
+      "choices": [
+        "Arritmia",
+        "Astenia",
+        "Ataxia",
+        "Afectación renal",
+        "Ansiedad",
+        "Amnesia",
+        "Cansancio",
+        "Cefalea",
+        "Cianosis",
+        "Coma",
+        "Confusión mental",
+        "Convulsiones",
+        "Corea",
+        "Deterioro del sensorio",
+        "Dolor precordial",
+        "Depresión psíquica",
+        "Debilidad",
+        "Diarrea",
+        "Deterioro neurológico",
+        "Deterioro psiquiátrico",
+        "Dificultad respiratoria",
+        "Disnea",
+        "Enlentecimiento motor",
+        "Hipotensión arterial",
+        "Impotencia funcional de miembros inferiores",
+        "Irritabilidad",
+        "Isquemia de miocardio",
+        "Palpitaciones",
+        "Parkisonismo",
+        "Relajación de esfínteres",
+        "Sensación vertiginosa",
+        "Síncope",
+        "Somnolencia",
+        "Taquipnea (FR >25)",
+        "Trastornos en el aprendizaje",
+        "Trastornos en la conducta",
+        "Taquicardia (>100 pulsaciones por minuto)",
+        "Visión borrosa o alterada",
+        "Vómitos",
+        "Vértigo"
+      ],
+      "value": [
+        "Cansancio",
+        "Cefalea"
+      ]
+    }
+  },
+  "LABORATORIO": {
+    "Tipo de muestra tomada": {
+      "choices": [
+        "Sangre"
+      ],
+      "value": [
+        "Sangre"
+      ]
+    },
+    "Otros": "Sin otra muestra",
+    "Establecimiento de toma de muestra": "Hospital Sintético del Sur",
+    "Fecha de toma de muestra": "14/10/2026",
+    "Establecimiento de derivación de la muestra": "Laboratorio Sintético Central",
+    "Fecha de derivación": "14/10/2026",
+    "Establecimiento de diagnóstico": "Laboratorio Sintético Central",
+    "Fecha de diagnóstico": "15/10/2026",
+    "Prueba realizada": "Carboxihemoglobina",
+    "Resultado": {
+      "choices": [
+        "Detectable",
+        "No detectable",
+        "Muestra inadecuada"
+      ],
+      "value": [
+        "Detectable"
+      ]
+    },
+    "Valor": "8 %",
+    "Observaciones": "Muestra recibida y analizada sin incidentes"
+  },
+  "EPIDEMIOLOGÍA/EXPOSICIÓN": {
+    "Hay otra persona intoxicada por el mismo evento": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "SI"
+      ]
+    },
+    "Cuántos": "2",
+    "Circunstancia de exposición": {
+      "choices": [
+        "Accidental",
+        "Laboral",
+        "Intencional",
+        "Ambiental/ Exterior",
+        "Desconocida"
+      ],
+      "value": [
+        "Accidental"
+      ]
+    },
+    "Lugar probable de exposición": {
+      "choices": [
+        "Hogar",
+        "Laboral",
+        "Área Pública",
+        "Desconocida"
+      ],
+      "value": [
+        "Hogar"
+      ]
+    },
+    "Fuente de exposición": {
+      "choices": [
+        "Motores de combustión",
+        "Motores nafteros o a kerosén",
+        "Parrillas y braseros de carbón de leña",
+        "Sistemas de calefacción portátiles",
+        "Hogar a leña/ Salamandra",
+        "Incendio",
+        "Calefón/Termotanque /Caldera",
+        "Cocina/Anafe/Horno",
+        "Humo de tabaco",
+        "Estufas a gas",
+        "Desconocida"
+      ],
+      "value": [
+        "Estufas a gas"
+      ]
+    },
+    "Otros (especificar)": "Sin otras fuentes"
+  },
+  "CLASIFICACIÓN FINAL (MARCAR CON UNA X)": {
+    "Clasificación": {
+      "choices": [
+        "Caso sospechoso",
+        "Caso confirmado",
+        "Caso Invalidado por Epidemiología",
+        "Otro (aclarar en observaciones)"
+      ],
+      "value": [
+        "Caso confirmado"
+      ]
+    }
+  },
+  "OBSERVACIONES": {
+    "OBSERVACIONES": "Exposición doméstica por estufa; ventilación revisada",
+    "Nombre y Apellido": "Clara Vega",
+    "Firma y Sello": "Firma ficticia de Clara Vega, matrícula sintética 54321"
+  }
+}

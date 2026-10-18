@@ -1,0 +1,43 @@
+{
+  "extension_id": "2026-10-15-education-fr-v0.5",
+  "added_on": "2026-10-15",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 1,
+  "samples": [
+    {
+      "id": 356,
+      "language": "fr",
+      "title": "Guide d’entretien entre l’enseignant, l’AESH et la famille",
+      "source_id": "fr-356-entretien-enseignant-aesh-famille-complet",
+      "domain": "Education",
+      "issuer_id": "fr-ministere-education-nationale",
+      "template_family": "entretien-enseignant-aesh-famille-complet",
+      "source_pages": 10,
+      "source_sha256": "d3e60c99d52b6a4206c192f1f9a9b14680828743a12db96a2f85515920d6b921",
+      "fields": 76,
+      "files": {
+        "workflow/0-html_template/data_fr/356.html": "cc698d70e4e5495f2e9a88437186007c61e4f547d0f2a3e5dd34e65e3e4f122e",
+        "workflow/1-annotated_json/data_fr/356.json": "da3596b97f277d53365ed3d8ad53e9728d6e85aa70584788911cd64dadb2b80a",
+        "workflow/2-filled_json-a/data_fr/356.json": "bb9ebb38cf535d21ff3524bf0daccf69ac378d138221929d81eaaaf8f7cc0adf",
+        "workflow/3-filled_html-a/data_fr/356.html": "68a75547fc41adf9a27e12db96c66ef455ea3ea964c05885e0bedcfb7fd78d72",
+        "workflow/4-context-a/data_fr/356.txt": "dafe98cb42a3de109c96f5263b4a051a860d7ab32d8cbd5b3eb8a34f339e844e",
+        "workflow/5-ph_html-a/data_fr/356.html": "736b909bdfd684a6e2ea6aa7aecb803d187948a863543e3830c0250939b9d5f7",
+        "workflow/6-meta-a/data_fr/356.json": "d6a3b3337bebc4317f092c96b2c86871c01253729e32b58ead2d330b1145c4f7"
+      },
+      "annotation_path": "data/annotations/fr/356.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}

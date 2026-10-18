@@ -1,0 +1,43 @@
+{
+  "extension_id": "2026-10-16-finance-fr-v0.9",
+  "added_on": "2026-10-16",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 1,
+  "samples": [
+    {
+      "id": 645,
+      "language": "fr",
+      "title": "Révélation de don manuel et option de déclaration après décès",
+      "source_id": "fr-645-dgfip-2734-sd-revelation-don-manuel",
+      "domain": "Finance",
+      "issuer_id": "Direction générale des finances publiques (DGFiP)",
+      "template_family": "dgfip-2734-sd-revelation-don-manuel",
+      "source_pages": 2,
+      "source_sha256": "d5441c48dc1d8352c3643266e88b633ce95c535ec4784fb1b5e9ebbb2f3b7f1c",
+      "fields": 65,
+      "files": {
+        "workflow/0-html_template/data_fr/645.html": "09c56f88c5c01b9d8710e4658981ad12f1ab2cbcbd8e7dc92a59f1ad04372431",
+        "workflow/1-annotated_json/data_fr/645.json": "fd7a5d6e0eea7be80e554fee85f6a69a161ef64033a672fed3aa0bfb676c4ac2",
+        "workflow/2-filled_json-a/data_fr/645.json": "b6bbf8df0c98a4ef43bb6dab4630ccebb78d508dda0eddb2a8dd8747b516e3e0",
+        "workflow/3-filled_html-a/data_fr/645.html": "8fb16159de6cb1abe79495da0d297aeb4c2e084381a6fff534313f94588087d0",
+        "workflow/4-context-a/data_fr/645.txt": "59a23c782b14f2ba25ef2e692c83353e0d677a265a994d978d31d3101729f6ea",
+        "workflow/5-ph_html-a/data_fr/645.html": "d9812f0a59a42f9796b3fe2c4e99e7872efce24071a5f1b63ad41103f3eb2aa6",
+        "workflow/6-meta-a/data_fr/645.json": "013dd7b24369e5b2f18796b3fe8cef208c1c5f464efba7bb6173ad1f81129e3e"
+      },
+      "annotation_path": "data/annotations/fr/645.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}

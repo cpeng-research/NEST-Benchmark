@@ -1,0 +1,482 @@
+{
+  "id": "es-400-iaf-repago",
+  "title": "Solicitud de repago de haberes",
+  "language": "es",
+  "domain": "Finance",
+  "issuer_id": "ar-iaf",
+  "template_family": "iaf-repago",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/2019/05/mo_dap_repago_rev_5_0.pdf",
+  "landing_url": "https://www.argentina.gob.ar/servicio/reclamar-haberes-de-retiro-o-pension-no-percibidos",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "Contenido de Argentina.gob.ar bajo Creative Commons Atribución 4.0 Internacional, salvo indicación contraria. Adaptación textual de los campos y la estructura del formulario; no se reproducen logotipos ni se distribuye el PDF original. Fuente: Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares.",
+  "source_sha256": "be8dc053d13d11ff91ca5e96b74985a0765218d7a436766fd291f28a10360336",
+  "source_pages": 1,
+  "retrieved_at": "2026-10-14T18:30:00.053507+00:00",
+  "source_version": "R DAP REPAGO REV 5",
+  "source_date_evidence": {
+    "kind": "printed_form_version",
+    "value": "Página 1: marca impresa R DAP REPAGO REV 5; revisión sin fecha de edición impresa."
+  },
+  "columns": 12,
+  "rows": [
+    [
+      {
+        "text": "Solicitud de repago de haberes",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Al SEÑOR PRESIDENTE DEL INSTITUTO DE AYUDA FINANCIERA:",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f001",
+        "label": "Buenos Aires,",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "field": "f002",
+        "label": "El que suscribe",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "field": "f003",
+        "label": "en su carácter de",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "field": "f004",
+        "label": "por el o los meses de:",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "field": "f005",
+        "label": "encontrarme",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "field": "f006",
+        "label": "Firma:",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "field": "f007",
+        "label": "TEL/CEL",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "field": "f008",
+        "label": "Domicilio :",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "field": "f009",
+        "label": "N° de Documento :",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "field": "f010",
+        "label": "Tipo de D.N.I :",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "Al SEÑOR PRESIDENTE DEL INSTITUTO DE AYUDA FINANCIERA:",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "f011",
+        "label": "Buenos Aires,",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "field": "f012",
+        "label": "El que suscribe",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "field": "f013",
+        "label": "en su carácter de",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "field": "f014",
+        "label": "por el o los meses de:",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "field": "f015",
+        "label": "encontrarme",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "field": "f016",
+        "label": "Firma:",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "field": "f017",
+        "label": "TEL/CEL",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "field": "f018",
+        "label": "Domicilio :",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "field": "f019",
+        "label": "N° de Documento :",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "field": "f020",
+        "label": "Tipo de D.N.I :",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "Contenido de Argentina.gob.ar bajo Creative Commons Atribución 4.0 Internacional, salvo indicación contraria. Adaptación textual de los campos y la estructura del formulario; no se reproducen logotipos ni se distribuye el PDF original. Fuente: Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares. https://www.argentina.gob.ar/sites/default/files/2019/05/mo_dap_repago_rev_5_0.pdf",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Buenos Aires,",
+      "kind": "text",
+      "path": [
+        "Ejemplar 1",
+        "Fecha"
+      ],
+      "source_page": 1,
+      "source_anchor": "Buenos Aires,",
+      "synthetic_value": "15/10/2026"
+    },
+    {
+      "id": "f002",
+      "label": "El que suscribe",
+      "kind": "text",
+      "path": [
+        "Ejemplar 1",
+        "Solicitante"
+      ],
+      "source_page": 1,
+      "source_anchor": "El que suscribe",
+      "synthetic_value": "Gabriel Alvarez"
+    },
+    {
+      "id": "f003",
+      "label": "en su carácter de",
+      "kind": "checkbox_single",
+      "path": [
+        "Ejemplar 1",
+        "Carácter"
+      ],
+      "source_page": 1,
+      "source_anchor": "en su carácter de",
+      "synthetic_value": "RETIRADO",
+      "options": [
+        "RETIRADO",
+        "PENSIONISTA",
+        "PENSION GRACIABLE"
+      ],
+      "context_evidence": "Ejemplar 1 / Carácter: selección RETIRADO."
+    },
+    {
+      "id": "f004",
+      "label": "por el o los meses de:",
+      "kind": "text",
+      "path": [
+        "Ejemplar 1",
+        "Meses"
+      ],
+      "source_page": 1,
+      "source_anchor": "por el o los meses de:",
+      "synthetic_value": "Agosto y septiembre de 2026"
+    },
+    {
+      "id": "f005",
+      "label": "encontrarme",
+      "kind": "text",
+      "path": [
+        "Ejemplar 1",
+        "Motivo"
+      ],
+      "source_page": 1,
+      "source_anchor": "encontrarme",
+      "synthetic_value": "En viaje fuera de la localidad durante el período de pago"
+    },
+    {
+      "id": "f006",
+      "label": "Firma:",
+      "kind": "text",
+      "path": [
+        "Ejemplar 1",
+        "Firma"
+      ],
+      "source_page": 1,
+      "source_anchor": "Firma:",
+      "synthetic_value": "Gabriel Alvarez"
+    },
+    {
+      "id": "f007",
+      "label": "TEL/CEL",
+      "kind": "text",
+      "path": [
+        "Ejemplar 1",
+        "Teléfono"
+      ],
+      "source_page": 1,
+      "source_anchor": "TEL/CEL",
+      "synthetic_value": "011 5550 0241"
+    },
+    {
+      "id": "f008",
+      "label": "Domicilio :",
+      "kind": "text",
+      "path": [
+        "Ejemplar 1",
+        "Domicilio :"
+      ],
+      "source_page": 1,
+      "source_anchor": "Domicilio :",
+      "synthetic_value": "San Martín 1234, Buenos Aires"
+    },
+    {
+      "id": "f009",
+      "label": "N° de Documento :",
+      "kind": "text",
+      "path": [
+        "Ejemplar 1",
+        "N° de Documento :"
+      ],
+      "source_page": 1,
+      "source_anchor": "N° de Documento :",
+      "synthetic_value": "30123456"
+    },
+    {
+      "id": "f010",
+      "label": "Tipo de D.N.I :",
+      "kind": "checkbox_single",
+      "path": [
+        "Ejemplar 1",
+        "Tipo"
+      ],
+      "source_page": 1,
+      "source_anchor": "Tipo de D.N.I :",
+      "synthetic_value": "D.N.I 1",
+      "options": [
+        "D.N.I 1",
+        "C.I 2",
+        "L.E 3",
+        "L.C 4",
+        "DNI EXT 7",
+        "DNI (EX LC) 8",
+        "DNI (EX LE) 9"
+      ],
+      "context_evidence": "Ejemplar 1 / Tipo: selección D.N.I 1."
+    },
+    {
+      "id": "f011",
+      "label": "Buenos Aires,",
+      "kind": "text",
+      "path": [
+        "Ejemplar 2",
+        "Fecha"
+      ],
+      "source_page": 1,
+      "source_anchor": "Buenos Aires,",
+      "synthetic_value": "15/10/2026"
+    },
+    {
+      "id": "f012",
+      "label": "El que suscribe",
+      "kind": "text",
+      "path": [
+        "Ejemplar 2",
+        "Solicitante"
+      ],
+      "source_page": 1,
+      "source_anchor": "El que suscribe",
+      "synthetic_value": "Gabriel Alvarez"
+    },
+    {
+      "id": "f013",
+      "label": "en su carácter de",
+      "kind": "checkbox_single",
+      "path": [
+        "Ejemplar 2",
+        "Carácter"
+      ],
+      "source_page": 1,
+      "source_anchor": "en su carácter de",
+      "synthetic_value": "RETIRADO",
+      "options": [
+        "RETIRADO",
+        "PENSIONISTA",
+        "PENSION GRACIABLE"
+      ],
+      "context_evidence": "Ejemplar 2 / Carácter: selección RETIRADO."
+    },
+    {
+      "id": "f014",
+      "label": "por el o los meses de:",
+      "kind": "text",
+      "path": [
+        "Ejemplar 2",
+        "Meses"
+      ],
+      "source_page": 1,
+      "source_anchor": "por el o los meses de:",
+      "synthetic_value": "Agosto y septiembre de 2026"
+    },
+    {
+      "id": "f015",
+      "label": "encontrarme",
+      "kind": "text",
+      "path": [
+        "Ejemplar 2",
+        "Motivo"
+      ],
+      "source_page": 1,
+      "source_anchor": "encontrarme",
+      "synthetic_value": "En viaje fuera de la localidad durante el período de pago"
+    },
+    {
+      "id": "f016",
+      "label": "Firma:",
+      "kind": "text",
+      "path": [
+        "Ejemplar 2",
+        "Firma"
+      ],
+      "source_page": 1,
+      "source_anchor": "Firma:",
+      "synthetic_value": "Gabriel Alvarez"
+    },
+    {
+      "id": "f017",
+      "label": "TEL/CEL",
+      "kind": "text",
+      "path": [
+        "Ejemplar 2",
+        "Teléfono"
+      ],
+      "source_page": 1,
+      "source_anchor": "TEL/CEL",
+      "synthetic_value": "011 5550 0241"
+    },
+    {
+      "id": "f018",
+      "label": "Domicilio :",
+      "kind": "text",
+      "path": [
+        "Ejemplar 2",
+        "Domicilio :"
+      ],
+      "source_page": 1,
+      "source_anchor": "Domicilio :",
+      "synthetic_value": "San Martín 1234, Buenos Aires"
+    },
+    {
+      "id": "f019",
+      "label": "N° de Documento :",
+      "kind": "text",
+      "path": [
+        "Ejemplar 2",
+        "N° de Documento :"
+      ],
+      "source_page": 1,
+      "source_anchor": "N° de Documento :",
+      "synthetic_value": "30123456"
+    },
+    {
+      "id": "f020",
+      "label": "Tipo de D.N.I :",
+      "kind": "checkbox_single",
+      "path": [
+        "Ejemplar 2",
+        "Tipo"
+      ],
+      "source_page": 1,
+      "source_anchor": "Tipo de D.N.I :",
+      "synthetic_value": "D.N.I 1",
+      "options": [
+        "D.N.I 1",
+        "C.I 2",
+        "L.E 3",
+        "L.C 4",
+        "DNI EXT 7",
+        "DNI (EX LC) 8",
+        "DNI (EX LE) 9"
+      ],
+      "context_evidence": "Ejemplar 2 / Tipo: selección D.N.I 1."
+    }
+  ],
+  "context": "Caso ficticio. Los nombres, documentos, domicilios, importes y firmas siguientes son sintéticos.\nEjemplar 1 / Fecha: 15/10/2026.\nEjemplar 1 / Solicitante: Gabriel Alvarez.\nEjemplar 1 / Carácter: selección RETIRADO.\nEjemplar 1 / Meses: Agosto y septiembre de 2026.\nEjemplar 1 / Motivo: En viaje fuera de la localidad durante el período de pago.\nEjemplar 1 / Firma: Gabriel Alvarez.\nEjemplar 1 / Teléfono: 011 5550 0241.\nEjemplar 1 / Domicilio :: San Martín 1234, Buenos Aires.\nEjemplar 1 / N° de Documento :: 30123456.\nEjemplar 1 / Tipo: selección D.N.I 1.\nEjemplar 2 / Fecha: 15/10/2026.\nEjemplar 2 / Solicitante: Gabriel Alvarez.\nEjemplar 2 / Carácter: selección RETIRADO.\nEjemplar 2 / Meses: Agosto y septiembre de 2026.\nEjemplar 2 / Motivo: En viaje fuera de la localidad durante el período de pago.\nEjemplar 2 / Firma: Gabriel Alvarez.\nEjemplar 2 / Teléfono: 011 5550 0241.\nEjemplar 2 / Domicilio :: San Martín 1234, Buenos Aires.\nEjemplar 2 / N° de Documento :: 30123456.\nEjemplar 2 / Tipo: selección D.N.I 1.",
+  "issuer": "Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares",
+  "workflow_identity": {
+    "language": "es",
+    "id": 400
+  }
+}

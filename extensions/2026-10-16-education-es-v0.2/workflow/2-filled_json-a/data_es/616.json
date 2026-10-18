@@ -1,0 +1,920 @@
+{
+  "1 DATOS DEL ALUMNO O DE LA ALUMNA": {
+    "PRIMER APELLIDO": "Rivas",
+    "SEGUNDO APELLIDO": "Pérez",
+    "NOMBRE": "Lucía",
+    "SEXO": {
+      "choices": [
+        "HOMBRE",
+        "MUJER"
+      ],
+      "value": [
+        "MUJER"
+      ]
+    },
+    "MUNICIPIO DE NACIMIENTO": "Sevilla",
+    "PROVINCIA DE NACIMIENTO": "Sevilla",
+    "PAÍS DE NACIMIENTO": "España",
+    "FECHA DE NACIMIENTO (dd/mm/aaaa)": "12/04/2024",
+    "TIPO DE VIA": "Calle",
+    "NOMBRE DE LA VÍA": "Ejemplo",
+    "NÚMERO": "25",
+    "LETRA": "A",
+    "KM EN LA VÍA": "0",
+    "BLOQUE": "1",
+    "PORTAL": "1",
+    "ESCALERA": "A",
+    "PLANTA": "2",
+    "PUERTA": "B",
+    "ENTIDAD DE POBLACIÓN": "Sevilla",
+    "MUNICIPIO": "Sevilla",
+    "PROVINCIA": "Sevilla",
+    "PAÍS": "España",
+    "CÓD. POSTAL": "41001",
+    "¿SE ENCUENTRA MATRICULADO/A EN EL CURSO ACTUAL?": {
+      "choices": [
+        "SÍ",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "EN CASO AFIRMATIVO, INDIQUE CENTRO EDUCATIVO DONDE SE ENCUENTRA MATRICULADO": "No corresponde"
+  },
+  "2 PERSONAS QUE OSTENTAN LA TUTELA O GUARDA": {
+    "1": {
+      "PRIMER APELLIDO": "Rivas",
+      "SEGUNDO APELLIDO": "Pérez",
+      "NOMBRE": "Elena",
+      "SEXO": {
+        "choices": [
+          "H",
+          "M"
+        ],
+        "value": [
+          "M"
+        ]
+      },
+      "DNI/NIE/PASAPORTE": "12345678Z",
+      "TELÉFONO DE CONTACTO": "600000123",
+      "CORREO ELECTRÓNICO DE CONTACTO": "representante@example.org",
+      "RELACIÓN FAMILIAR: (padre, madre o tutor/a legal)": "Madre"
+    },
+    "2": {
+      "PRIMER APELLIDO": "Rivas",
+      "SEGUNDO APELLIDO": "Pérez",
+      "NOMBRE": "Carlos",
+      "SEXO": {
+        "choices": [
+          "H",
+          "M"
+        ],
+        "value": [
+          "H"
+        ]
+      },
+      "DNI/NIE/PASAPORTE": "23456789D",
+      "TELÉFONO DE CONTACTO": "600000123",
+      "CORREO ELECTRÓNICO DE CONTACTO": "representante@example.org",
+      "RELACIÓN FAMILIAR: (padre, madre o tutor/a legal)": "Padre"
+    }
+  },
+  "3 CENTRO PRIORITARIO": {
+    "DENOMINACIÓN DEL CENTRO EDUCATIVO QUE SOLICITA PRIORITARIAMENTE": "Escuela Infantil Sintética",
+    "CÓDIGO DE CENTRO": "41009999",
+    "MUNICIPIO": "Sevilla",
+    "LOCALIDAD": "Sevilla",
+    "PROVINCIA": "Sevilla"
+  },
+  "4 OTROS CENTROS SOLICITADOS SUBSIDIARIAMENTE": {
+    "1": {
+      "CÓDIGO": "41009991",
+      "DENOMINACIÓN DEL CENTRO EDUCATIVO": "Escuela Infantil Alternativa 1",
+      "MUNICIPIO": "Sevilla"
+    },
+    "2": {
+      "CÓDIGO": "41009992",
+      "DENOMINACIÓN DEL CENTRO EDUCATIVO": "Escuela Infantil Alternativa 2",
+      "MUNICIPIO": "Sevilla"
+    },
+    "3": {
+      "CÓDIGO": "41009993",
+      "DENOMINACIÓN DEL CENTRO EDUCATIVO": "Escuela Infantil Alternativa 3",
+      "MUNICIPIO": "Sevilla"
+    }
+  },
+  "Identificación página 2": {
+    "PRIMER APELLIDO ALUMNO/A": "Rivas",
+    "SEGUNDO APELLIDO ALUMNO/A": "Pérez",
+    "NOMBRE ALUMNO/A": "Lucía"
+  },
+  "5 SERVICIOS SOLICITADOS": {
+    "PRIMER CICLO DE EDUCACION INFANTIL": {
+      "choices": [
+        "PRIMER CURSO (0 AÑOS)",
+        "SEGUNDO CURSO (1 AÑO)",
+        "TERCER CURSO (2 AÑOS)"
+      ],
+      "value": [
+        "TERCER CURSO (2 AÑOS)"
+      ]
+    },
+    "COMEDOR ESCOLAR": {
+      "choices": [
+        "SÍ",
+        "NO"
+      ],
+      "value": [
+        "SÍ"
+      ]
+    },
+    "AULA MATINAL": {
+      "choices": [
+        "SÍ",
+        "NO"
+      ],
+      "value": [
+        "SÍ"
+      ]
+    },
+    "AULA DE TARDE": {
+      "choices": [
+        "SÍ",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    }
+  },
+  "6 DECLARACIONES": {
+    "1 REQUISITOS": {
+      "El niño o la niña tendrá más de dieciséis semanas a 1 de septiembre del año de esta solicitud.": {
+        "choices": [
+          "El niño o la niña tendrá más de dieciséis semanas a 1 de septiembre del año de esta solicitud."
+        ],
+        "value": [
+          "El niño o la niña tendrá más de dieciséis semanas a 1 de septiembre del año de esta solicitud."
+        ]
+      },
+      "Vecindad guardadora 1": {
+        "choices": [
+          "SÍ",
+          "NO"
+        ],
+        "value": [
+          "SÍ"
+        ]
+      },
+      "Vecindad guardadora 2": {
+        "choices": [
+          "SÍ",
+          "NO"
+        ],
+        "value": [
+          "SÍ"
+        ]
+      },
+      "Confirmación declaración": {
+        "choices": [
+          "La persona que ejerce su tutela o guarda tiene su vecindad administrativa en Andalucía."
+        ],
+        "value": [
+          "La persona que ejerce su tutela o guarda tiene su vecindad administrativa en Andalucía."
+        ]
+      }
+    },
+    "2 PRIORIDAD": {
+      "Existencia de circunstancias sociofamiliares de grave riesgo para el niño o la niña.": {
+        "choices": [
+          "Existencia de circunstancias sociofamiliares de grave riesgo para el niño o la niña."
+        ],
+        "value": []
+      },
+      "Hijos o hijas de mujeres víctimas de la violencia de género.": {
+        "choices": [
+          "Hijos o hijas de mujeres víctimas de la violencia de género."
+        ],
+        "value": []
+      },
+      "Alumnado o familiar, hasta segundo grado de consanguinidad, víctimas de terrorismo.": {
+        "choices": [
+          "Alumnado o familiar, hasta segundo grado de consanguinidad, víctimas de terrorismo."
+        ],
+        "value": []
+      }
+    },
+    "3.1 ACTIVIDAD LABORAL": {
+      "Las personas que ostentan la tutela o guarda del niño o niña realizan actividad laboral o profesional remunerada": {
+        "choices": [
+          "Las personas que ostentan la tutela o guarda del niño o niña realizan actividad laboral o profesional remunerada:"
+        ],
+        "value": [
+          "Las personas que ostentan la tutela o guarda del niño o niña realizan actividad laboral o profesional remunerada:"
+        ]
+      },
+      "Persona guardadora 1": {
+        "choices": [
+          "SÍ",
+          "NO"
+        ],
+        "value": [
+          "SÍ"
+        ]
+      },
+      "Persona guardadora 2": {
+        "choices": [
+          "SÍ",
+          "NO"
+        ],
+        "value": [
+          "SÍ"
+        ]
+      }
+    },
+    "3.2 TRABAJO EN CENTRO": {
+      "Padre, madre, tutor o guardador legal del niño o niña trabaja en el centro solicitado como prioritario": {
+        "choices": [
+          "Padre, madre, tutor o guardador legal del niño o niña trabaja en el centro solicitado como prioritario:"
+        ],
+        "value": []
+      },
+      "Sí o no": {
+        "choices": [
+          "SÍ",
+          "NO"
+        ],
+        "value": [
+          "NO"
+        ]
+      }
+    },
+    "3.3 DOMICILIO VALORACIÓN": {
+      "Domicilio elegido": {
+        "choices": [
+          "domicilio familiar",
+          "lugar de trabajo"
+        ],
+        "value": [
+          "domicilio familiar"
+        ]
+      },
+      "TIPO DE VÍA": "Calle",
+      "NOMBRE DE LA VÍA": "Ejemplo",
+      "NÚMERO": "25",
+      "LETRA": "A",
+      "KM EN LA VÍA": "0",
+      "BLOQUE": "1",
+      "PORTAL": "1",
+      "ESCALERA": "A",
+      "PLANTA": "2",
+      "PUERTA": "B",
+      "ENTIDAD DE POBLACIÓN": "Sevilla",
+      "MUNICIPIO": "Sevilla",
+      "PROVINCIA": "Sevilla",
+      "PAÍS": "España",
+      "CÓD. POSTAL": "41001",
+      "Confirmación declaración": {
+        "choices": [
+          "A efectos de valoración, opto por el domicilio familiar"
+        ],
+        "value": [
+          "A efectos de valoración, opto por el domicilio familiar"
+        ]
+      }
+    },
+    "3.4 HERMANOS": {
+      "1": {
+        "APELLIDOS Y NOMBRE DEL HERMANO/A": "Hermano sintético 1",
+        "SEXO": {
+          "choices": [
+            "H",
+            "M"
+          ],
+          "value": [
+            "H"
+          ]
+        },
+        "CURSO": "1º",
+        "CENTRO": "Escuela Infantil Sintética"
+      },
+      "2": {
+        "APELLIDOS Y NOMBRE DEL HERMANO/A": "Hermano sintético 2",
+        "SEXO": {
+          "choices": [
+            "H",
+            "M"
+          ],
+          "value": [
+            "H"
+          ]
+        },
+        "CURSO": "1º",
+        "CENTRO": "Escuela Infantil Sintética"
+      },
+      "3": {
+        "APELLIDOS Y NOMBRE DEL HERMANO/A": "Hermano sintético 3",
+        "SEXO": {
+          "choices": [
+            "H",
+            "M"
+          ],
+          "value": [
+            "H"
+          ]
+        },
+        "CURSO": "1º",
+        "CENTRO": "Escuela Infantil Sintética"
+      },
+      "4": {
+        "APELLIDOS Y NOMBRE DEL HERMANO/A": "Hermano sintético 4",
+        "SEXO": {
+          "choices": [
+            "H",
+            "M"
+          ],
+          "value": [
+            "H"
+          ]
+        },
+        "CURSO": "1º",
+        "CENTRO": "Escuela Infantil Sintética"
+      },
+      "5": {
+        "APELLIDOS Y NOMBRE DEL HERMANO/A": "Hermano sintético 5",
+        "SEXO": {
+          "choices": [
+            "H",
+            "M"
+          ],
+          "value": [
+            "H"
+          ]
+        },
+        "CURSO": "1º",
+        "CENTRO": "Escuela Infantil Sintética"
+      }
+    },
+    "3.5 PARTO MÚLTIPLE": {
+      "El alumno o la alumna ha nacido en un parto múltiple": {
+        "choices": [
+          "SÍ",
+          "NO"
+        ],
+        "value": [
+          "NO"
+        ]
+      }
+    },
+    "3.6 FAMILIA": {
+      "El alumno o la alumna pertenece a una familia": {
+        "choices": [
+          "Numerosa",
+          "Monoparental"
+        ],
+        "value": []
+      }
+    },
+    "3.7 DISCAPACIDAD Y DESARROLLO": {
+      "El alumno o la alumna": {
+        "choices": [
+          "El alumno o la alumna"
+        ],
+        "value": []
+      },
+      "alguna de las personas tutoras o guardadoras": {
+        "choices": [
+          "alguna de las personas tutoras o guardadoras"
+        ],
+        "value": []
+      },
+      "El alumno o la alumna o alguna de las personas tutoras o guardadoras tiene reconocido un grado de discapacidad que alcanza o supera el 33 %.": {
+        "choices": [
+          "SÍ",
+          "NO"
+        ],
+        "value": [
+          "NO"
+        ]
+      },
+      "Algún hermano o hermana o menor en acogimiento en la misma unidad familiar tienen reconocido un grado de discapacidad que alcanza o supera el 33%.": {
+        "choices": [
+          "SÍ",
+          "NO"
+        ],
+        "value": [
+          "NO"
+        ]
+      },
+      "El niño o la niña esté recibiendo tratamiento financiado con fondos públicos por presentar un trastorno del desarrollo en un Centro de Atención Infantil Temprana de la Comunidad Autónoma de Andalucía.": {
+        "choices": [
+          "SÍ",
+          "NO"
+        ],
+        "value": [
+          "NO"
+        ]
+      }
+    }
+  },
+  "Identificación página 3": {
+    "PRIMER APELLIDO ALUMNO/A": "Rivas",
+    "SEGUNDO APELLIDO ALUMNO/A": "Pérez",
+    "NOMBRE ALUMNO/A": "Lucía"
+  },
+  "6 DECLARACIONES Continuación": {
+    "3.8. La renta anual percibida de la unidad familiar del niño o la niña": {
+      "choices": [
+        "SÍ",
+        "NO"
+      ],
+      "value": [
+        "SÍ"
+      ]
+    },
+    "Miembros unidad familiar": "3"
+  },
+  "7 DERECHO DE OPOSICIÓN": {
+    "ME OPONGO a la consulta de los datos de edad del niño o la niña a través de la verificación de los datos del libro de familia.": {
+      "choices": [
+        "ME OPONGO a la consulta de los datos de edad del niño o la niña a través de la verificación de los datos del libro de familia."
+      ],
+      "value": []
+    },
+    "ME OPONGO a la consulta de los datos de vecindad administrativa en Andalucía a través del Instituto Nacional de Estadística.": {
+      "choices": [
+        "ME OPONGO a la consulta de los datos de vecindad administrativa en Andalucía a través del Instituto Nacional de Estadística."
+      ],
+      "value": []
+    },
+    "ME OPONGO a la consulta de los datos de circunstancias sociofamiliares de grave riesgo a través del Servicio Integrado de Servicios Sociales.": {
+      "choices": [
+        "ME OPONGO a la consulta de los datos de circunstancias sociofamiliares de grave riesgo a través del Servicio Integrado de Servicios Sociales."
+      ],
+      "value": []
+    },
+    "ME OPONGO a la consulta de los datos de víctima de violencia de género a través del Instituto Andaluz de la Mujer.": {
+      "choices": [
+        "ME OPONGO a la consulta de los datos de víctima de violencia de género a través del Instituto Andaluz de la Mujer."
+      ],
+      "value": []
+    },
+    "ME OPONGO a la consulta de los datos de víctima de terrorismo a través de la Consejería competente en la materia.": {
+      "choices": [
+        "ME OPONGO a la consulta de los datos de víctima de terrorismo a través de la Consejería competente en la materia."
+      ],
+      "value": []
+    },
+    "ME OPONGO a la consulta de los datos de actividad laboral a través del Instituto Nacional de la Seguridad Social o mutualidad correspondiente.": {
+      "choices": [
+        "ME OPONGO a la consulta de los datos de actividad laboral a través del Instituto Nacional de la Seguridad Social o mutualidad correspondiente."
+      ],
+      "value": []
+    },
+    "ME OPONGO a la consulta de los datos de domicilio familiar a través del Instituto Nacional de Estadística.": {
+      "choices": [
+        "ME OPONGO a la consulta de los datos de domicilio familiar a través del Instituto Nacional de Estadística."
+      ],
+      "value": []
+    },
+    "ME OPONGO a la consulta de los datos de lugar de trabajo a través de la Tesorería General de la Seguridad Social o mutualidad correspondiente, o Agencia Estatal de Administración Tributaria.": {
+      "choices": [
+        "ME OPONGO a la consulta de los datos de lugar de trabajo a través de la Tesorería General de la Seguridad Social o mutualidad correspondiente, o Agencia Estatal de Administración Tributaria."
+      ],
+      "value": []
+    },
+    "ME OPONGO a la consulta de los datos de hermanos/as matriculados a través de la Consejería competente en la materia.": {
+      "choices": [
+        "ME OPONGO a la consulta de los datos de hermanos/as matriculados a través de la Consejería competente en la materia."
+      ],
+      "value": []
+    },
+    "ME OPONGO a la consulta de los datos de familia numerosa a través de la Consejería competente en la materia.": {
+      "choices": [
+        "ME OPONGO a la consulta de los datos de familia numerosa a través de la Consejería competente en la materia."
+      ],
+      "value": []
+    },
+    "ME OPONGO a la consulta de los datos de familia monoparental a través de la Consejería competente en la materia.": {
+      "choices": [
+        "ME OPONGO a la consulta de los datos de familia monoparental a través de la Consejería competente en la materia."
+      ],
+      "value": []
+    },
+    "ME OPONGO a la consulta de los datos de trastorno en el desarrollo a través de la Consejería competente en materia de Salud.": {
+      "choices": [
+        "ME OPONGO a la consulta de los datos de trastorno en el desarrollo a través de la Consejería competente en materia de Salud."
+      ],
+      "value": []
+    },
+    "ME OPONGO a la consulta de los miembros de la unidad familiar a través del Instituto Nacional de Estadística.": {
+      "choices": [
+        "ME OPONGO a la consulta de los miembros de la unidad familiar a través del Instituto Nacional de Estadística."
+      ],
+      "value": []
+    },
+    "ME OPONGO a la consulta de los datos de discapacidad del alumno/a a través del Sistema de Verificación de Datos de Discapacidad.": {
+      "choices": [
+        "ME OPONGO a la consulta de los datos de discapacidad del alumno/a a través del Sistema de Verificación de Datos de Discapacidad."
+      ],
+      "value": []
+    }
+  },
+  "7 CONSULTA DISCAPACIDAD": {
+    "Fila 1": {
+      "PRIMER APELLIDO": "Rivas",
+      "SEGUNDO APELLIDO": "Pérez",
+      "NOMBRE": "Persona sintética 1",
+      "NIF/NIE": "90000001A",
+      "SEXO": {
+        "choices": [
+          "H",
+          "M"
+        ],
+        "value": [
+          "M"
+        ]
+      },
+      "FECHA DE NACIMIENTO": "12/04/1992",
+      "PARENTESCO": "Familiar",
+      "NO": {
+        "choices": [
+          "NO"
+        ],
+        "value": []
+      },
+      "FIRMA": "Firma ficticia persona 1"
+    },
+    "Fila 2": {
+      "PRIMER APELLIDO": "Rivas",
+      "SEGUNDO APELLIDO": "Pérez",
+      "NOMBRE": "Persona sintética 2",
+      "NIF/NIE": "90000002A",
+      "SEXO": {
+        "choices": [
+          "H",
+          "M"
+        ],
+        "value": [
+          "M"
+        ]
+      },
+      "FECHA DE NACIMIENTO": "12/04/1992",
+      "PARENTESCO": "Familiar",
+      "NO": {
+        "choices": [
+          "NO"
+        ],
+        "value": []
+      },
+      "FIRMA": "Firma ficticia persona 2"
+    },
+    "Fila 3": {
+      "PRIMER APELLIDO": "Rivas",
+      "SEGUNDO APELLIDO": "Pérez",
+      "NOMBRE": "Persona sintética 3",
+      "NIF/NIE": "90000003A",
+      "SEXO": {
+        "choices": [
+          "H",
+          "M"
+        ],
+        "value": [
+          "M"
+        ]
+      },
+      "FECHA DE NACIMIENTO": "12/04/1992",
+      "PARENTESCO": "Familiar",
+      "NO": {
+        "choices": [
+          "NO"
+        ],
+        "value": []
+      },
+      "FIRMA": "Firma ficticia persona 3"
+    },
+    "Fila 4": {
+      "PRIMER APELLIDO": "Rivas",
+      "SEGUNDO APELLIDO": "Pérez",
+      "NOMBRE": "Persona sintética 4",
+      "NIF/NIE": "90000004A",
+      "SEXO": {
+        "choices": [
+          "H",
+          "M"
+        ],
+        "value": [
+          "M"
+        ]
+      },
+      "FECHA DE NACIMIENTO": "12/04/1992",
+      "PARENTESCO": "Familiar",
+      "NO": {
+        "choices": [
+          "NO"
+        ],
+        "value": []
+      },
+      "FIRMA": "Firma ficticia persona 4"
+    },
+    "Fila 5": {
+      "PRIMER APELLIDO": "Rivas",
+      "SEGUNDO APELLIDO": "Pérez",
+      "NOMBRE": "Persona sintética 5",
+      "NIF/NIE": "90000005A",
+      "SEXO": {
+        "choices": [
+          "H",
+          "M"
+        ],
+        "value": [
+          "M"
+        ]
+      },
+      "FECHA DE NACIMIENTO": "12/04/1992",
+      "PARENTESCO": "Familiar",
+      "NO": {
+        "choices": [
+          "NO"
+        ],
+        "value": []
+      },
+      "FIRMA": "Firma ficticia persona 5"
+    }
+  },
+  "8 CONSENTIMIENTO EXPRESO": {
+    "Fila 1": {
+      "PRIMER APELLIDO": "Rivas",
+      "SEGUNDO APELLIDO": "Pérez",
+      "NOMBRE": "Persona sintética 1",
+      "NIF/NIE": "90000001A",
+      "SEXO": {
+        "choices": [
+          "H",
+          "M"
+        ],
+        "value": [
+          "M"
+        ]
+      },
+      "FECHA DE NACIMIENTO": "12/04/1992",
+      "PARENTESCO": "Familiar",
+      "Consentimiento": {
+        "choices": [
+          "SÍ(1)",
+          "NO(2)"
+        ],
+        "value": [
+          "SÍ(1)"
+        ]
+      },
+      "FIRMA": "Firma ficticia persona 1"
+    },
+    "Fila 2": {
+      "PRIMER APELLIDO": "Rivas",
+      "SEGUNDO APELLIDO": "Pérez",
+      "NOMBRE": "Persona sintética 2",
+      "NIF/NIE": "90000002A",
+      "SEXO": {
+        "choices": [
+          "H",
+          "M"
+        ],
+        "value": [
+          "M"
+        ]
+      },
+      "FECHA DE NACIMIENTO": "12/04/1992",
+      "PARENTESCO": "Familiar",
+      "Consentimiento": {
+        "choices": [
+          "SÍ(1)",
+          "NO(2)"
+        ],
+        "value": [
+          "SÍ(1)"
+        ]
+      },
+      "FIRMA": "Firma ficticia persona 2"
+    },
+    "Fila 3": {
+      "PRIMER APELLIDO": "Rivas",
+      "SEGUNDO APELLIDO": "Pérez",
+      "NOMBRE": "Persona sintética 3",
+      "NIF/NIE": "90000003A",
+      "SEXO": {
+        "choices": [
+          "H",
+          "M"
+        ],
+        "value": [
+          "M"
+        ]
+      },
+      "FECHA DE NACIMIENTO": "12/04/1992",
+      "PARENTESCO": "Familiar",
+      "Consentimiento": {
+        "choices": [
+          "SÍ(1)",
+          "NO(2)"
+        ],
+        "value": [
+          "SÍ(1)"
+        ]
+      },
+      "FIRMA": "Firma ficticia persona 3"
+    },
+    "Fila 4": {
+      "PRIMER APELLIDO": "Rivas",
+      "SEGUNDO APELLIDO": "Pérez",
+      "NOMBRE": "Persona sintética 4",
+      "NIF/NIE": "90000004A",
+      "SEXO": {
+        "choices": [
+          "H",
+          "M"
+        ],
+        "value": [
+          "M"
+        ]
+      },
+      "FECHA DE NACIMIENTO": "12/04/1992",
+      "PARENTESCO": "Familiar",
+      "Consentimiento": {
+        "choices": [
+          "SÍ(1)",
+          "NO(2)"
+        ],
+        "value": [
+          "SÍ(1)"
+        ]
+      },
+      "FIRMA": "Firma ficticia persona 4"
+    },
+    "Fila 5": {
+      "PRIMER APELLIDO": "Rivas",
+      "SEGUNDO APELLIDO": "Pérez",
+      "NOMBRE": "Persona sintética 5",
+      "NIF/NIE": "90000005A",
+      "SEXO": {
+        "choices": [
+          "H",
+          "M"
+        ],
+        "value": [
+          "M"
+        ]
+      },
+      "FECHA DE NACIMIENTO": "12/04/1992",
+      "PARENTESCO": "Familiar",
+      "Consentimiento": {
+        "choices": [
+          "SÍ(1)",
+          "NO(2)"
+        ],
+        "value": [
+          "SÍ(1)"
+        ]
+      },
+      "FIRMA": "Firma ficticia persona 5"
+    }
+  },
+  "Identificación página 4": {
+    "PRIMER APELLIDO ALUMNO/A": "Rivas",
+    "SEGUNDO APELLIDO ALUMNO/A": "Pérez",
+    "NOMBRE ALUMNO/A": "Lucía"
+  },
+  "9 DOCUMENTACIÓN": {
+    "Documentación acreditativa de la edad del niño o niña.": {
+      "choices": [
+        "Documentación acreditativa de la edad del niño o niña."
+      ],
+      "value": []
+    },
+    "Documentación acreditativa de la vencidad administrativa.": {
+      "choices": [
+        "Documentación acreditativa de la vencidad administrativa."
+      ],
+      "value": []
+    },
+    "Documentación acreditativa de las circunstancias sociofamiliares de grave riesgo.": {
+      "choices": [
+        "Documentación acreditativa de las circunstancias sociofamiliares de grave riesgo."
+      ],
+      "value": []
+    },
+    "Documentación acreditativa de víctima de violencia de género.": {
+      "choices": [
+        "Documentación acreditativa de víctima de violencia de género."
+      ],
+      "value": []
+    },
+    "Documentación acreditativa de víctima de terrorismo.": {
+      "choices": [
+        "Documentación acreditativa de víctima de terrorismo."
+      ],
+      "value": []
+    },
+    "Documentación acreditativa de la actividad laboral.": {
+      "choices": [
+        "Documentación acreditativa de la actividad laboral."
+      ],
+      "value": []
+    },
+    "Documentación acreditativa de puesto de trabajo en el centro educativo solicitado como prioritario.": {
+      "choices": [
+        "Documentación acreditativa de puesto de trabajo en el centro educativo solicitado como prioritario."
+      ],
+      "value": []
+    },
+    "Documentación acreditativa del domicilio familiar o del lugar de trabajo.": {
+      "choices": [
+        "Documentación acreditativa del domicilio familiar o del lugar de trabajo."
+      ],
+      "value": []
+    },
+    "Documentación acreditativa de los hermanos/as matriculados en el mismo centro.": {
+      "choices": [
+        "Documentación acreditativa de los hermanos/as matriculados en el mismo centro."
+      ],
+      "value": []
+    },
+    "Documentación acreditativa de haber nacido en un parto múltiple.": {
+      "choices": [
+        "Documentación acreditativa de haber nacido en un parto múltiple."
+      ],
+      "value": []
+    },
+    "Documentación acreditativa de la condición de familia numerosa.": {
+      "choices": [
+        "Documentación acreditativa de la condición de familia numerosa."
+      ],
+      "value": []
+    },
+    "Documentación acreditativa de la condición de familia monoparental.": {
+      "choices": [
+        "Documentación acreditativa de la condición de familia monoparental."
+      ],
+      "value": []
+    },
+    "Documentación acreditativa del dictamen de discapacidad.": {
+      "choices": [
+        "Documentación acreditativa del dictamen de discapacidad."
+      ],
+      "value": []
+    },
+    "Documentación acreditativa del trastorno en el desarrollo.": {
+      "choices": [
+        "Documentación acreditativa del trastorno en el desarrollo."
+      ],
+      "value": []
+    },
+    "Documentación acreditativa de miembros de la unidad familiar.": {
+      "choices": [
+        "Documentación acreditativa de miembros de la unidad familiar."
+      ],
+      "value": []
+    },
+    "Otra documentación": {
+      "choices": [
+        "Otra documentación:"
+      ],
+      "value": []
+    },
+    "Descripción": "No corresponde"
+  },
+  "10 DECLARACIÓN Y SOLICITUD": {
+    "Año inicio": "2026",
+    "Año fin": "2027"
+  },
+  "10 LUGAR FECHA Y FIRMA": {
+    "Lugar": "Sevilla",
+    "Día": "16",
+    "Mes": "octubre",
+    "Año": "2026",
+    "Firma": "Firma ficticia de Elena Rivas Pérez",
+    "SR/A. DIRECTOR/A O TITULAR DEL CENTRO EDUCATIVO": "Escuela Infantil Sintética",
+    "Código Directorio Común de Unidades Orgánicas y Oficinas": "A01009999"
+  },
+  "Identificación página 5": {
+    "PRIMER APELLIDO ALUMNO/A": "Rivas",
+    "SEGUNDO APELLIDO ALUMNO/A": "Pérez",
+    "NOMBRE ALUMNO/A": "Lucía"
+  },
+  "Identificación página 6": {
+    "PRIMER APELLIDO ALUMNO/A": "Rivas",
+    "SEGUNDO APELLIDO ALUMNO/A": "Pérez",
+    "NOMBRE ALUMNO/A": "Lucía"
+  },
+  "Identificación página 7": {
+    "PRIMER APELLIDO ALUMNO/A": "Rivas",
+    "SEGUNDO APELLIDO ALUMNO/A": "Pérez",
+    "NOMBRE ALUMNO/A": "Lucía"
+  },
+  "Identificación página 8": {
+    "PRIMER APELLIDO ALUMNO/A": "Rivas",
+    "SEGUNDO APELLIDO ALUMNO/A": "Pérez",
+    "NOMBRE ALUMNO/A": "Lucía"
+  }
+}

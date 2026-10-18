@@ -1,0 +1,213 @@
+{
+  "SENDER’S INFORMATION": {
+    "Name and address": "Synthetic Northbridge Laboratory, 18 Example Road, London",
+    "Report to be sent FAO": "Dr Avery Example",
+    "Direct Phone number": "020 7946 0123",
+    "Ext": "215",
+    "E-mail": "laboratory@example.org",
+    "Postcode": "SW1A 0AA",
+    "Purchase order number": "SYNPO501",
+    "Referred by": "Dr Avery Example",
+    "Phone": "020 7946 0123",
+    "Date": "13/10/2026"
+  },
+  "PATIENT/SOURCE INFORMATION": {
+    "NHS number": "SYN-NHS-501",
+    "Sex": {
+      "choices": [
+        "male",
+        "female"
+      ],
+      "value": [
+        "male"
+      ]
+    },
+    "Surname": "Example",
+    "Date of birth": "10/06/1980",
+    "Age": "46",
+    "Forename": "Taylor",
+    "Patient’s postcode": "SW1A 0AA",
+    "Patient’s HPT": "Synthetic London HPT",
+    "Hospital number": "SYNH501",
+    "Clinical / Patient’s consultant": "Dr Riley Example",
+    "Care setting": {
+      "choices": [
+        "Inpatient",
+        "Outpatient"
+      ],
+      "value": [
+        "Inpatient"
+      ]
+    },
+    "Hospital name": "Synthetic Northbridge Hospital, London hub"
+  },
+  "SAMPLE INFORMATION": {
+    "Your reference:": "SYNN501",
+    "Date of collection": "12/10/2026",
+    "Time": "10:15",
+    "Disease site": {
+      "choices": [
+        "Extra-Pulmonary",
+        "Pulmonary"
+      ],
+      "value": [
+        "Pulmonary"
+      ]
+    },
+    "Date sent to UKHSA": "13/10/2026",
+    "Specimen isolation site": "Sputum",
+    "Culture Type": {
+      "choices": [
+        "MGIT",
+        "Löwenstein–Jensen (LJ)",
+        "Other"
+      ],
+      "value": [
+        "MGIT",
+        "Other"
+      ],
+      "Other": "Supplementary solid culture medium"
+    },
+    "Hazard status": {
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "value": [
+        "No"
+      ]
+    }
+  },
+  "TESTS REQUESTED": {
+    "Tests": {
+      "choices": [
+        "Identification & Sensitivities",
+        "NTM Sensitivities*",
+        "Other*"
+      ],
+      "value": [
+        "Identification & Sensitivities",
+        "NTM Sensitivities*",
+        "Other*"
+      ]
+    },
+    "NTM Sensitivities": {
+      "Reason": "Prior NTM treatment; discuss extended susceptibility testing"
+    },
+    "Other": {
+      "Reason": "Additional identification requested after telephone discussion"
+    }
+  },
+  "SENDER’S LABORATORY RESULTS": {
+    "Microscopy & Smear results": {
+      "choices": [
+        "Negative",
+        "Not Done",
+        "Positive Ziehl-Neelsen",
+        "Positive Auramine-phenol"
+      ],
+      "value": [
+        "Positive Ziehl-Neelsen",
+        "Positive Auramine-phenol"
+      ]
+    },
+    "Beading/cording seen?": {
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "value": [
+        "Yes"
+      ]
+    },
+    "Other results": {
+      "choices": [
+        "TB PCR Positive",
+        "TB CARD / MPT64 Positive",
+        "Other"
+      ],
+      "value": [
+        "TB PCR Positive",
+        "TB CARD / MPT64 Positive",
+        "Other"
+      ],
+      "Other": "Culture positive after 14 days"
+    },
+    "Rifampicin Resistance detected": {
+      "choices": [
+        "No",
+        "Yes"
+      ],
+      "value": [
+        "No"
+      ],
+      "Method": "Molecular assay"
+    }
+  },
+  "CLINICAL/EPIDEMIOLOGICAL INFORMATION": {
+    "Immunosuppressed?": {
+      "choices": [
+        "Yes",
+        "No",
+        "Don’t know"
+      ],
+      "value": [
+        "No"
+      ]
+    },
+    "Other clinical details": "Persistent cough; prior treated NTM infection",
+    "HIV Positive?": {
+      "choices": [
+        "Yes",
+        "No",
+        "Don’t know"
+      ],
+      "value": [
+        "No"
+      ]
+    },
+    "On treatment?": {
+      "choices": [
+        "Yes",
+        "No",
+        "Don’t know"
+      ],
+      "value": [
+        "Yes"
+      ]
+    },
+    "Cystic Fibrosis?": {
+      "choices": [
+        "Yes",
+        "No",
+        "Don’t know"
+      ],
+      "value": [
+        "No"
+      ]
+    },
+    "Prior TB?": {
+      "choices": [
+        "Yes",
+        "No",
+        "Don’t know"
+      ],
+      "value": [
+        "No"
+      ]
+    },
+    "Prior NTM?": {
+      "choices": [
+        "Yes",
+        "No",
+        "Don’t know"
+      ],
+      "value": [
+        "Yes"
+      ]
+    }
+  },
+  "OTHER COMMENTS": {
+    "Relevant information": "No known household contacts; synthetic referral only"
+  }
+}

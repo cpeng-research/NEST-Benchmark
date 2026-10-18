@@ -1,0 +1,1272 @@
+{
+  "id": "es-anmat-medication-error-notification",
+  "title": "FICHA DE NOTIFICACION DE ERRORES DE MEDICACIÓN",
+  "language": "es",
+  "domain": "Healthcare",
+  "issuer": "Administración Nacional de Medicamentos, Alimentos y Tecnología Médica (ANMAT)",
+  "issuer_id": "ar-anmat",
+  "template_family": "medication-error",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/errores_de_medicacion.pdf",
+  "landing_url": "https://www.argentina.gob.ar/anmat/regulados/medicamentos/sistema-nacional-de-farmacovigilancia",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "Argentina.gob.ar licencia sus contenidos bajo Creative Commons Atribución 4.0 Internacional, salvo indicación contraria. Formulario institucional ANMAT sin aviso de derechos de terceros en sus páginas. Se atribuye la fuente; se normaliza el diseño y se utilizan datos ficticios. No se reproducen logotipos.",
+  "source_sha256": "57d5a6d5bbc0ed8f60ae49332ac4a5e6725fd4ab05a0df4ee238cc9e2146cf52",
+  "source_pages": 1,
+  "retrieved_at": "2026-10-14T18:59:13.311780+00:00",
+  "source_version": "Formulario 5. Versión 1; edición sin fecha impresa.",
+  "source_date_evidence": {
+    "kind": "printed_version",
+    "value": "Página 1: Formulario 5. Versión 1; edición sin fecha impresa.",
+    "page": 1
+  },
+  "columns": 12,
+  "rows": [
+    [
+      {
+        "text": "FICHA DE NOTIFICACION DE ERRORES DE MEDICACIÓN",
+        "colspan": 12,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "DATOS DEL PACIENTE:",
+        "colspan": 12,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Provincia, localidad:",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f001",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "NOMBre y apellido",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f002",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Edad",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f003",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Sexo",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f004",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "peso",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f005",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Diagnóstico",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f006",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "DESCRIPCIÓN DEL ERROR (Describa la secuencia de los hechos lo más detallada posible)",
+        "colspan": 12,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "DESCRIPCIÓN DEL ERROR (Describa la secuencia de los hechos lo más detallada posible)",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f007",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "FECHA DEL ERROR:",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f008",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Si el medicamento sí fue administrado al paciente, describa el desenlace (ej: muerte, tipo de lesión, efecto adverso)",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f009",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Si el medicamento no fue administrado al paciente, describa la intervención que lo evitó",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f010",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "TIPO DE ERROR DE MEDICACIÓN (marque todas las que correspondan, puede ser más de una)",
+        "colspan": 12,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "TIPO DE ERROR DE MEDICACIÓN",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f011",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "16. Otro (especificar)",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f012",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "CATEGORÍA DEL ERROR",
+        "colspan": 12,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "CATEGORÍA DEL ERROR",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f013",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Error Potencial; Error sin daño; Error con daño; Error mortal",
+        "colspan": 12,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "ETAPA EN LA QUE OCURRIÓ EL ERROR DE MEDICACIÓN",
+        "colspan": 12,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "ETAPA EN LA QUE OCURRIÓ EL ERROR DE MEDICACIÓN",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f014",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "8. Otra (especificar)",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f015",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "¿Quién detectó el error?",
+        "colspan": 12,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "¿Quién detectó el error?",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f016",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Otro (especificar)",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f017",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "¿Dónde ocurrió el error?",
+        "colspan": 12,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "¿Dónde ocurrió el error?",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f018",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Otro (especificar)",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f019",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Factores contribuyentes",
+        "colspan": 12,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Factores contribuyentes",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f020",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Otros (especificar)",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f021",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "¿ACONSEJARÍA ALGUNA MEDIDA PARA PREVENIR ESTE ERRoR?",
+        "colspan": 12,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "¿ACONSEJARÍA ALGUNA MEDIDA PARA PREVENIR ESTE ERRoR?",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f022",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Completar el sig. cuadro sólo si el medicamento implicado en el error se debió a confusión entre medicamentos",
+        "colspan": 12,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "",
+        "colspan": 4,
+        "heading": true,
+        "source_page": 1
+      },
+      {
+        "text": "Medicamento 1",
+        "colspan": 4,
+        "heading": true,
+        "source_page": 1
+      },
+      {
+        "text": "Medicamento 2",
+        "colspan": 4,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Nombre genérico de la droga",
+        "colspan": 4,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f023",
+        "label": "",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "field": "f024",
+        "label": "",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "Nombre comercial y Laboratorio",
+        "colspan": 4,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f025",
+        "label": "",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "field": "f026",
+        "label": "",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "Dosis",
+        "colspan": 4,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f027",
+        "label": "",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "field": "f028",
+        "label": "",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "Forma farmacéutica",
+        "colspan": 4,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f029",
+        "label": "",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "field": "f030",
+        "label": "",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "Vía de administración",
+        "colspan": 4,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f031",
+        "label": "",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "field": "f032",
+        "label": "",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "DATOS DEL COMUNICADOR",
+        "colspan": 12,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Apellido y Nombre",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f033",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Profesión/Ocupación",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f034",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Lugar de trabajo",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f035",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Dirección",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f036",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Tel/Fax",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f037",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "E-mail",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f038",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "FECHA DE ESTE REPORTE:",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f039",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "PÁG.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f040",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "DE",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      },
+      {
+        "field": "f041",
+        "label": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Provincia, localidad:",
+      "path": [
+        "DATOS DEL PACIENTE:",
+        "Provincia, localidad:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Provincia, localidad:",
+      "synthetic_value": "Córdoba, Villa Ficticia"
+    },
+    {
+      "id": "f002",
+      "label": "NOMBre y apellido",
+      "path": [
+        "DATOS DEL PACIENTE:",
+        "NOMBre y apellido"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "NOMBre y apellido",
+      "synthetic_value": "Lucía Simulación"
+    },
+    {
+      "id": "f003",
+      "label": "Edad",
+      "path": [
+        "DATOS DEL PACIENTE:",
+        "Edad"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Edad",
+      "synthetic_value": "40 años"
+    },
+    {
+      "id": "f004",
+      "label": "Sexo",
+      "path": [
+        "DATOS DEL PACIENTE:",
+        "Sexo"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Sexo",
+      "synthetic_value": "Femenino"
+    },
+    {
+      "id": "f005",
+      "label": "peso",
+      "path": [
+        "DATOS DEL PACIENTE:",
+        "peso"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "peso",
+      "synthetic_value": "61 kg"
+    },
+    {
+      "id": "f006",
+      "label": "Diagnóstico",
+      "path": [
+        "DATOS DEL PACIENTE:",
+        "Diagnóstico"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Diagnóstico",
+      "synthetic_value": "Condición de simulación Alfa"
+    },
+    {
+      "id": "f007",
+      "label": "DESCRIPCIÓN DEL ERROR (Describa la secuencia de los hechos lo más detallada posible)",
+      "path": [
+        "DESCRIPCIÓN DEL ERROR (Describa la secuencia de los hechos lo más detallada posible)",
+        "DESCRIPCIÓN DEL ERROR (Describa la secuencia de los hechos lo más detallada posible)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DESCRIPCIÓN DEL ERROR (Describa la secuencia de los hechos lo más detallada posible)",
+      "synthetic_value": "En una simulación se confundieron envases con nombres parecidos durante la preparación. La comprobación farmacéutica detectó el error antes de administrar el producto."
+    },
+    {
+      "id": "f008",
+      "label": "FECHA DEL ERROR:",
+      "path": [
+        "DESCRIPCIÓN DEL ERROR (Describa la secuencia de los hechos lo más detallada posible)",
+        "FECHA DEL ERROR:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "FECHA DEL ERROR:",
+      "synthetic_value": "14/10/2026"
+    },
+    {
+      "id": "f009",
+      "label": "Si el medicamento sí fue administrado al paciente, describa el desenlace (ej: muerte, tipo de lesión, efecto adverso)",
+      "path": [
+        "DESCRIPCIÓN DEL ERROR (Describa la secuencia de los hechos lo más detallada posible)",
+        "Si el medicamento sí fue administrado al paciente, describa el desenlace (ej: muerte, tipo de lesión, efecto adverso)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Si el medicamento sí fue administrado al paciente, describa el desenlace (ej: muerte, tipo de lesión, efecto adverso)",
+      "synthetic_value": "No corresponde: el medicamento no fue administrado."
+    },
+    {
+      "id": "f010",
+      "label": "Si el medicamento no fue administrado al paciente, describa la intervención que lo evitó",
+      "path": [
+        "DESCRIPCIÓN DEL ERROR (Describa la secuencia de los hechos lo más detallada posible)",
+        "Si el medicamento no fue administrado al paciente, describa la intervención que lo evitó"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Si el medicamento no fue administrado al paciente, describa la intervención que lo evitó",
+      "synthetic_value": "La farmacéutica cotejó el nombre genérico con la prescripción y separó ambos envases ficticios."
+    },
+    {
+      "id": "f011",
+      "label": "TIPO DE ERROR DE MEDICACIÓN",
+      "path": [
+        "TIPO DE ERROR DE MEDICACIÓN (marque todas las que correspondan, puede ser más de una)",
+        "TIPO DE ERROR DE MEDICACIÓN"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "TIPO DE ERROR DE MEDICACIÓN",
+      "synthetic_value": [
+        "1. Medicamento no indicado/apropiado",
+        "7. Preparación/manipulación"
+      ],
+      "options": [
+        "1. Medicamento no indicado/apropiado",
+        "2. Duplicidad terapéutica",
+        "3. Omisión de dosis",
+        "4. Dosis incorrecta (mayor o menor)",
+        "5. Frecuencia/intervalo incorrecto",
+        "6. Forma farmacéutica equivocada",
+        "7. Preparación/manipulación",
+        "8. Técnica de administración incorrecta",
+        "9. Vía de administración equivocada",
+        "10. Paciente equivocado",
+        "11. Duración tratamiento incorrecta",
+        "12. Medicamento vencido/deteriorado",
+        "13. Etiquetado/prospecto/envasado",
+        "14. Falta de cumplimiento paciente",
+        "15. Falta de monitoreo",
+        "16. Otro (especificar)"
+      ],
+      "context_evidence": "TIPO DE ERROR DE MEDICACIÓN (marque todas las que correspondan, puede ser más de una) / TIPO DE ERROR DE MEDICACIÓN: opciones marcadas 1. Medicamento no indicado/apropiado; 7. Preparación/manipulación. Las demás opciones no están marcadas."
+    },
+    {
+      "id": "f012",
+      "label": "16. Otro (especificar)",
+      "path": [
+        "TIPO DE ERROR DE MEDICACIÓN (marque todas las que correspondan, puede ser más de una)",
+        "16. Otro (especificar)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "16. Otro (especificar)",
+      "synthetic_value": "No se identifica otro tipo en la simulación."
+    },
+    {
+      "id": "f013",
+      "label": "CATEGORÍA DEL ERROR",
+      "path": [
+        "CATEGORÍA DEL ERROR",
+        "CATEGORÍA DEL ERROR"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "CATEGORÍA DEL ERROR",
+      "synthetic_value": "Categoría b",
+      "options": [
+        "Categoría A",
+        "Categoría b",
+        "Categoría c",
+        "Categoría d",
+        "Categoría e",
+        "Categoría f",
+        "Categoría g",
+        "Categoría h",
+        "Categoría i"
+      ],
+      "context_evidence": "CATEGORÍA DEL ERROR / CATEGORÍA DEL ERROR: opciones marcadas Categoría b. Las demás opciones no están marcadas."
+    },
+    {
+      "id": "f014",
+      "label": "ETAPA EN LA QUE OCURRIÓ EL ERROR DE MEDICACIÓN",
+      "path": [
+        "ETAPA EN LA QUE OCURRIÓ EL ERROR DE MEDICACIÓN",
+        "ETAPA EN LA QUE OCURRIÓ EL ERROR DE MEDICACIÓN"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "ETAPA EN LA QUE OCURRIÓ EL ERROR DE MEDICACIÓN",
+      "synthetic_value": [
+        "5. Preparación/Manipulación"
+      ],
+      "options": [
+        "1. Prescripción",
+        "2. Transcripción",
+        "3. Dispensación",
+        "4. Almacenamiento",
+        "5. Preparación/Manipulación",
+        "6. Administración",
+        "7. Monitorización/Seguimiento",
+        "8. Otra (especificar)"
+      ],
+      "context_evidence": "ETAPA EN LA QUE OCURRIÓ EL ERROR DE MEDICACIÓN / ETAPA EN LA QUE OCURRIÓ EL ERROR DE MEDICACIÓN: opciones marcadas 5. Preparación/Manipulación. Las demás opciones no están marcadas."
+    },
+    {
+      "id": "f015",
+      "label": "8. Otra (especificar)",
+      "path": [
+        "ETAPA EN LA QUE OCURRIÓ EL ERROR DE MEDICACIÓN",
+        "8. Otra (especificar)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "8. Otra (especificar)",
+      "synthetic_value": "Ninguna otra etapa identificada."
+    },
+    {
+      "id": "f016",
+      "label": "¿Quién detectó el error?",
+      "path": [
+        "¿Quién detectó el error?",
+        "¿Quién detectó el error?"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "¿Quién detectó el error?",
+      "synthetic_value": "Farmacéutico",
+      "options": [
+        "Médico",
+        "Enfermero",
+        "Farmacéutico",
+        "Paciente",
+        "Familiar Paciente",
+        "Otro (especificar)"
+      ],
+      "context_evidence": "¿Quién detectó el error? / ¿Quién detectó el error?: opciones marcadas Farmacéutico. Las demás opciones no están marcadas."
+    },
+    {
+      "id": "f017",
+      "label": "Otro (especificar)",
+      "path": [
+        "¿Quién detectó el error?",
+        "Otro (especificar)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Otro (especificar)",
+      "synthetic_value": "No aplica a la persona que detectó el error."
+    },
+    {
+      "id": "f018",
+      "label": "¿Dónde ocurrió el error?",
+      "path": [
+        "¿Dónde ocurrió el error?",
+        "¿Dónde ocurrió el error?"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "¿Dónde ocurrió el error?",
+      "synthetic_value": "Hospital",
+      "options": [
+        "Hospital",
+        "Farmacia",
+        "Centro Atención Primaria",
+        "Domicilio del paciente",
+        "Consultorio Médico",
+        "Otro (especificar)"
+      ],
+      "context_evidence": "¿Dónde ocurrió el error? / ¿Dónde ocurrió el error?: opciones marcadas Hospital. Las demás opciones no están marcadas."
+    },
+    {
+      "id": "f019",
+      "label": "Otro (especificar)",
+      "path": [
+        "¿Dónde ocurrió el error?",
+        "Otro (especificar)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Otro (especificar)",
+      "synthetic_value": "No aplica al lugar del error."
+    },
+    {
+      "id": "f020",
+      "label": "Factores contribuyentes",
+      "path": [
+        "Factores contribuyentes",
+        "Factores contribuyentes"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "Factores contribuyentes",
+      "synthetic_value": [
+        "Problema de nombre de la droga, etiquetado o envasado"
+      ],
+      "options": [
+        "Falta de información critica del paciente",
+        "Falta de información crítica del medicamento",
+        "Problemas de comunicación de la prescripción",
+        "Problema de nombre de la droga, etiquetado o envasado",
+        "Medicamento mal almacenado o problema de dispensación",
+        "Entorno, personal o volumen de trabajo",
+        "Capacitación inadecuada del personal",
+        "Deficiente educación del paciente sobre su patología y cuidados",
+        "Falta de controles o sistemas de chequeo ineficientes",
+        "Otros (especificar)"
+      ],
+      "context_evidence": "Factores contribuyentes / Factores contribuyentes: opciones marcadas Problema de nombre de la droga, etiquetado o envasado. Las demás opciones no están marcadas."
+    },
+    {
+      "id": "f021",
+      "label": "Otros (especificar)",
+      "path": [
+        "Factores contribuyentes",
+        "Otros (especificar)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Otros (especificar)",
+      "synthetic_value": "No se notifican otros factores."
+    },
+    {
+      "id": "f022",
+      "label": "¿ACONSEJARÍA ALGUNA MEDIDA PARA PREVENIR ESTE ERRoR?",
+      "path": [
+        "¿ACONSEJARÍA ALGUNA MEDIDA PARA PREVENIR ESTE ERRoR?",
+        "¿ACONSEJARÍA ALGUNA MEDIDA PARA PREVENIR ESTE ERRoR?"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "¿ACONSEJARÍA ALGUNA MEDIDA PARA PREVENIR ESTE ERRoR?",
+      "synthetic_value": "Separar los envases y mantener un doble control de preparación en este ejercicio ficticio."
+    },
+    {
+      "id": "f023",
+      "label": "Nombre genérico de la droga",
+      "path": [
+        "Confusión entre medicamentos",
+        "Medicamento 1",
+        "Nombre genérico de la droga"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre genérico de la droga",
+      "synthetic_value": "Sustancia ficticia A472"
+    },
+    {
+      "id": "f024",
+      "label": "Nombre genérico de la droga",
+      "path": [
+        "Confusión entre medicamentos",
+        "Medicamento 2",
+        "Nombre genérico de la droga"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre genérico de la droga",
+      "synthetic_value": "Sustancia ficticia B472"
+    },
+    {
+      "id": "f025",
+      "label": "Nombre comercial y Laboratorio",
+      "path": [
+        "Confusión entre medicamentos",
+        "Medicamento 1",
+        "Nombre comercial y Laboratorio"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre comercial y Laboratorio",
+      "synthetic_value": "Alfa472 / Laboratorio Simulado A"
+    },
+    {
+      "id": "f026",
+      "label": "Nombre comercial y Laboratorio",
+      "path": [
+        "Confusión entre medicamentos",
+        "Medicamento 2",
+        "Nombre comercial y Laboratorio"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre comercial y Laboratorio",
+      "synthetic_value": "AlfaB472 / Laboratorio Simulado B"
+    },
+    {
+      "id": "f027",
+      "label": "Dosis",
+      "path": [
+        "Confusión entre medicamentos",
+        "Medicamento 1",
+        "Dosis"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dosis",
+      "synthetic_value": "Una unidad simulada"
+    },
+    {
+      "id": "f028",
+      "label": "Dosis",
+      "path": [
+        "Confusión entre medicamentos",
+        "Medicamento 2",
+        "Dosis"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dosis",
+      "synthetic_value": "Dos unidades simuladas"
+    },
+    {
+      "id": "f029",
+      "label": "Forma farmacéutica",
+      "path": [
+        "Confusión entre medicamentos",
+        "Medicamento 1",
+        "Forma farmacéutica"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Forma farmacéutica",
+      "synthetic_value": "solución ficticia A"
+    },
+    {
+      "id": "f030",
+      "label": "Forma farmacéutica",
+      "path": [
+        "Confusión entre medicamentos",
+        "Medicamento 2",
+        "Forma farmacéutica"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Forma farmacéutica",
+      "synthetic_value": "solución ficticia B"
+    },
+    {
+      "id": "f031",
+      "label": "Vía de administración",
+      "path": [
+        "Confusión entre medicamentos",
+        "Medicamento 1",
+        "Vía de administración"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Vía de administración",
+      "synthetic_value": "Vía ficticia de demostración A"
+    },
+    {
+      "id": "f032",
+      "label": "Vía de administración",
+      "path": [
+        "Confusión entre medicamentos",
+        "Medicamento 2",
+        "Vía de administración"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Vía de administración",
+      "synthetic_value": "Vía ficticia de demostración B"
+    },
+    {
+      "id": "f033",
+      "label": "Apellido y Nombre",
+      "path": [
+        "DATOS DEL COMUNICADOR",
+        "Apellido y Nombre"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Apellido y Nombre",
+      "synthetic_value": "Silvia Prueba"
+    },
+    {
+      "id": "f034",
+      "label": "Profesión/Ocupación",
+      "path": [
+        "DATOS DEL COMUNICADOR",
+        "Profesión/Ocupación"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Profesión/Ocupación",
+      "synthetic_value": "Farmacéutica ficticia"
+    },
+    {
+      "id": "f035",
+      "label": "Lugar de trabajo",
+      "path": [
+        "DATOS DEL COMUNICADOR",
+        "Lugar de trabajo"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Lugar de trabajo",
+      "synthetic_value": "Hospital Simulado 472"
+    },
+    {
+      "id": "f036",
+      "label": "Dirección",
+      "path": [
+        "DATOS DEL COMUNICADOR",
+        "Dirección"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dirección",
+      "synthetic_value": "Calle Ensayo 472, Córdoba"
+    },
+    {
+      "id": "f037",
+      "label": "Tel/Fax",
+      "path": [
+        "DATOS DEL COMUNICADOR",
+        "Tel/Fax"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Tel/Fax",
+      "synthetic_value": "000-472-0001"
+    },
+    {
+      "id": "f038",
+      "label": "E-mail",
+      "path": [
+        "DATOS DEL COMUNICADOR",
+        "E-mail"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "E-mail",
+      "synthetic_value": "silvia.prueba@example.invalid"
+    },
+    {
+      "id": "f039",
+      "label": "FECHA DE ESTE REPORTE:",
+      "path": [
+        "DATOS DEL COMUNICADOR",
+        "FECHA DE ESTE REPORTE:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "FECHA DE ESTE REPORTE:",
+      "synthetic_value": "15/10/2026"
+    },
+    {
+      "id": "f040",
+      "label": "PÁG.",
+      "path": [
+        "DATOS DEL COMUNICADOR",
+        "PÁG."
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "PÁG.",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "f041",
+      "label": "DE",
+      "path": [
+        "DATOS DEL COMUNICADOR",
+        "DE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DE",
+      "synthetic_value": "1"
+    }
+  ],
+  "context": "Expediente sintético para completar el formulario. Todas las personas, entidades, productos, identificadores y firmas de este caso son ficticios.\nDATOS DEL PACIENTE: / Provincia, localidad:: Córdoba, Villa Ficticia\nDATOS DEL PACIENTE: / NOMBre y apellido: Lucía Simulación\nDATOS DEL PACIENTE: / Edad: 40 años\nDATOS DEL PACIENTE: / Sexo: Femenino\nDATOS DEL PACIENTE: / peso: 61 kg\nDATOS DEL PACIENTE: / Diagnóstico: Condición de simulación Alfa\nDESCRIPCIÓN DEL ERROR (Describa la secuencia de los hechos lo más detallada posible) / DESCRIPCIÓN DEL ERROR (Describa la secuencia de los hechos lo más detallada posible): En una simulación se confundieron envases con nombres parecidos durante la preparación. La comprobación farmacéutica detectó el error antes de administrar el producto.\nDESCRIPCIÓN DEL ERROR (Describa la secuencia de los hechos lo más detallada posible) / FECHA DEL ERROR:: 14/10/2026\nDESCRIPCIÓN DEL ERROR (Describa la secuencia de los hechos lo más detallada posible) / Si el medicamento sí fue administrado al paciente, describa el desenlace (ej: muerte, tipo de lesión, efecto adverso): No corresponde: el medicamento no fue administrado.\nDESCRIPCIÓN DEL ERROR (Describa la secuencia de los hechos lo más detallada posible) / Si el medicamento no fue administrado al paciente, describa la intervención que lo evitó: La farmacéutica cotejó el nombre genérico con la prescripción y separó ambos envases ficticios.\nTIPO DE ERROR DE MEDICACIÓN (marque todas las que correspondan, puede ser más de una) / TIPO DE ERROR DE MEDICACIÓN: opciones marcadas 1. Medicamento no indicado/apropiado; 7. Preparación/manipulación. Las demás opciones no están marcadas.\nTIPO DE ERROR DE MEDICACIÓN (marque todas las que correspondan, puede ser más de una) / 16. Otro (especificar): No se identifica otro tipo en la simulación.\nCATEGORÍA DEL ERROR / CATEGORÍA DEL ERROR: opciones marcadas Categoría b. Las demás opciones no están marcadas.\nETAPA EN LA QUE OCURRIÓ EL ERROR DE MEDICACIÓN / ETAPA EN LA QUE OCURRIÓ EL ERROR DE MEDICACIÓN: opciones marcadas 5. Preparación/Manipulación. Las demás opciones no están marcadas.\nETAPA EN LA QUE OCURRIÓ EL ERROR DE MEDICACIÓN / 8. Otra (especificar): Ninguna otra etapa identificada.\n¿Quién detectó el error? / ¿Quién detectó el error?: opciones marcadas Farmacéutico. Las demás opciones no están marcadas.\n¿Quién detectó el error? / Otro (especificar): No aplica a la persona que detectó el error.\n¿Dónde ocurrió el error? / ¿Dónde ocurrió el error?: opciones marcadas Hospital. Las demás opciones no están marcadas.\n¿Dónde ocurrió el error? / Otro (especificar): No aplica al lugar del error.\nFactores contribuyentes / Factores contribuyentes: opciones marcadas Problema de nombre de la droga, etiquetado o envasado. Las demás opciones no están marcadas.\nFactores contribuyentes / Otros (especificar): No se notifican otros factores.\n¿ACONSEJARÍA ALGUNA MEDIDA PARA PREVENIR ESTE ERRoR? / ¿ACONSEJARÍA ALGUNA MEDIDA PARA PREVENIR ESTE ERRoR?: Separar los envases y mantener un doble control de preparación en este ejercicio ficticio.\nConfusión entre medicamentos / Medicamento 1 / Nombre genérico de la droga: Sustancia ficticia A472\nConfusión entre medicamentos / Medicamento 2 / Nombre genérico de la droga: Sustancia ficticia B472\nConfusión entre medicamentos / Medicamento 1 / Nombre comercial y Laboratorio: Alfa472 / Laboratorio Simulado A\nConfusión entre medicamentos / Medicamento 2 / Nombre comercial y Laboratorio: AlfaB472 / Laboratorio Simulado B\nConfusión entre medicamentos / Medicamento 1 / Dosis: Una unidad simulada\nConfusión entre medicamentos / Medicamento 2 / Dosis: Dos unidades simuladas\nConfusión entre medicamentos / Medicamento 1 / Forma farmacéutica: solución ficticia A\nConfusión entre medicamentos / Medicamento 2 / Forma farmacéutica: solución ficticia B\nConfusión entre medicamentos / Medicamento 1 / Vía de administración: Vía ficticia de demostración A\nConfusión entre medicamentos / Medicamento 2 / Vía de administración: Vía ficticia de demostración B\nDATOS DEL COMUNICADOR / Apellido y Nombre: Silvia Prueba\nDATOS DEL COMUNICADOR / Profesión/Ocupación: Farmacéutica ficticia\nDATOS DEL COMUNICADOR / Lugar de trabajo: Hospital Simulado 472\nDATOS DEL COMUNICADOR / Dirección: Calle Ensayo 472, Córdoba\nDATOS DEL COMUNICADOR / Tel/Fax: 000-472-0001\nDATOS DEL COMUNICADOR / E-mail: silvia.prueba@example.invalid\nDATOS DEL COMUNICADOR / FECHA DE ESTE REPORTE:: 15/10/2026\nDATOS DEL COMUNICADOR / PÁG.: 1\nDATOS DEL COMUNICADOR / DE: 1",
+  "workflow_identity": {
+    "language": "es",
+    "id": 472
+  }
+}

@@ -1,0 +1,578 @@
+{
+  "id": "fr-610-inami-metabolic",
+  "title": "Prescription et facture de produits d’alimentation particulière pour affection grave",
+  "language": "fr",
+  "domain": "Healthcare",
+  "issuer_id": "Institut national d’assurance maladie-invalidité (INAMI), Belgique",
+  "template_family": "inami-metabolic",
+  "business_topic": "Prescription et facture de produits d’alimentation particulière pour affection grave",
+  "source_url": "https://www.inami.fgov.be/SiteCollectionDocuments/formulaire_alimentation_particuliere_maladies_metaboliques_prescription.pdf",
+  "landing_url": "https://www.inami.fgov.be/fr/professionnels/professionnels-de-la-sante/medecins/formulaires-pour-les-medecins",
+  "license_url": "https://www.inami.fgov.be/fr/disclaimer",
+  "license_note": "Selon les conditions Copyrights de l’INAMI : informations libres de droit sauf mention contraire, utilisables gratuitement moyennant mention de la source. Informations multimédias, logos et éléments graphiques exclus.",
+  "source_sha256": "cc06a55c301e72fde92aca270b086fafe35e3d688f4379f2eb7aa7bc6a3f54b7",
+  "source_pages": 1,
+  "retrieved_at": "2026-10-15T18:58:58.527136+00:00",
+  "source_version": "Sans date imprimée",
+  "source_date_evidence": {
+    "kind": "undated",
+    "source_page": 1,
+    "literal": null,
+    "scope": "Printed edition only; URL directory and metadata are not publication dates.",
+    "value": "Sans date imprimée"
+  },
+  "columns": 12,
+  "rows": [
+    [
+      {
+        "text": " \n \nANNEXE \n \nPrescription et facture pour les produits d'alimentation particulière visés à l'arrêté royal fixant \nl'intervention de l'assurance obligatoire soins de santé pour certains produits de soins à \ndomicile des bénéficiaires souffrant d'une affection grave, visés à l'article 34, 14° de la loi \nrelative à l'assurance obligatoire soins de santé et indemnités, coordonnée le 14 juillet 1994, \nnotamment pour certains produits d'alimentation particulière \n \nIdentification du bénéficiaire: réservé à la vignette par l'organisme assureur \nNom - prénom: \nRue et n°: \nCode postal et commune: \nDate de naissance: \n \n \n \n \n \n \n \nA COMPLETER PAR LE MEDECIN PRESCRIPTEUR \nA COMPLETER PAR LE PHARMACIEN \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nPrescription de produits visés à l'art. 1er de l'A.R. \nsusmentionné et destinés à la consommation à domicile par le \nbénéficiaire, en une période de (date) ..................................... \n ..................................... à (date)  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \npour chaque produit prescrit: \npour chaque conditionnement délivré d'un produit: \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nDénomination \nConditionnement \nNombre de \nconditionnement \nnombre \ndélivré \ndate de \ndélivrance \nprix de vente \nau \npublic (en \nBEF) \nmontant payé \n(en BEF) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nLe soussigné, médecin dirigeant le centre (nom, adresse, tél. \net n° d'identification I.N.A.M.I. du centre \nMontant total payé (en BEF) \n \n \n \n \n \n \n \ndéclare par la présente que le bénéficiaire est en rééducation \npour une maladie mentionnée à l'art. 1er de l'A.R. \nsusmentionné et que le mode d'emploi des produits prescrits \nest connu. \n \n \n \n \n \n \n \n \n \n \n \nDate, signature et cachet du médecin prescripteur \nDate, signature et cachet du pharmacien \n \n \n \n \n \n \n \n",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Identification du bénéficiaire: réservé à la vignette par l'organisme assureur",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Nom - prénom:",
+        "field": "f001",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Rue et n°:",
+        "field": "f002",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Code postal et commune:",
+        "field": "f003",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Date de naissance:",
+        "field": "f004",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "A COMPLETER PAR LE MEDECIN PRESCRIPTEUR",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "en une période de (date)",
+        "field": "f005",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "à (date)",
+        "field": "f006",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Dénomination",
+        "field": "f007",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Conditionnement",
+        "field": "f008",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Nombre de conditionnement",
+        "field": "f009",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "nombre délivré",
+        "field": "f010",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "date de délivrance",
+        "field": "f011",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "prix de vente au public (en BEF)",
+        "field": "f012",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "montant payé (en BEF)",
+        "field": "f013",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Le soussigné, médecin dirigeant le centre (nom, adresse, tél. et n° d'identification I.N.A.M.I. du centre",
+        "field": "f014",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Montant total payé (en BEF)",
+        "field": "f015",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Date, signature et cachet du médecin prescripteur",
+        "field": "f016",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Date, signature et cachet du pharmacien",
+        "field": "f017",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "Source : Institut national d’assurance maladie-invalidité (INAMI), Belgique ; https://www.inami.fgov.be/SiteCollectionDocuments/formulaire_alimentation_particuliere_maladies_metaboliques_prescription.pdf ; Sans date imprimée.",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Nom - prénom:",
+      "path": [
+        "Page 1",
+        "Identification du bénéficiaire: réservé à la vignette par l'organisme assureur",
+        "Nom - prénom:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom - prénom:",
+      "synthetic_value": "Martin Camille",
+      "source_geometry": [
+        [
+          89.9000015258789,
+          157.43807983398438,
+          143.16650390625,
+          166.3357696533203
+        ]
+      ],
+      "source_occurrence": 0
+    },
+    {
+      "id": "f002",
+      "label": "Rue et n°:",
+      "path": [
+        "Page 1",
+        "Identification du bénéficiaire: réservé à la vignette par l'organisme assureur",
+        "Rue et n°:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Rue et n°:",
+      "synthetic_value": "12 rue Exemple",
+      "source_geometry": [
+        [
+          89.9000015258789,
+          172.61807250976562,
+          125.48473358154297,
+          181.51576232910156
+        ]
+      ],
+      "source_occurrence": 0
+    },
+    {
+      "id": "f003",
+      "label": "Code postal et commune:",
+      "path": [
+        "Page 1",
+        "Identification du bénéficiaire: réservé à la vignette par l'organisme assureur",
+        "Code postal et commune:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Code postal et commune:",
+      "synthetic_value": "1000 Bruxelles",
+      "source_geometry": [
+        [
+          89.9000015258789,
+          187.79806518554688,
+          180.98130798339844,
+          196.6957550048828
+        ]
+      ],
+      "source_occurrence": 0
+    },
+    {
+      "id": "f004",
+      "label": "Date de naissance:",
+      "path": [
+        "Page 1",
+        "Identification du bénéficiaire: réservé à la vignette par l'organisme assureur",
+        "Date de naissance:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de naissance:",
+      "synthetic_value": "20/04/1986",
+      "source_geometry": [
+        [
+          89.9000015258789,
+          203.03811645507812,
+          158.36581420898438,
+          211.93580627441406
+        ]
+      ],
+      "source_occurrence": 0
+    },
+    {
+      "id": "f005",
+      "label": "en une période de (date)",
+      "path": [
+        "Page 1",
+        "A COMPLETER PAR LE MEDECIN PRESCRIPTEUR",
+        "Période prescrite",
+        "Début"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "en une période de (date)",
+      "synthetic_value": "01/11/2026",
+      "source_geometry": [
+        [
+          121.42237091064453,
+          298.4380798339844,
+          208.93896484375,
+          307.3357849121094
+        ]
+      ],
+      "source_occurrence": 0
+    },
+    {
+      "id": "f006",
+      "label": "à (date)",
+      "path": [
+        "Page 1",
+        "A COMPLETER PAR LE MEDECIN PRESCRIPTEUR",
+        "Période prescrite",
+        "Fin"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "à (date)",
+      "synthetic_value": "30/11/2026",
+      "source_geometry": [
+        [
+          160.33999633789062,
+          307.6180725097656,
+          187.83905029296875,
+          316.5157775878906
+        ]
+      ],
+      "source_occurrence": 0
+    },
+    {
+      "id": "f007",
+      "label": "Dénomination",
+      "path": [
+        "Page 1",
+        "A COMPLETER PAR LE MEDECIN PRESCRIPTEUR",
+        "Dénomination"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Dénomination",
+      "synthetic_value": "Nutrition Exemple",
+      "source_geometry": [
+        [
+          76.08000183105469,
+          416.59808349609375,
+          125.38045501708984,
+          425.49578857421875
+        ]
+      ],
+      "source_occurrence": 0
+    },
+    {
+      "id": "f008",
+      "label": "Conditionnement",
+      "path": [
+        "Page 1",
+        "A COMPLETER PAR LE MEDECIN PRESCRIPTEUR",
+        "Conditionnement"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Conditionnement",
+      "synthetic_value": "Boîte de 500 g",
+      "source_geometry": [
+        [
+          349.51531982421875,
+          353.71807861328125,
+          408.22418212890625,
+          362.61578369140625
+        ]
+      ],
+      "source_occurrence": 0
+    },
+    {
+      "id": "f009",
+      "label": "Nombre de conditionnement",
+      "path": [
+        "Page 1",
+        "A COMPLETER PAR LE MEDECIN PRESCRIPTEUR",
+        "Nombre de conditionnement"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre de conditionnement",
+      "synthetic_value": "2",
+      "source_geometry": [
+        [
+          232.0399932861328,
+          412.0380859375,
+          273.78338623046875,
+          420.935791015625
+        ]
+      ],
+      "source_occurrence": 0
+    },
+    {
+      "id": "f010",
+      "label": "nombre délivré",
+      "path": [
+        "Page 1",
+        "A COMPLETER PAR LE MEDECIN PRESCRIPTEUR",
+        "nombre délivré"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "nombre délivré",
+      "synthetic_value": "2",
+      "source_geometry": [
+        [
+          302.9200134277344,
+          409.0380859375,
+          332.2584533691406,
+          417.935791015625
+        ]
+      ],
+      "source_occurrence": 0
+    },
+    {
+      "id": "f011",
+      "label": "date de délivrance",
+      "path": [
+        "Page 1",
+        "A COMPLETER PAR LE MEDECIN PRESCRIPTEUR",
+        "date de délivrance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "date de délivrance",
+      "synthetic_value": "01/11/2026",
+      "source_geometry": [
+        [
+          359.6199951171875,
+          409.0380859375,
+          388.5384521484375,
+          417.935791015625
+        ]
+      ],
+      "source_occurrence": 0
+    },
+    {
+      "id": "f012",
+      "label": "prix de vente au public (en BEF)",
+      "path": [
+        "Page 1",
+        "A COMPLETER PAR LE MEDECIN PRESCRIPTEUR",
+        "prix de vente au public (en BEF)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "prix de vente au public (en BEF)",
+      "synthetic_value": "2400",
+      "source_geometry": [
+        [
+          416.32000732421875,
+          399.798095703125,
+          464.2399597167969,
+          408.69580078125
+        ]
+      ],
+      "source_occurrence": 0
+    },
+    {
+      "id": "f013",
+      "label": "montant payé (en BEF)",
+      "path": [
+        "Page 1",
+        "A COMPLETER PAR LE MEDECIN PRESCRIPTEUR",
+        "montant payé (en BEF)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "montant payé (en BEF)",
+      "synthetic_value": "400",
+      "source_geometry": [
+        [
+          473.0400085449219,
+          409.0380859375,
+          523.7384643554688,
+          417.935791015625
+        ]
+      ],
+      "source_occurrence": 0
+    },
+    {
+      "id": "f014",
+      "label": "Le soussigné, médecin dirigeant le centre (nom, adresse, tél. et n° d'identification I.N.A.M.I. du centre",
+      "path": [
+        "Page 1",
+        "A COMPLETER PAR LE MEDECIN PRESCRIPTEUR",
+        "Le soussigné, médecin dirigeant le centre (nom, adresse, tél. et n° d'identification I.N.A.M.I. du centre"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Le soussigné, médecin dirigeant le centre (nom, adresse, tél. et n° d'identification I.N.A.M.I. du centre",
+      "synthetic_value": "Centre Exemple, Alex Bernard, 14 rue Fictive, 1000 Bruxelles, 020000610, INAMI 00000000000",
+      "source_geometry": [
+        [
+          76.08000183105469,
+          601.6580810546875,
+          294.3170166015625,
+          610.5557861328125
+        ]
+      ],
+      "source_occurrence": 0
+    },
+    {
+      "id": "f015",
+      "label": "Montant total payé (en BEF)",
+      "path": [
+        "Page 1",
+        "A COMPLETER PAR LE MEDECIN PRESCRIPTEUR",
+        "Montant total payé (en BEF)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant total payé (en BEF)",
+      "synthetic_value": "400",
+      "source_geometry": [
+        [
+          363.4599914550781,
+          601.6580810546875,
+          463.4494934082031,
+          610.5557861328125
+        ]
+      ],
+      "source_occurrence": 0
+    },
+    {
+      "id": "f016",
+      "label": "Date, signature et cachet du médecin prescripteur",
+      "path": [
+        "Page 1",
+        "A COMPLETER PAR LE MEDECIN PRESCRIPTEUR",
+        "Date, signature et cachet du médecin prescripteur"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date, signature et cachet du médecin prescripteur",
+      "synthetic_value": "01/11/2026, Alex Bernard (signature et cachet fictifs)",
+      "source_geometry": [
+        [
+          76.08000183105469,
+          699.2180786132812,
+          252.94869995117188,
+          708.1157836914062
+        ]
+      ],
+      "source_occurrence": 0
+    },
+    {
+      "id": "f017",
+      "label": "Date, signature et cachet du pharmacien",
+      "path": [
+        "Page 1",
+        "A COMPLETER PAR LE MEDECIN PRESCRIPTEUR",
+        "Date, signature et cachet du pharmacien"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date, signature et cachet du pharmacien",
+      "synthetic_value": "01/11/2026, Dominique Petit (signature et cachet fictifs)",
+      "source_geometry": [
+        [
+          302.9200134277344,
+          699.2180786132812,
+          446.90325927734375,
+          708.1157836914062
+        ]
+      ],
+      "source_occurrence": 0
+    }
+  ],
+  "context": "Cas entièrement fictif. Les noms, coordonnées, observations et signatures sont synthétiques. Les mentions Sans objet explicitent les branches inactives, sans supprimer leurs cibles.\nPage 1 / Identification du bénéficiaire: réservé à la vignette par l'organisme assureur / Nom - prénom: : Martin Camille\nPage 1 / Identification du bénéficiaire: réservé à la vignette par l'organisme assureur / Rue et n°: : 12 rue Exemple\nPage 1 / Identification du bénéficiaire: réservé à la vignette par l'organisme assureur / Code postal et commune: : 1000 Bruxelles\nPage 1 / Identification du bénéficiaire: réservé à la vignette par l'organisme assureur / Date de naissance: : 20/04/1986\nPage 1 / A COMPLETER PAR LE MEDECIN PRESCRIPTEUR / Période prescrite / Début : 01/11/2026\nPage 1 / A COMPLETER PAR LE MEDECIN PRESCRIPTEUR / Période prescrite / Fin : 30/11/2026\nPage 1 / A COMPLETER PAR LE MEDECIN PRESCRIPTEUR / Dénomination : Nutrition Exemple\nPage 1 / A COMPLETER PAR LE MEDECIN PRESCRIPTEUR / Conditionnement : Boîte de 500 g\nPage 1 / A COMPLETER PAR LE MEDECIN PRESCRIPTEUR / Nombre de conditionnement : 2\nPage 1 / A COMPLETER PAR LE MEDECIN PRESCRIPTEUR / nombre délivré : 2\nPage 1 / A COMPLETER PAR LE MEDECIN PRESCRIPTEUR / date de délivrance : 01/11/2026\nPage 1 / A COMPLETER PAR LE MEDECIN PRESCRIPTEUR / prix de vente au public (en BEF) : 2400\nPage 1 / A COMPLETER PAR LE MEDECIN PRESCRIPTEUR / montant payé (en BEF) : 400\nPage 1 / A COMPLETER PAR LE MEDECIN PRESCRIPTEUR / Le soussigné, médecin dirigeant le centre (nom, adresse, tél. et n° d'identification I.N.A.M.I. du centre : Centre Exemple, Alex Bernard, 14 rue Fictive, 1000 Bruxelles, 020000610, INAMI 00000000000\nPage 1 / A COMPLETER PAR LE MEDECIN PRESCRIPTEUR / Montant total payé (en BEF) : 400\nPage 1 / A COMPLETER PAR LE MEDECIN PRESCRIPTEUR / Date, signature et cachet du médecin prescripteur : 01/11/2026, Alex Bernard (signature et cachet fictifs)\nPage 1 / A COMPLETER PAR LE MEDECIN PRESCRIPTEUR / Date, signature et cachet du pharmacien : 01/11/2026, Dominique Petit (signature et cachet fictifs)",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 610
+  }
+}

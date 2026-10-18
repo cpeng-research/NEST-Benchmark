@@ -1,0 +1,76 @@
+{
+  "A. Datos del MÉDICO TRATANTE": {
+    "Nombre completo": "Elena Prueba",
+    "Número de matrícula": "MN-SIM-470",
+    "Entidad otorgante": "Autoridad sanitaria ficticia",
+    "Domicilio (calle, número, piso, dpto, localidad, CP, provincia)": "Calle Ejemplo 470, piso 2, departamento A, Córdoba, CP 5000, Córdoba",
+    "Teléfono": "000-470-1001",
+    "Correo electrónico": "elena.prueba@example.invalid"
+  },
+  "B. Datos del PACIENTE": {
+    "Nombre completo": "Pablo Ensayo",
+    "DNI": "DNI-SIM-470-P",
+    "Edad": "47 años",
+    "Domicilio (calle, número, piso, dpto, localidad, CP, provincia)": "Calle Simulada 27, piso 1, departamento B, Córdoba, CP 5000, Córdoba",
+    "Teléfono": "000-470-2001",
+    "Correo electrónico": "pablo.ensayo@example.invalid",
+    "Diagnóstico completo, con la información que corresponda a la indicación autorizada en el país de origen (subtipo, grado de progresión, resultados de laboratorio, otros) En caso de renovación, describa la respuesta al tratamiento": "Enfermedad ficticia de subtipo Alfa, estable; laboratorio de control simulado sin alteraciones. Solicitud inicial: no corresponde evaluar respuesta de renovación."
+  },
+  "Firmas por página": {
+    "1": {
+      "Firma abreviada": "EP-SIM-470-P1"
+    },
+    "2": {
+      "Firma abreviada": "EP-SIM-470-P2"
+    },
+    "3": {
+      "Firma abreviada": "EP-SIM-470-P3"
+    }
+  },
+  "C. Datos del MEDICAMENTO PRESCRIPTO": {
+    "Nombre genérico": "principio activo ficticio A470",
+    "Nombre comercial": "Medicamento Simulado 470",
+    "Nombre del Fabricante": "Laboratorio Ficticio Alfa",
+    "Forma farmacéutica": "comprimidos ficticios",
+    "Presentación": "envase simulado de 30 comprimidos",
+    "Vía de administración": {
+      "choices": [
+        "Oral",
+        "Inyectable IV",
+        "Inyectable IM",
+        "Tópica"
+      ],
+      "value": [
+        "Oral"
+      ]
+    },
+    "Dosis diaria y unidad de medida": "Una unidad ficticia diaria; no es una prescripción clínica",
+    "Peso/superficie corporal": "70 kg / 1,80 m2",
+    "No corresponde": {
+      "choices": [
+        "No corresponde"
+      ],
+      "value": []
+    },
+    "Cantidad de envases a importar": "3 envases ficticios"
+  },
+  "F. Declaración de conflicto de intereses": {
+    "Marque la afirmación que corresponde a su situación:": {
+      "choices": [
+        "No tengo ni he tenido nunca ningún vínculo financiero con una empresa fabricante, importadora o comercializadora del medicamento consignado en la sección C de esta Declaración Jurada.",
+        "Tengo o he tenido vínculos financieros con la empresa fabricante, importadora o vendedora del medicamento consignado en la sección C de esta Declaración Jurada."
+      ],
+      "value": [
+        "No tengo ni he tenido nunca ningún vínculo financiero con una empresa fabricante, importadora o comercializadora del medicamento consignado en la sección C de esta Declaración Jurada."
+      ]
+    },
+    "Detalle abajo los vínculos financieros o cualquier situación que considere que pueda inducir un conflicto de intereses en relación a esta prescripción, incluyendo el nombre de las entidades originantes y las fechas aproximadas:": "No existen vínculos financieros ni otros conflictos declarados en este caso ficticio."
+  },
+  "G. Firma del Declarante": {
+    "Firma del médico": "Firma ficticia Elena Prueba",
+    "Aclaración": "Elena Prueba",
+    "DNI": "DNI-SIM-470-M",
+    "Número de matrícula": "MN-SIM-470",
+    "Lugar y Fecha": "Córdoba, 15/10/2026"
+  }
+}

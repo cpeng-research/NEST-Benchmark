@@ -1,0 +1,246 @@
+{
+  "Page 1": {
+    "Patient": {
+      "Date de remplissage :": "16/10/2026",
+      "Nom :": "Martin",
+      "Prénom :": "Camille",
+      "Date de naissance :": "20/04/1986",
+      "Adresse :": "12 rue Exemple, 75000 Paris",
+      "Téléphone :": "0100000600",
+      "Courriel :": "camille@example.org"
+    },
+    "Médecin adresseur": {
+      "Nom et prénom :": "Alex Bernard",
+      "Spécialité :": "Médecine générale",
+      "Adresse :": "14 rue Exemple, 75000 Paris",
+      "Téléphone :": "0100000601",
+      "Courriel :": "alex@example.org",
+      "Médecin traitant (coordonnées, si différentes de l’adresseur) :": "Même médecin que le médecin adresseur"
+    },
+    "Évaluation préalable réalisée en ambulatoire (documents à joindre) :": {
+      "Évaluation préalable réalisée en ambulatoire (documents à joindre) :": {
+        "choices": [
+          "Compte-rendu de l’évaluation médicale initiale réalisée avec l’aide de la grille d’évaluation médicale",
+          "Auto-questionnaire d’un adulte présentant une douloureuse chronique",
+          "Traitements en cours (copie de l’ordonnance)",
+          "Autres documents ou questionnaires (à préciser) :"
+        ],
+        "value": [
+          "Compte-rendu de l’évaluation médicale initiale réalisée avec l’aide de la grille d’évaluation médicale",
+          "Auto-questionnaire d’un adulte présentant une douloureuse chronique",
+          "Traitements en cours (copie de l’ordonnance)"
+        ]
+      },
+      "Autres documents ou questionnaires (à préciser) :": "Sans objet : aucun autre document"
+    }
+  },
+  "Page 2": {
+    "LES ATTENTES DU MÉDECIN ADRESSEUR": {
+      "Modalités d’intervention de la structure douleur chronique (SDC) souhaitées": {
+        "choices": [
+          "Avis téléphonique",
+          "Réunion de synthèse ou réunion de concertation sur dossier",
+          "Téléexpertise (avec le médecin)",
+          "Téléconsultation (avec le patient)",
+          "Consultation du patient en présentiel en SDC",
+          "Autre (à préciser) :"
+        ],
+        "value": [
+          "Consultation du patient en présentiel en SDC"
+        ]
+      },
+      "Modalités": {
+        "Autre": "Sans objet : aucune autre modalité"
+      },
+      "Types d’interventions de la SDC souhaitées (plusieurs choix possibles)": {
+        "choices": [
+          "Avis diagnostique",
+          "Avis thérapeutique",
+          "Évaluation et, au besoin, prise en charge spécialisée en SDC",
+          "Accès à une technique spécifique (à préciser) :",
+          "Aide à la coordination du parcours de santé",
+          "Autre (à préciser) :"
+        ],
+        "value": [
+          "Avis thérapeutique",
+          "Évaluation et, au besoin, prise en charge spécialisée en SDC"
+        ]
+      },
+      "Accès à une technique spécifique (à préciser) :": "Sans objet : aucune technique spécifique demandée",
+      "Interventions": {
+        "Autre": "Sans objet : aucune autre intervention"
+      },
+      "Commentaires éventuels": "Douleur persistante malgré une prise en charge en soins primaires",
+      "Demande en urgence (somatique, sociale ou autre)": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": [
+          "non"
+        ]
+      },
+      "Si oui, justification, en particulier du recours au dispositif coupe-file (obligatoire) :": "Sans objet : demande non urgente"
+    }
+  },
+  "Page 3": {
+    "INFORMATIONS COMPLÉMENTAIRES CONCERNANT LA DOULEUR": {
+      "Aggravation récente du syndrome douloureux (selon le médecin adresseur)": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": [
+          "oui"
+        ]
+      },
+      "Date d’apparition initiale de la douleur motivant la demande :": "01/02/2025",
+      "Diagnostic étiologique de la douleur": {
+        "choices": [
+          "Connu (à préciser) :",
+          "Inconnu (le cas échéant, hypothèse du médecin adresseur) :"
+        ],
+        "value": [
+          "Connu (à préciser) :"
+        ]
+      },
+      "Connu (à préciser) :": "Lombalgie chronique non spécifique",
+      "Inconnu (le cas échéant, hypothèse du médecin adresseur) :": "Sans objet : diagnostic connu",
+      "Situation déjà évaluée par un (des) spécialiste(s) de la douleur ?": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": [
+          "oui"
+        ]
+      },
+      "Spécialistes douleur": {
+        "Détails": "Consultation douleur Exemple, 10/02/2026"
+      },
+      "Douleur déjà évaluée par un service hospitalier de spécialité ?": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": [
+          "oui"
+        ]
+      },
+      "Service hospitalier": {
+        "Détails": "Rhumatologie Exemple, 15/03/2026"
+      },
+      "Comorbidités principales (dont psychiatriques, avec si possible dates de début)": "Aucune comorbidité signalée",
+      "Situation ou risque d’addiction": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": [
+          "non"
+        ]
+      },
+      "Si oui, préciser la(es)quelle(s) :": "Sans objet : pas de risque signalé"
+    }
+  },
+  "Page 4": {
+    "INFORMATIONS SOCIALES, FAMILIALES ET PROFESSIONNELLES OU SCOLAIRES": {
+      "Situation professionnelle": {
+        "choices": [
+          "Arrêt de travail (préciser la date) :",
+          "Invalidité (date de début) :",
+          "Poste de travail aménagé",
+          "Temps de travail partiel (%) :",
+          "RQTH* (date de début) :",
+          "Chômage (date de début) :",
+          "Retraite (date de début) :"
+        ],
+        "value": [
+          "Poste de travail aménagé",
+          "Temps de travail partiel (%) :"
+        ]
+      },
+      "Arrêt de travail (préciser la date) :": "Sans objet : activité maintenue",
+      "Invalidité (date de début) :": "Sans objet : pas d’invalidité",
+      "Temps de travail partiel (%) :": "80",
+      "RQTH* (date de début) :": "Sans objet : pas de RQTH",
+      "Chômage (date de début) :": "Sans objet : en emploi",
+      "Retraite (date de début) :": "Sans objet : en activité",
+      "Invalidité": {
+        "Degré": {
+          "choices": [
+            "totale",
+            "partielle"
+          ],
+          "value": []
+        }
+      },
+      "Situation scolaire pour le jeune adulte (à préciser)": {
+        "choices": [
+          "Enseignement et classe :",
+          "Retentissements sur la scolarisation :"
+        ],
+        "value": []
+      },
+      "Enseignement et classe :": "Sans objet : adulte non scolarisé",
+      "Retentissements sur la scolarisation :": "Sans objet : adulte non scolarisé",
+      "Si oui, lesquels :": "Sans objet : adulte non scolarisé",
+      "Situation socio-familiale (à préciser si possible) :": "Vit en couple avec soutien familial",
+      "Quelles sont selon vous les attentes principales du patient vis-à-vis d’une consultation spécialisée en SDC ?": "Diminuer le retentissement de la douleur sur la vie quotidienne"
+    }
+  },
+  "Page 5": {
+    "RÉPONSE DU MÉDECIN DE LA SDC": {
+      "Consultation en urgence (coupe-file)": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": [
+          "non"
+        ]
+      },
+      "Modalités d’intervention proposées": {
+        "choices": [
+          "Avis téléphonique",
+          "Réunion de synthèse",
+          "Réunion de concertation sur dossier",
+          "Téléconsultation (avec le patient et toujours en présence d’un soignant)",
+          "Téléexpertise (avec le médecin)",
+          "Consultation du patient en présentiel en SDC",
+          "Autre (à préciser) :"
+        ],
+        "value": [
+          "Consultation du patient en présentiel en SDC"
+        ]
+      },
+      "Autre (à préciser) :": "Sans objet : consultation en présentiel retenue",
+      "Rendez-vous (consultation en présentiel ou de téléconsultation) proposé au patient": {
+        "choices": [
+          "Rendez-vous (consultation en présentiel ou de téléconsultation) proposé au patient"
+        ],
+        "value": [
+          "Rendez-vous (consultation en présentiel ou de téléconsultation) proposé au patient"
+        ]
+      },
+      "Patient": {
+        "Date et heure": "12/11/2026 à 10h00",
+        "Modalités": "Consultation en présentiel, centre Exemple"
+      },
+      "Contact en distanciel (hotline, téléexpertise) proposé au médecin demandeur": {
+        "choices": [
+          "Contact en distanciel (hotline, téléexpertise) proposé au médecin demandeur"
+        ],
+        "value": []
+      },
+      "Médecin": {
+        "Date et heure": "Sans objet : pas de contact en distanciel",
+        "Modalités": "Sans objet : pas de contact en distanciel"
+      },
+      "Commentaires éventuels": "Apporter les documents de bilan et ordonnances",
+      "Date de réception de la demande du médecin adresseur :": "16/10/2026",
+      "Date de réponse du médecin de la SDC :": "19/10/2026",
+      "Délais d’attente pour une première évaluation de la situation en SDC (le cas échéant), quelle qu’en soit la modalité :": "27 jours"
+    }
+  }
+}

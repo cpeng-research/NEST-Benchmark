@@ -1,0 +1,111 @@
+{
+  "extension_id": "2026-10-15-public-education-fr-v0.2",
+  "added_on": "2026-10-15",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 3,
+  "samples": [
+    {
+      "id": 345,
+      "language": "fr",
+      "title": "Fiche individuelle d’évaluation d’un candidat – PSE CAP épreuve ponctuelle",
+      "source_id": "fr-345-pse-cap-evaluation-candidat",
+      "domain": "Education",
+      "issuer_id": "fr-ministere-education-nationale",
+      "template_family": "pse-cap-evaluation-candidat",
+      "source_pages": 1,
+      "source_sha256": "04092f1895abaf843ec01fc78efbe41993bab7e0bca449e20783db89f67b8215",
+      "fields": 33,
+      "files": {
+        "workflow/0-html_template/data_fr/345.html": "a88060d8eee6166a6b64bdf84565feaa29c0db353ca712342bb5b84411e4463d",
+        "workflow/1-annotated_json/data_fr/345.json": "23cae50879a127c9d805c5b02dd687ce98e1a10259f20e17d4d11d544f50f76e",
+        "workflow/2-filled_json-a/data_fr/345.json": "c6409595943f19db73054777d4daafc3dc928ce294dc68a3e154a10343b387a6",
+        "workflow/3-filled_html-a/data_fr/345.html": "afcbc0270a3e4778416f83eb2b6e766ba579f44312dbb68611a4467dd6eb4f95",
+        "workflow/4-context-a/data_fr/345.txt": "13e80439a3229135f47556471d0a70fabd628c6452cd295e649010fe64826424",
+        "workflow/5-ph_html-a/data_fr/345.html": "df6855903ec3538e7ca87a3031105ae990212a992d64c17356b66fa11cb8a77e",
+        "workflow/6-meta-a/data_fr/345.json": "3f1375396f49d0b8cf30eea4960e08466bed3203883d20778d0ff542f2cead55"
+      },
+      "annotation_path": "data/annotations/fr/345.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 346,
+      "language": "fr",
+      "title": "Hypothèque sur un aéronef",
+      "source_id": "fr-346-hypotheque-aeronef-registre",
+      "domain": "GovPublic",
+      "issuer_id": "fr-ministere-transition-ecologique",
+      "template_family": "hypotheque-aeronef-registre",
+      "source_pages": 5,
+      "source_sha256": "d7ad4acd41e962365cd9a0d833eb81869497998b9fdb34ca77e369e8b48080af",
+      "fields": 92,
+      "files": {
+        "workflow/0-html_template/data_fr/346.html": "4164f0dc09b0ddbb71a329a398a668a950194213c785bcc40b16ef73abd30c84",
+        "workflow/1-annotated_json/data_fr/346.json": "c8fce38bdfa8687f65513f0fbcfcf1a682a5257d930e9de0060d28e7dbc29f52",
+        "workflow/2-filled_json-a/data_fr/346.json": "44c522e4f0c9b238e2a2a4c4b1eac4a8579ddc94b70dbb77341967f377d4039c",
+        "workflow/3-filled_html-a/data_fr/346.html": "799de10b5c890e70071798f600a014847aa298ff97e3bffa3fc929aa891a4a8f",
+        "workflow/4-context-a/data_fr/346.txt": "b8b6c5bb78a2e014bdb4d7c0d3281ba5d65a7fd0db6c6c9b52d3b30a3b0c38fb",
+        "workflow/5-ph_html-a/data_fr/346.html": "c6bcfc3dc3ded16ecffa0a05323a3bcb38309d34f22074f26c3b2ccf1e345bc5",
+        "workflow/6-meta-a/data_fr/346.json": "1f0f1c0de11e98131a925f6c89904cbbe76b7deab08c6f7abda2aa7aaf893019"
+      },
+      "annotation_path": "data/annotations/fr/346.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 347,
+      "language": "fr",
+      "title": "Concours Clemenceau – fiche descriptive du projet",
+      "source_id": "fr-347-clemenceau-fiche-descriptive-projet",
+      "domain": "Education",
+      "issuer_id": "fr-ministere-education-nationale",
+      "template_family": "clemenceau-fiche-descriptive-projet",
+      "source_pages": 3,
+      "source_sha256": "1cb7296bcb54eefff9125b064a0a6abf84f54a4830b42341e8cd9c289867e2be",
+      "fields": 65,
+      "files": {
+        "workflow/0-html_template/data_fr/347.html": "e5c205136372ff793c85ae2f59baf1a4ce6157982c2a46abe536a0ee1023aa76",
+        "workflow/1-annotated_json/data_fr/347.json": "c43d528b335dde83d31c97c17704c569a433e406457bcc5319ec3aacb53ceb46",
+        "workflow/2-filled_json-a/data_fr/347.json": "489cf3823afed7f4a244138ee362772e9f97ef698389e91ab460df43bd18ca20",
+        "workflow/3-filled_html-a/data_fr/347.html": "3599ecfe267e667963624c4967d68eef4d51ff994b258ea11bbac5acbae64526",
+        "workflow/4-context-a/data_fr/347.txt": "c15c3e8664652e926d53495b4f1e2eb8b8ef2990a3e2f0980ed11396a5165826",
+        "workflow/5-ph_html-a/data_fr/347.html": "2dfcb3a5a88088599bc23b40f025960e76591bc5e5d9c78589106251c1005c71",
+        "workflow/6-meta-a/data_fr/347.json": "8850effe76d722ea726f08cf39a285e610e75832fc0e311cbc4a6f602087018d"
+      },
+      "annotation_path": "data/annotations/fr/347.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}

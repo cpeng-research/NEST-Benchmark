@@ -1,0 +1,43 @@
+{
+  "extension_id": "2026-10-15-health-es-v0.3",
+  "added_on": "2026-10-15",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 1,
+  "samples": [
+    {
+      "id": 475,
+      "language": "es",
+      "title": "BUPIVACAÍNA: Comunicación de Sospecha de Falta de Efectividad",
+      "source_id": "es-anmat-bupivacaine-effectiveness-investigation",
+      "domain": "Healthcare",
+      "issuer_id": "ar-anmat",
+      "template_family": "bupivacaine",
+      "source_pages": 1,
+      "source_sha256": "19294e4799447273d409aaa4fef3d63fcf5d8e5fe98a32f5ea6e1d6a22b08d0b",
+      "fields": 63,
+      "files": {
+        "workflow/0-html_template/data_es/475.html": "47e9f896644d0f6de991a1e2b1d063e2585aa6631eacf4fb14f77239721d53f2",
+        "workflow/1-annotated_json/data_es/475.json": "b647ae3185549893cb544cbbca0d8907835ab1918c7e513a2fa9f56e97f0e90a",
+        "workflow/2-filled_json-a/data_es/475.json": "a47ca0acf32e83b8bfb0a2e4c25e7668564fe9177c1e14b57e188cc60038e654",
+        "workflow/3-filled_html-a/data_es/475.html": "bdd769d2554a80d84bbda5a9a96891271f559a97e9efa50204e328ded54601f9",
+        "workflow/4-context-a/data_es/475.txt": "8b6f4c5504400bd0743f67f4a1be7313d2a6401c01c20b783c80f8e2914e9f28",
+        "workflow/5-ph_html-a/data_es/475.html": "51e1ef627d8f869ef3e9b98806f42dd172c33957ab2fee08149edff6465d0e30",
+        "workflow/6-meta-a/data_es/475.json": "7477b58d6439ebc89013ecca67a8dc06bbe2396d856ad61f7104aae8417b95b0"
+      },
+      "annotation_path": "data/annotations/es/475.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}

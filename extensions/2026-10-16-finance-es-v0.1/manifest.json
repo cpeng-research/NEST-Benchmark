@@ -1,0 +1,79 @@
+{
+  "extension_id": "2026-10-16-finance-es-v0.1",
+  "added_on": "2026-10-16",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 2,
+  "samples": [
+    {
+      "id": 638,
+      "language": "es",
+      "title": "Formulario 117 - Pago de cuotas y cancelaciones totales o parciales",
+      "source_id": "es-638-iaf-cuotas-1",
+      "domain": "Finance",
+      "issuer_id": "Instituto de Ayuda Financiera",
+      "template_family": "iaf-cuotas-1",
+      "source_pages": 1,
+      "source_sha256": "60bed7b8fbedc29acb49cda6de337a0cedf507f177506311ecda4bd395434d9b",
+      "fields": 8,
+      "files": {
+        "workflow/0-html_template/data_es/638.html": "94cd264a6d28c0f4bc4fcb65909ec6ff8325a00e3f46566c1dd04646f113e08b",
+        "workflow/1-annotated_json/data_es/638.json": "e2e0a8e3ec8c45b995fe5ad0a407ea1f97a1bd1f24707a5f2bfc1100656d4c5c",
+        "workflow/2-filled_json-a/data_es/638.json": "72b9791698f174a30e2aa3737d19e5a04c3e0956e52387182a9944a214c10bca",
+        "workflow/3-filled_html-a/data_es/638.html": "fb3098498e12261ad453eb3c53219867058c48ac0ec63f6c9257cb04646bd41b",
+        "workflow/4-context-a/data_es/638.txt": "d14fa4b2bfe630442de4ec475ffa88afa09930c223dab5ce20ea9001ab2e5354",
+        "workflow/5-ph_html-a/data_es/638.html": "ed8b6978d731f3900e2ddf0f5f1847d725dd091de77dfa8d3c490adb342c1055",
+        "workflow/6-meta-a/data_es/638.json": "6ea00e7e48867fe023e70eb1491802a744bcceaf3eeb38845114cf668d2fbc12"
+      },
+      "annotation_path": "data/annotations/es/638.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      },
+      "business_topic": "Formulario 117 - Pago de cuotas y cancelaciones totales o parciales"
+    },
+    {
+      "id": 639,
+      "language": "es",
+      "title": "Pago de arancel por expedición de certificado de registro ante AFIP",
+      "source_id": "es-639-arca-certificado-5",
+      "domain": "Finance",
+      "issuer_id": "Instituto Nacional de la Propiedad Industrial",
+      "template_family": "arca-certificado-5",
+      "source_pages": 1,
+      "source_sha256": "9a311d1ea8db494539d67509b25c0f01d65dc4b09f0b7a85fd21beea01035343",
+      "fields": 12,
+      "files": {
+        "workflow/0-html_template/data_es/639.html": "9cfec8490652efc5b39f7cc002dc9fd0a29d7d62e71a9fefd8443adcceae5acd",
+        "workflow/1-annotated_json/data_es/639.json": "490f53e42ae2be600501e30de5bc80f25e24dc14aecf7c66ab889665b24d6998",
+        "workflow/2-filled_json-a/data_es/639.json": "9afed12eae2baecd6c142909075129e9c116bb6c641bc24f4352e4f31615ed99",
+        "workflow/3-filled_html-a/data_es/639.html": "151d0a2c7e964c2afa1ddb7bdaeb318674647f3c3536916220171a1bebf09099",
+        "workflow/4-context-a/data_es/639.txt": "0166a3f9f46dc89dfed87ed713e5c7e6d0c83a57d5aec8b94b47d98aba35f35c",
+        "workflow/5-ph_html-a/data_es/639.html": "91cde550c9590fc896f930a1b683a4bb468cdae09818988cc7b8a8d98f8daff7",
+        "workflow/6-meta-a/data_es/639.json": "302afdd1b2ec07ef02ca74a4ac0183eefd2cd2660c4b190c37898f40e84ac2a0"
+      },
+      "annotation_path": "data/annotations/es/639.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      },
+      "business_topic": "Pago de arancel por expedición de certificado de registro ante AFIP"
+    }
+  ]
+}

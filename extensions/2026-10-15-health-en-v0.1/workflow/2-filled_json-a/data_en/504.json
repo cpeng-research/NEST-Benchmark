@@ -1,0 +1,147 @@
+{
+  "SENDER’S INFORMATION": {
+    "Name and address": "Synthetic Northbridge Laboratory, 18 Example Road, London",
+    "Report to be sent FAO": "Dr Avery Example",
+    "Contact Phone": "020 7946 0123",
+    "Ext": "215",
+    "Purchase order number": "SYNPO504",
+    "Postcode": "SW1A 0AA",
+    "Project code": "SYNP504"
+  },
+  "PATIENT/SOURCE INFORMATION": {
+    "Care setting": {
+      "choices": [
+        "Inpatient",
+        "Outpatient",
+        "GP Patient"
+      ],
+      "value": [
+        "Inpatient"
+      ]
+    },
+    "NHS number": "SYN-NHS-504",
+    "Sex": {
+      "choices": [
+        "male",
+        "female"
+      ],
+      "value": [
+        "female"
+      ]
+    },
+    "Surname": "Example",
+    "Date of birth": "15/03/1992",
+    "Age": "34",
+    "Forename": "Morgan",
+    "Patient’s postcode": "SW1A 0AA",
+    "Patient’s HPT": "Synthetic London HPT",
+    "Hospital number": "SYNH504",
+    "Ward/ clinic name": "Synthetic Infection Clinic",
+    "Hospital name": "Synthetic Northbridge Hospital",
+    "Ward type": "Adult infectious diseases",
+    "Pregnant": {
+      "choices": [
+        "Yes",
+        "No",
+        "Unknown"
+      ],
+      "value": [
+        "No"
+      ]
+    },
+    "Weeks": "0"
+  },
+  "SAMPLE INFORMATION": {
+    "Your reference": "SYNV504",
+    "Sample type": {
+      "choices": [
+        "Vesicle Swab",
+        "Vesicle Fluid",
+        "CSF",
+        "Plasma",
+        "Viral isolate",
+        "DNA",
+        "Scab",
+        "*Serum",
+        "Other (please specify)"
+      ],
+      "value": [
+        "Vesicle Swab",
+        "*Serum",
+        "Other (please specify)"
+      ],
+      "Other": "Paired serum aliquot"
+    },
+    "Hazard details": "No Hazard Group 3 or 4 pathogen suspected",
+    "Post mortem": {
+      "choices": [
+        "Please tick the box if your clinical sample is post mortem"
+      ],
+      "value": []
+    },
+    "Date of collection": "12/10/2026",
+    "Time": "09:30",
+    "Date sent to UKHSA": "13/10/2026"
+  },
+  "TESTS REQUESTED": {
+    "Tests": {
+      "choices": [
+        "VZV IgG",
+        "VZV DNA",
+        "VZV IgM+IgG (IgM will only be performed if IgG is negative and clinical information is provided below)"
+      ],
+      "value": [
+        "VZV IgG",
+        "VZV DNA"
+      ]
+    }
+  },
+  "CLINICAL/EPIDEMIOLOGICAL INFORMATION": {
+    "Clinical purpose": {
+      "choices": [
+        "Pre vaccine screening",
+        "Post exposure",
+        "Confirmation of VZV infection or re-activation"
+      ],
+      "value": [
+        "Confirmation of VZV infection or re-activation"
+      ]
+    },
+    "Vaccine related samples": {
+      "Vaccine history": {
+        "choices": [
+          "Post vaccine",
+          "Varicella vaccine e.g.MMRV 1st dose Date",
+          "Varicella vaccine 2nd dose Date",
+          "Zostavax (NOT Shingrix) Date"
+        ],
+        "value": [
+          "Post vaccine",
+          "Varicella vaccine e.g.MMRV 1st dose Date",
+          "Varicella vaccine 2nd dose Date"
+        ]
+      },
+      "First dose date": "01/06/2026",
+      "Second dose date": "01/08/2026",
+      "Zostavax date": "Not administered"
+    },
+    "Nature of rash": {
+      "choices": [
+        "At vaccine inoculation site",
+        "Localised away from vaccine inoculation site",
+        "Generalised",
+        "Other (Please give details)"
+      ],
+      "value": [
+        "Generalised",
+        "Other (Please give details)"
+      ],
+      "Other details": "Generalised vesicular rash with lesions on trunk"
+    },
+    "Date of onset": "09/10/2026",
+    "Date of contact": "05/10/2026"
+  },
+  "OTHER CLINICAL DETAILS": {
+    "Clinical details": "Synthetic adult patient; previous varicella vaccination, breakthrough rash; not pregnant; no immunosuppression"
+  }
+}

@@ -1,0 +1,872 @@
+{
+  "id": "es-452-health-endocarditis",
+  "title": "Endocarditis con cultivo negativo: derivación y consentimiento",
+  "language": "es",
+  "domain": "Healthcare",
+  "issuer_id": "argentina-anlis-inei",
+  "template_family": "health-endocarditis",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/solicitud_diagnostico_eicn-consentimiento_informado.pdf",
+  "landing_url": "https://www.argentina.gob.ar/salud/anlis/inei/departamento-bacteriologia/instructivos-y-planillas",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "Contenido oficial de Argentina.gob.ar bajo CC BY 4.0 según sus términos y condiciones; atribución a la entidad emisora. Adaptación estructurada con valores ficticios; el PDF original no se distribuye.",
+  "source_sha256": "6f89bd06c8774b69eff2da19e6c53d3b2c8081be8085f3585e57b18779130b90",
+  "source_pages": 2,
+  "retrieved_at": "2026-10-14T18:31:21.454482+00:00",
+  "source_version": "Edición sin fecha impresa",
+  "source_date_evidence": {
+    "kind": "undated_edition_dated_retrieval",
+    "value": "No se imprime fecha de edición; fecha de recuperación documentada separadamente."
+  },
+  "columns": 4,
+  "rows": [
+    [
+      {
+        "text": "Endocarditis con cultivo negativo: derivación y consentimiento",
+        "heading": false,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "EICN- Planilla derivación / Identificación",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "N° IDENTIFICADOR BE",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nombre y Apellido del paciente",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Lugar de residencia: (ciudad, Pcia)",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "DNI",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Sexo",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f005",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Edad",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f006",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "EICN- Planilla derivación / Antecedentes",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Condiciones habitacionales",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f007",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Contacto con animales",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Ocupación (completar)",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Viajes durante el último año (completar fecha, lugar)",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Comorbilidad (completar)",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fecha de inicio de los síntomas (completar)",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Criterios Duke mayores (completar)",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f013",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Criterios Duke menores (completar)",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Tratamiento antibiótico previo (completar)",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Evolución* (marcar con una X)",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f016",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Especímenes clínicos enviados",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f017",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "EICN- Planilla derivación / Profesional responsable",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nombre de profesional responsable * (completar)",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f018",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Hospital /Ciudad * (completar )",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f019",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Email de contacto * (completar)",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f020",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Consentimiento: Las muestras enviadas al Servicio Bacteriología Especial serán utilizadas para realizar y evaluar las \npruebas diagnósticas incluidas en el algoritmo propuesto para diagnóstico de endocarditis infecciosas con cultivo \nnegativo. Los resultados podrán ser publicados en artículos en revistas científicas en los cuales serán incluidos dos \na tres autores de cada Institución. Las muestras serán derivadas junto al documento adjunto que corresponde al \nconsentimiento informado del paciente  \n \n",
+        "heading": false,
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Firma",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f021",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Aclaración",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "field": "f022",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Consentimiento informado para la publicación de información personal",
+        "heading": true,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "             \nConsentimiento informado para la publicación de información personal \n \nA través de este medio doy mi consentimiento para que todo el material de la historia clínica, imágenes y cualquier otro tipo \nde información acerca del paciente mencionado a continuación, sea publicado en una revista médica o congreso médico que \nlos autores consideren pertinentes con fines científicos y docentes. \n \nNombre del paciente: ………………………………………………………………………………. \n \nComprendo que no se publicará mi nombre o el nombre de mi familiar y que se intentará en todo lo \nposible mantener el anonimato de la identidad en el texto y en las imágenes. Sin embargo, comprendo que no se puede \ngarantizar el anonimato completo. \nEsta autorización incluye la publicación en idioma español o inglés, impresa, en formato electrónico en el sitio web de la \nrevista, y en cualquier otro formato usado por la revista científica actualmente y en el futuro. \nLa revista está destinada a profesionales de la salud, pero puede ser leída por otras personas que no son profesionales de la \nsalud. \nPuedo revocar mi consentimiento en cualquier momento antes de la publicación, pero una vez que la información haya sido \nconsignada para publicación (“en imprenta”) ya no será posible revocar el consentimiento. \nA través de este medio manifiesto a la persona o institución correspondiente que he entendido y aprobado lo mencionado \ncon anterioridad. \n \n",
+        "heading": false,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Nombre del paciente:",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f023",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Nombre del paciente, padre, madre o tutor legal:",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f024",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Documento de identidad (tipo y número):",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f025",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Parentesco:",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f026",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Firma:",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f027",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Fecha:",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f028",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Firma y sello del profesional",
+        "colspan": 2,
+        "source_page": 2
+      },
+      {
+        "field": "f029",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Atribución: argentina-anlis-inei. Contenido oficial de Argentina.gob.ar bajo CC BY 4.0 según sus términos y condiciones; atribución a la entidad emisora. Adaptación estructurada con valores ficticios; el PDF original no se distribuye.",
+        "heading": false,
+        "colspan": 4,
+        "source_page": 2
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "path": [
+        "EICN- Planilla derivación",
+        "Identificación",
+        "N° IDENTIFICADOR BE"
+      ],
+      "label": "N° IDENTIFICADOR BE",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "N° IDENTIFICADOR BE",
+      "synthetic_value": "32765432",
+      "context_evidence": "EICN- Planilla derivación / Identificación / N° IDENTIFICADOR BE: 32765432."
+    },
+    {
+      "id": "f002",
+      "path": [
+        "EICN- Planilla derivación",
+        "Identificación",
+        "Nombre y Apellido del paciente"
+      ],
+      "label": "Nombre y Apellido del paciente",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre y Apellido del paciente",
+      "synthetic_value": "Lucía Rivas Molina",
+      "context_evidence": "EICN- Planilla derivación / Identificación / Nombre y Apellido del paciente: Lucía Rivas Molina."
+    },
+    {
+      "id": "f003",
+      "path": [
+        "EICN- Planilla derivación",
+        "Identificación",
+        "Lugar de residencia: (ciudad, Pcia)"
+      ],
+      "label": "Lugar de residencia: (ciudad, Pcia)",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Lugar de residencia: (ciudad, Pcia)",
+      "synthetic_value": "Mendoza",
+      "context_evidence": "EICN- Planilla derivación / Identificación / Lugar de residencia: (ciudad, Pcia): Mendoza."
+    },
+    {
+      "id": "f004",
+      "path": [
+        "EICN- Planilla derivación",
+        "Identificación",
+        "DNI"
+      ],
+      "label": "DNI",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DNI",
+      "synthetic_value": "32765432",
+      "context_evidence": "EICN- Planilla derivación / Identificación / DNI: 32765432."
+    },
+    {
+      "id": "f005",
+      "path": [
+        "EICN- Planilla derivación",
+        "Identificación",
+        "Sexo"
+      ],
+      "label": "Sexo",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Sexo",
+      "synthetic_value": "Femenino",
+      "context_evidence": "EICN- Planilla derivación / Identificación / Sexo: Femenino."
+    },
+    {
+      "id": "f006",
+      "path": [
+        "EICN- Planilla derivación",
+        "Identificación",
+        "Edad"
+      ],
+      "label": "Edad",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Edad",
+      "synthetic_value": "34",
+      "context_evidence": "EICN- Planilla derivación / Identificación / Edad: 34."
+    },
+    {
+      "id": "f007",
+      "path": [
+        "EICN- Planilla derivación",
+        "Antecedentes",
+        "Condiciones habitacionales"
+      ],
+      "label": "Condiciones habitacionales",
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "Condiciones habitacionales",
+      "synthetic_value": [
+        "Rural"
+      ],
+      "options": [
+        "Rural",
+        "Urbano",
+        "Indigente",
+        "Desconocida"
+      ],
+      "context_evidence": "EICN- Planilla derivación / Antecedentes / Condiciones habitacionales: Rural."
+    },
+    {
+      "id": "f008",
+      "path": [
+        "EICN- Planilla derivación",
+        "Antecedentes",
+        "Contacto con animales"
+      ],
+      "label": "Contacto con animales",
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "Contacto con animales",
+      "synthetic_value": [
+        "Mascotas",
+        "Ganado"
+      ],
+      "options": [
+        "Mascotas",
+        "Ganado",
+        "Salvajes"
+      ],
+      "context_evidence": "EICN- Planilla derivación / Antecedentes / Contacto con animales: Mascotas, Ganado."
+    },
+    {
+      "id": "f009",
+      "path": [
+        "EICN- Planilla derivación",
+        "Antecedentes",
+        "Ocupación (completar)"
+      ],
+      "label": "Ocupación (completar)",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Ocupación (completar)",
+      "synthetic_value": "Docente de ciencias",
+      "context_evidence": "EICN- Planilla derivación / Antecedentes / Ocupación (completar): Docente de ciencias."
+    },
+    {
+      "id": "f010",
+      "path": [
+        "EICN- Planilla derivación",
+        "Antecedentes",
+        "Viajes durante el último año (completar fecha, lugar)"
+      ],
+      "label": "Viajes durante el último año (completar fecha, lugar)",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Viajes durante el último año (completar fecha, lugar)",
+      "synthetic_value": "San Rafael, Mendoza; agosto de 2026",
+      "context_evidence": "EICN- Planilla derivación / Antecedentes / Viajes durante el último año (completar fecha, lugar): San Rafael, Mendoza; agosto de 2026."
+    },
+    {
+      "id": "f011",
+      "path": [
+        "EICN- Planilla derivación",
+        "Antecedentes",
+        "Comorbilidad (completar)"
+      ],
+      "label": "Comorbilidad (completar)",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Comorbilidad (completar)",
+      "synthetic_value": "Sin comorbilidades conocidas",
+      "context_evidence": "EICN- Planilla derivación / Antecedentes / Comorbilidad (completar): Sin comorbilidades conocidas."
+    },
+    {
+      "id": "f012",
+      "path": [
+        "EICN- Planilla derivación",
+        "Antecedentes",
+        "Fecha de inicio de los síntomas (completar)"
+      ],
+      "label": "Fecha de inicio de los síntomas (completar)",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha de inicio de los síntomas (completar)",
+      "synthetic_value": "Evaluación clínica registrada: fiebre y eritema; sin comorbilidad inmunosupresora",
+      "context_evidence": "EICN- Planilla derivación / Antecedentes / Fecha de inicio de los síntomas (completar): Evaluación clínica registrada: fiebre y eritema; sin comorbilidad inmunosupresora."
+    },
+    {
+      "id": "f013",
+      "path": [
+        "EICN- Planilla derivación",
+        "Antecedentes",
+        "Criterios Duke mayores (completar)"
+      ],
+      "label": "Criterios Duke mayores (completar)",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Criterios Duke mayores (completar)",
+      "synthetic_value": "Evaluación clínica registrada: fiebre y eritema; sin comorbilidad inmunosupresora",
+      "context_evidence": "EICN- Planilla derivación / Antecedentes / Criterios Duke mayores (completar): Evaluación clínica registrada: fiebre y eritema; sin comorbilidad inmunosupresora."
+    },
+    {
+      "id": "f014",
+      "path": [
+        "EICN- Planilla derivación",
+        "Antecedentes",
+        "Criterios Duke menores (completar)"
+      ],
+      "label": "Criterios Duke menores (completar)",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Criterios Duke menores (completar)",
+      "synthetic_value": "Evaluación clínica registrada: fiebre y eritema; sin comorbilidad inmunosupresora",
+      "context_evidence": "EICN- Planilla derivación / Antecedentes / Criterios Duke menores (completar): Evaluación clínica registrada: fiebre y eritema; sin comorbilidad inmunosupresora."
+    },
+    {
+      "id": "f015",
+      "path": [
+        "EICN- Planilla derivación",
+        "Antecedentes",
+        "Tratamiento antibiótico previo (completar)"
+      ],
+      "label": "Tratamiento antibiótico previo (completar)",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Tratamiento antibiótico previo (completar)",
+      "synthetic_value": "Amoxicilina durante cinco días",
+      "context_evidence": "EICN- Planilla derivación / Antecedentes / Tratamiento antibiótico previo (completar): Amoxicilina durante cinco días."
+    },
+    {
+      "id": "f016",
+      "path": [
+        "EICN- Planilla derivación",
+        "Antecedentes",
+        "Evolución* (marcar con una X)"
+      ],
+      "label": "Evolución* (marcar con una X)",
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Evolución* (marcar con una X)",
+      "synthetic_value": "Favorable",
+      "options": [
+        "Favorable",
+        "Óbito",
+        "Desconocida"
+      ],
+      "context_evidence": "EICN- Planilla derivación / Antecedentes / Evolución* (marcar con una X): Favorable."
+    },
+    {
+      "id": "f017",
+      "path": [
+        "EICN- Planilla derivación",
+        "Antecedentes",
+        "Especímenes clínicos enviados"
+      ],
+      "label": "Especímenes clínicos enviados",
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "Especímenes clínicos enviados",
+      "synthetic_value": [
+        "Suero",
+        "Sangre /EDTA"
+      ],
+      "options": [
+        "Suero",
+        "Sangre /EDTA",
+        "Tejido",
+        "Taco de parafina"
+      ],
+      "context_evidence": "EICN- Planilla derivación / Antecedentes / Especímenes clínicos enviados: Suero, Sangre /EDTA."
+    },
+    {
+      "id": "f018",
+      "path": [
+        "EICN- Planilla derivación",
+        "Profesional responsable",
+        "Nombre de profesional responsable * (completar)"
+      ],
+      "label": "Nombre de profesional responsable * (completar)",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre de profesional responsable * (completar)",
+      "synthetic_value": "Lucía Rivas Molina",
+      "context_evidence": "EICN- Planilla derivación / Profesional responsable / Nombre de profesional responsable * (completar): Lucía Rivas Molina."
+    },
+    {
+      "id": "f019",
+      "path": [
+        "EICN- Planilla derivación",
+        "Profesional responsable",
+        "Hospital /Ciudad * (completar )"
+      ],
+      "label": "Hospital /Ciudad * (completar )",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Hospital /Ciudad * (completar )",
+      "synthetic_value": "Institución educativa y clínica de ejemplo",
+      "context_evidence": "EICN- Planilla derivación / Profesional responsable / Hospital /Ciudad * (completar ): Institución educativa y clínica de ejemplo."
+    },
+    {
+      "id": "f020",
+      "path": [
+        "EICN- Planilla derivación",
+        "Profesional responsable",
+        "Email de contacto * (completar)"
+      ],
+      "label": "Email de contacto * (completar)",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Email de contacto * (completar)",
+      "synthetic_value": "lucia.rivas@example.org",
+      "context_evidence": "EICN- Planilla derivación / Profesional responsable / Email de contacto * (completar): lucia.rivas@example.org."
+    },
+    {
+      "id": "f021",
+      "path": [
+        "EICN- Planilla derivación",
+        "Profesional responsable",
+        "Firma"
+      ],
+      "label": "Firma",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Firma",
+      "synthetic_value": "Lucía Rivas Molina",
+      "context_evidence": "EICN- Planilla derivación / Profesional responsable / Firma: Lucía Rivas Molina."
+    },
+    {
+      "id": "f022",
+      "path": [
+        "EICN- Planilla derivación",
+        "Profesional responsable",
+        "Aclaración"
+      ],
+      "label": "Aclaración",
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Aclaración",
+      "synthetic_value": "Lucía Rivas Molina",
+      "context_evidence": "EICN- Planilla derivación / Profesional responsable / Aclaración: Lucía Rivas Molina."
+    },
+    {
+      "id": "f023",
+      "path": [
+        "Consentimiento informado para la publicación de información personal",
+        "Nombre del paciente"
+      ],
+      "label": "Nombre del paciente:",
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nombre del paciente:",
+      "synthetic_value": "Lucía Rivas Molina",
+      "context_evidence": "Consentimiento informado para la publicación de información personal / Nombre del paciente: Lucía Rivas Molina."
+    },
+    {
+      "id": "f024",
+      "path": [
+        "Consentimiento informado para la publicación de información personal",
+        "Nombre del paciente, padre, madre o tutor legal"
+      ],
+      "label": "Nombre del paciente, padre, madre o tutor legal:",
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Nombre del paciente, padre, madre o tutor legal:",
+      "synthetic_value": "Lucía Rivas Molina",
+      "context_evidence": "Consentimiento informado para la publicación de información personal / Nombre del paciente, padre, madre o tutor legal: Lucía Rivas Molina."
+    },
+    {
+      "id": "f025",
+      "path": [
+        "Consentimiento informado para la publicación de información personal",
+        "Documento de identidad (tipo y número)"
+      ],
+      "label": "Documento de identidad (tipo y número):",
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Documento de identidad (tipo y número):",
+      "synthetic_value": "DNI 32765432",
+      "context_evidence": "Consentimiento informado para la publicación de información personal / Documento de identidad (tipo y número): DNI 32765432."
+    },
+    {
+      "id": "f026",
+      "path": [
+        "Consentimiento informado para la publicación de información personal",
+        "Parentesco"
+      ],
+      "label": "Parentesco:",
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Parentesco:",
+      "synthetic_value": "Paciente adulto, por sí mismo",
+      "context_evidence": "Consentimiento informado para la publicación de información personal / Parentesco: Paciente adulto, por sí mismo."
+    },
+    {
+      "id": "f027",
+      "path": [
+        "Consentimiento informado para la publicación de información personal",
+        "Firma"
+      ],
+      "label": "Firma:",
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Firma:",
+      "synthetic_value": "Lucía Rivas Molina",
+      "context_evidence": "Consentimiento informado para la publicación de información personal / Firma: Lucía Rivas Molina."
+    },
+    {
+      "id": "f028",
+      "path": [
+        "Consentimiento informado para la publicación de información personal",
+        "Fecha"
+      ],
+      "label": "Fecha:",
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Fecha:",
+      "synthetic_value": "15/10/2026",
+      "context_evidence": "Consentimiento informado para la publicación de información personal / Fecha: 15/10/2026."
+    },
+    {
+      "id": "f029",
+      "path": [
+        "Consentimiento informado para la publicación de información personal",
+        "Firma y sello del profesional"
+      ],
+      "label": "Firma y sello del profesional",
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Firma y sello del profesional",
+      "synthetic_value": "Lucía Rivas Molina",
+      "context_evidence": "Consentimiento informado para la publicación de información personal / Firma y sello del profesional: Lucía Rivas Molina."
+    }
+  ],
+  "context": "Caso completamente ficticio para completar todos los espacios, incluidos los administrativos. No describe personas ni instituciones reales.\nEICN- Planilla derivación / Identificación / N° IDENTIFICADOR BE: 32765432.\nEICN- Planilla derivación / Identificación / Nombre y Apellido del paciente: Lucía Rivas Molina.\nEICN- Planilla derivación / Identificación / Lugar de residencia: (ciudad, Pcia): Mendoza.\nEICN- Planilla derivación / Identificación / DNI: 32765432.\nEICN- Planilla derivación / Identificación / Sexo: Femenino.\nEICN- Planilla derivación / Identificación / Edad: 34.\nEICN- Planilla derivación / Antecedentes / Condiciones habitacionales: Rural.\nEICN- Planilla derivación / Antecedentes / Contacto con animales: Mascotas, Ganado.\nEICN- Planilla derivación / Antecedentes / Ocupación (completar): Docente de ciencias.\nEICN- Planilla derivación / Antecedentes / Viajes durante el último año (completar fecha, lugar): San Rafael, Mendoza; agosto de 2026.\nEICN- Planilla derivación / Antecedentes / Comorbilidad (completar): Sin comorbilidades conocidas.\nEICN- Planilla derivación / Antecedentes / Fecha de inicio de los síntomas (completar): Evaluación clínica registrada: fiebre y eritema; sin comorbilidad inmunosupresora.\nEICN- Planilla derivación / Antecedentes / Criterios Duke mayores (completar): Evaluación clínica registrada: fiebre y eritema; sin comorbilidad inmunosupresora.\nEICN- Planilla derivación / Antecedentes / Criterios Duke menores (completar): Evaluación clínica registrada: fiebre y eritema; sin comorbilidad inmunosupresora.\nEICN- Planilla derivación / Antecedentes / Tratamiento antibiótico previo (completar): Amoxicilina durante cinco días.\nEICN- Planilla derivación / Antecedentes / Evolución* (marcar con una X): Favorable.\nEICN- Planilla derivación / Antecedentes / Especímenes clínicos enviados: Suero, Sangre /EDTA.\nEICN- Planilla derivación / Profesional responsable / Nombre de profesional responsable * (completar): Lucía Rivas Molina.\nEICN- Planilla derivación / Profesional responsable / Hospital /Ciudad * (completar ): Institución educativa y clínica de ejemplo.\nEICN- Planilla derivación / Profesional responsable / Email de contacto * (completar): lucia.rivas@example.org.\nEICN- Planilla derivación / Profesional responsable / Firma: Lucía Rivas Molina.\nEICN- Planilla derivación / Profesional responsable / Aclaración: Lucía Rivas Molina.\nConsentimiento informado para la publicación de información personal / Nombre del paciente: Lucía Rivas Molina.\nConsentimiento informado para la publicación de información personal / Nombre del paciente, padre, madre o tutor legal: Lucía Rivas Molina.\nConsentimiento informado para la publicación de información personal / Documento de identidad (tipo y número): DNI 32765432.\nConsentimiento informado para la publicación de información personal / Parentesco: Paciente adulto, por sí mismo.\nConsentimiento informado para la publicación de información personal / Firma: Lucía Rivas Molina.\nConsentimiento informado para la publicación de información personal / Fecha: 15/10/2026.\nConsentimiento informado para la publicación de información personal / Firma y sello del profesional: Lucía Rivas Molina.",
+  "issuer": "Instituto Nacional de Enfermedades Infecciosas - ANLIS Dr. Carlos G. Malbrán",
+  "workflow_identity": {
+    "language": "es",
+    "id": 452
+  }
+}

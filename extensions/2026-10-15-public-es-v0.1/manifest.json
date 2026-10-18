@@ -1,0 +1,179 @@
+{
+  "extension_id": "2026-10-15-public-es-v0.1",
+  "added_on": "2026-10-15",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 5,
+  "samples": [
+    {
+      "id": 410,
+      "language": "es",
+      "title": "SOLICITUD DE INSCRIPCION DE MATERIAL BASICO FORESTAL",
+      "source_id": "es-410-forestal-material",
+      "domain": "GovPublic",
+      "issuer_id": "ar-forestal",
+      "template_family": "forestal-material",
+      "source_pages": 2,
+      "source_sha256": "df58f85a68a8f79cdb73d6df99dbcdd189373b0fc92bdb836697ca573499419d",
+      "fields": 29,
+      "files": {
+        "workflow/0-html_template/data_es/410.html": "ac26171c25ab222ace8986e6ceb8f490dfe90592a70d3fbd976dac4c81d851af",
+        "workflow/1-annotated_json/data_es/410.json": "e8f9a322a77bdd54419bd8eccb0ed8397ce7757d569d5153f9024051b7bf2eeb",
+        "workflow/2-filled_json-a/data_es/410.json": "d9da3c7525439421e73f3000e810babcc71484d7bc4f9ce5e001c1c5c18be928",
+        "workflow/3-filled_html-a/data_es/410.html": "c0f2420c4969bb65ee6c9d15c1dae6d073f936c6d0ada87e417b903d0f27cd76",
+        "workflow/4-context-a/data_es/410.txt": "694570ad59b2d873328f7ee228951fa4a077ada3fd84271452310df190f2f077",
+        "workflow/5-ph_html-a/data_es/410.html": "fdc097f5c1376d193a5f569ea0bc4bfad9506d6e57fd0c7b2511b997604e20c0",
+        "workflow/6-meta-a/data_es/410.json": "6ea543e24ba76757ecafe8056b92d843cfc96ec0dd4b065d6cc20bfc3d7bac78"
+      },
+      "annotation_path": "data/annotations/es/410.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 411,
+      "language": "es",
+      "title": "DECLARACION DE COSECHA",
+      "source_id": "es-411-forestal-cosecha",
+      "domain": "GovPublic",
+      "issuer_id": "ar-forestal",
+      "template_family": "forestal-cosecha",
+      "source_pages": 1,
+      "source_sha256": "b19d294f9f80426bc7702cbf328fd26da28b87758ef12dbaf103438776a8c034",
+      "fields": 25,
+      "files": {
+        "workflow/0-html_template/data_es/411.html": "e6349557e97d5cd80e31f9680818207f2166fe4596e8179e5110127c1c825fc4",
+        "workflow/1-annotated_json/data_es/411.json": "354b74f2f8cf5ec6fc3dc8b99b54a1b1047fef04be1b60e12f27657b5bd845fc",
+        "workflow/2-filled_json-a/data_es/411.json": "f59df5bd03eb0d6ddac8420cd8f57ca0bee4b94e8b953b7fe0f8b43cd64e505c",
+        "workflow/3-filled_html-a/data_es/411.html": "50751449c6879ca51a45417c6ee8daa04a564707ea8e50ff76666923fcbe81a7",
+        "workflow/4-context-a/data_es/411.txt": "13fa6dae0ae779d643b814a749c7e1dd44d3f6dbdf5422f0cf64a6ec7c116319",
+        "workflow/5-ph_html-a/data_es/411.html": "96213ac9235998079c5a04060f9088b119e0446b8bdcbd8573c953b6d445511f",
+        "workflow/6-meta-a/data_es/411.json": "3695a52af43e535337722e725ceba5353e5fb63791fc046769921650c9b556b8"
+      },
+      "annotation_path": "data/annotations/es/411.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 412,
+      "language": "es",
+      "title": "SOLICITUD DE DOCUMENTO DE AUTORIZACION DE VENTA",
+      "source_id": "es-412-forestal-dav",
+      "domain": "GovPublic",
+      "issuer_id": "ar-forestal",
+      "template_family": "forestal-dav",
+      "source_pages": 1,
+      "source_sha256": "8f4c17566a980fd09eb230c77609054e8bd1b96fe969551bcc6c140dd9b8175c",
+      "fields": 16,
+      "files": {
+        "workflow/0-html_template/data_es/412.html": "7fdc9e1884bd8f7c4d42c00a57e3c1fe0c3766b533ca29021bf66bc16403479f",
+        "workflow/1-annotated_json/data_es/412.json": "a3493332fd7a0538dcfa2bc808876c3a2188c0b0bb75d532db8727da30879673",
+        "workflow/2-filled_json-a/data_es/412.json": "48a3d15a1338f5215bdc07f5680a42263933b451b65d16abf4697d820a502d0f",
+        "workflow/3-filled_html-a/data_es/412.html": "d230daa4ae6d4bf26363e199da7e6d1c61f0b9c546b3965506eae1edd9eb893a",
+        "workflow/4-context-a/data_es/412.txt": "bab63e1c3bba588d934f01be162b5ba4f02bcdf312566526239541972e3b3067",
+        "workflow/5-ph_html-a/data_es/412.html": "417b7ac7971da58d331012d482ec81b3f9c307c655858be4b9f51a1b3edf7ff0",
+        "workflow/6-meta-a/data_es/412.json": "04779ee24cf03f03896958cc2915af79edde7ed97bf3e315c2dd30075cfd0562"
+      },
+      "annotation_path": "data/annotations/es/412.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 413,
+      "language": "es",
+      "title": "SOLICITUD DE INSCRIPCIÓN DE CONTRATOS DE TRANSFERENCIA DE TECNOLOGÍA",
+      "source_id": "es-413-inpi-transferencia",
+      "domain": "GovPublic",
+      "issuer_id": "ar-inpi",
+      "template_family": "inpi-transferencia",
+      "source_pages": 6,
+      "source_sha256": "42674d5c4a940753a713b49a8e85cb653dcda20616bde67b9d7efcf9b49c0dd3",
+      "fields": 46,
+      "files": {
+        "workflow/0-html_template/data_es/413.html": "7258c2eb1459337fd2e13790a13a1d48fd631a5d81d833030f114885da94b0f0",
+        "workflow/1-annotated_json/data_es/413.json": "d6c0e60b1d75d632acf0e5b0bf407b83bae104c3c78be695fc49f9bb9b065fde",
+        "workflow/2-filled_json-a/data_es/413.json": "44bf2ff4f5b1e89c0227a9a18a41a8708647260a32c79618f88294e03fafbc03",
+        "workflow/3-filled_html-a/data_es/413.html": "8bcff7c66a65093ae50d67923b87de7f20fe143e1ed6b34462c73154ec933c21",
+        "workflow/4-context-a/data_es/413.txt": "ecf2a0c2a7e8ec419b1fafe66395650ac8899fb1eabbe2f4674e85f1634d40ae",
+        "workflow/5-ph_html-a/data_es/413.html": "aa702732ae7b88159ad03d4a1a6d969527540e35caa31fbcaf892c682219543c",
+        "workflow/6-meta-a/data_es/413.json": "16d3cf2119ea207ef1b7aa07b53df9a2757e5d8404f6080a97ab20e6188acb57"
+      },
+      "annotation_path": "data/annotations/es/413.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 414,
+      "language": "es",
+      "title": "SOLICITUD AUTORIZACIÓN EN ALTURA OBJETOS INDIVIDUALES",
+      "source_id": "es-414-anac-objetos",
+      "domain": "GovPublic",
+      "issuer_id": "ar-anac",
+      "template_family": "anac-objetos",
+      "source_pages": 2,
+      "source_sha256": "b10d0c98673a1d5c851e4bcf2a232790bc3ac58bfdced107d2c0bd5ede55dfc1",
+      "fields": 26,
+      "files": {
+        "workflow/0-html_template/data_es/414.html": "ab5aacadd82e496a17df4f0756c500a941df2ac2e61636fe4ae7e0b4e0488ef1",
+        "workflow/1-annotated_json/data_es/414.json": "f37e8c266bfb32fcbb96b090ac8a5bf8a5ae7776beb7b4f840bc0c30c4cdbf5e",
+        "workflow/2-filled_json-a/data_es/414.json": "e1e61055e5b2e35c48daecf32dc6cc2b67b37d544908ab04a9600916b69e2979",
+        "workflow/3-filled_html-a/data_es/414.html": "e235d352498fd0a3ac9db66329bf326f3fb4ab53ca9eeaba1f4a06a03602b11f",
+        "workflow/4-context-a/data_es/414.txt": "65e718666b0ae387007ac8e08d0a51a0abecdb07ebff610ea63903fe086f7378",
+        "workflow/5-ph_html-a/data_es/414.html": "7eb252013e3184039e82b0a5554e2bb65fddea6ce984933505f242d752c6f853",
+        "workflow/6-meta-a/data_es/414.json": "fc43eeeb1fd0cdee38527465c20a8492708d69aa981ab7aeea789a443c4b4ee8"
+      },
+      "annotation_path": "data/annotations/es/414.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}

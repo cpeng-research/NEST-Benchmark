@@ -1,0 +1,43 @@
+{
+  "extension_id": "2026-10-16-education-fr-v0.1",
+  "added_on": "2026-10-16",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 1,
+  "samples": [
+    {
+      "id": 630,
+      "language": "fr",
+      "title": "Mandat de paiement sous seing privé – bénéficiaire majeur, allocation PFMP",
+      "source_id": "fr-630-pfmp-mandat-paiement-beneficiaire-majeur",
+      "domain": "Education",
+      "issuer_id": "fr-ministere-education-nationale",
+      "template_family": "pfmp-mandat-paiement-beneficiaire-majeur",
+      "source_pages": 3,
+      "source_sha256": "ff1eccfadbe22418cac61e13f466fa4d799b74c3d7b505f570c35e4b2b769a4e",
+      "fields": 18,
+      "files": {
+        "workflow/0-html_template/data_fr/630.html": "3455551f00cc44ac3f81cdda3953b6bcaf7c29394be3eaa409add562828f6c04",
+        "workflow/1-annotated_json/data_fr/630.json": "7f01775dc2116ff362e654b0b93d707fd48ad458ee6627b0c0968165d102a9af",
+        "workflow/2-filled_json-a/data_fr/630.json": "5a6e57428d8993839280efce4cbcf7e640df3e46ca1f983e13d7f75aea268fa4",
+        "workflow/3-filled_html-a/data_fr/630.html": "51d8f776da1de6591a1f868cfda5034834bcd3918df99272d3cb2966fa3222dd",
+        "workflow/4-context-a/data_fr/630.txt": "030a78de46a8070748cebee1769f1144c01093e88165c490dcd4c9cb4d0dcab7",
+        "workflow/5-ph_html-a/data_fr/630.html": "9a27cb76ba58aff40adea2763a0dbe8e77bb282068aab44f6fc2d5fdbb4beeb9",
+        "workflow/6-meta-a/data_fr/630.json": "e05dacb5a6faaada161858542bdfd74aff3541082d9edaa6d523bb339f0ecce1"
+      },
+      "annotation_path": "data/annotations/fr/630.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "SENDER’S INFORMATION": {
+    "Sender name and address": "Synthetic Northbridge Laboratory, 18 Example Road, London",
+    "Report to be sent FAO": "Dr Avery Example",
+    "Contact Phone": "020 7946 0123",
+    "Ext": "215",
+    "Purchase order number": "SYNPO509",
+    "Postcode": "SW1A 0AA",
+    "Project code": "SYNP509"
+  },
+  "PATIENT/SOURCE INFORMATION": {
+    "Care setting": {
+      "Selections": {
+        "choices": [
+          "Inpatient",
+          "Outpatient",
+          "GP Patient",
+          "Other*"
+        ],
+        "value": [
+          "Other*"
+        ]
+      },
+      "Other details": "Synthetic specialist service"
+    },
+    "NHS number": "SYN-NHS-509",
+    "Sex": {
+      "choices": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "value": [
+        "female"
+      ]
+    },
+    "Surname": "Example",
+    "Date of birth": "15/03/1992",
+    "Age": "34",
+    "Forename": "Morgan",
+    "Patient postcode": "SW1A 0AA",
+    "Pregnant": {
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "value": [
+        "No"
+      ]
+    },
+    "Breast feeding": {
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "value": [
+        "No"
+      ]
+    },
+    "Hospital number": "SYNH509",
+    "Ward name": "Synthetic Infection Clinic",
+    "Hospital name": "Synthetic Northbridge Hospital",
+    "Ward type": "Adult infectious diseases",
+    "Ethnic information": {
+      "choices": [
+        "White",
+        "Black Caribbean",
+        "Black African",
+        "Black other",
+        "Indian/Pakistani/Bangladeshi",
+        "Other/Mixed"
+      ],
+      "value": [
+        "Other/Mixed"
+      ]
+    },
+    "Previous samples": {
+      "Sent": {
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "value": [
+          "Yes"
+        ]
+      },
+      "Reference": "SYNREF509"
+    }
+  },
+  "SAMPLE INFORMATION": {
+    "Your reference": "SYNS509",
+    "Sample type": {
+      "choices": [
+        "Serum/plasma",
+        "EDTA whole blood"
+      ],
+      "value": [
+        "Serum/plasma",
+        "EDTA whole blood"
+      ]
+    },
+    "Hazard details": "No additional hazard suspected",
+    "Date of collection": "12/10/2026",
+    "Time": "09:30",
+    "Date sent to UKHSA": "13/10/2026",
+    "Post mortem": {
+      "choices": [
+        "Please tick the box if your clinical sample is post mortem"
+      ],
+      "value": []
+    }
+  },
+  "MOTHER TO CHILD TRANSMISSION (MTCT) INVESTIGATION": {
+    "Corresponding mother or child": {
+      "Name": "Synthetic Robin Example",
+      "Date of birth": "15/03/1992",
+      "Previous reference": "SYNMTCT509"
+    }
+  },
+  "TESTS REQUESTED": {
+    "Tests": {
+      "choices": [
+        "HIV confirmation",
+        "HIV-1 proviral DNA detection",
+        "Maternal transmission (mother HIV positive)",
+        "HIV-1 recency/avidity test",
+        "HIV-1 RNA detection",
+        "Maternal transmission (mother’s HIV status unknown)"
+      ],
+      "value": [
+        "HIV confirmation",
+        "HIV-1 RNA detection"
+      ]
+    }
+  },
+  "SENDER’S LABORATORY RESULTS": {
+    "Assay 1": {
+      "ASSAY/KIT": "Synthetic assay 1",
+      "Product no.": "SYNKIT1",
+      "OD 1": "1.30",
+      "OD 2": "1.40",
+      "Cut off": "0.90",
+      "Result/Interpretation": "Synthetic reactive screening result"
+    },
+    "Assay 2": {
+      "ASSAY/KIT": "Synthetic assay 2",
+      "Product no.": "SYNKIT2",
+      "OD 1": "1.40",
+      "OD 2": "1.50",
+      "Cut off": "0.90",
+      "Result/Interpretation": "Synthetic reactive screening result"
+    },
+    "Assay 3": {
+      "ASSAY/KIT": "Synthetic assay 3",
+      "Product no.": "SYNKIT3",
+      "OD 1": "1.50",
+      "OD 2": "1.60",
+      "Cut off": "0.90",
+      "Result/Interpretation": "Synthetic reactive screening result"
+    },
+    "Current HIV test results": {
+      "choices": [
+        "HIV-1 positive",
+        "Untyped",
+        "HIV-2 positive",
+        "Indeterminate"
+      ],
+      "value": [
+        "HIV-1 positive"
+      ]
+    },
+    "Prior HIV testing": {
+      "Response": {
+        "choices": [
+          "No",
+          "Yes (please specify date(s) below)"
+        ],
+        "value": [
+          "Yes (please specify date(s) below)"
+        ]
+      },
+      "Last negative": "01/06/2026",
+      "Earliest positive UK": "01/10/2026"
+    }
+  },
+  "CLINICAL INFORMATION": {
+    "Seroconversion": {
+      "choices": [
+        "Yes",
+        "No",
+        "Unknown"
+      ],
+      "value": [
+        "No"
+      ]
+    },
+    "PrEP": {
+      "choices": [
+        "Yes",
+        "No",
+        "Unknown"
+      ],
+      "value": [
+        "No"
+      ]
+    },
+    "Other ARV": {
+      "choices": [
+        "Yes",
+        "No",
+        "Unknown"
+      ],
+      "value": [
+        "No"
+      ]
+    }
+  }
+}

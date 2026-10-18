@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-10-19
+
+- Published 200 additional templates in 63 versioned batches collected on
+  15-16 October, bringing the combined text-task inventory to 1,300.
+- Included stages 0-6, source attribution, collection records, field
+  annotations, and checksums for every new template.
+- Updated the dataset and release indexes with batch paths, stable IDs, and
+  language/domain coverage. Existing workflow files and identifiers are retained.
+
 ## Unreleased (September 2026 extension)
 
 - Added 41 sourced template records in the original numbered workflow: six

@@ -1,0 +1,77 @@
+{
+  "extension_id": "2026-10-16-education-es-v0.1",
+  "added_on": "2026-10-16",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 2,
+  "samples": [
+    {
+      "id": 610,
+      "language": "es",
+      "title": "FONCYT - Compromiso de inscripción a Doctorado (Anexo 3)",
+      "source_id": "es-610-foncyt-doctoral",
+      "domain": "Education",
+      "issuer_id": "argentina-educacion",
+      "template_family": "foncyt-doctoral",
+      "source_pages": 1,
+      "source_sha256": "381c1d2e7b56f486ac16cf8fea8e27d73ffdf7c254c8031b7be20b7fe4e0cbe2",
+      "fields": 9,
+      "files": {
+        "workflow/0-html_template/data_es/610.html": "4911d651f2f6d4fdffbabdd509d1e2782638e1bcb297c60cdca8118bcb89d842",
+        "workflow/1-annotated_json/data_es/610.json": "945403ca1e47f788dafa7e6218fd219af3dc9fc1134b7b6349cbe951def3f4a7",
+        "workflow/2-filled_json-a/data_es/610.json": "48138af652b41e5cdc126663a705968fd2a8f311c439e348fecbc8e0046dd5fe",
+        "workflow/3-filled_html-a/data_es/610.html": "2727a4650e529d0dbc7d2bb430ae55bf0fae261e3e8a1f382779d670c366cbd4",
+        "workflow/4-context-a/data_es/610.txt": "38d380d038aec264b0a1b4f3ba7dbd565593e513592651728196ab9571fa38b9",
+        "workflow/5-ph_html-a/data_es/610.html": "ad8b6d9ab5194f90aca81d94413896646431b86276fca7f939762728fabb37d6",
+        "workflow/6-meta-a/data_es/610.json": "270c3a10d563ebab48cb0651a3b27c81d504e23dcbb3fbf0e46a46b1219d96ac"
+      },
+      "annotation_path": "data/annotations/es/610.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 619,
+      "language": "es",
+      "title": "FONCYT - Declaración jurada de antecedentes académicos (Anexo 2)",
+      "source_id": "es-619-foncyt-academic",
+      "domain": "Education",
+      "issuer_id": "argentina-educacion",
+      "template_family": "foncyt-academic",
+      "source_pages": 1,
+      "source_sha256": "5ee254c6744ba274f061f3979ee675fae049da194ce153cc1b80c72d0eec329b",
+      "fields": 39,
+      "files": {
+        "workflow/0-html_template/data_es/619.html": "9768cb9c0c4b8c4837ba7d2a3c4147adc1f47fc4009db08463114574fdff37cb",
+        "workflow/1-annotated_json/data_es/619.json": "2eb20e83faadd2104682cf5a912e4ccc7cf89c617928d848c32957eae20736c3",
+        "workflow/2-filled_json-a/data_es/619.json": "7ae805037566cb31202e5086941cca265975f5c5401f767f8344a6b5df4ed3b0",
+        "workflow/3-filled_html-a/data_es/619.html": "a91fc40eeacad1074ee36d65ac88ccee2b855fa849b0e2a5e307a2aec1bef9d4",
+        "workflow/4-context-a/data_es/619.txt": "7883db042f3cc8dbb7d0bb1e45404746a731d7e88d6d4dc1fe3d00ef8ea417e4",
+        "workflow/5-ph_html-a/data_es/619.html": "d4116666f4dd2a4cd9ff3175b008816d9540df31172fd85b3065ca0fbbb7bf68",
+        "workflow/6-meta-a/data_es/619.json": "9fc9f12d0a10a4f455192e3c68e278a1d75ef1035a5177e310b1dad7b91eda2d"
+      },
+      "annotation_path": "data/annotations/es/619.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}

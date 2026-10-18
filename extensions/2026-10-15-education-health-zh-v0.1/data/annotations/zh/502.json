@@ -1,0 +1,150 @@
+{
+  "id": "zh-nsw-edu-nitbusters",
+  "language": "zh",
+  "title": "關於參加Nitbusters日的同意書",
+  "domain": "Healthcare",
+  "template_family": "nitbusters-consent",
+  "issuer": "New South Wales Department of Education",
+  "issuer_id": "NSW-EDU",
+  "columns": 2,
+  "rows": [
+    [
+      {
+        "text": "參加Nitbusters日的同意",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "我同意子女（姓名如下）參加在學校舉辦的Nitbusters日。",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "field": "student",
+        "label": "學生姓名",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "class",
+        "label": "學生班級",
+        "source_page": 1,
+        "colspan": 1
+      }
+    ],
+    [
+      {
+        "field": "parent",
+        "label": "父母/護理人員姓名",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "field": "date",
+        "label": "日期",
+        "source_page": 1,
+        "colspan": 1
+      }
+    ],
+    [
+      {
+        "field": "signature",
+        "label": "父母/護理人員簽名 / Signature of parent/carer",
+        "source_page": 1,
+        "colspan": 2
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "student",
+      "label": "學生姓名",
+      "source_anchor": "學生姓名",
+      "source_page": 1,
+      "display_label": "學生姓名",
+      "path": [
+        "參加Nitbusters日的同意",
+        "學生姓名"
+      ],
+      "kind": "text",
+      "synthetic_value": "Lin Sample"
+    },
+    {
+      "id": "class",
+      "label": "學生班級",
+      "source_anchor": "學生班級",
+      "source_page": 1,
+      "display_label": "學生班級",
+      "path": [
+        "參加Nitbusters日的同意",
+        "學生班級"
+      ],
+      "kind": "text",
+      "synthetic_value": "Year 4"
+    },
+    {
+      "id": "parent",
+      "label": "父母/護理人員姓名",
+      "source_anchor": "父母/護理人員姓名",
+      "source_page": 1,
+      "display_label": "父母/護理人員姓名",
+      "path": [
+        "參加Nitbusters日的同意",
+        "父母/護理人員姓名"
+      ],
+      "kind": "text",
+      "synthetic_value": "Mei Sample"
+    },
+    {
+      "id": "date",
+      "label": "日期",
+      "source_anchor": "日期",
+      "source_page": 1,
+      "display_label": "日期",
+      "path": [
+        "參加Nitbusters日的同意",
+        "日期"
+      ],
+      "kind": "text",
+      "synthetic_value": "15 October 2026"
+    },
+    {
+      "id": "signature",
+      "label": "Signature of parent/carer",
+      "source_anchor": "Signature of parent/carer",
+      "source_page": 1,
+      "display_label": "父母/護理人員簽名 / Signature of parent/carer",
+      "path": [
+        "參加Nitbusters日的同意",
+        "父母/護理人員簽名 / Signature of parent/carer"
+      ],
+      "kind": "text",
+      "synthetic_value": "Mei Sample"
+    }
+  ],
+  "source_pages": 1,
+  "source_url": "https://education.nsw.gov.au/content/dam/main-education/going-to-a-public-school/media/documents/translated-documents-/nitbusters-day-participation-consent/chinese-nitbusters-day-participation-consent-form.pdf",
+  "landing_url": "https://education.nsw.gov.au/schooling/translated-documents/consent-form-for-participation-in-nitbusters-day.html",
+  "source_sha256": "17f8ef331fb63cb9ea0be66497abaf7b3da463453a1baaf13181b306620e4aa5",
+  "license_url": "https://education.nsw.gov.au/about-us/copyright.html",
+  "license_note": "NSW Department of Education website content is CC BY 4.0; logos, trademarks and third-party material are excluded. The normalized form omits logos and artwork.",
+  "retrieved_at": "2026-10-15",
+  "source_updated_at": "2026-02-04",
+  "source_version": "No edition number printed in this PDF",
+  "source_date_evidence": {
+    "kind": "official_landing_and_pdf_metadata",
+    "source_url": "https://education.nsw.gov.au/schooling/translated-documents/consent-form-for-participation-in-nitbusters-day.html",
+    "value": "Official landing last modified date=2026-02-04; PDF CreationDate=D:20150226091521+11'00'; PDF ModDate=D:20180321135554+11'00'",
+    "detail": "Landing and PDF metadata dates are recorded separately from the source edition."
+  },
+  "context": "Fictional test record; all persons, locations and contact details are synthetic.\n參加Nitbusters日的同意 / 學生姓名: Lin Sample.\n參加Nitbusters日的同意 / 學生班級: Year 4.\n參加Nitbusters日的同意 / 父母/護理人員姓名: Mei Sample.\n參加Nitbusters日的同意 / 日期: 15 October 2026.\n參加Nitbusters日的同意 / 父母/護理人員簽名 / Signature of parent/carer: Mei Sample.",
+  "workflow_identity": {
+    "language": "zh",
+    "id": 502
+  }
+}

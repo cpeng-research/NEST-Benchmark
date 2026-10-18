@@ -1,0 +1,142 @@
+{
+  "Sender details": {
+    "Sending laboratory": {
+      "Name": "",
+      "Address": "",
+      "Telephone": "",
+      "Out of hours": ""
+    },
+    "Health Protection Team": {
+      "Name": "",
+      "Address": "",
+      "Telephone": "",
+      "Out of hours": ""
+    }
+  },
+  "Patient Details": {
+    "Surname": "",
+    "Patient Address": "",
+    "Forename": "",
+    "Patient post code": "",
+    "Date of birth": "",
+    "Sex": {
+      "choices": [
+        "male",
+        "female"
+      ],
+      "value": []
+    },
+    "NHS number": "",
+    "Hospital number": "",
+    "Ward": "",
+    "Consultant": ""
+  },
+  "Clinical Details": {
+    "Date of onset": "",
+    "Fatal case": {
+      "choices": [
+        "yes",
+        "no",
+        "NK"
+      ],
+      "value": []
+    },
+    "Clinical details": "",
+    "Patient status": {
+      "choices": [
+        "case",
+        "carrier",
+        "contact"
+      ],
+      "value": []
+    },
+    "Recent travel": {
+      "Response": {
+        "choices": [
+          "yes",
+          "no",
+          "NK"
+        ],
+        "value": []
+      },
+      "Country": ""
+    },
+    "Antibiotic treatment": "",
+    "Case type": {
+      "choices": [
+        "sporadic",
+        "outbreak"
+      ],
+      "value": []
+    },
+    "Contact history": {
+      "choices": [
+        "family",
+        "school",
+        "NK"
+      ],
+      "value": []
+    },
+    "Further information": "",
+    "Meningococcal Vaccination History": {
+      "Selections": {
+        "choices": [
+          "Plain polysaccharide: A, C, Y, W",
+          "Conjugated polysaccharide: A , C, Y, W",
+          "Protein-based vaccine (eg. Bexsero®)"
+        ],
+        "value": []
+      },
+      "Other": ""
+    }
+  },
+  "Sample details": {
+    "N. meningitidis cultures": {
+      "Sample 1": {
+        "Specimen clinical site/ Sample type*": "",
+        "Senders Lab Reference": "",
+        "Date of collection": ""
+      },
+      "Sample 2": {
+        "Specimen clinical site/ Sample type*": "",
+        "Senders Lab Reference": "",
+        "Date of collection": ""
+      },
+      "Sample 3": {
+        "Specimen clinical site/ Sample type*": "",
+        "Senders Lab Reference": "",
+        "Date of collection": ""
+      }
+    },
+    "Real-time PCR": {
+      "Tests": {
+        "choices": [
+          "Meningococcal PCR",
+          "Pneumococcal PCR"
+        ],
+        "value": []
+      },
+      "Sample 1": {
+        "Specimen clinical site/ Sample type*": "",
+        "Senders Lab Reference": "",
+        "Date of collection": ""
+      },
+      "Sample 2": {
+        "Specimen clinical site/ Sample type*": "",
+        "Senders Lab Reference": "",
+        "Date of collection": ""
+      },
+      "Sample 3": {
+        "Specimen clinical site/ Sample type*": "",
+        "Senders Lab Reference": "",
+        "Date of collection": ""
+      },
+      "Sample 4": {
+        "Specimen clinical site/ Sample type*": "",
+        "Senders Lab Reference": "",
+        "Date of collection": ""
+      }
+    },
+    "MRU use only": ""
+  }
+}

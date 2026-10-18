@@ -1,0 +1,632 @@
+{
+  "id": "fr-637-dgfip-2041-ae-heures-supplementaires-frontaliers",
+  "title": "Attestation employeur : heures supplémentaires des travailleurs frontaliers",
+  "language": "fr",
+  "domain": "Finance",
+  "issuer_id": "Direction générale des finances publiques (DGFiP)",
+  "template_family": "dgfip-2041-ae-heures-supplementaires-frontaliers",
+  "source_url": "https://www.impots.gouv.fr/sites/default/files/formulaires/2041-ae/2026/2041-ae_5531.pdf",
+  "landing_url": "https://www.impots.gouv.fr/formulaire/2041-ae/attestation-employeur-et-formules-de-calcul",
+  "license_url": "https://www.impots.gouv.fr/mentions-legales",
+  "license_note": "Text adapted from DGFiP public information under Licence Ouverte Etalab 2.0: https://www.etalab.gouv.fr/licence-ouverte-open-licence/. Attribution, source URL and printed edition are retained. DGFiP logos, visual identity and any third-party graphics are not reproduced.",
+  "source_sha256": "d024f79cb660c9f8cf1e058a1689f69fe729a6a51b8328f6abb5b33a95598c75",
+  "source_pages": 2,
+  "retrieved_at": "2026-10-15T19:25:45.118785+00:00",
+  "source_version": "2041-AE, Cerfa 16134*06, revenus 2025 (listing 2026)",
+  "source_date_evidence": {
+    "kind": "printed_document",
+    "value": "2041-AE, Cerfa 16134*06, revenus 2025 (listing 2026)"
+  },
+  "columns": 12,
+  "rows": [
+    [
+      {
+        "text": "ATTESTATION EMPLOYEUR \net formules de calcul (notice au verso)\nHeures supplémentaires exonérées des travailleurs frontaliers conventionnellement imposables en France. \nLes travailleurs frontaliers concernés sont ceux exerçant dans les zones frontalières couvertes par un accord en Allemagne, Belgique, Espagne, \nItalie et dans les cantons suisses de Berne, Soleure, Bâle-Ville, Bâle-Campagne, Vaud, Valais, Neuchâtel et Jura, aux résidents de France \ntravaillant à Monaco et aux Français résidents de Monaco qui y travaillent et qui sont conventionnellement soumis à l’impôt sur le revenu en \nFrance sur leur salaire étranger. \nCette déclaration 2041-AE ne doit être remplie que si le travailleur frontalier a réalisé des heures supplémentaires ou complémentaires en \napplication de l'article 81 quater du code général des impôts (CGI).\n",
+        "colspan": 12,
+        "source_page": 1,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "EMPLOYEUR",
+        "colspan": 12,
+        "source_page": 1,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Nom, prénom",
+        "field": "f001",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Adresse",
+        "field": "f002",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "SALARIÉ",
+        "colspan": 12,
+        "source_page": 1,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Nom, prénom",
+        "field": "f003",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Adresse",
+        "field": "f004",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Si le contrat de travail débute et/ou se finit au cours de l'année 2025, vous devez préciser :",
+        "colspan": 12,
+        "source_page": 1,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Date de début du contrat",
+        "field": "f005",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Date de fin du contrat",
+        "field": "f006",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "MÉTHODE D’ÉVALUATION DES HEURES SUPPLÉMENTAIRES RETENUE",
+        "colspan": 12,
+        "source_page": 1,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "forfaitaire ou réelle au choix du salarié",
+        "colspan": 12,
+        "source_page": 1,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Méthode forfaitaire",
+        "colspan": 12,
+        "source_page": 1,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Nombre total d’heures de travail accomplies par le salarié dans l’année",
+        "field": "f007",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Quotité de temps de travail en %",
+        "field": "f008",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Revenu net imposable en euros",
+        "field": "f009",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nombre d'heures supplémentaires effectuées",
+        "field": "f010",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Montant des heures supplémentaires",
+        "field": "f011",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Heures travaillées (en présentiel ou en télétravail), hors congés payés, maladie, maternité, chômage partiel, récupérations. Montant déclaré à la ligne D de la 2047-Suisse le cas échéant. A – 1840 × B. E = C × D / A.",
+        "colspan": 12,
+        "source_page": 1,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Méthode réelle",
+        "colspan": 12,
+        "source_page": 1,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Salarié à temps plein :",
+        "colspan": 12,
+        "source_page": 1,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Nombre d’heures légales du pays (ou conventionnelles si le pays n’a pas d’horaire légal)",
+        "field": "f012",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nombre d’heures supplémentaires accomplies au-delà",
+        "field": "f013",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Heures travaillées (en présentiel ou en télétravail), hors congés payés, maladie, maternité, chômage partiel, récupérations.",
+        "colspan": 12,
+        "source_page": 1,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Salarié à temps partiel :",
+        "colspan": 12,
+        "source_page": 1,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Durée contractuelle du travail",
+        "field": "f014",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nombre d’heures complémentaires accomplies au-delà",
+        "field": "f015",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Heures travaillées (en présentiel ou en télétravail), hors congés payés, maladie, maternité, chômage partiel, récupérations.",
+        "colspan": 12,
+        "source_page": 1,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Rémunération brute des heures supplémentaires (temps plein) ou complémentaires (temps partiel) en euro / franc suisse",
+        "field": "f016",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Rémunération brute totale de l’année en euro / franc suisse",
+        "field": "f017",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Total des charges fiscalement déductibles de l’année en euro / franc suisse",
+        "field": "f018",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Montant des heures supplémentaires = F – H × F / G",
+        "field": "f019",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "À reporter au cadre E de la 2047-Suisse après application du taux de change le cas échéant",
+        "colspan": 12,
+        "source_page": 1,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "SIGNATURE DE L’EMPLOYEUR",
+        "colspan": 12,
+        "source_page": 1,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "À",
+        "field": "f020",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "le",
+        "field": "f021",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SIGNATURE DE L’EMPLOYEUR",
+        "field": "f022",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Reports à effectuer sur la déclaration no 2042\n– Part de la rémunération exonérée au titre des heures supplémen\ntaires : case 1GH à 1JH ;\n– Part de la rémunération nette imposable (heures supplémentaires \ndéduites) : case 1AG à 1DG.\nPrincipe général\nLe plafond d’exonération de 7 500 € est un plafond de rémunéra\ntion nette imposable, soit après déduction du total des charges \nsociales fiscalement déductibles mais sans déduction des frais pro\nfessionnels (abattement forfaitaire pratiqué automatiquement par \nle service, ou frais réels à déclarer sous une autre rubrique).\nCe plafond est appliqué automatiquement lors du calcul de votre \nimpôt sur le revenu.\nQuelle que soit la méthode de calcul choisie par le salarié, l’attes\ntation au recto est à faire remplir par l’employeur et à présenter à \nl’administration sur demande.\nMéthode forfaitaire \nIl n’est pas exigé qu’il s’agisse d’heures supplémentaires au sens \nde la législation du pays considéré.\nLe montant de la rémunération exonérée d’impôt sur le revenu \nest calculé en partant :\n– du montant annuel de la rémunération totale nette imposable \n(heures supplémentaires incluses) telle que déterminée habi\ntuellement (case 1AG de la déclaration sans déduction des frais \nprofessionnels) ;\n– et du nombre total d’heures accomplies.\nLes heures supplémentaires exonérées sont celles travaillées \nau-delà de 1 840 h annuelles1, dans la limite :\n– d’un plafond de 368h, à proratiser en cas de temps partiel ;\n– d’un montant de  7 500 €.\nExemple 1 Un travailleur frontalier effectue 2 200 heures de travail \nen N. À ce titre, il perçoit une rémunération nette totale imposable, \navant déduction des frais professionnels, de 66 000 €.\n– Heures supplémentaires : 2 200 – 1 840 = 360 heures \n(inférieures à 368h donc non plafonnées)\n– Montant des heures supplémentaires exonérées : \n66 000 × (360/2 200) = 10 800 € plafonné à  7 500 € \nÀ déclarer case 1GH à 1JH\n– Montant de salaire net imposable : 66 000 –  7 500 = 58 500 €\nÀ déclarer case 1AG à 1DG\n1.  Seuil de 1 840 heures (à adapter en cas d’activité partielle), correspondant à \nune durée moyenne de 40 heures par semaine dans les différents pays \nfrontaliers pendant 46 semaines par an. Plafond de 368 heures calculé sur \n48 heures de travail maximum par semaine et de 46 semaines par an.\nExemple 2 Un travailleur frontalier à temps partiel (70 %) effectue \n1 320 heures de travail en N. À ce titre, il perçoit une rémunération \nnette totale imposable, avant déduction des frais professionnels, de \n40 000 €.\n– Heures supplémentaires : 1 320 – (1 840 × 70 %) = 32 heures \n(inférieures à 368 h × 70 % = 258  h, donc non plafonnées)\n– Montant des heures supplémentaires exonérées : \n40 000 x (32 / 1 320) = 970 € (non plafonné) \nÀ déclarer case 1GH à 1JH\n– Montant de salaire net imposable : 40 000 – 970 = 39 030 € \nÀ déclarer case 1AG à 1DG\nMéthode réelle \nLes éléments permettant de déterminer le montant des heures supplé\nmentaires exonérées sont attestés par l’employeur étant précisé que :\n– la quote-part de charges fiscalement déductibles afférente à ces \nheures supplémentaires doit être soustraite pour obtenir un mon\ntant net. Elle est calculée selon une règle de trois nécessitant de \nconnaître le total des charges sociales déductibles et le total de \nrémunération brute (voir exemples) ;\n– la rémunération nette des heures supplémentaires ainsi obtenue \n(montant brut – quote-part de charges sociales) est exonérée \ndans la limite précitée de  7 500 €.\nExemple 1 Un travailleur frontalier perçoit une rémunération brute \ntotale de 25 000 €, dont 2 000 € au titre d’heures supplémentaires \nen N. Le montant total des charges sociales déductibles est de \n2 500 €.\n– Montant des heures supplémentaires exonérées : \n2 000 – 2 500 × (2 000/25 000) = 1 800 € (non plafonné) \nÀ déclarer case 1GH à 1JH\n– Montant du salaire net imposable : 25 000 – 2 500 – 1 800 = 20 700 € \nÀ déclarer case 1AG à 1DG\nExemple 2 Un travailleur frontalier perçoit une rémunération brute \ntotale de 50 000 €, dont 9 000 € au titre d’heures supplémentaires \nen N. Le montant total des charges sociales déductibles est de \n4 800 €.\n– Montant des heures supplémentaires exonérées : \n9 000 – 4 800 × 9 000/50 000 = 8 136 €, plafonné à  7 500 € \nÀ déclarer case 1GH à 1JH \n– Montant du salaire net imposable : 50 000 – 4 800 –  7 500 = 37 700 € \nÀ déclarer case 1AG à 1DG\nNOTICE\n",
+        "colspan": 12,
+        "source_page": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Source : Direction générale des finances publiques (DGFiP); https://www.impots.gouv.fr/sites/default/files/formulaires/2041-ae/2026/2041-ae_5531.pdf; 2041-AE, Cerfa 16134*06, revenus 2025 (listing 2026); Licence Ouverte. Logos non reproduits.",
+        "colspan": 12,
+        "source_page": 1,
+        "heading": false
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Nom, prénom",
+      "path": [
+        "Page 1",
+        "EMPLOYEUR",
+        "Nom, prénom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom, prénom",
+      "synthetic_value": "Exemple Alex"
+    },
+    {
+      "id": "f002",
+      "label": "Adresse",
+      "path": [
+        "Page 1",
+        "EMPLOYEUR",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Adresse",
+      "synthetic_value": "10 rue Fictive, 1200 Genève, Suisse"
+    },
+    {
+      "id": "f003",
+      "label": "Nom, prénom",
+      "path": [
+        "Page 1",
+        "SALARIÉ",
+        "Nom, prénom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom, prénom",
+      "synthetic_value": "Exemple Camille"
+    },
+    {
+      "id": "f004",
+      "label": "Adresse",
+      "path": [
+        "Page 1",
+        "SALARIÉ",
+        "Adresse"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Adresse",
+      "synthetic_value": "12 rue Exemple, 74000 Annecy, France"
+    },
+    {
+      "id": "f005",
+      "label": "Date de début du contrat",
+      "path": [
+        "Page 1",
+        "SALARIÉ",
+        "Date de début du contrat"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de début du contrat",
+      "synthetic_value": "01/01/2025"
+    },
+    {
+      "id": "f006",
+      "label": "Date de fin du contrat",
+      "path": [
+        "Page 1",
+        "SALARIÉ",
+        "Date de fin du contrat"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de fin du contrat",
+      "synthetic_value": "31/12/2025"
+    },
+    {
+      "id": "f007",
+      "label": "Nombre total d’heures de travail accomplies par le salarié dans l’année",
+      "path": [
+        "Page 1",
+        "Méthode forfaitaire",
+        "Nombre total d’heures de travail accomplies par le salarié dans l’année"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre total d’heures de travail accomplies par le salarié dans l’année",
+      "synthetic_value": "2200"
+    },
+    {
+      "id": "f008",
+      "label": "Quotité de temps de travail en %",
+      "path": [
+        "Page 1",
+        "Méthode forfaitaire",
+        "Quotité de temps de travail en %"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Quotité de temps de travail en %",
+      "synthetic_value": "100"
+    },
+    {
+      "id": "f009",
+      "label": "Revenu net imposable en euros",
+      "path": [
+        "Page 1",
+        "Méthode forfaitaire",
+        "Revenu net imposable en euros"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Revenu net imposable en euros",
+      "synthetic_value": "66000"
+    },
+    {
+      "id": "f010",
+      "label": "Nombre d'heures supplémentaires effectuées",
+      "path": [
+        "Page 1",
+        "Méthode forfaitaire",
+        "Nombre d'heures supplémentaires effectuées"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre d'heures supplémentaires effectuées",
+      "synthetic_value": "360"
+    },
+    {
+      "id": "f011",
+      "label": "Montant des heures supplémentaires",
+      "path": [
+        "Page 1",
+        "Méthode forfaitaire",
+        "Montant des heures supplémentaires"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant des heures supplémentaires",
+      "synthetic_value": "10800"
+    },
+    {
+      "id": "f012",
+      "label": "Nombre d’heures légales du pays (ou conventionnelles si le pays n’a pas d’horaire légal)",
+      "path": [
+        "Page 1",
+        "Méthode réelle",
+        "Temps plein",
+        "Nombre d’heures légales du pays (ou conventionnelles si le pays n’a pas d’horaire légal)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre d’heures légales du pays (ou conventionnelles si le pays n’a pas d’horaire légal)",
+      "synthetic_value": "Sans objet, méthode forfaitaire retenue"
+    },
+    {
+      "id": "f013",
+      "label": "Nombre d’heures supplémentaires accomplies au-delà",
+      "path": [
+        "Page 1",
+        "Méthode réelle",
+        "Temps plein",
+        "Nombre d’heures supplémentaires accomplies au-delà"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre d’heures supplémentaires accomplies au-delà",
+      "synthetic_value": "Sans objet, méthode forfaitaire retenue"
+    },
+    {
+      "id": "f014",
+      "label": "Durée contractuelle du travail",
+      "path": [
+        "Page 1",
+        "Méthode réelle",
+        "Temps partiel",
+        "Durée contractuelle du travail"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Durée contractuelle du travail",
+      "synthetic_value": "Sans objet, méthode forfaitaire retenue"
+    },
+    {
+      "id": "f015",
+      "label": "Nombre d’heures complémentaires accomplies au-delà",
+      "path": [
+        "Page 1",
+        "Méthode réelle",
+        "Temps partiel",
+        "Nombre d’heures complémentaires accomplies au-delà"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nombre d’heures complémentaires accomplies au-delà",
+      "synthetic_value": "Sans objet, méthode forfaitaire retenue"
+    },
+    {
+      "id": "f016",
+      "label": "Rémunération brute des heures supplémentaires (temps plein) ou complémentaires (temps partiel) en euro / franc suisse",
+      "path": [
+        "Page 1",
+        "Méthode réelle",
+        "Rémunération brute des heures supplémentaires (temps plein) ou complémentaires (temps partiel) en euro / franc suisse"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Rémunération brute des heures supplémentaires (temps plein) ou complémentaires (temps partiel) en euro / franc suisse",
+      "synthetic_value": "Sans objet, méthode forfaitaire retenue"
+    },
+    {
+      "id": "f017",
+      "label": "Rémunération brute totale de l’année en euro / franc suisse",
+      "path": [
+        "Page 1",
+        "Méthode réelle",
+        "Rémunération brute totale de l’année en euro / franc suisse"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Rémunération brute totale de l’année en euro / franc suisse",
+      "synthetic_value": "Sans objet, méthode forfaitaire retenue"
+    },
+    {
+      "id": "f018",
+      "label": "Total des charges fiscalement déductibles de l’année en euro / franc suisse",
+      "path": [
+        "Page 1",
+        "Méthode réelle",
+        "Total des charges fiscalement déductibles de l’année en euro / franc suisse"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Total des charges fiscalement déductibles de l’année en euro / franc suisse",
+      "synthetic_value": "Sans objet, méthode forfaitaire retenue"
+    },
+    {
+      "id": "f019",
+      "label": "Montant des heures supplémentaires = F – H × F / G",
+      "path": [
+        "Page 1",
+        "Méthode réelle",
+        "Montant des heures supplémentaires = F – H × F / G"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Montant des heures supplémentaires = F – H × F / G",
+      "synthetic_value": "Sans objet, méthode forfaitaire retenue"
+    },
+    {
+      "id": "f020",
+      "label": "À",
+      "path": [
+        "Page 1",
+        "SIGNATURE DE L’EMPLOYEUR",
+        "Lieu"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "À",
+      "synthetic_value": "Genève"
+    },
+    {
+      "id": "f021",
+      "label": "le",
+      "path": [
+        "Page 1",
+        "SIGNATURE DE L’EMPLOYEUR",
+        "Date"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "le",
+      "synthetic_value": "16/10/2026"
+    },
+    {
+      "id": "f022",
+      "label": "SIGNATURE DE L’EMPLOYEUR",
+      "path": [
+        "Page 1",
+        "SIGNATURE DE L’EMPLOYEUR",
+        "Signature"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "SIGNATURE DE L’EMPLOYEUR",
+      "synthetic_value": "Alex Exemple"
+    }
+  ],
+  "context": "Exemple de données fictives, sans transmission.\nPage 1 / EMPLOYEUR / Nom, prénom: Exemple Alex\nPage 1 / EMPLOYEUR / Adresse: 10 rue Fictive, 1200 Genève, Suisse\nPage 1 / SALARIÉ / Nom, prénom: Exemple Camille\nPage 1 / SALARIÉ / Adresse: 12 rue Exemple, 74000 Annecy, France\nPage 1 / SALARIÉ / Date de début du contrat: 01/01/2025\nPage 1 / SALARIÉ / Date de fin du contrat: 31/12/2025\nPage 1 / Méthode forfaitaire / Nombre total d’heures de travail accomplies par le salarié dans l’année: 2200\nPage 1 / Méthode forfaitaire / Quotité de temps de travail en %: 100\nPage 1 / Méthode forfaitaire / Revenu net imposable en euros: 66000\nPage 1 / Méthode forfaitaire / Nombre d'heures supplémentaires effectuées: 360\nPage 1 / Méthode forfaitaire / Montant des heures supplémentaires: 10800\nPage 1 / Méthode réelle / Temps plein / Nombre d’heures légales du pays (ou conventionnelles si le pays n’a pas d’horaire légal): Sans objet, méthode forfaitaire retenue\nPage 1 / Méthode réelle / Temps plein / Nombre d’heures supplémentaires accomplies au-delà: Sans objet, méthode forfaitaire retenue\nPage 1 / Méthode réelle / Temps partiel / Durée contractuelle du travail: Sans objet, méthode forfaitaire retenue\nPage 1 / Méthode réelle / Temps partiel / Nombre d’heures complémentaires accomplies au-delà: Sans objet, méthode forfaitaire retenue\nPage 1 / Méthode réelle / Rémunération brute des heures supplémentaires (temps plein) ou complémentaires (temps partiel) en euro / franc suisse: Sans objet, méthode forfaitaire retenue\nPage 1 / Méthode réelle / Rémunération brute totale de l’année en euro / franc suisse: Sans objet, méthode forfaitaire retenue\nPage 1 / Méthode réelle / Total des charges fiscalement déductibles de l’année en euro / franc suisse: Sans objet, méthode forfaitaire retenue\nPage 1 / Méthode réelle / Montant des heures supplémentaires = F – H × F / G: Sans objet, méthode forfaitaire retenue\nPage 1 / SIGNATURE DE L’EMPLOYEUR / Lieu: Genève\nPage 1 / SIGNATURE DE L’EMPLOYEUR / Date: 16/10/2026\nPage 1 / SIGNATURE DE L’EMPLOYEUR / Signature: Alex Exemple",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 637
+  }
+}

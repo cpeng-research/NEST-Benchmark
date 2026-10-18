@@ -1,0 +1,316 @@
+{
+  "Página 1": {
+    "I. Descripción de la aeronave": {
+      "1. Matrícula": "",
+      "2. Nombre del fabricante de la aeronave": "",
+      "3. Designación de la aeronave": "",
+      "4. Año fabr.": "",
+      "5. N° serie aeronave": "",
+      "6. Nombre del fabricante del motor": "",
+      "7. Designación del modelo del motor": "",
+      "8. N° de motores": "",
+      "9. Nombre del fabricante de la hélice": "",
+      "10. Designación del modelo de la hélice": "",
+      "11. La aeronave es (si corresponde)": {
+        "choices": [
+          "Importada"
+        ],
+        "value": []
+      }
+    },
+    "II. Certificación solicitada": {
+      "La presente solicitud es para:": {
+        "choices": [
+          "Certificado de aeronavegabilidad estándar",
+          "Certificado de aeronavegabilidad especial",
+          "Certificado de aeronavegabilidad múltiple."
+        ],
+        "value": []
+      },
+      "(indicar categoría)": {
+        "choices": [
+          "Normal",
+          "Utilitaria",
+          "Acrobática",
+          "Transporte",
+          "Commuter",
+          "Globo",
+          "Otro"
+        ],
+        "value": []
+      },
+      "Certificado de aeronavegabilidad especial": {
+        "choices": [
+          "Primario",
+          "Categoría Deportiva (indicar Clase)",
+          "Limitado",
+          "Provisorio (indicar clase)",
+          "Restringido (indicar la/s operación/es a realizar)",
+          "Experimental (indicar la/ s operación/es a realizar)",
+          "Permiso especial de vuelo"
+        ],
+        "value": []
+      },
+      "Categoría Deportiva (indicar Clase)": {
+        "choices": [
+          "Avión",
+          "Planeador"
+        ],
+        "value": []
+      },
+      "Provisorio (indicar clase)": {
+        "choices": [
+          "Clase I",
+          "Clase II"
+        ],
+        "value": []
+      },
+      "Restringido (indicar la/s operación/es a realizar)": {
+        "choices": [
+          "Agricultura y control de plagas",
+          "Reconocimiento aéreo",
+          "Propaganda aérea",
+          "Forestal (Conservación vida silvestre)",
+          "Patrullaje",
+          "Control meteorológico",
+          "Otro (especificar)"
+        ],
+        "value": []
+      },
+      "Operación restringida / otro": "",
+      "Experimental (indicar la/ s operación/es a realizar)": {
+        "choices": [
+          "Investigación y desarrollo",
+          "Exhibición",
+          "Carrera",
+          "Construcción aficionado",
+          "Estudio de mercado",
+          "Entrenamiento tripulación",
+          "Demostrar cumplimiento de la DNAR",
+          "Operación aeronave construida de Kit (Cat. primaria)"
+        ],
+        "value": []
+      },
+      "Permiso especial de vuelo": {
+        "choices": [
+          "Vuelo de traslado para reparación, alteración, mantenimiento o hangaraje",
+          "Evacuación de áreas con peligros inminentes",
+          "Operación en exceso del peso máximo de despegue certificado",
+          "Entrega o exportación",
+          "Vuelo de prueba de producción",
+          "Vuelo de demostración a clientes"
+        ],
+        "value": []
+      }
+    },
+    "III. Certificación del propietario": {
+      "Nombre": "",
+      "Domicilio": "",
+      "Teléfono": "",
+      "Correo electrónico": "",
+      "Especificación de la aeronave u Hoja de Datos del Certifi- cado Tipo (número y revisión) / aplicable": {
+        "choices": [
+          "Especificación de la aeronave u Hoja de Datos del Certifi- cado Tipo (número y revisión)"
+        ],
+        "value": []
+      },
+      "Especificación de la aeronave u Hoja de Datos del Certifi- cado Tipo (número y revisión) / referencia": "",
+      "Directiva de Aeronavegabilidad / aplicable": {
+        "choices": [
+          "Directiva de Aeronavegabilidad"
+        ],
+        "value": []
+      },
+      "Directiva de Aeronavegabilidad / referencia": "",
+      "Certificado Tipo Suplementario / aplicable": {
+        "choices": [
+          "Certificado Tipo Suplementario"
+        ],
+        "value": []
+      },
+      "Certificado Tipo Suplementario / referencia": "",
+      "Verifique si los registros cumplen con la Sección 91.417.": {
+        "choices": [
+          "Verifique si los registros cumplen con la Sección 91.417."
+        ],
+        "value": []
+      },
+      "Horas totales de la célula": "",
+      "Anotar las horas voladas desde el último certificado de aeronavegabilidad emitido o renovado.": "",
+      "Fecha de solicitud": "",
+      "Nombre y cargo (a maquina o letra de imprenta)": "",
+      "Firma": ""
+    },
+    "Verificación del organismo de inspección": {
+      "Poseedor de un certificado bajo la Parte 121. / selección": {
+        "choices": [
+          "Poseedor de un certificado bajo la Parte 121."
+        ],
+        "value": []
+      },
+      "Poseedor de un certificado bajo la Parte 121. / identificación": "",
+      "Taller Aeronáutico de Reparación habilitado / selección": {
+        "choices": [
+          "Taller Aeronáutico de Reparación habilitado"
+        ],
+        "value": []
+      },
+      "Taller Aeronáutico de Reparación habilitado / identificación": "",
+      "Fabricante de la aeronave / selección": {
+        "choices": [
+          "Fabricante de la aeronave"
+        ],
+        "value": []
+      },
+      "Fabricante de la aeronave / identificación": "",
+      "Fecha": "",
+      "Cargo (a maquina o letra de imprenta)": "",
+      "Firma": ""
+    },
+    "V. Certificación de la ANAC": {
+      "cumple con todos los requerimientos para": {
+        "choices": [
+          "La certificación solicitada",
+          "Enmendar o modificar el certificado de aeronavegabilidad vigente"
+        ],
+        "value": []
+      },
+      "La inspección para un permiso especial de vuelo": {
+        "choices": [
+          "Inspector de la ANAC",
+          "Bajo Parte 121 o 135",
+          "Bajo Parte 145"
+        ],
+        "value": []
+      },
+      "Titular de un certificado": {
+        "choices": [
+          "Titular de un certificado"
+        ],
+        "value": []
+      },
+      "Fecha": "",
+      "Departamento": "",
+      "Area": "",
+      "Firma inspector ANAC": ""
+    }
+  },
+  "Página 2": {
+    "VI. Vuelo de prueba de producción": {
+      "Nombre": "",
+      "Domicilio": "",
+      "B. Bases de producción": {
+        "choices": [
+          "Certificado de Producción",
+          "Certificado Tipo solamente",
+          "Sistema de Inspección de Producción Aprobado"
+        ],
+        "value": []
+      },
+      "indique el N° del certificado de producción": "",
+      "C. Indicar la cantidad de certificados requeridos para las necesidades de operación": "",
+      "Fecha de solicitud": "",
+      "Nombre y cargo (a maquina o letra de imprenta)": "",
+      "Firma": ""
+    },
+    "VII. Permiso especial de vuelo para propósitos que no sean los de vuelo de prueba de producción": {
+      "Propietario registrado": "",
+      "Domicilio": "",
+      "Fabricante": "",
+      "Modelo": "",
+      "Número de serie": "",
+      "Matrícula registrada": "",
+      "Vuelo de demostración a cliente": {
+        "choices": [
+          "Vuelo de demostración a cliente"
+        ],
+        "value": []
+      },
+      "De:": "",
+      "A:": "",
+      "Vía": "",
+      "Fecha de despacho": "",
+      "Duración": "",
+      "C. Tripulación requerida para operar la aeronave y su equipamiento": {
+        "choices": [
+          "Piloto",
+          "Copiloto",
+          "Mecánico de vuelo",
+          "Otro (especificar)"
+        ],
+        "value": []
+      },
+      "Tripulación / otro": "",
+      "D. La aeronave no cumple con los siguientes requerimientos de aeronavegabilidad aplicables": "",
+      "E. Las siguientes restricciones son consideradas necesarias para la operación segura:": "",
+      "Fecha de solicitud": "",
+      "Nombre y cargo (a maquina o letra de imprenta)": "",
+      "Certificación permiso / firma": ""
+    },
+    "VIII. Doc. de Aeronavegabilidad": {
+      "A. Limitaciones de operación y marcaciones": {
+        "choices": [
+          "A. Limitaciones de operación y marcaciones"
+        ],
+        "value": []
+      },
+      "B. Se adjuntan las limitaciones de operación vigentes.": {
+        "choices": [
+          "B. Se adjuntan las limitaciones de operación vigentes."
+        ],
+        "value": []
+      },
+      "C. Datos, dibujos, fotografías, etc.": {
+        "choices": [
+          "C. Datos, dibujos, fotografías, etc."
+        ],
+        "value": []
+      },
+      "D. Información de peso y balanceo disponible en la aeronave": {
+        "choices": [
+          "D. Información de peso y balanceo disponible en la aeronave"
+        ],
+        "value": []
+      },
+      "E. Alteración y reparación mayor, Form. DA 337": {
+        "choices": [
+          "E. Alteración y reparación mayor, Form. DA 337"
+        ],
+        "value": []
+      },
+      "F. Esta inspección esta registrada en los registros de la aero- nave.": {
+        "choices": [
+          "F. Esta inspección esta registrada en los registros de la aero- nave."
+        ],
+        "value": []
+      },
+      "G. Declaración de conformidad, Form. DA 8130-9": {
+        "choices": [
+          "G. Declaración de conformidad, Form. DA 8130-9"
+        ],
+        "value": []
+      },
+      "H. Certificación de aeronavegabilidad extranjera para aeronave importada": {
+        "choices": [
+          "H. Certificación de aeronavegabilidad extranjera para aeronave importada"
+        ],
+        "value": []
+      },
+      "I. Certificación de aeronavegabilidad previa": {
+        "choices": [
+          "I. Certificación de aeronavegabilidad previa"
+        ],
+        "value": []
+      },
+      "J. Certificación de aeronavegabilidad vigente": {
+        "choices": [
+          "J. Certificación de aeronavegabilidad vigente"
+        ],
+        "value": []
+      },
+      "Certificado previo / sección": "",
+      "Certificado previo / otro": "",
+      "Certificado vigente / sección": ""
+    }
+  }
+}

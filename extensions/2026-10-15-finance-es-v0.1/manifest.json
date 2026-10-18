@@ -1,0 +1,179 @@
+{
+  "extension_id": "2026-10-15-finance-es-v0.1",
+  "added_on": "2026-10-15",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 5,
+  "samples": [
+    {
+      "id": 400,
+      "language": "es",
+      "title": "Solicitud de repago de haberes",
+      "source_id": "es-400-iaf-repago",
+      "domain": "Finance",
+      "issuer_id": "ar-iaf",
+      "template_family": "iaf-repago",
+      "source_pages": 1,
+      "source_sha256": "be8dc053d13d11ff91ca5e96b74985a0765218d7a436766fd291f28a10360336",
+      "fields": 20,
+      "files": {
+        "workflow/0-html_template/data_es/400.html": "f5cbb06226fe8085501d11f78db22622cebe96b340c4d8350892618a3ae79b69",
+        "workflow/1-annotated_json/data_es/400.json": "5ce21e7a197c718f2ed663f6f3e91e081b36a0a72e404274d0f75a2b46359f81",
+        "workflow/2-filled_json-a/data_es/400.json": "5dd6b80edfe6d0d992f17e7d94f9e5c597b1c3a13fa6046d9cb54bf37585a49f",
+        "workflow/3-filled_html-a/data_es/400.html": "dc5ca45e516a13a9f18e94ec2d345980b7ce2659b8f7334ead574fe6f3ff68ea",
+        "workflow/4-context-a/data_es/400.txt": "6e0413953f10fbfe589569a1be2f880b86c56d88b9c308574dcbaf3bb7d9f0f3",
+        "workflow/5-ph_html-a/data_es/400.html": "7b97c5a0ddd3eb6ee1522fefe3df0030840a986a9ba3f50f769202da7e891c5d",
+        "workflow/6-meta-a/data_es/400.json": "1fd050f450174781eeca1d09049495f9aa107a1f4268e536281cadab230c4617"
+      },
+      "annotation_path": "data/annotations/es/400.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 401,
+      "language": "es",
+      "title": "Formulario de declaración jurada de estado patrimonial",
+      "source_id": "es-401-iaf-patrimonio",
+      "domain": "Finance",
+      "issuer_id": "ar-iaf",
+      "template_family": "iaf-patrimonio",
+      "source_pages": 2,
+      "source_sha256": "3c7dc521424566e45822adaba09f892cca40276377fc9d8702abc2db4b909427",
+      "fields": 32,
+      "files": {
+        "workflow/0-html_template/data_es/401.html": "63563a21f11873e8334e98229d5f68484c60cf571030a75e632d85646ac839c4",
+        "workflow/1-annotated_json/data_es/401.json": "c7b7a50099861b4e63a61b53675dc80c82c7667a974717a7fe6b1cfad77bb502",
+        "workflow/2-filled_json-a/data_es/401.json": "f04a55469d5f9bf3783ebcd7f5b361454a26c98b63d1c8671fc316d745481012",
+        "workflow/3-filled_html-a/data_es/401.html": "92f26d92edd04c2b193349441276b4f8d17190e8fdbe9843da47a9bdf273380a",
+        "workflow/4-context-a/data_es/401.txt": "168451b89769bbcaf2f0f7ef74f7385e330f3493488abc36bdcb40135c2dab83",
+        "workflow/5-ph_html-a/data_es/401.html": "6c70f97a7e420fce370b7feee40052cb1b8ef47ef8772b008c2c79fa08d6bb99",
+        "workflow/6-meta-a/data_es/401.json": "fe1f0a8e82dfc6d659f3bac87a24bdd25ad7aac6bb8dc8fac5903b5ad94ab4ab"
+      },
+      "annotation_path": "data/annotations/es/401.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 402,
+      "language": "es",
+      "title": "Solicitud de haberes devengados por fallecimiento",
+      "source_id": "es-402-iaf-devengados",
+      "domain": "Finance",
+      "issuer_id": "ar-iaf",
+      "template_family": "iaf-devengados",
+      "source_pages": 2,
+      "source_sha256": "6a962af22b64720b3abd861420f1c5def9d54b52439bfcddac933af333af2f11",
+      "fields": 23,
+      "files": {
+        "workflow/0-html_template/data_es/402.html": "29d0c2485d09051a649f5c3149b9e950378ca1181919fca994938fb4be6f418e",
+        "workflow/1-annotated_json/data_es/402.json": "02c618913bdb043a40cbae262772c3c85429d9afd06a18cb6e32b2ca7511129a",
+        "workflow/2-filled_json-a/data_es/402.json": "004f49c3e450302aa8b6a3d3862f9bec7b78ca7b1245a310d16e12077d33d8cf",
+        "workflow/3-filled_html-a/data_es/402.html": "0ddd74096c9cfe568c724eed32401dd98b6e085d6793a8ecc28a5adca108ec4f",
+        "workflow/4-context-a/data_es/402.txt": "770cc83556d0d05bf8ad55ac1a5cb5a4f32ab9f771aa9c873220b54034eba1dc",
+        "workflow/5-ph_html-a/data_es/402.html": "b0d3e8e11cf1d45f66b71af04679f479541b3e1fccfa88f552e062bd1d4e6945",
+        "workflow/6-meta-a/data_es/402.json": "399000065859b91dd01057acc22787cb211048b5e402038ad938a0372168c681"
+      },
+      "annotation_path": "data/annotations/es/402.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 403,
+      "language": "es",
+      "title": "Declaración jurada para el cobro del remanente de haberes devengados",
+      "source_id": "es-403-iaf-ddjj-hd",
+      "domain": "Finance",
+      "issuer_id": "ar-iaf",
+      "template_family": "iaf-ddjj-hd",
+      "source_pages": 1,
+      "source_sha256": "643f8ce63b3fde4422dd64cd366f7b4750d26974016f6d046c7ea5466c0d7988",
+      "fields": 19,
+      "files": {
+        "workflow/0-html_template/data_es/403.html": "e9b7176e501ec6f95e8612f5080ef70ce03fbc907e186c681d232a7c2e5fece8",
+        "workflow/1-annotated_json/data_es/403.json": "7d46777845d1eb7d9415d38d0920defb4961591d556f3ae43dfee0068382d4a1",
+        "workflow/2-filled_json-a/data_es/403.json": "4ac82d720d5a4a54d3ea18e2095b1c7c4018483b0764a2f9df5332e7682f31be",
+        "workflow/3-filled_html-a/data_es/403.html": "d1073f22bf721d5b06965ae208364e4905af827815c78af165d567f7cc7c9e98",
+        "workflow/4-context-a/data_es/403.txt": "e71a76d932ad1b1f74a10955036e45c05d8de64b40f4c7e5016c2e75d5c2c763",
+        "workflow/5-ph_html-a/data_es/403.html": "246a353f1c14226d758f93feb3bfd652bfbf0158d64a20209df57fd96551ab33",
+        "workflow/6-meta-a/data_es/403.json": "1ef5deea7f0151d4a23ca64245e84e989cd074ba804332bea555b5a4f2e8decf"
+      },
+      "annotation_path": "data/annotations/es/403.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 404,
+      "language": "es",
+      "title": "Declaración jurada herederos legítimos",
+      "source_id": "es-404-iaf-herederos",
+      "domain": "Finance",
+      "issuer_id": "ar-iaf",
+      "template_family": "iaf-herederos",
+      "source_pages": 1,
+      "source_sha256": "9a5b8c1b0e9cb97d9c5d01f865080db0827e64bb5256718562b47414cadeb0d0",
+      "fields": 33,
+      "files": {
+        "workflow/0-html_template/data_es/404.html": "0b844e797ccdc8ee8920b07c2197121b76c1be3af75ae68205dd3bf30587d909",
+        "workflow/1-annotated_json/data_es/404.json": "5bf00f46b41ea10398da7c7898b492253ba412c1d16e15b1f9d8307d74569442",
+        "workflow/2-filled_json-a/data_es/404.json": "986c0d2a7e912d4f845eca25faf6fd6f26cf0f27be2457bdfabfdfb9d2b8bf90",
+        "workflow/3-filled_html-a/data_es/404.html": "24f104446e52f764fefa2fea3968fbd79f91f97e77bc06f3bb2bf7c8c950ae6e",
+        "workflow/4-context-a/data_es/404.txt": "f977957f283480e5190ced2e7ce32f81fee84a5a98d5a12c3515237dd34a527d",
+        "workflow/5-ph_html-a/data_es/404.html": "2d97ea9606e5f07a2562279ebd0979cb391cda29a9aff3ebb7a9e7932983a30c",
+        "workflow/6-meta-a/data_es/404.json": "0ff167083e8d8ef552597bf1522ce33b0799d3dfb6778d85477c6e5e354a6475"
+      },
+      "annotation_path": "data/annotations/es/404.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}

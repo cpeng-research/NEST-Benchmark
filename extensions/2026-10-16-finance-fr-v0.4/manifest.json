@@ -1,0 +1,77 @@
+{
+  "extension_id": "2026-10-16-finance-fr-v0.4",
+  "added_on": "2026-10-16",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 2,
+  "samples": [
+    {
+      "id": 637,
+      "language": "fr",
+      "title": "Attestation employeur : heures supplémentaires des travailleurs frontaliers",
+      "source_id": "fr-637-dgfip-2041-ae-heures-supplementaires-frontaliers",
+      "domain": "Finance",
+      "issuer_id": "Direction générale des finances publiques (DGFiP)",
+      "template_family": "dgfip-2041-ae-heures-supplementaires-frontaliers",
+      "source_pages": 2,
+      "source_sha256": "d024f79cb660c9f8cf1e058a1689f69fe729a6a51b8328f6abb5b33a95598c75",
+      "fields": 22,
+      "files": {
+        "workflow/0-html_template/data_fr/637.html": "a026e854f5d669912a7ffafba83ebaa2dcde1d223b6f69721abf53470589c35f",
+        "workflow/1-annotated_json/data_fr/637.json": "fc179c8ee2674c32baf4c7f882ad79941b7be1cd6fb468e7d91c302b6c171b84",
+        "workflow/2-filled_json-a/data_fr/637.json": "61e0c05628942841cfd5db52e5808416350cb5c9584cb5c1e5d1381acc592b14",
+        "workflow/3-filled_html-a/data_fr/637.html": "6fb7d53a4098d22ff15af45a30742be47a54e14404cc82557a421eab66f62117",
+        "workflow/4-context-a/data_fr/637.txt": "ab25d6510ff34e91f48d492ca8262d55466d4e072e8443e65e446a68dec25c9e",
+        "workflow/5-ph_html-a/data_fr/637.html": "1e9d7291bd8909b5f8cac85731d6c7ace97a4e4203299bcae101025f47fbab38",
+        "workflow/6-meta-a/data_fr/637.json": "d636260f7e32ba86aaaa3730df5bae178a8ede18a8db5f25f50ec3e80d5326d1"
+      },
+      "annotation_path": "data/annotations/fr/637.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 638,
+      "language": "fr",
+      "title": "Attestation de résidence fiscale française des travailleurs frontaliers franco-suisses",
+      "source_id": "fr-638-dgfip-2041-as-frontaliers-residence",
+      "domain": "Finance",
+      "issuer_id": "Direction générale des finances publiques (DGFiP)",
+      "template_family": "dgfip-2041-as-frontaliers-residence",
+      "source_pages": 5,
+      "source_sha256": "e6de73a7fde319acab39bc96d85cb1ac4a16bd544965695e6479eadd8e0aa398",
+      "fields": 68,
+      "files": {
+        "workflow/0-html_template/data_fr/638.html": "bff660df08ae6dab299d332912a31b55ba80e1c8f8f081da285090d58a3f36ef",
+        "workflow/1-annotated_json/data_fr/638.json": "12459e34833e270bc0fd6bf12956df8520bdc5b861e1d4431de40399d6a8c816",
+        "workflow/2-filled_json-a/data_fr/638.json": "1fa9ff693c961f903cc0808d0d8405f21489535a23430c5a04962d663fabe611",
+        "workflow/3-filled_html-a/data_fr/638.html": "21165400957fbd168e7fe531336fb06447db74cf001ffc4e0baa9798cf1d915b",
+        "workflow/4-context-a/data_fr/638.txt": "8bdbcbae91691d499b7e6fd42624bbf9ff2af0b3812eb19569c8b8033cc51eec",
+        "workflow/5-ph_html-a/data_fr/638.html": "9015a9f18c266b9eae6f5075905d9baae369aaaf6d5b9cd5dfcf20e94101d614",
+        "workflow/6-meta-a/data_fr/638.json": "b5e69812e73904652384b01ee80e0967d509ec5823c24bd2c55b3afc7746d30e"
+      },
+      "annotation_path": "data/annotations/fr/638.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}

@@ -13,6 +13,18 @@ the EMNLP 2026 publication. Versioned releases preserve stable benchmark
 snapshots; the exact paper artifact remains frozen in the reproduction
 repository linked above.
 
+## Current Dataset: 1,300 Templates
+
+The combined text-task inventory contains **1,300 templates**: 449 English,
+431 Chinese, 215 Spanish, and 205 French. The main `workflow/` contains 869
+records; versioned batches under `extensions/` provide another 431.
+
+See the [extension index](extensions/README.md) for release history and the
+[latest batch list](extensions/RELEASE_1300.md) for source records and stable
+sample IDs. The [shared workflow entry point](extensions/workflow-support-v1/README.md)
+loads the main workflow and selected additions together using the existing
+prompts and task metrics.
+
 ## Included Materials
 
 - `workflow/`: normalized Empty/Filled HTML, annotations and metadata,
@@ -78,3 +90,30 @@ python scripts/verify_dataset.py
 
 Expected release contents and counts are summarized in
 [`ARTIFACT_INVENTORY.md`](ARTIFACT_INVENTORY.md).
+
+## Additions: 15 October 2026
+
+A further 100 templates are available in separate versioned directories under
+`extensions/`, bringing the combined text-task inventory to 1,200: 449 English,
+170 Spanish, 150 French, and 431 Chinese. This increment adds 32 Healthcare,
+28 Education, 20 Finance, 15 GovPublic, and 5 Business templates. The existing
+workflow files and identifiers are retained.
+
+Each new record provides numbered stages 0-6, source and collection records,
+field annotations, and integrity manifests. Use the existing shared workflow
+entry point and original task metrics; no new model baseline results are
+included. See the [1,200-template release index](extensions/RELEASE_1200.md)
+for all new batch paths and sample IDs.
+
+## Latest Additions: 16 October 2026
+
+A further 100 complete source forms are available in versioned directories
+under `extensions/`, bringing the combined text-task inventory to 1,300:
+449 English, 431 Chinese, 215 Spanish, and 205 French. Existing workflow
+files and identifiers are retained.
+
+Each new record provides numbered stages 0-6, source and collection records,
+field annotations, and integrity manifests. Use the existing shared workflow
+entry point and original task metrics. See the
+[1,300-template release index](extensions/RELEASE_1300.md) for coverage,
+all new batch paths, and sample IDs.

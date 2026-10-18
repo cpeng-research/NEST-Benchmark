@@ -1,0 +1,44 @@
+{
+  "extension_id": "2026-10-16-business-es-v0.2",
+  "added_on": "2026-10-16",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 1,
+  "samples": [
+    {
+      "id": 641,
+      "language": "es",
+      "title": "Solicitud de análisis - División Laboratorios de Geoquímica",
+      "source_id": "es-641-cnea-geoquimica",
+      "domain": "Business",
+      "issuer_id": "CNEA",
+      "template_family": "cnea-geoquimica",
+      "source_pages": 2,
+      "source_sha256": "34ea754291beaa4cac46f9953af26b29f6642b62a394cd19c01c9b4edcba3557",
+      "fields": 141,
+      "files": {
+        "workflow/0-html_template/data_es/641.html": "d8dc58b4ba12bd01ad1b05aec88487c2bd3a9c97adc963844f0b629c6db7a1fd",
+        "workflow/1-annotated_json/data_es/641.json": "7c3e77deabde73ef91251ef60f32443969a6cc0d8f37f866dfe0053ea783859d",
+        "workflow/2-filled_json-a/data_es/641.json": "2b1e3252868b781b669342c676fc4dd54dfe8e56216fbe8940bd740666c6990e",
+        "workflow/3-filled_html-a/data_es/641.html": "1fd2e5826c97ab2ff793a33fa84e43c4e2e271f2c35dfd92db11be9166bf5bc8",
+        "workflow/4-context-a/data_es/641.txt": "664b2cc3379defe7b6ee0d1f94e26c070d2ee609dfab4272b4cb0fbc1b48443b",
+        "workflow/5-ph_html-a/data_es/641.html": "b7871e9c480c4f4f1106dfd55ac87747a025fe03a29d89a0cdcf66db8c586f76",
+        "workflow/6-meta-a/data_es/641.json": "c8abc99d5eb7569a99471534ab47fb78558d31606d07761504edf37a430c74ef"
+      },
+      "annotation_path": "data/annotations/es/641.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      },
+      "business_topic": "Solicitud de análisis - División Laboratorios de Geoquímica"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "Inmueble": {
+    "Obra:": "Barrio Ejemplo Rosario",
+    "Piso:": "2",
+    "Dpto:": "B",
+    "Casa Nº": "14",
+    "Mza :": "3",
+    "Fecha de la Solicitud:": "15/10/2026"
+  },
+  "Solicitante": {
+    "Nombre y apellido": "Roberto Alvarez",
+    "DNI": "15123456",
+    "Notificaciones": {
+      "Calle": "Belgrano",
+      "Número": "740",
+      "Piso": "2",
+      "Departamento": "B",
+      "Barrio": "Centro",
+      "Localidad": "Rosario",
+      "Código postal": "2000",
+      "Provincia": "Santa Fe",
+      "Teléfono": "0341 555 0210",
+      "Correo": "roberto.alvarez@example.org"
+    }
+  },
+  "Cancelación": {
+    "Alcance": {
+      "choices": [
+        "TOTAL",
+        "PARCIAL"
+      ],
+      "value": [
+        "PARCIAL"
+      ]
+    },
+    "Fecha tentativa": "20/11/2026",
+    "Venta simultánea": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "Monto parcial": "1500000"
+  },
+  "Firmas": {
+    "Firma del Solicitante": "Roberto Alvarez",
+    "Aclaración": "Roberto Alvarez"
+  }
+}

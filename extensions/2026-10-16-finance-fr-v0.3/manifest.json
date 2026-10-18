@@ -1,0 +1,79 @@
+{
+  "extension_id": "2026-10-16-finance-fr-v0.3",
+  "added_on": "2026-10-16",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 2,
+  "samples": [
+    {
+      "id": 679,
+      "language": "fr",
+      "title": "Déclaration de retenue à la source des non-résidents : 2041-E",
+      "source_id": "fr-679-2041-e",
+      "domain": "Finance",
+      "issuer_id": "Direction générale des finances publiques",
+      "template_family": "2041-e",
+      "source_pages": 1,
+      "source_sha256": "5562360900f7f97d1f1b3e203d385ccfc625669f65e5d4fdba34dba7a5a2ed63",
+      "fields": 70,
+      "files": {
+        "workflow/0-html_template/data_fr/679.html": "2994c015163b4614a9e11caa658eb3ae9308e6c6def7df4f66435b2a863eabd0",
+        "workflow/1-annotated_json/data_fr/679.json": "560673ee937c19c6c31c296036b70ba543974f44ef0470927150f7f5730fa5cb",
+        "workflow/2-filled_json-a/data_fr/679.json": "8e4ad0b25895dcd40c3c1969062c8ddb9ba08b1c8fe80f31a306a82e422a81b1",
+        "workflow/3-filled_html-a/data_fr/679.html": "b4d91a857b0685ce4c9992ff6dd5603e2ced68b611a5294fdfd01cda9a8ce3a7",
+        "workflow/4-context-a/data_fr/679.txt": "3765a0f37daa90bb62376afd93e30a5842d9a2addc08e284ae8352b7cc7af028",
+        "workflow/5-ph_html-a/data_fr/679.html": "4fc21204fc6e64cdbd6b981fa100cc5f90cc2e025e9533cd562c7ec19503defc",
+        "workflow/6-meta-a/data_fr/679.json": "ea7ef3a8c42420e28f90af12e607821b22f0b84907ad4346f3f67d3aef207424"
+      },
+      "annotation_path": "data/annotations/fr/679.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      },
+      "business_topic": "Déclaration de retenue à la source des non-résidents : 2041-E"
+    },
+    {
+      "id": 680,
+      "language": "fr",
+      "title": "Contribution économique territoriale : plafonnement selon la valeur ajoutée, 1327-CET-SD",
+      "source_id": "fr-680-1327-cet-sd",
+      "domain": "Finance",
+      "issuer_id": "Direction générale des finances publiques",
+      "template_family": "1327-cet-sd",
+      "source_pages": 5,
+      "source_sha256": "85d801010db33f4fbb1912afa854c538a308b081e9f78eb23476907156a1bca8",
+      "fields": 143,
+      "files": {
+        "workflow/0-html_template/data_fr/680.html": "945f72881003f8542246a4dbd80dfcba27827c1b943fbe25d77a257eac254316",
+        "workflow/1-annotated_json/data_fr/680.json": "1cf28e3007b4d2b82ee7d715c56e7912cf71142170e4ba0a25535adf2ad852a3",
+        "workflow/2-filled_json-a/data_fr/680.json": "52335e1562a8ae3c3c2b2af921105590b08a9f4b1766d1866a34ea956e9eb22b",
+        "workflow/3-filled_html-a/data_fr/680.html": "9f300bc4b5ac98b1eb895bd164c20ea842c25f07cbc9ae16bd8401f62cd20035",
+        "workflow/4-context-a/data_fr/680.txt": "9efa05312a4323c7f8aed757a4702845e0d3c5fc0ff0cab9c2bc2d1557926c03",
+        "workflow/5-ph_html-a/data_fr/680.html": "02fc4908dba24fe15bfce94fc76b4c3de448cdccfb6caae75999f0614fb0a46a",
+        "workflow/6-meta-a/data_fr/680.json": "3f6f34fa349bd998bfa3e77afd8b5534518487c54f28241fc8ae3d13d6e6e24c"
+      },
+      "annotation_path": "data/annotations/fr/680.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      },
+      "business_topic": "Contribution économique territoriale : plafonnement selon la valeur ajoutée, 1327-CET-SD"
+    }
+  ]
+}

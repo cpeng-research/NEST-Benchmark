@@ -1,0 +1,44 @@
+{
+  "extension_id": "2026-10-16-finance-fr-v0.14",
+  "added_on": "2026-10-16",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 1,
+  "samples": [
+    {
+      "id": 685,
+      "language": "fr",
+      "title": "Demande de création d’un taux personnalisé et/ou d’acomptes de prélèvement à la source : 2043-SD",
+      "source_id": "fr-685-2043-sd",
+      "domain": "Finance",
+      "issuer_id": "Direction générale des finances publiques",
+      "template_family": "2043-sd",
+      "source_pages": 4,
+      "source_sha256": "9fe366647a90817d7fcabddf77d071b6fd3483c937430fab7bb940c87f4023dc",
+      "fields": 178,
+      "files": {
+        "workflow/0-html_template/data_fr/685.html": "317bee9a073ad84ede465df72048e73e0c50f21289696d9b945854012596c179",
+        "workflow/1-annotated_json/data_fr/685.json": "8105bf9e334005f3451776a325fcb52b465f160d44a26d286f9536d671584bd9",
+        "workflow/2-filled_json-a/data_fr/685.json": "c33c9403843a771bee50e0776216c85aef2e0e0a0ea99fdd07ecf2367cbdd7ac",
+        "workflow/3-filled_html-a/data_fr/685.html": "520f984dc69078df67e6197acabc69a4df7fc47e17acaf751cafa0146f5ac228",
+        "workflow/4-context-a/data_fr/685.txt": "eba11a9183bc08774d7827c90ac2c357ea9d752a00c64542e43b1f4fb69a43e2",
+        "workflow/5-ph_html-a/data_fr/685.html": "c3df82d00d2971d5c313a3dd27f9f038913a1aa179d2b4c54967e934da105f3c",
+        "workflow/6-meta-a/data_fr/685.json": "871a94cf9563486c644400988572f6a747d37c878ea32ee2fd4e3887180d5cc4"
+      },
+      "annotation_path": "data/annotations/fr/685.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      },
+      "business_topic": "Demande de création d’un taux personnalisé et/ou d’acomptes de prélèvement à la source : 2043-SD"
+    }
+  ]
+}

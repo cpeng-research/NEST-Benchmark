@@ -1,0 +1,234 @@
+{
+  "IDENTIFICACIÓN DE LA INSTITUCIÓN": {
+    "Establecimiento notificador": "",
+    "Localidad": "",
+    "Provincia": "",
+    "Fecha de notificación": "",
+    "Apellido y nombre del notificador": "",
+    "Rol": "",
+    "Teléfono": "",
+    "Correo electrónico": "",
+    "Firma": ""
+  },
+  "IDENTIFICACIÓN DEL CASO": {
+    "ID Evento": "",
+    "Apellido y Nombre": "",
+    "Tipo/N°documento": "",
+    "Fecha de nacimiento": "",
+    "Edad": "",
+    "Sexo": "",
+    "Provincia": "",
+    "Departamento": "",
+    "Localidad": "",
+    "Calle / Manzana": "",
+    "Nº/Casa": "",
+    "Piso": "",
+    "Depto.": "",
+    "Cód. Postal": "",
+    "Barrio": "",
+    "Teléfono": "",
+    "Correo Electrónico": ""
+  },
+  "INFORMACIÓN CLÍNICA": {
+    "Fecha de Inicio de 1º síntomas (FIS)": "",
+    "Semana epidemiológica de FIS": "",
+    "Atención": {
+      "choices": [
+        "Ambulatorio",
+        "Internado"
+      ],
+      "value": []
+    },
+    "Fecha de 1ª consulta": "",
+    "Establecimiento de 1ª consulta": "",
+    "Embarazo": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": []
+    },
+    "Fecha de internación": "",
+    "UCI/UTI": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": []
+    },
+    "Fecha UCI": "",
+    "Fecha de ALTA": "",
+    "Tratamiento desconocido": {
+      "choices": [
+        "Desconocido"
+      ],
+      "value": []
+    },
+    "Tratamiento Hiperbárico": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": []
+    },
+    "Estadío clínico": {
+      "choices": [
+        "Asintomático",
+        "Leve",
+        "Moderado",
+        "Severo"
+      ],
+      "value": []
+    },
+    "Caso fallecido": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": []
+    },
+    "Lugar de fallecimiento": {
+      "choices": [
+        "Fallecimiento en institución hospitalaria",
+        "Fallecimiento en domicilio"
+      ],
+      "value": []
+    },
+    "Otro lugar de fallecimiento": ""
+  },
+  "SIGNOS Y SÍNTOMAS": {
+    "SIGNOS Y SÍNTOMAS": {
+      "choices": [
+        "Arritmia",
+        "Astenia",
+        "Ataxia",
+        "Afectación renal",
+        "Ansiedad",
+        "Amnesia",
+        "Cansancio",
+        "Cefalea",
+        "Cianosis",
+        "Coma",
+        "Confusión mental",
+        "Convulsiones",
+        "Corea",
+        "Deterioro del sensorio",
+        "Dolor precordial",
+        "Depresión psíquica",
+        "Debilidad",
+        "Diarrea",
+        "Deterioro neurológico",
+        "Deterioro psiquiátrico",
+        "Dificultad respiratoria",
+        "Disnea",
+        "Enlentecimiento motor",
+        "Hipotensión arterial",
+        "Impotencia funcional de miembros inferiores",
+        "Irritabilidad",
+        "Isquemia de miocardio",
+        "Palpitaciones",
+        "Parkisonismo",
+        "Relajación de esfínteres",
+        "Sensación vertiginosa",
+        "Síncope",
+        "Somnolencia",
+        "Taquipnea (FR >25)",
+        "Trastornos en el aprendizaje",
+        "Trastornos en la conducta",
+        "Taquicardia (>100 pulsaciones por minuto)",
+        "Visión borrosa o alterada",
+        "Vómitos",
+        "Vértigo"
+      ],
+      "value": []
+    }
+  },
+  "LABORATORIO": {
+    "Tipo de muestra tomada": {
+      "choices": [
+        "Sangre"
+      ],
+      "value": []
+    },
+    "Otros": "",
+    "Establecimiento de toma de muestra": "",
+    "Fecha de toma de muestra": "",
+    "Establecimiento de derivación de la muestra": "",
+    "Fecha de derivación": "",
+    "Establecimiento de diagnóstico": "",
+    "Fecha de diagnóstico": "",
+    "Prueba realizada": "",
+    "Resultado": {
+      "choices": [
+        "Detectable",
+        "No detectable",
+        "Muestra inadecuada"
+      ],
+      "value": []
+    },
+    "Valor": "",
+    "Observaciones": ""
+  },
+  "EPIDEMIOLOGÍA/EXPOSICIÓN": {
+    "Hay otra persona intoxicada por el mismo evento": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": []
+    },
+    "Cuántos": "",
+    "Circunstancia de exposición": {
+      "choices": [
+        "Accidental",
+        "Laboral",
+        "Intencional",
+        "Ambiental/ Exterior",
+        "Desconocida"
+      ],
+      "value": []
+    },
+    "Lugar probable de exposición": {
+      "choices": [
+        "Hogar",
+        "Laboral",
+        "Área Pública",
+        "Desconocida"
+      ],
+      "value": []
+    },
+    "Fuente de exposición": {
+      "choices": [
+        "Motores de combustión",
+        "Motores nafteros o a kerosén",
+        "Parrillas y braseros de carbón de leña",
+        "Sistemas de calefacción portátiles",
+        "Hogar a leña/ Salamandra",
+        "Incendio",
+        "Calefón/Termotanque /Caldera",
+        "Cocina/Anafe/Horno",
+        "Humo de tabaco",
+        "Estufas a gas",
+        "Desconocida"
+      ],
+      "value": []
+    },
+    "Otros (especificar)": ""
+  },
+  "CLASIFICACIÓN FINAL (MARCAR CON UNA X)": {
+    "Clasificación": {
+      "choices": [
+        "Caso sospechoso",
+        "Caso confirmado",
+        "Caso Invalidado por Epidemiología",
+        "Otro (aclarar en observaciones)"
+      ],
+      "value": []
+    }
+  },
+  "OBSERVACIONES": {
+    "OBSERVACIONES": "",
+    "Nombre y Apellido": "",
+    "Firma y Sello": ""
+  }
+}

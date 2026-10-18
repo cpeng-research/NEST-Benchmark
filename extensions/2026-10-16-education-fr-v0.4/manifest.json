@@ -1,0 +1,43 @@
+{
+  "extension_id": "2026-10-16-education-fr-v0.4",
+  "added_on": "2026-10-16",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 1,
+  "samples": [
+    {
+      "id": 636,
+      "language": "fr",
+      "title": "Médiad’Oc : inscription aux préparations aux concours et examens professionnels",
+      "source_id": "fr-636-mediadoc-inscription-preparations-concours",
+      "domain": "Education",
+      "issuer_id": "fr-universite-toulouse-mediadoc",
+      "template_family": "mediadoc-inscription-preparations-concours",
+      "source_pages": 5,
+      "source_sha256": "07de17fef48310add23315a4e1ac71a394373da84999781b94aab9efda0b9240",
+      "fields": 36,
+      "files": {
+        "workflow/0-html_template/data_fr/636.html": "daf76bf3fa202eb4c95e48e1864736b7ec4c8178e45ce63f5df022a7edcc9ae5",
+        "workflow/1-annotated_json/data_fr/636.json": "ba5cd8f809bdbacef02ababe1423af79c2d3aa9a97bda0af83f03c69bf440d34",
+        "workflow/2-filled_json-a/data_fr/636.json": "41dca150846e02c383da81d8ae9a7668b31d0bff52cdf5269e4255b8f9c2060e",
+        "workflow/3-filled_html-a/data_fr/636.html": "529870024bdf5e797d2e41b9b00d5f4d4c545bc2d81a007c44fcd27f91bf5ddf",
+        "workflow/4-context-a/data_fr/636.txt": "fe5681ea57e9f772cc98b39653806159fd29c4dbad442f12d84c435d785bb557",
+        "workflow/5-ph_html-a/data_fr/636.html": "7319b60844742fe8ae713ed3e7d32341164053792adf0a16a04aaca7977c5c65",
+        "workflow/6-meta-a/data_fr/636.json": "da1aaec163c6f5f0ce0604907e61992435b76b634cfdbe4ea719eafd073e64fb"
+      },
+      "annotation_path": "data/annotations/fr/636.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}

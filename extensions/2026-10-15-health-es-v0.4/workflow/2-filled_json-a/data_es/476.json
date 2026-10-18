@@ -1,0 +1,328 @@
+{
+  "Formulario para el reporte de un producto cosmético": {
+    "Fecha:": "15/10/2026",
+    "FORMULARIO N°": "DVS-SIM-476"
+  },
+  "1 Comunicador: (marcar opción)": {
+    "1 Comunicador: (marcar opción)": {
+      "choices": [
+        "Usuario",
+        "Familiar",
+        "Médico",
+        "Farmacéutico",
+        "Organismo",
+        "Otro (precisar):"
+      ],
+      "value": [
+        "Farmacéutico"
+      ]
+    },
+    "Otro (precisar):": "No aplica al comunicador ficticio."
+  },
+  "1.1 En caso de que el comunicador no sea el usuario, completar los siguientes datos:": {
+    "Nombre:": "Paula Prueba",
+    "Dirección:": "Calle Ejemplo 476, local 1",
+    "Localidad / Provincia:": "Villa Ficticia / Córdoba",
+    "Telefono de contacto:": "000-476-1001",
+    "E-mail de contacto:": "paula.prueba@example.invalid"
+  },
+  "2. Usuario:": {
+    "Nombres y Apellido:": "Marta Simulada",
+    "Dirección:": "Calle Ficticia 47, piso 2",
+    "Localidad / Provincia:": "Ciudad de Ensayo / Córdoba",
+    "Telefono de contacto:": "000-476-2001",
+    "E-mail de contacto:": "marta.simulada@example.invalid",
+    "Edad:": "36 años",
+    "Embarazo en curso:": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "Tiene antecedentes de reacciones alérgicas o hipersensibilidad a sustancias, fragancias, medicamentos, cosméticos, alimentos, confirmados médicamente?": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "Antecedentes alérgicos": {
+      "¿Cuales?": "No hay alergias confirmadas en la simulación."
+    },
+    "Presenta algún tipo de patologías cutáneas:": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "Patologías cutáneas": {
+      "¿Cuáles?": "No hay patologías cutáneas declaradas."
+    },
+    "Otra patología:": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "Otra patología": {
+      "¿Cuál?": "No se declara otra patología ficticia."
+    }
+  },
+  "3. Producto:": {
+    "Nombre:": "Emulsión corporal ficticia 476",
+    "Marca:": "Marca Simulada 476",
+    "Lote:": "LOTE-SIM-476",
+    "Vto:": "12/2027",
+    "N° de Legajo del establecimiento elaborador y/o importador (según consta en rótulo):": "LEGAJO-SIM-476",
+    "Posee ticket de compra? (Adjuntar copia)": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "SI"
+      ]
+    },
+    "Lugar de compra: (detallar)": "Farmacia ficticia de Villa Ejemplo; ticket simulado Ticket476.pdf adjunto."
+  },
+  "3.1 Entrega muestra?": {
+    "Entrega muestra?": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "SI"
+      ]
+    },
+    "La muestra está abierta?": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "SI"
+      ]
+    }
+  },
+  "4. Motivo del reporte": {
+    "4. Motivo del reporte": {
+      "choices": [
+        "Duda de la legitimidad",
+        "Sospecha de presencia de ingredientes químicos no permitidos.",
+        "Se observan características físicas diferentes a las habituales (Apariencia, olor, color, diseño y forma del envase).Cuales?",
+        "Se observan desvíos de calidad del producto (contenido, envase, tipo de cierre, etc)",
+        "Se observan eventos adversos por el uso del producto."
+      ],
+      "value": [
+        "Se observan eventos adversos por el uso del producto."
+      ]
+    },
+    "Duda de la legitimidad": {
+      "SI/NO": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": [
+          "NO"
+        ]
+      }
+    },
+    "Sospecha de presencia de ingredientes químicos no permitidos.": {
+      "Cuales?": "No se sospechan ingredientes prohibidos."
+    },
+    "Características físicas": {
+      "Cuales?": "No se observan diferencias físicas del envase."
+    },
+    "Desvíos de calidad": {
+      "Cuales?": "No se observa desvío de calidad del contenido o cierre."
+    }
+  },
+  "5. Utilización del producto:": {
+    "Fecha aproximada de 1ª aplicación:": "13/10/2026",
+    "Durante cuánto tiempo fue utilizada?": "Dos aplicaciones durante un día ficticio",
+    "Usa frecuentemente este producto?": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "Frecuencia de uso: (por hora/ diaria/semanal/mensual)": "Dos veces el día del uso simulado; no hay uso habitual.",
+    "Sitio de aplicación del producto:": {
+      "choices": [
+        "cabello",
+        "uñas",
+        "dientes",
+        "área ocular",
+        "manos",
+        "brazos",
+        "piernas",
+        "pies",
+        "espalda",
+        "torso",
+        "axilas",
+        "cara",
+        "labios",
+        "otra parte del cuerpo:"
+      ],
+      "value": [
+        "brazos"
+      ]
+    },
+    "otra parte del cuerpo:": "No aplica: sólo los brazos en la simulación."
+  },
+  "5.1 Utilizó otros productos cosméticos sobre la zona de aplicación mencionada y/o ingirió medicamentos, al mismo tiempo que usó el producto reportado?": {
+    "5.1 Utilizó otros productos cosméticos sobre la zona de aplicación mencionada y/o ingirió medicamentos, al mismo tiempo que usó el producto reportado?": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "¿Cuáles?": "No hubo productos ni medicamentos concomitantes ficticios."
+  },
+  "5.2 En caso de que el producto reportado sea:": {
+    "¿Hubo exposición al sol durante el uso del mismo?": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    }
+  },
+  "6. Eventos adversos por el uso del producto:": {
+    "Fecha de aparición:": "14/10/2026",
+    "Fecha desaparición:": "15/10/2026",
+    "Tipo de reacción indeseada:": {
+      "choices": [
+        "ardor",
+        "picazón",
+        "ampollas",
+        "enrojecimiento",
+        "hinchazón",
+        "sequedad",
+        "pústulas",
+        "descamación",
+        "caída pelo",
+        "caspa",
+        "decoloración",
+        "otra (detallar):"
+      ],
+      "value": [
+        "picazón",
+        "enrojecimiento"
+      ]
+    },
+    "otra (detallar):": "No hubo otra reacción en el caso ficticio."
+  },
+  "6.1 Localización de la reacción adversa:": {
+    "Sobre la zona de aplicación:": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "SI"
+      ]
+    },
+    "En otra zona del cuerpo? Detallar:": "No se extendió fuera de los brazos ficticios."
+  },
+  "7. Consecuencias del evento adverso:": {
+    "7. Consecuencias del evento adverso:": {
+      "choices": [
+        "Intervención médica de urgencia.",
+        "Hospitalización.",
+        "consulta médica /dentista.",
+        "consulta farmacéutica.",
+        "Secuelas/ invalidez /incapacidad.",
+        "otros (precisar)"
+      ],
+      "value": [
+        "consulta farmacéutica."
+      ]
+    },
+    "otros (precisar)": "No hubo otras consecuencias ficticias."
+  },
+  "7.1 Diagnóstico médico:": {
+    "7.1 Diagnóstico médico:": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "Aporta copia del certificado médico?": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "Recibió medicación?:": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "Realizó el tratamiento prescripto por el médico?:": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    }
+  },
+  "7.2 Evolución de la reacción adversa:": {
+    "Desapareció o disminuyó el efecto al dejar de aplicar el producto?": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "SI"
+      ]
+    },
+    "Desapareció o disminuyó luego de la medicación prescripta?": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    }
+  },
+  "8. Información adicional que considere de importancia:": {
+    "8. Información adicional que considere de importancia:": "Se dejó de utilizar la emulsión ficticia; los síntomas simulados desaparecieron sin medicación. No representa un caso clínico real.",
+    "Firma del comunicador": "Firma ficticia Paula Prueba",
+    "Firma y aclaración del receptor formulario": "Firma ficticia Rita Ensayo; aclaración Rita Ensayo"
+  }
+}

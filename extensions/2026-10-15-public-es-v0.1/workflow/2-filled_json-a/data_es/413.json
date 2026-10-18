@@ -1,0 +1,155 @@
+{
+  "I. IDENTIFICACIÓN DEL TRÁMITE": {
+    "Tipo de Inscripción": {
+      "choices": [
+        "1. Inscripción Originaria o Nuevo Contrato Autónomo",
+        "2. Extensión de Nuevo Certificado",
+        "3. Ampliación de Monto"
+      ],
+      "value": [
+        "1. Inscripción Originaria o Nuevo Contrato Autónomo"
+      ]
+    },
+    "1. Inscripción Originaria o Nuevo Contrato Autónomo": {
+      "Información Adicional": "Contrato anterior entre las partes: expediente TT-2024-01234, inscripto el 20/06/2024"
+    },
+    "2. Extensión de Nuevo Certificado": {
+      "Información Adicional": "No corresponde; inscripción originaria"
+    },
+    "3. Ampliación de Monto": {
+      "Información Adicional": "No corresponde; inscripción originaria"
+    },
+    "Impuesto de Sellos Abonado": {
+      "choices": [
+        "SI",
+        "NO",
+        "No Aplica"
+      ],
+      "value": [
+        "SI"
+      ]
+    }
+  },
+  "II. CONTRATANTES": {
+    "1. CONTRATANTE con DOMICILIO en el PAÍS": {
+      "Nombre Completo o Razón Social": "Tecnología del Litoral SA",
+      "DNI o Datos de Inscripción (RPC o IGJ)": "IGJ inscripción 12345, 15/02/2020",
+      "CUIT": "30-00012345-6",
+      "Domicilio": "Corrientes 1400, Ciudad de Buenos Aires",
+      "Código de Actividad Económica Local (ARCA)": "620100",
+      "Empresa de Capital": {
+        "choices": [
+          "Nacional",
+          "Extranjero"
+        ],
+        "value": [
+          "Nacional"
+        ]
+      }
+    },
+    "2. CONTRATANTE con DOMICILIO en el EXTERIOR": {
+      "Nombre Completo o Razón Social": "Tecnología Ejemplo SL",
+      "Domicilio": "Calle del Río 21, Madrid",
+      "País": "España",
+      "Convenio para Evitar la Doble Imposición": "Ley 26.918",
+      "Código Identificación Impositiva según Domicilio (ARCA)": "517",
+      "Vinculación Económica": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": [
+          "NO"
+        ]
+      }
+    }
+  },
+  "III. NATURALEZA DE LAS PRESTACIONES": {
+    "PRESTACIÓN": {
+      "choices": [
+        "1. Asistencia Técnica, Ingeniería o Consultoría (Art. 104, inc a), ap 1, LIG)",
+        "2. Licencias (Patentes, Marcas, etc) y Cesión de Uso (Art. 104, inc a), ap 2, LIG)",
+        "3. Prestaciones de (1. y 2.), en el mismo Acto Jurídico. (Art. 104, inc a), in fine, LIG)"
+      ],
+      "value": [
+        "1. Asistencia Técnica, Ingeniería o Consultoría (Art. 104, inc a), ap 1, LIG)"
+      ]
+    },
+    "1. Asistencia Técnica, Ingeniería o Consultoría (Art. 104, inc a), ap 1, LIG)": {
+      "¿Obtenible en el País?": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": [
+          "NO"
+        ]
+      }
+    },
+    "Código de la Actividad Económica de la Prestación:": "620100"
+  },
+  "IV. DESCRIPCIÓN DE LAS PRESTACIONES": {
+    "IV. DESCRIPCIÓN DE LAS PRESTACIONES:": "Asistencia técnica para implementar un sistema de seguimiento de inventarios industriales, con diseño, pruebas y documentación técnica."
+  },
+  "V. MODALIDAD DE PAGO DE LAS PRESTACIONES": {
+    "Modalidad de pago": {
+      "choices": [
+        "Pago Fijo",
+        "Regalías",
+        "Pago Fijo + Regalías",
+        "Otra Modalidad"
+      ],
+      "value": [
+        "Pago Fijo"
+      ]
+    }
+  },
+  "VI. VIGENCIA DEL ACTO JURÍDICO": {
+    "Celebración:": "01/10/2026",
+    "Inicio de Vigencia:": "01/11/2026",
+    "Finalización de Vigencia:": "31/10/2028",
+    "Renovaciones automáticas": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "SI"
+      ]
+    },
+    "Periodicidad de las Renovaciones Automáticas:": "Cada dos años"
+  },
+  "VII. PERÍODO SOLICITADO A REGISTRO": {
+    "Desde:": "01/11/2026",
+    "Hasta:": "31/10/2028"
+  },
+  "VIII. MONTO SOLICITADO A REGISTRO": {
+    "Monto:": "10000 USD",
+    "Acrecentamiento o “Grossing Up”:": "0 USD",
+    "Monto Solicitado a Registro:": "10000 USD"
+  },
+  "IX FIRMANTE": {
+    "DATOS DEL FIRMANTE": {
+      "Nombre Completo:": "Mateo Ríos",
+      "DNI:": "30123456",
+      "CUIT:": "20-30123456-7",
+      "Correo Electrónico:": "mateo.rios@example.org",
+      "En representación de:": "Tecnología del Litoral SA, contratante con domicilio en el País",
+      "Carácter:": "Presidente"
+    },
+    "AUTORIZA A VINCULAR AL EXPTE": {
+      "Nombre Completo:": "Lucía Benítez",
+      "DNI:": "32123456",
+      "CUIT:": "27-32123456-8",
+      "Correo Electrónico:": "lucia.benitez@example.org",
+      "Carácter:": "Apoderada"
+    },
+    "Suscripción": {
+      "FIRMA:": "Mateo Ríos"
+    }
+  },
+  "ANEXO": {
+    "ANEXO": "Segunda persona autorizada a vincular al expediente: Ana Torres, DNI 33123456, CUIT 27-33123456-2, ana.torres@example.org, asesora legal. El firmante solicita vinculación de Lucía Benítez y Ana Torres, y no su propia vinculación.",
+    "FIRMA:": "Mateo Ríos"
+  }
+}

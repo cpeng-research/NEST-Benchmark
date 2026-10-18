@@ -1,0 +1,171 @@
+{
+  "SISTEMA NACIONAL DE FARMACOVIGILANCIA EVENTOS ADVERSOS SUPUESTAMENTE ATRIBUIBLES A LA VACUNACIÓN E INMUNIZACIÓN (ESAVI)": {
+    "Provincia:": "Córdoba"
+  },
+  "TIPO DE ESAVI": {
+    "TIPO DE ESAVI": {
+      "choices": [
+        "Asociado a la vacuna",
+        "Asociado a la vacunación"
+      ],
+      "value": [
+        "Asociado a la vacuna"
+      ]
+    }
+  },
+  "DATOS DEL PACIENTE:": {
+    "Apellido": "Simulada",
+    "Nombre": "Eva",
+    "Edad": "35 años",
+    "sexo": "Femenino",
+    "talla": "165 cm",
+    "Peso": "62 kg",
+    "Fecha de notificación:": "15/10/2026",
+    "Fecha de vacunación:": "13/10/2026",
+    "Fecha del ESAVI:": "14/10/2026"
+  },
+  "CONDICIONES MÉDICAS RELEVANTES PREVIAS A LA VACUNACIÓN": {
+    "CONDICIONES MÉDICAS RELEVANTES PREVIAS A LA VACUNACIÓN": {
+      "choices": [
+        "Alergias",
+        "Diabetes",
+        "Hepatopatías",
+        "Insuficiencia Renal",
+        "Epilepsia",
+        "Inmunosupresión. HIV",
+        "Tratamiento corticoideo",
+        "Enfermedades autoinmunes",
+        "Desnutrición",
+        "Otras"
+      ],
+      "value": [
+        "Alergias"
+      ]
+    },
+    "Medicación concomitante (incluyendo terapias alternativas):": "Ninguna medicación concomitante declarada en el caso ficticio."
+  },
+  "DESCRIPCIÓN DEL ESAVI (incluyendo su duración)": {
+    "DESCRIPCIÓN DEL ESAVI (incluyendo su duración)": "Caso ficticio: dolor local y enrojecimiento durante 24 horas, sin otros síntomas.",
+    "ESTUDIOS COMPLEMENTARIOS POST ESAVI (Laboratorio,Rx, EEG, etc.) (Con resultado)": "No se realizaron estudios complementarios en esta simulación.",
+    "Resultado": {
+      "choices": [
+        "Requirió tratamiento",
+        "Recuperación ad-integrum",
+        "Secuela",
+        "Hospitalización",
+        "Riesgo de vida"
+      ],
+      "value": [
+        "Recuperación ad-integrum"
+      ]
+    }
+  },
+  "DATOS DE LA VACUNA": {
+    "1": {
+      "Tipo de vacuna": "Vacuna ficticia A473",
+      "Sitio aplicación": "Brazo izquierdo",
+      "Dosis": "Dosis simulada 1",
+      "Laboratorio": "Laboratorio ficticio A",
+      "Productor": "Productor ficticio A",
+      "N° de lote/serie": "LOTE-SIM-473-A"
+    },
+    "2": {
+      "Tipo de vacuna": "No se notificó otra vacuna en la fila 2",
+      "Sitio aplicación": "No corresponde, fila 2",
+      "Dosis": "No corresponde, dosis fila 2",
+      "Laboratorio": "No corresponde, laboratorio fila 2",
+      "Productor": "No corresponde, productor fila 2",
+      "N° de lote/serie": "No corresponde, lote fila 2"
+    },
+    "3": {
+      "Tipo de vacuna": "No se notificó otra vacuna en la fila 3",
+      "Sitio aplicación": "No corresponde, fila 3",
+      "Dosis": "No corresponde, dosis fila 3",
+      "Laboratorio": "No corresponde, laboratorio fila 3",
+      "Productor": "No corresponde, productor fila 3",
+      "N° de lote/serie": "No corresponde, lote fila 3"
+    }
+  },
+  "¿Recibió otras dosis previamente del mismo tipo de vacuna?": {
+    "¿Recibió otras dosis previamente del mismo tipo de vacuna?": {
+      "choices": [
+        "Si",
+        "no"
+      ],
+      "value": [
+        "Si"
+      ]
+    },
+    "¿Cuándo?:": "13/10/2025"
+  },
+  "Tiene antecedentes familiares de reacciones a vacunas": {
+    "Tiene antecedentes familiares de reacciones a vacunas": {
+      "choices": [
+        "Si",
+        "No"
+      ],
+      "value": [
+        "No"
+      ]
+    },
+    "¿Cuáles?": "No aplica a los antecedentes familiares."
+  },
+  "¿Recibió al mismo tiempo otras vacunas?": {
+    "¿Recibió al mismo tiempo otras vacunas?": {
+      "choices": [
+        "Si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "¿Cules?": "No recibió vacunas simultáneas ficticias."
+  },
+  "¿Recibió otras vacunas en las 4 últimas semanas?": {
+    "¿Recibió otras vacunas en las 4 últimas semanas?": {
+      "choices": [
+        "Si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "¿Cules?": "No recibió otras vacunas en ese período ficticio."
+  },
+  "MARCO DE APLICACIÓN DE LA VACUNA": {
+    "MARCO DE APLICACIÓN DE LA VACUNA": {
+      "choices": [
+        "Durante la campaña",
+        "Calendario",
+        "Indicación médica",
+        "Otros (brote, etc.)"
+      ],
+      "value": [
+        "Calendario"
+      ]
+    }
+  },
+  "LUGAR DE VACUNACIÓN": {
+    "LUGAR DE VACUNACIÓN": {
+      "choices": [
+        "Hospital",
+        "Centro de atención primaria",
+        "Vacunatorio",
+        "Farmacia",
+        "Ambulatorio"
+      ],
+      "value": [
+        "Vacunatorio"
+      ]
+    }
+  },
+  "DATOS DEL COMUNICADOR": {
+    "Apellido": "Prueba",
+    "nombre": "Valeria",
+    "lugar de trabajo": "Vacunatorio ficticio 473",
+    "telefono": "000-473-0001",
+    "e-mail": "valeria.prueba@example.invalid"
+  }
+}

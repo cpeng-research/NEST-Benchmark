@@ -1,0 +1,166 @@
+{
+  "SENDER’S INFORMATION": {
+    "Name and address": "Synthetic Northbridge Laboratory, 18 Example Road, London",
+    "Report to be sent FAO": "Dr Avery Example",
+    "Contact Phone": "020 7946 0123",
+    "Ext": "215",
+    "Purchase order number": "SYNPO502",
+    "Postcode": "SW1A 0AA",
+    "Project code": "SYNP502"
+  },
+  "PATIENT/SOURCE INFORMATION": {
+    "Care setting": {
+      "choices": [
+        "Inpatient",
+        "Outpatient",
+        "GP Patient"
+      ],
+      "value": [
+        "Inpatient"
+      ]
+    },
+    "NHS number": "SYN-NHS-502",
+    "Sex": {
+      "choices": [
+        "male",
+        "female"
+      ],
+      "value": [
+        "female"
+      ]
+    },
+    "Surname": "Example",
+    "Date of birth": "15/03/1992",
+    "Age": "34",
+    "Forename": "Morgan",
+    "Patient’s postcode": "SW1A 0AA",
+    "Patient’s HPT": "Synthetic London HPT",
+    "Hospital number": "SYNH502",
+    "Ward/ clinic name": "Synthetic Infection Clinic",
+    "Hospital name": "Synthetic Northbridge Hospital",
+    "Ward type": "Adult infectious diseases",
+    "Pregnant": {
+      "choices": [
+        "Yes",
+        "No",
+        "Unknown"
+      ],
+      "value": [
+        "No"
+      ]
+    },
+    "Weeks": "0"
+  },
+  "SAMPLE INFORMATION": {
+    "Sample information": "Paired acute and convalescent samples; both from the same patient",
+    "Hazard details": "No Hazard Group 3 or 4 pathogen suspected",
+    "Post mortem": {
+      "choices": [
+        "Please tick the box if your clinical sample is post mortem"
+      ],
+      "value": []
+    },
+    "First sample": {
+      "Your reference": "SYNHH502A",
+      "Sample type": {
+        "choices": [
+          "Serum",
+          "Plasma",
+          "EDTA Whole blood",
+          "CSF",
+          "Other (please specify)"
+        ],
+        "value": [
+          "EDTA Whole blood",
+          "Other (please specify)"
+        ]
+      },
+      "Other": "Additional EDTA aliquot",
+      "Date of collection": "01/10/2026",
+      "Time": "09:30",
+      "Date sent to UKHSA": "02/10/2026"
+    },
+    "Second sample": {
+      "Your reference": "SYNHH502B",
+      "Sample type": {
+        "choices": [
+          "Serum",
+          "Plasma",
+          "EDTA Whole blood",
+          "CSF",
+          "Other (please specify)"
+        ],
+        "value": [
+          "EDTA Whole blood",
+          "Other (please specify)"
+        ]
+      },
+      "Other": "Convalescent EDTA aliquot",
+      "Date of collection": "12/10/2026",
+      "Time": "09:45",
+      "Date sent to UKHSA": "13/10/2026"
+    }
+  },
+  "TESTS REQUESTED": {
+    "Tests": {
+      "choices": [
+        "HHV-6 DNA integration studies & species typing (HHV-6A & HHV-6B)",
+        "HHV-7 DNA"
+      ],
+      "value": [
+        "HHV-6 DNA integration studies & species typing (HHV-6A & HHV-6B)",
+        "HHV-7 DNA"
+      ]
+    },
+    "Previous HHV-6 PCR": "HHV-6 DNA detected, 12000 copies/mL on 01/10/2026"
+  },
+  "CLINICAL/EPIDEMIOLOGICAL INFORMATION": {
+    "Date of onset of illness": "28/09/2026",
+    "Pancytopaenia": {
+      "choices": [
+        "Pancytopaenia, low white blood count. (please give WBC count)"
+      ],
+      "value": [
+        "Pancytopaenia, low white blood count. (please give WBC count)"
+      ]
+    },
+    "Symptoms": {
+      "choices": [
+        "Childhood Rash",
+        "Encephalitis",
+        "Febrile seizure"
+      ],
+      "value": [
+        "Encephalitis"
+      ]
+    },
+    "WBC count": "WBC 2.1 x 10^9/L",
+    "Allogeneic bone marrow transplant": {
+      "choices": [
+        "Allogeneic bone marrow transplant"
+      ],
+      "value": [
+        "Allogeneic bone marrow transplant"
+      ]
+    },
+    "Other symptoms": {
+      "choices": [
+        "Other symptoms (please specify)"
+      ],
+      "value": [
+        "Other symptoms (please specify)"
+      ],
+      "Details": "Persistent fever and confusion"
+    },
+    "Transplant details": "Allogeneic transplant on 15/08/2026",
+    "Other immunosuppressed": {
+      "choices": [
+        "Other immunosuppressed (please specify)"
+      ],
+      "value": [
+        "Other immunosuppressed (please specify)"
+      ],
+      "Details": "Corticosteroid treatment"
+    }
+  }
+}

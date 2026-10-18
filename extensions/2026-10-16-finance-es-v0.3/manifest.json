@@ -1,0 +1,44 @@
+{
+  "extension_id": "2026-10-16-finance-es-v0.3",
+  "added_on": "2026-10-16",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 1,
+  "samples": [
+    {
+      "id": 647,
+      "language": "es",
+      "title": "Beneficiarios de pagos - Solicitud de alta, modificación o reactivación",
+      "source_id": "es-647-sidif-2",
+      "domain": "Finance",
+      "issuer_id": "Superintendencia de Servicios de Salud",
+      "template_family": "sidif-2",
+      "source_pages": 1,
+      "source_sha256": "bc004b123c8b1906e6f11b3333be0b3d7b566e6bde4172cbc07968031924ee14",
+      "fields": 23,
+      "files": {
+        "workflow/0-html_template/data_es/647.html": "dc36541d3f4e0560e9fa647ea2dfdd0c2460a1a32212699bef5516d685322b60",
+        "workflow/1-annotated_json/data_es/647.json": "2fcc7cde11dc729e5adc588984a4421f48265956302ee982fcef9b1ea4d8fc2d",
+        "workflow/2-filled_json-a/data_es/647.json": "dfd053dcdad9be212665761736f1d93e0113c698bd659f5e947b439b4ca73dd6",
+        "workflow/3-filled_html-a/data_es/647.html": "a5dba13a8293ab322908394f1e6c640264b7a1e2583862932cd23142e53d5515",
+        "workflow/4-context-a/data_es/647.txt": "424db7041dd8b039cf5967a0da295f560fa6bd6713c243de1791acbdbcaf11c1",
+        "workflow/5-ph_html-a/data_es/647.html": "0503b73c58328415fd49893050d471cd1d08dc6a5eeb596901fa405d4c8d763b",
+        "workflow/6-meta-a/data_es/647.json": "ad4f53bef78da550f73a81191f856ce55432b93e414640fcc6d19f7ee947aa04"
+      },
+      "annotation_path": "data/annotations/es/647.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      },
+      "business_topic": "Beneficiarios de pagos - Solicitud de alta, modificación o reactivación"
+    }
+  ]
+}

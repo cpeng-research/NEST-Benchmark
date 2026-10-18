@@ -1,0 +1,884 @@
+[
+  {
+    "key": "Provincia:",
+    "label_info": {
+      "row": 1,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Iniciales",
+    "label_info": {
+      "row": 3,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Peso",
+    "label_info": {
+      "row": 4,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Edad",
+    "label_info": {
+      "row": 5,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Sexo",
+    "label_info": {
+      "row": 6,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "El paciente se encontraba:",
+    "label_info": {
+      "row": 7,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "Poseía anormalidades anatómicas vertebrales (cifosis,escoliosis):",
+    "label_info": {
+      "row": 8,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "Posición:",
+    "label_info": {
+      "row": 9,
+      "col": 6
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Deshidratado:",
+    "label_info": {
+      "row": 10,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "CONDICIONES MÉDICAS RELEVANTES:",
+    "label_info": {
+      "row": 12,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Diagnóstico:",
+    "label_info": {
+      "row": 13,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Motivo de la cirugía:",
+    "label_info": {
+      "row": 14,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Embarazo:",
+    "label_info": {
+      "row": 15,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "Anestesia:",
+    "label_info": {
+      "row": 17,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "Médico tratante:",
+    "label_info": {
+      "row": 18,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "Lugar",
+    "label_info": {
+      "row": 19,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Fecha:",
+    "label_info": {
+      "row": 20,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Dosis:",
+    "label_info": {
+      "row": 21,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "¿Se repitió la dosis?",
+    "label_info": {
+      "row": 22,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "Si se repitió, ¿cuánto tiempo transcurrió desde la primera dosis?",
+    "label_info": {
+      "row": 23,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Posición de la aguja:",
+    "label_info": {
+      "row": 25,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Inserción de la aguja:",
+    "label_info": {
+      "row": 26,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Pérdida de líquido al inyectar:",
+    "label_info": {
+      "row": 27,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "Fraccionamiento en jeringas previo a la cirugía:",
+    "label_info": {
+      "row": 29,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "minutos",
+    "label_info": {
+      "row": 31,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "horas",
+    "label_info": {
+      "row": 31,
+      "col": 6
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "¿Mezcla con otros fármacos en la misma jeringa?:",
+    "label_info": {
+      "row": 33,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "¿Cuáles?",
+    "label_info": {
+      "row": 35,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "¿Cuáles?",
+    "label_info": {
+      "row": 36,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "¿Cuáles?",
+    "label_info": {
+      "row": 37,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "¿Cuáles?",
+    "label_info": {
+      "row": 38,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "¿Cuáles?",
+    "label_info": {
+      "row": 39,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "¿Se detectaron reportes similares?:",
+    "label_info": {
+      "row": 41,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "¿Cuántos pacientes?",
+    "label_info": {
+      "row": 42,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Fecha:",
+    "label_info": {
+      "row": 43,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Producto:",
+    "label_info": {
+      "row": 44,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Lote:",
+    "label_info": {
+      "row": 45,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Vencimiento:",
+    "label_info": {
+      "row": 46,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "¿Tratamiento con otros fármacos?",
+    "label_info": {
+      "row": 48,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "¿Cuáles?",
+    "label_info": {
+      "row": 49,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "¿Cuáles?",
+    "label_info": {
+      "row": 50,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "¿Cuáles?",
+    "label_info": {
+      "row": 51,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "¿Cuáles?",
+    "label_info": {
+      "row": 52,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "¿Cuáles?",
+    "label_info": {
+      "row": 53,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Nombre Comercial",
+    "label_info": {
+      "row": 56,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Laboratorio",
+    "label_info": {
+      "row": 57,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Forma farmacéutica",
+    "label_info": {
+      "row": 58,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Número de certificado",
+    "label_info": {
+      "row": 59,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Fecha de vencimiento",
+    "label_info": {
+      "row": 60,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "N°Lote/ serie",
+    "label_info": {
+      "row": 61,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "¿Se envía muestra del producto con la supuesta falta de efectividad?",
+    "label_info": {
+      "row": 63,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "SO"
+  },
+  {
+    "key": "Cantidad de unidades enviadas:",
+    "label_info": {
+      "row": 64,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Fecha de la detección de la falta de efectividad:",
+    "label_info": {
+      "row": 65,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Fecha de este reporte:",
+    "label_info": {
+      "row": 66,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Apellido y Nombre",
+    "label_info": {
+      "row": 68,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Lugar de trabajo",
+    "label_info": {
+      "row": 69,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Dirección",
+    "label_info": {
+      "row": 70,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Profesión",
+    "label_info": {
+      "row": 71,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Teléfono/Fax",
+    "label_info": {
+      "row": 72,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "E-mail",
+    "label_info": {
+      "row": 73,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Imputabilidad",
+    "label_info": {
+      "row": 75,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Seriedad",
+    "label_info": {
+      "row": 76,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Notificación N°:",
+    "label_info": {
+      "row": 77,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 6
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  }
+]

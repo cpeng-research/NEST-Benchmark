@@ -1,0 +1,470 @@
+{
+  "DATOS DEL PACIENTE": {
+    "Nombre y Apellido del paciente": "Lucía Rivas Molina",
+    "DNI *": "32765432",
+    "Edad": "34",
+    "Género": "Femenino",
+    "Domicilio de residencia": "Calle Ejemplo 250, Mendoza"
+  },
+  "INFORMACIÓN OCUPACIONAL": {
+    "Ocupación *": "Docente",
+    "Institución o empresa": "Escuela Ficticia N° 24"
+  },
+  "INFORMACIÓN RESPONSABLE DEL ENVÍO": {
+    "Nombre y Apellido *": "Clara Sosa",
+    "Hospital/Institución *": "Hospital Ficticio del Sur",
+    "Email de contacto *": "clara.sosa@example.org",
+    "Teléfono de contacto": "+54 261 555 0142",
+    "Detalle las muestras derivada y fecha de recolección*": "Orina, suero y muestra respiratoria; recolección 12/10/2026",
+    "Estudios solicitados (marque con una X)": {
+      "choices": [
+        "Antígeno urinario",
+        "PCR",
+        "Cultivo"
+      ],
+      "value": [
+        "Antígeno urinario",
+        "PCR",
+        "Cultivo"
+      ]
+    },
+    "¿Ha solicitado diagnóstico diferencial de otras neumonías atípicas?": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    }
+  },
+  "INFORMACIÓN CLÍNICA *": {
+    "Fecha inicio de los síntomas (completar)": "10/10/2026",
+    "Fiebre (especificar pico febril ºC)": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "si"
+      ]
+    },
+    "Tos productiva (especificar fecha inicio)": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "si"
+      ]
+    },
+    "Tos no productiva": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "Mialgias": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "si"
+      ]
+    },
+    "Neumonía": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "si"
+      ]
+    },
+    "Hospitalización": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "si"
+      ]
+    },
+    "Estadía en UCI": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "Asistencia respiratoria mecánica": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "Óbito": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "especificar pico febril ºC": "39.0",
+    "especificar fecha inicio": "10/10/2026",
+    "Hallazgo radiológico (completar)": "Infiltrado pulmonar registrado en el estudio ficticio",
+    "Fecha internación (completar)": "12/10/2026",
+    "Tratamiento antibiótico (completar)": "Tratamiento registrado en la historia clínica ficticia",
+    "Fecha inicio tratamiento antibiótico (completar)": "12/10/2026",
+    "ANTECEDENTES": {
+      "Enfermedad hepática crónica": {
+        "choices": [
+          "si",
+          "no"
+        ],
+        "value": [
+          "no"
+        ]
+      },
+      "Enfermedad o terapia inmunosupresora": {
+        "choices": [
+          "si",
+          "no"
+        ],
+        "value": [
+          "no"
+        ]
+      },
+      "Diabetes": {
+        "choices": [
+          "si",
+          "no"
+        ],
+        "value": [
+          "no"
+        ]
+      },
+      "Enfermedad pulmonar crónica (especificar)": {
+        "choices": [
+          "si",
+          "no"
+        ],
+        "value": [
+          "no"
+        ]
+      },
+      "Tabaquismo": {
+        "choices": [
+          "si",
+          "no"
+        ],
+        "value": [
+          "no"
+        ]
+      },
+      "Descripción": "No presenta enfermedad pulmonar crónica"
+    }
+  },
+  "DATOS DE LABORATORIO 1": {
+    "Leucocitosis": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "si"
+      ]
+    },
+    "Leucopenia": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "Trombocitopenia": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "CPK > 0.25 ng/ml": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "PCR elevada >20mg/l (indicar valor)": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "si"
+      ]
+    },
+    "Hiponatremia (<135 mEq/L)": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "si"
+      ]
+    },
+    "Hipofosfatemia (<2,5mg/dl)": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "Transaminasas elevadas": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "LDH >400": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "Ferritina elevada (>2x normal)": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "Dimero-D elevado": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "Procalcitocina <0.1 mg/L": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "Procalcitonina >0.25 mg/L": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "si"
+      ]
+    },
+    "Hematuria microscópica": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "indicar valor": "42 mg/l",
+    "Otros hallazgos": "Sodio sérico: 132 mEq/L; leucocitos: 14000 por microlitro"
+  },
+  "DATOS EPIDEMIOLÓGICOS (contestar si o no) *": {
+    "¿Realizó viajes fuera del país durante el último mes?": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "¿Se ha alojado al menos una noche fuera de su domicilio durante los 10 días previos a la aparición síntomas? (Especificar fecha y lugar)": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "si"
+      ]
+    },
+    "¿Ha estado hospitalizado al menos 48 hs antes del inicio de síntomas? (especificar fecha y locación)": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "¿Visitó o trabajó en instituciones nosocomiales durante el período de exposición? (especificar locación y fecha)": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "¿Estuvo expuesto a fuentes, spas, humidificadores durante las dos semanas previas al inicio de los síntomas?": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "¿Estuvo expuesto a ambientes acuáticos recreacionales durante las dos semanas previas al inicio de los síntomas?": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "¿Estuvo expuesto a tierra (jardinería, construcción, producción, etc)?": {
+      "choices": [
+        "si",
+        "no"
+      ],
+      "value": [
+        "no"
+      ]
+    },
+    "Especificar lugares de tránsito y destino y fechas": "Sin viajes fuera del país",
+    "Especificar fecha y lugar": "Hotel Ficticio del Sur, San Rafael; 03/10/2026",
+    "especificar fecha y locación": "No corresponde: no hospitalización previa",
+    "especificar locación y fecha": "No corresponde: sin visitas nosocomiales previas"
+  },
+  "Profesional responsable": {
+    "Firma": "Firma ficticia de Clara Sosa",
+    "Aclaración": "Clara Sosa",
+    "Matrícula": "MP 12345"
+  },
+  "Cuestionario generador de hipótesis de exposición": {
+    "Pregunta 1": {
+      "¿trabajó, recibió tratamiento o visitó un hospital? Si afirmativo, registrar locación": "No, no visitó hospitales durante los 14 días previos"
+    },
+    "Pregunta 2": {
+      "¿trabajó, recibió tratamiento o visitó un consultorio médico, clínica o dentista? Si afirmativo, registrar locación": "No"
+    },
+    "Pregunta 3": {
+      "¿trabajó, residía o visitó un geriátrico? Si afirmativo, registrar locación": "No"
+    },
+    "Pregunta 4": {
+      "¿pasó alguna noche fuera de casa (excluyendo los entornos de atención médica), como quedarse en un hotel o ir en un crucero? Si afirmativo, registrar locación": "Sí, Hotel Ficticio del Sur, San Rafael; 03/10/2026"
+    },
+    "Pregunta 5": {
+      "¿visitó un hotel sin pernoctar? (por ejemplo, cena, boda, como empleado) Si afirmativo, registrar locación": "No"
+    },
+    "Pregunta 6": {
+      "¿asistió a alguna convención o reunión pública? Si afirmativo, registrar locación": "No"
+    },
+    "Pregunta 7": {
+      "¿trabajó, residía o visitó una institución de vida en comunidad (por ejemplo, una prisión, un refugio, un dormitorio)? Si afirmativo, registrar locación": "No"
+    },
+    "Pregunta 8": {
+      "¿tuvo exposición a alguno de los siguientes ítems ya sea mientras viajaba o en casa?": {
+        "choices": [
+          "Spa, baño caliente tipo Jacuzzi o hidromasaje",
+          "Estuvo CERCA de un baño caliente en hotel o spa, aunque no haya entrado",
+          "Piscina",
+          "Rociadores de agua recreacionales",
+          "Rociadores de agua en el exterior (ej. parque, jardín)",
+          "Sauna con vapor",
+          "Fuentes decorativas",
+          "Humidificadores de ambiente",
+          "Duchas (fuera de su casa)"
+        ],
+        "value": [
+          "Duchas (fuera de su casa)"
+        ]
+      }
+    },
+    "Pregunta 9": {
+      "¿Usó un nebulizador o algún equipo de terapia respiratoria para el tratamiento de la apnea del sueño, la EPOC, el asma o por cualquier otra razón?": "No utiliza nebulizador ni equipo de terapia respiratoria",
+      "describa qué tipo de agua usa en este dispositivo": "No corresponde",
+      "cómo lo limpia.": "No corresponde"
+    },
+    "Pregunta 10": {
+      "El agua de su domicilio proviene": {
+        "choices": [
+          "de la red municipal",
+          "de pozo",
+          "de una cisterna privada",
+          "no sabe"
+        ],
+        "value": [
+          "de la red municipal"
+        ]
+      }
+    },
+    "Pregunta 11": {
+      "¿Recuerda alguna construcción general, proyectos de plomería, roturas de cañerías de agua o trabajos en líneas de agua en su casa o en cualquier otro lugar durante los 6 meses antes de enfermarse?": "No"
+    },
+    "Pregunta 12": {
+      "¿compró en una tienda o supermercado donde había máquinas que rociaban las frutas y verduras?": "No"
+    },
+    "Pregunta 13": {
+      "¿trabajó en un jardín, tuvo contacto con tierra para macetas o visitó un centro de jardinería?": "No"
+    },
+    "Pregunta 14": {
+      "¿reside cerca o visitó un área con grandes edificios, como centros comerciales, oficinas u hoteles de gran altura, o edificios industriales?": "No"
+    },
+    "Pregunta 15": {
+      "Específicamente, ¿trabaja en alguno de los siguientes entornos?": {
+        "choices": [
+          "Construcción",
+          "Planta industrial/de fabricación con refrigeración o procesos por aspersión de agua",
+          "Operación o mantenimiento del sistema/dispositivo de agua del edificio (p. ej., torres de enfriamiento, plomería, agua caliente)",
+          "Actividades de ocio relacionadas con el agua (por ejemplo, hoteles, cruceros, parques acuáticos)",
+          "Planta de tratamiento de aguas residuales",
+          "Conducción de camiones (larga distancia)",
+          "Lavado de platos (por ejemplo, en una cocina comercial o industrial)",
+          "Servicios de custodia (por ejemplo, servicio de limpieza, trabajo de conserjería)",
+          "Otro trabajo con exposición al agua"
+        ],
+        "value": []
+      }
+    }
+  }
+}

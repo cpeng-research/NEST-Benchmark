@@ -1,0 +1,179 @@
+{
+  "extension_id": "2026-10-15-finance-es-v0.2",
+  "added_on": "2026-10-15",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 5,
+  "samples": [
+    {
+      "id": 405,
+      "language": "es",
+      "title": "Acta poder para percepción de haberes",
+      "source_id": "es-405-iaf-acta-poder",
+      "domain": "Finance",
+      "issuer_id": "ar-iaf",
+      "template_family": "iaf-acta-poder",
+      "source_pages": 3,
+      "source_sha256": "4cdb58346b66678e9b7459efb9bacd22a0e433136e84e1ab2669c34ac3f28c53",
+      "fields": 43,
+      "files": {
+        "workflow/0-html_template/data_es/405.html": "0884f3ecda977d43d3dc890cd2bb183c96f6123f9e0df82eb354e48557dc219a",
+        "workflow/1-annotated_json/data_es/405.json": "89c0045d48e1bcb6376db19f32ced0b4d43e0890de406254d64fd7e56a96dc5a",
+        "workflow/2-filled_json-a/data_es/405.json": "f8a2b6ad00e412eb61b00c8a31bc32e87ed10836e4d64609fe9ab50937e7dbc6",
+        "workflow/3-filled_html-a/data_es/405.html": "513e64f515189af428d41e8e61ce183aa8fe9cde1548007f67e63cf4602675ef",
+        "workflow/4-context-a/data_es/405.txt": "3324503163ed8e792a12e9565654612713aa0fd5c0439d22e9eabe1128eb4205",
+        "workflow/5-ph_html-a/data_es/405.html": "ed496d296db6b32480aae60ecb3857743f295b380a61beb3c90e51ee527261ca",
+        "workflow/6-meta-a/data_es/405.json": "8c7f1c92bfbab39c7df9c6146b6f4e5ce6016e3bb31e4252535b79b98f6bf2d0"
+      },
+      "annotation_path": "data/annotations/es/405.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 406,
+      "language": "es",
+      "title": "Formulario de relevamiento de pensionistas rehabilitadas",
+      "source_id": "es-406-iaf-relevamiento",
+      "domain": "Finance",
+      "issuer_id": "ar-iaf",
+      "template_family": "iaf-relevamiento",
+      "source_pages": 2,
+      "source_sha256": "0fe15edd5d9da93f2ee00ff7ded3f28c8ce1611f4b3356f7f2a3103f76361384",
+      "fields": 36,
+      "files": {
+        "workflow/0-html_template/data_es/406.html": "f01b76d194646021e53edc095fbf40d7c9cb21726a9a59a919165f33a6cc6d69",
+        "workflow/1-annotated_json/data_es/406.json": "7fc18759ad6f527c48f344948c0fdac8315cd6e87944293cb71cde2bb8e0ca23",
+        "workflow/2-filled_json-a/data_es/406.json": "8b85c744b19e21612d84beb9b6bae00d140befd86badfc84681be37ade8686c1",
+        "workflow/3-filled_html-a/data_es/406.html": "a46f471455419440f0454375e812eeaf8246c066f5247376cb3219580bd33626",
+        "workflow/4-context-a/data_es/406.txt": "177f9107802a3baf9c16b82f888c01e5da6e1a2cc610431034eef2443e98cc37",
+        "workflow/5-ph_html-a/data_es/406.html": "831f4d0334ffc30866ff9c732d19511d6082a207e62fd25f1b6bea5477bba3de",
+        "workflow/6-meta-a/data_es/406.json": "79ec293e07c58a1928449e996d4c3c9fb261a75f0b36e95cf1377d18c9aae5a4"
+      },
+      "annotation_path": "data/annotations/es/406.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 407,
+      "language": "es",
+      "title": "Declaración jurada de asignaciones familiares e ingresos",
+      "source_id": "es-407-iaf-familia",
+      "domain": "Finance",
+      "issuer_id": "ar-iaf",
+      "template_family": "iaf-familia",
+      "source_pages": 2,
+      "source_sha256": "d72c2b13108b2f9ebfdfcb77c1306ad6c5853076267b0d09209ed652c4f0462d",
+      "fields": 118,
+      "files": {
+        "workflow/0-html_template/data_es/407.html": "190c3b801416d95fb16e772adc9f6633a762136fa5f44a48a330e5aa93c3eac9",
+        "workflow/1-annotated_json/data_es/407.json": "6986911dc1977683fe73dd779ed50b7028ffb1f6914848b3787804339b5f71e0",
+        "workflow/2-filled_json-a/data_es/407.json": "92daee4339e32fea37f04ae3631bde07b32c53fb5b3d8aba873a8daafc7882bf",
+        "workflow/3-filled_html-a/data_es/407.html": "5e35fe879e5c9e057f73b1e350852d803fbae8b29cf13320caf32ceeba30a9cd",
+        "workflow/4-context-a/data_es/407.txt": "62fb4206c10cc15bde00925a82c7999e806c55056343c1b35a9920aa02004494",
+        "workflow/5-ph_html-a/data_es/407.html": "308c8cf676db976a1d0fa65a966a67d6ff8a0982be4b129f6d4478119feba531",
+        "workflow/6-meta-a/data_es/407.json": "866cc6b425000939d2073c4512fcfa7517eb6d6dc10b8926d8bdee8d325f7e0b"
+      },
+      "annotation_path": "data/annotations/es/407.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 408,
+      "language": "es",
+      "title": "Acta autorización de cobro de asignaciones familiares",
+      "source_id": "es-408-iaf-autorizacion",
+      "domain": "Finance",
+      "issuer_id": "ar-iaf",
+      "template_family": "iaf-autorizacion",
+      "source_pages": 1,
+      "source_sha256": "aa61fd46b1b12dc099ff53c720a8ef093e840e715c08ded307423013875c25b0",
+      "fields": 45,
+      "files": {
+        "workflow/0-html_template/data_es/408.html": "97b12225312a9a02fbd2551c1a7fc601f864d44db6fa3d4d56104f52a375fff8",
+        "workflow/1-annotated_json/data_es/408.json": "baac367093f08796bd15ff9e30ad9d869139bf2c9631a1c9c71ad58e6c9da58f",
+        "workflow/2-filled_json-a/data_es/408.json": "78e4fe5c7cdadf3e388b07f2ae739934dcb8da5207ad2948ccc37a1be849dd8e",
+        "workflow/3-filled_html-a/data_es/408.html": "6084101b237d7a814bb71ab2aa7dd8f368f2f5050393adaf6bbc2460f35c62b3",
+        "workflow/4-context-a/data_es/408.txt": "9e7de65acd8132e858ee3029b2a18114aa21eff114167108743c82670d5220d8",
+        "workflow/5-ph_html-a/data_es/408.html": "d8ad4aa2c27691b1e76de4695d54b9b3e25474123771c9e43a090a62d09d5b72",
+        "workflow/6-meta-a/data_es/408.json": "e29264e47d34a11c336819cacd1b4326d84055d1668683ec8ff2b6dab8d30dd2"
+      },
+      "annotation_path": "data/annotations/es/408.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 409,
+      "language": "es",
+      "title": "Solicitud de cancelación y liberación de hipoteca",
+      "source_id": "es-409-hipoteca-cancelacion",
+      "domain": "Finance",
+      "issuer_id": "ar-hipoteca",
+      "template_family": "hipoteca-cancelacion",
+      "source_pages": 1,
+      "source_sha256": "3c4388111b81bffdd742acac8c34ffc08b220627dd2b3f185e91ac8a7001524e",
+      "fields": 24,
+      "files": {
+        "workflow/0-html_template/data_es/409.html": "24e2045fcd9e29374a712c2482448aefcaa653d3a02a8eb5596d72ed58f521c8",
+        "workflow/1-annotated_json/data_es/409.json": "5d8a8d8e436343b183c5f65b43e6c863b7242aee025773b425e1aa516e2775d8",
+        "workflow/2-filled_json-a/data_es/409.json": "99c3058a01d091841763c7aab4bb766b19f308acd69463c5c7a56a34a843a7f3",
+        "workflow/3-filled_html-a/data_es/409.html": "a6e91fb6da7c68234b7c89979fdcd8c3b2a68d1fb2d974e052936fc1219af18a",
+        "workflow/4-context-a/data_es/409.txt": "4eff4524693425ea2ca85428a078775faf973a1f2e5a2221ad8d9642faf97b18",
+        "workflow/5-ph_html-a/data_es/409.html": "50e48d56a5cb3cc2e8111f7256e307866a462e67af5ba8447fdfd5116509ccb1",
+        "workflow/6-meta-a/data_es/409.json": "131cfa26c18bca8e5cbd5892596baa0369e34cf0ac43f34c9db4d0a05bb25aa4"
+      },
+      "annotation_path": "data/annotations/es/409.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "DATOS DEL PACIENTE:": {
+    "Provincia, localidad:": "",
+    "NOMBre y apellido": "",
+    "Edad": "",
+    "Sexo": "",
+    "peso": "",
+    "Diagnóstico": ""
+  },
+  "DESCRIPCIÓN DEL ERROR (Describa la secuencia de los hechos lo más detallada posible)": {
+    "DESCRIPCIÓN DEL ERROR (Describa la secuencia de los hechos lo más detallada posible)": "",
+    "FECHA DEL ERROR:": "",
+    "Si el medicamento sí fue administrado al paciente, describa el desenlace (ej: muerte, tipo de lesión, efecto adverso)": "",
+    "Si el medicamento no fue administrado al paciente, describa la intervención que lo evitó": ""
+  },
+  "TIPO DE ERROR DE MEDICACIÓN (marque todas las que correspondan, puede ser más de una)": {
+    "TIPO DE ERROR DE MEDICACIÓN": {
+      "choices": [
+        "1. Medicamento no indicado/apropiado",
+        "2. Duplicidad terapéutica",
+        "3. Omisión de dosis",
+        "4. Dosis incorrecta (mayor o menor)",
+        "5. Frecuencia/intervalo incorrecto",
+        "6. Forma farmacéutica equivocada",
+        "7. Preparación/manipulación",
+        "8. Técnica de administración incorrecta",
+        "9. Vía de administración equivocada",
+        "10. Paciente equivocado",
+        "11. Duración tratamiento incorrecta",
+        "12. Medicamento vencido/deteriorado",
+        "13. Etiquetado/prospecto/envasado",
+        "14. Falta de cumplimiento paciente",
+        "15. Falta de monitoreo",
+        "16. Otro (especificar)"
+      ],
+      "value": []
+    },
+    "16. Otro (especificar)": ""
+  },
+  "CATEGORÍA DEL ERROR": {
+    "CATEGORÍA DEL ERROR": {
+      "choices": [
+        "Categoría A",
+        "Categoría b",
+        "Categoría c",
+        "Categoría d",
+        "Categoría e",
+        "Categoría f",
+        "Categoría g",
+        "Categoría h",
+        "Categoría i"
+      ],
+      "value": []
+    }
+  },
+  "ETAPA EN LA QUE OCURRIÓ EL ERROR DE MEDICACIÓN": {
+    "ETAPA EN LA QUE OCURRIÓ EL ERROR DE MEDICACIÓN": {
+      "choices": [
+        "1. Prescripción",
+        "2. Transcripción",
+        "3. Dispensación",
+        "4. Almacenamiento",
+        "5. Preparación/Manipulación",
+        "6. Administración",
+        "7. Monitorización/Seguimiento",
+        "8. Otra (especificar)"
+      ],
+      "value": []
+    },
+    "8. Otra (especificar)": ""
+  },
+  "¿Quién detectó el error?": {
+    "¿Quién detectó el error?": {
+      "choices": [
+        "Médico",
+        "Enfermero",
+        "Farmacéutico",
+        "Paciente",
+        "Familiar Paciente",
+        "Otro (especificar)"
+      ],
+      "value": []
+    },
+    "Otro (especificar)": ""
+  },
+  "¿Dónde ocurrió el error?": {
+    "¿Dónde ocurrió el error?": {
+      "choices": [
+        "Hospital",
+        "Farmacia",
+        "Centro Atención Primaria",
+        "Domicilio del paciente",
+        "Consultorio Médico",
+        "Otro (especificar)"
+      ],
+      "value": []
+    },
+    "Otro (especificar)": ""
+  },
+  "Factores contribuyentes": {
+    "Factores contribuyentes": {
+      "choices": [
+        "Falta de información critica del paciente",
+        "Falta de información crítica del medicamento",
+        "Problemas de comunicación de la prescripción",
+        "Problema de nombre de la droga, etiquetado o envasado",
+        "Medicamento mal almacenado o problema de dispensación",
+        "Entorno, personal o volumen de trabajo",
+        "Capacitación inadecuada del personal",
+        "Deficiente educación del paciente sobre su patología y cuidados",
+        "Falta de controles o sistemas de chequeo ineficientes",
+        "Otros (especificar)"
+      ],
+      "value": []
+    },
+    "Otros (especificar)": ""
+  },
+  "¿ACONSEJARÍA ALGUNA MEDIDA PARA PREVENIR ESTE ERRoR?": {
+    "¿ACONSEJARÍA ALGUNA MEDIDA PARA PREVENIR ESTE ERRoR?": ""
+  },
+  "Confusión entre medicamentos": {
+    "Medicamento 1": {
+      "Nombre genérico de la droga": "",
+      "Nombre comercial y Laboratorio": "",
+      "Dosis": "",
+      "Forma farmacéutica": "",
+      "Vía de administración": ""
+    },
+    "Medicamento 2": {
+      "Nombre genérico de la droga": "",
+      "Nombre comercial y Laboratorio": "",
+      "Dosis": "",
+      "Forma farmacéutica": "",
+      "Vía de administración": ""
+    }
+  },
+  "DATOS DEL COMUNICADOR": {
+    "Apellido y Nombre": "",
+    "Profesión/Ocupación": "",
+    "Lugar de trabajo": "",
+    "Dirección": "",
+    "Tel/Fax": "",
+    "E-mail": "",
+    "FECHA DE ESTE REPORTE:": "",
+    "PÁG.": "",
+    "DE": ""
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "IDENTIFICACIÓN DEL ESTABLECIMIENTO NOTIFICADOR": {
+    "Establecimiento notificador": "Hospital Sintético del Sur",
+    "Localidad": "Mendoza",
+    "Provincia": "Mendoza",
+    "Fecha de notificación": "16/10/2026",
+    "Datos del notificador": "Clara Vega, médica",
+    "Tel. celular": "+54 261 555 0142",
+    "Correo electrónico (letra legible)": "clara.vega@example.org"
+  },
+  "IDENTIFICACIÓN DEL CASO": {
+    "Apellido y nombre": "Elena Rivas Pérez",
+    "Tipo / N° documento": "DNI 32765432",
+    "Nacionalidad": "Argentina",
+    "Fecha de nacimiento": "12/04/1992",
+    "Edad": "34",
+    "Sexo": "Femenino",
+    "Lugar de residencia / Provincia": "Mendoza",
+    "Departamento": "Capital",
+    "Localidad": "Mendoza",
+    "Calle / Manzana": "Calle Ejemplo",
+    "Nº Casa": "250",
+    "Piso": "1",
+    "Depto.": "A",
+    "Cód. Postal": "5500",
+    "Barrio/Villa/Asentamiento": "Centro",
+    "Teléfono": "+54 261 555 0142"
+  },
+  "INFORMACIÓN CLÍNICA": {
+    "¿Se identificó la fuente sospechosa?": {
+      "choices": [
+        "SÍ",
+        "NO"
+      ],
+      "value": [
+        "SÍ"
+      ]
+    },
+    "Fecha del consumo del alimento": "12/10/2026",
+    "Hora consumo": "20:00",
+    "Fecha de Inicio de 1º síntomas (FIS)": "13/10/2026",
+    "Fecha de 1ª consulta": "13/10/2026",
+    "Hora primera consulta": "09:30",
+    "Establecimiento de 1ª consulta": "Hospital Sintético del Sur",
+    "Fecha de internación": "13/10/2026",
+    "Establecimiento de internación": "Hospital Sintético del Sur",
+    "Terapia Intensiva": {
+      "choices": [
+        "SÍ",
+        "NO"
+      ],
+      "value": [
+        "SÍ"
+      ]
+    },
+    "Fecha internación UTI": "13/10/2026",
+    "Fecha alta UTI": "16/10/2026",
+    "Requerimiento de ARM": {
+      "choices": [
+        "SÍ",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "Fecha ARM": "No corresponde",
+    "Sintomático": {
+      "choices": [
+        "SI",
+        "NO"
+      ],
+      "value": [
+        "SI"
+      ]
+    },
+    "Consignar según signo-sintomatología corresponda": {
+      "choices": [
+        "Fatiga intensa",
+        "Diarrea (pródromo)",
+        "Afectación de músculos de miembros inferiores",
+        "Vértigo",
+        "Constipación",
+        "Dificultad para deglutir",
+        "Parálisis de músculos respiratorios",
+        "Visión borrosa",
+        "Sequedad de mucosas",
+        "Dificultad para hablar",
+        "Parálisis flácida simétrica descendente",
+        "Diplopía",
+        "Debilidad generalizada",
+        "Vómitos (pródromo)",
+        "Debilidad en cuello y brazos"
+      ],
+      "value": [
+        "Dificultad para deglutir",
+        "Visión borrosa"
+      ]
+    },
+    "Otros": "Sin otros síntomas",
+    "Curado/Mejorado": {
+      "choices": [
+        "SÍ",
+        "NO"
+      ],
+      "value": [
+        "SÍ"
+      ]
+    },
+    "Fecha de alta médica": "17/10/2026",
+    "Fallecido": {
+      "choices": [
+        "SÍ",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "Fecha de fallecimiento": "No corresponde",
+    "Causa de fallecimiento": {
+      "choices": [
+        "Infarto de miocardio",
+        "Parálisis de los músculos respiratorios",
+        "Muerte súbita",
+        "Insuficiencia respiratoria",
+        "Shock cardiogénico"
+      ],
+      "value": []
+    }
+  },
+  "TRATAMIENTO": {
+    "¿Recibió Inmunoglobulina botulínica?": {
+      "choices": [
+        "SÍ",
+        "NO"
+      ],
+      "value": [
+        "SÍ"
+      ]
+    },
+    "¿Cuál?": {
+      "choices": [
+        "Equina",
+        "Humana"
+      ],
+      "value": [
+        "Equina"
+      ]
+    },
+    "Dosis (cant. de ampollas)": "1",
+    "Fecha de administración": "13/10/2026",
+    "Hora": "12:00",
+    "¿Presentó efectos adversos por la administración de la antitoxina botulínica?": {
+      "choices": [
+        "SÍ",
+        "NO"
+      ],
+      "value": [
+        "NO"
+      ]
+    },
+    "Firma y sello": "Firma ficticia de Clara Vega, matrícula sintética 54321"
+  },
+  "ANTECEDENTES EPIDEMIOLÓGICOS": {
+    "Viajó (45 días antes de FIS": {
+      "choices": [
+        "Viajó (45 días antes de FIS"
+      ],
+      "value": []
+    },
+    "Fecha": "No corresponde",
+    "País / Provincia": "No corresponde",
+    "Localidad": "No corresponde",
+    "Botulismo alimentario": {
+      "choices": [
+        "Consumo: alimentos enlatados, conservados o fermentados",
+        "Consumo: otros alimentos preparados"
+      ],
+      "value": [
+        "Consumo: alimentos enlatados, conservados o fermentados"
+      ]
+    },
+    "Botulismo por heridas": {
+      "choices": [
+        "Presentar heridas infectadas"
+      ],
+      "value": []
+    },
+    "Sospecha de brote de Botulismo alimentario": {
+      "choices": [
+        "Consumo de alimento de fuente común con casos de botulismo alimentario"
+      ],
+      "value": [
+        "Consumo de alimento de fuente común con casos de botulismo alimentario"
+      ]
+    },
+    "Origen del alimento consumido": {
+      "choices": [
+        "Elaboración propia",
+        "Comercio habilitado",
+        "Venta ambulante",
+        "Venta por internet"
+      ],
+      "value": [
+        "Elaboración propia"
+      ]
+    },
+    "¿Se identificó un alimento sospechoso?": {
+      "choices": [
+        "SÍ",
+        "NO"
+      ],
+      "value": [
+        "SÍ"
+      ]
+    },
+    "¿Cuál es?": "Conserva casera de verduras",
+    "Nombre y Dirección del ESTABLECIMIENTO donde compró": "Elaboración doméstica, Calle Ejemplo 250; sin compra",
+    "¿Se notificó al área de bromatología local?": {
+      "choices": [
+        "SÍ",
+        "NO",
+        "En trámite"
+      ],
+      "value": [
+        "SÍ"
+      ]
+    },
+    "Fecha (si corresponde)": "14/10/2026",
+    "Organismo notificado": "Bromatología Sintética Municipal",
+    "¿El alimento se encuentra disponible para análisis de laboratorio?": {
+      "choices": [
+        "SÍ",
+        "NO"
+      ],
+      "value": [
+        "SÍ"
+      ]
+    }
+  },
+  "Otras personas que consumieron el alimento:": {
+    "1": {
+      "Nombre y Apellido": "Mateo Vega Ruiz",
+      "Teléfono": "+54 261 555 0143",
+      "Sintomática": {
+        "choices": [
+          "Sí",
+          "No"
+        ],
+        "value": [
+          "Sí"
+        ]
+      }
+    },
+    "2": {
+      "Nombre y Apellido": "Julia Soto Díaz",
+      "Teléfono": "+54 261 555 0144",
+      "Sintomática": {
+        "choices": [
+          "Sí",
+          "No"
+        ],
+        "value": [
+          "No"
+        ]
+      }
+    },
+    "3": {
+      "Nombre y Apellido": "Nicolás Ramos Gil",
+      "Teléfono": "+54 261 555 0145",
+      "Sintomática": {
+        "choices": [
+          "Sí",
+          "No"
+        ],
+        "value": [
+          "No"
+        ]
+      }
+    }
+  },
+  "INFORMACIÓN DE LABORATORIO": {
+    "Establecimiento de toma de muestra": "Hospital Sintético del Sur",
+    "Suero": {
+      "Fecha de toma": "14/10/2026",
+      "Observaciones": "Muestra conservada según indicaciones; envío coordinado"
+    },
+    "Materia fecal": {
+      "Fecha de toma": "14/10/2026",
+      "Observaciones": "Muestra conservada según indicaciones; envío coordinado"
+    },
+    "Contenido intestinal": {
+      "Fecha de toma": "14/10/2026",
+      "Observaciones": "Muestra conservada según indicaciones; envío coordinado"
+    },
+    "Alimento sospechoso": {
+      "Fecha de toma": "14/10/2026",
+      "Observaciones": "Muestra conservada según indicaciones; envío coordinado"
+    },
+    "Fila adicional 5": {
+      "Tipo de muestra": "No corresponde",
+      "Muestra": "Sin otra muestra",
+      "Fecha de toma": "No corresponde",
+      "Observaciones": "Fila no utilizada"
+    },
+    "Fila adicional 6": {
+      "Tipo de muestra": "No corresponde",
+      "Muestra": "Sin otra muestra",
+      "Fecha de toma": "No corresponde",
+      "Observaciones": "Fila no utilizada"
+    }
+  },
+  "CLASIFICACIÓN DE CASO": {
+    "CLASIFICACIÓN DE CASO": {
+      "choices": [
+        "Caso sospechoso",
+        "Caso confirmado",
+        "Caso descartado por diagnóstico diferencial*"
+      ],
+      "value": [
+        "Caso confirmado"
+      ]
+    },
+    "Los posibles diagnósticos diferenciales son": {
+      "choices": [
+        "Miastenia gravis",
+        "Síndrome de Guillain Barré",
+        "Miopatía",
+        "Meningoencefalitis",
+        "Parálisis por garrapata",
+        "Otras parálisis fláccidas"
+      ],
+      "value": []
+    },
+    "Firma y sello": "Firma ficticia de Clara Vega, matrícula sintética 54321"
+  }
+}

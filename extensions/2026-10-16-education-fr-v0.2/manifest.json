@@ -1,0 +1,145 @@
+{
+  "extension_id": "2026-10-16-education-fr-v0.2",
+  "added_on": "2026-10-16",
+  "status": "preview",
+  "workflow_root": "workflow",
+  "template_count": 4,
+  "samples": [
+    {
+      "id": 631,
+      "language": "fr",
+      "title": "Élections étudiantes Crous : dépôt de liste",
+      "source_id": "fr-631-crous-depot-liste",
+      "domain": "Education",
+      "issuer_id": "fr-ministere-enseignement-superieur",
+      "template_family": "crous-depot-liste",
+      "source_pages": 2,
+      "source_sha256": "71b9a7c370b2dfab5ae167a5bd02a529efc1bd4ff03fb35271ffcf9d36fc22be",
+      "fields": 23,
+      "files": {
+        "workflow/0-html_template/data_fr/631.html": "9b0c1d5222f93add1bf15f41f834f449b9b6f2b1fedddb677fc547d12c546370",
+        "workflow/1-annotated_json/data_fr/631.json": "b6212d5186ceedae9d69e534bc25e8c4201f76b1275a8acd565ecf2bf2e0c5e3",
+        "workflow/2-filled_json-a/data_fr/631.json": "09b9b52db5dd7cf8ab8d7110675a4c4d689cfa784a4f80b935db07cd47dfd258",
+        "workflow/3-filled_html-a/data_fr/631.html": "fa3dd5a6cbd7e6b716d46f64886048ba7b3f62f80861e462deb90d8fd13c575c",
+        "workflow/4-context-a/data_fr/631.txt": "d7d327a4b3456d2c9a131db926ae15a6cdf6156c3b5568569583e06e54721293",
+        "workflow/5-ph_html-a/data_fr/631.html": "2399a3b7edbc7954654f921d4d742ed327a7573eb7011120bbfdc9b42d0093d7",
+        "workflow/6-meta-a/data_fr/631.json": "60a2b16d4ca8403c657352738ec9b2612a15162ba35db469217b7dbec0b0c395"
+      },
+      "annotation_path": "data/annotations/fr/631.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 632,
+      "language": "fr",
+      "title": "Élections étudiantes Crous : candidature individuelle",
+      "source_id": "fr-632-crous-candidature-individuelle",
+      "domain": "Education",
+      "issuer_id": "fr-ministere-enseignement-superieur",
+      "template_family": "crous-candidature-individuelle",
+      "source_pages": 1,
+      "source_sha256": "45212c1c88582a8a8c74dbe54105d0c9f0ef61d3ce5c5e4a06bdc03ddf2ee54c",
+      "fields": 13,
+      "files": {
+        "workflow/0-html_template/data_fr/632.html": "df64b314ac2f1b53e7f970d11c7587b69fb315e0f9c553183ec4934fa3bd31d0",
+        "workflow/1-annotated_json/data_fr/632.json": "f8ccc3226e79bff652a00b38f251afc4bad937f05bc67daeee28c89fe78516bc",
+        "workflow/2-filled_json-a/data_fr/632.json": "48aefa584cec3bad0da11ef16f09e97a19f4ebc4d303f812fc04f9216021497a",
+        "workflow/3-filled_html-a/data_fr/632.html": "86f7c39a20f5a4690d34f3e83e70cccc7e4ce2db6467016994a42afdca98c702",
+        "workflow/4-context-a/data_fr/632.txt": "5acec1be832f0717d233baa9765f15877549bb44a85c61602707ba3617bf1f96",
+        "workflow/5-ph_html-a/data_fr/632.html": "2bcfc5a06527b9a9de03c07a13c0b15c92806367152ec8ad83721994d1d40dc4",
+        "workflow/6-meta-a/data_fr/632.json": "9bb7267f45ca7c527ead50a371587570863df335b2b869e735bbffd19fc570c5"
+      },
+      "annotation_path": "data/annotations/fr/632.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 633,
+      "language": "fr",
+      "title": "Élections étudiantes Crous : soutien de liste",
+      "source_id": "fr-633-crous-soutien-liste",
+      "domain": "Education",
+      "issuer_id": "fr-ministere-enseignement-superieur",
+      "template_family": "crous-soutien-liste",
+      "source_pages": 1,
+      "source_sha256": "74f74bd494fcee7dd7294cc350edfdf6dcbceddb1c7f3299c9721782833c2340",
+      "fields": 7,
+      "files": {
+        "workflow/0-html_template/data_fr/633.html": "6ecd264feb6155190978bc04f9d280ee30764d7c10af58c9d08236bb5c93823b",
+        "workflow/1-annotated_json/data_fr/633.json": "1b7794102e60fcf1643c3d7ca487c16811314ae66e27e6931518f6074838487b",
+        "workflow/2-filled_json-a/data_fr/633.json": "bdcb48c39d615231d14fc7a4ff950a124ef4e0b2eec7bede3e5b8068f3aceba7",
+        "workflow/3-filled_html-a/data_fr/633.html": "837e7fcc15c7b35998f99e6e2230638ca09b112f409fd14f43d165d877905c19",
+        "workflow/4-context-a/data_fr/633.txt": "e36a5434197f945b4241fa781eb4e142a3daf44a7b511326a00cae8048dfce8b",
+        "workflow/5-ph_html-a/data_fr/633.html": "12a3a5d7c9fba7abfd0ffe8d1fd792f4a7051a2195ef8ee81e546e408c04ce42",
+        "workflow/6-meta-a/data_fr/633.json": "7dab2a8c29d96d01a46d999775691a5c57525b5de5a0978299d5e6dac5c2e4ae"
+      },
+      "annotation_path": "data/annotations/fr/633.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    },
+    {
+      "id": 634,
+      "language": "fr",
+      "title": "Élections étudiantes Crous : attestation de dépôt de liste",
+      "source_id": "fr-634-crous-attestation-depot-liste",
+      "domain": "Education",
+      "issuer_id": "fr-ministere-enseignement-superieur",
+      "template_family": "crous-attestation-depot-liste",
+      "source_pages": 1,
+      "source_sha256": "47591934c1bf655ce5fd37af79797cebfce166ca965efaa9fcd4d02cc6667a40",
+      "fields": 29,
+      "files": {
+        "workflow/0-html_template/data_fr/634.html": "43ccdd96675b25e4b6c4fd81fc09a8041308626944f1894ffa56c320895e6652",
+        "workflow/1-annotated_json/data_fr/634.json": "f896e73c1b546e02a2114c60bcd0e8067b227b7f0781b2544b95b721bc47d874",
+        "workflow/2-filled_json-a/data_fr/634.json": "a7f76a2e293f441635d33e7f0e156080df71126430c50c2f5737845005d6e67a",
+        "workflow/3-filled_html-a/data_fr/634.html": "010658dfd5e14854359ef6a7d2c80e6eeadb4a92673ca5bf990d32a32131a4e7",
+        "workflow/4-context-a/data_fr/634.txt": "de0cd11b2106132d18fb53bffcc9629c8327c61c52342f34f74df990a3311b86",
+        "workflow/5-ph_html-a/data_fr/634.html": "f11c19a1b4ecbc5bcfd3c8c75988b6e0a7cc02b388ad829c65362d0c9d4715c0",
+        "workflow/6-meta-a/data_fr/634.json": "ae52247b0378ea6bf2b2b564855899a63efd4eba6523f79fddfd7b29d1e80c7a"
+      },
+      "annotation_path": "data/annotations/fr/634.json",
+      "stage_status": {
+        "0": "provided",
+        "1": "provided",
+        "2": "provided",
+        "3": "provided",
+        "4": "provided",
+        "5": "provided",
+        "6": "provided",
+        "7": "not_generated",
+        "8": "not_generated",
+        "9": "not_generated"
+      }
+    }
+  ]
+}
