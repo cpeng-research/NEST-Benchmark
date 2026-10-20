@@ -1,0 +1,785 @@
+{
+  "Page 1": {
+    "Ne pas remplir - Cadre réservé au conseil de prud’hommes": {
+      "Numéro RG :": "",
+      "Section :": "",
+      "Chambre :": "",
+      "Audience :": "",
+      "Requête reçue le :": ""
+    },
+    "Votre demande :": {
+      "Vous souhaitez être convoqué devant :": {
+        "choices": [
+          "le bureau de conciliation et d’orientation",
+          "le bureau de jugement (pour les cas prévus par le code du travail)",
+          "la formation de référé",
+          "la formation de procédure accélérée au fond (article 1455-12 du code du travail)"
+        ],
+        "value": []
+      },
+      "Cette demande est faite devant le conseil de prud’hommes de :": "",
+      "Avez-vous déjà déposé un dossier concernant la même affaire devant ce conseil de prud’hommes ?": {
+        "choices": [
+          "Oui",
+          "Non"
+        ],
+        "value": []
+      },
+      "Si oui, sous quel numéro a-t-il été enregistré :": ""
+    }
+  },
+  "Page 2": {
+    "Votre identité :": {
+      "Votre identité :": {
+        "choices": [
+          "Madame",
+          "Monsieur"
+        ],
+        "value": []
+      },
+      "Votre nom de famille (nom de naissance) :": "",
+      "Votre nom d’usage (exemple : nom d’époux / d'épouse) :": "",
+      "Vos prénoms :": "",
+      "Date de naissance": "",
+      "Lieu de naissance": "",
+      "Votre nationalité :": "",
+      "Votre profession/emploi lors du litige :": "",
+      "Vous étiez :": {
+        "choices": [
+          "Cadre et VRP",
+          "Non cadre",
+          "Apprenti"
+        ],
+        "value": []
+      },
+      "Votre adresse :": "",
+      "Complément d’adresse :": "",
+      "Code postal": "",
+      "Commune :": "",
+      "Pays :": "",
+      "Votre adresse électronique :": "",
+      "Votre numéro de téléphone :": "",
+      "Si vous êtes un :": {
+        "choices": [
+          "mineur non émancipé",
+          "majeur protégé (tutelle, curatelle...)"
+        ],
+        "value": []
+      },
+      "Préciser l’identité de votre représentant légal :": {
+        "choices": [
+          "Tuteur, curateur ou personne habilitée",
+          "Père ou mère"
+        ],
+        "value": []
+      }
+    },
+    "Représentant légal inactif : majeure sans mesure de protection": {
+      "Nom de famille :": "",
+      "Prénoms :": "",
+      "Adresse :": "",
+      "Complément d’adresse:": "",
+      "Code postal": "",
+      "Commune :": "",
+      "Pays :": ""
+    },
+    "Assistance ou représentation :": {
+      "Assistance ou représentation :": {
+        "choices": [
+          "Madame",
+          "Monsieur",
+          "Maître"
+        ],
+        "value": []
+      },
+      "Son nom :": "",
+      "Son prénom :": "",
+      "Sa qualité :": {
+        "choices": [
+          "avocat",
+          "défenseur syndical",
+          "salarié de la même branche d’activité",
+          "conjoint",
+          "partenaire de PACS",
+          "concubin"
+        ],
+        "value": []
+      },
+      "Son adresse :": "",
+      "Complément d’adresse :": "",
+      "Code postal": "",
+      "Commune :": ""
+    }
+  },
+  "Page 3": {
+    "Assistance ou représentation : suite": {
+      "Pays :": "",
+      "Son adresse électronique :": "",
+      "Son numéro de téléphone :": ""
+    },
+    "Si vous bénéficiez de l’aide juridictionnelle :": {
+      "Date de la demande": "",
+      "Date de la décision": "",
+      "Taux :": "",
+      "N° de la décision (18 caractères) :": "",
+      "Tribunal judiciaire dont elle émane :": "",
+      "interprète en langue des signes :": {
+        "choices": [
+          "Oui",
+          "Non"
+        ],
+        "value": []
+      }
+    },
+    "Identité de votre adversaire :": {
+      "Son code IDCC (Identifiants des conventions collectives) :": "",
+      "Son n° SIRET :": "",
+      "Sa convention ou accord collectif :": "",
+      "Son activité principale :": "",
+      "Son code APE :": "",
+      "Son adresse électronique :": "",
+      "Son numéro de téléphone :": ""
+    },
+    "S’il s’agit d’une personne morale :": {
+      "Sa forme juridique (SA, SARL, SAS, SNC, EURL, Association, ...) :": "",
+      "Sa dénomination :": "",
+      "L’adresse de son siège social :": "",
+      "Code postal": "",
+      "Commune :": "",
+      "Pays :": ""
+    },
+    "Le cas échéant veuillez préciser l’adresse de l’établissement où est accompli le travail :": {
+      "Adresse :": "",
+      "Complément d’adresse:": "",
+      "Code postal": "",
+      "Commune :": "",
+      "Pays :": "",
+      "Son représentant légal (nom, prénom) :": ""
+    }
+  },
+  "Page 4": {
+    "S’il s’agit d’une personne physique :": {
+      "S’il s’agit d’une personne physique :": {
+        "choices": [
+          "Madame",
+          "Monsieur"
+        ],
+        "value": []
+      },
+      "Son nom de famille (nom de naissance) :": "",
+      "Son nom d’usage (exemple: nom d’époux / d'épouse) :": "",
+      "Ses prénoms :": "",
+      "Date de naissance": "",
+      "Lieu de naissance": "",
+      "Son adresse :": "",
+      "Complément d’adresse :": "",
+      "Code postal": "",
+      "Commune :": "",
+      "Pays :": ""
+    },
+    "Identité de votre adversaire :": {
+      "Nombre de salariés dans l’entreprise :": {
+        "choices": [
+          "moins de 11",
+          "de 11 à 49",
+          "de 50 à 499",
+          "500 et plus"
+        ],
+        "value": []
+      }
+    },
+    "Employeur faisant l’objet d’une procédure collective ou de liquidation amiable": {
+      "Type de procédure :": {
+        "choices": [
+          "Redressement judiciaire",
+          "Liquidation judiciaire",
+          "Procédure de sauvegarde",
+          "Plan de continuation"
+        ],
+        "value": []
+      },
+      "par :": {
+        "choices": [
+          "le tribunal de grande instance ou",
+          "le tribunal judiciaire ou",
+          "le tribunal de commerce"
+        ],
+        "value": []
+      },
+      "de": "",
+      "Décision rendue le:": "",
+      "Liquidation amiable du": {
+        "choices": [
+          "Liquidation amiable du"
+        ],
+        "value": []
+      },
+      "Liquidation amiable du (2)": "",
+      "Partie(s) à la procédure :": {
+        "choices": [
+          "Administrateur judiciaire (le cas échant pour un redressement ou une sauvegarde)",
+          "Liquidateur amiable"
+        ],
+        "value": []
+      },
+      "Maître (uniquement pour l’administrateur judiciaire)": {
+        "choices": [
+          "Maître (uniquement pour l’administrateur judiciaire)"
+        ],
+        "value": []
+      },
+      "Partie(s) à la procédure : (2)": {
+        "choices": [
+          "Madame",
+          "Monsieur"
+        ],
+        "value": []
+      },
+      "Son nom :": "",
+      "Son prénom :": "",
+      "Son adresse :": "",
+      "Complément d’adresse :": "",
+      "Code postal": "",
+      "Commune :": "",
+      "Pays :": "",
+      "Commissaire à l’exécution au plan,": {
+        "choices": [
+          "Commissaire à l’exécution au plan,"
+        ],
+        "value": []
+      },
+      "Mandataire judiciaire (s’il s’agit d’un redressement ou d’une liquidation judiciaire),": {
+        "choices": [
+          "Mandataire judiciaire (s’il s’agit d’un redressement ou d’une liquidation judiciaire),"
+        ],
+        "value": []
+      }
+    }
+  },
+  "Page 5": {
+    "Maître (nom) :": {
+      "Maître (nom) :": "",
+      "Son prénom :": "",
+      "Son adresse :": "",
+      "Complément d’adresse :": "",
+      "Code postal": "",
+      "Commune :": "",
+      "Pays :": "",
+      "UNEDIC/ A.G.S. C.G.E.A. :": {
+        "choices": [
+          "UNEDIC/ A.G.S. C.G.E.A. :"
+        ],
+        "value": []
+      },
+      "UNEDIC/ A.G.S. C.G.E.A. : (2)": ""
+    },
+    "Autre administrateur judiciaire 1": {
+      "Maître (uniquement pour l’administrateur judiciaire)": {
+        "choices": [
+          "Maître (uniquement pour l’administrateur judiciaire)"
+        ],
+        "value": []
+      },
+      "Son nom :": "",
+      "Son prénom :": "",
+      "Son adresse :": "",
+      "Complément d’adresse :": "",
+      "Code postal": "",
+      "Commune :": "",
+      "Pays :": ""
+    },
+    "Autre administrateur judiciaire 2": {
+      "Maître (uniquement pour l’administrateur judiciaire)": {
+        "choices": [
+          "Maître (uniquement pour l’administrateur judiciaire)"
+        ],
+        "value": []
+      },
+      "Son nom :": "",
+      "Son prénom :": "",
+      "Son adresse :": "",
+      "Complément d’adresse :": "",
+      "Code postal": "",
+      "Commune :": "",
+      "Pays :": ""
+    },
+    "Renseignements complémentaires :": {
+      "Disposez-vous d’un contrat de travail écrit :": {
+        "choices": [
+          "Oui",
+          "Non"
+        ],
+        "value": []
+      },
+      "Date du début d’exercice de vos fonctions :": "",
+      "Date de cessation de vos fonctions :": "",
+      "Motif du départ :": ""
+    }
+  },
+  "Page 6": {
+    "DEMANDES LIÉES A LA PROCÉDURE :": {
+      "DEMANDES LIÉES A LA PROCÉDURE :": {
+        "choices": [
+          "Retrait du rôle",
+          "Radiation",
+          "Demande de relevé de caducité",
+          "Irrecevabilité",
+          "Rectification",
+          "Omission",
+          "Interprétation d’une décision en date du",
+          "Liquidation de l’astreinte ordonnée par décision du :"
+        ],
+        "value": []
+      },
+      "Interprétation d’une décision en date du": "",
+      "Liquidation de l’astreinte ordonnée par décision du :": ""
+    },
+    "ÉVÈNEMENTS OU DEMANDES LIÉS AU LITIGE :": {
+      "Contestation d’un licenciement": {
+        "choices": [
+          "Contestation d’un licenciement"
+        ],
+        "value": []
+      },
+      "à caractère économique": {
+        "choices": [
+          "à caractère économique"
+        ],
+        "value": []
+      },
+      "Requalification de la prise d’acte de la rupture en licenciement": {
+        "choices": [
+          "Requalification de la prise d’acte de la rupture en licenciement"
+        ],
+        "value": []
+      },
+      "Démission": {
+        "choices": [
+          "Démission"
+        ],
+        "value": []
+      },
+      "Nullité du licenciement": {
+        "choices": [
+          "Nullité du licenciement"
+        ],
+        "value": []
+      },
+      "Demande de réintégration": {
+        "choices": [
+          "Demande de réintégration"
+        ],
+        "value": []
+      },
+      "Intervenue le": "",
+      "Contestation :": {
+        "choices": [
+          "Contestation :"
+        ],
+        "value": []
+      },
+      "Contestation : (2)": {
+        "choices": [
+          "sans rupture d’un contrat de travail",
+          "suite à la rupture d’un contrat de travail"
+        ],
+        "value": []
+      },
+      "Intervenue le (2)": "",
+      "Demande de résiliation judiciaire du contrat :": {
+        "choices": [
+          "Demande de résiliation judiciaire du contrat :"
+        ],
+        "value": []
+      },
+      "Demande de résiliation judiciaire du contrat : (2)": {
+        "choices": [
+          "d’apprentissage",
+          "de travail"
+        ],
+        "value": []
+      },
+      "Requalification en CDI :": {
+        "choices": [
+          "Requalification en CDI :"
+        ],
+        "value": []
+      },
+      "Requalification en CDI : (2)": {
+        "choices": [
+          "d’un CDD",
+          "d’une mission d’intérim",
+          "d’un stage"
+        ],
+        "value": []
+      },
+      "Contestation des éléments de nature médicale émis par le médecin du travail": {
+        "choices": [
+          "Contestation des éléments de nature médicale émis par le médecin du travail"
+        ],
+        "value": []
+      },
+      "Rupture conventionnelle collective": {
+        "choices": [
+          "Rupture conventionnelle collective"
+        ],
+        "value": []
+      },
+      "Annulation d’une sanction disciplinaire en date du": {
+        "choices": [
+          "Annulation d’une sanction disciplinaire en date du"
+        ],
+        "value": []
+      },
+      "Annulation d’une sanction disciplinaire en date du (2)": "",
+      "Nature :": "",
+      "Autre demande (non chiffrée) :": ""
+    },
+    "DEMANDES CHIFFRÉES": {
+      "Indemnité pour non-respect de la procédure de licenciement demande": {
+        "choices": [
+          "Indemnité pour non-respect de la procédure de licenciement"
+        ],
+        "value": []
+      },
+      "Indemnité pour non-respect de la procédure de licenciement montant": "",
+      "Indemnité pour licenciement sans cause réelle et sérieuse demande": {
+        "choices": [
+          "Indemnité pour licenciement sans cause réelle et sérieuse"
+        ],
+        "value": []
+      },
+      "Indemnité pour licenciement sans cause réelle et sérieuse montant": "",
+      "Indemnité de licenciement demande": {
+        "choices": [
+          "Indemnité de licenciement"
+        ],
+        "value": []
+      },
+      "Indemnité de licenciement montant": "",
+      "Dommages et intérêts pour rupture anticipée du C.D.D. demande": {
+        "choices": [
+          "Dommages et intérêts pour rupture anticipée du C.D.D."
+        ],
+        "value": []
+      },
+      "Dommages et intérêts pour rupture anticipée du C.D.D. montant": "",
+      "Indemnité de licenciement": {
+        "choices": [
+          "légale",
+          "conventionnelle",
+          "spéciale"
+        ],
+        "value": []
+      }
+    }
+  },
+  "Page 7": {
+    "DEMANDES CHIFFRÉES": {
+      "Indemnité compensatrice pour rupture anticipée du C.D.D. liée à un cas de force majeure demande": {
+        "choices": [
+          "Indemnité compensatrice pour rupture anticipée du C.D.D. liée à un cas de force majeure"
+        ],
+        "value": []
+      },
+      "Indemnité compensatrice pour rupture anticipée du C.D.D. liée à un cas de force majeure montant": "",
+      "Indemnité compensatrice de préavis (*) demande": {
+        "choices": [
+          "Indemnité compensatrice de préavis (*)"
+        ],
+        "value": []
+      },
+      "Indemnité compensatrice de préavis (*) montant": "",
+      "Indemnité compensatrice de congés payés sur préavis (*) demande": {
+        "choices": [
+          "Indemnité compensatrice de congés payés sur préavis (*)"
+        ],
+        "value": []
+      },
+      "Indemnité compensatrice de congés payés sur préavis (*) montant": "",
+      "Indemnité de fin de contrat (*) demande": {
+        "choices": [
+          "Indemnité de fin de contrat (*)"
+        ],
+        "value": []
+      },
+      "Indemnité de fin de contrat (*) montant": "",
+      "Dommages et intérêts (préciser la nature) : demande": {
+        "choices": [
+          "Dommages et intérêts (préciser la nature) :"
+        ],
+        "value": []
+      },
+      "Dommages et intérêts (préciser la nature) : montant": "",
+      "Dommages et intérêts (préciser la nature) : nature/période/détails": "",
+      "Autre indemnité (préciser la nature) : demande": {
+        "choices": [
+          "Autre indemnité (préciser la nature) :"
+        ],
+        "value": []
+      },
+      "Autre indemnité (préciser la nature) : montant": "",
+      "Autre indemnité (préciser la nature) : nature/période/détails": "",
+      "Indemnité de congés payés (*) (période) : demande": {
+        "choices": [
+          "Indemnité de congés payés (*) (période) :"
+        ],
+        "value": []
+      },
+      "Indemnité de congés payés (*) (période) : montant": "",
+      "Indemnité de congés payés (*) (période) : nature/période/détails": "",
+      "Salaires (*) (période) : demande": {
+        "choices": [
+          "Salaires (*) (période) :"
+        ],
+        "value": []
+      },
+      "Salaires (*) (période) : montant": "",
+      "Salaires (*) (période) : nature/période/détails": "",
+      "Congés payés sur salaire (*) (période) : demande": {
+        "choices": [
+          "Congés payés sur salaire (*) (période) :"
+        ],
+        "value": []
+      },
+      "Congés payés sur salaire (*) (période) : montant": "",
+      "Congés payés sur salaire (*) (période) : nature/période/détails": "",
+      "Prime (*) (nature et période) : demande": {
+        "choices": [
+          "Prime (*) (nature et période) :"
+        ],
+        "value": []
+      },
+      "Prime (*) (nature et période) : montant": "",
+      "Prime (*) (nature et période) : nature/période/détails": "",
+      "Indemnité de repas (*) (dates) : demande": {
+        "choices": [
+          "Indemnité de repas (*) (dates) :"
+        ],
+        "value": []
+      },
+      "Indemnité de repas (*) (dates) : montant": "",
+      "Indemnité de repas (*) (dates) : nature/période/détails": "",
+      "Indemnité de déplacement (*) (lieu et date) : demande": {
+        "choices": [
+          "Indemnité de déplacement (*) (lieu et date) :"
+        ],
+        "value": []
+      },
+      "Indemnité de déplacement (*) (lieu et date) : montant": "",
+      "Indemnité de déplacement (*) (lieu et date) : nature/période/détails": "",
+      "Commission (*) : demande": {
+        "choices": [
+          "Commission (*) :"
+        ],
+        "value": []
+      },
+      "Commission (*) : montant": "",
+      "Remboursement de frais professionnels (détails) : demande": {
+        "choices": [
+          "Remboursement de frais professionnels (détails) :"
+        ],
+        "value": []
+      },
+      "Remboursement de frais professionnels (détails) : montant": "",
+      "Remboursement de frais professionnels (détails) : nature/période/détails": "",
+      "Article 700 du code de procédure civile : demande": {
+        "choices": [
+          "Article 700 du code de procédure civile :"
+        ],
+        "value": []
+      },
+      "Article 700 du code de procédure civile : montant": "",
+      "Autre demande : demande": {
+        "choices": [
+          "Autre demande :"
+        ],
+        "value": []
+      },
+      "Autre demande : montant": "",
+      "Autre demande : nature/période/détails": "",
+      "Indemnité (*) de requalification en CDI :": {
+        "choices": [
+          "d’un CDD",
+          "d’une mission d’intérim",
+          "d’un stage"
+        ],
+        "value": []
+      },
+      "Indemnité (*) de requalification en CDI : (2)": "",
+      "Heures (*)": {
+        "choices": [
+          "supplémentaires",
+          "complémentaires"
+        ],
+        "value": []
+      },
+      "Heures : nombre": "",
+      "Heures : montant": "",
+      "Exécution provisoire": {
+        "choices": [
+          "Exécution provisoire"
+        ],
+        "value": []
+      },
+      "Intérêts au taux légal": {
+        "choices": [
+          "Intérêts au taux légal"
+        ],
+        "value": []
+      },
+      "Capitalisation des Intérêts": {
+        "choices": [
+          "Capitalisation des Intérêts"
+        ],
+        "value": []
+      },
+      "Dépens": {
+        "choices": [
+          "Dépens"
+        ],
+        "value": []
+      },
+      "Dépens (2)": ""
+    },
+    "DEMANDE DE REMISE DE DOCUMENTS": {
+      "Document 1 demande": {
+        "choices": [
+          "Lettre de licenciement :"
+        ],
+        "value": []
+      },
+      "Document 1 période ou document": "",
+      "Document 1 astreinte demandée": {
+        "choices": [
+          "sous astreinte journalière de :"
+        ],
+        "value": []
+      },
+      "Document 1 astreinte montant": "",
+      "Document 2 demande": {
+        "choices": [
+          "Bulletin(s) de paie :"
+        ],
+        "value": []
+      },
+      "Document 2 période ou document": "",
+      "Document 2 astreinte demandée": {
+        "choices": [
+          "sous astreinte journalière de :"
+        ],
+        "value": []
+      },
+      "Document 2 astreinte montant": "",
+      "Document 3 demande": {
+        "choices": [
+          "Certificat de travail :"
+        ],
+        "value": []
+      },
+      "Document 3 période ou document": "",
+      "Document 3 astreinte demandée": {
+        "choices": [
+          "sous astreinte journalière de :"
+        ],
+        "value": []
+      },
+      "Document 3 astreinte montant": "",
+      "Document 4 demande": {
+        "choices": [
+          "Certificat pour la caisse de congés payés (pour les salariés du bâtiment, docker ....) :"
+        ],
+        "value": []
+      },
+      "Document 4 période ou document": "",
+      "Document 4 astreinte demandée": {
+        "choices": [
+          "sous astreinte journalière de :"
+        ],
+        "value": []
+      },
+      "Document 4 astreinte montant": "",
+      "Document 5 demande": {
+        "choices": [
+          "Attestation Pôle emploi :"
+        ],
+        "value": []
+      },
+      "Document 5 période ou document": "",
+      "Document 5 astreinte demandée": {
+        "choices": [
+          "sous astreinte journalière de :"
+        ],
+        "value": []
+      },
+      "Document 5 astreinte montant": "",
+      "Document 6 demande": {
+        "choices": [
+          "Attestation destinée à la sécurité sociale :"
+        ],
+        "value": []
+      },
+      "Document 6 période ou document": "",
+      "Document 6 astreinte demandée": {
+        "choices": [
+          "sous astreinte journalière de :"
+        ],
+        "value": []
+      },
+      "Document 6 astreinte montant": "",
+      "Document 7 demande": {
+        "choices": [
+          "Reçu pour solde de tout compte :"
+        ],
+        "value": []
+      },
+      "Document 7 période ou document": "",
+      "Document 7 astreinte demandée": {
+        "choices": [
+          "sous astreinte journalière de :"
+        ],
+        "value": []
+      },
+      "Document 7 astreinte montant": "",
+      "Document 8 demande": {
+        "choices": [
+          "Autres documents :"
+        ],
+        "value": []
+      },
+      "Document 8 période ou document": "",
+      "Document 8 astreinte demandée": {
+        "choices": [
+          "sous astreinte journalière de :"
+        ],
+        "value": []
+      },
+      "Document 8 astreinte montant": ""
+    }
+  },
+  "Page 8": {
+    "EXPOSÉ SOMMAIRE DES MOTIFS DE VOTRE DEMANDE": {
+      "EXPOSÉ SOMMAIRE DES MOTIFS DE VOTRE DEMANDE": ""
+    },
+    "BORDEREAU DES PIECES DE LA REQUETE": {
+      "Pièce n ° 1 :": "",
+      "Pièce n° 2 :": "",
+      "Pièce n° 3 :": "",
+      "Pièce n° 4 :": "",
+      "Pièce n° 5 :": "",
+      "Pièce n° 6 :": "",
+      "Pièce n° 7 :": "",
+      "Pièce n° 8 :": "",
+      "Pièce n° 9 :": "",
+      "Pièce n° 10 :": ""
+    }
+  },
+  "Page 9": {
+    "ATTESTATION SUR L’HONNEUR": {
+      "Je soussigné(e) (prénom, nom) :": "",
+      "Fait à :": "",
+      "Le": "",
+      "Signature": ""
+    }
+  }
+}

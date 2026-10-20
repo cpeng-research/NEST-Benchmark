@@ -51,3 +51,23 @@ batch and sample ID. All 100 new records provide numbered stages 0-6, source
 and field annotations, and batch checksums. Stages 7-9 and model baseline
 predictions are not included in this increment. Earlier image counts and
 main-workflow counts above remain unchanged.
+
+## Versioned Additions: 19 October 2026
+
+The combined text-task inventory contains 1,500 distinct language/ID records:
+449 English, 431 Chinese, 315 Spanish, and 305 French. The main workflow
+retains its 869 records; versioned additions supply 631 more.
+
+The latest 200 templates are in two batches:
+
+| Batch | Languages and stable IDs | Templates |
+| --- | --- | ---: |
+| [2026-10-19-multilingual-v0.1](extensions/2026-10-19-multilingual-v0.1/README.md) | French and Spanish, each 700-749 | 100 |
+| [2026-10-19-multilingual-v0.2](extensions/2026-10-19-multilingual-v0.2/README.md) | French and Spanish, each 750-799 | 100 |
+
+Each provides all seven numbered stages 0-6, source and collection records,
+field annotations, `manifest.json`, and `SHA256SUMS`. Stages 7-9 and model
+predictions are not included. Earlier image and main-workflow counts remain
+unchanged. The [1,400-template](extensions/RELEASE_1400.md) and
+[1,500-template](extensions/RELEASE_1500.md) indexes list every new sample
+and its source, domain, page count, and field count.

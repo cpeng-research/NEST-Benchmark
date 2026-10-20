@@ -1,0 +1,665 @@
+{
+  "id": "es-725-inpi-prioridad",
+  "language": "es",
+  "domain": "Business",
+  "title": "SOLICITUD DE CERTIFICADO DE PRIORIDAD",
+  "business_topic": "SOLICITUD DE CERTIFICADO DE PRIORIDAD",
+  "issuer_id": "Instituto Nacional de la Propiedad Industrial",
+  "template_family": "inpi-prioridad",
+  "source_pages": 1,
+  "source_sha256": "9a6e39aceeff6e9cc1c42dc97fd11b19866950d5b9b910cf56b62daca1e8465c",
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/m_solicitud_certificados_prioridad.pdf",
+  "landing_url": "https://www.argentina.gob.ar/inpi/marcas/solicitar-certificados-de-marcas",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "Fuente: Instituto Nacional de la Propiedad Industrial. Texto y estructura adaptados bajo CC BY 4.0, conforme a los términos de Argentina.gob.ar salvo indicación específica contraria. Se omiten logotipos y no se redistribuye el PDF original.",
+  "retrieved_at": "2026-10-19T03:44:11.646087+00:00",
+  "source_version": "Sin fecha de edición impresa; consulta 2026-10-19T03:44:11.646087+00:00",
+  "source_date_evidence": {
+    "kind": "undated edition with dated retrieval",
+    "value": "No se observa fecha de edición impresa. Recuperado 2026-10-19T03:44:11.646087+00:00"
+  },
+  "columns": 42,
+  "rows": [
+    [
+      {
+        "text": "SOLICITUD DE CERTIFICADO DE PRIORIDAD",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "PARA USO EXCLUSIVO DEL INSTITUTO NACIONAL DE LA PROPIEDAD INDUSTRIAL",
+        "heading": false,
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "AREA 1: SOLICITANTE",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Apellido y Nombre o Razón Social del Solicitante o Representante Legal",
+        "field": "f0001",
+        "source_page": 1,
+        "colspan": 14
+      },
+      {
+        "label": "No de Documento",
+        "field": "f0002",
+        "source_page": 1,
+        "colspan": 14
+      },
+      {
+        "label": "Tipo",
+        "field": "f0003",
+        "source_page": 1,
+        "colspan": 14
+      }
+    ],
+    [
+      {
+        "label": "Agente No:",
+        "field": "f0004",
+        "source_page": 1,
+        "colspan": 21
+      },
+      {
+        "label": "Agente No:",
+        "field": "f0005",
+        "source_page": 1,
+        "colspan": 21
+      }
+    ],
+    [
+      {
+        "label": "Correo Electrónico:",
+        "field": "f0006",
+        "source_page": 1,
+        "colspan": 21
+      },
+      {
+        "label": "Teléfono:",
+        "field": "f0007",
+        "source_page": 1,
+        "colspan": 21
+      }
+    ],
+    [
+      {
+        "text": "Autorizado para retirar certificado:",
+        "heading": false,
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Apellido y Nombre",
+        "field": "f0008",
+        "source_page": 1,
+        "colspan": 14
+      },
+      {
+        "label": "No de Documento",
+        "field": "f0009",
+        "source_page": 1,
+        "colspan": 14
+      },
+      {
+        "label": "Tipo",
+        "field": "f0010",
+        "source_page": 1,
+        "colspan": 14
+      }
+    ],
+    [
+      {
+        "text": "AREA 2: EXPEDIENTE",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "MARCA SOLICITADA",
+        "field": "f0011",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "Acta N°",
+        "field": "f0012",
+        "source_page": 1,
+        "colspan": 14
+      },
+      {
+        "label": "Fecha de presentación",
+        "field": "f0013",
+        "source_page": 1,
+        "colspan": 14
+      },
+      {
+        "label": "Clase",
+        "field": "f0014",
+        "source_page": 1,
+        "colspan": 14
+      }
+    ],
+    [
+      {
+        "label": "País al que va dirigido el Certificado",
+        "field": "f0015",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "Firma y Aclaración del Autorizado",
+        "field": "f0016",
+        "source_page": 1,
+        "colspan": 21
+      },
+      {
+        "label": "Firma y Aclaración del Solicitante o su Representante Legal",
+        "field": "f0017",
+        "source_page": 1,
+        "colspan": 21
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f0001",
+      "label": "Apellido y Nombre o Razón Social del Solicitante o Representante Legal",
+      "path": [
+        "Página 1",
+        "AREA 1: SOLICITANTE",
+        "Apellido y Nombre o Razón Social del Solicitante o Representante Legal"
+      ],
+      "source_page": 1,
+      "source_anchor": "Apellido y Nombre o Razón Social del Solicitante o Representante Legal",
+      "kind": "text",
+      "synthetic_value": "Bodega Horizonte SRL",
+      "source_widgets": [
+        {
+          "page": 1,
+          "name": "Apellido y Nombre o Razón Social del Solicitante o Representante LegalRow1",
+          "rect": [
+            25.559999465942383,
+            226.280029296875,
+            414.7200012207031,
+            268.03997802734375
+          ],
+          "type": "Text",
+          "choices": [],
+          "flags": 4098
+        }
+      ]
+    },
+    {
+      "id": "f0002",
+      "label": "No de Documento",
+      "path": [
+        "Página 1",
+        "AREA 1: SOLICITANTE",
+        "No de Documento"
+      ],
+      "source_page": 1,
+      "source_anchor": "No de Documento",
+      "kind": "text",
+      "synthetic_value": "30-71234567-9",
+      "source_widgets": [
+        {
+          "page": 1,
+          "name": "N de DocumentoRow1",
+          "rect": [
+            418.8389892578125,
+            226.280029296875,
+            524.9190063476562,
+            268.03997802734375
+          ],
+          "type": "Text",
+          "choices": [],
+          "flags": 4096
+        }
+      ]
+    },
+    {
+      "id": "f0003",
+      "label": "Tipo",
+      "path": [
+        "Página 1",
+        "AREA 1: SOLICITANTE",
+        "Tipo"
+      ],
+      "source_page": 1,
+      "source_anchor": "Tipo",
+      "kind": "text",
+      "synthetic_value": "CUIT",
+      "source_widgets": [
+        {
+          "page": 1,
+          "name": "TipoRow1",
+          "rect": [
+            527.0399780273438,
+            226.280029296875,
+            568.6799926757812,
+            268.03997802734375
+          ],
+          "type": "Text",
+          "choices": [],
+          "flags": 4096
+        }
+      ]
+    },
+    {
+      "id": "f0004",
+      "label": "Agente No:",
+      "path": [
+        "Página 1",
+        "AREA 1: SOLICITANTE",
+        "Agente No:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Agente No:",
+      "kind": "text",
+      "synthetic_value": "1320",
+      "source_widgets": [
+        {
+          "page": 1,
+          "name": "Agente N",
+          "rect": [
+            176.0399932861328,
+            270.91998291015625,
+            216.60000610351562,
+            308.84002685546875
+          ],
+          "type": "Text",
+          "choices": [],
+          "flags": 4096
+        }
+      ]
+    },
+    {
+      "id": "f0005",
+      "label": "Agente No:",
+      "path": [
+        "Página 1",
+        "AREA 1: SOLICITANTE",
+        "Nombre del agente / casilla sin rótulo independiente"
+      ],
+      "source_page": 1,
+      "source_anchor": "Agente No:",
+      "kind": "text",
+      "synthetic_value": "Lucía Benítez",
+      "source_widgets": [
+        {
+          "page": 1,
+          "name": "Texto1",
+          "rect": [
+            220.73800659179688,
+            272.677001953125,
+            567.3350219726562,
+            306.63702392578125
+          ],
+          "type": "Text",
+          "choices": [],
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "id": "f0006",
+      "label": "Correo Electrónico:",
+      "path": [
+        "Página 1",
+        "AREA 1: SOLICITANTE",
+        "Correo Electrónico:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Correo Electrónico:",
+      "kind": "text",
+      "synthetic_value": "gestion@horizonte.example",
+      "source_widgets": [
+        {
+          "page": 1,
+          "name": "Correo Electrónico",
+          "rect": [
+            175.55999755859375,
+            311.239990234375,
+            415.20001220703125,
+            332.3599853515625
+          ],
+          "type": "Text",
+          "choices": [],
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "id": "f0007",
+      "label": "Teléfono:",
+      "path": [
+        "Página 1",
+        "AREA 1: SOLICITANTE",
+        "Teléfono:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Teléfono:",
+      "kind": "text",
+      "synthetic_value": "261 555 0123",
+      "source_widgets": [
+        {
+          "page": 1,
+          "name": "Teléfono",
+          "rect": [
+            461.0400085449219,
+            311.239990234375,
+            569.1599731445312,
+            332.3599853515625
+          ],
+          "type": "Text",
+          "choices": [],
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "id": "f0008",
+      "label": "Apellido y Nombre",
+      "path": [
+        "Página 1",
+        "AREA 1: SOLICITANTE",
+        "Apellido y Nombre"
+      ],
+      "source_page": 1,
+      "source_anchor": "Apellido y Nombre",
+      "kind": "text",
+      "synthetic_value": "Mateo Fernández",
+      "source_widgets": [
+        {
+          "page": 1,
+          "name": "Apellido y NombreAutorizado para retirar certificado",
+          "rect": [
+            175.8000030517578,
+            349.3999938964844,
+            414.9599914550781,
+            379.0400085449219
+          ],
+          "type": "Text",
+          "choices": [],
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "id": "f0009",
+      "label": "No de Documento",
+      "path": [
+        "Página 1",
+        "AREA 1: SOLICITANTE",
+        "Autorizado / documento"
+      ],
+      "source_page": 1,
+      "source_anchor": "No de Documento",
+      "kind": "text",
+      "synthetic_value": "30123456",
+      "source_widgets": [
+        {
+          "page": 1,
+          "name": "N de DocumentoAutorizado para retirar certificado",
+          "rect": [
+            417.6000061035156,
+            349.3999938964844,
+            524.1599731445312,
+            379.0400085449219
+          ],
+          "type": "Text",
+          "choices": [],
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "id": "f0010",
+      "label": "Tipo",
+      "path": [
+        "Página 1",
+        "AREA 1: SOLICITANTE",
+        "Autorizado / tipo"
+      ],
+      "source_page": 1,
+      "source_anchor": "Tipo",
+      "kind": "text",
+      "synthetic_value": "DNI",
+      "source_widgets": [
+        {
+          "page": 1,
+          "name": "TipoAutorizado para retirar certificado",
+          "rect": [
+            526.7999877929688,
+            349.3999938964844,
+            568.9199829101562,
+            379.0400085449219
+          ],
+          "type": "Text",
+          "choices": [],
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "id": "f0011",
+      "label": "MARCA SOLICITADA",
+      "path": [
+        "Página 1",
+        "AREA 2: EXPEDIENTE",
+        "MARCA SOLICITADA"
+      ],
+      "source_page": 1,
+      "source_anchor": "MARCA SOLICITADA",
+      "kind": "text",
+      "synthetic_value": "HORIZONTE DEL VALLE",
+      "source_widgets": [
+        {
+          "page": 1,
+          "name": "MARCA SOLICITADARow1",
+          "rect": [
+            25.559999465942383,
+            414.79998779296875,
+            568.6799926757812,
+            569.0
+          ],
+          "type": "Text",
+          "choices": [],
+          "flags": 4096
+        }
+      ]
+    },
+    {
+      "id": "f0012",
+      "label": "Acta N°",
+      "path": [
+        "Página 1",
+        "AREA 2: EXPEDIENTE",
+        "Acta N°"
+      ],
+      "source_page": 1,
+      "source_anchor": "Acta N°",
+      "kind": "text",
+      "synthetic_value": "4567890",
+      "source_widgets": [
+        {
+          "page": 1,
+          "name": "Acta NRow1",
+          "rect": [
+            25.200000762939453,
+            586.52001953125,
+            173.27999877929688,
+            610.4000244140625
+          ],
+          "type": "Text",
+          "choices": [],
+          "flags": 2
+        }
+      ]
+    },
+    {
+      "id": "f0013",
+      "label": "Fecha de presentación",
+      "path": [
+        "Página 1",
+        "AREA 2: EXPEDIENTE",
+        "Fecha de presentación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Fecha de presentación",
+      "kind": "text",
+      "synthetic_value": "15/09/2026",
+      "source_widgets": [
+        {
+          "page": 1,
+          "name": "Fecha de presentaciónRow1",
+          "rect": [
+            175.67999267578125,
+            586.52001953125,
+            393.239990234375,
+            610.4000244140625
+          ],
+          "type": "Text",
+          "choices": [],
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "id": "f0014",
+      "label": "Clase",
+      "path": [
+        "Página 1",
+        "AREA 2: EXPEDIENTE",
+        "Clase"
+      ],
+      "source_page": 1,
+      "source_anchor": "Clase",
+      "kind": "text",
+      "synthetic_value": "33",
+      "source_widgets": [
+        {
+          "page": 1,
+          "name": "ClaseRow1",
+          "rect": [
+            395.6400146484375,
+            586.52001953125,
+            569.0399780273438,
+            610.4000244140625
+          ],
+          "type": "Text",
+          "choices": [],
+          "flags": 0
+        }
+      ]
+    },
+    {
+      "id": "f0015",
+      "label": "País al que va dirigido el Certificado",
+      "path": [
+        "Página 1",
+        "AREA 2: EXPEDIENTE",
+        "País al que va dirigido el Certificado"
+      ],
+      "source_page": 1,
+      "source_anchor": "País al que va dirigido el Certificado",
+      "kind": "text",
+      "synthetic_value": "Chile",
+      "source_widgets": [
+        {
+          "page": 1,
+          "name": "País al que va dirigido el CertificadoRow1",
+          "rect": [
+            25.559999465942383,
+            628.280029296875,
+            568.6799926757812,
+            665.5599975585938
+          ],
+          "type": "Text",
+          "choices": [],
+          "flags": 4096
+        }
+      ]
+    },
+    {
+      "id": "f0016",
+      "label": "Firma y Aclaración del Autorizado",
+      "path": [
+        "Página 1",
+        "AREA 2: EXPEDIENTE",
+        "Firma y Aclaración del Autorizado"
+      ],
+      "source_page": 1,
+      "source_anchor": "Firma y Aclaración del Autorizado",
+      "kind": "text",
+      "synthetic_value": "Mateo Fernández",
+      "source_widgets": [
+        {
+          "page": 1,
+          "name": "País al que va dirigido el CertificadoRow2",
+          "rect": [
+            25.559999465942383,
+            727.3720092773438,
+            305.5199890136719,
+            753.4400024414062
+          ],
+          "type": "Text",
+          "choices": [],
+          "flags": 4096
+        }
+      ]
+    },
+    {
+      "id": "f0017",
+      "label": "Firma y Aclaración del Solicitante o su Representante Legal",
+      "path": [
+        "Página 1",
+        "AREA 2: EXPEDIENTE",
+        "Firma y Aclaración del Solicitante o su Representante Legal"
+      ],
+      "source_page": 1,
+      "source_anchor": "Firma y Aclaración del Solicitante o su Representante Legal",
+      "kind": "text",
+      "synthetic_value": "Lucía Benítez",
+      "source_widgets": [
+        {
+          "page": 1,
+          "name": "País al que va dirigido el CertificadoRow2_2",
+          "rect": [
+            309.6390075683594,
+            727.3720092773438,
+            569.6790161132812,
+            753.4400024414062
+          ],
+          "type": "Text",
+          "choices": [],
+          "flags": 4096
+        }
+      ]
+    }
+  ],
+  "context": "Caso íntegramente ficticio para completar un formulario de ejemplo; no representa una presentación real.\nPágina 1 / AREA 1: SOLICITANTE / Apellido y Nombre o Razón Social del Solicitante o Representante Legal: Bodega Horizonte SRL\nPágina 1 / AREA 1: SOLICITANTE / No de Documento: 30-71234567-9\nPágina 1 / AREA 1: SOLICITANTE / Tipo: CUIT\nPágina 1 / AREA 1: SOLICITANTE / Agente No:: 1320\nPágina 1 / AREA 1: SOLICITANTE / Nombre del agente / casilla sin rótulo independiente: Lucía Benítez\nPágina 1 / AREA 1: SOLICITANTE / Correo Electrónico:: gestion@horizonte.example\nPágina 1 / AREA 1: SOLICITANTE / Teléfono:: 261 555 0123\nPágina 1 / AREA 1: SOLICITANTE / Apellido y Nombre: Mateo Fernández\nPágina 1 / AREA 1: SOLICITANTE / Autorizado / documento: 30123456\nPágina 1 / AREA 1: SOLICITANTE / Autorizado / tipo: DNI\nPágina 1 / AREA 2: EXPEDIENTE / MARCA SOLICITADA: HORIZONTE DEL VALLE\nPágina 1 / AREA 2: EXPEDIENTE / Acta N°: 4567890\nPágina 1 / AREA 2: EXPEDIENTE / Fecha de presentación: 15/09/2026\nPágina 1 / AREA 2: EXPEDIENTE / Clase: 33\nPágina 1 / AREA 2: EXPEDIENTE / País al que va dirigido el Certificado: Chile\nPágina 1 / AREA 2: EXPEDIENTE / Firma y Aclaración del Autorizado: Mateo Fernández\nPágina 1 / AREA 2: EXPEDIENTE / Firma y Aclaración del Solicitante o su Representante Legal: Lucía Benítez",
+  "workflow_identity": {
+    "language": "es",
+    "id": 725
+  }
+}

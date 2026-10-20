@@ -1,0 +1,135 @@
+{
+  "Page 1": {
+    "A – IDENTIFICATION DU MEUBLÉ DE TOURISME": {
+      "NOM COMMERCIAL DU LOGEMENT (facultatif):": "Appartement Exemple",
+      "ADRESSE DU LOGEMENT:": "14 rue Exemple",
+      "CODE POSTAL / COMMUNE (exemple : 37000 Tours) :": "69003 Lyon",
+      "LIEU DIT OU BOITE POSTALE (exemple : Le Bouquet) :": "Sans objet",
+      "Résidence": {
+        "choices": [
+          "RÉSIDENCE PRINCIPALE",
+          "RÉSIDENCE SECONDAIRE"
+        ],
+        "value": [
+          "RÉSIDENCE SECONDAIRE"
+        ]
+      },
+      "Type": {
+        "choices": [
+          "MAISON INDIVIDUELLE",
+          "APPARTEMENT"
+        ],
+        "value": [
+          "APPARTEMENT"
+        ]
+      },
+      "CAPACITÉ D’ACCUEIL :": "4",
+      "NOMBRE DE PIÈCES COMPOSANT LE MEUBLÉ :": "3",
+      "ACCESSIBILITÉ AUX PERSONNES HANDICAPÉES :": {
+        "choices": [
+          "OUI",
+          "NON"
+        ],
+        "value": [
+          "OUI"
+        ]
+      }
+    }
+  },
+  "Page 2": {
+    "VALORISATION DU LOGEMENT :": {
+      "LE LOGEMENT EST CLASSÉ :": {
+        "choices": [
+          "OUI",
+          "NON"
+        ],
+        "value": [
+          "OUI"
+        ]
+      },
+      "SI OUI, NOMBRE D’ETOILES (1 à 5) :": "3",
+      "DATE DU CLASSEMENT (jj/mm/aaaa) :": "10/06/2025",
+      "LE LOGEMENT EST LABELLISÉ (exemple : Gite de France, Clévacances...) :": {
+        "choices": [
+          "OUI",
+          "NON"
+        ],
+        "value": [
+          "NON"
+        ]
+      },
+      "SI OUI, NOM DU LABEL :": "Sans objet : aucun label",
+      "MISE A DISPOSITION PREVISIONNELLE :": {
+        "choices": [
+          "PERIODIQUE",
+          "TOUTE L’ANNÉE"
+        ],
+        "value": [
+          "TOUTE L’ANNÉE"
+        ]
+      },
+      "QUELLES SONT LES PÉRIODES PRÉVISIONNELLES DE LOCATION ?": "Du 1er janvier au 31 décembre"
+    },
+    "B - IDENTIFICATION DU DÉCLARANT": {
+      "Statut": {
+        "choices": [
+          "PARTICULIER",
+          "PROFESSIONNEL"
+        ],
+        "value": [
+          "PROFESSIONNEL"
+        ]
+      },
+      "NOM:": "MARTIN",
+      "PRÉNOM:": "Camille",
+      "ADRESSE ÉLECTRONIQUE:": "location@example.org",
+      "N°TÉLÉPHONE:": "0100000735"
+    }
+  },
+  "Page 3": {
+    "SI VOUS ETES UN PROFESSIONNEL:": {
+      "RAISON SOCIALE:": "Location Exemple EI",
+      "N° SIRET/SIREN:": "00000073500017",
+      "L’ADRESSE DE LA PERSONNE DÉCLARANTE EST DIFFERENTE DE L’ADRESSE DU LOGEMENT:": {
+        "choices": [
+          "OUI",
+          "NON"
+        ],
+        "value": [
+          "OUI"
+        ]
+      },
+      "PAYS:": "France",
+      "ADRESSE:": "12 rue Exemple",
+      "CODE POSTAL / COMMUNE (exemple : 37000 Tours) :": "69003 Lyon",
+      "LIEU DIT OU BOITE POSTALE (exemple : Le Bouquet) :": "Sans objet",
+      "ACCEPTEZ-VOUS LA PUBLICATION DE VOTRE HÉBERGEMENT DE TOURISME SUR LE SITE DE LA MAIRIE ET DE L’OFFICE DE TOURISME ?": {
+        "choices": [
+          "OUI",
+          "NON"
+        ],
+        "value": [
+          "OUI"
+        ]
+      },
+      "FAIT A": "Lyon",
+      "LE": "19/10/2026",
+      "SIGNATURE": "Camille MARTIN"
+    }
+  },
+  "Page 4": {
+    "Récépissé de déclaration en mairie de location de meublé de tourisme": {
+      "MAIRIE de": "Lyon",
+      "accueil maximal de": "4",
+      "ADRESSE DU LOGEMENT:": "14 rue Exemple",
+      "CODE POSTAL / COMMUNE (exemple : 37000 Tours) :": "69003 Lyon",
+      "LIEU DIT OU BOITE POSTALE (exemple : Le Bouquet) :": "Sans objet",
+      "NOM, PRENOM DU DECLARANT:": "Camille MARTIN",
+      "ADRESSE ÉLECTRONIQUE:": "location@example.org",
+      "ADRESSE DU DECLARANT:": "12 rue Exemple, 69003 Lyon",
+      "Fait à": "Lyon",
+      "le": "19/10/2026",
+      "Cachet de la mairie": "Mairie fictive de Lyon"
+    }
+  }
+}

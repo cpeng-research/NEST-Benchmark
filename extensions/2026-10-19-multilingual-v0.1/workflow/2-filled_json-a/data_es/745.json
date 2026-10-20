@@ -1,0 +1,105 @@
+{
+  "Página 1": {
+    "SOLICITUD DE ENSAYO - LABORATORIO DE COMPATIBILIDAD ELECTROMAGNÉTICA (LECEM)": {
+      "FECHA": "19/10/2026",
+      "ORDEN DE TRABAJO No": "LECEM-26-014"
+    },
+    "DATOS DEL CLIENTE /SOLICITANTE": {
+      "NOMBRE O * RAZÓN SOCIAL": "Equipos Horizonte SRL",
+      "CONTACTO *": "Elena Torres",
+      "CORREO ELECTRÓNICO*": "ensayos@equiposhorizonte.example",
+      "TELÉFONOS*": "11 5555 0140",
+      "DOMICILIO *": "Av. San Martín 1200, Buenos Aires"
+    },
+    "RELATIVO AL ENSAYO / EQUIPO A ENSAYAR": {
+      "ESPECIFICACIÓN TÉCNICA DEL ENSAYO DE COMPTIBILIDAD ELECTROMAGNÉTICA SOLICITADA": {
+        "choices": [
+          "EMISIÓN ELECTROMAGNÉTICA",
+          "INMUNIDAD ELECTROMAGNÉTICA",
+          "NIVEL DE CAMPO ELECTROMAG.",
+          "DE CONTATO FISICO",
+          "EN AIRE",
+          "IEC 61.000 4-4",
+          "IEC 61000 4-5",
+          "IEC 61.000 4-6"
+        ],
+        "value": [
+          "EMISIÓN ELECTROMAGNÉTICA",
+          "INMUNIDAD ELECTROMAGNÉTICA",
+          "DE CONTATO FISICO",
+          "EN AIRE"
+        ]
+      },
+      "OTROS": "No se solicitan otros ensayos",
+      "NORMA TÉCNICA O ESPECIFICACIÓN * APLICABLE PROPIA DEL EQUIPO A ENSAYAR": "IEC 61326-1, equipo industrial de medición",
+      "DESCRIPCIÓN": "Registrador industrial de temperatura HZ-T20",
+      "ALIMENTACIÓN": {
+        "choices": [
+          "220",
+          "110"
+        ],
+        "value": [
+          "220"
+        ]
+      },
+      "CC": "No requiere alimentación en corriente continua",
+      "BAT": "No utiliza batería",
+      "PESO": "2,5",
+      "Alto": "20",
+      "Ancho": "30",
+      "Prof": "15",
+      "CANTIDAD DE EQUIPOS *": "1",
+      "DOCUMENTACIÓN * ENTREGADA CON EL EQUIPO": "Manual de operación, especificación técnica y esquema de conexión",
+      "Equipos, cables y accesorios entregados": "Cable de red de 1,8 m y dos sensores de temperatura",
+      "NACIONALIDAD DEL EQUIPO": {
+        "choices": [
+          "ARGENTINO",
+          "IMPORTADO"
+        ],
+        "value": [
+          "ARGENTINO"
+        ]
+      },
+      "DOCUMENTACIÓN DE IMPORTACIÓN": "No corresponde: equipo de fabricación argentina",
+      "Observaciones y recomendaciones de seguridad del cliente": "Equipo íntegro, sin fallas conocidas; desconectar la alimentación antes de abrir la cubierta."
+    }
+  },
+  "Página 2": {
+    "OBSERVACIONES": {
+      "OBSERVACIONES": "Equipo recibido el 19/10/2026 en buen estado",
+      "PRESUPUESTO": "250000 pesos",
+      "ACEPTA *": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": [
+          "SI"
+        ]
+      },
+      "VALIDEZ DE LA OFERTA": "30 días",
+      "PLAZO DE ENTREGA DEL INFORME": "10 días hábiles",
+      "EL PLAZO DE ENTREGA INICIA A PARTIR DE": "Recepción del equipo y aceptación del presupuesto",
+      "REQUERIMIENTOS ESPECIALES": "El cliente aporta dos sensores y el programa de lectura. No requiere presencia permanente durante el ensayo.",
+      "OBSERVACIONES DE LECEM": "Coordinada entrega y prueba funcional inicial satisfactoria.",
+      "Firma/dato 32 / FIRMA DEL CLIENTE": "Elena Torres",
+      "Firma/dato 33 / ACLARACIÓN": "Elena Torres, responsable técnica",
+      "Firma/dato 34 / FECHA": "19/10/2026",
+      "Firma/dato 35 / FIRMA LECEM": "Responsable técnico LECEM, caso ficticio",
+      "Firma/dato 36 / ACLARACIÓN": "Responsable de ensayo del caso ficticio",
+      "Firma/dato 37 / FECHA": "20/10/2026"
+    }
+  },
+  "Página 3": {
+    "Preparó": {
+      "Preparó / G Vega": "Constancia de revisión ficticia para G Vega",
+      "Preparó / M Arias": "Constancia de revisión ficticia para M Arias",
+      "Revisó / A Lorenzo": "Constancia de revisión ficticia para A Lorenzo",
+      "Revisó / G Quesada": "Constancia de revisión ficticia para G Quesada",
+      "Intervino por Calidad / M Arias": "Constancia de revisión ficticia para M Arias",
+      "Aprobó / G Vega": "Constancia de revisión ficticia para G Vega",
+      "Fecha de Vigencia": "20/10/2026",
+      "Estado": "Vigente, ejemplo ficticio"
+    }
+  }
+}

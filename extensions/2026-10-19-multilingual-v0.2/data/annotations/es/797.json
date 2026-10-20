@@ -1,0 +1,1272 @@
+{
+  "id": "es-797",
+  "language": "es",
+  "title": "Solicitud de credencial de investigador de la Biblioteca Nacional",
+  "domain": "GovPublic",
+  "issuer": "Biblioteca Nacional Mariano Moreno",
+  "issuer_id": "biblioteca-nacional-mariano-moreno",
+  "template_family": "bn-public-researcher-access-credential",
+  "source_version": "Undated",
+  "source_date_evidence": {
+    "kind": "undated source",
+    "value": "Undated",
+    "note": "Edition transcribed from the source; retrieval date is not an issuance date."
+  },
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/bn-formulario-investigadores.pdf",
+  "landing_url": "https://www.argentina.gob.ar/node/40686",
+  "source_sha256": "b385cda26b0eb1442fd31b2cac484511fcd73a155db25e0d464dd71979048441",
+  "source_pages": 2,
+  "retrieved_at": "2026-10-19T08:56:32.627270+00:00",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "CC BY 4.0 under Argentina.gob.ar portal terms, intellectual-property section. National-portal download; no contrary reuse notice found in the form. Attribution: Biblioteca Nacional Mariano Moreno. Normalized semantic layout with synthetic completion; not an official completed submission.",
+  "columns": 2,
+  "synthetic_context": true,
+  "source_notice": "Source wording, complete option sets, repeated targets and administrative/signature areas retained. Values and all signatures are synthetic.",
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Investigador Nº:",
+      "path": [
+        "Página 1",
+        "Control",
+        "Investigador Nº:"
+      ],
+      "source_anchor": "Investigador Nº:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "INV-SINT-797"
+    },
+    {
+      "id": "f002",
+      "label": "Complete este formulario",
+      "path": [
+        "Página 1",
+        "Solicitud",
+        "Complete este formulario"
+      ],
+      "source_anchor": "Complete este formulario",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Solicitud de credencial de Investigador"
+      ],
+      "options": [
+        "Solicitud de credencial de Investigador",
+        "Renovación de credencial de investigador",
+        "Solicitud de credencial de Investigador Junior"
+      ],
+      "context_evidence": "Solicitud / Complete este formulario: Solicitud de credencial de Investigador."
+    },
+    {
+      "id": "f003",
+      "label": "Apellido/s:",
+      "path": [
+        "Página 1",
+        "A / Datos personales",
+        "Apellido/s:"
+      ],
+      "source_anchor": "Apellido/s:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "García"
+    },
+    {
+      "id": "f004",
+      "label": "Nombre/s:",
+      "path": [
+        "Página 1",
+        "A / Datos personales",
+        "Nombre/s:"
+      ],
+      "source_anchor": "Nombre/s:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Elena"
+    },
+    {
+      "id": "f005",
+      "label": "Documento tipo:",
+      "path": [
+        "Página 1",
+        "A / Datos personales",
+        "Documento tipo:"
+      ],
+      "source_anchor": "Documento tipo:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "DNI"
+    },
+    {
+      "id": "f006",
+      "label": "N°",
+      "path": [
+        "Página 1",
+        "A / Datos personales",
+        "N°"
+      ],
+      "source_anchor": "N°",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "DNI sintético 34.797.710"
+    },
+    {
+      "id": "f007",
+      "label": "Fecha de nacimiento:",
+      "path": [
+        "Página 1",
+        "A / Datos personales",
+        "Fecha de nacimiento:"
+      ],
+      "source_anchor": "Fecha de nacimiento:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "09/09/1989"
+    },
+    {
+      "id": "f008",
+      "label": "Nacionalidad:",
+      "path": [
+        "Página 1",
+        "A / Datos personales",
+        "Nacionalidad:"
+      ],
+      "source_anchor": "Nacionalidad:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Argentina"
+    },
+    {
+      "id": "f009",
+      "label": "Domicilio particular permanente:",
+      "path": [
+        "Página 1",
+        "A / Datos personales",
+        "Domicilio particular permanente:"
+      ],
+      "source_anchor": "Domicilio particular permanente:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Calle Biblioteca 797, La Plata"
+    },
+    {
+      "id": "f010",
+      "label": "C.P:",
+      "path": [
+        "Página 1",
+        "A / Datos personales",
+        "C.P:"
+      ],
+      "source_anchor": "C.P:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1900"
+    },
+    {
+      "id": "f011",
+      "label": "Localidad:",
+      "path": [
+        "Página 1",
+        "A / Datos personales",
+        "Localidad:"
+      ],
+      "source_anchor": "Localidad:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "La Plata"
+    },
+    {
+      "id": "f012",
+      "label": "Provincia:",
+      "path": [
+        "Página 1",
+        "A / Datos personales",
+        "Provincia:"
+      ],
+      "source_anchor": "Provincia:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Buenos Aires"
+    },
+    {
+      "id": "f013",
+      "label": "País:",
+      "path": [
+        "Página 1",
+        "A / Datos personales",
+        "País:"
+      ],
+      "source_anchor": "País:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Argentina"
+    },
+    {
+      "id": "f014",
+      "label": "Tel/Fax:",
+      "path": [
+        "Página 1",
+        "A / Datos personales",
+        "Tel/Fax:"
+      ],
+      "source_anchor": "Tel/Fax:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0221-555-7971"
+    },
+    {
+      "id": "f015",
+      "label": "Correo electrónico:",
+      "path": [
+        "Página 1",
+        "A / Datos personales",
+        "Correo electrónico:"
+      ],
+      "source_anchor": "Correo electrónico:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "elena.garcia@example.invalid"
+    },
+    {
+      "id": "f016",
+      "label": "Domicilio temporario en la Ciudad Autónoma de Buenos Aires de quienes residen fuera de ella:",
+      "path": [
+        "Página 1",
+        "A / Datos personales",
+        "Domicilio temporario en la Ciudad Autónoma de Buenos Aires de quienes residen fuera de ella:"
+      ],
+      "source_anchor": "Domicilio temporario en la Ciudad Autónoma de Buenos Aires de quienes residen fuera de ella:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Calle Consulta 54, CABA"
+    },
+    {
+      "id": "f017",
+      "label": "C.P.:",
+      "path": [
+        "Página 1",
+        "A / Datos personales",
+        "C.P.:"
+      ],
+      "source_anchor": "C.P.:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1020"
+    },
+    {
+      "id": "f018",
+      "label": "Tel./fax:",
+      "path": [
+        "Página 1",
+        "A / Datos personales",
+        "Tel./fax:"
+      ],
+      "source_anchor": "Tel./fax:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "011-555-7972"
+    },
+    {
+      "id": "f019",
+      "label": "Profesión:",
+      "path": [
+        "Página 1",
+        "A / Datos personales",
+        "Profesión:"
+      ],
+      "source_anchor": "Profesión:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Historiadora"
+    },
+    {
+      "id": "f020",
+      "label": "Ocupación actual:",
+      "path": [
+        "Página 1",
+        "A / Datos personales",
+        "Ocupación actual:"
+      ],
+      "source_anchor": "Ocupación actual:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Investigadora del Instituto Sintético del Sur"
+    },
+    {
+      "id": "f021",
+      "label": "Tilde la/s disciplina/s que investigará en la Biblioteca",
+      "path": [
+        "Página 1",
+        "B / Disciplinas",
+        "Tilde la/s disciplina/s que investigará en la Biblioteca"
+      ],
+      "source_anchor": "Tilde la/s disciplina/s que investigará en la Biblioteca",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "Historia",
+        "Sociología"
+      ],
+      "options": [
+        "Administración de Empresas",
+        "Administración Pública",
+        "Agronomía",
+        "Antropología",
+        "Arqueología",
+        "Arquitectura",
+        "Arte",
+        "Astronomía",
+        "Biografía",
+        "Biología",
+        "Ciencias de la Comunicación/Información",
+        "Ciencias Médicas",
+        "Ciencias Políticas",
+        "Comercialización",
+        "Deportes",
+        "Derecho",
+        "Economía",
+        "Educación",
+        "Electrónica",
+        "Ingeniería",
+        "Filosofía",
+        "Física",
+        "Genealogía/Heráldica",
+        "Geografía",
+        "Historia",
+        "Informática",
+        "Lingüística",
+        "Literatura",
+        "Matemática",
+        "Música",
+        "Periodismo",
+        "Psicología",
+        "Química",
+        "Religión",
+        "Sociología",
+        "Tecnología",
+        "Otras:"
+      ],
+      "context_evidence": "B / Disciplinas / Tilde la/s disciplina/s que investigará en la Biblioteca: Historia, Sociología."
+    },
+    {
+      "id": "f022",
+      "label": "Otras:",
+      "path": [
+        "Página 1",
+        "B / Detalle",
+        "Otras:"
+      ],
+      "source_anchor": "Otras:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No se declara otra disciplina: historia y sociología cubren el proyecto."
+    },
+    {
+      "id": "f023",
+      "label": "Tilde el tipo de investigación que realiza",
+      "path": [
+        "Página 1",
+        "C / Investigación",
+        "Tilde el tipo de investigación que realiza"
+      ],
+      "source_anchor": "Tilde el tipo de investigación que realiza",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "Investigación histórica"
+      ],
+      "options": [
+        "Edición de texto, video",
+        "Escritura de libro",
+        "Investigación científico-técnica",
+        "Investigación histórica",
+        "Programa Nuevos Investigadores",
+        "Investigación literaria",
+        "Investigación periodística",
+        "Tesis de maestría o doctorado",
+        "Otro tipo de investigación:"
+      ],
+      "context_evidence": "C / Investigación / Tilde el tipo de investigación que realiza: Investigación histórica."
+    },
+    {
+      "id": "f024",
+      "label": "Otro tipo de investigación:",
+      "path": [
+        "Página 1",
+        "C / Detalle",
+        "Otro tipo de investigación:"
+      ],
+      "source_anchor": "Otro tipo de investigación:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No se declara otro tipo de investigación."
+    },
+    {
+      "id": "f025",
+      "label": "Nombre del proyecto de investigación:",
+      "path": [
+        "Página 1",
+        "D / Proyecto",
+        "Nombre del proyecto de investigación:"
+      ],
+      "source_anchor": "Nombre del proyecto de investigación:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Redes de lectura pública rioplatense, 1900-1930"
+    },
+    {
+      "id": "f026",
+      "label": "Institución del proyecto de investigación:",
+      "path": [
+        "Página 1",
+        "D / Proyecto",
+        "Institución del proyecto de investigación:"
+      ],
+      "source_anchor": "Institución del proyecto de investigación:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Instituto Sintético del Sur"
+    },
+    {
+      "id": "f027",
+      "label": "Director de la investigación:",
+      "path": [
+        "Página 1",
+        "D / Proyecto",
+        "Director de la investigación:"
+      ],
+      "source_anchor": "Director de la investigación:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Joaquín Herrera"
+    },
+    {
+      "id": "f028",
+      "label": "Tel./Fax del director",
+      "path": [
+        "Página 1",
+        "D / Proyecto",
+        "Tel./Fax del director"
+      ],
+      "source_anchor": "Tel./Fax del director",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "011-555-7973"
+    },
+    {
+      "id": "f029",
+      "label": "Correo electrónico:",
+      "path": [
+        "Página 1",
+        "D / Proyecto",
+        "Correo electrónico:"
+      ],
+      "source_anchor": "Correo electrónico:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "joaquin.herrera@example.invalid"
+    },
+    {
+      "id": "f030",
+      "label": "Resumen del proyecto:",
+      "path": [
+        "Página 1",
+        "D / Proyecto",
+        "Resumen del proyecto:"
+      ],
+      "source_anchor": "Resumen del proyecto:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Estudio sintético de catálogos, prensa y memorias institucionales para describir la circulación de bibliotecas populares entre 1900 y 1930."
+    },
+    {
+      "id": "f031",
+      "label": "Tilde el tipo de organización a la que pertenece el proyecto de investigación",
+      "path": [
+        "Página 2",
+        "E / Organización",
+        "Tilde el tipo de organización a la que pertenece el proyecto de investigación"
+      ],
+      "source_anchor": "Tilde el tipo de organización a la que pertenece el proyecto de investigación",
+      "source_page": 2,
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "Instituciones académicas y/o universitarias"
+      ],
+      "options": [
+        "Archivos, bibliotecas, museos y afines",
+        "Entidades bancarias y/o financieras",
+        "Entidades gubernamentales",
+        "Instituciones académicas y/o universitarias",
+        "Escuela Secundaria / Media",
+        "Instituciones artísticas y/o culturales",
+        "Medios de comunicación",
+        "Organizaciones empresariales",
+        "Organizaciones religiosas",
+        "Otro tipo:"
+      ],
+      "context_evidence": "E / Organización / Tilde el tipo de organización a la que pertenece el proyecto de investigación: Instituciones académicas y/o universitarias."
+    },
+    {
+      "id": "f032",
+      "label": "Otro tipo:",
+      "path": [
+        "Página 2",
+        "E / Detalle",
+        "Otro tipo:"
+      ],
+      "source_anchor": "Otro tipo:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No se declara otra organización distinta del instituto académico."
+    },
+    {
+      "id": "f033",
+      "label": "Nombre de la organización:",
+      "path": [
+        "Página 2",
+        "F / Organización",
+        "Nombre de la organización:"
+      ],
+      "source_anchor": "Nombre de la organización:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Instituto Sintético del Sur"
+    },
+    {
+      "id": "f034",
+      "label": "Domicilio:",
+      "path": [
+        "Página 2",
+        "F / Organización",
+        "Domicilio:"
+      ],
+      "source_anchor": "Domicilio:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Calle Estudios 75"
+    },
+    {
+      "id": "f035",
+      "label": "C.P.:",
+      "path": [
+        "Página 2",
+        "F / Organización",
+        "C.P.:"
+      ],
+      "source_anchor": "C.P.:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "1900"
+    },
+    {
+      "id": "f036",
+      "label": "Localidad:",
+      "path": [
+        "Página 2",
+        "F / Organización",
+        "Localidad:"
+      ],
+      "source_anchor": "Localidad:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "La Plata"
+    },
+    {
+      "id": "f037",
+      "label": "Provincia:",
+      "path": [
+        "Página 2",
+        "F / Organización",
+        "Provincia:"
+      ],
+      "source_anchor": "Provincia:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Buenos Aires"
+    },
+    {
+      "id": "f038",
+      "label": "País:",
+      "path": [
+        "Página 2",
+        "F / Organización",
+        "País:"
+      ],
+      "source_anchor": "País:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Argentina"
+    },
+    {
+      "id": "f039",
+      "label": "Tel/fax:",
+      "path": [
+        "Página 2",
+        "F / Organización",
+        "Tel/fax:"
+      ],
+      "source_anchor": "Tel/fax:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "0221-555-7975"
+    },
+    {
+      "id": "f040",
+      "label": "Correo electrónico",
+      "path": [
+        "Página 2",
+        "F / Organización",
+        "Correo electrónico"
+      ],
+      "source_anchor": "Correo electrónico",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "instituto.sur@example.invalid"
+    },
+    {
+      "id": "f041",
+      "label": "Nombre del proyecto:",
+      "path": [
+        "Página 2",
+        "G / Rama independiente inactiva",
+        "Nombre del proyecto:"
+      ],
+      "source_anchor": "Nombre del proyecto:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No corresponde proyecto independiente: investigación institucional declarada en D."
+    },
+    {
+      "id": "f042",
+      "label": "Nombre y apellido del aval:",
+      "path": [
+        "Página 2",
+        "G / Rama independiente inactiva",
+        "Nombre y apellido del aval:"
+      ],
+      "source_anchor": "Nombre y apellido del aval:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No se presenta aval personal para investigación independiente."
+    },
+    {
+      "id": "f043",
+      "label": "Correo electrónico:",
+      "path": [
+        "Página 2",
+        "G / Rama independiente inactiva",
+        "Correo electrónico:"
+      ],
+      "source_anchor": "Correo electrónico:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No existe correo de aval en esta rama inactiva."
+    },
+    {
+      "id": "f044",
+      "label": "Tel/fax del aval:",
+      "path": [
+        "Página 2",
+        "G / Rama independiente inactiva",
+        "Tel/fax del aval:"
+      ],
+      "source_anchor": "Tel/fax del aval:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No existe teléfono de aval particular."
+    },
+    {
+      "id": "f045",
+      "label": "Tilde el tipo de material documental a utilizar para su investigación",
+      "path": [
+        "Página 2",
+        "H / Materiales",
+        "Tilde el tipo de material documental a utilizar para su investigación"
+      ],
+      "source_anchor": "Tilde el tipo de material documental a utilizar para su investigación",
+      "source_page": 2,
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "Libros",
+        "Publicaciones periódicas antiguas",
+        "Fondos de archivos"
+      ],
+      "options": [
+        "Libros",
+        "Publicaciones periódicas antiguas",
+        "Mapas, fotos, partituras, videos, películas, etc.",
+        "Materiales reservados de la Sala de Tesoro",
+        "Materiales para no videntes",
+        "Fondos de archivos"
+      ],
+      "context_evidence": "H / Materiales / Tilde el tipo de material documental a utilizar para su investigación: Libros, Publicaciones periódicas antiguas, Fondos de archivos."
+    },
+    {
+      "id": "f046",
+      "label": "Firma del interesado:",
+      "path": [
+        "Página 2",
+        "Declaración",
+        "Firma del interesado:"
+      ],
+      "source_anchor": "Firma del interesado:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de Elena García"
+    },
+    {
+      "id": "f047",
+      "label": "Aclaración:",
+      "path": [
+        "Página 2",
+        "Declaración",
+        "Aclaración:"
+      ],
+      "source_anchor": "Aclaración:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Elena García"
+    },
+    {
+      "id": "f048",
+      "label": "Ciudad Autónoma de Buenos Aires,",
+      "path": [
+        "Página 2",
+        "Declaración / fecha",
+        "Ciudad Autónoma de Buenos Aires,"
+      ],
+      "source_anchor": "Ciudad Autónoma de Buenos Aires,",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "19/10/2026"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Solicitud de credencial de investigador de la Biblioteca Nacional / Página 1",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "ANEXO I",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Control",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Investigador Nº:",
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Solicitud",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Complete este formulario",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "A / Datos personales",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Apellido/s:",
+        "field": "f003",
+        "source_page": 1
+      },
+      {
+        "label": "Nombre/s:",
+        "field": "f004",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Documento tipo:",
+        "field": "f005",
+        "source_page": 1
+      },
+      {
+        "label": "N°",
+        "field": "f006",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fecha de nacimiento:",
+        "field": "f007",
+        "source_page": 1
+      },
+      {
+        "label": "Nacionalidad:",
+        "field": "f008",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Domicilio particular permanente:",
+        "field": "f009",
+        "source_page": 1
+      },
+      {
+        "label": "C.P:",
+        "field": "f010",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Localidad:",
+        "field": "f011",
+        "source_page": 1
+      },
+      {
+        "label": "Provincia:",
+        "field": "f012",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "País:",
+        "field": "f013",
+        "source_page": 1
+      },
+      {
+        "label": "Tel/Fax:",
+        "field": "f014",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Correo electrónico:",
+        "field": "f015",
+        "source_page": 1
+      },
+      {
+        "label": "Domicilio temporario en la Ciudad Autónoma de Buenos Aires de quienes residen fuera de ella:",
+        "field": "f016",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "C.P.:",
+        "field": "f017",
+        "source_page": 1
+      },
+      {
+        "label": "Tel./fax:",
+        "field": "f018",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Profesión:",
+        "field": "f019",
+        "source_page": 1
+      },
+      {
+        "label": "Ocupación actual:",
+        "field": "f020",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "B / Disciplinas",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Tilde la/s disciplina/s que investigará en la Biblioteca",
+        "field": "f021",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "B / Detalle",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Otras:",
+        "field": "f022",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "C / Investigación",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Tilde el tipo de investigación que realiza",
+        "field": "f023",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "C / Detalle",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Otro tipo de investigación:",
+        "field": "f024",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "D / Proyecto",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nombre del proyecto de investigación:",
+        "field": "f025",
+        "source_page": 1
+      },
+      {
+        "label": "Institución del proyecto de investigación:",
+        "field": "f026",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Director de la investigación:",
+        "field": "f027",
+        "source_page": 1
+      },
+      {
+        "label": "Tel./Fax del director",
+        "field": "f028",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Correo electrónico:",
+        "field": "f029",
+        "source_page": 1
+      },
+      {
+        "label": "Resumen del proyecto:",
+        "field": "f030",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Solicitud de credencial de investigador de la Biblioteca Nacional / Página 2",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "E / Organización",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Tilde el tipo de organización a la que pertenece el proyecto de investigación",
+        "field": "f031",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "E / Detalle",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Otro tipo:",
+        "field": "f032",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "F / Organización",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Nombre de la organización:",
+        "field": "f033",
+        "source_page": 2
+      },
+      {
+        "label": "Domicilio:",
+        "field": "f034",
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "C.P.:",
+        "field": "f035",
+        "source_page": 2
+      },
+      {
+        "label": "Localidad:",
+        "field": "f036",
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Provincia:",
+        "field": "f037",
+        "source_page": 2
+      },
+      {
+        "label": "País:",
+        "field": "f038",
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Tel/fax:",
+        "field": "f039",
+        "source_page": 2
+      },
+      {
+        "label": "Correo electrónico",
+        "field": "f040",
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "G. Complete únicamente si efectuará la investigación en carácter particular o independiente.",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "G / Rama independiente inactiva",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Nombre del proyecto:",
+        "field": "f041",
+        "source_page": 2
+      },
+      {
+        "label": "Nombre y apellido del aval:",
+        "field": "f042",
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Correo electrónico:",
+        "field": "f043",
+        "source_page": 2
+      },
+      {
+        "label": "Tel/fax del aval:",
+        "field": "f044",
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "H / Materiales",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Tilde el tipo de material documental a utilizar para su investigación",
+        "field": "f045",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Cualquier modificación de la información suministrada deberá ser trasmitida a la Oficina de Acreditación de Investigadores para su actualización",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "DECLARACIÓN JURADA Declaro por la presente haber leído el “Reglamento para Investigadores” y acepto cumplir con todas las normas sobre el acceso de los investigadores a las salas y sobre el uso de las colecciones de la Biblioteca Nacional.",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Declaración",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Firma del interesado:",
+        "field": "f046",
+        "source_page": 2
+      },
+      {
+        "label": "Aclaración:",
+        "field": "f047",
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Declaración / fecha",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Ciudad Autónoma de Buenos Aires,",
+        "field": "f048",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Requisitos para la obtención de la Credencial de Investigador de la Biblioteca Nacional a) Formulario completo (Véase Anexo I del presente Reglamento). b) Fotocopia de las tres primeras páginas del Documento de Identidad: DNI, LC, LE, Cédula de Identidad o Pasaporte (vigentes). c) Dos (2) fotos tipo carnet. d) Currículum vitae. e) Nota explicando proyecto de investigación.",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Requisitos para la obtención de la Credencial de Investigador Junior de la Biblioteca Nacional a) Formulario completo (Véase Anexo I del presente Reglamento). b) Fotocopia de las tres primeras páginas del Documento de Identidad: DNI, Cédula de Identidad o Pasaporte (vigentes). c) Dos (2) fotos tipo carnet. d) Constancia de inscripción al Programa Nuevos Investigadores",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Requisitos para la renovación de la Credencial de Investigador a) Nota dirigida al Director de la Biblioteca Nacional solicitando la renovación de la credencial e informando la continuidad de las investigaciones anteriores o su finalización y declarando su nuevo/s tema/s de investigación. b) Formulario Anexo I completo con la actualización de sus datos (accesible por vía Web). c) Fotocopias de las tres primeras páginas del Documento de Identidad vigente. d) Una foto tipo carnet.",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Presentar toda la documentación requerida en un sobre cerrado dirigido al Director de la Biblioteca Nacional, debiendo entregarse en la Oficina de Acreditación de Investigadores, en el 6° piso, o remitirse por correo postal, o por correo electrónico: investigadores@bn.gov.ar",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "APROBADA LA SOLICITUD, LAS CREDENCIALES SE ENTREGARÁN DENTRO DE LOS TRES (3) DÍAS HÁBILES, EN EL 6TO. PISO, EN EL HORARIO DE 10 A 20 HS., DE LUNES A VIERNES",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Biblioteca Nacional Mariano Moreno | Agüero 2502 | C.P. 1425 | CABA, República Argentina",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Tel.: (011) 4808-6000 * (011) 4808-6085/87",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ]
+  ],
+  "context": "ESCENARIO COMPLETAMENTE SINTÉTICO. No identifica personas, empresas, bienes ni actuaciones reales. Las firmas y los asientos administrativos son representaciones textuales ficticias, sin validez oficial.\nLas menciones de no aplicación son estados explícitos del escenario, no datos deducidos del formulario.\nPágina 1 / Control / Investigador Nº:: INV-SINT-797\nPágina 1 / Solicitud / Complete este formulario: Solicitud / Complete este formulario: Solicitud de credencial de Investigador.\nPágina 1 / A / Datos personales / Apellido/s:: García\nPágina 1 / A / Datos personales / Nombre/s:: Elena\nPágina 1 / A / Datos personales / Documento tipo:: DNI\nPágina 1 / A / Datos personales / N°: DNI sintético 34.797.710\nPágina 1 / A / Datos personales / Fecha de nacimiento:: 09/09/1989\nPágina 1 / A / Datos personales / Nacionalidad:: Argentina\nPágina 1 / A / Datos personales / Domicilio particular permanente:: Calle Biblioteca 797, La Plata\nPágina 1 / A / Datos personales / C.P:: 1900\nPágina 1 / A / Datos personales / Localidad:: La Plata\nPágina 1 / A / Datos personales / Provincia:: Buenos Aires\nPágina 1 / A / Datos personales / País:: Argentina\nPágina 1 / A / Datos personales / Tel/Fax:: 0221-555-7971\nPágina 1 / A / Datos personales / Correo electrónico:: elena.garcia@example.invalid\nPágina 1 / A / Datos personales / Domicilio temporario en la Ciudad Autónoma de Buenos Aires de quienes residen fuera de ella:: Calle Consulta 54, CABA\nPágina 1 / A / Datos personales / C.P.:: 1020\nPágina 1 / A / Datos personales / Tel./fax:: 011-555-7972\nPágina 1 / A / Datos personales / Profesión:: Historiadora\nPágina 1 / A / Datos personales / Ocupación actual:: Investigadora del Instituto Sintético del Sur\nPágina 1 / B / Disciplinas / Tilde la/s disciplina/s que investigará en la Biblioteca: B / Disciplinas / Tilde la/s disciplina/s que investigará en la Biblioteca: Historia, Sociología.\nPágina 1 / B / Detalle / Otras:: No se declara otra disciplina: historia y sociología cubren el proyecto.\nPágina 1 / C / Investigación / Tilde el tipo de investigación que realiza: C / Investigación / Tilde el tipo de investigación que realiza: Investigación histórica.\nPágina 1 / C / Detalle / Otro tipo de investigación:: No se declara otro tipo de investigación.\nPágina 1 / D / Proyecto / Nombre del proyecto de investigación:: Redes de lectura pública rioplatense, 1900-1930\nPágina 1 / D / Proyecto / Institución del proyecto de investigación:: Instituto Sintético del Sur\nPágina 1 / D / Proyecto / Director de la investigación:: Joaquín Herrera\nPágina 1 / D / Proyecto / Tel./Fax del director: 011-555-7973\nPágina 1 / D / Proyecto / Correo electrónico:: joaquin.herrera@example.invalid\nPágina 1 / D / Proyecto / Resumen del proyecto:: Estudio sintético de catálogos, prensa y memorias institucionales para describir la circulación de bibliotecas populares entre 1900 y 1930.\nPágina 2 / E / Organización / Tilde el tipo de organización a la que pertenece el proyecto de investigación: E / Organización / Tilde el tipo de organización a la que pertenece el proyecto de investigación: Instituciones académicas y/o universitarias.\nPágina 2 / E / Detalle / Otro tipo:: No se declara otra organización distinta del instituto académico.\nPágina 2 / F / Organización / Nombre de la organización:: Instituto Sintético del Sur\nPágina 2 / F / Organización / Domicilio:: Calle Estudios 75\nPágina 2 / F / Organización / C.P.:: 1900\nPágina 2 / F / Organización / Localidad:: La Plata\nPágina 2 / F / Organización / Provincia:: Buenos Aires\nPágina 2 / F / Organización / País:: Argentina\nPágina 2 / F / Organización / Tel/fax:: 0221-555-7975\nPágina 2 / F / Organización / Correo electrónico: instituto.sur@example.invalid\nPágina 2 / G / Rama independiente inactiva / Nombre del proyecto:: No corresponde proyecto independiente: investigación institucional declarada en D.\nPágina 2 / G / Rama independiente inactiva / Nombre y apellido del aval:: No se presenta aval personal para investigación independiente.\nPágina 2 / G / Rama independiente inactiva / Correo electrónico:: No existe correo de aval en esta rama inactiva.\nPágina 2 / G / Rama independiente inactiva / Tel/fax del aval:: No existe teléfono de aval particular.\nPágina 2 / H / Materiales / Tilde el tipo de material documental a utilizar para su investigación: H / Materiales / Tilde el tipo de material documental a utilizar para su investigación: Libros, Publicaciones periódicas antiguas, Fondos de archivos.\nPágina 2 / Declaración / Firma del interesado:: Firma sintética de Elena García\nPágina 2 / Declaración / Aclaración:: Elena García\nPágina 2 / Declaración / fecha / Ciudad Autónoma de Buenos Aires,: 19/10/2026",
+  "workflow_identity": {
+    "language": "es",
+    "id": 797
+  }
+}

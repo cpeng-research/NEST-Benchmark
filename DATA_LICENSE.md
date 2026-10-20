@@ -28,7 +28,7 @@ the original 828. Original third-party PDF, image, and Office files are not
 benchmark inputs and are not distributed.
 
 Versioned batches under [`extensions/`](extensions/README.md) extend the combined
-text-task inventory to 1,300 templates. Each batch includes source attribution,
+text-task inventory to 1,500 templates. Each batch includes source attribution,
 reuse terms, and collection records alongside its task artifacts. Applicable
 source terms continue to govern retained third-party elements; the inventory
 total does not imply a single license for every source form.

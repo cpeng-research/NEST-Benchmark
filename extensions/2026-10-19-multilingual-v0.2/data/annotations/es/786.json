@@ -1,0 +1,325 @@
+{
+  "id": "es-786",
+  "language": "es",
+  "title": "Autorización a consignatarios para emisión de DT-e y cierre de movimientos en SIGSA",
+  "domain": "Business",
+  "issuer": "SENASA",
+  "issuer_id": "senasa",
+  "template_family": "senasa-sigsa-consignor-delegation",
+  "source_version": "Undated",
+  "source_date_evidence": {
+    "kind": "undated source",
+    "value": "Undated",
+    "note": "Edition transcribed from the source; retrieval date is not an issuance date."
+  },
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/formulario_autorizacion_para_consignatario.pdf",
+  "landing_url": "https://www.argentina.gob.ar/node/150794",
+  "source_sha256": "0e6c5f43e3be366c1c9cd72273d53eaba714c8afb46856d3adc05a38c6c46eba",
+  "source_pages": 1,
+  "retrieved_at": "2026-10-19T08:56:34.930695+00:00",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "CC BY 4.0 under Argentina.gob.ar portal terms, intellectual-property section. National-portal download; no contrary reuse notice found in the form. Attribution: SENASA. Normalized semantic layout with synthetic completion; not an official completed submission.",
+  "columns": 2,
+  "synthetic_context": true,
+  "source_notice": "Source wording, complete option sets, repeated targets and administrative/signature areas retained. Values and all signatures are synthetic.",
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Fecha",
+      "path": [
+        "Página 1",
+        "Solicitud",
+        "Fecha"
+      ],
+      "source_anchor": "Fecha",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "12/10/2026"
+    },
+    {
+      "id": "f002",
+      "label": "Oficina Local",
+      "path": [
+        "Página 1",
+        "Titular RENSPA",
+        "Oficina Local"
+      ],
+      "source_anchor": "Oficina Local",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Río Cuarto"
+    },
+    {
+      "id": "f003",
+      "label": "N° de RENSPA",
+      "path": [
+        "Página 1",
+        "Titular RENSPA",
+        "N° de RENSPA"
+      ],
+      "source_anchor": "N° de RENSPA",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "14.056.0.00123/00"
+    },
+    {
+      "id": "f004",
+      "label": "Titular",
+      "path": [
+        "Página 1",
+        "Titular RENSPA",
+        "Titular"
+      ],
+      "source_anchor": "Titular",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Establecimiento Sintético Las Acacias SA"
+    },
+    {
+      "id": "f005",
+      "label": "CUIT",
+      "path": [
+        "Página 1",
+        "Titular RENSPA",
+        "CUIT"
+      ],
+      "source_anchor": "CUIT",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "30-71234561-8 (sintético)"
+    },
+    {
+      "id": "f006",
+      "label": "Firma Consignataria",
+      "path": [
+        "Página 1",
+        "Consignataria",
+        "Firma Consignataria"
+      ],
+      "source_anchor": "Firma Consignataria",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Consignataria Sintética del Centro SRL"
+    },
+    {
+      "id": "f007",
+      "label": "CUIT",
+      "path": [
+        "Página 1",
+        "Consignataria",
+        "CUIT"
+      ],
+      "source_anchor": "CUIT",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "30-72345672-9 (sintético)"
+    },
+    {
+      "id": "f008",
+      "label": "Teléfono",
+      "path": [
+        "Página 1",
+        "Consignataria",
+        "Teléfono"
+      ],
+      "source_anchor": "Teléfono",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0358-555-7861"
+    },
+    {
+      "id": "f009",
+      "label": "E-mail",
+      "path": [
+        "Página 1",
+        "Consignataria",
+        "E-mail"
+      ],
+      "source_anchor": "E-mail",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "consignataria.centro@example.invalid"
+    },
+    {
+      "id": "f010",
+      "label": "FIRMA, ACLARACIÓN Y N° DNI SOLICITANTE",
+      "path": [
+        "Página 1",
+        "Conformidad",
+        "FIRMA, ACLARACIÓN Y N° DNI SOLICITANTE"
+      ],
+      "source_anchor": "FIRMA, ACLARACIÓN Y N° DNI SOLICITANTE",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de Inés Suárez; Inés Suárez; DNI sintético 31.786.402"
+    },
+    {
+      "id": "f011",
+      "label": "FIRMA Y ACLARACION DEL AGENTE SENASA",
+      "path": [
+        "Página 1",
+        "Recepción SENASA",
+        "FIRMA Y ACLARACION DEL AGENTE SENASA"
+      ],
+      "source_anchor": "FIRMA Y ACLARACION DEL AGENTE SENASA",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de Martín Ponce; Martín Ponce"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Autorización a consignatarios para emisión de DT-e y cierre de movimientos en SIGSA / Página 1",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Solicitud",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fecha",
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Titular RENSPA",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Oficina Local",
+        "field": "f002",
+        "source_page": 1
+      },
+      {
+        "label": "N° de RENSPA",
+        "field": "f003",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Titular",
+        "field": "f004",
+        "source_page": 1
+      },
+      {
+        "label": "CUIT",
+        "field": "f005",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Consignataria",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Firma Consignataria",
+        "field": "f006",
+        "source_page": 1
+      },
+      {
+        "label": "CUIT",
+        "field": "f007",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Teléfono",
+        "field": "f008",
+        "source_page": 1
+      },
+      {
+        "label": "E-mail",
+        "field": "f009",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "DECLARACIÓN JURADA",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Como titular del RENSPA cuyos datos se detallan más arriba, solicito a la Oficina Local de SENASA habilite el acceso al sistema de autogestión de DT-e y cierre de movimientos a través de Sistema Integrado de Gestión de Sanidad Animal (SiGSA) al consignatario que detallo en el formulario.",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "El incumplimiento de los alcances de la normativa vigente referente a las condiciones para el registro, tenencia y movimiento de animales conllevará a la revocación del uso de SIGSA para realizar autogestión, sin perjuicio de las acciones administrativas y sanciones que pudieren corresponder.",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Asimismo, ambas partes (productor y consignatario) declaran que los datos que como autogestor ingresen a SIGSA son verídicos, bajo lo prescripto en el artículo N° 293 del Código Penal.",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Conformidad",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FIRMA, ACLARACIÓN Y N° DNI SOLICITANTE",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Recepción SENASA",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FIRMA Y ACLARACION DEL AGENTE SENASA",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ]
+  ],
+  "context": "ESCENARIO COMPLETAMENTE SINTÉTICO. No identifica personas, empresas, bienes ni actuaciones reales. Las firmas y los asientos administrativos son representaciones textuales ficticias, sin validez oficial.\nLas menciones de no aplicación son estados explícitos del escenario, no datos deducidos del formulario.\nPágina 1 / Solicitud / Fecha: 12/10/2026\nPágina 1 / Titular RENSPA / Oficina Local: Río Cuarto\nPágina 1 / Titular RENSPA / N° de RENSPA: 14.056.0.00123/00\nPágina 1 / Titular RENSPA / Titular: Establecimiento Sintético Las Acacias SA\nPágina 1 / Titular RENSPA / CUIT: 30-71234561-8 (sintético)\nPágina 1 / Consignataria / Firma Consignataria: Consignataria Sintética del Centro SRL\nPágina 1 / Consignataria / CUIT: 30-72345672-9 (sintético)\nPágina 1 / Consignataria / Teléfono: 0358-555-7861\nPágina 1 / Consignataria / E-mail: consignataria.centro@example.invalid\nPágina 1 / Conformidad / FIRMA, ACLARACIÓN Y N° DNI SOLICITANTE: Firma sintética de Inés Suárez; Inés Suárez; DNI sintético 31.786.402\nPágina 1 / Recepción SENASA / FIRMA Y ACLARACION DEL AGENTE SENASA: Firma sintética de Martín Ponce; Martín Ponce",
+  "workflow_identity": {
+    "language": "es",
+    "id": 786
+  }
+}

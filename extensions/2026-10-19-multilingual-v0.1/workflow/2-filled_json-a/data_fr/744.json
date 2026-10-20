@@ -1,0 +1,257 @@
+{
+  "Page 1": {
+    "Le demandeur": {
+      "Qualité": {
+        "choices": [
+          "Particulier",
+          "service public",
+          "maître d’oeuvre ou conducteur d’opération",
+          "entreprise"
+        ],
+        "value": [
+          "entreprise"
+        ]
+      },
+      "Nom :": "MARTIN",
+      "Prénom :": "Camille",
+      "Dénomination :": "Réseaux Exemple SAS",
+      "Représenté par :": "Camille MARTIN",
+      "Demandeur / Numéro :": "12",
+      "Demandeur / Extension :": "Sans extension",
+      "Demandeur / Nom de la voie :": "rue Exemple",
+      "Demandeur / Code postal": "69003",
+      "Demandeur / Localité :": "Lyon",
+      "Pays :": "France",
+      "Téléphone": "0100000744",
+      "Indiquez l’indicatif pour le pays étranger :": "Sans objet : France",
+      "Courriel :": "reseaux@example.org"
+    },
+    "Si le bénéficiaire est différent du demandeur": {
+      "Nom :": "Sans objet : même société",
+      "Prénom :": "Sans objet",
+      "Bénéficiaire distinct / Numéro :": "Sans objet",
+      "Bénéficiaire distinct / Extension :": "Sans objet",
+      "Bénéficiaire distinct / Nom de la voie :": "Sans objet",
+      "Bénéficiaire distinct / Code postal": "Sans objet",
+      "Bénéficiaire distinct / Localité :": "Sans objet",
+      "Bénéficiaire distinct / Pays :": "Sans objet",
+      "Bénéficiaire distinct / Téléphone": "Sans objet",
+      "Bénéficiaire distinct / Indiquez l’indicatif pour le pays étranger :": "Sans objet",
+      "Bénéficiaire distinct / Courriel :": "Sans objet"
+    },
+    "Localisation du site concerné par la demande": {
+      "Autoroute n°": "Sans objet",
+      "Route nationale n°": "Sans objet",
+      "Route départementale n°": "Sans objet",
+      "Voie communale n°": "12",
+      "Situation": {
+        "choices": [
+          "Hors agglomération",
+          "En agglomération"
+        ],
+        "value": [
+          "En agglomération"
+        ]
+      },
+      "Point de Repère (PR) routier d’origine d’application :": "0 + 012",
+      "Point de Repère (PR) routier d’origine d’application : / Case carrée imprimée": {
+        "choices": [
+          "Point de Repère (PR) routier d’origine d’application :"
+        ],
+        "value": []
+      },
+      "Point de Repère (PR) routier de fin d’application :": "0 + 020",
+      "Point de Repère (PR) routier de fin d’application : / Case carrée imprimée": {
+        "choices": [
+          "Point de Repère (PR) routier de fin d’application :"
+        ],
+        "value": []
+      },
+      "Site / Numéro :": "14",
+      "Site / Extension :": "Sans extension",
+      "Site / Nom de la voie :": "rue Exemple",
+      "Site / Code postal": "69003",
+      "Site / Localité :": "Lyon",
+      "Document d’urbanisme antérieur (déclaration de travaux ou permis de construire) :": "Sans objet : branchement au réseau existant",
+      "Section(s) :": "AB",
+      "Parcelle(s) :": "101",
+      "Lieu-dit :": "Centre"
+    },
+    "Nature et date des travaux": {
+      "Nature des travaux": {
+        "choices": [
+          "Pose de compteur / branchement aux réseaux",
+          "Dépôt ou Stationnement",
+          "Saillie ou Surplomb",
+          "Aménagement d’accès",
+          "Ouvrages divers",
+          "Station service",
+          "Autres"
+        ],
+        "value": [
+          "Pose de compteur / branchement aux réseaux",
+          "Ouvrages divers"
+        ]
+      },
+      "Pose de clôtures / Alignement": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": []
+      },
+      "Pose de clôtures / Retrait en mètres": "Sans objet",
+      "Pose de portail (portillon) / Alignement": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": []
+      },
+      "Pose de portail (portillon) / Retrait en mètres": "Sans objet",
+      "Plantations / Alignement": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": []
+      },
+      "Plantations / Retrait en mètres": "Sans objet",
+      "Station service / Régime": {
+        "choices": [
+          "Renouvellement",
+          "Création"
+        ],
+        "value": []
+      },
+      "Autres travaux / Précisions": "Sans objet",
+      "Date prévue de début d’application": "16/11/2026",
+      "Durée d’application (en jours calendaires) :": "3"
+    }
+  },
+  "Page 2": {
+    "Dépôt ou stationnement": {
+      "Dépôt / Régime": {
+        "choices": [
+          "Demande initiale",
+          "Prolongation"
+        ],
+        "value": []
+      },
+      "référence du permis de stationnement :": "Sans objet : pas de dépôt",
+      "Dépôt / Nature": {
+        "choices": [
+          "Matériaux",
+          "Benne",
+          "Grue",
+          "Etalage",
+          "Echafaudage",
+          "Mobilier urbain",
+          "Terrasses de café",
+          "Vente le long de la voie ou sur aire de service",
+          "Autres (à préciser)"
+        ],
+        "value": []
+      },
+      "Dépôt / Autres": "Sans objet"
+    },
+    "Saillie ou surplomb": {
+      "de la voie": "Sans objet",
+      "de la saillie": "Sans objet",
+      "des trottoirs": "Sans objet",
+      "Hauteur sous saillie": "Sans objet"
+    },
+    "Aménagement d’accès": {
+      "Fossé": {
+        "choices": [
+          "Avec franchissement de fossé",
+          "Sans franchissement de fossé"
+        ],
+        "value": []
+      },
+      "Diamètre du tuyau": "Sans objet",
+      "Longueur": "Sans objet",
+      "Distance par rapport à l’axe de la chaussée": "Sans objet",
+      "Nature du tuyau :": "Sans objet",
+      "Largeur de l’aménagement": "Sans objet"
+    },
+    "Ouvrages divers": {
+      "Nature des ouvrages": {
+        "choices": [
+          "Travaux sur ouvrages existants",
+          "Installation nouvelle"
+        ],
+        "value": [
+          "Travaux sur ouvrages existants"
+        ]
+      },
+      "Réseaux aériens ou souterrains ou branchement :": {
+        "choices": [
+          "Eau potable",
+          "Eaux pluviales",
+          "GDF",
+          "Opérateurs réseaux",
+          "Eaux usées",
+          "EDF",
+          "Autres (à préciser)"
+        ],
+        "value": [
+          "Eau potable"
+        ]
+      },
+      "Réseaux / Autres": "Sans objet",
+      "Tranchée longitudinale / Sous voirie": "0 m",
+      "Tranchée longitudinale / Sous accotement ou trottoirs": "8 m",
+      "Tranchée transversale / Sous voirie": "5 m",
+      "Tranchée transversale / Sous accotement ou trottoirs": "0 m",
+      "Fonçage / Sous voirie": "0 m",
+      "Fonçage / Sous accotement ou trottoirs": "0 m",
+      "Aménagement de surface ou équipements :": {
+        "choices": [
+          "Stationnement",
+          "Arrêt bus",
+          "Passage supérieur ou inférieur",
+          "Équipements de la route",
+          "Autres (à préciser)"
+        ],
+        "value": []
+      },
+      "Surface / Autres": "Sans objet"
+    },
+    "Pièces jointes à la demande": {
+      "Pièces jointes à la demande": {
+        "choices": [
+          "Plan de situation 1/10 000 ou 1/20 000ème",
+          "Plan de localisation précis 1/1 000 ou 1/ 2 000ème",
+          "Photos",
+          "Coupes longitudinales et transversales indiquant l’emprise occupée du domaine public",
+          "Plan des ouvrages projetés 1/200 ou 1/500ème",
+          "Cahiers des coupes techniques de tranchées 1/50ème",
+          "Plan de détails de franchissement des points singuliers 1/50ème",
+          "Station service : Plan d’implantation des pistes avec signalisation de police"
+        ],
+        "value": [
+          "Plan de situation 1/10 000 ou 1/20 000ème",
+          "Plan de localisation précis 1/1 000 ou 1/ 2 000ème",
+          "Photos",
+          "Plan des ouvrages projetés 1/200 ou 1/500ème",
+          "Cahiers des coupes techniques de tranchées 1/50ème",
+          "Plan de détails de franchissement des points singuliers 1/50ème"
+        ]
+      },
+      "J’atteste de l’exactitude des informations fournies": {
+        "choices": [
+          "J’atteste de l’exactitude des informations fournies"
+        ],
+        "value": [
+          "J’atteste de l’exactitude des informations fournies"
+        ]
+      },
+      "Fait à :": "Lyon",
+      "Le :": "19/10/2026",
+      "Nom :": "MARTIN",
+      "Prénom :": "Camille",
+      "Qualité :": "Présidente"
+    }
+  }
+}

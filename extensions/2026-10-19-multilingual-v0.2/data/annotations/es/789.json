@@ -1,0 +1,333 @@
+{
+  "id": "es-789",
+  "language": "es",
+  "title": "Solicitud de apertura de expediente electrónico para inscripción de productos veterinarios",
+  "domain": "Business",
+  "issuer": "SENASA",
+  "issuer_id": "senasa",
+  "template_family": "senasa-veterinary-product-registration-electronic-file-opening",
+  "source_version": "Undated",
+  "source_date_evidence": {
+    "kind": "undated source",
+    "value": "Undated",
+    "note": "Edition transcribed from the source; retrieval date is not an issuance date."
+  },
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/formulario_solicitud_apertura_de_expediente.pdf",
+  "landing_url": "https://www.argentina.gob.ar/sites/default/files/formulario_solicitud_apertura_de_expediente.pdf",
+  "source_sha256": "d2eec930269e74774a7f3602c9322661120fa51d8e8b23f505c93ec6863cc8b6",
+  "source_pages": 1,
+  "retrieved_at": "2026-10-19T09:05:58.195027+00:00",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "CC BY 4.0 under Argentina.gob.ar portal terms, intellectual-property section. National-portal download; no contrary reuse notice found in the form. Attribution: SENASA. Normalized semantic layout with synthetic completion; not an official completed submission.",
+  "columns": 2,
+  "synthetic_context": true,
+  "source_notice": "Source wording, complete option sets, repeated targets and administrative/signature areas retained. Values and all signatures are synthetic.",
+  "fields": [
+    {
+      "id": "f001",
+      "label": "NOMBRE DEL PRODUCTO:",
+      "path": [
+        "Página 1",
+        "Producto y empresa",
+        "NOMBRE DEL PRODUCTO:"
+      ],
+      "source_anchor": "NOMBRE DEL PRODUCTO:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Dermacare Sintético 2%"
+    },
+    {
+      "id": "f002",
+      "label": "NOMBRE/ RAZON SOCIAL DE LA EMPRESA:",
+      "path": [
+        "Página 1",
+        "Producto y empresa",
+        "NOMBRE/ RAZON SOCIAL DE LA EMPRESA:"
+      ],
+      "source_anchor": "NOMBRE/ RAZON SOCIAL DE LA EMPRESA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Laboratorio Veterinario Sintético del Plata SA"
+    },
+    {
+      "id": "f003",
+      "label": "MAIL INSTITUCIONAL:",
+      "path": [
+        "Página 1",
+        "Producto y empresa",
+        "MAIL INSTITUCIONAL:"
+      ],
+      "source_anchor": "MAIL INSTITUCIONAL:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "registro.plata@example.invalid"
+    },
+    {
+      "id": "f004",
+      "label": "CUIT:",
+      "path": [
+        "Página 1",
+        "Producto y empresa",
+        "CUIT:"
+      ],
+      "source_anchor": "CUIT:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "30-74567894-1 (sintético)"
+    },
+    {
+      "id": "f005",
+      "label": "DIRECCIÓN:",
+      "path": [
+        "Página 1",
+        "Producto y empresa",
+        "DIRECCIÓN:"
+      ],
+      "source_anchor": "DIRECCIÓN:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Avenida Laboratorios 789"
+    },
+    {
+      "id": "f006",
+      "label": "LOCALIDAD:",
+      "path": [
+        "Página 1",
+        "Producto y empresa",
+        "LOCALIDAD:"
+      ],
+      "source_anchor": "LOCALIDAD:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "La Plata"
+    },
+    {
+      "id": "f007",
+      "label": "CÓDIGO POSTAL:",
+      "path": [
+        "Página 1",
+        "Producto y empresa",
+        "CÓDIGO POSTAL:"
+      ],
+      "source_anchor": "CÓDIGO POSTAL:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1900"
+    },
+    {
+      "id": "f008",
+      "label": "TELÉFONO:",
+      "path": [
+        "Página 1",
+        "Producto y empresa",
+        "TELÉFONO:"
+      ],
+      "source_anchor": "TELÉFONO:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0221-555-7893"
+    },
+    {
+      "id": "f009",
+      "label": "MARCAR EL CASILLERO QUE CORRESPONDA",
+      "path": [
+        "Página 1",
+        "Modalidad",
+        "MARCAR EL CASILLERO QUE CORRESPONDA"
+      ],
+      "source_anchor": "MARCAR EL CASILLERO QUE CORRESPONDA",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "MERCADO INTERNO"
+      ],
+      "options": [
+        "MERCADO INTERNO",
+        "EXCLUSIVO EXPORTACIÓN",
+        "COMPLEMENTO DIETARIO",
+        "DECLARACION JURADA"
+      ],
+      "context_evidence": "Modalidad / MARCAR EL CASILLERO QUE CORRESPONDA: MERCADO INTERNO."
+    },
+    {
+      "id": "f010",
+      "label": "Firma y aclaración del representante legal",
+      "path": [
+        "Página 1",
+        "Conformidad legal",
+        "Firma y aclaración del representante legal"
+      ],
+      "source_anchor": "Firma y aclaración del representante legal",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de Rafael Molina; Rafael Molina"
+    },
+    {
+      "id": "f011",
+      "label": "Firma y aclaración del Director/a Técnico/a",
+      "path": [
+        "Página 1",
+        "Conformidad técnica",
+        "Firma y aclaración del Director/a Técnico/a"
+      ],
+      "source_anchor": "Firma y aclaración del Director/a Técnico/a",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de Camila Varela; Camila Varela"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Solicitud de apertura de expediente electrónico para inscripción de productos veterinarios / Página 1",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Producto y empresa",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NOMBRE DEL PRODUCTO:",
+        "field": "f001",
+        "source_page": 1
+      },
+      {
+        "label": "NOMBRE/ RAZON SOCIAL DE LA EMPRESA:",
+        "field": "f002",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "MAIL INSTITUCIONAL:",
+        "field": "f003",
+        "source_page": 1
+      },
+      {
+        "label": "CUIT:",
+        "field": "f004",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "DIRECCIÓN:",
+        "field": "f005",
+        "source_page": 1
+      },
+      {
+        "label": "LOCALIDAD:",
+        "field": "f006",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "CÓDIGO POSTAL:",
+        "field": "f007",
+        "source_page": 1
+      },
+      {
+        "label": "TELÉFONO:",
+        "field": "f008",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "MARCAR EL CASILLERO QUE CORRESPONDA - PRESENTAR UN ÚNICO DOCUMENTO POR CADA ITEM DETALLADO",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Modalidad",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "MARCAR EL CASILLERO QUE CORRESPONDA",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "MERCADO INTERNO: FORMULARIO DE INSCRIPCION; ANEXO QUIMICO; ANEXO FARMACOLOGICO; ANEXO DOCUMENTAL; ARTES DE IMPRESOS; CUPON PAGO ARANCEL.",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "EXCLUSIVO EXPORTACIÓN: FORMULARIO DE INSCRIPCION; ANEXO QUIMICO; ANEXO FARMACOLOGICO; ANEXO DOCUMENTAL; ARTES DE IMPRESOS; CUPON PAGO ARANCEL.",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "COMPLEMENTO DIETARIO: FORMULARIO DE INSCRIPCION; ANEXO QUIMICO; ANEXO FARMACOLOGICO; ANEXO DOCUMENTAL; ARTES DE IMPRESOS; CUPON PAGO ARANCEL.",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "DECLARACION JURADA: FORMULARIO DE INSCRIPCION; ARTES DE IMPRESOS; CLV DE ORIGEN (SOLO PARA PRODUCTOS IMPORTADOS); CUPON PAGO ARANCEL.",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Conformidad legal",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Firma y aclaración del representante legal",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Conformidad técnica",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Firma y aclaración del Director/a Técnico/a",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ]
+  ],
+  "context": "ESCENARIO COMPLETAMENTE SINTÉTICO. No identifica personas, empresas, bienes ni actuaciones reales. Las firmas y los asientos administrativos son representaciones textuales ficticias, sin validez oficial.\nLas menciones de no aplicación son estados explícitos del escenario, no datos deducidos del formulario.\nPágina 1 / Producto y empresa / NOMBRE DEL PRODUCTO:: Dermacare Sintético 2%\nPágina 1 / Producto y empresa / NOMBRE/ RAZON SOCIAL DE LA EMPRESA:: Laboratorio Veterinario Sintético del Plata SA\nPágina 1 / Producto y empresa / MAIL INSTITUCIONAL:: registro.plata@example.invalid\nPágina 1 / Producto y empresa / CUIT:: 30-74567894-1 (sintético)\nPágina 1 / Producto y empresa / DIRECCIÓN:: Avenida Laboratorios 789\nPágina 1 / Producto y empresa / LOCALIDAD:: La Plata\nPágina 1 / Producto y empresa / CÓDIGO POSTAL:: 1900\nPágina 1 / Producto y empresa / TELÉFONO:: 0221-555-7893\nPágina 1 / Modalidad / MARCAR EL CASILLERO QUE CORRESPONDA: Modalidad / MARCAR EL CASILLERO QUE CORRESPONDA: MERCADO INTERNO.\nPágina 1 / Conformidad legal / Firma y aclaración del representante legal: Firma sintética de Rafael Molina; Rafael Molina\nPágina 1 / Conformidad técnica / Firma y aclaración del Director/a Técnico/a: Firma sintética de Camila Varela; Camila Varela",
+  "workflow_identity": {
+    "language": "es",
+    "id": 789
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "Página 1": {
+    "Solicitante (1)": {
+      "Espacio reservado para numeración por código de barras": "SYN-H100-755",
+      "N.I.F./N.I.E.": "12345678Z",
+      "Apellidos y nombre": "Lucía Prado Ríos",
+      "Domicilio fiscal, nombre vía pública": "Calle Herencia Ejemplo",
+      "Número": "31",
+      "Esc.": "B",
+      "Piso": "2",
+      "Prta.": "D",
+      "Teléfono": "954000755",
+      "Municipio": "Sevilla",
+      "Código": "41091",
+      "Provincia": "Sevilla",
+      "Código Postal": "41003"
+    },
+    "Declaración (2)": {
+      "modelo": "100",
+      "ejercicio": "2025",
+      "Importe de la devolución:": "3200,00",
+      "Apellidos y nombre del fallecido:": "Rafael Prado Soria",
+      "NIF del fallecido:": "23456789D",
+      "Para importes inferiores o iguales a 2.000 €:": {
+        "choices": [
+          "Certificado de defunción.",
+          "Libro de Familia completo o Registro Electrónico Acreditativo de la situación familiar.",
+          "Certificado del Registro de Últimas Voluntades.",
+          "Testamento (solo si figura en el certificado de últimas voluntades) o Acta Notarial de Declaración de Herederos.",
+          "En el supuesto de que haya un único heredero, certificado bancario de titularidad de una cuenta a su nombre.",
+          "En el supuesto de que haya varios herederos y se desee que el importe de la devolución sea abonado a uno de ellos, autorización escrita y firmada con fotocopia del DNI de todos ellos, y certificado bancario de titularidad de una cuenta a su nombre.",
+          "En el supuesto de que haya varios herederos y se desee que el importe de la devolución sea abonado a todos los herederos, certificado bancario de titularidad de la cuenta bancaria a nombre de todos ellos."
+        ],
+        "value": []
+      },
+      "Para importes superiores a 2.000 €:": {
+        "choices": [
+          "Certificado de defunción.",
+          "Libro de Familia completo o Registro Electrónico Acreditativo de la situación familiar.",
+          "Certificado del Registro de Últimas Voluntades.",
+          "Testamento (solo si figura en el certificado de últimas voluntades) o Acta Notarial de Declaración de Herederos.",
+          "Justificante de haber declarado en el Impuesto de Sucesiones y Donaciones el importe de la devolución.",
+          "En el supuesto de que haya un único heredero, certificado bancario de titularidad de una cuenta a su nombre.",
+          "En el supuesto de que haya varios herederos y se desee que el importe de la devolución sea abonado a uno de ellos, Poder Notarial autorizándole para cobrar la devolución y certificado bancario de titularidad de una cuenta a su nombre.",
+          "En el caso de que haya varios herederos y se desee que el importe de la devolución sea abonado a todos los herederos, certificado bancario de titularidad de la cuenta bancaria a nombre de todos ellos."
+        ],
+        "value": [
+          "Certificado de defunción.",
+          "Libro de Familia completo o Registro Electrónico Acreditativo de la situación familiar.",
+          "Certificado del Registro de Últimas Voluntades.",
+          "Testamento (solo si figura en el certificado de últimas voluntades) o Acta Notarial de Declaración de Herederos.",
+          "Justificante de haber declarado en el Impuesto de Sucesiones y Donaciones el importe de la devolución.",
+          "En el supuesto de que haya un único heredero, certificado bancario de titularidad de una cuenta a su nombre."
+        ]
+      }
+    },
+    "Solicitud (3)": {
+      "SOLICITA": {
+        "choices": [
+          "Cheque bancario",
+          "Transferencia bancaria a la cuenta:"
+        ],
+        "value": [
+          "Transferencia bancaria a la cuenta:"
+        ]
+      },
+      "Cuenta": "ES12 0000 0755 0100 1234 5678"
+    },
+    "Fecha y firma de la solicitud (4)": {
+      "Fecha de solicitud:": "19/10/2026",
+      "Fdo.:": "Lucía Prado Ríos, firma sintética",
+      "Fecha de presentación de solicitud y sello": "19/10/2026, sello administrativo sintético SYN-H100-755"
+    }
+  }
+}

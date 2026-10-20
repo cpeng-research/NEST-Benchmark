@@ -1,0 +1,80 @@
+{
+  "Page 1": {
+    "PÉRIODE DEMANDÉE": {
+      "DATE DÉBUT PÉRIODE :": "01/01/2027",
+      "DATE FIN PÉRIODE :": "31/12/2027"
+    },
+    "IDENTIFICATION DU DEMANDEUR": {
+      "N° SIRET :": "00000074100015",
+      "Nom, prénom ou Raison sociale :": "Pêche Exemple SAS",
+      "Adresse :": "12 quai Exemple",
+      "Complément d'adresse :": "Bureau 2",
+      "Code postal :": "64500",
+      "Commune :": "Saint-Jean-de-Luz"
+    },
+    "COORDONNÉES DE LA PERSONNE À CONTACTER": {
+      "Nom :": "MARTIN",
+      "Prénom :": "Camille",
+      "Mél :": "peche@example.org",
+      "Fixe": "0100000741",
+      "Mobile": "0600000741"
+    },
+    "DESCRIPTION DU NAVIRE OBJET DE LA DEMANDE": {
+      "N° d'immatriculation :": "BA000741",
+      "Quartier d'immatriculation :": "Bayonne",
+      "N° OMI :": "0000741",
+      "Nom du navire :": "Exemple Marin",
+      "Puissance (kW) :": "180",
+      "Avez-vous effectué une demande de réservation sur le régime d'autorisation considéré ? :": {
+        "choices": [
+          "Oui",
+          "Non"
+        ],
+        "value": [
+          "Non"
+        ]
+      }
+    }
+  },
+  "Page 2": {
+    "DÉCLARATION D'ACTIVITÉ DU NAVIRE (pour la période de validité de l'AEP si celle-ci est délivrée)": {
+      "ENGIN": {
+        "choices": [
+          "Bolinche - prise active",
+          "Chalut – prise active",
+          "Chalut – prise occasionnelle"
+        ],
+        "value": [
+          "Bolinche - prise active"
+        ]
+      }
+    },
+    "SIGNATURE ET ENGAGEMENTS DU DEMANDEUR : ARMATEUR DU NAVIRE OU SON REPRÉSENTANT": {
+      "Je soussigné (nom et prénom) :": "Camille MARTIN",
+      "Fait le": "19/10/2026",
+      "Signature (et cachet pour les sociétés) :": "Camille MARTIN, présidente de Pêche Exemple SAS"
+    },
+    "VISA DE L'ORGANISATION DE PRODUCTEURS DONT DÉPEND LE NAVIRE DEMANDEUR OU DU COMITÉ DÉPARTEMENTAL/INTERDÉPARTEMENTAL DES PÊCHES SI LE NAVIRE N'EST PAS ADHÉRENT À UNE OP": {
+      "Je soussigné (nom et prénom) :": "Léa DURAND",
+      "Président, Directeur, de :": "Organisation fictive Pêche Exemple",
+      "Avis": {
+        "choices": [
+          "Émet un avis favorable et certifie que les possibilités de pêche de l'organisation permettent l'exploitation de ce navire dans la pêcherie visée.",
+          "Émet un avis défavorable au motif réglementaire ci-dessous :"
+        ],
+        "value": [
+          "Émet un avis favorable et certifie que les possibilités de pêche de l'organisation permettent l'exploitation de ce navire dans la pêcherie visée."
+        ]
+      },
+      "Émet un avis défavorable au motif réglementaire ci-dessous :": "Sans objet : avis favorable fictif",
+      "Fait le": "20/10/2026",
+      "Signature et cachet :": "Léa DURAND, visa fictif"
+    },
+    "RÉSERVÉ À L'ADMINISTRATION": {
+      "DATE DE RÉCEPTION :": "19/10/2026",
+      "DATE DE SAISIE SISAAP :": "20/10/2026",
+      "N° DOSSIER :": "ANP-EX741",
+      "N° Réservation éventuel :": "Sans objet : pas de réservation"
+    }
+  }
+}

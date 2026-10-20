@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-10-20
+
+- Published 200 additional templates collected on 19 October in two versioned
+  batches, bringing the combined text-task inventory to 1,500.
+- Added 100 French and 100 Spanish templates with stable IDs 700-799 per
+  language, numbered workflow stages 0-6, source attribution, collection dates,
+  field annotations, and integrity manifests.
+- Updated dataset totals, release indexes, licensing references, and checksums.
+  Existing workflow files, identifiers, and task metrics are retained.
+
 ## 2026-10-19
 
 - Published 200 additional templates in 63 versioned batches collected on

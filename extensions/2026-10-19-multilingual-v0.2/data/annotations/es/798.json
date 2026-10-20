@@ -1,0 +1,1501 @@
+{
+  "id": "es-798",
+  "language": "es",
+  "title": "Reclamo sobre servicios postales, F.37d",
+  "domain": "GovPublic",
+  "issuer": "ENACOM",
+  "issuer_id": "enacom",
+  "template_family": "enacom-f37d-postal-service-claim",
+  "source_version": "Undated",
+  "source_date_evidence": {
+    "kind": "undated source",
+    "value": "Undated",
+    "note": "Edition transcribed from the source; retrieval date is not an issuance date."
+  },
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/f37d.pdf",
+  "landing_url": "https://www.argentina.gob.ar/sites/default/files/f37d.pdf",
+  "source_sha256": "79b3894b45850f29dc9717175e1b86fb64c734e7af846eb1c80c56b30ea3f094",
+  "source_pages": 6,
+  "retrieved_at": "2026-10-19T09:34:09.912903+00:00",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "CC BY 4.0 under Argentina.gob.ar portal terms, intellectual-property section. National-portal download; no contrary reuse notice found in the form. Attribution: ENACOM. Normalized semantic layout with synthetic completion; not an official completed submission.",
+  "columns": 2,
+  "synthetic_context": true,
+  "source_notice": "Source wording, complete option sets, repeated targets and administrative/signature areas retained. Values and all signatures are synthetic.",
+  "fields": [
+    {
+      "id": "f001",
+      "label": "NÚMERO DE RECLAMO / CONSULTA",
+      "path": [
+        "Página 1",
+        "Registro",
+        "NÚMERO DE RECLAMO / CONSULTA"
+      ],
+      "source_anchor": "NÚMERO DE RECLAMO / CONSULTA",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "ENACOM-SINT-798-01"
+    },
+    {
+      "id": "f002",
+      "label": "FECHA",
+      "path": [
+        "Página 1",
+        "Registro",
+        "FECHA"
+      ],
+      "source_anchor": "FECHA",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "19/10/2026"
+    },
+    {
+      "id": "f003",
+      "label": "TIPO",
+      "path": [
+        "Página 1",
+        "Reclamante",
+        "TIPO"
+      ],
+      "source_anchor": "TIPO",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "DNI"
+      ],
+      "options": [
+        "DNI",
+        "LE",
+        "LC",
+        "DU",
+        "CI",
+        "PAS",
+        "PASE",
+        "DIE",
+        "CUIL",
+        "CUIT"
+      ],
+      "context_evidence": "Reclamante / TIPO: DNI."
+    },
+    {
+      "id": "f004",
+      "label": "PROVINCIA",
+      "path": [
+        "Página 1",
+        "Reclamante",
+        "PROVINCIA"
+      ],
+      "source_anchor": "PROVINCIA",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "BUENOS AIRES"
+      ],
+      "options": [
+        "BUENOS AIRES",
+        "CATAMARCA",
+        "CHACO",
+        "CHUBUT",
+        "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+        "CÓRDOBA",
+        "CORRIENTES",
+        "ENTRE RÍOS",
+        "FORMOSA",
+        "JUJUY",
+        "LA PAMPA",
+        "LA RIOJA",
+        "MENDOZA",
+        "MISIONES",
+        "NEUQUÉN",
+        "RÍO NEGRO",
+        "SALTA",
+        "SAN JUAN",
+        "SAN LUIS",
+        "SANTA CRUZ",
+        "SANTA FE",
+        "SANTIAGO DEL ESTERO",
+        "TIERRA DEL FUEGO, ANTÁRTIDA E ISLAS DEL ATLÁNTICO SUR",
+        "TUCUMÁN"
+      ],
+      "context_evidence": "Reclamante / PROVINCIA: BUENOS AIRES."
+    },
+    {
+      "id": "f005",
+      "label": "NÚMERO DE DOCUMENTO",
+      "path": [
+        "Página 1",
+        "Reclamante",
+        "NÚMERO DE DOCUMENTO"
+      ],
+      "source_anchor": "NÚMERO DE DOCUMENTO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "DNI sintético 33.798.614"
+    },
+    {
+      "id": "f006",
+      "label": "APELLIDO/S Y NOMBRE/S O RAZÓN SOCIAL",
+      "path": [
+        "Página 1",
+        "Reclamante",
+        "APELLIDO/S Y NOMBRE/S O RAZÓN SOCIAL"
+      ],
+      "source_anchor": "APELLIDO/S Y NOMBRE/S O RAZÓN SOCIAL",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Marina Salcedo"
+    },
+    {
+      "id": "f007",
+      "label": "CALLE / RUTA / Km. / PARAJE / CIRCUNSCRIPCIÓN / Etc.",
+      "path": [
+        "Página 1",
+        "Domicilio",
+        "CALLE / RUTA / Km. / PARAJE / CIRCUNSCRIPCIÓN / Etc."
+      ],
+      "source_anchor": "CALLE / RUTA / Km. / PARAJE / CIRCUNSCRIPCIÓN / Etc.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Calle del Correo"
+    },
+    {
+      "id": "f008",
+      "label": "NÚMERO",
+      "path": [
+        "Página 1",
+        "Domicilio",
+        "NÚMERO"
+      ],
+      "source_anchor": "NÚMERO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "418"
+    },
+    {
+      "id": "f009",
+      "label": "PISO",
+      "path": [
+        "Página 1",
+        "Domicilio",
+        "PISO"
+      ],
+      "source_anchor": "PISO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "f010",
+      "label": "OF. / DTO.",
+      "path": [
+        "Página 1",
+        "Domicilio",
+        "OF. / DTO."
+      ],
+      "source_anchor": "OF. / DTO.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "B"
+    },
+    {
+      "id": "f011",
+      "label": "C.P.A.",
+      "path": [
+        "Página 1",
+        "Domicilio",
+        "C.P.A."
+      ],
+      "source_anchor": "C.P.A.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "B1900ABC"
+    },
+    {
+      "id": "f012",
+      "label": "LOCALIDAD",
+      "path": [
+        "Página 1",
+        "Domicilio",
+        "LOCALIDAD"
+      ],
+      "source_anchor": "LOCALIDAD",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "La Plata"
+    },
+    {
+      "id": "f013",
+      "label": "TELÉFONO FIJO DE REFERENCIA",
+      "path": [
+        "Página 1",
+        "Contacto",
+        "TELÉFONO FIJO DE REFERENCIA"
+      ],
+      "source_anchor": "TELÉFONO FIJO DE REFERENCIA",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0221 555 7981"
+    },
+    {
+      "id": "f014",
+      "label": "CELULAR DE REFERENCIA",
+      "path": [
+        "Página 1",
+        "Contacto",
+        "CELULAR DE REFERENCIA"
+      ],
+      "source_anchor": "CELULAR DE REFERENCIA",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0221 15 5557982"
+    },
+    {
+      "id": "f015",
+      "label": "E-MAIL",
+      "path": [
+        "Página 1",
+        "Contacto",
+        "E-MAIL"
+      ],
+      "source_anchor": "E-MAIL",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "marina.salcedo@example.invalid"
+    },
+    {
+      "id": "f016",
+      "label": "APELLIDO/S Y NOMBRE/S",
+      "path": [
+        "Página 1",
+        "Destinatario",
+        "APELLIDO/S Y NOMBRE/S"
+      ],
+      "source_anchor": "APELLIDO/S Y NOMBRE/S",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Marina Salcedo"
+    },
+    {
+      "id": "f017",
+      "label": "DIRECCIÓN",
+      "path": [
+        "Página 1",
+        "Destinatario",
+        "DIRECCIÓN"
+      ],
+      "source_anchor": "DIRECCIÓN",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Calle del Correo 418, piso 2, B, La Plata B1900ABC"
+    },
+    {
+      "id": "f018",
+      "label": "APELLIDO/S Y NOMBRE/S",
+      "path": [
+        "Página 1",
+        "Remitente",
+        "APELLIDO/S Y NOMBRE/S"
+      ],
+      "source_anchor": "APELLIDO/S Y NOMBRE/S",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Julia Roldán"
+    },
+    {
+      "id": "f019",
+      "label": "DIRECCIÓN",
+      "path": [
+        "Página 1",
+        "Remitente",
+        "DIRECCIÓN"
+      ],
+      "source_anchor": "DIRECCIÓN",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Calle del Río 67, Rosario S2000ABC"
+    },
+    {
+      "id": "f020",
+      "label": "DATOS DEL USUARIO DEL SERVICIO POSTAL",
+      "path": [
+        "Página 1",
+        "Usuario",
+        "DATOS DEL USUARIO DEL SERVICIO POSTAL"
+      ],
+      "source_anchor": "DATOS DEL USUARIO DEL SERVICIO POSTAL",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "ES DESTINATARIO DEL ENVÍO POSTAL"
+      ],
+      "options": [
+        "ES DESTINATARIO DEL ENVÍO POSTAL",
+        "ES REMITENTE DEL ENVÍO POSTAL"
+      ],
+      "context_evidence": "Usuario / DATOS DEL USUARIO DEL SERVICIO POSTAL: ES DESTINATARIO DEL ENVÍO POSTAL."
+    },
+    {
+      "id": "f021",
+      "label": "FIRMA Y ACLARACIÓN",
+      "path": [
+        "Página 1",
+        "Firma",
+        "FIRMA Y ACLARACIÓN"
+      ],
+      "source_anchor": "FIRMA Y ACLARACIÓN",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de Marina Salcedo; Marina Salcedo"
+    },
+    {
+      "id": "f022",
+      "label": "DATOS DEL PRESTADOR",
+      "path": [
+        "Página 2",
+        "Prestador",
+        "DATOS DEL PRESTADOR"
+      ],
+      "source_anchor": "DATOS DEL PRESTADOR",
+      "source_page": 2,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "PRESTADOR POSTAL"
+      ],
+      "options": [
+        "CORREO OFICIAL",
+        "PRESTADOR POSTAL",
+        "OTROS"
+      ],
+      "context_evidence": "Prestador / DATOS DEL PRESTADOR: PRESTADOR POSTAL."
+    },
+    {
+      "id": "f023",
+      "label": "DENOMINACIÓN DEL PRESTADOR POSTAL",
+      "path": [
+        "Página 2",
+        "Prestador",
+        "DENOMINACIÓN DEL PRESTADOR POSTAL"
+      ],
+      "source_anchor": "DENOMINACIÓN DEL PRESTADOR POSTAL",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Correo Sintético del Litoral SA"
+    },
+    {
+      "id": "f024",
+      "label": "¿REALIZÓ RECLAMO ANTE EL PRESTADOR?",
+      "path": [
+        "Página 2",
+        "Reclamo previo",
+        "¿REALIZÓ RECLAMO ANTE EL PRESTADOR?"
+      ],
+      "source_anchor": "¿REALIZÓ RECLAMO ANTE EL PRESTADOR?",
+      "source_page": 2,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "SÍ"
+      ],
+      "options": [
+        "SÍ",
+        "NO"
+      ],
+      "context_evidence": "Reclamo previo / ¿REALIZÓ RECLAMO ANTE EL PRESTADOR?: SÍ."
+    },
+    {
+      "id": "f025",
+      "label": "NÚMERO DE RECLAMO OTORGADO",
+      "path": [
+        "Página 2",
+        "Reclamo previo",
+        "NÚMERO DE RECLAMO OTORGADO"
+      ],
+      "source_anchor": "NÚMERO DE RECLAMO OTORGADO",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "CSL-SINT-10842"
+    },
+    {
+      "id": "f026",
+      "label": "FECHA DE RECLAMO",
+      "path": [
+        "Página 2",
+        "Reclamo previo",
+        "FECHA DE RECLAMO"
+      ],
+      "source_anchor": "FECHA DE RECLAMO",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "09/10/2026"
+    },
+    {
+      "id": "f027",
+      "label": "¿RECIBIÓ RESPUESTA DEL PRESTADOR?",
+      "path": [
+        "Página 2",
+        "Respuesta previa",
+        "¿RECIBIÓ RESPUESTA DEL PRESTADOR?"
+      ],
+      "source_anchor": "¿RECIBIÓ RESPUESTA DEL PRESTADOR?",
+      "source_page": 2,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "SÍ"
+      ],
+      "options": [
+        "SÍ",
+        "NO"
+      ],
+      "context_evidence": "Respuesta previa / ¿RECIBIÓ RESPUESTA DEL PRESTADOR?: SÍ."
+    },
+    {
+      "id": "f028",
+      "label": "FECHA DE RESPUESTA",
+      "path": [
+        "Página 2",
+        "Respuesta previa",
+        "FECHA DE RESPUESTA"
+      ],
+      "source_anchor": "FECHA DE RESPUESTA",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "13/10/2026"
+    },
+    {
+      "id": "f029",
+      "label": "TIPO",
+      "path": [
+        "Página 2",
+        "Servicio",
+        "TIPO"
+      ],
+      "source_anchor": "TIPO",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Encomienda nacional registrada; paquete de libros, entrega prevista 07/10/2026. Respuesta del prestador indica búsqueda en curso y el envío sigue sin entregar."
+    },
+    {
+      "id": "f030",
+      "label": "NÚMERO IDENTIFICATORIO",
+      "path": [
+        "Página 2",
+        "Servicio",
+        "NÚMERO IDENTIFICATORIO"
+      ],
+      "source_anchor": "NÚMERO IDENTIFICATORIO",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "PK-SINT-798614-AR"
+    },
+    {
+      "id": "f031",
+      "label": "DESCRIPCIÓN DEL SERVICIO O PRODUCTO POSTAL MOTIVO DEL RECLAMO",
+      "path": [
+        "Página 2",
+        "Ámbito del envío",
+        "DESCRIPCIÓN DEL SERVICIO O PRODUCTO POSTAL MOTIVO DEL RECLAMO"
+      ],
+      "source_anchor": "DESCRIPCIÓN DEL SERVICIO O PRODUCTO POSTAL MOTIVO DEL RECLAMO",
+      "source_page": 2,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "ENVÍO NACIONAL"
+      ],
+      "options": [
+        "ENVÍO NACIONAL",
+        "ENVÍO INTERNACIONAL"
+      ],
+      "context_evidence": "Ámbito del envío / DESCRIPCIÓN DEL SERVICIO O PRODUCTO POSTAL MOTIVO DEL RECLAMO: ENVÍO NACIONAL."
+    },
+    {
+      "id": "f032",
+      "label": "EMPRESA (ENVÍO NACIONAL)",
+      "path": [
+        "Página 2",
+        "Servicio nacional",
+        "EMPRESA (ENVÍO NACIONAL)"
+      ],
+      "source_anchor": "EMPRESA (ENVÍO NACIONAL)",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Correo Sintético del Litoral SA"
+    },
+    {
+      "id": "f033",
+      "label": "EMPRESA (ENVÍO INTERNACIONAL)",
+      "path": [
+        "Página 2",
+        "Servicio internacional inactivo",
+        "EMPRESA (ENVÍO INTERNACIONAL)"
+      ],
+      "source_anchor": "EMPRESA (ENVÍO INTERNACIONAL)",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No interviene empresa internacional: envío nacional Rosario-La Plata."
+    },
+    {
+      "id": "f034",
+      "label": "MOTIVO/S DEL RECLAMO / CONSULTA",
+      "path": [
+        "Página 2",
+        "Motivos",
+        "MOTIVO/S DEL RECLAMO / CONSULTA"
+      ],
+      "source_anchor": "MOTIVO/S DEL RECLAMO / CONSULTA",
+      "source_page": 2,
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "FALTA DE ENTREGA",
+        "DEMORA EN LA ENTREGA"
+      ],
+      "options": [
+        "FALTA DE ENTREGA",
+        "AVERÍA TOTAL",
+        "EXPOLIACIÓN",
+        "DEMORA EN LA ENTREGA",
+        "AVERÍA PARCIAL",
+        "SUSTRACCIÓN TOTAL DEL CONTENIDO",
+        "SUSTRACCIÓN PARCIAL DEL CONTENIDO",
+        "MALA ATENCIÓN DEL PRESTADOR",
+        "OTROS"
+      ],
+      "context_evidence": "Motivos / MOTIVO/S DEL RECLAMO / CONSULTA: FALTA DE ENTREGA, DEMORA EN LA ENTREGA."
+    },
+    {
+      "id": "f035",
+      "label": "INDICAR SUCURSAL Y HORARIO (MALA ATENCIÓN DEL PRESTADOR)",
+      "path": [
+        "Página 2",
+        "Detalle de motivos",
+        "INDICAR SUCURSAL Y HORARIO (MALA ATENCIÓN DEL PRESTADOR)"
+      ],
+      "source_anchor": "INDICAR SUCURSAL Y HORARIO (MALA ATENCIÓN DEL PRESTADOR)",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No se reclama mala atención presencial; no se indica sucursal ni horario."
+    },
+    {
+      "id": "f036",
+      "label": "ESPECIFICAR OTROS",
+      "path": [
+        "Página 2",
+        "Detalle de motivos",
+        "ESPECIFICAR OTROS"
+      ],
+      "source_anchor": "ESPECIFICAR OTROS",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No se invocan otros motivos: la petición es localizar y entregar el paquete registrado."
+    },
+    {
+      "id": "f037",
+      "label": "FIRMA Y ACLARACIÓN",
+      "path": [
+        "Página 2",
+        "Firma",
+        "FIRMA Y ACLARACIÓN"
+      ],
+      "source_anchor": "FIRMA Y ACLARACIÓN",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de Marina Salcedo; Marina Salcedo"
+    },
+    {
+      "id": "f038",
+      "label": "OTROS MOTIVOS DE CONSULTA",
+      "path": [
+        "Página 3",
+        "Consulta adicional inactiva",
+        "OTROS MOTIVOS DE CONSULTA"
+      ],
+      "source_anchor": "OTROS MOTIVOS DE CONSULTA",
+      "source_page": 3,
+      "kind": "checkbox_multi",
+      "synthetic_value": [],
+      "options": [
+        "CÓMO REALIZAR UN RECLAMO ANTE ENACOM",
+        "FALTA DE ATENCIÓN EN LAS DELEGACIONES",
+        "RECLAMOS PRESENTADOS EN ENACOM",
+        "TRÁMITES EN OTRAS DEPENDENCIAS DE ENACOM",
+        "ADJUNTOS NO TRAMITADOS",
+        "QUEJAS DE USUARIOS",
+        "RECLAMOS O CONSULTAS EN EL CAU",
+        "OTROS MOTIVOS"
+      ],
+      "context_evidence": "Consulta adicional inactiva / OTROS MOTIVOS DE CONSULTA: sin selección. Este expediente sintético inicia el reclamo postal de la página 2; no formula otra consulta administrativa.",
+      "inactive_reason": "Este expediente sintético inicia el reclamo postal de la página 2; no formula otra consulta administrativa."
+    },
+    {
+      "id": "f039",
+      "label": "OBSERVACIONES",
+      "path": [
+        "Página 3",
+        "Consulta",
+        "OBSERVACIONES"
+      ],
+      "source_anchor": "OBSERVACIONES",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "La destinataria solicita intervención para localizar y entregar el paquete. No hay reclamos previos ante ENACOM; sólo el reclamo CSL-SINT-10842 ante el prestador."
+    },
+    {
+      "id": "f040",
+      "label": "OBSERVACIONES",
+      "path": [
+        "Página 3",
+        "Documentación obligatoria",
+        "OBSERVACIONES"
+      ],
+      "source_anchor": "OBSERVACIONES",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "Se acompañan nota sintética firmada, copia ficticia de DNI, ticket simulado de imposición PK-SINT-798614-AR, comprobante sintético de contratación y autorización sintética de Julia Roldán, remitente y titular del envío, para que Marina Salcedo tramite este reclamo en su nombre."
+    },
+    {
+      "id": "f041",
+      "label": "FIRMA Y ACLARACIÓN",
+      "path": [
+        "Página 3",
+        "Firma",
+        "FIRMA Y ACLARACIÓN"
+      ],
+      "source_anchor": "FIRMA Y ACLARACIÓN",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de Marina Salcedo; Marina Salcedo"
+    },
+    {
+      "id": "f042",
+      "label": "OBSERVACIONES",
+      "path": [
+        "Página 4",
+        "Documentación opcional",
+        "OBSERVACIONES"
+      ],
+      "source_anchor": "OBSERVACIONES",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "Se adjuntan copias sintéticas del reclamo del 09/10/2026 y de la respuesta del 13/10/2026. Ningún documento adjunto representa una actuación o identidad real."
+    },
+    {
+      "id": "f043",
+      "label": "FIRMA Y ACLARACIÓN",
+      "path": [
+        "Página 4",
+        "Firma",
+        "FIRMA Y ACLARACIÓN"
+      ],
+      "source_anchor": "FIRMA Y ACLARACIÓN",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de Marina Salcedo; Marina Salcedo"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Reclamo sobre servicios postales, F.37d / Página 1",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "F.37d - HOJA 1/6",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Registro",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NÚMERO DE RECLAMO / CONSULTA",
+        "field": "f001",
+        "source_page": 1
+      },
+      {
+        "label": "FECHA",
+        "field": "f002",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Reclamante",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "TIPO",
+        "field": "f003",
+        "source_page": 1
+      },
+      {
+        "label": "PROVINCIA",
+        "field": "f004",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NÚMERO DE DOCUMENTO",
+        "field": "f005",
+        "source_page": 1
+      },
+      {
+        "label": "APELLIDO/S Y NOMBRE/S O RAZÓN SOCIAL",
+        "field": "f006",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Domicilio",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "CALLE / RUTA / Km. / PARAJE / CIRCUNSCRIPCIÓN / Etc.",
+        "field": "f007",
+        "source_page": 1
+      },
+      {
+        "label": "NÚMERO",
+        "field": "f008",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "PISO",
+        "field": "f009",
+        "source_page": 1
+      },
+      {
+        "label": "OF. / DTO.",
+        "field": "f010",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "C.P.A.",
+        "field": "f011",
+        "source_page": 1
+      },
+      {
+        "label": "LOCALIDAD",
+        "field": "f012",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Ej: 0 11 4347 9580. Ej: 0 11 15 50000000.",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Contacto",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "TELÉFONO FIJO DE REFERENCIA",
+        "field": "f013",
+        "source_page": 1
+      },
+      {
+        "label": "CELULAR DE REFERENCIA",
+        "field": "f014",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "E-MAIL",
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Destinatario",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "APELLIDO/S Y NOMBRE/S",
+        "field": "f016",
+        "source_page": 1
+      },
+      {
+        "label": "DIRECCIÓN",
+        "field": "f017",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Remitente",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "APELLIDO/S Y NOMBRE/S",
+        "field": "f018",
+        "source_page": 1
+      },
+      {
+        "label": "DIRECCIÓN",
+        "field": "f019",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Usuario",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "DATOS DEL USUARIO DEL SERVICIO POSTAL",
+        "field": "f020",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Firma",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FIRMA Y ACLARACIÓN",
+        "field": "f021",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Reclamo sobre servicios postales, F.37d / Página 2",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "F.37d - HOJA 2/6",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Prestador",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "DATOS DEL PRESTADOR",
+        "field": "f022",
+        "source_page": 2
+      },
+      {
+        "label": "DENOMINACIÓN DEL PRESTADOR POSTAL",
+        "field": "f023",
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Reclamo previo",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "¿REALIZÓ RECLAMO ANTE EL PRESTADOR?",
+        "field": "f024",
+        "source_page": 2
+      },
+      {
+        "label": "NÚMERO DE RECLAMO OTORGADO",
+        "field": "f025",
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "FECHA DE RECLAMO",
+        "field": "f026",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Respuesta previa",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "¿RECIBIÓ RESPUESTA DEL PRESTADOR?",
+        "field": "f027",
+        "source_page": 2
+      },
+      {
+        "label": "FECHA DE RESPUESTA",
+        "field": "f028",
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Servicio",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "TIPO",
+        "field": "f029",
+        "source_page": 2
+      },
+      {
+        "label": "NÚMERO IDENTIFICATORIO",
+        "field": "f030",
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Ámbito del envío",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "DESCRIPCIÓN DEL SERVICIO O PRODUCTO POSTAL MOTIVO DEL RECLAMO",
+        "field": "f031",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Servicio nacional",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "EMPRESA (ENVÍO NACIONAL)",
+        "field": "f032",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Servicio internacional inactivo",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "EMPRESA (ENVÍO INTERNACIONAL)",
+        "field": "f033",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Motivos",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "MOTIVO/S DEL RECLAMO / CONSULTA",
+        "field": "f034",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Detalle de motivos",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "INDICAR SUCURSAL Y HORARIO (MALA ATENCIÓN DEL PRESTADOR)",
+        "field": "f035",
+        "source_page": 2
+      },
+      {
+        "label": "ESPECIFICAR OTROS",
+        "field": "f036",
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Firma",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "FIRMA Y ACLARACIÓN",
+        "field": "f037",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Reclamo sobre servicios postales, F.37d / Página 3",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "F.37d - HOJA 3/6",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Consulta adicional inactiva",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "OTROS MOTIVOS DE CONSULTA",
+        "field": "f038",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Consulta",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "OBSERVACIONES",
+        "field": "f039",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "- NOTA DEL RECLAMANTE A ENACOM. - COPIA DNI (1ra y 2da HOJA). - PODER QUE ACREDITE LA PERSONERÍA (EN CASO DE NO SER EL TITULAR DEL RECLAMO). - COPIA DEL TICKET DE IMPOSICIÓN DEL ENVÍO MOTIVO DEL RECLAMO (EN CASO DE PIEZAS DE CONTROL). - COPIA DEL TICKET DE COMPRA O FACTURA DONDE FIGURE EL MONTO ABONADO PARA LA CONTRATACIÓN DEL SERVICIO.",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Documentación obligatoria",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "OBSERVACIONES",
+        "field": "f040",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Firma",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "FIRMA Y ACLARACIÓN",
+        "field": "f041",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Reclamo sobre servicios postales, F.37d / Página 4",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "F.37d - HOJA 4/6",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "- COPIA DEL RECLAMO ESCRITO REALIZADO ANTE EL PRESTADOR. - COPIA DE LA NOTA DEL PRESTADOR Y/O RESPUESTA .",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "Documentación opcional",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "OBSERVACIONES",
+        "field": "f042",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "Firma",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "FIRMA Y ACLARACIÓN",
+        "field": "f043",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "Reclamo sobre servicios postales, F.37d / Página 5",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "text": "F.37d - HOJA 5/6",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "text": "INSTRUCTIVO PARA COMPLETAR EL FORMULARIO",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "text": "FECHA: Debe marcar la fecha de entrega del presente formulario.",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "text": "DATOS DEL RECLAMANTE",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "text": "RECLAMANTE: Persona que se presenta a formular el reclamo. Puede ser usuario del envío o estar autorizado por el mismo para realizar el presente trámite.",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "text": "TIPO Y NRO. DE DOCUMENTO: Indique su tipo de documento y el número correspondiente.",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "text": "APELLIDO/S Y NOMBRE/S O RAZÓN SOCIAL: Indique el apellido y nombre (persona física). En caso de ser una persona jurídica indique nombre de fantasía o nombre de la empresa o firma comercial, si la misma contrató el servicio.",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "text": "DOMICILIO: Indique el domicilio.",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "text": "TELÉFONO FIJO DE REFERENCIA / CELULAR DE REFERENCIA: Indique algún número de teléfono o celular donde lo podamos contactar.",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "text": "E-MAIL: Indique si posee dirección de correo electrónico.",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "text": "DATOS DEL USUARIO DEL SERVICIO POSTAL",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "text": "USUARIO: Son las personas involucradas en el servicio (remitente y destinatario).",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "text": "Marque con un tilde si usted es remitente o destinatario.",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "text": "DATOS DEL DESTINATARIO: Datos completos del destinatario (nombre, apellido, dirección).",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "text": "DATOS DEL REMITENTE: Datos completos del remitente (nombre, apellido, dirección).",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "text": "DATOS DEL PRESTADOR",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "text": "Marque con un tilde lo que corresponda.",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "text": "OTROS: En caso de no ser una prestadora postal.",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "text": "DENOMINACIÓN DEL PRESTADOR POSTAL: Nombre de la empresa.",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "text": "DATOS DEL SERVICIO O PRODUCTO POSTAL",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "text": "TIPO: PIEZA POSTAL NACIONAL SIMPLE: Carta simple. PIEZA POSTAL INTERNACIONAL ENTRANTE SIMPLE: Carta simple. PIEZA POSTAL INTERNACIONAL ENTRANTE DE REGISTRO: Indique número identificatorio. PIEZA POSTAL INTERNACIONAL SALIENTE DE REGISTRO: Indique número identificatorio. PIEZA POSTAL INTERNACIONAL SALIENTE SIMPLE: Carta simple. PIEZA POSTAL INTERNACIONAL SALIENTE DE REGISTRO: Indique número identificatorio. PIEZA POSTAL INTERNACIONAL SALIENTE SIMPLE: Carta simple.",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "text": "No IDENTIFICATORIO: En el caso de piezas de control.",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "text": "Reclamo sobre servicios postales, F.37d / Página 6",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 6
+      }
+    ],
+    [
+      {
+        "text": "F.37d - HOJA 6/6",
+        "colspan": 2,
+        "source_page": 6
+      }
+    ],
+    [
+      {
+        "text": "MOTIVO/S DEL RECLAMO / CONSULTA",
+        "colspan": 2,
+        "source_page": 6
+      }
+    ],
+    [
+      {
+        "text": "Marque con un tilde lo que corresponda.",
+        "colspan": 2,
+        "source_page": 6
+      }
+    ],
+    [
+      {
+        "text": "FALTA DE ENTREGA: Si la pieza postal no fue entregada. AVERÍA TOTAL: Si la pieza postal o su contenido se encuentra totalmente dañada. EXPOLIACIÓN: Si la pieza postal posee muestras de haber sido violada o si tiene roturas. DEMORA EN LA ENTREGA: Si la pieza postal no llegó en termino. AVERÍA PARCIAL: Si la pieza postal o su contenido se encuentra parcialmente dañada. SUSTRACCIÓN TOTAL DEL CONTENIDO DE LA PIEZA: Si el contenido de la pieza ha llegado vacío a destino. SUSTRACCIÓN PARCIAL DEL CONTENIDO DE LA PIEZA: Si el contenido de la pieza ha llegado parcialmente a destino. MALA ATENCIÓN DEL PRESTADOR: Indique sucursal y horario.",
+        "colspan": 2,
+        "source_page": 6
+      }
+    ],
+    [
+      {
+        "text": "OTROS: FALTA DE PRESTACIÓN DEL SERVICIO POSTAL BÁSICO UNIVERSAL POR PARTE DEL CONCESIONARIO DEL CORREO OFICIAL: Se trata de los siguientes servicios: (I) la carta simple de hasta 20 gramos, (II) telegrama de hasta 20 palabras y (III) el giro postal de hasta $ 1.000. Indique el servicio y la zona del país en que no se estaría prestando. AUMENTO DE LAS TARIFAS DEL SERVICIO POSTAL BÁSICO UNIVERSAL: Indique que servicio. FALTA DE PRESTACIÓN DE LOS SERVICIOS DE PRESTACIÓN OBLIGATORIA PARA EL CONCESIONARIO DEL CORREO OFICIAL: Se trata de los siguientes servicios: (I) el Servicio Postal Básico Universal, (II) comunicaciones fehacientes, incluyendo los telegramas y cartas documento regulados por las leyes 23.789 y 24.487, (III) emisión de sellos postales y prestaciones filatélicas, (IV) servicio electoral nacional, provincial y/o municipal, siempre y cuando le sea requerido, (V) servicio telegráfico, mientras sea considerado un servicio insustituible, (VI) encomiendas y (VII) los servicios gratuitos de cecogramas. Indique cuál de éstos servicios no habría sido prestado por el concesionario y en qué zona.",
+        "colspan": 2,
+        "source_page": 6
+      }
+    ],
+    [
+      {
+        "text": "DETALLE DE LA DOCUMENTACIÓN OBLIGATORIA",
+        "colspan": 2,
+        "source_page": 6
+      }
+    ],
+    [
+      {
+        "text": "NOTA DEL RECLAMANTE A ENACOM: Deberá exponer los acontecimientos y su petición en términos claros y precisos.",
+        "colspan": 2,
+        "source_page": 6
+      }
+    ],
+    [
+      {
+        "text": "PODER QUE ACREDITE LA PERSONERÍA: En caso de no ser titular* del reclamo, deberá presentar poder o autorización del mismo habilitando a tramitarlo en su nombre.",
+        "colspan": 2,
+        "source_page": 6
+      }
+    ],
+    [
+      {
+        "text": "COPIA DEL TICKET DE IMPOSICIÓN DEL ENVÍO MOTIVO DEL RECLAMO: Deberá presentar copia LEGIBLE del ticket en donde figure el monto abonado, descripción del servicio por parte de la empresa y, de ser el caso, el número identificatorio de la pieza en cuestión.",
+        "colspan": 2,
+        "source_page": 6
+      }
+    ],
+    [
+      {
+        "text": "* Titular: a quien pertenece el envío motivo del reclamo. Según la Ley de Correos 20.216, art. 17: “El envío postal pertenecerá al expedidor hasta tanto no haya sido entregado al destinatario o a la persona autorizada para recibirlo”, por tanto el envío pertenece al remitente hasta el momento en que el mismo sea recibido por el destinatario.",
+        "colspan": 2,
+        "source_page": 6
+      }
+    ]
+  ],
+  "context": "ESCENARIO COMPLETAMENTE SINTÉTICO. No identifica personas, empresas, bienes ni actuaciones reales. Las firmas y los asientos administrativos son representaciones textuales ficticias, sin validez oficial.\nLas menciones de no aplicación son estados explícitos del escenario, no datos deducidos del formulario.\nPágina 1 / Registro / NÚMERO DE RECLAMO / CONSULTA: ENACOM-SINT-798-01\nPágina 1 / Registro / FECHA: 19/10/2026\nPágina 1 / Reclamante / TIPO: Reclamante / TIPO: DNI.\nPágina 1 / Reclamante / PROVINCIA: Reclamante / PROVINCIA: BUENOS AIRES.\nPágina 1 / Reclamante / NÚMERO DE DOCUMENTO: DNI sintético 33.798.614\nPágina 1 / Reclamante / APELLIDO/S Y NOMBRE/S O RAZÓN SOCIAL: Marina Salcedo\nPágina 1 / Domicilio / CALLE / RUTA / Km. / PARAJE / CIRCUNSCRIPCIÓN / Etc.: Calle del Correo\nPágina 1 / Domicilio / NÚMERO: 418\nPágina 1 / Domicilio / PISO: 2\nPágina 1 / Domicilio / OF. / DTO.: B\nPágina 1 / Domicilio / C.P.A.: B1900ABC\nPágina 1 / Domicilio / LOCALIDAD: La Plata\nPágina 1 / Contacto / TELÉFONO FIJO DE REFERENCIA: 0221 555 7981\nPágina 1 / Contacto / CELULAR DE REFERENCIA: 0221 15 5557982\nPágina 1 / Contacto / E-MAIL: marina.salcedo@example.invalid\nPágina 1 / Destinatario / APELLIDO/S Y NOMBRE/S: Marina Salcedo\nPágina 1 / Destinatario / DIRECCIÓN: Calle del Correo 418, piso 2, B, La Plata B1900ABC\nPágina 1 / Remitente / APELLIDO/S Y NOMBRE/S: Julia Roldán\nPágina 1 / Remitente / DIRECCIÓN: Calle del Río 67, Rosario S2000ABC\nPágina 1 / Usuario / DATOS DEL USUARIO DEL SERVICIO POSTAL: Usuario / DATOS DEL USUARIO DEL SERVICIO POSTAL: ES DESTINATARIO DEL ENVÍO POSTAL.\nPágina 1 / Firma / FIRMA Y ACLARACIÓN: Firma sintética de Marina Salcedo; Marina Salcedo\nPágina 2 / Prestador / DATOS DEL PRESTADOR: Prestador / DATOS DEL PRESTADOR: PRESTADOR POSTAL.\nPágina 2 / Prestador / DENOMINACIÓN DEL PRESTADOR POSTAL: Correo Sintético del Litoral SA\nPágina 2 / Reclamo previo / ¿REALIZÓ RECLAMO ANTE EL PRESTADOR?: Reclamo previo / ¿REALIZÓ RECLAMO ANTE EL PRESTADOR?: SÍ.\nPágina 2 / Reclamo previo / NÚMERO DE RECLAMO OTORGADO: CSL-SINT-10842\nPágina 2 / Reclamo previo / FECHA DE RECLAMO: 09/10/2026\nPágina 2 / Respuesta previa / ¿RECIBIÓ RESPUESTA DEL PRESTADOR?: Respuesta previa / ¿RECIBIÓ RESPUESTA DEL PRESTADOR?: SÍ.\nPágina 2 / Respuesta previa / FECHA DE RESPUESTA: 13/10/2026\nPágina 2 / Servicio / TIPO: Encomienda nacional registrada; paquete de libros, entrega prevista 07/10/2026. Respuesta del prestador indica búsqueda en curso y el envío sigue sin entregar.\nPágina 2 / Servicio / NÚMERO IDENTIFICATORIO: PK-SINT-798614-AR\nPágina 2 / Ámbito del envío / DESCRIPCIÓN DEL SERVICIO O PRODUCTO POSTAL MOTIVO DEL RECLAMO: Ámbito del envío / DESCRIPCIÓN DEL SERVICIO O PRODUCTO POSTAL MOTIVO DEL RECLAMO: ENVÍO NACIONAL.\nPágina 2 / Servicio nacional / EMPRESA (ENVÍO NACIONAL): Correo Sintético del Litoral SA\nPágina 2 / Servicio internacional inactivo / EMPRESA (ENVÍO INTERNACIONAL): No interviene empresa internacional: envío nacional Rosario-La Plata.\nPágina 2 / Motivos / MOTIVO/S DEL RECLAMO / CONSULTA: Motivos / MOTIVO/S DEL RECLAMO / CONSULTA: FALTA DE ENTREGA, DEMORA EN LA ENTREGA.\nPágina 2 / Detalle de motivos / INDICAR SUCURSAL Y HORARIO (MALA ATENCIÓN DEL PRESTADOR): No se reclama mala atención presencial; no se indica sucursal ni horario.\nPágina 2 / Detalle de motivos / ESPECIFICAR OTROS: No se invocan otros motivos: la petición es localizar y entregar el paquete registrado.\nPágina 2 / Firma / FIRMA Y ACLARACIÓN: Firma sintética de Marina Salcedo; Marina Salcedo\nPágina 3 / Consulta adicional inactiva / OTROS MOTIVOS DE CONSULTA: Consulta adicional inactiva / OTROS MOTIVOS DE CONSULTA: sin selección. Este expediente sintético inicia el reclamo postal de la página 2; no formula otra consulta administrativa.\nPágina 3 / Consulta / OBSERVACIONES: La destinataria solicita intervención para localizar y entregar el paquete. No hay reclamos previos ante ENACOM; sólo el reclamo CSL-SINT-10842 ante el prestador.\nPágina 3 / Documentación obligatoria / OBSERVACIONES: Se acompañan nota sintética firmada, copia ficticia de DNI, ticket simulado de imposición PK-SINT-798614-AR, comprobante sintético de contratación y autorización sintética de Julia Roldán, remitente y titular del envío, para que Marina Salcedo tramite este reclamo en su nombre.\nPágina 3 / Firma / FIRMA Y ACLARACIÓN: Firma sintética de Marina Salcedo; Marina Salcedo\nPágina 4 / Documentación opcional / OBSERVACIONES: Se adjuntan copias sintéticas del reclamo del 09/10/2026 y de la respuesta del 13/10/2026. Ningún documento adjunto representa una actuación o identidad real.\nPágina 4 / Firma / FIRMA Y ACLARACIÓN: Firma sintética de Marina Salcedo; Marina Salcedo",
+  "workflow_identity": {
+    "language": "es",
+    "id": 798
+  }
+}

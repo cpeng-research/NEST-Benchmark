@@ -1,0 +1,314 @@
+{
+  "Page 1": {
+    "Identification du bordereau": {
+      "Page n°": "1/2",
+      "Bordereau n° :": "BSD-FICT-787"
+    },
+    "1. Émetteur du bordereau": {
+      "N° SIRET :": "00000078700015",
+      "NOM :": "Bois Démonstration SAS",
+      "Adresse :": "116 rue Exemple, Lyon",
+      "Tél.": "0100000787",
+      "Fax": "0100000799",
+      "Mél": "dechets787@example.org",
+      "Personne à contacter :": "Camille ROUX",
+      "Qualité de l’émetteur": {
+        "choices": [
+          "Producteur du déchet",
+          "Collecteur de petites quantités de déchets relevant d’une même rubrique (joindre annexe 1)",
+          "Personne ayant transformé ou réalisé un traitement dont la provenance des déchets reste identifiable (joindre annexe 2)",
+          "Autre détenteur"
+        ],
+        "value": [
+          "Producteur du déchet"
+        ]
+      }
+    },
+    "2. Installation prévue": {
+      "N° SIRET :": "00000078700114",
+      "NOM :": "Stockage Démonstration",
+      "Adresse :": "118 rue Exemple, Lyon",
+      "Tél.": "0100001787",
+      "Fax": "0100001799",
+      "Mél": "dechets787@example.org",
+      "Personne à contacter :": "Camille ROUX",
+      "Entreposage provisoire ou reconditionnement": {
+        "choices": [
+          "oui (cadres 13 à 19 à remplir)",
+          "non"
+        ],
+        "value": [
+          "oui (cadres 13 à 19 à remplir)"
+        ]
+      },
+      "N° de CAP (le cas échéant) :": "CAP-FICT-787-ST",
+      "Opération d’élimination / valorisation prévue (code D/R) :": "R13"
+    },
+    "3. Dénomination du déchet": {
+      "Rubrique déchet :": "17 02 01",
+      "Dénomination usuelle :": "Bois non dangereux de démonstration",
+      "Consistance :": {
+        "choices": [
+          "solide",
+          "liquide",
+          "gazeux"
+        ],
+        "value": [
+          "solide"
+        ]
+      }
+    },
+    "4. Transport réglementé": {
+      "Mentions au titre des règlements ADR, RID, ADNR, IMDG (le cas échéant)": "Sans objet : bois non dangereux, scénario fictif"
+    },
+    "5. Conditionnement": {
+      "Conditionnement:": {
+        "choices": [
+          "benne",
+          "citerne",
+          "GRV",
+          "fût",
+          "autre (préciser)"
+        ],
+        "value": [
+          "benne"
+        ]
+      },
+      "Autre conditionnement / précision": "Sans objet : benne",
+      "Nombre de colis :": "1"
+    },
+    "6. Quantité": {
+      "Masse en tonnes": "2,400",
+      "Nature de la quantité": {
+        "choices": [
+          "réelle",
+          "estimée"
+        ],
+        "value": [
+          "réelle"
+        ]
+      }
+    },
+    "7. Négociant (le cas échéant)": {
+      "N° SIREN :": "000000787",
+      "NOM :": "Négoce Démonstration",
+      "Adresse :": "120 rue Exemple, Lyon",
+      "Tél.": "0100002787",
+      "Fax": "0100002799",
+      "Mél": "dechets787@example.org",
+      "Personne à contacter :": "Camille ROUX",
+      "Récépissé n° :": "REC-FICT-NEGO-787",
+      "Département :": "69",
+      "Limite de validité :": "31/12/2027"
+    },
+    "8. Collecteur-transporteur": {
+      "N° SIREN :": "000001787",
+      "NOM :": "Transport Initial Démonstration",
+      "Adresse :": "108 rue Exemple, Lyon",
+      "Tél.": "0100003787",
+      "Fax": "0100003799",
+      "Mél": "dechets787@example.org",
+      "Personne à contacter :": "Camille ROUX",
+      "Récépissé": "REC-FICT-8-787",
+      "Département :": "69",
+      "Limite de validité :": "31/12/2027",
+      "Mode de transport :": "Route",
+      "Date de prise en charge :": "20/10/2026",
+      "Signature": "Camille ROUX, signature fictive du transporteur 8",
+      "Transport multimodal (Cadres 20 et 21 à remplir)": {
+        "choices": [
+          "Transport multimodal (Cadres 20 et 21 à remplir)"
+        ],
+        "value": []
+      }
+    },
+    "9. Déclaration générale de l’émetteur": {
+      "NOM :": "Léa MOREAU",
+      "Date :": "20/10/2026",
+      "Signature et cachet :": "Léa MOREAU, signature et cachet fictifs"
+    },
+    "10. Expédition reçue à l’installation de destination": {
+      "N° SIRET :": "00000078700213",
+      "NOM :": "Recyclage Démonstration",
+      "Adresse :": "122 rue Exemple, Lyon",
+      "Personne à contacter :": "Nora LECLERC",
+      "Quantité réelle présentée :": "2,400",
+      "Date de présentation :": "23/10/2026",
+      "Lot accepté :": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": [
+          "oui"
+        ]
+      },
+      "Motif de refus :": "Aucun refus : lot accepté",
+      "Signataire :": "Nora LECLERC",
+      "Signature et cachet :": "Nora LECLERC, signature et cachet fictifs",
+      "Date :": "23/10/2026"
+    },
+    "11. Réalisation de l’opération": {
+      "Code D/R :": "R3",
+      "Description :": "Recyclage fictif du bois non dangereux",
+      "NOM :": "Nora LECLERC",
+      "Date :": "24/10/2026",
+      "Signature et cachet :": "Nora LECLERC, signature et cachet fictifs"
+    },
+    "12. Destination ultérieure prévue": {
+      "N° SIRET :": "Sans SIRET : traitement final",
+      "NOM :": "Aucune destination ultérieure",
+      "Adresse :": "Sans adresse après valorisation finale",
+      "Traitement prévu (code D/R) :": "Aucun traitement supplémentaire",
+      "Personne à contacter :": "Aucun contact ultérieur",
+      "Tél.": "Sans téléphone ultérieur",
+      "Fax": "Sans fax ultérieur",
+      "Mél": "Sans courriel ultérieur"
+    }
+  },
+  "Page 2": {
+    "Bordereau, suite": {
+      "Page n°": "2/2",
+      "N° du bordereau de rattachement :": "BSD-FICT-787"
+    },
+    "13. Réception dans l’installation d’entreposage ou de reconditionnement": {
+      "N° SIRET :": "00000078700114",
+      "NOM :": "Stockage Démonstration",
+      "Adresse :": "118 rue Exemple, Lyon",
+      "Quantité présentée :": "2,400",
+      "Type de masse": {
+        "choices": [
+          "réelle",
+          "estimée"
+        ],
+        "value": [
+          "réelle"
+        ]
+      },
+      "Date de présentation :": "20/10/2026",
+      "Lot accepté :": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": [
+          "oui"
+        ]
+      },
+      "Motif de refus :": "Aucun motif : accepté",
+      "Date :": "20/10/2026",
+      "Signature et cachet :": "Alex DURAND, signature et cachet fictifs"
+    },
+    "14. Installation de destination prévue": {
+      "N° SIRET :": "00000078700213",
+      "NOM :": "Recyclage Démonstration",
+      "Adresse :": "122 rue Exemple, Lyon",
+      "Tél.": "0100004787",
+      "Fax": "0100004799",
+      "Mél": "dechets787@example.org",
+      "Personne à contacter :": "Camille ROUX",
+      "N° de CAP (le cas échéant) :": "CAP-FICT-787-FINAL",
+      "Opération d’élimination / valorisation prévue (code D/R) :": "R3",
+      "Cadre 14 rempli par :": {
+        "choices": [
+          "Émetteur du bordereau (cf cadre 1)",
+          "Installation d’entreposage ou de reconditionnement (cf cadre 13)"
+        ],
+        "value": [
+          "Installation d’entreposage ou de reconditionnement (cf cadre 13)"
+        ]
+      }
+    },
+    "15. Transport après reconditionnement": {
+      "Mentions au titre des règlements ADR, RID, ADNR, IMDG (le cas échéant) :": "Sans objet : bois non dangereux reconditionné"
+    },
+    "16. Conditionnement": {
+      "Conditionnement:": {
+        "choices": [
+          "benne",
+          "citerne",
+          "GRV",
+          "fût",
+          "autre (préciser)"
+        ],
+        "value": [
+          "GRV"
+        ]
+      },
+      "Autre conditionnement / précision": "Sans objet : GRV",
+      "Nombre de colis :": "3"
+    },
+    "17. Quantité": {
+      "Masse en tonnes": "2,400",
+      "Nature de la quantité": {
+        "choices": [
+          "réelle",
+          "estimée"
+        ],
+        "value": [
+          "réelle"
+        ]
+      }
+    },
+    "18. Collecteur-transporteur": {
+      "N° SIREN :": "000002787",
+      "NOM :": "Rail Démonstration",
+      "Adresse :": "118 rue Exemple, Lyon",
+      "Tél.": "0100006787",
+      "Fax": "0100006799",
+      "Mél": "dechets787@example.org",
+      "Personne à contacter :": "Camille ROUX",
+      "Récépissé": "REC-FICT-18-787",
+      "Département :": "69",
+      "Limite de validité :": "31/12/2027",
+      "Mode de transport :": "Rail",
+      "Date de la prise en charge :": "21/10/2026",
+      "Signature": "Camille ROUX, signature fictive du transporteur 18",
+      "Transport multimodal (Cadres 20 et 21 à remplir)": {
+        "choices": [
+          "Transport multimodal (Cadres 20 et 21 à remplir)"
+        ],
+        "value": [
+          "Transport multimodal (Cadres 20 et 21 à remplir)"
+        ]
+      }
+    },
+    "19. Déclaration de l’exploitant du site d’entreposage": {
+      "NOM :": "Alex DURAND",
+      "Date :": "21/10/2026",
+      "Signature et cachet :": "Alex DURAND, signature et cachet fictifs"
+    },
+    "20. Collecteur-transporteur": {
+      "N° SIREN :": "000003787",
+      "NOM :": "Transport Relais Démonstration",
+      "Adresse :": "120 rue Exemple, Lyon",
+      "Tél.": "0100007787",
+      "Fax": "0100007799",
+      "Mél": "dechets787@example.org",
+      "Personne à contacter :": "Camille ROUX",
+      "Numéro du transporteur": "2",
+      "Récépissé": "REC-FICT-20-787",
+      "Département :": "69",
+      "Limite de validité :": "31/12/2027",
+      "Mode de transport :": "Route",
+      "Date de prise en charge :": "22/10/2026",
+      "Signature": "Camille ROUX, signature fictive du transporteur 20"
+    },
+    "21. Collecteur-transporteur": {
+      "N° SIREN :": "000004787",
+      "NOM :": "Transport Final Démonstration",
+      "Adresse :": "121 rue Exemple, Lyon",
+      "Tél.": "0100008787",
+      "Fax": "0100008799",
+      "Mél": "dechets787@example.org",
+      "Personne à contacter :": "Camille ROUX",
+      "Numéro du transporteur": "3",
+      "Récépissé": "REC-FICT-21-787",
+      "Département :": "69",
+      "Limite de validité :": "31/12/2027",
+      "Mode de transport :": "Route",
+      "Date de prise en charge :": "23/10/2026",
+      "Signature": "Camille ROUX, signature fictive du transporteur 21"
+    }
+  }
+}

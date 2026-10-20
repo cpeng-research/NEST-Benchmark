@@ -1,0 +1,199 @@
+{
+  "Página 1": {
+    "Registro": {
+      "NÚMERO DE RECLAMO / CONSULTA": "",
+      "FECHA": ""
+    },
+    "Reclamante": {
+      "TIPO": {
+        "choices": [
+          "DNI",
+          "LE",
+          "LC",
+          "DU",
+          "CI",
+          "PAS",
+          "PASE",
+          "DIE",
+          "CUIL",
+          "CUIT"
+        ],
+        "value": []
+      },
+      "PROVINCIA": {
+        "choices": [
+          "BUENOS AIRES",
+          "CATAMARCA",
+          "CHACO",
+          "CHUBUT",
+          "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+          "CÓRDOBA",
+          "CORRIENTES",
+          "ENTRE RÍOS",
+          "FORMOSA",
+          "JUJUY",
+          "LA PAMPA",
+          "LA RIOJA",
+          "MENDOZA",
+          "MISIONES",
+          "NEUQUÉN",
+          "RÍO NEGRO",
+          "SALTA",
+          "SAN JUAN",
+          "SAN LUIS",
+          "SANTA CRUZ",
+          "SANTA FE",
+          "SANTIAGO DEL ESTERO",
+          "TIERRA DEL FUEGO, ANTÁRTIDA E ISLAS DEL ATLÁNTICO SUR",
+          "TUCUMÁN"
+        ],
+        "value": []
+      },
+      "NÚMERO DE DOCUMENTO": "",
+      "APELLIDO/S Y NOMBRE/S O RAZÓN SOCIAL": ""
+    },
+    "Domicilio": {
+      "CALLE / RUTA / Km. / PARAJE / CIRCUNSCRIPCIÓN / Etc.": "",
+      "NÚMERO": "",
+      "PISO": "",
+      "OF. / DTO.": "",
+      "C.P.A.": "",
+      "LOCALIDAD": ""
+    },
+    "Contacto": {
+      "TELÉFONO FIJO DE REFERENCIA": "",
+      "CELULAR DE REFERENCIA": "",
+      "E-MAIL": ""
+    },
+    "Destinatario": {
+      "APELLIDO/S Y NOMBRE/S": "",
+      "DIRECCIÓN": ""
+    },
+    "Remitente": {
+      "APELLIDO/S Y NOMBRE/S": "",
+      "DIRECCIÓN": ""
+    },
+    "Usuario": {
+      "DATOS DEL USUARIO DEL SERVICIO POSTAL": {
+        "choices": [
+          "ES DESTINATARIO DEL ENVÍO POSTAL",
+          "ES REMITENTE DEL ENVÍO POSTAL"
+        ],
+        "value": []
+      }
+    },
+    "Firma": {
+      "FIRMA Y ACLARACIÓN": ""
+    }
+  },
+  "Página 2": {
+    "Prestador": {
+      "DATOS DEL PRESTADOR": {
+        "choices": [
+          "CORREO OFICIAL",
+          "PRESTADOR POSTAL",
+          "OTROS"
+        ],
+        "value": []
+      },
+      "DENOMINACIÓN DEL PRESTADOR POSTAL": ""
+    },
+    "Reclamo previo": {
+      "¿REALIZÓ RECLAMO ANTE EL PRESTADOR?": {
+        "choices": [
+          "SÍ",
+          "NO"
+        ],
+        "value": []
+      },
+      "NÚMERO DE RECLAMO OTORGADO": "",
+      "FECHA DE RECLAMO": ""
+    },
+    "Respuesta previa": {
+      "¿RECIBIÓ RESPUESTA DEL PRESTADOR?": {
+        "choices": [
+          "SÍ",
+          "NO"
+        ],
+        "value": []
+      },
+      "FECHA DE RESPUESTA": ""
+    },
+    "Servicio": {
+      "TIPO": "",
+      "NÚMERO IDENTIFICATORIO": ""
+    },
+    "Ámbito del envío": {
+      "DESCRIPCIÓN DEL SERVICIO O PRODUCTO POSTAL MOTIVO DEL RECLAMO": {
+        "choices": [
+          "ENVÍO NACIONAL",
+          "ENVÍO INTERNACIONAL"
+        ],
+        "value": []
+      }
+    },
+    "Servicio nacional": {
+      "EMPRESA (ENVÍO NACIONAL)": ""
+    },
+    "Servicio internacional inactivo": {
+      "EMPRESA (ENVÍO INTERNACIONAL)": ""
+    },
+    "Motivos": {
+      "MOTIVO/S DEL RECLAMO / CONSULTA": {
+        "choices": [
+          "FALTA DE ENTREGA",
+          "AVERÍA TOTAL",
+          "EXPOLIACIÓN",
+          "DEMORA EN LA ENTREGA",
+          "AVERÍA PARCIAL",
+          "SUSTRACCIÓN TOTAL DEL CONTENIDO",
+          "SUSTRACCIÓN PARCIAL DEL CONTENIDO",
+          "MALA ATENCIÓN DEL PRESTADOR",
+          "OTROS"
+        ],
+        "value": []
+      }
+    },
+    "Detalle de motivos": {
+      "INDICAR SUCURSAL Y HORARIO (MALA ATENCIÓN DEL PRESTADOR)": "",
+      "ESPECIFICAR OTROS": ""
+    },
+    "Firma": {
+      "FIRMA Y ACLARACIÓN": ""
+    }
+  },
+  "Página 3": {
+    "Consulta adicional inactiva": {
+      "OTROS MOTIVOS DE CONSULTA": {
+        "choices": [
+          "CÓMO REALIZAR UN RECLAMO ANTE ENACOM",
+          "FALTA DE ATENCIÓN EN LAS DELEGACIONES",
+          "RECLAMOS PRESENTADOS EN ENACOM",
+          "TRÁMITES EN OTRAS DEPENDENCIAS DE ENACOM",
+          "ADJUNTOS NO TRAMITADOS",
+          "QUEJAS DE USUARIOS",
+          "RECLAMOS O CONSULTAS EN EL CAU",
+          "OTROS MOTIVOS"
+        ],
+        "value": []
+      }
+    },
+    "Consulta": {
+      "OBSERVACIONES": ""
+    },
+    "Documentación obligatoria": {
+      "OBSERVACIONES": ""
+    },
+    "Firma": {
+      "FIRMA Y ACLARACIÓN": ""
+    }
+  },
+  "Página 4": {
+    "Documentación opcional": {
+      "OBSERVACIONES": ""
+    },
+    "Firma": {
+      "FIRMA Y ACLARACIÓN": ""
+    }
+  }
+}

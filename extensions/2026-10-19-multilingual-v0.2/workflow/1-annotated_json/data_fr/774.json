@@ -1,0 +1,166 @@
+{
+  "Page 1": {
+    "FICHE D'INTERVENTION": {
+      "Fiche N° :": "",
+      "OPERATEUR (Nom, adresse et SIRET) :": "",
+      "N° d'attestation de capacité :": "",
+      "DETENTEUR (Nom, adresse et SIRET) :": ""
+    },
+    "[3] Équipement concerné :": {
+      "Identification :": "",
+      "Dénomination du fluide :": "",
+      "Charge totale :": "",
+      "Tonnage équivalent CO2 :": ""
+    },
+    "[4] Nature de l'intervention :": {
+      "Nature de l'intervention :": {
+        "choices": [
+          "Assemblage de l'équipement",
+          "Mise en service de l'équipement",
+          "Modification de l'équipement",
+          "Maintenance de l'équipement",
+          "Contrôle d'étanchéité périodique",
+          "Contrôle d'étanchéité non périodique",
+          "Démantèlement",
+          "Autre (préciser) :"
+        ],
+        "value": []
+      },
+      "Autre (préciser) :": ""
+    },
+    "Contrôle d’étanchéité": {
+      "Identification": "",
+      "Contrôlé le": "",
+      "Présence d'un système permanent de détection de fuites :": {
+        "choices": [
+          "OUI",
+          "NON"
+        ],
+        "value": []
+      },
+      "HCFC": {
+        "choices": [
+          "2 kg ≤ Q < 30 kg",
+          "30 kg ≤ Q < 300 kg",
+          "Q ≥ 300 kg"
+        ],
+        "value": []
+      },
+      "HFC / PFC": {
+        "choices": [
+          "5 t ≤ teqCO2 < 50 t",
+          "50 t ≤ teqCO2 < 500 t",
+          "teqCO2 ≥ 500 t"
+        ],
+        "value": []
+      },
+      "HFO": {
+        "choices": [
+          "1kg ≤ Q < 10 kg",
+          "10 kg ≤ Q < 100 kg",
+          "Q ≥ 100 kg"
+        ],
+        "value": []
+      },
+      "Équip. HCFC, HFC et HFO sans système permanent de détection des fuites": {
+        "choices": [
+          "12 mois",
+          "6 mois",
+          "3 mois"
+        ],
+        "value": []
+      },
+      "Équipements HFC et HFO avec système permanent de détection des fuites": {
+        "choices": [
+          "24 mois",
+          "12 mois",
+          "6 mois"
+        ],
+        "value": []
+      },
+      "Fuites constatées lors du contrôle d'étanchéité": {
+        "choices": [
+          "OUI",
+          "NON"
+        ],
+        "value": []
+      },
+      "Localisation de la fuite": "",
+      "Fuite 1": {
+        "choices": [
+          "Réalisée",
+          "A faire"
+        ],
+        "value": []
+      },
+      "Localisation de la fuite (2)": "",
+      "Fuite 2": {
+        "choices": [
+          "Réalisée",
+          "A faire"
+        ],
+        "value": []
+      },
+      "Localisation de la fuite (3)": "",
+      "Fuite 3": {
+        "choices": [
+          "Réalisée",
+          "A faire"
+        ],
+        "value": []
+      }
+    },
+    "[11] Manipulation du fluide frigorigène": {
+      "Quantité chargée totale (A+B+C) :": "",
+      "A - Dont fluide vierge :": "",
+      "Dénomination du fluide chargé si changement :": "",
+      "B - Dont fluide recyclé (fluide récupéré et réintroduit) :": "",
+      "C - Dont fluide régénéré :": "",
+      "Quantité de fluide récupérée totale (D+E) :": "",
+      "D - Dont fluide destiné au traitement": "",
+      "Si connu, numéro du BSFF (Trackdéchets)": "",
+      "E - Dont fluide conservé pour réutilisation (réintroduction)": "",
+      "Identification du ou des contenants": ""
+    },
+    "[12] Dénomination ADR/RID": {
+      "UN 1078, Déchet Gaz frigorifique NSA (Gaz réfrigérant, NSA), 2.2 (C/E)": {
+        "choices": [
+          "UN 1078, Déchet Gaz frigorifique NSA (Gaz réfrigérant, NSA), 2.2 (C/E)"
+        ],
+        "value": []
+      },
+      "Autres fluides frigorigènes non-inflammables :": {
+        "choices": [
+          "Autres fluides frigorigènes non-inflammables :"
+        ],
+        "value": []
+      },
+      "UN 3161, Déchet Gaz liquéfié inflammable NSA, 2.1 (B/D)": {
+        "choices": [
+          "UN 3161, Déchet Gaz liquéfié inflammable NSA, 2.1 (B/D)"
+        ],
+        "value": []
+      },
+      "Autres fluides frigorigènes inflammables :": {
+        "choices": [
+          "Autres fluides frigorigènes inflammables :"
+        ],
+        "value": []
+      },
+      "Autres fluides frigorigènes non-inflammables : (2)": "",
+      "Autres fluides frigorigènes inflammables : (2)": "",
+      "Installation prévue de destination du fluide récupéré (Nom, SIRET, adresse)": "",
+      "Observations :": ""
+    },
+    "Opérateur": {
+      "Nom du Signataire :": "",
+      "Qualité du Signataire :": "",
+      "Date et signature :": ""
+    },
+    "Détenteur": {
+      "Nom du Signataire :": "",
+      "Qualité du Signataire :": "",
+      "Date et signature :": ""
+    }
+  }
+}

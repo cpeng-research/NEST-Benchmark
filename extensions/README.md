@@ -6,15 +6,17 @@ the main workflow files are retained.
 
 ## Current Inventory
 
-The combined text-task inventory contains **1,300 distinct language/ID records**:
-449 English, 431 Chinese, 215 Spanish, and 205 French. The main `workflow/`
-contains 869 records, and versioned additions supply 431 more.
+The combined text-task inventory contains **1,500 distinct language/ID records**:
+449 English, 431 Chinese, 315 Spanish, and 305 French. The main `workflow/`
+contains 869 records, and versioned additions supply 631 more.
 
 | Release index | Added templates | Combined inventory |
 | --- | ---: | ---: |
 | [Through early October 2026](RELEASE_1100.md) | 231 beyond the main workflow | 1,100 |
 | [15 October 2026](RELEASE_1200.md) | 100 in 26 batches | 1,200 |
 | [16 October 2026](RELEASE_1300.md) | 100 in 37 batches | 1,300 |
+| [19 October 2026, first increment](RELEASE_1400.md) | 100 in one batch | 1,400 |
+| [19 October 2026, second increment](RELEASE_1500.md) | 100 in one batch | 1,500 |
 
 Each release index lists its batch paths, sample IDs, language and domain
 coverage. The 41 September additions already integrated into the main workflow

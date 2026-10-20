@@ -1,0 +1,74 @@
+{
+  "Página 1": {
+    "Solicitud": {
+      "Solicitud de": {
+        "choices": [
+          "Certificado Tipo",
+          "Certificado de Producción",
+          "Certificado Tipo Suplementario",
+          "Reconocimiento de Certificado Tipo o Certificado Tipo Suplementario",
+          "Enmienda de Certificado Tipo",
+          "Enmienda Certificado Tipo Suplementario"
+        ],
+        "value": []
+      },
+      "Producto": {
+        "choices": [
+          "Aeronave",
+          "Motor de Aeronave",
+          "Hélice"
+        ],
+        "value": []
+      }
+    },
+    "Solicitante": {
+      "Nombre del solicitante": "",
+      "Domicilio": "",
+      "Localidad / Provincia": "",
+      "Código postal": "",
+      "País": ""
+    },
+    "Certificado tipo": {
+      "Designación(es) de modelo": ""
+    },
+    "Producción": {
+      "Domicilio de la fábrica (si fuese diferente de la anterior)": "",
+      "CP No": "",
+      "CT / CTS Nº": "",
+      "Solicitud para": {
+        "choices": [
+          "Nuevo Certificado de producción",
+          "Incorporaciones en el Certificado De Producción (indique N° de CP)"
+        ],
+        "value": []
+      }
+    },
+    "Suplementario": {
+      "Designación de marca y modelo del producto a ser modificado": "",
+      "Descripción de la modificación": ""
+    },
+    "Certificación": {
+      "Firma autorizada": "",
+      "Título": "",
+      "Fecha": ""
+    },
+    "Suplementario / datos": {
+      "¿Los datos están disponibles para ser vendidos o transferidos a otras personas?": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": []
+      }
+    },
+    "Suplementario / partes": {
+      "¿Se fabrican partes para la venta?": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": []
+      }
+    }
+  }
+}

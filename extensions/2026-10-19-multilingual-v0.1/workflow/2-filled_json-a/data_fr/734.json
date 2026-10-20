@@ -1,0 +1,115 @@
+{
+  "Page 1": {
+    "A – IDENTIFICATION DE LA CHAMBRE D’HOTE": {
+      "NOM COMMERCIAL DU LOGEMENT (facultatif):": "Maison Exemple",
+      "ADRESSE DU LOGEMENT:": "12 rue Exemple",
+      "CODE POSTAL / COMMUNE (exemple : 37000 Tours) :": "69003 Lyon",
+      "LIEU DIT OU BOITE POSTALE (exemple : Le Bouquet) :": "Sans objet",
+      "Résidence": {
+        "choices": [
+          "RÉSIDENCE PRINCIPALE",
+          "RÉSIDENCE SECONDAIRE"
+        ],
+        "value": [
+          "RÉSIDENCE PRINCIPALE"
+        ]
+      },
+      "Type de logement": {
+        "choices": [
+          "MAISON INDIVIDUELLE",
+          "APPARTEMENT"
+        ],
+        "value": [
+          "MAISON INDIVIDUELLE"
+        ]
+      },
+      "CAPACITÉ D’ACCUEIL :": "6",
+      "NOMBRE DE CHAMBRES D’HOTES :": "3",
+      "ACCESSIBILITÉ AUX PERSONNES HANDICAPÉES :": {
+        "choices": [
+          "OUI",
+          "NON"
+        ],
+        "value": [
+          "OUI"
+        ]
+      }
+    }
+  },
+  "Page 2": {
+    "VALORISATION DU LOGEMENT - suite de la page 1": {
+      "Logement labellisé": {
+        "choices": [
+          "OUI",
+          "NON"
+        ],
+        "value": [
+          "NON"
+        ]
+      },
+      "SI OUI, NOM DU LABEL :": "Sans objet : aucun label",
+      "MISE A DISPOSITION PREVISIONNELLE :": {
+        "choices": [
+          "PERIODIQUE",
+          "TOUTE L’ANNÉE"
+        ],
+        "value": [
+          "TOUTE L’ANNÉE"
+        ]
+      },
+      "QUELLES SONT LES PÉRIODES PRÉVISIONNELLES DE LOCATION ?": "Du 1er janvier au 31 décembre"
+    },
+    "B - IDENTIFICATION DU DÉCLARANT": {
+      "Statut": {
+        "choices": [
+          "PARTICULIER",
+          "PROFESSIONNEL"
+        ],
+        "value": [
+          "PROFESSIONNEL"
+        ]
+      },
+      "NOM:": "MARTIN",
+      "PRÉNOM:": "Camille",
+      "ADRESSE ÉLECTRONIQUE:": "maison@example.org",
+      "N°TÉLÉPHONE:": "0100000734",
+      "RAISON SOCIALE:": "Maison Exemple EI",
+      "N° SIRET/SIREN:": "00000073400019",
+      "ACCEPTEZ-VOUS LA PUBLICATION DE VOTRE HÉBERGEMENT DE TOURISME SUR LE SITE DE LA MAIRIE ET DE L’OFFICE DE TOURISME ?": {
+        "choices": [
+          "OUI",
+          "NON"
+        ],
+        "value": [
+          "OUI"
+        ]
+      }
+    }
+  },
+  "Page 3": {
+    "FAIT A": {
+      "FAIT A": "Lyon",
+      "LE": "19/10/2026",
+      "SIGNATURE": "Camille MARTIN"
+    }
+  },
+  "Page 4": {
+    "Récépissé de déclaration en mairie de location de chambre d’hôte": {
+      "MAIRIE de": "Lyon",
+      "chambre(s) d’hôtes": "3",
+      "pour un accueil maximal de personnes situées à :": "6",
+      "Adresse :": "12 rue Exemple",
+      "Code postal:": "69003",
+      "Commune :": "Lyon",
+      "NOM, Prénom du déclarant :": "Camille MARTIN",
+      "Adresse du déclarant / Adresse:": "12 rue Exemple",
+      "Adresse du déclarant / Code postal:": "69003",
+      "Adresse du déclarant / Commune :": "Lyon",
+      "Adresse du déclarant / Courriel :": "maison@example.org",
+      "Fait à,": "Lyon",
+      "le": "19/10/2026",
+      "Signature du déclarant :": "Camille MARTIN",
+      "Cachet de la mairie": "Mairie fictive de Lyon"
+    }
+  }
+}

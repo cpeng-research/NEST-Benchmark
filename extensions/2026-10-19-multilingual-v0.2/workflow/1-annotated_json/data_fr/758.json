@@ -1,0 +1,391 @@
+{
+  "Page 1": {
+    "Patient": {
+      "Nom* :": "",
+      "Prénom* :": "",
+      "Date de naissance* :": "",
+      "Téléphone :": "",
+      "Courriel :": ""
+    },
+    "Tierce personne": {
+      "Tierce personne": {
+        "choices": [
+          "Représentant légal (obligatoire pour les mineurs)",
+          "Personne de confiance, si l’état clinique du patient ne lui permet pas de répondre à l’investigation de l’ARS"
+        ],
+        "value": []
+      },
+      "Nom :": "",
+      "Prénom :": "",
+      "Téléphone :": "",
+      "Courriel :": ""
+    },
+    "Sexe* :": {
+      "Sexe* :": {
+        "choices": [
+          "F",
+          "M",
+          "I"
+        ],
+        "value": []
+      },
+      "Année de naissance :": "",
+      "Age :": "",
+      "Précisez": {
+        "choices": [
+          "ans",
+          "mois (si < 2 ans)",
+          "jours (si < 1 mois)"
+        ],
+        "value": []
+      },
+      "Code postal du domicile* :": "",
+      "Pays si patient résidant à l’étranger :": "",
+      "Le patient (ou le tiers) est-il informé du diagnostic* ? :": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": []
+      },
+      "L’état clinique du patient lui permet-il de répondre à l’investigation ? :": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": []
+      },
+      "Code d’anonymat (à remplir par l’ARS) :": "",
+      "Date de signalement* :": ""
+    },
+    "Clinique": {
+      "Date de début de l’éruption* :": "",
+      "Fièvre > 38,5° C :": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": []
+      },
+      "Exantheme maculo papuleux :": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": []
+      },
+      "Généralisé :": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": []
+      },
+      "Toux": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": []
+      },
+      "Conjonctivite :": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": []
+      },
+      "Coryza": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": []
+      },
+      "Signe de Köplik :": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": []
+      },
+      "Facteurs de risque :": {
+        "choices": [
+          "non",
+          "femme enceinte",
+          "immunodépression",
+          "nourrisson < 1 an",
+          "Autre :"
+        ],
+        "value": []
+      },
+      "Autre :": "",
+      "Complications": {
+        "choices": [
+          "non",
+          "Encéphalite",
+          "Pneumopathie",
+          "Autre, précisez :"
+        ],
+        "value": []
+      },
+      "Autre, précisez :": "",
+      "Hospitalisation :": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": []
+      },
+      "Si oui, date :": "",
+      "Lieu de l’hospitalisation :": "",
+      "Réanimation :": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": []
+      },
+      "Si oui, date : (2)": "",
+      "Évolution* :": {
+        "choices": [
+          "Guérison",
+          "Encore malade"
+        ],
+        "value": []
+      },
+      "Décès :": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": []
+      },
+      "Si oui, date : (3)": ""
+    },
+    "Biologie": {
+      "Biologie": {
+        "choices": [
+          "En cours",
+          "Non fait"
+        ],
+        "value": []
+      },
+      "Date*": "",
+      "RT-PCR Oro-pharynx": {
+        "choices": [
+          "Positif",
+          "Négatif"
+        ],
+        "value": []
+      },
+      "Date* (2)": "",
+      "RT-PCR Kit salivaire (Oracol©)": {
+        "choices": [
+          "Positif",
+          "Négatif"
+        ],
+        "value": []
+      },
+      "Autre :": "",
+      "Date* (3)": "",
+      "RT-PCR Autre :": {
+        "choices": [
+          "Positif",
+          "Négatif"
+        ],
+        "value": []
+      },
+      "Date* (4)": "",
+      "IgM Sang": {
+        "choices": [
+          "Positif",
+          "Négatif"
+        ],
+        "value": []
+      },
+      "Date* (5)": "",
+      "IgM Kit salivaire (Oracol©)": {
+        "choices": [
+          "Positif",
+          "Négatif"
+        ],
+        "value": []
+      },
+      "Date* (6)": "",
+      "IgG Sang": {
+        "choices": [
+          "Positif",
+          "Négatif"
+        ],
+        "value": []
+      },
+      "Date* (7)": "",
+      "IgG Kit salivaire (Oracol©)": {
+        "choices": [
+          "Positif",
+          "Négatif"
+        ],
+        "value": []
+      },
+      "Séroconversion, ascension des IgG :": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": []
+      },
+      "Date 1er prélèvement :": "",
+      "Date dernier prélèvement :": "",
+      "Kit salivaire (Oracol©) :": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": []
+      },
+      "Autres prélèvements (à compléter par le biologiste ou l’ARS) :": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": []
+      },
+      "Date d’envoi :": "",
+      "Souhaitez-vous recevoir des kits pour prélèvements et envois d’échantillons de salive au CNR (recherche d’IgM/PCR) ?": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": []
+      },
+      "Nombre :": ""
+    },
+    "Exposition(s) à risque": {
+      "Le cas fréquente-t-il une collectivité accueillant des sujets à risque de rougeole grave :": {
+        "choices": [
+          "Accueil petite enfance",
+          "Milieu de soin",
+          "Autre, précisez :"
+        ],
+        "value": []
+      },
+      "Autre, précisez :": "",
+      "Présence de sujet à risque de rougeole grave dans l’entourage du cas (femme enceinte, immunodéprimé, nourrisson) :": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": []
+      },
+      "Administration d’immunoglobulines aux contacts à risque de rougeole grave :": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": []
+      },
+      "Si oui, nombre :": "",
+      "Administration dans les 72 heures suivant le 1er contact du vaccin ROR aux personnes contact :": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": []
+      },
+      "Si oui, nombre : (2)": ""
+    },
+    "Lieux et circonstances de l’exposition dans les 7 à 18 jours avant la date de l’éruption :": {
+      "Séjour à l’étranger* :": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": []
+      },
+      "si oui, pays :": "",
+      "Contact avec un cas de rougeole :": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": []
+      },
+      "Si oui, lieu :": {
+        "choices": [
+          "Famille",
+          "Collectivité",
+          "Milieu de soin"
+        ],
+        "value": []
+      },
+      "Précisez :": "",
+      "Existence d’autres cas dans l’entourage :": {
+        "choices": [
+          "oui",
+          "non"
+        ],
+        "value": []
+      },
+      "Si oui, lieu : (2)": {
+        "choices": [
+          "Famille",
+          "Collectivité",
+          "Milieu de soin"
+        ],
+        "value": []
+      },
+      "Précisez : (2)": "",
+      "Si oui, notion de séjour à l’étranger pour les autres cas :": {
+        "choices": [
+          "oui",
+          "non",
+          "nsp"
+        ],
+        "value": []
+      },
+      "Si oui, précisez le(s) pays :": ""
+    },
+    "Statut vaccinal*": {
+      "Nombre total de doses reçues :": {
+        "choices": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "inconnu"
+        ],
+        "value": []
+      },
+      "1ère dose :": "",
+      "2ème dose :": "",
+      "3ème dose :": "",
+      "Informations recueillies d’après :": {
+        "choices": [
+          "interrogatoire",
+          "carnet de santé ou de vaccination/dossier médical"
+        ],
+        "value": []
+      }
+    },
+    "Médecin prescripteur / Signalant1 (ou tampon)": {
+      "Nom / RPPS :": "",
+      "Lieux d’exercice :": "",
+      "Adresse :": "",
+      "Téléphone :": "",
+      "Courriel :": ""
+    },
+    "Biologiste2 (ou tampon)": {
+      "Nom / RPPS :": "",
+      "LBM / Finess :": "",
+      "Adresse :": "",
+      "Téléphone :": "",
+      "Courriel :": "",
+      "ARS (tampon)": ""
+    }
+  }
+}

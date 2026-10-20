@@ -13,14 +13,14 @@ the EMNLP 2026 publication. Versioned releases preserve stable benchmark
 snapshots; the exact paper artifact remains frozen in the reproduction
 repository linked above.
 
-## Current Dataset: 1,300 Templates
+## Current Dataset: 1,500 Templates
 
-The combined text-task inventory contains **1,300 templates**: 449 English,
-431 Chinese, 215 Spanish, and 205 French. The main `workflow/` contains 869
-records; versioned batches under `extensions/` provide another 431.
+The combined text-task inventory contains **1,500 templates**: 449 English,
+431 Chinese, 315 Spanish, and 305 French. The main `workflow/` contains 869
+records; versioned batches under `extensions/` provide another 631.
 
 See the [extension index](extensions/README.md) for release history and the
-[latest batch list](extensions/RELEASE_1300.md) for source records and stable
+[latest batch list](extensions/RELEASE_1500.md) for source records and stable
 sample IDs. The [shared workflow entry point](extensions/workflow-support-v1/README.md)
 loads the main workflow and selected additions together using the existing
 prompts and task metrics.
@@ -105,7 +105,7 @@ entry point and original task metrics; no new model baseline results are
 included. See the [1,200-template release index](extensions/RELEASE_1200.md)
 for all new batch paths and sample IDs.
 
-## Latest Additions: 16 October 2026
+## Additions: 16 October 2026
 
 A further 100 complete source forms are available in versioned directories
 under `extensions/`, bringing the combined text-task inventory to 1,300:
@@ -117,3 +117,20 @@ field annotations, and integrity manifests. Use the existing shared workflow
 entry point and original task metrics. See the
 [1,300-template release index](extensions/RELEASE_1300.md) for coverage,
 all new batch paths, and sample IDs.
+
+## Latest Additions: 19 October 2026
+
+Two further batches add 200 complete source forms: 100 French and 100 Spanish.
+The combined inventory is now 1,500 templates: 449 English, 431 Chinese,
+315 Spanish, and 305 French. Existing files and identifiers are retained.
+
+- [First increment](extensions/RELEASE_1400.md): 100 templates, French and
+  Spanish IDs 700-749, in `extensions/2026-10-19-multilingual-v0.1/`.
+- [Second increment](extensions/RELEASE_1500.md): 100 templates, French and
+  Spanish IDs 750-799, in `extensions/2026-10-19-multilingual-v0.2/`.
+
+Each sample provides numbered workflow stages 0-6, source attribution,
+collection dates, field annotations, and checksums. Stages 7-9 and model
+predictions are not included in these batches. Use the existing shared
+workflow entry point and original task metrics to evaluate the additions
+alongside the main workflow.

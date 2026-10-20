@@ -1,0 +1,758 @@
+{
+  "id": "es-784",
+  "language": "es",
+  "title": "Informe de ingreso al centro de mantenimiento de aeronave, motor o hélice",
+  "domain": "Business",
+  "issuer": "ANAC",
+  "issuer_id": "anac",
+  "template_family": "anac-8640-maintenance-intake",
+  "source_version": "07/2009",
+  "source_date_evidence": {
+    "kind": "printed edition",
+    "value": "07/2009",
+    "note": "Edition transcribed from the source; retrieval date is not an issuance date."
+  },
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/8640.pdf",
+  "landing_url": "https://www.argentina.gob.ar/anac/aeronaves/formularios-circulares-de-asesoramiento-y-manuales/formularios-de-aeronavegabilidad",
+  "source_sha256": "c056a7150b44e202844c115fd3553b896b090441f6d425ea32417e26491495c8",
+  "source_pages": 1,
+  "retrieved_at": "2026-10-19T08:51:54.975758+00:00",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "CC BY 4.0 under Argentina.gob.ar portal terms, intellectual-property section. National-portal download; no contrary reuse notice found in the form. Attribution: ANAC. Normalized semantic layout with synthetic completion; not an official completed submission.",
+  "columns": 2,
+  "synthetic_context": true,
+  "source_notice": "Source wording, complete option sets, repeated targets and administrative/signature areas retained. Values and all signatures are synthetic.",
+  "fields": [
+    {
+      "id": "f001",
+      "label": "MARCA:",
+      "path": [
+        "Página 1",
+        "1 / Aeronave",
+        "MARCA:"
+      ],
+      "source_anchor": "MARCA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Cessna"
+    },
+    {
+      "id": "f002",
+      "label": "MODELO:",
+      "path": [
+        "Página 1",
+        "1 / Aeronave",
+        "MODELO:"
+      ],
+      "source_anchor": "MODELO:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "172N"
+    },
+    {
+      "id": "f003",
+      "label": "CATEGORIA:",
+      "path": [
+        "Página 1",
+        "1 / Aeronave",
+        "CATEGORIA:"
+      ],
+      "source_anchor": "CATEGORIA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Normal"
+    },
+    {
+      "id": "f004",
+      "label": "Nº SERIE:",
+      "path": [
+        "Página 1",
+        "1 / Aeronave",
+        "Nº SERIE:"
+      ],
+      "source_anchor": "Nº SERIE:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "172-SINT-3104"
+    },
+    {
+      "id": "f005",
+      "label": "NACIONALIDAD Y MATRICULA:",
+      "path": [
+        "Página 1",
+        "1 / Aeronave",
+        "NACIONALIDAD Y MATRICULA:"
+      ],
+      "source_anchor": "NACIONALIDAD Y MATRICULA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Argentina, LV-SNT"
+    },
+    {
+      "id": "f006",
+      "label": "TIPO DE CERTIFICADO:",
+      "path": [
+        "Página 1",
+        "1 / Aeronave",
+        "TIPO DE CERTIFICADO:"
+      ],
+      "source_anchor": "TIPO DE CERTIFICADO:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Estándar"
+    },
+    {
+      "id": "f007",
+      "label": "MARCA:",
+      "path": [
+        "Página 1",
+        "1 / Motor",
+        "MARCA:"
+      ],
+      "source_anchor": "MARCA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Lycoming"
+    },
+    {
+      "id": "f008",
+      "label": "MODELO:",
+      "path": [
+        "Página 1",
+        "1 / Motor",
+        "MODELO:"
+      ],
+      "source_anchor": "MODELO:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "O-320-H2AD"
+    },
+    {
+      "id": "f009",
+      "label": "Nº SERIE:",
+      "path": [
+        "Página 1",
+        "1 / Motor",
+        "Nº SERIE:"
+      ],
+      "source_anchor": "Nº SERIE:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "L-SINT-1402"
+    },
+    {
+      "id": "f010",
+      "label": "MARCA:",
+      "path": [
+        "Página 1",
+        "1 / Hélice",
+        "MARCA:"
+      ],
+      "source_anchor": "MARCA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "McCauley"
+    },
+    {
+      "id": "f011",
+      "label": "MODELO:",
+      "path": [
+        "Página 1",
+        "1 / Hélice",
+        "MODELO:"
+      ],
+      "source_anchor": "MODELO:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1C160-DTM"
+    },
+    {
+      "id": "f012",
+      "label": "Nº SERIE:",
+      "path": [
+        "Página 1",
+        "1 / Hélice",
+        "Nº SERIE:"
+      ],
+      "source_anchor": "Nº SERIE:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "MC-SINT-982"
+    },
+    {
+      "id": "f013",
+      "label": "AERONAVE :",
+      "path": [
+        "Página 1",
+        "2 / Aeronave",
+        "AERONAVE :"
+      ],
+      "source_anchor": "AERONAVE :",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "REHABILITACION ANUAL"
+      ],
+      "options": [
+        "REHABILITACION ANUAL",
+        "REPARACION",
+        "OTROS :"
+      ],
+      "context_evidence": "2 / Aeronave / AERONAVE :: REHABILITACION ANUAL."
+    },
+    {
+      "id": "f014",
+      "label": "MOTOR :",
+      "path": [
+        "Página 1",
+        "2 / Motor",
+        "MOTOR :"
+      ],
+      "source_anchor": "MOTOR :",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "REPARACION"
+      ],
+      "options": [
+        "RECORRIDA GENERAL",
+        "REPARACION",
+        "OTROS :"
+      ],
+      "context_evidence": "2 / Motor / MOTOR :: REPARACION."
+    },
+    {
+      "id": "f015",
+      "label": "HELICE:",
+      "path": [
+        "Página 1",
+        "2 / Hélice",
+        "HELICE:"
+      ],
+      "source_anchor": "HELICE:",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "RECORRIDA GENERAL"
+      ],
+      "options": [
+        "RECORRIDA GENERAL",
+        "REPARACION",
+        "OTROS :"
+      ],
+      "context_evidence": "2 / Hélice / HELICE:: RECORRIDA GENERAL."
+    },
+    {
+      "id": "f016",
+      "label": "AERONAVE :",
+      "path": [
+        "Página 1",
+        "2 / Selector de producto",
+        "AERONAVE :"
+      ],
+      "source_anchor": "AERONAVE :",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "AERONAVE :"
+      ],
+      "options": [
+        "AERONAVE :"
+      ],
+      "context_evidence": "2 / Selector de producto / AERONAVE :: AERONAVE :."
+    },
+    {
+      "id": "f017",
+      "label": "MOTOR :",
+      "path": [
+        "Página 1",
+        "2 / Selector de producto",
+        "MOTOR :"
+      ],
+      "source_anchor": "MOTOR :",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "MOTOR :"
+      ],
+      "options": [
+        "MOTOR :"
+      ],
+      "context_evidence": "2 / Selector de producto / MOTOR :: MOTOR :."
+    },
+    {
+      "id": "f018",
+      "label": "HELICE:",
+      "path": [
+        "Página 1",
+        "2 / Selector de producto",
+        "HELICE:"
+      ],
+      "source_anchor": "HELICE:",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "HELICE:"
+      ],
+      "options": [
+        "HELICE:"
+      ],
+      "context_evidence": "2 / Selector de producto / HELICE:: HELICE:."
+    },
+    {
+      "id": "f019",
+      "label": "NOMBRE (Según lo indicado en el CERTIFICADO DE PROPIEDAD):",
+      "path": [
+        "Página 1",
+        "3 / Propietario",
+        "NOMBRE (Según lo indicado en el CERTIFICADO DE PROPIEDAD):"
+      ],
+      "source_anchor": "NOMBRE (Según lo indicado en el CERTIFICADO DE PROPIEDAD):",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Operador Sintético Pampeano SA"
+    },
+    {
+      "id": "f020",
+      "label": "DIRECCION (Según lo indicado en el CERTIFICADO DE PROPIEDAD):",
+      "path": [
+        "Página 1",
+        "3 / Propietario",
+        "DIRECCION (Según lo indicado en el CERTIFICADO DE PROPIEDAD):"
+      ],
+      "source_anchor": "DIRECCION (Según lo indicado en el CERTIFICADO DE PROPIEDAD):",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Calle del Aire 315, Rosario"
+    },
+    {
+      "id": "f021",
+      "label": "NOMBRE (Según lo indicado en el CERTIFICADO DE HABILITACION DE CENTRO DE MANTENIMIENTO):",
+      "path": [
+        "Página 1",
+        "4 / Centro",
+        "NOMBRE (Según lo indicado en el CERTIFICADO DE HABILITACION DE CENTRO DE MANTENIMIENTO):"
+      ],
+      "source_anchor": "NOMBRE (Según lo indicado en el CERTIFICADO DE HABILITACION DE CENTRO DE MANTENIMIENTO):",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Taller Sintético Horizonte"
+    },
+    {
+      "id": "f022",
+      "label": "CODIGO DE HABILITACION ANAC :",
+      "path": [
+        "Página 1",
+        "4 / Centro",
+        "CODIGO DE HABILITACION ANAC :"
+      ],
+      "source_anchor": "CODIGO DE HABILITACION ANAC :",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "TAR-SINT-275"
+    },
+    {
+      "id": "f023",
+      "label": "FECHA DE INGRESO :",
+      "path": [
+        "Página 1",
+        "4 / Centro",
+        "FECHA DE INGRESO :"
+      ],
+      "source_anchor": "FECHA DE INGRESO :",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "16/10/2026"
+    },
+    {
+      "id": "f024",
+      "label": "FECHA ESTIMADA DE FINALIZACION DE TAREAS :",
+      "path": [
+        "Página 1",
+        "4 / Centro",
+        "FECHA ESTIMADA DE FINALIZACION DE TAREAS :"
+      ],
+      "source_anchor": "FECHA ESTIMADA DE FINALIZACION DE TAREAS :",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "30/10/2026"
+    },
+    {
+      "id": "f025",
+      "label": "FECHA DE VENCIMIENTO DE ULTIMA REHABILITACION ANUAL :",
+      "path": [
+        "Página 1",
+        "4 / Centro",
+        "FECHA DE VENCIMIENTO DE ULTIMA REHABILITACION ANUAL :"
+      ],
+      "source_anchor": "FECHA DE VENCIMIENTO DE ULTIMA REHABILITACION ANUAL :",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "31/10/2026"
+    },
+    {
+      "id": "f026",
+      "label": "ORDEN DE TRABAJO Nº :",
+      "path": [
+        "Página 1",
+        "4 / Centro",
+        "ORDEN DE TRABAJO Nº :"
+      ],
+      "source_anchor": "ORDEN DE TRABAJO Nº :",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "OT-SINT-940"
+    },
+    {
+      "id": "f027",
+      "label": "FECHA",
+      "path": [
+        "Página 1",
+        "Responsable técnico",
+        "FECHA"
+      ],
+      "source_anchor": "FECHA",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "16/10/2026"
+    },
+    {
+      "id": "f028",
+      "label": "FIRMA Y SELLO DEL REPRESENTANTE TECNICO",
+      "path": [
+        "Página 1",
+        "Responsable técnico",
+        "FIRMA Y SELLO DEL REPRESENTANTE TECNICO"
+      ],
+      "source_anchor": "FIRMA Y SELLO DEL REPRESENTANTE TECNICO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma y sello sintéticos de Lucía Cabrera"
+    },
+    {
+      "id": "f029",
+      "label": "REQUIERE INTERVENCION DE INSPECTOR DE LA ANAC :",
+      "path": [
+        "Página 1",
+        "4 / Inspección",
+        "REQUIERE INTERVENCION DE INSPECTOR DE LA ANAC :"
+      ],
+      "source_anchor": "REQUIERE INTERVENCION DE INSPECTOR DE LA ANAC :",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "NO"
+      ],
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "4 / Inspección / REQUIERE INTERVENCION DE INSPECTOR DE LA ANAC :: NO."
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Informe de ingreso al centro de mantenimiento de aeronave, motor o hélice / Página 1",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "INSTRUCCIONES: LAS ANOTACIONES DEBEN SER EN LETRA DE IMPRENTA O ESCRITAS A MAQUINA. VER LA CA: 43.7-1",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "1 / Aeronave",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "MARCA:",
+        "field": "f001",
+        "source_page": 1
+      },
+      {
+        "label": "MODELO:",
+        "field": "f002",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "CATEGORIA:",
+        "field": "f003",
+        "source_page": 1
+      },
+      {
+        "label": "Nº SERIE:",
+        "field": "f004",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NACIONALIDAD Y MATRICULA:",
+        "field": "f005",
+        "source_page": 1
+      },
+      {
+        "label": "TIPO DE CERTIFICADO:",
+        "field": "f006",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "1 / Motor",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "MARCA:",
+        "field": "f007",
+        "source_page": 1
+      },
+      {
+        "label": "MODELO:",
+        "field": "f008",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nº SERIE:",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "1 / Hélice",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "MARCA:",
+        "field": "f010",
+        "source_page": 1
+      },
+      {
+        "label": "MODELO:",
+        "field": "f011",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nº SERIE:",
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "2 / Selector de producto",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "AERONAVE :",
+        "field": "f016",
+        "source_page": 1
+      },
+      {
+        "label": "MOTOR :",
+        "field": "f017",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "HELICE:",
+        "field": "f018",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "2 / Aeronave",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "AERONAVE :",
+        "field": "f013",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "2 / Motor",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "MOTOR :",
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "2 / Hélice",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "HELICE:",
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "3 / Propietario",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NOMBRE (Según lo indicado en el CERTIFICADO DE PROPIEDAD):",
+        "field": "f019",
+        "source_page": 1
+      },
+      {
+        "label": "DIRECCION (Según lo indicado en el CERTIFICADO DE PROPIEDAD):",
+        "field": "f020",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "4 / Centro",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NOMBRE (Según lo indicado en el CERTIFICADO DE HABILITACION DE CENTRO DE MANTENIMIENTO):",
+        "field": "f021",
+        "source_page": 1
+      },
+      {
+        "label": "CODIGO DE HABILITACION ANAC :",
+        "field": "f022",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FECHA DE INGRESO :",
+        "field": "f023",
+        "source_page": 1
+      },
+      {
+        "label": "FECHA ESTIMADA DE FINALIZACION DE TAREAS :",
+        "field": "f024",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FECHA DE VENCIMIENTO DE ULTIMA REHABILITACION ANUAL :",
+        "field": "f025",
+        "source_page": 1
+      },
+      {
+        "label": "ORDEN DE TRABAJO Nº :",
+        "field": "f026",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Responsable técnico",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FECHA",
+        "field": "f027",
+        "source_page": 1
+      },
+      {
+        "label": "FIRMA Y SELLO DEL REPRESENTANTE TECNICO",
+        "field": "f028",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "4 / Inspección",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "REQUIERE INTERVENCION DE INSPECTOR DE LA ANAC :",
+        "field": "f029",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Form. DA 8640 (07/2009). Página 1 de 1",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ]
+  ],
+  "context": "ESCENARIO COMPLETAMENTE SINTÉTICO. No identifica personas, empresas, bienes ni actuaciones reales. Las firmas y los asientos administrativos son representaciones textuales ficticias, sin validez oficial.\nLas menciones de no aplicación son estados explícitos del escenario, no datos deducidos del formulario.\nPágina 1 / 1 / Aeronave / MARCA:: Cessna\nPágina 1 / 1 / Aeronave / MODELO:: 172N\nPágina 1 / 1 / Aeronave / CATEGORIA:: Normal\nPágina 1 / 1 / Aeronave / Nº SERIE:: 172-SINT-3104\nPágina 1 / 1 / Aeronave / NACIONALIDAD Y MATRICULA:: Argentina, LV-SNT\nPágina 1 / 1 / Aeronave / TIPO DE CERTIFICADO:: Estándar\nPágina 1 / 1 / Motor / MARCA:: Lycoming\nPágina 1 / 1 / Motor / MODELO:: O-320-H2AD\nPágina 1 / 1 / Motor / Nº SERIE:: L-SINT-1402\nPágina 1 / 1 / Hélice / MARCA:: McCauley\nPágina 1 / 1 / Hélice / MODELO:: 1C160-DTM\nPágina 1 / 1 / Hélice / Nº SERIE:: MC-SINT-982\nPágina 1 / 2 / Aeronave / AERONAVE :: 2 / Aeronave / AERONAVE :: REHABILITACION ANUAL.\nPágina 1 / 2 / Motor / MOTOR :: 2 / Motor / MOTOR :: REPARACION.\nPágina 1 / 2 / Hélice / HELICE:: 2 / Hélice / HELICE:: RECORRIDA GENERAL.\nPágina 1 / 2 / Selector de producto / AERONAVE :: 2 / Selector de producto / AERONAVE :: AERONAVE :.\nPágina 1 / 2 / Selector de producto / MOTOR :: 2 / Selector de producto / MOTOR :: MOTOR :.\nPágina 1 / 2 / Selector de producto / HELICE:: 2 / Selector de producto / HELICE:: HELICE:.\nPágina 1 / 3 / Propietario / NOMBRE (Según lo indicado en el CERTIFICADO DE PROPIEDAD):: Operador Sintético Pampeano SA\nPágina 1 / 3 / Propietario / DIRECCION (Según lo indicado en el CERTIFICADO DE PROPIEDAD):: Calle del Aire 315, Rosario\nPágina 1 / 4 / Centro / NOMBRE (Según lo indicado en el CERTIFICADO DE HABILITACION DE CENTRO DE MANTENIMIENTO):: Taller Sintético Horizonte\nPágina 1 / 4 / Centro / CODIGO DE HABILITACION ANAC :: TAR-SINT-275\nPágina 1 / 4 / Centro / FECHA DE INGRESO :: 16/10/2026\nPágina 1 / 4 / Centro / FECHA ESTIMADA DE FINALIZACION DE TAREAS :: 30/10/2026\nPágina 1 / 4 / Centro / FECHA DE VENCIMIENTO DE ULTIMA REHABILITACION ANUAL :: 31/10/2026\nPágina 1 / 4 / Centro / ORDEN DE TRABAJO Nº :: OT-SINT-940\nPágina 1 / Responsable técnico / FECHA: 16/10/2026\nPágina 1 / Responsable técnico / FIRMA Y SELLO DEL REPRESENTANTE TECNICO: Firma y sello sintéticos de Lucía Cabrera\nPágina 1 / 4 / Inspección / REQUIERE INTERVENCION DE INSPECTOR DE LA ANAC :: 4 / Inspección / REQUIERE INTERVENCION DE INSPECTOR DE LA ANAC :: NO.",
+  "workflow_identity": {
+    "language": "es",
+    "id": 784
+  }
+}

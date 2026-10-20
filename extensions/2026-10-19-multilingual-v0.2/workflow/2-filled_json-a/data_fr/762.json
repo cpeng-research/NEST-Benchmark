@@ -1,0 +1,232 @@
+{
+  "Page 1": {
+    "Veuillez cocher la case correspondante :": {
+      "Veuillez cocher la case correspondante :": {
+        "choices": [
+          "Certificat",
+          "Duplicata",
+          "Correction",
+          "Changement de domicile",
+          "Changement d’état civil ou d’état matrimonial",
+          "Changement des caractéristiques techniques du véhicule"
+        ],
+        "value": [
+          "Certificat"
+        ]
+      }
+    },
+    "VÉHICULE": {
+      "(A) Numéro d’immatriculation actuel": "AA-762-BB",
+      "Date d’achat, le cas échéant": "17/10/2026",
+      "(I) Date de certificat actuel": "04/05/2020",
+      "Date de 1re immatriculation": "04/05/2020",
+      "Numéro de formule du certificat d’immatriculation": "2020EX07620",
+      "Marque (D.1)": "EXEMPLE AUTO",
+      "Dénomination commerciale (D.3)": "CITADINE",
+      "Type variante version (D.2)": "XA20",
+      "Numéro d’identification du véhicule (E)": "VF1EXAMPLE00007620",
+      "Genre national (J.1)": "VP",
+      "Numéro d’exploitation agricole, le cas échéant": "Sans objet : voiture particulière",
+      "COULEUR DOMINANTE": {
+        "choices": [
+          "Clair",
+          "Foncé"
+        ],
+        "value": [
+          "Clair"
+        ]
+      },
+      "Teinte": {
+        "choices": [
+          "Noir",
+          "Jaune",
+          "Gris",
+          "Marron",
+          "Vert",
+          "Blanc",
+          "Rouge",
+          "Bleu",
+          "Orange",
+          "Beige"
+        ],
+        "value": [
+          "Gris"
+        ]
+      },
+      "Si véhicule pris en location, cocher la case correspondante:": {
+        "choices": [
+          "en location longue durée",
+          "en location courte durée",
+          "en crédit-bail"
+        ],
+        "value": []
+      }
+    },
+    "TITULAIRE": {
+      "Personne physique ou entreprise individuelle": {
+        "choices": [
+          "Personne physique ou entreprise individuelle",
+          "Personne morale"
+        ],
+        "value": [
+          "Personne physique ou entreprise individuelle"
+        ]
+      },
+      "Sexe :": {
+        "choices": [
+          "M",
+          "F"
+        ],
+        "value": [
+          "F"
+        ]
+      },
+      "NOM DE NAISSANCE et PRÉNOM ou RAISON SOCIALE pour une personne morale": "Camille MARTIN",
+      "N° SIRET, le cas échéant": "Sans objet : personne physique",
+      "NOM D’USAGE (facultatif)": "BERNARD",
+      "Étage / Escalier / Appartement": "3E ETAGE, APPARTEMENT 4",
+      "Immeuble / Résidence / Bâtiment": "BATIMENT B",
+      "N° de la voie": "22",
+      "Extension": "bis",
+      "Type de voie": "rue",
+      "Libellé de voie": "DES ROSES",
+      "Lieu-dit / BP / Localité (si différente de la commune)": "Sans objet : adresse dans la commune",
+      "Tél. portable (recommandé)": "0100000762",
+      "Code postal": "75012",
+      "Commune": "Paris",
+      "Mél (recommandé)": "camille762@example.org",
+      "Né(e)": "15/03/1990",
+      "Commune (2)": "Paris 12e",
+      "Département": "75",
+      "Pays": "France",
+      "Dans le cas de multi-propriété, veuillez indiquer le nombre de personnes titulaires du certificat d’immatriculation": "2"
+    },
+    "Co-titulaire": {
+      "NOM DE NAISSANCE et PRÉNOM ou RAISON SOCIALE": "Alex BERNARD",
+      "NOM D’USAGE (facultatif)": "MARTIN",
+      "N° SIRET, le cas échéant": "Sans objet : cotitulaire personne physique"
+    },
+    "LOUEUR (en cas de location ou crédit-bail)": {
+      "Personne physique ou entreprise individuelle": {
+        "choices": [
+          "Personne physique ou entreprise individuelle",
+          "Personne morale"
+        ],
+        "value": []
+      },
+      "Sexe :": {
+        "choices": [
+          "M",
+          "F"
+        ],
+        "value": []
+      },
+      "NOM DE NAISSANCE et PRÉNOM ou RAISON SOCIALE pour une personne morale": "Sans objet : véhicule acheté sans location",
+      "N° SIRET, le cas échéant": "Sans objet : pas de société de location",
+      "NOM D’USAGE (facultatif)": "Sans objet : bloc location inactif",
+      "Étage / Escalier / Appartement": "Sans objet : pas de logement de loueur ou locataire",
+      "Immeuble / Résidence / Bâtiment": "Sans objet : aucune résidence à déclarer ici",
+      "N° de la voie": "Sans objet : aucune voie dans ce bloc",
+      "Extension": "Sans objet : pas d’extension",
+      "Type de voie": "Sans objet : pas de type de voie",
+      "Libellé de voie": "Sans objet : pas de libellé de voie",
+      "Lieu-dit / BP / Localité (si différente de la commune)": "Sans objet : adresse dans la commune",
+      "Tél. portable (recommandé)": "Sans objet : aucun contact de location",
+      "Code postal": "Sans objet : aucun code postal de location",
+      "Commune": "Sans objet : aucune commune de location",
+      "Mél (recommandé)": "Sans objet : aucun courriel de location"
+    },
+    "LOCATAIRE (en cas de location longue durée ou crédit-bail)": {
+      "Personne physique ou entreprise individuelle": {
+        "choices": [
+          "Personne physique ou entreprise individuelle",
+          "Personne morale"
+        ],
+        "value": []
+      },
+      "Sexe :": {
+        "choices": [
+          "M",
+          "F"
+        ],
+        "value": []
+      },
+      "NOM DE NAISSANCE et PRÉNOM ou RAISON SOCIALE pour une personne morale": "Sans objet : aucun locataire",
+      "N° SIRET, le cas échéant": "Sans objet : pas de société de location",
+      "NOM D’USAGE (facultatif)": "Sans objet : bloc location inactif",
+      "Étage / Escalier / Appartement": "Sans objet : pas de logement de loueur ou locataire",
+      "Immeuble / Résidence / Bâtiment": "Sans objet : aucune résidence à déclarer ici",
+      "N° de la voie": "Sans objet : aucune voie dans ce bloc",
+      "Extension": "Sans objet : pas d’extension",
+      "Type de voie": "Sans objet : pas de type de voie",
+      "Libellé de voie": "Sans objet : pas de libellé de voie",
+      "Lieu-dit / BP / Localité (si différente de la commune)": "Sans objet : adresse dans la commune",
+      "Tél. portable (recommandé)": "Sans objet : aucun contact de location",
+      "Code postal": "Sans objet : aucun code postal de location",
+      "Commune": "Sans objet : aucune commune de location",
+      "Mél (recommandé)": "Sans objet : aucun courriel de location"
+    },
+    "Le titulaire": {
+      "Fait à :": "Paris",
+      "Le :": "19/10/2026",
+      "Signature :": "Camille MARTIN, signature fictive"
+    },
+    "Le loueur": {
+      "Fait à :": "Sans objet : pas de contrat de location",
+      "Le :": "Sans objet : branche location inactive",
+      "Signature :": "Sans objet : aucune partie signataire dans ce bloc",
+      "Pour les sociétés: nom, qualité du signataire et cachet": "Sans objet : aucune société de location"
+    },
+    "Le locataire": {
+      "Fait à :": "Sans objet : pas de contrat de location",
+      "Le :": "Sans objet : branche location inactive",
+      "Signature :": "Sans objet : aucune partie signataire dans ce bloc",
+      "Pour les sociétés: nom, qualité du signataire et cachet": "Sans objet : aucune société de location"
+    },
+    "CADRE RÉSERVÉ À L’ADMINISTRATION": {
+      "Vu les pièces justificatives": {
+        "choices": [
+          "Vu les pièces justificatives"
+        ],
+        "value": [
+          "Vu les pièces justificatives"
+        ]
+      },
+      "Rejet de la demande": {
+        "choices": [
+          "Rejet de la demande"
+        ],
+        "value": []
+      },
+      "Motif :": "Sans objet : dossier fictivement accepté",
+      "Usage (veuillez cocher la case correspondante):": {
+        "choices": [
+          "Oui",
+          "Non"
+        ],
+        "value": [
+          "Non"
+        ]
+      },
+      "Mode d’expédition du titre :": {
+        "choices": [
+          "Voie postale",
+          "Retrait à l’Imprimerie Nationale"
+        ],
+        "value": [
+          "Voie postale"
+        ]
+      },
+      "Je m’oppose à la réutilisation de mes données personnelles à des fins de prospection commerciale": {
+        "choices": [
+          "Le titulaire",
+          "Le loueur",
+          "Le locataire"
+        ],
+        "value": [
+          "Le titulaire"
+        ]
+      }
+    }
+  }
+}

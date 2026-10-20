@@ -1,0 +1,144 @@
+{
+  "Página 1": {
+    "1 / Empresa": {
+      "NOMBRE": "",
+      "CÓDIGO": "",
+      "UBICACIÓN DE LAS INSTALACIONES": "",
+      "DIRECCION POSTAL": "",
+      "TE. LINEA": "",
+      "FAX": "",
+      "TE. MOVIL": "",
+      "E-MAIL": ""
+    },
+    "2 / Motivo": {
+      "MOTIVO DE LA SOLICITUD": {
+        "choices": [
+          "CERTIFICADO DE HABILITACION ORIGINAL",
+          "CAMBIO DE ALCANCES",
+          "RENOVACION DE LOS CERTIFICADOS POR VENCIMIENTO",
+          "CAMBIO UBICACION",
+          "OTRAS CAUSAS:",
+          "CAMBIO DE PROPIETARIO"
+        ],
+        "value": []
+      },
+      "OTRAS CAUSAS:": ""
+    },
+    "3 / Alcances": {
+      "CATEGORIA": {
+        "choices": [
+          "CÉLULA",
+          "MOTORES",
+          "HELICES",
+          "ACCESORIOS",
+          "INSTRUMENTOS",
+          "RADIO",
+          "SERVICIOS ESPECIALIZADOS / OTRAS CATEGORIAS LIMITADAS"
+        ],
+        "value": []
+      }
+    },
+    "3 / CÉLULA": {
+      "CLASE": {
+        "choices": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "value": []
+      }
+    },
+    "3 / MOTORES": {
+      "CLASE": {
+        "choices": [
+          "I",
+          "II",
+          "III"
+        ],
+        "value": []
+      }
+    },
+    "3 / HELICES": {
+      "CLASE": {
+        "choices": [
+          "I",
+          "II"
+        ],
+        "value": []
+      }
+    },
+    "3 / ACCESORIOS": {
+      "CLASE": {
+        "choices": [
+          "I",
+          "II",
+          "III"
+        ],
+        "value": []
+      }
+    },
+    "3 / INSTRUMENTOS": {
+      "CLASE": {
+        "choices": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "value": []
+      }
+    },
+    "3 / RADIO": {
+      "CLASE": {
+        "choices": [
+          "I",
+          "II",
+          "III"
+        ],
+        "value": []
+      }
+    },
+    "4 / Solicitante": {
+      "NOMBRE DEL PROPIETARIO / REPRESENTANTE": "",
+      "FECHA": "",
+      "FIRMA y ACLARACIÓN": "",
+      "CARGO": ""
+    },
+    "5-8 / ANAC": {
+      "RECOMENDACIONES": {
+        "choices": [
+          "EMITIR CERTIFICADOS – EL TALLER CUMPLE REQUERIMIENTOS RAAC PARTE 145",
+          "NO EMITIR CERTIFICADOS – EL TALLER NO CUMPLE REQUERIMIENTOS RAAC PARTE145"
+        ],
+        "value": []
+      },
+      "FECHA INSPECCION": "",
+      "OBSERVACIONES.": ""
+    },
+    "9 / Inspector 1": {
+      "DEPENDENCIA": "",
+      "FIRMA(S) DE INSPECTOR(ES)": ""
+    },
+    "9 / Inspector 2": {
+      "DEPENDENCIA": "",
+      "FIRMA(S) DE INSPECTOR(ES)": ""
+    },
+    "9 / Inspector 3": {
+      "DEPENDENCIA": "",
+      "FIRMA(S) DE INSPECTOR(ES)": ""
+    },
+    "10 / Decisión": {
+      "CERTIFICADO": {
+        "choices": [
+          "APROBADO",
+          "NO APROBADO"
+        ],
+        "value": []
+      },
+      "FECHA": "",
+      "FIRMA": "",
+      "CARGO": ""
+    }
+  }
+}

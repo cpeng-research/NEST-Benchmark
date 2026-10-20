@@ -1,0 +1,114 @@
+{
+  "Página 1": {
+    "1A / Solicitante": {
+      "Nombre y domicilio de la empresa": "",
+      "Domicilio de la base principal donde se conducirán las operaciones (no utilice casilla de correo)": "",
+      "Fecha propuesta del inicio de actividades": "",
+      "Apellido y Nombres": "",
+      "Cargo": "",
+      "Teléfono": ""
+    },
+    "1B / Operación": {
+      "Tipo de operación propuesta (tildar lo que corresponda)": {
+        "choices": [
+          "Explotador Transporte Aéreo",
+          "Certificado de Operaciones",
+          "Parte 121",
+          "Parte 135",
+          "Pasajeros y Carga",
+          "Carga Solamente",
+          "Operaciones programadas",
+          "Operaciones no programadas",
+          "Operación con un piloto",
+          "Operación con un único piloto",
+          "Operador Parte 135 básico"
+        ],
+        "value": []
+      }
+    },
+    "1C / Agencia": {
+      "Tipo de agencia y alcance/s propuesto": {
+        "choices": [
+          "Taller Aeronáutico de Reparación",
+          "Taller de paracaídas"
+        ],
+        "value": []
+      }
+    },
+    "1C / Localización": {
+      "Taller Aeronáutico de Reparación": {
+        "choices": [
+          "Nacional",
+          "Extranjero",
+          "Satélite"
+        ],
+        "value": []
+      }
+    },
+    "1C / Nacional": {
+      "Nacional": {
+        "choices": [
+          "Nuevo",
+          "Renovación"
+        ],
+        "value": []
+      }
+    },
+    "1C / Extranjero": {
+      "Extranjero": {
+        "choices": [
+          "Nuevo",
+          "Renovación"
+        ],
+        "value": []
+      }
+    },
+    "1C / Alcances": {
+      "Tipo de agencia y alcance/s propuesto": {
+        "choices": [
+          "Célula",
+          "Planta de Poder",
+          "Hélice",
+          "Radio",
+          "Instrumento",
+          "Accesorio",
+          "Servicio especializado"
+        ],
+        "value": []
+      }
+    },
+    "1D / Flota": {
+      "Números y tipos de aeronave (por marca, modelo y series)": "",
+      "Número de asientos de pasajeros o capacidad de carga paga": "",
+      "Area geográfica de la operación propuesto.": ""
+    }
+  },
+  "Página 2": {
+    "1E / Declaración": {
+      "Información adicional para proveer un mejor conocimiento de la operación u organización propuesto, (sí es necesario incluya hojas adicionales)": "",
+      "Firma": "",
+      "Fecha": "",
+      "Nombre y Cargo": ""
+    },
+    "2 / ANAC": {
+      "Recibí por:": "",
+      "División:": "",
+      "Dirección:": "",
+      "Fecha:": "",
+      "Observaciones:": "",
+      "Para": {
+        "choices": [
+          "acción",
+          "información únicamente"
+        ],
+        "value": []
+      }
+    },
+    "3 / Dirección": {
+      "Fecha:": "",
+      "Número de precertificación:": "",
+      "Responsable asignado por la División:": "",
+      "Observaciones:": ""
+    }
+  }
+}

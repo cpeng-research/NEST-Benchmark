@@ -1,0 +1,185 @@
+{
+  "Page 1": {
+    "FICHE D'INTERVENTION": {
+      "Fiche N° :": "EX-2026-774",
+      "OPERATEUR (Nom, adresse et SIRET) :": "Froid Exemple, 24 rue du Parc, 75012 Paris, SIRET fictif 00000077400019",
+      "N° d'attestation de capacité :": "CAP-EX-774",
+      "DETENTEUR (Nom, adresse et SIRET) :": "Commune Exemple, 18 rue des Lilas, 75012 Paris, SIRET fictif 00000177400017"
+    },
+    "[3] Équipement concerné :": {
+      "Identification :": "Groupe froid GF-774",
+      "Dénomination du fluide :": "R-134a",
+      "Charge totale :": "10 kg",
+      "Tonnage équivalent CO2 :": "14,30 t.éq.CO2"
+    },
+    "[4] Nature de l'intervention :": {
+      "Nature de l'intervention :": {
+        "choices": [
+          "Assemblage de l'équipement",
+          "Mise en service de l'équipement",
+          "Modification de l'équipement",
+          "Maintenance de l'équipement",
+          "Contrôle d'étanchéité périodique",
+          "Contrôle d'étanchéité non périodique",
+          "Démantèlement",
+          "Autre (préciser) :"
+        ],
+        "value": [
+          "Maintenance de l'équipement",
+          "Contrôle d'étanchéité périodique"
+        ]
+      },
+      "Autre (préciser) :": "Sans objet : maintenance et contrôle périodique"
+    },
+    "Contrôle d’étanchéité": {
+      "Identification": "Détecteur manuel DET-774",
+      "Contrôlé le": "01/09/2026",
+      "Présence d'un système permanent de détection de fuites :": {
+        "choices": [
+          "OUI",
+          "NON"
+        ],
+        "value": [
+          "NON"
+        ]
+      },
+      "HCFC": {
+        "choices": [
+          "2 kg ≤ Q < 30 kg",
+          "30 kg ≤ Q < 300 kg",
+          "Q ≥ 300 kg"
+        ],
+        "value": []
+      },
+      "HFC / PFC": {
+        "choices": [
+          "5 t ≤ teqCO2 < 50 t",
+          "50 t ≤ teqCO2 < 500 t",
+          "teqCO2 ≥ 500 t"
+        ],
+        "value": [
+          "5 t ≤ teqCO2 < 50 t"
+        ]
+      },
+      "HFO": {
+        "choices": [
+          "1kg ≤ Q < 10 kg",
+          "10 kg ≤ Q < 100 kg",
+          "Q ≥ 100 kg"
+        ],
+        "value": []
+      },
+      "Équip. HCFC, HFC et HFO sans système permanent de détection des fuites": {
+        "choices": [
+          "12 mois",
+          "6 mois",
+          "3 mois"
+        ],
+        "value": [
+          "12 mois"
+        ]
+      },
+      "Équipements HFC et HFO avec système permanent de détection des fuites": {
+        "choices": [
+          "24 mois",
+          "12 mois",
+          "6 mois"
+        ],
+        "value": []
+      },
+      "Fuites constatées lors du contrôle d'étanchéité": {
+        "choices": [
+          "OUI",
+          "NON"
+        ],
+        "value": [
+          "OUI"
+        ]
+      },
+      "Localisation de la fuite": "Raccord compresseur",
+      "Fuite 1": {
+        "choices": [
+          "Réalisée",
+          "A faire"
+        ],
+        "value": [
+          "Réalisée"
+        ]
+      },
+      "Localisation de la fuite (2)": "Vanne basse pression",
+      "Fuite 2": {
+        "choices": [
+          "Réalisée",
+          "A faire"
+        ],
+        "value": [
+          "Réalisée"
+        ]
+      },
+      "Localisation de la fuite (3)": "Joint échangeur",
+      "Fuite 3": {
+        "choices": [
+          "Réalisée",
+          "A faire"
+        ],
+        "value": [
+          "A faire"
+        ]
+      }
+    },
+    "[11] Manipulation du fluide frigorigène": {
+      "Quantité chargée totale (A+B+C) :": "2,0 kg",
+      "A - Dont fluide vierge :": "1,0 kg",
+      "Dénomination du fluide chargé si changement :": "Sans objet : même fluide R-134a",
+      "B - Dont fluide recyclé (fluide récupéré et réintroduit) :": "0,5 kg",
+      "C - Dont fluide régénéré :": "0,5 kg",
+      "Quantité de fluide récupérée totale (D+E) :": "3,0 kg",
+      "D - Dont fluide destiné au traitement": "2,5 kg",
+      "Si connu, numéro du BSFF (Trackdéchets)": "BSFF-EXEMPLE-774",
+      "E - Dont fluide conservé pour réutilisation (réintroduction)": "0,5 kg",
+      "Identification du ou des contenants": "Bouteilles EX774-A et EX774-B"
+    },
+    "[12] Dénomination ADR/RID": {
+      "UN 1078, Déchet Gaz frigorifique NSA (Gaz réfrigérant, NSA), 2.2 (C/E)": {
+        "choices": [
+          "UN 1078, Déchet Gaz frigorifique NSA (Gaz réfrigérant, NSA), 2.2 (C/E)"
+        ],
+        "value": [
+          "UN 1078, Déchet Gaz frigorifique NSA (Gaz réfrigérant, NSA), 2.2 (C/E)"
+        ]
+      },
+      "Autres fluides frigorigènes non-inflammables :": {
+        "choices": [
+          "Autres fluides frigorigènes non-inflammables :"
+        ],
+        "value": []
+      },
+      "UN 3161, Déchet Gaz liquéfié inflammable NSA, 2.1 (B/D)": {
+        "choices": [
+          "UN 3161, Déchet Gaz liquéfié inflammable NSA, 2.1 (B/D)"
+        ],
+        "value": []
+      },
+      "Autres fluides frigorigènes inflammables :": {
+        "choices": [
+          "Autres fluides frigorigènes inflammables :"
+        ],
+        "value": []
+      },
+      "Autres fluides frigorigènes non-inflammables : (2)": "Sans objet : désignation UN1078 retenue",
+      "Autres fluides frigorigènes inflammables : (2)": "Sans objet : fluide non inflammable",
+      "Installation prévue de destination du fluide récupéré (Nom, SIRET, adresse)": "Traitement Exemple, SIRET fictif 00000277400015, 32 rue du Port, 77000 Melun",
+      "Observations :": "Deux fuites réparées ; équipement arrêté et intervention complémentaire programmée le 20/10/2026 pour le joint échangeur."
+    },
+    "Opérateur": {
+      "Nom du Signataire :": "DURAND Sophie",
+      "Qualité du Signataire :": "Technicienne habilitée",
+      "Date et signature :": "19/10/2026, DURAND Sophie, signature fictive"
+    },
+    "Détenteur": {
+      "Nom du Signataire :": "PETIT Julien",
+      "Qualité du Signataire :": "Responsable technique communal",
+      "Date et signature :": "19/10/2026, PETIT Julien, signature fictive"
+    }
+  }
+}

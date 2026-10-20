@@ -1,0 +1,685 @@
+{
+  "id": "es-778",
+  "language": "es",
+  "title": "Solicitud de certificado tipo, de producción o tipo suplementario",
+  "domain": "Business",
+  "issuer": "ANAC",
+  "issuer_id": "anac",
+  "template_family": "anac-8110-12-type-production-supplemental-certificate",
+  "source_version": "07/25",
+  "source_date_evidence": {
+    "kind": "printed edition",
+    "value": "07/25",
+    "note": "Edition transcribed from the source; retrieval date is not an issuance date."
+  },
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/form_da_8110-12.pdf",
+  "landing_url": "https://www.argentina.gob.ar/anac/aeronaves/formularios-circulares-de-asesoramiento-y-manuales/formularios-de-aeronavegabilidad",
+  "source_sha256": "8445e8612b8faddb2686db46c4a280584090d907a885c4094646ed59edabc6b7",
+  "source_pages": 2,
+  "retrieved_at": "2026-10-19T08:51:24.661463+00:00",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "CC BY 4.0 under Argentina.gob.ar portal terms, intellectual-property section. National-portal download; no contrary reuse notice found in the form. Attribution: ANAC. Normalized semantic layout with synthetic completion; not an official completed submission.",
+  "columns": 2,
+  "synthetic_context": true,
+  "source_notice": "Source wording, complete option sets, repeated targets and administrative/signature areas retained. Values and all signatures are synthetic.",
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Solicitud de",
+      "path": [
+        "Página 1",
+        "Solicitud",
+        "Solicitud de"
+      ],
+      "source_anchor": "Solicitud de",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "Certificado Tipo",
+        "Certificado de Producción"
+      ],
+      "options": [
+        "Certificado Tipo",
+        "Certificado de Producción",
+        "Certificado Tipo Suplementario",
+        "Reconocimiento de Certificado Tipo o Certificado Tipo Suplementario",
+        "Enmienda de Certificado Tipo",
+        "Enmienda Certificado Tipo Suplementario"
+      ],
+      "context_evidence": "Solicitud / Solicitud de: Certificado Tipo, Certificado de Producción."
+    },
+    {
+      "id": "f002",
+      "label": "Producto",
+      "path": [
+        "Página 1",
+        "Solicitud",
+        "Producto"
+      ],
+      "source_anchor": "Producto",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Aeronave"
+      ],
+      "options": [
+        "Aeronave",
+        "Motor de Aeronave",
+        "Hélice"
+      ],
+      "context_evidence": "Solicitud / Producto: Aeronave."
+    },
+    {
+      "id": "f003",
+      "label": "Nombre del solicitante",
+      "path": [
+        "Página 1",
+        "Solicitante",
+        "Nombre del solicitante"
+      ],
+      "source_anchor": "Nombre del solicitante",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Aeronáutica Sintética Litoral SA"
+    },
+    {
+      "id": "f004",
+      "label": "Domicilio",
+      "path": [
+        "Página 1",
+        "Solicitante",
+        "Domicilio"
+      ],
+      "source_anchor": "Domicilio",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Avenida Aeródromo 240"
+    },
+    {
+      "id": "f005",
+      "label": "Localidad / Provincia",
+      "path": [
+        "Página 1",
+        "Solicitante",
+        "Localidad / Provincia"
+      ],
+      "source_anchor": "Localidad / Provincia",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Rosario, Santa Fe"
+    },
+    {
+      "id": "f006",
+      "label": "Código postal",
+      "path": [
+        "Página 1",
+        "Solicitante",
+        "Código postal"
+      ],
+      "source_anchor": "Código postal",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2000"
+    },
+    {
+      "id": "f007",
+      "label": "País",
+      "path": [
+        "Página 1",
+        "Solicitante",
+        "País"
+      ],
+      "source_anchor": "País",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Argentina"
+    },
+    {
+      "id": "f008",
+      "label": "Designación(es) de modelo",
+      "path": [
+        "Página 1",
+        "Certificado tipo",
+        "Designación(es) de modelo"
+      ],
+      "source_anchor": "Designación(es) de modelo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "LS-40; expediente sintético de diseño LS40, planos 001 a 085, revisión 4."
+    },
+    {
+      "id": "f009",
+      "label": "Domicilio de la fábrica (si fuese diferente de la anterior)",
+      "path": [
+        "Página 1",
+        "Producción",
+        "Domicilio de la fábrica (si fuese diferente de la anterior)"
+      ],
+      "source_anchor": "Domicilio de la fábrica (si fuese diferente de la anterior)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Parque Industrial Aeronáutico, nave 3, Rosario"
+    },
+    {
+      "id": "f010",
+      "label": "CP No",
+      "path": [
+        "Página 1",
+        "Producción",
+        "CP No"
+      ],
+      "source_anchor": "CP No",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No corresponde: certificado de producción original, sin número anterior."
+    },
+    {
+      "id": "f011",
+      "label": "CT / CTS Nº",
+      "path": [
+        "Página 1",
+        "Producción",
+        "CT / CTS Nº"
+      ],
+      "source_anchor": "CT / CTS Nº",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "CT-SINT-040"
+    },
+    {
+      "id": "f012",
+      "label": "Designación de marca y modelo del producto a ser modificado",
+      "path": [
+        "Página 1",
+        "Suplementario",
+        "Designación de marca y modelo del producto a ser modificado"
+      ],
+      "source_anchor": "Designación de marca y modelo del producto a ser modificado",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No corresponde: no se solicita CTS para otro producto."
+    },
+    {
+      "id": "f013",
+      "label": "Descripción de la modificación",
+      "path": [
+        "Página 1",
+        "Suplementario",
+        "Descripción de la modificación"
+      ],
+      "source_anchor": "Descripción de la modificación",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No corresponde: diseño original LS-40, sin modificación de un tipo ajeno."
+    },
+    {
+      "id": "f014",
+      "label": "Firma autorizada",
+      "path": [
+        "Página 1",
+        "Certificación",
+        "Firma autorizada"
+      ],
+      "source_anchor": "Firma autorizada",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de Ana Vidal"
+    },
+    {
+      "id": "f015",
+      "label": "Título",
+      "path": [
+        "Página 1",
+        "Certificación",
+        "Título"
+      ],
+      "source_anchor": "Título",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Presidenta de Aeronáutica Sintética Litoral SA"
+    },
+    {
+      "id": "f016",
+      "label": "Fecha",
+      "path": [
+        "Página 1",
+        "Certificación",
+        "Fecha"
+      ],
+      "source_anchor": "Fecha",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "15/10/2026"
+    },
+    {
+      "id": "f017",
+      "label": "Solicitud para",
+      "path": [
+        "Página 1",
+        "Producción",
+        "Solicitud para"
+      ],
+      "source_anchor": "Solicitud para",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Nuevo Certificado de producción"
+      ],
+      "options": [
+        "Nuevo Certificado de producción",
+        "Incorporaciones en el Certificado De Producción (indique N° de CP)"
+      ],
+      "context_evidence": "Producción / Solicitud para: Nuevo Certificado de producción."
+    },
+    {
+      "id": "f018",
+      "label": "¿Los datos están disponibles para ser vendidos o transferidos a otras personas?",
+      "path": [
+        "Página 1",
+        "Suplementario / datos",
+        "¿Los datos están disponibles para ser vendidos o transferidos a otras personas?"
+      ],
+      "source_anchor": "¿Los datos están disponibles para ser vendidos o transferidos a otras personas?",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "Suplementario / datos / ¿Los datos están disponibles para ser vendidos o transferidos a otras personas?: sin selección. La solicitud no comprende certificado tipo suplementario; este grupo queda inactivo.",
+      "inactive_reason": "La solicitud no comprende certificado tipo suplementario; este grupo queda inactivo."
+    },
+    {
+      "id": "f019",
+      "label": "¿Se fabrican partes para la venta?",
+      "path": [
+        "Página 1",
+        "Suplementario / partes",
+        "¿Se fabrican partes para la venta?"
+      ],
+      "source_anchor": "¿Se fabrican partes para la venta?",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "Suplementario / partes / ¿Se fabrican partes para la venta?: sin selección. No se solicita CTS; la pregunta de fabricación de partes del bloque 7 no aplica.",
+      "inactive_reason": "No se solicita CTS; la pregunta de fabricación de partes del bloque 7 no aplica."
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Solicitud de certificado tipo, de producción o tipo suplementario / Página 1",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Solicitud",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Solicitud de",
+        "field": "f001",
+        "source_page": 1
+      },
+      {
+        "label": "Producto",
+        "field": "f002",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Solicitante",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nombre del solicitante",
+        "field": "f003",
+        "source_page": 1
+      },
+      {
+        "label": "Domicilio",
+        "field": "f004",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Localidad / Provincia",
+        "field": "f005",
+        "source_page": 1
+      },
+      {
+        "label": "Código postal",
+        "field": "f006",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "País",
+        "field": "f007",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "5. CERTIFICADO TIPO Complete el ítems 5a a continuación /TYPE CERTIFICATE Complete items 5a below",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "a. Designación(es) de modelo (todos los modelos enumerados deben estar completamente especificados en los datos técnicos requeridos, incluídos los planos que representan el material de diseño, especificaciones de fabricación y performance de la aeronave, motor o hélice de la aeronave, que son el motivo de esta solicitud). / Model designation(s) (All models listed are to be completely described in the required technical data, including drawings representing the design, material, specifications, construction, and performance of the aircraft, aircraft engine, propeller which is the subject of this application).",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Certificado tipo",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Designación(es) de modelo",
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "6. CERTIFICADO DE PRODUCCIÓN (Complete los ítems 6.a-c a continuación. Con este formulario, envíe una copia de los datos de control de calidad o los cambios realizados que incluyan los productos nuevos según sea requerido por la RAAC aplicable) / PRODUCTION CERTIFICATE (Complete items 6.a-c below. Submit with this form, one copy of quality control data or the changes made covering new products, as required by applicable RAAC).",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Producción",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Domicilio de la fábrica (si fuese diferente de la anterior)",
+        "field": "f009",
+        "source_page": 1
+      },
+      {
+        "label": "CP No",
+        "field": "f010",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "CT / CTS Nº",
+        "field": "f011",
+        "source_page": 1
+      },
+      {
+        "label": "Solicitud para",
+        "field": "f017",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "c. El solicitante es el titular, o posee una licencia, de un Certificado Tipo o Certificado Tipo Suplementario (adjuntar evidencia del acuerdo de licencia y No de certificado) / Applicant is holder of or licensee under a TypE Certificate or a Supplemental Type Certificate (Attacch evidence of licensIng agreement and give certificate number)",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "7. CERTIFICADO TIPO SUPLEMENTARIO (Complete los ítems 7. a-d a continuación) / SUPPLEMENTAL TYPE CERTIFICATE (Complete items 7.a-d below)",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Suplementario",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Designación de marca y modelo del producto a ser modificado",
+        "field": "f012",
+        "source_page": 1
+      },
+      {
+        "label": "Descripción de la modificación",
+        "field": "f013",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Suplementario / datos",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "¿Los datos están disponibles para ser vendidos o transferidos a otras personas?",
+        "field": "f018",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Suplementario / partes",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "¿Se fabrican partes para la venta?",
+        "field": "f019",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Certifico que las declaraciones anteriores son verdaderas /I certify that the above statements are true 8. CERTIFICACIÓN CERTIFICATION",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Certificación",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Firma autorizada",
+        "field": "f014",
+        "source_page": 1
+      },
+      {
+        "label": "Título",
+        "field": "f015",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fecha",
+        "field": "f016",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Form. DA 8110-12 (07/25)",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Solicitud de certificado tipo, de producción o tipo suplementario / Página 2",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "INSTRUCCIONES PARA COMPLETAR EL FORM. DA 8110-12, SOLICITUD DE CERTIFICADO TIPO, CERTIFICADO DE PRODUCCIÓN O CERTIFICADO TIPO SUPLEMENTARIO",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "El Formulario DA 8110-12 se utiliza para la solicitud de un CT, CP y CTS, para enmendar el CT, CP, CTS o para modificar un CTS. La solicitud para un CT y un CP se puede hacer al mismo tiempo. Se deben completar los casilleros que correspondan para cada tipo de certificado de la siguiente manera.",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Casilleros 1, 2, 3, 4, 5 y 8 para un CT o enmienda a un CT;",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Casilleros 1, 2, 3, 6 y 8 para un CP;",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Casilleros 1, 2, 3, 4, 7 y 8 para un CTS o una enmienda al CTS.",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Casillero 1. Marque el casillero que corresponda.",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Casillero 2. Marque el casillero que corresponda.",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Casillero 3. Ingrese el nombre de la persona, corporación u organización de quien solicita el CT, CP o CTS, la enmienda al CT, CP o CTS, o modificación al CTS. Este nombre se colocará en el certificado exactamente como se escribió aquí.",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "NOTA: Solo el titular del CT puede solicitar una enmienda al CT original. Si es otra persona, que no sea el titular de CT, esta persona debe solicitar un CTS. Además, solo los titulares de los CTS pueden solicitar la modificación de sus propios CTS.",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Casillero 4. Ingrese el domicilio de la persona, corporación u organización de quien solicita el CT, CP o CTS, la enmienda al CT, CP o CTS, o modificación al CTS.",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "NOTA: No se aceptará un apartado postal.",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Casillero 5. Complete este casillero si la solicitud es para un CT o una enmienda al CT. Dejar en blanco si la solicitud es para un CP, CTS o una enmienda al CTS.",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Casillero 6. Complete las partes a, b y c de este casillero si la solicitud es para un CP. Indique el número de CP si la solicitud es para una incorporación a un CP. Déjelo en blanco si la solicitud es para un CP original. Indique el número de CT/CTS si lo conoce al momento de la solicitud; de lo contrario, déjelo en blanco. Consultar al RAAC Parte 21 Secciones 21.45 y 21.119.",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "NOTA: Normalmente no se requiere un CP para la producción de partes para un CTS, generalmente estas se fabrican bajo una autorización de AFP.",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Casillero 7. Complete las partes a, b, c y d si la solicitud es para un CTS.",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Casillero 8. Firmar por quien solicita oficialmente la certificación. La firma debe ser del titular o de una persona debidamente autorizada para firmar por el titular, la empresa o la corporación.",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ]
+  ],
+  "context": "ESCENARIO COMPLETAMENTE SINTÉTICO. No identifica personas, empresas, bienes ni actuaciones reales. Las firmas y los asientos administrativos son representaciones textuales ficticias, sin validez oficial.\nLas menciones de no aplicación son estados explícitos del escenario, no datos deducidos del formulario.\nPágina 1 / Solicitud / Solicitud de: Solicitud / Solicitud de: Certificado Tipo, Certificado de Producción.\nPágina 1 / Solicitud / Producto: Solicitud / Producto: Aeronave.\nPágina 1 / Solicitante / Nombre del solicitante: Aeronáutica Sintética Litoral SA\nPágina 1 / Solicitante / Domicilio: Avenida Aeródromo 240\nPágina 1 / Solicitante / Localidad / Provincia: Rosario, Santa Fe\nPágina 1 / Solicitante / Código postal: 2000\nPágina 1 / Solicitante / País: Argentina\nPágina 1 / Certificado tipo / Designación(es) de modelo: LS-40; expediente sintético de diseño LS40, planos 001 a 085, revisión 4.\nPágina 1 / Producción / Domicilio de la fábrica (si fuese diferente de la anterior): Parque Industrial Aeronáutico, nave 3, Rosario\nPágina 1 / Producción / CP No: No corresponde: certificado de producción original, sin número anterior.\nPágina 1 / Producción / CT / CTS Nº: CT-SINT-040\nPágina 1 / Suplementario / Designación de marca y modelo del producto a ser modificado: No corresponde: no se solicita CTS para otro producto.\nPágina 1 / Suplementario / Descripción de la modificación: No corresponde: diseño original LS-40, sin modificación de un tipo ajeno.\nPágina 1 / Certificación / Firma autorizada: Firma sintética de Ana Vidal\nPágina 1 / Certificación / Título: Presidenta de Aeronáutica Sintética Litoral SA\nPágina 1 / Certificación / Fecha: 15/10/2026\nPágina 1 / Producción / Solicitud para: Producción / Solicitud para: Nuevo Certificado de producción.\nPágina 1 / Suplementario / datos / ¿Los datos están disponibles para ser vendidos o transferidos a otras personas?: Suplementario / datos / ¿Los datos están disponibles para ser vendidos o transferidos a otras personas?: sin selección. La solicitud no comprende certificado tipo suplementario; este grupo queda inactivo.\nPágina 1 / Suplementario / partes / ¿Se fabrican partes para la venta?: Suplementario / partes / ¿Se fabrican partes para la venta?: sin selección. No se solicita CTS; la pregunta de fabricación de partes del bloque 7 no aplica.",
+  "workflow_identity": {
+    "language": "es",
+    "id": 778
+  }
+}

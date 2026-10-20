@@ -1,0 +1,157 @@
+{
+  "Página 1": {
+    "1 / Empresa": {
+      "NOMBRE": "Taller Sintético Horizonte",
+      "CÓDIGO": "TAR-SINT-275",
+      "UBICACIÓN DE LAS INSTALACIONES": "Hangar 6, aeródromo sintético Córdoba",
+      "DIRECCION POSTAL": "Avenida del Taller 124, Córdoba 5000",
+      "TE. LINEA": "0351-555-2780",
+      "FAX": "0351-555-2781",
+      "TE. MOVIL": "351-555-2782",
+      "E-MAIL": "taller.horizonte@example.invalid"
+    },
+    "2 / Motivo": {
+      "MOTIVO DE LA SOLICITUD": {
+        "choices": [
+          "CERTIFICADO DE HABILITACION ORIGINAL",
+          "CAMBIO DE ALCANCES",
+          "RENOVACION DE LOS CERTIFICADOS POR VENCIMIENTO",
+          "CAMBIO UBICACION",
+          "OTRAS CAUSAS:",
+          "CAMBIO DE PROPIETARIO"
+        ],
+        "value": [
+          "CERTIFICADO DE HABILITACION ORIGINAL"
+        ]
+      },
+      "OTRAS CAUSAS:": "No corresponde: solicitud de habilitación original."
+    },
+    "3 / Alcances": {
+      "CATEGORIA": {
+        "choices": [
+          "CÉLULA",
+          "MOTORES",
+          "HELICES",
+          "ACCESORIOS",
+          "INSTRUMENTOS",
+          "RADIO",
+          "SERVICIOS ESPECIALIZADOS / OTRAS CATEGORIAS LIMITADAS"
+        ],
+        "value": [
+          "CÉLULA",
+          "MOTORES"
+        ]
+      }
+    },
+    "3 / CÉLULA": {
+      "CLASE": {
+        "choices": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "value": [
+          "I"
+        ]
+      }
+    },
+    "3 / MOTORES": {
+      "CLASE": {
+        "choices": [
+          "I",
+          "II",
+          "III"
+        ],
+        "value": [
+          "I"
+        ]
+      }
+    },
+    "3 / HELICES": {
+      "CLASE": {
+        "choices": [
+          "I",
+          "II"
+        ],
+        "value": []
+      }
+    },
+    "3 / ACCESORIOS": {
+      "CLASE": {
+        "choices": [
+          "I",
+          "II",
+          "III"
+        ],
+        "value": []
+      }
+    },
+    "3 / INSTRUMENTOS": {
+      "CLASE": {
+        "choices": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "value": []
+      }
+    },
+    "3 / RADIO": {
+      "CLASE": {
+        "choices": [
+          "I",
+          "II",
+          "III"
+        ],
+        "value": []
+      }
+    },
+    "4 / Solicitante": {
+      "NOMBRE DEL PROPIETARIO / REPRESENTANTE": "Ana Vidal",
+      "FECHA": "12/10/2026",
+      "FIRMA y ACLARACIÓN": "Firma sintética de Ana Vidal; Ana Vidal",
+      "CARGO": "Presidenta"
+    },
+    "5-8 / ANAC": {
+      "RECOMENDACIONES": {
+        "choices": [
+          "EMITIR CERTIFICADOS – EL TALLER CUMPLE REQUERIMIENTOS RAAC PARTE 145",
+          "NO EMITIR CERTIFICADOS – EL TALLER NO CUMPLE REQUERIMIENTOS RAAC PARTE145"
+        ],
+        "value": [
+          "EMITIR CERTIFICADOS – EL TALLER CUMPLE REQUERIMIENTOS RAAC PARTE 145"
+        ]
+      },
+      "FECHA INSPECCION": "16/10/2026",
+      "OBSERVACIONES.": "Inspección sintética favorable para célula clase I y motores clase I."
+    },
+    "9 / Inspector 1": {
+      "DEPENDENCIA": "Dirección de Aeronavegabilidad",
+      "FIRMA(S) DE INSPECTOR(ES)": "Firma sintética de Diego Ferreyra"
+    },
+    "9 / Inspector 2": {
+      "DEPENDENCIA": "Inspección de Talleres",
+      "FIRMA(S) DE INSPECTOR(ES)": "Firma sintética de Elena Ríos"
+    },
+    "9 / Inspector 3": {
+      "DEPENDENCIA": "Control Técnico",
+      "FIRMA(S) DE INSPECTOR(ES)": "Firma sintética de Marcos Ibarra"
+    },
+    "10 / Decisión": {
+      "CERTIFICADO": {
+        "choices": [
+          "APROBADO",
+          "NO APROBADO"
+        ],
+        "value": [
+          "APROBADO"
+        ]
+      },
+      "FECHA": "18/10/2026",
+      "FIRMA": "Firma sintética de Elena Ríos",
+      "CARGO": "Jefa de Certificación"
+    }
+  }
+}

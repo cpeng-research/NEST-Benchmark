@@ -1,0 +1,445 @@
+{
+  "id": "es-776",
+  "language": "es",
+  "title": "Solicitud de producto a pedido para establecimiento elaborador, APA 4B",
+  "domain": "Business",
+  "issuer": "SENASA",
+  "issuer_id": "senasa",
+  "template_family": "senasa-apa4b-custom-feed-product-request",
+  "source_version": "Undated",
+  "source_date_evidence": {
+    "kind": "undated source",
+    "value": "Undated",
+    "note": "Edition transcribed from the source; retrieval date is not an issuance date."
+  },
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/4b_elabora.apedido-2.pdf",
+  "landing_url": "https://www.argentina.gob.ar/node/103358",
+  "source_sha256": "af1456a67e5d692d1afb10e9605fd2b240033a0bd50ee30140efc00ce1011d46",
+  "source_pages": 1,
+  "retrieved_at": "2026-10-19T09:18:05.812723+00:00",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "CC BY 4.0 under Argentina.gob.ar portal terms, intellectual-property section. National-portal download; no contrary reuse notice found in the form. Attribution: SENASA. Normalized semantic layout with synthetic completion; not an official completed submission.",
+  "columns": 2,
+  "synthetic_context": true,
+  "source_notice": "Source wording, complete option sets, repeated targets and administrative/signature areas retained. Values and all signatures are synthetic.",
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Lugar:",
+      "path": [
+        "Página 1",
+        "Emisión",
+        "Lugar:"
+      ],
+      "source_anchor": "Lugar:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Rafaela"
+    },
+    {
+      "id": "f002",
+      "label": "Fecha:",
+      "path": [
+        "Página 1",
+        "Emisión",
+        "Fecha:"
+      ],
+      "source_anchor": "Fecha:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "18/10/2026"
+    },
+    {
+      "id": "f003",
+      "label": "Nombre/Razón Social:",
+      "path": [
+        "Página 1",
+        "Solicitante",
+        "Nombre/Razón Social:"
+      ],
+      "source_anchor": "Nombre/Razón Social:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Alimentos Sintéticos del Litoral SA"
+    },
+    {
+      "id": "f004",
+      "label": "Registro Firma de Senasa N°:",
+      "path": [
+        "Página 1",
+        "Solicitante",
+        "Registro Firma de Senasa N°:"
+      ],
+      "source_anchor": "Registro Firma de Senasa N°:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "RF-SINT-776"
+    },
+    {
+      "id": "f005",
+      "label": "Establecimiento Senasa N°:",
+      "path": [
+        "Página 1",
+        "Solicitante",
+        "Establecimiento Senasa N°:"
+      ],
+      "source_anchor": "Establecimiento Senasa N°:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "EE-SINT-241"
+    },
+    {
+      "id": "f006",
+      "label": "Certificado de Producto en el que se Usará N°:",
+      "path": [
+        "Página 1",
+        "Solicitante",
+        "Certificado de Producto en el que se Usará N°:"
+      ],
+      "source_anchor": "Certificado de Producto en el que se Usará N°:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "CP-SINT-160"
+    },
+    {
+      "id": "f007",
+      "label": "Director Técnico (DT) de Establecimiento: Nombre y Apellido:",
+      "path": [
+        "Página 1",
+        "Solicitante",
+        "Director Técnico (DT) de Establecimiento: Nombre y Apellido:"
+      ],
+      "source_anchor": "Director Técnico (DT) de Establecimiento: Nombre y Apellido:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Marta Villalba"
+    },
+    {
+      "id": "f008",
+      "label": "Registro DT Senasa N°:",
+      "path": [
+        "Página 1",
+        "Solicitante",
+        "Registro DT Senasa N°:"
+      ],
+      "source_anchor": "Registro DT Senasa N°:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "DT-SINT-039"
+    },
+    {
+      "id": "f009",
+      "label": "Tipo de Ingredient:",
+      "path": [
+        "Página 1",
+        "Ingrediente",
+        "Tipo de Ingredient:"
+      ],
+      "source_anchor": "Tipo de Ingredient:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Premezcla mineral no medicamentosa"
+    },
+    {
+      "id": "f010",
+      "label": "Cantidad Solicitada:",
+      "path": [
+        "Página 1",
+        "Ingrediente",
+        "Cantidad Solicitada:"
+      ],
+      "source_anchor": "Cantidad Solicitada:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2500 kg"
+    },
+    {
+      "id": "f011",
+      "label": "Fecha Estimada de Inicio de Consumo:",
+      "path": [
+        "Página 1",
+        "Ingrediente",
+        "Fecha Estimada de Inicio de Consumo:"
+      ],
+      "source_anchor": "Fecha Estimada de Inicio de Consumo:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "01/11/2026"
+    },
+    {
+      "id": "f012",
+      "label": "Especie y Categoria de Animales a los que se Destinará:",
+      "path": [
+        "Página 1",
+        "Ingrediente",
+        "Especie y Categoria de Animales a los que se Destinará:"
+      ],
+      "source_anchor": "Especie y Categoria de Animales a los que se Destinará:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Bovinos de recría"
+    },
+    {
+      "id": "f013",
+      "label": "FÓRMULA CUALICUANTITATIVA SOLICITADA",
+      "path": [
+        "Página 1",
+        "Composición",
+        "FÓRMULA CUALICUANTITATIVA SOLICITADA"
+      ],
+      "source_anchor": "FÓRMULA CUALICUANTITATIVA SOLICITADA",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Supuesto íntegramente sintético: carbonato de calcio 50%; fosfato dicálcico 25%; cloruro de sodio 20%; premezcla de oligoelementos 5%. Total 100%. Sin fármacos veterinarios."
+    },
+    {
+      "id": "f014",
+      "label": "Firma y Aclaración",
+      "path": [
+        "Página 1",
+        "Representante legal",
+        "Firma y Aclaración"
+      ],
+      "source_anchor": "Firma y Aclaración",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de Ana Beltrán; Ana Beltrán"
+    },
+    {
+      "id": "f015",
+      "label": "Firma",
+      "path": [
+        "Página 1",
+        "DT del establecimiento",
+        "Firma"
+      ],
+      "source_anchor": "Firma",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de Marta Villalba"
+    },
+    {
+      "id": "f016",
+      "label": "Hoja 1 de",
+      "path": [
+        "Página 1",
+        "Control de páginas",
+        "Hoja 1 de"
+      ],
+      "source_anchor": "Hoja 1 de",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Solicitud de producto a pedido para establecimiento elaborador, APA 4B / Página 1",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Formulario APA - 4B. NORMA TÉCNICA DE ALIMENTOS PARA ANIMALES - RESOLUCIÓN SENASA n° 594/2015",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Emisión",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Lugar:",
+        "field": "f001",
+        "source_page": 1
+      },
+      {
+        "label": "Fecha:",
+        "field": "f002",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Solicitante",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nombre/Razón Social:",
+        "field": "f003",
+        "source_page": 1
+      },
+      {
+        "label": "Registro Firma de Senasa N°:",
+        "field": "f004",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Establecimiento Senasa N°:",
+        "field": "f005",
+        "source_page": 1
+      },
+      {
+        "label": "Certificado de Producto en el que se Usará N°:",
+        "field": "f006",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Director Técnico (DT) de Establecimiento: Nombre y Apellido:",
+        "field": "f007",
+        "source_page": 1
+      },
+      {
+        "label": "Registro DT Senasa N°:",
+        "field": "f008",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Clasificación según NORMA TÉCNICA DE ALIMENTO PARA ANIMALES (Anexo I), Numeral 8.4",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Ingrediente",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Tipo de Ingredient:",
+        "field": "f009",
+        "source_page": 1
+      },
+      {
+        "label": "Cantidad Solicitada:",
+        "field": "f010",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fecha Estimada de Inicio de Consumo:",
+        "field": "f011",
+        "source_page": 1
+      },
+      {
+        "label": "Especie y Categoria de Animales a los que se Destinará:",
+        "field": "f012",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Si la fórmula contiene productos fármacos veterinarios, debe ser prescripta por médido veterinario.",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Composición",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FÓRMULA CUALICUANTITATIVA SOLICITADA",
+        "field": "f013",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "LA INFORMACIÓN DETALLADA TIENE CARÁCTER DE DECLARACIÓN JURADA",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Representante legal",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Firma y Aclaración",
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "DT del establecimiento",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Firma",
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Control de páginas",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Hoja 1 de",
+        "field": "f016",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "C.560",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ]
+  ],
+  "context": "ESCENARIO COMPLETAMENTE SINTÉTICO. No identifica personas, empresas, bienes ni actuaciones reales. Las firmas y los asientos administrativos son representaciones textuales ficticias, sin validez oficial.\nLas menciones de no aplicación son estados explícitos del escenario, no datos deducidos del formulario.\nPágina 1 / Emisión / Lugar:: Rafaela\nPágina 1 / Emisión / Fecha:: 18/10/2026\nPágina 1 / Solicitante / Nombre/Razón Social:: Alimentos Sintéticos del Litoral SA\nPágina 1 / Solicitante / Registro Firma de Senasa N°:: RF-SINT-776\nPágina 1 / Solicitante / Establecimiento Senasa N°:: EE-SINT-241\nPágina 1 / Solicitante / Certificado de Producto en el que se Usará N°:: CP-SINT-160\nPágina 1 / Solicitante / Director Técnico (DT) de Establecimiento: Nombre y Apellido:: Marta Villalba\nPágina 1 / Solicitante / Registro DT Senasa N°:: DT-SINT-039\nPágina 1 / Ingrediente / Tipo de Ingredient:: Premezcla mineral no medicamentosa\nPágina 1 / Ingrediente / Cantidad Solicitada:: 2500 kg\nPágina 1 / Ingrediente / Fecha Estimada de Inicio de Consumo:: 01/11/2026\nPágina 1 / Ingrediente / Especie y Categoria de Animales a los que se Destinará:: Bovinos de recría\nPágina 1 / Composición / FÓRMULA CUALICUANTITATIVA SOLICITADA: Supuesto íntegramente sintético: carbonato de calcio 50%; fosfato dicálcico 25%; cloruro de sodio 20%; premezcla de oligoelementos 5%. Total 100%. Sin fármacos veterinarios.\nPágina 1 / Representante legal / Firma y Aclaración: Firma sintética de Ana Beltrán; Ana Beltrán\nPágina 1 / DT del establecimiento / Firma: Firma sintética de Marta Villalba\nPágina 1 / Control de páginas / Hoja 1 de: 1",
+  "workflow_identity": {
+    "language": "es",
+    "id": 776
+  }
+}

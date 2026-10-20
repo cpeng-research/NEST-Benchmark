@@ -1,0 +1,1404 @@
+{
+  "id": "es-792",
+  "language": "es",
+  "title": "Solicitudes varias de buques: motor, medidas, tipo y eliminación",
+  "domain": "GovPublic",
+  "issuer": "Prefectura Naval Argentina",
+  "issuer_id": "prefectura-naval-argentina",
+  "template_family": "pna-vessel-technical-register-changes",
+  "source_version": "Undated",
+  "source_date_evidence": {
+    "kind": "undated source",
+    "value": "Undated",
+    "note": "Edition transcribed from the source; retrieval date is not an issuance date."
+  },
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/2018/12/formulario_3_solicitudesvarias_actualizado_02-26.pdf",
+  "landing_url": "https://www.argentina.gob.ar/prefecturanaval/reglamentacion/ordenanzas/formularios",
+  "source_sha256": "acb4ac725d65595a59e82590fa4346720143cc6d1dc2d90034336c9c7811cbaa",
+  "source_pages": 1,
+  "retrieved_at": "2026-10-19T08:55:27.063738+00:00",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "CC BY 4.0 under Argentina.gob.ar portal terms, intellectual-property section. National-portal download; no contrary reuse notice found in the form. Attribution: Prefectura Naval Argentina. Normalized semantic layout with synthetic completion; not an official completed submission.",
+  "columns": 2,
+  "synthetic_context": true,
+  "source_notice": "Source wording, complete option sets, repeated targets and administrative/signature areas retained. Values and all signatures are synthetic.",
+  "fields": [
+    {
+      "id": "f001",
+      "label": "RESERVADO MESA DE ENTRADAS PNA",
+      "path": [
+        "Página 1",
+        "Control",
+        "RESERVADO MESA DE ENTRADAS PNA"
+      ],
+      "source_anchor": "RESERVADO MESA DE ENTRADAS PNA",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Entrada sintética PNA-2026-792"
+    },
+    {
+      "id": "f002",
+      "label": "SOLICITUD DE:",
+      "path": [
+        "Página 1",
+        "Solicitud",
+        "SOLICITUD DE:"
+      ],
+      "source_anchor": "SOLICITUD DE:",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "CAMBIO, RETIRO O INST. de MOTOR/ES"
+      ],
+      "options": [
+        "CAMBIO DE MEDIDAS",
+        "CAMBIO DE TIPO/SERVICIO EXPL.",
+        "CAMBIO, RETIRO O INST. de MOTOR/ES",
+        "CESE DE BANDERA/ELIMINACIÓN",
+        "OTROS"
+      ],
+      "context_evidence": "Solicitud / SOLICITUD DE:: CAMBIO, RETIRO O INST. de MOTOR/ES."
+    },
+    {
+      "id": "f003",
+      "label": "NOMBRE DEL BUQUE",
+      "path": [
+        "Página 1",
+        "Buque",
+        "NOMBRE DEL BUQUE"
+      ],
+      "source_anchor": "NOMBRE DEL BUQUE",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Horizonte Sintético"
+    },
+    {
+      "id": "f004",
+      "label": "N.A.B.",
+      "path": [
+        "Página 1",
+        "Buque",
+        "N.A.B."
+      ],
+      "source_anchor": "N.A.B.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "5,2"
+    },
+    {
+      "id": "f005",
+      "label": "MATRÍCULA",
+      "path": [
+        "Página 1",
+        "Buque",
+        "MATRÍCULA"
+      ],
+      "source_anchor": "MATRÍCULA",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "REY-SINT-790"
+    },
+    {
+      "id": "f006",
+      "label": "TIPO",
+      "path": [
+        "Página 1",
+        "Buque",
+        "TIPO"
+      ],
+      "source_anchor": "TIPO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Yate a motor"
+    },
+    {
+      "id": "f007",
+      "label": "SERVICIO",
+      "path": [
+        "Página 1",
+        "Buque",
+        "SERVICIO"
+      ],
+      "source_anchor": "SERVICIO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Privado"
+    },
+    {
+      "id": "f008",
+      "label": "Explotación Específica",
+      "path": [
+        "Página 1",
+        "Buque",
+        "Explotación Específica"
+      ],
+      "source_anchor": "Explotación Específica",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Deportiva"
+    },
+    {
+      "id": "f009",
+      "label": "VALOR",
+      "path": [
+        "Página 1",
+        "Buque",
+        "VALOR"
+      ],
+      "source_anchor": "VALOR",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "ARS 18.600.000, sintético"
+    },
+    {
+      "id": "f010",
+      "label": "Apellidos y Nombres",
+      "path": [
+        "Página 1",
+        "Propietario 1",
+        "Apellidos y Nombres"
+      ],
+      "source_anchor": "Apellidos y Nombres",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Lucía Pereyra"
+    },
+    {
+      "id": "f011",
+      "label": "Fecha nacimiento",
+      "path": [
+        "Página 1",
+        "Propietario 1",
+        "Fecha nacimiento"
+      ],
+      "source_anchor": "Fecha nacimiento",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "08/04/1987"
+    },
+    {
+      "id": "f012",
+      "label": "Estado civil.",
+      "path": [
+        "Página 1",
+        "Propietario 1",
+        "Estado civil."
+      ],
+      "source_anchor": "Estado civil.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Casada"
+    },
+    {
+      "id": "f013",
+      "label": "Documento identidad",
+      "path": [
+        "Página 1",
+        "Propietario 1",
+        "Documento identidad"
+      ],
+      "source_anchor": "Documento identidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "DNI sintético 31.790.402"
+    },
+    {
+      "id": "f014",
+      "label": "Apellidos y Nombres",
+      "path": [
+        "Página 1",
+        "Propietario 2",
+        "Apellidos y Nombres"
+      ],
+      "source_anchor": "Apellidos y Nombres",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Hernán Acosta"
+    },
+    {
+      "id": "f015",
+      "label": "Fecha nacimiento",
+      "path": [
+        "Página 1",
+        "Propietario 2",
+        "Fecha nacimiento"
+      ],
+      "source_anchor": "Fecha nacimiento",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "12/07/1985"
+    },
+    {
+      "id": "f016",
+      "label": "Estado civil.",
+      "path": [
+        "Página 1",
+        "Propietario 2",
+        "Estado civil."
+      ],
+      "source_anchor": "Estado civil.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Casado"
+    },
+    {
+      "id": "f017",
+      "label": "Documento identidad",
+      "path": [
+        "Página 1",
+        "Propietario 2",
+        "Documento identidad"
+      ],
+      "source_anchor": "Documento identidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "DNI sintético 30.790.511"
+    },
+    {
+      "id": "f018",
+      "label": "Apellidos y Nombres",
+      "path": [
+        "Página 1",
+        "Cónyuge 1",
+        "Apellidos y Nombres"
+      ],
+      "source_anchor": "Apellidos y Nombres",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Hernán Acosta"
+    },
+    {
+      "id": "f019",
+      "label": "Documento de Identidad",
+      "path": [
+        "Página 1",
+        "Cónyuge 1",
+        "Documento de Identidad"
+      ],
+      "source_anchor": "Documento de Identidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "DNI"
+    },
+    {
+      "id": "f020",
+      "label": "N°",
+      "path": [
+        "Página 1",
+        "Cónyuge 1",
+        "N°"
+      ],
+      "source_anchor": "N°",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Sintético 30.790.511"
+    },
+    {
+      "id": "f021",
+      "label": "Firma",
+      "path": [
+        "Página 1",
+        "Cónyuge 1",
+        "Firma"
+      ],
+      "source_anchor": "Firma",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de Hernán Acosta"
+    },
+    {
+      "id": "f022",
+      "label": "Apellidos y nombre",
+      "path": [
+        "Página 1",
+        "Cónyuge 2",
+        "Apellidos y nombre"
+      ],
+      "source_anchor": "Apellidos y nombre",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Lucía Pereyra"
+    },
+    {
+      "id": "f023",
+      "label": "Documento de Identidad",
+      "path": [
+        "Página 1",
+        "Cónyuge 2",
+        "Documento de Identidad"
+      ],
+      "source_anchor": "Documento de Identidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "DNI"
+    },
+    {
+      "id": "f024",
+      "label": "N°",
+      "path": [
+        "Página 1",
+        "Cónyuge 2",
+        "N°"
+      ],
+      "source_anchor": "N°",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Sintético 31.790.402"
+    },
+    {
+      "id": "f025",
+      "label": "Firma",
+      "path": [
+        "Página 1",
+        "Cónyuge 2",
+        "Firma"
+      ],
+      "source_anchor": "Firma",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de Lucía Pereyra"
+    },
+    {
+      "id": "f026",
+      "label": "Denominación o razón social",
+      "path": [
+        "Página 1",
+        "Sociedad inactiva",
+        "Denominación o razón social"
+      ],
+      "source_anchor": "Denominación o razón social",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No interviene sociedad: denominación o razón social sin aplicación."
+    },
+    {
+      "id": "f027",
+      "label": "Tipo:",
+      "path": [
+        "Página 1",
+        "Sociedad inactiva",
+        "Tipo:"
+      ],
+      "source_anchor": "Tipo:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No interviene sociedad: tipo sin aplicación."
+    },
+    {
+      "id": "f028",
+      "label": "Fecha:",
+      "path": [
+        "Página 1",
+        "Sociedad inactiva",
+        "Fecha:"
+      ],
+      "source_anchor": "Fecha:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No interviene sociedad: fecha sin aplicación."
+    },
+    {
+      "id": "f029",
+      "label": "Libro:",
+      "path": [
+        "Página 1",
+        "Sociedad inactiva",
+        "Libro:"
+      ],
+      "source_anchor": "Libro:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No interviene sociedad: libro sin aplicación."
+    },
+    {
+      "id": "f030",
+      "label": "Tomo:",
+      "path": [
+        "Página 1",
+        "Sociedad inactiva",
+        "Tomo:"
+      ],
+      "source_anchor": "Tomo:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No interviene sociedad: tomo sin aplicación."
+    },
+    {
+      "id": "f031",
+      "label": "Folio:",
+      "path": [
+        "Página 1",
+        "Sociedad inactiva",
+        "Folio:"
+      ],
+      "source_anchor": "Folio:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No interviene sociedad: folio sin aplicación."
+    },
+    {
+      "id": "f032",
+      "label": "Nro.",
+      "path": [
+        "Página 1",
+        "Sociedad inactiva",
+        "Nro."
+      ],
+      "source_anchor": "Nro.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No interviene sociedad: nro. sin aplicación."
+    },
+    {
+      "id": "f033",
+      "label": "DOMICILIO EN EL PAÍS",
+      "path": [
+        "Página 1",
+        "Domicilio",
+        "DOMICILIO EN EL PAÍS"
+      ],
+      "source_anchor": "DOMICILIO EN EL PAÍS",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Calle del Puerto 240, Tigre"
+    },
+    {
+      "id": "f034",
+      "label": "Marca",
+      "path": [
+        "Página 1",
+        "MOTOR A RETIRAR",
+        "Marca"
+      ],
+      "source_anchor": "Marca",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Naval Sintético"
+    },
+    {
+      "id": "f035",
+      "label": "Tipo",
+      "path": [
+        "Página 1",
+        "MOTOR A RETIRAR",
+        "Tipo"
+      ],
+      "source_anchor": "Tipo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Interior diésel"
+    },
+    {
+      "id": "f036",
+      "label": "Cant.",
+      "path": [
+        "Página 1",
+        "MOTOR A RETIRAR",
+        "Cant."
+      ],
+      "source_anchor": "Cant.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "f037",
+      "label": "Nro.",
+      "path": [
+        "Página 1",
+        "MOTOR A RETIRAR",
+        "Nro."
+      ],
+      "source_anchor": "Nro.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "MN-SINT-160"
+    },
+    {
+      "id": "f038",
+      "label": "Serie",
+      "path": [
+        "Página 1",
+        "MOTOR A RETIRAR",
+        "Serie"
+      ],
+      "source_anchor": "Serie",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SER-OLD-01"
+    },
+    {
+      "id": "f039",
+      "label": "Poder (en kW)",
+      "path": [
+        "Página 1",
+        "MOTOR A RETIRAR",
+        "Poder (en kW)"
+      ],
+      "source_anchor": "Poder (en kW)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "75 kW"
+    },
+    {
+      "id": "f040",
+      "label": "Marca",
+      "path": [
+        "Página 1",
+        "MOTOR A COLOCAR",
+        "Marca"
+      ],
+      "source_anchor": "Marca",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Delta Propulsión"
+    },
+    {
+      "id": "f041",
+      "label": "Tipo",
+      "path": [
+        "Página 1",
+        "MOTOR A COLOCAR",
+        "Tipo"
+      ],
+      "source_anchor": "Tipo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Interior diésel"
+    },
+    {
+      "id": "f042",
+      "label": "Cant.",
+      "path": [
+        "Página 1",
+        "MOTOR A COLOCAR",
+        "Cant."
+      ],
+      "source_anchor": "Cant.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "f043",
+      "label": "Nro.",
+      "path": [
+        "Página 1",
+        "MOTOR A COLOCAR",
+        "Nro."
+      ],
+      "source_anchor": "Nro.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "DP-SINT-207"
+    },
+    {
+      "id": "f044",
+      "label": "Serie",
+      "path": [
+        "Página 1",
+        "MOTOR A COLOCAR",
+        "Serie"
+      ],
+      "source_anchor": "Serie",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SER-NEW-09"
+    },
+    {
+      "id": "f045",
+      "label": "Poder (en kW)",
+      "path": [
+        "Página 1",
+        "MOTOR A COLOCAR",
+        "Poder (en kW)"
+      ],
+      "source_anchor": "Poder (en kW)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "80 kW"
+    },
+    {
+      "id": "f046",
+      "label": "Cambio de nombre:",
+      "path": [
+        "Página 1",
+        "MOTOR A RETIRAR",
+        "Cambio de nombre:"
+      ],
+      "source_anchor": "Cambio de nombre:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Sin cambio de nombre del buque en motor a retirar."
+    },
+    {
+      "id": "f047",
+      "label": "Cambio de nombre:",
+      "path": [
+        "Página 1",
+        "MOTOR A COLOCAR",
+        "Cambio de nombre:"
+      ],
+      "source_anchor": "Cambio de nombre:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Sin cambio de nombre del buque en motor a colocar."
+    },
+    {
+      "id": "f048",
+      "label": "Eslora",
+      "path": [
+        "Página 1",
+        "Medidas y servicio",
+        "Eslora"
+      ],
+      "source_anchor": "Eslora",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "8,50 m"
+    },
+    {
+      "id": "f049",
+      "label": "Puntal",
+      "path": [
+        "Página 1",
+        "Medidas y servicio",
+        "Puntal"
+      ],
+      "source_anchor": "Puntal",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1,40 m"
+    },
+    {
+      "id": "f050",
+      "label": "Manga",
+      "path": [
+        "Página 1",
+        "Medidas y servicio",
+        "Manga"
+      ],
+      "source_anchor": "Manga",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2,65 m"
+    },
+    {
+      "id": "f051",
+      "label": "NAB",
+      "path": [
+        "Página 1",
+        "Medidas y servicio",
+        "NAB"
+      ],
+      "source_anchor": "NAB",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "5,2"
+    },
+    {
+      "id": "f052",
+      "label": "NAT",
+      "path": [
+        "Página 1",
+        "Medidas y servicio",
+        "NAT"
+      ],
+      "source_anchor": "NAT",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "3,8"
+    },
+    {
+      "id": "f053",
+      "label": "TIPO / SERVICIO/EXP. ESP.",
+      "path": [
+        "Página 1",
+        "Medidas y servicio",
+        "TIPO / SERVICIO/EXP. ESP."
+      ],
+      "source_anchor": "TIPO / SERVICIO/EXP. ESP.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Yate a motor / privado / deportivo, sin cambios"
+    },
+    {
+      "id": "f054",
+      "label": "FIRMA/S PROPIETARIO/S",
+      "path": [
+        "Página 1",
+        "Firma 1",
+        "FIRMA/S PROPIETARIO/S"
+      ],
+      "source_anchor": "FIRMA/S PROPIETARIO/S",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de Lucía Pereyra"
+    },
+    {
+      "id": "f055",
+      "label": "FIRMA/S PROPIETARIO/S",
+      "path": [
+        "Página 1",
+        "Firma 2",
+        "FIRMA/S PROPIETARIO/S"
+      ],
+      "source_anchor": "FIRMA/S PROPIETARIO/S",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de Hernán Acosta"
+    },
+    {
+      "id": "f056",
+      "label": "Representante sociedad",
+      "path": [
+        "Página 1",
+        "Firma sociedad",
+        "Representante sociedad"
+      ],
+      "source_anchor": "Representante sociedad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Sin firma de representante: no hay sociedad propietaria."
+    },
+    {
+      "id": "f057",
+      "label": "lugar y fecha",
+      "path": [
+        "Página 1",
+        "Organismo receptor",
+        "lugar y fecha"
+      ],
+      "source_anchor": "lugar y fecha",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Tigre, 19/10/2026"
+    },
+    {
+      "id": "f058",
+      "label": "sello",
+      "path": [
+        "Página 1",
+        "Organismo receptor",
+        "sello"
+      ],
+      "source_anchor": "sello",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Sello sintético PNA Tigre"
+    },
+    {
+      "id": "f059",
+      "label": "Firma Jefe Dependencia",
+      "path": [
+        "Página 1",
+        "Organismo receptor",
+        "Firma Jefe Dependencia"
+      ],
+      "source_anchor": "Firma Jefe Dependencia",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma y aclaración sintéticas de Roberto Salas"
+    },
+    {
+      "id": "f060",
+      "label": "VC Jefe División",
+      "path": [
+        "Página 1",
+        "Control documental",
+        "VC Jefe División"
+      ],
+      "source_anchor": "VC Jefe División",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Control sintético de Julia Ibáñez, 16/10/2026"
+    },
+    {
+      "id": "f061",
+      "label": "VºBºVC Jefe Dpto.",
+      "path": [
+        "Página 1",
+        "Control documental",
+        "VºBºVC Jefe Dpto."
+      ],
+      "source_anchor": "VºBºVC Jefe Dpto.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Visto bueno sintético de Raúl Ortega, 17/10/2026"
+    },
+    {
+      "id": "f062",
+      "label": "Aprobó Comité de Calidad:",
+      "path": [
+        "Página 1",
+        "Control documental",
+        "Aprobó Comité de Calidad:"
+      ],
+      "source_anchor": "Aprobó Comité de Calidad:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Aprobación sintética del comité, acta ficticia 18/2026"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Solicitudes varias de buques: motor, medidas, tipo y eliminación / Página 1",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Control",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "RESERVADO MESA DE ENTRADAS PNA",
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Solicitud",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITUD DE:",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Buque",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NOMBRE DEL BUQUE",
+        "field": "f003",
+        "source_page": 1
+      },
+      {
+        "label": "N.A.B.",
+        "field": "f004",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "MATRÍCULA",
+        "field": "f005",
+        "source_page": 1
+      },
+      {
+        "label": "TIPO",
+        "field": "f006",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SERVICIO",
+        "field": "f007",
+        "source_page": 1
+      },
+      {
+        "label": "Explotación Específica",
+        "field": "f008",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "VALOR",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Propietario 1",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Apellidos y Nombres",
+        "field": "f010",
+        "source_page": 1
+      },
+      {
+        "label": "Fecha nacimiento",
+        "field": "f011",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Estado civil.",
+        "field": "f012",
+        "source_page": 1
+      },
+      {
+        "label": "Documento identidad",
+        "field": "f013",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Propietario 2",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Apellidos y Nombres",
+        "field": "f014",
+        "source_page": 1
+      },
+      {
+        "label": "Fecha nacimiento",
+        "field": "f015",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Estado civil.",
+        "field": "f016",
+        "source_page": 1
+      },
+      {
+        "label": "Documento identidad",
+        "field": "f017",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Cónyuge 1",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Apellidos y Nombres",
+        "field": "f018",
+        "source_page": 1
+      },
+      {
+        "label": "Documento de Identidad",
+        "field": "f019",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "N°",
+        "field": "f020",
+        "source_page": 1
+      },
+      {
+        "label": "Firma",
+        "field": "f021",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Cónyuge 2",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Apellidos y nombre",
+        "field": "f022",
+        "source_page": 1
+      },
+      {
+        "label": "Documento de Identidad",
+        "field": "f023",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "N°",
+        "field": "f024",
+        "source_page": 1
+      },
+      {
+        "label": "Firma",
+        "field": "f025",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Sociedad inactiva",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Denominación o razón social",
+        "field": "f026",
+        "source_page": 1
+      },
+      {
+        "label": "Tipo:",
+        "field": "f027",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fecha:",
+        "field": "f028",
+        "source_page": 1
+      },
+      {
+        "label": "Libro:",
+        "field": "f029",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Tomo:",
+        "field": "f030",
+        "source_page": 1
+      },
+      {
+        "label": "Folio:",
+        "field": "f031",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nro.",
+        "field": "f032",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Domicilio",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "DOMICILIO EN EL PAÍS",
+        "field": "f033",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "MOTOR A RETIRAR",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Marca",
+        "field": "f034",
+        "source_page": 1
+      },
+      {
+        "label": "Tipo",
+        "field": "f035",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Cant.",
+        "field": "f036",
+        "source_page": 1
+      },
+      {
+        "label": "Nro.",
+        "field": "f037",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Serie",
+        "field": "f038",
+        "source_page": 1
+      },
+      {
+        "label": "Poder (en kW)",
+        "field": "f039",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Cambio de nombre:",
+        "field": "f046",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "MOTOR A COLOCAR",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Marca",
+        "field": "f040",
+        "source_page": 1
+      },
+      {
+        "label": "Tipo",
+        "field": "f041",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Cant.",
+        "field": "f042",
+        "source_page": 1
+      },
+      {
+        "label": "Nro.",
+        "field": "f043",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Serie",
+        "field": "f044",
+        "source_page": 1
+      },
+      {
+        "label": "Poder (en kW)",
+        "field": "f045",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Cambio de nombre:",
+        "field": "f047",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Medidas y servicio",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Eslora",
+        "field": "f048",
+        "source_page": 1
+      },
+      {
+        "label": "Puntal",
+        "field": "f049",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Manga",
+        "field": "f050",
+        "source_page": 1
+      },
+      {
+        "label": "NAB",
+        "field": "f051",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NAT",
+        "field": "f052",
+        "source_page": 1
+      },
+      {
+        "label": "TIPO / SERVICIO/EXP. ESP.",
+        "field": "f053",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Firma 1",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FIRMA/S PROPIETARIO/S",
+        "field": "f054",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Firma 2",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FIRMA/S PROPIETARIO/S",
+        "field": "f055",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Firma sociedad",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Representante sociedad",
+        "field": "f056",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Se inspeccionó la embarcación conforme. Elevo el presente a la Dirección de Policía de Seguridad de la Navegación a su resolución.",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Organismo receptor",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "lugar y fecha",
+        "field": "f057",
+        "source_page": 1
+      },
+      {
+        "label": "sello",
+        "field": "f058",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Firma Jefe Dependencia",
+        "field": "f059",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Control documental",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "VC Jefe División",
+        "field": "f060",
+        "source_page": 1
+      },
+      {
+        "label": "VºBºVC Jefe Dpto.",
+        "field": "f061",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Aprobó Comité de Calidad:",
+        "field": "f062",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Redactó: DGC",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ]
+  ],
+  "context": "ESCENARIO COMPLETAMENTE SINTÉTICO. No identifica personas, empresas, bienes ni actuaciones reales. Las firmas y los asientos administrativos son representaciones textuales ficticias, sin validez oficial.\nLas menciones de no aplicación son estados explícitos del escenario, no datos deducidos del formulario.\nPágina 1 / Control / RESERVADO MESA DE ENTRADAS PNA: Entrada sintética PNA-2026-792\nPágina 1 / Solicitud / SOLICITUD DE:: Solicitud / SOLICITUD DE:: CAMBIO, RETIRO O INST. de MOTOR/ES.\nPágina 1 / Buque / NOMBRE DEL BUQUE: Horizonte Sintético\nPágina 1 / Buque / N.A.B.: 5,2\nPágina 1 / Buque / MATRÍCULA: REY-SINT-790\nPágina 1 / Buque / TIPO: Yate a motor\nPágina 1 / Buque / SERVICIO: Privado\nPágina 1 / Buque / Explotación Específica: Deportiva\nPágina 1 / Buque / VALOR: ARS 18.600.000, sintético\nPágina 1 / Propietario 1 / Apellidos y Nombres: Lucía Pereyra\nPágina 1 / Propietario 1 / Fecha nacimiento: 08/04/1987\nPágina 1 / Propietario 1 / Estado civil.: Casada\nPágina 1 / Propietario 1 / Documento identidad: DNI sintético 31.790.402\nPágina 1 / Propietario 2 / Apellidos y Nombres: Hernán Acosta\nPágina 1 / Propietario 2 / Fecha nacimiento: 12/07/1985\nPágina 1 / Propietario 2 / Estado civil.: Casado\nPágina 1 / Propietario 2 / Documento identidad: DNI sintético 30.790.511\nPágina 1 / Cónyuge 1 / Apellidos y Nombres: Hernán Acosta\nPágina 1 / Cónyuge 1 / Documento de Identidad: DNI\nPágina 1 / Cónyuge 1 / N°: Sintético 30.790.511\nPágina 1 / Cónyuge 1 / Firma: Firma sintética de Hernán Acosta\nPágina 1 / Cónyuge 2 / Apellidos y nombre: Lucía Pereyra\nPágina 1 / Cónyuge 2 / Documento de Identidad: DNI\nPágina 1 / Cónyuge 2 / N°: Sintético 31.790.402\nPágina 1 / Cónyuge 2 / Firma: Firma sintética de Lucía Pereyra\nPágina 1 / Sociedad inactiva / Denominación o razón social: No interviene sociedad: denominación o razón social sin aplicación.\nPágina 1 / Sociedad inactiva / Tipo:: No interviene sociedad: tipo sin aplicación.\nPágina 1 / Sociedad inactiva / Fecha:: No interviene sociedad: fecha sin aplicación.\nPágina 1 / Sociedad inactiva / Libro:: No interviene sociedad: libro sin aplicación.\nPágina 1 / Sociedad inactiva / Tomo:: No interviene sociedad: tomo sin aplicación.\nPágina 1 / Sociedad inactiva / Folio:: No interviene sociedad: folio sin aplicación.\nPágina 1 / Sociedad inactiva / Nro.: No interviene sociedad: nro. sin aplicación.\nPágina 1 / Domicilio / DOMICILIO EN EL PAÍS: Calle del Puerto 240, Tigre\nPágina 1 / MOTOR A RETIRAR / Marca: Naval Sintético\nPágina 1 / MOTOR A RETIRAR / Tipo: Interior diésel\nPágina 1 / MOTOR A RETIRAR / Cant.: 1\nPágina 1 / MOTOR A RETIRAR / Nro.: MN-SINT-160\nPágina 1 / MOTOR A RETIRAR / Serie: SER-OLD-01\nPágina 1 / MOTOR A RETIRAR / Poder (en kW): 75 kW\nPágina 1 / MOTOR A COLOCAR / Marca: Delta Propulsión\nPágina 1 / MOTOR A COLOCAR / Tipo: Interior diésel\nPágina 1 / MOTOR A COLOCAR / Cant.: 1\nPágina 1 / MOTOR A COLOCAR / Nro.: DP-SINT-207\nPágina 1 / MOTOR A COLOCAR / Serie: SER-NEW-09\nPágina 1 / MOTOR A COLOCAR / Poder (en kW): 80 kW\nPágina 1 / MOTOR A RETIRAR / Cambio de nombre:: Sin cambio de nombre del buque en motor a retirar.\nPágina 1 / MOTOR A COLOCAR / Cambio de nombre:: Sin cambio de nombre del buque en motor a colocar.\nPágina 1 / Medidas y servicio / Eslora: 8,50 m\nPágina 1 / Medidas y servicio / Puntal: 1,40 m\nPágina 1 / Medidas y servicio / Manga: 2,65 m\nPágina 1 / Medidas y servicio / NAB: 5,2\nPágina 1 / Medidas y servicio / NAT: 3,8\nPágina 1 / Medidas y servicio / TIPO / SERVICIO/EXP. ESP.: Yate a motor / privado / deportivo, sin cambios\nPágina 1 / Firma 1 / FIRMA/S PROPIETARIO/S: Firma sintética de Lucía Pereyra\nPágina 1 / Firma 2 / FIRMA/S PROPIETARIO/S: Firma sintética de Hernán Acosta\nPágina 1 / Firma sociedad / Representante sociedad: Sin firma de representante: no hay sociedad propietaria.\nPágina 1 / Organismo receptor / lugar y fecha: Tigre, 19/10/2026\nPágina 1 / Organismo receptor / sello: Sello sintético PNA Tigre\nPágina 1 / Organismo receptor / Firma Jefe Dependencia: Firma y aclaración sintéticas de Roberto Salas\nPágina 1 / Control documental / VC Jefe División: Control sintético de Julia Ibáñez, 16/10/2026\nPágina 1 / Control documental / VºBºVC Jefe Dpto.: Visto bueno sintético de Raúl Ortega, 17/10/2026\nPágina 1 / Control documental / Aprobó Comité de Calidad:: Aprobación sintética del comité, acta ficticia 18/2026",
+  "workflow_identity": {
+    "language": "es",
+    "id": 792
+  }
+}

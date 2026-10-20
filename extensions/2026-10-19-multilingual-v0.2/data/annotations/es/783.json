@@ -1,0 +1,805 @@
+{
+  "id": "es-783",
+  "language": "es",
+  "title": "Presolicitud de declaración de intención",
+  "domain": "Business",
+  "issuer": "ANAC",
+  "issuer_id": "anac",
+  "template_family": "anac-8400-6-preapplication-intent",
+  "source_version": "09/2013",
+  "source_date_evidence": {
+    "kind": "printed edition",
+    "value": "09/2013",
+    "note": "Edition transcribed from the source; retrieval date is not an issuance date."
+  },
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/8400-6_presolicitud_de_declaracion_de_intencion.pdf",
+  "landing_url": "https://www.argentina.gob.ar/anac/aeronaves/formularios-circulares-de-asesoramiento-y-manuales/formularios-de-aeronavegabilidad",
+  "source_sha256": "466daac91c29299e0612db9dafd83dd96624974d1baeb499c240067e4fdf2547",
+  "source_pages": 2,
+  "retrieved_at": "2026-10-19T08:51:52.399285+00:00",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "CC BY 4.0 under Argentina.gob.ar portal terms, intellectual-property section. National-portal download; no contrary reuse notice found in the form. Attribution: ANAC. Normalized semantic layout with synthetic completion; not an official completed submission.",
+  "columns": 2,
+  "synthetic_context": true,
+  "source_notice": "Source wording, complete option sets, repeated targets and administrative/signature areas retained. Values and all signatures are synthetic.",
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Nombre y domicilio de la empresa",
+      "path": [
+        "Página 1",
+        "1A / Solicitante",
+        "Nombre y domicilio de la empresa"
+      ],
+      "source_anchor": "Nombre y domicilio de la empresa",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Operador Sintético Pampeano SA, Calle del Aire 315, Rosario"
+    },
+    {
+      "id": "f002",
+      "label": "Domicilio de la base principal donde se conducirán las operaciones (no utilice casilla de correo)",
+      "path": [
+        "Página 1",
+        "1A / Solicitante",
+        "Domicilio de la base principal donde se conducirán las operaciones (no utilice casilla de correo)"
+      ],
+      "source_anchor": "Domicilio de la base principal donde se conducirán las operaciones (no utilice casilla de correo)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Hangar 8, aeródromo sintético Rosario, Santa Fe"
+    },
+    {
+      "id": "f003",
+      "label": "Fecha propuesta del inicio de actividades",
+      "path": [
+        "Página 1",
+        "1A / Solicitante",
+        "Fecha propuesta del inicio de actividades"
+      ],
+      "source_anchor": "Fecha propuesta del inicio de actividades",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "01/03/2027"
+    },
+    {
+      "id": "f004",
+      "label": "Apellido y Nombres",
+      "path": [
+        "Página 1",
+        "1A / Solicitante",
+        "Apellido y Nombres"
+      ],
+      "source_anchor": "Apellido y Nombres",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Ana Vidal; Pablo Montes; Julia Roldán"
+    },
+    {
+      "id": "f005",
+      "label": "Cargo",
+      "path": [
+        "Página 1",
+        "1A / Solicitante",
+        "Cargo"
+      ],
+      "source_anchor": "Cargo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Gerenta responsable; jefe de operaciones; responsable de mantenimiento"
+    },
+    {
+      "id": "f006",
+      "label": "Teléfono",
+      "path": [
+        "Página 1",
+        "1A / Solicitante",
+        "Teléfono"
+      ],
+      "source_anchor": "Teléfono",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0341-555-2831; 0341-555-2832; 0341-555-2833"
+    },
+    {
+      "id": "f007",
+      "label": "Tipo de operación propuesta (tildar lo que corresponda)",
+      "path": [
+        "Página 1",
+        "1B / Operación",
+        "Tipo de operación propuesta (tildar lo que corresponda)"
+      ],
+      "source_anchor": "Tipo de operación propuesta (tildar lo que corresponda)",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "Explotador Transporte Aéreo",
+        "Parte 135",
+        "Pasajeros y Carga",
+        "Operaciones no programadas",
+        "Operación con un piloto"
+      ],
+      "options": [
+        "Explotador Transporte Aéreo",
+        "Certificado de Operaciones",
+        "Parte 121",
+        "Parte 135",
+        "Pasajeros y Carga",
+        "Carga Solamente",
+        "Operaciones programadas",
+        "Operaciones no programadas",
+        "Operación con un piloto",
+        "Operación con un único piloto",
+        "Operador Parte 135 básico"
+      ],
+      "context_evidence": "1B / Operación / Tipo de operación propuesta (tildar lo que corresponda): Explotador Transporte Aéreo, Parte 135, Pasajeros y Carga, Operaciones no programadas, Operación con un piloto."
+    },
+    {
+      "id": "f008",
+      "label": "Tipo de agencia y alcance/s propuesto",
+      "path": [
+        "Página 1",
+        "1C / Agencia",
+        "Tipo de agencia y alcance/s propuesto"
+      ],
+      "source_anchor": "Tipo de agencia y alcance/s propuesto",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [],
+      "options": [
+        "Taller Aeronáutico de Reparación",
+        "Taller de paracaídas"
+      ],
+      "context_evidence": "1C / Agencia / Tipo de agencia y alcance/s propuesto: sin selección."
+    },
+    {
+      "id": "f009",
+      "label": "Taller Aeronáutico de Reparación",
+      "path": [
+        "Página 1",
+        "1C / Localización",
+        "Taller Aeronáutico de Reparación"
+      ],
+      "source_anchor": "Taller Aeronáutico de Reparación",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [],
+      "options": [
+        "Nacional",
+        "Extranjero",
+        "Satélite"
+      ],
+      "context_evidence": "1C / Localización / Taller Aeronáutico de Reparación: sin selección."
+    },
+    {
+      "id": "f010",
+      "label": "Nacional",
+      "path": [
+        "Página 1",
+        "1C / Nacional",
+        "Nacional"
+      ],
+      "source_anchor": "Nacional",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "Nuevo",
+        "Renovación"
+      ],
+      "context_evidence": "1C / Nacional / Nacional: sin selección. Se solicita certificación de explotador comercial, no de agencia ni taller.",
+      "inactive_reason": "Se solicita certificación de explotador comercial, no de agencia ni taller."
+    },
+    {
+      "id": "f011",
+      "label": "Extranjero",
+      "path": [
+        "Página 1",
+        "1C / Extranjero",
+        "Extranjero"
+      ],
+      "source_anchor": "Extranjero",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "Nuevo",
+        "Renovación"
+      ],
+      "context_evidence": "1C / Extranjero / Extranjero: sin selección. No existe una solicitud de agencia extranjera en el escenario sintético.",
+      "inactive_reason": "No existe una solicitud de agencia extranjera en el escenario sintético."
+    },
+    {
+      "id": "f012",
+      "label": "Tipo de agencia y alcance/s propuesto",
+      "path": [
+        "Página 1",
+        "1C / Alcances",
+        "Tipo de agencia y alcance/s propuesto"
+      ],
+      "source_anchor": "Tipo de agencia y alcance/s propuesto",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [],
+      "options": [
+        "Célula",
+        "Planta de Poder",
+        "Hélice",
+        "Radio",
+        "Instrumento",
+        "Accesorio",
+        "Servicio especializado"
+      ],
+      "context_evidence": "1C / Alcances / Tipo de agencia y alcance/s propuesto: sin selección."
+    },
+    {
+      "id": "f013",
+      "label": "Números y tipos de aeronave (por marca, modelo y series)",
+      "path": [
+        "Página 1",
+        "1D / Flota",
+        "Números y tipos de aeronave (por marca, modelo y series)"
+      ],
+      "source_anchor": "Números y tipos de aeronave (por marca, modelo y series)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Dos Cessna 208B, series sintéticas 208B-001 y 208B-002."
+    },
+    {
+      "id": "f014",
+      "label": "Número de asientos de pasajeros o capacidad de carga paga",
+      "path": [
+        "Página 1",
+        "1D / Flota",
+        "Número de asientos de pasajeros o capacidad de carga paga"
+      ],
+      "source_anchor": "Número de asientos de pasajeros o capacidad de carga paga",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "9 plazas por aeronave; configuración alternativa de carga de 1200 kg."
+    },
+    {
+      "id": "f015",
+      "label": "Area geográfica de la operación propuesto.",
+      "path": [
+        "Página 1",
+        "1D / Flota",
+        "Area geográfica de la operación propuesto."
+      ],
+      "source_anchor": "Area geográfica de la operación propuesto.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Provincias de Santa Fe, Córdoba y Entre Ríos."
+    },
+    {
+      "id": "f016",
+      "label": "Información adicional para proveer un mejor conocimiento de la operación u organización propuesto, (sí es necesario incluya hojas adicionales)",
+      "path": [
+        "Página 2",
+        "1E / Declaración",
+        "Información adicional para proveer un mejor conocimiento de la operación u organización propuesto, (sí es necesario incluya hojas adicionales)"
+      ],
+      "source_anchor": "Información adicional para proveer un mejor conocimiento de la operación u organización propuesto, (sí es necesario incluya hojas adicionales)",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Operaciones chárter diurnas; mantenimiento contratado al Taller Sintético Horizonte; flota y personal del caso son ficticios."
+    },
+    {
+      "id": "f017",
+      "label": "Firma",
+      "path": [
+        "Página 2",
+        "1E / Declaración",
+        "Firma"
+      ],
+      "source_anchor": "Firma",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de Ana Vidal"
+    },
+    {
+      "id": "f018",
+      "label": "Fecha",
+      "path": [
+        "Página 2",
+        "1E / Declaración",
+        "Fecha"
+      ],
+      "source_anchor": "Fecha",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "10/10/2026"
+    },
+    {
+      "id": "f019",
+      "label": "Nombre y Cargo",
+      "path": [
+        "Página 2",
+        "1E / Declaración",
+        "Nombre y Cargo"
+      ],
+      "source_anchor": "Nombre y Cargo",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Ana Vidal, gerenta responsable"
+    },
+    {
+      "id": "f020",
+      "label": "Recibí por:",
+      "path": [
+        "Página 2",
+        "2 / ANAC",
+        "Recibí por:"
+      ],
+      "source_anchor": "Recibí por:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Sofía Benítez"
+    },
+    {
+      "id": "f021",
+      "label": "División:",
+      "path": [
+        "Página 2",
+        "2 / ANAC",
+        "División:"
+      ],
+      "source_anchor": "División:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Certificación de Explotadores"
+    },
+    {
+      "id": "f022",
+      "label": "Dirección:",
+      "path": [
+        "Página 2",
+        "2 / ANAC",
+        "Dirección:"
+      ],
+      "source_anchor": "Dirección:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Seguridad Operacional"
+    },
+    {
+      "id": "f023",
+      "label": "Fecha:",
+      "path": [
+        "Página 2",
+        "2 / ANAC",
+        "Fecha:"
+      ],
+      "source_anchor": "Fecha:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "13/10/2026"
+    },
+    {
+      "id": "f024",
+      "label": "Observaciones:",
+      "path": [
+        "Página 2",
+        "2 / ANAC",
+        "Observaciones:"
+      ],
+      "source_anchor": "Observaciones:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Presolicitud sintética recibida con documentación de organización y flota."
+    },
+    {
+      "id": "f025",
+      "label": "Para",
+      "path": [
+        "Página 2",
+        "2 / ANAC",
+        "Para"
+      ],
+      "source_anchor": "Para",
+      "source_page": 2,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "acción"
+      ],
+      "options": [
+        "acción",
+        "información únicamente"
+      ],
+      "context_evidence": "2 / ANAC / Para: acción."
+    },
+    {
+      "id": "f026",
+      "label": "Fecha:",
+      "path": [
+        "Página 2",
+        "3 / Dirección",
+        "Fecha:"
+      ],
+      "source_anchor": "Fecha:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "15/10/2026"
+    },
+    {
+      "id": "f027",
+      "label": "Número de precertificación:",
+      "path": [
+        "Página 2",
+        "3 / Dirección",
+        "Número de precertificación:"
+      ],
+      "source_anchor": "Número de precertificación:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "PRE-SINT-2026-083"
+    },
+    {
+      "id": "f028",
+      "label": "Responsable asignado por la División:",
+      "path": [
+        "Página 2",
+        "3 / Dirección",
+        "Responsable asignado por la División:"
+      ],
+      "source_anchor": "Responsable asignado por la División:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Sofía Benítez"
+    },
+    {
+      "id": "f029",
+      "label": "Observaciones:",
+      "path": [
+        "Página 2",
+        "3 / Dirección",
+        "Observaciones:"
+      ],
+      "source_anchor": "Observaciones:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Reunión inicial sintética prevista para el 28/10/2026."
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Presolicitud de declaración de intención / Página 1",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Sección 1A. Para ser completado por todos los solicitantes.",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "1A / Solicitante",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nombre y domicilio de la empresa",
+        "field": "f001",
+        "source_page": 1
+      },
+      {
+        "label": "Domicilio de la base principal donde se conducirán las operaciones (no utilice casilla de correo)",
+        "field": "f002",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fecha propuesta del inicio de actividades",
+        "field": "f003",
+        "source_page": 1
+      },
+      {
+        "label": "Apellido y Nombres",
+        "field": "f004",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Cargo",
+        "field": "f005",
+        "source_page": 1
+      },
+      {
+        "label": "Teléfono",
+        "field": "f006",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Sección 1B. Para ser completado por explotadores aerocomerciales.",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "1B / Operación",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Tipo de operación propuesta (tildar lo que corresponda)",
+        "field": "f007",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Sección 1C. Para ser completado por agencias aéreas.",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "1C / Agencia",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Tipo de agencia y alcance/s propuesto",
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "1C / Localización",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Taller Aeronáutico de Reparación",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "1C / Nacional",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nacional",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "1C / Extranjero",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Extranjero",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "1C / Alcances",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Tipo de agencia y alcance/s propuesto",
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Sección 1D. Para ser completado por explotadores aerocomerciales.",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "1D / Flota",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Números y tipos de aeronave (por marca, modelo y series)",
+        "field": "f013",
+        "source_page": 1
+      },
+      {
+        "label": "Número de asientos de pasajeros o capacidad de carga paga",
+        "field": "f014",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Area geográfica de la operación propuesto.",
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Presolicitud de declaración de intención / Página 2",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Sección 1E. Para ser completado por todos los solicitantes. La declaración e información contenida en este formulario significa la intención de obtener una Certificación de la ANAC.",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "1E / Declaración",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Información adicional para proveer un mejor conocimiento de la operación u organización propuesto, (sí es necesario incluya hojas adicionales)",
+        "field": "f016",
+        "source_page": 2
+      },
+      {
+        "label": "Firma",
+        "field": "f017",
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Fecha",
+        "field": "f018",
+        "source_page": 2
+      },
+      {
+        "label": "Nombre y Cargo",
+        "field": "f019",
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "2 / ANAC",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Recibí por:",
+        "field": "f020",
+        "source_page": 2
+      },
+      {
+        "label": "División:",
+        "field": "f021",
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Dirección:",
+        "field": "f022",
+        "source_page": 2
+      },
+      {
+        "label": "Fecha:",
+        "field": "f023",
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Observaciones:",
+        "field": "f024",
+        "source_page": 2
+      },
+      {
+        "label": "Para",
+        "field": "f025",
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "3 / Dirección",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Fecha:",
+        "field": "f026",
+        "source_page": 2
+      },
+      {
+        "label": "Número de precertificación:",
+        "field": "f027",
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Responsable asignado por la División:",
+        "field": "f028",
+        "source_page": 2
+      },
+      {
+        "label": "Observaciones:",
+        "field": "f029",
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Form. DA 8400-6 (09/2013)",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ]
+  ],
+  "context": "ESCENARIO COMPLETAMENTE SINTÉTICO. No identifica personas, empresas, bienes ni actuaciones reales. Las firmas y los asientos administrativos son representaciones textuales ficticias, sin validez oficial.\nLas menciones de no aplicación son estados explícitos del escenario, no datos deducidos del formulario.\nPágina 1 / 1A / Solicitante / Nombre y domicilio de la empresa: Operador Sintético Pampeano SA, Calle del Aire 315, Rosario\nPágina 1 / 1A / Solicitante / Domicilio de la base principal donde se conducirán las operaciones (no utilice casilla de correo): Hangar 8, aeródromo sintético Rosario, Santa Fe\nPágina 1 / 1A / Solicitante / Fecha propuesta del inicio de actividades: 01/03/2027\nPágina 1 / 1A / Solicitante / Apellido y Nombres: Ana Vidal; Pablo Montes; Julia Roldán\nPágina 1 / 1A / Solicitante / Cargo: Gerenta responsable; jefe de operaciones; responsable de mantenimiento\nPágina 1 / 1A / Solicitante / Teléfono: 0341-555-2831; 0341-555-2832; 0341-555-2833\nPágina 1 / 1B / Operación / Tipo de operación propuesta (tildar lo que corresponda): 1B / Operación / Tipo de operación propuesta (tildar lo que corresponda): Explotador Transporte Aéreo, Parte 135, Pasajeros y Carga, Operaciones no programadas, Operación con un piloto.\nPágina 1 / 1C / Agencia / Tipo de agencia y alcance/s propuesto: 1C / Agencia / Tipo de agencia y alcance/s propuesto: sin selección.\nPágina 1 / 1C / Localización / Taller Aeronáutico de Reparación: 1C / Localización / Taller Aeronáutico de Reparación: sin selección.\nPágina 1 / 1C / Nacional / Nacional: 1C / Nacional / Nacional: sin selección. Se solicita certificación de explotador comercial, no de agencia ni taller.\nPágina 1 / 1C / Extranjero / Extranjero: 1C / Extranjero / Extranjero: sin selección. No existe una solicitud de agencia extranjera en el escenario sintético.\nPágina 1 / 1C / Alcances / Tipo de agencia y alcance/s propuesto: 1C / Alcances / Tipo de agencia y alcance/s propuesto: sin selección.\nPágina 1 / 1D / Flota / Números y tipos de aeronave (por marca, modelo y series): Dos Cessna 208B, series sintéticas 208B-001 y 208B-002.\nPágina 1 / 1D / Flota / Número de asientos de pasajeros o capacidad de carga paga: 9 plazas por aeronave; configuración alternativa de carga de 1200 kg.\nPágina 1 / 1D / Flota / Area geográfica de la operación propuesto.: Provincias de Santa Fe, Córdoba y Entre Ríos.\nPágina 2 / 1E / Declaración / Información adicional para proveer un mejor conocimiento de la operación u organización propuesto, (sí es necesario incluya hojas adicionales): Operaciones chárter diurnas; mantenimiento contratado al Taller Sintético Horizonte; flota y personal del caso son ficticios.\nPágina 2 / 1E / Declaración / Firma: Firma sintética de Ana Vidal\nPágina 2 / 1E / Declaración / Fecha: 10/10/2026\nPágina 2 / 1E / Declaración / Nombre y Cargo: Ana Vidal, gerenta responsable\nPágina 2 / 2 / ANAC / Recibí por:: Sofía Benítez\nPágina 2 / 2 / ANAC / División:: Certificación de Explotadores\nPágina 2 / 2 / ANAC / Dirección:: Seguridad Operacional\nPágina 2 / 2 / ANAC / Fecha:: 13/10/2026\nPágina 2 / 2 / ANAC / Observaciones:: Presolicitud sintética recibida con documentación de organización y flota.\nPágina 2 / 2 / ANAC / Para: 2 / ANAC / Para: acción.\nPágina 2 / 3 / Dirección / Fecha:: 15/10/2026\nPágina 2 / 3 / Dirección / Número de precertificación:: PRE-SINT-2026-083\nPágina 2 / 3 / Dirección / Responsable asignado por la División:: Sofía Benítez\nPágina 2 / 3 / Dirección / Observaciones:: Reunión inicial sintética prevista para el 28/10/2026.",
+  "workflow_identity": {
+    "language": "es",
+    "id": 783
+  }
+}

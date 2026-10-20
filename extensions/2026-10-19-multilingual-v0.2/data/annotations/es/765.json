@@ -1,0 +1,986 @@
+{
+  "id": "es-765-tgss-sepa-cuotas",
+  "language": "es",
+  "domain": "Finance",
+  "title": "TC1/15-3 Mandato de adeudo directo SEPA para cuotas",
+  "business_topic": "TC1/15-3 Mandato de adeudo directo SEPA para cuotas",
+  "issuer_id": "TGSS",
+  "template_family": "tgss-sepa-cuotas",
+  "source_pages": 2,
+  "source_sha256": "816d99933d79d587d7f8c83ea0f95c3fd94b2d3098ec72610ddd03a7e8909ff0",
+  "source_url": "https://www.seg-social.es/descarga/es/181005%20TC1-15_3",
+  "landing_url": "https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/CotizacionRecaudacionTrabajadores/10823/2165/2166/120799",
+  "license_url": "https://www.seg-social.es/wps/portal/wss/internet/AvisoLegal/?changeLanguage=es",
+  "license_note": "Fuente: Tesorería General de la Seguridad Social. Reutilización, modificación y distribución comercial y no comercial autorizadas salvo indicación contraria. Atribución y fecha conservadas. Adaptación estructural sin logotipos ni respaldo oficial. Edición/fecha: TC 1/15-3 (06-2022) impreso; catálogo 13/06/2023 Consulta: 2026-10-19T08:52:40.918534+00:00",
+  "source_version": "TC 1/15-3 (06-2022) impreso; catálogo 13/06/2023",
+  "retrieved_at": "2026-10-19T08:52:40.918534+00:00",
+  "source_date_evidence": {
+    "kind": "printed or landing date; undated explicitly distinguished",
+    "value": "TC 1/15-3 (06-2022) impreso; catálogo 13/06/2023"
+  },
+  "columns": 42,
+  "rows": [
+    [
+      {
+        "text": "TC1/15-3 Mandato de adeudo directo SEPA para cuotas",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "TIPO DE SOLICITUD",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "TIPO DE SOLICITUD",
+        "field": "f0001",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "RÉGIMEN",
+        "field": "f0002",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "text": "Mandato principal",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "APELLIDOS Y NOMBRE O RAZÓN SOCIAL DEL SUJETO OBLIGADO AL PAGO DE CUOTAS DE SEGURIDAD SOCIAL",
+        "field": "f0003",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "N.o IDENTIFICATIVO DE SEGURIDAD SOCIAL (3)",
+        "field": "f0004",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "DOCUMENTO IDENTIFICATIVO DEL RESPONSABLE DE PAGO",
+        "field": "f0005",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "N.o DE DOCUMENTO IDENTIFICATIVO",
+        "field": "f0006",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "CÓDIGO INTERNACIONAL CUENTA BANCARIA IBAN",
+        "field": "f0007",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "APELLIDOS Y NOMBRE O RAZÓN SOCIAL DEL TITULAR DE LA CUENTA DE ADEUDO",
+        "field": "f0008",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "DOMICILIO DEL TITULAR DE LA CUENTA DE ADEUDO",
+        "field": "f0009",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "LOCALIDAD",
+        "field": "f0010",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "CÓD. POSTAL",
+        "field": "f0011",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "PROVINCIA",
+        "field": "f0012",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "DOCUMENTO IDENTIFICATIVO DEL TITULAR DE LA CUENTA DE ADEUDO",
+        "field": "f0013",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "N.o DE DOCUMENTO IDENTIFICATIVO",
+        "field": "f0014",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "text": "Resguardo de tramitación",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "APELLIDOS Y NOMBRE O RAZÓN SOCIAL DEL SUJETO OBLIGADO AL PAGO DE CUOTAS DE SEGURIDAD SOCIAL",
+        "field": "f0015",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "N.o IDENTIFICATIVO DE SEGURIDAD SOCIAL (3)",
+        "field": "f0016",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "DOCUMENTO IDENTIFICATIVO DEL RESPONSABLE DE PAGO",
+        "field": "f0017",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "N.o DE DOCUMENTO IDENTIFICATIVO",
+        "field": "f0018",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "CÓDIGO INTERNACIONAL CUENTA BANCARIA IBAN",
+        "field": "f0019",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "APELLIDOS Y NOMBRE O RAZÓN SOCIAL DEL TITULAR DE LA CUENTA DE ADEUDO",
+        "field": "f0020",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "DOMICILIO DEL TITULAR DE LA CUENTA DE ADEUDO",
+        "field": "f0021",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "LOCALIDAD",
+        "field": "f0022",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "CÓD. POSTAL",
+        "field": "f0023",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "PROVINCIA",
+        "field": "f0024",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "DOCUMENTO IDENTIFICATIVO DEL TITULAR DE LA CUENTA DE ADEUDO",
+        "field": "f0025",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "N.o DE DOCUMENTO IDENTIFICATIVO",
+        "field": "f0026",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "text": "Ejecución del mandato",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Día",
+        "field": "f0027",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "Mes",
+        "field": "f0028",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "Año",
+        "field": "f0029",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "Firma del titular de la cuenta (4)",
+        "field": "f0030",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "Firma del responsable del pago (4)",
+        "field": "f0031",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "text": "Oficina receptora",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Sello, Fecha y Firma de la Oficina Receptora",
+        "field": "f0032",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "text": "Página 1: instrucciones y condiciones",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(1) En caso de Baja en domiciliación no rellenar el IBAN",
+        "heading": false,
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(2) Incluye Sistema Especial de Trabajadores por Cuenta Propia Agrarios (SETA)",
+        "heading": false,
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(3) No de Afiliación. Código de cuenta de cotización, o número de expediente",
+        "heading": false,
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(4) Firma tanto del titular de la cuenta, como del responsable de pago aún en el caso de ser la misma persona",
+        "heading": false,
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Mediante la firma de esta orden/mandato, el titular de los datos de domiciliación autoriza: (I) A la Tesorería General de la Seguridad Social (TGSS) a enviar instrucciones de adeudo a la Entidad Financiera indicada, en concepto de cuotas de Seguridad Social a cargo del trabajador o del sujeto responsable de pago. (II) A la Entidad Financiera para efectuar los adeudos en su cuenta siguiendo las instrucciones de la TGSS",
+        "heading": false,
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Página 2: instrucciones y condiciones",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "INFORMACIÓN IMPORTANTE",
+        "heading": false,
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Si desea domiciliar el pago de sus cuotas a la Seguridad Social en la Entidad Financiera de su elección, cumplimente con claridad todos los datos del presente documento, y una vez firmado entréguelo en cualquiera de las Administraciones de la Tesorería General de la Seguridad Social -TGSS-. En caso de cambios de datos bancarios podrá presentar este documento en la Entidad Financiera elegida o en una Administración de la TGSS",
+        "heading": false,
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "La Entidad Financiera efectuará el cargo en su cuenta el último día hábil del mes y le enviará un justificante de ingreso por domiciliación que será el que justifique el pago de las cuotas. No obstante, presentado el consentimiento para la domiciliación de cotizaciones, hasta que no se le comunique el primer adeudo, estará obligado a efectuar el pago de las cuotas mensuales mediante documento de cotización. En caso de variación de datos bancarios, conviene que usted mantenga los datos anteriores hasta recibir un adeudo en la nueva cuenta (apartado 2. art. 59 del Real Decreto 1415/2004 de 11 de junio, que aprueba el Reglamento General de Recaudación de la Seguridad Social)",
+        "heading": false,
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Para más información, puede consultar en cualquier Entidad Financiera, Administración de la TGSS y en la página web de la Seguridad Social: www.seg-social.es",
+        "heading": false,
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Información Básica sobre Protección de Datos del Tratamiento \"RECAUDACIÓN EN VÍA VOLUNTARIA\"",
+        "heading": false,
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Responsable Sub. Gral. Afiliación, Cotización y Recaudación en Periodo Voluntario - Tesorería General de la Seguridad Social",
+        "heading": false,
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Finalidad",
+        "heading": false,
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Control y seguimiento de la recaudación de cuotas y otros recursos del sistema de la Seguridad Social de empresas y trabajadores, de los distintos Regímenes de la Seguridad Social en periodo voluntario de pago y hasta su resolución en vía ejecutiva",
+        "heading": false,
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Legitimación",
+        "heading": false,
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "▪ RGPD.- Artículo 6. 1. c) el tratamiento es necesario para el cumplimiento de una obligación legal aplicable al responsable del tratamiento. ▪ RGPD.- Artículo 6. 1. e) el tratamiento es necesario para el cumplimiento de una misión realizada en interés público o en el ejercicio de poderes públicos conferidos al responsable del tratamiento",
+        "heading": false,
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Destinatarios",
+        "heading": false,
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Entidades Gestoras de la Seguridad Social, Inspección de Trabajo y Seguridad Social, Mutuas Colaboradoras de la Seguridad Social, Agencia Estatal de Administración Tributaria, Administraciones Públicas, Juzgados y Tribunales",
+        "heading": false,
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Derechos",
+        "heading": false,
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Derecho a acceder, rectificar y a oponerse a tratamientos no consentidos, así como otros derechos, según se detalla en la información adicional",
+        "heading": false,
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Información Adicional",
+        "heading": false,
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Puede consultar la información detallada sobre protección de datos y este tratamiento, en nuestra sede electrónica",
+        "heading": false,
+        "colspan": 42,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Fuente: Tesorería General de la Seguridad Social. Reutilización, modificación y distribución comercial y no comercial autorizadas salvo indicación contraria. Atribución y fecha conservadas. Adaptación estructural sin logotipos ni respaldo oficial. Edición/fecha: TC 1/15-3 (06-2022) impreso; catálogo 13/06/2023 Consulta: 2026-10-19T08:52:40.918534+00:00 Fuente: https://www.seg-social.es/descarga/es/181005%20TC1-15_3",
+        "heading": false,
+        "colspan": 42,
+        "source_page": 2
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f0001",
+      "label": "TIPO DE SOLICITUD",
+      "path": [
+        "Página 1",
+        "TIPO DE SOLICITUD",
+        "TIPO DE SOLICITUD"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "TIPO DE SOLICITUD",
+      "synthetic_value": "ALTA EN DOMICILIACIÓN",
+      "options": [
+        "ALTA EN DOMICILIACIÓN",
+        "BAJA EN DOMICILIACIÓN (1)",
+        "CAMBIO DE DATOS BANCARIOS"
+      ],
+      "context_evidence": "Página 1 / TIPO DE SOLICITUD / TIPO DE SOLICITUD: ALTA EN DOMICILIACIÓN"
+    },
+    {
+      "id": "f0002",
+      "label": "RÉGIMEN",
+      "path": [
+        "Página 1",
+        "TIPO DE SOLICITUD",
+        "RÉGIMEN"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "RÉGIMEN",
+      "synthetic_value": "R.E. TRABAJADORES AUTÓNOMOS (2)",
+      "options": [
+        "R.E. TRABAJADORES AUTÓNOMOS (2)",
+        "S.E. AGRARIO. INACTIVIDAD TRABAJADOR",
+        "S.E. EMPLEADOS DEL HOGAR",
+        "CONVENIO ESPECIAL",
+        "R.E. MAR TRABAJADOR CUENTA PROPIA",
+        "DEUDAS, APLAZAMIENTOS Y FRACCIONAMIENTOS"
+      ],
+      "context_evidence": "Página 1 / TIPO DE SOLICITUD / RÉGIMEN: R.E. TRABAJADORES AUTÓNOMOS (2)"
+    },
+    {
+      "id": "f0003",
+      "label": "APELLIDOS Y NOMBRE O RAZÓN SOCIAL DEL SUJETO OBLIGADO AL PAGO DE CUOTAS DE SEGURIDAD SOCIAL",
+      "path": [
+        "Página 1",
+        "Mandato principal",
+        "APELLIDOS Y NOMBRE O RAZÓN SOCIAL DEL SUJETO OBLIGADO AL PAGO DE CUOTAS DE SEGURIDAD SOCIAL"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "APELLIDOS Y NOMBRE O RAZÓN SOCIAL DEL SUJETO OBLIGADO AL PAGO DE CUOTAS DE SEGURIDAD SOCIAL",
+      "synthetic_value": "Raúl Lago Martín"
+    },
+    {
+      "id": "f0004",
+      "label": "N.o IDENTIFICATIVO DE SEGURIDAD SOCIAL (3)",
+      "path": [
+        "Página 1",
+        "Mandato principal",
+        "N.º IDENTIFICATIVO DE SEGURIDAD SOCIAL (3)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "N.o IDENTIFICATIVO DE SEGURIDAD SOCIAL (3)",
+      "synthetic_value": "410000765014"
+    },
+    {
+      "id": "f0005",
+      "label": "DOCUMENTO IDENTIFICATIVO DEL RESPONSABLE DE PAGO",
+      "path": [
+        "Página 1",
+        "Mandato principal",
+        "DOCUMENTO IDENTIFICATIVO DEL RESPONSABLE DE PAGO"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "DOCUMENTO IDENTIFICATIVO DEL RESPONSABLE DE PAGO",
+      "synthetic_value": "D.N.I.:",
+      "options": [
+        "D.N.I.:",
+        "PASAPORTE:",
+        "TARJETA DE EXTRANJERO:",
+        "C.I.F.:"
+      ],
+      "context_evidence": "Página 1 / Mandato principal / DOCUMENTO IDENTIFICATIVO DEL RESPONSABLE DE PAGO: D.N.I.:"
+    },
+    {
+      "id": "f0006",
+      "label": "N.o DE DOCUMENTO IDENTIFICATIVO",
+      "path": [
+        "Página 1",
+        "Mandato principal",
+        "Documento responsable de pago"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "N.o DE DOCUMENTO IDENTIFICATIVO",
+      "synthetic_value": "67890123X"
+    },
+    {
+      "id": "f0007",
+      "label": "CÓDIGO INTERNACIONAL CUENTA BANCARIA IBAN",
+      "path": [
+        "Página 1",
+        "Mandato principal",
+        "CÓDIGO INTERNACIONAL CUENTA BANCARIA IBAN"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CÓDIGO INTERNACIONAL CUENTA BANCARIA IBAN",
+      "synthetic_value": "ES12 0000 0765 0100 1234 5678"
+    },
+    {
+      "id": "f0008",
+      "label": "APELLIDOS Y NOMBRE O RAZÓN SOCIAL DEL TITULAR DE LA CUENTA DE ADEUDO",
+      "path": [
+        "Página 1",
+        "Mandato principal",
+        "APELLIDOS Y NOMBRE O RAZÓN SOCIAL DEL TITULAR DE LA CUENTA DE ADEUDO"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "APELLIDOS Y NOMBRE O RAZÓN SOCIAL DEL TITULAR DE LA CUENTA DE ADEUDO",
+      "synthetic_value": "Elena Soler Vidal"
+    },
+    {
+      "id": "f0009",
+      "label": "DOMICILIO DEL TITULAR DE LA CUENTA DE ADEUDO",
+      "path": [
+        "Página 1",
+        "Mandato principal",
+        "DOMICILIO DEL TITULAR DE LA CUENTA DE ADEUDO"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DOMICILIO DEL TITULAR DE LA CUENTA DE ADEUDO",
+      "synthetic_value": "Calle Cuenta Social 8"
+    },
+    {
+      "id": "f0010",
+      "label": "LOCALIDAD",
+      "path": [
+        "Página 1",
+        "Mandato principal",
+        "LOCALIDAD"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "LOCALIDAD",
+      "synthetic_value": "Sevilla"
+    },
+    {
+      "id": "f0011",
+      "label": "CÓD. POSTAL",
+      "path": [
+        "Página 1",
+        "Mandato principal",
+        "CÓD. POSTAL"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CÓD. POSTAL",
+      "synthetic_value": "41007"
+    },
+    {
+      "id": "f0012",
+      "label": "PROVINCIA",
+      "path": [
+        "Página 1",
+        "Mandato principal",
+        "PROVINCIA"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "PROVINCIA",
+      "synthetic_value": "Sevilla"
+    },
+    {
+      "id": "f0013",
+      "label": "DOCUMENTO IDENTIFICATIVO DEL TITULAR DE LA CUENTA DE ADEUDO",
+      "path": [
+        "Página 1",
+        "Mandato principal",
+        "DOCUMENTO IDENTIFICATIVO DEL TITULAR DE LA CUENTA DE ADEUDO"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "DOCUMENTO IDENTIFICATIVO DEL TITULAR DE LA CUENTA DE ADEUDO",
+      "synthetic_value": "D.N.I.:",
+      "options": [
+        "D.N.I.:",
+        "PASAPORTE:",
+        "TARJETA DE EXTRANJERO:",
+        "C.I.F.:"
+      ],
+      "context_evidence": "Página 1 / Mandato principal / DOCUMENTO IDENTIFICATIVO DEL TITULAR DE LA CUENTA DE ADEUDO: D.N.I.:"
+    },
+    {
+      "id": "f0014",
+      "label": "N.o DE DOCUMENTO IDENTIFICATIVO",
+      "path": [
+        "Página 1",
+        "Mandato principal",
+        "Documento titular de cuenta"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "N.o DE DOCUMENTO IDENTIFICATIVO",
+      "synthetic_value": "78901234J"
+    },
+    {
+      "id": "f0015",
+      "label": "APELLIDOS Y NOMBRE O RAZÓN SOCIAL DEL SUJETO OBLIGADO AL PAGO DE CUOTAS DE SEGURIDAD SOCIAL",
+      "path": [
+        "Página 1",
+        "Resguardo de tramitación",
+        "APELLIDOS Y NOMBRE O RAZÓN SOCIAL DEL SUJETO OBLIGADO AL PAGO DE CUOTAS DE SEGURIDAD SOCIAL"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "APELLIDOS Y NOMBRE O RAZÓN SOCIAL DEL SUJETO OBLIGADO AL PAGO DE CUOTAS DE SEGURIDAD SOCIAL",
+      "synthetic_value": "Raúl Lago Martín"
+    },
+    {
+      "id": "f0016",
+      "label": "N.o IDENTIFICATIVO DE SEGURIDAD SOCIAL (3)",
+      "path": [
+        "Página 1",
+        "Resguardo de tramitación",
+        "N.º IDENTIFICATIVO DE SEGURIDAD SOCIAL (3)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "N.o IDENTIFICATIVO DE SEGURIDAD SOCIAL (3)",
+      "synthetic_value": "410000765014"
+    },
+    {
+      "id": "f0017",
+      "label": "DOCUMENTO IDENTIFICATIVO DEL RESPONSABLE DE PAGO",
+      "path": [
+        "Página 1",
+        "Resguardo de tramitación",
+        "DOCUMENTO IDENTIFICATIVO DEL RESPONSABLE DE PAGO"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "DOCUMENTO IDENTIFICATIVO DEL RESPONSABLE DE PAGO",
+      "synthetic_value": "D.N.I.:",
+      "options": [
+        "D.N.I.:",
+        "PASAPORTE:",
+        "TARJETA DE EXTRANJERO:",
+        "C.I.F.:"
+      ],
+      "context_evidence": "Página 1 / Resguardo de tramitación / DOCUMENTO IDENTIFICATIVO DEL RESPONSABLE DE PAGO: D.N.I.:"
+    },
+    {
+      "id": "f0018",
+      "label": "N.o DE DOCUMENTO IDENTIFICATIVO",
+      "path": [
+        "Página 1",
+        "Resguardo de tramitación",
+        "Documento responsable de pago"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "N.o DE DOCUMENTO IDENTIFICATIVO",
+      "synthetic_value": "67890123X"
+    },
+    {
+      "id": "f0019",
+      "label": "CÓDIGO INTERNACIONAL CUENTA BANCARIA IBAN",
+      "path": [
+        "Página 1",
+        "Resguardo de tramitación",
+        "CÓDIGO INTERNACIONAL CUENTA BANCARIA IBAN"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CÓDIGO INTERNACIONAL CUENTA BANCARIA IBAN",
+      "synthetic_value": "ES12 0000 0765 0100 1234 5678"
+    },
+    {
+      "id": "f0020",
+      "label": "APELLIDOS Y NOMBRE O RAZÓN SOCIAL DEL TITULAR DE LA CUENTA DE ADEUDO",
+      "path": [
+        "Página 1",
+        "Resguardo de tramitación",
+        "APELLIDOS Y NOMBRE O RAZÓN SOCIAL DEL TITULAR DE LA CUENTA DE ADEUDO"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "APELLIDOS Y NOMBRE O RAZÓN SOCIAL DEL TITULAR DE LA CUENTA DE ADEUDO",
+      "synthetic_value": "Elena Soler Vidal"
+    },
+    {
+      "id": "f0021",
+      "label": "DOMICILIO DEL TITULAR DE LA CUENTA DE ADEUDO",
+      "path": [
+        "Página 1",
+        "Resguardo de tramitación",
+        "DOMICILIO DEL TITULAR DE LA CUENTA DE ADEUDO"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DOMICILIO DEL TITULAR DE LA CUENTA DE ADEUDO",
+      "synthetic_value": "Calle Cuenta Social 8"
+    },
+    {
+      "id": "f0022",
+      "label": "LOCALIDAD",
+      "path": [
+        "Página 1",
+        "Resguardo de tramitación",
+        "LOCALIDAD"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "LOCALIDAD",
+      "synthetic_value": "Sevilla"
+    },
+    {
+      "id": "f0023",
+      "label": "CÓD. POSTAL",
+      "path": [
+        "Página 1",
+        "Resguardo de tramitación",
+        "CÓD. POSTAL"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CÓD. POSTAL",
+      "synthetic_value": "41007"
+    },
+    {
+      "id": "f0024",
+      "label": "PROVINCIA",
+      "path": [
+        "Página 1",
+        "Resguardo de tramitación",
+        "PROVINCIA"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "PROVINCIA",
+      "synthetic_value": "Sevilla"
+    },
+    {
+      "id": "f0025",
+      "label": "DOCUMENTO IDENTIFICATIVO DEL TITULAR DE LA CUENTA DE ADEUDO",
+      "path": [
+        "Página 1",
+        "Resguardo de tramitación",
+        "DOCUMENTO IDENTIFICATIVO DEL TITULAR DE LA CUENTA DE ADEUDO"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "DOCUMENTO IDENTIFICATIVO DEL TITULAR DE LA CUENTA DE ADEUDO",
+      "synthetic_value": "D.N.I.:",
+      "options": [
+        "D.N.I.:",
+        "PASAPORTE:",
+        "TARJETA DE EXTRANJERO:",
+        "C.I.F.:"
+      ],
+      "context_evidence": "Página 1 / Resguardo de tramitación / DOCUMENTO IDENTIFICATIVO DEL TITULAR DE LA CUENTA DE ADEUDO: D.N.I.:"
+    },
+    {
+      "id": "f0026",
+      "label": "N.o DE DOCUMENTO IDENTIFICATIVO",
+      "path": [
+        "Página 1",
+        "Resguardo de tramitación",
+        "Documento titular de cuenta"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "N.o DE DOCUMENTO IDENTIFICATIVO",
+      "synthetic_value": "78901234J"
+    },
+    {
+      "id": "f0027",
+      "label": "Día",
+      "path": [
+        "Página 1",
+        "Ejecución del mandato",
+        "Día"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Día",
+      "synthetic_value": "19"
+    },
+    {
+      "id": "f0028",
+      "label": "Mes",
+      "path": [
+        "Página 1",
+        "Ejecución del mandato",
+        "Mes"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Mes",
+      "synthetic_value": "10"
+    },
+    {
+      "id": "f0029",
+      "label": "Año",
+      "path": [
+        "Página 1",
+        "Ejecución del mandato",
+        "Año"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Año",
+      "synthetic_value": "2026"
+    },
+    {
+      "id": "f0030",
+      "label": "Firma del titular de la cuenta (4)",
+      "path": [
+        "Página 1",
+        "Ejecución del mandato",
+        "Firma del titular de la cuenta (4)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Firma del titular de la cuenta (4)",
+      "synthetic_value": "Elena Soler Vidal, firma sintética"
+    },
+    {
+      "id": "f0031",
+      "label": "Firma del responsable del pago (4)",
+      "path": [
+        "Página 1",
+        "Ejecución del mandato",
+        "Firma del responsable del pago (4)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Firma del responsable del pago (4)",
+      "synthetic_value": "Raúl Lago Martín, firma sintética"
+    },
+    {
+      "id": "f0032",
+      "label": "Sello, Fecha y Firma de la Oficina Receptora",
+      "path": [
+        "Página 1",
+        "Oficina receptora",
+        "Sello, Fecha y Firma de la Oficina Receptora"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Sello, Fecha y Firma de la Oficina Receptora",
+      "synthetic_value": "19/10/2026, Sevilla; firma y sello administrativos sintéticos"
+    }
+  ],
+  "context": "Caso completamente ficticio. Todos los nombres, identificadores, importes, documentos y firmas son sintéticos; no se presenta ninguna solicitud real.\n\nPágina 1 / TIPO DE SOLICITUD / TIPO DE SOLICITUD: ALTA EN DOMICILIACIÓN\nPágina 1 / TIPO DE SOLICITUD / RÉGIMEN: R.E. TRABAJADORES AUTÓNOMOS (2)\nPágina 1 / Mandato principal / APELLIDOS Y NOMBRE O RAZÓN SOCIAL DEL SUJETO OBLIGADO AL PAGO DE CUOTAS DE SEGURIDAD SOCIAL: Raúl Lago Martín\nPágina 1 / Mandato principal / N.º IDENTIFICATIVO DE SEGURIDAD SOCIAL (3): 410000765014\nPágina 1 / Mandato principal / DOCUMENTO IDENTIFICATIVO DEL RESPONSABLE DE PAGO: D.N.I.:\nPágina 1 / Mandato principal / Documento responsable de pago: 67890123X\nPágina 1 / Mandato principal / CÓDIGO INTERNACIONAL CUENTA BANCARIA IBAN: ES12 0000 0765 0100 1234 5678\nPágina 1 / Mandato principal / APELLIDOS Y NOMBRE O RAZÓN SOCIAL DEL TITULAR DE LA CUENTA DE ADEUDO: Elena Soler Vidal\nPágina 1 / Mandato principal / DOMICILIO DEL TITULAR DE LA CUENTA DE ADEUDO: Calle Cuenta Social 8\nPágina 1 / Mandato principal / LOCALIDAD: Sevilla\nPágina 1 / Mandato principal / CÓD. POSTAL: 41007\nPágina 1 / Mandato principal / PROVINCIA: Sevilla\nPágina 1 / Mandato principal / DOCUMENTO IDENTIFICATIVO DEL TITULAR DE LA CUENTA DE ADEUDO: D.N.I.:\nPágina 1 / Mandato principal / Documento titular de cuenta: 78901234J\nPágina 1 / Resguardo de tramitación / APELLIDOS Y NOMBRE O RAZÓN SOCIAL DEL SUJETO OBLIGADO AL PAGO DE CUOTAS DE SEGURIDAD SOCIAL: Raúl Lago Martín\nPágina 1 / Resguardo de tramitación / N.º IDENTIFICATIVO DE SEGURIDAD SOCIAL (3): 410000765014\nPágina 1 / Resguardo de tramitación / DOCUMENTO IDENTIFICATIVO DEL RESPONSABLE DE PAGO: D.N.I.:\nPágina 1 / Resguardo de tramitación / Documento responsable de pago: 67890123X\nPágina 1 / Resguardo de tramitación / CÓDIGO INTERNACIONAL CUENTA BANCARIA IBAN: ES12 0000 0765 0100 1234 5678\nPágina 1 / Resguardo de tramitación / APELLIDOS Y NOMBRE O RAZÓN SOCIAL DEL TITULAR DE LA CUENTA DE ADEUDO: Elena Soler Vidal\nPágina 1 / Resguardo de tramitación / DOMICILIO DEL TITULAR DE LA CUENTA DE ADEUDO: Calle Cuenta Social 8\nPágina 1 / Resguardo de tramitación / LOCALIDAD: Sevilla\nPágina 1 / Resguardo de tramitación / CÓD. POSTAL: 41007\nPágina 1 / Resguardo de tramitación / PROVINCIA: Sevilla\nPágina 1 / Resguardo de tramitación / DOCUMENTO IDENTIFICATIVO DEL TITULAR DE LA CUENTA DE ADEUDO: D.N.I.:\nPágina 1 / Resguardo de tramitación / Documento titular de cuenta: 78901234J\nPágina 1 / Ejecución del mandato / Día: 19\nPágina 1 / Ejecución del mandato / Mes: 10\nPágina 1 / Ejecución del mandato / Año: 2026\nPágina 1 / Ejecución del mandato / Firma del titular de la cuenta (4): Elena Soler Vidal, firma sintética\nPágina 1 / Ejecución del mandato / Firma del responsable del pago (4): Raúl Lago Martín, firma sintética\nPágina 1 / Oficina receptora / Sello, Fecha y Firma de la Oficina Receptora: 19/10/2026, Sevilla; firma y sello administrativos sintéticos",
+  "workflow_identity": {
+    "language": "es",
+    "id": 765
+  }
+}

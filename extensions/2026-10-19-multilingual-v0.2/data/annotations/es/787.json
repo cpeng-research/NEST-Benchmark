@@ -1,0 +1,234 @@
+{
+  "id": "es-787",
+  "language": "es",
+  "title": "Solicitud de alta como entidad autorizada en SIGSA",
+  "domain": "Business",
+  "issuer": "SENASA",
+  "issuer_id": "senasa",
+  "template_family": "senasa-sigsa-authorised-entity-registration",
+  "source_version": "Undated",
+  "source_date_evidence": {
+    "kind": "undated source",
+    "value": "Undated",
+    "note": "Edition transcribed from the source; retrieval date is not an issuance date."
+  },
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/formulario_-_alta_entidades_emisoras.pdf",
+  "landing_url": "https://www.argentina.gob.ar/node/150794",
+  "source_sha256": "0e4324e1b732e3d0ffc49a50527de8ff3494d50a506bb6a60b4383dd06e716d1",
+  "source_pages": 1,
+  "retrieved_at": "2026-10-19T08:56:37.729633+00:00",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "CC BY 4.0 under Argentina.gob.ar portal terms, intellectual-property section. National-portal download; no contrary reuse notice found in the form. Attribution: SENASA. Normalized semantic layout with synthetic completion; not an official completed submission.",
+  "columns": 2,
+  "synthetic_context": true,
+  "source_notice": "Source wording, complete option sets, repeated targets and administrative/signature areas retained. Values and all signatures are synthetic.",
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Fecha:",
+      "path": [
+        "Página 1",
+        "Entidad y declaración",
+        "Fecha:"
+      ],
+      "source_anchor": "Fecha:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "13/10/2026"
+    },
+    {
+      "id": "f002",
+      "label": "Razón Social",
+      "path": [
+        "Página 1",
+        "Entidad y declaración",
+        "Razón Social"
+      ],
+      "source_anchor": "Razón Social",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Servicios Pecuarios Sintéticos del Oeste SRL"
+    },
+    {
+      "id": "f003",
+      "label": "Titular",
+      "path": [
+        "Página 1",
+        "Entidad y declaración",
+        "Titular"
+      ],
+      "source_anchor": "Titular",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Gabriela Torres"
+    },
+    {
+      "id": "f004",
+      "label": "CUIT",
+      "path": [
+        "Página 1",
+        "Entidad y declaración",
+        "CUIT"
+      ],
+      "source_anchor": "CUIT",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "30-73456783-0 (sintético)"
+    },
+    {
+      "id": "f005",
+      "label": "Domicilio Fiscal",
+      "path": [
+        "Página 1",
+        "Entidad y declaración",
+        "Domicilio Fiscal"
+      ],
+      "source_anchor": "Domicilio Fiscal",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Calle Rural 287, Villa Mercedes, San Luis"
+    },
+    {
+      "id": "f006",
+      "label": "Teléfono",
+      "path": [
+        "Página 1",
+        "Entidad y declaración",
+        "Teléfono"
+      ],
+      "source_anchor": "Teléfono",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "02657-555-7872"
+    },
+    {
+      "id": "f007",
+      "label": "E-mail",
+      "path": [
+        "Página 1",
+        "Entidad y declaración",
+        "E-mail"
+      ],
+      "source_anchor": "E-mail",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "servicios.oeste@example.invalid"
+    },
+    {
+      "id": "f008",
+      "label": "FIRMA, ACLARACIÓN Y N° DNI SOLICITANTE",
+      "path": [
+        "Página 1",
+        "Entidad y declaración",
+        "FIRMA, ACLARACIÓN Y N° DNI SOLICITANTE"
+      ],
+      "source_anchor": "FIRMA, ACLARACIÓN Y N° DNI SOLICITANTE",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de Gabriela Torres; Gabriela Torres; DNI sintético 32.787.503"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Solicitud de alta como entidad autorizada en SIGSA / Página 1",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Resolución SENASA 162/2018",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Entidad y declaración",
+        "heading": true,
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fecha:",
+        "field": "f001",
+        "source_page": 1
+      },
+      {
+        "label": "Razón Social",
+        "field": "f002",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Titular",
+        "field": "f003",
+        "source_page": 1
+      },
+      {
+        "label": "CUIT",
+        "field": "f004",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Domicilio Fiscal",
+        "field": "f005",
+        "source_page": 1
+      },
+      {
+        "label": "Teléfono",
+        "field": "f006",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "E-mail",
+        "field": "f007",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Como Entidad, cuyos datos se detallan más arriba, solicito habilite el acceso al sistema de autogestión de DT-e y cierre de movimientos a través de Sistema Integrado de Gestión de Sanidad Animal (SiGSA).",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "El incumplimiento de los alcances de la normativa vigente referente a las condiciones para el registro, tenencia y movimiento de animales conllevará a la revocación del uso de SIGSA para realizar autogestión, sin perjuicio de las acciones administrativas y sanciones que pudieren corresponder.",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Asimismo, declaro que esta actividad no resulta incompatible con las restantes acciones sanitarias que pudiese desarrollar con relación al SENASA y que los datos que como autogestor ingrese a SIGSA son verídicos, bajo lo prescripto en el artículo N° 293 del Código Penal.",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FIRMA, ACLARACIÓN Y N° DNI SOLICITANTE",
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ]
+  ],
+  "context": "ESCENARIO COMPLETAMENTE SINTÉTICO. No identifica personas, empresas, bienes ni actuaciones reales. Las firmas y los asientos administrativos son representaciones textuales ficticias, sin validez oficial.\nLas menciones de no aplicación son estados explícitos del escenario, no datos deducidos del formulario.\nPágina 1 / Entidad y declaración / Fecha:: 13/10/2026\nPágina 1 / Entidad y declaración / Razón Social: Servicios Pecuarios Sintéticos del Oeste SRL\nPágina 1 / Entidad y declaración / Titular: Gabriela Torres\nPágina 1 / Entidad y declaración / CUIT: 30-73456783-0 (sintético)\nPágina 1 / Entidad y declaración / Domicilio Fiscal: Calle Rural 287, Villa Mercedes, San Luis\nPágina 1 / Entidad y declaración / Teléfono: 02657-555-7872\nPágina 1 / Entidad y declaración / E-mail: servicios.oeste@example.invalid\nPágina 1 / Entidad y declaración / FIRMA, ACLARACIÓN Y N° DNI SOLICITANTE: Firma sintética de Gabriela Torres; Gabriela Torres; DNI sintético 32.787.503",
+  "workflow_identity": {
+    "language": "es",
+    "id": 787
+  }
+}

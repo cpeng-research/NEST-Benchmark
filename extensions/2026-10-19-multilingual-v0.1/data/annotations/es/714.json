@@ -1,0 +1,284 @@
+{
+  "id": "es-714-personnel-05",
+  "language": "es",
+  "domain": "WorkplaceHR",
+  "title": "Datos personales y bancarios para nómina",
+  "business_topic": "Datos personales y bancarios para nómina",
+  "issuer_id": "Junta de Andalucía",
+  "template_family": "personnel-05",
+  "source_pages": 1,
+  "source_sha256": "744da2d05e34177818fa2eb17ec936b835cddedf9d594208c3ca9c0e29323313",
+  "source_url": "https://www.juntadeandalucia.es/sites/default/files/inline-files/2025/07/DATOSBANCARIOS_0.pdf",
+  "landing_url": "https://www.juntadeandalucia.es/organismos/turismojusticiadesregulacionyadministracionlocal/areas/justicia/personal-administracion/secretarias-provinciales/sgp-sevilla/informacion.html",
+  "license_url": "https://www.juntadeandalucia.es/temas/administracion/atencion-internet/portal.html",
+  "license_note": "Información obtenida del Portal de la Junta de Andalucía. Texto y estructura adaptados bajo CC BY 3.0 España (https://creativecommons.org/licenses/by/3.0/es/). Se omiten logos y arte institucional; no es un impreso oficial ni se implica respaldo.",
+  "retrieved_at": "2026-10-19T03:46:40.635495+00:00",
+  "source_version": "Sin fecha de edición impresa; consulta 2026-10-19T03:46:40.635495+00:00",
+  "source_date_evidence": {
+    "kind": "undated edition with dated retrieval",
+    "value": "Sin fecha de edición impresa; consulta 2026-10-19T03:46:40.635495+00:00"
+  },
+  "columns": 42,
+  "rows": [
+    [
+      {
+        "text": "Datos personales y bancarios para nómina",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "DATOS PERSONALES:",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "APELLIDOS:",
+        "field": "f0001",
+        "source_page": 1,
+        "colspan": 21
+      },
+      {
+        "label": "NOMBRE:",
+        "field": "f0002",
+        "source_page": 1,
+        "colspan": 21
+      }
+    ],
+    [
+      {
+        "label": "D.N.I.:",
+        "field": "f0003",
+        "source_page": 1,
+        "colspan": 21
+      },
+      {
+        "label": "TELÉFONOS:",
+        "field": "f0004",
+        "source_page": 1,
+        "colspan": 21
+      }
+    ],
+    [
+      {
+        "label": "DOMICILIO:",
+        "field": "f0005",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "LOCALIDAD:",
+        "field": "f0006",
+        "source_page": 1,
+        "colspan": 14
+      },
+      {
+        "label": "PROVINCIA:",
+        "field": "f0007",
+        "source_page": 1,
+        "colspan": 14
+      },
+      {
+        "label": "CÓDIGO POSTAL:",
+        "field": "f0008",
+        "source_page": 1,
+        "colspan": 14
+      }
+    ],
+    [
+      {
+        "text": "DATOS BANCARIOS:",
+        "heading": true,
+        "colspan": 42,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "IBAN:",
+        "field": "f0009",
+        "source_page": 1,
+        "colspan": 42
+      }
+    ],
+    [
+      {
+        "label": "Fecha y firma / Fecha",
+        "field": "f0010",
+        "source_page": 1,
+        "colspan": 21
+      },
+      {
+        "label": "Fecha y firma / Firma",
+        "field": "f0011",
+        "source_page": 1,
+        "colspan": 21
+      }
+    ],
+    [
+      {
+        "text": "Información obtenida del Portal de la Junta de Andalucía. Texto y estructura adaptados bajo CC BY 3.0 España (https://creativecommons.org/licenses/by/3.0/es/). Se omiten logos y arte institucional; no es un impreso oficial ni se implica respaldo. Fuente: https://www.juntadeandalucia.es/sites/default/files/inline-files/2025/07/DATOSBANCARIOS_0.pdf",
+        "heading": false,
+        "colspan": 42,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f0001",
+      "label": "APELLIDOS:",
+      "path": [
+        "Página 1",
+        "DATOS PERSONALES:",
+        "APELLIDOS:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "APELLIDOS:",
+      "synthetic_value": "Navarro Martín"
+    },
+    {
+      "id": "f0002",
+      "label": "NOMBRE:",
+      "path": [
+        "Página 1",
+        "DATOS PERSONALES:",
+        "NOMBRE:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "NOMBRE:",
+      "synthetic_value": "Lucía"
+    },
+    {
+      "id": "f0003",
+      "label": "D.N.I.:",
+      "path": [
+        "Página 1",
+        "DATOS PERSONALES:",
+        "D.N.I.:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "D.N.I.:",
+      "synthetic_value": "12345678Z"
+    },
+    {
+      "id": "f0004",
+      "label": "TELÉFONOS:",
+      "path": [
+        "Página 1",
+        "DATOS PERSONALES:",
+        "TELÉFONOS:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "TELÉFONOS:",
+      "synthetic_value": "600000120"
+    },
+    {
+      "id": "f0005",
+      "label": "DOMICILIO:",
+      "path": [
+        "Página 1",
+        "DATOS PERSONALES:",
+        "DOMICILIO:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "DOMICILIO:",
+      "synthetic_value": "Calle Ejemplo 3, piso 2 A"
+    },
+    {
+      "id": "f0006",
+      "label": "LOCALIDAD:",
+      "path": [
+        "Página 1",
+        "DATOS PERSONALES:",
+        "LOCALIDAD:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "LOCALIDAD:",
+      "synthetic_value": "Sevilla"
+    },
+    {
+      "id": "f0007",
+      "label": "PROVINCIA:",
+      "path": [
+        "Página 1",
+        "DATOS PERSONALES:",
+        "PROVINCIA:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "PROVINCIA:",
+      "synthetic_value": "Sevilla"
+    },
+    {
+      "id": "f0008",
+      "label": "CÓDIGO POSTAL:",
+      "path": [
+        "Página 1",
+        "DATOS PERSONALES:",
+        "CÓDIGO POSTAL:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "CÓDIGO POSTAL:",
+      "synthetic_value": "41003"
+    },
+    {
+      "id": "f0009",
+      "label": "IBAN:",
+      "path": [
+        "Página 1",
+        "DATOS BANCARIOS:",
+        "IBAN:"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "IBAN:",
+      "synthetic_value": "ES9121000418450200051332"
+    },
+    {
+      "id": "f0010",
+      "label": "Fecha y firma",
+      "path": [
+        "Página 1",
+        "DATOS BANCARIOS:",
+        "Fecha"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha y firma",
+      "synthetic_value": "19/10/2026"
+    },
+    {
+      "id": "f0011",
+      "label": "Fecha y firma",
+      "path": [
+        "Página 1",
+        "DATOS BANCARIOS:",
+        "Firma"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Fecha y firma",
+      "synthetic_value": "Lucía Navarro Martín"
+    }
+  ],
+  "context": "Caso enteramente ficticio para completar el formulario; no es una declaración ni una solicitud real.\nPágina 1 / DATOS PERSONALES: / APELLIDOS:: Navarro Martín\nPágina 1 / DATOS PERSONALES: / NOMBRE:: Lucía\nPágina 1 / DATOS PERSONALES: / D.N.I.:: 12345678Z\nPágina 1 / DATOS PERSONALES: / TELÉFONOS:: 600000120\nPágina 1 / DATOS PERSONALES: / DOMICILIO:: Calle Ejemplo 3, piso 2 A\nPágina 1 / DATOS PERSONALES: / LOCALIDAD:: Sevilla\nPágina 1 / DATOS PERSONALES: / PROVINCIA:: Sevilla\nPágina 1 / DATOS PERSONALES: / CÓDIGO POSTAL:: 41003\nPágina 1 / DATOS BANCARIOS: / IBAN:: ES9121000418450200051332\nPágina 1 / DATOS BANCARIOS: / Fecha: 19/10/2026\nPágina 1 / DATOS BANCARIOS: / Firma: Lucía Navarro Martín",
+  "workflow_identity": {
+    "language": "es",
+    "id": 714
+  }
+}
