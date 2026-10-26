@@ -1,0 +1,1043 @@
+{
+  "id": "zh-909",
+  "language": "zh",
+  "title": "基隆市立醫院病歷資料調閱授權書",
+  "domain": "Healthcare",
+  "issuer": "基隆市立醫院／基隆市衛生局",
+  "issuer_id": "kmh",
+  "template_family": "kmh-kmh-release",
+  "source_version": "Undated",
+  "source_date_evidence": {
+    "kind": "undated complete source",
+    "value": "Undated",
+    "note": "Printed edition is recorded separately from the actual retrieval timestamp; current linkage is preserved in the official landing snapshot."
+  },
+  "source_url": "https://www.kmh.klcg.gov.tw/wSite/public/Attachment/033/f1642819941965.pdf",
+  "landing_url": "https://www.kmh.klcg.gov.tw/tw/kmh1/3733-250705.html",
+  "license_url": "https://www.kmh.klcg.gov.tw/tw/kmh1/4021-265095.html",
+  "license_note": "Attribution: 基隆市立醫院／基隆市衛生局. The official website open-data/copyright notice permits copying, adaptation and commercial/noncommercial reuse, with attribution and stated exclusions for logos and third-party material. Complete semantic form transcription and fictional completion; official logos are omitted. The original PDF and the complete applicable notice are preserved locally.",
+  "source_sha256": "d4454712fb6ad30d02104dac3c9c08aedde26699d24aab698f917099e4c910fb",
+  "retrieved_at": "2026-10-25T07:05:02.305966+00:00",
+  "source_pages": 2,
+  "columns": 12,
+  "synthetic_context": true,
+  "source_notice": "Native-language complete source. Every independent blank is a separate target; genuine logical choice groups alone are grouped. Repeated rows and horizontal groups are retained. Static shared headings are repeated where the unchanged renderer has no rowspan support.",
+  "fields": [
+    {
+      "id": "f001",
+      "label": "立授權書人",
+      "path": [
+        "Page 1",
+        "授權敘述",
+        "立授權書人"
+      ],
+      "source_anchor": "立授權書人",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "林雅君"
+    },
+    {
+      "id": "f002",
+      "label": "人壽(產物)保險股份有限公司",
+      "path": [
+        "Page 1",
+        "被授權保險公司",
+        "人壽(產物)保險股份有限公司"
+      ],
+      "source_anchor": "人壽(產物)保險股份有限公司",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "合成安心人壽保險股份有限公司"
+    },
+    {
+      "id": "f003",
+      "label": "姓 名",
+      "path": [
+        "Page 1",
+        "被查詢人",
+        "姓 名"
+      ],
+      "source_anchor": "姓 名",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "林雅君"
+    },
+    {
+      "id": "f004",
+      "label": "身分證統一編號",
+      "path": [
+        "Page 1",
+        "被查詢人",
+        "身分證統一編號"
+      ],
+      "source_anchor": "身分證統一編號",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "F200000909（合成）"
+    },
+    {
+      "id": "f005",
+      "label": "年",
+      "path": [
+        "Page 1",
+        "出生日期",
+        "年"
+      ],
+      "source_anchor": "年",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "80"
+    },
+    {
+      "id": "f006",
+      "label": "月",
+      "path": [
+        "Page 1",
+        "出生日期",
+        "月"
+      ],
+      "source_anchor": "月",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "5"
+    },
+    {
+      "id": "f007",
+      "label": "日",
+      "path": [
+        "Page 1",
+        "出生日期",
+        "日"
+      ],
+      "source_anchor": "日",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "14"
+    },
+    {
+      "id": "f008",
+      "label": "與被查詢人之關係",
+      "path": [
+        "Page 1",
+        "授權人關係",
+        "與被查詢人之關係"
+      ],
+      "source_anchor": "與被查詢人之關係",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "本人"
+      ],
+      "options": [
+        "本人",
+        "利害關係人"
+      ],
+      "context_evidence": "授權人關係 / 與被查詢人之關係: 本人"
+    },
+    {
+      "id": "f009",
+      "label": "利害關係人",
+      "path": [
+        "Page 1",
+        "關係附項",
+        "利害關係人"
+      ],
+      "source_anchor": "利害關係人",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "法定代理人",
+        "繼承人",
+        "監護人",
+        "輔助人"
+      ],
+      "context_evidence": "關係附項 / 利害關係人: 不選取：此條件不適用。 This explicitly conditional branch is inactive in the fictional case.",
+      "inactive_reason": "This explicitly conditional branch is inactive in the fictional case."
+    },
+    {
+      "id": "f010",
+      "label": "調閱病歷資料用途",
+      "path": [
+        "Page 1",
+        "用途",
+        "調閱病歷資料用途"
+      ],
+      "source_anchor": "調閱病歷資料用途",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "申請商業保險理賠"
+      ],
+      "options": [
+        "投保商業保險",
+        "申請商業保險理賠",
+        "申請商業保險契約內容異動變更"
+      ],
+      "context_evidence": "用途 / 調閱病歷資料用途: 申請商業保險理賠"
+    },
+    {
+      "id": "f011",
+      "label": "申請商業保險契約內容異動變更",
+      "path": [
+        "Page 1",
+        "契約異動附項",
+        "申請商業保險契約內容異動變更"
+      ],
+      "source_anchor": "申請商業保險契約內容異動變更",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "補行告知",
+        "契約轉換",
+        "增加保險金額"
+      ],
+      "context_evidence": "契約異動附項 / 申請商業保險契約內容異動變更: 不選取：此條件不適用。 This explicitly conditional branch is inactive in the fictional case.",
+      "inactive_reason": "This explicitly conditional branch is inactive in the fictional case."
+    },
+    {
+      "id": "f012",
+      "label": "被查詢人就診資料查閱範圍",
+      "path": [
+        "Page 1",
+        "範圍",
+        "被查詢人就診資料查閱範圍"
+      ],
+      "source_anchor": "被查詢人就診資料查閱範圍",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "查詢自"
+      ],
+      "options": [
+        "被查詢人在 貴醫院(診所)之全部門、急診紀錄",
+        "查詢自",
+        "特定就診資料"
+      ],
+      "context_evidence": "範圍 / 被查詢人就診資料查閱範圍: 查詢自"
+    },
+    {
+      "id": "f013",
+      "label": "如有在 貴醫院(診所)住院者,另提供各次住院之全部出(住)院病歷摘要",
+      "path": [
+        "Page 1",
+        "全部紀錄附項",
+        "如有在 貴醫院(診所)住院者,另提供各次住院之全部出(住)院病歷摘要"
+      ],
+      "source_anchor": "如有在 貴醫院(診所)住院者,另提供各次住院之全部出(住)院病歷摘要",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [],
+      "options": [
+        "如有在 貴醫院(診所)住院者,另提供各次住院之全部出(住)院病歷摘要"
+      ],
+      "context_evidence": "全部紀錄附項 / 如有在 貴醫院(診所)住院者,另提供各次住院之全部出(住)院病歷摘要: 不選取：此條件不適用。"
+    },
+    {
+      "id": "f014",
+      "label": "年",
+      "path": [
+        "Page 1",
+        "回溯截止日期",
+        "年"
+      ],
+      "source_anchor": "年",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "115"
+    },
+    {
+      "id": "f015",
+      "label": "月",
+      "path": [
+        "Page 1",
+        "回溯截止日期",
+        "月"
+      ],
+      "source_anchor": "月",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "10"
+    },
+    {
+      "id": "f016",
+      "label": "日",
+      "path": [
+        "Page 1",
+        "回溯截止日期",
+        "日"
+      ],
+      "source_anchor": "日",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "25"
+    },
+    {
+      "id": "f017",
+      "label": "年(不得超過5 年)",
+      "path": [
+        "Page 1",
+        "回溯年數",
+        "年(不得超過5 年)"
+      ],
+      "source_anchor": "年(不得超過5 年)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "f018",
+      "label": "前開期間內如有在 貴醫院(診所)住院者,另提供期間內各次住院之全部出(住)院病 歷摘要",
+      "path": [
+        "Page 1",
+        "回溯紀錄附項",
+        "前開期間內如有在 貴醫院(診所)住院者,另提供期間內各次住院之全部出(住)院病 歷摘要"
+      ],
+      "source_anchor": "前開期間內如有在 貴醫院(診所)住院者,另提供期間內各次住院之全部出(住)院病 歷摘要",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "前開期間內如有在 貴醫院(診所)住院者,另提供期間內各次住院之全部出(住)院病 歷摘要"
+      ],
+      "options": [
+        "前開期間內如有在 貴醫院(診所)住院者,另提供期間內各次住院之全部出(住)院病 歷摘要"
+      ],
+      "context_evidence": "回溯紀錄附項 / 前開期間內如有在 貴醫院(診所)住院者,另提供期間內各次住院之全部出(住)院病 歷摘要: 前開期間內如有在 貴醫院(診所)住院者,另提供期間內各次住院之全部出(住)院病 歷摘要"
+    },
+    {
+      "id": "f019",
+      "label": "年",
+      "path": [
+        "Page 1",
+        "特定紀錄截止日期",
+        "年"
+      ],
+      "source_anchor": "年",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "不適用"
+    },
+    {
+      "id": "f020",
+      "label": "月",
+      "path": [
+        "Page 1",
+        "特定紀錄截止日期",
+        "月"
+      ],
+      "source_anchor": "月",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "不適用"
+    },
+    {
+      "id": "f021",
+      "label": "日",
+      "path": [
+        "Page 1",
+        "特定紀錄截止日期",
+        "日"
+      ],
+      "source_anchor": "日",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "不適用"
+    },
+    {
+      "id": "f022",
+      "label": "年(月)內",
+      "path": [
+        "Page 1",
+        "特定紀錄期間",
+        "年(月)內"
+      ],
+      "source_anchor": "年(月)內",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "不適用"
+    },
+    {
+      "id": "f023",
+      "label": "就診科別",
+      "path": [
+        "Page 1",
+        "特定紀錄",
+        "就診科別"
+      ],
+      "source_anchor": "就診科別",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "不適用"
+    },
+    {
+      "id": "f024",
+      "label": "就診病名",
+      "path": [
+        "Page 1",
+        "特定紀錄",
+        "就診病名"
+      ],
+      "source_anchor": "就診病名",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "不適用"
+    },
+    {
+      "id": "f025",
+      "label": "查詢項目",
+      "path": [
+        "Page 1",
+        "特定紀錄項目",
+        "查詢項目"
+      ],
+      "source_anchor": "查詢項目",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [],
+      "options": [
+        "門、急診紀錄",
+        "出(住)院病歷摘要",
+        "檢驗紀錄",
+        "護理紀錄",
+        "其他(請填寫)"
+      ],
+      "context_evidence": "特定紀錄項目 / 查詢項目: 不選取：此條件不適用。"
+    },
+    {
+      "id": "f026",
+      "label": "其他(請填寫)",
+      "path": [
+        "Page 1",
+        "特定紀錄其他",
+        "其他(請填寫)"
+      ],
+      "source_anchor": "其他(請填寫)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "不適用"
+    },
+    {
+      "id": "f027",
+      "label": "請就下列事項勾選",
+      "path": [
+        "Page 1",
+        "正本或影本方式",
+        "請就下列事項勾選"
+      ],
+      "source_anchor": "請就下列事項勾選",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "被授權人應以正式公文檢附本授權書正本向 貴醫院(診所)申請查詢。"
+      ],
+      "options": [
+        "被授權人應以正式公文檢附本授權書正本向 貴醫院(診所)申請查詢。",
+        "被授權人得以正式公文檢附本授權書影本向 貴醫院(診所)申請查詢,並應於本授權書影 本加註「本影本與正本相同,如發生異議,一切由被授權人負完全法律責任。」之文字並加 蓋與公文相關之專用圖記作背書者,立授權書人同意該授權書影本與正本具同等效力。"
+      ],
+      "context_evidence": "正本或影本方式 / 請就下列事項勾選: 被授權人應以正式公文檢附本授權書正本向 貴醫院(診所)申請查詢。"
+    },
+    {
+      "id": "f028",
+      "label": "立授權書人簽名",
+      "path": [
+        "Page 2",
+        "授權人簽署",
+        "立授權書人簽名"
+      ],
+      "source_anchor": "立授權書人簽名",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "林雅君（合成簽名）"
+    },
+    {
+      "id": "f029",
+      "label": "身分證統一編號",
+      "path": [
+        "Page 2",
+        "授權人簽署",
+        "身分證統一編號"
+      ],
+      "source_anchor": "身分證統一編號",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "F200000909（合成）"
+    },
+    {
+      "id": "f030",
+      "label": "聯絡地址",
+      "path": [
+        "Page 2",
+        "授權人聯絡",
+        "聯絡地址"
+      ],
+      "source_anchor": "聯絡地址",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "基隆市信義區合成路9號"
+    },
+    {
+      "id": "f031",
+      "label": "聯絡電話",
+      "path": [
+        "Page 2",
+        "授權人聯絡",
+        "聯絡電話"
+      ],
+      "source_anchor": "聯絡電話",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "02-20000909（合成）"
+    },
+    {
+      "id": "f032",
+      "label": "被授權人",
+      "path": [
+        "Page 2",
+        "保險公司",
+        "被授權人"
+      ],
+      "source_anchor": "被授權人",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "合成安心人壽保險股份有限公司"
+    },
+    {
+      "id": "f033",
+      "label": "聯絡地址",
+      "path": [
+        "Page 2",
+        "保險公司",
+        "聯絡地址"
+      ],
+      "source_anchor": "聯絡地址",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "臺北市中正區合成路90號"
+    },
+    {
+      "id": "f034",
+      "label": "聯絡人姓名",
+      "path": [
+        "Page 2",
+        "保險公司",
+        "聯絡人姓名"
+      ],
+      "source_anchor": "聯絡人姓名",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "王承辦（合成）"
+    },
+    {
+      "id": "f035",
+      "label": "聯絡電話",
+      "path": [
+        "Page 2",
+        "保險公司",
+        "聯絡電話"
+      ],
+      "source_anchor": "聯絡電話",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "02-20001909（合成）"
+    },
+    {
+      "id": "f036",
+      "label": "年",
+      "path": [
+        "Page 2",
+        "授權日期",
+        "年"
+      ],
+      "source_anchor": "年",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "115"
+    },
+    {
+      "id": "f037",
+      "label": "月",
+      "path": [
+        "Page 2",
+        "授權日期",
+        "月"
+      ],
+      "source_anchor": "月",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "10"
+    },
+    {
+      "id": "f038",
+      "label": "日",
+      "path": [
+        "Page 2",
+        "授權日期",
+        "日"
+      ],
+      "source_anchor": "日",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "25"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "基隆市立醫院病歷資料調閱授權書",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "立授權書人",
+        "field": "f001",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "人壽(產物)保險股份有限公司",
+        "field": "f002",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "茲授權○○人壽(產物)保險股份有限公司(下稱被授權人)向 貴醫院(診所)查詢 並以書面方式提供醫療相關資料,授權查詢事項如下:",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "一、被查詢人基本資料",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "姓 名",
+        "field": "f003",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "身分證統一編號",
+        "field": "f004",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "出生年月日",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "年",
+        "field": "f005",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "月",
+        "field": "f006",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "日",
+        "field": "f007",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "二、與被查詢人之關係(請勾選)(註1)",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "與被查詢人之關係",
+        "field": "f008",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "利害關係人(請同時勾選下列項目其中一項)",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "利害關係人",
+        "field": "f009",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "三、調閱病歷資料用途(請勾選)",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "調閱病歷資料用途",
+        "field": "f010",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "申請商業保險契約內容異動變更(請同時勾選下列項目其中一項) (註2)",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "申請商業保險契約內容異動變更",
+        "field": "f011",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "四、被查詢人就診資料查閱範圍(請就查詢範圍勾選後依示填寫)",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "被查詢人就診資料查閱範圍",
+        "field": "f012",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "如有在 貴醫院(診所)住院者,另提供各次住院之全部出(住)院病歷摘要",
+        "field": "f013",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "查詢自",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "年",
+        "field": "f014",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "月",
+        "field": "f015",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "日",
+        "field": "f016",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "年(不得超過5 年)",
+        "field": "f017",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "之全部門、急診紀錄",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "前開期間內如有在 貴醫院(診所)住院者,另提供期間內各次住院之全部出(住)院病 歷摘要",
+        "field": "f018",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "特定就診資料",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "查詢期間:",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "年",
+        "field": "f019",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "月",
+        "field": "f020",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "日",
+        "field": "f021",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "年(月)內",
+        "field": "f022",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "前",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "就診科別",
+        "field": "f023",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "就診病名",
+        "field": "f024",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "(應具體列明,但不以一科為限)",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "(應具體列明,但不以一項病名為限)",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "查詢項目(請勾選,可複選):",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "查詢項目",
+        "field": "f025",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "其他(請填寫)",
+        "field": "f026",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "五、授權有效期間:本授權書書立日期起6 個月。 六、被授權人對於因本件授權而取得之任何資料、文件、訊息等,不得違法利用侵害立授權書人、 被查詢人或其他任何人之權益。被授權人如違反上開約定,應依法負擔民事、刑事及行政法 等法律責任。",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "立授權書人另聲明同意下列事項:",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "一、請就下列事項勾選,未勾選者視同僅同意以本授權書正本向 貴醫院(診所)申請查詢。",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "請就下列事項勾選",
+        "field": "f027",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "二、立授權書人已知悉本授權書所授權查閱之病歷資料內容,可能含有人類免疫缺乏病毒傳染病 或其他法定傳染病之資料。被授權人應向立授權書人當面口頭詳細說明,讓立授權書人確定 知悉其可能授權之範圍和風險,立授權書人亦可保有相關撤回之權利。 三、因本授權書內容或效力所生之爭議,應由被授權人負責,概予 貴醫院(診所)無關,立授權 書人或被查詢人不得向 貴醫院(診所)為任何法律上之主張。 此致 貴醫院(診所)",
+        "source_page": 2,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "立授權書人簽名",
+        "field": "f028",
+        "source_page": 2,
+        "colspan": 6
+      },
+      {
+        "label": "身分證統一編號",
+        "field": "f029",
+        "source_page": 2,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "聯絡地址",
+        "field": "f030",
+        "source_page": 2,
+        "colspan": 6
+      },
+      {
+        "label": "聯絡電話",
+        "field": "f031",
+        "source_page": 2,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "被授權人",
+        "field": "f032",
+        "source_page": 2,
+        "colspan": 6
+      },
+      {
+        "label": "聯絡地址",
+        "field": "f033",
+        "source_page": 2,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "聯絡人姓名",
+        "field": "f034",
+        "source_page": 2,
+        "colspan": 6
+      },
+      {
+        "label": "聯絡電話",
+        "field": "f035",
+        "source_page": 2,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "本授權書書立日期: 中華民國",
+        "source_page": 2,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "年",
+        "field": "f036",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "label": "月",
+        "field": "f037",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "label": "日",
+        "field": "f038",
+        "source_page": 2,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "註: 1.利害關係人授權申請者,應同時檢附立授權書人之身分證明文件影本及證明與被查詢人間具有 本授權書上所記載利害關係之文件影本(如戶口名簿、除戶戶籍謄本、法院裁定等,視利害關 係人之身分提出之)。 2.「補行告知」係指保險契約投保後簽發保單前新發生或發現影響保險公司危險估計之事項,由 要保人(被保險人)向保險公司再行告知;「契約轉換」係指要保人以現有保險契約申請轉換為 同一人壽(產物)保險公司之其他保險契約;「增加保險金額」係指要保人以現有保險契約申請 增加保險金額。",
+        "source_page": 2,
+        "heading": false,
+        "colspan": 12
+      }
+    ]
+  ],
+  "context": "本案例完全虛構；人物、身分號碼、聯絡方式、機關處理紀錄及簽章均為合成資料，不代表真實申請。\n林雅君本人為商業保險理賠授權合成安心人壽查詢自115年10月25日往前2年全部門急診紀錄，包含期間內住院摘要。要求正式公文附授權書正本。特定資料及契約異動分支不適用，其附格明示不適用。\nPage 1 / 授權敘述 / 立授權書人: 林雅君\nPage 1 / 被授權保險公司 / 人壽(產物)保險股份有限公司: 合成安心人壽保險股份有限公司\nPage 1 / 被查詢人 / 姓 名: 林雅君\nPage 1 / 被查詢人 / 身分證統一編號: F200000909（合成）\nPage 1 / 出生日期 / 年: 80\nPage 1 / 出生日期 / 月: 5\nPage 1 / 出生日期 / 日: 14\nPage 1 / 授權人關係 / 與被查詢人之關係: 授權人關係 / 與被查詢人之關係: 本人\nPage 1 / 關係附項 / 利害關係人: 關係附項 / 利害關係人: 不選取：此條件不適用。 This explicitly conditional branch is inactive in the fictional case.\nPage 1 / 用途 / 調閱病歷資料用途: 用途 / 調閱病歷資料用途: 申請商業保險理賠\nPage 1 / 契約異動附項 / 申請商業保險契約內容異動變更: 契約異動附項 / 申請商業保險契約內容異動變更: 不選取：此條件不適用。 This explicitly conditional branch is inactive in the fictional case.\nPage 1 / 範圍 / 被查詢人就診資料查閱範圍: 範圍 / 被查詢人就診資料查閱範圍: 查詢自\nPage 1 / 全部紀錄附項 / 如有在 貴醫院(診所)住院者,另提供各次住院之全部出(住)院病歷摘要: 全部紀錄附項 / 如有在 貴醫院(診所)住院者,另提供各次住院之全部出(住)院病歷摘要: 不選取：此條件不適用。\nPage 1 / 回溯截止日期 / 年: 115\nPage 1 / 回溯截止日期 / 月: 10\nPage 1 / 回溯截止日期 / 日: 25\nPage 1 / 回溯年數 / 年(不得超過5 年): 2\nPage 1 / 回溯紀錄附項 / 前開期間內如有在 貴醫院(診所)住院者,另提供期間內各次住院之全部出(住)院病 歷摘要: 回溯紀錄附項 / 前開期間內如有在 貴醫院(診所)住院者,另提供期間內各次住院之全部出(住)院病 歷摘要: 前開期間內如有在 貴醫院(診所)住院者,另提供期間內各次住院之全部出(住)院病 歷摘要\nPage 1 / 特定紀錄截止日期 / 年: 不適用\nPage 1 / 特定紀錄截止日期 / 月: 不適用\nPage 1 / 特定紀錄截止日期 / 日: 不適用\nPage 1 / 特定紀錄期間 / 年(月)內: 不適用\nPage 1 / 特定紀錄 / 就診科別: 不適用\nPage 1 / 特定紀錄 / 就診病名: 不適用\nPage 1 / 特定紀錄項目 / 查詢項目: 特定紀錄項目 / 查詢項目: 不選取：此條件不適用。\nPage 1 / 特定紀錄其他 / 其他(請填寫): 不適用\nPage 1 / 正本或影本方式 / 請就下列事項勾選: 正本或影本方式 / 請就下列事項勾選: 被授權人應以正式公文檢附本授權書正本向 貴醫院(診所)申請查詢。\nPage 2 / 授權人簽署 / 立授權書人簽名: 林雅君（合成簽名）\nPage 2 / 授權人簽署 / 身分證統一編號: F200000909（合成）\nPage 2 / 授權人聯絡 / 聯絡地址: 基隆市信義區合成路9號\nPage 2 / 授權人聯絡 / 聯絡電話: 02-20000909（合成）\nPage 2 / 保險公司 / 被授權人: 合成安心人壽保險股份有限公司\nPage 2 / 保險公司 / 聯絡地址: 臺北市中正區合成路90號\nPage 2 / 保險公司 / 聯絡人姓名: 王承辦（合成）\nPage 2 / 保險公司 / 聯絡電話: 02-20001909（合成）\nPage 2 / 授權日期 / 年: 115\nPage 2 / 授權日期 / 月: 10\nPage 2 / 授權日期 / 日: 25",
+  "workflow_identity": {
+    "language": "zh",
+    "id": 909
+  }
+}

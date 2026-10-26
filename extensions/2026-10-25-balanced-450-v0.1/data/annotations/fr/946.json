@@ -1,0 +1,987 @@
+{
+  "id": "fr-946-cerfa-13930",
+  "language": "fr",
+  "domain": "Business",
+  "title": "Demande d’octroi de numéro EORI",
+  "issuer_id": "Direction générale des douanes et droits indirects",
+  "template_family": "cerfa-13930",
+  "business_topic": "Demande d’octroi de numéro EORI",
+  "source_url": "https://www.formulaires.service-public.gouv.fr/gf/cerfa_13930.do",
+  "landing_url": "https://www.formulaires.service-public.gouv.fr/gf/showFormulaireSignaletiqueConsulter.do?numCerfa=13930",
+  "source_sha256": "c106bc6516a367af6b72a3b56c5508645924d1dee16475b5f67cf70f62a269f2",
+  "source_pages": 1,
+  "retrieved_at": "2026-10-25T06:57:54.260887+00:00",
+  "source_version": "13930*01",
+  "source_date_evidence": {
+    "kind": "printed_edition_or_explicitly_undated",
+    "value": "13930*01; consultation 2026-10-25T06:57:54.260887+00:00"
+  },
+  "license_url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000032256665/",
+  "license_note": "Réutilisation du texte administratif et de la structure logique comme informations publiques publiées par une administration : CRPA L300-2, L321-1 et L322-1, sous réserve de L321-2. Ni le PDF ni son lien ne sont présumés sous Etalab du seul fait du portail Service Public. Sources, édition imprimée ou absence de date et consultation conservées ; sens, instructions et options préservés. Marques, logos et graphismes tiers exclus des adaptations ; valeurs entièrement fictives distinctes de la source. Vérification propre à chaque émetteur conservée dans le dossier privé.",
+  "columns": 12,
+  "fields": [
+    {
+      "id": "f0001",
+      "label": "(*)Raison sociale",
+      "path": [
+        "Page 1",
+        "DEMANDE D'OCTROI DE NUMERO EORI",
+        "(*)Raison sociale"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "(*)Raison sociale",
+      "synthetic_value": "Atelier Exemple SAS",
+      "source_label_rects": [
+        [
+          39.599998474121094,
+          117.2989730834961,
+          118.7669906616211,
+          129.47598266601562
+        ]
+      ]
+    },
+    {
+      "id": "f0002",
+      "label": "(*)Nom du groupement",
+      "path": [
+        "Page 1",
+        "DEMANDE D'OCTROI DE NUMERO EORI",
+        "(*)Nom du groupement"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "(*)Nom du groupement",
+      "synthetic_value": "Sans objet : société commerciale",
+      "source_label_rects": [
+        [
+          39.599998474121094,
+          155.99899291992188,
+          149.3579864501953,
+          168.17599487304688
+        ]
+      ]
+    },
+    {
+      "id": "f0003",
+      "label": "(*)Prénom et Nom de Naissance",
+      "path": [
+        "Page 1",
+        "DEMANDE D'OCTROI DE NUMERO EORI",
+        "(*)Prénom et Nom de Naissance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "(*)Prénom et Nom de Naissance",
+      "synthetic_value": "Sans objet : personne morale",
+      "source_label_rects": [
+        [
+          39.599998474121094,
+          194.69900512695312,
+          189.2550048828125,
+          206.87600708007812
+        ]
+      ]
+    },
+    {
+      "id": "f0004",
+      "label": "Type de personne",
+      "path": [
+        "Page 1",
+        "Renseignements complémentaires",
+        "Type de personne"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Type de personne",
+      "synthetic_value": [
+        "Personne morale"
+      ],
+      "source_label_rects": [
+        [
+          39.599998474121094,
+          237.99002075195312,
+          114.43000793457031,
+          249.06002807617188
+        ]
+      ],
+      "options": [
+        "Personne physique",
+        "Personne morale",
+        "Association de personnes ayant la capacité de faire des actes juridiques sans avoir de personnalité morale."
+      ],
+      "context_evidence": "Page 1 / Renseignements complémentaires / Type de personne: Personne morale"
+    },
+    {
+      "id": "f0005",
+      "label": "Date de création/naissance",
+      "path": [
+        "Page 1",
+        "Renseignements complémentaires",
+        "Date de création/naissance"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de création/naissance",
+      "synthetic_value": "02/06/2009",
+      "source_label_rects": [
+        [
+          39.599998474121094,
+          270.5899963378906,
+          152.92996215820312,
+          281.6600036621094
+        ]
+      ]
+    },
+    {
+      "id": "f0006",
+      "label": "Numéro SIRETa",
+      "path": [
+        "Page 1",
+        "Renseignements complémentaires",
+        "Numéro SIRETa"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Numéro SIRETa",
+      "synthetic_value": "00000094600012",
+      "source_label_rects": [
+        [
+          39.599998474121094,
+          290.6899719238281,
+          106.96001434326172,
+          301.7599792480469
+        ],
+        [
+          107.0,
+          288.66302490234375,
+          110.5,
+          296.4120178222656
+        ]
+      ]
+    },
+    {
+      "id": "f0007",
+      "label": "Numéro de TVAa",
+      "path": [
+        "Page 1",
+        "Renseignements complémentaires",
+        "Numéro de TVAa"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Numéro de TVAa",
+      "synthetic_value": "Sans objet : non disponible",
+      "source_label_rects": [
+        [
+          39.599998474121094,
+          309.9900207519531,
+          109.12001037597656,
+          321.0600280761719
+        ],
+        [
+          109.0999984741211,
+          307.9630126953125,
+          112.5999984741211,
+          315.7120056152344
+        ]
+      ]
+    },
+    {
+      "id": "f0008",
+      "label": "Code APE",
+      "path": [
+        "Page 1",
+        "Renseignements complémentaires",
+        "Code APE"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Code APE",
+      "synthetic_value": "3212Z",
+      "source_label_rects": [
+        [
+          39.599998474121094,
+          328.5899963378906,
+          83.760009765625,
+          339.6600036621094
+        ]
+      ]
+    },
+    {
+      "id": "f0009",
+      "label": "Statut juridique",
+      "path": [
+        "Page 1",
+        "Renseignements complémentaires",
+        "Statut juridique"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Statut juridique",
+      "synthetic_value": "SAS",
+      "source_label_rects": [
+        [
+          39.599998474121094,
+          347.989990234375,
+          108.22999572753906,
+          359.05999755859375
+        ]
+      ]
+    },
+    {
+      "id": "f0010",
+      "label": "n°",
+      "path": [
+        "Page 1",
+        "Renseignements complémentaires",
+        "Numéro de voie"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "n°",
+      "synthetic_value": "18",
+      "source_label_rects": [
+        [
+          5.099999904632568,
+          44.66002655029297,
+          14.092000961303711,
+          53.5880241394043
+        ],
+        [
+          227.8000030517578,
+          367.2900085449219,
+          236.79000854492188,
+          378.3600158691406
+        ],
+        [
+          349.1922302246094,
+          519.9719848632812,
+          358.1842041015625,
+          528.8280029296875
+        ],
+        [
+          158.3480224609375,
+          784.8720092773438,
+          165.54002380371094,
+          793.72802734375
+        ]
+      ]
+    },
+    {
+      "id": "f0011",
+      "label": "Voie :",
+      "path": [
+        "Page 1",
+        "Renseignements complémentaires",
+        "Voie :"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Voie :",
+      "synthetic_value": "rue Exemple",
+      "source_label_rects": [
+        [
+          55.0,
+          367.69000244140625,
+          73.52999877929688,
+          378.760009765625
+        ],
+        [
+          217.1999969482422,
+          366.79901123046875,
+          220.2469940185547,
+          378.97601318359375
+        ],
+        [
+          288.0,
+          367.2900085449219,
+          311.469970703125,
+          378.3600158691406
+        ]
+      ]
+    },
+    {
+      "id": "f0012",
+      "label": "(*) Complément d'adresse",
+      "path": [
+        "Page 1",
+        "Renseignements complémentaires",
+        "(*) Complément d'adresse"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "(*) Complément d'adresse",
+      "synthetic_value": "Bâtiment A",
+      "source_label_rects": [
+        [
+          39.599998474121094,
+          386.0989990234375,
+          152.52996826171875,
+          398.2760009765625
+        ]
+      ]
+    },
+    {
+      "id": "f0013",
+      "label": "Code postal :",
+      "path": [
+        "Page 1",
+        "Renseignements complémentaires",
+        "Code postal :"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Code postal :",
+      "synthetic_value": "69003",
+      "source_label_rects": [
+        [
+          226.39999389648438,
+          405.989990234375,
+          279.16998291015625,
+          417.05999755859375
+        ]
+      ]
+    },
+    {
+      "id": "f0014",
+      "label": "Commune :",
+      "path": [
+        "Page 1",
+        "Renseignements complémentaires",
+        "Commune :"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Commune :",
+      "synthetic_value": "Lyon",
+      "source_label_rects": [
+        [
+          341.1000061035156,
+          405.989990234375,
+          388.0699768066406,
+          417.05999755859375
+        ]
+      ]
+    },
+    {
+      "id": "f0015",
+      "label": "Pays :",
+      "path": [
+        "Page 1",
+        "Renseignements complémentaires",
+        "Pays :"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Pays :",
+      "synthetic_value": "France",
+      "source_label_rects": [
+        [
+          483.6000061035156,
+          405.989990234375,
+          507.77001953125,
+          417.05999755859375
+        ]
+      ]
+    },
+    {
+      "id": "f0016",
+      "label": "Votre numéro de téléphone ou de fax",
+      "path": [
+        "Page 1",
+        "Renseignements complémentaires",
+        "Votre numéro de téléphone ou de fax"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Votre numéro de téléphone ou de fax",
+      "synthetic_value": "0100000946",
+      "source_label_rects": [
+        [
+          39.599998474121094,
+          425.3899841308594,
+          196.09996032714844,
+          436.4599914550781
+        ]
+      ]
+    },
+    {
+      "id": "f0017",
+      "label": "Votre adresse électronique fonctionnelle",
+      "path": [
+        "Page 1",
+        "Renseignements complémentaires",
+        "Votre adresse électronique fonctionnelle"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Votre adresse électronique fonctionnelle",
+      "synthetic_value": "eori@example.org",
+      "source_label_rects": [
+        [
+          39.599998474121094,
+          444.69000244140625,
+          209.52993774414062,
+          455.760009765625
+        ]
+      ]
+    },
+    {
+      "id": "f0018",
+      "label": "Nom de la personne à contacter",
+      "path": [
+        "Page 1",
+        "Renseignements complémentaires",
+        "Nom de la personne à contacter"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom de la personne à contacter",
+      "synthetic_value": "DURAND Lucie",
+      "source_label_rects": [
+        [
+          39.599998474121094,
+          464.0899963378906,
+          174.32998657226562,
+          475.1600036621094
+        ]
+      ]
+    },
+    {
+      "id": "f0019",
+      "label": "Coordonnées de la personne à contacter",
+      "path": [
+        "Page 1",
+        "Renseignements complémentaires",
+        "Coordonnées de la personne à contacter"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Coordonnées de la personne à contacter",
+      "synthetic_value": "0100001946 ; lucie@example.org",
+      "source_label_rects": [
+        [
+          39.599998474121094,
+          483.3899841308594,
+          209.92996215820312,
+          494.4599914550781
+        ]
+      ]
+    },
+    {
+      "id": "f0020",
+      "label": "Le signataire autorise",
+      "path": [
+        "Page 1",
+        "Renseignements complémentaires",
+        "Consentement et attestations"
+      ],
+      "kind": "checkbox_multi",
+      "source_page": 1,
+      "source_anchor": "Le signataire autorise",
+      "synthetic_value": [
+        "Le signataire autorise la Direction Générale des Douanes et Droits Indirects à communiquer les données précédées d'une astérisque (*) à la Commission Européenne en vue de la publication desdites données sur le site web EORI de TAXUD (site public) en application de l’article 4 vicies des dispositions d’application du Code des douanes communautaire tel que modifié par le règlement (CE) N° 312/2009 de la Commission du 16 avril 2009.",
+        "Le susvisé certifie n’être pas encore immatriculé en qualité d’EORI dans un autre Etat-membre de la CE.",
+        "Le susvisé s’engage à notifier toute modification des données de la présente au bureau des douanes principal dont il dépend"
+      ],
+      "source_label_rects": [
+        [
+          61.400001525878906,
+          501.572021484375,
+          132.88002014160156,
+          510.4280090332031
+        ]
+      ],
+      "options": [
+        "Le signataire autorise la Direction Générale des Douanes et Droits Indirects à communiquer les données précédées d'une astérisque (*) à la Commission Européenne en vue de la publication desdites données sur le site web EORI de TAXUD (site public) en application de l’article 4 vicies des dispositions d’application du Code des douanes communautaire tel que modifié par le règlement (CE) N° 312/2009 de la Commission du 16 avril 2009.",
+        "Le susvisé certifie n’être pas encore immatriculé en qualité d’EORI dans un autre Etat-membre de la CE.",
+        "Le susvisé s’engage à notifier toute modification des données de la présente au bureau des douanes principal dont il dépend"
+      ],
+      "context_evidence": "Page 1 / Renseignements complémentaires / Consentement et attestations: Le signataire autorise la Direction Générale des Douanes et Droits Indirects à communiquer les données précédées d'une astérisque (*) à la Commission Européenne en vue de la publication desdites données sur le site web EORI de TAXUD (site public) en application de l’article 4 vicies des dispositions d’application du Code des douanes communautaire tel que modifié par le règlement (CE) N° 312/2009 de la Commission du 16 avril 2009., Le susvisé certifie n’être pas encore immatriculé en qualité d’EORI dans un autre Etat-membre de la CE., Le susvisé s’engage à notifier toute modification des données de la présente au bureau des douanes principal dont il dépend"
+    },
+    {
+      "id": "f0021",
+      "label": "Nom et qualité de la personne ayant complétée ce formulaire :",
+      "path": [
+        "Page 1",
+        "Renseignements complémentaires",
+        "Nom et qualité de la personne ayant complétée ce formulaire :"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom et qualité de la personne ayant complétée ce formulaire :",
+      "synthetic_value": "DURAND Lucie, présidente",
+      "source_label_rects": [
+        [
+          43.900001525878906,
+          584.4900512695312,
+          308.1298828125,
+          595.5599975585938
+        ]
+      ]
+    },
+    {
+      "id": "f0022",
+      "label": "Date :",
+      "path": [
+        "Page 1",
+        "Renseignements complémentaires",
+        "Date :"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date :",
+      "synthetic_value": "15/09/2009",
+      "source_label_rects": [
+        [
+          352.79998779296875,
+          584.4900512695312,
+          378.6299743652344,
+          595.5599975585938
+        ]
+      ]
+    },
+    {
+      "id": "f0023",
+      "label": "Signature/Cachet de l’entité :",
+      "path": [
+        "Page 1",
+        "Renseignements complémentaires",
+        "Signature/Cachet de l’entité :"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Signature/Cachet de l’entité :",
+      "synthetic_value": "Lucie DURAND ; cachet fictif Atelier Exemple",
+      "source_label_rects": [
+        [
+          434.79998779296875,
+          584.4900512695312,
+          559.9299926757812,
+          595.5599975585938
+        ]
+      ]
+    },
+    {
+      "id": "f0024",
+      "label": "Numéro EORI attribué à l'opérateur",
+      "path": [
+        "Page 1",
+        "Décision des services douaniers",
+        "Numéro EORI attribué à l'opérateur"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Numéro EORI attribué à l'opérateur",
+      "synthetic_value": "FR00000094600012",
+      "source_label_rects": [
+        [
+          97.19999694824219,
+          688.8900146484375,
+          254.8300018310547,
+          699.9599609375
+        ]
+      ]
+    },
+    {
+      "id": "f0025",
+      "label": "Date d'attribution :",
+      "path": [
+        "Page 1",
+        "Décision des services douaniers",
+        "Date d'attribution :"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date d'attribution :",
+      "synthetic_value": "18/09/2009",
+      "source_label_rects": [
+        [
+          324.1000061035156,
+          688.8900146484375,
+          407.429931640625,
+          699.9599609375
+        ]
+      ]
+    },
+    {
+      "id": "f0026",
+      "label": "Cachet du service",
+      "path": [
+        "Page 1",
+        "Décision des services douaniers",
+        "Cachet du service"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Cachet du service",
+      "synthetic_value": "Service douanier fictif",
+      "source_label_rects": [
+        [
+          459.6000061035156,
+          688.8900146484375,
+          535.1300048828125,
+          699.9599609375
+        ]
+      ]
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "DEMANDE D'OCTROI DE NUMERO EORI",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "N° 13930*01",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(Remplir suivant les cases ad hoc ci-après)",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Vous êtes une société ou un établissement",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(*)Raison sociale",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0001",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Vous êtes un groupement de personne à but non lucratif ou un groupement de bien",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(*)Nom du groupement",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0002",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Vous êtes un entrepreneur individuel ou une personne physique.",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(*)Prénom et Nom de Naissance",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0003",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Renseignements complémentaires",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Type de personne",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0004",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(Veuillez cocher la case le cas échéant)",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Date de création/naissance",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0005",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Numéro SIRETa",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0006",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Numéro de TVAa",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0007",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Code APE",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0008",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Statut juridique",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0009",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(*) Voie",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "n°",
+        "field": "f0010",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Voie :",
+        "field": "f0011",
+        "colspan": 10,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(*) Complément d'adresse",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0012",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(*) Localisation",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Code postal :",
+        "field": "f0013",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "Commune :",
+        "field": "f0014",
+        "colspan": 5,
+        "source_page": 1
+      },
+      {
+        "label": "Pays :",
+        "field": "f0015",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Votre numéro de téléphone ou de fax",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0016",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Votre adresse électronique fonctionnelle",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0017",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nom de la personne à contacter",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0018",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Coordonnées de la personne à contacter",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0019",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Le signataire autorise",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0020",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nom et qualité de la personne ayant complétée ce formulaire :",
+        "field": "f0021",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Date :",
+        "field": "f0022",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Signature/Cachet de l’entité :",
+        "field": "f0023",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Décision des services douaniers",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Numéro EORI attribué à l'opérateur",
+        "field": "f0024",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Date d'attribution :",
+        "field": "f0025",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "Cachet du service",
+        "field": "f0026",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Le formulaire est à retourner par courrier ou par fax au bureau principal ou au pôle d’action économique dont vous dépendez. INFORMATIONS CNIL : Les données figurant sur cette demande sont nécessaires pour l’obtention d’un numéro EORI. Elles feront l’objet de traitements au sein de la DGDDI. En application de la loi n° 78.17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, un droit d'accès et de rectification aux dites informations est assuré à l’opérateur. a Si disponible. a Veuillez cocher la case le cas échéant.",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ]
+  ],
+  "context": "Dossier fictif historique de septembre 2009. Atelier Exemple SAS est une personne morale française nouvellement créée, non encore inscrite EORI dans un autre État. Lucie DURAND autorise la publication des données étoilées et signe les deux engagements. La décision douanière fictive attribue le numéro indiqué trois jours après la demande. Aucune formalité réelle.\nPage 1 / DEMANDE D'OCTROI DE NUMERO EORI / (*)Raison sociale: Atelier Exemple SAS\nPage 1 / DEMANDE D'OCTROI DE NUMERO EORI / (*)Nom du groupement: Sans objet : société commerciale\nPage 1 / DEMANDE D'OCTROI DE NUMERO EORI / (*)Prénom et Nom de Naissance: Sans objet : personne morale\nPage 1 / Renseignements complémentaires / Type de personne: Personne morale\nPage 1 / Renseignements complémentaires / Date de création/naissance: 02/06/2009\nPage 1 / Renseignements complémentaires / Numéro SIRETa: 00000094600012\nPage 1 / Renseignements complémentaires / Numéro de TVAa: Sans objet : non disponible\nPage 1 / Renseignements complémentaires / Code APE: 3212Z\nPage 1 / Renseignements complémentaires / Statut juridique: SAS\nPage 1 / Renseignements complémentaires / Numéro de voie: 18\nPage 1 / Renseignements complémentaires / Voie :: rue Exemple\nPage 1 / Renseignements complémentaires / (*) Complément d'adresse: Bâtiment A\nPage 1 / Renseignements complémentaires / Code postal :: 69003\nPage 1 / Renseignements complémentaires / Commune :: Lyon\nPage 1 / Renseignements complémentaires / Pays :: France\nPage 1 / Renseignements complémentaires / Votre numéro de téléphone ou de fax: 0100000946\nPage 1 / Renseignements complémentaires / Votre adresse électronique fonctionnelle: eori@example.org\nPage 1 / Renseignements complémentaires / Nom de la personne à contacter: DURAND Lucie\nPage 1 / Renseignements complémentaires / Coordonnées de la personne à contacter: 0100001946 ; lucie@example.org\nPage 1 / Renseignements complémentaires / Consentement et attestations: Le signataire autorise la Direction Générale des Douanes et Droits Indirects à communiquer les données précédées d'une astérisque (*) à la Commission Européenne en vue de la publication desdites données sur le site web EORI de TAXUD (site public) en application de l’article 4 vicies des dispositions d’application du Code des douanes communautaire tel que modifié par le règlement (CE) N° 312/2009 de la Commission du 16 avril 2009., Le susvisé certifie n’être pas encore immatriculé en qualité d’EORI dans un autre Etat-membre de la CE., Le susvisé s’engage à notifier toute modification des données de la présente au bureau des douanes principal dont il dépend\nPage 1 / Renseignements complémentaires / Nom et qualité de la personne ayant complétée ce formulaire :: DURAND Lucie, présidente\nPage 1 / Renseignements complémentaires / Date :: 15/09/2009\nPage 1 / Renseignements complémentaires / Signature/Cachet de l’entité :: Lucie DURAND ; cachet fictif Atelier Exemple\nPage 1 / Décision des services douaniers / Numéro EORI attribué à l'opérateur: FR00000094600012\nPage 1 / Décision des services douaniers / Date d'attribution :: 18/09/2009\nPage 1 / Décision des services douaniers / Cachet du service: Service douanier fictif",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 946
+  }
+}

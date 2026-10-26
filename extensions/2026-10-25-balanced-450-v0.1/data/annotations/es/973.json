@@ -1,0 +1,4049 @@
+{
+  "id": "es-973",
+  "language": "es",
+  "title": "FDT 6 - Solicitud de importacion o exportacion de explosivos o pirotecnia",
+  "domain": "GovPublic",
+  "issuer": "Agencia Nacional de Materiales Controlados",
+  "issuer_id": "renar",
+  "template_family": "renar-e6",
+  "source_version": "Ficha de Datos Tecnicos 6; sin fecha impresa",
+  "source_date_evidence": {
+    "kind": "printed code; date not stated",
+    "value": "Ficha de Datos Tecnicos 6; sin fecha impresa; no printed issue date",
+    "note": "Legal references and retrieval time are not source issue dates."
+  },
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/fdt6exppiro.pdf",
+  "landing_url": "https://www.argentina.gob.ar/seguridad/anmac/tramites/formularios-explosivos",
+  "source_sha256": "b43fe0af82184b70842ef68789018599d5e06f903b281218938828eba7672419",
+  "source_pages": 1,
+  "retrieved_at": "2026-10-25T08:13:25.017731+00:00",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "Argentina.gob.ar portal-owned content is licensed CC BY 4.0 except where otherwise indicated. This official national-portal source carries no contrary notice. Attribution: Agencia Nacional de Materiales Controlados. Complete semantic adaptation and fictional completion, not an official act or submission. Exact FDT6 PDF is listed for free reproduction in the official Explosivos forms index.",
+  "source_notice": "All original pages, writing regions, choices, instructions and notices retained. Source layout normalized; all completion values fictional.",
+  "synthetic_context": true,
+  "columns": 40,
+  "fields": [
+    {
+      "id": "f001",
+      "label": "SOLICITUD DE :",
+      "path": [
+        "Página 1",
+        "Solicitud",
+        "SOLICITUD DE :"
+      ],
+      "source_page": 1,
+      "source_anchor": "SOLICITUD DE :",
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "IMPORTACION"
+      ],
+      "options": [
+        "IMPORTACION",
+        "EXPORTACION"
+      ],
+      "context_evidence": "Solicitud / SOLICITUD DE :: IMPORTACION."
+    },
+    {
+      "id": "f002",
+      "label": "DE",
+      "path": [
+        "Página 1",
+        "Tipo de material",
+        "DE"
+      ],
+      "source_page": 1,
+      "source_anchor": "DE",
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "EXPLOSIVOS"
+      ],
+      "options": [
+        "EXPLOSIVOS",
+        "PIROTECNIA"
+      ],
+      "context_evidence": "Tipo de material / DE: EXPLOSIVOS."
+    },
+    {
+      "id": "f003",
+      "label": "RAZON SOCIAL",
+      "path": [
+        "Página 1",
+        "Empresa",
+        "RAZON SOCIAL"
+      ],
+      "source_page": 1,
+      "source_anchor": "RAZON SOCIAL",
+      "kind": "text",
+      "synthetic_value": "Importadora Ficticia SA"
+    },
+    {
+      "id": "f004",
+      "label": "Nº DE INSCRIPCION",
+      "path": [
+        "Página 1",
+        "Empresa",
+        "Nº DE INSCRIPCION"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nº DE INSCRIPCION",
+      "kind": "text",
+      "synthetic_value": "INS-SINT-973"
+    },
+    {
+      "id": "f005",
+      "label": "PAIS DE PROCEDENCIA / DESTINO (1)",
+      "path": [
+        "Página 1",
+        "Empresa",
+        "PAIS DE PROCEDENCIA / DESTINO (1)"
+      ],
+      "source_page": 1,
+      "source_anchor": "PAIS DE PROCEDENCIA / DESTINO (1)",
+      "kind": "text",
+      "synthetic_value": "Francia, procedencia"
+    },
+    {
+      "id": "f006",
+      "label": "LUGAR POR EL CUAL INGRESARÁ EL MATERIAL AL PAIS (Puerto y Aduana)",
+      "path": [
+        "Página 1",
+        "Ingreso",
+        "LUGAR POR EL CUAL INGRESARÁ EL MATERIAL AL PAIS (Puerto y Aduana)"
+      ],
+      "source_page": 1,
+      "source_anchor": "LUGAR POR EL CUAL INGRESARÁ EL MATERIAL AL PAIS (Puerto y Aduana)",
+      "kind": "text",
+      "synthetic_value": "Puerto y Aduana ficticios de Buenos Aires"
+    },
+    {
+      "id": "f007",
+      "label": "N° de Habilitación del Depósito en el cual se almacenará el material",
+      "path": [
+        "Página 1",
+        "Ingreso",
+        "N° de Habilitación del Depósito en el cual se almacenará el material"
+      ],
+      "source_page": 1,
+      "source_anchor": "N° de Habilitación del Depósito en el cual se almacenará el material",
+      "kind": "text",
+      "synthetic_value": "DEP-SINT-973"
+    },
+    {
+      "id": "f008",
+      "label": "EMPRESA VENDEDORA / COMPRADORA (1)",
+      "path": [
+        "Página 1",
+        "Contraparte",
+        "EMPRESA VENDEDORA / COMPRADORA (1)"
+      ],
+      "source_page": 1,
+      "source_anchor": "EMPRESA VENDEDORA / COMPRADORA (1)",
+      "kind": "text",
+      "synthetic_value": "Vendedora Modelo Ficticia"
+    },
+    {
+      "id": "f009",
+      "label": "Nº DE SERIE DE LOS FORMULARIOS LEYES QUE SE ADJUNTAN A LA PRESENTE",
+      "path": [
+        "Página 1",
+        "Adjuntos",
+        "Nº DE SERIE DE LOS FORMULARIOS LEYES QUE SE ADJUNTAN A LA PRESENTE"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nº DE SERIE DE LOS FORMULARIOS LEYES QUE SE ADJUNTAN A LA PRESENTE",
+      "kind": "text",
+      "synthetic_value": "SER-SINT-973"
+    },
+    {
+      "id": "f010",
+      "label": "Código o N°del Parte de origen",
+      "path": [
+        "Página 1",
+        "Material / fila 1",
+        "Código o N°del Parte de origen"
+      ],
+      "source_page": 1,
+      "source_anchor": "Código o N°del Parte de origen",
+      "kind": "text",
+      "synthetic_value": "PARTE-SINT-973",
+      "label_position": [
+        9,
+        0
+      ]
+    },
+    {
+      "id": "f011",
+      "label": "Nº de Registro",
+      "path": [
+        "Página 1",
+        "Material / fila 1",
+        "Nº de Registro"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nº de Registro",
+      "kind": "text",
+      "synthetic_value": "REG-SINT-973",
+      "label_position": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "f012",
+      "label": "Denominación",
+      "path": [
+        "Página 1",
+        "Material / fila 1",
+        "Denominación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Denominación",
+      "kind": "text",
+      "synthetic_value": "Material sintetico de demostracion",
+      "label_position": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "f013",
+      "label": "Unidad (de medida)",
+      "path": [
+        "Página 1",
+        "Material / fila 1",
+        "Unidad (de medida)"
+      ],
+      "source_page": 1,
+      "source_anchor": "Unidad (de medida)",
+      "kind": "text",
+      "synthetic_value": "Unidad",
+      "label_position": [
+        9,
+        16
+      ]
+    },
+    {
+      "id": "f014",
+      "label": "Cantidad por bulto",
+      "path": [
+        "Página 1",
+        "Material / fila 1",
+        "Cantidad por bulto"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad por bulto",
+      "kind": "text",
+      "synthetic_value": "10",
+      "label_position": [
+        9,
+        20
+      ]
+    },
+    {
+      "id": "f015",
+      "label": "Cantidad total de Bultos",
+      "path": [
+        "Página 1",
+        "Material / fila 1",
+        "Cantidad total de Bultos"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Bultos",
+      "kind": "text",
+      "synthetic_value": "2",
+      "label_position": [
+        9,
+        24
+      ]
+    },
+    {
+      "id": "f016",
+      "label": "Cantidad total de Unidades",
+      "path": [
+        "Página 1",
+        "Material / fila 1",
+        "Cantidad total de Unidades"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Unidades",
+      "kind": "text",
+      "synthetic_value": "20",
+      "label_position": [
+        9,
+        28
+      ]
+    },
+    {
+      "id": "f017",
+      "label": "Posición N.C.M.",
+      "path": [
+        "Página 1",
+        "Material / fila 1",
+        "Posición N.C.M."
+      ],
+      "source_page": 1,
+      "source_anchor": "Posición N.C.M.",
+      "kind": "text",
+      "synthetic_value": "Codigo sintetico NCM-973",
+      "label_position": [
+        9,
+        32
+      ]
+    },
+    {
+      "id": "f018",
+      "label": "Derecho de Importación",
+      "path": [
+        "Página 1",
+        "Material / fila 1",
+        "Derecho de Importación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Derecho de Importación",
+      "kind": "text",
+      "synthetic_value": "Dato sintetico no tributario",
+      "label_position": [
+        9,
+        36
+      ]
+    },
+    {
+      "id": "f019",
+      "label": "Código o N°del Parte de origen",
+      "path": [
+        "Página 1",
+        "Material / fila 2",
+        "Código o N°del Parte de origen"
+      ],
+      "source_page": 1,
+      "source_anchor": "Código o N°del Parte de origen",
+      "kind": "text",
+      "synthetic_value": "Anulado; sin otro material",
+      "label_position": [
+        9,
+        0
+      ]
+    },
+    {
+      "id": "f020",
+      "label": "Nº de Registro",
+      "path": [
+        "Página 1",
+        "Material / fila 2",
+        "Nº de Registro"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nº de Registro",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "f021",
+      "label": "Denominación",
+      "path": [
+        "Página 1",
+        "Material / fila 2",
+        "Denominación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Denominación",
+      "kind": "text",
+      "synthetic_value": "Sin otro material",
+      "label_position": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "f022",
+      "label": "Unidad (de medida)",
+      "path": [
+        "Página 1",
+        "Material / fila 2",
+        "Unidad (de medida)"
+      ],
+      "source_page": 1,
+      "source_anchor": "Unidad (de medida)",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        16
+      ]
+    },
+    {
+      "id": "f023",
+      "label": "Cantidad por bulto",
+      "path": [
+        "Página 1",
+        "Material / fila 2",
+        "Cantidad por bulto"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad por bulto",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        20
+      ]
+    },
+    {
+      "id": "f024",
+      "label": "Cantidad total de Bultos",
+      "path": [
+        "Página 1",
+        "Material / fila 2",
+        "Cantidad total de Bultos"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Bultos",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        24
+      ]
+    },
+    {
+      "id": "f025",
+      "label": "Cantidad total de Unidades",
+      "path": [
+        "Página 1",
+        "Material / fila 2",
+        "Cantidad total de Unidades"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Unidades",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        28
+      ]
+    },
+    {
+      "id": "f026",
+      "label": "Posición N.C.M.",
+      "path": [
+        "Página 1",
+        "Material / fila 2",
+        "Posición N.C.M."
+      ],
+      "source_page": 1,
+      "source_anchor": "Posición N.C.M.",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        32
+      ]
+    },
+    {
+      "id": "f027",
+      "label": "Derecho de Importación",
+      "path": [
+        "Página 1",
+        "Material / fila 2",
+        "Derecho de Importación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Derecho de Importación",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        36
+      ]
+    },
+    {
+      "id": "f028",
+      "label": "Código o N°del Parte de origen",
+      "path": [
+        "Página 1",
+        "Material / fila 3",
+        "Código o N°del Parte de origen"
+      ],
+      "source_page": 1,
+      "source_anchor": "Código o N°del Parte de origen",
+      "kind": "text",
+      "synthetic_value": "Anulado; sin otro material",
+      "label_position": [
+        9,
+        0
+      ]
+    },
+    {
+      "id": "f029",
+      "label": "Nº de Registro",
+      "path": [
+        "Página 1",
+        "Material / fila 3",
+        "Nº de Registro"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nº de Registro",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "f030",
+      "label": "Denominación",
+      "path": [
+        "Página 1",
+        "Material / fila 3",
+        "Denominación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Denominación",
+      "kind": "text",
+      "synthetic_value": "Sin otro material",
+      "label_position": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "f031",
+      "label": "Unidad (de medida)",
+      "path": [
+        "Página 1",
+        "Material / fila 3",
+        "Unidad (de medida)"
+      ],
+      "source_page": 1,
+      "source_anchor": "Unidad (de medida)",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        16
+      ]
+    },
+    {
+      "id": "f032",
+      "label": "Cantidad por bulto",
+      "path": [
+        "Página 1",
+        "Material / fila 3",
+        "Cantidad por bulto"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad por bulto",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        20
+      ]
+    },
+    {
+      "id": "f033",
+      "label": "Cantidad total de Bultos",
+      "path": [
+        "Página 1",
+        "Material / fila 3",
+        "Cantidad total de Bultos"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Bultos",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        24
+      ]
+    },
+    {
+      "id": "f034",
+      "label": "Cantidad total de Unidades",
+      "path": [
+        "Página 1",
+        "Material / fila 3",
+        "Cantidad total de Unidades"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Unidades",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        28
+      ]
+    },
+    {
+      "id": "f035",
+      "label": "Posición N.C.M.",
+      "path": [
+        "Página 1",
+        "Material / fila 3",
+        "Posición N.C.M."
+      ],
+      "source_page": 1,
+      "source_anchor": "Posición N.C.M.",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        32
+      ]
+    },
+    {
+      "id": "f036",
+      "label": "Derecho de Importación",
+      "path": [
+        "Página 1",
+        "Material / fila 3",
+        "Derecho de Importación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Derecho de Importación",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        36
+      ]
+    },
+    {
+      "id": "f037",
+      "label": "Código o N°del Parte de origen",
+      "path": [
+        "Página 1",
+        "Material / fila 4",
+        "Código o N°del Parte de origen"
+      ],
+      "source_page": 1,
+      "source_anchor": "Código o N°del Parte de origen",
+      "kind": "text",
+      "synthetic_value": "Anulado; sin otro material",
+      "label_position": [
+        9,
+        0
+      ]
+    },
+    {
+      "id": "f038",
+      "label": "Nº de Registro",
+      "path": [
+        "Página 1",
+        "Material / fila 4",
+        "Nº de Registro"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nº de Registro",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "f039",
+      "label": "Denominación",
+      "path": [
+        "Página 1",
+        "Material / fila 4",
+        "Denominación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Denominación",
+      "kind": "text",
+      "synthetic_value": "Sin otro material",
+      "label_position": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "f040",
+      "label": "Unidad (de medida)",
+      "path": [
+        "Página 1",
+        "Material / fila 4",
+        "Unidad (de medida)"
+      ],
+      "source_page": 1,
+      "source_anchor": "Unidad (de medida)",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        16
+      ]
+    },
+    {
+      "id": "f041",
+      "label": "Cantidad por bulto",
+      "path": [
+        "Página 1",
+        "Material / fila 4",
+        "Cantidad por bulto"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad por bulto",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        20
+      ]
+    },
+    {
+      "id": "f042",
+      "label": "Cantidad total de Bultos",
+      "path": [
+        "Página 1",
+        "Material / fila 4",
+        "Cantidad total de Bultos"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Bultos",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        24
+      ]
+    },
+    {
+      "id": "f043",
+      "label": "Cantidad total de Unidades",
+      "path": [
+        "Página 1",
+        "Material / fila 4",
+        "Cantidad total de Unidades"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Unidades",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        28
+      ]
+    },
+    {
+      "id": "f044",
+      "label": "Posición N.C.M.",
+      "path": [
+        "Página 1",
+        "Material / fila 4",
+        "Posición N.C.M."
+      ],
+      "source_page": 1,
+      "source_anchor": "Posición N.C.M.",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        32
+      ]
+    },
+    {
+      "id": "f045",
+      "label": "Derecho de Importación",
+      "path": [
+        "Página 1",
+        "Material / fila 4",
+        "Derecho de Importación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Derecho de Importación",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        36
+      ]
+    },
+    {
+      "id": "f046",
+      "label": "Código o N°del Parte de origen",
+      "path": [
+        "Página 1",
+        "Material / fila 5",
+        "Código o N°del Parte de origen"
+      ],
+      "source_page": 1,
+      "source_anchor": "Código o N°del Parte de origen",
+      "kind": "text",
+      "synthetic_value": "Anulado; sin otro material",
+      "label_position": [
+        9,
+        0
+      ]
+    },
+    {
+      "id": "f047",
+      "label": "Nº de Registro",
+      "path": [
+        "Página 1",
+        "Material / fila 5",
+        "Nº de Registro"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nº de Registro",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "f048",
+      "label": "Denominación",
+      "path": [
+        "Página 1",
+        "Material / fila 5",
+        "Denominación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Denominación",
+      "kind": "text",
+      "synthetic_value": "Sin otro material",
+      "label_position": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "f049",
+      "label": "Unidad (de medida)",
+      "path": [
+        "Página 1",
+        "Material / fila 5",
+        "Unidad (de medida)"
+      ],
+      "source_page": 1,
+      "source_anchor": "Unidad (de medida)",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        16
+      ]
+    },
+    {
+      "id": "f050",
+      "label": "Cantidad por bulto",
+      "path": [
+        "Página 1",
+        "Material / fila 5",
+        "Cantidad por bulto"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad por bulto",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        20
+      ]
+    },
+    {
+      "id": "f051",
+      "label": "Cantidad total de Bultos",
+      "path": [
+        "Página 1",
+        "Material / fila 5",
+        "Cantidad total de Bultos"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Bultos",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        24
+      ]
+    },
+    {
+      "id": "f052",
+      "label": "Cantidad total de Unidades",
+      "path": [
+        "Página 1",
+        "Material / fila 5",
+        "Cantidad total de Unidades"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Unidades",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        28
+      ]
+    },
+    {
+      "id": "f053",
+      "label": "Posición N.C.M.",
+      "path": [
+        "Página 1",
+        "Material / fila 5",
+        "Posición N.C.M."
+      ],
+      "source_page": 1,
+      "source_anchor": "Posición N.C.M.",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        32
+      ]
+    },
+    {
+      "id": "f054",
+      "label": "Derecho de Importación",
+      "path": [
+        "Página 1",
+        "Material / fila 5",
+        "Derecho de Importación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Derecho de Importación",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        36
+      ]
+    },
+    {
+      "id": "f055",
+      "label": "Código o N°del Parte de origen",
+      "path": [
+        "Página 1",
+        "Material / fila 6",
+        "Código o N°del Parte de origen"
+      ],
+      "source_page": 1,
+      "source_anchor": "Código o N°del Parte de origen",
+      "kind": "text",
+      "synthetic_value": "Anulado; sin otro material",
+      "label_position": [
+        9,
+        0
+      ]
+    },
+    {
+      "id": "f056",
+      "label": "Nº de Registro",
+      "path": [
+        "Página 1",
+        "Material / fila 6",
+        "Nº de Registro"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nº de Registro",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "f057",
+      "label": "Denominación",
+      "path": [
+        "Página 1",
+        "Material / fila 6",
+        "Denominación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Denominación",
+      "kind": "text",
+      "synthetic_value": "Sin otro material",
+      "label_position": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "f058",
+      "label": "Unidad (de medida)",
+      "path": [
+        "Página 1",
+        "Material / fila 6",
+        "Unidad (de medida)"
+      ],
+      "source_page": 1,
+      "source_anchor": "Unidad (de medida)",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        16
+      ]
+    },
+    {
+      "id": "f059",
+      "label": "Cantidad por bulto",
+      "path": [
+        "Página 1",
+        "Material / fila 6",
+        "Cantidad por bulto"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad por bulto",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        20
+      ]
+    },
+    {
+      "id": "f060",
+      "label": "Cantidad total de Bultos",
+      "path": [
+        "Página 1",
+        "Material / fila 6",
+        "Cantidad total de Bultos"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Bultos",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        24
+      ]
+    },
+    {
+      "id": "f061",
+      "label": "Cantidad total de Unidades",
+      "path": [
+        "Página 1",
+        "Material / fila 6",
+        "Cantidad total de Unidades"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Unidades",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        28
+      ]
+    },
+    {
+      "id": "f062",
+      "label": "Posición N.C.M.",
+      "path": [
+        "Página 1",
+        "Material / fila 6",
+        "Posición N.C.M."
+      ],
+      "source_page": 1,
+      "source_anchor": "Posición N.C.M.",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        32
+      ]
+    },
+    {
+      "id": "f063",
+      "label": "Derecho de Importación",
+      "path": [
+        "Página 1",
+        "Material / fila 6",
+        "Derecho de Importación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Derecho de Importación",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        36
+      ]
+    },
+    {
+      "id": "f064",
+      "label": "Código o N°del Parte de origen",
+      "path": [
+        "Página 1",
+        "Material / fila 7",
+        "Código o N°del Parte de origen"
+      ],
+      "source_page": 1,
+      "source_anchor": "Código o N°del Parte de origen",
+      "kind": "text",
+      "synthetic_value": "Anulado; sin otro material",
+      "label_position": [
+        9,
+        0
+      ]
+    },
+    {
+      "id": "f065",
+      "label": "Nº de Registro",
+      "path": [
+        "Página 1",
+        "Material / fila 7",
+        "Nº de Registro"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nº de Registro",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "f066",
+      "label": "Denominación",
+      "path": [
+        "Página 1",
+        "Material / fila 7",
+        "Denominación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Denominación",
+      "kind": "text",
+      "synthetic_value": "Sin otro material",
+      "label_position": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "f067",
+      "label": "Unidad (de medida)",
+      "path": [
+        "Página 1",
+        "Material / fila 7",
+        "Unidad (de medida)"
+      ],
+      "source_page": 1,
+      "source_anchor": "Unidad (de medida)",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        16
+      ]
+    },
+    {
+      "id": "f068",
+      "label": "Cantidad por bulto",
+      "path": [
+        "Página 1",
+        "Material / fila 7",
+        "Cantidad por bulto"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad por bulto",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        20
+      ]
+    },
+    {
+      "id": "f069",
+      "label": "Cantidad total de Bultos",
+      "path": [
+        "Página 1",
+        "Material / fila 7",
+        "Cantidad total de Bultos"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Bultos",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        24
+      ]
+    },
+    {
+      "id": "f070",
+      "label": "Cantidad total de Unidades",
+      "path": [
+        "Página 1",
+        "Material / fila 7",
+        "Cantidad total de Unidades"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Unidades",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        28
+      ]
+    },
+    {
+      "id": "f071",
+      "label": "Posición N.C.M.",
+      "path": [
+        "Página 1",
+        "Material / fila 7",
+        "Posición N.C.M."
+      ],
+      "source_page": 1,
+      "source_anchor": "Posición N.C.M.",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        32
+      ]
+    },
+    {
+      "id": "f072",
+      "label": "Derecho de Importación",
+      "path": [
+        "Página 1",
+        "Material / fila 7",
+        "Derecho de Importación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Derecho de Importación",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        36
+      ]
+    },
+    {
+      "id": "f073",
+      "label": "Código o N°del Parte de origen",
+      "path": [
+        "Página 1",
+        "Material / fila 8",
+        "Código o N°del Parte de origen"
+      ],
+      "source_page": 1,
+      "source_anchor": "Código o N°del Parte de origen",
+      "kind": "text",
+      "synthetic_value": "Anulado; sin otro material",
+      "label_position": [
+        9,
+        0
+      ]
+    },
+    {
+      "id": "f074",
+      "label": "Nº de Registro",
+      "path": [
+        "Página 1",
+        "Material / fila 8",
+        "Nº de Registro"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nº de Registro",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "f075",
+      "label": "Denominación",
+      "path": [
+        "Página 1",
+        "Material / fila 8",
+        "Denominación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Denominación",
+      "kind": "text",
+      "synthetic_value": "Sin otro material",
+      "label_position": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "f076",
+      "label": "Unidad (de medida)",
+      "path": [
+        "Página 1",
+        "Material / fila 8",
+        "Unidad (de medida)"
+      ],
+      "source_page": 1,
+      "source_anchor": "Unidad (de medida)",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        16
+      ]
+    },
+    {
+      "id": "f077",
+      "label": "Cantidad por bulto",
+      "path": [
+        "Página 1",
+        "Material / fila 8",
+        "Cantidad por bulto"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad por bulto",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        20
+      ]
+    },
+    {
+      "id": "f078",
+      "label": "Cantidad total de Bultos",
+      "path": [
+        "Página 1",
+        "Material / fila 8",
+        "Cantidad total de Bultos"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Bultos",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        24
+      ]
+    },
+    {
+      "id": "f079",
+      "label": "Cantidad total de Unidades",
+      "path": [
+        "Página 1",
+        "Material / fila 8",
+        "Cantidad total de Unidades"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Unidades",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        28
+      ]
+    },
+    {
+      "id": "f080",
+      "label": "Posición N.C.M.",
+      "path": [
+        "Página 1",
+        "Material / fila 8",
+        "Posición N.C.M."
+      ],
+      "source_page": 1,
+      "source_anchor": "Posición N.C.M.",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        32
+      ]
+    },
+    {
+      "id": "f081",
+      "label": "Derecho de Importación",
+      "path": [
+        "Página 1",
+        "Material / fila 8",
+        "Derecho de Importación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Derecho de Importación",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        36
+      ]
+    },
+    {
+      "id": "f082",
+      "label": "Código o N°del Parte de origen",
+      "path": [
+        "Página 1",
+        "Material / fila 9",
+        "Código o N°del Parte de origen"
+      ],
+      "source_page": 1,
+      "source_anchor": "Código o N°del Parte de origen",
+      "kind": "text",
+      "synthetic_value": "Anulado; sin otro material",
+      "label_position": [
+        9,
+        0
+      ]
+    },
+    {
+      "id": "f083",
+      "label": "Nº de Registro",
+      "path": [
+        "Página 1",
+        "Material / fila 9",
+        "Nº de Registro"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nº de Registro",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "f084",
+      "label": "Denominación",
+      "path": [
+        "Página 1",
+        "Material / fila 9",
+        "Denominación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Denominación",
+      "kind": "text",
+      "synthetic_value": "Sin otro material",
+      "label_position": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "f085",
+      "label": "Unidad (de medida)",
+      "path": [
+        "Página 1",
+        "Material / fila 9",
+        "Unidad (de medida)"
+      ],
+      "source_page": 1,
+      "source_anchor": "Unidad (de medida)",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        16
+      ]
+    },
+    {
+      "id": "f086",
+      "label": "Cantidad por bulto",
+      "path": [
+        "Página 1",
+        "Material / fila 9",
+        "Cantidad por bulto"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad por bulto",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        20
+      ]
+    },
+    {
+      "id": "f087",
+      "label": "Cantidad total de Bultos",
+      "path": [
+        "Página 1",
+        "Material / fila 9",
+        "Cantidad total de Bultos"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Bultos",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        24
+      ]
+    },
+    {
+      "id": "f088",
+      "label": "Cantidad total de Unidades",
+      "path": [
+        "Página 1",
+        "Material / fila 9",
+        "Cantidad total de Unidades"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Unidades",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        28
+      ]
+    },
+    {
+      "id": "f089",
+      "label": "Posición N.C.M.",
+      "path": [
+        "Página 1",
+        "Material / fila 9",
+        "Posición N.C.M."
+      ],
+      "source_page": 1,
+      "source_anchor": "Posición N.C.M.",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        32
+      ]
+    },
+    {
+      "id": "f090",
+      "label": "Derecho de Importación",
+      "path": [
+        "Página 1",
+        "Material / fila 9",
+        "Derecho de Importación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Derecho de Importación",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        36
+      ]
+    },
+    {
+      "id": "f091",
+      "label": "Código o N°del Parte de origen",
+      "path": [
+        "Página 1",
+        "Material / fila 10",
+        "Código o N°del Parte de origen"
+      ],
+      "source_page": 1,
+      "source_anchor": "Código o N°del Parte de origen",
+      "kind": "text",
+      "synthetic_value": "Anulado; sin otro material",
+      "label_position": [
+        9,
+        0
+      ]
+    },
+    {
+      "id": "f092",
+      "label": "Nº de Registro",
+      "path": [
+        "Página 1",
+        "Material / fila 10",
+        "Nº de Registro"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nº de Registro",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "f093",
+      "label": "Denominación",
+      "path": [
+        "Página 1",
+        "Material / fila 10",
+        "Denominación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Denominación",
+      "kind": "text",
+      "synthetic_value": "Sin otro material",
+      "label_position": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "f094",
+      "label": "Unidad (de medida)",
+      "path": [
+        "Página 1",
+        "Material / fila 10",
+        "Unidad (de medida)"
+      ],
+      "source_page": 1,
+      "source_anchor": "Unidad (de medida)",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        16
+      ]
+    },
+    {
+      "id": "f095",
+      "label": "Cantidad por bulto",
+      "path": [
+        "Página 1",
+        "Material / fila 10",
+        "Cantidad por bulto"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad por bulto",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        20
+      ]
+    },
+    {
+      "id": "f096",
+      "label": "Cantidad total de Bultos",
+      "path": [
+        "Página 1",
+        "Material / fila 10",
+        "Cantidad total de Bultos"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Bultos",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        24
+      ]
+    },
+    {
+      "id": "f097",
+      "label": "Cantidad total de Unidades",
+      "path": [
+        "Página 1",
+        "Material / fila 10",
+        "Cantidad total de Unidades"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Unidades",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        28
+      ]
+    },
+    {
+      "id": "f098",
+      "label": "Posición N.C.M.",
+      "path": [
+        "Página 1",
+        "Material / fila 10",
+        "Posición N.C.M."
+      ],
+      "source_page": 1,
+      "source_anchor": "Posición N.C.M.",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        32
+      ]
+    },
+    {
+      "id": "f099",
+      "label": "Derecho de Importación",
+      "path": [
+        "Página 1",
+        "Material / fila 10",
+        "Derecho de Importación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Derecho de Importación",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        36
+      ]
+    },
+    {
+      "id": "f100",
+      "label": "Código o N°del Parte de origen",
+      "path": [
+        "Página 1",
+        "Material / fila 11",
+        "Código o N°del Parte de origen"
+      ],
+      "source_page": 1,
+      "source_anchor": "Código o N°del Parte de origen",
+      "kind": "text",
+      "synthetic_value": "Anulado; sin otro material",
+      "label_position": [
+        9,
+        0
+      ]
+    },
+    {
+      "id": "f101",
+      "label": "Nº de Registro",
+      "path": [
+        "Página 1",
+        "Material / fila 11",
+        "Nº de Registro"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nº de Registro",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "f102",
+      "label": "Denominación",
+      "path": [
+        "Página 1",
+        "Material / fila 11",
+        "Denominación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Denominación",
+      "kind": "text",
+      "synthetic_value": "Sin otro material",
+      "label_position": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "f103",
+      "label": "Unidad (de medida)",
+      "path": [
+        "Página 1",
+        "Material / fila 11",
+        "Unidad (de medida)"
+      ],
+      "source_page": 1,
+      "source_anchor": "Unidad (de medida)",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        16
+      ]
+    },
+    {
+      "id": "f104",
+      "label": "Cantidad por bulto",
+      "path": [
+        "Página 1",
+        "Material / fila 11",
+        "Cantidad por bulto"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad por bulto",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        20
+      ]
+    },
+    {
+      "id": "f105",
+      "label": "Cantidad total de Bultos",
+      "path": [
+        "Página 1",
+        "Material / fila 11",
+        "Cantidad total de Bultos"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Bultos",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        24
+      ]
+    },
+    {
+      "id": "f106",
+      "label": "Cantidad total de Unidades",
+      "path": [
+        "Página 1",
+        "Material / fila 11",
+        "Cantidad total de Unidades"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Unidades",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        28
+      ]
+    },
+    {
+      "id": "f107",
+      "label": "Posición N.C.M.",
+      "path": [
+        "Página 1",
+        "Material / fila 11",
+        "Posición N.C.M."
+      ],
+      "source_page": 1,
+      "source_anchor": "Posición N.C.M.",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        32
+      ]
+    },
+    {
+      "id": "f108",
+      "label": "Derecho de Importación",
+      "path": [
+        "Página 1",
+        "Material / fila 11",
+        "Derecho de Importación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Derecho de Importación",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        36
+      ]
+    },
+    {
+      "id": "f109",
+      "label": "Código o N°del Parte de origen",
+      "path": [
+        "Página 1",
+        "Material / fila 12",
+        "Código o N°del Parte de origen"
+      ],
+      "source_page": 1,
+      "source_anchor": "Código o N°del Parte de origen",
+      "kind": "text",
+      "synthetic_value": "Anulado; sin otro material",
+      "label_position": [
+        9,
+        0
+      ]
+    },
+    {
+      "id": "f110",
+      "label": "Nº de Registro",
+      "path": [
+        "Página 1",
+        "Material / fila 12",
+        "Nº de Registro"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nº de Registro",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "f111",
+      "label": "Denominación",
+      "path": [
+        "Página 1",
+        "Material / fila 12",
+        "Denominación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Denominación",
+      "kind": "text",
+      "synthetic_value": "Sin otro material",
+      "label_position": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "f112",
+      "label": "Unidad (de medida)",
+      "path": [
+        "Página 1",
+        "Material / fila 12",
+        "Unidad (de medida)"
+      ],
+      "source_page": 1,
+      "source_anchor": "Unidad (de medida)",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        16
+      ]
+    },
+    {
+      "id": "f113",
+      "label": "Cantidad por bulto",
+      "path": [
+        "Página 1",
+        "Material / fila 12",
+        "Cantidad por bulto"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad por bulto",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        20
+      ]
+    },
+    {
+      "id": "f114",
+      "label": "Cantidad total de Bultos",
+      "path": [
+        "Página 1",
+        "Material / fila 12",
+        "Cantidad total de Bultos"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Bultos",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        24
+      ]
+    },
+    {
+      "id": "f115",
+      "label": "Cantidad total de Unidades",
+      "path": [
+        "Página 1",
+        "Material / fila 12",
+        "Cantidad total de Unidades"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Unidades",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        28
+      ]
+    },
+    {
+      "id": "f116",
+      "label": "Posición N.C.M.",
+      "path": [
+        "Página 1",
+        "Material / fila 12",
+        "Posición N.C.M."
+      ],
+      "source_page": 1,
+      "source_anchor": "Posición N.C.M.",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        32
+      ]
+    },
+    {
+      "id": "f117",
+      "label": "Derecho de Importación",
+      "path": [
+        "Página 1",
+        "Material / fila 12",
+        "Derecho de Importación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Derecho de Importación",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        36
+      ]
+    },
+    {
+      "id": "f118",
+      "label": "Código o N°del Parte de origen",
+      "path": [
+        "Página 1",
+        "Material / fila 13",
+        "Código o N°del Parte de origen"
+      ],
+      "source_page": 1,
+      "source_anchor": "Código o N°del Parte de origen",
+      "kind": "text",
+      "synthetic_value": "Anulado; sin otro material",
+      "label_position": [
+        9,
+        0
+      ]
+    },
+    {
+      "id": "f119",
+      "label": "Nº de Registro",
+      "path": [
+        "Página 1",
+        "Material / fila 13",
+        "Nº de Registro"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nº de Registro",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "f120",
+      "label": "Denominación",
+      "path": [
+        "Página 1",
+        "Material / fila 13",
+        "Denominación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Denominación",
+      "kind": "text",
+      "synthetic_value": "Sin otro material",
+      "label_position": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "f121",
+      "label": "Unidad (de medida)",
+      "path": [
+        "Página 1",
+        "Material / fila 13",
+        "Unidad (de medida)"
+      ],
+      "source_page": 1,
+      "source_anchor": "Unidad (de medida)",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        16
+      ]
+    },
+    {
+      "id": "f122",
+      "label": "Cantidad por bulto",
+      "path": [
+        "Página 1",
+        "Material / fila 13",
+        "Cantidad por bulto"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad por bulto",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        20
+      ]
+    },
+    {
+      "id": "f123",
+      "label": "Cantidad total de Bultos",
+      "path": [
+        "Página 1",
+        "Material / fila 13",
+        "Cantidad total de Bultos"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Bultos",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        24
+      ]
+    },
+    {
+      "id": "f124",
+      "label": "Cantidad total de Unidades",
+      "path": [
+        "Página 1",
+        "Material / fila 13",
+        "Cantidad total de Unidades"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Unidades",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        28
+      ]
+    },
+    {
+      "id": "f125",
+      "label": "Posición N.C.M.",
+      "path": [
+        "Página 1",
+        "Material / fila 13",
+        "Posición N.C.M."
+      ],
+      "source_page": 1,
+      "source_anchor": "Posición N.C.M.",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        32
+      ]
+    },
+    {
+      "id": "f126",
+      "label": "Derecho de Importación",
+      "path": [
+        "Página 1",
+        "Material / fila 13",
+        "Derecho de Importación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Derecho de Importación",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        36
+      ]
+    },
+    {
+      "id": "f127",
+      "label": "Código o N°del Parte de origen",
+      "path": [
+        "Página 1",
+        "Material / fila 14",
+        "Código o N°del Parte de origen"
+      ],
+      "source_page": 1,
+      "source_anchor": "Código o N°del Parte de origen",
+      "kind": "text",
+      "synthetic_value": "Anulado; sin otro material",
+      "label_position": [
+        9,
+        0
+      ]
+    },
+    {
+      "id": "f128",
+      "label": "Nº de Registro",
+      "path": [
+        "Página 1",
+        "Material / fila 14",
+        "Nº de Registro"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nº de Registro",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "f129",
+      "label": "Denominación",
+      "path": [
+        "Página 1",
+        "Material / fila 14",
+        "Denominación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Denominación",
+      "kind": "text",
+      "synthetic_value": "Sin otro material",
+      "label_position": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "f130",
+      "label": "Unidad (de medida)",
+      "path": [
+        "Página 1",
+        "Material / fila 14",
+        "Unidad (de medida)"
+      ],
+      "source_page": 1,
+      "source_anchor": "Unidad (de medida)",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        16
+      ]
+    },
+    {
+      "id": "f131",
+      "label": "Cantidad por bulto",
+      "path": [
+        "Página 1",
+        "Material / fila 14",
+        "Cantidad por bulto"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad por bulto",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        20
+      ]
+    },
+    {
+      "id": "f132",
+      "label": "Cantidad total de Bultos",
+      "path": [
+        "Página 1",
+        "Material / fila 14",
+        "Cantidad total de Bultos"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Bultos",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        24
+      ]
+    },
+    {
+      "id": "f133",
+      "label": "Cantidad total de Unidades",
+      "path": [
+        "Página 1",
+        "Material / fila 14",
+        "Cantidad total de Unidades"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Unidades",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        28
+      ]
+    },
+    {
+      "id": "f134",
+      "label": "Posición N.C.M.",
+      "path": [
+        "Página 1",
+        "Material / fila 14",
+        "Posición N.C.M."
+      ],
+      "source_page": 1,
+      "source_anchor": "Posición N.C.M.",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        32
+      ]
+    },
+    {
+      "id": "f135",
+      "label": "Derecho de Importación",
+      "path": [
+        "Página 1",
+        "Material / fila 14",
+        "Derecho de Importación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Derecho de Importación",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        36
+      ]
+    },
+    {
+      "id": "f136",
+      "label": "Código o N°del Parte de origen",
+      "path": [
+        "Página 1",
+        "Material / fila 15",
+        "Código o N°del Parte de origen"
+      ],
+      "source_page": 1,
+      "source_anchor": "Código o N°del Parte de origen",
+      "kind": "text",
+      "synthetic_value": "Anulado; sin otro material",
+      "label_position": [
+        9,
+        0
+      ]
+    },
+    {
+      "id": "f137",
+      "label": "Nº de Registro",
+      "path": [
+        "Página 1",
+        "Material / fila 15",
+        "Nº de Registro"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nº de Registro",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "f138",
+      "label": "Denominación",
+      "path": [
+        "Página 1",
+        "Material / fila 15",
+        "Denominación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Denominación",
+      "kind": "text",
+      "synthetic_value": "Sin otro material",
+      "label_position": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "f139",
+      "label": "Unidad (de medida)",
+      "path": [
+        "Página 1",
+        "Material / fila 15",
+        "Unidad (de medida)"
+      ],
+      "source_page": 1,
+      "source_anchor": "Unidad (de medida)",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        16
+      ]
+    },
+    {
+      "id": "f140",
+      "label": "Cantidad por bulto",
+      "path": [
+        "Página 1",
+        "Material / fila 15",
+        "Cantidad por bulto"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad por bulto",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        20
+      ]
+    },
+    {
+      "id": "f141",
+      "label": "Cantidad total de Bultos",
+      "path": [
+        "Página 1",
+        "Material / fila 15",
+        "Cantidad total de Bultos"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Bultos",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        24
+      ]
+    },
+    {
+      "id": "f142",
+      "label": "Cantidad total de Unidades",
+      "path": [
+        "Página 1",
+        "Material / fila 15",
+        "Cantidad total de Unidades"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Unidades",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        28
+      ]
+    },
+    {
+      "id": "f143",
+      "label": "Posición N.C.M.",
+      "path": [
+        "Página 1",
+        "Material / fila 15",
+        "Posición N.C.M."
+      ],
+      "source_page": 1,
+      "source_anchor": "Posición N.C.M.",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        32
+      ]
+    },
+    {
+      "id": "f144",
+      "label": "Derecho de Importación",
+      "path": [
+        "Página 1",
+        "Material / fila 15",
+        "Derecho de Importación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Derecho de Importación",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        36
+      ]
+    },
+    {
+      "id": "f145",
+      "label": "Código o N°del Parte de origen",
+      "path": [
+        "Página 1",
+        "Material / fila 16",
+        "Código o N°del Parte de origen"
+      ],
+      "source_page": 1,
+      "source_anchor": "Código o N°del Parte de origen",
+      "kind": "text",
+      "synthetic_value": "Anulado; sin otro material",
+      "label_position": [
+        9,
+        0
+      ]
+    },
+    {
+      "id": "f146",
+      "label": "Nº de Registro",
+      "path": [
+        "Página 1",
+        "Material / fila 16",
+        "Nº de Registro"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nº de Registro",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "f147",
+      "label": "Denominación",
+      "path": [
+        "Página 1",
+        "Material / fila 16",
+        "Denominación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Denominación",
+      "kind": "text",
+      "synthetic_value": "Sin otro material",
+      "label_position": [
+        9,
+        8
+      ]
+    },
+    {
+      "id": "f148",
+      "label": "Unidad (de medida)",
+      "path": [
+        "Página 1",
+        "Material / fila 16",
+        "Unidad (de medida)"
+      ],
+      "source_page": 1,
+      "source_anchor": "Unidad (de medida)",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        16
+      ]
+    },
+    {
+      "id": "f149",
+      "label": "Cantidad por bulto",
+      "path": [
+        "Página 1",
+        "Material / fila 16",
+        "Cantidad por bulto"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad por bulto",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        20
+      ]
+    },
+    {
+      "id": "f150",
+      "label": "Cantidad total de Bultos",
+      "path": [
+        "Página 1",
+        "Material / fila 16",
+        "Cantidad total de Bultos"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Bultos",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        24
+      ]
+    },
+    {
+      "id": "f151",
+      "label": "Cantidad total de Unidades",
+      "path": [
+        "Página 1",
+        "Material / fila 16",
+        "Cantidad total de Unidades"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cantidad total de Unidades",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        9,
+        28
+      ]
+    },
+    {
+      "id": "f152",
+      "label": "Posición N.C.M.",
+      "path": [
+        "Página 1",
+        "Material / fila 16",
+        "Posición N.C.M."
+      ],
+      "source_page": 1,
+      "source_anchor": "Posición N.C.M.",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        32
+      ]
+    },
+    {
+      "id": "f153",
+      "label": "Derecho de Importación",
+      "path": [
+        "Página 1",
+        "Material / fila 16",
+        "Derecho de Importación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Derecho de Importación",
+      "kind": "text",
+      "synthetic_value": "No aplica",
+      "label_position": [
+        9,
+        36
+      ]
+    },
+    {
+      "id": "f154",
+      "label": "OBSERVACIONES (2)",
+      "path": [
+        "Página 1",
+        "Observaciones / fila 1",
+        "OBSERVACIONES (2)"
+      ],
+      "source_page": 1,
+      "source_anchor": "OBSERVACIONES (2)",
+      "kind": "text",
+      "synthetic_value": "Un material ficticio; cantidades 10 por bulto por 2 bultos = 20 unidades",
+      "label_position": [
+        31,
+        0
+      ]
+    },
+    {
+      "id": "f155",
+      "label": "OBSERVACIONES (2)",
+      "path": [
+        "Página 1",
+        "Observaciones / fila 2",
+        "OBSERVACIONES (2)"
+      ],
+      "source_page": 1,
+      "source_anchor": "OBSERVACIONES (2)",
+      "kind": "text",
+      "synthetic_value": "Sin otra observacion; anulado",
+      "label_position": [
+        31,
+        0
+      ]
+    },
+    {
+      "id": "f156",
+      "label": "OBSERVACIONES (2)",
+      "path": [
+        "Página 1",
+        "Observaciones / fila 3",
+        "OBSERVACIONES (2)"
+      ],
+      "source_page": 1,
+      "source_anchor": "OBSERVACIONES (2)",
+      "kind": "text",
+      "synthetic_value": "Sin otra observacion; anulado",
+      "label_position": [
+        31,
+        0
+      ]
+    },
+    {
+      "id": "f157",
+      "label": "se halla en el país.",
+      "path": [
+        "Página 1",
+        "Presencia del material",
+        "se halla en el país."
+      ],
+      "source_page": 1,
+      "source_anchor": "se halla en el país.",
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "NO"
+      ],
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "Presencia del material / se halla en el país.: NO."
+    },
+    {
+      "id": "f158",
+      "label": "Fecha",
+      "path": [
+        "Página 1",
+        "Presentacion",
+        "Fecha"
+      ],
+      "source_page": 1,
+      "source_anchor": "Fecha",
+      "kind": "text",
+      "synthetic_value": "25/10/2026"
+    },
+    {
+      "id": "f159",
+      "label": "SE AUTORIZA LA IMPORTACION / EXPORTACION",
+      "path": [
+        "Página 1",
+        "Autorizacion administrativa",
+        "SE AUTORIZA LA IMPORTACION / EXPORTACION"
+      ],
+      "source_page": 1,
+      "source_anchor": "SE AUTORIZA LA IMPORTACION / EXPORTACION",
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "IMPORTACION"
+      ],
+      "options": [
+        "IMPORTACION",
+        "EXPORTACION"
+      ],
+      "context_evidence": "Autorizacion administrativa / SE AUTORIZA LA IMPORTACION / EXPORTACION: IMPORTACION."
+    },
+    {
+      "id": "f160",
+      "label": "Fecha de Emisión",
+      "path": [
+        "Página 1",
+        "Autorizacion administrativa",
+        "Fecha de Emisión"
+      ],
+      "source_page": 1,
+      "source_anchor": "Fecha de Emisión",
+      "kind": "text",
+      "synthetic_value": "Sin emision oficial; simulacion"
+    },
+    {
+      "id": "f161",
+      "label": "Autorización Nº",
+      "path": [
+        "Página 1",
+        "Autorizacion administrativa",
+        "Autorización Nº"
+      ],
+      "source_page": 1,
+      "source_anchor": "Autorización Nº",
+      "kind": "text",
+      "synthetic_value": "Sin numero oficial; simulacion"
+    },
+    {
+      "id": "f162",
+      "label": "Vencimiento",
+      "path": [
+        "Página 1",
+        "Autorizacion administrativa",
+        "Vencimiento"
+      ],
+      "source_page": 1,
+      "source_anchor": "Vencimiento",
+      "kind": "text",
+      "synthetic_value": "Sin vencimiento oficial; simulacion"
+    },
+    {
+      "id": "f163",
+      "label": "Firma y Sello del Solicitante (3)",
+      "path": [
+        "Página 1",
+        "Firmas",
+        "Firma y Sello del Solicitante (3)"
+      ],
+      "source_page": 1,
+      "source_anchor": "Firma y Sello del Solicitante (3)",
+      "kind": "text",
+      "synthetic_value": "Firma sintetica Elena Paz Ficticia"
+    },
+    {
+      "id": "f164",
+      "label": "Firma y Sello del Certificante (5)",
+      "path": [
+        "Página 1",
+        "Firmas",
+        "Firma y Sello del Certificante (5)"
+      ],
+      "source_page": 1,
+      "source_anchor": "Firma y Sello del Certificante (5)",
+      "kind": "text",
+      "synthetic_value": "Certificacion ficticia"
+    },
+    {
+      "id": "f165",
+      "label": "Sellos y Firmas Autorizantes",
+      "path": [
+        "Página 1",
+        "Autorizacion administrativa",
+        "Sellos y Firmas Autorizantes"
+      ],
+      "source_page": 1,
+      "source_anchor": "Sellos y Firmas Autorizantes",
+      "kind": "text",
+      "synthetic_value": "Sin firma ni sello oficial; simulacion"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "ANMaC Agencia Nacional de Materiales Controlados Ministerio de Justicia y Derechos Humanos Presidencia de la Nación",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "FICHA DE DATOS TECNICOS",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Ficha de Datos Técnicos 6 DECLARACIÓN JURADA LEYES 20.429, 23.283 y 23.412 – DECRETOS 302/83 y 37/01",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "SOLICITUD DE :",
+        "field": "f001",
+        "source_page": 1,
+        "colspan": 20
+      },
+      {
+        "label": "DE",
+        "field": "f002",
+        "source_page": 1,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "(marque con una X donde corresponda)",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "RAZON SOCIAL",
+        "field": "f003",
+        "source_page": 1,
+        "colspan": 20
+      },
+      {
+        "label": "Nº DE INSCRIPCION",
+        "field": "f004",
+        "source_page": 1,
+        "colspan": 8
+      },
+      {
+        "label": "PAIS DE PROCEDENCIA / DESTINO (1)",
+        "field": "f005",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "LUGAR POR EL CUAL INGRESARÁ EL MATERIAL AL PAIS (Puerto y Aduana)",
+        "field": "f006",
+        "source_page": 1,
+        "colspan": 24
+      },
+      {
+        "label": "N° de Habilitación del Depósito en el cual se almacenará el material",
+        "field": "f007",
+        "source_page": 1,
+        "colspan": 16
+      }
+    ],
+    [
+      {
+        "label": "EMPRESA VENDEDORA / COMPRADORA (1)",
+        "field": "f008",
+        "source_page": 1,
+        "colspan": 20
+      },
+      {
+        "label": "Nº DE SERIE DE LOS FORMULARIOS LEYES QUE SE ADJUNTAN A LA PRESENTE",
+        "field": "f009",
+        "source_page": 1,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "MATERIAL A IMPORTAR",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Código o N°del Parte de origen",
+        "source_page": 1,
+        "colspan": 4,
+        "heading": true
+      },
+      {
+        "text": "Nº de Registro",
+        "source_page": 1,
+        "colspan": 4,
+        "heading": true
+      },
+      {
+        "text": "Denominación",
+        "source_page": 1,
+        "colspan": 8,
+        "heading": true
+      },
+      {
+        "text": "Unidad (de medida)",
+        "source_page": 1,
+        "colspan": 4,
+        "heading": true
+      },
+      {
+        "text": "Cantidad por bulto",
+        "source_page": 1,
+        "colspan": 4,
+        "heading": true
+      },
+      {
+        "text": "Cantidad total de Bultos",
+        "source_page": 1,
+        "colspan": 4,
+        "heading": true
+      },
+      {
+        "text": "Cantidad total de Unidades",
+        "source_page": 1,
+        "colspan": 4,
+        "heading": true
+      },
+      {
+        "text": "Posición N.C.M.",
+        "source_page": 1,
+        "colspan": 4,
+        "heading": true
+      },
+      {
+        "text": "Derecho de Importación",
+        "source_page": 1,
+        "colspan": 4,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "",
+        "field": "f010",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f011",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f012",
+        "source_page": 1,
+        "colspan": 8
+      },
+      {
+        "label": "",
+        "field": "f013",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f014",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f015",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f016",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f017",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f018",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "",
+        "field": "f019",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f020",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f021",
+        "source_page": 1,
+        "colspan": 8
+      },
+      {
+        "label": "",
+        "field": "f022",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f023",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f024",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f025",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f026",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f027",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "",
+        "field": "f028",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f029",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f030",
+        "source_page": 1,
+        "colspan": 8
+      },
+      {
+        "label": "",
+        "field": "f031",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f032",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f033",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f034",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f035",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f036",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "",
+        "field": "f037",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f038",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f039",
+        "source_page": 1,
+        "colspan": 8
+      },
+      {
+        "label": "",
+        "field": "f040",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f041",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f042",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f043",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f044",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f045",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "",
+        "field": "f046",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f047",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f048",
+        "source_page": 1,
+        "colspan": 8
+      },
+      {
+        "label": "",
+        "field": "f049",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f050",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f051",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f052",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f053",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f054",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "",
+        "field": "f055",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f056",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f057",
+        "source_page": 1,
+        "colspan": 8
+      },
+      {
+        "label": "",
+        "field": "f058",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f059",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f060",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f061",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f062",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f063",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "",
+        "field": "f064",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f065",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f066",
+        "source_page": 1,
+        "colspan": 8
+      },
+      {
+        "label": "",
+        "field": "f067",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f068",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f069",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f070",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f071",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f072",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "",
+        "field": "f073",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f074",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f075",
+        "source_page": 1,
+        "colspan": 8
+      },
+      {
+        "label": "",
+        "field": "f076",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f077",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f078",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f079",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f080",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f081",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "",
+        "field": "f082",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f083",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f084",
+        "source_page": 1,
+        "colspan": 8
+      },
+      {
+        "label": "",
+        "field": "f085",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f086",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f087",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f088",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f089",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f090",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "",
+        "field": "f091",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f092",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f093",
+        "source_page": 1,
+        "colspan": 8
+      },
+      {
+        "label": "",
+        "field": "f094",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f095",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f096",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f097",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f098",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f099",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "",
+        "field": "f100",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f101",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f102",
+        "source_page": 1,
+        "colspan": 8
+      },
+      {
+        "label": "",
+        "field": "f103",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f104",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f105",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f106",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f107",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f108",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "",
+        "field": "f109",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f110",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f111",
+        "source_page": 1,
+        "colspan": 8
+      },
+      {
+        "label": "",
+        "field": "f112",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f113",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f114",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f115",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f116",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f117",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "",
+        "field": "f118",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f119",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f120",
+        "source_page": 1,
+        "colspan": 8
+      },
+      {
+        "label": "",
+        "field": "f121",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f122",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f123",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f124",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f125",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f126",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "",
+        "field": "f127",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f128",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f129",
+        "source_page": 1,
+        "colspan": 8
+      },
+      {
+        "label": "",
+        "field": "f130",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f131",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f132",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f133",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f134",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f135",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "",
+        "field": "f136",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f137",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f138",
+        "source_page": 1,
+        "colspan": 8
+      },
+      {
+        "label": "",
+        "field": "f139",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f140",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f141",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f142",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f143",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f144",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "",
+        "field": "f145",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f146",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f147",
+        "source_page": 1,
+        "colspan": 8
+      },
+      {
+        "label": "",
+        "field": "f148",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f149",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f150",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f151",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f152",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "",
+        "field": "f153",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "(1) Tachar lo que no corresponde.",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "(2) No se admitirán enmiendas sin que se encuentren debidamente salvadas en observaciones y deberán anularse los espacios en blanco. Confeccionar el formulario en letra imprenta o a máquina.",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "(3) Las firmas en todos los casos deben ser originales.",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "(4) Se entiende por “solicitante” al representante legal de la causante. Las firmas en todos los casos deben ser originales.",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "(5) La certificación de firmas y/o fotocopias serán realizadas conforme Disposición N° 058/04.",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "OBSERVACIONES (2)",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "",
+        "field": "f154",
+        "source_page": 1,
+        "colspan": 40
+      }
+    ],
+    [
+      {
+        "label": "",
+        "field": "f155",
+        "source_page": 1,
+        "colspan": 40
+      }
+    ],
+    [
+      {
+        "label": "",
+        "field": "f156",
+        "source_page": 1,
+        "colspan": 40
+      }
+    ],
+    [
+      {
+        "text": "Declaro que a la fecha de presentación de esta Solicitud el material SI / NO se halla en el país.",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "se halla en el país.",
+        "field": "f157",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "text": "",
+        "source_page": 1,
+        "colspan": 8,
+        "heading": false
+      },
+      {
+        "text": "En virtud de haber cumplido con lo exigido por el Dec. 302/83, SE AUTORIZA LA IMPORTACION / EXPORTACION",
+        "source_page": 1,
+        "colspan": 20,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Fecha",
+        "field": "f158",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "text": "",
+        "source_page": 1,
+        "colspan": 8,
+        "heading": false
+      },
+      {
+        "label": "SE AUTORIZA LA IMPORTACION / EXPORTACION",
+        "field": "f159",
+        "source_page": 1,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      },
+      {
+        "text": "",
+        "source_page": 1,
+        "colspan": 8,
+        "heading": false
+      },
+      {
+        "label": "Fecha de Emisión",
+        "field": "f160",
+        "source_page": 1,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      },
+      {
+        "text": "",
+        "source_page": 1,
+        "colspan": 8,
+        "heading": false
+      },
+      {
+        "label": "Autorización Nº",
+        "field": "f161",
+        "source_page": 1,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      },
+      {
+        "text": "",
+        "source_page": 1,
+        "colspan": 8,
+        "heading": false
+      },
+      {
+        "label": "Vencimiento",
+        "field": "f162",
+        "source_page": 1,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "label": "Firma y Sello del Solicitante (3)",
+        "field": "f163",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "Firma y Sello del Certificante (5)",
+        "field": "f164",
+        "source_page": 1,
+        "colspan": 8
+      },
+      {
+        "label": "Sellos y Firmas Autorizantes",
+        "field": "f165",
+        "source_page": 1,
+        "colspan": 20
+      }
+    ]
+  ],
+  "context": "CASO ENTERAMENTE FICTICIO. Ningún nombre, documento, licencia, institución, firma o actuación corresponde a una persona o trámite real.\nImportacion ficticia de un unico material de demostracion sin datos operativos, no pirotecnia, aun no ingresado al pais. Empresa vendedora y pais son de procedencia. Dos bultos por diez unidades son veinte; quince filas restantes anuladas sin omitir ninguna celda. Se mantienen las cinco notas y tres renglones de observaciones. Firma de representante y certificante sinteticas; autoridad sin acto oficial. Numeros, registros, NCM y tributo de demostracion no representan codigos o liquidaciones reales.\nPágina 1 / Solicitud / SOLICITUD DE :: Solicitud / SOLICITUD DE :: IMPORTACION.\nPágina 1 / Tipo de material / DE: Tipo de material / DE: EXPLOSIVOS.\nPágina 1 / Empresa / RAZON SOCIAL: Importadora Ficticia SA\nPágina 1 / Empresa / Nº DE INSCRIPCION: INS-SINT-973\nPágina 1 / Empresa / PAIS DE PROCEDENCIA / DESTINO (1): Francia, procedencia\nPágina 1 / Ingreso / LUGAR POR EL CUAL INGRESARÁ EL MATERIAL AL PAIS (Puerto y Aduana): Puerto y Aduana ficticios de Buenos Aires\nPágina 1 / Ingreso / N° de Habilitación del Depósito en el cual se almacenará el material: DEP-SINT-973\nPágina 1 / Contraparte / EMPRESA VENDEDORA / COMPRADORA (1): Vendedora Modelo Ficticia\nPágina 1 / Adjuntos / Nº DE SERIE DE LOS FORMULARIOS LEYES QUE SE ADJUNTAN A LA PRESENTE: SER-SINT-973\nPágina 1 / Material / fila 1 / Código o N°del Parte de origen: PARTE-SINT-973\nPágina 1 / Material / fila 1 / Nº de Registro: REG-SINT-973\nPágina 1 / Material / fila 1 / Denominación: Material sintetico de demostracion\nPágina 1 / Material / fila 1 / Unidad (de medida): Unidad\nPágina 1 / Material / fila 1 / Cantidad por bulto: 10\nPágina 1 / Material / fila 1 / Cantidad total de Bultos: 2\nPágina 1 / Material / fila 1 / Cantidad total de Unidades: 20\nPágina 1 / Material / fila 1 / Posición N.C.M.: Codigo sintetico NCM-973\nPágina 1 / Material / fila 1 / Derecho de Importación: Dato sintetico no tributario\nPágina 1 / Material / fila 2 / Código o N°del Parte de origen: Anulado; sin otro material\nPágina 1 / Material / fila 2 / Nº de Registro: No aplica\nPágina 1 / Material / fila 2 / Denominación: Sin otro material\nPágina 1 / Material / fila 2 / Unidad (de medida): No aplica\nPágina 1 / Material / fila 2 / Cantidad por bulto: 0\nPágina 1 / Material / fila 2 / Cantidad total de Bultos: 0\nPágina 1 / Material / fila 2 / Cantidad total de Unidades: 0\nPágina 1 / Material / fila 2 / Posición N.C.M.: No aplica\nPágina 1 / Material / fila 2 / Derecho de Importación: No aplica\nPágina 1 / Material / fila 3 / Código o N°del Parte de origen: Anulado; sin otro material\nPágina 1 / Material / fila 3 / Nº de Registro: No aplica\nPágina 1 / Material / fila 3 / Denominación: Sin otro material\nPágina 1 / Material / fila 3 / Unidad (de medida): No aplica\nPágina 1 / Material / fila 3 / Cantidad por bulto: 0\nPágina 1 / Material / fila 3 / Cantidad total de Bultos: 0\nPágina 1 / Material / fila 3 / Cantidad total de Unidades: 0\nPágina 1 / Material / fila 3 / Posición N.C.M.: No aplica\nPágina 1 / Material / fila 3 / Derecho de Importación: No aplica\nPágina 1 / Material / fila 4 / Código o N°del Parte de origen: Anulado; sin otro material\nPágina 1 / Material / fila 4 / Nº de Registro: No aplica\nPágina 1 / Material / fila 4 / Denominación: Sin otro material\nPágina 1 / Material / fila 4 / Unidad (de medida): No aplica\nPágina 1 / Material / fila 4 / Cantidad por bulto: 0\nPágina 1 / Material / fila 4 / Cantidad total de Bultos: 0\nPágina 1 / Material / fila 4 / Cantidad total de Unidades: 0\nPágina 1 / Material / fila 4 / Posición N.C.M.: No aplica\nPágina 1 / Material / fila 4 / Derecho de Importación: No aplica\nPágina 1 / Material / fila 5 / Código o N°del Parte de origen: Anulado; sin otro material\nPágina 1 / Material / fila 5 / Nº de Registro: No aplica\nPágina 1 / Material / fila 5 / Denominación: Sin otro material\nPágina 1 / Material / fila 5 / Unidad (de medida): No aplica\nPágina 1 / Material / fila 5 / Cantidad por bulto: 0\nPágina 1 / Material / fila 5 / Cantidad total de Bultos: 0\nPágina 1 / Material / fila 5 / Cantidad total de Unidades: 0\nPágina 1 / Material / fila 5 / Posición N.C.M.: No aplica\nPágina 1 / Material / fila 5 / Derecho de Importación: No aplica\nPágina 1 / Material / fila 6 / Código o N°del Parte de origen: Anulado; sin otro material\nPágina 1 / Material / fila 6 / Nº de Registro: No aplica\nPágina 1 / Material / fila 6 / Denominación: Sin otro material\nPágina 1 / Material / fila 6 / Unidad (de medida): No aplica\nPágina 1 / Material / fila 6 / Cantidad por bulto: 0\nPágina 1 / Material / fila 6 / Cantidad total de Bultos: 0\nPágina 1 / Material / fila 6 / Cantidad total de Unidades: 0\nPágina 1 / Material / fila 6 / Posición N.C.M.: No aplica\nPágina 1 / Material / fila 6 / Derecho de Importación: No aplica\nPágina 1 / Material / fila 7 / Código o N°del Parte de origen: Anulado; sin otro material\nPágina 1 / Material / fila 7 / Nº de Registro: No aplica\nPágina 1 / Material / fila 7 / Denominación: Sin otro material\nPágina 1 / Material / fila 7 / Unidad (de medida): No aplica\nPágina 1 / Material / fila 7 / Cantidad por bulto: 0\nPágina 1 / Material / fila 7 / Cantidad total de Bultos: 0\nPágina 1 / Material / fila 7 / Cantidad total de Unidades: 0\nPágina 1 / Material / fila 7 / Posición N.C.M.: No aplica\nPágina 1 / Material / fila 7 / Derecho de Importación: No aplica\nPágina 1 / Material / fila 8 / Código o N°del Parte de origen: Anulado; sin otro material\nPágina 1 / Material / fila 8 / Nº de Registro: No aplica\nPágina 1 / Material / fila 8 / Denominación: Sin otro material\nPágina 1 / Material / fila 8 / Unidad (de medida): No aplica\nPágina 1 / Material / fila 8 / Cantidad por bulto: 0\nPágina 1 / Material / fila 8 / Cantidad total de Bultos: 0\nPágina 1 / Material / fila 8 / Cantidad total de Unidades: 0\nPágina 1 / Material / fila 8 / Posición N.C.M.: No aplica\nPágina 1 / Material / fila 8 / Derecho de Importación: No aplica\nPágina 1 / Material / fila 9 / Código o N°del Parte de origen: Anulado; sin otro material\nPágina 1 / Material / fila 9 / Nº de Registro: No aplica\nPágina 1 / Material / fila 9 / Denominación: Sin otro material\nPágina 1 / Material / fila 9 / Unidad (de medida): No aplica\nPágina 1 / Material / fila 9 / Cantidad por bulto: 0\nPágina 1 / Material / fila 9 / Cantidad total de Bultos: 0\nPágina 1 / Material / fila 9 / Cantidad total de Unidades: 0\nPágina 1 / Material / fila 9 / Posición N.C.M.: No aplica\nPágina 1 / Material / fila 9 / Derecho de Importación: No aplica\nPágina 1 / Material / fila 10 / Código o N°del Parte de origen: Anulado; sin otro material\nPágina 1 / Material / fila 10 / Nº de Registro: No aplica\nPágina 1 / Material / fila 10 / Denominación: Sin otro material\nPágina 1 / Material / fila 10 / Unidad (de medida): No aplica\nPágina 1 / Material / fila 10 / Cantidad por bulto: 0\nPágina 1 / Material / fila 10 / Cantidad total de Bultos: 0\nPágina 1 / Material / fila 10 / Cantidad total de Unidades: 0\nPágina 1 / Material / fila 10 / Posición N.C.M.: No aplica\nPágina 1 / Material / fila 10 / Derecho de Importación: No aplica\nPágina 1 / Material / fila 11 / Código o N°del Parte de origen: Anulado; sin otro material\nPágina 1 / Material / fila 11 / Nº de Registro: No aplica\nPágina 1 / Material / fila 11 / Denominación: Sin otro material\nPágina 1 / Material / fila 11 / Unidad (de medida): No aplica\nPágina 1 / Material / fila 11 / Cantidad por bulto: 0\nPágina 1 / Material / fila 11 / Cantidad total de Bultos: 0\nPágina 1 / Material / fila 11 / Cantidad total de Unidades: 0\nPágina 1 / Material / fila 11 / Posición N.C.M.: No aplica\nPágina 1 / Material / fila 11 / Derecho de Importación: No aplica\nPágina 1 / Material / fila 12 / Código o N°del Parte de origen: Anulado; sin otro material\nPágina 1 / Material / fila 12 / Nº de Registro: No aplica\nPágina 1 / Material / fila 12 / Denominación: Sin otro material\nPágina 1 / Material / fila 12 / Unidad (de medida): No aplica\nPágina 1 / Material / fila 12 / Cantidad por bulto: 0\nPágina 1 / Material / fila 12 / Cantidad total de Bultos: 0\nPágina 1 / Material / fila 12 / Cantidad total de Unidades: 0\nPágina 1 / Material / fila 12 / Posición N.C.M.: No aplica\nPágina 1 / Material / fila 12 / Derecho de Importación: No aplica\nPágina 1 / Material / fila 13 / Código o N°del Parte de origen: Anulado; sin otro material\nPágina 1 / Material / fila 13 / Nº de Registro: No aplica\nPágina 1 / Material / fila 13 / Denominación: Sin otro material\nPágina 1 / Material / fila 13 / Unidad (de medida): No aplica\nPágina 1 / Material / fila 13 / Cantidad por bulto: 0\nPágina 1 / Material / fila 13 / Cantidad total de Bultos: 0\nPágina 1 / Material / fila 13 / Cantidad total de Unidades: 0\nPágina 1 / Material / fila 13 / Posición N.C.M.: No aplica\nPágina 1 / Material / fila 13 / Derecho de Importación: No aplica\nPágina 1 / Material / fila 14 / Código o N°del Parte de origen: Anulado; sin otro material\nPágina 1 / Material / fila 14 / Nº de Registro: No aplica\nPágina 1 / Material / fila 14 / Denominación: Sin otro material\nPágina 1 / Material / fila 14 / Unidad (de medida): No aplica\nPágina 1 / Material / fila 14 / Cantidad por bulto: 0\nPágina 1 / Material / fila 14 / Cantidad total de Bultos: 0\nPágina 1 / Material / fila 14 / Cantidad total de Unidades: 0\nPágina 1 / Material / fila 14 / Posición N.C.M.: No aplica\nPágina 1 / Material / fila 14 / Derecho de Importación: No aplica\nPágina 1 / Material / fila 15 / Código o N°del Parte de origen: Anulado; sin otro material\nPágina 1 / Material / fila 15 / Nº de Registro: No aplica\nPágina 1 / Material / fila 15 / Denominación: Sin otro material\nPágina 1 / Material / fila 15 / Unidad (de medida): No aplica\nPágina 1 / Material / fila 15 / Cantidad por bulto: 0\nPágina 1 / Material / fila 15 / Cantidad total de Bultos: 0\nPágina 1 / Material / fila 15 / Cantidad total de Unidades: 0\nPágina 1 / Material / fila 15 / Posición N.C.M.: No aplica\nPágina 1 / Material / fila 15 / Derecho de Importación: No aplica\nPágina 1 / Material / fila 16 / Código o N°del Parte de origen: Anulado; sin otro material\nPágina 1 / Material / fila 16 / Nº de Registro: No aplica\nPágina 1 / Material / fila 16 / Denominación: Sin otro material\nPágina 1 / Material / fila 16 / Unidad (de medida): No aplica\nPágina 1 / Material / fila 16 / Cantidad por bulto: 0\nPágina 1 / Material / fila 16 / Cantidad total de Bultos: 0\nPágina 1 / Material / fila 16 / Cantidad total de Unidades: 0\nPágina 1 / Material / fila 16 / Posición N.C.M.: No aplica\nPágina 1 / Material / fila 16 / Derecho de Importación: No aplica\nPágina 1 / Observaciones / fila 1 / OBSERVACIONES (2): Un material ficticio; cantidades 10 por bulto por 2 bultos = 20 unidades\nPágina 1 / Observaciones / fila 2 / OBSERVACIONES (2): Sin otra observacion; anulado\nPágina 1 / Observaciones / fila 3 / OBSERVACIONES (2): Sin otra observacion; anulado\nPágina 1 / Presencia del material / se halla en el país.: Presencia del material / se halla en el país.: NO.\nPágina 1 / Presentacion / Fecha: 25/10/2026\nPágina 1 / Autorizacion administrativa / SE AUTORIZA LA IMPORTACION / EXPORTACION: Autorizacion administrativa / SE AUTORIZA LA IMPORTACION / EXPORTACION: IMPORTACION.\nPágina 1 / Autorizacion administrativa / Fecha de Emisión: Sin emision oficial; simulacion\nPágina 1 / Autorizacion administrativa / Autorización Nº: Sin numero oficial; simulacion\nPágina 1 / Autorizacion administrativa / Vencimiento: Sin vencimiento oficial; simulacion\nPágina 1 / Firmas / Firma y Sello del Solicitante (3): Firma sintetica Elena Paz Ficticia\nPágina 1 / Firmas / Firma y Sello del Certificante (5): Certificacion ficticia\nPágina 1 / Autorizacion administrativa / Sellos y Firmas Autorizantes: Sin firma ni sello oficial; simulacion",
+  "workflow_identity": {
+    "language": "es",
+    "id": 973
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "Page 1": {
+    "L’employeur": {
+      "• Dénomination :": "Association Exemple Emploi",
+      "• Adresse :": "40 rue Exemple",
+      "• Code postal :": "69003",
+      "Téléphone employeur": "0100000951",
+      "• Commune :": "Lyon",
+      "• Courriel :": "emploi@example.org",
+      "N° de Siret :": "00000095100015"
+    },
+    "Le salarié": {
+      "Civilité": {
+        "choices": [
+          "M.",
+          "Mme",
+          "Mlle"
+        ],
+        "value": [
+          "M."
+        ]
+      },
+      "• Nom de naissance :": "ROBERT",
+      "Prénom :": "Alain",
+      "• Pour les femmes mariées, nom patronymique :": "Sans objet : salarié masculin",
+      "• Adresse :": "42 rue Exemple",
+      "• Code postal :": "69003",
+      "Commune :": "Lyon"
+    },
+    "Le contrat": {
+      "dept": "069",
+      "année": "10",
+      "n° d’ordre": "00951",
+      "avenant": "00",
+      "• CDI à compter du :": "Sans objet : CDD",
+      "• CDD du :": "01/03/2010",
+      "Fin du CDD": "28/02/2011"
+    },
+    "Signalement d’une suspension": {
+      "• Suspension du contrat de travail du :": "Sans objet : aucune suspension",
+      "Fin suspension": "Sans objet : aucune suspension",
+      "• Maintien du salaire par l’employeur :": {
+        "choices": [
+          "oui.",
+          "non"
+        ],
+        "value": []
+      },
+      "Si oui, maintien total du salaire :": "Sans objet : aucune suspension",
+      "ou partiel": "Sans objet : aucune suspension"
+    },
+    "Signalement de la rupture d’un contrat de travail à durée indéterminée": {
+      "Date rupture CDI": "Sans objet : salarié en CDD",
+      "Motif rupture CDI": {
+        "choices": [
+          "Faute grave du salarié",
+          "Force majeure",
+          "Inaptitude médicalement constatée",
+          "Motif économique, notifié dans le cadre d’une procédure de redressement ou de liquidation judiciaire à la date du :",
+          "Licenciement pour un autre motif (à préciser) :",
+          "Rupture du contrat au cours de la période d’essai",
+          "Démission du salarié",
+          "Rupture conventionnelle intervenue dans le cadre de l’article L.1237-11 du code du travail (en cas d’homologation délivrée par l’administration du travail, joindre la copie de cette notification)."
+        ],
+        "value": []
+      },
+      "Date procédure économique CDI": "Sans objet : CDD",
+      "Précision autre licenciement CDI": "Sans objet : CDD"
+    },
+    "Signalement de la rupture d’un contrat de travail à durée déterminée": {
+      "Date rupture CDD": "30/09/2010",
+      "Rupture anticipée :": {
+        "choices": [
+          "A l’initiative du salarié",
+          "Résultant de l’accord des parties",
+          "Pour faute grave",
+          "Pour force majeure",
+          "En cours de période d’essai",
+          "Rupture anticipée pour un autre motif (à préciser) :"
+        ],
+        "value": [
+          "Résultant de l’accord des parties"
+        ]
+      },
+      "Précision autre rupture CDD": "Sans objet : accord des parties",
+      "Fait à :": "Lyon",
+      "Date signature": "30/09/2010",
+      "L’employeur (Cachet et signature)": "Association Exemple Emploi, Camille MARTIN ; cachet et signature fictifs",
+      "Transmis à l’ASP le :": "01/10/2010"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "Page 1": {
+    "DEMANDE DE CERTIFICAT DE COMPÉTENCE POUR CONDUIRE OU CONVOYER DES VÉHICULES ROUTIERS TRANSPORTANT DES ANIMAUX DOMESTIQUES DES ESPÈCES ÉQUINE, BOVINE, OVINE, CAPRINE, PORCINE, OU DES VOLAILLES": {
+      "Type de demande": {
+        "choices": [
+          "Première demande",
+          "Demande de modification ( espèces )"
+        ],
+        "value": [
+          "Première demande"
+        ]
+      }
+    },
+    "I. IDENTIFICATION DU DEMANDEUR": {
+      "NOM Prénoms :": "MOREL Camille",
+      "Date de naissance :": "12/03/1985",
+      "Lieu et pays de naissance :": "Lyon, France",
+      "Nationalité :": "Française",
+      "Adresse :": "54 rue Exemple",
+      "Code postal :": "69003",
+      "Commune :": "Lyon",
+      "Téléphone(s) :": "0100000976",
+      "Email :": "camille@example.org",
+      "veuillez trouver ci-joint la copie de ma carte nationale d'identité (recto-verso)": {
+        "choices": [
+          "veuillez trouver ci-joint la copie de ma carte nationale d'identité (recto-verso)"
+        ],
+        "value": [
+          "veuillez trouver ci-joint la copie de ma carte nationale d'identité (recto-verso)"
+        ]
+      }
+    },
+    "II. ESPÈCES ANIMALES POUR LESQUELLES LE CERTIFICAT EST DEMANDÉ": {
+      "Espèces": {
+        "choices": [
+          "Bovins",
+          "Ovins",
+          "Caprins",
+          "Porcins",
+          "Équins",
+          "Volailles"
+        ],
+        "value": [
+          "Bovins",
+          "Ovins"
+        ]
+      }
+    },
+    "III. QUALIFICATION ou conditions d'équivalence": {
+      "Base qualification": {
+        "choices": [
+          "J’ai suivi une formation dispensée par un organisme de formation habilité pour les espèces demandées (1). Veuillez trouver ci-joint :",
+          "Je suis titulaire d’un diplôme, titre ou certificat valant équivalence pour les espèces demandées (2). Veuillez trouver ci-joint :"
+        ],
+        "value": [
+          "J’ai suivi une formation dispensée par un organisme de formation habilité pour les espèces demandées (1). Veuillez trouver ci-joint :"
+        ]
+      },
+      "Justificatif formation": {
+        "choices": [
+          "la copie du bordereau de score, signé/cacheté par l'organisme de formation habilité ( => formation suivie après le 01/01/2017)",
+          "la copie de l'attestation de formation et réussite, signée/cachetée par l'organisme de formation habilité (=> formation suivie avant le 01/01/2017)"
+        ],
+        "value": [
+          "la copie du bordereau de score, signé/cacheté par l'organisme de formation habilité ( => formation suivie après le 01/01/2017)"
+        ]
+      },
+      "la copie de mon diplôme, titre ou certificat": {
+        "choices": [
+          "la copie de mon diplôme, titre ou certificat"
+        ],
+        "value": []
+      }
+    },
+    "V. ENGAGEMENTS": {
+      "Je soussigné(e) :": "MOREL Camille",
+      "Signature jour": "15",
+      "Signature mois": "09",
+      "Signature année": "2022",
+      "Signature :": "Camille MOREL, signature fictive"
+    }
+  }
+}

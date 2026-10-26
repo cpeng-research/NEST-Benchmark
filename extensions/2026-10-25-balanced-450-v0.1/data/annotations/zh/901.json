@@ -1,0 +1,937 @@
+{
+  "id": "zh-901",
+  "language": "zh",
+  "title": "國立臺中教育大學「學籍資料更改」申請表",
+  "domain": "Education",
+  "issuer": "國立臺中教育大學",
+  "issuer_id": "ntcu",
+  "template_family": "ntcu-ntcu-record-change",
+  "source_version": "108.12.05 版",
+  "source_date_evidence": {
+    "kind": "printed edition",
+    "value": "108.12.05 版",
+    "note": "Printed edition is recorded separately from the actual retrieval timestamp; current linkage is preserved in the official landing snapshot."
+  },
+  "source_url": "https://oaars.ntcu.edu.tw/storage/media/UBREOWaImFuO7qy9Mm2JAcLK57f1i4rP4RlY0WLC.pdf",
+  "landing_url": "https://oaars.ntcu.edu.tw/data/12?cate=33",
+  "license_url": "https://www.ntcu.edu.tw/Tag?ID=3051",
+  "license_note": "Attribution: 國立臺中教育大學. The official website open-data/copyright notice permits copying, adaptation and commercial/noncommercial reuse, with attribution and stated exclusions for logos and third-party material. Complete semantic form transcription and fictional completion; official logos are omitted. The original PDF and the complete applicable notice are preserved locally.",
+  "source_sha256": "788bf4c419cc594cbd2e4e1197fdb7cf3b770f6f54d58b5fea92cb1b8c049f12",
+  "retrieved_at": "2026-10-25T07:04:59.593991+00:00",
+  "source_pages": 1,
+  "columns": 12,
+  "synthetic_context": true,
+  "source_notice": "Native-language complete source. Every independent blank is a separate target; genuine logical choice groups alone are grouped. Repeated rows and horizontal groups are retained. Static shared headings are repeated where the unchanged renderer has no rowspan support.",
+  "fields": [
+    {
+      "id": "f001",
+      "label": "申請日期",
+      "path": [
+        "Page 1",
+        "申請",
+        "申請日期"
+      ],
+      "source_anchor": "申請日期",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "115年10月25日"
+    },
+    {
+      "id": "f002",
+      "label": "學 號",
+      "path": [
+        "Page 1",
+        "學生",
+        "學 號"
+      ],
+      "source_anchor": "學 號",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "ACS108021"
+    },
+    {
+      "id": "f003",
+      "label": "姓 名",
+      "path": [
+        "Page 1",
+        "學生",
+        "姓 名"
+      ],
+      "source_anchor": "姓 名",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "林怡安（合成親簽）"
+    },
+    {
+      "id": "f004",
+      "label": "就讀學系(所)",
+      "path": [
+        "Page 1",
+        "學生",
+        "就讀學系(所)"
+      ],
+      "source_anchor": "就讀學系(所)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "教育學系"
+    },
+    {
+      "id": "f005",
+      "label": "聯絡電話",
+      "path": [
+        "Page 1",
+        "聯絡",
+        "聯絡電話"
+      ],
+      "source_anchor": "聯絡電話",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0912000901"
+    },
+    {
+      "id": "f006",
+      "label": "學 籍 狀 態",
+      "path": [
+        "Page 1",
+        "學籍",
+        "學 籍 狀 態"
+      ],
+      "source_anchor": "學 籍 狀 態",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "畢業"
+      ],
+      "options": [
+        "畢業",
+        "退學",
+        "在學",
+        "休學"
+      ],
+      "context_evidence": "學籍 / 學 籍 狀 態: 畢業"
+    },
+    {
+      "id": "f007",
+      "label": "畢業年月",
+      "path": [
+        "Page 1",
+        "學籍",
+        "畢業年月"
+      ],
+      "source_anchor": "畢業年月",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "112年6月"
+    },
+    {
+      "id": "f008",
+      "label": "年級",
+      "path": [
+        "Page 1",
+        "學籍",
+        "年級"
+      ],
+      "source_anchor": "年級",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "不適用（已畢業）"
+    },
+    {
+      "id": "f009",
+      "label": "中文姓名",
+      "path": [
+        "Page 1",
+        "變更 / 中文姓名",
+        "中文姓名"
+      ],
+      "source_anchor": "中文姓名",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "中文姓名"
+      ],
+      "options": [
+        "中文姓名"
+      ],
+      "context_evidence": "變更 / 中文姓名 / 中文姓名: 中文姓名"
+    },
+    {
+      "id": "f010",
+      "label": "變更前",
+      "path": [
+        "Page 1",
+        "中文姓名 / 原資料",
+        "變更前"
+      ],
+      "source_anchor": "變更前",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "林怡君"
+    },
+    {
+      "id": "f011",
+      "label": "變更後",
+      "path": [
+        "Page 1",
+        "中文姓名 / 新資料",
+        "變更後"
+      ],
+      "source_anchor": "變更後",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "林怡安"
+    },
+    {
+      "id": "f012",
+      "label": "英文姓名",
+      "path": [
+        "Page 1",
+        "變更 / 英文姓名",
+        "英文姓名"
+      ],
+      "source_anchor": "英文姓名",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "英文姓名"
+      ],
+      "options": [
+        "英文姓名"
+      ],
+      "context_evidence": "變更 / 英文姓名 / 英文姓名: 英文姓名"
+    },
+    {
+      "id": "f013",
+      "label": "變更前",
+      "path": [
+        "Page 1",
+        "英文姓名 / 原資料",
+        "變更前"
+      ],
+      "source_anchor": "變更前",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "YI-CHUN LIN"
+    },
+    {
+      "id": "f014",
+      "label": "變更後",
+      "path": [
+        "Page 1",
+        "英文姓名 / 新資料",
+        "變更後"
+      ],
+      "source_anchor": "變更後",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "YI-AN LIN"
+    },
+    {
+      "id": "f015",
+      "label": "身分證字號",
+      "path": [
+        "Page 1",
+        "變更 / 身分證字號",
+        "身分證字號"
+      ],
+      "source_anchor": "身分證字號",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [],
+      "options": [
+        "身分證字號"
+      ],
+      "context_evidence": "變更 / 身分證字號 / 身分證字號: 不選取：此條件不適用。"
+    },
+    {
+      "id": "f016",
+      "label": "變更前",
+      "path": [
+        "Page 1",
+        "身分證字號 / 原資料",
+        "變更前"
+      ],
+      "source_anchor": "變更前",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "不適用（未申請變更）"
+    },
+    {
+      "id": "f017",
+      "label": "變更後",
+      "path": [
+        "Page 1",
+        "身分證字號 / 新資料",
+        "變更後"
+      ],
+      "source_anchor": "變更後",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "不適用（未申請變更）"
+    },
+    {
+      "id": "f018",
+      "label": "出生年月日",
+      "path": [
+        "Page 1",
+        "變更 / 出生年月日",
+        "出生年月日"
+      ],
+      "source_anchor": "出生年月日",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [],
+      "options": [
+        "出生年月日"
+      ],
+      "context_evidence": "變更 / 出生年月日 / 出生年月日: 不選取：此條件不適用。"
+    },
+    {
+      "id": "f019",
+      "label": "變更前",
+      "path": [
+        "Page 1",
+        "出生年月日 / 原資料",
+        "變更前"
+      ],
+      "source_anchor": "變更前",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "不適用（未申請變更）"
+    },
+    {
+      "id": "f020",
+      "label": "變更後",
+      "path": [
+        "Page 1",
+        "出生年月日 / 新資料",
+        "變更後"
+      ],
+      "source_anchor": "變更後",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "不適用（未申請變更）"
+    },
+    {
+      "id": "f021",
+      "label": "戶籍地址",
+      "path": [
+        "Page 1",
+        "變更 / 戶籍地址",
+        "戶籍地址"
+      ],
+      "source_anchor": "戶籍地址",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [],
+      "options": [
+        "戶籍地址"
+      ],
+      "context_evidence": "變更 / 戶籍地址 / 戶籍地址: 不選取：此條件不適用。"
+    },
+    {
+      "id": "f022",
+      "label": "變更前",
+      "path": [
+        "Page 1",
+        "戶籍地址 / 原資料",
+        "變更前"
+      ],
+      "source_anchor": "變更前",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "不適用（未申請變更）"
+    },
+    {
+      "id": "f023",
+      "label": "變更後",
+      "path": [
+        "Page 1",
+        "戶籍地址 / 新資料",
+        "變更後"
+      ],
+      "source_anchor": "變更後",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "不適用（未申請變更）"
+    },
+    {
+      "id": "f024",
+      "label": "戶籍電話",
+      "path": [
+        "Page 1",
+        "變更 / 戶籍電話",
+        "戶籍電話"
+      ],
+      "source_anchor": "戶籍電話",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [],
+      "options": [
+        "戶籍電話"
+      ],
+      "context_evidence": "變更 / 戶籍電話 / 戶籍電話: 不選取：此條件不適用。"
+    },
+    {
+      "id": "f025",
+      "label": "變更前",
+      "path": [
+        "Page 1",
+        "戶籍電話 / 原資料",
+        "變更前"
+      ],
+      "source_anchor": "變更前",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "不適用（未申請變更）"
+    },
+    {
+      "id": "f026",
+      "label": "變更後",
+      "path": [
+        "Page 1",
+        "戶籍電話 / 新資料",
+        "變更後"
+      ],
+      "source_anchor": "變更後",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "不適用（未申請變更）"
+    },
+    {
+      "id": "f027",
+      "label": "其他",
+      "path": [
+        "Page 1",
+        "變更 / 其他",
+        "其他"
+      ],
+      "source_anchor": "其他",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [],
+      "options": [
+        "其他"
+      ],
+      "context_evidence": "變更 / 其他 / 其他: 不選取：此條件不適用。"
+    },
+    {
+      "id": "f028",
+      "label": "變更前",
+      "path": [
+        "Page 1",
+        "其他 / 原資料",
+        "變更前"
+      ],
+      "source_anchor": "變更前",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "不適用（無其他變更）"
+    },
+    {
+      "id": "f029",
+      "label": "變更後",
+      "path": [
+        "Page 1",
+        "其他 / 新資料",
+        "變更後"
+      ],
+      "source_anchor": "變更後",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "不適用（無其他變更）"
+    },
+    {
+      "id": "f030",
+      "label": "其他",
+      "path": [
+        "Page 1",
+        "其他項目說明",
+        "其他"
+      ],
+      "source_anchor": "其他",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "不適用（無其他變更）"
+    },
+    {
+      "id": "f031",
+      "label": "本人",
+      "path": [
+        "Page 1",
+        "委託人",
+        "本人"
+      ],
+      "source_anchor": "本人",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "林怡安"
+    },
+    {
+      "id": "f032",
+      "label": "因",
+      "path": [
+        "Page 1",
+        "委託原因",
+        "因"
+      ],
+      "source_anchor": "因",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "人在外縣市實習，無法親自到校"
+    },
+    {
+      "id": "f033",
+      "label": "全權委託",
+      "path": [
+        "Page 1",
+        "代辦人",
+        "全權委託"
+      ],
+      "source_anchor": "全權委託",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "陳雅晴"
+    },
+    {
+      "id": "f034",
+      "label": "身分證字號",
+      "path": [
+        "Page 1",
+        "代辦人證號",
+        "身分證字號"
+      ],
+      "source_anchor": "身分證字號",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "B223456781"
+    },
+    {
+      "id": "f035",
+      "label": "申 請 人",
+      "path": [
+        "Page 1",
+        "委託簽章",
+        "申 請 人"
+      ],
+      "source_anchor": "申 請 人",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "林怡安（合成簽章）"
+    },
+    {
+      "id": "f036",
+      "label": "代辦人",
+      "path": [
+        "Page 1",
+        "委託簽章",
+        "代辦人"
+      ],
+      "source_anchor": "代辦人",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "陳雅晴（合成簽章）"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "國立臺中教育大學「學籍資料更改」申請表",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "申請日期",
+        "field": "f001",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "學 號",
+        "field": "f002",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "姓 名",
+        "field": "f003",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "( 申 請 人 親 簽 )",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "就讀學系(所)",
+        "field": "f004",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "聯絡電話",
+        "field": "f005",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "學 籍 狀 態",
+        "field": "f006",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "畢業年月",
+        "field": "f007",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "年級",
+        "field": "f008",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "更改學籍項目(請於□內勾選所需項目)",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "項目",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 3
+      },
+      {
+        "text": "變更前",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 3
+      },
+      {
+        "text": "變更後",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 3
+      },
+      {
+        "text": "檢附證明文件",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "中文姓名",
+        "field": "f009",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "變更前",
+        "field": "f010",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "變更後",
+        "field": "f011",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "text": "戶籍謄本(陸生、僑生、 外籍生需攜帶居留證正本 /護照正本)",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "英文姓名",
+        "field": "f012",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "變更前",
+        "field": "f013",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "變更後",
+        "field": "f014",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "text": "1.戶籍謄本 2.護照影本",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "(變更中文姓名者,請務必 一併更改英文姓名)",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "身分證字號",
+        "field": "f015",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "變更前",
+        "field": "f016",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "變更後",
+        "field": "f017",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "text": "戶籍謄本(陸生、僑生、 外籍生需攜帶居留證正本 /護照正本)",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "(居留證號/護照號碼)",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "出生年月日",
+        "field": "f018",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "變更前",
+        "field": "f019",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "變更後",
+        "field": "f020",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "text": "戶籍謄本",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "戶籍地址",
+        "field": "f021",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "變更前",
+        "field": "f022",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "變更後",
+        "field": "f023",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "text": "戶籍謄本",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "戶籍電話",
+        "field": "f024",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "變更前",
+        "field": "f025",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "變更後",
+        "field": "f026",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "text": "免附資料",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "其他",
+        "field": "f027",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "變更前",
+        "field": "f028",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "變更後",
+        "field": "f029",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "text": "相關佐證資料",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "其他",
+        "field": "f030",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "委託書(親自辦理者免填)",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "本人",
+        "field": "f031",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "因",
+        "field": "f032",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "全權委託",
+        "field": "f033",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "身分證字號",
+        "field": "f034",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "代為變更學籍資料事宜。",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "申 請 人",
+        "field": "f035",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "代辦人",
+        "field": "f036",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "(親自簽章)",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "代辦人於代辦申請或領取文件時,皆應攜帶申請本人及代辦人之身分證(陸生、僑生、外籍生請 攜帶護照或居留證),雙方證件需同時具備供查驗,未攜帶者不予受理。",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "申請流程 一、現場申請:持具照片之身份證明文件正本、本申請表及應檢附之證明文件至教務處註冊組辦 理。 二、通訊申請:請將具照片之身份證明文件影本、本申請表及應檢附之證明文件,郵寄至本校教 務處註冊組辦理。 三、如為更改學位證書學籍資料,另需檢附學位證書正本及已貼妥掛號郵資和寫妥收件人地址、 姓名之回郵信封1個(A4大小)。若學位證書已護貝,請另依「學位證明書補(換)發」方式申請 。 108.12.05 版",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ]
+  ],
+  "context": "本案例完全虛構；人物、身分號碼、聯絡方式、機關處理紀錄及簽章均為合成資料，不代表真實申請。\n本次更改中文姓名及相應英文姓名，檢附戶籍謄本與護照影本。其他五個更改項目均未勾選，其前後資料格明記不適用。由代理人代辦，非畢業證書更名申請。\nPage 1 / 申請 / 申請日期: 115年10月25日\nPage 1 / 學生 / 學 號: ACS108021\nPage 1 / 學生 / 姓 名: 林怡安（合成親簽）\nPage 1 / 學生 / 就讀學系(所): 教育學系\nPage 1 / 聯絡 / 聯絡電話: 0912000901\nPage 1 / 學籍 / 學 籍 狀 態: 學籍 / 學 籍 狀 態: 畢業\nPage 1 / 學籍 / 畢業年月: 112年6月\nPage 1 / 學籍 / 年級: 不適用（已畢業）\nPage 1 / 變更 / 中文姓名 / 中文姓名: 變更 / 中文姓名 / 中文姓名: 中文姓名\nPage 1 / 中文姓名 / 原資料 / 變更前: 林怡君\nPage 1 / 中文姓名 / 新資料 / 變更後: 林怡安\nPage 1 / 變更 / 英文姓名 / 英文姓名: 變更 / 英文姓名 / 英文姓名: 英文姓名\nPage 1 / 英文姓名 / 原資料 / 變更前: YI-CHUN LIN\nPage 1 / 英文姓名 / 新資料 / 變更後: YI-AN LIN\nPage 1 / 變更 / 身分證字號 / 身分證字號: 變更 / 身分證字號 / 身分證字號: 不選取：此條件不適用。\nPage 1 / 身分證字號 / 原資料 / 變更前: 不適用（未申請變更）\nPage 1 / 身分證字號 / 新資料 / 變更後: 不適用（未申請變更）\nPage 1 / 變更 / 出生年月日 / 出生年月日: 變更 / 出生年月日 / 出生年月日: 不選取：此條件不適用。\nPage 1 / 出生年月日 / 原資料 / 變更前: 不適用（未申請變更）\nPage 1 / 出生年月日 / 新資料 / 變更後: 不適用（未申請變更）\nPage 1 / 變更 / 戶籍地址 / 戶籍地址: 變更 / 戶籍地址 / 戶籍地址: 不選取：此條件不適用。\nPage 1 / 戶籍地址 / 原資料 / 變更前: 不適用（未申請變更）\nPage 1 / 戶籍地址 / 新資料 / 變更後: 不適用（未申請變更）\nPage 1 / 變更 / 戶籍電話 / 戶籍電話: 變更 / 戶籍電話 / 戶籍電話: 不選取：此條件不適用。\nPage 1 / 戶籍電話 / 原資料 / 變更前: 不適用（未申請變更）\nPage 1 / 戶籍電話 / 新資料 / 變更後: 不適用（未申請變更）\nPage 1 / 變更 / 其他 / 其他: 變更 / 其他 / 其他: 不選取：此條件不適用。\nPage 1 / 其他 / 原資料 / 變更前: 不適用（無其他變更）\nPage 1 / 其他 / 新資料 / 變更後: 不適用（無其他變更）\nPage 1 / 其他項目說明 / 其他: 不適用（無其他變更）\nPage 1 / 委託人 / 本人: 林怡安\nPage 1 / 委託原因 / 因: 人在外縣市實習，無法親自到校\nPage 1 / 代辦人 / 全權委託: 陳雅晴\nPage 1 / 代辦人證號 / 身分證字號: B223456781\nPage 1 / 委託簽章 / 申 請 人: 林怡安（合成簽章）\nPage 1 / 委託簽章 / 代辦人: 陳雅晴（合成簽章）",
+  "workflow_identity": {
+    "language": "zh",
+    "id": 901
+  }
+}

@@ -1,0 +1,960 @@
+{
+  "id": "en-914",
+  "language": "en",
+  "domain": "GovPublic",
+  "title": "Tax-Exempt Organization Complaint (Referral)",
+  "issuer": "Department of the Treasury - Internal Revenue Service",
+  "issuer_id": "irs",
+  "template_family": "irs-13909-exempt-organization-complaint",
+  "source_version": "Form 13909 (June 2023); Rev. 6-2023",
+  "source_date_evidence": {
+    "kind": "printed edition",
+    "value": "June 2023 / Rev. 6-2023",
+    "note": "Printed on both source pages. PDF author SE:T:EO; creation June 8, 2023 and modification August 3, 2023 are metadata, not edition dates. This is the archived June edition, not a claim about the latest filing edition."
+  },
+  "source_url": "https://www.reginfo.gov/public/do/DownloadDocument?objectID=134357801",
+  "landing_url": "https://www.reginfo.gov/public/do/DownloadDocument?objectID=134357801",
+  "license_url": "https://www.irs.gov/about-irs/use-of-content-from-irsgov",
+  "license_note": "Attribution: Internal Revenue Service, Department of the Treasury, Form 13909 (June 2023). The IRS Use of Content from IRS.gov notice states that information prepared and maintained by IRS employees in their official capacity is not copyrighted and may be freely copied; credit is requested. This IRS-authored form (PDF author SE:T:EO) is preserved in the official Reginfo federal archive and carries no third-party authorship notice. Complete semantic transcription and fictional completion only; official logos/artwork are omitted and no endorsement is implied. Third-party and official-symbol exclusions in the full saved notice remain applicable. The archived June 2023 form is not represented as the latest filing form.",
+  "source_sha256": "b97f07e4cc3753007738d16956512f7011941c8ff0d565743dee4ab34d23bac0",
+  "retrieved_at": "2026-10-25T18:34:05.660273+00:00",
+  "source_pages": 2,
+  "columns": 20,
+  "synthetic_context": true,
+  "source_notice": "Complete two-page source: all 20 independent user inputs on page 1 and all printed page-2 instructions. Both native state comboboxes retain all 52 options in source order, using the existing exclusive-choice representation. Three hyperlink buttons are not user input. Two sticky-note editorial annotations are separately inventoried, not promoted to form fields or printed instructions. Horizontal address/date and address/telephone groups and the full-width allegation description are retained.",
+  "fields": [
+    {
+      "id": "f001",
+      "label": "1. Name of referred organization",
+      "path": [
+        "Page 1",
+        "Referred organization",
+        "1. Name of referred organization"
+      ],
+      "source_page": 1,
+      "source_anchor": "1. Name of referred organization",
+      "kind": "text",
+      "synthetic_value": "SYN-914 Fictional Community Trust",
+      "native_widget_name": "form1[0].page1[0].referredOrganization[0]",
+      "native_widget_type": "Text",
+      "native_widget_bbox": [
+        36.0,
+        106.55999755859375,
+        576.0,
+        122.4000244140625
+      ]
+    },
+    {
+      "id": "f002",
+      "label": "2. Street address",
+      "path": [
+        "Page 1",
+        "Referred organization",
+        "2. Street address"
+      ],
+      "source_page": 1,
+      "source_anchor": "2. Street address",
+      "kind": "text",
+      "synthetic_value": "12 Example Road",
+      "native_widget_name": "form1[0].page1[0].referredStreetAddress[0]",
+      "native_widget_type": "Text",
+      "native_widget_bbox": [
+        36.0,
+        135.3599853515625,
+        576.0,
+        151.20001220703125
+      ]
+    },
+    {
+      "id": "f003",
+      "label": "3. City",
+      "path": [
+        "Page 1",
+        "Referred organization",
+        "3. City"
+      ],
+      "source_page": 1,
+      "source_anchor": "3. City",
+      "kind": "text",
+      "synthetic_value": "Austin",
+      "native_widget_name": "form1[0].page1[0].referredCity[0]",
+      "native_widget_type": "Text",
+      "native_widget_bbox": [
+        36.0,
+        164.15997314453125,
+        302.3999938964844,
+        180.0
+      ]
+    },
+    {
+      "id": "f004",
+      "label": "4. State",
+      "path": [
+        "Page 1",
+        "Referred organization",
+        "4. State"
+      ],
+      "source_page": 1,
+      "source_anchor": "4. State",
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "TX"
+      ],
+      "native_widget_name": "form1[0].page1[0].referredState[0]",
+      "native_widget_type": "ComboBox",
+      "native_widget_bbox": [
+        309.6000061035156,
+        164.15997314453125,
+        356.3999938964844,
+        180.0
+      ],
+      "options": [
+        "AK",
+        "AL",
+        "AR",
+        "AZ",
+        "CA",
+        "CO",
+        "CT",
+        "DC",
+        "DE",
+        "FL",
+        "GA",
+        "HI",
+        "IA",
+        "ID",
+        "IL",
+        "IN",
+        "KS",
+        "KY",
+        "LA",
+        "MA",
+        "MD",
+        "ME",
+        "MI",
+        "MN",
+        "MO",
+        "MS",
+        "MT",
+        "NC",
+        "ND",
+        "NE",
+        "NH",
+        "NJ",
+        "NM",
+        "NV",
+        "NY",
+        "OH",
+        "OK",
+        "OR",
+        "PA",
+        "RI",
+        "SC",
+        "SD",
+        "TN",
+        "TX",
+        "UT",
+        "VA",
+        "VT",
+        "WA",
+        "WI",
+        "WV",
+        "WY",
+        "ITL"
+      ],
+      "context_evidence": "Referred organization: the native State dropdown selection is TX (Texas)."
+    },
+    {
+      "id": "f005",
+      "label": "5. ZIP code",
+      "path": [
+        "Page 1",
+        "Referred organization",
+        "5. ZIP code"
+      ],
+      "source_page": 1,
+      "source_anchor": "5. ZIP code",
+      "kind": "text",
+      "synthetic_value": "78701",
+      "native_widget_name": "form1[0].page1[0].referredZIPCode[0]",
+      "native_widget_type": "Text",
+      "native_widget_bbox": [
+        363.6000061035156,
+        164.15997314453125,
+        428.3999938964844,
+        180.0
+      ]
+    },
+    {
+      "id": "f006",
+      "label": "6. Date of referral",
+      "path": [
+        "Page 1",
+        "Referral",
+        "6. Date of referral"
+      ],
+      "source_page": 1,
+      "source_anchor": "6. Date of referral",
+      "kind": "text",
+      "synthetic_value": "10/26/2026",
+      "native_widget_name": "form1[0].page1[0].dateOfReferral[0]",
+      "native_widget_type": "Text",
+      "native_widget_bbox": [
+        435.6000061035156,
+        164.15997314453125,
+        576.0,
+        180.0
+      ]
+    },
+    {
+      "id": "f007",
+      "label": "7. Organization’s Employer Identification Number (EIN)",
+      "path": [
+        "Page 1",
+        "Referred organization",
+        "7. Organization’s Employer Identification Number (EIN)"
+      ],
+      "source_page": 1,
+      "source_anchor": "7. Organization’s Employer Identification Number (EIN)",
+      "kind": "text",
+      "synthetic_value": "EIN unavailable; state nonprofit corporation registration number SYN-REG-914 (fictional)",
+      "native_widget_name": "form1[0].page1[0].EIN[0]",
+      "native_widget_type": "Text",
+      "native_widget_bbox": [
+        36.0,
+        192.96002197265625,
+        576.0,
+        208.79998779296875
+      ]
+    },
+    {
+      "id": "f008",
+      "label": "8. Name(s) of person(s) involved",
+      "path": [
+        "Page 1",
+        "Alleged violation",
+        "8. Name(s) of person(s) involved"
+      ],
+      "source_page": 1,
+      "source_anchor": "8. Name(s) of person(s) involved",
+      "kind": "text",
+      "synthetic_value": "Case Person A (fictional)",
+      "native_widget_name": "form1[0].page1[0].namesPersonsInvolved[0]",
+      "native_widget_type": "Text",
+      "native_widget_bbox": [
+        36.0,
+        239.760009765625,
+        576.0,
+        262.79998779296875
+      ]
+    },
+    {
+      "id": "f009",
+      "label": "9. Organizational title(s)",
+      "path": [
+        "Page 1",
+        "Alleged violation",
+        "9. Organizational title(s)"
+      ],
+      "source_page": 1,
+      "source_anchor": "9. Organizational title(s)",
+      "kind": "text",
+      "synthetic_value": "Treasurer",
+      "native_widget_name": "form1[0].page1[0].organizationalTitles[0]",
+      "native_widget_type": "Text",
+      "native_widget_bbox": [
+        36.0,
+        275.760009765625,
+        576.0,
+        298.79998779296875
+      ]
+    },
+    {
+      "id": "f010",
+      "label": "10. Date(s)",
+      "path": [
+        "Page 1",
+        "Alleged violation",
+        "10. Date(s)"
+      ],
+      "source_page": 1,
+      "source_anchor": "10. Date(s)",
+      "kind": "text",
+      "synthetic_value": "10/01/2026; 10/03/2026",
+      "native_widget_name": "form1[0].page1[0].allegedViolationDates[0]",
+      "native_widget_type": "Text",
+      "native_widget_bbox": [
+        36.0,
+        311.760009765625,
+        302.3999938964844,
+        327.6000061035156
+      ]
+    },
+    {
+      "id": "f011",
+      "label": "11. Dollar amount(s) (if known)",
+      "path": [
+        "Page 1",
+        "Alleged violation",
+        "11. Dollar amount(s) (if known)"
+      ],
+      "source_page": 1,
+      "source_anchor": "11. Dollar amount(s) (if known)",
+      "kind": "text",
+      "synthetic_value": "$500.00 total ($200.00 and $300.00)",
+      "native_widget_name": "form1[0].page1[0].dollarAmounts[0]",
+      "native_widget_type": "Text",
+      "native_widget_bbox": [
+        309.6000061035156,
+        311.760009765625,
+        576.0,
+        327.6000061035156
+      ]
+    },
+    {
+      "id": "f012",
+      "label": "12. Description of alleged activities (briefly describe the facts of the alleged violation – Who/What/Where/When/How you learned about and obtained the information in this report. Attach another sheet if needed)",
+      "path": [
+        "Page 1",
+        "Alleged violation",
+        "12. Description of alleged activities (briefly describe the facts of the alleged violation – Who/What/Where/When/How you learned about and obtained the information in this report. Attach another sheet if needed)"
+      ],
+      "source_page": 1,
+      "source_anchor": "12. Description of alleged activities (briefly describe the facts of the alleged violation – Who/What/Where/When/How you learned about and obtained the information in this report. Attach another sheet if needed)",
+      "kind": "text",
+      "synthetic_value": "Entirely fictional allegation: Case Person A, treasurer of SYN-914 Fictional Community Trust, allegedly used organization funds for personal purchases in Austin on 10/01/2026 ($200.00) and 10/03/2026 ($300.00), totaling $500.00. Fictional volunteer bookkeeper Jamie Example reviewed a fictional expense ledger on 10/10/2026 and obtained the two entries. The ledger and a fictional cover letter are supporting documentation. No other organizations or persons are alleged to be involved; the allegation is not a finding of wrongdoing.",
+      "native_widget_name": "form1[0].page1[0].descriptionAllegedActivities[0]",
+      "native_widget_type": "Text",
+      "native_widget_bbox": [
+        36.0,
+        351.3599853515625,
+        576.0,
+        547.2000122070312
+      ]
+    },
+    {
+      "id": "f013",
+      "label": "13. Name",
+      "path": [
+        "Page 1",
+        "Submitter",
+        "13. Name"
+      ],
+      "source_page": 1,
+      "source_anchor": "13. Name",
+      "kind": "text",
+      "synthetic_value": "Jamie Example (fictional)",
+      "native_widget_name": "form1[0].page1[0].submitterName[0]",
+      "native_widget_type": "Text",
+      "native_widget_bbox": [
+        36.0,
+        578.1600341796875,
+        576.0,
+        594.0
+      ]
+    },
+    {
+      "id": "f014",
+      "label": "14. Occupation or business",
+      "path": [
+        "Page 1",
+        "Submitter",
+        "14. Occupation or business"
+      ],
+      "source_page": 1,
+      "source_anchor": "14. Occupation or business",
+      "kind": "text",
+      "synthetic_value": "Volunteer bookkeeper",
+      "native_widget_name": "form1[0].page1[0].occupationBusiness[0]",
+      "native_widget_type": "Text",
+      "native_widget_bbox": [
+        36.0,
+        606.9600219726562,
+        576.0,
+        622.7999877929688
+      ]
+    },
+    {
+      "id": "f015",
+      "label": "15. Street address",
+      "path": [
+        "Page 1",
+        "Submitter",
+        "15. Street address"
+      ],
+      "source_page": 1,
+      "source_anchor": "15. Street address",
+      "kind": "text",
+      "synthetic_value": "24 Example Lane",
+      "native_widget_name": "form1[0].page1[0].submitterStreetAddress[0]",
+      "native_widget_type": "Text",
+      "native_widget_bbox": [
+        36.0,
+        635.760009765625,
+        576.0,
+        651.5999755859375
+      ]
+    },
+    {
+      "id": "f016",
+      "label": "16. City",
+      "path": [
+        "Page 1",
+        "Submitter",
+        "16. City"
+      ],
+      "source_page": 1,
+      "source_anchor": "16. City",
+      "kind": "text",
+      "synthetic_value": "Austin",
+      "native_widget_name": "form1[0].page1[0].submitterCity[0]",
+      "native_widget_type": "Text",
+      "native_widget_bbox": [
+        36.0,
+        664.5599975585938,
+        302.3999938964844,
+        680.4000244140625
+      ]
+    },
+    {
+      "id": "f017",
+      "label": "17. State",
+      "path": [
+        "Page 1",
+        "Submitter",
+        "17. State"
+      ],
+      "source_page": 1,
+      "source_anchor": "17. State",
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "TX"
+      ],
+      "native_widget_name": "form1[0].page1[0].submitterState[0]",
+      "native_widget_type": "ComboBox",
+      "native_widget_bbox": [
+        309.6000061035156,
+        664.5599975585938,
+        356.3999938964844,
+        680.4000244140625
+      ],
+      "options": [
+        "AK",
+        "AL",
+        "AR",
+        "AZ",
+        "CA",
+        "CO",
+        "CT",
+        "DC",
+        "DE",
+        "FL",
+        "GA",
+        "HI",
+        "IA",
+        "ID",
+        "IL",
+        "IN",
+        "KS",
+        "KY",
+        "LA",
+        "MA",
+        "MD",
+        "ME",
+        "MI",
+        "MN",
+        "MO",
+        "MS",
+        "MT",
+        "NC",
+        "ND",
+        "NE",
+        "NH",
+        "NJ",
+        "NM",
+        "NV",
+        "NY",
+        "OH",
+        "OK",
+        "OR",
+        "PA",
+        "RI",
+        "SC",
+        "SD",
+        "TN",
+        "TX",
+        "UT",
+        "VA",
+        "VT",
+        "WA",
+        "WI",
+        "WV",
+        "WY",
+        "ITL"
+      ],
+      "context_evidence": "Submitter: the native State dropdown selection is TX (Texas)."
+    },
+    {
+      "id": "f018",
+      "label": "18. ZIP code",
+      "path": [
+        "Page 1",
+        "Submitter",
+        "18. ZIP code"
+      ],
+      "source_page": 1,
+      "source_anchor": "18. ZIP code",
+      "kind": "text",
+      "synthetic_value": "78701",
+      "native_widget_name": "form1[0].page1[0].submitterZIPCode[0]",
+      "native_widget_type": "Text",
+      "native_widget_bbox": [
+        363.6000061035156,
+        664.5599975585938,
+        428.3999938964844,
+        680.4000244140625
+      ]
+    },
+    {
+      "id": "f019",
+      "label": "19. Telephone number",
+      "path": [
+        "Page 1",
+        "Submitter",
+        "19. Telephone number"
+      ],
+      "source_page": 1,
+      "source_anchor": "19. Telephone number",
+      "kind": "text",
+      "synthetic_value": "202-555-0146",
+      "native_widget_name": "form1[0].page1[0].submitterTelephoneNumber[0]",
+      "native_widget_type": "Text",
+      "native_widget_bbox": [
+        435.6000061035156,
+        664.5599975585938,
+        576.0,
+        680.4000244140625
+      ]
+    },
+    {
+      "id": "f020",
+      "label": "20. I am concerned that I might face retaliation or retribution if my identity is disclosed",
+      "path": [
+        "Page 1",
+        "Submitter confidentiality",
+        "20. I am concerned that I might face retaliation or retribution if my identity is disclosed"
+      ],
+      "source_page": 1,
+      "source_anchor": "20. I am concerned that I might face retaliation or retribution if my identity is disclosed",
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "20. I am concerned that I might face retaliation or retribution if my identity is disclosed"
+      ],
+      "native_widget_name": "form1[0].page1[0].concernedFaceRetaliation[0]",
+      "native_widget_type": "CheckBox",
+      "native_widget_bbox": [
+        36.0,
+        684.4000244140625,
+        46.0,
+        694.4000244140625
+      ],
+      "options": [
+        "20. I am concerned that I might face retaliation or retribution if my identity is disclosed"
+      ],
+      "context_evidence": "The fictional submitter is concerned about retaliation or retribution if their identity is disclosed; select the source checkbox numbered 20."
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Form 13909 (June 2023)",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "Department of the Treasury - Internal Revenue Service",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "Tax-Exempt Organization Complaint (Referral)",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "Referred Organization Information",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "label": "1. Name of referred organization",
+        "field": "f001",
+        "source_page": 1,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "label": "2. Street address",
+        "field": "f002",
+        "source_page": 1,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "label": "3. City",
+        "field": "f003",
+        "source_page": 1,
+        "colspan": 10
+      },
+      {
+        "label": "4. State",
+        "field": "f004",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "label": "5. ZIP code",
+        "field": "f005",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "6. Date of referral",
+        "field": "f006",
+        "source_page": 1,
+        "colspan": 5
+      }
+    ],
+    [
+      {
+        "label": "7. Organization’s Employer Identification Number (EIN)",
+        "field": "f007",
+        "source_page": 1,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "Details of Alleged Violation",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "label": "8. Name(s) of person(s) involved",
+        "field": "f008",
+        "source_page": 1,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "label": "9. Organizational title(s)",
+        "field": "f009",
+        "source_page": 1,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "label": "10. Date(s)",
+        "field": "f010",
+        "source_page": 1,
+        "colspan": 10
+      },
+      {
+        "label": "11. Dollar amount(s) (if known)",
+        "field": "f011",
+        "source_page": 1,
+        "colspan": 10
+      }
+    ],
+    [
+      {
+        "label": "12. Description of alleged activities (briefly describe the facts of the alleged violation – Who/What/Where/When/How you learned about and obtained the information in this report. Attach another sheet if needed)",
+        "field": "f012",
+        "source_page": 1,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "Submitter Information",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "label": "13. Name",
+        "field": "f013",
+        "source_page": 1,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "label": "14. Occupation or business",
+        "field": "f014",
+        "source_page": 1,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "label": "15. Street address",
+        "field": "f015",
+        "source_page": 1,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "label": "16. City",
+        "field": "f016",
+        "source_page": 1,
+        "colspan": 10
+      },
+      {
+        "label": "17. State",
+        "field": "f017",
+        "source_page": 1,
+        "colspan": 2
+      },
+      {
+        "label": "18. ZIP code",
+        "field": "f018",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "19. Telephone number",
+        "field": "f019",
+        "source_page": 1,
+        "colspan": 5
+      }
+    ],
+    [
+      {
+        "label": "20. I am concerned that I might face retaliation or retribution if my identity is disclosed",
+        "field": "f020",
+        "source_page": 1,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "Submission and Documentation",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "The completed form, along with any supporting documentation, may be mailed to IRS TEGE Classification, Mail Code 4910DAL, 1100 Commerce Street Dallas, TX 75242-1027 or emailed to eoclass@irs.gov. Disclaimer Notice: Your email submission of Form 13909 and attachments are not encrypted for security.",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "Catalog Number 50614A",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "www.irs.gov",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "Form 13909 (Rev. 6-2023)",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "Instructions for Form 13909, Tax-Exempt Organization Complaint (Referral)",
+        "source_page": 2,
+        "heading": true,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "General Information",
+        "source_page": 2,
+        "heading": true,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "The information provided on this form will help the Internal Revenue Service (IRS) determine if there has been a violation of federal tax law. The Tax Exempt and Government Entities (TEGE) division is responsible for exempt organizations, employee plans, Indian tribal governments, tax exempt bonds, and federal, state and local governments. Submission of this form is voluntary.",
+        "source_page": 2,
+        "heading": false,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "Upon receipt of this form, the IRS will send you a letter acknowledging receipt of the information you submitted. If at a later date you wish to submit additional information regarding the organization, please attach a copy of the form initially submitted, and send it to the address shown above.",
+        "source_page": 2,
+        "heading": false,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "Specific Instructions",
+        "source_page": 2,
+        "heading": true,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "1 - 5. Organization name and address: Provide the current name and address of the organization. If the organization has used prior or multiple name(s) or address(es), also provide that information.",
+        "source_page": 2,
+        "heading": false,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "6. Date of referral: Enter the date you submit the completed form",
+        "source_page": 2,
+        "heading": false,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "7. Employer identification number: Provide the organization’s EIN.",
+        "source_page": 2,
+        "heading": false,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "The EIN is a nine-digit number, issued by the IRS, that the organization uses for tax purposes (like a Social Security Number (SSN) for an individual). If the EIN is unavailable, include a state nonprofit corporation registration number, if available.",
+        "source_page": 2,
+        "heading": false,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "8 - 12. Details of alleged violation: Provide specific details of the alleged violation including names, actions, places, amounts, dates, and the nature of any evidence or documentation (who, what, where, when, how). Include the names of other organizations, entities or persons that may be involved with the organization, providing EINs or SSNs, if available.",
+        "source_page": 2,
+        "heading": false,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "13 - 20. Submitter information: Provide your name, address, and business or occupation. Include your daytime telephone number, in case we wish to contact you. The acknowledgement letter will be sent to the address you provide.",
+        "source_page": 2,
+        "heading": false,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "If you are concerned that you may face retribution if your identity is disclosed, check the box. You may enter “Anonymous” for Submitter’s name if you do not want to be identified.",
+        "source_page": 2,
+        "heading": false,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "Submission and Documentation: Mail the completed form, including any supporting documentation that you would like for us to review, to the address provided on the form. You may also email the completed form and any supporting documentation to the email address provided on the form. Include a cover letter describing the documentation or evidence you are providing. If you have already received an acknowledgment letter, include a copy of that letter. If possible, please try to submit all documentation at the same time.",
+        "source_page": 2,
+        "heading": false,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "If your referral relates to a church please be aware that Congress has imposed special limitations, found in IRC section 7611, on how and when the IRS may conduct civil tax inquiries and examinations of churches. You can find out more about these special limitations in Publication 1828, Tax Guide for Churches and Religious Organizations, in the section on Special Rules Limiting IRS Authority to Audit a Church.",
+        "source_page": 2,
+        "heading": false,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "Claim for reward: To claim a reward for providing this information to the IRS, file Form 211, Application for Award for Original Information.",
+        "source_page": 2,
+        "heading": false,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "Note: Federal law prohibits the IRS from providing you with status updates or information about specific actions taken in response to the information you submit.",
+        "source_page": 2,
+        "heading": false,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "Catalog Number 50614A",
+        "source_page": 2,
+        "heading": false,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "www.irs.gov",
+        "source_page": 2,
+        "heading": false,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "Form 13909 (Rev. 6-2023)",
+        "source_page": 2,
+        "heading": false,
+        "colspan": 20
+      }
+    ]
+  ],
+  "context": "This is an entirely fictional benchmark completion, not an actual complaint, legal filing, tax-exemption determination or real-person allegation. All people, organizations, addresses, identifiers and documents are synthetic. The source is the archived June 2023 edition; historical submission instructions are preserved verbatim, not current filing advice. On October 26, 2026 the volunteer bookkeeper submits a fictional referral about a fictional non-church charitable organization. EIN is unavailable; the source permits the alternative state nonprofit corporation registration number, so SYN-REG-914 is explicitly a fictional registration token, not a valid EIN. There is one alleged person, one treasurer role and two expense-ledger entries: October 1 $200 plus October 3 $300 equals $500. The bookkeeper reviewed these entries October 10. A fictional ledger and cover letter accompany the scenario, with no prior acknowledgement and no reward claim. Both organization and submitter are in Austin, TX 78701; TX is a native dropdown option. The reserved fictional telephone is a daytime contact. Concern about retaliation is true; the submitter gives a fictional name rather than Anonymous. No signature field or attachment-upload field is invented.\nPage 1 / Referred organization / 1. Name of referred organization: SYN-914 Fictional Community Trust\nPage 1 / Referred organization / 2. Street address: 12 Example Road\nPage 1 / Referred organization / 3. City: Austin\nPage 1 / Referred organization / 4. State: Referred organization: the native State dropdown selection is TX (Texas).\nPage 1 / Referred organization / 5. ZIP code: 78701\nPage 1 / Referral / 6. Date of referral: 10/26/2026\nPage 1 / Referred organization / 7. Organization’s Employer Identification Number (EIN): EIN unavailable; state nonprofit corporation registration number SYN-REG-914 (fictional)\nPage 1 / Alleged violation / 8. Name(s) of person(s) involved: Case Person A (fictional)\nPage 1 / Alleged violation / 9. Organizational title(s): Treasurer\nPage 1 / Alleged violation / 10. Date(s): 10/01/2026; 10/03/2026\nPage 1 / Alleged violation / 11. Dollar amount(s) (if known): $500.00 total ($200.00 and $300.00)\nPage 1 / Alleged violation / 12. Description of alleged activities (briefly describe the facts of the alleged violation – Who/What/Where/When/How you learned about and obtained the information in this report. Attach another sheet if needed): Entirely fictional allegation: Case Person A, treasurer of SYN-914 Fictional Community Trust, allegedly used organization funds for personal purchases in Austin on 10/01/2026 ($200.00) and 10/03/2026 ($300.00), totaling $500.00. Fictional volunteer bookkeeper Jamie Example reviewed a fictional expense ledger on 10/10/2026 and obtained the two entries. The ledger and a fictional cover letter are supporting documentation. No other organizations or persons are alleged to be involved; the allegation is not a finding of wrongdoing.\nPage 1 / Submitter / 13. Name: Jamie Example (fictional)\nPage 1 / Submitter / 14. Occupation or business: Volunteer bookkeeper\nPage 1 / Submitter / 15. Street address: 24 Example Lane\nPage 1 / Submitter / 16. City: Austin\nPage 1 / Submitter / 17. State: Submitter: the native State dropdown selection is TX (Texas).\nPage 1 / Submitter / 18. ZIP code: 78701\nPage 1 / Submitter / 19. Telephone number: 202-555-0146\nPage 1 / Submitter confidentiality / 20. I am concerned that I might face retaliation or retribution if my identity is disclosed: The fictional submitter is concerned about retaliation or retribution if their identity is disclosed; select the source checkbox numbered 20.",
+  "workflow_identity": {
+    "language": "en",
+    "id": 914
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "id": "zh-913",
+  "language": "zh",
+  "title": "病歷保管聲明書",
+  "domain": "Healthcare",
+  "issuer": "基隆市衛生局",
+  "issuer_id": "keelung",
+  "template_family": "keelung-kmh-record-custody",
+  "source_version": "Undated",
+  "source_date_evidence": {
+    "kind": "undated complete source",
+    "value": "Undated",
+    "note": "Printed edition is recorded separately from the actual retrieval timestamp; current linkage is preserved in the official landing snapshot."
+  },
+  "source_url": "https://www.kmh.klcg.gov.tw/wSite/public/Attachment/01203/f1769063482623.pdf",
+  "landing_url": "https://www.kmh.klcg.gov.tw/tw/kmh1/4206-286983.html",
+  "license_url": "https://www.kmh.klcg.gov.tw/tw/kmh1/4021-265095.html",
+  "license_note": "Attribution: 基隆市衛生局. The official website open-data/copyright notice permits copying, adaptation and commercial/noncommercial reuse, with attribution and stated exclusions for logos and third-party material. Complete semantic form transcription and fictional completion; official logos are omitted. The original PDF and the complete applicable notice are preserved locally.",
+  "source_sha256": "363eab71898f13558c5e0300c2a5d8c4dcb563033a3a6c768157aa9f34ce7e4f",
+  "retrieved_at": "2026-10-25T07:05:05.517104+00:00",
+  "source_pages": 1,
+  "columns": 12,
+  "synthetic_context": true,
+  "source_notice": "Native-language complete source. Every independent blank is a separate target; genuine logical choice groups alone are grouped. Repeated rows and horizontal groups are retained. Static shared headings are repeated where the unchanged renderer has no rowspan support.",
+  "fields": [
+    {
+      "id": "f001",
+      "label": "為辦理",
+      "path": [
+        "Page 1",
+        "聲明人",
+        "為辦理"
+      ],
+      "source_anchor": "為辦理",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "陳文哲"
+    },
+    {
+      "id": "f002",
+      "label": "診所歇業",
+      "path": [
+        "Page 1",
+        "歇業診所",
+        "診所歇業"
+      ],
+      "source_anchor": "診所歇業",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "合成診所"
+    },
+    {
+      "id": "f003",
+      "label": "負責醫師簽章",
+      "path": [
+        "Page 1",
+        "負責醫師簽章",
+        "負責醫師簽章"
+      ],
+      "source_anchor": "負責醫師簽章",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "陳文哲（合成簽章）"
+    },
+    {
+      "id": "f004",
+      "label": "身分證字號",
+      "path": [
+        "Page 1",
+        "負責醫師證號",
+        "身分證字號"
+      ],
+      "source_anchor": "身分證字號",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "C123456781"
+    },
+    {
+      "id": "f005",
+      "label": "聯絡電話",
+      "path": [
+        "Page 1",
+        "負責醫師聯絡",
+        "聯絡電話"
+      ],
+      "source_anchor": "聯絡電話",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0912000913"
+    },
+    {
+      "id": "f006",
+      "label": "日期",
+      "path": [
+        "Page 1",
+        "聲明日期",
+        "日期"
+      ],
+      "source_anchor": "日期",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "115年10月25日"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "病歷保管聲明書",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "為辦理",
+        "field": "f001",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "診所歇業",
+        "field": "f002",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "為辦理",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "診所歇業,將依醫 療法第70 條規定,自行保管診所所製病歷。",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "此致",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "基隆市衛生局",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "負責醫師簽章",
+        "field": "f003",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "身分證字號",
+        "field": "f004",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "聯絡電話",
+        "field": "f005",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "日期",
+        "field": "f006",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ]
+  ],
+  "context": "本案例完全虛構；人物、身分號碼、聯絡方式、機關處理紀錄及簽章均為合成資料，不代表真實申請。\n合成診所辦理歇業，由負責醫師陳文哲自行保管該診所製作之病歷，依原表醫療法第70條聲明。表首兩個獨立敘述空白分別為聲明人與診所名稱。\nPage 1 / 聲明人 / 為辦理: 陳文哲\nPage 1 / 歇業診所 / 診所歇業: 合成診所\nPage 1 / 負責醫師簽章 / 負責醫師簽章: 陳文哲（合成簽章）\nPage 1 / 負責醫師證號 / 身分證字號: C123456781\nPage 1 / 負責醫師聯絡 / 聯絡電話: 0912000913\nPage 1 / 聲明日期 / 日期: 115年10月25日",
+  "workflow_identity": {
+    "language": "zh",
+    "id": 913
+  }
+}

@@ -1,0 +1,1291 @@
+{
+  "id": "es-924",
+  "language": "es",
+  "title": "RESOLUCIÓN DE LICENCIA / PERMISO / INCAPACIDAD TEMPORAL",
+  "domain": "WorkplaceHR",
+  "issuer": "Ministerio para la Transformación Digital y de la Función Pública",
+  "issuer_id": "mtdfp",
+  "template_family": "mtdfp-rcp-f17",
+  "source_version": "Versión 2018",
+  "source_date_evidence": {
+    "kind": "printed edition",
+    "value": "Versión 2018",
+    "note": "Printed edition is separate from retrieval time; no current-validity claim."
+  },
+  "source_url": "https://digital.gob.es/content/dam/portal-mtdfp/funcion-publica/dgfp/registro-central-personal/documentacion/impresos-personal-funcionario---editables/F17_18.pdf",
+  "landing_url": "https://digital.gob.es/funcion-publica/dgfp/registro-central-personal/registro-central-personal/impresos-funcionarios",
+  "retrieved_at": "2026-10-25T06:58:08.036873+00:00",
+  "source_sha256": "5aa8823c15c9deb1e5bdbb8e6583256e33eac1b6d43d0faafbbba919a019d5ce",
+  "source_pages": 1,
+  "license_url": "https://digital.gob.es/nota-legal",
+  "license_note": "Origen de los datos: Ministerio para la Transformación Digital y de la Función Pública. Nota Legal, Condiciones generales de reutilización: commercial and noncommercial copying, distribution, modification, adaptation and reordering authorized with source attribution, preserved meaning, original edition metadata and no endorsement claim. Complete semantic transcription in a normalized grid; all completed data and signatures are fictional. No administrative action or issuer endorsement.",
+  "columns": 12,
+  "synthetic_context": true,
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Mo / Org:",
+      "path": [
+        "Página 1",
+        "General",
+        "Mo / Org:"
+      ],
+      "source_anchor": "Mo / Org:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Ministerio de Ejemplo Sintético"
+    },
+    {
+      "id": "f002",
+      "label": "CONCESIÓN / INICIO",
+      "path": [
+        "Página 1",
+        "General",
+        "Actuación"
+      ],
+      "source_anchor": "CONCESIÓN / INICIO",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "CONCESIÓN / INICIO"
+      ],
+      "options": [
+        "CONCESIÓN / INICIO",
+        "FINALIZACIÓN",
+        "ANULACIÓN"
+      ],
+      "context_evidence": "General / CONCESIÓN / INICIO: CONCESIÓN / INICIO."
+    },
+    {
+      "id": "f003",
+      "label": "NIP:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "NIP:"
+      ],
+      "source_anchor": "NIP:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SINT90000A"
+    },
+    {
+      "id": "f004",
+      "label": "D.N.I./N.I.E./PASAPORTE/OTRO:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "D.N.I./N.I.E./PASAPORTE/OTRO:"
+      ],
+      "source_anchor": "D.N.I./N.I.E./PASAPORTE/OTRO:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "PASAPORTE-SINT-900"
+    },
+    {
+      "id": "f005",
+      "label": "NRP:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "NRP:"
+      ],
+      "source_anchor": "NRP:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NRP-SINT-900"
+    },
+    {
+      "id": "f006",
+      "label": "APELLIDOS Y NOMBRE:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "APELLIDOS Y NOMBRE:"
+      ],
+      "source_anchor": "APELLIDOS Y NOMBRE:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SOLER RIVERA, MARTINA"
+    },
+    {
+      "id": "f007",
+      "label": "TIPO DE RELACIÓN DE SERVICIOS:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "TIPO DE RELACIÓN DE SERVICIOS: / Denominación"
+      ],
+      "source_anchor": "TIPO DE RELACIÓN DE SERVICIOS:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Funcionaria de carrera"
+    },
+    {
+      "id": "f008",
+      "label": "TIPO DE RELACIÓN DE SERVICIOS:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "TIPO DE RELACIÓN DE SERVICIOS: / Código"
+      ],
+      "source_anchor": "TIPO DE RELACIÓN DE SERVICIOS:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "01",
+      "label_from": "f007",
+      "label_position": [
+        9,
+        0
+      ]
+    },
+    {
+      "id": "f009",
+      "label": "CUERPO O ESCALA:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "CUERPO O ESCALA: / Denominación"
+      ],
+      "source_anchor": "CUERPO O ESCALA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Escala administrativa de ejemplo"
+    },
+    {
+      "id": "f010",
+      "label": "CUERPO O ESCALA:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "CUERPO O ESCALA: / Código"
+      ],
+      "source_anchor": "CUERPO O ESCALA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0900",
+      "label_from": "f009",
+      "label_position": [
+        10,
+        0
+      ]
+    },
+    {
+      "id": "f011",
+      "label": "GRUPO/SUBGRUPO:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "GRUPO/SUBGRUPO:"
+      ],
+      "source_anchor": "GRUPO/SUBGRUPO:",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "C 1"
+      ],
+      "options": [
+        "A 1",
+        "A 2",
+        "B",
+        "C 1",
+        "C 2",
+        "E"
+      ],
+      "context_evidence": "1. DATOS DEL FUNCIONARIO/A / GRUPO/SUBGRUPO:: C 1."
+    },
+    {
+      "id": "f012",
+      "label": "ESPECIALIDAD:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "ESPECIALIDAD: / Denominación"
+      ],
+      "source_anchor": "ESPECIALIDAD:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Gestión administrativa"
+    },
+    {
+      "id": "f013",
+      "label": "ESPECIALIDAD:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "ESPECIALIDAD: / Código"
+      ],
+      "source_anchor": "ESPECIALIDAD:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "001",
+      "label_from": "f012",
+      "label_position": [
+        11,
+        4
+      ]
+    },
+    {
+      "id": "f014",
+      "label": "SITUACIÓN ADMINISTRATIVA:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "SITUACIÓN ADMINISTRATIVA: / Denominación"
+      ],
+      "source_anchor": "SITUACIÓN ADMINISTRATIVA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Servicio activo"
+    },
+    {
+      "id": "f015",
+      "label": "SITUACIÓN ADMINISTRATIVA:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "SITUACIÓN ADMINISTRATIVA: / Código"
+      ],
+      "source_anchor": "SITUACIÓN ADMINISTRATIVA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "01",
+      "label_from": "f014",
+      "label_position": [
+        12,
+        0
+      ]
+    },
+    {
+      "id": "f016",
+      "label": "MODALIDAD:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "MODALIDAD: / Denominación"
+      ],
+      "source_anchor": "MODALIDAD:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Ordinaria"
+    },
+    {
+      "id": "f017",
+      "label": "MODALIDAD:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "MODALIDAD: / Código"
+      ],
+      "source_anchor": "MODALIDAD:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "00",
+      "label_from": "f016",
+      "label_position": [
+        13,
+        0
+      ]
+    },
+    {
+      "id": "f018",
+      "label": "GRADO PERSONAL RECONOCIDO SUPERIOR AL NIVEL DEL PUESTO:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "GRADO PERSONAL RECONOCIDO SUPERIOR AL NIVEL DEL PUESTO:"
+      ],
+      "source_anchor": "GRADO PERSONAL RECONOCIDO SUPERIOR AL NIVEL DEL PUESTO:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio: grado no superior al nivel del puesto"
+    },
+    {
+      "id": "f019",
+      "label": "DENOMINACIÓN:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "DENOMINACIÓN: / Denominación"
+      ],
+      "source_anchor": "DENOMINACIÓN:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Administrativa de gestión"
+    },
+    {
+      "id": "f020",
+      "label": "DENOMINACIÓN:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "DENOMINACIÓN: / Código"
+      ],
+      "source_anchor": "DENOMINACIÓN:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "00000900",
+      "label_from": "f019",
+      "label_position": [
+        16,
+        0
+      ]
+    },
+    {
+      "id": "f021",
+      "label": "MINISTERIO / ORG. / ENTE:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "Organización / Línea 1"
+      ],
+      "source_anchor": "MINISTERIO / ORG. / ENTE:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Ministerio de Ejemplo Sintético"
+    },
+    {
+      "id": "f022",
+      "label": "MINISTERIO / ORG. / ENTE:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "Organización / Línea 2"
+      ],
+      "source_anchor": "MINISTERIO / ORG. / ENTE:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Secretaría General de Ejemplo"
+    },
+    {
+      "id": "f023",
+      "label": "MINISTERIO / ORG. / ENTE:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "Organización / Línea 3"
+      ],
+      "source_anchor": "MINISTERIO / ORG. / ENTE:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Dirección de Gestión"
+    },
+    {
+      "id": "f024",
+      "label": "MINISTERIO / ORG. / ENTE:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "Organización / Línea 4"
+      ],
+      "source_anchor": "MINISTERIO / ORG. / ENTE:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Unidad de Personal"
+    },
+    {
+      "id": "f025",
+      "label": "PROVINCIA:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "PROVINCIA: / Denominación"
+      ],
+      "source_anchor": "PROVINCIA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Madrid"
+    },
+    {
+      "id": "f026",
+      "label": "PROVINCIA:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "PROVINCIA: / Código"
+      ],
+      "source_anchor": "PROVINCIA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "28",
+      "label_from": "f025",
+      "label_position": [
+        21,
+        0
+      ]
+    },
+    {
+      "id": "f027",
+      "label": "LOCALIDAD:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "LOCALIDAD: / Denominación"
+      ],
+      "source_anchor": "LOCALIDAD:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Madrid"
+    },
+    {
+      "id": "f028",
+      "label": "LOCALIDAD:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "LOCALIDAD: / Código"
+      ],
+      "source_anchor": "LOCALIDAD:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "079",
+      "label_from": "f027",
+      "label_position": [
+        21,
+        6
+      ]
+    },
+    {
+      "id": "f029",
+      "label": "PROV. RESIDENCIA:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "PROV. RESIDENCIA: / Denominación"
+      ],
+      "source_anchor": "PROV. RESIDENCIA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Madrid"
+    },
+    {
+      "id": "f030",
+      "label": "PROV. RESIDENCIA:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "PROV. RESIDENCIA: / Código"
+      ],
+      "source_anchor": "PROV. RESIDENCIA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "28",
+      "label_from": "f029",
+      "label_position": [
+        22,
+        0
+      ]
+    },
+    {
+      "id": "f031",
+      "label": "LOC. RESIDENCIA:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "LOC. RESIDENCIA: / Denominación"
+      ],
+      "source_anchor": "LOC. RESIDENCIA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Madrid"
+    },
+    {
+      "id": "f032",
+      "label": "LOC. RESIDENCIA:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "LOC. RESIDENCIA: / Código"
+      ],
+      "source_anchor": "LOC. RESIDENCIA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "079",
+      "label_from": "f031",
+      "label_position": [
+        22,
+        6
+      ]
+    },
+    {
+      "id": "f033",
+      "label": "COMPLEMENTO ESPECÍFICO:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "COMPLEMENTO ESPECÍFICO:"
+      ],
+      "source_anchor": "COMPLEMENTO ESPECÍFICO:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "6000,00 EUR anuales"
+    },
+    {
+      "id": "f034",
+      "label": "NIVEL",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "NIVEL"
+      ],
+      "source_anchor": "NIVEL",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "18"
+    },
+    {
+      "id": "f035",
+      "label": "TIPO DE LICENCIA / PERMISO / IT:",
+      "path": [
+        "Página 1",
+        "3. DATOS DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL",
+        "TIPO DE LICENCIA / PERMISO / IT: / Denominación"
+      ],
+      "source_anchor": "TIPO DE LICENCIA / PERMISO / IT:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Permiso por asuntos particulares del supuesto sintético"
+    },
+    {
+      "id": "f036",
+      "label": "TIPO DE LICENCIA / PERMISO / IT:",
+      "path": [
+        "Página 1",
+        "3. DATOS DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL",
+        "TIPO DE LICENCIA / PERMISO / IT: / Código"
+      ],
+      "source_anchor": "TIPO DE LICENCIA / PERMISO / IT:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "01",
+      "label_from": "f035",
+      "label_position": [
+        25,
+        0
+      ]
+    },
+    {
+      "id": "f037",
+      "label": "DE",
+      "path": [
+        "Página 1",
+        "3. DATOS DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL",
+        "Periodo inicial / desde"
+      ],
+      "source_anchor": "DE",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "02/11/2026"
+    },
+    {
+      "id": "f038",
+      "label": "A",
+      "path": [
+        "Página 1",
+        "3. DATOS DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL",
+        "Periodo inicial / hasta"
+      ],
+      "source_anchor": "A",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "03/11/2026"
+    },
+    {
+      "id": "f039",
+      "label": "NÚMERO/",
+      "path": [
+        "Página 1",
+        "3. DATOS DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL",
+        "NÚMERO/"
+      ],
+      "source_anchor": "NÚMERO/",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f040",
+      "label": "DE",
+      "path": [
+        "Página 1",
+        "3. DATOS DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL",
+        "Prórroga / desde"
+      ],
+      "source_anchor": "DE",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f041",
+      "label": "A",
+      "path": [
+        "Página 1",
+        "3. DATOS DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL",
+        "Prórroga / hasta"
+      ],
+      "source_anchor": "A",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f042",
+      "label": "RÉGIMEN DE PREVISIÓN:",
+      "path": [
+        "Página 1",
+        "3. DATOS DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL",
+        "RÉGIMEN DE PREVISIÓN:"
+      ],
+      "source_anchor": "RÉGIMEN DE PREVISIÓN:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Régimen General de la Seguridad Social"
+    },
+    {
+      "id": "f043",
+      "label": "DISPOSICIÓN APLICADA:",
+      "path": [
+        "Página 1",
+        "3. DATOS DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL",
+        "DISPOSICIÓN APLICADA:"
+      ],
+      "source_anchor": "DISPOSICIÓN APLICADA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Artículo 48.k del texto refundido del Estatuto Básico del Empleado Público; caso ficticio"
+    },
+    {
+      "id": "f044",
+      "label": "DESCRIPCIÓN Y EFECTOS:",
+      "path": [
+        "Página 1",
+        "4. DATOS DE LA INCIDENCIA DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL",
+        "DESCRIPCIÓN Y EFECTOS:"
+      ],
+      "source_anchor": "DESCRIPCIÓN Y EFECTOS:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio: sin incidencia"
+    },
+    {
+      "id": "f045",
+      "label": "FECHA",
+      "path": [
+        "Página 1",
+        "4. DATOS DE LA INCIDENCIA DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL",
+        "FECHA"
+      ],
+      "source_anchor": "FECHA",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f046",
+      "label": "FECHA DE FINALIZACIÓN / ANULACIÓN",
+      "path": [
+        "Página 1",
+        "5. DATOS DE LA FINALIZACIÓN DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL",
+        "FECHA DE FINALIZACIÓN / ANULACIÓN"
+      ],
+      "source_anchor": "FECHA DE FINALIZACIÓN / ANULACIÓN",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio: se concede el permiso, no se dicta terminación anticipada"
+    },
+    {
+      "id": "f047",
+      "label": "MOTIVO:",
+      "path": [
+        "Página 1",
+        "5. DATOS DE LA FINALIZACIÓN DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL",
+        "MOTIVO:"
+      ],
+      "source_anchor": "MOTIVO:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f048",
+      "label": "6. OBSERVACIONES / OTROS DATOS",
+      "path": [
+        "Página 1",
+        "6. OBSERVACIONES / OTROS DATOS",
+        "6. OBSERVACIONES / OTROS DATOS"
+      ],
+      "source_anchor": "6. OBSERVACIONES / OTROS DATOS",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Sin otras observaciones en el expediente sintético"
+    },
+    {
+      "id": "f049",
+      "label": "7. RECURSOS QUE PROCEDEN CONTRA LA PRESENTE RESOLUCIÓN",
+      "path": [
+        "Página 1",
+        "7. RECURSOS QUE PROCEDEN CONTRA LA PRESENTE RESOLUCIÓN",
+        "7. RECURSOS QUE PROCEDEN CONTRA LA PRESENTE RESOLUCIÓN"
+      ],
+      "source_anchor": "7. RECURSOS QUE PROCEDEN CONTRA LA PRESENTE RESOLUCIÓN",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Recurso de alzada ante la Secretaría de Estado de Ejemplo en el plazo de un mes desde la notificación; supuesto ficticio."
+    },
+    {
+      "id": "f050",
+      "label": "Lugar y fecha",
+      "path": [
+        "Página 1",
+        "Emisión",
+        "Lugar"
+      ],
+      "source_anchor": "Lugar y fecha",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Madrid"
+    },
+    {
+      "id": "f051",
+      "label": "Lugar y fecha",
+      "path": [
+        "Página 1",
+        "Emisión",
+        "Fecha"
+      ],
+      "source_anchor": "Lugar y fecha",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "25/10/2026"
+    },
+    {
+      "id": "f052",
+      "label": "El/La",
+      "path": [
+        "Página 1",
+        "Emisión",
+        "Cargo de la autoridad"
+      ],
+      "source_anchor": "El/La",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Directora de Personal de Ejemplo"
+    },
+    {
+      "id": "f053",
+      "label": "Fdo.:",
+      "path": [
+        "Página 1",
+        "Emisión",
+        "Fdo.:"
+      ],
+      "source_anchor": "Fdo.:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma ficticia de CLARA NAVARRO"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "label": "Mo / Org:",
+        "field": "f001",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "F.17",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "RESOLUCIÓN DE LICENCIA / PERMISO / INCAPACIDAD TEMPORAL",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "En uso de las facultades conferidas y previas las actuaciones reglamentarias oportunas, procede la",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "CONCESIÓN / INICIO",
+        "field": "f002",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "de la licencia / permiso / incapacidad temporal cuyo detalle sigue:",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "1. DATOS DEL FUNCIONARIO/A",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "NIP:",
+        "field": "f003",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "D.N.I./N.I.E./PASAPORTE/OTRO:",
+        "field": "f004",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "NRP:",
+        "field": "f005",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "APELLIDOS Y NOMBRE:",
+        "field": "f006",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "TIPO DE RELACIÓN DE SERVICIOS:",
+        "field": "f007",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "CUERPO O ESCALA:",
+        "field": "f009",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "GRUPO/SUBGRUPO:",
+        "field": "f011",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "ESPECIALIDAD:",
+        "field": "f012",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f013",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SITUACIÓN ADMINISTRATIVA:",
+        "field": "f014",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "MODALIDAD:",
+        "field": "f016",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f017",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "GRADO PERSONAL RECONOCIDO SUPERIOR AL NIVEL DEL PUESTO:",
+        "field": "f018",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "2. DATOS DEL PUESTO DE TRABAJO",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "DENOMINACIÓN:",
+        "field": "f019",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f020",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "MINISTERIO / ORG. / ENTE:",
+        "field": "f021",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "MINISTERIO / ORG. / ENTE:",
+        "field": "f022",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "MINISTERIO / ORG. / ENTE:",
+        "field": "f023",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "MINISTERIO / ORG. / ENTE:",
+        "field": "f024",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "PROVINCIA:",
+        "field": "f025",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f026",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "LOCALIDAD:",
+        "field": "f027",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f028",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "PROV. RESIDENCIA:",
+        "field": "f029",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f030",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "LOC. RESIDENCIA:",
+        "field": "f031",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f032",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "COMPLEMENTO ESPECÍFICO:",
+        "field": "f033",
+        "colspan": 9,
+        "source_page": 1
+      },
+      {
+        "label": "NIVEL",
+        "field": "f034",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "3. DATOS DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "TIPO DE LICENCIA / PERMISO / IT:",
+        "field": "f035",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f036",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "PERIODO:",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "DE",
+        "field": "f037",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "A",
+        "field": "f038",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "PRÓRROGA LICENCIA E.",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "NÚMERO/",
+        "field": "f039",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "DE",
+        "field": "f040",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "A",
+        "field": "f041",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "RÉGIMEN DE PREVISIÓN:",
+        "field": "f042",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "DISPOSICIÓN APLICADA:",
+        "field": "f043",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "4. DATOS DE LA INCIDENCIA DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "DESCRIPCIÓN Y EFECTOS:",
+        "field": "f044",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FECHA",
+        "field": "f045",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "5. DATOS DE LA FINALIZACIÓN DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "FECHA DE FINALIZACIÓN / ANULACIÓN",
+        "field": "f046",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "MOTIVO:",
+        "field": "f047",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "6. OBSERVACIONES / OTROS DATOS",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "6. OBSERVACIONES / OTROS DATOS",
+        "field": "f048",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "7. RECURSOS QUE PROCEDEN CONTRA LA PRESENTE RESOLUCIÓN",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "7. RECURSOS QUE PROCEDEN CONTRA LA PRESENTE RESOLUCIÓN",
+        "field": "f049",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Lugar y fecha",
+        "field": "f050",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Lugar y fecha",
+        "field": "f051",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "El/La",
+        "field": "f052",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fdo.:",
+        "field": "f053",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Versión 2018",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ]
+  ],
+  "source_notice": "All source pages, meaningful static text, independent writing regions and genuine choice options retained. Consecutive character boxes of one identifier/date/code form one logical input; descriptions and their separate codes are distinct fields. Source horizontal groups and repeated rows are explicit. Graphical branding and internal PDF utility controls are not reproduced.",
+  "context": "CASO ENTERAMENTE FICTICIO. Personas, organismos de ejemplo, identificadores, códigos, importes y firmas son datos sintéticos para esta transcripción; no acreditan un expediente ni una actuación administrativa real.\n\nPágina 1 / General / Mo / Org:: Ministerio de Ejemplo Sintético\nGeneral / CONCESIÓN / INICIO: CONCESIÓN / INICIO.\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / NIP:: SINT90000A\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / D.N.I./N.I.E./PASAPORTE/OTRO:: PASAPORTE-SINT-900\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / NRP:: NRP-SINT-900\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / APELLIDOS Y NOMBRE:: SOLER RIVERA, MARTINA\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / TIPO DE RELACIÓN DE SERVICIOS: / Denominación: Funcionaria de carrera\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / TIPO DE RELACIÓN DE SERVICIOS: / Código: 01\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / CUERPO O ESCALA: / Denominación: Escala administrativa de ejemplo\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / CUERPO O ESCALA: / Código: 0900\n1. DATOS DEL FUNCIONARIO/A / GRUPO/SUBGRUPO:: C 1.\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / ESPECIALIDAD: / Denominación: Gestión administrativa\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / ESPECIALIDAD: / Código: 001\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / SITUACIÓN ADMINISTRATIVA: / Denominación: Servicio activo\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / SITUACIÓN ADMINISTRATIVA: / Código: 01\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / MODALIDAD: / Denominación: Ordinaria\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / MODALIDAD: / Código: 00\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / GRADO PERSONAL RECONOCIDO SUPERIOR AL NIVEL DEL PUESTO:: No procede en este supuesto ficticio: grado no superior al nivel del puesto\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / DENOMINACIÓN: / Denominación: Administrativa de gestión\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / DENOMINACIÓN: / Código: 00000900\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / Organización / Línea 1: Ministerio de Ejemplo Sintético\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / Organización / Línea 2: Secretaría General de Ejemplo\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / Organización / Línea 3: Dirección de Gestión\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / Organización / Línea 4: Unidad de Personal\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / PROVINCIA: / Denominación: Madrid\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / PROVINCIA: / Código: 28\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / LOCALIDAD: / Denominación: Madrid\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / LOCALIDAD: / Código: 079\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / PROV. RESIDENCIA: / Denominación: Madrid\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / PROV. RESIDENCIA: / Código: 28\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / LOC. RESIDENCIA: / Denominación: Madrid\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / LOC. RESIDENCIA: / Código: 079\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / COMPLEMENTO ESPECÍFICO:: 6000,00 EUR anuales\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / NIVEL: 18\nPágina 1 / 3. DATOS DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL / TIPO DE LICENCIA / PERMISO / IT: / Denominación: Permiso por asuntos particulares del supuesto sintético\nPágina 1 / 3. DATOS DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL / TIPO DE LICENCIA / PERMISO / IT: / Código: 01\nPágina 1 / 3. DATOS DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL / Periodo inicial / desde: 02/11/2026\nPágina 1 / 3. DATOS DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL / Periodo inicial / hasta: 03/11/2026\nPágina 1 / 3. DATOS DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL / NÚMERO/: No procede en este supuesto ficticio\nPágina 1 / 3. DATOS DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL / Prórroga / desde: No procede en este supuesto ficticio\nPágina 1 / 3. DATOS DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL / Prórroga / hasta: No procede en este supuesto ficticio\nPágina 1 / 3. DATOS DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL / RÉGIMEN DE PREVISIÓN:: Régimen General de la Seguridad Social\nPágina 1 / 3. DATOS DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL / DISPOSICIÓN APLICADA:: Artículo 48.k del texto refundido del Estatuto Básico del Empleado Público; caso ficticio\nPágina 1 / 4. DATOS DE LA INCIDENCIA DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL / DESCRIPCIÓN Y EFECTOS:: No procede en este supuesto ficticio: sin incidencia\nPágina 1 / 4. DATOS DE LA INCIDENCIA DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL / FECHA: No procede en este supuesto ficticio\nPágina 1 / 5. DATOS DE LA FINALIZACIÓN DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL / FECHA DE FINALIZACIÓN / ANULACIÓN: No procede en este supuesto ficticio: se concede el permiso, no se dicta terminación anticipada\nPágina 1 / 5. DATOS DE LA FINALIZACIÓN DE LA LICENCIA / PERMISO / INCAPACIDAD TEMPORAL / MOTIVO:: No procede en este supuesto ficticio\nPágina 1 / 6. OBSERVACIONES / OTROS DATOS / 6. OBSERVACIONES / OTROS DATOS: Sin otras observaciones en el expediente sintético\nPágina 1 / 7. RECURSOS QUE PROCEDEN CONTRA LA PRESENTE RESOLUCIÓN / 7. RECURSOS QUE PROCEDEN CONTRA LA PRESENTE RESOLUCIÓN: Recurso de alzada ante la Secretaría de Estado de Ejemplo en el plazo de un mes desde la notificación; supuesto ficticio.\nPágina 1 / Emisión / Lugar: Madrid\nPágina 1 / Emisión / Fecha: 25/10/2026\nPágina 1 / Emisión / Cargo de la autoridad: Directora de Personal de Ejemplo\nPágina 1 / Emisión / Fdo.:: Firma ficticia de CLARA NAVARRO",
+  "workflow_identity": {
+    "language": "es",
+    "id": 924
+  }
+}

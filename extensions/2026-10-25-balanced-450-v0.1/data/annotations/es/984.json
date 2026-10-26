@@ -1,0 +1,1461 @@
+{
+  "id": "es-984",
+  "language": "es",
+  "title": "Modelo 143 - Deducciones por familia numerosa,ascendiente con dos hijos o personas con discapacidad a cargo",
+  "domain": "Finance",
+  "issuer": "Ministerio de Hacienda / Agencia Estatal de Administracion Tributaria; publicacion BOE",
+  "issuer_id": "boe-aeat",
+  "template_family": "aeat-modelo-143",
+  "source_version": "BOE num.173,18/07/2018,pp.72107-72108; Orden HAC/763/2018,Anexo I",
+  "source_date_evidence": {
+    "kind": "official-gazette publication",
+    "value": "BOE num.173,18/07/2018,pp.72107-72108; Orden HAC/763/2018,Anexo I",
+    "note": "Publication printed in the actual source, not a retrieval date or assertion of present administrative validity."
+  },
+  "source_url": "https://www.boe.es/boe/dias/2018/07/18/pdfs/BOE-A-2018-10064.pdf",
+  "landing_url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2018-10064",
+  "retrieved_at": "2026-10-25T17:11:51.251137+00:00",
+  "source_sha256": "b418dfeb9f68743ffdbbaa07b8690905730bfd2daea17a142e7408536369284d",
+  "source_pages": 2,
+  "license_url": "https://www.boe.es/informacion/aviso_legal/index.php",
+  "license_note": "Basado en datos de la Agencia Estatal Boletín Oficial del Estado (https://www.boe.es). Original form issuer: Ministerio de Hacienda / Agencia Estatal de Administracion Tributaria. BOE general reuse conditions effective28/junio/2024 expressly permit commercial and noncommercial reproduction, modification, adaptation, extraction and reordering of hosted documents, with worldwide free nonexclusive permission. These official-gazette annexes are not Biblioteca Juridica Digital books subject to CC BY-NC-ND. Attribute origin, preserve original publication/update metadata and meaning, identify the semantic adaptation and fictional additions, and do not imply official status or endorsement. Logos, portal design, coats of arms and other protected branding are not reproduced. The complete selected printed units have no source-specific contrary reuse notice.",
+  "columns": 30,
+  "synthetic_context": true,
+  "fields": [
+    {
+      "id": "f001",
+      "label": "TIPO DE DEDUCCIÓN",
+      "path": [
+        "Página 1",
+        "Modelo",
+        "TIPO DE DEDUCCIÓN"
+      ],
+      "source_anchor": "TIPO DE DEDUCCIÓN",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Deducción por familia numerosa"
+      ],
+      "options": [
+        "Deducción por descendientes con discapacidad a cargo",
+        "Deducción por ascendientes con discapacidad a cargo",
+        "Deducción por cónyuge no separado con discapacidad",
+        "Deducción por familia numerosa",
+        "Deducción por ascendiente con dos hijos sin derecho a percibir anualidades por alimentos"
+      ],
+      "context_evidence": "Modelo / TIPO DE DEDUCCIÓN: Deducción por familia numerosa."
+    },
+    {
+      "id": "f002",
+      "label": "MODALIDAD",
+      "path": [
+        "Página 1",
+        "Modelo",
+        "MODALIDAD"
+      ],
+      "source_anchor": "MODALIDAD",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Colectiva"
+      ],
+      "options": [
+        "Individual",
+        "Colectiva"
+      ],
+      "context_evidence": "Modelo / MODALIDAD: Colectiva."
+    },
+    {
+      "id": "f003",
+      "label": "NIF",
+      "path": [
+        "Página 1",
+        "Primer solicitante",
+        "Identificacion primero / 1"
+      ],
+      "source_anchor": "NIF",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NIF-SINT-984-1"
+    },
+    {
+      "id": "f004",
+      "label": "Primer apellido, segundo apellido y nombre (por este orden)",
+      "path": [
+        "Página 1",
+        "Primer solicitante",
+        "Identificacion primero / 2"
+      ],
+      "source_anchor": "Primer apellido, segundo apellido y nombre (por este orden)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SOLER EJEMPLO,LUIS SINTETICO"
+    },
+    {
+      "id": "f005",
+      "label": "Denominación del Régimen o mutualidad",
+      "path": [
+        "Página 1",
+        "Primer solicitante",
+        "Denominación del Régimen o mutualidad"
+      ],
+      "source_anchor": "Denominación del Régimen o mutualidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Regimen General de la Seguridad Social"
+    },
+    {
+      "id": "f006",
+      "label": "No cotiza actualmente por percibir prestaciones o subsidios por desempleo, pensiones del régimen de Seguridad Social o Clases Pasivas o prestaciones análogas de mutualidades de previsión social alternativas al régimen especial de la Seguridad Social (Art. 81 bis.1 Ley IRPF)",
+      "path": [
+        "Página 1",
+        "Primer solicitante",
+        "No cotiza por prestaciones no aplicable"
+      ],
+      "source_anchor": "No cotiza actualmente por percibir prestaciones o subsidios por desempleo, pensiones del régimen de Seguridad Social o Clases Pasivas o prestaciones análogas de mutualidades de previsión social alternativas al régimen especial de la Seguridad Social (Art. 81 bis.1 Ley IRPF)",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "No cotiza actualmente por percibir prestaciones o subsidios por desempleo, pensiones del régimen de Seguridad Social o Clases Pasivas o prestaciones análogas de mutualidades de previsión social alternativas al régimen especial de la Seguridad Social (Art. 81 bis.1 Ley IRPF)"
+      ],
+      "context_evidence": "Primer solicitante / No cotiza actualmente por percibir prestaciones o subsidios por desempleo, pensiones del régimen de Seguridad Social o Clases Pasivas o prestaciones análogas de mutualidades de previsión social alternativas al régimen especial de la Seguridad Social (Art. 81 bis.1 Ley IRPF): . No se selecciona esta opcion: no corresponde a la rama o variacion del supuesto ficticio.",
+      "inactive_reason": "No se selecciona esta opcion: no corresponde a la rama o variacion del supuesto ficticio."
+    },
+    {
+      "id": "f007",
+      "label": "Código IBAN",
+      "path": [
+        "Página 1",
+        "Cuenta bancaria para el abono",
+        "Código IBAN"
+      ],
+      "source_anchor": "Código IBAN",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "ES00-IBAN-SINT-984 (no es cuenta ni IBAN valido)"
+    },
+    {
+      "id": "f008",
+      "label": "NIF",
+      "path": [
+        "Página 1",
+        "Otro/s solicitante/s (en el caso de solicitud colectiva)",
+        "Identificacion segundo / 1"
+      ],
+      "source_anchor": "NIF",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NIF-SINT-984-2"
+    },
+    {
+      "id": "f009",
+      "label": "Primer apellido, segundo apellido y nombre (por este orden)",
+      "path": [
+        "Página 1",
+        "Otro/s solicitante/s (en el caso de solicitud colectiva)",
+        "Identificacion segundo / 2"
+      ],
+      "source_anchor": "Primer apellido, segundo apellido y nombre (por este orden)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "LAGO PRUEBA,ANA SINTETICA"
+    },
+    {
+      "id": "f010",
+      "label": "Denominación del Régimen o mutualidad",
+      "path": [
+        "Página 1",
+        "Otro/s solicitante/s (en el caso de solicitud colectiva)",
+        "Denominación del Régimen o mutualidad"
+      ],
+      "source_anchor": "Denominación del Régimen o mutualidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Regimen General de la Seguridad Social"
+    },
+    {
+      "id": "f011",
+      "label": "No cotiza actualmente por percibir prestaciones o subsidios por desempleo, pensiones del régimen de Seguridad Social o Clases Pasivas o prestaciones análogas de mutualidades de previsión social alternativas al régimen especial de la Seguridad Social (Art. 81 bis.1 Ley IRPF)",
+      "path": [
+        "Página 1",
+        "Otro/s solicitante/s (en el caso de solicitud colectiva)",
+        "No cotiza por prestaciones no aplicable"
+      ],
+      "source_anchor": "No cotiza actualmente por percibir prestaciones o subsidios por desempleo, pensiones del régimen de Seguridad Social o Clases Pasivas o prestaciones análogas de mutualidades de previsión social alternativas al régimen especial de la Seguridad Social (Art. 81 bis.1 Ley IRPF)",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "No cotiza actualmente por percibir prestaciones o subsidios por desempleo, pensiones del régimen de Seguridad Social o Clases Pasivas o prestaciones análogas de mutualidades de previsión social alternativas al régimen especial de la Seguridad Social (Art. 81 bis.1 Ley IRPF)"
+      ],
+      "context_evidence": "Otro/s solicitante/s (en el caso de solicitud colectiva) / No cotiza actualmente por percibir prestaciones o subsidios por desempleo, pensiones del régimen de Seguridad Social o Clases Pasivas o prestaciones análogas de mutualidades de previsión social alternativas al régimen especial de la Seguridad Social (Art. 81 bis.1 Ley IRPF): . No se selecciona esta opcion: no corresponde a la rama o variacion del supuesto ficticio.",
+      "inactive_reason": "No se selecciona esta opcion: no corresponde a la rama o variacion del supuesto ficticio."
+    },
+    {
+      "id": "f012",
+      "label": "No cotiza actualmente por otros motivos",
+      "path": [
+        "Página 1",
+        "Otro/s solicitante/s (en el caso de solicitud colectiva)",
+        "No cotiza actualmente por otros motivos"
+      ],
+      "source_anchor": "No cotiza actualmente por otros motivos",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "No cotiza actualmente por otros motivos"
+      ],
+      "context_evidence": "Otro/s solicitante/s (en el caso de solicitud colectiva) / No cotiza actualmente por otros motivos: . No se selecciona esta opcion: no corresponde a la rama o variacion del supuesto ficticio.",
+      "inactive_reason": "No se selecciona esta opcion: no corresponde a la rama o variacion del supuesto ficticio."
+    },
+    {
+      "id": "f013",
+      "label": "NIF",
+      "path": [
+        "Página 2",
+        "Deducción por descendientes con discapacidad a cargo",
+        "Descendiente cinco columnas / 1"
+      ],
+      "source_anchor": "NIF",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f014",
+      "label": "Primer apellido, segundo apellido y nombre (por este orden)",
+      "path": [
+        "Página 2",
+        "Deducción por descendientes con discapacidad a cargo",
+        "Descendiente cinco columnas / 2"
+      ],
+      "source_anchor": "Primer apellido, segundo apellido y nombre (por este orden)",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f015",
+      "label": "Fecha de nacimiento",
+      "path": [
+        "Página 2",
+        "Deducción por descendientes con discapacidad a cargo",
+        "Descendiente cinco columnas / 3"
+      ],
+      "source_anchor": "Fecha de nacimiento",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f016",
+      "label": "Fecha de adopción o de acogimiento permanente o preadoptivo",
+      "path": [
+        "Página 2",
+        "Deducción por descendientes con discapacidad a cargo",
+        "Descendiente cinco columnas / 4"
+      ],
+      "source_anchor": "Fecha de adopción o de acogimiento permanente o preadoptivo",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f017",
+      "label": "Grado de discapacidad",
+      "path": [
+        "Página 2",
+        "Deducción por descendientes con discapacidad a cargo",
+        "Descendiente cinco columnas / 5"
+      ],
+      "source_anchor": "Grado de discapacidad",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f018",
+      "label": "Fecha de efectos del reconocimiento del grado de discapacidad:",
+      "path": [
+        "Página 2",
+        "Deducción por descendientes con discapacidad a cargo",
+        "Reconocimiento descendiente / 1"
+      ],
+      "source_anchor": "Fecha de efectos del reconocimiento del grado de discapacidad:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f019",
+      "label": "Organismo, Comunidad Autónoma o Ciudad con Estatuto de Autonomía de reconocimiento:",
+      "path": [
+        "Página 2",
+        "Deducción por descendientes con discapacidad a cargo",
+        "Reconocimiento descendiente / 2"
+      ],
+      "source_anchor": "Organismo, Comunidad Autónoma o Ciudad con Estatuto de Autonomía de reconocimiento:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f020",
+      "label": "En caso de solicitud individual indique el número de contribuyentes con derecho a la aplicación del mínimo por descendientes",
+      "path": [
+        "Página 2",
+        "Deducción por descendientes con discapacidad a cargo",
+        "En caso de solicitud individual indique el número de contribuyentes con derecho a la aplicación del mínimo por descendientes"
+      ],
+      "source_anchor": "En caso de solicitud individual indique el número de contribuyentes con derecho a la aplicación del mínimo por descendientes",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f021",
+      "label": "NIF",
+      "path": [
+        "Página 2",
+        "Deducción por ascendientes con discapacidad a cargo",
+        "Ascendiente seis columnas / 1"
+      ],
+      "source_anchor": "NIF",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f022",
+      "label": "Primer apellido, segundo apellido y nombre (por este orden)",
+      "path": [
+        "Página 2",
+        "Deducción por ascendientes con discapacidad a cargo",
+        "Ascendiente seis columnas / 2"
+      ],
+      "source_anchor": "Primer apellido, segundo apellido y nombre (por este orden)",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f023",
+      "label": "Fecha de nacimiento",
+      "path": [
+        "Página 2",
+        "Deducción por ascendientes con discapacidad a cargo",
+        "Ascendiente seis columnas / 3"
+      ],
+      "source_anchor": "Fecha de nacimiento",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f024",
+      "label": "Grado de discapacidad",
+      "path": [
+        "Página 2",
+        "Deducción por ascendientes con discapacidad a cargo",
+        "Ascendiente seis columnas / 4"
+      ],
+      "source_anchor": "Grado de discapacidad",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f025",
+      "label": "Fecha de efectos del reconocimiento del grado de discapacidad",
+      "path": [
+        "Página 2",
+        "Deducción por ascendientes con discapacidad a cargo",
+        "Ascendiente seis columnas / 5"
+      ],
+      "source_anchor": "Fecha de efectos del reconocimiento del grado de discapacidad",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f026",
+      "label": "Comunidad Autónoma de reconocimiento",
+      "path": [
+        "Página 2",
+        "Deducción por ascendientes con discapacidad a cargo",
+        "Ascendiente seis columnas / 6"
+      ],
+      "source_anchor": "Comunidad Autónoma de reconocimiento",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f027",
+      "label": "En caso de solicitud individual indique el número de contribuyentes con derecho a la aplicación del mínimo por ascendientes",
+      "path": [
+        "Página 2",
+        "Deducción por ascendientes con discapacidad a cargo",
+        "En caso de solicitud individual indique el número de contribuyentes con derecho a la aplicación del mínimo por ascendientes"
+      ],
+      "source_anchor": "En caso de solicitud individual indique el número de contribuyentes con derecho a la aplicación del mínimo por ascendientes",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f028",
+      "label": "NIF",
+      "path": [
+        "Página 2",
+        "Deducción por cónyuge no separado con discapacidad",
+        "Conyuge seis columnas / 1"
+      ],
+      "source_anchor": "NIF",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f029",
+      "label": "Primer apellido, segundo apellido y nombre (por este orden)",
+      "path": [
+        "Página 2",
+        "Deducción por cónyuge no separado con discapacidad",
+        "Conyuge seis columnas / 2"
+      ],
+      "source_anchor": "Primer apellido, segundo apellido y nombre (por este orden)",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f030",
+      "label": "Fecha de nacimiento",
+      "path": [
+        "Página 2",
+        "Deducción por cónyuge no separado con discapacidad",
+        "Conyuge seis columnas / 3"
+      ],
+      "source_anchor": "Fecha de nacimiento",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f031",
+      "label": "Grado de discapacidad",
+      "path": [
+        "Página 2",
+        "Deducción por cónyuge no separado con discapacidad",
+        "Conyuge seis columnas / 4"
+      ],
+      "source_anchor": "Grado de discapacidad",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f032",
+      "label": "Fecha de efectos del reconocimiento del grado de discapacidad",
+      "path": [
+        "Página 2",
+        "Deducción por cónyuge no separado con discapacidad",
+        "Conyuge seis columnas / 5"
+      ],
+      "source_anchor": "Fecha de efectos del reconocimiento del grado de discapacidad",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f033",
+      "label": "Comunidad Autónoma de reconocimiento",
+      "path": [
+        "Página 2",
+        "Deducción por cónyuge no separado con discapacidad",
+        "Conyuge seis columnas / 6"
+      ],
+      "source_anchor": "Comunidad Autónoma de reconocimiento",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f034",
+      "label": "Número de identificación del Título de Familia Numerosa",
+      "path": [
+        "Página 2",
+        "Deducción por Familia Numerosa",
+        "Titulo familia cuatro columnas / 1"
+      ],
+      "source_anchor": "Número de identificación del Título de Familia Numerosa",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "TITULO-FAMILIA-SINT-984"
+    },
+    {
+      "id": "f035",
+      "label": "Comunidad Autónoma de reconocimiento",
+      "path": [
+        "Página 2",
+        "Deducción por Familia Numerosa",
+        "Titulo familia cuatro columnas / 2"
+      ],
+      "source_anchor": "Comunidad Autónoma de reconocimiento",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Comunitat Valenciana"
+    },
+    {
+      "id": "f036",
+      "label": "Fecha de efectos del reconocimiento",
+      "path": [
+        "Página 2",
+        "Deducción por Familia Numerosa",
+        "Titulo familia cuatro columnas / 3"
+      ],
+      "source_anchor": "Fecha de efectos del reconocimiento",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "01/09/2019"
+    },
+    {
+      "id": "f037",
+      "label": "Categoría en que está clasificada la familia numerosa",
+      "path": [
+        "Página 2",
+        "Deducción por Familia Numerosa",
+        "Titulo familia cuatro columnas / 4"
+      ],
+      "source_anchor": "Categoría en que está clasificada la familia numerosa",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "General"
+    },
+    {
+      "id": "f038",
+      "label": "En caso de solicitud individual indique el número de ascendientes que forman parte de la misma familia numerosa",
+      "path": [
+        "Página 2",
+        "Deducción por Familia Numerosa",
+        "En caso de solicitud individual indique el número de ascendientes que forman parte de la misma familia numerosa"
+      ],
+      "source_anchor": "En caso de solicitud individual indique el número de ascendientes que forman parte de la misma familia numerosa",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede: solicitud colectiva"
+    },
+    {
+      "id": "f039",
+      "label": "NIF",
+      "path": [
+        "Página 2",
+        "Deducción por ascendiente con dos hijos sin derecho a percibir anualidades por alimentos",
+        "Ascendiente con dos hijos / hijo1 / 1"
+      ],
+      "source_anchor": "NIF",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f040",
+      "label": "Primer apellido, segundo apellido y nombre (por este orden)",
+      "path": [
+        "Página 2",
+        "Deducción por ascendiente con dos hijos sin derecho a percibir anualidades por alimentos",
+        "Ascendiente con dos hijos / hijo1 / 2"
+      ],
+      "source_anchor": "Primer apellido, segundo apellido y nombre (por este orden)",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f041",
+      "label": "Fecha de nacimiento",
+      "path": [
+        "Página 2",
+        "Deducción por ascendiente con dos hijos sin derecho a percibir anualidades por alimentos",
+        "Ascendiente con dos hijos / hijo1 / 3"
+      ],
+      "source_anchor": "Fecha de nacimiento",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f042",
+      "label": "Fecha de adopción o de acogimiento permanente o preadoptivo",
+      "path": [
+        "Página 2",
+        "Deducción por ascendiente con dos hijos sin derecho a percibir anualidades por alimentos",
+        "Ascendiente con dos hijos / hijo1 / 4"
+      ],
+      "source_anchor": "Fecha de adopción o de acogimiento permanente o preadoptivo",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f043",
+      "label": "NIF",
+      "path": [
+        "Página 2",
+        "Deducción por ascendiente con dos hijos sin derecho a percibir anualidades por alimentos",
+        "Ascendiente con dos hijos / hijo2 / 1"
+      ],
+      "source_anchor": "NIF",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f044",
+      "label": "Primer apellido, segundo apellido y nombre (por este orden)",
+      "path": [
+        "Página 2",
+        "Deducción por ascendiente con dos hijos sin derecho a percibir anualidades por alimentos",
+        "Ascendiente con dos hijos / hijo2 / 2"
+      ],
+      "source_anchor": "Primer apellido, segundo apellido y nombre (por este orden)",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f045",
+      "label": "Fecha de nacimiento",
+      "path": [
+        "Página 2",
+        "Deducción por ascendiente con dos hijos sin derecho a percibir anualidades por alimentos",
+        "Ascendiente con dos hijos / hijo2 / 3"
+      ],
+      "source_anchor": "Fecha de nacimiento",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f046",
+      "label": "Fecha de adopción o de acogimiento permanente o preadoptivo",
+      "path": [
+        "Página 2",
+        "Deducción por ascendiente con dos hijos sin derecho a percibir anualidades por alimentos",
+        "Ascendiente con dos hijos / hijo2 / 4"
+      ],
+      "source_anchor": "Fecha de adopción o de acogimiento permanente o preadoptivo",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f047",
+      "label": "Fecha",
+      "path": [
+        "Página 2",
+        "Fecha y fi rma",
+        "Ejecucion primero / 1"
+      ],
+      "source_anchor": "Fecha",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "26/10/2019"
+    },
+    {
+      "id": "f048",
+      "label": "Firma del primer solicitante (beneficiario del abono anticipado)",
+      "path": [
+        "Página 2",
+        "Fecha y fi rma",
+        "Ejecucion primero / 2"
+      ],
+      "source_anchor": "Firma del primer solicitante (beneficiario del abono anticipado)",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Firma ficticia LUIS SOLER EJEMPLO SINTETICO"
+    },
+    {
+      "id": "f049",
+      "label": "NIF",
+      "path": [
+        "Página 2",
+        "Fecha y fi rma",
+        "Ejecucion solicitante2 / 1"
+      ],
+      "source_anchor": "NIF",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "NIF-SINT-984-2"
+    },
+    {
+      "id": "f050",
+      "label": "Firma del segundo solicitante",
+      "path": [
+        "Página 2",
+        "Fecha y fi rma",
+        "Ejecucion solicitante2 / 2"
+      ],
+      "source_anchor": "Firma del segundo solicitante",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Firma ficticia ANA LAGO PRUEBA SINTETICA"
+    },
+    {
+      "id": "f051",
+      "label": "NIF",
+      "path": [
+        "Página 2",
+        "Fecha y fi rma",
+        "Ejecucion solicitante3 / 1"
+      ],
+      "source_anchor": "NIF",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f052",
+      "label": "Firma del tercer solicitante",
+      "path": [
+        "Página 2",
+        "Fecha y fi rma",
+        "Ejecucion solicitante3 / 2"
+      ],
+      "source_anchor": "Firma del tercer solicitante",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f053",
+      "label": "NIF",
+      "path": [
+        "Página 2",
+        "Fecha y fi rma",
+        "Ejecucion solicitante4 / 1"
+      ],
+      "source_anchor": "NIF",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f054",
+      "label": "Firma del cuarto solicitante",
+      "path": [
+        "Página 2",
+        "Fecha y fi rma",
+        "Ejecucion solicitante4 / 2"
+      ],
+      "source_anchor": "Firma del cuarto solicitante",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f055",
+      "label": "NIF",
+      "path": [
+        "Página 2",
+        "Fecha y fi rma",
+        "Ejecucion solicitante5 / 1"
+      ],
+      "source_anchor": "NIF",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f056",
+      "label": "Firma del quinto solicitante",
+      "path": [
+        "Página 2",
+        "Fecha y fi rma",
+        "Ejecucion solicitante5 / 2"
+      ],
+      "source_anchor": "Firma del quinto solicitante",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f057",
+      "label": "NIF",
+      "path": [
+        "Página 2",
+        "Representante",
+        "Representante tres regiones / 1"
+      ],
+      "source_anchor": "NIF",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f058",
+      "label": "Apellidos y nombre o razón social",
+      "path": [
+        "Página 2",
+        "Representante",
+        "Representante tres regiones / 2"
+      ],
+      "source_anchor": "Apellidos y nombre o razón social",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f059",
+      "label": "Firma del representante",
+      "path": [
+        "Página 2",
+        "Representante",
+        "Representante tres regiones / 3"
+      ],
+      "source_anchor": "Firma del representante",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Modelo",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "143",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Solicitud de abono anticipado",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "TIPO DE DEDUCCIÓN",
+        "field": "f001",
+        "colspan": 18,
+        "source_page": 1
+      },
+      {
+        "label": "MODALIDAD",
+        "field": "f002",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Marque con una X sólo la casilla que corresponda a la deducción cuyo abono anticipado solicita.",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Cada deducción se debe solicitar en un ejemplar distinto de este modelo.",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Se debe presentar una solicitud de abono anticipado por cada ascendiente o descendiente con discapacidad a cargo que dé derecho a la deducción.",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Primer solicitante",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "NIF",
+        "field": "f003",
+        "colspan": 8,
+        "source_page": 1
+      },
+      {
+        "label": "Primer apellido, segundo apellido y nombre (por este orden)",
+        "field": "f004",
+        "colspan": 22,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Régimen de la Seguridad Social o Régimen especial de funcionarios públicos o Mutualidad alternativa a la Seguridad Social",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Denominación del Régimen o mutualidad",
+        "field": "f005",
+        "colspan": 30,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "No cotiza actualmente por percibir prestaciones o subsidios por desempleo, pensiones del régimen de Seguridad Social o Clases Pasivas o prestaciones análogas de mutualidades de previsión social alternativas al régimen especial de la Seguridad Social (Art. 81 bis.1 Ley IRPF)",
+        "field": "f006",
+        "colspan": 30,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Cuenta bancaria para el abono",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Consigne los datos completos de la cuenta bancaria de la que sea titular el benefi ciario del abono anticipado de la deducción",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Código IBAN",
+        "field": "f007",
+        "colspan": 30,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Otro/s solicitante/s (en el caso de solicitud colectiva)",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "NIF",
+        "field": "f008",
+        "colspan": 8,
+        "source_page": 1
+      },
+      {
+        "label": "Primer apellido, segundo apellido y nombre (por este orden)",
+        "field": "f009",
+        "colspan": 22,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Régimen de la Seguridad Social o Régimen especial de funcionarios públicos o Mutualidad alternativa a la Seguridad Social",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Denominación del Régimen o mutualidad",
+        "field": "f010",
+        "colspan": 30,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "No cotiza actualmente por percibir prestaciones o subsidios por desempleo, pensiones del régimen de Seguridad Social o Clases Pasivas o prestaciones análogas de mutualidades de previsión social alternativas al régimen especial de la Seguridad Social (Art. 81 bis.1 Ley IRPF)",
+        "field": "f011",
+        "colspan": 30,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "No cotiza actualmente por otros motivos",
+        "field": "f012",
+        "colspan": 30,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Se cumplimentará tantas veces este apartado como solicitantes haya.",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Deducción por descendientes con discapacidad a cargo",
+        "source_page": 2,
+        "colspan": 30,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Apellidos y nombre",
+        "source_page": 2,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "NIF",
+        "source_page": 2,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "NIF",
+        "field": "f013",
+        "colspan": 5,
+        "source_page": 2
+      },
+      {
+        "label": "Primer apellido, segundo apellido y nombre (por este orden)",
+        "field": "f014",
+        "colspan": 10,
+        "source_page": 2
+      },
+      {
+        "label": "Fecha de nacimiento",
+        "field": "f015",
+        "colspan": 5,
+        "source_page": 2
+      },
+      {
+        "label": "Fecha de adopción o de acogimiento permanente o preadoptivo",
+        "field": "f016",
+        "colspan": 5,
+        "source_page": 2
+      },
+      {
+        "label": "Grado de discapacidad",
+        "field": "f017",
+        "colspan": 5,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Fecha de efectos del reconocimiento del grado de discapacidad:",
+        "field": "f018",
+        "colspan": 10,
+        "source_page": 2
+      },
+      {
+        "label": "Organismo, Comunidad Autónoma o Ciudad con Estatuto de Autonomía de reconocimiento:",
+        "field": "f019",
+        "colspan": 20,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "En caso de solicitud individual indique el número de contribuyentes con derecho a la aplicación del mínimo por descendientes",
+        "field": "f020",
+        "colspan": 30,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Deducción por ascendientes con discapacidad a cargo",
+        "source_page": 2,
+        "colspan": 30,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "NIF",
+        "field": "f021",
+        "colspan": 5,
+        "source_page": 2
+      },
+      {
+        "label": "Primer apellido, segundo apellido y nombre (por este orden)",
+        "field": "f022",
+        "colspan": 9,
+        "source_page": 2
+      },
+      {
+        "label": "Fecha de nacimiento",
+        "field": "f023",
+        "colspan": 4,
+        "source_page": 2
+      },
+      {
+        "label": "Grado de discapacidad",
+        "field": "f024",
+        "colspan": 4,
+        "source_page": 2
+      },
+      {
+        "label": "Fecha de efectos del reconocimiento del grado de discapacidad",
+        "field": "f025",
+        "colspan": 4,
+        "source_page": 2
+      },
+      {
+        "label": "Comunidad Autónoma de reconocimiento",
+        "field": "f026",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "En caso de solicitud individual indique el número de contribuyentes con derecho a la aplicación del mínimo por ascendientes",
+        "field": "f027",
+        "colspan": 30,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Deducción por cónyuge no separado con discapacidad",
+        "source_page": 2,
+        "colspan": 30,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "NIF",
+        "field": "f028",
+        "colspan": 5,
+        "source_page": 2
+      },
+      {
+        "label": "Primer apellido, segundo apellido y nombre (por este orden)",
+        "field": "f029",
+        "colspan": 9,
+        "source_page": 2
+      },
+      {
+        "label": "Fecha de nacimiento",
+        "field": "f030",
+        "colspan": 4,
+        "source_page": 2
+      },
+      {
+        "label": "Grado de discapacidad",
+        "field": "f031",
+        "colspan": 4,
+        "source_page": 2
+      },
+      {
+        "label": "Fecha de efectos del reconocimiento del grado de discapacidad",
+        "field": "f032",
+        "colspan": 4,
+        "source_page": 2
+      },
+      {
+        "label": "Comunidad Autónoma de reconocimiento",
+        "field": "f033",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "No debe consignarse el cónyuge que haya obtenido rentas anuales, excluidas las exentas, superiores a 8.000 euros",
+        "source_page": 2,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Esta deducción es incompatible con la deducción por descendientes o ascendientes con discapacidad a cargo",
+        "source_page": 2,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Deducción por Familia Numerosa",
+        "source_page": 2,
+        "colspan": 30,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Número de identificación del Título de Familia Numerosa",
+        "field": "f034",
+        "colspan": 12,
+        "source_page": 2
+      },
+      {
+        "label": "Comunidad Autónoma de reconocimiento",
+        "field": "f035",
+        "colspan": 6,
+        "source_page": 2
+      },
+      {
+        "label": "Fecha de efectos del reconocimiento",
+        "field": "f036",
+        "colspan": 6,
+        "source_page": 2
+      },
+      {
+        "label": "Categoría en que está clasificada la familia numerosa",
+        "field": "f037",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "En caso de solicitud individual indique el número de ascendientes que forman parte de la misma familia numerosa",
+        "field": "f038",
+        "colspan": 30,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "(en caso de hermanos huérfanos de padre y madre se indicará el número de hermanos)",
+        "source_page": 2,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Deducción por ascendiente con dos hijos sin derecho a percibir anualidades por alimentos",
+        "source_page": 2,
+        "colspan": 30,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "NIF",
+        "field": "f039",
+        "colspan": 6,
+        "source_page": 2
+      },
+      {
+        "label": "Primer apellido, segundo apellido y nombre (por este orden)",
+        "field": "f040",
+        "colspan": 12,
+        "source_page": 2
+      },
+      {
+        "label": "Fecha de nacimiento",
+        "field": "f041",
+        "colspan": 6,
+        "source_page": 2
+      },
+      {
+        "label": "Fecha de adopción o de acogimiento permanente o preadoptivo",
+        "field": "f042",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "NIF",
+        "field": "f043",
+        "colspan": 6,
+        "source_page": 2
+      },
+      {
+        "label": "Primer apellido, segundo apellido y nombre (por este orden)",
+        "field": "f044",
+        "colspan": 12,
+        "source_page": 2
+      },
+      {
+        "label": "Fecha de nacimiento",
+        "field": "f045",
+        "colspan": 6,
+        "source_page": 2
+      },
+      {
+        "label": "Fecha de adopción o de acogimiento permanente o preadoptivo",
+        "field": "f046",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Esta deducción es incompatible con la deducción por familia numerosa",
+        "source_page": 2,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Fecha y fi rma",
+        "source_page": 2,
+        "colspan": 30,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "DECLARO que son ciertos los datos consignados en el presente documento y me comprometo a comunicar cualquier variación en los mismos que pueda afectar al abono anticipado de la deducción",
+        "source_page": 2,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Fecha",
+        "field": "f047",
+        "colspan": 8,
+        "source_page": 2
+      },
+      {
+        "label": "Firma del primer solicitante (beneficiario del abono anticipado)",
+        "field": "f048",
+        "colspan": 22,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Sólo cumplimentar en caso de solicitud colectiva",
+        "source_page": 2,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "NIF",
+        "field": "f049",
+        "colspan": 8,
+        "source_page": 2
+      },
+      {
+        "label": "Firma del segundo solicitante",
+        "field": "f050",
+        "colspan": 22,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "NIF",
+        "field": "f051",
+        "colspan": 8,
+        "source_page": 2
+      },
+      {
+        "label": "Firma del tercer solicitante",
+        "field": "f052",
+        "colspan": 22,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "NIF",
+        "field": "f053",
+        "colspan": 8,
+        "source_page": 2
+      },
+      {
+        "label": "Firma del cuarto solicitante",
+        "field": "f054",
+        "colspan": 22,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "NIF",
+        "field": "f055",
+        "colspan": 8,
+        "source_page": 2
+      },
+      {
+        "label": "Firma del quinto solicitante",
+        "field": "f056",
+        "colspan": 22,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Representante",
+        "source_page": 2,
+        "colspan": 30,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "NIF",
+        "field": "f057",
+        "colspan": 6,
+        "source_page": 2
+      },
+      {
+        "label": "Apellidos y nombre o razón social",
+        "field": "f058",
+        "colspan": 15,
+        "source_page": 2
+      },
+      {
+        "label": "Firma del representante",
+        "field": "f059",
+        "colspan": 9,
+        "source_page": 2
+      }
+    ]
+  ],
+  "source_notice": "Complete independently fillable annex entry unit only. Surrounding legislative prose and other independently titled annex models are source/context evidence, not part of this selected input. Duplicate administrative/interested copies and repeated identity headers do not multiply targets. All native writing regions, options, branches and meaningful instructions of the selected unit are retained; official-gazette verification signatures and graphical branding are not form answers. The local source PDF is a lossless complete-annex extraction, not claimed to be the original HTTP response. Its own source hash and the separate immutable official-response hash/page map are both disclosed in source_derivation and the receipt.",
+  "context": "CASO ENTERAMENTE FICTICIO. Personas, organismos de ejemplo, identificadores, códigos, importes y firmas son datos sintéticos para esta transcripción; no acreditan un expediente ni una actuación administrativa real.\nCaso enteramente ficticio de investigacion. Identidades, NIF, afiliaciones, certificados, cuentas y firmas no son reales. La version historica se conserva con su fecha de publicacion y no se presenta como un formulario administrativamente vigente ni como asesoramiento fiscal. Ensayo historico de26/10/2019 para dos progenitores trabajadores dados de alta y cotizando todo el mes, ambos con derecho supuesto sobre la misma familia numerosa de categoria General con titulo ficticio reconocido01/09/2019 y tres hijos. Solicitud colectiva; el primer solicitante recibe todo el anticipo en cuenta de su titularidad ficticia. No se selecciona ninguna casilla de no cotizacion. Solo un otro solicitante: se usa una vez el bloque nativo de sus datos y firma segunda; firmas/NIF de tercero,cuarto,quinto no proceden. Se conservan las instrucciones de repetir el bloque por cada solicitante sin inventar mas bloques. No discapacidad descendiente/ascendiente/conyuge ni solicitud incompatible de ascendiente con dos hijos; todos sus blancos no proceden, no se omiten. No representante. La pagina2 repite la identidad de cabecera, no crea una persona ni respuestas nuevas. La fuente integra otras normas y modelos122/136, unidades distintas que no forman parte de la solicitud143 seleccionada. Datos ficticios y version historica, sin solicitud real ni afirmacion de vigencia en2026.\nModelo / TIPO DE DEDUCCIÓN: Deducción por familia numerosa.\nModelo / MODALIDAD: Colectiva.\nPágina 1 / Primer solicitante / Identificacion primero / 1: NIF-SINT-984-1\nPágina 1 / Primer solicitante / Identificacion primero / 2: SOLER EJEMPLO,LUIS SINTETICO\nPágina 1 / Primer solicitante / Denominación del Régimen o mutualidad: Regimen General de la Seguridad Social\nPrimer solicitante / No cotiza actualmente por percibir prestaciones o subsidios por desempleo, pensiones del régimen de Seguridad Social o Clases Pasivas o prestaciones análogas de mutualidades de previsión social alternativas al régimen especial de la Seguridad Social (Art. 81 bis.1 Ley IRPF): . No se selecciona esta opcion: no corresponde a la rama o variacion del supuesto ficticio.\nPágina 1 / Cuenta bancaria para el abono / Código IBAN: ES00-IBAN-SINT-984 (no es cuenta ni IBAN valido)\nPágina 1 / Otro/s solicitante/s (en el caso de solicitud colectiva) / Identificacion segundo / 1: NIF-SINT-984-2\nPágina 1 / Otro/s solicitante/s (en el caso de solicitud colectiva) / Identificacion segundo / 2: LAGO PRUEBA,ANA SINTETICA\nPágina 1 / Otro/s solicitante/s (en el caso de solicitud colectiva) / Denominación del Régimen o mutualidad: Regimen General de la Seguridad Social\nOtro/s solicitante/s (en el caso de solicitud colectiva) / No cotiza actualmente por percibir prestaciones o subsidios por desempleo, pensiones del régimen de Seguridad Social o Clases Pasivas o prestaciones análogas de mutualidades de previsión social alternativas al régimen especial de la Seguridad Social (Art. 81 bis.1 Ley IRPF): . No se selecciona esta opcion: no corresponde a la rama o variacion del supuesto ficticio.\nOtro/s solicitante/s (en el caso de solicitud colectiva) / No cotiza actualmente por otros motivos: . No se selecciona esta opcion: no corresponde a la rama o variacion del supuesto ficticio.\nPágina 2 / Deducción por descendientes con discapacidad a cargo / Descendiente cinco columnas / 1: No procede en este supuesto ficticio\nPágina 2 / Deducción por descendientes con discapacidad a cargo / Descendiente cinco columnas / 2: No procede en este supuesto ficticio\nPágina 2 / Deducción por descendientes con discapacidad a cargo / Descendiente cinco columnas / 3: No procede en este supuesto ficticio\nPágina 2 / Deducción por descendientes con discapacidad a cargo / Descendiente cinco columnas / 4: No procede en este supuesto ficticio\nPágina 2 / Deducción por descendientes con discapacidad a cargo / Descendiente cinco columnas / 5: No procede en este supuesto ficticio\nPágina 2 / Deducción por descendientes con discapacidad a cargo / Reconocimiento descendiente / 1: No procede en este supuesto ficticio\nPágina 2 / Deducción por descendientes con discapacidad a cargo / Reconocimiento descendiente / 2: No procede en este supuesto ficticio\nPágina 2 / Deducción por descendientes con discapacidad a cargo / En caso de solicitud individual indique el número de contribuyentes con derecho a la aplicación del mínimo por descendientes: No procede en este supuesto ficticio\nPágina 2 / Deducción por ascendientes con discapacidad a cargo / Ascendiente seis columnas / 1: No procede en este supuesto ficticio\nPágina 2 / Deducción por ascendientes con discapacidad a cargo / Ascendiente seis columnas / 2: No procede en este supuesto ficticio\nPágina 2 / Deducción por ascendientes con discapacidad a cargo / Ascendiente seis columnas / 3: No procede en este supuesto ficticio\nPágina 2 / Deducción por ascendientes con discapacidad a cargo / Ascendiente seis columnas / 4: No procede en este supuesto ficticio\nPágina 2 / Deducción por ascendientes con discapacidad a cargo / Ascendiente seis columnas / 5: No procede en este supuesto ficticio\nPágina 2 / Deducción por ascendientes con discapacidad a cargo / Ascendiente seis columnas / 6: No procede en este supuesto ficticio\nPágina 2 / Deducción por ascendientes con discapacidad a cargo / En caso de solicitud individual indique el número de contribuyentes con derecho a la aplicación del mínimo por ascendientes: No procede en este supuesto ficticio\nPágina 2 / Deducción por cónyuge no separado con discapacidad / Conyuge seis columnas / 1: No procede en este supuesto ficticio\nPágina 2 / Deducción por cónyuge no separado con discapacidad / Conyuge seis columnas / 2: No procede en este supuesto ficticio\nPágina 2 / Deducción por cónyuge no separado con discapacidad / Conyuge seis columnas / 3: No procede en este supuesto ficticio\nPágina 2 / Deducción por cónyuge no separado con discapacidad / Conyuge seis columnas / 4: No procede en este supuesto ficticio\nPágina 2 / Deducción por cónyuge no separado con discapacidad / Conyuge seis columnas / 5: No procede en este supuesto ficticio\nPágina 2 / Deducción por cónyuge no separado con discapacidad / Conyuge seis columnas / 6: No procede en este supuesto ficticio\nPágina 2 / Deducción por Familia Numerosa / Titulo familia cuatro columnas / 1: TITULO-FAMILIA-SINT-984\nPágina 2 / Deducción por Familia Numerosa / Titulo familia cuatro columnas / 2: Comunitat Valenciana\nPágina 2 / Deducción por Familia Numerosa / Titulo familia cuatro columnas / 3: 01/09/2019\nPágina 2 / Deducción por Familia Numerosa / Titulo familia cuatro columnas / 4: General\nPágina 2 / Deducción por Familia Numerosa / En caso de solicitud individual indique el número de ascendientes que forman parte de la misma familia numerosa: No procede: solicitud colectiva\nPágina 2 / Deducción por ascendiente con dos hijos sin derecho a percibir anualidades por alimentos / Ascendiente con dos hijos / hijo1 / 1: No procede en este supuesto ficticio\nPágina 2 / Deducción por ascendiente con dos hijos sin derecho a percibir anualidades por alimentos / Ascendiente con dos hijos / hijo1 / 2: No procede en este supuesto ficticio\nPágina 2 / Deducción por ascendiente con dos hijos sin derecho a percibir anualidades por alimentos / Ascendiente con dos hijos / hijo1 / 3: No procede en este supuesto ficticio\nPágina 2 / Deducción por ascendiente con dos hijos sin derecho a percibir anualidades por alimentos / Ascendiente con dos hijos / hijo1 / 4: No procede en este supuesto ficticio\nPágina 2 / Deducción por ascendiente con dos hijos sin derecho a percibir anualidades por alimentos / Ascendiente con dos hijos / hijo2 / 1: No procede en este supuesto ficticio\nPágina 2 / Deducción por ascendiente con dos hijos sin derecho a percibir anualidades por alimentos / Ascendiente con dos hijos / hijo2 / 2: No procede en este supuesto ficticio\nPágina 2 / Deducción por ascendiente con dos hijos sin derecho a percibir anualidades por alimentos / Ascendiente con dos hijos / hijo2 / 3: No procede en este supuesto ficticio\nPágina 2 / Deducción por ascendiente con dos hijos sin derecho a percibir anualidades por alimentos / Ascendiente con dos hijos / hijo2 / 4: No procede en este supuesto ficticio\nPágina 2 / Fecha y fi rma / Ejecucion primero / 1: 26/10/2019\nPágina 2 / Fecha y fi rma / Ejecucion primero / 2: Firma ficticia LUIS SOLER EJEMPLO SINTETICO\nPágina 2 / Fecha y fi rma / Ejecucion solicitante2 / 1: NIF-SINT-984-2\nPágina 2 / Fecha y fi rma / Ejecucion solicitante2 / 2: Firma ficticia ANA LAGO PRUEBA SINTETICA\nPágina 2 / Fecha y fi rma / Ejecucion solicitante3 / 1: No procede en este supuesto ficticio\nPágina 2 / Fecha y fi rma / Ejecucion solicitante3 / 2: No procede en este supuesto ficticio\nPágina 2 / Fecha y fi rma / Ejecucion solicitante4 / 1: No procede en este supuesto ficticio\nPágina 2 / Fecha y fi rma / Ejecucion solicitante4 / 2: No procede en este supuesto ficticio\nPágina 2 / Fecha y fi rma / Ejecucion solicitante5 / 1: No procede en este supuesto ficticio\nPágina 2 / Fecha y fi rma / Ejecucion solicitante5 / 2: No procede en este supuesto ficticio\nPágina 2 / Representante / Representante tres regiones / 1: No procede en este supuesto ficticio\nPágina 2 / Representante / Representante tres regiones / 2: No procede en este supuesto ficticio\nPágina 2 / Representante / Representante tres regiones / 3: No procede en este supuesto ficticio",
+  "workflow_identity": {
+    "language": "es",
+    "id": 984
+  }
+}

@@ -1,0 +1,949 @@
+{
+  "id": "es-933",
+  "language": "es",
+  "title": "ANOTACIÓN DE NUEVO DOCUMENTO IDENTIFICATIVO O VARIACIÓN DE DATOS PERSONALES",
+  "domain": "WorkplaceHR",
+  "issuer": "Ministerio para la Transformación Digital y de la Función Pública",
+  "issuer_id": "mtdfp",
+  "template_family": "mtdfp-rcp-dpr",
+  "source_version": "No indicada",
+  "source_date_evidence": {
+    "kind": "not stated",
+    "value": "No indicada",
+    "note": "Printed edition is separate from retrieval time; no current-validity claim."
+  },
+  "source_url": "https://digital.gob.es/content/dam/portal-mtdfp/funcion-publica/dgfp/registro-central-personal/documentacion/impresos-personal-funcionario---editables/DPR_08.pdf",
+  "landing_url": "https://digital.gob.es/funcion-publica/dgfp/registro-central-personal/registro-central-personal/impresos-funcionarios",
+  "retrieved_at": "2026-10-25T06:58:13.475984+00:00",
+  "source_sha256": "5ca89b5d111369cfedafbdfe6bdbd4a6f1d973662e04ebd79857042d796f72a8",
+  "source_pages": 1,
+  "license_url": "https://digital.gob.es/nota-legal",
+  "license_note": "Origen de los datos: Ministerio para la Transformación Digital y de la Función Pública. Nota Legal, Condiciones generales de reutilización: commercial and noncommercial copying, distribution, modification, adaptation and reordering authorized with source attribution, preserved meaning, original edition metadata and no endorsement claim. Complete semantic transcription in a normalized grid; all completed data and signatures are fictional. No administrative action or issuer endorsement.",
+  "columns": 12,
+  "synthetic_context": true,
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Mo / Org:",
+      "path": [
+        "Página 1",
+        "General",
+        "Mo / Org:"
+      ],
+      "source_anchor": "Mo / Org:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Ministerio de Ejemplo Sintético"
+    },
+    {
+      "id": "f002",
+      "label": "NIP:",
+      "path": [
+        "Página 1",
+        "1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL",
+        "NIP:"
+      ],
+      "source_anchor": "NIP:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SINT93300A"
+    },
+    {
+      "id": "f003",
+      "label": "TIPO DE DOCUMENTO APORTADO",
+      "path": [
+        "Página 1",
+        "1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL",
+        "TIPO DE DOCUMENTO APORTADO"
+      ],
+      "source_anchor": "TIPO DE DOCUMENTO APORTADO",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "PASAPORTE"
+      ],
+      "options": [
+        "DNI",
+        "NIE",
+        "PASAPORTE",
+        "OTRO"
+      ],
+      "context_evidence": "1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL / TIPO DE DOCUMENTO APORTADO: PASAPORTE."
+    },
+    {
+      "id": "f004",
+      "label": "NÚMERO:",
+      "path": [
+        "Página 1",
+        "1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL",
+        "NÚMERO:"
+      ],
+      "source_anchor": "NÚMERO:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SINT-PAS-933-ANT"
+    },
+    {
+      "id": "f005",
+      "label": "APELLIDO 1o:",
+      "path": [
+        "Página 1",
+        "1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL",
+        "APELLIDO 1o:"
+      ],
+      "source_anchor": "APELLIDO 1o:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SOLER"
+    },
+    {
+      "id": "f006",
+      "label": "APELLIDO 2o:",
+      "path": [
+        "Página 1",
+        "1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL",
+        "APELLIDO 2o:"
+      ],
+      "source_anchor": "APELLIDO 2o:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "RIVERA"
+    },
+    {
+      "id": "f007",
+      "label": "NOMBRE:",
+      "path": [
+        "Página 1",
+        "1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL",
+        "NOMBRE:"
+      ],
+      "source_anchor": "NOMBRE:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "MARTINA"
+    },
+    {
+      "id": "f008",
+      "label": "SEXO:",
+      "path": [
+        "Página 1",
+        "1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL",
+        "SEXO: / Denominación"
+      ],
+      "source_anchor": "SEXO:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Mujer"
+    },
+    {
+      "id": "f009",
+      "label": "SEXO:",
+      "path": [
+        "Página 1",
+        "1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL",
+        "SEXO: / Código"
+      ],
+      "source_anchor": "SEXO:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2",
+      "label_from": "f008",
+      "label_position": [
+        10,
+        0
+      ]
+    },
+    {
+      "id": "f010",
+      "label": "NACIONALIDAD:",
+      "path": [
+        "Página 1",
+        "1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL",
+        "NACIONALIDAD: / Denominación"
+      ],
+      "source_anchor": "NACIONALIDAD:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Española"
+    },
+    {
+      "id": "f011",
+      "label": "NACIONALIDAD:",
+      "path": [
+        "Página 1",
+        "1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL",
+        "NACIONALIDAD: / Código"
+      ],
+      "source_anchor": "NACIONALIDAD:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "724",
+      "label_from": "f010",
+      "label_position": [
+        11,
+        0
+      ]
+    },
+    {
+      "id": "f012",
+      "label": "FECHA DE NACIMIENTO:",
+      "path": [
+        "Página 1",
+        "1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL",
+        "FECHA DE NACIMIENTO:"
+      ],
+      "source_anchor": "FECHA DE NACIMIENTO:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "15/05/1980"
+    },
+    {
+      "id": "f013",
+      "label": "PROVINCIA:",
+      "path": [
+        "Página 1",
+        "1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL",
+        "PROVINCIA: / Denominación"
+      ],
+      "source_anchor": "PROVINCIA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Madrid"
+    },
+    {
+      "id": "f014",
+      "label": "PROVINCIA:",
+      "path": [
+        "Página 1",
+        "1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL",
+        "PROVINCIA: / Código"
+      ],
+      "source_anchor": "PROVINCIA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "28",
+      "label_from": "f013",
+      "label_position": [
+        13,
+        0
+      ]
+    },
+    {
+      "id": "f015",
+      "label": "PAÍS:",
+      "path": [
+        "Página 1",
+        "1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL",
+        "PAÍS: / Denominación"
+      ],
+      "source_anchor": "PAÍS:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "España"
+    },
+    {
+      "id": "f016",
+      "label": "PAÍS:",
+      "path": [
+        "Página 1",
+        "1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL",
+        "PAÍS: / Código"
+      ],
+      "source_anchor": "PAÍS:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "724",
+      "label_from": "f015",
+      "label_position": [
+        14,
+        0
+      ]
+    },
+    {
+      "id": "f017",
+      "label": "LOCALIDAD:",
+      "path": [
+        "Página 1",
+        "1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL",
+        "LOCALIDAD: / Denominación"
+      ],
+      "source_anchor": "LOCALIDAD:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Madrid"
+    },
+    {
+      "id": "f018",
+      "label": "LOCALIDAD:",
+      "path": [
+        "Página 1",
+        "1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL",
+        "LOCALIDAD: / Código"
+      ],
+      "source_anchor": "LOCALIDAD:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "079",
+      "label_from": "f017",
+      "label_position": [
+        15,
+        0
+      ]
+    },
+    {
+      "id": "f019",
+      "label": "TIPO DE DOCUMENTO APORTADO",
+      "path": [
+        "Página 1",
+        "2. NUEVO DOCUMENTO IDENTIFICATIVO",
+        "TIPO DE DOCUMENTO APORTADO"
+      ],
+      "source_anchor": "TIPO DE DOCUMENTO APORTADO",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "PASAPORTE"
+      ],
+      "options": [
+        "DNI",
+        "NIE",
+        "PASAPORTE",
+        "OTRO"
+      ],
+      "context_evidence": "2. NUEVO DOCUMENTO IDENTIFICATIVO / TIPO DE DOCUMENTO APORTADO: PASAPORTE."
+    },
+    {
+      "id": "f020",
+      "label": "NÚMERO:",
+      "path": [
+        "Página 1",
+        "2. NUEVO DOCUMENTO IDENTIFICATIVO",
+        "NÚMERO:"
+      ],
+      "source_anchor": "NÚMERO:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SINT-PAS-933-NUEVO"
+    },
+    {
+      "id": "f021",
+      "label": "FECHA DE PRESENTACIÓN DEL DOCUMENTO",
+      "path": [
+        "Página 1",
+        "2. NUEVO DOCUMENTO IDENTIFICATIVO",
+        "FECHA DE PRESENTACIÓN DEL DOCUMENTO"
+      ],
+      "source_anchor": "FECHA DE PRESENTACIÓN DEL DOCUMENTO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "25/10/2026"
+    },
+    {
+      "id": "f022",
+      "label": "CAUSA:",
+      "path": [
+        "Página 1",
+        "2. NUEVO DOCUMENTO IDENTIFICATIVO",
+        "CAUSA:"
+      ],
+      "source_anchor": "CAUSA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Renovación del pasaporte por caducidad; identidad personal sin variación"
+    },
+    {
+      "id": "f023",
+      "label": "APELLIDO 1o:",
+      "path": [
+        "Página 1",
+        "3. NUEVOS DATOS PERSONALES",
+        "APELLIDO 1o:"
+      ],
+      "source_anchor": "APELLIDO 1o:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio: solo se renueva el documento"
+    },
+    {
+      "id": "f024",
+      "label": "APELLIDO 2o:",
+      "path": [
+        "Página 1",
+        "3. NUEVOS DATOS PERSONALES",
+        "APELLIDO 2o:"
+      ],
+      "source_anchor": "APELLIDO 2o:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f025",
+      "label": "NOMBRE:",
+      "path": [
+        "Página 1",
+        "3. NUEVOS DATOS PERSONALES",
+        "NOMBRE:"
+      ],
+      "source_anchor": "NOMBRE:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f026",
+      "label": "SEXO:",
+      "path": [
+        "Página 1",
+        "3. NUEVOS DATOS PERSONALES",
+        "SEXO: / Denominación"
+      ],
+      "source_anchor": "SEXO:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f027",
+      "label": "SEXO:",
+      "path": [
+        "Página 1",
+        "3. NUEVOS DATOS PERSONALES",
+        "SEXO: / Código"
+      ],
+      "source_anchor": "SEXO:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio",
+      "label_from": "f026",
+      "label_position": [
+        24,
+        0
+      ]
+    },
+    {
+      "id": "f028",
+      "label": "NACIONALIDAD:",
+      "path": [
+        "Página 1",
+        "3. NUEVOS DATOS PERSONALES",
+        "NACIONALIDAD: / Denominación"
+      ],
+      "source_anchor": "NACIONALIDAD:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f029",
+      "label": "NACIONALIDAD:",
+      "path": [
+        "Página 1",
+        "3. NUEVOS DATOS PERSONALES",
+        "NACIONALIDAD: / Código"
+      ],
+      "source_anchor": "NACIONALIDAD:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio",
+      "label_from": "f028",
+      "label_position": [
+        25,
+        0
+      ]
+    },
+    {
+      "id": "f030",
+      "label": "DOCUMENTACIÓN APORTADA:",
+      "path": [
+        "Página 1",
+        "3. NUEVOS DATOS PERSONALES",
+        "DOCUMENTACIÓN APORTADA:"
+      ],
+      "source_anchor": "DOCUMENTACIÓN APORTADA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio: sin cambio de datos personales"
+    },
+    {
+      "id": "f031",
+      "label": "FECHA DE PRESENTACIÓN:",
+      "path": [
+        "Página 1",
+        "3. NUEVOS DATOS PERSONALES",
+        "FECHA DE PRESENTACIÓN:"
+      ],
+      "source_anchor": "FECHA DE PRESENTACIÓN:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f032",
+      "label": "4. OBSERVACIONES / OTROS DATOS",
+      "path": [
+        "Página 1",
+        "4. OBSERVACIONES / OTROS DATOS",
+        "4. OBSERVACIONES / OTROS DATOS"
+      ],
+      "source_anchor": "4. OBSERVACIONES / OTROS DATOS",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Sin otras observaciones en el expediente sintético"
+    },
+    {
+      "id": "f033",
+      "label": "OFICINA DELEGADA DEL R.C.P.",
+      "path": [
+        "Página 1",
+        "OFICINA DELEGADA DEL R.C.P.",
+        "Lugar y fecha de comunicación"
+      ],
+      "source_anchor": "OFICINA DELEGADA DEL R.C.P.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Madrid, 25/10/2026"
+    },
+    {
+      "id": "f034",
+      "label": "Fdo.:",
+      "path": [
+        "Página 1",
+        "OFICINA DELEGADA DEL R.C.P.",
+        "Firma jefatura RCP"
+      ],
+      "source_anchor": "Fdo.:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma ficticia de ELENA VIDAL, jefa de oficina delegada"
+    },
+    {
+      "id": "f035",
+      "label": "Lugar y fecha",
+      "path": [
+        "Página 1",
+        "Emisión",
+        "Lugar"
+      ],
+      "source_anchor": "Lugar y fecha",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Madrid"
+    },
+    {
+      "id": "f036",
+      "label": "Lugar y fecha",
+      "path": [
+        "Página 1",
+        "Emisión",
+        "Fecha"
+      ],
+      "source_anchor": "Lugar y fecha",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "25/10/2026"
+    },
+    {
+      "id": "f037",
+      "label": "El/La",
+      "path": [
+        "Página 1",
+        "Emisión",
+        "Cargo de la autoridad"
+      ],
+      "source_anchor": "El/La",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Directora de Personal de Ejemplo"
+    },
+    {
+      "id": "f038",
+      "label": "Fdo.:",
+      "path": [
+        "Página 1",
+        "Emisión",
+        "Fdo.:"
+      ],
+      "source_anchor": "Fdo.:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma ficticia de CLARA NAVARRO"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "label": "Mo / Org:",
+        "field": "f001",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "DP.R",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "ANOTACIÓN DE NUEVO DOCUMENTO IDENTIFICATIVO O VARIACIÓN DE DATOS PERSONALES",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Conforme a lo previsto en el Reglamento del Registro Central de Personal, y según los datos que obran en el expediente del/de la interesado/a, procede la anotación cuyo detalle sigue:",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "NIP:",
+        "field": "f002",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "TIPO DE DOCUMENTO APORTADO",
+        "field": "f003",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NÚMERO:",
+        "field": "f004",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "APELLIDO 1o:",
+        "field": "f005",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "APELLIDO 2o:",
+        "field": "f006",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NOMBRE:",
+        "field": "f007",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SEXO:",
+        "field": "f008",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NACIONALIDAD:",
+        "field": "f010",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FECHA DE NACIMIENTO:",
+        "field": "f012",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "PROVINCIA:",
+        "field": "f013",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "PAÍS:",
+        "field": "f015",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f016",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "LOCALIDAD:",
+        "field": "f017",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f018",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "2. NUEVO DOCUMENTO IDENTIFICATIVO",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "TIPO DE DOCUMENTO APORTADO",
+        "field": "f019",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NÚMERO:",
+        "field": "f020",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FECHA DE PRESENTACIÓN DEL DOCUMENTO",
+        "field": "f021",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "CAUSA:",
+        "field": "f022",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "3. NUEVOS DATOS PERSONALES",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "APELLIDO 1o:",
+        "field": "f023",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "APELLIDO 2o:",
+        "field": "f024",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NOMBRE:",
+        "field": "f025",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SEXO:",
+        "field": "f026",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f027",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NACIONALIDAD:",
+        "field": "f028",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f029",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "DOCUMENTACIÓN APORTADA:",
+        "field": "f030",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FECHA DE PRESENTACIÓN:",
+        "field": "f031",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "4. OBSERVACIONES / OTROS DATOS",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "4. OBSERVACIONES / OTROS DATOS",
+        "field": "f032",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "OFICINA DELEGADA DEL R.C.P.",
+        "source_page": 1,
+        "colspan": 6,
+        "heading": true
+      },
+      {
+        "label": "Lugar y fecha",
+        "field": "f035",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "Lugar y fecha",
+        "field": "f036",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Cumplimentado lo establecido sobre la preceptiva comunicación al Registro Central de Personal.",
+        "source_page": 1,
+        "colspan": 6,
+        "heading": false
+      },
+      {
+        "label": "El/La",
+        "field": "f037",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "OFICINA DELEGADA DEL R.C.P.",
+        "field": "f033",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "text": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "EL/LA JEFE/A DE LA OFICINA DELEGADA",
+        "source_page": 1,
+        "colspan": 6,
+        "heading": false
+      },
+      {
+        "text": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Fdo.:",
+        "field": "f034",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Fdo.:",
+        "field": "f038",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ]
+  ],
+  "source_notice": "All source pages, meaningful static text, independent writing regions and genuine choice options retained. Consecutive character boxes of one identifier/date/code form one logical input; descriptions and their separate codes are distinct fields. Source horizontal groups and repeated rows are explicit. Graphical branding and internal PDF utility controls are not reproduced.",
+  "context": "CASO ENTERAMENTE FICTICIO. Personas, organismos de ejemplo, identificadores, códigos, importes y firmas son datos sintéticos para esta transcripción; no acreditan un expediente ni una actuación administrativa real.\n\nPágina 1 / General / Mo / Org:: Ministerio de Ejemplo Sintético\nPágina 1 / 1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL / NIP:: SINT93300A\n1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL / TIPO DE DOCUMENTO APORTADO: PASAPORTE.\nPágina 1 / 1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL / NÚMERO:: SINT-PAS-933-ANT\nPágina 1 / 1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL / APELLIDO 1o:: SOLER\nPágina 1 / 1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL / APELLIDO 2o:: RIVERA\nPágina 1 / 1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL / NOMBRE:: MARTINA\nPágina 1 / 1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL / SEXO: / Denominación: Mujer\nPágina 1 / 1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL / SEXO: / Código: 2\nPágina 1 / 1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL / NACIONALIDAD: / Denominación: Española\nPágina 1 / 1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL / NACIONALIDAD: / Código: 724\nPágina 1 / 1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL / FECHA DE NACIMIENTO:: 15/05/1980\nPágina 1 / 1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL / PROVINCIA: / Denominación: Madrid\nPágina 1 / 1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL / PROVINCIA: / Código: 28\nPágina 1 / 1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL / PAÍS: / Denominación: España\nPágina 1 / 1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL / PAÍS: / Código: 724\nPágina 1 / 1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL / LOCALIDAD: / Denominación: Madrid\nPágina 1 / 1. IDENTIFICACIÓN Y DATOS PERSONALES QUE CONSTAN EN EL REGISTRO CENTRAL DE PERSONAL / LOCALIDAD: / Código: 079\n2. NUEVO DOCUMENTO IDENTIFICATIVO / TIPO DE DOCUMENTO APORTADO: PASAPORTE.\nPágina 1 / 2. NUEVO DOCUMENTO IDENTIFICATIVO / NÚMERO:: SINT-PAS-933-NUEVO\nPágina 1 / 2. NUEVO DOCUMENTO IDENTIFICATIVO / FECHA DE PRESENTACIÓN DEL DOCUMENTO: 25/10/2026\nPágina 1 / 2. NUEVO DOCUMENTO IDENTIFICATIVO / CAUSA:: Renovación del pasaporte por caducidad; identidad personal sin variación\nPágina 1 / 3. NUEVOS DATOS PERSONALES / APELLIDO 1o:: No procede en este supuesto ficticio: solo se renueva el documento\nPágina 1 / 3. NUEVOS DATOS PERSONALES / APELLIDO 2o:: No procede en este supuesto ficticio\nPágina 1 / 3. NUEVOS DATOS PERSONALES / NOMBRE:: No procede en este supuesto ficticio\nPágina 1 / 3. NUEVOS DATOS PERSONALES / SEXO: / Denominación: No procede en este supuesto ficticio\nPágina 1 / 3. NUEVOS DATOS PERSONALES / SEXO: / Código: No procede en este supuesto ficticio\nPágina 1 / 3. NUEVOS DATOS PERSONALES / NACIONALIDAD: / Denominación: No procede en este supuesto ficticio\nPágina 1 / 3. NUEVOS DATOS PERSONALES / NACIONALIDAD: / Código: No procede en este supuesto ficticio\nPágina 1 / 3. NUEVOS DATOS PERSONALES / DOCUMENTACIÓN APORTADA:: No procede en este supuesto ficticio: sin cambio de datos personales\nPágina 1 / 3. NUEVOS DATOS PERSONALES / FECHA DE PRESENTACIÓN:: No procede en este supuesto ficticio\nPágina 1 / 4. OBSERVACIONES / OTROS DATOS / 4. OBSERVACIONES / OTROS DATOS: Sin otras observaciones en el expediente sintético\nPágina 1 / OFICINA DELEGADA DEL R.C.P. / Lugar y fecha de comunicación: Madrid, 25/10/2026\nPágina 1 / OFICINA DELEGADA DEL R.C.P. / Firma jefatura RCP: Firma ficticia de ELENA VIDAL, jefa de oficina delegada\nPágina 1 / Emisión / Lugar: Madrid\nPágina 1 / Emisión / Fecha: 25/10/2026\nPágina 1 / Emisión / Cargo de la autoridad: Directora de Personal de Ejemplo\nPágina 1 / Emisión / Fdo.:: Firma ficticia de CLARA NAVARRO",
+  "workflow_identity": {
+    "language": "es",
+    "id": 933
+  }
+}

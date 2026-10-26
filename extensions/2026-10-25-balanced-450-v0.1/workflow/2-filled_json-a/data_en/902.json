@@ -1,0 +1,202 @@
+{
+  "Page 1": {
+    "Sender": {
+      "Sender’s name and address": "Dr Robin Vale, Sample Microbiology Laboratory, 12 Example Road, London",
+      "Report to be sent FAO": "Dr Robin Vale",
+      "Postcode": "NW9 5HT",
+      "Contact Phone": "0200000902 (synthetic)",
+      "Ext": "102",
+      "Purchase order number": "SYN-PO-902",
+      "Project code": "SYN-BIDS-902"
+    },
+    "Source type": {
+      "PATIENT/SOURCE INFORMATION": {
+        "choices": [
+          "Human",
+          "Animal*",
+          "Food*",
+          "Water*",
+          "Environment*",
+          "Other*"
+        ],
+        "value": [
+          "Human"
+        ]
+      }
+    },
+    "Source type other": {
+      "*Please specify": "N/A - human source"
+    },
+    "Patient status": {
+      "PATIENT/SOURCE INFORMATION": {
+        "choices": [
+          "InPatient",
+          "Outpatient",
+          "GP Patient",
+          "Other (Please specify)"
+        ],
+        "value": [
+          "InPatient"
+        ]
+      }
+    },
+    "Patient status other": {
+      "Other (Please specify)": "N/A"
+    },
+    "Patient": {
+      "NHS number": "SYN0000902",
+      "Sex": {
+        "choices": [
+          "male",
+          "female"
+        ],
+        "value": [
+          "female"
+        ]
+      },
+      "Surname": "NORTH",
+      "Forename": "ALICE",
+      "Date of birth": "14/05/1986",
+      "Age": "40",
+      "Patient’s postcode": "NW9 5HT",
+      "Patient’s HPT": "North London (fictional referral)",
+      "Hospital number": "SYN-H902"
+    },
+    "Hospital": {
+      "Hospital name (if different from sender’s name)": "Sample Teaching Hospital",
+      "Ward/ clinic name": "Ward A",
+      "Ward type": "General medicine"
+    },
+    "Sample": {
+      "Your reference": "SYN-M1-902",
+      "Sample type": {
+        "choices": [
+          "Isolate",
+          "Clinical specimen"
+        ],
+        "value": [
+          "Isolate"
+        ]
+      },
+      "Date of collection": "22/10/26",
+      "Time": "09:15",
+      "Date sent to UKHSA": "23/10/26"
+    },
+    "Isolation source": {
+      "Isolation site / Source": {
+        "choices": [
+          "Blood (EDTA/Serum)",
+          "Environment",
+          "Faeces",
+          "Blood Culture Fluid",
+          "Nose",
+          "Skin",
+          "Sputum",
+          "Urine",
+          "Wound",
+          "Other (please specify)"
+        ],
+        "value": [
+          "Blood Culture Fluid"
+        ]
+      }
+    },
+    "Isolation other": {
+      "Other (please specify)": "N/A"
+    },
+    "Hazard assessment": {
+      "Do you suspect from clinical or lab information that patient is infected with Hazard Group 3 or 4 pathogen (in addition to the requested investigation?": {
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "value": [
+          "No"
+        ]
+      }
+    },
+    "Hazard details": {
+      "If yes, give all relevant details": "N/A - no HG3/4 suspicion"
+    },
+    "Preliminary result": {
+      "If referring an isolate, give preliminary ID and lab results": "Aerobic Gram-positive rod; MALDI-TOF inconclusive."
+    },
+    "Presumptive ID": {
+      "Please state the presumptive identification": "Coryneform bacterium, species unresolved."
+    },
+    "Post-mortem": {
+      "Please tick the box if your clinical sample is post mortem?": {
+        "choices": [
+          "Please tick the box if your clinical sample is post mortem?"
+        ],
+        "value": []
+      }
+    },
+    "Identification tests": {
+      "Bacterial Identification of:": {
+        "choices": [
+          "Actinomycetes (aerobic)",
+          "Unknown/atypical isolate",
+          "Unknown/culture-negative clinical specimen"
+        ],
+        "value": [
+          "Unknown/atypical isolate"
+        ]
+      }
+    },
+    "Susceptibility testing": {
+      "Antimicrobial Susceptibility Testing:": {
+        "choices": [
+          "Antimicrobial Susceptibility Testing:"
+        ],
+        "value": []
+      }
+    },
+    "API": {
+      "API profile no": "Not performed",
+      "API kit": "Not performed"
+    },
+    "MALDI": {
+      "MALDI-TOF ID": "Low-confidence coryneform spectrum",
+      "Score/%": "1.40"
+    },
+    "Laboratory": {
+      "Growth requirement": "Aerobic; blood agar at 35 C",
+      "Other information": "Pure isolate supplied; clinical significance under assessment."
+    },
+    "Stain": {
+      "Stain": {
+        "choices": [
+          "Gram positive",
+          "Gram negative",
+          "Other (please specify)"
+        ],
+        "value": [
+          "Gram positive"
+        ]
+      }
+    },
+    "Stain other": {
+      "Other (please specify)": "N/A"
+    },
+    "Biochemistry": {
+      "Oxidase +/-": "Negative",
+      "Catalase +/-": "Positive"
+    },
+    "Travel": {
+      "Recent foreign travel?": {
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "value": [
+          "No"
+        ]
+      },
+      "Country": "N/A"
+    },
+    "Comments": {
+      "OTHER COMMENTS": "Fictional febrile inpatient; isolate referred for species identification. Not post-mortem."
+    }
+  }
+}

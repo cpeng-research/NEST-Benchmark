@@ -1,0 +1,926 @@
+[
+  {
+    "key": "1.1 TIPO DOCUMENTO",
+    "label_info": {
+      "row": 2,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "1.2 NÚMERO DOC.",
+    "label_info": {
+      "row": 2,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "1.3 NACIONALIDAD",
+    "label_info": {
+      "row": 2,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "1.4 PAÍS / LUGAR NACIMIENTO",
+    "label_info": {
+      "row": 2,
+      "col": 7
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "1.5 FECHA NAC.",
+    "label_info": {
+      "row": 2,
+      "col": 10
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "1.6 PRIMER APELLIDO",
+    "label_info": {
+      "row": 3,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "1.7 SEGUNDO APELLIDO",
+    "label_info": {
+      "row": 3,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "1.8 NOMBRE",
+    "label_info": {
+      "row": 3,
+      "col": 6
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "1.9 PROFESIÓN",
+    "label_info": {
+      "row": 3,
+      "col": 10
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "TIPO VÍA",
+    "label_info": {
+      "row": 5,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "NOMBRE VÍA",
+    "label_info": {
+      "row": 5,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "NÚM.",
+    "label_info": {
+      "row": 5,
+      "col": 8
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "OTROS DATOS",
+    "label_info": {
+      "row": 5,
+      "col": 9
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "1.11 CÓDIGO POSTAL",
+    "label_info": {
+      "row": 6,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "1.12 LOCALIDAD",
+    "label_info": {
+      "row": 6,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "1.13 PAÍS",
+    "label_info": {
+      "row": 6,
+      "col": 9
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "PERSONA FÍSICA",
+    "label_info": {
+      "row": 8,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "2.1 TIPO DOCUMENTO",
+    "label_info": {
+      "row": 9,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "2.2 NÚMERO DOC.",
+    "label_info": {
+      "row": 9,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "2.3 NACIONALIDAD",
+    "label_info": {
+      "row": 9,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "2.4 PAÍS / LUGAR NACIMIENTO / CONSTITUCIÓN",
+    "label_info": {
+      "row": 9,
+      "col": 7
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "2.5 FECHA NAC. / CONSTITUCIÓN",
+    "label_info": {
+      "row": 9,
+      "col": 10
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "2.6 PRIMER APELLIDO",
+    "label_info": {
+      "row": 10,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "2.7 SEGUNDO APELLIDO",
+    "label_info": {
+      "row": 10,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "2.8 NOMBRE / RAZÓN SOCIAL",
+    "label_info": {
+      "row": 10,
+      "col": 6
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "2.9 PROF. / FORMA SOC.",
+    "label_info": {
+      "row": 10,
+      "col": 10
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "TIPO VÍA",
+    "label_info": {
+      "row": 12,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "NOMBRE VÍA",
+    "label_info": {
+      "row": 12,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "NÚM.",
+    "label_info": {
+      "row": 12,
+      "col": 8
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "OTROS DATOS",
+    "label_info": {
+      "row": 12,
+      "col": 9
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "2.11 CÓDIGO POSTAL",
+    "label_info": {
+      "row": 13,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "2.12 LOCALIDAD",
+    "label_info": {
+      "row": 13,
+      "col": 2
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "2.13 PAÍS",
+    "label_info": {
+      "row": 13,
+      "col": 9
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "3.1 FECHA DEL MOVIMIENTO",
+    "label_info": {
+      "row": 15,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "3.2 CONCEPTO (NEGOCIOS / TURISMO)",
+    "label_info": {
+      "row": 15,
+      "col": 4
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "3.3 TIPO DE MOVIMIENTO",
+    "label_info": {
+      "row": 16,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "3.4 PAÍS PARTIDA",
+    "label_info": {
+      "row": 17,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "3.5 PAÍS LLEGADA",
+    "label_info": {
+      "row": 17,
+      "col": 6
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "3.6 LOCALIDAD DE PARTIDA",
+    "label_info": {
+      "row": 18,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "3.7 LOCALIDAD DE LLEGADA",
+    "label_info": {
+      "row": 18,
+      "col": 6
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "3.8 MEDIO DE TRANSPORTE UTILIZADO",
+    "label_info": {
+      "row": 19,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "3.9 ADUANA / PASO FRONTERIZO DE ENTRADA O SALIDA",
+    "label_info": {
+      "row": 19,
+      "col": 6
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "4.1 MEDIOS",
+    "label_info": {
+      "row": 21,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "4.2 MONEDA",
+    "label_info": {
+      "row": 21,
+      "col": 5
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "4.3 IMPORTE (EN MONEDA 4.2)",
+    "label_info": {
+      "row": 21,
+      "col": 8
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "4.1 MEDIOS",
+    "label_info": {
+      "row": 22,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "4.2 MONEDA",
+    "label_info": {
+      "row": 22,
+      "col": 5
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "4.3 IMPORTE (EN MONEDA 4.2)",
+    "label_info": {
+      "row": 22,
+      "col": 8
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "4.1 MEDIOS",
+    "label_info": {
+      "row": 23,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "4.2 MONEDA",
+    "label_info": {
+      "row": 23,
+      "col": 5
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "4.3 IMPORTE (EN MONEDA 4.2)",
+    "label_info": {
+      "row": 23,
+      "col": 8
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "4.4 IMPORTE TOTAL EN EUROS (EN LETRA)",
+    "label_info": {
+      "row": 24,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "4.4.1 IMPORTE TOTAL EN EUROS (EN CIFRA)",
+    "label_info": {
+      "row": 25,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "5.1 ORIGEN (PROCEDENCIA)",
+    "label_info": {
+      "row": 27,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "5.2.1 DESCRIPCIÓN",
+    "label_info": {
+      "row": 29,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "5.2.2 CÓDIGO BALANZA DE PAGOS",
+    "label_info": {
+      "row": 30,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "6.1 LUGAR",
+    "label_info": {
+      "row": 33,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "6.2 FECHA",
+    "label_info": {
+      "row": 33,
+      "col": 3
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "6.3 HORA",
+    "label_info": {
+      "row": 33,
+      "col": 6
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "6.4 FIRMA DEL DECLARANTE",
+    "label_info": {
+      "row": 33,
+      "col": 8
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "7.1 ENTIDAD REGISTRADA (CÓDIGO BE)",
+    "label_info": {
+      "row": 35,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "7.2 IMPORTE EN CUENTA (EUROS)",
+    "label_info": {
+      "row": 36,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "7.3 FECHA, HORA, FIRMA Y SELLO",
+    "label_info": {
+      "row": 37,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "8.1 ADUANA DE PRESENTACIÓN / CONTROL",
+    "label_info": {
+      "row": 39,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "8.2 VERIFICADO IMPORTE DECLARADO",
+    "label_info": {
+      "row": 40,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "8.3 FECHA, HORA, FIRMA Y SELLO",
+    "label_info": {
+      "row": 41,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  }
+]

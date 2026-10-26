@@ -1,0 +1,87 @@
+{
+  "Page 1": {
+    "L’EMPLOYEUR": {
+      "Dénomination, raison sociale": "",
+      "N° SIRET": "",
+      "Nom et prénom du correspondant": "",
+      "Employeur numéro": "",
+      "Employeur rue": "",
+      "Employeur complément": "",
+      "Employeur postal": "",
+      "Employeur commune": "",
+      "Tél.": "",
+      "Employeur courriel": ""
+    },
+    "LE SALARIÉ": {
+      "Nom": "",
+      "Prénom": "",
+      "Date de naissance": "",
+      "Numéro d’inscription au répertoire INSEE (NIR)": "",
+      "Salarié numéro": "",
+      "Salarié rue": "",
+      "Salarié complément": "",
+      "Salarié postal": "",
+      "Salarié commune": "",
+      "Tél. personnel": "",
+      "Salarié courriel": "",
+      "Code QPV": "",
+      "N° Identifiant à France Travail": "",
+      "Catégorie d’inscription (cocher la case appropriée en vous référant à l’attestation France Travail remise au demandeur d’emploi)": {
+        "choices": [
+          "1",
+          "2",
+          "3",
+          "4 (CSP)",
+          "6",
+          "7",
+          "8"
+        ],
+        "value": []
+      }
+    },
+    "LE CONTRAT DE TRAVAIL": {
+      "Nature du contrat": {
+        "choices": [
+          "CDI",
+          "CDI intérimaire",
+          "CDD"
+        ],
+        "value": []
+      },
+      "Date de signature du contrat de travail": "",
+      "Date d’embauche (1er jour travaillé)": "",
+      "Si CDD date de fin de contrat de travail": "",
+      "Durée hebdomadaire de travail du salarié (en pourcentage par rapport à un temps plein)": "",
+      "Durée hebdomadaire de travail dans l’entreprise": "",
+      "Salaire euros": "",
+      "Salaire centimes": "",
+      "Emploi occupé": ""
+    }
+  },
+  "Page 2": {
+    "L’employeur ou son représentant,": {
+      "Certification": {
+        "choices": [
+          "certifie l’exactitude des renseignements portés sur la présente demande"
+        ],
+        "value": []
+      },
+      "Déclaration": {
+        "choices": [
+          "déclare sur l’honneur"
+        ],
+        "value": []
+      },
+      "Engagement": {
+        "choices": [
+          "s’engage"
+        ],
+        "value": []
+      },
+      "Fait à": "",
+      "Signature date": "",
+      "Signature (Nom et qualité du signataire)": "",
+      "Cachet de l’entreprise": ""
+    }
+  }
+}

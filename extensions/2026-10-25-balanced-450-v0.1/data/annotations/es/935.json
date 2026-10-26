@@ -1,0 +1,1154 @@
+{
+  "id": "es-935",
+  "language": "es",
+  "title": "Solicitud de conexión a RedUGR para empresas concesionarias de servicios a UGR",
+  "domain": "Business",
+  "issuer": "Universidad de Granada",
+  "issuer_id": "universidad-de-granada",
+  "template_family": "ugr-network-concession-company",
+  "source_version": "No indicada",
+  "source_date_evidence": {
+    "kind": "not stated",
+    "value": "No indicada",
+    "note": "No printed edition or source-specific publication/update date on this PDF or its directory entry. PDF metadata and HTTP retrieval date are not asserted to be publication dates."
+  },
+  "source_url": "https://csirc.ugr.es/sites/centros/csirc/public/formularios/scadmEmpresas.pdf",
+  "landing_url": "https://csirc.ugr.es/informacion/documentos/formularios",
+  "retrieved_at": "2026-10-25T16:17:49.936760+00:00",
+  "source_sha256": "ee8a87d6d395974dd02f5658d9a5722c2b897424fa3e256e3e905e5dd95a65c0",
+  "source_pages": 3,
+  "license_url": "https://csirc.ugr.es/condiciones-legales",
+  "license_note": "Universidad de Granada. Condiciones legales: associated organs and services are included in the Portal; full or partial reproduction is authorized with explicit public-source attribution and preservation of integrity and meaning. This is an express reproduction permission, not a Creative Commons license. Complete semantic transcription in a normalized grid; all completed data and signatures are fictional. No administrative action or issuer endorsement.",
+  "columns": 12,
+  "synthetic_context": true,
+  "fields": [
+    {
+      "id": "f001",
+      "label": "(1)Nombre*:",
+      "path": [
+        "Página 1",
+        "SOLICITANTE: (El responsable del equipo)",
+        "(1)Nombre*:"
+      ],
+      "source_anchor": "(1)Nombre*:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "ELENA VIDAL LÓPEZ"
+    },
+    {
+      "id": "f002",
+      "label": "(2)DNI:",
+      "path": [
+        "Página 1",
+        "SOLICITANTE: (El responsable del equipo)",
+        "(2)DNI:"
+      ],
+      "source_anchor": "(2)DNI:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "DNI-SINT-935R"
+    },
+    {
+      "id": "f003",
+      "label": "(3)Teléfono*:",
+      "path": [
+        "Página 1",
+        "SOLICITANTE: (El responsable del equipo)",
+        "(3)Teléfono*:"
+      ],
+      "source_anchor": "(3)Teléfono*:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "000935001"
+    },
+    {
+      "id": "f004",
+      "label": "(4)Email:",
+      "path": [
+        "Página 1",
+        "SOLICITANTE: (El responsable del equipo)",
+        "(4)Email:"
+      ],
+      "source_anchor": "(4)Email:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "elena.vidal@example.org"
+    },
+    {
+      "id": "f005",
+      "label": "(5)Necesita cableado*:",
+      "path": [
+        "Página 1",
+        "SOLICITANTE: (El responsable del equipo)",
+        "(5)Necesita cableado*:"
+      ],
+      "source_anchor": "(5)Necesita cableado*:",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Sí"
+      ],
+      "options": [
+        "Sí",
+        "No"
+      ],
+      "context_evidence": "SOLICITANTE: (El responsable del equipo) / (5)Necesita cableado*:: Sí."
+    },
+    {
+      "id": "f006",
+      "label": "(6)Centro/Edificio*:",
+      "path": [
+        "Página 1",
+        "SOLICITANTE: (El responsable del equipo)",
+        "(6)Centro/Edificio*:"
+      ],
+      "source_anchor": "(6)Centro/Edificio*:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Edificio sintético de servicios"
+    },
+    {
+      "id": "f007",
+      "label": "(7) Departamento:",
+      "path": [
+        "Página 1",
+        "SOLICITANTE: (El responsable del equipo)",
+        "(7) Departamento:"
+      ],
+      "source_anchor": "(7) Departamento:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Empresa concesionaria de ejemplo"
+    },
+    {
+      "id": "f008",
+      "label": "(8)Planta:",
+      "path": [
+        "Página 1",
+        "SOLICITANTE: (El responsable del equipo)",
+        "(8)Planta:"
+      ],
+      "source_anchor": "(8)Planta:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "f009",
+      "label": "(9)Despacho/Aula:",
+      "path": [
+        "Página 1",
+        "SOLICITANTE: (El responsable del equipo)",
+        "(9)Despacho/Aula:"
+      ],
+      "source_anchor": "(9)Despacho/Aula:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "S-12"
+    },
+    {
+      "id": "f010",
+      "label": "(10)Ubicación de la toma dentro del despacho/aula* (Si tiene cableado indique No de toma):",
+      "path": [
+        "Página 1",
+        "SOLICITANTE: (El responsable del equipo)",
+        "(10)Ubicación de la toma dentro del despacho/aula* (Si tiene cableado indique No de toma):"
+      ],
+      "source_anchor": "(10)Ubicación de la toma dentro del despacho/aula* (Si tiene cableado indique No de toma):",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Instalar toma en pared norte, junto a la mesa de atención; no existe número previo."
+    },
+    {
+      "id": "f011",
+      "label": "(11)Observaciones:",
+      "path": [
+        "Página 1",
+        "SOLICITANTE: (El responsable del equipo)",
+        "(11)Observaciones:"
+      ],
+      "source_anchor": "(11)Observaciones:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Acceso para mantenimiento de la concesión ficticia."
+    },
+    {
+      "id": "f012",
+      "label": "(12)Tipo de Equipo:",
+      "path": [
+        "Página 1",
+        "SOLICITANTE: (El responsable del equipo)",
+        "(12)Tipo de Equipo:"
+      ],
+      "source_anchor": "(12)Tipo de Equipo:",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Compatible PC"
+      ],
+      "options": [
+        "Compatible PC",
+        "Impresora",
+        "Macintosh",
+        "Servidor",
+        "Otro (Especificar):"
+      ],
+      "context_evidence": "SOLICITANTE: (El responsable del equipo) / (12)Tipo de Equipo:: Compatible PC."
+    },
+    {
+      "id": "f013",
+      "label": "Otro (Especificar):",
+      "path": [
+        "Página 1",
+        "SOLICITANTE: (El responsable del equipo)",
+        "Descripción de otro equipo"
+      ],
+      "source_anchor": "Otro (Especificar):",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio: Compatible PC seleccionado"
+    },
+    {
+      "id": "f014",
+      "label": "(13)Nombre del Equipo*:",
+      "path": [
+        "Página 1",
+        "SOLICITANTE: (El responsable del equipo)",
+        "(13)Nombre del Equipo*:"
+      ],
+      "source_anchor": "(13)Nombre del Equipo*:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "PC-SINT-935"
+    },
+    {
+      "id": "f015",
+      "label": "(14)Ethernet*:",
+      "path": [
+        "Página 1",
+        "SOLICITANTE: (El responsable del equipo)",
+        "(14)Ethernet*:"
+      ],
+      "source_anchor": "(14)Ethernet*:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "02:00:00:00:09:35"
+    },
+    {
+      "id": "f016",
+      "label": "(15)Nombre*:",
+      "path": [
+        "Página 1",
+        "USUARIO FINAL (RESPONSABLE) DEL EQUIPO: (Usuario empresa concesionaria)",
+        "(15)Nombre*:"
+      ],
+      "source_anchor": "(15)Nombre*:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "MARTINA SOLER RIVERA"
+    },
+    {
+      "id": "f017",
+      "label": "(16)DNI*:",
+      "path": [
+        "Página 1",
+        "USUARIO FINAL (RESPONSABLE) DEL EQUIPO: (Usuario empresa concesionaria)",
+        "(16)DNI*:"
+      ],
+      "source_anchor": "(16)DNI*:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "DNI-SINT-935U"
+    },
+    {
+      "id": "f018",
+      "label": "(17)Teléfono:",
+      "path": [
+        "Página 1",
+        "USUARIO FINAL (RESPONSABLE) DEL EQUIPO: (Usuario empresa concesionaria)",
+        "(17)Teléfono:"
+      ],
+      "source_anchor": "(17)Teléfono:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "000935002"
+    },
+    {
+      "id": "f019",
+      "label": "(18)Email:",
+      "path": [
+        "Página 1",
+        "USUARIO FINAL (RESPONSABLE) DEL EQUIPO: (Usuario empresa concesionaria)",
+        "(18)Email:"
+      ],
+      "source_anchor": "(18)Email:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "martina.soler@example.org"
+    },
+    {
+      "id": "f020",
+      "label": "(19)Centro de Gasto(Orgánica) *:",
+      "path": [
+        "Página 1",
+        "USUARIO FINAL (RESPONSABLE) DEL EQUIPO: (Usuario empresa concesionaria)",
+        "(19)Centro de Gasto(Orgánica) *:"
+      ],
+      "source_anchor": "(19)Centro de Gasto(Orgánica) *:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "ORG-SINT-935"
+    },
+    {
+      "id": "f021",
+      "label": "Funcional:*",
+      "path": [
+        "Página 1",
+        "USUARIO FINAL (RESPONSABLE) DEL EQUIPO: (Usuario empresa concesionaria)",
+        "Funcional:*"
+      ],
+      "source_anchor": "Funcional:*",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "FUNC-SINT-935"
+    },
+    {
+      "id": "f022",
+      "label": "Económica:*",
+      "path": [
+        "Página 1",
+        "USUARIO FINAL (RESPONSABLE) DEL EQUIPO: (Usuario empresa concesionaria)",
+        "Económica:*"
+      ],
+      "source_anchor": "Económica:*",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "ECON-SINT-935"
+    },
+    {
+      "id": "f023",
+      "label": "(20)Responsable*:",
+      "path": [
+        "Página 1",
+        "USUARIO FINAL (RESPONSABLE) DEL EQUIPO: (Usuario empresa concesionaria)",
+        "(20)Responsable*:"
+      ],
+      "source_anchor": "(20)Responsable*:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "CLARA NAVARRO"
+    },
+    {
+      "id": "f024",
+      "label": "(21)DNI*:",
+      "path": [
+        "Página 1",
+        "USUARIO FINAL (RESPONSABLE) DEL EQUIPO: (Usuario empresa concesionaria)",
+        "(21)DNI*:"
+      ],
+      "source_anchor": "(21)DNI*:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "DNI-SINT-935G"
+    },
+    {
+      "id": "f025",
+      "label": "Fdo. El Solicitante.",
+      "path": [
+        "Página 1",
+        "USUARIO FINAL (RESPONSABLE) DEL EQUIPO: (Usuario empresa concesionaria)",
+        "Fdo. El Solicitante."
+      ],
+      "source_anchor": "Fdo. El Solicitante.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma ficticia de ELENA VIDAL LÓPEZ"
+    },
+    {
+      "id": "f026",
+      "label": "Sello de la entidad.",
+      "path": [
+        "Página 1",
+        "USUARIO FINAL (RESPONSABLE) DEL EQUIPO: (Usuario empresa concesionaria)",
+        "Sello de la entidad."
+      ],
+      "source_anchor": "Sello de la entidad.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Sello ficticio de la empresa concesionaria"
+    },
+    {
+      "id": "f027",
+      "label": "Fdo. El Responsable del Centro de Gasto.",
+      "path": [
+        "Página 1",
+        "USUARIO FINAL (RESPONSABLE) DEL EQUIPO: (Usuario empresa concesionaria)",
+        "Fdo. El Responsable del Centro de Gasto."
+      ],
+      "source_anchor": "Fdo. El Responsable del Centro de Gasto.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma ficticia de CLARA NAVARRO"
+    },
+    {
+      "id": "f028",
+      "label": "En Granada, a",
+      "path": [
+        "Página 1",
+        "USUARIO FINAL (RESPONSABLE) DEL EQUIPO: (Usuario empresa concesionaria)",
+        "Fecha"
+      ],
+      "source_anchor": "En Granada, a",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "26 de octubre de 2026"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "SOLICITUD DE CONEXIÓN A RedUGR PARA EMPRESAS CONCESIONARIAS DE SERVICIOS A UGR",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "IMPORTANTE: Las conexiones que queden sin uso durante un periodo de tiempo superior a 6 meses se darán de baja.",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "SOLICITANTE: (El responsable del equipo)",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "(1)Nombre*:",
+        "field": "f001",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "(2)DNI:",
+        "field": "f002",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(3)Teléfono*:",
+        "field": "f003",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "(4)Email:",
+        "field": "f004",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(5)Necesita cableado*:",
+        "field": "f005",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(6)Centro/Edificio*:",
+        "field": "f006",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(7) Departamento:",
+        "field": "f007",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(8)Planta:",
+        "field": "f008",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "(9)Despacho/Aula:",
+        "field": "f009",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(10)Ubicación de la toma dentro del despacho/aula* (Si tiene cableado indique No de toma):",
+        "field": "f010",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(11)Observaciones:",
+        "field": "f011",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(12)Tipo de Equipo:",
+        "field": "f012",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Otro (Especificar):",
+        "field": "f013",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(13)Nombre del Equipo*:",
+        "field": "f014",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "(14)Ethernet*:",
+        "field": "f015",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "USUARIO FINAL (RESPONSABLE) DEL EQUIPO: (Usuario empresa concesionaria)",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "(15)Nombre*:",
+        "field": "f016",
+        "colspan": 8,
+        "source_page": 1
+      },
+      {
+        "label": "(16)DNI*:",
+        "field": "f017",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(17)Teléfono:",
+        "field": "f018",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "(18)Email:",
+        "field": "f019",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(19)Centro de Gasto(Orgánica) *:",
+        "field": "f020",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Funcional:*",
+        "field": "f021",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Económica:*",
+        "field": "f022",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "*Campos obligatorios. La solicitud NO se tramitará si ambos campos NO aparecen rellenos.",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "(20)Responsable*:",
+        "field": "f023",
+        "colspan": 8,
+        "source_page": 1
+      },
+      {
+        "label": "(21)DNI*:",
+        "field": "f024",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fdo. El Solicitante.",
+        "field": "f025",
+        "colspan": 5,
+        "source_page": 1
+      },
+      {
+        "label": "Sello de la entidad.",
+        "field": "f026",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "Fdo. El Responsable del Centro de Gasto.",
+        "field": "f027",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "En Granada, a",
+        "field": "f028",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Centro de Servicios de Informática y Redes de Comunicaciones Edificio Mecenas * Campus Fuentenueva * 18071 Granada",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Telf. 958 241010 * Fax 958 244221 * Web http://csirc.ugr.es * eMail csirc@ugr.es",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "SOLICITUD DE CONEXIÓN A RedUGR PARA EMPRESAS CONCESIONARIAS DE SERVICIOS A UGR",
+        "source_page": 2,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "LAS SIGUIENTES PÁGINAS TIENEN CARÁCTER INFORMATIVO. NO ES NECESARIO QUE NOS LAS ENVÍE.",
+        "source_page": 2,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "IMPORTANTE: Las conexiones que queden sin uso durante un periodo de tiempo superior a 6 meses se darán de baja.",
+        "source_page": 2,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "Información detallada de lo que debe incluir en cada campo del formulario",
+        "source_page": 2,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "(1)",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Nombre:",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Nombre y apellidos de la persona que formula la solicitud. En los casos de Traslado y Migración de equipos, el solicitante deberá ser obligatoriamente el titular (responsable) de dicho equipo.",
+        "source_page": 2,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "(2)",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "DNI:",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "DNI de la persona que formula la solicitud.",
+        "source_page": 2,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "(3)",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Teléfono:",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Teléfono de contacto de la persona que formula la solicitud para localizarle en el caso de que fuera necesario. (Teléfonos fijo y/o móvil corporativo o personal).",
+        "source_page": 2,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "(4)",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Email:",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Correo electrónico de la Universidad de Granada de la persona que formula la solicitud.",
+        "source_page": 2,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "(5)",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Necesita cableado",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Marque sólo una casilla. Indique si la conexión necesita que se instale físicamente un nuevo cable y roseta de conexión o no.",
+        "source_page": 2,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "(6)",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Centro/Edificio",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Centro o Edificio donde se ubicará la conexión que se solicita. En el caso de Traslado o Migración de una conexión existente, indique el nuevo Centro donde se desea trasladar o migrar la conexión.",
+        "source_page": 2,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "(7)",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Departamento",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Departamento o grupo de investigación al que pertenece el solicitante. En el caso de Traslado Migración de una conexión existente, indique el Departamento del nuevo Centro o Edificio donde se desea trasladar o migrar la conexión.",
+        "source_page": 2,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "(8)",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Planta",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Planta en la que se ubicará la conexión solicitada. En el caso de Traslado Migración de una conexión existente, indique la Planta del nuevo Centro donde se desea trasladar o migrar la conexión.",
+        "source_page": 2,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "(9)",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Despacho/Aula",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Despacho o Aula en la que se ubicará la conexión solicitada.",
+        "source_page": 2,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "(10)",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Ubicación de la toma",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Únicamente para conexiones que Necesitan Cableado. Indicar una breve descripción de donde se desea que se ubique físicamente la toma de red.",
+        "source_page": 2,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "(11)",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Observaciones",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Indique aquí cualquier observación, aclaración o dato que estime oportuno que deba ser conocido para la tramitación de su solicitud.",
+        "source_page": 2,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "(12)",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Tipo de equipo",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Marque sólo una casilla. Indique si el equipo para el que solicita la Nueva Conexión, Traslado o Migración es un PC tradicional, una Impresora en red, un Macintosh, un Servidor u otra cosa. En el caso de no ser ninguno de los especificados, indicar de qué equipo se trata.",
+        "source_page": 2,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "(13)",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Nombre del equipo",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Nombre que tendrá el equipo asociado a la conexión solicitada.",
+        "source_page": 2,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "(14)",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Ethernet",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Dirección Ethernet (MAC, dirección física) del equipo a conectar. La dirección debe aparecer de la forma XX:XX:XX:XX:XX:XX.",
+        "source_page": 2,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "(15)",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Nombre",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Nombre y apellidos de la persona que será el titular (responsable) de la conexión de la empresa concesionaria.",
+        "source_page": 2,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "(16)",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "DNI",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "DNI de la persona que será el titular (responsable) de la conexión de la empresa concesionaria.",
+        "source_page": 2,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "(17)",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Teléfono",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Teléfono de contacto de la persona que será el titular (responsable) de la conexión de la empresa concesionaria.",
+        "source_page": 2,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "(18)",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Email",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Correo electrónico del titular (responsable) de la empresa concesionaria",
+        "source_page": 2,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "(19)",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Centro de gasto",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Código del centro de gasto en el que se cargará la solicitud.",
+        "source_page": 2,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "(20)",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Responsable",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "Nombre y apellidos de la persona responsable del centro de gasto.",
+        "source_page": 2,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "(21)",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "DNI",
+        "source_page": 2,
+        "colspan": 4
+      },
+      {
+        "text": "DNI de la persona responsable del centro de gasto.",
+        "source_page": 2,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "Centro de Servicios de Informática y Redes de Comunicaciones Edificio Mecenas * Campus Fuentenueva * 18071 Granada Telf. 958 241010 * Fax 958 244221 * Web http://csirc.ugr.es * eMail csirc@ugr.es",
+        "source_page": 2,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "Información básica sobre protección de sus datos personales aportados",
+        "source_page": 3,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Responsable:",
+        "source_page": 3,
+        "colspan": 3
+      },
+      {
+        "text": "UNIVERSIDAD DE GRANADA",
+        "source_page": 3,
+        "colspan": 9
+      }
+    ],
+    [
+      {
+        "text": "Legitimación:",
+        "source_page": 3,
+        "colspan": 3
+      },
+      {
+        "text": "El interesado dio su consentimiento para el tratamiento de sus datos personales para uno o varios fines específicos; siendo el principal de ellos el citado en el campo Finalidad de la presente tabla.",
+        "source_page": 3,
+        "colspan": 9
+      }
+    ],
+    [
+      {
+        "text": "Finalidad:",
+        "source_page": 3,
+        "colspan": 3
+      },
+      {
+        "text": "Identificar unívocamente a la persona responsable de una conexión de RedUGR.",
+        "source_page": 3,
+        "colspan": 9
+      }
+    ],
+    [
+      {
+        "text": "Destinatarios:",
+        "source_page": 3,
+        "colspan": 3
+      },
+      {
+        "text": "No se prevén cesiones o comunicaciones de datos.",
+        "source_page": 3,
+        "colspan": 9
+      }
+    ],
+    [
+      {
+        "text": "Derechos:",
+        "source_page": 3,
+        "colspan": 3
+      },
+      {
+        "text": "Tiene derecho a solicitar el acceso, oposición, rectificación, supresión o limitación del tratamiento de sus datos, tal y como se explica en la información adicional.",
+        "source_page": 3,
+        "colspan": 9
+      }
+    ],
+    [
+      {
+        "text": "Información adicional:",
+        "source_page": 3,
+        "colspan": 3
+      },
+      {
+        "text": "Puede consultar la información adicional y detallada sobre protección de datos en el siguiente enlace: https://secretariageneral.ugr.es/pages/proteccion_datos.",
+        "source_page": 3,
+        "colspan": 9
+      }
+    ],
+    [
+      {
+        "text": "Sus datos personales aportados en la solicitud serán tratados por la Universidad de Granada, con sede en Avda. del Hospicio, s/n, 18071 Granada, con la finalidad de dar cumplimiento a los procedimientos adoptados por la Universidad como garantía al adecuado ejercicio de sus competencias y mantener registro de su desarrollo a efectos de su posterior acreditación. Puede ejercitar sus derechos de acceso, rectificación, cancelación y oposición ante la Secretaría General de la Universidad de Granada en la dirección anteriormente indicada mediante solicitud escrita acompañada de copia del DNI. De todo lo cual se informa en cumplimiento del artículo 5 de la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal. He leído y acepto la \"Normativa de uso de los Recursos Informáticos y de Comunicaciones de la Universidad de Granada” (http://secretariageneral.ugr.es/pages/normativa/ugr/consejo-de-gobierno/normativainformatica/%21) Centro de Servicios de Informática y Redes de Comunicaciones Edificio Mecenas * Campus Fuentenueva * 18071 Granada Telf. 958 241010 * Fax 958 244221 * Web http://csirc.ugr.es * eMail csirc@ugr.es",
+        "source_page": 3,
+        "colspan": 12
+      }
+    ]
+  ],
+  "source_notice": "Complete native source retained, including instruction/privacy pages, genuine conditional branches, options, receipt/correction copies, independent writing regions and source horizontal groups. One identifier/date split into character boxes remains one logical input; independent quantities remain separate. No new input is inferred from decorative space or row capacity. Normalized 12-column grid; no branding. Fixed information pages use structured PDF tables and text blocks, never image-only substitutes.",
+  "context": "CASO ENTERAMENTE FICTICIO. Personas, organismos de ejemplo, identificadores, códigos, importes y firmas son datos sintéticos para esta transcripción; no acreditan un expediente ni una actuación administrativa real.\nConexión ficticia para empresa concesionaria; necesita nuevo cable y toma, equipo Compatible PC; los centros de gasto y firmas son sintéticos.\nPágina 1 / SOLICITANTE: (El responsable del equipo) / (1)Nombre*:: ELENA VIDAL LÓPEZ\nPágina 1 / SOLICITANTE: (El responsable del equipo) / (2)DNI:: DNI-SINT-935R\nPágina 1 / SOLICITANTE: (El responsable del equipo) / (3)Teléfono*:: 000935001\nPágina 1 / SOLICITANTE: (El responsable del equipo) / (4)Email:: elena.vidal@example.org\nSOLICITANTE: (El responsable del equipo) / (5)Necesita cableado*:: Sí.\nPágina 1 / SOLICITANTE: (El responsable del equipo) / (6)Centro/Edificio*:: Edificio sintético de servicios\nPágina 1 / SOLICITANTE: (El responsable del equipo) / (7) Departamento:: Empresa concesionaria de ejemplo\nPágina 1 / SOLICITANTE: (El responsable del equipo) / (8)Planta:: 1\nPágina 1 / SOLICITANTE: (El responsable del equipo) / (9)Despacho/Aula:: S-12\nPágina 1 / SOLICITANTE: (El responsable del equipo) / (10)Ubicación de la toma dentro del despacho/aula* (Si tiene cableado indique No de toma):: Instalar toma en pared norte, junto a la mesa de atención; no existe número previo.\nPágina 1 / SOLICITANTE: (El responsable del equipo) / (11)Observaciones:: Acceso para mantenimiento de la concesión ficticia.\nSOLICITANTE: (El responsable del equipo) / (12)Tipo de Equipo:: Compatible PC.\nPágina 1 / SOLICITANTE: (El responsable del equipo) / Descripción de otro equipo: No procede en este supuesto ficticio: Compatible PC seleccionado\nPágina 1 / SOLICITANTE: (El responsable del equipo) / (13)Nombre del Equipo*:: PC-SINT-935\nPágina 1 / SOLICITANTE: (El responsable del equipo) / (14)Ethernet*:: 02:00:00:00:09:35\nPágina 1 / USUARIO FINAL (RESPONSABLE) DEL EQUIPO: (Usuario empresa concesionaria) / (15)Nombre*:: MARTINA SOLER RIVERA\nPágina 1 / USUARIO FINAL (RESPONSABLE) DEL EQUIPO: (Usuario empresa concesionaria) / (16)DNI*:: DNI-SINT-935U\nPágina 1 / USUARIO FINAL (RESPONSABLE) DEL EQUIPO: (Usuario empresa concesionaria) / (17)Teléfono:: 000935002\nPágina 1 / USUARIO FINAL (RESPONSABLE) DEL EQUIPO: (Usuario empresa concesionaria) / (18)Email:: martina.soler@example.org\nPágina 1 / USUARIO FINAL (RESPONSABLE) DEL EQUIPO: (Usuario empresa concesionaria) / (19)Centro de Gasto(Orgánica) *:: ORG-SINT-935\nPágina 1 / USUARIO FINAL (RESPONSABLE) DEL EQUIPO: (Usuario empresa concesionaria) / Funcional:*: FUNC-SINT-935\nPágina 1 / USUARIO FINAL (RESPONSABLE) DEL EQUIPO: (Usuario empresa concesionaria) / Económica:*: ECON-SINT-935\nPágina 1 / USUARIO FINAL (RESPONSABLE) DEL EQUIPO: (Usuario empresa concesionaria) / (20)Responsable*:: CLARA NAVARRO\nPágina 1 / USUARIO FINAL (RESPONSABLE) DEL EQUIPO: (Usuario empresa concesionaria) / (21)DNI*:: DNI-SINT-935G\nPágina 1 / USUARIO FINAL (RESPONSABLE) DEL EQUIPO: (Usuario empresa concesionaria) / Fdo. El Solicitante.: Firma ficticia de ELENA VIDAL LÓPEZ\nPágina 1 / USUARIO FINAL (RESPONSABLE) DEL EQUIPO: (Usuario empresa concesionaria) / Sello de la entidad.: Sello ficticio de la empresa concesionaria\nPágina 1 / USUARIO FINAL (RESPONSABLE) DEL EQUIPO: (Usuario empresa concesionaria) / Fdo. El Responsable del Centro de Gasto.: Firma ficticia de CLARA NAVARRO\nPágina 1 / USUARIO FINAL (RESPONSABLE) DEL EQUIPO: (Usuario empresa concesionaria) / Fecha: 26 de octubre de 2026",
+  "workflow_identity": {
+    "language": "es",
+    "id": 935
+  }
+}

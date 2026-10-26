@@ -1,0 +1,1337 @@
+{
+  "id": "es-902",
+  "language": "es",
+  "title": "RESOLUCIÓN DE CESE EN PUESTO DE TRABAJO",
+  "domain": "WorkplaceHR",
+  "issuer": "Ministerio para la Transformación Digital y de la Función Pública",
+  "issuer_id": "mtdfp",
+  "template_family": "mtdfp-rcp-f4r",
+  "source_version": "Versión 2018",
+  "source_date_evidence": {
+    "kind": "printed edition",
+    "value": "Versión 2018",
+    "note": "Printed edition is separate from retrieval time; no current-validity claim."
+  },
+  "source_url": "https://digital.gob.es/content/dam/portal-mtdfp/funcion-publica/dgfp/registro-central-personal/documentacion/impresos-personal-funcionario---editables/F4R_18.pdf",
+  "landing_url": "https://digital.gob.es/funcion-publica/dgfp/registro-central-personal/registro-central-personal/impresos-funcionarios",
+  "retrieved_at": "2026-10-25T06:58:38.573142+00:00",
+  "source_sha256": "a5cc447feef4fa0c110b9addd58cd6852e47496cd0637410ade7f412704908ed",
+  "source_pages": 1,
+  "license_url": "https://digital.gob.es/nota-legal",
+  "license_note": "Origen de los datos: Ministerio para la Transformación Digital y de la Función Pública. Nota Legal, Condiciones generales de reutilización: commercial and noncommercial copying, distribution, modification, adaptation and reordering authorized with source attribution, preserved meaning, original edition metadata and no endorsement claim. Complete semantic transcription in a normalized grid; all completed data and signatures are fictional. No administrative action or issuer endorsement.",
+  "columns": 12,
+  "synthetic_context": true,
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Mo / Org:",
+      "path": [
+        "Página 1",
+        "General",
+        "Mo / Org:"
+      ],
+      "source_anchor": "Mo / Org:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Ministerio de Ejemplo Sintético"
+    },
+    {
+      "id": "f002",
+      "label": "NIP:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "NIP:"
+      ],
+      "source_anchor": "NIP:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SINT90000A"
+    },
+    {
+      "id": "f003",
+      "label": "D.N.I./N.I.E./PASAPORTE/OTRO:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "D.N.I./N.I.E./PASAPORTE/OTRO:"
+      ],
+      "source_anchor": "D.N.I./N.I.E./PASAPORTE/OTRO:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "PASAPORTE-SINT-900"
+    },
+    {
+      "id": "f004",
+      "label": "NRP:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "NRP:"
+      ],
+      "source_anchor": "NRP:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NRP-SINT-900"
+    },
+    {
+      "id": "f005",
+      "label": "APELLIDOS Y NOMBRE:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "APELLIDOS Y NOMBRE:"
+      ],
+      "source_anchor": "APELLIDOS Y NOMBRE:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SOLER RIVERA, MARTINA"
+    },
+    {
+      "id": "f006",
+      "label": "TIPO DE RELACIÓN DE SERVICIOS:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "TIPO DE RELACIÓN DE SERVICIOS: / Denominación"
+      ],
+      "source_anchor": "TIPO DE RELACIÓN DE SERVICIOS:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Funcionaria de carrera"
+    },
+    {
+      "id": "f007",
+      "label": "TIPO DE RELACIÓN DE SERVICIOS:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "TIPO DE RELACIÓN DE SERVICIOS: / Código"
+      ],
+      "source_anchor": "TIPO DE RELACIÓN DE SERVICIOS:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "01",
+      "label_from": "f006",
+      "label_position": [
+        7,
+        0
+      ]
+    },
+    {
+      "id": "f008",
+      "label": "CUERPO O ESCALA:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "CUERPO O ESCALA: / Denominación"
+      ],
+      "source_anchor": "CUERPO O ESCALA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Escala administrativa de ejemplo"
+    },
+    {
+      "id": "f009",
+      "label": "CUERPO O ESCALA:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "CUERPO O ESCALA: / Código"
+      ],
+      "source_anchor": "CUERPO O ESCALA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0900",
+      "label_from": "f008",
+      "label_position": [
+        8,
+        0
+      ]
+    },
+    {
+      "id": "f010",
+      "label": "GRUPO/SUBGRUPO:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "GRUPO/SUBGRUPO:"
+      ],
+      "source_anchor": "GRUPO/SUBGRUPO:",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "C 1"
+      ],
+      "options": [
+        "A 1",
+        "A 2",
+        "B",
+        "C 1",
+        "C 2",
+        "E"
+      ],
+      "context_evidence": "1. DATOS DEL FUNCIONARIO/A / GRUPO/SUBGRUPO:: C 1."
+    },
+    {
+      "id": "f011",
+      "label": "ESPECIALIDAD:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "ESPECIALIDAD: / Denominación"
+      ],
+      "source_anchor": "ESPECIALIDAD:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Gestión administrativa"
+    },
+    {
+      "id": "f012",
+      "label": "ESPECIALIDAD:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "ESPECIALIDAD: / Código"
+      ],
+      "source_anchor": "ESPECIALIDAD:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "001",
+      "label_from": "f011",
+      "label_position": [
+        9,
+        4
+      ]
+    },
+    {
+      "id": "f013",
+      "label": "SITUACIÓN ADMINISTRATIVA:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "SITUACIÓN ADMINISTRATIVA: / Denominación"
+      ],
+      "source_anchor": "SITUACIÓN ADMINISTRATIVA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Servicio activo"
+    },
+    {
+      "id": "f014",
+      "label": "SITUACIÓN ADMINISTRATIVA:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "SITUACIÓN ADMINISTRATIVA: / Código"
+      ],
+      "source_anchor": "SITUACIÓN ADMINISTRATIVA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "01",
+      "label_from": "f013",
+      "label_position": [
+        10,
+        0
+      ]
+    },
+    {
+      "id": "f015",
+      "label": "MODALIDAD:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "MODALIDAD: / Denominación"
+      ],
+      "source_anchor": "MODALIDAD:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Ordinaria"
+    },
+    {
+      "id": "f016",
+      "label": "MODALIDAD:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "MODALIDAD: / Código"
+      ],
+      "source_anchor": "MODALIDAD:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "00",
+      "label_from": "f015",
+      "label_position": [
+        11,
+        0
+      ]
+    },
+    {
+      "id": "f017",
+      "label": "GRADO PERSONAL RECONOCIDO SUPERIOR AL NIVEL DEL PUESTO:",
+      "path": [
+        "Página 1",
+        "1. DATOS DEL FUNCIONARIO/A",
+        "GRADO PERSONAL RECONOCIDO SUPERIOR AL NIVEL DEL PUESTO:"
+      ],
+      "source_anchor": "GRADO PERSONAL RECONOCIDO SUPERIOR AL NIVEL DEL PUESTO:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio: grado no superior al nivel del puesto"
+    },
+    {
+      "id": "f018",
+      "label": "DENOMINACIÓN:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "DENOMINACIÓN: / Denominación"
+      ],
+      "source_anchor": "DENOMINACIÓN:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Administrativa de gestión"
+    },
+    {
+      "id": "f019",
+      "label": "DENOMINACIÓN:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "DENOMINACIÓN: / Código"
+      ],
+      "source_anchor": "DENOMINACIÓN:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "00000900",
+      "label_from": "f018",
+      "label_position": [
+        14,
+        0
+      ]
+    },
+    {
+      "id": "f020",
+      "label": "MINISTERIO / ORG. / ENTE:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "Organización / Línea 1"
+      ],
+      "source_anchor": "MINISTERIO / ORG. / ENTE:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Ministerio de Ejemplo Sintético"
+    },
+    {
+      "id": "f021",
+      "label": "MINISTERIO / ORG. / ENTE:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "Organización / Línea 2"
+      ],
+      "source_anchor": "MINISTERIO / ORG. / ENTE:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Secretaría General de Ejemplo"
+    },
+    {
+      "id": "f022",
+      "label": "MINISTERIO / ORG. / ENTE:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "Organización / Línea 3"
+      ],
+      "source_anchor": "MINISTERIO / ORG. / ENTE:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Dirección de Gestión"
+    },
+    {
+      "id": "f023",
+      "label": "MINISTERIO / ORG. / ENTE:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "Organización / Línea 4"
+      ],
+      "source_anchor": "MINISTERIO / ORG. / ENTE:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Unidad de Personal"
+    },
+    {
+      "id": "f024",
+      "label": "PROVINCIA:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "PROVINCIA: / Denominación"
+      ],
+      "source_anchor": "PROVINCIA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Madrid"
+    },
+    {
+      "id": "f025",
+      "label": "PROVINCIA:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "PROVINCIA: / Código"
+      ],
+      "source_anchor": "PROVINCIA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "28",
+      "label_from": "f024",
+      "label_position": [
+        19,
+        0
+      ]
+    },
+    {
+      "id": "f026",
+      "label": "LOCALIDAD:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "LOCALIDAD: / Denominación"
+      ],
+      "source_anchor": "LOCALIDAD:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Madrid"
+    },
+    {
+      "id": "f027",
+      "label": "LOCALIDAD:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "LOCALIDAD: / Código"
+      ],
+      "source_anchor": "LOCALIDAD:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "079",
+      "label_from": "f026",
+      "label_position": [
+        19,
+        6
+      ]
+    },
+    {
+      "id": "f028",
+      "label": "PROV. RESIDENCIA:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "PROV. RESIDENCIA: / Denominación"
+      ],
+      "source_anchor": "PROV. RESIDENCIA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Madrid"
+    },
+    {
+      "id": "f029",
+      "label": "PROV. RESIDENCIA:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "PROV. RESIDENCIA: / Código"
+      ],
+      "source_anchor": "PROV. RESIDENCIA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "28",
+      "label_from": "f028",
+      "label_position": [
+        20,
+        0
+      ]
+    },
+    {
+      "id": "f030",
+      "label": "LOC. RESIDENCIA:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "LOC. RESIDENCIA: / Denominación"
+      ],
+      "source_anchor": "LOC. RESIDENCIA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Madrid"
+    },
+    {
+      "id": "f031",
+      "label": "LOC. RESIDENCIA:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "LOC. RESIDENCIA: / Código"
+      ],
+      "source_anchor": "LOC. RESIDENCIA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "079",
+      "label_from": "f030",
+      "label_position": [
+        20,
+        6
+      ]
+    },
+    {
+      "id": "f032",
+      "label": "COMPLEMENTO ESPECÍFICO:",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "COMPLEMENTO ESPECÍFICO:"
+      ],
+      "source_anchor": "COMPLEMENTO ESPECÍFICO:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "6000,00 EUR anuales"
+    },
+    {
+      "id": "f033",
+      "label": "NIVEL",
+      "path": [
+        "Página 1",
+        "2. DATOS DEL PUESTO DE TRABAJO",
+        "NIVEL"
+      ],
+      "source_anchor": "NIVEL",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "18"
+    },
+    {
+      "id": "f034",
+      "label": "FECHA DEL ACUERDO :",
+      "path": [
+        "Página 1",
+        "3. DATOS DEL ACUERDO",
+        "FECHA DEL ACUERDO :"
+      ],
+      "source_anchor": "FECHA DEL ACUERDO :",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "20/10/2026"
+    },
+    {
+      "id": "f035",
+      "label": "AUTORIDAD QUE ACORDÓ / ÓRGANO DE JUBILACIÓN:",
+      "path": [
+        "Página 1",
+        "3. DATOS DEL ACUERDO",
+        "AUTORIDAD QUE ACORDÓ / ÓRGANO DE JUBILACIÓN:"
+      ],
+      "source_anchor": "AUTORIDAD QUE ACORDÓ / ÓRGANO DE JUBILACIÓN:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Dirección de Personal de Ejemplo"
+    },
+    {
+      "id": "f036",
+      "label": "FECHA DEL CESE",
+      "path": [
+        "Página 1",
+        "4. DATOS DEL CESE",
+        "FECHA DEL CESE"
+      ],
+      "source_anchor": "FECHA DEL CESE",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "23/10/2026"
+    },
+    {
+      "id": "f037",
+      "label": "CAUSA DEL CESE:",
+      "path": [
+        "Página 1",
+        "4. DATOS DEL CESE",
+        "CAUSA DEL CESE: / Denominación"
+      ],
+      "source_anchor": "CAUSA DEL CESE:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Obtención de otro destino"
+    },
+    {
+      "id": "f038",
+      "label": "CAUSA DEL CESE:",
+      "path": [
+        "Página 1",
+        "4. DATOS DEL CESE",
+        "CAUSA DEL CESE: / Código"
+      ],
+      "source_anchor": "CAUSA DEL CESE:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "02",
+      "label_from": "f037",
+      "label_position": [
+        27,
+        0
+      ]
+    },
+    {
+      "id": "f039",
+      "label": "DISPOSICIÓN APLICADA:",
+      "path": [
+        "Página 1",
+        "4. DATOS DEL CESE",
+        "DISPOSICIÓN APLICADA:"
+      ],
+      "source_anchor": "DISPOSICIÓN APLICADA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Resolución ficticia CESE-902 de 20/10/2026"
+    },
+    {
+      "id": "f040",
+      "label": "NUEVA SITUACIÓN ADMINISTRATIVA (en su caso):",
+      "path": [
+        "Página 1",
+        "4. DATOS DEL CESE",
+        "NUEVA SITUACIÓN ADMINISTRATIVA (en su caso): / Denominación"
+      ],
+      "source_anchor": "NUEVA SITUACIÓN ADMINISTRATIVA (en su caso):",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Servicio activo en nueva administración"
+    },
+    {
+      "id": "f041",
+      "label": "NUEVA SITUACIÓN ADMINISTRATIVA (en su caso):",
+      "path": [
+        "Página 1",
+        "4. DATOS DEL CESE",
+        "NUEVA SITUACIÓN ADMINISTRATIVA (en su caso): / Código"
+      ],
+      "source_anchor": "NUEVA SITUACIÓN ADMINISTRATIVA (en su caso):",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "01",
+      "label_from": "f040",
+      "label_position": [
+        29,
+        0
+      ]
+    },
+    {
+      "id": "f042",
+      "label": "ADMINISTRACIÓN DE DESTINO.:",
+      "path": [
+        "Página 1",
+        "4. DATOS DEL CESE",
+        "ADMINISTRACIÓN DE DESTINO.: / Denominación"
+      ],
+      "source_anchor": "ADMINISTRACIÓN DE DESTINO.:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Administración General del Estado"
+    },
+    {
+      "id": "f043",
+      "label": "ADMINISTRACIÓN DE DESTINO.:",
+      "path": [
+        "Página 1",
+        "4. DATOS DEL CESE",
+        "ADMINISTRACIÓN DE DESTINO.: / Código"
+      ],
+      "source_anchor": "ADMINISTRACIÓN DE DESTINO.:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "01",
+      "label_from": "f042",
+      "label_position": [
+        30,
+        0
+      ]
+    },
+    {
+      "id": "f044",
+      "label": "PROVINCIA:",
+      "path": [
+        "Página 1",
+        "4. DATOS DEL CESE",
+        "Provincia de destino / Denominación"
+      ],
+      "source_anchor": "PROVINCIA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Madrid"
+    },
+    {
+      "id": "f045",
+      "label": "PROVINCIA:",
+      "path": [
+        "Página 1",
+        "4. DATOS DEL CESE",
+        "Provincia de destino / Código"
+      ],
+      "source_anchor": "PROVINCIA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "28",
+      "label_from": "f044",
+      "label_position": [
+        31,
+        0
+      ]
+    },
+    {
+      "id": "f046",
+      "label": "LOCALIDAD:",
+      "path": [
+        "Página 1",
+        "4. DATOS DEL CESE",
+        "Localidad de destino / Denominación"
+      ],
+      "source_anchor": "LOCALIDAD:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Madrid"
+    },
+    {
+      "id": "f047",
+      "label": "LOCALIDAD:",
+      "path": [
+        "Página 1",
+        "4. DATOS DEL CESE",
+        "Localidad de destino / Código"
+      ],
+      "source_anchor": "LOCALIDAD:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "079",
+      "label_from": "f046",
+      "label_position": [
+        31,
+        6
+      ]
+    },
+    {
+      "id": "f048",
+      "label": "5. OBSERVACIONES / OTROS DATOS",
+      "path": [
+        "Página 1",
+        "5. OBSERVACIONES / OTROS DATOS",
+        "5. OBSERVACIONES / OTROS DATOS"
+      ],
+      "source_anchor": "5. OBSERVACIONES / OTROS DATOS",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Sin otras observaciones en el expediente sintético"
+    },
+    {
+      "id": "f049",
+      "label": "6. RECURSOS QUE PROCEDEN CONTRA LA PRESENTE RESOLUCIÓN",
+      "path": [
+        "Página 1",
+        "6. RECURSOS QUE PROCEDEN CONTRA LA PRESENTE RESOLUCIÓN",
+        "6. RECURSOS QUE PROCEDEN CONTRA LA PRESENTE RESOLUCIÓN"
+      ],
+      "source_anchor": "6. RECURSOS QUE PROCEDEN CONTRA LA PRESENTE RESOLUCIÓN",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Recurso de alzada ante la Secretaría de Estado de Ejemplo en el plazo de un mes desde la notificación; supuesto ficticio."
+    },
+    {
+      "id": "f050",
+      "label": "OFICINA DELEGADA DEL R.C.P.",
+      "path": [
+        "Página 1",
+        "OFICINA DELEGADA DEL R.C.P.",
+        "Lugar y fecha de comunicación"
+      ],
+      "source_anchor": "OFICINA DELEGADA DEL R.C.P.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Madrid, 25/10/2026"
+    },
+    {
+      "id": "f051",
+      "label": "Fdo.:",
+      "path": [
+        "Página 1",
+        "OFICINA DELEGADA DEL R.C.P.",
+        "Firma jefatura RCP"
+      ],
+      "source_anchor": "Fdo.:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma ficticia de ELENA VIDAL, jefa de oficina delegada"
+    },
+    {
+      "id": "f052",
+      "label": "Lugar y fecha",
+      "path": [
+        "Página 1",
+        "Emisión",
+        "Lugar"
+      ],
+      "source_anchor": "Lugar y fecha",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Madrid"
+    },
+    {
+      "id": "f053",
+      "label": "Lugar y fecha",
+      "path": [
+        "Página 1",
+        "Emisión",
+        "Fecha"
+      ],
+      "source_anchor": "Lugar y fecha",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "25/10/2026"
+    },
+    {
+      "id": "f054",
+      "label": "El/La",
+      "path": [
+        "Página 1",
+        "Emisión",
+        "Cargo de la autoridad"
+      ],
+      "source_anchor": "El/La",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Directora de Personal de Ejemplo"
+    },
+    {
+      "id": "f055",
+      "label": "Fdo.:",
+      "path": [
+        "Página 1",
+        "Emisión",
+        "Fdo.:"
+      ],
+      "source_anchor": "Fdo.:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma ficticia de CLARA NAVARRO"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "label": "Mo / Org:",
+        "field": "f001",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "F.4.R",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "RESOLUCIÓN DE CESE EN PUESTO DE TRABAJO",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "En uso de las facultades conferidas y previas las actuaciones reglamentarias oportunas, procede el cese en el puesto de trabajo cuyo detalle sigue:",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "1. DATOS DEL FUNCIONARIO/A",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "NIP:",
+        "field": "f002",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "D.N.I./N.I.E./PASAPORTE/OTRO:",
+        "field": "f003",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "NRP:",
+        "field": "f004",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "APELLIDOS Y NOMBRE:",
+        "field": "f005",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "TIPO DE RELACIÓN DE SERVICIOS:",
+        "field": "f006",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f007",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "CUERPO O ESCALA:",
+        "field": "f008",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "GRUPO/SUBGRUPO:",
+        "field": "f010",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "ESPECIALIDAD:",
+        "field": "f011",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SITUACIÓN ADMINISTRATIVA:",
+        "field": "f013",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "MODALIDAD:",
+        "field": "f015",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f016",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "GRADO PERSONAL RECONOCIDO SUPERIOR AL NIVEL DEL PUESTO:",
+        "field": "f017",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "2. DATOS DEL PUESTO DE TRABAJO",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "DENOMINACIÓN:",
+        "field": "f018",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f019",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "MINISTERIO / ORG. / ENTE:",
+        "field": "f020",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "MINISTERIO / ORG. / ENTE:",
+        "field": "f021",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "MINISTERIO / ORG. / ENTE:",
+        "field": "f022",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "MINISTERIO / ORG. / ENTE:",
+        "field": "f023",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "PROVINCIA:",
+        "field": "f024",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f025",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "LOCALIDAD:",
+        "field": "f026",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f027",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "PROV. RESIDENCIA:",
+        "field": "f028",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f029",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "LOC. RESIDENCIA:",
+        "field": "f030",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f031",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "COMPLEMENTO ESPECÍFICO:",
+        "field": "f032",
+        "colspan": 9,
+        "source_page": 1
+      },
+      {
+        "label": "NIVEL",
+        "field": "f033",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "3. DATOS DEL ACUERDO",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "FECHA DEL ACUERDO :",
+        "field": "f034",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "AUTORIDAD QUE ACORDÓ / ÓRGANO DE JUBILACIÓN:",
+        "field": "f035",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "4. DATOS DEL CESE",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "FECHA DEL CESE",
+        "field": "f036",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "CAUSA DEL CESE:",
+        "field": "f037",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f038",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "DISPOSICIÓN APLICADA:",
+        "field": "f039",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NUEVA SITUACIÓN ADMINISTRATIVA (en su caso):",
+        "field": "f040",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f041",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "ADMINISTRACIÓN DE DESTINO.:",
+        "field": "f042",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f043",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "PROVINCIA:",
+        "field": "f044",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f045",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "LOCALIDAD:",
+        "field": "f046",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f047",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "5. OBSERVACIONES / OTROS DATOS",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "5. OBSERVACIONES / OTROS DATOS",
+        "field": "f048",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "6. RECURSOS QUE PROCEDEN CONTRA LA PRESENTE RESOLUCIÓN",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "6. RECURSOS QUE PROCEDEN CONTRA LA PRESENTE RESOLUCIÓN",
+        "field": "f049",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "OFICINA DELEGADA DEL R.C.P.",
+        "source_page": 1,
+        "colspan": 6,
+        "heading": true
+      },
+      {
+        "label": "Lugar y fecha",
+        "field": "f052",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "Lugar y fecha",
+        "field": "f053",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Cumplimentado lo establecido sobre la preceptiva comunicación al Registro Central de Personal.",
+        "source_page": 1,
+        "colspan": 6,
+        "heading": false
+      },
+      {
+        "label": "El/La",
+        "field": "f054",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "OFICINA DELEGADA DEL R.C.P.",
+        "field": "f050",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "text": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "EL/LA JEFE/A DE LA OFICINA DELEGADA",
+        "source_page": 1,
+        "colspan": 6,
+        "heading": false
+      },
+      {
+        "text": "",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Fdo.:",
+        "field": "f051",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Fdo.:",
+        "field": "f055",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Versión 2018",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ]
+  ],
+  "source_notice": "All source pages, meaningful static text, independent writing regions and genuine choice options retained. Consecutive character boxes of one identifier/date/code form one logical input; descriptions and their separate codes are distinct fields. Source horizontal groups and repeated rows are explicit. Graphical branding and internal PDF utility controls are not reproduced.",
+  "context": "CASO ENTERAMENTE FICTICIO. Personas, organismos de ejemplo, identificadores, códigos, importes y firmas son datos sintéticos para esta transcripción; no acreditan un expediente ni una actuación administrativa real.\n\nPágina 1 / General / Mo / Org:: Ministerio de Ejemplo Sintético\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / NIP:: SINT90000A\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / D.N.I./N.I.E./PASAPORTE/OTRO:: PASAPORTE-SINT-900\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / NRP:: NRP-SINT-900\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / APELLIDOS Y NOMBRE:: SOLER RIVERA, MARTINA\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / TIPO DE RELACIÓN DE SERVICIOS: / Denominación: Funcionaria de carrera\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / TIPO DE RELACIÓN DE SERVICIOS: / Código: 01\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / CUERPO O ESCALA: / Denominación: Escala administrativa de ejemplo\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / CUERPO O ESCALA: / Código: 0900\n1. DATOS DEL FUNCIONARIO/A / GRUPO/SUBGRUPO:: C 1.\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / ESPECIALIDAD: / Denominación: Gestión administrativa\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / ESPECIALIDAD: / Código: 001\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / SITUACIÓN ADMINISTRATIVA: / Denominación: Servicio activo\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / SITUACIÓN ADMINISTRATIVA: / Código: 01\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / MODALIDAD: / Denominación: Ordinaria\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / MODALIDAD: / Código: 00\nPágina 1 / 1. DATOS DEL FUNCIONARIO/A / GRADO PERSONAL RECONOCIDO SUPERIOR AL NIVEL DEL PUESTO:: No procede en este supuesto ficticio: grado no superior al nivel del puesto\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / DENOMINACIÓN: / Denominación: Administrativa de gestión\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / DENOMINACIÓN: / Código: 00000900\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / Organización / Línea 1: Ministerio de Ejemplo Sintético\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / Organización / Línea 2: Secretaría General de Ejemplo\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / Organización / Línea 3: Dirección de Gestión\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / Organización / Línea 4: Unidad de Personal\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / PROVINCIA: / Denominación: Madrid\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / PROVINCIA: / Código: 28\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / LOCALIDAD: / Denominación: Madrid\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / LOCALIDAD: / Código: 079\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / PROV. RESIDENCIA: / Denominación: Madrid\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / PROV. RESIDENCIA: / Código: 28\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / LOC. RESIDENCIA: / Denominación: Madrid\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / LOC. RESIDENCIA: / Código: 079\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / COMPLEMENTO ESPECÍFICO:: 6000,00 EUR anuales\nPágina 1 / 2. DATOS DEL PUESTO DE TRABAJO / NIVEL: 18\nPágina 1 / 3. DATOS DEL ACUERDO / FECHA DEL ACUERDO :: 20/10/2026\nPágina 1 / 3. DATOS DEL ACUERDO / AUTORIDAD QUE ACORDÓ / ÓRGANO DE JUBILACIÓN:: Dirección de Personal de Ejemplo\nPágina 1 / 4. DATOS DEL CESE / FECHA DEL CESE: 23/10/2026\nPágina 1 / 4. DATOS DEL CESE / CAUSA DEL CESE: / Denominación: Obtención de otro destino\nPágina 1 / 4. DATOS DEL CESE / CAUSA DEL CESE: / Código: 02\nPágina 1 / 4. DATOS DEL CESE / DISPOSICIÓN APLICADA:: Resolución ficticia CESE-902 de 20/10/2026\nPágina 1 / 4. DATOS DEL CESE / NUEVA SITUACIÓN ADMINISTRATIVA (en su caso): / Denominación: Servicio activo en nueva administración\nPágina 1 / 4. DATOS DEL CESE / NUEVA SITUACIÓN ADMINISTRATIVA (en su caso): / Código: 01\nPágina 1 / 4. DATOS DEL CESE / ADMINISTRACIÓN DE DESTINO.: / Denominación: Administración General del Estado\nPágina 1 / 4. DATOS DEL CESE / ADMINISTRACIÓN DE DESTINO.: / Código: 01\nPágina 1 / 4. DATOS DEL CESE / Provincia de destino / Denominación: Madrid\nPágina 1 / 4. DATOS DEL CESE / Provincia de destino / Código: 28\nPágina 1 / 4. DATOS DEL CESE / Localidad de destino / Denominación: Madrid\nPágina 1 / 4. DATOS DEL CESE / Localidad de destino / Código: 079\nPágina 1 / 5. OBSERVACIONES / OTROS DATOS / 5. OBSERVACIONES / OTROS DATOS: Sin otras observaciones en el expediente sintético\nPágina 1 / 6. RECURSOS QUE PROCEDEN CONTRA LA PRESENTE RESOLUCIÓN / 6. RECURSOS QUE PROCEDEN CONTRA LA PRESENTE RESOLUCIÓN: Recurso de alzada ante la Secretaría de Estado de Ejemplo en el plazo de un mes desde la notificación; supuesto ficticio.\nPágina 1 / OFICINA DELEGADA DEL R.C.P. / Lugar y fecha de comunicación: Madrid, 25/10/2026\nPágina 1 / OFICINA DELEGADA DEL R.C.P. / Firma jefatura RCP: Firma ficticia de ELENA VIDAL, jefa de oficina delegada\nPágina 1 / Emisión / Lugar: Madrid\nPágina 1 / Emisión / Fecha: 25/10/2026\nPágina 1 / Emisión / Cargo de la autoridad: Directora de Personal de Ejemplo\nPágina 1 / Emisión / Fdo.:: Firma ficticia de CLARA NAVARRO",
+  "workflow_identity": {
+    "language": "es",
+    "id": 902
+  }
+}

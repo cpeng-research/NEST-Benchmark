@@ -1,0 +1,2326 @@
+{
+  "id": "es-988",
+  "language": "es",
+  "title": "Modelo 524 - Solicitud de devolucion sobre alcohol y bebidas alcoholicas",
+  "domain": "Finance",
+  "issuer": "Agencia Estatal de Administracion Tributaria",
+  "issuer_id": "aeat",
+  "template_family": "aeat-aeat-524",
+  "source_version": "No indicada",
+  "source_date_evidence": {
+    "kind": "not stated",
+    "value": "No indicada",
+    "note": "Printed edition is separate from retrieval time; no current-validity claim."
+  },
+  "source_url": "https://sede.agenciatributaria.gob.es/static_files/Sede/Procedimiento_ayuda/DJ04/524.pdf",
+  "landing_url": "https://sede.agenciatributaria.gob.es/Sede/todas-gestiones/impuestos-tasas/ii_ee-devoluciones/modelo-524-iiee______lucion-sobre-alcohol-alcoholicas_/descarga-modelo.html",
+  "retrieved_at": "2026-10-25T16:56:08.241299+00:00",
+  "source_sha256": "b6aea9860a5d8925514dbbde04c477eba072cf396c4b6f9b0ee51abde184758c",
+  "source_pages": 1,
+  "license_url": "https://sede.agenciatributaria.gob.es/Sede/condiciones-uso-sede-electronica/aviso-legal/utilizacion-informacion-contenida-web-aeat.html",
+  "license_note": "Origen de los datos: Agencia Estatal de Administracion Tributaria, Espana. The primary AEAT Utilizacion de la informacion notice, updated 03/febrero/2022, authorizes reproduction, modification, distribution and communication for commercial and noncommercial informational reuse unless expressly excepted. Both complete source documents were inspected; neither carries an explicit source-specific no-modification exception. Attribute AEAT, preserve meaning and source-date metadata, and do not imply endorsement. This is a semantic research adaptation with fictional completions, not a valid administrative filing. Logos and graphical branding are not reproduced.",
+  "columns": 12,
+  "synthetic_context": true,
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Código",
+      "path": [
+        "Página 1",
+        "General",
+        "Oficina gestora / Codigo"
+      ],
+      "source_anchor": "Código",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "99999 (oficina ficticia)"
+    },
+    {
+      "id": "f002",
+      "label": "NIF",
+      "path": [
+        "Página 1",
+        "(2) Identificación",
+        "Solicitante / 1"
+      ],
+      "source_anchor": "NIF",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NIF-SINT-988"
+    },
+    {
+      "id": "f003",
+      "label": "Apellidos y nombre o razón social",
+      "path": [
+        "Página 1",
+        "(2) Identificación",
+        "Solicitante / 2"
+      ],
+      "source_anchor": "Apellidos y nombre o razón social",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Industria Sintetica de Ejemplo SL"
+    },
+    {
+      "id": "f004",
+      "label": "Domicilio fiscal",
+      "path": [
+        "Página 1",
+        "(2) Identificación",
+        "Domicilio fiscal / 1"
+      ],
+      "source_anchor": "Domicilio fiscal",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Calle Ejemplo 20"
+    },
+    {
+      "id": "f005",
+      "label": "Localidad y provincia",
+      "path": [
+        "Página 1",
+        "(2) Identificación",
+        "Domicilio fiscal / 2"
+      ],
+      "source_anchor": "Localidad y provincia",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Valencia, Valencia"
+    },
+    {
+      "id": "f006",
+      "label": "Ejercicio",
+      "path": [
+        "Página 1",
+        "(3) Período",
+        "Periodo autorizacion / 1"
+      ],
+      "source_anchor": "Ejercicio",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2026"
+    },
+    {
+      "id": "f007",
+      "label": "Periodo",
+      "path": [
+        "Página 1",
+        "(3) Período",
+        "Periodo autorizacion / 2"
+      ],
+      "source_anchor": "Periodo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "3T"
+    },
+    {
+      "id": "f008",
+      "label": "No de la autorización",
+      "path": [
+        "Página 1",
+        "(3) Período",
+        "Periodo autorizacion / 3"
+      ],
+      "source_anchor": "No de la autorización",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "AUT-SINT-988"
+    },
+    {
+      "id": "f009",
+      "label": "Domicilio, localidad y provincia del establecimiento donde se ha efectuado el consumo",
+      "path": [
+        "Página 1",
+        "(2) Identificación",
+        "Establecimiento consumo / 1"
+      ],
+      "source_anchor": "Domicilio, localidad y provincia del establecimiento donde se ha efectuado el consumo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Calle Ensayo 30, Valencia, Valencia"
+    },
+    {
+      "id": "f010",
+      "label": "CAE",
+      "path": [
+        "Página 1",
+        "(2) Identificación",
+        "Establecimiento consumo / 2"
+      ],
+      "source_anchor": "CAE",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "CAE-SINT-988"
+    },
+    {
+      "id": "f011",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 1 / 1"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "A0 (ilustrativo)"
+    },
+    {
+      "id": "f012",
+      "label": "Hectolitros de producto",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 1 / 2"
+      ],
+      "source_anchor": "Hectolitros de producto",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "10,00"
+    },
+    {
+      "id": "f013",
+      "label": "Grado",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 1 / 3"
+      ],
+      "source_anchor": "Grado",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "40,00"
+    },
+    {
+      "id": "f014",
+      "label": "Hectolitros de alcohol puro",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 1 / 4"
+      ],
+      "source_anchor": "Hectolitros de alcohol puro",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "4,00"
+    },
+    {
+      "id": "f015",
+      "label": "Tipo impositivo",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 1 / 5"
+      ],
+      "source_anchor": "Tipo impositivo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "100,00 EUR/hl alcohol puro (supuesto sintetico)"
+    },
+    {
+      "id": "f016",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 1 / 6"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "400,00"
+    },
+    {
+      "id": "f017",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 2 / 1"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f018",
+      "label": "Hectolitros de producto",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 2 / 2"
+      ],
+      "source_anchor": "Hectolitros de producto",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f019",
+      "label": "Grado",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 2 / 3"
+      ],
+      "source_anchor": "Grado",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f020",
+      "label": "Hectolitros de alcohol puro",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 2 / 4"
+      ],
+      "source_anchor": "Hectolitros de alcohol puro",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f021",
+      "label": "Tipo impositivo",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 2 / 5"
+      ],
+      "source_anchor": "Tipo impositivo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f022",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 2 / 6"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f023",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 3 / 1"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f024",
+      "label": "Hectolitros de producto",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 3 / 2"
+      ],
+      "source_anchor": "Hectolitros de producto",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f025",
+      "label": "Grado",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 3 / 3"
+      ],
+      "source_anchor": "Grado",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f026",
+      "label": "Hectolitros de alcohol puro",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 3 / 4"
+      ],
+      "source_anchor": "Hectolitros de alcohol puro",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f027",
+      "label": "Tipo impositivo",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 3 / 5"
+      ],
+      "source_anchor": "Tipo impositivo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f028",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 3 / 6"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f029",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 4 / 1"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f030",
+      "label": "Hectolitros de producto",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 4 / 2"
+      ],
+      "source_anchor": "Hectolitros de producto",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f031",
+      "label": "Grado",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 4 / 3"
+      ],
+      "source_anchor": "Grado",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f032",
+      "label": "Hectolitros de alcohol puro",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 4 / 4"
+      ],
+      "source_anchor": "Hectolitros de alcohol puro",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f033",
+      "label": "Tipo impositivo",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 4 / 5"
+      ],
+      "source_anchor": "Tipo impositivo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f034",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 4 / 6"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f035",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 5 / 1"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f036",
+      "label": "Hectolitros de producto",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 5 / 2"
+      ],
+      "source_anchor": "Hectolitros de producto",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f037",
+      "label": "Grado",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 5 / 3"
+      ],
+      "source_anchor": "Grado",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f038",
+      "label": "Hectolitros de alcohol puro",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 5 / 4"
+      ],
+      "source_anchor": "Hectolitros de alcohol puro",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f039",
+      "label": "Tipo impositivo",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 5 / 5"
+      ],
+      "source_anchor": "Tipo impositivo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f040",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 5 / 6"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f041",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 6 / 1"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f042",
+      "label": "Hectolitros de producto",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 6 / 2"
+      ],
+      "source_anchor": "Hectolitros de producto",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f043",
+      "label": "Grado",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 6 / 3"
+      ],
+      "source_anchor": "Grado",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f044",
+      "label": "Hectolitros de alcohol puro",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 6 / 4"
+      ],
+      "source_anchor": "Hectolitros de alcohol puro",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f045",
+      "label": "Tipo impositivo",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 6 / 5"
+      ],
+      "source_anchor": "Tipo impositivo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f046",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 6 / 6"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f047",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 7 / 1"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f048",
+      "label": "Hectolitros de producto",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 7 / 2"
+      ],
+      "source_anchor": "Hectolitros de producto",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f049",
+      "label": "Grado",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 7 / 3"
+      ],
+      "source_anchor": "Grado",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f050",
+      "label": "Hectolitros de alcohol puro",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 7 / 4"
+      ],
+      "source_anchor": "Hectolitros de alcohol puro",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f051",
+      "label": "Tipo impositivo",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 7 / 5"
+      ],
+      "source_anchor": "Tipo impositivo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f052",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 7 / 6"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f053",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 8 / 1"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f054",
+      "label": "Hectolitros de producto",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 8 / 2"
+      ],
+      "source_anchor": "Hectolitros de producto",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f055",
+      "label": "Grado",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 8 / 3"
+      ],
+      "source_anchor": "Grado",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f056",
+      "label": "Hectolitros de alcohol puro",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 8 / 4"
+      ],
+      "source_anchor": "Hectolitros de alcohol puro",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f057",
+      "label": "Tipo impositivo",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 8 / 5"
+      ],
+      "source_anchor": "Tipo impositivo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f058",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 8 / 6"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f059",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 9 / 1"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f060",
+      "label": "Hectolitros de producto",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 9 / 2"
+      ],
+      "source_anchor": "Hectolitros de producto",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f061",
+      "label": "Grado",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 9 / 3"
+      ],
+      "source_anchor": "Grado",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f062",
+      "label": "Hectolitros de alcohol puro",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 9 / 4"
+      ],
+      "source_anchor": "Hectolitros de alcohol puro",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f063",
+      "label": "Tipo impositivo",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 9 / 5"
+      ],
+      "source_anchor": "Tipo impositivo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f064",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 9 / 6"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f065",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 10 / 1"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f066",
+      "label": "Hectolitros de producto",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 10 / 2"
+      ],
+      "source_anchor": "Hectolitros de producto",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f067",
+      "label": "Grado",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 10 / 3"
+      ],
+      "source_anchor": "Grado",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f068",
+      "label": "Hectolitros de alcohol puro",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 10 / 4"
+      ],
+      "source_anchor": "Hectolitros de alcohol puro",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f069",
+      "label": "Tipo impositivo",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 10 / 5"
+      ],
+      "source_anchor": "Tipo impositivo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f070",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 10 / 6"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f071",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 11 / 1"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f072",
+      "label": "Hectolitros de producto",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 11 / 2"
+      ],
+      "source_anchor": "Hectolitros de producto",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f073",
+      "label": "Grado",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 11 / 3"
+      ],
+      "source_anchor": "Grado",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f074",
+      "label": "Hectolitros de alcohol puro",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 11 / 4"
+      ],
+      "source_anchor": "Hectolitros de alcohol puro",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f075",
+      "label": "Tipo impositivo",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 11 / 5"
+      ],
+      "source_anchor": "Tipo impositivo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f076",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 11 / 6"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f077",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 12 / 1"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f078",
+      "label": "Hectolitros de producto",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 12 / 2"
+      ],
+      "source_anchor": "Hectolitros de producto",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f079",
+      "label": "Grado",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 12 / 3"
+      ],
+      "source_anchor": "Grado",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f080",
+      "label": "Hectolitros de alcohol puro",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 12 / 4"
+      ],
+      "source_anchor": "Hectolitros de alcohol puro",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f081",
+      "label": "Tipo impositivo",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 12 / 5"
+      ],
+      "source_anchor": "Tipo impositivo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f082",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 12 / 6"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f083",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 13 / 1"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f084",
+      "label": "Hectolitros de producto",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 13 / 2"
+      ],
+      "source_anchor": "Hectolitros de producto",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f085",
+      "label": "Grado",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 13 / 3"
+      ],
+      "source_anchor": "Grado",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f086",
+      "label": "Hectolitros de alcohol puro",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 13 / 4"
+      ],
+      "source_anchor": "Hectolitros de alcohol puro",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f087",
+      "label": "Tipo impositivo",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 13 / 5"
+      ],
+      "source_anchor": "Tipo impositivo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f088",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 13 / 6"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f089",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 14 / 1"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f090",
+      "label": "Hectolitros de producto",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 14 / 2"
+      ],
+      "source_anchor": "Hectolitros de producto",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f091",
+      "label": "Grado",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 14 / 3"
+      ],
+      "source_anchor": "Grado",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f092",
+      "label": "Hectolitros de alcohol puro",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 14 / 4"
+      ],
+      "source_anchor": "Hectolitros de alcohol puro",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f093",
+      "label": "Tipo impositivo",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 14 / 5"
+      ],
+      "source_anchor": "Tipo impositivo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f094",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 14 / 6"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f095",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 15 / 1"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f096",
+      "label": "Hectolitros de producto",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 15 / 2"
+      ],
+      "source_anchor": "Hectolitros de producto",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f097",
+      "label": "Grado",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 15 / 3"
+      ],
+      "source_anchor": "Grado",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f098",
+      "label": "Hectolitros de alcohol puro",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 15 / 4"
+      ],
+      "source_anchor": "Hectolitros de alcohol puro",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f099",
+      "label": "Tipo impositivo",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 15 / 5"
+      ],
+      "source_anchor": "Tipo impositivo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f100",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 15 / 6"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f101",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 16 / 1"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f102",
+      "label": "Hectolitros de producto",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 16 / 2"
+      ],
+      "source_anchor": "Hectolitros de producto",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f103",
+      "label": "Grado",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 16 / 3"
+      ],
+      "source_anchor": "Grado",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f104",
+      "label": "Hectolitros de alcohol puro",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 16 / 4"
+      ],
+      "source_anchor": "Hectolitros de alcohol puro",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f105",
+      "label": "Tipo impositivo",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 16 / 5"
+      ],
+      "source_anchor": "Tipo impositivo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f106",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Consumos / Fila 16 / 6"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f107",
+      "label": "Importe total solicitado",
+      "path": [
+        "Página 1",
+        "(4) Cuotas cuya devolución se solicita",
+        "Importe total solicitado"
+      ],
+      "source_anchor": "Importe total solicitado",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "400,00"
+    },
+    {
+      "id": "f108",
+      "label": "Solicita la devolución:",
+      "path": [
+        "Página 1",
+        "(5) Devolución",
+        "Solicita la devolución:"
+      ],
+      "source_anchor": "Solicita la devolución:",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Por transferencia a la siguiente cuenta:"
+      ],
+      "options": [
+        "Por cheque",
+        "Por transferencia a la siguiente cuenta:"
+      ],
+      "context_evidence": "(5) Devolución / Solicita la devolución:: Por transferencia a la siguiente cuenta:."
+    },
+    {
+      "id": "f109",
+      "label": "Importe:",
+      "path": [
+        "Página 1",
+        "(5) Devolución",
+        "Importe:"
+      ],
+      "source_anchor": "Importe:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "400,00"
+    },
+    {
+      "id": "f110",
+      "label": "Entidad",
+      "path": [
+        "Página 1",
+        "(5) Devolución",
+        "Cuenta cliente / 1"
+      ],
+      "source_anchor": "Entidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "ENT-SINT"
+    },
+    {
+      "id": "f111",
+      "label": "Sucursal",
+      "path": [
+        "Página 1",
+        "(5) Devolución",
+        "Cuenta cliente / 2"
+      ],
+      "source_anchor": "Sucursal",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SUC-SINT"
+    },
+    {
+      "id": "f112",
+      "label": "DC",
+      "path": [
+        "Página 1",
+        "(5) Devolución",
+        "Cuenta cliente / 3"
+      ],
+      "source_anchor": "DC",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "DC-SINT"
+    },
+    {
+      "id": "f113",
+      "label": "Número de cuenta",
+      "path": [
+        "Página 1",
+        "(5) Devolución",
+        "Cuenta cliente / 4"
+      ],
+      "source_anchor": "Número de cuenta",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "CUENTA-SINT-NO-OPERATIVA-988"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Agencia Tributaria",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "524",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Solicitud de devolución",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Código",
+        "field": "f001",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(2) Identificación",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "NIF",
+        "field": "f002",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "Apellidos y nombre o razón social",
+        "field": "f003",
+        "colspan": 9,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Domicilio fiscal",
+        "field": "f004",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Localidad y provincia",
+        "field": "f005",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(3) Período",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Ejercicio",
+        "field": "f006",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "Periodo",
+        "field": "f007",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "No de la autorización",
+        "field": "f008",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(2) Identificación",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Domicilio, localidad y provincia del establecimiento donde se ha efectuado el consumo",
+        "field": "f009",
+        "colspan": 9,
+        "source_page": 1
+      },
+      {
+        "label": "CAE",
+        "field": "f010",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(4) Cuotas cuya devolución se solicita",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Declaración de productos consumidos",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Código de epígrafe",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de producto",
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Grado",
+        "field": "f013",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de alcohol puro",
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Tipo impositivo",
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f016",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Código de epígrafe",
+        "field": "f017",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de producto",
+        "field": "f018",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Grado",
+        "field": "f019",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de alcohol puro",
+        "field": "f020",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Tipo impositivo",
+        "field": "f021",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f022",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Código de epígrafe",
+        "field": "f023",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de producto",
+        "field": "f024",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Grado",
+        "field": "f025",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de alcohol puro",
+        "field": "f026",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Tipo impositivo",
+        "field": "f027",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f028",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Código de epígrafe",
+        "field": "f029",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de producto",
+        "field": "f030",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Grado",
+        "field": "f031",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de alcohol puro",
+        "field": "f032",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Tipo impositivo",
+        "field": "f033",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f034",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Código de epígrafe",
+        "field": "f035",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de producto",
+        "field": "f036",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Grado",
+        "field": "f037",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de alcohol puro",
+        "field": "f038",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Tipo impositivo",
+        "field": "f039",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f040",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Código de epígrafe",
+        "field": "f041",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de producto",
+        "field": "f042",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Grado",
+        "field": "f043",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de alcohol puro",
+        "field": "f044",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Tipo impositivo",
+        "field": "f045",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f046",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Código de epígrafe",
+        "field": "f047",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de producto",
+        "field": "f048",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Grado",
+        "field": "f049",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de alcohol puro",
+        "field": "f050",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Tipo impositivo",
+        "field": "f051",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f052",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Código de epígrafe",
+        "field": "f053",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de producto",
+        "field": "f054",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Grado",
+        "field": "f055",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de alcohol puro",
+        "field": "f056",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Tipo impositivo",
+        "field": "f057",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f058",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Código de epígrafe",
+        "field": "f059",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de producto",
+        "field": "f060",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Grado",
+        "field": "f061",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de alcohol puro",
+        "field": "f062",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Tipo impositivo",
+        "field": "f063",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f064",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Código de epígrafe",
+        "field": "f065",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de producto",
+        "field": "f066",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Grado",
+        "field": "f067",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de alcohol puro",
+        "field": "f068",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Tipo impositivo",
+        "field": "f069",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f070",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Código de epígrafe",
+        "field": "f071",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de producto",
+        "field": "f072",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Grado",
+        "field": "f073",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de alcohol puro",
+        "field": "f074",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Tipo impositivo",
+        "field": "f075",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f076",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Código de epígrafe",
+        "field": "f077",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de producto",
+        "field": "f078",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Grado",
+        "field": "f079",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de alcohol puro",
+        "field": "f080",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Tipo impositivo",
+        "field": "f081",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f082",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Código de epígrafe",
+        "field": "f083",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de producto",
+        "field": "f084",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Grado",
+        "field": "f085",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de alcohol puro",
+        "field": "f086",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Tipo impositivo",
+        "field": "f087",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f088",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Código de epígrafe",
+        "field": "f089",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de producto",
+        "field": "f090",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Grado",
+        "field": "f091",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de alcohol puro",
+        "field": "f092",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Tipo impositivo",
+        "field": "f093",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f094",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Código de epígrafe",
+        "field": "f095",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de producto",
+        "field": "f096",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Grado",
+        "field": "f097",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de alcohol puro",
+        "field": "f098",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Tipo impositivo",
+        "field": "f099",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f100",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Código de epígrafe",
+        "field": "f101",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de producto",
+        "field": "f102",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Grado",
+        "field": "f103",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Hectolitros de alcohol puro",
+        "field": "f104",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Tipo impositivo",
+        "field": "f105",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f106",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Importe total solicitado",
+        "field": "f107",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "El proceso industrial a que se refiere la autorización concedida no ha sufrido modificación alguna desde su concesión.",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "(5) Devolución",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Solicita la devolución:",
+        "field": "f108",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Importe:",
+        "field": "f109",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Código cuenta cliente",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Entidad",
+        "field": "f110",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "Sucursal",
+        "field": "f111",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "DC",
+        "field": "f112",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Número de cuenta",
+        "field": "f113",
+        "colspan": 5,
+        "source_page": 1
+      }
+    ]
+  ],
+  "source_notice": "The complete independent entry unit is retained in source order, including horizontal groups, repeated material rows and all genuine options. One physical printed answer region is one logical target. Administrative duplicate copies do not multiply inputs. Source and retrieval dates remain separate; no current filing-validity claim.",
+  "context": "CASO ENTERAMENTE FICTICIO. Personas, organismos de ejemplo, identificadores, códigos, importes y firmas son datos sintéticos para esta transcripción; no acreditan un expediente ni una actuación administrativa real.\nCaso enteramente ficticio para investigacion, sin presentacion ni validacion administrativa. Documentos, codigos, cuentas, referencias, nombres y firmas son datos sinteticos. Los codigos de forma numerica solo ilustran las casillas, no acreditan un registro o clasificacion vigente. Consumo industrial ficticio autorizado, proceso sin modificaciones.10hl de producto al40%=4hl de alcohol puro. Tipo100EUR/hl usado exclusivamente como numero sintetico de calculo, no tarifa legal: devolucion400EUR, igual al total y al importe de transferencia. Una fila utilizada, quince lineas originales sin operaciones. Cuenta no operativa. La declaracion de proceso es texto fijo, no una casilla que el original no contiene.\nPágina 1 / General / Oficina gestora / Codigo: 99999 (oficina ficticia)\nPágina 1 / (2) Identificación / Solicitante / 1: NIF-SINT-988\nPágina 1 / (2) Identificación / Solicitante / 2: Industria Sintetica de Ejemplo SL\nPágina 1 / (2) Identificación / Domicilio fiscal / 1: Calle Ejemplo 20\nPágina 1 / (2) Identificación / Domicilio fiscal / 2: Valencia, Valencia\nPágina 1 / (3) Período / Periodo autorizacion / 1: 2026\nPágina 1 / (3) Período / Periodo autorizacion / 2: 3T\nPágina 1 / (3) Período / Periodo autorizacion / 3: AUT-SINT-988\nPágina 1 / (2) Identificación / Establecimiento consumo / 1: Calle Ensayo 30, Valencia, Valencia\nPágina 1 / (2) Identificación / Establecimiento consumo / 2: CAE-SINT-988\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 1 / 1: A0 (ilustrativo)\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 1 / 2: 10,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 1 / 3: 40,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 1 / 4: 4,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 1 / 5: 100,00 EUR/hl alcohol puro (supuesto sintetico)\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 1 / 6: 400,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 2 / 1: No procede\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 2 / 2: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 2 / 3: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 2 / 4: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 2 / 5: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 2 / 6: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 3 / 1: No procede\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 3 / 2: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 3 / 3: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 3 / 4: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 3 / 5: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 3 / 6: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 4 / 1: No procede\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 4 / 2: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 4 / 3: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 4 / 4: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 4 / 5: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 4 / 6: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 5 / 1: No procede\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 5 / 2: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 5 / 3: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 5 / 4: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 5 / 5: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 5 / 6: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 6 / 1: No procede\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 6 / 2: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 6 / 3: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 6 / 4: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 6 / 5: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 6 / 6: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 7 / 1: No procede\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 7 / 2: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 7 / 3: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 7 / 4: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 7 / 5: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 7 / 6: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 8 / 1: No procede\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 8 / 2: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 8 / 3: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 8 / 4: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 8 / 5: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 8 / 6: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 9 / 1: No procede\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 9 / 2: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 9 / 3: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 9 / 4: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 9 / 5: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 9 / 6: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 10 / 1: No procede\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 10 / 2: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 10 / 3: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 10 / 4: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 10 / 5: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 10 / 6: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 11 / 1: No procede\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 11 / 2: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 11 / 3: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 11 / 4: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 11 / 5: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 11 / 6: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 12 / 1: No procede\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 12 / 2: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 12 / 3: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 12 / 4: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 12 / 5: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 12 / 6: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 13 / 1: No procede\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 13 / 2: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 13 / 3: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 13 / 4: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 13 / 5: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 13 / 6: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 14 / 1: No procede\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 14 / 2: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 14 / 3: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 14 / 4: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 14 / 5: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 14 / 6: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 15 / 1: No procede\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 15 / 2: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 15 / 3: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 15 / 4: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 15 / 5: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 15 / 6: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 16 / 1: No procede\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 16 / 2: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 16 / 3: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 16 / 4: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 16 / 5: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Consumos / Fila 16 / 6: 0,00\nPágina 1 / (4) Cuotas cuya devolución se solicita / Importe total solicitado: 400,00\n(5) Devolución / Solicita la devolución:: Por transferencia a la siguiente cuenta:.\nPágina 1 / (5) Devolución / Importe:: 400,00\nPágina 1 / (5) Devolución / Cuenta cliente / 1: ENT-SINT\nPágina 1 / (5) Devolución / Cuenta cliente / 2: SUC-SINT\nPágina 1 / (5) Devolución / Cuenta cliente / 3: DC-SINT\nPágina 1 / (5) Devolución / Cuenta cliente / 4: CUENTA-SINT-NO-OPERATIVA-988",
+  "workflow_identity": {
+    "language": "es",
+    "id": 988
+  }
+}

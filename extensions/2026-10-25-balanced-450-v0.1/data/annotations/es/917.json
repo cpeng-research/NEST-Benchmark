@@ -1,0 +1,935 @@
+{
+  "id": "es-917",
+  "language": "es",
+  "title": "SOLICITUD DEL SERVICIO DE HOUSING/HOSTING",
+  "domain": "Business",
+  "issuer": "Universidad de Granada - CSIRC",
+  "issuer_id": "universidad-de-granada",
+  "template_family": "ugr-csirc-hosting_housing",
+  "source_version": "No indicada",
+  "source_date_evidence": {
+    "kind": "not stated",
+    "value": "No indicada",
+    "note": "Printed edition is separate from retrieval time; no current-validity claim."
+  },
+  "source_url": "https://csirc.ugr.es/sites/centros/csirc/public/formularios/hosting_housing.pdf",
+  "landing_url": "https://csirc.ugr.es/informacion/documentos/formularios",
+  "retrieved_at": "2026-10-25T07:12:18.575771+00:00",
+  "source_sha256": "bd194ce0dca16d5fb654ace0da3a6e677cdd30413b9aa6849d9f5f402688b8c3",
+  "source_pages": 2,
+  "license_url": "https://www.ugr.es/condiciones-legales",
+  "license_note": "Universidad de Granada. Condiciones legales: associated organs and services are included in the Portal; full or partial reproduction is authorized with explicit public-source attribution and preservation of integrity and meaning. This is an express reproduction permission, not a Creative Commons license. Complete semantic transcription in a normalized grid; all completed data and signatures are fictional. No administrative action or issuer endorsement.",
+  "columns": 12,
+  "synthetic_context": true,
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Nombre:",
+      "path": [
+        "Página 1",
+        "DATOS DEL SOLICITANTE / RESPONSABLE",
+        "Nombre:"
+      ],
+      "source_anchor": "Nombre:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "MARTINA SOLER RIVERA",
+      "label_position": [
+        4,
+        0
+      ]
+    },
+    {
+      "id": "f002",
+      "label": "DNI:",
+      "path": [
+        "Página 1",
+        "DATOS DEL SOLICITANTE / RESPONSABLE",
+        "DNI:"
+      ],
+      "source_anchor": "DNI:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SINT-PAS-917",
+      "label_position": [
+        5,
+        0
+      ]
+    },
+    {
+      "id": "f003",
+      "label": "email:",
+      "path": [
+        "Página 1",
+        "DATOS DEL SOLICITANTE / RESPONSABLE",
+        "email:"
+      ],
+      "source_anchor": "email:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "martina.soler@example.org",
+      "label_position": [
+        6,
+        0
+      ]
+    },
+    {
+      "id": "f004",
+      "label": "Teléfono:",
+      "path": [
+        "Página 1",
+        "DATOS DEL SOLICITANTE / RESPONSABLE",
+        "Teléfono:"
+      ],
+      "source_anchor": "Teléfono:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "958000917",
+      "label_position": [
+        7,
+        0
+      ]
+    },
+    {
+      "id": "f005",
+      "label": "Dirección laboral:",
+      "path": [
+        "Página 1",
+        "DATOS DEL SOLICITANTE / RESPONSABLE",
+        "Dirección laboral:"
+      ],
+      "source_anchor": "Dirección laboral:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Calle Ficticia 17, Granada",
+      "label_position": [
+        8,
+        0
+      ]
+    },
+    {
+      "id": "f006",
+      "label": "Cargo / Puesto:",
+      "path": [
+        "Página 1",
+        "DATOS DEL SOLICITANTE / RESPONSABLE",
+        "Cargo / Puesto:"
+      ],
+      "source_anchor": "Cargo / Puesto:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Directora de la Unidad de Ejemplo",
+      "label_position": [
+        9,
+        0
+      ]
+    },
+    {
+      "id": "f007",
+      "label": "Nombre:",
+      "path": [
+        "Página 1",
+        "DATOS DEL SERVIDOR",
+        "Nombre:"
+      ],
+      "source_anchor": "Nombre:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "gestion-demo.ugr.es",
+      "label_position": [
+        11,
+        0
+      ]
+    },
+    {
+      "id": "f008",
+      "label": "Hosting",
+      "path": [
+        "Página 1",
+        "DATOS DEL SERVIDOR",
+        "Tipo de alojamiento"
+      ],
+      "source_anchor": "Hosting",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Hosting"
+      ],
+      "options": [
+        "Hosting",
+        "Housing"
+      ],
+      "context_evidence": "DATOS DEL SERVIDOR / Hosting: Hosting."
+    },
+    {
+      "id": "f009",
+      "label": "Conectividad exterior (si es necesario conectarse desde el exterior de la red UGR )",
+      "path": [
+        "Página 1",
+        "DATOS DEL SERVIDOR",
+        "Conectividad exterior (si es necesario conectarse desde el exterior de la red UGR )"
+      ],
+      "source_anchor": "Conectividad exterior (si es necesario conectarse desde el exterior de la red UGR )",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Conectividad exterior (si es necesario conectarse desde el exterior de la red UGR )"
+      ],
+      "options": [
+        "Conectividad exterior (si es necesario conectarse desde el exterior de la red UGR )"
+      ],
+      "context_evidence": "DATOS DEL SERVIDOR / Conectividad exterior (si es necesario conectarse desde el exterior de la red UGR ): Conectividad exterior (si es necesario conectarse desde el exterior de la red UGR )."
+    },
+    {
+      "id": "f010",
+      "label": "Dedicado a:",
+      "path": [
+        "Página 1",
+        "DATOS DEL SERVIDOR",
+        "Uso y servicios / línea 1"
+      ],
+      "source_anchor": "Dedicado a:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Portal de gestión documental de ejemplo",
+      "label_position": [
+        16,
+        0
+      ]
+    },
+    {
+      "id": "f011",
+      "label": "Dedicado a:",
+      "path": [
+        "Página 1",
+        "DATOS DEL SERVIDOR",
+        "Uso y servicios / línea 2"
+      ],
+      "source_anchor": "Dedicado a:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Servicio HTTPS del portal",
+      "label_position": [
+        17,
+        0
+      ]
+    },
+    {
+      "id": "f012",
+      "label": "Dedicado a:",
+      "path": [
+        "Página 1",
+        "DATOS DEL SERVIDOR",
+        "Uso y servicios / línea 3"
+      ],
+      "source_anchor": "Dedicado a:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Repositorio de documentos públicos de ejemplo",
+      "label_position": [
+        18,
+        0
+      ]
+    },
+    {
+      "id": "f013",
+      "label": "Responsables técnicos *(nombre, email)",
+      "path": [
+        "Página 1",
+        "DATOS DEL SERVIDOR",
+        "Responsable técnico / línea 1"
+      ],
+      "source_anchor": "Responsables técnicos *(nombre, email)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "ELENA VIDAL, elena.vidal@example.org",
+      "label_position": [
+        20,
+        0
+      ]
+    },
+    {
+      "id": "f014",
+      "label": "Responsables técnicos *(nombre, email)",
+      "path": [
+        "Página 1",
+        "DATOS DEL SERVIDOR",
+        "Responsable técnico / línea 2"
+      ],
+      "source_anchor": "Responsables técnicos *(nombre, email)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "CLARA NAVARRO, clara.navarro@example.org",
+      "label_position": [
+        21,
+        0
+      ]
+    },
+    {
+      "id": "f015",
+      "label": "Declaro haber leído y aceptar la Normativa de uso de los recursos informáticos y de comunicaciones de la UGR.",
+      "path": [
+        "Página 1",
+        "ACEPTACIÓN DE NORMATIVA Y CONDICIONES DE USO DEL SERVICIO",
+        "Declaro haber leído y aceptar la Normativa de uso de los recursos informáticos y de comunicaciones de la UGR."
+      ],
+      "source_anchor": "Declaro haber leído y aceptar la Normativa de uso de los recursos informáticos y de comunicaciones de la UGR.",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Declaro haber leído y aceptar la Normativa de uso de los recursos informáticos y de comunicaciones de la UGR."
+      ],
+      "options": [
+        "Declaro haber leído y aceptar la Normativa de uso de los recursos informáticos y de comunicaciones de la UGR."
+      ],
+      "context_evidence": "ACEPTACIÓN DE NORMATIVA Y CONDICIONES DE USO DEL SERVICIO / Declaro haber leído y aceptar la Normativa de uso de los recursos informáticos y de comunicaciones de la UGR.: Declaro haber leído y aceptar la Normativa de uso de los recursos informáticos y de comunicaciones de la UGR.."
+    },
+    {
+      "id": "f016",
+      "label": "Declaro haber leído y aceptar las condiciones generales establecidas en la página web del servicio",
+      "path": [
+        "Página 1",
+        "ACEPTACIÓN DE NORMATIVA Y CONDICIONES DE USO DEL SERVICIO",
+        "Declaro haber leído y aceptar las condiciones generales establecidas en la página web del servicio"
+      ],
+      "source_anchor": "Declaro haber leído y aceptar las condiciones generales establecidas en la página web del servicio",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Declaro haber leído y aceptar las condiciones generales establecidas en la página web del servicio"
+      ],
+      "options": [
+        "Declaro haber leído y aceptar las condiciones generales establecidas en la página web del servicio"
+      ],
+      "context_evidence": "ACEPTACIÓN DE NORMATIVA Y CONDICIONES DE USO DEL SERVICIO / Declaro haber leído y aceptar las condiciones generales establecidas en la página web del servicio: Declaro haber leído y aceptar las condiciones generales establecidas en la página web del servicio."
+    },
+    {
+      "id": "f017",
+      "label": "Declaro haber leído y aceptar las condiciones específicas indicadas en el epígrafe “Condiciones específicas de uso del servicio”, en la página siguiente de la solicitud.",
+      "path": [
+        "Página 1",
+        "ACEPTACIÓN DE NORMATIVA Y CONDICIONES DE USO DEL SERVICIO",
+        "Declaro haber leído y aceptar las condiciones específicas indicadas en el epígrafe “Condiciones específicas de uso del servicio”, en la página siguiente de la solicitud."
+      ],
+      "source_anchor": "Declaro haber leído y aceptar las condiciones específicas indicadas en el epígrafe “Condiciones específicas de uso del servicio”, en la página siguiente de la solicitud.",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Declaro haber leído y aceptar las condiciones específicas indicadas en el epígrafe “Condiciones específicas de uso del servicio”, en la página siguiente de la solicitud."
+      ],
+      "options": [
+        "Declaro haber leído y aceptar las condiciones específicas indicadas en el epígrafe “Condiciones específicas de uso del servicio”, en la página siguiente de la solicitud."
+      ],
+      "context_evidence": "ACEPTACIÓN DE NORMATIVA Y CONDICIONES DE USO DEL SERVICIO / Declaro haber leído y aceptar las condiciones específicas indicadas en el epígrafe “Condiciones específicas de uso del servicio”, en la página siguiente de la solicitud.: Declaro haber leído y aceptar las condiciones específicas indicadas en el epígrafe “Condiciones específicas de uso del servicio”, en la página siguiente de la solicitud.."
+    },
+    {
+      "id": "f018",
+      "label": "Centro de Gasto:",
+      "path": [
+        "Página 1",
+        "ACEPTACIÓN DE NORMATIVA Y CONDICIONES DE USO DEL SERVICIO",
+        "Centro de Gasto:"
+      ],
+      "source_anchor": "Centro de Gasto:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SINT-917",
+      "label_position": [
+        29,
+        0
+      ]
+    },
+    {
+      "id": "f019",
+      "label": "Funcional:",
+      "path": [
+        "Página 1",
+        "ACEPTACIÓN DE NORMATIVA Y CONDICIONES DE USO DEL SERVICIO",
+        "Funcional:"
+      ],
+      "source_anchor": "Funcional:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SINT-F17",
+      "label_position": [
+        30,
+        0
+      ]
+    },
+    {
+      "id": "f020",
+      "label": "Económica:",
+      "path": [
+        "Página 1",
+        "ACEPTACIÓN DE NORMATIVA Y CONDICIONES DE USO DEL SERVICIO",
+        "Económica:"
+      ],
+      "source_anchor": "Económica:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SINT-E17",
+      "label_position": [
+        31,
+        0
+      ]
+    },
+    {
+      "id": "f021",
+      "label": "a",
+      "path": [
+        "Página 2",
+        "Aceptación y firma",
+        "Día"
+      ],
+      "source_anchor": "a",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "25"
+    },
+    {
+      "id": "f022",
+      "label": "de",
+      "path": [
+        "Página 2",
+        "Aceptación y firma",
+        "Mes"
+      ],
+      "source_anchor": "de",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "octubre"
+    },
+    {
+      "id": "f023",
+      "label": "de",
+      "path": [
+        "Página 2",
+        "Aceptación y firma",
+        "Año"
+      ],
+      "source_anchor": "de",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "2026"
+    },
+    {
+      "id": "f024",
+      "label": "Fdo.:",
+      "path": [
+        "Página 2",
+        "Aceptación y firma",
+        "Fdo.:"
+      ],
+      "source_anchor": "Fdo.:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Firma ficticia de MARTINA SOLER RIVERA"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "SOLICITUD DEL SERVICIO DE HOUSING/HOSTING",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Centro de Servicios informáticos y Redes de Comunicación Edificio Mecenas - Campus Fuentenueva - 18071 Granada Tel. 958 241010 - Fax 958 244221 - https://csirc.ugr.es – csirc@ugr.es",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Alojamiento de servidores físicos/virtuales en los CPDs o Salas de ordenadores del CSIRC.",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "DATOS DEL SOLICITANTE / RESPONSABLE",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Nombre:",
+        "source_page": 1,
+        "colspan": 4,
+        "heading": true
+      },
+      {
+        "label": "",
+        "field": "f001",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "DNI:",
+        "source_page": 1,
+        "colspan": 4,
+        "heading": true
+      },
+      {
+        "label": "",
+        "field": "f002",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "email:",
+        "source_page": 1,
+        "colspan": 4,
+        "heading": true
+      },
+      {
+        "label": "",
+        "field": "f003",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Teléfono:",
+        "source_page": 1,
+        "colspan": 4,
+        "heading": true
+      },
+      {
+        "label": "",
+        "field": "f004",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Dirección laboral:",
+        "source_page": 1,
+        "colspan": 4,
+        "heading": true
+      },
+      {
+        "label": "",
+        "field": "f005",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Cargo / Puesto:",
+        "source_page": 1,
+        "colspan": 4,
+        "heading": true
+      },
+      {
+        "label": "",
+        "field": "f006",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "DATOS DEL SERVIDOR",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Nombre:",
+        "source_page": 1,
+        "colspan": 4,
+        "heading": true
+      },
+      {
+        "label": "",
+        "field": "f007",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(.ugr.es)",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Hosting",
+        "field": "f008",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(marque la opción correspondiente)",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Conectividad exterior (si es necesario conectarse desde el exterior de la red UGR )",
+        "field": "f009",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Dedicado a:",
+        "source_page": 1,
+        "colspan": 4,
+        "heading": true
+      },
+      {
+        "label": "",
+        "field": "f010",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Dedicado a:",
+        "source_page": 1,
+        "colspan": 4,
+        "heading": true
+      },
+      {
+        "label": "",
+        "field": "f011",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Dedicado a:",
+        "source_page": 1,
+        "colspan": 4,
+        "heading": true
+      },
+      {
+        "label": "",
+        "field": "f012",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "*(uso, servicios deplegados)",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Responsables técnicos *(nombre, email)",
+        "source_page": 1,
+        "colspan": 4,
+        "heading": true
+      },
+      {
+        "label": "",
+        "field": "f013",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Responsables técnicos *(nombre, email)",
+        "source_page": 1,
+        "colspan": 4,
+        "heading": true
+      },
+      {
+        "label": "",
+        "field": "f014",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "ACEPTACIÓN DE NORMATIVA Y CONDICIONES DE USO DEL SERVICIO",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Declaro haber leído y aceptar la Normativa de uso de los recursos informáticos y de comunicaciones de la UGR.",
+        "field": "f015",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Declaro haber leído y aceptar las condiciones generales establecidas en la página web del servicio",
+        "field": "f016",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Declaro haber leído y aceptar las condiciones específicas indicadas en el epígrafe “Condiciones específicas de uso del servicio”, en la página siguiente de la solicitud.",
+        "field": "f017",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(ver https://www.ugr.es/universidad/normativa/normativa-uso-recursos-informaticos-comunicaciones-universidad-granada)",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "(ver https:/csirc.ugr.es/informacion/servicios/hosting-housing)",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Y por la presente, autorizo al CSIRC a cargar periódicamente las cuotas económicas correspondientes al servicio prestado, comunicadas y acordadas entre las partes, a mi siguiente centro de gasto:",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Centro de Gasto:",
+        "source_page": 1,
+        "colspan": 4,
+        "heading": true
+      },
+      {
+        "label": "",
+        "field": "f018",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Funcional:",
+        "source_page": 1,
+        "colspan": 4,
+        "heading": true
+      },
+      {
+        "label": "",
+        "field": "f019",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Económica:",
+        "source_page": 1,
+        "colspan": 4,
+        "heading": true
+      },
+      {
+        "label": "",
+        "field": "f020",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Es obligatorio completar todos los datos del Centro de Gasto para la tramitación de la solicitud.",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "CONDICIONES ESPECÍFICAS DE USO DEL SERVICIO",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "La persona firmante, asume las siguientes responsabilidades respecto al equipo alojado en este servicio: - Realizar un correcto y adecuado uso de las instalaciones y de los medios (físicos o lógicos) puestos a su disposición, cumpliendo los procedimientos y horarios que se le indiquen y, en cualquier caso, la Normativa de uso de los recursos informáticos de la UGR. - Comunicar una lista de personas autorizadas con las que contactar y a los que avisar en casos de parada o emergencia. - Administrar el sistema operativo y los servicios que se incluyan en la máquina, actualizándolo periódicamente para evitar fallos de seguridad. Este mantenimiento lo podrá hacer en primera persona, delegarlo en otra, o contratarlo externamente. - Ser el responsable de los contenidos que aloje y de los servicios que ponga en funcionamiento en su servidor, los cuales deben ser declarados en la Solicitud y, si en el futuro cambian o aumentan, ser comunicados también al personal encargado del CSIRC para su conocimiento y, en su caso, aprobación. - Realizar las copias de seguridad del sistema, programas y datos alojados en el servidor que sean necesarios. - En caso de instalar un servicio web, solicitar el certificado SSL a Seguridad Informática, instalarlo y actualizarlo periódicamente tras la caducidad del mismo. - Si alberga algún servicio web accesible desde fuera de la Universidad, solicitar a Secretaría General su inscripción en el Registro de Servidores Web. - Tomar medidas correctivas tras recibir la comunicación de cualquier incidente relacionado con su equipo. - Comunicar a Seguridad Informática cualquier incidente de seguridad que detecte en su equipo. Así como tomar las medidas correctivas que desde Seguridad Informática le indiquen para su resolución. - Pagar puntualmente las cuotas periódicas correspondientes al coste del servicio de alojamiento según la tarifa establecida. - Ante el incumplimiento consciente o reiterado de alguno de los puntos anteriores por parte del Solicitante, se autoriza al CSIRC a la inmediata desconexión del equipo.",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Granada, a",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "a",
+        "field": "f021",
+        "colspan": 4,
+        "source_page": 2
+      },
+      {
+        "label": "de",
+        "field": "f022",
+        "colspan": 4,
+        "source_page": 2
+      },
+      {
+        "label": "de",
+        "field": "f023",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Fdo.:",
+        "field": "f024",
+        "colspan": 12,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Información básica sobre protección de sus datos personales aportados",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Responsable:",
+        "source_page": 2,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "UNIVERSIDAD DE GRANADA",
+        "source_page": 2,
+        "colspan": 9,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Legitimación:",
+        "source_page": 2,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "La Universidad de Granada se encuentra legitimada para el tratamiento de sus datos en base al Art. 6.1.b) del Reglamento General de Protección de Datos: el tratamiento es necesario para la ejecución de un contrato en el que el interesado es parte o para la aplicación a petición de este de",
+        "source_page": 2,
+        "colspan": 9,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Finalidad:",
+        "source_page": 2,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "Gestionar su solicitud",
+        "source_page": 2,
+        "colspan": 9,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Destinatarios:",
+        "source_page": 2,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "No se prevén comunicaciones de datos",
+        "source_page": 2,
+        "colspan": 9,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Derechos:",
+        "source_page": 2,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "Tiene derecho a solicitar el acceso, oposición, rectificación, supresión o limitación del tratamiento de sus datos, tal y como se explica en la información adicional.",
+        "source_page": 2,
+        "colspan": 9,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Información adicional:",
+        "source_page": 2,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "Puede consultar la información adicional y detallada sobre protección de datos, en función https://secretariageneral.ugr.es/pages/proteccion_datos/leyendas- informativas/_img/informacionadicionalserviciostic/%21",
+        "source_page": 2,
+        "colspan": 9,
+        "heading": false
+      }
+    ]
+  ],
+  "source_notice": "All source pages, meaningful static text, independent writing regions and genuine choice options retained. Consecutive character boxes of one identifier/date/code form one logical input; descriptions and their separate codes are distinct fields. Source horizontal groups and repeated rows are explicit. Graphical branding and internal PDF utility controls are not reproduced.",
+  "context": "CASO ENTERAMENTE FICTICIO. Personas, organismos de ejemplo, identificadores, códigos, importes y firmas son datos sintéticos para esta transcripción; no acreditan un expediente ni una actuación administrativa real.\n\nPágina 1 / DATOS DEL SOLICITANTE / RESPONSABLE / Nombre:: MARTINA SOLER RIVERA\nPágina 1 / DATOS DEL SOLICITANTE / RESPONSABLE / DNI:: SINT-PAS-917\nPágina 1 / DATOS DEL SOLICITANTE / RESPONSABLE / email:: martina.soler@example.org\nPágina 1 / DATOS DEL SOLICITANTE / RESPONSABLE / Teléfono:: 958000917\nPágina 1 / DATOS DEL SOLICITANTE / RESPONSABLE / Dirección laboral:: Calle Ficticia 17, Granada\nPágina 1 / DATOS DEL SOLICITANTE / RESPONSABLE / Cargo / Puesto:: Directora de la Unidad de Ejemplo\nPágina 1 / DATOS DEL SERVIDOR / Nombre:: gestion-demo.ugr.es\nDATOS DEL SERVIDOR / Hosting: Hosting.\nDATOS DEL SERVIDOR / Conectividad exterior (si es necesario conectarse desde el exterior de la red UGR ): Conectividad exterior (si es necesario conectarse desde el exterior de la red UGR ).\nPágina 1 / DATOS DEL SERVIDOR / Uso y servicios / línea 1: Portal de gestión documental de ejemplo\nPágina 1 / DATOS DEL SERVIDOR / Uso y servicios / línea 2: Servicio HTTPS del portal\nPágina 1 / DATOS DEL SERVIDOR / Uso y servicios / línea 3: Repositorio de documentos públicos de ejemplo\nPágina 1 / DATOS DEL SERVIDOR / Responsable técnico / línea 1: ELENA VIDAL, elena.vidal@example.org\nPágina 1 / DATOS DEL SERVIDOR / Responsable técnico / línea 2: CLARA NAVARRO, clara.navarro@example.org\nACEPTACIÓN DE NORMATIVA Y CONDICIONES DE USO DEL SERVICIO / Declaro haber leído y aceptar la Normativa de uso de los recursos informáticos y de comunicaciones de la UGR.: Declaro haber leído y aceptar la Normativa de uso de los recursos informáticos y de comunicaciones de la UGR..\nACEPTACIÓN DE NORMATIVA Y CONDICIONES DE USO DEL SERVICIO / Declaro haber leído y aceptar las condiciones generales establecidas en la página web del servicio: Declaro haber leído y aceptar las condiciones generales establecidas en la página web del servicio.\nACEPTACIÓN DE NORMATIVA Y CONDICIONES DE USO DEL SERVICIO / Declaro haber leído y aceptar las condiciones específicas indicadas en el epígrafe “Condiciones específicas de uso del servicio”, en la página siguiente de la solicitud.: Declaro haber leído y aceptar las condiciones específicas indicadas en el epígrafe “Condiciones específicas de uso del servicio”, en la página siguiente de la solicitud..\nPágina 1 / ACEPTACIÓN DE NORMATIVA Y CONDICIONES DE USO DEL SERVICIO / Centro de Gasto:: SINT-917\nPágina 1 / ACEPTACIÓN DE NORMATIVA Y CONDICIONES DE USO DEL SERVICIO / Funcional:: SINT-F17\nPágina 1 / ACEPTACIÓN DE NORMATIVA Y CONDICIONES DE USO DEL SERVICIO / Económica:: SINT-E17\nPágina 2 / Aceptación y firma / Día: 25\nPágina 2 / Aceptación y firma / Mes: octubre\nPágina 2 / Aceptación y firma / Año: 2026\nPágina 2 / Aceptación y firma / Fdo.:: Firma ficticia de MARTINA SOLER RIVERA",
+  "workflow_identity": {
+    "language": "es",
+    "id": 917
+  }
+}

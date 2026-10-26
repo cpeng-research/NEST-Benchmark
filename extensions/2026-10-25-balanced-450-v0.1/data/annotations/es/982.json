@@ -1,0 +1,2873 @@
+{
+  "id": "es-982",
+  "language": "es",
+  "title": "Modelo 030 - Declaracion censal de personas fisicas",
+  "domain": "Finance",
+  "issuer": "Agencia Estatal de Administracion Tributaria",
+  "issuer_id": "aeat",
+  "template_family": "aeat-aeat-030",
+  "source_version": "Ver. 1.0/2021",
+  "source_date_evidence": {
+    "kind": "printed edition",
+    "value": "Ver. 1.0/2021",
+    "note": "Printed on the actual PDF, separate from retrieval and help-page updates; no current filing-validity assertion."
+  },
+  "source_url": "https://sede.agenciatributaria.gob.es/static_files/Sede/Procedimiento_ayuda/G321/mod030_es_es.pdf",
+  "landing_url": "https://sede.agenciatributaria.gob.es/Sede/censos-nif-domicilio-fiscal/censos/modelo-030-censo_____de-domicilio-variacion-personales_/descarga-modelo.html",
+  "retrieved_at": "2026-10-25T16:38:11.923233+00:00",
+  "source_sha256": "c6a4b24d9ef3b8d2843fd5f726ec7dd0117546e695aacf92cc5b3ed67841261f",
+  "source_pages": 4,
+  "license_url": "https://sede.agenciatributaria.gob.es/Sede/condiciones-uso-sede-electronica/aviso-legal/utilizacion-informacion-contenida-web-aeat.html",
+  "license_note": "Origen de los datos: Agencia Estatal de Administracion Tributaria, Espana. The primary AEAT Utilizacion de la informacion notice, updated 03/febrero/2022, authorizes reproduction, modification, distribution and communication for commercial and noncommercial informational reuse unless expressly excepted. All four pages of the complete selected source were inspected; none carries an explicit source-specific no-modification exception. Attribute AEAT, preserve meaning and source-date metadata, and do not imply endorsement. This is a semantic research adaptation with fictional completions, not a valid administrative filing. Logos and graphical branding are not reproduced.",
+  "columns": 40,
+  "synthetic_context": true,
+  "fields": [
+    {
+      "id": "f001",
+      "label": "NIF",
+      "path": [
+        "Página 1",
+        "Datos identificativos",
+        "Titular cabecera / 1"
+      ],
+      "source_anchor": "NIF",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NIF-SINT-982"
+    },
+    {
+      "id": "f002",
+      "label": "Apellidos",
+      "path": [
+        "Página 1",
+        "Datos identificativos",
+        "Titular cabecera / 2"
+      ],
+      "source_anchor": "Apellidos",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SOLER EJEMPLO"
+    },
+    {
+      "id": "f003",
+      "label": "Nombre",
+      "path": [
+        "Página 1",
+        "Datos identificativos",
+        "Titular cabecera / 3"
+      ],
+      "source_anchor": "Nombre",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "LUIS SINTETICO"
+    },
+    {
+      "id": "f004",
+      "label": "Alta en el censo de obligados tributarios",
+      "path": [
+        "Página 1",
+        "1. Causas de presentación",
+        "Alta en el censo de obligados tributarios / Interesado"
+      ],
+      "source_anchor": "Alta en el censo de obligados tributarios",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "Interesado"
+      ],
+      "context_evidence": "Página 1 / 1. Causas de presentación / Alta en el censo de obligados tributarios / Interesado: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.",
+      "inactive_reason": "Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante."
+    },
+    {
+      "id": "f005",
+      "label": "Alta en el censo de obligados tributarios",
+      "path": [
+        "Página 1",
+        "1. Causas de presentación",
+        "Alta en el censo de obligados tributarios / Conyuge"
+      ],
+      "source_anchor": "Alta en el censo de obligados tributarios",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "Cónyuge"
+      ],
+      "context_evidence": "Página 1 / 1. Causas de presentación / Alta en el censo de obligados tributarios / Conyuge: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.",
+      "inactive_reason": "Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante."
+    },
+    {
+      "id": "f006",
+      "label": "Modificaciones/cambio de domicilio fiscal",
+      "path": [
+        "Página 1",
+        "1. Causas de presentación",
+        "Modificaciones/cambio de domicilio fiscal / Interesado"
+      ],
+      "source_anchor": "Modificaciones/cambio de domicilio fiscal",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Interesado"
+      ],
+      "options": [
+        "Interesado"
+      ],
+      "context_evidence": "1. Causas de presentación / Modificaciones/cambio de domicilio fiscal: Interesado."
+    },
+    {
+      "id": "f007",
+      "label": "Modificaciones/cambio de domicilio fiscal",
+      "path": [
+        "Página 1",
+        "1. Causas de presentación",
+        "Modificaciones/cambio de domicilio fiscal / Conyuge"
+      ],
+      "source_anchor": "Modificaciones/cambio de domicilio fiscal",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Cónyuge"
+      ],
+      "options": [
+        "Cónyuge"
+      ],
+      "context_evidence": "1. Causas de presentación / Modificaciones/cambio de domicilio fiscal: Cónyuge."
+    },
+    {
+      "id": "f008",
+      "label": "Consignación/modificación/baja de domicilio notificaciones",
+      "path": [
+        "Página 1",
+        "1. Causas de presentación",
+        "Consignación/modificación/baja de domicilio notificaciones / Interesado"
+      ],
+      "source_anchor": "Consignación/modificación/baja de domicilio notificaciones",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "Interesado"
+      ],
+      "context_evidence": "Página 1 / 1. Causas de presentación / Consignación/modificación/baja de domicilio notificaciones / Interesado: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.",
+      "inactive_reason": "Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante."
+    },
+    {
+      "id": "f009",
+      "label": "Consignación/modificación/baja de domicilio notificaciones",
+      "path": [
+        "Página 1",
+        "1. Causas de presentación",
+        "Consignación/modificación/baja de domicilio notificaciones / Conyuge"
+      ],
+      "source_anchor": "Consignación/modificación/baja de domicilio notificaciones",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "Cónyuge"
+      ],
+      "context_evidence": "Página 1 / 1. Causas de presentación / Consignación/modificación/baja de domicilio notificaciones / Conyuge: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.",
+      "inactive_reason": "Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante."
+    },
+    {
+      "id": "f010",
+      "label": "Modificación de datos identificativos",
+      "path": [
+        "Página 1",
+        "1. Causas de presentación",
+        "Modificación de datos identificativos / Interesado"
+      ],
+      "source_anchor": "Modificación de datos identificativos",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "Interesado"
+      ],
+      "context_evidence": "Página 1 / 1. Causas de presentación / Modificación de datos identificativos / Interesado: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.",
+      "inactive_reason": "Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante."
+    },
+    {
+      "id": "f011",
+      "label": "Modificación de datos identificativos",
+      "path": [
+        "Página 1",
+        "1. Causas de presentación",
+        "Modificación de datos identificativos / Conyuge"
+      ],
+      "source_anchor": "Modificación de datos identificativos",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "Cónyuge"
+      ],
+      "context_evidence": "Página 1 / 1. Causas de presentación / Modificación de datos identificativos / Conyuge: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.",
+      "inactive_reason": "Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante."
+    },
+    {
+      "id": "f012",
+      "label": "Solicitud de NIF por persona física que no disponga de DNI/NIE",
+      "path": [
+        "Página 1",
+        "1. Causas de presentación",
+        "Solicitud de NIF por persona física que no disponga de DNI/NIE / Interesado"
+      ],
+      "source_anchor": "Solicitud de NIF por persona física que no disponga de DNI/NIE",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "Interesado"
+      ],
+      "context_evidence": "Página 1 / 1. Causas de presentación / Solicitud de NIF por persona física que no disponga de DNI/NIE / Interesado: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.",
+      "inactive_reason": "Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante."
+    },
+    {
+      "id": "f013",
+      "label": "Solicitud de NIF por persona física que no disponga de DNI/NIE",
+      "path": [
+        "Página 1",
+        "1. Causas de presentación",
+        "Solicitud de NIF por persona física que no disponga de DNI/NIE / Conyuge"
+      ],
+      "source_anchor": "Solicitud de NIF por persona física que no disponga de DNI/NIE",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "Cónyuge"
+      ],
+      "context_evidence": "Página 1 / 1. Causas de presentación / Solicitud de NIF por persona física que no disponga de DNI/NIE / Conyuge: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.",
+      "inactive_reason": "Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante."
+    },
+    {
+      "id": "f014",
+      "label": "Cambio/modificación de estado civil",
+      "path": [
+        "Página 1",
+        "1. Causas de presentación",
+        "Cambio/modificación de estado civil / Interesado"
+      ],
+      "source_anchor": "Cambio/modificación de estado civil",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "Interesado"
+      ],
+      "context_evidence": "Página 1 / 1. Causas de presentación / Cambio/modificación de estado civil / Interesado: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.",
+      "inactive_reason": "Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante."
+    },
+    {
+      "id": "f015",
+      "label": "Cambio/modificación de estado civil",
+      "path": [
+        "Página 1",
+        "1. Causas de presentación",
+        "Cambio/modificación de estado civil / Conyuge"
+      ],
+      "source_anchor": "Cambio/modificación de estado civil",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "Cónyuge"
+      ],
+      "context_evidence": "Página 1 / 1. Causas de presentación / Cambio/modificación de estado civil / Conyuge: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.",
+      "inactive_reason": "Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante."
+    },
+    {
+      "id": "f016",
+      "label": "Solicitud de nueva tarjeta acreditativa del NIF",
+      "path": [
+        "Página 1",
+        "1. Causas de presentación",
+        "Solicitud de nueva tarjeta acreditativa del NIF / Interesado"
+      ],
+      "source_anchor": "Solicitud de nueva tarjeta acreditativa del NIF",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "Interesado"
+      ],
+      "context_evidence": "Página 1 / 1. Causas de presentación / Solicitud de nueva tarjeta acreditativa del NIF / Interesado: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.",
+      "inactive_reason": "Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante."
+    },
+    {
+      "id": "f017",
+      "label": "Solicitud de nueva tarjeta acreditativa del NIF",
+      "path": [
+        "Página 1",
+        "1. Causas de presentación",
+        "Solicitud de nueva tarjeta acreditativa del NIF / Conyuge"
+      ],
+      "source_anchor": "Solicitud de nueva tarjeta acreditativa del NIF",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "Cónyuge"
+      ],
+      "context_evidence": "Página 1 / 1. Causas de presentación / Solicitud de nueva tarjeta acreditativa del NIF / Conyuge: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.",
+      "inactive_reason": "Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante."
+    },
+    {
+      "id": "f018",
+      "label": "Alta/modificación/baja de datos de teléfonos y direcciones electrónicas para recibir avisos de la AEAT",
+      "path": [
+        "Página 1",
+        "1. Causas de presentación",
+        "Alta/modificación/baja de datos de teléfonos y direcciones electrónicas para recibir avisos de la AEAT / Interesado"
+      ],
+      "source_anchor": "Alta/modificación/baja de datos de teléfonos y direcciones electrónicas para recibir avisos de la AEAT",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "Interesado"
+      ],
+      "context_evidence": "Página 1 / 1. Causas de presentación / Alta/modificación/baja de datos de teléfonos y direcciones electrónicas para recibir avisos de la AEAT / Interesado: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.",
+      "inactive_reason": "Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante."
+    },
+    {
+      "id": "f019",
+      "label": "Residente fiscal",
+      "path": [
+        "Página 1",
+        "2. Datos identificativos del interesado",
+        "Residencia fiscal"
+      ],
+      "source_anchor": "Residente fiscal",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Residente fiscal en España"
+      ],
+      "options": [
+        "Residente fiscal en España",
+        "NO residente fiscal en España"
+      ],
+      "context_evidence": "2. Datos identificativos del interesado / Residente fiscal: Residente fiscal en España."
+    },
+    {
+      "id": "f020",
+      "label": "Fecha de efectos residencia fiscal",
+      "path": [
+        "Página 1",
+        "2. Datos identificativos del interesado",
+        "Fecha de efectos, tres componentes sin rotulos independientes"
+      ],
+      "source_anchor": "Fecha de efectos residencia fiscal",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede: no cambia la residencia fiscal"
+    },
+    {
+      "id": "f021",
+      "label": "NIF de otros países/ CIF Estado residencia",
+      "path": [
+        "Página 1",
+        "2. Datos identificativos del interesado",
+        "Identificacion internacional / NIF de otros países/ CIF Estado residencia"
+      ],
+      "source_anchor": "NIF de otros países/ CIF Estado residencia",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f022",
+      "label": "No pasaporte",
+      "path": [
+        "Página 1",
+        "2. Datos identificativos del interesado",
+        "Identificacion internacional / Nº pasaporte"
+      ],
+      "source_anchor": "No pasaporte",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f023",
+      "label": "Nacionalidad",
+      "path": [
+        "Página 1",
+        "2. Datos identificativos del interesado",
+        "Identificacion internacional / Nacionalidad"
+      ],
+      "source_anchor": "Nacionalidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Espanola"
+    },
+    {
+      "id": "f024",
+      "label": "Sexo",
+      "path": [
+        "Página 1",
+        "2. Datos identificativos del interesado",
+        "Identificacion internacional / Sexo"
+      ],
+      "source_anchor": "Sexo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "V"
+    },
+    {
+      "id": "f025",
+      "label": "NIF",
+      "path": [
+        "Página 1",
+        "2. Datos identificativos del interesado",
+        "Identificacion nacional / 1"
+      ],
+      "source_anchor": "NIF",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NIF-SINT-982"
+    },
+    {
+      "id": "f026",
+      "label": "Primer apellido",
+      "path": [
+        "Página 1",
+        "2. Datos identificativos del interesado",
+        "Identificacion nacional / 2"
+      ],
+      "source_anchor": "Primer apellido",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SOLER"
+    },
+    {
+      "id": "f027",
+      "label": "Segundo apellido",
+      "path": [
+        "Página 1",
+        "2. Datos identificativos del interesado",
+        "Identificacion nacional / 3"
+      ],
+      "source_anchor": "Segundo apellido",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "EJEMPLO"
+    },
+    {
+      "id": "f028",
+      "label": "Nombre",
+      "path": [
+        "Página 1",
+        "2. Datos identificativos del interesado",
+        "Identificacion nacional / 4"
+      ],
+      "source_anchor": "Nombre",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "LUIS SINTETICO"
+    },
+    {
+      "id": "f029",
+      "label": "Día",
+      "path": [
+        "Página 1",
+        "2. Datos identificativos del interesado",
+        "Nacimiento fecha / 1"
+      ],
+      "source_anchor": "Día",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "04"
+    },
+    {
+      "id": "f030",
+      "label": "Mes",
+      "path": [
+        "Página 1",
+        "2. Datos identificativos del interesado",
+        "Nacimiento fecha / 2"
+      ],
+      "source_anchor": "Mes",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "05"
+    },
+    {
+      "id": "f031",
+      "label": "Año",
+      "path": [
+        "Página 1",
+        "2. Datos identificativos del interesado",
+        "Nacimiento fecha / 3"
+      ],
+      "source_anchor": "Año",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1985"
+    },
+    {
+      "id": "f032",
+      "label": "Municipio",
+      "path": [
+        "Página 1",
+        "2. Datos identificativos del interesado",
+        "Nacimiento lugar / 1"
+      ],
+      "source_anchor": "Municipio",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f033",
+      "label": "Provincia",
+      "path": [
+        "Página 1",
+        "2. Datos identificativos del interesado",
+        "Nacimiento lugar / 2"
+      ],
+      "source_anchor": "Provincia",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f034",
+      "label": "País",
+      "path": [
+        "Página 1",
+        "2. Datos identificativos del interesado",
+        "Nacimiento lugar / 3"
+      ],
+      "source_anchor": "País",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Espana"
+    },
+    {
+      "id": "f035",
+      "label": "Residente fiscal",
+      "path": [
+        "Página 1",
+        "3. Datos identificativos del cónyuge",
+        "Residencia fiscal"
+      ],
+      "source_anchor": "Residente fiscal",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Residente fiscal en España"
+      ],
+      "options": [
+        "Residente fiscal en España",
+        "NO residente fiscal en España"
+      ],
+      "context_evidence": "3. Datos identificativos del cónyuge / Residente fiscal: Residente fiscal en España."
+    },
+    {
+      "id": "f036",
+      "label": "Fecha de efectos residencia fiscal",
+      "path": [
+        "Página 1",
+        "3. Datos identificativos del cónyuge",
+        "Fecha de efectos, tres componentes sin rotulos independientes"
+      ],
+      "source_anchor": "Fecha de efectos residencia fiscal",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede: no cambia la residencia fiscal"
+    },
+    {
+      "id": "f037",
+      "label": "NIF de otros países/ CIF Estado residencia",
+      "path": [
+        "Página 1",
+        "3. Datos identificativos del cónyuge",
+        "Identificacion internacional / NIF de otros países/ CIF Estado residencia"
+      ],
+      "source_anchor": "NIF de otros países/ CIF Estado residencia",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f038",
+      "label": "No pasaporte",
+      "path": [
+        "Página 1",
+        "3. Datos identificativos del cónyuge",
+        "Identificacion internacional / Nº pasaporte"
+      ],
+      "source_anchor": "No pasaporte",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f039",
+      "label": "Nacionalidad",
+      "path": [
+        "Página 1",
+        "3. Datos identificativos del cónyuge",
+        "Identificacion internacional / Nacionalidad"
+      ],
+      "source_anchor": "Nacionalidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Espanola"
+    },
+    {
+      "id": "f040",
+      "label": "Sexo",
+      "path": [
+        "Página 1",
+        "3. Datos identificativos del cónyuge",
+        "Identificacion internacional / Sexo"
+      ],
+      "source_anchor": "Sexo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "M"
+    },
+    {
+      "id": "f041",
+      "label": "NIF",
+      "path": [
+        "Página 1",
+        "3. Datos identificativos del cónyuge",
+        "Identificacion nacional / 1"
+      ],
+      "source_anchor": "NIF",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NIF-SINT-CONYUGE-982"
+    },
+    {
+      "id": "f042",
+      "label": "Primer apellido",
+      "path": [
+        "Página 1",
+        "3. Datos identificativos del cónyuge",
+        "Identificacion nacional / 2"
+      ],
+      "source_anchor": "Primer apellido",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "LAGO"
+    },
+    {
+      "id": "f043",
+      "label": "Segundo apellido",
+      "path": [
+        "Página 1",
+        "3. Datos identificativos del cónyuge",
+        "Identificacion nacional / 3"
+      ],
+      "source_anchor": "Segundo apellido",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "PRUEBA"
+    },
+    {
+      "id": "f044",
+      "label": "Nombre",
+      "path": [
+        "Página 1",
+        "3. Datos identificativos del cónyuge",
+        "Identificacion nacional / 4"
+      ],
+      "source_anchor": "Nombre",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "ANA SINTETICA"
+    },
+    {
+      "id": "f045",
+      "label": "Día",
+      "path": [
+        "Página 1",
+        "3. Datos identificativos del cónyuge",
+        "Nacimiento fecha / 1"
+      ],
+      "source_anchor": "Día",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "12"
+    },
+    {
+      "id": "f046",
+      "label": "Mes",
+      "path": [
+        "Página 1",
+        "3. Datos identificativos del cónyuge",
+        "Nacimiento fecha / 2"
+      ],
+      "source_anchor": "Mes",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "06"
+    },
+    {
+      "id": "f047",
+      "label": "Año",
+      "path": [
+        "Página 1",
+        "3. Datos identificativos del cónyuge",
+        "Nacimiento fecha / 3"
+      ],
+      "source_anchor": "Año",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1987"
+    },
+    {
+      "id": "f048",
+      "label": "Municipio",
+      "path": [
+        "Página 1",
+        "3. Datos identificativos del cónyuge",
+        "Nacimiento lugar / 1"
+      ],
+      "source_anchor": "Municipio",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f049",
+      "label": "Provincia",
+      "path": [
+        "Página 1",
+        "3. Datos identificativos del cónyuge",
+        "Nacimiento lugar / 2"
+      ],
+      "source_anchor": "Provincia",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f050",
+      "label": "País",
+      "path": [
+        "Página 1",
+        "3. Datos identificativos del cónyuge",
+        "Nacimiento lugar / 3"
+      ],
+      "source_anchor": "País",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Espana"
+    },
+    {
+      "id": "f051",
+      "label": "Prefijo país",
+      "path": [
+        "Página 1",
+        "4. Datos de teléfonos y direcciones electrónicas para recibir avisos de la AEAT",
+        "Prefijo país"
+      ],
+      "source_anchor": "Prefijo país",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f052",
+      "label": "Tlfo. móvil para avisos",
+      "path": [
+        "Página 1",
+        "4. Datos de teléfonos y direcciones electrónicas para recibir avisos de la AEAT",
+        "Tlfo. móvil para avisos"
+      ],
+      "source_anchor": "Tlfo. móvil para avisos",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f053",
+      "label": "Baja",
+      "path": [
+        "Página 1",
+        "4. Datos de teléfonos y direcciones electrónicas para recibir avisos de la AEAT",
+        "Baja telefono no solicitada"
+      ],
+      "source_anchor": "Baja",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "Baja"
+      ],
+      "context_evidence": "Página 1 / 4. Datos de teléfonos y direcciones electrónicas para recibir avisos de la AEAT / Baja telefono no solicitada: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.",
+      "inactive_reason": "Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante."
+    },
+    {
+      "id": "f054",
+      "label": "Correo electrónico para avisos",
+      "path": [
+        "Página 1",
+        "4. Datos de teléfonos y direcciones electrónicas para recibir avisos de la AEAT",
+        "Correo electrónico para avisos"
+      ],
+      "source_anchor": "Correo electrónico para avisos",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f055",
+      "label": "Baja",
+      "path": [
+        "Página 1",
+        "4. Datos de teléfonos y direcciones electrónicas para recibir avisos de la AEAT",
+        "Baja correo no solicitada"
+      ],
+      "source_anchor": "Baja",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "Baja"
+      ],
+      "context_evidence": "Página 1 / 4. Datos de teléfonos y direcciones electrónicas para recibir avisos de la AEAT / Baja correo no solicitada: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.",
+      "inactive_reason": "Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante."
+    },
+    {
+      "id": "f056",
+      "label": "Tipo de vía",
+      "path": [
+        "Página 1",
+        "5. Consignación de domicilio fiscal",
+        "Domicilio paralelo de diez celdas / 1"
+      ],
+      "source_anchor": "Tipo de vía",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Calle"
+    },
+    {
+      "id": "f057",
+      "label": "Nombre de la vía pública",
+      "path": [
+        "Página 1",
+        "5. Consignación de domicilio fiscal",
+        "Domicilio paralelo de diez celdas / 2"
+      ],
+      "source_anchor": "Nombre de la vía pública",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Ejemplo"
+    },
+    {
+      "id": "f058",
+      "label": "Tipo Num.",
+      "path": [
+        "Página 1",
+        "5. Consignación de domicilio fiscal",
+        "Domicilio paralelo de diez celdas / 3"
+      ],
+      "source_anchor": "Tipo Num.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NUM"
+    },
+    {
+      "id": "f059",
+      "label": "Núm. casa",
+      "path": [
+        "Página 1",
+        "5. Consignación de domicilio fiscal",
+        "Domicilio paralelo de diez celdas / 4"
+      ],
+      "source_anchor": "Núm. casa",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "18"
+    },
+    {
+      "id": "f060",
+      "label": "Calif. nu",
+      "path": [
+        "Página 1",
+        "5. Consignación de domicilio fiscal",
+        "Domicilio paralelo de diez celdas / 5"
+      ],
+      "source_anchor": "Calif. nu",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f061",
+      "label": "Bloque",
+      "path": [
+        "Página 1",
+        "5. Consignación de domicilio fiscal",
+        "Domicilio paralelo de diez celdas / 6"
+      ],
+      "source_anchor": "Bloque",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f062",
+      "label": "Portal",
+      "path": [
+        "Página 1",
+        "5. Consignación de domicilio fiscal",
+        "Domicilio paralelo de diez celdas / 7"
+      ],
+      "source_anchor": "Portal",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f063",
+      "label": "Escal.",
+      "path": [
+        "Página 1",
+        "5. Consignación de domicilio fiscal",
+        "Domicilio paralelo de diez celdas / 8"
+      ],
+      "source_anchor": "Escal.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "A"
+    },
+    {
+      "id": "f064",
+      "label": "Planta",
+      "path": [
+        "Página 1",
+        "5. Consignación de domicilio fiscal",
+        "Domicilio paralelo de diez celdas / 9"
+      ],
+      "source_anchor": "Planta",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "f065",
+      "label": "Puerta",
+      "path": [
+        "Página 1",
+        "5. Consignación de domicilio fiscal",
+        "Domicilio paralelo de diez celdas / 10"
+      ],
+      "source_anchor": "Puerta",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "B"
+    },
+    {
+      "id": "f066",
+      "label": "Complemento domicilio",
+      "path": [
+        "Página 1",
+        "5. Consignación de domicilio fiscal",
+        "Complemento / 1"
+      ],
+      "source_anchor": "Complemento domicilio",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Edificio ficticio"
+    },
+    {
+      "id": "f067",
+      "label": "Localidad / Población",
+      "path": [
+        "Página 1",
+        "5. Consignación de domicilio fiscal",
+        "Complemento / 2"
+      ],
+      "source_anchor": "Localidad / Población",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede: coincide con municipio"
+    },
+    {
+      "id": "f068",
+      "label": "C. Postal",
+      "path": [
+        "Página 1",
+        "5. Consignación de domicilio fiscal",
+        "Localizacion / 1"
+      ],
+      "source_anchor": "C. Postal",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "46000"
+    },
+    {
+      "id": "f069",
+      "label": "Nombre del Municipio",
+      "path": [
+        "Página 1",
+        "5. Consignación de domicilio fiscal",
+        "Localizacion / 2"
+      ],
+      "source_anchor": "Nombre del Municipio",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f070",
+      "label": "Provincia",
+      "path": [
+        "Página 1",
+        "5. Consignación de domicilio fiscal",
+        "Localizacion / 3"
+      ],
+      "source_anchor": "Provincia",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f071",
+      "label": "Indicador Ref. catastral",
+      "path": [
+        "Página 1",
+        "5. Consignación de domicilio fiscal",
+        "Referencia catastral / 1"
+      ],
+      "source_anchor": "Indicador Ref. catastral",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "4 (inmueble ficticio sin referencia asignada)"
+    },
+    {
+      "id": "f072",
+      "label": "Referencia catastral",
+      "path": [
+        "Página 1",
+        "5. Consignación de domicilio fiscal",
+        "Referencia catastral / 2"
+      ],
+      "source_anchor": "Referencia catastral",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede: indicador 4"
+    },
+    {
+      "id": "f073",
+      "label": "Domicilio fiscal",
+      "path": [
+        "Página 1",
+        "6. Consignación de domicilio en el extranjero",
+        "Tipo de domicilio extranjero no aplicable"
+      ],
+      "source_anchor": "Domicilio fiscal",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "Domicilio fiscal",
+        "Otros domicilios"
+      ],
+      "context_evidence": "Página 1 / 6. Consignación de domicilio en el extranjero / Tipo de domicilio extranjero no aplicable: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.",
+      "inactive_reason": "Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante."
+    },
+    {
+      "id": "f074",
+      "label": "Domicilio (Address)",
+      "path": [
+        "Página 1",
+        "6. Consignación de domicilio en el extranjero",
+        "Domicilio (Address)"
+      ],
+      "source_anchor": "Domicilio (Address)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f075",
+      "label": "Complemento domicilio (si fuese necesario)",
+      "path": [
+        "Página 1",
+        "6. Consignación de domicilio en el extranjero",
+        "Extranjero complemento / 1"
+      ],
+      "source_anchor": "Complemento domicilio (si fuese necesario)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f076",
+      "label": "Población / Ciudad",
+      "path": [
+        "Página 1",
+        "6. Consignación de domicilio en el extranjero",
+        "Extranjero complemento / 2"
+      ],
+      "source_anchor": "Población / Ciudad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f077",
+      "label": "C. Postal (ZIP)",
+      "path": [
+        "Página 1",
+        "6. Consignación de domicilio en el extranjero",
+        "Extranjero localizacion / 1"
+      ],
+      "source_anchor": "C. Postal (ZIP)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f078",
+      "label": "Provincia / Región / Estado",
+      "path": [
+        "Página 1",
+        "6. Consignación de domicilio en el extranjero",
+        "Extranjero localizacion / 2"
+      ],
+      "source_anchor": "Provincia / Región / Estado",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f079",
+      "label": "País",
+      "path": [
+        "Página 1",
+        "6. Consignación de domicilio en el extranjero",
+        "Extranjero localizacion / 3"
+      ],
+      "source_anchor": "País",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f080",
+      "label": "Cod. País",
+      "path": [
+        "Página 1",
+        "6. Consignación de domicilio en el extranjero",
+        "Extranjero localizacion / 4"
+      ],
+      "source_anchor": "Cod. País",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f081",
+      "label": "Baja",
+      "path": [
+        "Página 2",
+        "7. Consignación del domicilio a efectos de notificaciones",
+        "No se comunica baja de notificaciones"
+      ],
+      "source_anchor": "Baja",
+      "source_page": 2,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "Baja"
+      ],
+      "context_evidence": "Página 2 / 7. Consignación del domicilio a efectos de notificaciones / No se comunica baja de notificaciones: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.",
+      "inactive_reason": "Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante."
+    },
+    {
+      "id": "f082",
+      "label": "Tipo de vía",
+      "path": [
+        "Página 2",
+        "7. Consignación del domicilio a efectos de notificaciones",
+        "Domicilio paralelo de diez celdas / 1"
+      ],
+      "source_anchor": "Tipo de vía",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f083",
+      "label": "Nombre de la vía pública",
+      "path": [
+        "Página 2",
+        "7. Consignación del domicilio a efectos de notificaciones",
+        "Domicilio paralelo de diez celdas / 2"
+      ],
+      "source_anchor": "Nombre de la vía pública",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f084",
+      "label": "Tipo Num.",
+      "path": [
+        "Página 2",
+        "7. Consignación del domicilio a efectos de notificaciones",
+        "Domicilio paralelo de diez celdas / 3"
+      ],
+      "source_anchor": "Tipo Num.",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f085",
+      "label": "Núm. casa",
+      "path": [
+        "Página 2",
+        "7. Consignación del domicilio a efectos de notificaciones",
+        "Domicilio paralelo de diez celdas / 4"
+      ],
+      "source_anchor": "Núm. casa",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f086",
+      "label": "Calif. nu",
+      "path": [
+        "Página 2",
+        "7. Consignación del domicilio a efectos de notificaciones",
+        "Domicilio paralelo de diez celdas / 5"
+      ],
+      "source_anchor": "Calif. nu",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f087",
+      "label": "Bloque",
+      "path": [
+        "Página 2",
+        "7. Consignación del domicilio a efectos de notificaciones",
+        "Domicilio paralelo de diez celdas / 6"
+      ],
+      "source_anchor": "Bloque",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f088",
+      "label": "Portal",
+      "path": [
+        "Página 2",
+        "7. Consignación del domicilio a efectos de notificaciones",
+        "Domicilio paralelo de diez celdas / 7"
+      ],
+      "source_anchor": "Portal",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f089",
+      "label": "Escal.",
+      "path": [
+        "Página 2",
+        "7. Consignación del domicilio a efectos de notificaciones",
+        "Domicilio paralelo de diez celdas / 8"
+      ],
+      "source_anchor": "Escal.",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f090",
+      "label": "Planta",
+      "path": [
+        "Página 2",
+        "7. Consignación del domicilio a efectos de notificaciones",
+        "Domicilio paralelo de diez celdas / 9"
+      ],
+      "source_anchor": "Planta",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f091",
+      "label": "Puerta",
+      "path": [
+        "Página 2",
+        "7. Consignación del domicilio a efectos de notificaciones",
+        "Domicilio paralelo de diez celdas / 10"
+      ],
+      "source_anchor": "Puerta",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f092",
+      "label": "Complemento domicilio",
+      "path": [
+        "Página 2",
+        "7. Consignación del domicilio a efectos de notificaciones",
+        "Complemento / 1"
+      ],
+      "source_anchor": "Complemento domicilio",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f093",
+      "label": "Localidad / Población",
+      "path": [
+        "Página 2",
+        "7. Consignación del domicilio a efectos de notificaciones",
+        "Complemento / 2"
+      ],
+      "source_anchor": "Localidad / Población",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f094",
+      "label": "C. Postal",
+      "path": [
+        "Página 2",
+        "7. Consignación del domicilio a efectos de notificaciones",
+        "Localizacion / 1"
+      ],
+      "source_anchor": "C. Postal",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f095",
+      "label": "Nombre del Municipio",
+      "path": [
+        "Página 2",
+        "7. Consignación del domicilio a efectos de notificaciones",
+        "Localizacion / 2"
+      ],
+      "source_anchor": "Nombre del Municipio",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f096",
+      "label": "Provincia",
+      "path": [
+        "Página 2",
+        "7. Consignación del domicilio a efectos de notificaciones",
+        "Localizacion / 3"
+      ],
+      "source_anchor": "Provincia",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f097",
+      "label": "Destinatario (si es distinto del declarante)",
+      "path": [
+        "Página 2",
+        "7. Consignación del domicilio a efectos de notificaciones",
+        "Destinatario domicilio normalizado / 1"
+      ],
+      "source_anchor": "Destinatario (si es distinto del declarante)",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f098",
+      "label": "En calidad de: (representante, apoderado, familiar, etc...)",
+      "path": [
+        "Página 2",
+        "7. Consignación del domicilio a efectos de notificaciones",
+        "Destinatario domicilio normalizado / 2"
+      ],
+      "source_anchor": "En calidad de: (representante, apoderado, familiar, etc...)",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f099",
+      "label": "APARTADO DE CORREOS NÚMERO:",
+      "path": [
+        "Página 2",
+        "7. Consignación del domicilio a efectos de notificaciones",
+        "Apartado alternativo / 1"
+      ],
+      "source_anchor": "APARTADO DE CORREOS NÚMERO:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f100",
+      "label": "Población / Ciudad",
+      "path": [
+        "Página 2",
+        "7. Consignación del domicilio a efectos de notificaciones",
+        "Apartado alternativo / 2"
+      ],
+      "source_anchor": "Población / Ciudad",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f101",
+      "label": "C. Postal",
+      "path": [
+        "Página 2",
+        "7. Consignación del domicilio a efectos de notificaciones",
+        "Apartado localizacion / 1"
+      ],
+      "source_anchor": "C. Postal",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f102",
+      "label": "Provincia",
+      "path": [
+        "Página 2",
+        "7. Consignación del domicilio a efectos de notificaciones",
+        "Apartado localizacion / 2"
+      ],
+      "source_anchor": "Provincia",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f103",
+      "label": "Destinatario (si es distinto del declarante)",
+      "path": [
+        "Página 2",
+        "7. Consignación del domicilio a efectos de notificaciones",
+        "Destinatario apartado / 1"
+      ],
+      "source_anchor": "Destinatario (si es distinto del declarante)",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f104",
+      "label": "En calidad de: (representante, apoderado, familiar, etc...)",
+      "path": [
+        "Página 2",
+        "7. Consignación del domicilio a efectos de notificaciones",
+        "Destinatario apartado / 2"
+      ],
+      "source_anchor": "En calidad de: (representante, apoderado, familiar, etc...)",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f105",
+      "label": "NIF",
+      "path": [
+        "Página 2",
+        "Representante",
+        "Representante identificacion / 1"
+      ],
+      "source_anchor": "NIF",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f106",
+      "label": "Apellidos y nombre o razón social",
+      "path": [
+        "Página 2",
+        "Representante",
+        "Representante identificacion / 2"
+      ],
+      "source_anchor": "Apellidos y nombre o razón social",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f107",
+      "label": "Residente",
+      "path": [
+        "Página 2",
+        "Representante",
+        "Residencia representante no nombrado"
+      ],
+      "source_anchor": "Residente",
+      "source_page": 2,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "SÍ",
+        "NO"
+      ],
+      "context_evidence": "Página 2 / Representante / Residencia representante no nombrado: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.",
+      "inactive_reason": "Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante."
+    },
+    {
+      "id": "f108",
+      "label": "Causa de la representación",
+      "path": [
+        "Página 2",
+        "Causa de la representación",
+        "Causa de la representación"
+      ],
+      "source_anchor": "Causa de la representación",
+      "source_page": 2,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "Legal",
+        "Voluntaria"
+      ],
+      "context_evidence": "Página 2 / Causa de la representación / Causa de la representación: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.",
+      "inactive_reason": "Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante."
+    },
+    {
+      "id": "f109",
+      "label": "Clave",
+      "path": [
+        "Página 2",
+        "Causa de la representación",
+        "Causa legal, clave 705"
+      ],
+      "source_anchor": "Clave",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f110",
+      "label": "Clave",
+      "path": [
+        "Página 2",
+        "Causa de la representación",
+        "Tipo de representacion / Clave 707"
+      ],
+      "source_anchor": "Clave",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f111",
+      "label": "Clave",
+      "path": [
+        "Página 2",
+        "Causa de la representación",
+        "Titulo de representacion / Clave 708"
+      ],
+      "source_anchor": "Clave",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f112",
+      "label": "Estado civil actual:",
+      "path": [
+        "Página 2",
+        "Estado civil",
+        "Estado civil actual:"
+      ],
+      "source_anchor": "Estado civil actual:",
+      "source_page": 2,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Casado/a"
+      ],
+      "options": [
+        "Soltero/a",
+        "Casado/a",
+        "Viudo/a",
+        "Divorciado/a o separado/a legalmente"
+      ],
+      "context_evidence": "Estado civil / Estado civil actual:: Casado/a."
+    },
+    {
+      "id": "f113",
+      "label": "Fecha de adquisición del estado civil actual:",
+      "path": [
+        "Página 2",
+        "Estado civil",
+        "Fecha de adquisición del estado civil actual:"
+      ],
+      "source_anchor": "Fecha de adquisición del estado civil actual:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No procede: no se comunica cambio de estado civil"
+    },
+    {
+      "id": "f114",
+      "label": "En",
+      "path": [
+        "Página 2",
+        "10. Fecha y firma de la declaración",
+        "Ejecucion lugar dia mes ano / 1"
+      ],
+      "source_anchor": "En",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f115",
+      "label": "a",
+      "path": [
+        "Página 2",
+        "10. Fecha y firma de la declaración",
+        "Ejecucion lugar dia mes ano / 2"
+      ],
+      "source_anchor": "a",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "26"
+    },
+    {
+      "id": "f116",
+      "label": "de",
+      "path": [
+        "Página 2",
+        "10. Fecha y firma de la declaración",
+        "Ejecucion lugar dia mes ano / 3"
+      ],
+      "source_anchor": "de",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "octubre"
+    },
+    {
+      "id": "f117",
+      "label": "de",
+      "path": [
+        "Página 2",
+        "10. Fecha y firma de la declaración",
+        "Ejecucion lugar dia mes ano / 4"
+      ],
+      "source_anchor": "de",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "2026"
+    },
+    {
+      "id": "f118",
+      "label": "Firma del interesado",
+      "path": [
+        "Página 2",
+        "10. Fecha y firma de la declaración",
+        "Dos regiones impresas de firma / 1"
+      ],
+      "source_anchor": "Firma del interesado",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Firma ficticia LUIS SOLER EJEMPLO SINTETICO"
+    },
+    {
+      "id": "f119",
+      "label": "Firma del cónyuge",
+      "path": [
+        "Página 2",
+        "10. Fecha y firma de la declaración",
+        "Dos regiones impresas de firma / 2"
+      ],
+      "source_anchor": "Firma del cónyuge",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Firma ficticia ANA LAGO PRUEBA SINTETICA"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Modelo",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "030",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Declaración censal de alta en el Censo de obligados tributarios, cambio de domicilio y/o de variación de datos personales.",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Datos identificativos",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "NIF",
+        "field": "f001",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "Apellidos",
+        "field": "f002",
+        "colspan": 18,
+        "source_page": 1
+      },
+      {
+        "label": "Nombre",
+        "field": "f003",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "1. Causas de presentación",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "(Marque con una \"X\" la casilla o casillas que correspondan al motivo por el que se presenta esta declaración).",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Alta en el censo de obligados tributarios",
+        "source_page": 1,
+        "colspan": 20,
+        "heading": false
+      },
+      {
+        "label": "",
+        "field": "f004",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f005",
+        "colspan": 10,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Modificaciones/cambio de domicilio fiscal",
+        "source_page": 1,
+        "colspan": 20,
+        "heading": false
+      },
+      {
+        "label": "",
+        "field": "f006",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f007",
+        "colspan": 10,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Consignación/modificación/baja de domicilio notificaciones",
+        "source_page": 1,
+        "colspan": 20,
+        "heading": false
+      },
+      {
+        "label": "",
+        "field": "f008",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f009",
+        "colspan": 10,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Modificación de datos identificativos",
+        "source_page": 1,
+        "colspan": 20,
+        "heading": false
+      },
+      {
+        "label": "",
+        "field": "f010",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f011",
+        "colspan": 10,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Solicitud de NIF por persona física que no disponga de DNI/NIE",
+        "source_page": 1,
+        "colspan": 20,
+        "heading": false
+      },
+      {
+        "label": "",
+        "field": "f012",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f013",
+        "colspan": 10,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Cambio/modificación de estado civil",
+        "source_page": 1,
+        "colspan": 20,
+        "heading": false
+      },
+      {
+        "label": "",
+        "field": "f014",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f015",
+        "colspan": 10,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Solicitud de nueva tarjeta acreditativa del NIF",
+        "source_page": 1,
+        "colspan": 20,
+        "heading": false
+      },
+      {
+        "label": "",
+        "field": "f016",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "",
+        "field": "f017",
+        "colspan": 10,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Alta/modificación/baja de datos de teléfonos y direcciones electrónicas para recibir avisos de la AEAT",
+        "source_page": 1,
+        "colspan": 20,
+        "heading": false
+      },
+      {
+        "label": "",
+        "field": "f018",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "text": "",
+        "source_page": 1,
+        "colspan": 10
+      }
+    ],
+    [
+      {
+        "text": "Marque las casillas de la causa de presentación correspondientes al interesado y al cónyuge sólo cuando ambos cónyuges comuniquen el cambio del domicilio fiscal o del domicilio de notificaciones y los citados domicilios sean los mismos para ambos, o cuando soliciten simultáneamente el alta, el NIF o la modificación de sus datos identificativos en este modelo. En dichos supuestos el modelo deberá ser firmado por ambos cónyuges.",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "2. Datos identificativos del interesado",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Residente fiscal",
+        "field": "f019",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Fecha de efectos residencia fiscal",
+        "field": "f020",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "NIF de otros países/ CIF Estado residencia",
+        "field": "f021",
+        "colspan": 8,
+        "source_page": 1
+      },
+      {
+        "label": "No pasaporte",
+        "field": "f022",
+        "colspan": 8,
+        "source_page": 1
+      },
+      {
+        "label": "Nacionalidad",
+        "field": "f023",
+        "colspan": 8,
+        "source_page": 1
+      },
+      {
+        "label": "Sexo",
+        "field": "f024",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NIF",
+        "field": "f025",
+        "colspan": 8,
+        "source_page": 1
+      },
+      {
+        "label": "Primer apellido",
+        "field": "f026",
+        "colspan": 11,
+        "source_page": 1
+      },
+      {
+        "label": "Segundo apellido",
+        "field": "f027",
+        "colspan": 11,
+        "source_page": 1
+      },
+      {
+        "label": "Nombre",
+        "field": "f028",
+        "colspan": 10,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Fecha de nacimiento",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      },
+      {
+        "text": "Lugar de nacimiento",
+        "source_page": 1,
+        "colspan": 28,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Día",
+        "field": "f029",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "Mes",
+        "field": "f030",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "Año",
+        "field": "f031",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "Municipio",
+        "field": "f032",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "Provincia",
+        "field": "f033",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "País",
+        "field": "f034",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "3. Datos identificativos del cónyuge",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Residente fiscal",
+        "field": "f035",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Fecha de efectos residencia fiscal",
+        "field": "f036",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "NIF de otros países/ CIF Estado residencia",
+        "field": "f037",
+        "colspan": 8,
+        "source_page": 1
+      },
+      {
+        "label": "No pasaporte",
+        "field": "f038",
+        "colspan": 8,
+        "source_page": 1
+      },
+      {
+        "label": "Nacionalidad",
+        "field": "f039",
+        "colspan": 8,
+        "source_page": 1
+      },
+      {
+        "label": "Sexo",
+        "field": "f040",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NIF",
+        "field": "f041",
+        "colspan": 8,
+        "source_page": 1
+      },
+      {
+        "label": "Primer apellido",
+        "field": "f042",
+        "colspan": 11,
+        "source_page": 1
+      },
+      {
+        "label": "Segundo apellido",
+        "field": "f043",
+        "colspan": 11,
+        "source_page": 1
+      },
+      {
+        "label": "Nombre",
+        "field": "f044",
+        "colspan": 10,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Fecha de nacimiento",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      },
+      {
+        "text": "Lugar de nacimiento",
+        "source_page": 1,
+        "colspan": 28,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Día",
+        "field": "f045",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "Mes",
+        "field": "f046",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "Año",
+        "field": "f047",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "Municipio",
+        "field": "f048",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "Provincia",
+        "field": "f049",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "País",
+        "field": "f050",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "4. Datos de teléfonos y direcciones electrónicas para recibir avisos de la AEAT",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Prefijo país",
+        "field": "f051",
+        "colspan": 8,
+        "source_page": 1
+      },
+      {
+        "label": "Tlfo. móvil para avisos",
+        "field": "f052",
+        "colspan": 24,
+        "source_page": 1
+      },
+      {
+        "label": "Baja",
+        "field": "f053",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Correo electrónico para avisos",
+        "field": "f054",
+        "colspan": 30,
+        "source_page": 1
+      },
+      {
+        "label": "Baja",
+        "field": "f055",
+        "colspan": 10,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "IMPORTANTE: Al consignar el número de teléfono y/o la dirección de correo electrónico se autoriza a su uso por la AEAT para realizar avisos informativos.",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "5. Consignación de domicilio fiscal",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Domicilio fiscal en España",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Tipo de vía",
+        "field": "f056",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "Nombre de la vía pública",
+        "field": "f057",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "Tipo Num.",
+        "field": "f058",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "Núm. casa",
+        "field": "f059",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "Calif. nu",
+        "field": "f060",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "Bloque",
+        "field": "f061",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "Portal",
+        "field": "f062",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "Escal.",
+        "field": "f063",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "Planta",
+        "field": "f064",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "Puerta",
+        "field": "f065",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Complemento domicilio",
+        "field": "f066",
+        "colspan": 20,
+        "source_page": 1
+      },
+      {
+        "label": "Localidad / Población",
+        "field": "f067",
+        "colspan": 20,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "C. Postal",
+        "field": "f068",
+        "colspan": 8,
+        "source_page": 1
+      },
+      {
+        "label": "Nombre del Municipio",
+        "field": "f069",
+        "colspan": 18,
+        "source_page": 1
+      },
+      {
+        "label": "Provincia",
+        "field": "f070",
+        "colspan": 14,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Indicador Ref. catastral",
+        "field": "f071",
+        "colspan": 12,
+        "source_page": 1
+      },
+      {
+        "label": "Referencia catastral",
+        "field": "f072",
+        "colspan": 28,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "6. Consignación de domicilio en el extranjero",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Domicilio fiscal",
+        "field": "f073",
+        "colspan": 40,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Domicilio (Address)",
+        "field": "f074",
+        "colspan": 40,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Complemento domicilio (si fuese necesario)",
+        "field": "f075",
+        "colspan": 20,
+        "source_page": 1
+      },
+      {
+        "label": "Población / Ciudad",
+        "field": "f076",
+        "colspan": 20,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "C. Postal (ZIP)",
+        "field": "f077",
+        "colspan": 8,
+        "source_page": 1
+      },
+      {
+        "label": "Provincia / Región / Estado",
+        "field": "f078",
+        "colspan": 14,
+        "source_page": 1
+      },
+      {
+        "label": "País",
+        "field": "f079",
+        "colspan": 12,
+        "source_page": 1
+      },
+      {
+        "label": "Cod. País",
+        "field": "f080",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Ejemplar para la Administración",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Ver. 1.0/2021",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "7. Consignación del domicilio a efectos de notificaciones",
+        "source_page": 2,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Domicilio a efectos de notificaciones (si es distinto del fiscal, cumplimente el apartado 1 ó el 2 según estime oportuno)",
+        "source_page": 2,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Baja",
+        "field": "f081",
+        "colspan": 40,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "1)",
+        "source_page": 2,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Tipo de vía",
+        "field": "f082",
+        "colspan": 4,
+        "source_page": 2
+      },
+      {
+        "label": "Nombre de la vía pública",
+        "field": "f083",
+        "colspan": 4,
+        "source_page": 2
+      },
+      {
+        "label": "Tipo Num.",
+        "field": "f084",
+        "colspan": 4,
+        "source_page": 2
+      },
+      {
+        "label": "Núm. casa",
+        "field": "f085",
+        "colspan": 4,
+        "source_page": 2
+      },
+      {
+        "label": "Calif. nu",
+        "field": "f086",
+        "colspan": 4,
+        "source_page": 2
+      },
+      {
+        "label": "Bloque",
+        "field": "f087",
+        "colspan": 4,
+        "source_page": 2
+      },
+      {
+        "label": "Portal",
+        "field": "f088",
+        "colspan": 4,
+        "source_page": 2
+      },
+      {
+        "label": "Escal.",
+        "field": "f089",
+        "colspan": 4,
+        "source_page": 2
+      },
+      {
+        "label": "Planta",
+        "field": "f090",
+        "colspan": 4,
+        "source_page": 2
+      },
+      {
+        "label": "Puerta",
+        "field": "f091",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Complemento domicilio",
+        "field": "f092",
+        "colspan": 20,
+        "source_page": 2
+      },
+      {
+        "label": "Localidad / Población",
+        "field": "f093",
+        "colspan": 20,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "C. Postal",
+        "field": "f094",
+        "colspan": 8,
+        "source_page": 2
+      },
+      {
+        "label": "Nombre del Municipio",
+        "field": "f095",
+        "colspan": 18,
+        "source_page": 2
+      },
+      {
+        "label": "Provincia",
+        "field": "f096",
+        "colspan": 14,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Destinatario (si es distinto del declarante)",
+        "field": "f097",
+        "colspan": 25,
+        "source_page": 2
+      },
+      {
+        "label": "En calidad de: (representante, apoderado, familiar, etc...)",
+        "field": "f098",
+        "colspan": 15,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "2)",
+        "source_page": 2,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "APARTADO DE CORREOS NÚMERO:",
+        "field": "f099",
+        "colspan": 20,
+        "source_page": 2
+      },
+      {
+        "label": "Población / Ciudad",
+        "field": "f100",
+        "colspan": 20,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "C. Postal",
+        "field": "f101",
+        "colspan": 12,
+        "source_page": 2
+      },
+      {
+        "label": "Provincia",
+        "field": "f102",
+        "colspan": 28,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Destinatario (si es distinto del declarante)",
+        "field": "f103",
+        "colspan": 25,
+        "source_page": 2
+      },
+      {
+        "label": "En calidad de: (representante, apoderado, familiar, etc...)",
+        "field": "f104",
+        "colspan": 15,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Representante",
+        "source_page": 2,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Identificación del representante",
+        "source_page": 2,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "NIF",
+        "field": "f105",
+        "colspan": 12,
+        "source_page": 2
+      },
+      {
+        "label": "Apellidos y nombre o razón social",
+        "field": "f106",
+        "colspan": 28,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Residente",
+        "field": "f107",
+        "colspan": 40,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Causa de la representación",
+        "source_page": 2,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Causa de la representación",
+        "field": "f108",
+        "colspan": 20,
+        "source_page": 2
+      },
+      {
+        "label": "Clave",
+        "field": "f109",
+        "colspan": 20,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Tipo de representación",
+        "source_page": 2,
+        "colspan": 20,
+        "heading": false
+      },
+      {
+        "text": "Título de la representación",
+        "source_page": 2,
+        "colspan": 20,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Clave",
+        "field": "f110",
+        "colspan": 20,
+        "source_page": 2
+      },
+      {
+        "label": "Clave",
+        "field": "f111",
+        "colspan": 20,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Estado civil",
+        "source_page": 2,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Estado civil actual:",
+        "field": "f112",
+        "colspan": 28,
+        "source_page": 2
+      },
+      {
+        "label": "Fecha de adquisición del estado civil actual:",
+        "field": "f113",
+        "colspan": 12,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "(si se comunica cambio de estado civil)",
+        "source_page": 2,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "10. Fecha y firma de la declaración",
+        "source_page": 2,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Manifiesto/manifestamos que son ciertos los datos consignados en la presente declaración.",
+        "source_page": 2,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "En",
+        "field": "f114",
+        "colspan": 10,
+        "source_page": 2
+      },
+      {
+        "label": "a",
+        "field": "f115",
+        "colspan": 3,
+        "source_page": 2
+      },
+      {
+        "label": "de",
+        "field": "f116",
+        "colspan": 6,
+        "source_page": 2
+      },
+      {
+        "label": "de",
+        "field": "f117",
+        "colspan": 5,
+        "source_page": 2
+      },
+      {
+        "label": "Firma del interesado",
+        "field": "f118",
+        "colspan": 8,
+        "source_page": 2
+      },
+      {
+        "label": "Firma del cónyuge",
+        "field": "f119",
+        "colspan": 8,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "(obligatoria si se modifica algún dato común o específico del cónyuge)",
+        "source_page": 2,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Ejemplar para la Administración",
+        "source_page": 2,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Ver. 1.0/2021",
+        "source_page": 2,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Ejemplar para el interesado",
+        "source_page": 3,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Ver. 1.0/2021",
+        "source_page": 3,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Ejemplar para el interesado",
+        "source_page": 4,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Ver. 1.0/2021",
+        "source_page": 4,
+        "colspan": 40,
+        "heading": false
+      }
+    ]
+  ],
+  "source_notice": "The complete independent entry unit is retained in source order, including horizontal groups, repeated material rows and all genuine options. One physical printed answer region is one logical target. Administrative duplicate copies do not multiply inputs. Source and retrieval dates remain separate; no current filing-validity claim.",
+  "context": "CASO ENTERAMENTE FICTICIO. Personas, organismos de ejemplo, identificadores, códigos, importes y firmas son datos sintéticos para esta transcripción; no acreditan un expediente ni una actuación administrativa real.\nCaso enteramente ficticio para investigacion, sin presentacion ni validacion administrativa. Documentos, codigos, cuentas, referencias, nombres y firmas son datos sinteticos. Los codigos de forma numerica solo ilustran las casillas, no acreditan un registro o clasificacion vigente. Dos personas fisicas casadas, sin actividad empresarial/profesional ni rendimientos sujetos a retencion, comunican solo el mismo nuevo domicilio fiscal en Espana (casillas 103/104); cambio el 20/10/2026, declaracion 26/10/2026. Residencia fiscal espanola de ambos sin cambio, por lo que fechas de efectos 217/317 no proceden. No se solicitan altas, NIF, tarjeta, cambios personales, estado civil, avisos ni domicilios de notificaciones. Domicilio fiscal Calle Ejemplo18, escalera A, piso2, puertaB,46000Valencia; inmueble ficticio sin referencia asignada, indicador4, referencia430 no obligatoria. No hay domicilio extranjero, ni representante, ni domicilio de notificaciones separado: las ramas normalizada y apartado de correos, mutuamente incompatibles, quedan ambas sin uso. Estado civil casado sin modificacion:805 no procede. Ambos conyuges firman por la causa conjunta. Se han leido las instrucciones oficiales completas: no se incorporan sus tablas de codigos o desplegables web como falsas opciones impresas del PDF. Cabeceras repetidas, codigo de barras/N justificante generado, controles de impresion/navegacion, campos internos o fuera de pagina y el segundo ejemplar no multiplican respuestas.\nPágina 1 / Datos identificativos / Titular cabecera / 1: NIF-SINT-982\nPágina 1 / Datos identificativos / Titular cabecera / 2: SOLER EJEMPLO\nPágina 1 / Datos identificativos / Titular cabecera / 3: LUIS SINTETICO\nPágina 1 / 1. Causas de presentación / Alta en el censo de obligados tributarios / Interesado: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.\nPágina 1 / 1. Causas de presentación / Alta en el censo de obligados tributarios / Conyuge: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.\n1. Causas de presentación / Modificaciones/cambio de domicilio fiscal: Interesado.\n1. Causas de presentación / Modificaciones/cambio de domicilio fiscal: Cónyuge.\nPágina 1 / 1. Causas de presentación / Consignación/modificación/baja de domicilio notificaciones / Interesado: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.\nPágina 1 / 1. Causas de presentación / Consignación/modificación/baja de domicilio notificaciones / Conyuge: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.\nPágina 1 / 1. Causas de presentación / Modificación de datos identificativos / Interesado: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.\nPágina 1 / 1. Causas de presentación / Modificación de datos identificativos / Conyuge: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.\nPágina 1 / 1. Causas de presentación / Solicitud de NIF por persona física que no disponga de DNI/NIE / Interesado: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.\nPágina 1 / 1. Causas de presentación / Solicitud de NIF por persona física que no disponga de DNI/NIE / Conyuge: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.\nPágina 1 / 1. Causas de presentación / Cambio/modificación de estado civil / Interesado: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.\nPágina 1 / 1. Causas de presentación / Cambio/modificación de estado civil / Conyuge: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.\nPágina 1 / 1. Causas de presentación / Solicitud de nueva tarjeta acreditativa del NIF / Interesado: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.\nPágina 1 / 1. Causas de presentación / Solicitud de nueva tarjeta acreditativa del NIF / Conyuge: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.\nPágina 1 / 1. Causas de presentación / Alta/modificación/baja de datos de teléfonos y direcciones electrónicas para recibir avisos de la AEAT / Interesado: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.\n2. Datos identificativos del interesado / Residente fiscal: Residente fiscal en España.\nPágina 1 / 2. Datos identificativos del interesado / Fecha de efectos, tres componentes sin rotulos independientes: No procede: no cambia la residencia fiscal\nPágina 1 / 2. Datos identificativos del interesado / Identificacion internacional / NIF de otros países/ CIF Estado residencia: No procede en este supuesto ficticio\nPágina 1 / 2. Datos identificativos del interesado / Identificacion internacional / Nº pasaporte: No procede en este supuesto ficticio\nPágina 1 / 2. Datos identificativos del interesado / Identificacion internacional / Nacionalidad: Espanola\nPágina 1 / 2. Datos identificativos del interesado / Identificacion internacional / Sexo: V\nPágina 1 / 2. Datos identificativos del interesado / Identificacion nacional / 1: NIF-SINT-982\nPágina 1 / 2. Datos identificativos del interesado / Identificacion nacional / 2: SOLER\nPágina 1 / 2. Datos identificativos del interesado / Identificacion nacional / 3: EJEMPLO\nPágina 1 / 2. Datos identificativos del interesado / Identificacion nacional / 4: LUIS SINTETICO\nPágina 1 / 2. Datos identificativos del interesado / Nacimiento fecha / 1: 04\nPágina 1 / 2. Datos identificativos del interesado / Nacimiento fecha / 2: 05\nPágina 1 / 2. Datos identificativos del interesado / Nacimiento fecha / 3: 1985\nPágina 1 / 2. Datos identificativos del interesado / Nacimiento lugar / 1: Valencia\nPágina 1 / 2. Datos identificativos del interesado / Nacimiento lugar / 2: Valencia\nPágina 1 / 2. Datos identificativos del interesado / Nacimiento lugar / 3: Espana\n3. Datos identificativos del cónyuge / Residente fiscal: Residente fiscal en España.\nPágina 1 / 3. Datos identificativos del cónyuge / Fecha de efectos, tres componentes sin rotulos independientes: No procede: no cambia la residencia fiscal\nPágina 1 / 3. Datos identificativos del cónyuge / Identificacion internacional / NIF de otros países/ CIF Estado residencia: No procede en este supuesto ficticio\nPágina 1 / 3. Datos identificativos del cónyuge / Identificacion internacional / Nº pasaporte: No procede en este supuesto ficticio\nPágina 1 / 3. Datos identificativos del cónyuge / Identificacion internacional / Nacionalidad: Espanola\nPágina 1 / 3. Datos identificativos del cónyuge / Identificacion internacional / Sexo: M\nPágina 1 / 3. Datos identificativos del cónyuge / Identificacion nacional / 1: NIF-SINT-CONYUGE-982\nPágina 1 / 3. Datos identificativos del cónyuge / Identificacion nacional / 2: LAGO\nPágina 1 / 3. Datos identificativos del cónyuge / Identificacion nacional / 3: PRUEBA\nPágina 1 / 3. Datos identificativos del cónyuge / Identificacion nacional / 4: ANA SINTETICA\nPágina 1 / 3. Datos identificativos del cónyuge / Nacimiento fecha / 1: 12\nPágina 1 / 3. Datos identificativos del cónyuge / Nacimiento fecha / 2: 06\nPágina 1 / 3. Datos identificativos del cónyuge / Nacimiento fecha / 3: 1987\nPágina 1 / 3. Datos identificativos del cónyuge / Nacimiento lugar / 1: Valencia\nPágina 1 / 3. Datos identificativos del cónyuge / Nacimiento lugar / 2: Valencia\nPágina 1 / 3. Datos identificativos del cónyuge / Nacimiento lugar / 3: Espana\nPágina 1 / 4. Datos de teléfonos y direcciones electrónicas para recibir avisos de la AEAT / Prefijo país: No procede en este supuesto ficticio\nPágina 1 / 4. Datos de teléfonos y direcciones electrónicas para recibir avisos de la AEAT / Tlfo. móvil para avisos: No procede en este supuesto ficticio\nPágina 1 / 4. Datos de teléfonos y direcciones electrónicas para recibir avisos de la AEAT / Baja telefono no solicitada: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.\nPágina 1 / 4. Datos de teléfonos y direcciones electrónicas para recibir avisos de la AEAT / Correo electrónico para avisos: No procede en este supuesto ficticio\nPágina 1 / 4. Datos de teléfonos y direcciones electrónicas para recibir avisos de la AEAT / Baja correo no solicitada: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.\nPágina 1 / 5. Consignación de domicilio fiscal / Domicilio paralelo de diez celdas / 1: Calle\nPágina 1 / 5. Consignación de domicilio fiscal / Domicilio paralelo de diez celdas / 2: Ejemplo\nPágina 1 / 5. Consignación de domicilio fiscal / Domicilio paralelo de diez celdas / 3: NUM\nPágina 1 / 5. Consignación de domicilio fiscal / Domicilio paralelo de diez celdas / 4: 18\nPágina 1 / 5. Consignación de domicilio fiscal / Domicilio paralelo de diez celdas / 5: No procede en este supuesto ficticio\nPágina 1 / 5. Consignación de domicilio fiscal / Domicilio paralelo de diez celdas / 6: No procede en este supuesto ficticio\nPágina 1 / 5. Consignación de domicilio fiscal / Domicilio paralelo de diez celdas / 7: No procede en este supuesto ficticio\nPágina 1 / 5. Consignación de domicilio fiscal / Domicilio paralelo de diez celdas / 8: A\nPágina 1 / 5. Consignación de domicilio fiscal / Domicilio paralelo de diez celdas / 9: 2\nPágina 1 / 5. Consignación de domicilio fiscal / Domicilio paralelo de diez celdas / 10: B\nPágina 1 / 5. Consignación de domicilio fiscal / Complemento / 1: Edificio ficticio\nPágina 1 / 5. Consignación de domicilio fiscal / Complemento / 2: No procede: coincide con municipio\nPágina 1 / 5. Consignación de domicilio fiscal / Localizacion / 1: 46000\nPágina 1 / 5. Consignación de domicilio fiscal / Localizacion / 2: Valencia\nPágina 1 / 5. Consignación de domicilio fiscal / Localizacion / 3: Valencia\nPágina 1 / 5. Consignación de domicilio fiscal / Referencia catastral / 1: 4 (inmueble ficticio sin referencia asignada)\nPágina 1 / 5. Consignación de domicilio fiscal / Referencia catastral / 2: No procede: indicador 4\nPágina 1 / 6. Consignación de domicilio en el extranjero / Tipo de domicilio extranjero no aplicable: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.\nPágina 1 / 6. Consignación de domicilio en el extranjero / Domicilio (Address): No procede en este supuesto ficticio\nPágina 1 / 6. Consignación de domicilio en el extranjero / Extranjero complemento / 1: No procede en este supuesto ficticio\nPágina 1 / 6. Consignación de domicilio en el extranjero / Extranjero complemento / 2: No procede en este supuesto ficticio\nPágina 1 / 6. Consignación de domicilio en el extranjero / Extranjero localizacion / 1: No procede en este supuesto ficticio\nPágina 1 / 6. Consignación de domicilio en el extranjero / Extranjero localizacion / 2: No procede en este supuesto ficticio\nPágina 1 / 6. Consignación de domicilio en el extranjero / Extranjero localizacion / 3: No procede en este supuesto ficticio\nPágina 1 / 6. Consignación de domicilio en el extranjero / Extranjero localizacion / 4: No procede en este supuesto ficticio\nPágina 2 / 7. Consignación del domicilio a efectos de notificaciones / No se comunica baja de notificaciones: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.\nPágina 2 / 7. Consignación del domicilio a efectos de notificaciones / Domicilio paralelo de diez celdas / 1: No procede en este supuesto ficticio\nPágina 2 / 7. Consignación del domicilio a efectos de notificaciones / Domicilio paralelo de diez celdas / 2: No procede en este supuesto ficticio\nPágina 2 / 7. Consignación del domicilio a efectos de notificaciones / Domicilio paralelo de diez celdas / 3: No procede en este supuesto ficticio\nPágina 2 / 7. Consignación del domicilio a efectos de notificaciones / Domicilio paralelo de diez celdas / 4: No procede en este supuesto ficticio\nPágina 2 / 7. Consignación del domicilio a efectos de notificaciones / Domicilio paralelo de diez celdas / 5: No procede en este supuesto ficticio\nPágina 2 / 7. Consignación del domicilio a efectos de notificaciones / Domicilio paralelo de diez celdas / 6: No procede en este supuesto ficticio\nPágina 2 / 7. Consignación del domicilio a efectos de notificaciones / Domicilio paralelo de diez celdas / 7: No procede en este supuesto ficticio\nPágina 2 / 7. Consignación del domicilio a efectos de notificaciones / Domicilio paralelo de diez celdas / 8: No procede en este supuesto ficticio\nPágina 2 / 7. Consignación del domicilio a efectos de notificaciones / Domicilio paralelo de diez celdas / 9: No procede en este supuesto ficticio\nPágina 2 / 7. Consignación del domicilio a efectos de notificaciones / Domicilio paralelo de diez celdas / 10: No procede en este supuesto ficticio\nPágina 2 / 7. Consignación del domicilio a efectos de notificaciones / Complemento / 1: No procede en este supuesto ficticio\nPágina 2 / 7. Consignación del domicilio a efectos de notificaciones / Complemento / 2: No procede en este supuesto ficticio\nPágina 2 / 7. Consignación del domicilio a efectos de notificaciones / Localizacion / 1: No procede en este supuesto ficticio\nPágina 2 / 7. Consignación del domicilio a efectos de notificaciones / Localizacion / 2: No procede en este supuesto ficticio\nPágina 2 / 7. Consignación del domicilio a efectos de notificaciones / Localizacion / 3: No procede en este supuesto ficticio\nPágina 2 / 7. Consignación del domicilio a efectos de notificaciones / Destinatario domicilio normalizado / 1: No procede en este supuesto ficticio\nPágina 2 / 7. Consignación del domicilio a efectos de notificaciones / Destinatario domicilio normalizado / 2: No procede en este supuesto ficticio\nPágina 2 / 7. Consignación del domicilio a efectos de notificaciones / Apartado alternativo / 1: No procede en este supuesto ficticio\nPágina 2 / 7. Consignación del domicilio a efectos de notificaciones / Apartado alternativo / 2: No procede en este supuesto ficticio\nPágina 2 / 7. Consignación del domicilio a efectos de notificaciones / Apartado localizacion / 1: No procede en este supuesto ficticio\nPágina 2 / 7. Consignación del domicilio a efectos de notificaciones / Apartado localizacion / 2: No procede en este supuesto ficticio\nPágina 2 / 7. Consignación del domicilio a efectos de notificaciones / Destinatario apartado / 1: No procede en este supuesto ficticio\nPágina 2 / 7. Consignación del domicilio a efectos de notificaciones / Destinatario apartado / 2: No procede en este supuesto ficticio\nPágina 2 / Representante / Representante identificacion / 1: No procede en este supuesto ficticio\nPágina 2 / Representante / Representante identificacion / 2: No procede en este supuesto ficticio\nPágina 2 / Representante / Residencia representante no nombrado: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.\nPágina 2 / Causa de la representación / Causa de la representación: Solo se solicita cambio del domicilio fiscal comun (103/104); no se solicita esta causa, baja de avisos/notificaciones, domicilio extranjero ni representante.\nPágina 2 / Causa de la representación / Causa legal, clave 705: No procede en este supuesto ficticio\nPágina 2 / Causa de la representación / Tipo de representacion / Clave 707: No procede en este supuesto ficticio\nPágina 2 / Causa de la representación / Titulo de representacion / Clave 708: No procede en este supuesto ficticio\nEstado civil / Estado civil actual:: Casado/a.\nPágina 2 / Estado civil / Fecha de adquisición del estado civil actual:: No procede: no se comunica cambio de estado civil\nPágina 2 / 10. Fecha y firma de la declaración / Ejecucion lugar dia mes ano / 1: Valencia\nPágina 2 / 10. Fecha y firma de la declaración / Ejecucion lugar dia mes ano / 2: 26\nPágina 2 / 10. Fecha y firma de la declaración / Ejecucion lugar dia mes ano / 3: octubre\nPágina 2 / 10. Fecha y firma de la declaración / Ejecucion lugar dia mes ano / 4: 2026\nPágina 2 / 10. Fecha y firma de la declaración / Dos regiones impresas de firma / 1: Firma ficticia LUIS SOLER EJEMPLO SINTETICO\nPágina 2 / 10. Fecha y firma de la declaración / Dos regiones impresas de firma / 2: Firma ficticia ANA LAGO PRUEBA SINTETICA",
+  "workflow_identity": {
+    "language": "es",
+    "id": 982
+  }
+}

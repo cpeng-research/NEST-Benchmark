@@ -1,0 +1,2411 @@
+{
+  "id": "es-985",
+  "language": "es",
+  "title": "Modelo 590 - Solicitud de devolucion por exportacion o expedicion",
+  "domain": "Finance",
+  "issuer": "Agencia Estatal de Administracion Tributaria",
+  "issuer_id": "aeat",
+  "template_family": "aeat-aeat-590",
+  "source_version": "No indicada",
+  "source_date_evidence": {
+    "kind": "not stated",
+    "value": "No indicada",
+    "note": "Printed edition is separate from retrieval time; no current-validity claim."
+  },
+  "source_url": "https://sede.agenciatributaria.gob.es/static_files/Sede/Procedimiento_ayuda/DJ08/590.pdf",
+  "landing_url": "https://sede.agenciatributaria.gob.es/Sede/todas-gestiones/impuestos-tasas/ii_ee-devoluciones/modelo-590-iiee-solicitud-devolucion-expedicion_/descarga-modelo.html",
+  "retrieved_at": "2026-10-25T16:59:54.445625+00:00",
+  "source_sha256": "9bd1f201c5d852742f3cca6cfa256082bbdb2c8fce6dd819c35bc147299ef4cb",
+  "source_pages": 3,
+  "license_url": "https://sede.agenciatributaria.gob.es/Sede/condiciones-uso-sede-electronica/aviso-legal/utilizacion-informacion-contenida-web-aeat.html",
+  "license_note": "Origen de los datos: Agencia Estatal de Administracion Tributaria, Espana. The primary AEAT Utilizacion de la informacion notice, updated 03/febrero/2022, authorizes reproduction, modification, distribution and communication for commercial and noncommercial informational reuse unless expressly excepted. The complete source document was inspected; it does not carry an explicit source-specific no-modification exception. Attribute AEAT, preserve meaning and source-date metadata, and do not imply endorsement. This is a semantic research adaptation with fictional completions, not a valid administrative filing. Logos and graphical branding are not reproduced.",
+  "columns": 12,
+  "synthetic_context": true,
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Código",
+      "path": [
+        "Página 1",
+        "General",
+        "Oficina gestora / Codigo"
+      ],
+      "source_anchor": "Código",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "99999 (oficina ficticia)"
+    },
+    {
+      "id": "f002",
+      "label": "NIF",
+      "path": [
+        "Página 1",
+        "(2) Identificación",
+        "Exportador identidad / 1"
+      ],
+      "source_anchor": "NIF",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NIF-SINT-985"
+    },
+    {
+      "id": "f003",
+      "label": "Apellidos y nombre o razón social",
+      "path": [
+        "Página 1",
+        "(2) Identificación",
+        "Exportador identidad / 2"
+      ],
+      "source_anchor": "Apellidos y nombre o razón social",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Exportacion Sintetica de Ejemplo SL"
+    },
+    {
+      "id": "f004",
+      "label": "Domicilio fiscal",
+      "path": [
+        "Página 1",
+        "(2) Identificación",
+        "Exportador domicilio / 1"
+      ],
+      "source_anchor": "Domicilio fiscal",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Calle Ejemplo 35"
+    },
+    {
+      "id": "f005",
+      "label": "Localidad y provincia",
+      "path": [
+        "Página 1",
+        "(2) Identificación",
+        "Exportador domicilio / 2"
+      ],
+      "source_anchor": "Localidad y provincia",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Valencia, Valencia"
+    },
+    {
+      "id": "f006",
+      "label": "No",
+      "path": [
+        "Página 1",
+        "(3) DUA de exportación/expedición",
+        "DUA unico / Numero"
+      ],
+      "source_anchor": "No",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "26ES999999A0000010"
+    },
+    {
+      "id": "f007",
+      "label": "Partida de orden",
+      "path": [
+        "Página 1",
+        "(4) Descripción de la mercancía exportada o expedida",
+        "Mercancia / Fila 1 / 1"
+      ],
+      "source_anchor": "Partida de orden",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "f008",
+      "label": "Código TARIC",
+      "path": [
+        "Página 1",
+        "(4) Descripción de la mercancía exportada o expedida",
+        "Mercancia / Fila 1 / 2"
+      ],
+      "source_anchor": "Código TARIC",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "9999999999 (TARIC sintetico no operativo)"
+    },
+    {
+      "id": "f009",
+      "label": "Código de devolución",
+      "path": [
+        "Página 1",
+        "(4) Descripción de la mercancía exportada o expedida",
+        "Mercancia / Fila 1 / 3"
+      ],
+      "source_anchor": "Código de devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "f010",
+      "label": "Partida de orden",
+      "path": [
+        "Página 1",
+        "(4) Descripción de la mercancía exportada o expedida",
+        "Mercancia / Fila 2 / 1"
+      ],
+      "source_anchor": "Partida de orden",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No utilizado"
+    },
+    {
+      "id": "f011",
+      "label": "Código TARIC",
+      "path": [
+        "Página 1",
+        "(4) Descripción de la mercancía exportada o expedida",
+        "Mercancia / Fila 2 / 2"
+      ],
+      "source_anchor": "Código TARIC",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f012",
+      "label": "Código de devolución",
+      "path": [
+        "Página 1",
+        "(4) Descripción de la mercancía exportada o expedida",
+        "Mercancia / Fila 2 / 3"
+      ],
+      "source_anchor": "Código de devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f013",
+      "label": "Partida de orden",
+      "path": [
+        "Página 1",
+        "(4) Descripción de la mercancía exportada o expedida",
+        "Mercancia / Fila 3 / 1"
+      ],
+      "source_anchor": "Partida de orden",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No utilizado"
+    },
+    {
+      "id": "f014",
+      "label": "Código TARIC",
+      "path": [
+        "Página 1",
+        "(4) Descripción de la mercancía exportada o expedida",
+        "Mercancia / Fila 3 / 2"
+      ],
+      "source_anchor": "Código TARIC",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f015",
+      "label": "Código de devolución",
+      "path": [
+        "Página 1",
+        "(4) Descripción de la mercancía exportada o expedida",
+        "Mercancia / Fila 3 / 3"
+      ],
+      "source_anchor": "Código de devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f016",
+      "label": "Partida de orden",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 1 / 1"
+      ],
+      "source_anchor": "Partida de orden",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "f017",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 1 / 2"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "A0"
+    },
+    {
+      "id": "f018",
+      "label": "Cantidad",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 1 / 3"
+      ],
+      "source_anchor": "Cantidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "4,00 hl de alcohol puro"
+    },
+    {
+      "id": "f019",
+      "label": "Específico",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 1 / 4"
+      ],
+      "source_anchor": "Específico",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "100,00 EUR/hl puro (supuesto sintetico)"
+    },
+    {
+      "id": "f020",
+      "label": "Proporcional",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 1 / 5"
+      ],
+      "source_anchor": "Proporcional",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede: no tabaco"
+    },
+    {
+      "id": "f021",
+      "label": "Valor tabaco",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 1 / 6"
+      ],
+      "source_anchor": "Valor tabaco",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede: no tabaco"
+    },
+    {
+      "id": "f022",
+      "label": "Grado Plato",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 1 / 7"
+      ],
+      "source_anchor": "Grado Plato",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede: no cerveza"
+    },
+    {
+      "id": "f023",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 1 / 8"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "400,00"
+    },
+    {
+      "id": "f024",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 2 / 1"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No utilizado"
+    },
+    {
+      "id": "f025",
+      "label": "Cantidad",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 2 / 2"
+      ],
+      "source_anchor": "Cantidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f026",
+      "label": "Específico",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 2 / 3"
+      ],
+      "source_anchor": "Específico",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f027",
+      "label": "Proporcional",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 2 / 4"
+      ],
+      "source_anchor": "Proporcional",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f028",
+      "label": "Valor tabaco",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 2 / 5"
+      ],
+      "source_anchor": "Valor tabaco",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f029",
+      "label": "Grado Plato",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 2 / 6"
+      ],
+      "source_anchor": "Grado Plato",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f030",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 2 / 7"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f031",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 3 / 1"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No utilizado"
+    },
+    {
+      "id": "f032",
+      "label": "Cantidad",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 3 / 2"
+      ],
+      "source_anchor": "Cantidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f033",
+      "label": "Específico",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 3 / 3"
+      ],
+      "source_anchor": "Específico",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f034",
+      "label": "Proporcional",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 3 / 4"
+      ],
+      "source_anchor": "Proporcional",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f035",
+      "label": "Valor tabaco",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 3 / 5"
+      ],
+      "source_anchor": "Valor tabaco",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f036",
+      "label": "Grado Plato",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 3 / 6"
+      ],
+      "source_anchor": "Grado Plato",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f037",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 3 / 7"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f038",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 4 / 1"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No utilizado"
+    },
+    {
+      "id": "f039",
+      "label": "Cantidad",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 4 / 2"
+      ],
+      "source_anchor": "Cantidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f040",
+      "label": "Específico",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 4 / 3"
+      ],
+      "source_anchor": "Específico",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f041",
+      "label": "Proporcional",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 4 / 4"
+      ],
+      "source_anchor": "Proporcional",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f042",
+      "label": "Valor tabaco",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 4 / 5"
+      ],
+      "source_anchor": "Valor tabaco",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f043",
+      "label": "Grado Plato",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 4 / 6"
+      ],
+      "source_anchor": "Grado Plato",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f044",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 1",
+        "Grupo 1 / Producto 4 / 7"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f045",
+      "label": "Partida de orden",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 1 / 1"
+      ],
+      "source_anchor": "Partida de orden",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No utilizado"
+    },
+    {
+      "id": "f046",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 1 / 2"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No utilizado"
+    },
+    {
+      "id": "f047",
+      "label": "Cantidad",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 1 / 3"
+      ],
+      "source_anchor": "Cantidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f048",
+      "label": "Específico",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 1 / 4"
+      ],
+      "source_anchor": "Específico",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f049",
+      "label": "Proporcional",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 1 / 5"
+      ],
+      "source_anchor": "Proporcional",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f050",
+      "label": "Valor tabaco",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 1 / 6"
+      ],
+      "source_anchor": "Valor tabaco",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f051",
+      "label": "Grado Plato",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 1 / 7"
+      ],
+      "source_anchor": "Grado Plato",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f052",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 1 / 8"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f053",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 2 / 1"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No utilizado"
+    },
+    {
+      "id": "f054",
+      "label": "Cantidad",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 2 / 2"
+      ],
+      "source_anchor": "Cantidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f055",
+      "label": "Específico",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 2 / 3"
+      ],
+      "source_anchor": "Específico",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f056",
+      "label": "Proporcional",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 2 / 4"
+      ],
+      "source_anchor": "Proporcional",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f057",
+      "label": "Valor tabaco",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 2 / 5"
+      ],
+      "source_anchor": "Valor tabaco",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f058",
+      "label": "Grado Plato",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 2 / 6"
+      ],
+      "source_anchor": "Grado Plato",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f059",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 2 / 7"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f060",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 3 / 1"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No utilizado"
+    },
+    {
+      "id": "f061",
+      "label": "Cantidad",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 3 / 2"
+      ],
+      "source_anchor": "Cantidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f062",
+      "label": "Específico",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 3 / 3"
+      ],
+      "source_anchor": "Específico",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f063",
+      "label": "Proporcional",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 3 / 4"
+      ],
+      "source_anchor": "Proporcional",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f064",
+      "label": "Valor tabaco",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 3 / 5"
+      ],
+      "source_anchor": "Valor tabaco",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f065",
+      "label": "Grado Plato",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 3 / 6"
+      ],
+      "source_anchor": "Grado Plato",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f066",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 3 / 7"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f067",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 4 / 1"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No utilizado"
+    },
+    {
+      "id": "f068",
+      "label": "Cantidad",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 4 / 2"
+      ],
+      "source_anchor": "Cantidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f069",
+      "label": "Específico",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 4 / 3"
+      ],
+      "source_anchor": "Específico",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f070",
+      "label": "Proporcional",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 4 / 4"
+      ],
+      "source_anchor": "Proporcional",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f071",
+      "label": "Valor tabaco",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 4 / 5"
+      ],
+      "source_anchor": "Valor tabaco",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f072",
+      "label": "Grado Plato",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 4 / 6"
+      ],
+      "source_anchor": "Grado Plato",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f073",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 2",
+        "Grupo 2 / Producto 4 / 7"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f074",
+      "label": "Partida de orden",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 1 / 1"
+      ],
+      "source_anchor": "Partida de orden",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No utilizado"
+    },
+    {
+      "id": "f075",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 1 / 2"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No utilizado"
+    },
+    {
+      "id": "f076",
+      "label": "Cantidad",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 1 / 3"
+      ],
+      "source_anchor": "Cantidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f077",
+      "label": "Específico",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 1 / 4"
+      ],
+      "source_anchor": "Específico",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f078",
+      "label": "Proporcional",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 1 / 5"
+      ],
+      "source_anchor": "Proporcional",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f079",
+      "label": "Valor tabaco",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 1 / 6"
+      ],
+      "source_anchor": "Valor tabaco",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f080",
+      "label": "Grado Plato",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 1 / 7"
+      ],
+      "source_anchor": "Grado Plato",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f081",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 1 / 8"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f082",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 2 / 1"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No utilizado"
+    },
+    {
+      "id": "f083",
+      "label": "Cantidad",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 2 / 2"
+      ],
+      "source_anchor": "Cantidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f084",
+      "label": "Específico",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 2 / 3"
+      ],
+      "source_anchor": "Específico",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f085",
+      "label": "Proporcional",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 2 / 4"
+      ],
+      "source_anchor": "Proporcional",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f086",
+      "label": "Valor tabaco",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 2 / 5"
+      ],
+      "source_anchor": "Valor tabaco",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f087",
+      "label": "Grado Plato",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 2 / 6"
+      ],
+      "source_anchor": "Grado Plato",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f088",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 2 / 7"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f089",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 3 / 1"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No utilizado"
+    },
+    {
+      "id": "f090",
+      "label": "Cantidad",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 3 / 2"
+      ],
+      "source_anchor": "Cantidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f091",
+      "label": "Específico",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 3 / 3"
+      ],
+      "source_anchor": "Específico",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f092",
+      "label": "Proporcional",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 3 / 4"
+      ],
+      "source_anchor": "Proporcional",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f093",
+      "label": "Valor tabaco",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 3 / 5"
+      ],
+      "source_anchor": "Valor tabaco",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f094",
+      "label": "Grado Plato",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 3 / 6"
+      ],
+      "source_anchor": "Grado Plato",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f095",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 3 / 7"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f096",
+      "label": "Código de epígrafe",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 4 / 1"
+      ],
+      "source_anchor": "Código de epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No utilizado"
+    },
+    {
+      "id": "f097",
+      "label": "Cantidad",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 4 / 2"
+      ],
+      "source_anchor": "Cantidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f098",
+      "label": "Específico",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 4 / 3"
+      ],
+      "source_anchor": "Específico",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f099",
+      "label": "Proporcional",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 4 / 4"
+      ],
+      "source_anchor": "Proporcional",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f100",
+      "label": "Valor tabaco",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 4 / 5"
+      ],
+      "source_anchor": "Valor tabaco",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f101",
+      "label": "Grado Plato",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 4 / 6"
+      ],
+      "source_anchor": "Grado Plato",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f102",
+      "label": "Importe devolución",
+      "path": [
+        "Página 1",
+        "Productos base / Grupo de partida 3",
+        "Grupo 3 / Producto 4 / 7"
+      ],
+      "source_anchor": "Importe devolución",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00"
+    },
+    {
+      "id": "f103",
+      "label": "Importe total solicitado",
+      "path": [
+        "Página 1",
+        "(5) Declaración de productos base con derecho a devolución",
+        "Importe total solicitado"
+      ],
+      "source_anchor": "Importe total solicitado",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "400,00"
+    },
+    {
+      "id": "f104",
+      "label": "Solicita la devolución:",
+      "path": [
+        "Página 1",
+        "(6) Devolución",
+        "Solicita la devolución:"
+      ],
+      "source_anchor": "Solicita la devolución:",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Por transferencia a la siguiente cuenta:"
+      ],
+      "options": [
+        "Por cheque",
+        "Por transferencia a la siguiente cuenta:"
+      ],
+      "context_evidence": "(6) Devolución / Solicita la devolución:: Por transferencia a la siguiente cuenta:."
+    },
+    {
+      "id": "f105",
+      "label": "Importe:",
+      "path": [
+        "Página 1",
+        "(6) Devolución",
+        "Importe:"
+      ],
+      "source_anchor": "Importe:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "400,00"
+    },
+    {
+      "id": "f106",
+      "label": "Entidad",
+      "path": [
+        "Página 1",
+        "(6) Devolución",
+        "Cuenta cliente / 1"
+      ],
+      "source_anchor": "Entidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "ENT-SINT"
+    },
+    {
+      "id": "f107",
+      "label": "Sucursal",
+      "path": [
+        "Página 1",
+        "(6) Devolución",
+        "Cuenta cliente / 2"
+      ],
+      "source_anchor": "Sucursal",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SUC-SINT"
+    },
+    {
+      "id": "f108",
+      "label": "DC",
+      "path": [
+        "Página 1",
+        "(6) Devolución",
+        "Cuenta cliente / 3"
+      ],
+      "source_anchor": "DC",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "DC-SINT"
+    },
+    {
+      "id": "f109",
+      "label": "Número de cuenta",
+      "path": [
+        "Página 1",
+        "(6) Devolución",
+        "Cuenta cliente / 4"
+      ],
+      "source_anchor": "Número de cuenta",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "CUENTA-SINT-NO-OPERATIVA-985"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Agencia Tributaria",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "590",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Solicitud de devolución por exportación o expedición",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Código",
+        "field": "f001",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(2) Identificación",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "NIF",
+        "field": "f002",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "Apellidos y nombre o razón social",
+        "field": "f003",
+        "colspan": 9,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Domicilio fiscal",
+        "field": "f004",
+        "colspan": 7,
+        "source_page": 1
+      },
+      {
+        "label": "Localidad y provincia",
+        "field": "f005",
+        "colspan": 5,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(3) DUA de exportación/expedición",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "No",
+        "field": "f006",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(4) Descripción de la mercancía exportada o expedida",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Partida de orden",
+        "field": "f007",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "Código TARIC",
+        "field": "f008",
+        "colspan": 5,
+        "source_page": 1
+      },
+      {
+        "label": "Código de devolución",
+        "field": "f009",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Partida de orden",
+        "field": "f010",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "Código TARIC",
+        "field": "f011",
+        "colspan": 5,
+        "source_page": 1
+      },
+      {
+        "label": "Código de devolución",
+        "field": "f012",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Partida de orden",
+        "field": "f013",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "Código TARIC",
+        "field": "f014",
+        "colspan": 5,
+        "source_page": 1
+      },
+      {
+        "label": "Código de devolución",
+        "field": "f015",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(5) Declaración de productos base con derecho a devolución",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Partida de orden",
+        "field": "f016",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Código de epígrafe",
+        "field": "f017",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Cantidad",
+        "field": "f018",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Específico",
+        "field": "f019",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Proporcional",
+        "field": "f020",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Valor tabaco",
+        "field": "f021",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Grado Plato",
+        "field": "f022",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f023",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Código de epígrafe",
+        "field": "f024",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Cantidad",
+        "field": "f025",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Específico",
+        "field": "f026",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Proporcional",
+        "field": "f027",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Valor tabaco",
+        "field": "f028",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Grado Plato",
+        "field": "f029",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f030",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Código de epígrafe",
+        "field": "f031",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Cantidad",
+        "field": "f032",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Específico",
+        "field": "f033",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Proporcional",
+        "field": "f034",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Valor tabaco",
+        "field": "f035",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Grado Plato",
+        "field": "f036",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f037",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Código de epígrafe",
+        "field": "f038",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Cantidad",
+        "field": "f039",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Específico",
+        "field": "f040",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Proporcional",
+        "field": "f041",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Valor tabaco",
+        "field": "f042",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Grado Plato",
+        "field": "f043",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f044",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Partida de orden",
+        "field": "f045",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Código de epígrafe",
+        "field": "f046",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Cantidad",
+        "field": "f047",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Específico",
+        "field": "f048",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Proporcional",
+        "field": "f049",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Valor tabaco",
+        "field": "f050",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Grado Plato",
+        "field": "f051",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f052",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Código de epígrafe",
+        "field": "f053",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Cantidad",
+        "field": "f054",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Específico",
+        "field": "f055",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Proporcional",
+        "field": "f056",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Valor tabaco",
+        "field": "f057",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Grado Plato",
+        "field": "f058",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f059",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Código de epígrafe",
+        "field": "f060",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Cantidad",
+        "field": "f061",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Específico",
+        "field": "f062",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Proporcional",
+        "field": "f063",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Valor tabaco",
+        "field": "f064",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Grado Plato",
+        "field": "f065",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f066",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Código de epígrafe",
+        "field": "f067",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Cantidad",
+        "field": "f068",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Específico",
+        "field": "f069",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Proporcional",
+        "field": "f070",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Valor tabaco",
+        "field": "f071",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Grado Plato",
+        "field": "f072",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f073",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Partida de orden",
+        "field": "f074",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Código de epígrafe",
+        "field": "f075",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Cantidad",
+        "field": "f076",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Específico",
+        "field": "f077",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Proporcional",
+        "field": "f078",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Valor tabaco",
+        "field": "f079",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Grado Plato",
+        "field": "f080",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f081",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Código de epígrafe",
+        "field": "f082",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Cantidad",
+        "field": "f083",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Específico",
+        "field": "f084",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Proporcional",
+        "field": "f085",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Valor tabaco",
+        "field": "f086",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Grado Plato",
+        "field": "f087",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f088",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Código de epígrafe",
+        "field": "f089",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Cantidad",
+        "field": "f090",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Específico",
+        "field": "f091",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Proporcional",
+        "field": "f092",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Valor tabaco",
+        "field": "f093",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Grado Plato",
+        "field": "f094",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f095",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Código de epígrafe",
+        "field": "f096",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Cantidad",
+        "field": "f097",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Específico",
+        "field": "f098",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Proporcional",
+        "field": "f099",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Valor tabaco",
+        "field": "f100",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Grado Plato",
+        "field": "f101",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Importe devolución",
+        "field": "f102",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Importe total solicitado",
+        "field": "f103",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(6) Devolución",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Solicita la devolución:",
+        "field": "f104",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Importe:",
+        "field": "f105",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Código cuenta cliente",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Entidad",
+        "field": "f106",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "Sucursal",
+        "field": "f107",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "DC",
+        "field": "f108",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Número de cuenta",
+        "field": "f109",
+        "colspan": 5,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Cada solicitud sólo podrá comprender productos incluidos en una única declaración de exportación o expedición. La solicitud de devolución comprenderá exclusivamente los supuestos de devolución recogidos en los arts. 10.1.a, 10.1.b, 23.10.a y 23.10.b de la Ley 38/1992, de 28 de diciembre, de Impuestos Especiales. La solicitud no podrá comprender cuotas cuya devolución ya esté dispuesta en alguno de los arts. 22, 43 y 52.a) de la Ley. (1) Código Se indicará el código identificativo de la Oficina Gestora de Impuestos Especiales correspondiente al domicilio fiscal del exportador/expedidor, de acuerdo con la tabla de códigos contenida en el Anexo XLIII de la Orden EHA/3482/2007, de 20 de",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "noviembre.",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "(2) Identificación Cumplimentar datos de identificación del exportador o expedidor.",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "(3) DUA de exportación o expedición Se deberá indicar el número de la declaración de exportación o expedición (DUA) a que corresponde la solicitud. Este número constará de dieciocho caracteres de los cuales, los dos primeros dígitos identificarán el año en curso, el tercer y cuarto dígito el código ISO del país de registro de la declaración (ES- España), del quinto al decimoséptimo, los seis primeros dígitos corresponden al código de recinto, el siguiente al tipo de declaración y los seis restantes a la numeración del documento, por último el décimo octavo corresponderá al número de control.",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "(4) Descripción de la mercancía exportada o expedida Partida de Orden: Se indicará la partida de orden declarada en la casilla 32 del DUA a que corresponde el producto. Código TARIC: Se indicará el código TARIC declarado en la casilla 33, del DUA a que corresponde el producto. Código de devolución: Se indicará el código correspondiente al supuesto que origine el derecho a devolución de los recogidos en la Ley, de acuerdo con la siguiente tabla: Código Supuesto de Devolución 1 art. 10.1.a - Exportaciones de productos objeto de los impuestos especiales de fabricación, o de otros productos que, aún no siéndolo, contenga otros que sí lo sean. 2 art. 10.1.b - Exportaciones de productos que no sean objeto de los impuestos especiales de fabricación ni los",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "contengan, pero en los que se hubieran consumido para su producción, directa o indirectamente, otros que sí lo sean. En ningún caso originan derecho a devolución los productos empleados como combustibles o carburantes, ni la energía eléctrica consumida. 3 art. 23.10.a - Expediciones de productos objeto de los Impuestos sobre Productos Intermedios y sobre el Alcohol y Bebidas Derivadas, desde la Península e Illes Balears, con destino a Canarias, en este caso, el importe de la devolución será el resultado de aplicar la diferencia de tipos impositivos existente entre dichos territorios en el momento del envío. 4 art. 23.10.b - Expediciones, desde Canarias, de productos objeto de los Impuestos Especiales sobre la Cerveza,",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "sobre los Productos Intermedios y sobre el Alcohol y Bebidas Derivadas, con destino a otro Estado miembro de la UE.",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Modelo",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Impuesto Especiales de Fabricación",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "590 Instrucciones para cumplimentar el modelo Solicitud de devolución por exportación o expedición",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "(5) Declaración de productos base con derecho a devolución Partida de orden: Cada una de las partidas indicadas en el apartado 4, y que deberá desglosarse en el caso de contener productos con código de epígrafe distintos. Código de epígrafe: Deberá consignarse el código de epígrafe correspondiente al producto objeto de los impuestos especiales de que se trate, de acuerdo con la tabla de códigos incluida en el Anexo XLIV de la Orden EHA/3482/2007, de 20 de noviembre. Cantidad: Se expresará la cantidad total de productos exportados o expedidos tanto directamente como contenidos o utilizados, correspondiente a dicho código de epígrafe. Se expresará con un máximo de dos cifras decimales, redondeando por",
+        "source_page": 3,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "defecto o por exceso, según que la tercera cifra decimal sea o no inferior a 5. En el caso de hidrocarburos cuando la unidad sea el volumen, se referirá al mismo a 15oC. En el caso de alcoholes y bebidas derivadas, se referirá a la temperatura de 20oC. En el caso de cigarrillos se indicará en miles de cigarrillos. Tipo aplicado: Se indicará el tipo impositivo efectivamente soportado o la diferencia de tipos vigentes en el momento del envío, en el caso de expediciones con destino a Canarias. Cuando no sea posible determinar el tipo efectivamente soportado, se consignará el tipo impositivo vigente en el ámbito territorial interno desde el que se efectúa la exportación, tres meses",
+        "source_page": 3,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "antes de la fecha en que tenga lugar la salida de los productos del territorio aduanero comunitario. ▪ Específico: Se cumplimentará esta casilla, salvo que los productos a que se refiere la solicitud de devolución sean labores del tabaco distintas de los cigarrillos. ▪ Proporcional: Se cumplimentará esta casilla siempre que los productos a que se refiere la solicitud de devolución sean labores del tabaco, excepto si se trata de cigarrillos del epígrafe 5 del artículo 60 de la Ley 38/1992, de 28 de diciembre, de Impuestos Especiales. Valor tabaco: Se consignará en euros y con dos cifras decimales redondeando por defecto o por exceso, según que la tercera",
+        "source_page": 3,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "cifra decimal sea o no inferior a 5, el precio máximo de venta al público, en expendedurías de tabaco y timbre situadas en Península e Illes Balears, incluidos todos los impuestos. Grado Plato: Cuando se trate de cerveza, del código de epígrafe A6, se consignará su grado Plato con dos cifras decimales redondeando por defecto o por exceso, según que la tercera cifra decimal sea o no inferior a 5.",
+        "source_page": 3,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Importe devolución: Con carácter general vendrá determinado por el resultado de multiplicar las magnitudes que figuran en las casillas “cantidad” y “tipo específico”, excepto en los siguientes casos: ▪ Para las labores del tabaco excepto cigarrillos, se obtendrá de multiplicar las cantidades que figuran en las casillas “valor tabaco” y “tipo proporcional”. ▪ Para los cigarrillos del código de epígrafe F1 , será la suma del resultado de multiplicar: - Las cifras que figuran en la casilla “cantidad” por las que figuran en la casilla “tipo específico”, y - Las cifras que figuran en la casilla “valor tabaco” por las que figuran en la casilla “tipo proporcional”",
+        "source_page": 3,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "▪ Para los cigarrillos del código de epígrafe F4, será el resultado de multiplicar las magnitudes que figuran en las casillas “cantidad” y “tipo específico”. Este último vendrá determinado conforme se establece para el tipo único, en el art. 60, epígrafe 5 de la Ley 38/1992, de 28 de diciembre, de Impuestos Especiales. Importe total solicitado: Se consignará la suma de los importes parciales de devolución.",
+        "source_page": 3,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "(6) Devolución Solicita la devolución: Se indicará una “X” en el cuadro correspondiente a la opción elegida. Si se solicita la devolución por transferencia, habrá de indicarse además el Código de Cuenta Cliente (CCC). Importe: Se indicará la cantidad total a devolver solicitada.",
+        "source_page": 3,
+        "colspan": 12,
+        "heading": false
+      }
+    ]
+  ],
+  "source_notice": "The complete independent entry unit is retained in source order, including horizontal groups, repeated material rows and all genuine options. One physical printed answer region is one logical target. Administrative duplicate copies do not multiply inputs. Source and retrieval dates remain separate; no current filing-validity claim.",
+  "context": "CASO ENTERAMENTE FICTICIO. Personas, organismos de ejemplo, identificadores, códigos, importes y firmas son datos sintéticos para esta transcripción; no acreditan un expediente ni una actuación administrativa real.\nCaso enteramente ficticio para investigacion, sin presentacion ni validacion administrativa. Documentos, codigos, cuentas, referencias, nombres y firmas son datos sinteticos. Los codigos de forma numerica solo ilustran las casillas, no acreditan un registro o clasificacion vigente. Exportacion ficticia a Argentina de una sola partida bajo un solo DUA con18caracteres26ES999999A0000010, recinto999999 deliberadamente ficticio. Supuesto1 del articulo10.1.a segun las instrucciones impresas. El TARIC9999999999 es deliberadamente no operativo. Se presupone impuesto soportado sin devolucion previa ni supuesto excluido por los articulos22,43o52.a. La partida contiene10hl de bebida al40%vol a20gradosC, equivalentes a4hl de alcohol puro A0. Se supone100EUR/hl puro de impuesto soportado exclusivamente para el ejemplo, no como tipo legal vigente:4por100=400EUR. El total y transferencia coinciden. No hay tabaco ni cerveza, de modo que tipo proporcional, valor tabaco y Plato no proceden. Se conservan las tres partidas descriptivas y los doce renglones de productos base; solo el primero se utiliza. Cada uno de los tres numeros de orden verticales se responde una vez y relaciona sus cuatro renglones, sin inventar otros nueve numeros de orden. La cuenta y los identificadores no son operativos. No se agregan fecha ni firma que este impreso no contiene.\nPágina 1 / General / Oficina gestora / Codigo: 99999 (oficina ficticia)\nPágina 1 / (2) Identificación / Exportador identidad / 1: NIF-SINT-985\nPágina 1 / (2) Identificación / Exportador identidad / 2: Exportacion Sintetica de Ejemplo SL\nPágina 1 / (2) Identificación / Exportador domicilio / 1: Calle Ejemplo 35\nPágina 1 / (2) Identificación / Exportador domicilio / 2: Valencia, Valencia\nPágina 1 / (3) DUA de exportación/expedición / DUA unico / Numero: 26ES999999A0000010\nPágina 1 / (4) Descripción de la mercancía exportada o expedida / Mercancia / Fila 1 / 1: 1\nPágina 1 / (4) Descripción de la mercancía exportada o expedida / Mercancia / Fila 1 / 2: 9999999999 (TARIC sintetico no operativo)\nPágina 1 / (4) Descripción de la mercancía exportada o expedida / Mercancia / Fila 1 / 3: 1\nPágina 1 / (4) Descripción de la mercancía exportada o expedida / Mercancia / Fila 2 / 1: No utilizado\nPágina 1 / (4) Descripción de la mercancía exportada o expedida / Mercancia / Fila 2 / 2: No procede\nPágina 1 / (4) Descripción de la mercancía exportada o expedida / Mercancia / Fila 2 / 3: No procede\nPágina 1 / (4) Descripción de la mercancía exportada o expedida / Mercancia / Fila 3 / 1: No utilizado\nPágina 1 / (4) Descripción de la mercancía exportada o expedida / Mercancia / Fila 3 / 2: No procede\nPágina 1 / (4) Descripción de la mercancía exportada o expedida / Mercancia / Fila 3 / 3: No procede\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 1 / 1: 1\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 1 / 2: A0\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 1 / 3: 4,00 hl de alcohol puro\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 1 / 4: 100,00 EUR/hl puro (supuesto sintetico)\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 1 / 5: No procede: no tabaco\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 1 / 6: No procede: no tabaco\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 1 / 7: No procede: no cerveza\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 1 / 8: 400,00\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 2 / 1: No utilizado\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 2 / 2: 0,00\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 2 / 3: 0,00\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 2 / 4: No procede\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 2 / 5: No procede\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 2 / 6: No procede\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 2 / 7: 0,00\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 3 / 1: No utilizado\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 3 / 2: 0,00\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 3 / 3: 0,00\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 3 / 4: No procede\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 3 / 5: No procede\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 3 / 6: No procede\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 3 / 7: 0,00\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 4 / 1: No utilizado\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 4 / 2: 0,00\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 4 / 3: 0,00\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 4 / 4: No procede\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 4 / 5: No procede\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 4 / 6: No procede\nPágina 1 / Productos base / Grupo de partida 1 / Grupo 1 / Producto 4 / 7: 0,00\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 1 / 1: No utilizado\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 1 / 2: No utilizado\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 1 / 3: 0,00\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 1 / 4: 0,00\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 1 / 5: No procede\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 1 / 6: No procede\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 1 / 7: No procede\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 1 / 8: 0,00\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 2 / 1: No utilizado\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 2 / 2: 0,00\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 2 / 3: 0,00\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 2 / 4: No procede\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 2 / 5: No procede\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 2 / 6: No procede\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 2 / 7: 0,00\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 3 / 1: No utilizado\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 3 / 2: 0,00\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 3 / 3: 0,00\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 3 / 4: No procede\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 3 / 5: No procede\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 3 / 6: No procede\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 3 / 7: 0,00\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 4 / 1: No utilizado\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 4 / 2: 0,00\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 4 / 3: 0,00\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 4 / 4: No procede\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 4 / 5: No procede\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 4 / 6: No procede\nPágina 1 / Productos base / Grupo de partida 2 / Grupo 2 / Producto 4 / 7: 0,00\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 1 / 1: No utilizado\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 1 / 2: No utilizado\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 1 / 3: 0,00\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 1 / 4: 0,00\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 1 / 5: No procede\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 1 / 6: No procede\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 1 / 7: No procede\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 1 / 8: 0,00\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 2 / 1: No utilizado\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 2 / 2: 0,00\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 2 / 3: 0,00\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 2 / 4: No procede\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 2 / 5: No procede\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 2 / 6: No procede\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 2 / 7: 0,00\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 3 / 1: No utilizado\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 3 / 2: 0,00\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 3 / 3: 0,00\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 3 / 4: No procede\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 3 / 5: No procede\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 3 / 6: No procede\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 3 / 7: 0,00\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 4 / 1: No utilizado\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 4 / 2: 0,00\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 4 / 3: 0,00\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 4 / 4: No procede\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 4 / 5: No procede\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 4 / 6: No procede\nPágina 1 / Productos base / Grupo de partida 3 / Grupo 3 / Producto 4 / 7: 0,00\nPágina 1 / (5) Declaración de productos base con derecho a devolución / Importe total solicitado: 400,00\n(6) Devolución / Solicita la devolución:: Por transferencia a la siguiente cuenta:.\nPágina 1 / (6) Devolución / Importe:: 400,00\nPágina 1 / (6) Devolución / Cuenta cliente / 1: ENT-SINT\nPágina 1 / (6) Devolución / Cuenta cliente / 2: SUC-SINT\nPágina 1 / (6) Devolución / Cuenta cliente / 3: DC-SINT\nPágina 1 / (6) Devolución / Cuenta cliente / 4: CUENTA-SINT-NO-OPERATIVA-985",
+  "workflow_identity": {
+    "language": "es",
+    "id": 985
+  }
+}

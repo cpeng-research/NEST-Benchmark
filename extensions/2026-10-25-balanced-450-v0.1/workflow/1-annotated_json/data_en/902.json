@@ -1,0 +1,184 @@
+{
+  "Page 1": {
+    "Sender": {
+      "Sender’s name and address": "",
+      "Report to be sent FAO": "",
+      "Postcode": "",
+      "Contact Phone": "",
+      "Ext": "",
+      "Purchase order number": "",
+      "Project code": ""
+    },
+    "Source type": {
+      "PATIENT/SOURCE INFORMATION": {
+        "choices": [
+          "Human",
+          "Animal*",
+          "Food*",
+          "Water*",
+          "Environment*",
+          "Other*"
+        ],
+        "value": []
+      }
+    },
+    "Source type other": {
+      "*Please specify": ""
+    },
+    "Patient status": {
+      "PATIENT/SOURCE INFORMATION": {
+        "choices": [
+          "InPatient",
+          "Outpatient",
+          "GP Patient",
+          "Other (Please specify)"
+        ],
+        "value": []
+      }
+    },
+    "Patient status other": {
+      "Other (Please specify)": ""
+    },
+    "Patient": {
+      "NHS number": "",
+      "Sex": {
+        "choices": [
+          "male",
+          "female"
+        ],
+        "value": []
+      },
+      "Surname": "",
+      "Forename": "",
+      "Date of birth": "",
+      "Age": "",
+      "Patient’s postcode": "",
+      "Patient’s HPT": "",
+      "Hospital number": ""
+    },
+    "Hospital": {
+      "Hospital name (if different from sender’s name)": "",
+      "Ward/ clinic name": "",
+      "Ward type": ""
+    },
+    "Sample": {
+      "Your reference": "",
+      "Sample type": {
+        "choices": [
+          "Isolate",
+          "Clinical specimen"
+        ],
+        "value": []
+      },
+      "Date of collection": "",
+      "Time": "",
+      "Date sent to UKHSA": ""
+    },
+    "Isolation source": {
+      "Isolation site / Source": {
+        "choices": [
+          "Blood (EDTA/Serum)",
+          "Environment",
+          "Faeces",
+          "Blood Culture Fluid",
+          "Nose",
+          "Skin",
+          "Sputum",
+          "Urine",
+          "Wound",
+          "Other (please specify)"
+        ],
+        "value": []
+      }
+    },
+    "Isolation other": {
+      "Other (please specify)": ""
+    },
+    "Hazard assessment": {
+      "Do you suspect from clinical or lab information that patient is infected with Hazard Group 3 or 4 pathogen (in addition to the requested investigation?": {
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "value": []
+      }
+    },
+    "Hazard details": {
+      "If yes, give all relevant details": ""
+    },
+    "Preliminary result": {
+      "If referring an isolate, give preliminary ID and lab results": ""
+    },
+    "Presumptive ID": {
+      "Please state the presumptive identification": ""
+    },
+    "Post-mortem": {
+      "Please tick the box if your clinical sample is post mortem?": {
+        "choices": [
+          "Please tick the box if your clinical sample is post mortem?"
+        ],
+        "value": []
+      }
+    },
+    "Identification tests": {
+      "Bacterial Identification of:": {
+        "choices": [
+          "Actinomycetes (aerobic)",
+          "Unknown/atypical isolate",
+          "Unknown/culture-negative clinical specimen"
+        ],
+        "value": []
+      }
+    },
+    "Susceptibility testing": {
+      "Antimicrobial Susceptibility Testing:": {
+        "choices": [
+          "Antimicrobial Susceptibility Testing:"
+        ],
+        "value": []
+      }
+    },
+    "API": {
+      "API profile no": "",
+      "API kit": ""
+    },
+    "MALDI": {
+      "MALDI-TOF ID": "",
+      "Score/%": ""
+    },
+    "Laboratory": {
+      "Growth requirement": "",
+      "Other information": ""
+    },
+    "Stain": {
+      "Stain": {
+        "choices": [
+          "Gram positive",
+          "Gram negative",
+          "Other (please specify)"
+        ],
+        "value": []
+      }
+    },
+    "Stain other": {
+      "Other (please specify)": ""
+    },
+    "Biochemistry": {
+      "Oxidase +/-": "",
+      "Catalase +/-": ""
+    },
+    "Travel": {
+      "Recent foreign travel?": {
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "value": []
+      },
+      "Country": ""
+    },
+    "Comments": {
+      "OTHER COMMENTS": ""
+    }
+  }
+}

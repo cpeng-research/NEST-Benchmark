@@ -1,0 +1,43 @@
+{
+  "Página 1": {
+    "Campos de la pagina 1": {
+      "31 01 – Tipo de Código de Solicitud (REM/REP) (1)": "REP - devolucion, segun pagina 4",
+      "31 03 – Tipo de Solicitud": "1 - Primera solicitud",
+      "31 06 – Número de referencia de la decisión (2)": "No procede: primera solicitud",
+      "Firma/autenticación": "Firma ficticia de ELENA RIOS SINTETICA, administradora",
+      "31 07 – Autoridad Aduanera que toma la decisión (3)": "Aduana de Ejemplo Valencia, ES-SINT-ADU-976",
+      "32 04 – Documentación Adjunta": "4 documentos: factura SINT-976 de 01/09/2026; declaracion MRN-SINT-976 de 01/09/2026 (48 01); justificante SINT-PAGO-976 de 08/09/2026; informe de error SINT-INF-976 de 24/10/2026 (48 13)",
+      "33 01/33 02 – Solicitante/titular de la autorización o la decisión (4)": "Comercio Sintetico Levante SL; Calle Muestra 24, 46000 Valencia",
+      "Identificación del solicitante/titular de la autorización o la decisión": "NIF-SINT-ENT-975; EORI-SINT-975; Calle Muestra 24, 46000 Valencia",
+      "33 03 – Representante (5)": "Gestoria Sintetica del Este SL",
+      "Identificación del representante": "NIF-SINT-REP-975; EORI-SINT-REP-975; Calle Modelo 12, 46000 Valencia",
+      "33 06 - Persona de contacto responsable de la solicitud (*)": "ELENA RIOS SINTETICA, administradora; contacto976@example.invalid",
+      "34 01 – Lugar": "Valencia",
+      "34 02 – Fecha de la solicitud": "25/10/2026",
+      "34 06 – Fecha solicitada de entrada en vigor": "01/11/2026",
+      "34 08 - Ubicación de las mercancías (6)": "Almacen de Ejemplo A, Calle Muestra 24, 46000 Valencia; cajas SINT976-01 a SINT976-10"
+    }
+  },
+  "Página 2": {
+    "Campos de la pagina 2": {
+      "35 01 - Información sobre las mercancías": "100 valvulas de ensayo, modelo ficticio VAL-976; NC 84818099 (8 cifras), TARIC 8481809990 (10 cifras), ambos codigos de forma ilustrativa sintetica, sin validacion arancelaria real; codigos adicionales: no procede, no se invocan medidas adicionales; MRN-SINT-976, partida 1, importacion 01/09/2026",
+      "35 01 - Designación de las mercancías": "100 valvulas de ensayo, modelo ficticio VAL-976; indicador 0: no se invocan disposiciones especiales",
+      "35 01 - Volumen de las mercancías": "10 cajas; 100 unidades; masa neta 200 kg; masa bruta 220 kg",
+      "38 05 - Información Adicional (*)": "Mercancia permanece identificable en el almacen indicado; solicitud por error aritmetico en los derechos",
+      "48 01 - Título de cobro (7)": "Liquidacion SINT-LIQ-976, notificada 05/09/2026; pago 08/09/2026",
+      "48 02 - Aduana donde se ha notificado la deuda aduanera (8)": "Aduana de Ejemplo Valencia, ES-SINT-ADU-976",
+      "48 03 - Aduana competente respecto del lugar donde están ubicadas las mercancías (9)": "No procede: misma aduana que 48 02, nota 9",
+      "48 05 - Régimen aduanero (solicitud de cumplimiento previo de las formalidades) (10)": "No procede cumplimiento previo: devolucion por cobro excesivo, sin reexportacion solicitada",
+      "48 06 - Valor en aduana (11)": "20000,00 EUR",
+      "48 07 - Importe de los derechos de importación que se han de devolver o condonar, u otros gravámenes a la importación (12)": "400,00 EUR",
+      "48 08 - Tipo de derecho de importación u otros gravámenes a la importación. (13)": "Derechos de aduana de importacion A00; no se solicita devolucion de IVA",
+      "48 09 - Base jurídica (14)": "A - Articulo 117 del Codigo Aduanero de la Union",
+      "48 10 - Uso o destino de las mercancías": "Permanencia en libre practica; venta local ficticia tras la resolucion",
+      "48 11 - Plazo para la realización de las formalidades": "No procede: no se exige destino o formalidad posterior en este supuesto",
+      "48 12 - Declaración de la autoridad aduanera que toma la decisión": "Reservado a la autoridad: declaracion ficticia de comprobacion favorable del error aritmetico, 28/10/2026",
+      "48 13 - Descripción de los motivos de la devolución o condonación. (15)": "Se pagaron 1200,00 EUR por error aritmetico; el calculo correcto sobre 20000,00 EUR al 4 por ciento es 800,00 EUR; exceso 400,00 EUR",
+      "Nombre del titular de la cuenta:": "Comercio Sintetico Levante SL",
+      "Cuenta: IBAN/Banco-BIC:": "IBAN-SINT-NO-OPERATIVO-976 / BIC-SINT-976"
+    }
+  }
+}

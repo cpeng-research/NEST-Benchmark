@@ -1,0 +1,1399 @@
+{
+  "id": "es-983",
+  "language": "es",
+  "title": "Modelo 140 - Deduccion por maternidad, solicitud de abono anticipado y comunicacion de variaciones",
+  "domain": "Finance",
+  "issuer": "Ministerio de Hacienda / Agencia Estatal de Administracion Tributaria; publicacion BOE",
+  "issuer_id": "boe-aeat",
+  "template_family": "aeat-modelo-140",
+  "source_version": "BOE num.50,28/02/2011,pp.22986-22987; Orden EHA/394/2011",
+  "source_date_evidence": {
+    "kind": "official-gazette publication",
+    "value": "BOE num.50,28/02/2011,pp.22986-22987; Orden EHA/394/2011",
+    "note": "Publication printed in the actual source, not a retrieval date or assertion of present administrative validity."
+  },
+  "source_url": "https://www.boe.es/boe/dias/2011/02/28/pdfs/BOE-A-2011-3776.pdf",
+  "landing_url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-3776",
+  "retrieved_at": "2026-10-25T17:12:31.078051+00:00",
+  "source_sha256": "3d8507958ac1d21f114572347fcc9395268246b8f7438317ef5cc596f83861ad",
+  "source_pages": 2,
+  "license_url": "https://www.boe.es/informacion/aviso_legal/index.php",
+  "license_note": "Basado en datos de la Agencia Estatal Boletín Oficial del Estado (https://www.boe.es). Original form issuer: Ministerio de Hacienda / Agencia Estatal de Administracion Tributaria. BOE general reuse conditions effective28/junio/2024 expressly permit commercial and noncommercial reproduction, modification, adaptation, extraction and reordering of hosted documents, with worldwide free nonexclusive permission. These official-gazette annexes are not Biblioteca Juridica Digital books subject to CC BY-NC-ND. Attribute origin, preserve original publication/update metadata and meaning, identify the semantic adaptation and fictional additions, and do not imply official status or endorsement. Logos, portal design, coats of arms and other protected branding are not reproduced. The complete selected printed units have no source-specific contrary reuse notice.",
+  "columns": 30,
+  "synthetic_context": true,
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Teléfono 1.o",
+      "path": [
+        "Página 1",
+        "1. Solicitante",
+        "Telefono10"
+      ],
+      "source_anchor": "Teléfono 1.o",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "TELEFONO-SINT-983-1"
+    },
+    {
+      "id": "f002",
+      "label": "Teléfono 2.o",
+      "path": [
+        "Página 1",
+        "1. Solicitante",
+        "Telefono11"
+      ],
+      "source_anchor": "Teléfono 2.o",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "TELEFONO-SINT-983-2"
+    },
+    {
+      "id": "f003",
+      "label": "NIF",
+      "path": [
+        "Página 1",
+        "1. Solicitante",
+        "Identificacion01-04 / 1"
+      ],
+      "source_anchor": "NIF",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NIF-SINT-983"
+    },
+    {
+      "id": "f004",
+      "label": "Primer apellido",
+      "path": [
+        "Página 1",
+        "1. Solicitante",
+        "Identificacion01-04 / 2"
+      ],
+      "source_anchor": "Primer apellido",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "LAGO"
+    },
+    {
+      "id": "f005",
+      "label": "Segundo apellido",
+      "path": [
+        "Página 1",
+        "1. Solicitante",
+        "Identificacion01-04 / 3"
+      ],
+      "source_anchor": "Segundo apellido",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "PRUEBA"
+    },
+    {
+      "id": "f006",
+      "label": "Nombre",
+      "path": [
+        "Página 1",
+        "1. Solicitante",
+        "Identificacion01-04 / 4"
+      ],
+      "source_anchor": "Nombre",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "ANA SINTETICA"
+    },
+    {
+      "id": "f007",
+      "label": "consigne el NIF de la/del anterior benefi ciaria/o",
+      "path": [
+        "Página 1",
+        "1. Solicitante",
+        "Anterior beneficiario12"
+      ],
+      "source_anchor": "consigne el NIF de la/del anterior benefi ciaria/o",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede: primera solicitud por la madre"
+    },
+    {
+      "id": "f008",
+      "label": "NIF de la madre:",
+      "path": [
+        "Página 1",
+        "1. Solicitante",
+        "Persona distinta de madre13/14 / 1"
+      ],
+      "source_anchor": "NIF de la madre:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f009",
+      "label": "Fecha (día, mes y año) de fallecimiento de la madre o desde la que tiene Vd. atribuida de forma exclusiva la guarda y custodia de los menores:",
+      "path": [
+        "Página 1",
+        "1. Solicitante",
+        "Persona distinta de madre13/14 / 2"
+      ],
+      "source_anchor": "Fecha (día, mes y año) de fallecimiento de la madre o desde la que tiene Vd. atribuida de forma exclusiva la guarda y custodia de los menores:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f010",
+      "label": "Número de afi liación:",
+      "path": [
+        "Página 1",
+        "2. Régimen de la Seguridad Social o mutualidad en que la/el solicitante fi gura de alta",
+        "Numero50"
+      ],
+      "source_anchor": "Número de afi liación:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "AFILIACION-SINT-983"
+    },
+    {
+      "id": "f011",
+      "label": "Régimen",
+      "path": [
+        "Página 1",
+        "2. Régimen de la Seguridad Social o mutualidad en que la/el solicitante fi gura de alta",
+        "Regimen51-53"
+      ],
+      "source_anchor": "Régimen",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Régimen general S.S."
+      ],
+      "options": [
+        "Régimen general S.S.",
+        "Régimen especial S.S.",
+        "Régimen especial de los funcionarios públicos."
+      ],
+      "context_evidence": "2. Régimen de la Seguridad Social o mutualidad en que la/el solicitante fi gura de alta / Régimen: Régimen general S.S.."
+    },
+    {
+      "id": "f012",
+      "label": "Si ha marcado la casilla 53 indique la denominación de la mutualidad administrativa (MUFACE, MUGEJU, ISFAS)",
+      "path": [
+        "Página 1",
+        "2. Régimen de la Seguridad Social o mutualidad en que la/el solicitante fi gura de alta",
+        "Mutualidad administrativa54"
+      ],
+      "source_anchor": "Si ha marcado la casilla 53 indique la denominación de la mutualidad administrativa (MUFACE, MUGEJU, ISFAS)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede: regimen general, no casilla53"
+    },
+    {
+      "id": "f013",
+      "label": "Número de mutualista:",
+      "path": [
+        "Página 1",
+        "2. Régimen de la Seguridad Social o mutualidad en que la/el solicitante fi gura de alta",
+        "Alternativa55/56 / 1"
+      ],
+      "source_anchor": "Número de mutualista:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f014",
+      "label": "Denominación de la mutualidad alternativa",
+      "path": [
+        "Página 1",
+        "2. Régimen de la Seguridad Social o mutualidad en que la/el solicitante fi gura de alta",
+        "Alternativa55/56 / 2"
+      ],
+      "source_anchor": "Denominación de la mutualidad alternativa",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f015",
+      "label": "NIF (de tenerlo asignado)",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila1, cinco regiones nativas / 1"
+      ],
+      "source_anchor": "NIF (de tenerlo asignado)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No asignado al menor ficticio"
+    },
+    {
+      "id": "f016",
+      "label": "Apellidos",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila1, cinco regiones nativas / 2"
+      ],
+      "source_anchor": "Apellidos",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "LAGO PRUEBA"
+    },
+    {
+      "id": "f017",
+      "label": "Nombre",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila1, cinco regiones nativas / 3"
+      ],
+      "source_anchor": "Nombre",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "INFANTE SINTETICO"
+    },
+    {
+      "id": "f018",
+      "label": "Fecha de nacimiento",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila1, cinco regiones nativas / 4"
+      ],
+      "source_anchor": "Fecha de nacimiento",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "10/02/2015"
+    },
+    {
+      "id": "f019",
+      "label": "Fecha de adopción o de acogimiento (*)",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila1, cinco regiones nativas / 5"
+      ],
+      "source_anchor": "Fecha de adopción o de acogimiento (*)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede: hijo biologico"
+    },
+    {
+      "id": "f020",
+      "label": "NIF (de tenerlo asignado)",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila2, cinco regiones nativas / 1"
+      ],
+      "source_anchor": "NIF (de tenerlo asignado)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f021",
+      "label": "Apellidos",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila2, cinco regiones nativas / 2"
+      ],
+      "source_anchor": "Apellidos",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f022",
+      "label": "Nombre",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila2, cinco regiones nativas / 3"
+      ],
+      "source_anchor": "Nombre",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f023",
+      "label": "Fecha de nacimiento",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila2, cinco regiones nativas / 4"
+      ],
+      "source_anchor": "Fecha de nacimiento",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f024",
+      "label": "Fecha de adopción o de acogimiento (*)",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila2, cinco regiones nativas / 5"
+      ],
+      "source_anchor": "Fecha de adopción o de acogimiento (*)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f025",
+      "label": "NIF (de tenerlo asignado)",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila3, cinco regiones nativas / 1"
+      ],
+      "source_anchor": "NIF (de tenerlo asignado)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f026",
+      "label": "Apellidos",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila3, cinco regiones nativas / 2"
+      ],
+      "source_anchor": "Apellidos",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f027",
+      "label": "Nombre",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila3, cinco regiones nativas / 3"
+      ],
+      "source_anchor": "Nombre",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f028",
+      "label": "Fecha de nacimiento",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila3, cinco regiones nativas / 4"
+      ],
+      "source_anchor": "Fecha de nacimiento",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f029",
+      "label": "Fecha de adopción o de acogimiento (*)",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila3, cinco regiones nativas / 5"
+      ],
+      "source_anchor": "Fecha de adopción o de acogimiento (*)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f030",
+      "label": "NIF (de tenerlo asignado)",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila4, cinco regiones nativas / 1"
+      ],
+      "source_anchor": "NIF (de tenerlo asignado)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f031",
+      "label": "Apellidos",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila4, cinco regiones nativas / 2"
+      ],
+      "source_anchor": "Apellidos",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f032",
+      "label": "Nombre",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila4, cinco regiones nativas / 3"
+      ],
+      "source_anchor": "Nombre",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f033",
+      "label": "Fecha de nacimiento",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila4, cinco regiones nativas / 4"
+      ],
+      "source_anchor": "Fecha de nacimiento",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f034",
+      "label": "Fecha de adopción o de acogimiento (*)",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila4, cinco regiones nativas / 5"
+      ],
+      "source_anchor": "Fecha de adopción o de acogimiento (*)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f035",
+      "label": "NIF (de tenerlo asignado)",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila5, cinco regiones nativas / 1"
+      ],
+      "source_anchor": "NIF (de tenerlo asignado)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f036",
+      "label": "Apellidos",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila5, cinco regiones nativas / 2"
+      ],
+      "source_anchor": "Apellidos",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f037",
+      "label": "Nombre",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila5, cinco regiones nativas / 3"
+      ],
+      "source_anchor": "Nombre",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f038",
+      "label": "Fecha de nacimiento",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila5, cinco regiones nativas / 4"
+      ],
+      "source_anchor": "Fecha de nacimiento",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f039",
+      "label": "Fecha de adopción o de acogimiento (*)",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila5, cinco regiones nativas / 5"
+      ],
+      "source_anchor": "Fecha de adopción o de acogimiento (*)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f040",
+      "label": "NIF (de tenerlo asignado)",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila6, cinco regiones nativas / 1"
+      ],
+      "source_anchor": "NIF (de tenerlo asignado)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f041",
+      "label": "Apellidos",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila6, cinco regiones nativas / 2"
+      ],
+      "source_anchor": "Apellidos",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f042",
+      "label": "Nombre",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila6, cinco regiones nativas / 3"
+      ],
+      "source_anchor": "Nombre",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f043",
+      "label": "Fecha de nacimiento",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila6, cinco regiones nativas / 4"
+      ],
+      "source_anchor": "Fecha de nacimiento",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f044",
+      "label": "Fecha de adopción o de acogimiento (*)",
+      "path": [
+        "Página 1",
+        "3. Hijos que dan derecho a la deducción por maternidad",
+        "Hijo fila6, cinco regiones nativas / 5"
+      ],
+      "source_anchor": "Fecha de adopción o de acogimiento (*)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f045",
+      "label": "Entidad",
+      "path": [
+        "Página 1",
+        "4. Cuenta bancaria para el abono",
+        "CCC cuatro componentes rotulados / 1"
+      ],
+      "source_anchor": "Entidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "9999"
+    },
+    {
+      "id": "f046",
+      "label": "Sucursal",
+      "path": [
+        "Página 1",
+        "4. Cuenta bancaria para el abono",
+        "CCC cuatro componentes rotulados / 2"
+      ],
+      "source_anchor": "Sucursal",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0000"
+    },
+    {
+      "id": "f047",
+      "label": "DC",
+      "path": [
+        "Página 1",
+        "4. Cuenta bancaria para el abono",
+        "CCC cuatro componentes rotulados / 3"
+      ],
+      "source_anchor": "DC",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "00"
+    },
+    {
+      "id": "f048",
+      "label": "Número de cuenta",
+      "path": [
+        "Página 1",
+        "4. Cuenta bancaria para el abono",
+        "CCC cuatro componentes rotulados / 4"
+      ],
+      "source_anchor": "Número de cuenta",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0000000983"
+    },
+    {
+      "id": "f049",
+      "label": "Si desea cambiar de cuenta bancaria, consigne los datos de la nueva cuenta y marque con una \"X\" esta casilla",
+      "path": [
+        "Página 1",
+        "4. Cuenta bancaria para el abono",
+        "Cambio de cuenta no solicitado15"
+      ],
+      "source_anchor": "Si desea cambiar de cuenta bancaria, consigne los datos de la nueva cuenta y marque con una \"X\" esta casilla",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "15"
+      ],
+      "context_evidence": "4. Cuenta bancaria para el abono / Si desea cambiar de cuenta bancaria, consigne los datos de la nueva cuenta y marque con una \"X\" esta casilla: . No se selecciona esta opcion: no corresponde a la rama o variacion del supuesto ficticio.",
+      "inactive_reason": "No se selecciona esta opcion: no corresponde a la rama o variacion del supuesto ficticio."
+    },
+    {
+      "id": "f050",
+      "label": "Pérdida del derecho de la/del benefi ciaria/o al abono mensual anticipado de la deducción por maternidad (por fallecimiento, por haber causado baja en la Seguridad Social o mutualidad, por cambio de residencia o por otra causa) o renuncia de la/del benefi ciaria/o al abono mensual anticipado",
+      "path": [
+        "Página 1",
+        "5. Variaciones a efectos del abono mensual anticipado de la deducción por maternidad",
+        "Variacion80"
+      ],
+      "source_anchor": "Pérdida del derecho de la/del benefi ciaria/o al abono mensual anticipado de la deducción por maternidad (por fallecimiento, por haber causado baja en la Seguridad Social o mutualidad, por cambio de residencia o por otra causa) o renuncia de la/del benefi ciaria/o al abono mensual anticipado",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "80"
+      ],
+      "context_evidence": "5. Variaciones a efectos del abono mensual anticipado de la deducción por maternidad / Pérdida del derecho de la/del benefi ciaria/o al abono mensual anticipado de la deducción por maternidad (por fallecimiento, por haber causado baja en la Seguridad Social o mutualidad, por cambio de residencia o por otra causa) o renuncia de la/del benefi ciaria/o al abono mensual anticipado: . No se selecciona esta opcion: no corresponde a la rama o variacion del supuesto ficticio.",
+      "inactive_reason": "No se selecciona esta opcion: no corresponde a la rama o variacion del supuesto ficticio."
+    },
+    {
+      "id": "f051",
+      "label": "Cambio de régimen de la Seguridad Social o mutualidad de la/del benefi ciaria/o (en este caso, indique en el apartado 2 los datos del nuevo régimen o mutualidad)",
+      "path": [
+        "Página 1",
+        "5. Variaciones a efectos del abono mensual anticipado de la deducción por maternidad",
+        "Variacion81"
+      ],
+      "source_anchor": "Cambio de régimen de la Seguridad Social o mutualidad de la/del benefi ciaria/o (en este caso, indique en el apartado 2 los datos del nuevo régimen o mutualidad)",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "81"
+      ],
+      "context_evidence": "5. Variaciones a efectos del abono mensual anticipado de la deducción por maternidad / Cambio de régimen de la Seguridad Social o mutualidad de la/del benefi ciaria/o (en este caso, indique en el apartado 2 los datos del nuevo régimen o mutualidad): . No se selecciona esta opcion: no corresponde a la rama o variacion del supuesto ficticio.",
+      "inactive_reason": "No se selecciona esta opcion: no corresponde a la rama o variacion del supuesto ficticio."
+    },
+    {
+      "id": "f052",
+      "label": "Baja de alguno de los hijos a efectos de la deducción por maternidad (por fallecimiento, por cesar la convivencia con pérdida de la guarda y custodia o por obtener rentas superiores a 8.000 euros)",
+      "path": [
+        "Página 1",
+        "5. Variaciones a efectos del abono mensual anticipado de la deducción por maternidad",
+        "Variacion82"
+      ],
+      "source_anchor": "Baja de alguno de los hijos a efectos de la deducción por maternidad (por fallecimiento, por cesar la convivencia con pérdida de la guarda y custodia o por obtener rentas superiores a 8.000 euros)",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "82"
+      ],
+      "context_evidence": "5. Variaciones a efectos del abono mensual anticipado de la deducción por maternidad / Baja de alguno de los hijos a efectos de la deducción por maternidad (por fallecimiento, por cesar la convivencia con pérdida de la guarda y custodia o por obtener rentas superiores a 8.000 euros): . No se selecciona esta opcion: no corresponde a la rama o variacion del supuesto ficticio.",
+      "inactive_reason": "No se selecciona esta opcion: no corresponde a la rama o variacion del supuesto ficticio."
+    },
+    {
+      "id": "f053",
+      "label": "Fecha de efectos:",
+      "path": [
+        "Página 1",
+        "5. Variaciones a efectos del abono mensual anticipado de la deducción por maternidad",
+        "Fecha83"
+      ],
+      "source_anchor": "Fecha de efectos:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede: solicitud inicial, sin variacion"
+    },
+    {
+      "id": "f054",
+      "label": "NIF",
+      "path": [
+        "Página 1",
+        "6. Representante",
+        "Representante94/95 / 1"
+      ],
+      "source_anchor": "NIF",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f055",
+      "label": "Apellidos y nombre o razón social",
+      "path": [
+        "Página 1",
+        "6. Representante",
+        "Representante94/95 / 2"
+      ],
+      "source_anchor": "Apellidos y nombre o razón social",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede en este supuesto ficticio"
+    },
+    {
+      "id": "f056",
+      "label": "Lugar y fecha",
+      "path": [
+        "Página 1",
+        "7. Fecha y fi rma",
+        "Una sola linea conjunta, no lugar/fecha separados"
+      ],
+      "source_anchor": "Lugar y fecha",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Valencia,26/10/2015"
+    },
+    {
+      "id": "f057",
+      "label": "Firma de la/del solicitante o de su representante:",
+      "path": [
+        "Página 1",
+        "7. Fecha y fi rma",
+        "Firma de la/del solicitante o de su representante:"
+      ],
+      "source_anchor": "Firma de la/del solicitante o de su representante:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma ficticia ANA LAGO PRUEBA SINTETICA"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Modelo",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "140",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Deducción por Maternidad",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Solicitud del abono anticipado y comunicación de variaciones",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "1. Solicitante",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Si no dispone de etiquetas, consigne los da- tos identifi cativos que se solicitan a continuación.",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Teléfonos de contacto. A fi n de agilizar la resolución de las incidencias que pudieran surgir en la tramitación de esta solicitud, sírvase consignar los números de teléfono en los que pueda ser localizada/o en días y horas laborables",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Teléfono 1.o",
+        "field": "f001",
+        "colspan": 30,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Teléfono 2.o",
+        "field": "f002",
+        "colspan": 30,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NIF",
+        "field": "f003",
+        "colspan": 7,
+        "source_page": 1
+      },
+      {
+        "label": "Primer apellido",
+        "field": "f004",
+        "colspan": 8,
+        "source_page": 1
+      },
+      {
+        "label": "Segundo apellido",
+        "field": "f005",
+        "colspan": 8,
+        "source_page": 1
+      },
+      {
+        "label": "Nombre",
+        "field": "f006",
+        "colspan": 7,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Si el pago mensual en concepto de abono anticipado de la deducción por maternidad hubiera sido percibido anteriormente por otra persona,",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "consigne el NIF de la/del anterior benefi ciaria/o",
+        "field": "f007",
+        "colspan": 30,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Solicitud por persona distinta de la madre (padre, tutor/a, ...):",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "NIF de la madre:",
+        "field": "f008",
+        "colspan": 15,
+        "source_page": 1
+      },
+      {
+        "label": "Fecha (día, mes y año) de fallecimiento de la madre o desde la que tiene Vd. atribuida de forma exclusiva la guarda y custodia de los menores:",
+        "field": "f009",
+        "colspan": 15,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "2. Régimen de la Seguridad Social o mutualidad en que la/el solicitante fi gura de alta",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Seguridad Social o Régimen especial de funcionarios públicos:",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Número de afi liación:",
+        "field": "f010",
+        "colspan": 15,
+        "source_page": 1
+      },
+      {
+        "label": "Régimen",
+        "field": "f011",
+        "colspan": 15,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Si ha marcado la casilla 53 indique la denominación de la mutualidad administrativa (MUFACE, MUGEJU, ISFAS)",
+        "field": "f012",
+        "colspan": 30,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Mutualidad alternativa a la Seguridad Social:",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Número de mutualista:",
+        "field": "f013",
+        "colspan": 10,
+        "source_page": 1
+      },
+      {
+        "label": "Denominación de la mutualidad alternativa",
+        "field": "f014",
+        "colspan": 20,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "3. Hijos que dan derecho a la deducción por maternidad",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "1. Si este documento se presenta para solicitar por primera vez el abono mensual anticipado de la deducción por maternidad consigne en este apartado los datos de los hijos menores de tres años por los que tenga Vd. derecho. Los hijos adoptados y los acogidos se relacionarán en este apartado siempre que fuesen menores de edad en la fecha de su adopción o acogimiento y hubieran transcurrido menos de tres años desde dicha fecha, la cual se hará constar en la casilla correspondiente. Tratándose de hijos adoptados que previamente hubieran estado acogidos, únicamente se hará constar la fecha del acogimiento. 2. Si este documento se presenta para comunicar el alta o la baja de algún hijo a efectos del abono mensual anticipado de la deducción por maternidad, consigne en este apartado únicamente los datos de los hijos a los que afecte esta circunstancia. 3. Si este documento se presenta únicamente para comunicar la pérdida del derecho o el cambio de régimen de seguridad social o mutualidad (casillas 80 y 81 del apartado 5), no se cumplimentará ningún dato relativo a los hijos en este apartado 3. 4. Si hubiera de comunicarse al mismo tiempo el alta de nuevos hijos y la baja de alguno de los anteriores (casilla 82 del apartado 5), cada una de dichas variaciones se comunicará en un ejemplar distinto de este modelo.",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "NIF (de tenerlo asignado)",
+        "field": "f015",
+        "colspan": 5,
+        "source_page": 1
+      },
+      {
+        "label": "Apellidos",
+        "field": "f016",
+        "colspan": 7,
+        "source_page": 1
+      },
+      {
+        "label": "Nombre",
+        "field": "f017",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Fecha de nacimiento",
+        "field": "f018",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Fecha de adopción o de acogimiento (*)",
+        "field": "f019",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NIF (de tenerlo asignado)",
+        "field": "f020",
+        "colspan": 5,
+        "source_page": 1
+      },
+      {
+        "label": "Apellidos",
+        "field": "f021",
+        "colspan": 7,
+        "source_page": 1
+      },
+      {
+        "label": "Nombre",
+        "field": "f022",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Fecha de nacimiento",
+        "field": "f023",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Fecha de adopción o de acogimiento (*)",
+        "field": "f024",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NIF (de tenerlo asignado)",
+        "field": "f025",
+        "colspan": 5,
+        "source_page": 1
+      },
+      {
+        "label": "Apellidos",
+        "field": "f026",
+        "colspan": 7,
+        "source_page": 1
+      },
+      {
+        "label": "Nombre",
+        "field": "f027",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Fecha de nacimiento",
+        "field": "f028",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Fecha de adopción o de acogimiento (*)",
+        "field": "f029",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NIF (de tenerlo asignado)",
+        "field": "f030",
+        "colspan": 5,
+        "source_page": 1
+      },
+      {
+        "label": "Apellidos",
+        "field": "f031",
+        "colspan": 7,
+        "source_page": 1
+      },
+      {
+        "label": "Nombre",
+        "field": "f032",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Fecha de nacimiento",
+        "field": "f033",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Fecha de adopción o de acogimiento (*)",
+        "field": "f034",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NIF (de tenerlo asignado)",
+        "field": "f035",
+        "colspan": 5,
+        "source_page": 1
+      },
+      {
+        "label": "Apellidos",
+        "field": "f036",
+        "colspan": 7,
+        "source_page": 1
+      },
+      {
+        "label": "Nombre",
+        "field": "f037",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Fecha de nacimiento",
+        "field": "f038",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Fecha de adopción o de acogimiento (*)",
+        "field": "f039",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NIF (de tenerlo asignado)",
+        "field": "f040",
+        "colspan": 5,
+        "source_page": 1
+      },
+      {
+        "label": "Apellidos",
+        "field": "f041",
+        "colspan": 7,
+        "source_page": 1
+      },
+      {
+        "label": "Nombre",
+        "field": "f042",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Fecha de nacimiento",
+        "field": "f043",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Fecha de adopción o de acogimiento (*)",
+        "field": "f044",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(*) Si el hijo es adoptado indique la fecha de inscripción de la adopción en el Registro Civil. En caso de acogimiento, tanto preadoptivo como permanente, indique la fecha de la resolución administrativa o judicial.",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "4. Cuenta bancaria para el abono",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Consigne los datos completos de la cuenta bancaria de la que sea Vd. titular y en la que desee recibir por transferencia el abono mensual anti- cipado de la deducción.",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Código cuenta cliente (CCC)",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Entidad",
+        "field": "f045",
+        "colspan": 7,
+        "source_page": 1
+      },
+      {
+        "label": "Sucursal",
+        "field": "f046",
+        "colspan": 7,
+        "source_page": 1
+      },
+      {
+        "label": "DC",
+        "field": "f047",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "Número de cuenta",
+        "field": "f048",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Si desea cambiar de cuenta bancaria, consigne los datos de la nueva cuenta y marque con una \"X\" esta casilla",
+        "field": "f049",
+        "colspan": 30,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "5. Variaciones a efectos del abono mensual anticipado de la deducción por maternidad",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Pérdida del derecho de la/del benefi ciaria/o al abono mensual anticipado de la deducción por maternidad (por fallecimiento, por haber causado baja en la Seguridad Social o mutualidad, por cambio de residencia o por otra causa) o renuncia de la/del benefi ciaria/o al abono mensual anticipado",
+        "field": "f050",
+        "colspan": 30,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Cambio de régimen de la Seguridad Social o mutualidad de la/del benefi ciaria/o (en este caso, indique en el apartado 2 los datos del nuevo régimen o mutualidad)",
+        "field": "f051",
+        "colspan": 30,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Baja de alguno de los hijos a efectos de la deducción por maternidad (por fallecimiento, por cesar la convivencia con pérdida de la guarda y custodia o por obtener rentas superiores a 8.000 euros)",
+        "field": "f052",
+        "colspan": 30,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fecha de efectos:",
+        "field": "f053",
+        "colspan": 30,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Notas: Si este documento se presenta para comunicar alguna de las circunstancias a que se refi eren las casillas 80 y 81, no se cumplimentará dato alguno en el apartado 3.",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Si hubiera de comunicarse al mismo tiempo el alta de nuevos hijos y la baja de alguno de los anteriores (casilla 82), cada una de dichas variaciones se comunicará en un ejemplar distinto de este modelo.",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "6. Representante",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "NIF",
+        "field": "f054",
+        "colspan": 8,
+        "source_page": 1
+      },
+      {
+        "label": "Apellidos y nombre o razón social",
+        "field": "f055",
+        "colspan": 22,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "7. Fecha y fi rma",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "DECLARO que son ciertos los datos consignados en el presente documento y me comprometo a comunicar cualquier variación en los mismos que pueda afectar al abono anticipado de la deducción por maternidad.",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Lugar y fecha",
+        "field": "f056",
+        "colspan": 30,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Firma de la/del solicitante o de su representante:",
+        "field": "f057",
+        "colspan": 30,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Ejemplar para la Administración",
+        "source_page": 1,
+        "colspan": 30,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Ejemplar para el interesado",
+        "source_page": 2,
+        "colspan": 30,
+        "heading": false
+      }
+    ]
+  ],
+  "source_notice": "Complete independently fillable annex entry unit only. Surrounding legislative prose and other independently titled annex models are source/context evidence, not part of this selected input. Duplicate administrative/interested copies and repeated identity headers do not multiply targets. All native writing regions, options, branches and meaningful instructions of the selected unit are retained; official-gazette verification signatures and graphical branding are not form answers. The local source PDF is a lossless complete-annex extraction, not claimed to be the original HTTP response. Its own source hash and the separate immutable official-response hash/page map are both disclosed in source_derivation and the receipt.",
+  "context": "CASO ENTERAMENTE FICTICIO. Personas, organismos de ejemplo, identificadores, códigos, importes y firmas son datos sintéticos para esta transcripción; no acreditan un expediente ni una actuación administrativa real.\nCaso enteramente ficticio de investigacion. Identidades, NIF, afiliaciones, certificados, cuentas y firmas no son reales. La version historica se conserva con su fecha de publicacion y no se presenta como un formulario administrativamente vigente ni como asesoramiento fiscal. Ensayo historico situado en26/10/2015, no en2026: madre trabajadora dada de alta y cotizando en el regimen general durante todo el mes, primera solicitud por un hijo biologico nacido10/02/2015 y con derecho supuesto al minimo por descendientes. No anterior beneficiario, fallecimiento/custodia por otra persona, mutualidad alternativa, representante, cambio de cuenta ni variacion80/81/82. Solo primera fila de seis hijos usada; todas las demas no proceden. CCC de forma numerica deliberadamente ficticio y sin checksum valido; no cuenta real. La casilla de lugar y fecha es una sola linea sin rotulos independientes. Fuente publicada28/02/2011, disposicion derogada en2020, sin pretension de vigencia actual. Modelo2020solo describia contenidos, no presentaba una verdadera tabla de entrada; no se ha convertido esa descripcion en un formulario inventado.\nPágina 1 / 1. Solicitante / Telefono10: TELEFONO-SINT-983-1\nPágina 1 / 1. Solicitante / Telefono11: TELEFONO-SINT-983-2\nPágina 1 / 1. Solicitante / Identificacion01-04 / 1: NIF-SINT-983\nPágina 1 / 1. Solicitante / Identificacion01-04 / 2: LAGO\nPágina 1 / 1. Solicitante / Identificacion01-04 / 3: PRUEBA\nPágina 1 / 1. Solicitante / Identificacion01-04 / 4: ANA SINTETICA\nPágina 1 / 1. Solicitante / Anterior beneficiario12: No procede: primera solicitud por la madre\nPágina 1 / 1. Solicitante / Persona distinta de madre13/14 / 1: No procede en este supuesto ficticio\nPágina 1 / 1. Solicitante / Persona distinta de madre13/14 / 2: No procede en este supuesto ficticio\nPágina 1 / 2. Régimen de la Seguridad Social o mutualidad en que la/el solicitante fi gura de alta / Numero50: AFILIACION-SINT-983\n2. Régimen de la Seguridad Social o mutualidad en que la/el solicitante fi gura de alta / Régimen: Régimen general S.S..\nPágina 1 / 2. Régimen de la Seguridad Social o mutualidad en que la/el solicitante fi gura de alta / Mutualidad administrativa54: No procede: regimen general, no casilla53\nPágina 1 / 2. Régimen de la Seguridad Social o mutualidad en que la/el solicitante fi gura de alta / Alternativa55/56 / 1: No procede en este supuesto ficticio\nPágina 1 / 2. Régimen de la Seguridad Social o mutualidad en que la/el solicitante fi gura de alta / Alternativa55/56 / 2: No procede en este supuesto ficticio\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila1, cinco regiones nativas / 1: No asignado al menor ficticio\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila1, cinco regiones nativas / 2: LAGO PRUEBA\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila1, cinco regiones nativas / 3: INFANTE SINTETICO\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila1, cinco regiones nativas / 4: 10/02/2015\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila1, cinco regiones nativas / 5: No procede: hijo biologico\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila2, cinco regiones nativas / 1: No procede en este supuesto ficticio\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila2, cinco regiones nativas / 2: No procede en este supuesto ficticio\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila2, cinco regiones nativas / 3: No procede en este supuesto ficticio\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila2, cinco regiones nativas / 4: No procede en este supuesto ficticio\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila2, cinco regiones nativas / 5: No procede en este supuesto ficticio\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila3, cinco regiones nativas / 1: No procede en este supuesto ficticio\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila3, cinco regiones nativas / 2: No procede en este supuesto ficticio\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila3, cinco regiones nativas / 3: No procede en este supuesto ficticio\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila3, cinco regiones nativas / 4: No procede en este supuesto ficticio\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila3, cinco regiones nativas / 5: No procede en este supuesto ficticio\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila4, cinco regiones nativas / 1: No procede en este supuesto ficticio\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila4, cinco regiones nativas / 2: No procede en este supuesto ficticio\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila4, cinco regiones nativas / 3: No procede en este supuesto ficticio\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila4, cinco regiones nativas / 4: No procede en este supuesto ficticio\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila4, cinco regiones nativas / 5: No procede en este supuesto ficticio\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila5, cinco regiones nativas / 1: No procede en este supuesto ficticio\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila5, cinco regiones nativas / 2: No procede en este supuesto ficticio\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila5, cinco regiones nativas / 3: No procede en este supuesto ficticio\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila5, cinco regiones nativas / 4: No procede en este supuesto ficticio\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila5, cinco regiones nativas / 5: No procede en este supuesto ficticio\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila6, cinco regiones nativas / 1: No procede en este supuesto ficticio\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila6, cinco regiones nativas / 2: No procede en este supuesto ficticio\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila6, cinco regiones nativas / 3: No procede en este supuesto ficticio\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila6, cinco regiones nativas / 4: No procede en este supuesto ficticio\nPágina 1 / 3. Hijos que dan derecho a la deducción por maternidad / Hijo fila6, cinco regiones nativas / 5: No procede en este supuesto ficticio\nPágina 1 / 4. Cuenta bancaria para el abono / CCC cuatro componentes rotulados / 1: 9999\nPágina 1 / 4. Cuenta bancaria para el abono / CCC cuatro componentes rotulados / 2: 0000\nPágina 1 / 4. Cuenta bancaria para el abono / CCC cuatro componentes rotulados / 3: 00\nPágina 1 / 4. Cuenta bancaria para el abono / CCC cuatro componentes rotulados / 4: 0000000983\n4. Cuenta bancaria para el abono / Si desea cambiar de cuenta bancaria, consigne los datos de la nueva cuenta y marque con una \"X\" esta casilla: . No se selecciona esta opcion: no corresponde a la rama o variacion del supuesto ficticio.\n5. Variaciones a efectos del abono mensual anticipado de la deducción por maternidad / Pérdida del derecho de la/del benefi ciaria/o al abono mensual anticipado de la deducción por maternidad (por fallecimiento, por haber causado baja en la Seguridad Social o mutualidad, por cambio de residencia o por otra causa) o renuncia de la/del benefi ciaria/o al abono mensual anticipado: . No se selecciona esta opcion: no corresponde a la rama o variacion del supuesto ficticio.\n5. Variaciones a efectos del abono mensual anticipado de la deducción por maternidad / Cambio de régimen de la Seguridad Social o mutualidad de la/del benefi ciaria/o (en este caso, indique en el apartado 2 los datos del nuevo régimen o mutualidad): . No se selecciona esta opcion: no corresponde a la rama o variacion del supuesto ficticio.\n5. Variaciones a efectos del abono mensual anticipado de la deducción por maternidad / Baja de alguno de los hijos a efectos de la deducción por maternidad (por fallecimiento, por cesar la convivencia con pérdida de la guarda y custodia o por obtener rentas superiores a 8.000 euros): . No se selecciona esta opcion: no corresponde a la rama o variacion del supuesto ficticio.\nPágina 1 / 5. Variaciones a efectos del abono mensual anticipado de la deducción por maternidad / Fecha83: No procede: solicitud inicial, sin variacion\nPágina 1 / 6. Representante / Representante94/95 / 1: No procede en este supuesto ficticio\nPágina 1 / 6. Representante / Representante94/95 / 2: No procede en este supuesto ficticio\nPágina 1 / 7. Fecha y fi rma / Una sola linea conjunta, no lugar/fecha separados: Valencia,26/10/2015\nPágina 1 / 7. Fecha y fi rma / Firma de la/del solicitante o de su representante:: Firma ficticia ANA LAGO PRUEBA SINTETICA",
+  "workflow_identity": {
+    "language": "es",
+    "id": 983
+  }
+}

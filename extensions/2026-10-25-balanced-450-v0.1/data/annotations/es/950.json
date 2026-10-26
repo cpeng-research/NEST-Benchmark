@@ -1,0 +1,288 @@
+{
+  "id": "es-950",
+  "language": "es",
+  "title": "Informe del preceptor de formación clínica activa",
+  "domain": "Education",
+  "issuer": "Autoridad Regulatoria Nuclear",
+  "issuer_id": "arn",
+  "template_family": "arn-preceptor-informe",
+  "source_version": "F19-r2",
+  "source_date_evidence": {
+    "kind": "printed code; date not stated",
+    "value": "F19-r2; no printed issue date",
+    "note": "Legal references and retrieval time are not source issue dates."
+  },
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/f19_r2_informe_preceptor.pdf",
+  "landing_url": "https://www.argentina.gob.ar/arn/instalaciones-practicas-y-personal-regulado/formularios-para-tramites",
+  "source_sha256": "6003cdeb2f9d7c7eadb398e167e66d81515faaa647eb1504812d5968f55afa30",
+  "source_pages": 1,
+  "retrieved_at": "2026-10-25T06:59:27.609767+00:00",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "Argentina.gob.ar portal-owned content is licensed CC BY 4.0 except where otherwise indicated. This official national-portal source carries no contrary notice. Attribution: Autoridad Regulatoria Nuclear. Complete semantic adaptation and fictional completion, not an official act or submission.",
+  "source_notice": "All original pages, writing regions, choices, instructions and notices retained. Source layout normalized; all completion values fictional.",
+  "synthetic_context": true,
+  "columns": 40,
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Declaro bajo juramento que",
+      "path": [
+        "Página 1",
+        "Practicante",
+        "Declaro bajo juramento que"
+      ],
+      "source_page": 1,
+      "source_anchor": "Declaro bajo juramento que",
+      "kind": "text",
+      "synthetic_value": "Dra. Clara Gil Ficticia"
+    },
+    {
+      "id": "f002",
+      "label": "Matrícula N°",
+      "path": [
+        "Página 1",
+        "Practicante",
+        "Matrícula N°"
+      ],
+      "source_page": 1,
+      "source_anchor": "Matrícula N°",
+      "kind": "text",
+      "synthetic_value": "MAT-SINT-950"
+    },
+    {
+      "id": "f003",
+      "label": "y que en consecuencia,",
+      "path": [
+        "Página 1",
+        "Resultado de la formación",
+        "y que en consecuencia,"
+      ],
+      "source_page": 1,
+      "source_anchor": "y que en consecuencia,",
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "ha obtenido"
+      ],
+      "options": [
+        "ha obtenido",
+        "no ha obtenido"
+      ],
+      "context_evidence": "Resultado de la formación / y que en consecuencia,: ha obtenido."
+    },
+    {
+      "id": "f004",
+      "label": "El juicio emitido por el suscripto se fundamenta en las consideraciones siguientes:",
+      "path": [
+        "Página 1",
+        "Fundamentos obligatorios",
+        "El juicio emitido por el suscripto se fundamenta en las consideraciones siguientes:"
+      ],
+      "source_page": 1,
+      "source_anchor": "El juicio emitido por el suscripto se fundamenta en las consideraciones siguientes:",
+      "kind": "text",
+      "synthetic_value": "La practicante ficticia completó las rotaciones exigidas y ejercicios supervisados de preparación, control de calidad, dosimetría y protección radiológica. Se evaluó satisfactoriamente su desempeño y criterio de seguridad en la formación clínica activa. Este texto no es un permiso emitido por ARN."
+    },
+    {
+      "id": "f005",
+      "label": "de",
+      "path": [
+        "Página 1",
+        "Fecha / día",
+        "de"
+      ],
+      "source_page": 1,
+      "source_anchor": "de",
+      "kind": "text",
+      "synthetic_value": "25"
+    },
+    {
+      "id": "f006",
+      "label": "de",
+      "path": [
+        "Página 1",
+        "Fecha / mes",
+        "de"
+      ],
+      "source_page": 1,
+      "source_anchor": "de",
+      "kind": "text",
+      "synthetic_value": "octubre"
+    },
+    {
+      "id": "f007",
+      "label": "20",
+      "path": [
+        "Página 1",
+        "Fecha / año",
+        "20"
+      ],
+      "source_page": 1,
+      "source_anchor": "20",
+      "kind": "text",
+      "synthetic_value": "26"
+    },
+    {
+      "id": "f008",
+      "label": "Firma del Preceptor",
+      "path": [
+        "Página 1",
+        "Preceptor",
+        "Firma del Preceptor"
+      ],
+      "source_page": 1,
+      "source_anchor": "Firma del Preceptor",
+      "kind": "text",
+      "synthetic_value": "Firma sintética de Dr. Raúl Prado Ficticio"
+    },
+    {
+      "id": "f009",
+      "label": "Aclaración",
+      "path": [
+        "Página 1",
+        "Preceptor",
+        "Aclaración"
+      ],
+      "source_page": 1,
+      "source_anchor": "Aclaración",
+      "kind": "text",
+      "synthetic_value": "Dr. Raúl Prado Ficticio"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Autoridad Regulatoria Nuclear",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "DEPENDIENTE DE LA PRESIDENCIA DE LA NACION",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "INFORME DEL PRECEPTOR",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Declaro bajo juramento que",
+        "field": "f001",
+        "source_page": 1,
+        "colspan": 30
+      },
+      {
+        "label": "Matrícula N°",
+        "field": "f002",
+        "source_page": 1,
+        "colspan": 10
+      }
+    ],
+    [
+      {
+        "text": "ha cumplido con la práctica clínica activa requerida por la Norma AR 8.11.2 “Requisitos mínimos de formación clínica activa para la obtención de permisos individuales con fines médicos” aprobada por Resolución del Directorio de la Autoridad Regulatoria Nuclear No 20/02, y que en consecuencia,",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "y que en consecuencia,",
+        "field": "f003",
+        "source_page": 1,
+        "colspan": 40
+      }
+    ],
+    [
+      {
+        "text": "una adecuada formación, que le permitirá realizar trabajos con trazadores radiactivos y/o radiaciones ionizantes en seres humanos, sin supervisión.",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "El juicio emitido por el suscripto se fundamenta en las consideraciones siguientes:",
+        "field": "f004",
+        "source_page": 1,
+        "colspan": 40
+      }
+    ],
+    [
+      {
+        "label": "de",
+        "field": "f005",
+        "source_page": 1,
+        "colspan": 10
+      },
+      {
+        "label": "de",
+        "field": "f006",
+        "source_page": 1,
+        "colspan": 20
+      },
+      {
+        "label": "20",
+        "field": "f007",
+        "source_page": 1,
+        "colspan": 10
+      }
+    ],
+    [
+      {
+        "label": "Firma del Preceptor",
+        "field": "f008",
+        "source_page": 1,
+        "colspan": 40
+      }
+    ],
+    [
+      {
+        "label": "Aclaración",
+        "field": "f009",
+        "source_page": 1,
+        "colspan": 40
+      }
+    ],
+    [
+      {
+        "text": "(*) Este espacio no debe quedar nunca en blanco.",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "AUTORIDAD REGULATORIA NUCLEAR Av. del Libertador 8250 – Ofic. 317 – (C1429BNP) - Ciudad Autónoma De Buenos Aires Tel.: (011)-6323-1356/1355; 0-800-555-1489; Fax: (011)-6323-1771/1798 Horario de atención: 9:00 a 15:00 hs. Horario de Tesorería: 10:00 a 15:00 hs Web: www.arn.gob.ar - e-mail: arn@ arn.gob.ar",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "F19 – r2",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ]
+  ],
+  "context": "CASO ENTERAMENTE FICTICIO. Ningún nombre, documento, licencia, institución, firma o actuación corresponde a una persona o trámite real.\nLa declaración evalúa satisfactoriamente una formación clínica ya terminada, no otorga por sí misma el permiso individual. La fecha separada es 25 de octubre de 2026 y el nombre aclarado coincide con el firmante preceptor.\nPágina 1 / Practicante / Declaro bajo juramento que: Dra. Clara Gil Ficticia\nPágina 1 / Practicante / Matrícula N°: MAT-SINT-950\nPágina 1 / Resultado de la formación / y que en consecuencia,: Resultado de la formación / y que en consecuencia,: ha obtenido.\nPágina 1 / Fundamentos obligatorios / El juicio emitido por el suscripto se fundamenta en las consideraciones siguientes:: La practicante ficticia completó las rotaciones exigidas y ejercicios supervisados de preparación, control de calidad, dosimetría y protección radiológica. Se evaluó satisfactoriamente su desempeño y criterio de seguridad en la formación clínica activa. Este texto no es un permiso emitido por ARN.\nPágina 1 / Fecha / día / de: 25\nPágina 1 / Fecha / mes / de: octubre\nPágina 1 / Fecha / año / 20: 26\nPágina 1 / Preceptor / Firma del Preceptor: Firma sintética de Dr. Raúl Prado Ficticio\nPágina 1 / Preceptor / Aclaración: Dr. Raúl Prado Ficticio",
+  "workflow_identity": {
+    "language": "es",
+    "id": 950
+  }
+}

@@ -1,0 +1,1530 @@
+{
+  "id": "es-968",
+  "language": "es",
+  "title": "F.855 - Autorizacion para emitir comprobante A",
+  "domain": "Finance",
+  "issuer": "Administracion Federal de Ingresos Publicos",
+  "issuer_id": "afip",
+  "template_family": "afip-855",
+  "source_version": "F.855; sin fecha de edicion impresa",
+  "source_date_evidence": {
+    "kind": "printed code; date not stated",
+    "value": "F.855; sin fecha de edicion impresa; no printed issue date",
+    "note": "Legal references and retrieval time are not source issue dates."
+  },
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/formulario_855.pdf",
+  "landing_url": "https://www.argentina.gob.ar/servicio/autorizar-emision-de-comprobantes-clase",
+  "source_sha256": "c8dbda1eaa12be5b85d9df3615b020cf272d1ef261104c8a4f0091e7b8c09e60",
+  "source_pages": 1,
+  "retrieved_at": "2026-10-25T08:43:01.636646+00:00",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "Argentina.gob.ar portal-owned content is licensed CC BY 4.0 except where otherwise indicated. This official national-portal source carries no contrary notice. Attribution: Administracion Federal de Ingresos Publicos. Complete semantic adaptation and fictional completion, not an official act or submission.",
+  "source_notice": "All original pages, writing regions, choices, instructions and notices retained. Source layout normalized; all completion values fictional.",
+  "synthetic_context": true,
+  "columns": 40,
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Sello fechador de recepción",
+      "path": [
+        "Página 1",
+        "Recepcion",
+        "Sello fechador de recepción"
+      ],
+      "source_page": 1,
+      "source_anchor": "Sello fechador de recepción",
+      "kind": "text",
+      "synthetic_value": "Recepcion ficticia sin sello oficial"
+    },
+    {
+      "id": "f002",
+      "label": "Original (1)",
+      "path": [
+        "Página 1",
+        "Tipo de presentacion",
+        "Original (1)"
+      ],
+      "source_page": 1,
+      "source_anchor": "Original (1)",
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Original (1)"
+      ],
+      "options": [
+        "Original (1)",
+        "Rectificativa (1)"
+      ],
+      "context_evidence": "Tipo de presentacion / Original (1): Original (1)."
+    },
+    {
+      "id": "f003",
+      "label": "Hoja",
+      "path": [
+        "Página 1",
+        "Presentacion / hoja",
+        "Hoja"
+      ],
+      "source_page": 1,
+      "source_anchor": "Hoja",
+      "kind": "text",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "f004",
+      "label": "de",
+      "path": [
+        "Página 1",
+        "Presentacion / total hojas",
+        "de"
+      ],
+      "source_page": 1,
+      "source_anchor": "de",
+      "kind": "text",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "f005",
+      "label": "Rectificativa (1) N°",
+      "path": [
+        "Página 1",
+        "Presentacion",
+        "Rectificativa (1) N°"
+      ],
+      "source_page": 1,
+      "source_anchor": "Rectificativa (1) N°",
+      "kind": "text",
+      "synthetic_value": "No aplica; original"
+    },
+    {
+      "id": "f006",
+      "label": "DEPENDENCIA AFIP-DGI",
+      "path": [
+        "Página 1",
+        "Administracion",
+        "DEPENDENCIA AFIP-DGI"
+      ],
+      "source_page": 1,
+      "source_anchor": "DEPENDENCIA AFIP-DGI",
+      "kind": "text",
+      "synthetic_value": "Agencia ficticia 968"
+    },
+    {
+      "id": "f007",
+      "label": "USO DGI",
+      "path": [
+        "Página 1",
+        "Administracion",
+        "USO DGI"
+      ],
+      "source_page": 1,
+      "source_anchor": "USO DGI",
+      "kind": "text",
+      "synthetic_value": "Reservado, sin codigo real"
+    },
+    {
+      "id": "f008",
+      "label": "CUIT",
+      "path": [
+        "Página 1",
+        "Solicitante",
+        "CUIT"
+      ],
+      "source_page": 1,
+      "source_anchor": "CUIT",
+      "kind": "text",
+      "synthetic_value": "20-30000968-2"
+    },
+    {
+      "id": "f009",
+      "label": "Apellido y nombres:",
+      "path": [
+        "Página 1",
+        "Solicitante",
+        "Apellido y nombres:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Apellido y nombres:",
+      "kind": "text",
+      "synthetic_value": "Mario Soler Ficticio"
+    },
+    {
+      "id": "f010",
+      "label": "DECLARACION JURADA DE BIENES PERSONALES",
+      "path": [
+        "Página 1",
+        "Fundamento patrimonial",
+        "DECLARACION JURADA DE BIENES PERSONALES"
+      ],
+      "source_page": 1,
+      "source_anchor": "DECLARACION JURADA DE BIENES PERSONALES",
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "DECLARACION JURADA DE BIENES PERSONALES"
+      ],
+      "options": [
+        "DECLARACION JURADA DE BIENES PERSONALES"
+      ],
+      "context_evidence": "Fundamento patrimonial / DECLARACION JURADA DE BIENES PERSONALES: DECLARACION JURADA DE BIENES PERSONALES."
+    },
+    {
+      "id": "f011",
+      "label": "Período fiscal",
+      "path": [
+        "Página 1",
+        "Bienes personales",
+        "Período fiscal"
+      ],
+      "source_page": 1,
+      "source_anchor": "Período fiscal",
+      "kind": "text",
+      "synthetic_value": "2025"
+    },
+    {
+      "id": "f012",
+      "label": "Fecha de presentación",
+      "path": [
+        "Página 1",
+        "Bienes personales",
+        "Fecha de presentación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Fecha de presentación",
+      "kind": "text",
+      "synthetic_value": "15/06/2026"
+    },
+    {
+      "id": "f013",
+      "label": "Total de bienes sujetos a impuesto (2)",
+      "path": [
+        "Página 1",
+        "Bienes personales",
+        "Total de bienes sujetos a impuesto (2)"
+      ],
+      "source_page": 1,
+      "source_anchor": "Total de bienes sujetos a impuesto (2)",
+      "kind": "text",
+      "synthetic_value": "150000000"
+    },
+    {
+      "id": "f014",
+      "label": "BIENES INMUEBLES",
+      "path": [
+        "Página 1",
+        "Inmuebles",
+        "BIENES INMUEBLES"
+      ],
+      "source_page": 1,
+      "source_anchor": "BIENES INMUEBLES",
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "BIENES INMUEBLES"
+      ],
+      "options": [
+        "BIENES INMUEBLES"
+      ],
+      "context_evidence": "Inmuebles / BIENES INMUEBLES: BIENES INMUEBLES."
+    },
+    {
+      "id": "f015",
+      "label": "Bienes al 31/12/",
+      "path": [
+        "Página 1",
+        "Inmuebles / corte",
+        "Bienes al 31/12/"
+      ],
+      "source_page": 1,
+      "source_anchor": "Bienes al 31/12/",
+      "kind": "text",
+      "synthetic_value": "2025"
+    },
+    {
+      "id": "f016",
+      "label": "Importe total computable:",
+      "path": [
+        "Página 1",
+        "Inmuebles / total",
+        "Importe total computable:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Importe total computable:",
+      "kind": "text",
+      "synthetic_value": "120000000"
+    },
+    {
+      "id": "f017",
+      "label": "Calle:",
+      "path": [
+        "Página 1",
+        "Inmueble 1",
+        "Calle:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Calle:",
+      "kind": "text",
+      "synthetic_value": "Calle Ficticia 969"
+    },
+    {
+      "id": "f018",
+      "label": "N°:",
+      "path": [
+        "Página 1",
+        "Inmueble 1",
+        "N°:"
+      ],
+      "source_page": 1,
+      "source_anchor": "N°:",
+      "kind": "text",
+      "synthetic_value": "201"
+    },
+    {
+      "id": "f019",
+      "label": "Piso:",
+      "path": [
+        "Página 1",
+        "Inmueble 1",
+        "Piso:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Piso:",
+      "kind": "text",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "f020",
+      "label": "Depto. / Ofic:",
+      "path": [
+        "Página 1",
+        "Inmueble 1",
+        "Depto. / Ofic:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Depto. / Ofic:",
+      "kind": "text",
+      "synthetic_value": "A"
+    },
+    {
+      "id": "f021",
+      "label": "Localidad:",
+      "path": [
+        "Página 1",
+        "Inmueble 1",
+        "Localidad:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Localidad:",
+      "kind": "text",
+      "synthetic_value": "Rosario"
+    },
+    {
+      "id": "f022",
+      "label": "C.P.:",
+      "path": [
+        "Página 1",
+        "Inmueble 1",
+        "C.P.:"
+      ],
+      "source_page": 1,
+      "source_anchor": "C.P.:",
+      "kind": "text",
+      "synthetic_value": "2000"
+    },
+    {
+      "id": "f023",
+      "label": "Provincia:",
+      "path": [
+        "Página 1",
+        "Inmueble 1",
+        "Provincia:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Provincia:",
+      "kind": "text",
+      "synthetic_value": "Santa Fe"
+    },
+    {
+      "id": "f024",
+      "label": "Catastro:",
+      "path": [
+        "Página 1",
+        "Inmueble 1",
+        "Catastro:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Catastro:",
+      "kind": "text",
+      "synthetic_value": "CAT-SINT-968-1"
+    },
+    {
+      "id": "f025",
+      "label": "Partido:",
+      "path": [
+        "Página 1",
+        "Inmueble 1",
+        "Partido:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Partido:",
+      "kind": "text",
+      "synthetic_value": "Rosario"
+    },
+    {
+      "id": "f026",
+      "label": "Partida:",
+      "path": [
+        "Página 1",
+        "Inmueble 1",
+        "Partida:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Partida:",
+      "kind": "text",
+      "synthetic_value": "PART-SINT-1"
+    },
+    {
+      "id": "f027",
+      "label": "Díg:",
+      "path": [
+        "Página 1",
+        "Inmueble 1",
+        "Díg:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Díg:",
+      "kind": "text",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f028",
+      "label": "Valor (3):",
+      "path": [
+        "Página 1",
+        "Inmueble 1",
+        "Valor (3):"
+      ],
+      "source_page": 1,
+      "source_anchor": "Valor (3):",
+      "kind": "text",
+      "synthetic_value": "60000000"
+    },
+    {
+      "id": "f029",
+      "label": "% Participación:",
+      "path": [
+        "Página 1",
+        "Inmueble 1",
+        "% Participación:"
+      ],
+      "source_page": 1,
+      "source_anchor": "% Participación:",
+      "kind": "text",
+      "synthetic_value": "100"
+    },
+    {
+      "id": "f030",
+      "label": "Importe Computable:",
+      "path": [
+        "Página 1",
+        "Inmueble 1",
+        "Importe Computable:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Importe Computable:",
+      "kind": "text",
+      "synthetic_value": "60000000"
+    },
+    {
+      "id": "f031",
+      "label": "Calle:",
+      "path": [
+        "Página 1",
+        "Inmueble 2",
+        "Calle:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Calle:",
+      "kind": "text",
+      "synthetic_value": "Calle Ficticia 970"
+    },
+    {
+      "id": "f032",
+      "label": "Localidad:",
+      "path": [
+        "Página 1",
+        "Inmueble 2 / fila calle",
+        "Localidad:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Localidad:",
+      "kind": "text",
+      "synthetic_value": "Rosario"
+    },
+    {
+      "id": "f033",
+      "label": "N°:",
+      "path": [
+        "Página 1",
+        "Inmueble 2",
+        "N°:"
+      ],
+      "source_page": 1,
+      "source_anchor": "N°:",
+      "kind": "text",
+      "synthetic_value": "202"
+    },
+    {
+      "id": "f034",
+      "label": "Piso:",
+      "path": [
+        "Página 1",
+        "Inmueble 2",
+        "Piso:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Piso:",
+      "kind": "text",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "f035",
+      "label": "Depto. / Ofic:",
+      "path": [
+        "Página 1",
+        "Inmueble 2",
+        "Depto. / Ofic:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Depto. / Ofic:",
+      "kind": "text",
+      "synthetic_value": "A"
+    },
+    {
+      "id": "f036",
+      "label": "Localidad:",
+      "path": [
+        "Página 1",
+        "Inmueble 2",
+        "Localidad:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Localidad:",
+      "kind": "text",
+      "synthetic_value": "Rosario"
+    },
+    {
+      "id": "f037",
+      "label": "C.P.:",
+      "path": [
+        "Página 1",
+        "Inmueble 2",
+        "C.P.:"
+      ],
+      "source_page": 1,
+      "source_anchor": "C.P.:",
+      "kind": "text",
+      "synthetic_value": "2000"
+    },
+    {
+      "id": "f038",
+      "label": "Provincia:",
+      "path": [
+        "Página 1",
+        "Inmueble 2",
+        "Provincia:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Provincia:",
+      "kind": "text",
+      "synthetic_value": "Santa Fe"
+    },
+    {
+      "id": "f039",
+      "label": "Catastro:",
+      "path": [
+        "Página 1",
+        "Inmueble 2",
+        "Catastro:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Catastro:",
+      "kind": "text",
+      "synthetic_value": "CAT-SINT-968-2"
+    },
+    {
+      "id": "f040",
+      "label": "Partido:",
+      "path": [
+        "Página 1",
+        "Inmueble 2",
+        "Partido:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Partido:",
+      "kind": "text",
+      "synthetic_value": "Rosario"
+    },
+    {
+      "id": "f041",
+      "label": "Partida:",
+      "path": [
+        "Página 1",
+        "Inmueble 2",
+        "Partida:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Partida:",
+      "kind": "text",
+      "synthetic_value": "PART-SINT-2"
+    },
+    {
+      "id": "f042",
+      "label": "Díg:",
+      "path": [
+        "Página 1",
+        "Inmueble 2",
+        "Díg:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Díg:",
+      "kind": "text",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f043",
+      "label": "Valor (3):",
+      "path": [
+        "Página 1",
+        "Inmueble 2",
+        "Valor (3):"
+      ],
+      "source_page": 1,
+      "source_anchor": "Valor (3):",
+      "kind": "text",
+      "synthetic_value": "60000000"
+    },
+    {
+      "id": "f044",
+      "label": "% Participación:",
+      "path": [
+        "Página 1",
+        "Inmueble 2",
+        "% Participación:"
+      ],
+      "source_page": 1,
+      "source_anchor": "% Participación:",
+      "kind": "text",
+      "synthetic_value": "100"
+    },
+    {
+      "id": "f045",
+      "label": "Importe Computable:",
+      "path": [
+        "Página 1",
+        "Inmueble 2",
+        "Importe Computable:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Importe Computable:",
+      "kind": "text",
+      "synthetic_value": "60000000"
+    },
+    {
+      "id": "f046",
+      "label": "AUTOMOTORES",
+      "path": [
+        "Página 1",
+        "Automotores",
+        "AUTOMOTORES"
+      ],
+      "source_page": 1,
+      "source_anchor": "AUTOMOTORES",
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "AUTOMOTORES"
+      ],
+      "options": [
+        "AUTOMOTORES"
+      ],
+      "context_evidence": "Automotores / AUTOMOTORES: AUTOMOTORES."
+    },
+    {
+      "id": "f047",
+      "label": "Bienes al 31/12/",
+      "path": [
+        "Página 1",
+        "Automotores / corte",
+        "Bienes al 31/12/"
+      ],
+      "source_page": 1,
+      "source_anchor": "Bienes al 31/12/",
+      "kind": "text",
+      "synthetic_value": "2025"
+    },
+    {
+      "id": "f048",
+      "label": "Importe total computable:",
+      "path": [
+        "Página 1",
+        "Automotores / total",
+        "Importe total computable:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Importe total computable:",
+      "kind": "text",
+      "synthetic_value": "30000000"
+    },
+    {
+      "id": "f049",
+      "label": "Marca:",
+      "path": [
+        "Página 1",
+        "Automotor 1",
+        "Marca:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Marca:",
+      "kind": "text",
+      "synthetic_value": "Marca Ficticia"
+    },
+    {
+      "id": "f050",
+      "label": "Modelo:",
+      "path": [
+        "Página 1",
+        "Automotor 1",
+        "Modelo:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Modelo:",
+      "kind": "text",
+      "synthetic_value": "Modelo 1"
+    },
+    {
+      "id": "f051",
+      "label": "Fábrica:",
+      "path": [
+        "Página 1",
+        "Automotor 1",
+        "Fábrica:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Fábrica:",
+      "kind": "text",
+      "synthetic_value": "Fabrica Sintetica"
+    },
+    {
+      "id": "f052",
+      "label": "Año de fab:",
+      "path": [
+        "Página 1",
+        "Automotor 1",
+        "Año de fab:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Año de fab:",
+      "kind": "text",
+      "synthetic_value": "2024"
+    },
+    {
+      "id": "f053",
+      "label": "Patente:",
+      "path": [
+        "Página 1",
+        "Automotor 1",
+        "Patente:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Patente:",
+      "kind": "text",
+      "synthetic_value": "SINT-968-1"
+    },
+    {
+      "id": "f054",
+      "label": "Valor (4):",
+      "path": [
+        "Página 1",
+        "Automotor 1",
+        "Valor (4):"
+      ],
+      "source_page": 1,
+      "source_anchor": "Valor (4):",
+      "kind": "text",
+      "synthetic_value": "15000000"
+    },
+    {
+      "id": "f055",
+      "label": "% Participación:",
+      "path": [
+        "Página 1",
+        "Automotor 1",
+        "% Participación:"
+      ],
+      "source_page": 1,
+      "source_anchor": "% Participación:",
+      "kind": "text",
+      "synthetic_value": "100"
+    },
+    {
+      "id": "f056",
+      "label": "Importe Computable:",
+      "path": [
+        "Página 1",
+        "Automotor 1",
+        "Importe Computable:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Importe Computable:",
+      "kind": "text",
+      "synthetic_value": "15000000"
+    },
+    {
+      "id": "f057",
+      "label": "Marca:",
+      "path": [
+        "Página 1",
+        "Automotor 2",
+        "Marca:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Marca:",
+      "kind": "text",
+      "synthetic_value": "Marca Ficticia"
+    },
+    {
+      "id": "f058",
+      "label": "Modelo:",
+      "path": [
+        "Página 1",
+        "Automotor 2",
+        "Modelo:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Modelo:",
+      "kind": "text",
+      "synthetic_value": "Modelo 2"
+    },
+    {
+      "id": "f059",
+      "label": "Fábrica:",
+      "path": [
+        "Página 1",
+        "Automotor 2",
+        "Fábrica:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Fábrica:",
+      "kind": "text",
+      "synthetic_value": "Fabrica Sintetica"
+    },
+    {
+      "id": "f060",
+      "label": "Año de fab:",
+      "path": [
+        "Página 1",
+        "Automotor 2",
+        "Año de fab:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Año de fab:",
+      "kind": "text",
+      "synthetic_value": "2024"
+    },
+    {
+      "id": "f061",
+      "label": "Patente:",
+      "path": [
+        "Página 1",
+        "Automotor 2",
+        "Patente:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Patente:",
+      "kind": "text",
+      "synthetic_value": "SINT-968-2"
+    },
+    {
+      "id": "f062",
+      "label": "Valor (4):",
+      "path": [
+        "Página 1",
+        "Automotor 2",
+        "Valor (4):"
+      ],
+      "source_page": 1,
+      "source_anchor": "Valor (4):",
+      "kind": "text",
+      "synthetic_value": "15000000"
+    },
+    {
+      "id": "f063",
+      "label": "% Participación:",
+      "path": [
+        "Página 1",
+        "Automotor 2",
+        "% Participación:"
+      ],
+      "source_page": 1,
+      "source_anchor": "% Participación:",
+      "kind": "text",
+      "synthetic_value": "100"
+    },
+    {
+      "id": "f064",
+      "label": "Importe Computable:",
+      "path": [
+        "Página 1",
+        "Automotor 2",
+        "Importe Computable:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Importe Computable:",
+      "kind": "text",
+      "synthetic_value": "15000000"
+    },
+    {
+      "id": "f065",
+      "label": "OPCION PARA EMITIR COMPROBANTES CLASE “A” CON LEYENDA",
+      "path": [
+        "Página 1",
+        "Opcion bancaria",
+        "OPCION PARA EMITIR COMPROBANTES CLASE “A” CON LEYENDA"
+      ],
+      "source_page": 1,
+      "source_anchor": "OPCION PARA EMITIR COMPROBANTES CLASE “A” CON LEYENDA",
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "OPCION PARA EMITIR COMPROBANTES CLASE “A” CON LEYENDA"
+      ],
+      "options": [
+        "OPCION PARA EMITIR COMPROBANTES CLASE “A” CON LEYENDA"
+      ],
+      "context_evidence": "Opcion bancaria / OPCION PARA EMITIR COMPROBANTES CLASE “A” CON LEYENDA: OPCION PARA EMITIR COMPROBANTES CLASE “A” CON LEYENDA."
+    },
+    {
+      "id": "f066",
+      "label": "Clave Bancaria Uniforme (CBU):",
+      "path": [
+        "Página 1",
+        "Cuenta bancaria ficticia",
+        "Clave Bancaria Uniforme (CBU):"
+      ],
+      "source_page": 1,
+      "source_anchor": "Clave Bancaria Uniforme (CBU):",
+      "kind": "text",
+      "synthetic_value": "0000000000000000096800"
+    },
+    {
+      "id": "f067",
+      "label": "Banco emisor:",
+      "path": [
+        "Página 1",
+        "Cuenta bancaria ficticia",
+        "Banco emisor:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Banco emisor:",
+      "kind": "text",
+      "synthetic_value": "Banco Ficticio"
+    },
+    {
+      "id": "f068",
+      "label": "El que suscribe, don",
+      "path": [
+        "Página 1",
+        "Declaracion",
+        "El que suscribe, don"
+      ],
+      "source_page": 1,
+      "source_anchor": "El que suscribe, don",
+      "kind": "text",
+      "synthetic_value": "Mario Soler Ficticio"
+    },
+    {
+      "id": "f069",
+      "label": "en su carácter de (6)",
+      "path": [
+        "Página 1",
+        "Declaracion",
+        "en su carácter de (6)"
+      ],
+      "source_page": 1,
+      "source_anchor": "en su carácter de (6)",
+      "kind": "text",
+      "synthetic_value": "Titular"
+    },
+    {
+      "id": "f070",
+      "label": "Lugar y fecha:",
+      "path": [
+        "Página 1",
+        "Declaracion",
+        "Lugar y fecha:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Lugar y fecha:",
+      "kind": "text",
+      "synthetic_value": "Rosario, 25/10/2026"
+    },
+    {
+      "id": "f071",
+      "label": "Firma y sello:",
+      "path": [
+        "Página 1",
+        "Declaracion",
+        "Firma y sello:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Firma y sello:",
+      "kind": "text",
+      "synthetic_value": "Firma sintetica de Mario Soler Ficticio"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "F. 855",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Solicitud de Autorización para emitir comprobante “A”",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Sello fechador de recepción",
+        "field": "f001",
+        "source_page": 1,
+        "colspan": 20
+      },
+      {
+        "text": "DECLARACIÓN JURADA Personas Físicas o Sucesiones Indivisas",
+        "source_page": 1,
+        "colspan": 20,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Original (1)",
+        "field": "f002",
+        "source_page": 1,
+        "colspan": 18
+      },
+      {
+        "label": "Hoja",
+        "field": "f003",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "de",
+        "field": "f004",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Rectificativa (1) N°",
+        "field": "f005",
+        "source_page": 1,
+        "colspan": 10
+      }
+    ],
+    [
+      {
+        "label": "DEPENDENCIA AFIP-DGI",
+        "field": "f006",
+        "source_page": 1,
+        "colspan": 28
+      },
+      {
+        "label": "USO DGI",
+        "field": "f007",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "DATOS DEL SOLICITANTE",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "CUIT",
+        "field": "f008",
+        "source_page": 1,
+        "colspan": 40
+      }
+    ],
+    [
+      {
+        "label": "Apellido y nombres:",
+        "field": "f009",
+        "source_page": 1,
+        "colspan": 40
+      }
+    ],
+    [
+      {
+        "label": "DECLARACION JURADA DE BIENES PERSONALES",
+        "field": "f010",
+        "source_page": 1,
+        "colspan": 40
+      }
+    ],
+    [
+      {
+        "label": "Período fiscal",
+        "field": "f011",
+        "source_page": 1,
+        "colspan": 10
+      },
+      {
+        "label": "Fecha de presentación",
+        "field": "f012",
+        "source_page": 1,
+        "colspan": 14
+      },
+      {
+        "label": "Total de bienes sujetos a impuesto (2)",
+        "field": "f013",
+        "source_page": 1,
+        "colspan": 16
+      }
+    ],
+    [
+      {
+        "label": "BIENES INMUEBLES",
+        "field": "f014",
+        "source_page": 1,
+        "colspan": 40
+      }
+    ],
+    [
+      {
+        "label": "Bienes al 31/12/",
+        "field": "f015",
+        "source_page": 1,
+        "colspan": 18
+      },
+      {
+        "label": "Importe total computable:",
+        "field": "f016",
+        "source_page": 1,
+        "colspan": 22
+      }
+    ],
+    [
+      {
+        "label": "Calle:",
+        "field": "f017",
+        "source_page": 1,
+        "colspan": 22
+      },
+      {
+        "label": "N°:",
+        "field": "f018",
+        "source_page": 1,
+        "colspan": 10
+      },
+      {
+        "label": "Piso:",
+        "field": "f019",
+        "source_page": 1,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "label": "Depto. / Ofic:",
+        "field": "f020",
+        "source_page": 1,
+        "colspan": 13
+      },
+      {
+        "label": "Localidad:",
+        "field": "f021",
+        "source_page": 1,
+        "colspan": 19
+      },
+      {
+        "label": "C.P.:",
+        "field": "f022",
+        "source_page": 1,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "label": "Provincia:",
+        "field": "f023",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "Catastro:",
+        "field": "f024",
+        "source_page": 1,
+        "colspan": 10
+      },
+      {
+        "label": "Partido:",
+        "field": "f025",
+        "source_page": 1,
+        "colspan": 7
+      },
+      {
+        "label": "Partida:",
+        "field": "f026",
+        "source_page": 1,
+        "colspan": 7
+      },
+      {
+        "label": "Díg:",
+        "field": "f027",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "Valor (3):",
+        "field": "f028",
+        "source_page": 1,
+        "colspan": 14
+      },
+      {
+        "label": "% Participación:",
+        "field": "f029",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "Importe Computable:",
+        "field": "f030",
+        "source_page": 1,
+        "colspan": 14
+      }
+    ],
+    [
+      {
+        "label": "Calle:",
+        "field": "f031",
+        "source_page": 1,
+        "colspan": 14
+      },
+      {
+        "label": "Localidad:",
+        "field": "f032",
+        "source_page": 1,
+        "colspan": 10
+      },
+      {
+        "label": "N°:",
+        "field": "f033",
+        "source_page": 1,
+        "colspan": 8
+      },
+      {
+        "label": "Piso:",
+        "field": "f034",
+        "source_page": 1,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "label": "Depto. / Ofic:",
+        "field": "f035",
+        "source_page": 1,
+        "colspan": 13
+      },
+      {
+        "label": "Localidad:",
+        "field": "f036",
+        "source_page": 1,
+        "colspan": 19
+      },
+      {
+        "label": "C.P.:",
+        "field": "f037",
+        "source_page": 1,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "label": "Provincia:",
+        "field": "f038",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "Catastro:",
+        "field": "f039",
+        "source_page": 1,
+        "colspan": 10
+      },
+      {
+        "label": "Partido:",
+        "field": "f040",
+        "source_page": 1,
+        "colspan": 7
+      },
+      {
+        "label": "Partida:",
+        "field": "f041",
+        "source_page": 1,
+        "colspan": 7
+      },
+      {
+        "label": "Díg:",
+        "field": "f042",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "Valor (3):",
+        "field": "f043",
+        "source_page": 1,
+        "colspan": 14
+      },
+      {
+        "label": "% Participación:",
+        "field": "f044",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "Importe Computable:",
+        "field": "f045",
+        "source_page": 1,
+        "colspan": 14
+      }
+    ],
+    [
+      {
+        "label": "AUTOMOTORES",
+        "field": "f046",
+        "source_page": 1,
+        "colspan": 40
+      }
+    ],
+    [
+      {
+        "label": "Bienes al 31/12/",
+        "field": "f047",
+        "source_page": 1,
+        "colspan": 18
+      },
+      {
+        "label": "Importe total computable:",
+        "field": "f048",
+        "source_page": 1,
+        "colspan": 22
+      }
+    ],
+    [
+      {
+        "label": "Marca:",
+        "field": "f049",
+        "source_page": 1,
+        "colspan": 9
+      },
+      {
+        "label": "Modelo:",
+        "field": "f050",
+        "source_page": 1,
+        "colspan": 9
+      },
+      {
+        "label": "Fábrica:",
+        "field": "f051",
+        "source_page": 1,
+        "colspan": 10
+      },
+      {
+        "label": "Año de fab:",
+        "field": "f052",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Patente:",
+        "field": "f053",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Valor (4):",
+        "field": "f054",
+        "source_page": 1,
+        "colspan": 14
+      },
+      {
+        "label": "% Participación:",
+        "field": "f055",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "Importe Computable:",
+        "field": "f056",
+        "source_page": 1,
+        "colspan": 14
+      }
+    ],
+    [
+      {
+        "label": "Marca:",
+        "field": "f057",
+        "source_page": 1,
+        "colspan": 9
+      },
+      {
+        "label": "Modelo:",
+        "field": "f058",
+        "source_page": 1,
+        "colspan": 9
+      },
+      {
+        "label": "Fábrica:",
+        "field": "f059",
+        "source_page": 1,
+        "colspan": 10
+      },
+      {
+        "label": "Año de fab:",
+        "field": "f060",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Patente:",
+        "field": "f061",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Valor (4):",
+        "field": "f062",
+        "source_page": 1,
+        "colspan": 14
+      },
+      {
+        "label": "% Participación:",
+        "field": "f063",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "Importe Computable:",
+        "field": "f064",
+        "source_page": 1,
+        "colspan": 14
+      }
+    ],
+    [
+      {
+        "label": "OPCION PARA EMITIR COMPROBANTES CLASE “A” CON LEYENDA",
+        "field": "f065",
+        "source_page": 1,
+        "colspan": 40
+      }
+    ],
+    [
+      {
+        "text": "En caso de no ejercer la opción será autorizado a emitir comprobantes clase “M”",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Clave Bancaria Uniforme (CBU):",
+        "field": "f066",
+        "source_page": 1,
+        "colspan": 24
+      },
+      {
+        "label": "Banco emisor:",
+        "field": "f067",
+        "source_page": 1,
+        "colspan": 16
+      }
+    ],
+    [
+      {
+        "label": "El que suscribe, don",
+        "field": "f068",
+        "source_page": 1,
+        "colspan": 25
+      },
+      {
+        "label": "en su carácter de (6)",
+        "field": "f069",
+        "source_page": 1,
+        "colspan": 15
+      }
+    ],
+    [
+      {
+        "text": "afirma que la información consignada en este formulario es correcta y completa y que esta declaración jurada se ha confeccionado sin omitir dato alguno que deba contener, siendo fiel expresión de la verdad.",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Lugar y fecha:",
+        "field": "f070",
+        "source_page": 1,
+        "colspan": 20
+      },
+      {
+        "label": "Firma y sello:",
+        "field": "f071",
+        "source_page": 1,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "(1) Marcar lo que corresponda. (2) Según campo 914 de la DDJJ de Bs. Personales. (3) Según escritura o valuación fiscal. (4) Según Resolución general pertinente.",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "(5) De ejercer la opción deberá informarse obligatoriamente la CBU. (6) Titular o representante legal. Si el contribuyente necesita declarar una cantidad mayor de inmuebles o automotores de la prevista en el presente formulario, podrá presentar tantos formularios F.855 como estime conveniente.",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ]
+  ],
+  "context": "CASO ENTERAMENTE FICTICIO. Ningún nombre, documento, licencia, institución, firma o actuación corresponde a una persona o trámite real.\nOriginal de una hoja. Dos inmuebles de 60000000 y dos automotores de 15000000 con participacion del 100 por ciento: totales 120000000 y 30000000, patrimonio 150000000. Se marcan las tres bases patrimoniales y la opcion A con leyenda; CBU completo ficticio obligatorio presente. Sin rectificativa. Las dos apariciones de Localidad en el segundo inmueble son entradas separadas del original y ambas consignan Rosario.\nPágina 1 / Recepcion / Sello fechador de recepción: Recepcion ficticia sin sello oficial\nPágina 1 / Tipo de presentacion / Original (1): Tipo de presentacion / Original (1): Original (1).\nPágina 1 / Presentacion / hoja / Hoja: 1\nPágina 1 / Presentacion / total hojas / de: 1\nPágina 1 / Presentacion / Rectificativa (1) N°: No aplica; original\nPágina 1 / Administracion / DEPENDENCIA AFIP-DGI: Agencia ficticia 968\nPágina 1 / Administracion / USO DGI: Reservado, sin codigo real\nPágina 1 / Solicitante / CUIT: 20-30000968-2\nPágina 1 / Solicitante / Apellido y nombres:: Mario Soler Ficticio\nPágina 1 / Fundamento patrimonial / DECLARACION JURADA DE BIENES PERSONALES: Fundamento patrimonial / DECLARACION JURADA DE BIENES PERSONALES: DECLARACION JURADA DE BIENES PERSONALES.\nPágina 1 / Bienes personales / Período fiscal: 2025\nPágina 1 / Bienes personales / Fecha de presentación: 15/06/2026\nPágina 1 / Bienes personales / Total de bienes sujetos a impuesto (2): 150000000\nPágina 1 / Inmuebles / BIENES INMUEBLES: Inmuebles / BIENES INMUEBLES: BIENES INMUEBLES.\nPágina 1 / Inmuebles / corte / Bienes al 31/12/: 2025\nPágina 1 / Inmuebles / total / Importe total computable:: 120000000\nPágina 1 / Inmueble 1 / Calle:: Calle Ficticia 969\nPágina 1 / Inmueble 1 / N°:: 201\nPágina 1 / Inmueble 1 / Piso:: 1\nPágina 1 / Inmueble 1 / Depto. / Ofic:: A\nPágina 1 / Inmueble 1 / Localidad:: Rosario\nPágina 1 / Inmueble 1 / C.P.:: 2000\nPágina 1 / Inmueble 1 / Provincia:: Santa Fe\nPágina 1 / Inmueble 1 / Catastro:: CAT-SINT-968-1\nPágina 1 / Inmueble 1 / Partido:: Rosario\nPágina 1 / Inmueble 1 / Partida:: PART-SINT-1\nPágina 1 / Inmueble 1 / Díg:: 0\nPágina 1 / Inmueble 1 / Valor (3):: 60000000\nPágina 1 / Inmueble 1 / % Participación:: 100\nPágina 1 / Inmueble 1 / Importe Computable:: 60000000\nPágina 1 / Inmueble 2 / Calle:: Calle Ficticia 970\nPágina 1 / Inmueble 2 / fila calle / Localidad:: Rosario\nPágina 1 / Inmueble 2 / N°:: 202\nPágina 1 / Inmueble 2 / Piso:: 1\nPágina 1 / Inmueble 2 / Depto. / Ofic:: A\nPágina 1 / Inmueble 2 / Localidad:: Rosario\nPágina 1 / Inmueble 2 / C.P.:: 2000\nPágina 1 / Inmueble 2 / Provincia:: Santa Fe\nPágina 1 / Inmueble 2 / Catastro:: CAT-SINT-968-2\nPágina 1 / Inmueble 2 / Partido:: Rosario\nPágina 1 / Inmueble 2 / Partida:: PART-SINT-2\nPágina 1 / Inmueble 2 / Díg:: 0\nPágina 1 / Inmueble 2 / Valor (3):: 60000000\nPágina 1 / Inmueble 2 / % Participación:: 100\nPágina 1 / Inmueble 2 / Importe Computable:: 60000000\nPágina 1 / Automotores / AUTOMOTORES: Automotores / AUTOMOTORES: AUTOMOTORES.\nPágina 1 / Automotores / corte / Bienes al 31/12/: 2025\nPágina 1 / Automotores / total / Importe total computable:: 30000000\nPágina 1 / Automotor 1 / Marca:: Marca Ficticia\nPágina 1 / Automotor 1 / Modelo:: Modelo 1\nPágina 1 / Automotor 1 / Fábrica:: Fabrica Sintetica\nPágina 1 / Automotor 1 / Año de fab:: 2024\nPágina 1 / Automotor 1 / Patente:: SINT-968-1\nPágina 1 / Automotor 1 / Valor (4):: 15000000\nPágina 1 / Automotor 1 / % Participación:: 100\nPágina 1 / Automotor 1 / Importe Computable:: 15000000\nPágina 1 / Automotor 2 / Marca:: Marca Ficticia\nPágina 1 / Automotor 2 / Modelo:: Modelo 2\nPágina 1 / Automotor 2 / Fábrica:: Fabrica Sintetica\nPágina 1 / Automotor 2 / Año de fab:: 2024\nPágina 1 / Automotor 2 / Patente:: SINT-968-2\nPágina 1 / Automotor 2 / Valor (4):: 15000000\nPágina 1 / Automotor 2 / % Participación:: 100\nPágina 1 / Automotor 2 / Importe Computable:: 15000000\nPágina 1 / Opcion bancaria / OPCION PARA EMITIR COMPROBANTES CLASE “A” CON LEYENDA: Opcion bancaria / OPCION PARA EMITIR COMPROBANTES CLASE “A” CON LEYENDA: OPCION PARA EMITIR COMPROBANTES CLASE “A” CON LEYENDA.\nPágina 1 / Cuenta bancaria ficticia / Clave Bancaria Uniforme (CBU):: 0000000000000000096800\nPágina 1 / Cuenta bancaria ficticia / Banco emisor:: Banco Ficticio\nPágina 1 / Declaracion / El que suscribe, don: Mario Soler Ficticio\nPágina 1 / Declaracion / en su carácter de (6): Titular\nPágina 1 / Declaracion / Lugar y fecha:: Rosario, 25/10/2026\nPágina 1 / Declaracion / Firma y sello:: Firma sintetica de Mario Soler Ficticio",
+  "workflow_identity": {
+    "language": "es",
+    "id": 968
+  }
+}

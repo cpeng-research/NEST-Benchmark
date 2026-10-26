@@ -1,0 +1,1283 @@
+{
+  "id": "en-902",
+  "language": "en",
+  "title": "Bacterial Identification Service (BIDS)",
+  "domain": "Healthcare",
+  "issuer": "UK Health Security Agency",
+  "issuer_id": "ukhsa",
+  "template_family": "ukhsa-m1-identification",
+  "source_version": "BRDW0833.04; effective Nov 2024",
+  "source_date_evidence": {
+    "kind": "printed edition",
+    "value": "BRDW0833.04; effective Nov 2024",
+    "note": "Printed edition is recorded separately from the actual retrieval timestamp; current linkage is preserved in the official landing snapshot."
+  },
+  "source_url": "https://assets.publishing.service.gov.uk/media/6740b1dea11cbd4d7f61ae17/M1p_BRDW0833-04-1.pdf",
+  "landing_url": "https://www.gov.uk/government/publications/microbial-identification-request-form",
+  "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "license_note": "Attribution: UK Health Security Agency, Crown copyright. Contains public sector information licensed under the Open Government Licence v3.0. Reused under the Open Government Licence v3.0, covering copying, adaptation and commercial/noncommercial redistribution with attribution, subject to its stated exclusions. Official logos are omitted. The Crown-authored form, official linking page and complete OGL v3.0 are preserved; no third-party authored work is selected.",
+  "source_sha256": "06e43878a0ca812add00dc0ca9c3ea062577752bcd0e0a2034d3b8d2617a3d39",
+  "retrieved_at": "2026-10-25T07:06:49.859372+00:00",
+  "source_pages": 1,
+  "columns": 12,
+  "synthetic_context": true,
+  "source_notice": "Native-language complete source. Every independent blank is a separate target; genuine logical choice groups alone are grouped. Repeated rows and horizontal groups are retained. Static shared headings are repeated where the unchanged renderer has no rowspan support.",
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Sender’s name and address",
+      "path": [
+        "Page 1",
+        "Sender",
+        "Sender’s name and address"
+      ],
+      "source_anchor": "Sender’s name and address",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Dr Robin Vale, Sample Microbiology Laboratory, 12 Example Road, London"
+    },
+    {
+      "id": "f002",
+      "label": "Report to be sent FAO",
+      "path": [
+        "Page 1",
+        "Sender",
+        "Report to be sent FAO"
+      ],
+      "source_anchor": "Report to be sent FAO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Dr Robin Vale"
+    },
+    {
+      "id": "f003",
+      "label": "Postcode",
+      "path": [
+        "Page 1",
+        "Sender",
+        "Postcode"
+      ],
+      "source_anchor": "Postcode",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NW9 5HT"
+    },
+    {
+      "id": "f004",
+      "label": "Contact Phone",
+      "path": [
+        "Page 1",
+        "Sender",
+        "Contact Phone"
+      ],
+      "source_anchor": "Contact Phone",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0200000902 (synthetic)"
+    },
+    {
+      "id": "f005",
+      "label": "Ext",
+      "path": [
+        "Page 1",
+        "Sender",
+        "Ext"
+      ],
+      "source_anchor": "Ext",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "102"
+    },
+    {
+      "id": "f006",
+      "label": "Purchase order number",
+      "path": [
+        "Page 1",
+        "Sender",
+        "Purchase order number"
+      ],
+      "source_anchor": "Purchase order number",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SYN-PO-902"
+    },
+    {
+      "id": "f007",
+      "label": "Project code",
+      "path": [
+        "Page 1",
+        "Sender",
+        "Project code"
+      ],
+      "source_anchor": "Project code",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SYN-BIDS-902"
+    },
+    {
+      "id": "f008",
+      "label": "PATIENT/SOURCE INFORMATION",
+      "path": [
+        "Page 1",
+        "Source type",
+        "PATIENT/SOURCE INFORMATION"
+      ],
+      "source_anchor": "PATIENT/SOURCE INFORMATION",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Human"
+      ],
+      "options": [
+        "Human",
+        "Animal*",
+        "Food*",
+        "Water*",
+        "Environment*",
+        "Other*"
+      ],
+      "context_evidence": "Source type / PATIENT/SOURCE INFORMATION: Human"
+    },
+    {
+      "id": "f009",
+      "label": "*Please specify",
+      "path": [
+        "Page 1",
+        "Source type other",
+        "*Please specify"
+      ],
+      "source_anchor": "*Please specify",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "N/A - human source"
+    },
+    {
+      "id": "f010",
+      "label": "PATIENT/SOURCE INFORMATION",
+      "path": [
+        "Page 1",
+        "Patient status",
+        "PATIENT/SOURCE INFORMATION"
+      ],
+      "source_anchor": "PATIENT/SOURCE INFORMATION",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "InPatient"
+      ],
+      "options": [
+        "InPatient",
+        "Outpatient",
+        "GP Patient",
+        "Other (Please specify)"
+      ],
+      "context_evidence": "Patient status / PATIENT/SOURCE INFORMATION: InPatient"
+    },
+    {
+      "id": "f011",
+      "label": "Other (Please specify)",
+      "path": [
+        "Page 1",
+        "Patient status other",
+        "Other (Please specify)"
+      ],
+      "source_anchor": "Other (Please specify)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "N/A"
+    },
+    {
+      "id": "f012",
+      "label": "NHS number",
+      "path": [
+        "Page 1",
+        "Patient",
+        "NHS number"
+      ],
+      "source_anchor": "NHS number",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SYN0000902"
+    },
+    {
+      "id": "f013",
+      "label": "Sex",
+      "path": [
+        "Page 1",
+        "Patient",
+        "Sex"
+      ],
+      "source_anchor": "Sex",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "female"
+      ],
+      "options": [
+        "male",
+        "female"
+      ],
+      "context_evidence": "Patient / Sex: female"
+    },
+    {
+      "id": "f014",
+      "label": "Surname",
+      "path": [
+        "Page 1",
+        "Patient",
+        "Surname"
+      ],
+      "source_anchor": "Surname",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NORTH"
+    },
+    {
+      "id": "f015",
+      "label": "Forename",
+      "path": [
+        "Page 1",
+        "Patient",
+        "Forename"
+      ],
+      "source_anchor": "Forename",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "ALICE"
+    },
+    {
+      "id": "f016",
+      "label": "Date of birth",
+      "path": [
+        "Page 1",
+        "Patient",
+        "Date of birth"
+      ],
+      "source_anchor": "Date of birth",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "14/05/1986"
+    },
+    {
+      "id": "f017",
+      "label": "Age",
+      "path": [
+        "Page 1",
+        "Patient",
+        "Age"
+      ],
+      "source_anchor": "Age",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "40"
+    },
+    {
+      "id": "f018",
+      "label": "Patient’s postcode",
+      "path": [
+        "Page 1",
+        "Patient",
+        "Patient’s postcode"
+      ],
+      "source_anchor": "Patient’s postcode",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NW9 5HT"
+    },
+    {
+      "id": "f019",
+      "label": "Patient’s HPT",
+      "path": [
+        "Page 1",
+        "Patient",
+        "Patient’s HPT"
+      ],
+      "source_anchor": "Patient’s HPT",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "North London (fictional referral)"
+    },
+    {
+      "id": "f020",
+      "label": "Hospital number",
+      "path": [
+        "Page 1",
+        "Patient",
+        "Hospital number"
+      ],
+      "source_anchor": "Hospital number",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SYN-H902"
+    },
+    {
+      "id": "f021",
+      "label": "Hospital name (if different from sender’s name)",
+      "path": [
+        "Page 1",
+        "Hospital",
+        "Hospital name (if different from sender’s name)"
+      ],
+      "source_anchor": "Hospital name (if different from sender’s name)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Sample Teaching Hospital"
+    },
+    {
+      "id": "f022",
+      "label": "Ward/ clinic name",
+      "path": [
+        "Page 1",
+        "Hospital",
+        "Ward/ clinic name"
+      ],
+      "source_anchor": "Ward/ clinic name",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Ward A"
+    },
+    {
+      "id": "f023",
+      "label": "Ward type",
+      "path": [
+        "Page 1",
+        "Hospital",
+        "Ward type"
+      ],
+      "source_anchor": "Ward type",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "General medicine"
+    },
+    {
+      "id": "f024",
+      "label": "Your reference",
+      "path": [
+        "Page 1",
+        "Sample",
+        "Your reference"
+      ],
+      "source_anchor": "Your reference",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SYN-M1-902"
+    },
+    {
+      "id": "f025",
+      "label": "Sample type",
+      "path": [
+        "Page 1",
+        "Sample",
+        "Sample type"
+      ],
+      "source_anchor": "Sample type",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Isolate"
+      ],
+      "options": [
+        "Isolate",
+        "Clinical specimen"
+      ],
+      "context_evidence": "Sample / Sample type: Isolate"
+    },
+    {
+      "id": "f026",
+      "label": "Isolation site / Source",
+      "path": [
+        "Page 1",
+        "Isolation source",
+        "Isolation site / Source"
+      ],
+      "source_anchor": "Isolation site / Source",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "Blood Culture Fluid"
+      ],
+      "options": [
+        "Blood (EDTA/Serum)",
+        "Environment",
+        "Faeces",
+        "Blood Culture Fluid",
+        "Nose",
+        "Skin",
+        "Sputum",
+        "Urine",
+        "Wound",
+        "Other (please specify)"
+      ],
+      "context_evidence": "Isolation source / Isolation site / Source: Blood Culture Fluid"
+    },
+    {
+      "id": "f027",
+      "label": "Other (please specify)",
+      "path": [
+        "Page 1",
+        "Isolation other",
+        "Other (please specify)"
+      ],
+      "source_anchor": "Other (please specify)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "N/A"
+    },
+    {
+      "id": "f028",
+      "label": "Date of collection",
+      "path": [
+        "Page 1",
+        "Sample",
+        "Date of collection"
+      ],
+      "source_anchor": "Date of collection",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "22/10/26"
+    },
+    {
+      "id": "f029",
+      "label": "Time",
+      "path": [
+        "Page 1",
+        "Sample",
+        "Time"
+      ],
+      "source_anchor": "Time",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "09:15"
+    },
+    {
+      "id": "f030",
+      "label": "Date sent to UKHSA",
+      "path": [
+        "Page 1",
+        "Sample",
+        "Date sent to UKHSA"
+      ],
+      "source_anchor": "Date sent to UKHSA",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "23/10/26"
+    },
+    {
+      "id": "f031",
+      "label": "Do you suspect from clinical or lab information that patient is infected with Hazard Group 3 or 4 pathogen (in addition to the requested investigation?",
+      "path": [
+        "Page 1",
+        "Hazard assessment",
+        "Do you suspect from clinical or lab information that patient is infected with Hazard Group 3 or 4 pathogen (in addition to the requested investigation?"
+      ],
+      "source_anchor": "Do you suspect from clinical or lab information that patient is infected with Hazard Group 3 or 4 pathogen (in addition to the requested investigation?",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "No"
+      ],
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "context_evidence": "Hazard assessment / Do you suspect from clinical or lab information that patient is infected with Hazard Group 3 or 4 pathogen (in addition to the requested investigation?: No"
+    },
+    {
+      "id": "f032",
+      "label": "If yes, give all relevant details",
+      "path": [
+        "Page 1",
+        "Hazard details",
+        "If yes, give all relevant details"
+      ],
+      "source_anchor": "If yes, give all relevant details",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "N/A - no HG3/4 suspicion"
+    },
+    {
+      "id": "f033",
+      "label": "If referring an isolate, give preliminary ID and lab results",
+      "path": [
+        "Page 1",
+        "Preliminary result",
+        "If referring an isolate, give preliminary ID and lab results"
+      ],
+      "source_anchor": "If referring an isolate, give preliminary ID and lab results",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Aerobic Gram-positive rod; MALDI-TOF inconclusive."
+    },
+    {
+      "id": "f034",
+      "label": "Please state the presumptive identification",
+      "path": [
+        "Page 1",
+        "Presumptive ID",
+        "Please state the presumptive identification"
+      ],
+      "source_anchor": "Please state the presumptive identification",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Coryneform bacterium, species unresolved."
+    },
+    {
+      "id": "f035",
+      "label": "Please tick the box if your clinical sample is post mortem?",
+      "path": [
+        "Page 1",
+        "Post-mortem",
+        "Please tick the box if your clinical sample is post mortem?"
+      ],
+      "source_anchor": "Please tick the box if your clinical sample is post mortem?",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [],
+      "options": [
+        "Please tick the box if your clinical sample is post mortem?"
+      ],
+      "context_evidence": "Post-mortem / Please tick the box if your clinical sample is post mortem?: No selection: this branch does not apply."
+    },
+    {
+      "id": "f036",
+      "label": "Bacterial Identification of:",
+      "path": [
+        "Page 1",
+        "Identification tests",
+        "Bacterial Identification of:"
+      ],
+      "source_anchor": "Bacterial Identification of:",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "Unknown/atypical isolate"
+      ],
+      "options": [
+        "Actinomycetes (aerobic)",
+        "Unknown/atypical isolate",
+        "Unknown/culture-negative clinical specimen"
+      ],
+      "context_evidence": "Identification tests / Bacterial Identification of:: Unknown/atypical isolate"
+    },
+    {
+      "id": "f037",
+      "label": "Antimicrobial Susceptibility Testing:",
+      "path": [
+        "Page 1",
+        "Susceptibility testing",
+        "Antimicrobial Susceptibility Testing:"
+      ],
+      "source_anchor": "Antimicrobial Susceptibility Testing:",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [],
+      "options": [
+        "Antimicrobial Susceptibility Testing:"
+      ],
+      "context_evidence": "Susceptibility testing / Antimicrobial Susceptibility Testing:: No selection: this branch does not apply."
+    },
+    {
+      "id": "f038",
+      "label": "API profile no",
+      "path": [
+        "Page 1",
+        "API",
+        "API profile no"
+      ],
+      "source_anchor": "API profile no",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Not performed"
+    },
+    {
+      "id": "f039",
+      "label": "API kit",
+      "path": [
+        "Page 1",
+        "API",
+        "API kit"
+      ],
+      "source_anchor": "API kit",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Not performed"
+    },
+    {
+      "id": "f040",
+      "label": "MALDI-TOF ID",
+      "path": [
+        "Page 1",
+        "MALDI",
+        "MALDI-TOF ID"
+      ],
+      "source_anchor": "MALDI-TOF ID",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Low-confidence coryneform spectrum"
+    },
+    {
+      "id": "f041",
+      "label": "Score/%",
+      "path": [
+        "Page 1",
+        "MALDI",
+        "Score/%"
+      ],
+      "source_anchor": "Score/%",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1.40"
+    },
+    {
+      "id": "f042",
+      "label": "Growth requirement",
+      "path": [
+        "Page 1",
+        "Laboratory",
+        "Growth requirement"
+      ],
+      "source_anchor": "Growth requirement",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Aerobic; blood agar at 35 C"
+    },
+    {
+      "id": "f043",
+      "label": "Other information",
+      "path": [
+        "Page 1",
+        "Laboratory",
+        "Other information"
+      ],
+      "source_anchor": "Other information",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Pure isolate supplied; clinical significance under assessment."
+    },
+    {
+      "id": "f044",
+      "label": "Stain",
+      "path": [
+        "Page 1",
+        "Stain",
+        "Stain"
+      ],
+      "source_anchor": "Stain",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Gram positive"
+      ],
+      "options": [
+        "Gram positive",
+        "Gram negative",
+        "Other (please specify)"
+      ],
+      "context_evidence": "Stain / Stain: Gram positive"
+    },
+    {
+      "id": "f045",
+      "label": "Other (please specify)",
+      "path": [
+        "Page 1",
+        "Stain other",
+        "Other (please specify)"
+      ],
+      "source_anchor": "Other (please specify)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "N/A"
+    },
+    {
+      "id": "f046",
+      "label": "Oxidase +/-",
+      "path": [
+        "Page 1",
+        "Biochemistry",
+        "Oxidase +/-"
+      ],
+      "source_anchor": "Oxidase +/-",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Negative"
+    },
+    {
+      "id": "f047",
+      "label": "Catalase +/-",
+      "path": [
+        "Page 1",
+        "Biochemistry",
+        "Catalase +/-"
+      ],
+      "source_anchor": "Catalase +/-",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Positive"
+    },
+    {
+      "id": "f048",
+      "label": "Recent foreign travel?",
+      "path": [
+        "Page 1",
+        "Travel",
+        "Recent foreign travel?"
+      ],
+      "source_anchor": "Recent foreign travel?",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "No"
+      ],
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "context_evidence": "Travel / Recent foreign travel?: No"
+    },
+    {
+      "id": "f049",
+      "label": "Country",
+      "path": [
+        "Page 1",
+        "Travel",
+        "Country"
+      ],
+      "source_anchor": "Country",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "N/A"
+    },
+    {
+      "id": "f050",
+      "label": "OTHER COMMENTS",
+      "path": [
+        "Page 1",
+        "Comments",
+        "OTHER COMMENTS"
+      ],
+      "source_anchor": "OTHER COMMENTS",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Fictional febrile inpatient; isolate referred for species identification. Not post-mortem."
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "M1",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "Bacterial Identification Service (BIDS)",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "(single isolate or single clinical sample)",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "Bacteriology Reference Department (AMRHAI) 61 Colindale Avenue London NW9 5HT UKHSA Colindale Bacteriology DX 6530002 Colindale NW Phone +44 (0)20 8327 7887 amrhai@ukhsa.gov.uk www.gov.uk/ukhsa",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "Please write clearly in dark ink",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "SENDER’S INFORMATION",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Sender’s name and address",
+        "field": "f001",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Report to be sent FAO",
+        "field": "f002",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Postcode",
+        "field": "f003",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "Contact Phone",
+        "field": "f004",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "Ext",
+        "field": "f005",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "Purchase order number",
+        "field": "f006",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Project code",
+        "field": "f007",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "PATIENT/SOURCE INFORMATION",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "PATIENT/SOURCE INFORMATION",
+        "field": "f008",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "*Please specify",
+        "field": "f009",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "PATIENT/SOURCE INFORMATION",
+        "field": "f010",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Other (Please specify)",
+        "field": "f011",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "NHS number",
+        "field": "f012",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Sex",
+        "field": "f013",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Surname",
+        "field": "f014",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Forename",
+        "field": "f015",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Date of birth",
+        "field": "f016",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "Age",
+        "field": "f017",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "Patient’s postcode",
+        "field": "f018",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "Patient’s HPT",
+        "field": "f019",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Hospital number",
+        "field": "f020",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Hospital name (if different from sender’s name)",
+        "field": "f021",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "Ward/ clinic name",
+        "field": "f022",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "Ward type",
+        "field": "f023",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "SAMPLE INFORMATION",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Your reference",
+        "field": "f024",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Sample type",
+        "field": "f025",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Isolation site / Source",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "(from normally sterile site)",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Isolation site / Source",
+        "field": "f026",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Other (please specify)",
+        "field": "f027",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Date of collection",
+        "field": "f028",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "Time",
+        "field": "f029",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "Date sent to UKHSA",
+        "field": "f030",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "Do you suspect from clinical or lab information that patient is infected with Hazard Group 3 or 4 pathogen (in addition to the requested investigation?",
+        "field": "f031",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "If yes, give all relevant details",
+        "field": "f032",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "If referring an isolate, give preliminary ID and lab results",
+        "field": "f033",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Note: If infection with a Hazard Group 4 pathogen is suspected, from clinical information or travel history, you must contact Reference Lab before sending",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Please state the presumptive identification",
+        "field": "f034",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Please tick the box if your clinical sample is post mortem?",
+        "field": "f035",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "TESTS REQUESTED",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Bacterial Identification of:",
+        "field": "f036",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Antimicrobial Susceptibility Testing:",
+        "field": "f037",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "(please check our referral criteria in the BRD user manual)",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "SENDER'S LABORATORY RESULTS",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "API profile no",
+        "field": "f038",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "API kit",
+        "field": "f039",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "MALDI-TOF ID",
+        "field": "f040",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Score/%",
+        "field": "f041",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Growth requirement",
+        "field": "f042",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Other information",
+        "field": "f043",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Stain",
+        "field": "f044",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Other (please specify)",
+        "field": "f045",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Oxidase +/-",
+        "field": "f046",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Catalase +/-",
+        "field": "f047",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "CLINICAL/EPIDEMIOLOGICAL INFORMATION",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Recent foreign travel?",
+        "field": "f048",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "Country",
+        "field": "f049",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "OTHER COMMENTS",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "OTHER COMMENTS",
+        "field": "f050",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "All requests are subject to UKHSA standard terms and conditions.",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "BRDW0833.04",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "Version effective from Nov - 2024",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "UKHSA Microbiology request form",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ]
+  ],
+  "context": "Entirely fictional case. All people, identifiers, contact details, decisions and signatures are synthetic and do not represent a real submission.\nFictional 40-year-old inpatient Alice North has an unresolved aerobic Gram-positive blood-culture isolate. No travel, no HG3/4 suspicion, no post-mortem sample. Identification only is requested, not susceptibility testing. Single native date widgets remain single fields; all independent other/specify and laboratory-result cells remain separate.\nPage 1 / Sender / Sender’s name and address: Dr Robin Vale, Sample Microbiology Laboratory, 12 Example Road, London\nPage 1 / Sender / Report to be sent FAO: Dr Robin Vale\nPage 1 / Sender / Postcode: NW9 5HT\nPage 1 / Sender / Contact Phone: 0200000902 (synthetic)\nPage 1 / Sender / Ext: 102\nPage 1 / Sender / Purchase order number: SYN-PO-902\nPage 1 / Sender / Project code: SYN-BIDS-902\nPage 1 / Source type / PATIENT/SOURCE INFORMATION: Source type / PATIENT/SOURCE INFORMATION: Human\nPage 1 / Source type other / *Please specify: N/A - human source\nPage 1 / Patient status / PATIENT/SOURCE INFORMATION: Patient status / PATIENT/SOURCE INFORMATION: InPatient\nPage 1 / Patient status other / Other (Please specify): N/A\nPage 1 / Patient / NHS number: SYN0000902\nPage 1 / Patient / Sex: Patient / Sex: female\nPage 1 / Patient / Surname: NORTH\nPage 1 / Patient / Forename: ALICE\nPage 1 / Patient / Date of birth: 14/05/1986\nPage 1 / Patient / Age: 40\nPage 1 / Patient / Patient’s postcode: NW9 5HT\nPage 1 / Patient / Patient’s HPT: North London (fictional referral)\nPage 1 / Patient / Hospital number: SYN-H902\nPage 1 / Hospital / Hospital name (if different from sender’s name): Sample Teaching Hospital\nPage 1 / Hospital / Ward/ clinic name: Ward A\nPage 1 / Hospital / Ward type: General medicine\nPage 1 / Sample / Your reference: SYN-M1-902\nPage 1 / Sample / Sample type: Sample / Sample type: Isolate\nPage 1 / Isolation source / Isolation site / Source: Isolation source / Isolation site / Source: Blood Culture Fluid\nPage 1 / Isolation other / Other (please specify): N/A\nPage 1 / Sample / Date of collection: 22/10/26\nPage 1 / Sample / Time: 09:15\nPage 1 / Sample / Date sent to UKHSA: 23/10/26\nPage 1 / Hazard assessment / Do you suspect from clinical or lab information that patient is infected with Hazard Group 3 or 4 pathogen (in addition to the requested investigation?: Hazard assessment / Do you suspect from clinical or lab information that patient is infected with Hazard Group 3 or 4 pathogen (in addition to the requested investigation?: No\nPage 1 / Hazard details / If yes, give all relevant details: N/A - no HG3/4 suspicion\nPage 1 / Preliminary result / If referring an isolate, give preliminary ID and lab results: Aerobic Gram-positive rod; MALDI-TOF inconclusive.\nPage 1 / Presumptive ID / Please state the presumptive identification: Coryneform bacterium, species unresolved.\nPage 1 / Post-mortem / Please tick the box if your clinical sample is post mortem?: Post-mortem / Please tick the box if your clinical sample is post mortem?: No selection: this branch does not apply.\nPage 1 / Identification tests / Bacterial Identification of:: Identification tests / Bacterial Identification of:: Unknown/atypical isolate\nPage 1 / Susceptibility testing / Antimicrobial Susceptibility Testing:: Susceptibility testing / Antimicrobial Susceptibility Testing:: No selection: this branch does not apply.\nPage 1 / API / API profile no: Not performed\nPage 1 / API / API kit: Not performed\nPage 1 / MALDI / MALDI-TOF ID: Low-confidence coryneform spectrum\nPage 1 / MALDI / Score/%: 1.40\nPage 1 / Laboratory / Growth requirement: Aerobic; blood agar at 35 C\nPage 1 / Laboratory / Other information: Pure isolate supplied; clinical significance under assessment.\nPage 1 / Stain / Stain: Stain / Stain: Gram positive\nPage 1 / Stain other / Other (please specify): N/A\nPage 1 / Biochemistry / Oxidase +/-: Negative\nPage 1 / Biochemistry / Catalase +/-: Positive\nPage 1 / Travel / Recent foreign travel?: Travel / Recent foreign travel?: No\nPage 1 / Travel / Country: N/A\nPage 1 / Comments / OTHER COMMENTS: Fictional febrile inpatient; isolate referred for species identification. Not post-mortem.",
+  "workflow_identity": {
+    "language": "en",
+    "id": 902
+  }
+}

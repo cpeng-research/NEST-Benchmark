@@ -1,0 +1,926 @@
+[
+  {
+    "key": "Remitente:",
+    "label_info": {
+      "row": 2,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Destinatario:",
+    "label_info": {
+      "row": 2,
+      "col": 20
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Origen de la expedición:",
+    "label_info": {
+      "row": 3,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Destino de la expedición:",
+    "label_info": {
+      "row": 4,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Destino final (*):",
+    "label_info": {
+      "row": 4,
+      "col": 25
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Empresa/Persona responsable del transporte:",
+    "label_info": {
+      "row": 5,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Material(es) radiactivo(s) a transportar:",
+    "label_info": {
+      "row": 6,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Forma(s) física(s) y/o química(s):",
+    "label_info": {
+      "row": 7,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Actividad y/o masa de cada radionucleido:",
+    "label_info": {
+      "row": 8,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Es sustancia fisionable:",
+    "label_info": {
+      "row": 9,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Es material radiactivo en forma especial:",
+    "label_info": {
+      "row": 9,
+      "col": 20
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": true,
+    "type": "GO"
+  },
+  {
+    "key": "Certificado(s) y modelo(s) de fuente(s) sellada(s):",
+    "label_info": {
+      "row": 10,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Nº",
+    "label_info": {
+      "row": 12,
+      "col": 6
+    },
+    "placeholder_offset": {
+      "rows": 1,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Nº",
+    "label_info": {
+      "row": 12,
+      "col": 6
+    },
+    "placeholder_offset": {
+      "rows": 2,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Nº",
+    "label_info": {
+      "row": 12,
+      "col": 6
+    },
+    "placeholder_offset": {
+      "rows": 3,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Nº",
+    "label_info": {
+      "row": 12,
+      "col": 6
+    },
+    "placeholder_offset": {
+      "rows": 4,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "IT",
+    "label_info": {
+      "row": 12,
+      "col": 9
+    },
+    "placeholder_offset": {
+      "rows": 2,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "IT",
+    "label_info": {
+      "row": 12,
+      "col": 9
+    },
+    "placeholder_offset": {
+      "rows": 3,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "IT",
+    "label_info": {
+      "row": 12,
+      "col": 9
+    },
+    "placeholder_offset": {
+      "rows": 4,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Nº",
+    "label_info": {
+      "row": 12,
+      "col": 18
+    },
+    "placeholder_offset": {
+      "rows": 1,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Nº",
+    "label_info": {
+      "row": 12,
+      "col": 18
+    },
+    "placeholder_offset": {
+      "rows": 2,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Nº",
+    "label_info": {
+      "row": 12,
+      "col": 18
+    },
+    "placeholder_offset": {
+      "rows": 3,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Nº",
+    "label_info": {
+      "row": 12,
+      "col": 18
+    },
+    "placeholder_offset": {
+      "rows": 4,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "IT",
+    "label_info": {
+      "row": 12,
+      "col": 21
+    },
+    "placeholder_offset": {
+      "rows": 1,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "IT",
+    "label_info": {
+      "row": 12,
+      "col": 21
+    },
+    "placeholder_offset": {
+      "rows": 2,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "IT",
+    "label_info": {
+      "row": 12,
+      "col": 21
+    },
+    "placeholder_offset": {
+      "rows": 3,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "IT",
+    "label_info": {
+      "row": 12,
+      "col": 21
+    },
+    "placeholder_offset": {
+      "rows": 4,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Nº",
+    "label_info": {
+      "row": 12,
+      "col": 31
+    },
+    "placeholder_offset": {
+      "rows": 1,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Nº",
+    "label_info": {
+      "row": 12,
+      "col": 31
+    },
+    "placeholder_offset": {
+      "rows": 2,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Nº",
+    "label_info": {
+      "row": 12,
+      "col": 31
+    },
+    "placeholder_offset": {
+      "rows": 3,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Nº",
+    "label_info": {
+      "row": 12,
+      "col": 31
+    },
+    "placeholder_offset": {
+      "rows": 4,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Nº",
+    "label_info": {
+      "row": 12,
+      "col": 31
+    },
+    "placeholder_offset": {
+      "rows": 5,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "IT",
+    "label_info": {
+      "row": 12,
+      "col": 34
+    },
+    "placeholder_offset": {
+      "rows": 1,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "IT",
+    "label_info": {
+      "row": 12,
+      "col": 34
+    },
+    "placeholder_offset": {
+      "rows": 2,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "IT",
+    "label_info": {
+      "row": 12,
+      "col": 34
+    },
+    "placeholder_offset": {
+      "rows": 3,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "IT",
+    "label_info": {
+      "row": 12,
+      "col": 34
+    },
+    "placeholder_offset": {
+      "rows": 4,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "IT",
+    "label_info": {
+      "row": 12,
+      "col": 34
+    },
+    "placeholder_offset": {
+      "rows": 5,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "ISC",
+    "label_info": {
+      "row": 12,
+      "col": 37
+    },
+    "placeholder_offset": {
+      "rows": 1,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "ISC",
+    "label_info": {
+      "row": 12,
+      "col": 37
+    },
+    "placeholder_offset": {
+      "rows": 2,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "ISC",
+    "label_info": {
+      "row": 12,
+      "col": 37
+    },
+    "placeholder_offset": {
+      "rows": 3,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "ISC",
+    "label_info": {
+      "row": 12,
+      "col": 37
+    },
+    "placeholder_offset": {
+      "rows": 4,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "ISC",
+    "label_info": {
+      "row": 12,
+      "col": 37
+    },
+    "placeholder_offset": {
+      "rows": 5,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "SI"
+  },
+  {
+    "key": "Certificado(s) y Modelo(s) de bulto(s):",
+    "label_info": {
+      "row": 18,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Número(s) de serie:",
+    "label_info": {
+      "row": 19,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Sobreenvase(s): Cantidad:",
+    "label_info": {
+      "row": 20,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "IT:",
+    "label_info": {
+      "row": 20,
+      "col": 20
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "ISC:",
+    "label_info": {
+      "row": 20,
+      "col": 30
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Contenedor(es): Cantidad:",
+    "label_info": {
+      "row": 21,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "IT:",
+    "label_info": {
+      "row": 21,
+      "col": 20
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "ISC:",
+    "label_info": {
+      "row": 21,
+      "col": 30
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "De transporte:",
+    "label_info": {
+      "row": 23,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "De escolta por protección radiológica:",
+    "label_info": {
+      "row": 23,
+      "col": 20
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Fecha de inicio del transporte:",
+    "label_info": {
+      "row": 24,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Fecha de inicio del transporte:",
+    "label_info": {
+      "row": 24,
+      "col": 8
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Fecha de inicio del transporte:",
+    "label_info": {
+      "row": 24,
+      "col": 16
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "hora estimada: ",
+    "label_info": {
+      "row": 24,
+      "col": 24
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "hora estimada: ",
+    "label_info": {
+      "row": 24,
+      "col": 32
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Fecha de arribo a destino:",
+    "label_info": {
+      "row": 25,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Fecha de arribo a destino:",
+    "label_info": {
+      "row": 25,
+      "col": 8
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Fecha de arribo a destino:",
+    "label_info": {
+      "row": 25,
+      "col": 16
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "hora estimada: ",
+    "label_info": {
+      "row": 25,
+      "col": 24
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "hora estimada: ",
+    "label_info": {
+      "row": 25,
+      "col": 32
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Teléfono de contacto:",
+    "label_info": {
+      "row": 27,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Nombre y apellido:",
+    "label_info": {
+      "row": 28,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Cargo:",
+    "label_info": {
+      "row": 28,
+      "col": 23
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  },
+  {
+    "key": "Firma",
+    "label_info": {
+      "row": 29,
+      "col": 0
+    },
+    "placeholder_offset": {
+      "rows": 0,
+      "cols": 0
+    },
+    "is_object_type": false,
+    "is_non_pure_text": false,
+    "type": "GI"
+  }
+]

@@ -1,0 +1,2354 @@
+{
+  "id": "en-909",
+  "language": "en",
+  "title": "Leptospirosis Request",
+  "domain": "Healthcare",
+  "issuer": "UK Health Security Agency",
+  "issuer_id": "ukhsa",
+  "template_family": "ukhsa-p3-leptospirosis",
+  "source_version": "SPATHW0196.06; effective Jan 2024",
+  "source_date_evidence": {
+    "kind": "printed edition",
+    "value": "SPATHW0196.06; effective Jan 2024",
+    "note": "Printed edition is recorded separately from the actual retrieval timestamp; current linkage is preserved in the official landing snapshot."
+  },
+  "source_url": "https://assets.publishing.service.gov.uk/media/65bcd93fc43191000d1a448e/UKHSA-leptospirosis-request-form.pdf",
+  "landing_url": "https://www.gov.uk/government/publications/leptospirosis-request-form",
+  "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "license_note": "Attribution: UK Health Security Agency, Crown copyright. Contains public sector information licensed under the Open Government Licence v3.0. Reused under the Open Government Licence v3.0, covering copying, adaptation and commercial/noncommercial redistribution with attribution, subject to its stated exclusions. Official logos are omitted. The Crown-authored form, official linking page and complete OGL v3.0 are preserved; no third-party authored work is selected.",
+  "source_sha256": "217c45a7c09c0a2d7c401a61fc2335350168d40d6e816a342aae3d5542567182",
+  "retrieved_at": "2026-10-25T07:31:05.789824+00:00",
+  "source_pages": 1,
+  "columns": 24,
+  "synthetic_context": true,
+  "source_notice": "Native-language complete source. Every independent blank is a separate target; genuine logical choice groups alone are grouped. Repeated rows and horizontal groups are retained. Static shared headings are repeated where the unchanged renderer has no rowspan support.",
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Sender’s name and address",
+      "path": [
+        "Page 1",
+        "Sender",
+        "Sender’s name and address"
+      ],
+      "source_anchor": "Sender’s name and address",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Dr Robin Vale, Sample Teaching Hospital, 12 Example Road, London"
+    },
+    {
+      "id": "f002",
+      "label": "Direct Phone",
+      "path": [
+        "Page 1",
+        "Sender",
+        "Direct Phone"
+      ],
+      "source_anchor": "Direct Phone",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0200000909 (synthetic)"
+    },
+    {
+      "id": "f003",
+      "label": "Postcode",
+      "path": [
+        "Page 1",
+        "Sender",
+        "Postcode"
+      ],
+      "source_anchor": "Postcode",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NW9 5HT"
+    },
+    {
+      "id": "f004",
+      "label": "Direct Phone (out of hours)",
+      "path": [
+        "Page 1",
+        "Sender",
+        "Direct Phone (out of hours)"
+      ],
+      "source_anchor": "Direct Phone (out of hours)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0200001909 (synthetic)"
+    },
+    {
+      "id": "f005",
+      "label": "PATIENT/SOURCE INFORMATION",
+      "path": [
+        "Page 1",
+        "Patient status",
+        "PATIENT/SOURCE INFORMATION"
+      ],
+      "source_anchor": "PATIENT/SOURCE INFORMATION",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Inpatient"
+      ],
+      "options": [
+        "Inpatient",
+        "Outpatient",
+        "GP Patient",
+        "Other*"
+      ],
+      "context_evidence": "Patient status / PATIENT/SOURCE INFORMATION: Inpatient"
+    },
+    {
+      "id": "f006",
+      "label": "*Please specify",
+      "path": [
+        "Page 1",
+        "Patient status other",
+        "*Please specify"
+      ],
+      "source_anchor": "*Please specify",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "N/A - inpatient"
+    },
+    {
+      "id": "f007",
+      "label": "NHS number",
+      "path": [
+        "Page 1",
+        "Patient",
+        "NHS number"
+      ],
+      "source_anchor": "NHS number",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SYN0000909"
+    },
+    {
+      "id": "f008",
+      "label": "Gender",
+      "path": [
+        "Page 1",
+        "Patient",
+        "Gender"
+      ],
+      "source_anchor": "Gender",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "female"
+      ],
+      "options": [
+        "male",
+        "female"
+      ],
+      "context_evidence": "Patient / Gender: female"
+    },
+    {
+      "id": "f009",
+      "label": "Surname",
+      "path": [
+        "Page 1",
+        "Patient",
+        "Surname"
+      ],
+      "source_anchor": "Surname",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NORTH"
+    },
+    {
+      "id": "f010",
+      "label": "Forename",
+      "path": [
+        "Page 1",
+        "Patient",
+        "Forename"
+      ],
+      "source_anchor": "Forename",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "ALICE"
+    },
+    {
+      "id": "f011",
+      "label": "D",
+      "path": [
+        "Page 1",
+        "DOB / digit 1",
+        "D"
+      ],
+      "source_anchor": "D",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "f012",
+      "label": "D",
+      "path": [
+        "Page 1",
+        "DOB / digit 2",
+        "D"
+      ],
+      "source_anchor": "D",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "4"
+    },
+    {
+      "id": "f013",
+      "label": "M",
+      "path": [
+        "Page 1",
+        "DOB / digit 3",
+        "M"
+      ],
+      "source_anchor": "M",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f014",
+      "label": "M",
+      "path": [
+        "Page 1",
+        "DOB / digit 4",
+        "M"
+      ],
+      "source_anchor": "M",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "5"
+    },
+    {
+      "id": "f015",
+      "label": "Y",
+      "path": [
+        "Page 1",
+        "DOB / digit 5",
+        "Y"
+      ],
+      "source_anchor": "Y",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "f016",
+      "label": "Y",
+      "path": [
+        "Page 1",
+        "DOB / digit 6",
+        "Y"
+      ],
+      "source_anchor": "Y",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "9"
+    },
+    {
+      "id": "f017",
+      "label": "Y",
+      "path": [
+        "Page 1",
+        "DOB / digit 7",
+        "Y"
+      ],
+      "source_anchor": "Y",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "8"
+    },
+    {
+      "id": "f018",
+      "label": "Y",
+      "path": [
+        "Page 1",
+        "DOB / digit 8",
+        "Y"
+      ],
+      "source_anchor": "Y",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "6"
+    },
+    {
+      "id": "f019",
+      "label": "Age",
+      "path": [
+        "Page 1",
+        "Patient",
+        "Age"
+      ],
+      "source_anchor": "Age",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "40"
+    },
+    {
+      "id": "f020",
+      "label": "Patient’s postcode",
+      "path": [
+        "Page 1",
+        "Patient",
+        "Patient’s postcode"
+      ],
+      "source_anchor": "Patient’s postcode",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NW9 5HT"
+    },
+    {
+      "id": "f021",
+      "label": "Patient’s HPT",
+      "path": [
+        "Page 1",
+        "Patient",
+        "Patient’s HPT"
+      ],
+      "source_anchor": "Patient’s HPT",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "North London (fictional referral)"
+    },
+    {
+      "id": "f022",
+      "label": "Hospital number",
+      "path": [
+        "Page 1",
+        "Patient",
+        "Hospital number"
+      ],
+      "source_anchor": "Hospital number",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SYN-H909"
+    },
+    {
+      "id": "f023",
+      "label": "Hospital name (if different from sender’s name)",
+      "path": [
+        "Page 1",
+        "Patient",
+        "Hospital name (if different from sender’s name)"
+      ],
+      "source_anchor": "Hospital name (if different from sender’s name)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Sample Teaching Hospital"
+    },
+    {
+      "id": "f024",
+      "label": "ITU",
+      "path": [
+        "Page 1",
+        "Ward flags",
+        "ITU"
+      ],
+      "source_anchor": "ITU",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [],
+      "options": [
+        "ITU",
+        "Dialysis"
+      ],
+      "context_evidence": "Ward flags / ITU: No selection: this branch does not apply."
+    },
+    {
+      "id": "f025",
+      "label": "Other ward/clinic",
+      "path": [
+        "Page 1",
+        "Ward",
+        "Other ward/clinic"
+      ],
+      "source_anchor": "Other ward/clinic",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Ward B"
+    },
+    {
+      "id": "f026",
+      "label": "Pregnant",
+      "path": [
+        "Page 1",
+        "Pregnancy",
+        "Pregnant"
+      ],
+      "source_anchor": "Pregnant",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "No"
+      ],
+      "options": [
+        "Yes",
+        "No",
+        "Unknown"
+      ],
+      "context_evidence": "Pregnancy / Pregnant: No"
+    },
+    {
+      "id": "f027",
+      "label": "Weeks",
+      "path": [
+        "Page 1",
+        "Pregnancy",
+        "Weeks"
+      ],
+      "source_anchor": "Weeks",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "N/A - not pregnant"
+    },
+    {
+      "id": "f028",
+      "label": "Have previous samples been sent to RIPL?",
+      "path": [
+        "Page 1",
+        "Prior samples",
+        "Have previous samples been sent to RIPL?"
+      ],
+      "source_anchor": "Have previous samples been sent to RIPL?",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Yes"
+      ],
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "context_evidence": "Prior samples / Have previous samples been sent to RIPL?: Yes"
+    },
+    {
+      "id": "f029",
+      "label": "RIPL Lab ref. no",
+      "path": [
+        "Page 1",
+        "Prior reference / blank 1",
+        "RIPL Lab ref. no"
+      ],
+      "source_anchor": "RIPL Lab ref. no",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "f030",
+      "label": "RIPL Lab ref. no",
+      "path": [
+        "Page 1",
+        "Prior reference / blank 2",
+        "RIPL Lab ref. no"
+      ],
+      "source_anchor": "RIPL Lab ref. no",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "6"
+    },
+    {
+      "id": "f031",
+      "label": "RIPL Lab ref. no",
+      "path": [
+        "Page 1",
+        "Prior reference / blank 3",
+        "RIPL Lab ref. no"
+      ],
+      "source_anchor": "RIPL Lab ref. no",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f032",
+      "label": "RIPL Lab ref. no",
+      "path": [
+        "Page 1",
+        "Prior reference / blank 4",
+        "RIPL Lab ref. no"
+      ],
+      "source_anchor": "RIPL Lab ref. no",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f033",
+      "label": "RIPL Lab ref. no",
+      "path": [
+        "Page 1",
+        "Prior reference / blank 5",
+        "RIPL Lab ref. no"
+      ],
+      "source_anchor": "RIPL Lab ref. no",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f034",
+      "label": "RIPL Lab ref. no",
+      "path": [
+        "Page 1",
+        "Prior reference / blank 6",
+        "RIPL Lab ref. no"
+      ],
+      "source_anchor": "RIPL Lab ref. no",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "9"
+    },
+    {
+      "id": "f035",
+      "label": "RIPL Lab ref. no",
+      "path": [
+        "Page 1",
+        "Prior reference / blank 7",
+        "RIPL Lab ref. no"
+      ],
+      "source_anchor": "RIPL Lab ref. no",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f036",
+      "label": "RIPL Lab ref. no",
+      "path": [
+        "Page 1",
+        "Prior reference / blank 8",
+        "RIPL Lab ref. no"
+      ],
+      "source_anchor": "RIPL Lab ref. no",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "9"
+    },
+    {
+      "id": "f037",
+      "label": "Serum\\clotted blood",
+      "path": [
+        "Page 1",
+        "Sample row 1",
+        "Serum\\clotted blood"
+      ],
+      "source_anchor": "Serum\\clotted blood",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "Serum\\clotted blood"
+      ],
+      "options": [
+        "Serum\\clotted blood"
+      ],
+      "context_evidence": "Sample row 1 / Serum\\clotted blood: Serum\\clotted blood"
+    },
+    {
+      "id": "f038",
+      "label": "Your reference",
+      "path": [
+        "Page 1",
+        "Sample row 1",
+        "Your reference"
+      ],
+      "source_anchor": "Your reference",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SYN909-1"
+    },
+    {
+      "id": "f039",
+      "label": "Plasma",
+      "path": [
+        "Page 1",
+        "Sample row 2",
+        "Plasma"
+      ],
+      "source_anchor": "Plasma",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [],
+      "options": [
+        "Plasma"
+      ],
+      "context_evidence": "Sample row 2 / Plasma: No selection: this branch does not apply."
+    },
+    {
+      "id": "f040",
+      "label": "Your reference",
+      "path": [
+        "Page 1",
+        "Sample row 2",
+        "Your reference"
+      ],
+      "source_anchor": "Your reference",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "N/A"
+    },
+    {
+      "id": "f041",
+      "label": "EDTA whole blood",
+      "path": [
+        "Page 1",
+        "Sample row 3",
+        "EDTA whole blood"
+      ],
+      "source_anchor": "EDTA whole blood",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [],
+      "options": [
+        "EDTA whole blood"
+      ],
+      "context_evidence": "Sample row 3 / EDTA whole blood: No selection: this branch does not apply."
+    },
+    {
+      "id": "f042",
+      "label": "Your reference",
+      "path": [
+        "Page 1",
+        "Sample row 3",
+        "Your reference"
+      ],
+      "source_anchor": "Your reference",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "N/A"
+    },
+    {
+      "id": "f043",
+      "label": "CSF",
+      "path": [
+        "Page 1",
+        "Sample row 4",
+        "CSF"
+      ],
+      "source_anchor": "CSF",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [],
+      "options": [
+        "CSF"
+      ],
+      "context_evidence": "Sample row 4 / CSF: No selection: this branch does not apply."
+    },
+    {
+      "id": "f044",
+      "label": "Your reference",
+      "path": [
+        "Page 1",
+        "Sample row 4",
+        "Your reference"
+      ],
+      "source_anchor": "Your reference",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "N/A"
+    },
+    {
+      "id": "f045",
+      "label": "Urine (only send with paired serum)",
+      "path": [
+        "Page 1",
+        "Sample row 5",
+        "Urine (only send with paired serum)"
+      ],
+      "source_anchor": "Urine (only send with paired serum)",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "Urine (only send with paired serum)"
+      ],
+      "options": [
+        "Urine (only send with paired serum)"
+      ],
+      "context_evidence": "Sample row 5 / Urine (only send with paired serum): Urine (only send with paired serum)"
+    },
+    {
+      "id": "f046",
+      "label": "Your reference",
+      "path": [
+        "Page 1",
+        "Sample row 5",
+        "Your reference"
+      ],
+      "source_anchor": "Your reference",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SYN909-5"
+    },
+    {
+      "id": "f047",
+      "label": "Other",
+      "path": [
+        "Page 1",
+        "Sample row 6",
+        "Other"
+      ],
+      "source_anchor": "Other",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [],
+      "options": [
+        "Other"
+      ],
+      "context_evidence": "Sample row 6 / Other: No selection: this branch does not apply."
+    },
+    {
+      "id": "f048",
+      "label": "Your reference",
+      "path": [
+        "Page 1",
+        "Sample row 6",
+        "Your reference"
+      ],
+      "source_anchor": "Your reference",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "N/A"
+    },
+    {
+      "id": "f049",
+      "label": "D",
+      "path": [
+        "Page 1",
+        "Collection / digit 1",
+        "D"
+      ],
+      "source_anchor": "D",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "f050",
+      "label": "D",
+      "path": [
+        "Page 1",
+        "Collection / digit 2",
+        "D"
+      ],
+      "source_anchor": "D",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "3"
+    },
+    {
+      "id": "f051",
+      "label": "M",
+      "path": [
+        "Page 1",
+        "Collection / digit 3",
+        "M"
+      ],
+      "source_anchor": "M",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "f052",
+      "label": "M",
+      "path": [
+        "Page 1",
+        "Collection / digit 4",
+        "M"
+      ],
+      "source_anchor": "M",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f053",
+      "label": "Y",
+      "path": [
+        "Page 1",
+        "Collection / digit 5",
+        "Y"
+      ],
+      "source_anchor": "Y",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "f054",
+      "label": "Y",
+      "path": [
+        "Page 1",
+        "Collection / digit 6",
+        "Y"
+      ],
+      "source_anchor": "Y",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "6"
+    },
+    {
+      "id": "f055",
+      "label": "Time",
+      "path": [
+        "Page 1",
+        "Collection",
+        "Time"
+      ],
+      "source_anchor": "Time",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "09:15"
+    },
+    {
+      "id": "f056",
+      "label": "D",
+      "path": [
+        "Page 1",
+        "Dispatch / digit 1",
+        "D"
+      ],
+      "source_anchor": "D",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "f057",
+      "label": "D",
+      "path": [
+        "Page 1",
+        "Dispatch / digit 2",
+        "D"
+      ],
+      "source_anchor": "D",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "4"
+    },
+    {
+      "id": "f058",
+      "label": "M",
+      "path": [
+        "Page 1",
+        "Dispatch / digit 3",
+        "M"
+      ],
+      "source_anchor": "M",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "f059",
+      "label": "M",
+      "path": [
+        "Page 1",
+        "Dispatch / digit 4",
+        "M"
+      ],
+      "source_anchor": "M",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f060",
+      "label": "Y",
+      "path": [
+        "Page 1",
+        "Dispatch / digit 5",
+        "Y"
+      ],
+      "source_anchor": "Y",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "f061",
+      "label": "Y",
+      "path": [
+        "Page 1",
+        "Dispatch / digit 6",
+        "Y"
+      ],
+      "source_anchor": "Y",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "6"
+    },
+    {
+      "id": "f062",
+      "label": "Time",
+      "path": [
+        "Page 1",
+        "Dispatch unlabelled adjacent time widget",
+        "Time"
+      ],
+      "source_anchor": "Time",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "08:00"
+    },
+    {
+      "id": "f063",
+      "label": "Please tick the box if your clinical sample is post mortem",
+      "path": [
+        "Page 1",
+        "Post-mortem",
+        "Please tick the box if your clinical sample is post mortem"
+      ],
+      "source_anchor": "Please tick the box if your clinical sample is post mortem",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [],
+      "options": [
+        "Please tick the box if your clinical sample is post mortem"
+      ],
+      "context_evidence": "Post-mortem / Please tick the box if your clinical sample is post mortem: No selection: this branch does not apply."
+    },
+    {
+      "id": "f064",
+      "label": "OMIT HANTAVIRUS TESTS",
+      "path": [
+        "Page 1",
+        "Test omission",
+        "OMIT HANTAVIRUS TESTS"
+      ],
+      "source_anchor": "OMIT HANTAVIRUS TESTS",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [],
+      "options": [
+        "OMIT HANTAVIRUS TESTS"
+      ],
+      "context_evidence": "Test omission / OMIT HANTAVIRUS TESTS: No selection: this branch does not apply."
+    },
+    {
+      "id": "f065",
+      "label": "Foreign Travel within previous 30 days?",
+      "path": [
+        "Page 1",
+        "Travel",
+        "Foreign Travel within previous 30 days?"
+      ],
+      "source_anchor": "Foreign Travel within previous 30 days?",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Yes"
+      ],
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "context_evidence": "Travel / Foreign Travel within previous 30 days?: Yes"
+    },
+    {
+      "id": "f066",
+      "label": "D",
+      "path": [
+        "Page 1",
+        "Onset / digit 1",
+        "D"
+      ],
+      "source_anchor": "D",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "f067",
+      "label": "D",
+      "path": [
+        "Page 1",
+        "Onset / digit 2",
+        "D"
+      ],
+      "source_anchor": "D",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "f068",
+      "label": "M",
+      "path": [
+        "Page 1",
+        "Onset / digit 3",
+        "M"
+      ],
+      "source_anchor": "M",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "f069",
+      "label": "M",
+      "path": [
+        "Page 1",
+        "Onset / digit 4",
+        "M"
+      ],
+      "source_anchor": "M",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f070",
+      "label": "Y",
+      "path": [
+        "Page 1",
+        "Onset / digit 5",
+        "Y"
+      ],
+      "source_anchor": "Y",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "f071",
+      "label": "Y",
+      "path": [
+        "Page 1",
+        "Onset / digit 6",
+        "Y"
+      ],
+      "source_anchor": "Y",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "6"
+    },
+    {
+      "id": "f072",
+      "label": "D",
+      "path": [
+        "Page 1",
+        "Travel outward / digit 1",
+        "D"
+      ],
+      "source_anchor": "D",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f073",
+      "label": "D",
+      "path": [
+        "Page 1",
+        "Travel outward / digit 2",
+        "D"
+      ],
+      "source_anchor": "D",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "f074",
+      "label": "M",
+      "path": [
+        "Page 1",
+        "Travel outward / digit 3",
+        "M"
+      ],
+      "source_anchor": "M",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "f075",
+      "label": "M",
+      "path": [
+        "Page 1",
+        "Travel outward / digit 4",
+        "M"
+      ],
+      "source_anchor": "M",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f076",
+      "label": "Y",
+      "path": [
+        "Page 1",
+        "Travel outward / digit 5",
+        "Y"
+      ],
+      "source_anchor": "Y",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "f077",
+      "label": "Y",
+      "path": [
+        "Page 1",
+        "Travel outward / digit 6",
+        "Y"
+      ],
+      "source_anchor": "Y",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "6"
+    },
+    {
+      "id": "f078",
+      "label": "D",
+      "path": [
+        "Page 1",
+        "Travel return / digit 1",
+        "D"
+      ],
+      "source_anchor": "D",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "f079",
+      "label": "D",
+      "path": [
+        "Page 1",
+        "Travel return / digit 2",
+        "D"
+      ],
+      "source_anchor": "D",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "8"
+    },
+    {
+      "id": "f080",
+      "label": "M",
+      "path": [
+        "Page 1",
+        "Travel return / digit 3",
+        "M"
+      ],
+      "source_anchor": "M",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "f081",
+      "label": "M",
+      "path": [
+        "Page 1",
+        "Travel return / digit 4",
+        "M"
+      ],
+      "source_anchor": "M",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f082",
+      "label": "Y",
+      "path": [
+        "Page 1",
+        "Travel return / digit 5",
+        "Y"
+      ],
+      "source_anchor": "Y",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "f083",
+      "label": "Y",
+      "path": [
+        "Page 1",
+        "Travel return / digit 6",
+        "Y"
+      ],
+      "source_anchor": "Y",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "6"
+    },
+    {
+      "id": "f084",
+      "label": "Purpose of travel",
+      "path": [
+        "Page 1",
+        "Travel",
+        "Purpose of travel"
+      ],
+      "source_anchor": "Purpose of travel",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Recreational hiking"
+    },
+    {
+      "id": "f085",
+      "label": "Countries/areas visited",
+      "path": [
+        "Page 1",
+        "Travel",
+        "Countries/areas visited"
+      ],
+      "source_anchor": "Countries/areas visited",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Example overseas tropical destination (synthetic)"
+    },
+    {
+      "id": "f086",
+      "label": "Countries/areas visited",
+      "path": [
+        "Page 1",
+        "Travel setting",
+        "Countries/areas visited"
+      ],
+      "source_anchor": "Countries/areas visited",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "Rural area",
+        "Forests"
+      ],
+      "options": [
+        "Urban area",
+        "Rural area",
+        "Open country",
+        "Forests"
+      ],
+      "context_evidence": "Travel setting / Countries/areas visited: Rural area, Forests"
+    },
+    {
+      "id": "f087",
+      "label": "Water contact*",
+      "path": [
+        "Page 1",
+        "Exposure",
+        "Water contact*"
+      ],
+      "source_anchor": "Water contact*",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "Water contact*"
+      ],
+      "options": [
+        "Water contact*",
+        "Animal contact*"
+      ],
+      "context_evidence": "Exposure / Water contact*: Water contact*"
+    },
+    {
+      "id": "f088",
+      "label": "*Please specify",
+      "path": [
+        "Page 1",
+        "Exposure",
+        "*Please specify"
+      ],
+      "source_anchor": "*Please specify",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Freshwater stream exposure during hiking on 15 October."
+    },
+    {
+      "id": "f089",
+      "label": "Relevant Occupational History",
+      "path": [
+        "Page 1",
+        "Occupation",
+        "Relevant Occupational History"
+      ],
+      "source_anchor": "Relevant Occupational History",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Office-based librarian; no occupational animal exposure."
+    },
+    {
+      "id": "f090",
+      "label": "CLINICAL/EPIDEMIOLOGICAL INFORMATION",
+      "path": [
+        "Page 1",
+        "Clinical symptoms",
+        "CLINICAL/EPIDEMIOLOGICAL INFORMATION"
+      ],
+      "source_anchor": "CLINICAL/EPIDEMIOLOGICAL INFORMATION",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "Fever",
+        "Headache",
+        "Myalgia"
+      ],
+      "options": [
+        "Asymptomatic",
+        "Fever",
+        "Headache",
+        "Flu-like illness",
+        "Myalgia",
+        "Malaise",
+        "Diarrhoea",
+        "Vomiting",
+        "Abnormal liver function",
+        "Hepatic failure",
+        "Jaundice",
+        "Abnormal renal function",
+        "Renal replacement therapy required",
+        "Thrombocytopenia",
+        "Meningitis"
+      ],
+      "context_evidence": "Clinical symptoms / CLINICAL/EPIDEMIOLOGICAL INFORMATION: Fever, Headache, Myalgia"
+    },
+    {
+      "id": "f091",
+      "label": "Other clinical details",
+      "path": [
+        "Page 1",
+        "Clinical details",
+        "Other clinical details"
+      ],
+      "source_anchor": "Other clinical details",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Fever, headache and myalgia from 21 October after freshwater exposure. Serum and paired urine collected on day 3. No haemorrhagic features or suspected HG4 infection."
+    },
+    {
+      "id": "f092",
+      "label": "Antimicrobials given?",
+      "path": [
+        "Page 1",
+        "Treatment",
+        "Antimicrobials given?"
+      ],
+      "source_anchor": "Antimicrobials given?",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "None before specimen collection."
+    },
+    {
+      "id": "f093",
+      "label": "Name",
+      "path": [
+        "Page 1",
+        "Referrer",
+        "Name"
+      ],
+      "source_anchor": "Name",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Dr Robin Vale"
+    },
+    {
+      "id": "f094",
+      "label": "Signature",
+      "path": [
+        "Page 1",
+        "Referrer",
+        "Signature"
+      ],
+      "source_anchor": "Signature",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Dr Robin Vale (synthetic signature)"
+    },
+    {
+      "id": "f095",
+      "label": "D",
+      "path": [
+        "Page 1",
+        "Referrer date / digit 1",
+        "D"
+      ],
+      "source_anchor": "D",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "f096",
+      "label": "D",
+      "path": [
+        "Page 1",
+        "Referrer date / digit 2",
+        "D"
+      ],
+      "source_anchor": "D",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "4"
+    },
+    {
+      "id": "f097",
+      "label": "M",
+      "path": [
+        "Page 1",
+        "Referrer date / digit 3",
+        "M"
+      ],
+      "source_anchor": "M",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "f098",
+      "label": "M",
+      "path": [
+        "Page 1",
+        "Referrer date / digit 4",
+        "M"
+      ],
+      "source_anchor": "M",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f099",
+      "label": "Y",
+      "path": [
+        "Page 1",
+        "Referrer date / digit 5",
+        "Y"
+      ],
+      "source_anchor": "Y",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "f100",
+      "label": "Y",
+      "path": [
+        "Page 1",
+        "Referrer date / digit 6",
+        "Y"
+      ],
+      "source_anchor": "Y",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "6"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "P3",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "text": "Leptospirosis Request",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "text": "Rare and Imported Pathogens Laboratory (RIPL)",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "text": "UKHSA Microbiology Services Porton Down, Salisbury Wiltshire SP4 0JG UKHSA DX 6930400 Salisbury 92 SP Phone +44 (0)1980 612348 (9am - 5pm) Email ripl@ukhsa.gov.uk www.gov.uk/ukhsa",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "text": "Please write clearly in dark ink",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "text": "SENDER’S INFORMATION",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "label": "Sender’s name and address",
+        "field": "f001",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "Direct Phone",
+        "field": "f002",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Postcode",
+        "field": "f003",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "Direct Phone (out of hours)",
+        "field": "f004",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "PATIENT/SOURCE INFORMATION",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "label": "PATIENT/SOURCE INFORMATION",
+        "field": "f005",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "*Please specify",
+        "field": "f006",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "NHS number",
+        "field": "f007",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "Gender",
+        "field": "f008",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Surname",
+        "field": "f009",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "Forename",
+        "field": "f010",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "Date of birth",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "label": "D",
+        "field": "f011",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "D",
+        "field": "f012",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "M",
+        "field": "f013",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "M",
+        "field": "f014",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Y",
+        "field": "f015",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Y",
+        "field": "f016",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Y",
+        "field": "f017",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Y",
+        "field": "f018",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "Age",
+        "field": "f019",
+        "source_page": 1,
+        "colspan": 8
+      },
+      {
+        "label": "Patient’s postcode",
+        "field": "f020",
+        "source_page": 1,
+        "colspan": 8
+      },
+      {
+        "label": "Patient’s HPT",
+        "field": "f021",
+        "source_page": 1,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "label": "Hospital number",
+        "field": "f022",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "Hospital name (if different from sender’s name)",
+        "field": "f023",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "ITU",
+        "field": "f024",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "Other ward/clinic",
+        "field": "f025",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Pregnant",
+        "field": "f026",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "Weeks",
+        "field": "f027",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Have previous samples been sent to RIPL?",
+        "field": "f028",
+        "source_page": 1,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "text": "RIPL Lab ref. no P_ _ C _ _ _ _ _ _",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "label": "RIPL Lab ref. no",
+        "field": "f029",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "RIPL Lab ref. no",
+        "field": "f030",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "RIPL Lab ref. no",
+        "field": "f031",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "RIPL Lab ref. no",
+        "field": "f032",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "RIPL Lab ref. no",
+        "field": "f033",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "RIPL Lab ref. no",
+        "field": "f034",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "RIPL Lab ref. no",
+        "field": "f035",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "RIPL Lab ref. no",
+        "field": "f036",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "SAMPLE INFORMATION",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "text": "Sample type",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      },
+      {
+        "text": "Your reference",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Serum\\clotted blood",
+        "field": "f037",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "Your reference",
+        "field": "f038",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Plasma",
+        "field": "f039",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "Your reference",
+        "field": "f040",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "EDTA whole blood",
+        "field": "f041",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "Your reference",
+        "field": "f042",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "CSF",
+        "field": "f043",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "Your reference",
+        "field": "f044",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Urine (only send with paired serum)",
+        "field": "f045",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "Your reference",
+        "field": "f046",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Other",
+        "field": "f047",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "Your reference",
+        "field": "f048",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "(please specify)",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "text": "Date of collection",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "label": "D",
+        "field": "f049",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "D",
+        "field": "f050",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "M",
+        "field": "f051",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "M",
+        "field": "f052",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "Y",
+        "field": "f053",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "Y",
+        "field": "f054",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "Time",
+        "field": "f055",
+        "source_page": 1,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "text": "Date sent to RIPL",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "label": "D",
+        "field": "f056",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "D",
+        "field": "f057",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "M",
+        "field": "f058",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "M",
+        "field": "f059",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "Y",
+        "field": "f060",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "Y",
+        "field": "f061",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "Time",
+        "field": "f062",
+        "source_page": 1,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "text": "If Viral Haemorrhagic Fever (or infection with another Hazard Group 4 pathogen) is suspected, the Infectious Diseases, Microbiology or Virology doctor must call the Imported Fever Service on 0844 77 88 990 This number can be used for urgent clinical discussion of any patient with acute undiagnosed fever following recent travel abroad",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "label": "Please tick the box if your clinical sample is post mortem",
+        "field": "f063",
+        "source_page": 1,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "text": "TESTS REQUESTED",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "text": "RIPL will select the most appropriate Leptospirosis and Hantavirus tests based on information provided below (i.e. travel and clinical details) Refer to our user manual for further details",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "text": "Leptospirosis PCR will be performed on all serum/plasma samples within 7 days post onset and on all urine samples paired with serum",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "label": "OMIT HANTAVIRUS TESTS",
+        "field": "f064",
+        "source_page": 1,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "text": "CLINICAL/EPIDEMIOLOGICAL INFORMATION",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "label": "Foreign Travel within previous 30 days?",
+        "field": "f065",
+        "source_page": 1,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "text": "Onset date",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "label": "D",
+        "field": "f066",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "D",
+        "field": "f067",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "M",
+        "field": "f068",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "M",
+        "field": "f069",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "Y",
+        "field": "f070",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "Y",
+        "field": "f071",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "Date of travel (from UK)",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "label": "D",
+        "field": "f072",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "D",
+        "field": "f073",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "M",
+        "field": "f074",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "M",
+        "field": "f075",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "Y",
+        "field": "f076",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "Y",
+        "field": "f077",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "Date returned (to UK)",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "label": "D",
+        "field": "f078",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "D",
+        "field": "f079",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "M",
+        "field": "f080",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "M",
+        "field": "f081",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "Y",
+        "field": "f082",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "Y",
+        "field": "f083",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "Purpose of travel",
+        "field": "f084",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "Countries/areas visited",
+        "field": "f085",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Countries/areas visited",
+        "field": "f086",
+        "source_page": 1,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "label": "Water contact*",
+        "field": "f087",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "*Please specify",
+        "field": "f088",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Relevant Occupational History",
+        "field": "f089",
+        "source_page": 1,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "label": "CLINICAL/EPIDEMIOLOGICAL INFORMATION",
+        "field": "f090",
+        "source_page": 1,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "label": "Other clinical details",
+        "field": "f091",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "Antimicrobials given?",
+        "field": "f092",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "REFERRED BY",
+        "source_page": 1,
+        "heading": true,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "label": "Name",
+        "field": "f093",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "Signature",
+        "field": "f094",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "Date",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "label": "D",
+        "field": "f095",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "D",
+        "field": "f096",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "M",
+        "field": "f097",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "M",
+        "field": "f098",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "Y",
+        "field": "f099",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "Y",
+        "field": "f100",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "All requests are subject to UKHSA standard terms and conditions.",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "text": "SPATHW0196.06",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "text": "Version effective from Jan - 2024",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 24
+      }
+    ],
+    [
+      {
+        "text": "UKHSA Microbiology request form",
+        "source_page": 1,
+        "heading": false,
+        "colspan": 24
+      }
+    ]
+  ],
+  "context": "Entirely fictional case. All people, identifiers, contact details, decisions and signatures are synthetic and do not represent a real submission.\nFictional 40-year-old female inpatient returns from travel on 18 October 2026, develops fever/headache/myalgia 21 October after freshwater exposure, and has serum plus paired urine collected 23 October and sent 24 October. No pregnancy, ITU/dialysis, post-mortem or suspected HG4. Previous reference is P26C000909, represented in its eight native independent digit widgets. Every native date digit widget is separately represented; ordinary whole NHS/reference fields are not split.\nPage 1 / Sender / Sender’s name and address: Dr Robin Vale, Sample Teaching Hospital, 12 Example Road, London\nPage 1 / Sender / Direct Phone: 0200000909 (synthetic)\nPage 1 / Sender / Postcode: NW9 5HT\nPage 1 / Sender / Direct Phone (out of hours): 0200001909 (synthetic)\nPage 1 / Patient status / PATIENT/SOURCE INFORMATION: Patient status / PATIENT/SOURCE INFORMATION: Inpatient\nPage 1 / Patient status other / *Please specify: N/A - inpatient\nPage 1 / Patient / NHS number: SYN0000909\nPage 1 / Patient / Gender: Patient / Gender: female\nPage 1 / Patient / Surname: NORTH\nPage 1 / Patient / Forename: ALICE\nPage 1 / DOB / digit 1 / D: 1\nPage 1 / DOB / digit 2 / D: 4\nPage 1 / DOB / digit 3 / M: 0\nPage 1 / DOB / digit 4 / M: 5\nPage 1 / DOB / digit 5 / Y: 1\nPage 1 / DOB / digit 6 / Y: 9\nPage 1 / DOB / digit 7 / Y: 8\nPage 1 / DOB / digit 8 / Y: 6\nPage 1 / Patient / Age: 40\nPage 1 / Patient / Patient’s postcode: NW9 5HT\nPage 1 / Patient / Patient’s HPT: North London (fictional referral)\nPage 1 / Patient / Hospital number: SYN-H909\nPage 1 / Patient / Hospital name (if different from sender’s name): Sample Teaching Hospital\nPage 1 / Ward flags / ITU: Ward flags / ITU: No selection: this branch does not apply.\nPage 1 / Ward / Other ward/clinic: Ward B\nPage 1 / Pregnancy / Pregnant: Pregnancy / Pregnant: No\nPage 1 / Pregnancy / Weeks: N/A - not pregnant\nPage 1 / Prior samples / Have previous samples been sent to RIPL?: Prior samples / Have previous samples been sent to RIPL?: Yes\nPage 1 / Prior reference / blank 1 / RIPL Lab ref. no: 2\nPage 1 / Prior reference / blank 2 / RIPL Lab ref. no: 6\nPage 1 / Prior reference / blank 3 / RIPL Lab ref. no: 0\nPage 1 / Prior reference / blank 4 / RIPL Lab ref. no: 0\nPage 1 / Prior reference / blank 5 / RIPL Lab ref. no: 0\nPage 1 / Prior reference / blank 6 / RIPL Lab ref. no: 9\nPage 1 / Prior reference / blank 7 / RIPL Lab ref. no: 0\nPage 1 / Prior reference / blank 8 / RIPL Lab ref. no: 9\nPage 1 / Sample row 1 / Serum\\clotted blood: Sample row 1 / Serum\\clotted blood: Serum\\clotted blood\nPage 1 / Sample row 1 / Your reference: SYN909-1\nPage 1 / Sample row 2 / Plasma: Sample row 2 / Plasma: No selection: this branch does not apply.\nPage 1 / Sample row 2 / Your reference: N/A\nPage 1 / Sample row 3 / EDTA whole blood: Sample row 3 / EDTA whole blood: No selection: this branch does not apply.\nPage 1 / Sample row 3 / Your reference: N/A\nPage 1 / Sample row 4 / CSF: Sample row 4 / CSF: No selection: this branch does not apply.\nPage 1 / Sample row 4 / Your reference: N/A\nPage 1 / Sample row 5 / Urine (only send with paired serum): Sample row 5 / Urine (only send with paired serum): Urine (only send with paired serum)\nPage 1 / Sample row 5 / Your reference: SYN909-5\nPage 1 / Sample row 6 / Other: Sample row 6 / Other: No selection: this branch does not apply.\nPage 1 / Sample row 6 / Your reference: N/A\nPage 1 / Collection / digit 1 / D: 2\nPage 1 / Collection / digit 2 / D: 3\nPage 1 / Collection / digit 3 / M: 1\nPage 1 / Collection / digit 4 / M: 0\nPage 1 / Collection / digit 5 / Y: 2\nPage 1 / Collection / digit 6 / Y: 6\nPage 1 / Collection / Time: 09:15\nPage 1 / Dispatch / digit 1 / D: 2\nPage 1 / Dispatch / digit 2 / D: 4\nPage 1 / Dispatch / digit 3 / M: 1\nPage 1 / Dispatch / digit 4 / M: 0\nPage 1 / Dispatch / digit 5 / Y: 2\nPage 1 / Dispatch / digit 6 / Y: 6\nPage 1 / Dispatch unlabelled adjacent time widget / Time: 08:00\nPage 1 / Post-mortem / Please tick the box if your clinical sample is post mortem: Post-mortem / Please tick the box if your clinical sample is post mortem: No selection: this branch does not apply.\nPage 1 / Test omission / OMIT HANTAVIRUS TESTS: Test omission / OMIT HANTAVIRUS TESTS: No selection: this branch does not apply.\nPage 1 / Travel / Foreign Travel within previous 30 days?: Travel / Foreign Travel within previous 30 days?: Yes\nPage 1 / Onset / digit 1 / D: 2\nPage 1 / Onset / digit 2 / D: 1\nPage 1 / Onset / digit 3 / M: 1\nPage 1 / Onset / digit 4 / M: 0\nPage 1 / Onset / digit 5 / Y: 2\nPage 1 / Onset / digit 6 / Y: 6\nPage 1 / Travel outward / digit 1 / D: 0\nPage 1 / Travel outward / digit 2 / D: 1\nPage 1 / Travel outward / digit 3 / M: 1\nPage 1 / Travel outward / digit 4 / M: 0\nPage 1 / Travel outward / digit 5 / Y: 2\nPage 1 / Travel outward / digit 6 / Y: 6\nPage 1 / Travel return / digit 1 / D: 1\nPage 1 / Travel return / digit 2 / D: 8\nPage 1 / Travel return / digit 3 / M: 1\nPage 1 / Travel return / digit 4 / M: 0\nPage 1 / Travel return / digit 5 / Y: 2\nPage 1 / Travel return / digit 6 / Y: 6\nPage 1 / Travel / Purpose of travel: Recreational hiking\nPage 1 / Travel / Countries/areas visited: Example overseas tropical destination (synthetic)\nPage 1 / Travel setting / Countries/areas visited: Travel setting / Countries/areas visited: Rural area, Forests\nPage 1 / Exposure / Water contact*: Exposure / Water contact*: Water contact*\nPage 1 / Exposure / *Please specify: Freshwater stream exposure during hiking on 15 October.\nPage 1 / Occupation / Relevant Occupational History: Office-based librarian; no occupational animal exposure.\nPage 1 / Clinical symptoms / CLINICAL/EPIDEMIOLOGICAL INFORMATION: Clinical symptoms / CLINICAL/EPIDEMIOLOGICAL INFORMATION: Fever, Headache, Myalgia\nPage 1 / Clinical details / Other clinical details: Fever, headache and myalgia from 21 October after freshwater exposure. Serum and paired urine collected on day 3. No haemorrhagic features or suspected HG4 infection.\nPage 1 / Treatment / Antimicrobials given?: None before specimen collection.\nPage 1 / Referrer / Name: Dr Robin Vale\nPage 1 / Referrer / Signature: Dr Robin Vale (synthetic signature)\nPage 1 / Referrer date / digit 1 / D: 2\nPage 1 / Referrer date / digit 2 / D: 4\nPage 1 / Referrer date / digit 3 / M: 1\nPage 1 / Referrer date / digit 4 / M: 0\nPage 1 / Referrer date / digit 5 / Y: 2\nPage 1 / Referrer date / digit 6 / Y: 6",
+  "workflow_identity": {
+    "language": "en",
+    "id": 909
+  }
+}

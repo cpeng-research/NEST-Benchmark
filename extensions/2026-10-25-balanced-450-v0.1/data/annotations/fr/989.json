@@ -1,0 +1,5678 @@
+{
+  "id": "fr-989-cerfa-10092",
+  "language": "fr",
+  "domain": "Business",
+  "title": "Location d’un aéronef : inscription, modification ou radiation",
+  "issuer_id": "Direction générale de l’aviation civile",
+  "template_family": "cerfa-10092",
+  "business_topic": "Location d’un aéronef : inscription, modification ou radiation",
+  "source_url": "https://www.formulaires.service-public.gouv.fr/gf/cerfa_10092.do",
+  "landing_url": "https://www.formulaires.service-public.gouv.fr/gf/showFormulaireSignaletiqueConsulter.do?numCerfa=10092",
+  "source_sha256": "55865d4845c5dccd246c146f11f001e8716c1aded715269ed6d633a9cfc9ceb3",
+  "source_pages": 4,
+  "retrieved_at": "2026-10-25T07:50:48.259169+00:00",
+  "source_version": "10092*03 imprimé en surimpression ; ancien fond 10092*02 ; notice visible 50025#03 (ancien fond #02). Pas de date de publication imprimée.",
+  "source_date_evidence": {
+    "kind": "visually_verified_overprinted_edition",
+    "value": "Visible CERFA 10092*03 and notice 50025#03 are the current source editions; older 10092*02/50025#02 survive only in the underlying text layer. No printed publication date."
+  },
+  "license_url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000032256665/",
+  "license_note": "Réutilisation du texte administratif et de la structure logique comme informations publiques publiées par une administration : CRPA L300-2, L321-1 et L322-1, sous réserve de L321-2. Ni le PDF ni son lien ne sont présumés sous Etalab du seul fait du portail Service Public. Sources, édition imprimée ou absence de date et consultation conservées ; sens, instructions et options préservés. Marques, logos et graphismes tiers exclus des adaptations ; valeurs entièrement fictives distinctes de la source. Vérification propre à chaque émetteur conservée dans le dossier privé.",
+  "columns": 12,
+  "fields": [
+    {
+      "id": "f0001",
+      "label": "inscription initiale",
+      "path": [
+        "Page 1",
+        "LOCATION D'UN AÉRONEF",
+        "Objet demande"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "inscription initiale",
+      "synthetic_value": [
+        "inscription initiale"
+      ],
+      "source_label_rects": [
+        [
+          386.27899169921875,
+          73.66500091552734,
+          439.5699157714844,
+          82.9260025024414
+        ],
+        [
+          214.7465057373047,
+          59.74604797363281,
+          283.2634582519531,
+          71.72505187988281
+        ]
+      ],
+      "options": [
+        "inscription initiale",
+        "inscription modificative (1)",
+        "radiation (1)"
+      ],
+      "context_evidence": "Page 1 / LOCATION D'UN AÉRONEF / Objet demande: inscription initiale"
+    },
+    {
+      "id": "f0002",
+      "label": "N° du dossier",
+      "path": [
+        "Page 1",
+        "CADRE RÉSERVÉ À L’ADMINISTRATION",
+        "N° du dossier"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "N° du dossier",
+      "synthetic_value": "FICT-989",
+      "source_label_rects": [
+        [
+          126.1500015258789,
+          128.58453369140625,
+          186.2799835205078,
+          141.89453125
+        ]
+      ]
+    },
+    {
+      "id": "f0003",
+      "label": "Visa",
+      "path": [
+        "Page 1",
+        "CADRE RÉSERVÉ À L’ADMINISTRATION",
+        "Visa"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Visa",
+      "synthetic_value": "Visa fictif",
+      "source_label_rects": [
+        [
+          402.4800109863281,
+          128.58453369140625,
+          421.7500305175781,
+          141.89453125
+        ]
+      ]
+    },
+    {
+      "id": "f0004",
+      "label": "Date de l'inscription",
+      "path": [
+        "Page 1",
+        "CADRE RÉSERVÉ À L’ADMINISTRATION",
+        "Date de l'inscription"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de l'inscription",
+      "synthetic_value": "20/09/2012",
+      "source_label_rects": [
+        [
+          126.1500015258789,
+          148.58453369140625,
+          213.08998107910156,
+          161.89453125
+        ],
+        [
+          126.1500015258789,
+          188.58453369140625,
+          213.08998107910156,
+          201.89453125
+        ]
+      ]
+    },
+    {
+      "id": "f0005",
+      "label": "N° de l'inscription",
+      "path": [
+        "Page 1",
+        "CADRE RÉSERVÉ À L’ADMINISTRATION",
+        "N° de l'inscription"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "N° de l'inscription",
+      "synthetic_value": "FICT-989-A",
+      "source_label_rects": [
+        [
+          126.1500015258789,
+          168.58453369140625,
+          203.1899871826172,
+          181.89453125
+        ],
+        [
+          126.1500015258789,
+          208.58453369140625,
+          203.1899871826172,
+          221.89453125
+        ]
+      ]
+    },
+    {
+      "id": "f0006",
+      "label": "Date de l'inscription modifiée ou radiée",
+      "path": [
+        "Page 1",
+        "CADRE RÉSERVÉ À L’ADMINISTRATION",
+        "Date de l'inscription modifiée ou radiée"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de l'inscription modifiée ou radiée",
+      "synthetic_value": "Sans objet : inscription initiale",
+      "source_label_rects": [
+        [
+          126.1500015258789,
+          188.58453369140625,
+          298.12994384765625,
+          201.89453125
+        ]
+      ]
+    },
+    {
+      "id": "f0007",
+      "label": "N° de l'inscription modifiée ou radiée",
+      "path": [
+        "Page 1",
+        "CADRE RÉSERVÉ À L’ADMINISTRATION",
+        "N° de l'inscription modifiée ou radiée"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "N° de l'inscription modifiée ou radiée",
+      "synthetic_value": "Sans objet : inscription initiale",
+      "source_label_rects": [
+        [
+          126.1500015258789,
+          208.58453369140625,
+          288.2299499511719,
+          221.89453125
+        ]
+      ]
+    },
+    {
+      "id": "f0008",
+      "label": "Nom ou dénomination",
+      "path": [
+        "Page 1",
+        "1 - BAILLEUR (propriétaire ou copropriétaire)",
+        "Nom ou dénomination"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom ou dénomination",
+      "synthetic_value": "Location Exemple SAS",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          282.5904541015625,
+          120.46998596191406,
+          295.90045166015625
+        ],
+        [
+          22.650001525878906,
+          435.14044189453125,
+          120.4699935913086,
+          448.450439453125
+        ]
+      ]
+    },
+    {
+      "id": "f0009",
+      "label": "Nom d'usage (Facultatif)",
+      "path": [
+        "Page 1",
+        "1 - BAILLEUR (propriétaire ou copropriétaire)",
+        "Nom d'usage (Facultatif)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom d'usage (Facultatif)",
+      "synthetic_value": "Sans objet : personne morale",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          302.5904541015625,
+          131.25999450683594,
+          315.90045166015625
+        ],
+        [
+          22.650001525878906,
+          455.14044189453125,
+          131.25999450683594,
+          468.450439453125
+        ]
+      ]
+    },
+    {
+      "id": "f0010",
+      "label": "Prénom",
+      "path": [
+        "Page 1",
+        "1 - BAILLEUR (propriétaire ou copropriétaire)",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Sans objet : personne morale",
+      "source_label_rects": [
+        [
+          376.92999267578125,
+          302.5904541015625,
+          411.9399719238281,
+          315.90045166015625
+        ],
+        [
+          334.42999267578125,
+          455.14044189453125,
+          369.4399719238281,
+          468.450439453125
+        ]
+      ]
+    },
+    {
+      "id": "f0011",
+      "label": "Adresse ou siège social",
+      "path": [
+        "Page 1",
+        "1 - BAILLEUR (propriétaire ou copropriétaire)",
+        "Adresse ou siège social"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Adresse ou siège social",
+      "synthetic_value": "52 rue Exemple, 69003 Lyon",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          322.5904235839844,
+          128.24998474121094,
+          335.9004211425781
+        ],
+        [
+          22.649940490722656,
+          475.14044189453125,
+          128.2499237060547,
+          488.450439453125
+        ]
+      ]
+    },
+    {
+      "id": "f0012",
+      "label": "Numéro SIRET",
+      "path": [
+        "Page 1",
+        "1 - BAILLEUR (propriétaire ou copropriétaire)",
+        "Numéro SIRET"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Numéro SIRET",
+      "synthetic_value": "00000098900016",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          342.5904235839844,
+          90.44000244140625,
+          355.9004211425781
+        ]
+      ]
+    },
+    {
+      "id": "f0013",
+      "label": "Nom du représentant légal ou statutaire",
+      "path": [
+        "Page 1",
+        "1 - BAILLEUR (propriétaire ou copropriétaire)",
+        "Nom du représentant légal ou statutaire"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom du représentant légal ou statutaire",
+      "synthetic_value": "MARTIN Claire",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          362.5904235839844,
+          198.2899627685547,
+          375.9004211425781
+        ],
+        [
+          22.649999618530273,
+          515.1404418945312,
+          198.2899627685547,
+          528.450439453125
+        ]
+      ]
+    },
+    {
+      "id": "f0014",
+      "label": "Nom ou dénomination",
+      "path": [
+        "Page 1",
+        "2 - LOCATAIRE",
+        "Nom ou dénomination"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom ou dénomination",
+      "synthetic_value": "Aéroclub Démonstration",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          282.5904541015625,
+          120.46998596191406,
+          295.90045166015625
+        ],
+        [
+          22.650001525878906,
+          435.14044189453125,
+          120.4699935913086,
+          448.450439453125
+        ]
+      ]
+    },
+    {
+      "id": "f0015",
+      "label": "Nom d'usage (Facultatif)",
+      "path": [
+        "Page 1",
+        "2 - LOCATAIRE",
+        "Nom d'usage (Facultatif)"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom d'usage (Facultatif)",
+      "synthetic_value": "Sans objet : personne morale",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          302.5904541015625,
+          131.25999450683594,
+          315.90045166015625
+        ],
+        [
+          22.650001525878906,
+          455.14044189453125,
+          131.25999450683594,
+          468.450439453125
+        ]
+      ]
+    },
+    {
+      "id": "f0016",
+      "label": "Prénom",
+      "path": [
+        "Page 1",
+        "2 - LOCATAIRE",
+        "Prénom"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Sans objet : personne morale",
+      "source_label_rects": [
+        [
+          376.92999267578125,
+          302.5904541015625,
+          411.9399719238281,
+          315.90045166015625
+        ],
+        [
+          334.42999267578125,
+          455.14044189453125,
+          369.4399719238281,
+          468.450439453125
+        ]
+      ]
+    },
+    {
+      "id": "f0017",
+      "label": "Adresse ou siège social",
+      "path": [
+        "Page 1",
+        "2 - LOCATAIRE",
+        "Adresse ou siège social"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Adresse ou siège social",
+      "synthetic_value": "52 rue Exemple, 69003 Lyon",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          322.5904235839844,
+          128.24998474121094,
+          335.9004211425781
+        ],
+        [
+          22.649940490722656,
+          475.14044189453125,
+          128.2499237060547,
+          488.450439453125
+        ]
+      ]
+    },
+    {
+      "id": "f0018",
+      "label": "N° SIRET",
+      "path": [
+        "Page 1",
+        "2 - LOCATAIRE",
+        "N° SIRET"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "N° SIRET",
+      "synthetic_value": "00000098900024",
+      "source_label_rects": [
+        [
+          22.650001525878906,
+          495.14044189453125,
+          66.10000610351562,
+          508.450439453125
+        ]
+      ]
+    },
+    {
+      "id": "f0019",
+      "label": "Nom du représentant légal ou statutaire",
+      "path": [
+        "Page 1",
+        "2 - LOCATAIRE",
+        "Nom du représentant légal ou statutaire"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom du représentant légal ou statutaire",
+      "synthetic_value": "DURAND Paul",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          362.5904235839844,
+          198.2899627685547,
+          375.9004211425781
+        ],
+        [
+          22.649999618530273,
+          515.1404418945312,
+          198.2899627685547,
+          528.450439453125
+        ]
+      ]
+    },
+    {
+      "id": "f0020",
+      "label": "Type, série",
+      "path": [
+        "Page 1",
+        "3 - AÉRONEF",
+        "Type, série"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Type, série",
+      "synthetic_value": "Aéronef de démonstration fictif",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          590.9900512695312,
+          71.55999755859375,
+          604.300048828125
+        ]
+      ]
+    },
+    {
+      "id": "f0021",
+      "label": "N° de série",
+      "path": [
+        "Page 1",
+        "3 - AÉRONEF",
+        "N° de série"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "N° de série",
+      "synthetic_value": "FICT-989-S",
+      "source_label_rects": [
+        [
+          301.839111328125,
+          590.9900512695312,
+          351.4090881347656,
+          604.300048828125
+        ]
+      ]
+    },
+    {
+      "id": "f0022",
+      "label": "Marques d'immatriculation : F -",
+      "path": [
+        "Page 1",
+        "3 - AÉRONEF",
+        "Marques d'immatriculation : F -"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Marques d'immatriculation : F -",
+      "synthetic_value": "FICT",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          614.0900268554688,
+          159.5900115966797,
+          627.4000244140625
+        ]
+      ]
+    },
+    {
+      "id": "f0023",
+      "label": "Aérodrome où sera basé l'aéronef",
+      "path": [
+        "Page 1",
+        "3 - AÉRONEF",
+        "Aérodrome où sera basé l'aéronef"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Aérodrome où sera basé l'aéronef",
+      "synthetic_value": "Terrain fictif sans localisation réelle",
+      "source_label_rects": [
+        [
+          302.6800231933594,
+          614.0900268554688,
+          453.5499267578125,
+          627.4000244140625
+        ]
+      ]
+    },
+    {
+      "id": "f0024",
+      "label": "Aérodrome où sera basé l'aéronef",
+      "path": [
+        "Page 1",
+        "3 - AÉRONEF",
+        "Ligne libre complément sous aéronef"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Aérodrome où sera basé l'aéronef",
+      "synthetic_value": "Aucun vol réel",
+      "source_label_rects": [
+        [
+          302.6800231933594,
+          614.0900268554688,
+          453.5499267578125,
+          627.4000244140625
+        ]
+      ]
+    },
+    {
+      "id": "f0025",
+      "label": "Date de l'acte",
+      "path": [
+        "Page 1",
+        "4 - ACTE DE LOCATION",
+        "Date de l'acte"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de l'acte",
+      "synthetic_value": "01/09/2012",
+      "source_label_rects": [
+        [
+          22.549999237060547,
+          721.5400390625,
+          83.37999725341797,
+          734.8500366210938
+        ]
+      ]
+    },
+    {
+      "id": "f0026",
+      "label": "Durée du contrat",
+      "path": [
+        "Page 1",
+        "4 - ACTE DE LOCATION",
+        "Durée du contrat"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Durée du contrat",
+      "synthetic_value": "12 mois",
+      "source_label_rects": [
+        [
+          291.8524169921875,
+          721.5400390625,
+          366.3323669433594,
+          734.8500366210938
+        ],
+        [
+          166.2739715576172,
+          768.9580078125,
+          217.24794006347656,
+          778.2750244140625
+        ],
+        [
+          314.8979187011719,
+          768.9580078125,
+          365.8719482421875,
+          778.2750244140625
+        ]
+      ]
+    },
+    {
+      "id": "f0027",
+      "label": "Date de départ de la location",
+      "path": [
+        "Page 1",
+        "4 - ACTE DE LOCATION",
+        "Date de départ de la location"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de départ de la location",
+      "synthetic_value": "01/10/2012",
+      "source_label_rects": [
+        [
+          22.549999237060547,
+          741.5400390625,
+          150.3999786376953,
+          754.8500366210938
+        ]
+      ]
+    },
+    {
+      "id": "f0028",
+      "label": "Date de fin de la location",
+      "path": [
+        "Page 1",
+        "4 - ACTE DE LOCATION",
+        "Date de fin de la location"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de fin de la location",
+      "synthetic_value": "30/09/2013",
+      "source_label_rects": [
+        [
+          291.84991455078125,
+          741.5400390625,
+          401.9098815917969,
+          754.8500366210938
+        ]
+      ]
+    },
+    {
+      "id": "f0029",
+      "label": "Le contrat est-il renouvelable par tacite reconduction ?",
+      "path": [
+        "Page 1",
+        "4 - ACTE DE LOCATION",
+        "Le contrat est-il renouvelable par tacite reconduction ?"
+      ],
+      "kind": "checkbox_single",
+      "source_page": 1,
+      "source_anchor": "Le contrat est-il renouvelable par tacite reconduction ?",
+      "synthetic_value": [
+        "Non"
+      ],
+      "source_label_rects": [
+        [
+          22.549999237060547,
+          757.5400390625,
+          263.219970703125,
+          770.8500366210938
+        ]
+      ],
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "context_evidence": "Page 1 / 4 - ACTE DE LOCATION / Le contrat est-il renouvelable par tacite reconduction ?: Non"
+    },
+    {
+      "id": "f0030",
+      "label": "N° de l'inscription à modifier/à radier (1)",
+      "path": [
+        "Page 2",
+        "5 - INSCRIPTION INITIALE",
+        "N° de l'inscription à modifier/à radier (1)"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "N° de l'inscription à modifier/à radier (1)",
+      "synthetic_value": "Sans objet : inscription initiale",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          106.88995361328125,
+          198.04998779296875,
+          120.199951171875
+        ]
+      ]
+    },
+    {
+      "id": "f0031",
+      "label": "Date de l'inscription à modifier/à radier (1)",
+      "path": [
+        "Page 2",
+        "5 - INSCRIPTION INITIALE",
+        "Date de l'inscription à modifier/à radier (1)"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Date de l'inscription à modifier/à radier (1)",
+      "synthetic_value": "Sans objet : inscription initiale",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          122.88995361328125,
+          207.94998168945312,
+          136.199951171875
+        ]
+      ]
+    },
+    {
+      "id": "f0032",
+      "label": "Fait à",
+      "path": [
+        "Page 2",
+        "6 - SIGNATURE(S)",
+        "Fait à"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Fait à",
+      "synthetic_value": "Lyon",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          176.38995361328125,
+          47.65999984741211,
+          189.699951171875
+        ]
+      ]
+    },
+    {
+      "id": "f0033",
+      "label": "le",
+      "path": [
+        "Page 2",
+        "6 - SIGNATURE(S)",
+        "Date signature"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "le",
+      "synthetic_value": "15/09/2012",
+      "source_label_rects": [
+        [
+          155.333984375,
+          28.079952239990234,
+          170.66998291015625,
+          44.711952209472656
+        ],
+        [
+          298.4599304199219,
+          62.889949798583984,
+          306.43994140625,
+          76.199951171875
+        ],
+        [
+          100.83999633789062,
+          134.36404418945312,
+          106.28599548339844,
+          143.62503051757812
+        ],
+        [
+          22.649999618530273,
+          697.4519653320312,
+          31.54599952697754,
+          708.0999145507812
+        ],
+        [
+          184.0579833984375,
+          697.4519653320312,
+          190.281982421875,
+          708.0999145507812
+        ],
+        [
+          333.449951171875,
+          697.4519653320312,
+          339.6739501953125,
+          708.0999145507812
+        ],
+        [
+          388.5859375,
+          697.4519653320312,
+          394.8099365234375,
+          708.0999145507812
+        ],
+        [
+          458.83392333984375,
+          697.4519653320312,
+          465.05792236328125,
+          708.0999145507812
+        ],
+        [
+          473.50592041015625,
+          697.4519653320312,
+          479.72991943359375,
+          708.0999145507812
+        ],
+        [
+          48.88200378417969,
+          707.0519409179688,
+          55.10600662231445,
+          717.6998901367188
+        ],
+        [
+          175.1400146484375,
+          745.5399169921875,
+          182.82000732421875,
+          758.8499145507812
+        ],
+        [
+          105.13001251220703,
+          760.7899169921875,
+          112.81001281738281,
+          774.0999145507812
+        ],
+        [
+          255.3498077392578,
+          760.7899169921875,
+          263.02978515625,
+          774.0999145507812
+        ],
+        [
+          522.010009765625,
+          798.6519775390625,
+          528.2340087890625,
+          809.2999267578125
+        ],
+        [
+          70.22600555419922,
+          808.251953125,
+          76.45000457763672,
+          818.89990234375
+        ],
+        [
+          246.75396728515625,
+          808.251953125,
+          252.97796630859375,
+          818.89990234375
+        ],
+        [
+          218.22999572753906,
+          176.38995361328125,
+          226.00999450683594,
+          189.699951171875
+        ]
+      ]
+    },
+    {
+      "id": "f0034",
+      "label": "Noms",
+      "path": [
+        "Page 2",
+        "6 - SIGNATURE(S)",
+        "Noms"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Noms",
+      "synthetic_value": "MARTIN",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          193.48992919921875,
+          48.76000213623047,
+          206.7999267578125
+        ],
+        [
+          233.7899932861328,
+          193.48992919921875,
+          258.239990234375,
+          206.7999267578125
+        ]
+      ]
+    },
+    {
+      "id": "f0035",
+      "label": "Prénoms",
+      "path": [
+        "Page 2",
+        "6 - SIGNATURE(S)",
+        "Prénoms"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Prénoms",
+      "synthetic_value": "Claire",
+      "source_label_rects": [
+        [
+          218.22999572753906,
+          193.48992919921875,
+          258.239990234375,
+          206.7999267578125
+        ]
+      ]
+    },
+    {
+      "id": "f0036",
+      "label": "Signature (s) du ou (des) propriétaires",
+      "path": [
+        "Page 2",
+        "6 - SIGNATURE(S)",
+        "Signature (s) du ou (des) propriétaires"
+      ],
+      "kind": "text",
+      "source_page": 2,
+      "source_anchor": "Signature (s) du ou (des) propriétaires",
+      "synthetic_value": "Claire MARTIN, signature fictive",
+      "source_label_rects": [
+        [
+          425.20001220703125,
+          195.56593322753906,
+          560.3599853515625,
+          206.14993286132812
+        ]
+      ]
+    },
+    {
+      "id": "f0037",
+      "label": "Nom ou dénomination",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Copropriétaire 1 / Nom ou dénomination"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Nom ou dénomination",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          72.40205383300781,
+          110.68799591064453,
+          84.38105773925781
+        ],
+        [
+          22.649999618530273,
+          256.6539306640625,
+          110.68799591064453,
+          268.6329345703125
+        ],
+        [
+          22.649999618530273,
+          440.90594482421875,
+          110.68799591064453,
+          452.8849182128906
+        ],
+        [
+          22.649999618530273,
+          625.1578979492188,
+          110.68799591064453,
+          637.1369018554688
+        ],
+        [
+          306.1499938964844,
+          72.40205383300781,
+          394.18798828125,
+          84.38105773925781
+        ],
+        [
+          306.15008544921875,
+          256.6539306640625,
+          394.1880798339844,
+          268.6329345703125
+        ],
+        [
+          306.15008544921875,
+          440.90594482421875,
+          394.1880798339844,
+          452.8849182128906
+        ],
+        [
+          306.15008544921875,
+          625.1578979492188,
+          394.1880798339844,
+          637.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0038",
+      "label": "Nom ou dénomination",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Co-locataire 1 / Nom ou dénomination"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Nom ou dénomination",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          72.40205383300781,
+          110.68799591064453,
+          84.38105773925781
+        ],
+        [
+          22.649999618530273,
+          256.6539306640625,
+          110.68799591064453,
+          268.6329345703125
+        ],
+        [
+          22.649999618530273,
+          440.90594482421875,
+          110.68799591064453,
+          452.8849182128906
+        ],
+        [
+          22.649999618530273,
+          625.1578979492188,
+          110.68799591064453,
+          637.1369018554688
+        ],
+        [
+          306.1499938964844,
+          72.40205383300781,
+          394.18798828125,
+          84.38105773925781
+        ],
+        [
+          306.15008544921875,
+          256.6539306640625,
+          394.1880798339844,
+          268.6329345703125
+        ],
+        [
+          306.15008544921875,
+          440.90594482421875,
+          394.1880798339844,
+          452.8849182128906
+        ],
+        [
+          306.15008544921875,
+          625.1578979492188,
+          394.1880798339844,
+          637.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0039",
+      "label": "Nom d'usage (facultatif)",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Copropriétaire 1 / Nom d'usage (facultatif)"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Nom d'usage (facultatif)",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          92.40205383300781,
+          117.40199279785156,
+          104.38105773925781
+        ],
+        [
+          22.649999618530273,
+          276.6539306640625,
+          117.40199279785156,
+          288.6329345703125
+        ],
+        [
+          22.649999618530273,
+          460.90594482421875,
+          117.40199279785156,
+          472.8849182128906
+        ],
+        [
+          22.649999618530273,
+          645.1578979492188,
+          117.40199279785156,
+          657.1369018554688
+        ],
+        [
+          306.1499938964844,
+          92.40205383300781,
+          400.90203857421875,
+          104.38105773925781
+        ],
+        [
+          306.15008544921875,
+          276.6539306640625,
+          400.9021301269531,
+          288.6329345703125
+        ],
+        [
+          306.15008544921875,
+          460.90594482421875,
+          400.9021301269531,
+          472.8849182128906
+        ],
+        [
+          306.15008544921875,
+          645.1578979492188,
+          400.9021301269531,
+          657.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0040",
+      "label": "Nom d'usage (facultatif)",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Co-locataire 1 / Nom d'usage (facultatif)"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Nom d'usage (facultatif)",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          92.40205383300781,
+          117.40199279785156,
+          104.38105773925781
+        ],
+        [
+          22.649999618530273,
+          276.6539306640625,
+          117.40199279785156,
+          288.6329345703125
+        ],
+        [
+          22.649999618530273,
+          460.90594482421875,
+          117.40199279785156,
+          472.8849182128906
+        ],
+        [
+          22.649999618530273,
+          645.1578979492188,
+          117.40199279785156,
+          657.1369018554688
+        ],
+        [
+          306.1499938964844,
+          92.40205383300781,
+          400.90203857421875,
+          104.38105773925781
+        ],
+        [
+          306.15008544921875,
+          276.6539306640625,
+          400.9021301269531,
+          288.6329345703125
+        ],
+        [
+          306.15008544921875,
+          460.90594482421875,
+          400.9021301269531,
+          472.8849182128906
+        ],
+        [
+          306.15008544921875,
+          645.1578979492188,
+          400.9021301269531,
+          657.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0041",
+      "label": "Prénom",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Copropriétaire 1 / Prénom"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          112.40205383300781,
+          54.15900421142578,
+          124.38105773925781
+        ],
+        [
+          22.649999618530273,
+          296.6539306640625,
+          54.15900421142578,
+          308.6329345703125
+        ],
+        [
+          22.649999618530273,
+          480.90594482421875,
+          54.15900421142578,
+          492.8849182128906
+        ],
+        [
+          22.649999618530273,
+          665.1578979492188,
+          54.15900421142578,
+          677.1369018554688
+        ],
+        [
+          306.1499938964844,
+          112.40205383300781,
+          337.65899658203125,
+          124.38105773925781
+        ],
+        [
+          306.15008544921875,
+          296.6539306640625,
+          337.6590881347656,
+          308.6329345703125
+        ],
+        [
+          306.15008544921875,
+          480.90594482421875,
+          337.6590881347656,
+          492.8849182128906
+        ],
+        [
+          306.15008544921875,
+          665.1578979492188,
+          337.6590881347656,
+          677.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0042",
+      "label": "Prénom",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Co-locataire 1 / Prénom"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          112.40205383300781,
+          54.15900421142578,
+          124.38105773925781
+        ],
+        [
+          22.649999618530273,
+          296.6539306640625,
+          54.15900421142578,
+          308.6329345703125
+        ],
+        [
+          22.649999618530273,
+          480.90594482421875,
+          54.15900421142578,
+          492.8849182128906
+        ],
+        [
+          22.649999618530273,
+          665.1578979492188,
+          54.15900421142578,
+          677.1369018554688
+        ],
+        [
+          306.1499938964844,
+          112.40205383300781,
+          337.65899658203125,
+          124.38105773925781
+        ],
+        [
+          306.15008544921875,
+          296.6539306640625,
+          337.6590881347656,
+          308.6329345703125
+        ],
+        [
+          306.15008544921875,
+          480.90594482421875,
+          337.6590881347656,
+          492.8849182128906
+        ],
+        [
+          306.15008544921875,
+          665.1578979492188,
+          337.6590881347656,
+          677.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0043",
+      "label": "Adresse ou siège social (pour société / association / Aéro-club)",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Copropriétaire 1 / Adresse ou siège social (pour société / association / Aéro-club)"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Adresse ou siège social (pour société / association / Aéro-club)",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          132.4020538330078,
+          273.27294921875,
+          144.3810577392578
+        ],
+        [
+          22.649999618530273,
+          316.6539306640625,
+          273.27294921875,
+          328.6329345703125
+        ],
+        [
+          22.649999618530273,
+          500.90594482421875,
+          273.27294921875,
+          512.8849487304688
+        ],
+        [
+          22.649999618530273,
+          685.1578979492188,
+          275.7749328613281,
+          697.1369018554688
+        ],
+        [
+          306.1499938964844,
+          132.4020538330078,
+          556.773193359375,
+          144.3810577392578
+        ],
+        [
+          306.15008544921875,
+          316.6539306640625,
+          556.7732543945312,
+          328.6329345703125
+        ],
+        [
+          306.15008544921875,
+          500.90594482421875,
+          556.7732543945312,
+          512.8849487304688
+        ],
+        [
+          306.15008544921875,
+          685.1578979492188,
+          556.7732543945312,
+          697.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0044",
+      "label": "Adresse ou siège social (pour société / association / Aéro-club)",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Co-locataire 1 / Adresse ou siège social (pour société / association / Aéro-club)"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Adresse ou siège social (pour société / association / Aéro-club)",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          132.4020538330078,
+          273.27294921875,
+          144.3810577392578
+        ],
+        [
+          22.649999618530273,
+          316.6539306640625,
+          273.27294921875,
+          328.6329345703125
+        ],
+        [
+          22.649999618530273,
+          500.90594482421875,
+          273.27294921875,
+          512.8849487304688
+        ],
+        [
+          22.649999618530273,
+          685.1578979492188,
+          275.7749328613281,
+          697.1369018554688
+        ],
+        [
+          306.1499938964844,
+          132.4020538330078,
+          556.773193359375,
+          144.3810577392578
+        ],
+        [
+          306.15008544921875,
+          316.6539306640625,
+          556.7732543945312,
+          328.6329345703125
+        ],
+        [
+          306.15008544921875,
+          500.90594482421875,
+          556.7732543945312,
+          512.8849487304688
+        ],
+        [
+          306.15008544921875,
+          685.1578979492188,
+          556.7732543945312,
+          697.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0045",
+      "label": "No Siret",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Copropriétaire 1 / No Siret"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "No Siret",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          192.4020538330078,
+          29.148000717163086,
+          204.3810577392578
+        ],
+        [
+          29.149499893188477,
+          193.18055725097656,
+          32.06683349609375,
+          200.16432189941406
+        ],
+        [
+          32.06760025024414,
+          192.4020538330078,
+          61.07460021972656,
+          204.3810577392578
+        ],
+        [
+          22.649999618530273,
+          376.6539306640625,
+          29.148000717163086,
+          388.6329040527344
+        ],
+        [
+          29.149499893188477,
+          377.4324645996094,
+          32.06683349609375,
+          384.41619873046875
+        ],
+        [
+          32.06760025024414,
+          376.6539306640625,
+          61.07460021972656,
+          388.6329040527344
+        ],
+        [
+          22.649999618530273,
+          560.9059448242188,
+          29.148000717163086,
+          572.8849487304688
+        ],
+        [
+          29.149499893188477,
+          561.6843872070312,
+          32.06683349609375,
+          568.6681518554688
+        ],
+        [
+          32.06760025024414,
+          560.9059448242188,
+          61.07460021972656,
+          572.8849487304688
+        ],
+        [
+          22.649999618530273,
+          745.1578979492188,
+          29.148000717163086,
+          757.1369018554688
+        ],
+        [
+          29.149499893188477,
+          745.9364013671875,
+          32.06683349609375,
+          752.920166015625
+        ],
+        [
+          32.06760025024414,
+          745.1578979492188,
+          61.07460021972656,
+          757.1369018554688
+        ],
+        [
+          306.15008544921875,
+          192.4020538330078,
+          312.6480712890625,
+          204.3810577392578
+        ],
+        [
+          312.64959716796875,
+          193.18055725097656,
+          315.5669250488281,
+          200.16432189941406
+        ],
+        [
+          315.56768798828125,
+          192.4020538330078,
+          344.5746765136719,
+          204.3810577392578
+        ],
+        [
+          306.15008544921875,
+          376.6539306640625,
+          312.6480712890625,
+          388.6329040527344
+        ],
+        [
+          312.64959716796875,
+          377.4324645996094,
+          315.5669250488281,
+          384.41619873046875
+        ],
+        [
+          315.56768798828125,
+          376.6539306640625,
+          344.5746765136719,
+          388.6329040527344
+        ],
+        [
+          306.15008544921875,
+          560.9059448242188,
+          312.6480712890625,
+          572.8849487304688
+        ],
+        [
+          312.64959716796875,
+          561.6843872070312,
+          315.5669250488281,
+          568.6681518554688
+        ],
+        [
+          315.56768798828125,
+          560.9059448242188,
+          344.5746765136719,
+          572.8849487304688
+        ],
+        [
+          306.15008544921875,
+          745.1578979492188,
+          312.6480712890625,
+          757.1369018554688
+        ],
+        [
+          312.64959716796875,
+          745.9364013671875,
+          315.5669250488281,
+          752.920166015625
+        ],
+        [
+          315.56768798828125,
+          745.1578979492188,
+          344.5746765136719,
+          757.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0046",
+      "label": "No Siret",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Co-locataire 1 / No Siret"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "No Siret",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          192.4020538330078,
+          29.148000717163086,
+          204.3810577392578
+        ],
+        [
+          29.149499893188477,
+          193.18055725097656,
+          32.06683349609375,
+          200.16432189941406
+        ],
+        [
+          32.06760025024414,
+          192.4020538330078,
+          61.07460021972656,
+          204.3810577392578
+        ],
+        [
+          22.649999618530273,
+          376.6539306640625,
+          29.148000717163086,
+          388.6329040527344
+        ],
+        [
+          29.149499893188477,
+          377.4324645996094,
+          32.06683349609375,
+          384.41619873046875
+        ],
+        [
+          32.06760025024414,
+          376.6539306640625,
+          61.07460021972656,
+          388.6329040527344
+        ],
+        [
+          22.649999618530273,
+          560.9059448242188,
+          29.148000717163086,
+          572.8849487304688
+        ],
+        [
+          29.149499893188477,
+          561.6843872070312,
+          32.06683349609375,
+          568.6681518554688
+        ],
+        [
+          32.06760025024414,
+          560.9059448242188,
+          61.07460021972656,
+          572.8849487304688
+        ],
+        [
+          22.649999618530273,
+          745.1578979492188,
+          29.148000717163086,
+          757.1369018554688
+        ],
+        [
+          29.149499893188477,
+          745.9364013671875,
+          32.06683349609375,
+          752.920166015625
+        ],
+        [
+          32.06760025024414,
+          745.1578979492188,
+          61.07460021972656,
+          757.1369018554688
+        ],
+        [
+          306.15008544921875,
+          192.4020538330078,
+          312.6480712890625,
+          204.3810577392578
+        ],
+        [
+          312.64959716796875,
+          193.18055725097656,
+          315.5669250488281,
+          200.16432189941406
+        ],
+        [
+          315.56768798828125,
+          192.4020538330078,
+          344.5746765136719,
+          204.3810577392578
+        ],
+        [
+          306.15008544921875,
+          376.6539306640625,
+          312.6480712890625,
+          388.6329040527344
+        ],
+        [
+          312.64959716796875,
+          377.4324645996094,
+          315.5669250488281,
+          384.41619873046875
+        ],
+        [
+          315.56768798828125,
+          376.6539306640625,
+          344.5746765136719,
+          388.6329040527344
+        ],
+        [
+          306.15008544921875,
+          560.9059448242188,
+          312.6480712890625,
+          572.8849487304688
+        ],
+        [
+          312.64959716796875,
+          561.6843872070312,
+          315.5669250488281,
+          568.6681518554688
+        ],
+        [
+          315.56768798828125,
+          560.9059448242188,
+          344.5746765136719,
+          572.8849487304688
+        ],
+        [
+          306.15008544921875,
+          745.1578979492188,
+          312.6480712890625,
+          757.1369018554688
+        ],
+        [
+          312.64959716796875,
+          745.9364013671875,
+          315.5669250488281,
+          752.920166015625
+        ],
+        [
+          315.56768798828125,
+          745.1578979492188,
+          344.5746765136719,
+          757.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0047",
+      "label": "Nom du représentant légal ou statutaire",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Copropriétaire 1 / Nom du représentant légal ou statutaire"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Nom du représentant légal ou statutaire",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          212.4020538330078,
+          183.22796630859375,
+          224.3810577392578
+        ],
+        [
+          22.649999618530273,
+          396.6539306640625,
+          183.22796630859375,
+          408.6329040527344
+        ],
+        [
+          22.649999618530273,
+          580.9059448242188,
+          183.22796630859375,
+          592.8849487304688
+        ],
+        [
+          22.649999618530273,
+          765.1578979492188,
+          183.22796630859375,
+          777.1369018554688
+        ],
+        [
+          306.15008544921875,
+          212.4020538330078,
+          466.7281799316406,
+          224.3810577392578
+        ],
+        [
+          306.15008544921875,
+          396.6539306640625,
+          466.7281799316406,
+          408.6329040527344
+        ],
+        [
+          306.15008544921875,
+          580.9059448242188,
+          466.7281799316406,
+          592.8849487304688
+        ],
+        [
+          306.15008544921875,
+          765.1578979492188,
+          466.7281799316406,
+          777.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0048",
+      "label": "Nom du représentant légal ou statutaire",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Co-locataire 1 / Nom du représentant légal ou statutaire"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Nom du représentant légal ou statutaire",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          212.4020538330078,
+          183.22796630859375,
+          224.3810577392578
+        ],
+        [
+          22.649999618530273,
+          396.6539306640625,
+          183.22796630859375,
+          408.6329040527344
+        ],
+        [
+          22.649999618530273,
+          580.9059448242188,
+          183.22796630859375,
+          592.8849487304688
+        ],
+        [
+          22.649999618530273,
+          765.1578979492188,
+          183.22796630859375,
+          777.1369018554688
+        ],
+        [
+          306.15008544921875,
+          212.4020538330078,
+          466.7281799316406,
+          224.3810577392578
+        ],
+        [
+          306.15008544921875,
+          396.6539306640625,
+          466.7281799316406,
+          408.6329040527344
+        ],
+        [
+          306.15008544921875,
+          580.9059448242188,
+          466.7281799316406,
+          592.8849487304688
+        ],
+        [
+          306.15008544921875,
+          765.1578979492188,
+          466.7281799316406,
+          777.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0049",
+      "label": "Nom ou dénomination",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Copropriétaire 2 / Nom ou dénomination"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Nom ou dénomination",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          72.40205383300781,
+          110.68799591064453,
+          84.38105773925781
+        ],
+        [
+          22.649999618530273,
+          256.6539306640625,
+          110.68799591064453,
+          268.6329345703125
+        ],
+        [
+          22.649999618530273,
+          440.90594482421875,
+          110.68799591064453,
+          452.8849182128906
+        ],
+        [
+          22.649999618530273,
+          625.1578979492188,
+          110.68799591064453,
+          637.1369018554688
+        ],
+        [
+          306.1499938964844,
+          72.40205383300781,
+          394.18798828125,
+          84.38105773925781
+        ],
+        [
+          306.15008544921875,
+          256.6539306640625,
+          394.1880798339844,
+          268.6329345703125
+        ],
+        [
+          306.15008544921875,
+          440.90594482421875,
+          394.1880798339844,
+          452.8849182128906
+        ],
+        [
+          306.15008544921875,
+          625.1578979492188,
+          394.1880798339844,
+          637.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0050",
+      "label": "Nom ou dénomination",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Co-locataire 2 / Nom ou dénomination"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Nom ou dénomination",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          72.40205383300781,
+          110.68799591064453,
+          84.38105773925781
+        ],
+        [
+          22.649999618530273,
+          256.6539306640625,
+          110.68799591064453,
+          268.6329345703125
+        ],
+        [
+          22.649999618530273,
+          440.90594482421875,
+          110.68799591064453,
+          452.8849182128906
+        ],
+        [
+          22.649999618530273,
+          625.1578979492188,
+          110.68799591064453,
+          637.1369018554688
+        ],
+        [
+          306.1499938964844,
+          72.40205383300781,
+          394.18798828125,
+          84.38105773925781
+        ],
+        [
+          306.15008544921875,
+          256.6539306640625,
+          394.1880798339844,
+          268.6329345703125
+        ],
+        [
+          306.15008544921875,
+          440.90594482421875,
+          394.1880798339844,
+          452.8849182128906
+        ],
+        [
+          306.15008544921875,
+          625.1578979492188,
+          394.1880798339844,
+          637.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0051",
+      "label": "Nom d'usage (facultatif)",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Copropriétaire 2 / Nom d'usage (facultatif)"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Nom d'usage (facultatif)",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          92.40205383300781,
+          117.40199279785156,
+          104.38105773925781
+        ],
+        [
+          22.649999618530273,
+          276.6539306640625,
+          117.40199279785156,
+          288.6329345703125
+        ],
+        [
+          22.649999618530273,
+          460.90594482421875,
+          117.40199279785156,
+          472.8849182128906
+        ],
+        [
+          22.649999618530273,
+          645.1578979492188,
+          117.40199279785156,
+          657.1369018554688
+        ],
+        [
+          306.1499938964844,
+          92.40205383300781,
+          400.90203857421875,
+          104.38105773925781
+        ],
+        [
+          306.15008544921875,
+          276.6539306640625,
+          400.9021301269531,
+          288.6329345703125
+        ],
+        [
+          306.15008544921875,
+          460.90594482421875,
+          400.9021301269531,
+          472.8849182128906
+        ],
+        [
+          306.15008544921875,
+          645.1578979492188,
+          400.9021301269531,
+          657.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0052",
+      "label": "Nom d'usage (facultatif)",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Co-locataire 2 / Nom d'usage (facultatif)"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Nom d'usage (facultatif)",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          92.40205383300781,
+          117.40199279785156,
+          104.38105773925781
+        ],
+        [
+          22.649999618530273,
+          276.6539306640625,
+          117.40199279785156,
+          288.6329345703125
+        ],
+        [
+          22.649999618530273,
+          460.90594482421875,
+          117.40199279785156,
+          472.8849182128906
+        ],
+        [
+          22.649999618530273,
+          645.1578979492188,
+          117.40199279785156,
+          657.1369018554688
+        ],
+        [
+          306.1499938964844,
+          92.40205383300781,
+          400.90203857421875,
+          104.38105773925781
+        ],
+        [
+          306.15008544921875,
+          276.6539306640625,
+          400.9021301269531,
+          288.6329345703125
+        ],
+        [
+          306.15008544921875,
+          460.90594482421875,
+          400.9021301269531,
+          472.8849182128906
+        ],
+        [
+          306.15008544921875,
+          645.1578979492188,
+          400.9021301269531,
+          657.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0053",
+      "label": "Prénom",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Copropriétaire 2 / Prénom"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          112.40205383300781,
+          54.15900421142578,
+          124.38105773925781
+        ],
+        [
+          22.649999618530273,
+          296.6539306640625,
+          54.15900421142578,
+          308.6329345703125
+        ],
+        [
+          22.649999618530273,
+          480.90594482421875,
+          54.15900421142578,
+          492.8849182128906
+        ],
+        [
+          22.649999618530273,
+          665.1578979492188,
+          54.15900421142578,
+          677.1369018554688
+        ],
+        [
+          306.1499938964844,
+          112.40205383300781,
+          337.65899658203125,
+          124.38105773925781
+        ],
+        [
+          306.15008544921875,
+          296.6539306640625,
+          337.6590881347656,
+          308.6329345703125
+        ],
+        [
+          306.15008544921875,
+          480.90594482421875,
+          337.6590881347656,
+          492.8849182128906
+        ],
+        [
+          306.15008544921875,
+          665.1578979492188,
+          337.6590881347656,
+          677.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0054",
+      "label": "Prénom",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Co-locataire 2 / Prénom"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          112.40205383300781,
+          54.15900421142578,
+          124.38105773925781
+        ],
+        [
+          22.649999618530273,
+          296.6539306640625,
+          54.15900421142578,
+          308.6329345703125
+        ],
+        [
+          22.649999618530273,
+          480.90594482421875,
+          54.15900421142578,
+          492.8849182128906
+        ],
+        [
+          22.649999618530273,
+          665.1578979492188,
+          54.15900421142578,
+          677.1369018554688
+        ],
+        [
+          306.1499938964844,
+          112.40205383300781,
+          337.65899658203125,
+          124.38105773925781
+        ],
+        [
+          306.15008544921875,
+          296.6539306640625,
+          337.6590881347656,
+          308.6329345703125
+        ],
+        [
+          306.15008544921875,
+          480.90594482421875,
+          337.6590881347656,
+          492.8849182128906
+        ],
+        [
+          306.15008544921875,
+          665.1578979492188,
+          337.6590881347656,
+          677.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0055",
+      "label": "Adresse ou siège social (pour société / association / Aéro-club)",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Copropriétaire 2 / Adresse ou siège social (pour société / association / Aéro-club)"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Adresse ou siège social (pour société / association / Aéro-club)",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          132.4020538330078,
+          273.27294921875,
+          144.3810577392578
+        ],
+        [
+          22.649999618530273,
+          316.6539306640625,
+          273.27294921875,
+          328.6329345703125
+        ],
+        [
+          22.649999618530273,
+          500.90594482421875,
+          273.27294921875,
+          512.8849487304688
+        ],
+        [
+          22.649999618530273,
+          685.1578979492188,
+          275.7749328613281,
+          697.1369018554688
+        ],
+        [
+          306.1499938964844,
+          132.4020538330078,
+          556.773193359375,
+          144.3810577392578
+        ],
+        [
+          306.15008544921875,
+          316.6539306640625,
+          556.7732543945312,
+          328.6329345703125
+        ],
+        [
+          306.15008544921875,
+          500.90594482421875,
+          556.7732543945312,
+          512.8849487304688
+        ],
+        [
+          306.15008544921875,
+          685.1578979492188,
+          556.7732543945312,
+          697.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0056",
+      "label": "Adresse ou siège social (pour société / association / Aéro-club)",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Co-locataire 2 / Adresse ou siège social (pour société / association / Aéro-club)"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Adresse ou siège social (pour société / association / Aéro-club)",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          132.4020538330078,
+          273.27294921875,
+          144.3810577392578
+        ],
+        [
+          22.649999618530273,
+          316.6539306640625,
+          273.27294921875,
+          328.6329345703125
+        ],
+        [
+          22.649999618530273,
+          500.90594482421875,
+          273.27294921875,
+          512.8849487304688
+        ],
+        [
+          22.649999618530273,
+          685.1578979492188,
+          275.7749328613281,
+          697.1369018554688
+        ],
+        [
+          306.1499938964844,
+          132.4020538330078,
+          556.773193359375,
+          144.3810577392578
+        ],
+        [
+          306.15008544921875,
+          316.6539306640625,
+          556.7732543945312,
+          328.6329345703125
+        ],
+        [
+          306.15008544921875,
+          500.90594482421875,
+          556.7732543945312,
+          512.8849487304688
+        ],
+        [
+          306.15008544921875,
+          685.1578979492188,
+          556.7732543945312,
+          697.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0057",
+      "label": "No Siret",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Copropriétaire 2 / No Siret"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "No Siret",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          192.4020538330078,
+          29.148000717163086,
+          204.3810577392578
+        ],
+        [
+          29.149499893188477,
+          193.18055725097656,
+          32.06683349609375,
+          200.16432189941406
+        ],
+        [
+          32.06760025024414,
+          192.4020538330078,
+          61.07460021972656,
+          204.3810577392578
+        ],
+        [
+          22.649999618530273,
+          376.6539306640625,
+          29.148000717163086,
+          388.6329040527344
+        ],
+        [
+          29.149499893188477,
+          377.4324645996094,
+          32.06683349609375,
+          384.41619873046875
+        ],
+        [
+          32.06760025024414,
+          376.6539306640625,
+          61.07460021972656,
+          388.6329040527344
+        ],
+        [
+          22.649999618530273,
+          560.9059448242188,
+          29.148000717163086,
+          572.8849487304688
+        ],
+        [
+          29.149499893188477,
+          561.6843872070312,
+          32.06683349609375,
+          568.6681518554688
+        ],
+        [
+          32.06760025024414,
+          560.9059448242188,
+          61.07460021972656,
+          572.8849487304688
+        ],
+        [
+          22.649999618530273,
+          745.1578979492188,
+          29.148000717163086,
+          757.1369018554688
+        ],
+        [
+          29.149499893188477,
+          745.9364013671875,
+          32.06683349609375,
+          752.920166015625
+        ],
+        [
+          32.06760025024414,
+          745.1578979492188,
+          61.07460021972656,
+          757.1369018554688
+        ],
+        [
+          306.15008544921875,
+          192.4020538330078,
+          312.6480712890625,
+          204.3810577392578
+        ],
+        [
+          312.64959716796875,
+          193.18055725097656,
+          315.5669250488281,
+          200.16432189941406
+        ],
+        [
+          315.56768798828125,
+          192.4020538330078,
+          344.5746765136719,
+          204.3810577392578
+        ],
+        [
+          306.15008544921875,
+          376.6539306640625,
+          312.6480712890625,
+          388.6329040527344
+        ],
+        [
+          312.64959716796875,
+          377.4324645996094,
+          315.5669250488281,
+          384.41619873046875
+        ],
+        [
+          315.56768798828125,
+          376.6539306640625,
+          344.5746765136719,
+          388.6329040527344
+        ],
+        [
+          306.15008544921875,
+          560.9059448242188,
+          312.6480712890625,
+          572.8849487304688
+        ],
+        [
+          312.64959716796875,
+          561.6843872070312,
+          315.5669250488281,
+          568.6681518554688
+        ],
+        [
+          315.56768798828125,
+          560.9059448242188,
+          344.5746765136719,
+          572.8849487304688
+        ],
+        [
+          306.15008544921875,
+          745.1578979492188,
+          312.6480712890625,
+          757.1369018554688
+        ],
+        [
+          312.64959716796875,
+          745.9364013671875,
+          315.5669250488281,
+          752.920166015625
+        ],
+        [
+          315.56768798828125,
+          745.1578979492188,
+          344.5746765136719,
+          757.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0058",
+      "label": "No Siret",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Co-locataire 2 / No Siret"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "No Siret",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          192.4020538330078,
+          29.148000717163086,
+          204.3810577392578
+        ],
+        [
+          29.149499893188477,
+          193.18055725097656,
+          32.06683349609375,
+          200.16432189941406
+        ],
+        [
+          32.06760025024414,
+          192.4020538330078,
+          61.07460021972656,
+          204.3810577392578
+        ],
+        [
+          22.649999618530273,
+          376.6539306640625,
+          29.148000717163086,
+          388.6329040527344
+        ],
+        [
+          29.149499893188477,
+          377.4324645996094,
+          32.06683349609375,
+          384.41619873046875
+        ],
+        [
+          32.06760025024414,
+          376.6539306640625,
+          61.07460021972656,
+          388.6329040527344
+        ],
+        [
+          22.649999618530273,
+          560.9059448242188,
+          29.148000717163086,
+          572.8849487304688
+        ],
+        [
+          29.149499893188477,
+          561.6843872070312,
+          32.06683349609375,
+          568.6681518554688
+        ],
+        [
+          32.06760025024414,
+          560.9059448242188,
+          61.07460021972656,
+          572.8849487304688
+        ],
+        [
+          22.649999618530273,
+          745.1578979492188,
+          29.148000717163086,
+          757.1369018554688
+        ],
+        [
+          29.149499893188477,
+          745.9364013671875,
+          32.06683349609375,
+          752.920166015625
+        ],
+        [
+          32.06760025024414,
+          745.1578979492188,
+          61.07460021972656,
+          757.1369018554688
+        ],
+        [
+          306.15008544921875,
+          192.4020538330078,
+          312.6480712890625,
+          204.3810577392578
+        ],
+        [
+          312.64959716796875,
+          193.18055725097656,
+          315.5669250488281,
+          200.16432189941406
+        ],
+        [
+          315.56768798828125,
+          192.4020538330078,
+          344.5746765136719,
+          204.3810577392578
+        ],
+        [
+          306.15008544921875,
+          376.6539306640625,
+          312.6480712890625,
+          388.6329040527344
+        ],
+        [
+          312.64959716796875,
+          377.4324645996094,
+          315.5669250488281,
+          384.41619873046875
+        ],
+        [
+          315.56768798828125,
+          376.6539306640625,
+          344.5746765136719,
+          388.6329040527344
+        ],
+        [
+          306.15008544921875,
+          560.9059448242188,
+          312.6480712890625,
+          572.8849487304688
+        ],
+        [
+          312.64959716796875,
+          561.6843872070312,
+          315.5669250488281,
+          568.6681518554688
+        ],
+        [
+          315.56768798828125,
+          560.9059448242188,
+          344.5746765136719,
+          572.8849487304688
+        ],
+        [
+          306.15008544921875,
+          745.1578979492188,
+          312.6480712890625,
+          757.1369018554688
+        ],
+        [
+          312.64959716796875,
+          745.9364013671875,
+          315.5669250488281,
+          752.920166015625
+        ],
+        [
+          315.56768798828125,
+          745.1578979492188,
+          344.5746765136719,
+          757.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0059",
+      "label": "Nom du représentant légal ou statutaire",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Copropriétaire 2 / Nom du représentant légal ou statutaire"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Nom du représentant légal ou statutaire",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          212.4020538330078,
+          183.22796630859375,
+          224.3810577392578
+        ],
+        [
+          22.649999618530273,
+          396.6539306640625,
+          183.22796630859375,
+          408.6329040527344
+        ],
+        [
+          22.649999618530273,
+          580.9059448242188,
+          183.22796630859375,
+          592.8849487304688
+        ],
+        [
+          22.649999618530273,
+          765.1578979492188,
+          183.22796630859375,
+          777.1369018554688
+        ],
+        [
+          306.15008544921875,
+          212.4020538330078,
+          466.7281799316406,
+          224.3810577392578
+        ],
+        [
+          306.15008544921875,
+          396.6539306640625,
+          466.7281799316406,
+          408.6329040527344
+        ],
+        [
+          306.15008544921875,
+          580.9059448242188,
+          466.7281799316406,
+          592.8849487304688
+        ],
+        [
+          306.15008544921875,
+          765.1578979492188,
+          466.7281799316406,
+          777.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0060",
+      "label": "Nom du représentant légal ou statutaire",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Co-locataire 2 / Nom du représentant légal ou statutaire"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Nom du représentant légal ou statutaire",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          212.4020538330078,
+          183.22796630859375,
+          224.3810577392578
+        ],
+        [
+          22.649999618530273,
+          396.6539306640625,
+          183.22796630859375,
+          408.6329040527344
+        ],
+        [
+          22.649999618530273,
+          580.9059448242188,
+          183.22796630859375,
+          592.8849487304688
+        ],
+        [
+          22.649999618530273,
+          765.1578979492188,
+          183.22796630859375,
+          777.1369018554688
+        ],
+        [
+          306.15008544921875,
+          212.4020538330078,
+          466.7281799316406,
+          224.3810577392578
+        ],
+        [
+          306.15008544921875,
+          396.6539306640625,
+          466.7281799316406,
+          408.6329040527344
+        ],
+        [
+          306.15008544921875,
+          580.9059448242188,
+          466.7281799316406,
+          592.8849487304688
+        ],
+        [
+          306.15008544921875,
+          765.1578979492188,
+          466.7281799316406,
+          777.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0061",
+      "label": "Nom ou dénomination",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Copropriétaire 3 / Nom ou dénomination"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Nom ou dénomination",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          72.40205383300781,
+          110.68799591064453,
+          84.38105773925781
+        ],
+        [
+          22.649999618530273,
+          256.6539306640625,
+          110.68799591064453,
+          268.6329345703125
+        ],
+        [
+          22.649999618530273,
+          440.90594482421875,
+          110.68799591064453,
+          452.8849182128906
+        ],
+        [
+          22.649999618530273,
+          625.1578979492188,
+          110.68799591064453,
+          637.1369018554688
+        ],
+        [
+          306.1499938964844,
+          72.40205383300781,
+          394.18798828125,
+          84.38105773925781
+        ],
+        [
+          306.15008544921875,
+          256.6539306640625,
+          394.1880798339844,
+          268.6329345703125
+        ],
+        [
+          306.15008544921875,
+          440.90594482421875,
+          394.1880798339844,
+          452.8849182128906
+        ],
+        [
+          306.15008544921875,
+          625.1578979492188,
+          394.1880798339844,
+          637.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0062",
+      "label": "Nom ou dénomination",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Co-locataire 3 / Nom ou dénomination"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Nom ou dénomination",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          72.40205383300781,
+          110.68799591064453,
+          84.38105773925781
+        ],
+        [
+          22.649999618530273,
+          256.6539306640625,
+          110.68799591064453,
+          268.6329345703125
+        ],
+        [
+          22.649999618530273,
+          440.90594482421875,
+          110.68799591064453,
+          452.8849182128906
+        ],
+        [
+          22.649999618530273,
+          625.1578979492188,
+          110.68799591064453,
+          637.1369018554688
+        ],
+        [
+          306.1499938964844,
+          72.40205383300781,
+          394.18798828125,
+          84.38105773925781
+        ],
+        [
+          306.15008544921875,
+          256.6539306640625,
+          394.1880798339844,
+          268.6329345703125
+        ],
+        [
+          306.15008544921875,
+          440.90594482421875,
+          394.1880798339844,
+          452.8849182128906
+        ],
+        [
+          306.15008544921875,
+          625.1578979492188,
+          394.1880798339844,
+          637.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0063",
+      "label": "Nom d'usage (facultatif)",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Copropriétaire 3 / Nom d'usage (facultatif)"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Nom d'usage (facultatif)",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          92.40205383300781,
+          117.40199279785156,
+          104.38105773925781
+        ],
+        [
+          22.649999618530273,
+          276.6539306640625,
+          117.40199279785156,
+          288.6329345703125
+        ],
+        [
+          22.649999618530273,
+          460.90594482421875,
+          117.40199279785156,
+          472.8849182128906
+        ],
+        [
+          22.649999618530273,
+          645.1578979492188,
+          117.40199279785156,
+          657.1369018554688
+        ],
+        [
+          306.1499938964844,
+          92.40205383300781,
+          400.90203857421875,
+          104.38105773925781
+        ],
+        [
+          306.15008544921875,
+          276.6539306640625,
+          400.9021301269531,
+          288.6329345703125
+        ],
+        [
+          306.15008544921875,
+          460.90594482421875,
+          400.9021301269531,
+          472.8849182128906
+        ],
+        [
+          306.15008544921875,
+          645.1578979492188,
+          400.9021301269531,
+          657.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0064",
+      "label": "Nom d'usage (facultatif)",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Co-locataire 3 / Nom d'usage (facultatif)"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Nom d'usage (facultatif)",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          92.40205383300781,
+          117.40199279785156,
+          104.38105773925781
+        ],
+        [
+          22.649999618530273,
+          276.6539306640625,
+          117.40199279785156,
+          288.6329345703125
+        ],
+        [
+          22.649999618530273,
+          460.90594482421875,
+          117.40199279785156,
+          472.8849182128906
+        ],
+        [
+          22.649999618530273,
+          645.1578979492188,
+          117.40199279785156,
+          657.1369018554688
+        ],
+        [
+          306.1499938964844,
+          92.40205383300781,
+          400.90203857421875,
+          104.38105773925781
+        ],
+        [
+          306.15008544921875,
+          276.6539306640625,
+          400.9021301269531,
+          288.6329345703125
+        ],
+        [
+          306.15008544921875,
+          460.90594482421875,
+          400.9021301269531,
+          472.8849182128906
+        ],
+        [
+          306.15008544921875,
+          645.1578979492188,
+          400.9021301269531,
+          657.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0065",
+      "label": "Prénom",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Copropriétaire 3 / Prénom"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          112.40205383300781,
+          54.15900421142578,
+          124.38105773925781
+        ],
+        [
+          22.649999618530273,
+          296.6539306640625,
+          54.15900421142578,
+          308.6329345703125
+        ],
+        [
+          22.649999618530273,
+          480.90594482421875,
+          54.15900421142578,
+          492.8849182128906
+        ],
+        [
+          22.649999618530273,
+          665.1578979492188,
+          54.15900421142578,
+          677.1369018554688
+        ],
+        [
+          306.1499938964844,
+          112.40205383300781,
+          337.65899658203125,
+          124.38105773925781
+        ],
+        [
+          306.15008544921875,
+          296.6539306640625,
+          337.6590881347656,
+          308.6329345703125
+        ],
+        [
+          306.15008544921875,
+          480.90594482421875,
+          337.6590881347656,
+          492.8849182128906
+        ],
+        [
+          306.15008544921875,
+          665.1578979492188,
+          337.6590881347656,
+          677.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0066",
+      "label": "Prénom",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Co-locataire 3 / Prénom"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          112.40205383300781,
+          54.15900421142578,
+          124.38105773925781
+        ],
+        [
+          22.649999618530273,
+          296.6539306640625,
+          54.15900421142578,
+          308.6329345703125
+        ],
+        [
+          22.649999618530273,
+          480.90594482421875,
+          54.15900421142578,
+          492.8849182128906
+        ],
+        [
+          22.649999618530273,
+          665.1578979492188,
+          54.15900421142578,
+          677.1369018554688
+        ],
+        [
+          306.1499938964844,
+          112.40205383300781,
+          337.65899658203125,
+          124.38105773925781
+        ],
+        [
+          306.15008544921875,
+          296.6539306640625,
+          337.6590881347656,
+          308.6329345703125
+        ],
+        [
+          306.15008544921875,
+          480.90594482421875,
+          337.6590881347656,
+          492.8849182128906
+        ],
+        [
+          306.15008544921875,
+          665.1578979492188,
+          337.6590881347656,
+          677.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0067",
+      "label": "Adresse ou siège social (pour société / association / Aéro-club)",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Copropriétaire 3 / Adresse ou siège social (pour société / association / Aéro-club)"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Adresse ou siège social (pour société / association / Aéro-club)",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          132.4020538330078,
+          273.27294921875,
+          144.3810577392578
+        ],
+        [
+          22.649999618530273,
+          316.6539306640625,
+          273.27294921875,
+          328.6329345703125
+        ],
+        [
+          22.649999618530273,
+          500.90594482421875,
+          273.27294921875,
+          512.8849487304688
+        ],
+        [
+          22.649999618530273,
+          685.1578979492188,
+          275.7749328613281,
+          697.1369018554688
+        ],
+        [
+          306.1499938964844,
+          132.4020538330078,
+          556.773193359375,
+          144.3810577392578
+        ],
+        [
+          306.15008544921875,
+          316.6539306640625,
+          556.7732543945312,
+          328.6329345703125
+        ],
+        [
+          306.15008544921875,
+          500.90594482421875,
+          556.7732543945312,
+          512.8849487304688
+        ],
+        [
+          306.15008544921875,
+          685.1578979492188,
+          556.7732543945312,
+          697.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0068",
+      "label": "Adresse ou siège social (pour société / association / Aéro-club)",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Co-locataire 3 / Adresse ou siège social (pour société / association / Aéro-club)"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Adresse ou siège social (pour société / association / Aéro-club)",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          132.4020538330078,
+          273.27294921875,
+          144.3810577392578
+        ],
+        [
+          22.649999618530273,
+          316.6539306640625,
+          273.27294921875,
+          328.6329345703125
+        ],
+        [
+          22.649999618530273,
+          500.90594482421875,
+          273.27294921875,
+          512.8849487304688
+        ],
+        [
+          22.649999618530273,
+          685.1578979492188,
+          275.7749328613281,
+          697.1369018554688
+        ],
+        [
+          306.1499938964844,
+          132.4020538330078,
+          556.773193359375,
+          144.3810577392578
+        ],
+        [
+          306.15008544921875,
+          316.6539306640625,
+          556.7732543945312,
+          328.6329345703125
+        ],
+        [
+          306.15008544921875,
+          500.90594482421875,
+          556.7732543945312,
+          512.8849487304688
+        ],
+        [
+          306.15008544921875,
+          685.1578979492188,
+          556.7732543945312,
+          697.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0069",
+      "label": "No Siret",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Copropriétaire 3 / No Siret"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "No Siret",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          192.4020538330078,
+          29.148000717163086,
+          204.3810577392578
+        ],
+        [
+          29.149499893188477,
+          193.18055725097656,
+          32.06683349609375,
+          200.16432189941406
+        ],
+        [
+          32.06760025024414,
+          192.4020538330078,
+          61.07460021972656,
+          204.3810577392578
+        ],
+        [
+          22.649999618530273,
+          376.6539306640625,
+          29.148000717163086,
+          388.6329040527344
+        ],
+        [
+          29.149499893188477,
+          377.4324645996094,
+          32.06683349609375,
+          384.41619873046875
+        ],
+        [
+          32.06760025024414,
+          376.6539306640625,
+          61.07460021972656,
+          388.6329040527344
+        ],
+        [
+          22.649999618530273,
+          560.9059448242188,
+          29.148000717163086,
+          572.8849487304688
+        ],
+        [
+          29.149499893188477,
+          561.6843872070312,
+          32.06683349609375,
+          568.6681518554688
+        ],
+        [
+          32.06760025024414,
+          560.9059448242188,
+          61.07460021972656,
+          572.8849487304688
+        ],
+        [
+          22.649999618530273,
+          745.1578979492188,
+          29.148000717163086,
+          757.1369018554688
+        ],
+        [
+          29.149499893188477,
+          745.9364013671875,
+          32.06683349609375,
+          752.920166015625
+        ],
+        [
+          32.06760025024414,
+          745.1578979492188,
+          61.07460021972656,
+          757.1369018554688
+        ],
+        [
+          306.15008544921875,
+          192.4020538330078,
+          312.6480712890625,
+          204.3810577392578
+        ],
+        [
+          312.64959716796875,
+          193.18055725097656,
+          315.5669250488281,
+          200.16432189941406
+        ],
+        [
+          315.56768798828125,
+          192.4020538330078,
+          344.5746765136719,
+          204.3810577392578
+        ],
+        [
+          306.15008544921875,
+          376.6539306640625,
+          312.6480712890625,
+          388.6329040527344
+        ],
+        [
+          312.64959716796875,
+          377.4324645996094,
+          315.5669250488281,
+          384.41619873046875
+        ],
+        [
+          315.56768798828125,
+          376.6539306640625,
+          344.5746765136719,
+          388.6329040527344
+        ],
+        [
+          306.15008544921875,
+          560.9059448242188,
+          312.6480712890625,
+          572.8849487304688
+        ],
+        [
+          312.64959716796875,
+          561.6843872070312,
+          315.5669250488281,
+          568.6681518554688
+        ],
+        [
+          315.56768798828125,
+          560.9059448242188,
+          344.5746765136719,
+          572.8849487304688
+        ],
+        [
+          306.15008544921875,
+          745.1578979492188,
+          312.6480712890625,
+          757.1369018554688
+        ],
+        [
+          312.64959716796875,
+          745.9364013671875,
+          315.5669250488281,
+          752.920166015625
+        ],
+        [
+          315.56768798828125,
+          745.1578979492188,
+          344.5746765136719,
+          757.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0070",
+      "label": "No Siret",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Co-locataire 3 / No Siret"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "No Siret",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          192.4020538330078,
+          29.148000717163086,
+          204.3810577392578
+        ],
+        [
+          29.149499893188477,
+          193.18055725097656,
+          32.06683349609375,
+          200.16432189941406
+        ],
+        [
+          32.06760025024414,
+          192.4020538330078,
+          61.07460021972656,
+          204.3810577392578
+        ],
+        [
+          22.649999618530273,
+          376.6539306640625,
+          29.148000717163086,
+          388.6329040527344
+        ],
+        [
+          29.149499893188477,
+          377.4324645996094,
+          32.06683349609375,
+          384.41619873046875
+        ],
+        [
+          32.06760025024414,
+          376.6539306640625,
+          61.07460021972656,
+          388.6329040527344
+        ],
+        [
+          22.649999618530273,
+          560.9059448242188,
+          29.148000717163086,
+          572.8849487304688
+        ],
+        [
+          29.149499893188477,
+          561.6843872070312,
+          32.06683349609375,
+          568.6681518554688
+        ],
+        [
+          32.06760025024414,
+          560.9059448242188,
+          61.07460021972656,
+          572.8849487304688
+        ],
+        [
+          22.649999618530273,
+          745.1578979492188,
+          29.148000717163086,
+          757.1369018554688
+        ],
+        [
+          29.149499893188477,
+          745.9364013671875,
+          32.06683349609375,
+          752.920166015625
+        ],
+        [
+          32.06760025024414,
+          745.1578979492188,
+          61.07460021972656,
+          757.1369018554688
+        ],
+        [
+          306.15008544921875,
+          192.4020538330078,
+          312.6480712890625,
+          204.3810577392578
+        ],
+        [
+          312.64959716796875,
+          193.18055725097656,
+          315.5669250488281,
+          200.16432189941406
+        ],
+        [
+          315.56768798828125,
+          192.4020538330078,
+          344.5746765136719,
+          204.3810577392578
+        ],
+        [
+          306.15008544921875,
+          376.6539306640625,
+          312.6480712890625,
+          388.6329040527344
+        ],
+        [
+          312.64959716796875,
+          377.4324645996094,
+          315.5669250488281,
+          384.41619873046875
+        ],
+        [
+          315.56768798828125,
+          376.6539306640625,
+          344.5746765136719,
+          388.6329040527344
+        ],
+        [
+          306.15008544921875,
+          560.9059448242188,
+          312.6480712890625,
+          572.8849487304688
+        ],
+        [
+          312.64959716796875,
+          561.6843872070312,
+          315.5669250488281,
+          568.6681518554688
+        ],
+        [
+          315.56768798828125,
+          560.9059448242188,
+          344.5746765136719,
+          572.8849487304688
+        ],
+        [
+          306.15008544921875,
+          745.1578979492188,
+          312.6480712890625,
+          757.1369018554688
+        ],
+        [
+          312.64959716796875,
+          745.9364013671875,
+          315.5669250488281,
+          752.920166015625
+        ],
+        [
+          315.56768798828125,
+          745.1578979492188,
+          344.5746765136719,
+          757.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0071",
+      "label": "Nom du représentant légal ou statutaire",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Copropriétaire 3 / Nom du représentant légal ou statutaire"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Nom du représentant légal ou statutaire",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          212.4020538330078,
+          183.22796630859375,
+          224.3810577392578
+        ],
+        [
+          22.649999618530273,
+          396.6539306640625,
+          183.22796630859375,
+          408.6329040527344
+        ],
+        [
+          22.649999618530273,
+          580.9059448242188,
+          183.22796630859375,
+          592.8849487304688
+        ],
+        [
+          22.649999618530273,
+          765.1578979492188,
+          183.22796630859375,
+          777.1369018554688
+        ],
+        [
+          306.15008544921875,
+          212.4020538330078,
+          466.7281799316406,
+          224.3810577392578
+        ],
+        [
+          306.15008544921875,
+          396.6539306640625,
+          466.7281799316406,
+          408.6329040527344
+        ],
+        [
+          306.15008544921875,
+          580.9059448242188,
+          466.7281799316406,
+          592.8849487304688
+        ],
+        [
+          306.15008544921875,
+          765.1578979492188,
+          466.7281799316406,
+          777.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0072",
+      "label": "Nom du représentant légal ou statutaire",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Co-locataire 3 / Nom du représentant légal ou statutaire"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Nom du représentant légal ou statutaire",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          212.4020538330078,
+          183.22796630859375,
+          224.3810577392578
+        ],
+        [
+          22.649999618530273,
+          396.6539306640625,
+          183.22796630859375,
+          408.6329040527344
+        ],
+        [
+          22.649999618530273,
+          580.9059448242188,
+          183.22796630859375,
+          592.8849487304688
+        ],
+        [
+          22.649999618530273,
+          765.1578979492188,
+          183.22796630859375,
+          777.1369018554688
+        ],
+        [
+          306.15008544921875,
+          212.4020538330078,
+          466.7281799316406,
+          224.3810577392578
+        ],
+        [
+          306.15008544921875,
+          396.6539306640625,
+          466.7281799316406,
+          408.6329040527344
+        ],
+        [
+          306.15008544921875,
+          580.9059448242188,
+          466.7281799316406,
+          592.8849487304688
+        ],
+        [
+          306.15008544921875,
+          765.1578979492188,
+          466.7281799316406,
+          777.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0073",
+      "label": "Nom ou dénomination",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Copropriétaire 4 / Nom ou dénomination"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Nom ou dénomination",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          72.40205383300781,
+          110.68799591064453,
+          84.38105773925781
+        ],
+        [
+          22.649999618530273,
+          256.6539306640625,
+          110.68799591064453,
+          268.6329345703125
+        ],
+        [
+          22.649999618530273,
+          440.90594482421875,
+          110.68799591064453,
+          452.8849182128906
+        ],
+        [
+          22.649999618530273,
+          625.1578979492188,
+          110.68799591064453,
+          637.1369018554688
+        ],
+        [
+          306.1499938964844,
+          72.40205383300781,
+          394.18798828125,
+          84.38105773925781
+        ],
+        [
+          306.15008544921875,
+          256.6539306640625,
+          394.1880798339844,
+          268.6329345703125
+        ],
+        [
+          306.15008544921875,
+          440.90594482421875,
+          394.1880798339844,
+          452.8849182128906
+        ],
+        [
+          306.15008544921875,
+          625.1578979492188,
+          394.1880798339844,
+          637.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0074",
+      "label": "Nom ou dénomination",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Co-locataire 4 / Nom ou dénomination"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Nom ou dénomination",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          72.40205383300781,
+          110.68799591064453,
+          84.38105773925781
+        ],
+        [
+          22.649999618530273,
+          256.6539306640625,
+          110.68799591064453,
+          268.6329345703125
+        ],
+        [
+          22.649999618530273,
+          440.90594482421875,
+          110.68799591064453,
+          452.8849182128906
+        ],
+        [
+          22.649999618530273,
+          625.1578979492188,
+          110.68799591064453,
+          637.1369018554688
+        ],
+        [
+          306.1499938964844,
+          72.40205383300781,
+          394.18798828125,
+          84.38105773925781
+        ],
+        [
+          306.15008544921875,
+          256.6539306640625,
+          394.1880798339844,
+          268.6329345703125
+        ],
+        [
+          306.15008544921875,
+          440.90594482421875,
+          394.1880798339844,
+          452.8849182128906
+        ],
+        [
+          306.15008544921875,
+          625.1578979492188,
+          394.1880798339844,
+          637.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0075",
+      "label": "Nom d'usage (facultatif)",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Copropriétaire 4 / Nom d'usage (facultatif)"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Nom d'usage (facultatif)",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          92.40205383300781,
+          117.40199279785156,
+          104.38105773925781
+        ],
+        [
+          22.649999618530273,
+          276.6539306640625,
+          117.40199279785156,
+          288.6329345703125
+        ],
+        [
+          22.649999618530273,
+          460.90594482421875,
+          117.40199279785156,
+          472.8849182128906
+        ],
+        [
+          22.649999618530273,
+          645.1578979492188,
+          117.40199279785156,
+          657.1369018554688
+        ],
+        [
+          306.1499938964844,
+          92.40205383300781,
+          400.90203857421875,
+          104.38105773925781
+        ],
+        [
+          306.15008544921875,
+          276.6539306640625,
+          400.9021301269531,
+          288.6329345703125
+        ],
+        [
+          306.15008544921875,
+          460.90594482421875,
+          400.9021301269531,
+          472.8849182128906
+        ],
+        [
+          306.15008544921875,
+          645.1578979492188,
+          400.9021301269531,
+          657.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0076",
+      "label": "Nom d'usage (facultatif)",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Co-locataire 4 / Nom d'usage (facultatif)"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Nom d'usage (facultatif)",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          92.40205383300781,
+          117.40199279785156,
+          104.38105773925781
+        ],
+        [
+          22.649999618530273,
+          276.6539306640625,
+          117.40199279785156,
+          288.6329345703125
+        ],
+        [
+          22.649999618530273,
+          460.90594482421875,
+          117.40199279785156,
+          472.8849182128906
+        ],
+        [
+          22.649999618530273,
+          645.1578979492188,
+          117.40199279785156,
+          657.1369018554688
+        ],
+        [
+          306.1499938964844,
+          92.40205383300781,
+          400.90203857421875,
+          104.38105773925781
+        ],
+        [
+          306.15008544921875,
+          276.6539306640625,
+          400.9021301269531,
+          288.6329345703125
+        ],
+        [
+          306.15008544921875,
+          460.90594482421875,
+          400.9021301269531,
+          472.8849182128906
+        ],
+        [
+          306.15008544921875,
+          645.1578979492188,
+          400.9021301269531,
+          657.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0077",
+      "label": "Prénom",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Copropriétaire 4 / Prénom"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          112.40205383300781,
+          54.15900421142578,
+          124.38105773925781
+        ],
+        [
+          22.649999618530273,
+          296.6539306640625,
+          54.15900421142578,
+          308.6329345703125
+        ],
+        [
+          22.649999618530273,
+          480.90594482421875,
+          54.15900421142578,
+          492.8849182128906
+        ],
+        [
+          22.649999618530273,
+          665.1578979492188,
+          54.15900421142578,
+          677.1369018554688
+        ],
+        [
+          306.1499938964844,
+          112.40205383300781,
+          337.65899658203125,
+          124.38105773925781
+        ],
+        [
+          306.15008544921875,
+          296.6539306640625,
+          337.6590881347656,
+          308.6329345703125
+        ],
+        [
+          306.15008544921875,
+          480.90594482421875,
+          337.6590881347656,
+          492.8849182128906
+        ],
+        [
+          306.15008544921875,
+          665.1578979492188,
+          337.6590881347656,
+          677.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0078",
+      "label": "Prénom",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Co-locataire 4 / Prénom"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Prénom",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          112.40205383300781,
+          54.15900421142578,
+          124.38105773925781
+        ],
+        [
+          22.649999618530273,
+          296.6539306640625,
+          54.15900421142578,
+          308.6329345703125
+        ],
+        [
+          22.649999618530273,
+          480.90594482421875,
+          54.15900421142578,
+          492.8849182128906
+        ],
+        [
+          22.649999618530273,
+          665.1578979492188,
+          54.15900421142578,
+          677.1369018554688
+        ],
+        [
+          306.1499938964844,
+          112.40205383300781,
+          337.65899658203125,
+          124.38105773925781
+        ],
+        [
+          306.15008544921875,
+          296.6539306640625,
+          337.6590881347656,
+          308.6329345703125
+        ],
+        [
+          306.15008544921875,
+          480.90594482421875,
+          337.6590881347656,
+          492.8849182128906
+        ],
+        [
+          306.15008544921875,
+          665.1578979492188,
+          337.6590881347656,
+          677.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0079",
+      "label": "Adresse ou siège social (pour société / association / Aéro-club)",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Copropriétaire 4 / Adresse ou siège social (pour société / association / Aéro-club)"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Adresse ou siège social (pour société / association / Aéro-club)",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          132.4020538330078,
+          273.27294921875,
+          144.3810577392578
+        ],
+        [
+          22.649999618530273,
+          316.6539306640625,
+          273.27294921875,
+          328.6329345703125
+        ],
+        [
+          22.649999618530273,
+          500.90594482421875,
+          273.27294921875,
+          512.8849487304688
+        ],
+        [
+          22.649999618530273,
+          685.1578979492188,
+          275.7749328613281,
+          697.1369018554688
+        ],
+        [
+          306.1499938964844,
+          132.4020538330078,
+          556.773193359375,
+          144.3810577392578
+        ],
+        [
+          306.15008544921875,
+          316.6539306640625,
+          556.7732543945312,
+          328.6329345703125
+        ],
+        [
+          306.15008544921875,
+          500.90594482421875,
+          556.7732543945312,
+          512.8849487304688
+        ],
+        [
+          306.15008544921875,
+          685.1578979492188,
+          556.7732543945312,
+          697.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0080",
+      "label": "Adresse ou siège social (pour société / association / Aéro-club)",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Co-locataire 4 / Adresse ou siège social (pour société / association / Aéro-club)"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Adresse ou siège social (pour société / association / Aéro-club)",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          132.4020538330078,
+          273.27294921875,
+          144.3810577392578
+        ],
+        [
+          22.649999618530273,
+          316.6539306640625,
+          273.27294921875,
+          328.6329345703125
+        ],
+        [
+          22.649999618530273,
+          500.90594482421875,
+          273.27294921875,
+          512.8849487304688
+        ],
+        [
+          22.649999618530273,
+          685.1578979492188,
+          275.7749328613281,
+          697.1369018554688
+        ],
+        [
+          306.1499938964844,
+          132.4020538330078,
+          556.773193359375,
+          144.3810577392578
+        ],
+        [
+          306.15008544921875,
+          316.6539306640625,
+          556.7732543945312,
+          328.6329345703125
+        ],
+        [
+          306.15008544921875,
+          500.90594482421875,
+          556.7732543945312,
+          512.8849487304688
+        ],
+        [
+          306.15008544921875,
+          685.1578979492188,
+          556.7732543945312,
+          697.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0081",
+      "label": "No Siret",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Copropriétaire 4 / No Siret"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "No Siret",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          192.4020538330078,
+          29.148000717163086,
+          204.3810577392578
+        ],
+        [
+          29.149499893188477,
+          193.18055725097656,
+          32.06683349609375,
+          200.16432189941406
+        ],
+        [
+          32.06760025024414,
+          192.4020538330078,
+          61.07460021972656,
+          204.3810577392578
+        ],
+        [
+          22.649999618530273,
+          376.6539306640625,
+          29.148000717163086,
+          388.6329040527344
+        ],
+        [
+          29.149499893188477,
+          377.4324645996094,
+          32.06683349609375,
+          384.41619873046875
+        ],
+        [
+          32.06760025024414,
+          376.6539306640625,
+          61.07460021972656,
+          388.6329040527344
+        ],
+        [
+          22.649999618530273,
+          560.9059448242188,
+          29.148000717163086,
+          572.8849487304688
+        ],
+        [
+          29.149499893188477,
+          561.6843872070312,
+          32.06683349609375,
+          568.6681518554688
+        ],
+        [
+          32.06760025024414,
+          560.9059448242188,
+          61.07460021972656,
+          572.8849487304688
+        ],
+        [
+          22.649999618530273,
+          745.1578979492188,
+          29.148000717163086,
+          757.1369018554688
+        ],
+        [
+          29.149499893188477,
+          745.9364013671875,
+          32.06683349609375,
+          752.920166015625
+        ],
+        [
+          32.06760025024414,
+          745.1578979492188,
+          61.07460021972656,
+          757.1369018554688
+        ],
+        [
+          306.15008544921875,
+          192.4020538330078,
+          312.6480712890625,
+          204.3810577392578
+        ],
+        [
+          312.64959716796875,
+          193.18055725097656,
+          315.5669250488281,
+          200.16432189941406
+        ],
+        [
+          315.56768798828125,
+          192.4020538330078,
+          344.5746765136719,
+          204.3810577392578
+        ],
+        [
+          306.15008544921875,
+          376.6539306640625,
+          312.6480712890625,
+          388.6329040527344
+        ],
+        [
+          312.64959716796875,
+          377.4324645996094,
+          315.5669250488281,
+          384.41619873046875
+        ],
+        [
+          315.56768798828125,
+          376.6539306640625,
+          344.5746765136719,
+          388.6329040527344
+        ],
+        [
+          306.15008544921875,
+          560.9059448242188,
+          312.6480712890625,
+          572.8849487304688
+        ],
+        [
+          312.64959716796875,
+          561.6843872070312,
+          315.5669250488281,
+          568.6681518554688
+        ],
+        [
+          315.56768798828125,
+          560.9059448242188,
+          344.5746765136719,
+          572.8849487304688
+        ],
+        [
+          306.15008544921875,
+          745.1578979492188,
+          312.6480712890625,
+          757.1369018554688
+        ],
+        [
+          312.64959716796875,
+          745.9364013671875,
+          315.5669250488281,
+          752.920166015625
+        ],
+        [
+          315.56768798828125,
+          745.1578979492188,
+          344.5746765136719,
+          757.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0082",
+      "label": "No Siret",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Co-locataire 4 / No Siret"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "No Siret",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          192.4020538330078,
+          29.148000717163086,
+          204.3810577392578
+        ],
+        [
+          29.149499893188477,
+          193.18055725097656,
+          32.06683349609375,
+          200.16432189941406
+        ],
+        [
+          32.06760025024414,
+          192.4020538330078,
+          61.07460021972656,
+          204.3810577392578
+        ],
+        [
+          22.649999618530273,
+          376.6539306640625,
+          29.148000717163086,
+          388.6329040527344
+        ],
+        [
+          29.149499893188477,
+          377.4324645996094,
+          32.06683349609375,
+          384.41619873046875
+        ],
+        [
+          32.06760025024414,
+          376.6539306640625,
+          61.07460021972656,
+          388.6329040527344
+        ],
+        [
+          22.649999618530273,
+          560.9059448242188,
+          29.148000717163086,
+          572.8849487304688
+        ],
+        [
+          29.149499893188477,
+          561.6843872070312,
+          32.06683349609375,
+          568.6681518554688
+        ],
+        [
+          32.06760025024414,
+          560.9059448242188,
+          61.07460021972656,
+          572.8849487304688
+        ],
+        [
+          22.649999618530273,
+          745.1578979492188,
+          29.148000717163086,
+          757.1369018554688
+        ],
+        [
+          29.149499893188477,
+          745.9364013671875,
+          32.06683349609375,
+          752.920166015625
+        ],
+        [
+          32.06760025024414,
+          745.1578979492188,
+          61.07460021972656,
+          757.1369018554688
+        ],
+        [
+          306.15008544921875,
+          192.4020538330078,
+          312.6480712890625,
+          204.3810577392578
+        ],
+        [
+          312.64959716796875,
+          193.18055725097656,
+          315.5669250488281,
+          200.16432189941406
+        ],
+        [
+          315.56768798828125,
+          192.4020538330078,
+          344.5746765136719,
+          204.3810577392578
+        ],
+        [
+          306.15008544921875,
+          376.6539306640625,
+          312.6480712890625,
+          388.6329040527344
+        ],
+        [
+          312.64959716796875,
+          377.4324645996094,
+          315.5669250488281,
+          384.41619873046875
+        ],
+        [
+          315.56768798828125,
+          376.6539306640625,
+          344.5746765136719,
+          388.6329040527344
+        ],
+        [
+          306.15008544921875,
+          560.9059448242188,
+          312.6480712890625,
+          572.8849487304688
+        ],
+        [
+          312.64959716796875,
+          561.6843872070312,
+          315.5669250488281,
+          568.6681518554688
+        ],
+        [
+          315.56768798828125,
+          560.9059448242188,
+          344.5746765136719,
+          572.8849487304688
+        ],
+        [
+          306.15008544921875,
+          745.1578979492188,
+          312.6480712890625,
+          757.1369018554688
+        ],
+        [
+          312.64959716796875,
+          745.9364013671875,
+          315.5669250488281,
+          752.920166015625
+        ],
+        [
+          315.56768798828125,
+          745.1578979492188,
+          344.5746765136719,
+          757.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0083",
+      "label": "Nom du représentant légal ou statutaire",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Copropriétaire 4 / Nom du représentant légal ou statutaire"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Nom du représentant légal ou statutaire",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          212.4020538330078,
+          183.22796630859375,
+          224.3810577392578
+        ],
+        [
+          22.649999618530273,
+          396.6539306640625,
+          183.22796630859375,
+          408.6329040527344
+        ],
+        [
+          22.649999618530273,
+          580.9059448242188,
+          183.22796630859375,
+          592.8849487304688
+        ],
+        [
+          22.649999618530273,
+          765.1578979492188,
+          183.22796630859375,
+          777.1369018554688
+        ],
+        [
+          306.15008544921875,
+          212.4020538330078,
+          466.7281799316406,
+          224.3810577392578
+        ],
+        [
+          306.15008544921875,
+          396.6539306640625,
+          466.7281799316406,
+          408.6329040527344
+        ],
+        [
+          306.15008544921875,
+          580.9059448242188,
+          466.7281799316406,
+          592.8849487304688
+        ],
+        [
+          306.15008544921875,
+          765.1578979492188,
+          466.7281799316406,
+          777.1369018554688
+        ]
+      ]
+    },
+    {
+      "id": "f0084",
+      "label": "Nom du représentant légal ou statutaire",
+      "path": [
+        "Page 3",
+        "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "Co-locataire 4 / Nom du représentant légal ou statutaire"
+      ],
+      "kind": "text",
+      "source_page": 3,
+      "source_anchor": "Nom du représentant légal ou statutaire",
+      "synthetic_value": "Sans objet : bailleur et locataire uniques",
+      "source_label_rects": [
+        [
+          22.649999618530273,
+          212.4020538330078,
+          183.22796630859375,
+          224.3810577392578
+        ],
+        [
+          22.649999618530273,
+          396.6539306640625,
+          183.22796630859375,
+          408.6329040527344
+        ],
+        [
+          22.649999618530273,
+          580.9059448242188,
+          183.22796630859375,
+          592.8849487304688
+        ],
+        [
+          22.649999618530273,
+          765.1578979492188,
+          183.22796630859375,
+          777.1369018554688
+        ],
+        [
+          306.15008544921875,
+          212.4020538330078,
+          466.7281799316406,
+          224.3810577392578
+        ],
+        [
+          306.15008544921875,
+          396.6539306640625,
+          466.7281799316406,
+          408.6329040527344
+        ],
+        [
+          306.15008544921875,
+          580.9059448242188,
+          466.7281799316406,
+          592.8849487304688
+        ],
+        [
+          306.15008544921875,
+          765.1578979492188,
+          466.7281799316406,
+          777.1369018554688
+        ]
+      ]
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "LOCATION D'UN AÉRONEF",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "N° 10092*03",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "articles L.6131-4 du code des transports, D.121-13-18-19-22 - 27 du Code de l'Aviation Civile",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "inscription initiale",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0001",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(1) Indiquer dans le cadre 5 les références de l'inscription initiale.",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Au cas ou plusieurs opérations sont effectuées sur le même aéronef, établir un formulaire distinct par opération.",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "CADRE RÉSERVÉ À L’ADMINISTRATION",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "N° du dossier",
+        "field": "f0002",
+        "colspan": 8,
+        "source_page": 1
+      },
+      {
+        "label": "Visa",
+        "field": "f0003",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Date de l'inscription",
+        "field": "f0004",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "N° de l'inscription",
+        "field": "f0005",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Date de l'inscription modifiée ou radiée",
+        "field": "f0006",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "N° de l'inscription modifiée ou radiée",
+        "field": "f0007",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Le fonctionnaire chargé de la tenue du registre d’immatriculation",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "1 - BAILLEUR (propriétaire ou copropriétaire)",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nom ou dénomination",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0008",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nom d'usage (Facultatif)",
+        "field": "f0009",
+        "colspan": 8,
+        "source_page": 1
+      },
+      {
+        "label": "Prénom",
+        "field": "f0010",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Adresse ou siège social",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0011",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(pour société / Association / Aéro-club)",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Numéro SIRET",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0012",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nom du représentant légal ou statutaire",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0013",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Le bailleur est obligatoirement le propriétaire inscrit au registre. En cas d'inscription modificative portant sur l'identité du bailleur, préciser ci-dessus l'identité du nouveau bailleur. Si l'appareil est loué par plusieurs bailleurs, compléter la page 3.",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "2 - LOCATAIRE",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nom ou dénomination",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0014",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nom d'usage (Facultatif)",
+        "field": "f0015",
+        "colspan": 8,
+        "source_page": 1
+      },
+      {
+        "label": "Prénom",
+        "field": "f0016",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Adresse ou siège social",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0017",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(pour société / Association / Aéro-club)",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "N° SIRET",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0018",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nom du représentant légal ou statutaire",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0019",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "En cas d’inscription modificative portant sur l’identité du locataire, préciser ci-dessus l’identité du nouveau locataire. Si l’appareil est loué à plusieurs colocataires, compléter la page 3.",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "3 - AÉRONEF",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Type, série",
+        "field": "f0020",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "N° de série",
+        "field": "f0021",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Marques d'immatriculation : F -",
+        "field": "f0022",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Aérodrome où sera basé l'aéronef",
+        "field": "f0023",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Aérodrome où sera basé l'aéronef",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0024",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "En cas d'inscription modificative portant sur l'identité de l'aéronef, indiquer ci-dessus les caractéristiques du nouvel aéronef loué.",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "4 - ACTE DE LOCATION",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Date de l'acte",
+        "field": "f0025",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Durée du contrat",
+        "field": "f0026",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Date de départ de la location",
+        "field": "f0027",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Date de fin de la location",
+        "field": "f0028",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Le contrat est-il renouvelable par tacite reconduction ?",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0029",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "En cas d'inscription modificative portant sur la durée du contrat, indiquer ci-dessus la nouvelle durée du contrat, ainsi que ses nouvelles dates de départ et de fin. S'il existe un ou plusieurs contrats intermédiaires entre le propriétaire et le locataire, joindre ces actes intermédiaires et un résumé de l'opération, signé du propriétaire et du locataire.",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "5 - INSCRIPTION INITIALE",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "En cas de modification ou de radiation, indiquer ci-dessous les références de l'inscription de location à modifier ou à radier. (ces références figurent au dos du certificat d'immatriculation)",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "N° de l'inscription à modifier/à radier (1)",
+        "field": "f0030",
+        "colspan": 6,
+        "source_page": 2
+      },
+      {
+        "label": "Date de l'inscription à modifier/à radier (1)",
+        "field": "f0031",
+        "colspan": 6,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "(1) barrer la mention inutile.",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "6 - SIGNATURE(S)",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Fait à",
+        "colspan": 4,
+        "source_page": 2
+      },
+      {
+        "field": "f0032",
+        "colspan": 8,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "le",
+        "colspan": 4,
+        "source_page": 2
+      },
+      {
+        "field": "f0033",
+        "colspan": 8,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Noms",
+        "field": "f0034",
+        "colspan": 4,
+        "source_page": 2
+      },
+      {
+        "label": "Prénoms",
+        "field": "f0035",
+        "colspan": 4,
+        "source_page": 2
+      },
+      {
+        "label": "Signature (s) du ou (des) propriétaires",
+        "field": "f0036",
+        "colspan": 4,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Le présent formulaire doit être signé par tous les propriétaires figurant au registre. Pour les sociétés ou les personnes morales, les signatures doivent être celles des représentants légaux ou statutaires.",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "7- PIÈCES À JOINDRE",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Acte de location original, avenant le cas échéant - Certificat d'immatriculation original. - Pièces identifiant le(s) locataire(s) (extrait k bis pour les sociétés françaises), pièce d'identité (particulier ou gérant de société). - Chèque de 1,50 Euros à l'ordre de \"Immatriculation des Aéronefs\" . La loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, s’applique aux réponses faites à ce formulaire par les personnes physiques. Elle garantit un droit d’accès et de rectification pour les données vous concernant auprès du bureau des immatriculations.",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "IDENTIFICATION DES COPROPRIÉTAIRES",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "IDENTIFICATION DES CO-LOCATAIRES",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "Nom ou dénomination",
+        "field": "f0037",
+        "colspan": 6,
+        "source_page": 3
+      },
+      {
+        "label": "Nom ou dénomination",
+        "field": "f0038",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "Nom d'usage (facultatif)",
+        "field": "f0039",
+        "colspan": 6,
+        "source_page": 3
+      },
+      {
+        "label": "Nom d'usage (facultatif)",
+        "field": "f0040",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "Prénom",
+        "field": "f0041",
+        "colspan": 6,
+        "source_page": 3
+      },
+      {
+        "label": "Prénom",
+        "field": "f0042",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "Adresse ou siège social (pour société / association / Aéro-club)",
+        "field": "f0043",
+        "colspan": 6,
+        "source_page": 3
+      },
+      {
+        "label": "Adresse ou siège social (pour société / association / Aéro-club)",
+        "field": "f0044",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "No Siret",
+        "field": "f0045",
+        "colspan": 6,
+        "source_page": 3
+      },
+      {
+        "label": "No Siret",
+        "field": "f0046",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "Nom du représentant légal ou statutaire",
+        "field": "f0047",
+        "colspan": 6,
+        "source_page": 3
+      },
+      {
+        "label": "Nom du représentant légal ou statutaire",
+        "field": "f0048",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "Nom ou dénomination",
+        "field": "f0049",
+        "colspan": 6,
+        "source_page": 3
+      },
+      {
+        "label": "Nom ou dénomination",
+        "field": "f0050",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "Nom d'usage (facultatif)",
+        "field": "f0051",
+        "colspan": 6,
+        "source_page": 3
+      },
+      {
+        "label": "Nom d'usage (facultatif)",
+        "field": "f0052",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "Prénom",
+        "field": "f0053",
+        "colspan": 6,
+        "source_page": 3
+      },
+      {
+        "label": "Prénom",
+        "field": "f0054",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "Adresse ou siège social (pour société / association / Aéro-club)",
+        "field": "f0055",
+        "colspan": 6,
+        "source_page": 3
+      },
+      {
+        "label": "Adresse ou siège social (pour société / association / Aéro-club)",
+        "field": "f0056",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "No Siret",
+        "field": "f0057",
+        "colspan": 6,
+        "source_page": 3
+      },
+      {
+        "label": "No Siret",
+        "field": "f0058",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "Nom du représentant légal ou statutaire",
+        "field": "f0059",
+        "colspan": 6,
+        "source_page": 3
+      },
+      {
+        "label": "Nom du représentant légal ou statutaire",
+        "field": "f0060",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "Nom ou dénomination",
+        "field": "f0061",
+        "colspan": 6,
+        "source_page": 3
+      },
+      {
+        "label": "Nom ou dénomination",
+        "field": "f0062",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "Nom d'usage (facultatif)",
+        "field": "f0063",
+        "colspan": 6,
+        "source_page": 3
+      },
+      {
+        "label": "Nom d'usage (facultatif)",
+        "field": "f0064",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "Prénom",
+        "field": "f0065",
+        "colspan": 6,
+        "source_page": 3
+      },
+      {
+        "label": "Prénom",
+        "field": "f0066",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "Adresse ou siège social (pour société / association / Aéro-club)",
+        "field": "f0067",
+        "colspan": 6,
+        "source_page": 3
+      },
+      {
+        "label": "Adresse ou siège social (pour société / association / Aéro-club)",
+        "field": "f0068",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "No Siret",
+        "field": "f0069",
+        "colspan": 6,
+        "source_page": 3
+      },
+      {
+        "label": "No Siret",
+        "field": "f0070",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "Nom du représentant légal ou statutaire",
+        "field": "f0071",
+        "colspan": 6,
+        "source_page": 3
+      },
+      {
+        "label": "Nom du représentant légal ou statutaire",
+        "field": "f0072",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "Nom ou dénomination",
+        "field": "f0073",
+        "colspan": 6,
+        "source_page": 3
+      },
+      {
+        "label": "Nom ou dénomination",
+        "field": "f0074",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "Nom d'usage (facultatif)",
+        "field": "f0075",
+        "colspan": 6,
+        "source_page": 3
+      },
+      {
+        "label": "Nom d'usage (facultatif)",
+        "field": "f0076",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "Prénom",
+        "field": "f0077",
+        "colspan": 6,
+        "source_page": 3
+      },
+      {
+        "label": "Prénom",
+        "field": "f0078",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "Adresse ou siège social (pour société / association / Aéro-club)",
+        "field": "f0079",
+        "colspan": 6,
+        "source_page": 3
+      },
+      {
+        "label": "Adresse ou siège social (pour société / association / Aéro-club)",
+        "field": "f0080",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "No Siret",
+        "field": "f0081",
+        "colspan": 6,
+        "source_page": 3
+      },
+      {
+        "label": "No Siret",
+        "field": "f0082",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "Nom du représentant légal ou statutaire",
+        "field": "f0083",
+        "colspan": 6,
+        "source_page": 3
+      },
+      {
+        "label": "Nom du représentant légal ou statutaire",
+        "field": "f0084",
+        "colspan": 6,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Ce formulaire doit être établi en deux exemplaires et adressé au bureau des immatriculations : 50, rue Henry Farman - 75720 Paris cedex 15 - Téléphone : 01 58 09 49 79 accompagné des pièces désignées au recto.",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "LOCATION D'UN AÉRONEF",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "Notice explicative et pièces justificatives à joindre",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "Le présent formulaire est à établir par le propriétaire d'un aéronef lorsqu'il donne cet aéronef en location. Il doit également être établi en cas de modification ou de radiation d'une inscription de location déjà effectuée. L'inscription d'une location au registre d'immatriculation est facultative. Toutefois, l'enregistrement du contrat au registre d'immatriculation permet de dégager la responsabilité du propriétaire à l'égard des tiers (article L.141-4 du code de l'aviation civile). Il est donc de l'intérêt du propriétaire d'un aéronef de procéder à cette formalité. INSCRIPTION ET INSCRIPTION MODIFICATIVE D'UNE LOCATION SUR AÉRONEF N° 50025#03 1. BAILLEUR Compléter cette rubrique en indiquant le nom du propriétaire qui donne l'aéronef en location. Le bailleur doit obligatoirement figurer comme propriétaire de l'aéronef sur le registre français. Si l'appareil est donné en location par plusieurs copropriétaires, compléter la page 3. Dans le cas d'une inscription modificative (voir rubrique 5, inscription initiale), compléter cette rubrique en indiquant le nom du ou des nouveaux bailleurs. 2. LOCATAIRE Compléter cette rubrique en indiquant le nom du locataire qui prend l'appareil en location. Joindre les pièces justificatives énumérées ci-dessous pour établir l'identité de ce locataire. Dans le cas d'une inscription modificative, compléter cette rubrique en indiquant le nom du ou des nouveaux locataires. Si l'appareil est loué par plusieurs locataires, compléter la page 3. 2.1 Personnes physiques (particuliers). Joindre une pièce justificative établissant l'identité et la nationalité du locataire : photocopie de la carte d'identité ou du passeport, photocopie de la carte de séjour. Joindre également un document établissant l'adresse du locataire (photocopie d'une facture d'électricité ou de téléphone, etc...). 2.2 Personnes morales (sociétés, associations, établissements de droit public...). 2.2.1 Personnes morales de droit français. 2.2.1.1. Document attestant que le demandeur est doté de la personnalité juridique. Pour les sociétés, extrait du registre du commerce (extrait Kbis). Pour les associations, récépissé de déclaration à la Préfecture ou à la Sous-préfecture. Pour les établissements de droit public ou administrations, décret ou arrêté prononçant la création de cet établissement ou de cette administration. Remarque importante : dans le cas de sociétés ayant pour administrateur une personne morale, joindre un extrait de registre du commerce relatif à cette personne morale, ainsi qu'un spécimen de signature des personnes physiques habilitées à représenter cette dernière société. 2.2.1.2. Spécimen de signatures des représentants légaux ou statutaires de la société ou de l'association. Eventuellement joindre les pouvoirs donnés par ces représentants légaux ou statutaires aux personnes habilitées à représenter la société ou l'association auprès du bureau des immatriculations, accompagnés de spécimen de signatures de ces personnes. 2.2.2. Personnes morales dont le siège social est situé dans un autre État. Joindre l'équivalent des pièces réclamées ci-dessus pour les sociétés françaises, et leur traduction en français ou en anglais. Ces pièces sont les suivantes : 2.2.2.1. Document établissant que la société ou l'association est dotée de personnalité morale (extrait du registre du commerce, \"certificate of incorporation\"). 2.2.2.2. Document établissant l'adresse du siège social de la société (si cette adresse ne figure pas sur l'extrait du registre du commerce). 2.2.2.3. Liste des représentants légaux ou statutaires de la société (s'ils ne sont pas mentionnés sur l'extrait du registre du commerce) et spécimen de leur signature. Remarque importante : si la société est administrée par une autre société, joindre les documents établissant que cette dernière est dotée de la personnalité morale, les documents faisant apparaître le siège social de cette dernière, ainsi que la liste des représentants légaux ou statutaires de la société et les spécimen de leur signature (voir ci-dessus 2.2.2.1., 2.2.2.2. et 2.2.2.3.). 3 - AÉRONEF Compléter cette rubrique en indiquant les caractéristiques de l'aéronef loué. Si l'appareil n'est pas encore immatriculé, indiquer à la ligne \"marques d'immatriculation\" les marques réservées attribuées à cet appareil (F-...). Si l'appareil est déjà immatriculé, joindre le certificat d'immatriculation original de l'appareil. Dans le cas d'une inscription modificative, compléter cette rubrique en indiquant les coordonnées du nouvel aéronef loué. 4 - ACTE DE LOCATION Compléter cette rubrique en indiquant la date du contrat de location, ainsi que les dates de départ et de fin du contrat. Joindre la ou les pièces justificatives originales. Dans le cas d'une inscription modificative, compléter cette rubrique en indiquant les caractéristiques du nouveau contrat modifiant le contrat initial. Joindre l'original de ce contrat modificatif, signé des deux parties. L'acte de location doit être signé du propriétaire et du locataire de l'appareil. Si le propriétaire ou le locataire sont des personnes morales, l'acte de location doit être signé de leurs représentants légaux ou statutaires. Les différents types d'actes de location établissant que le bailleur donne à bail l'aéronef doivent permettre une identification complète de l'aéronef (type, numéro de série et éventuellement immatriculation française réservée ou immatriculation étrangère). S'il existe des actes de location intermédiaires entre le propriétaire et l'exploitant devant être inscrit au registre, ces actes intermédiaires doivent être fournis, ainsi qu'un document (par exemple, un résumé de l'opération) signé de toutes les parties concernées, en particulier du propriétaire et du locataire qui figureront au registre. La durée du contrat indiquée dans le formulaire doit figurer de manière explicite dans l'acte de location. Si le contrat de location ne précise pas la date de départ de la location, mais stipule que l'appareil doit être loué à compter de sa réception par le locataire, une copie du procès-verbal de réception ou du certificat d'acceptation signé du locataire doit être également jointe. 5 - INSCRIPTION INITIALE Cette rubrique ne doit être complétée que dans le cas où l'aéronef fait déjà l'objet d'une location inscrite au registre d'immatriculation, et où un ou plusieurs éléments du contrat sont modifiés (par exemple le nom du locataire ou la durée du contrat). Compléter cette rubrique en indiquant le numéro et la date de l'inscription de location initiale (ce numéro et cette date figurent sur le certificat d'immatriculation), et les autres rubriques (bailleur, locataire, aéronef, acte de location), en indiquant les caractéristiques du nouveau contrat. Joindre l'original du certificat d'immatriculation. 6 - SIGNATURES Le présent formulaire doit être signé par le ou les propriétaires de l'aéronef inscrits au registre. Pour les personnes morales, les signatures doivent être celles des représentants légaux ou statutaires. Si le ou les demandeurs délèguent à un mandataire le pouvoir de signer le présent formulaire, les pouvoirs donnés à ce mandataire doivent être joints. 7 - DROITS Ce formulaire doit être accompagné du règlement des droits prévus par l'article D.121-36 du code de l'aviation civile, soit la somme de 1,50 Euros, par chèque libellé à l'ordre de \"immatriculation des aéronefs\". 1/1 RADIATION D'UNE LOCATION 1 - BAILLEUR Compléter cette rubrique en indiquant le nom du propriétaire de l'aéronef inscrit au registre d'immatriculation (nom figurant sur le certificat d'immatriculation). Si l'appareil est inscrit au nom de plusieurs copropriétaires, compléter la page 3. 2 - LOCATAIRE Compléter cette rubrique en indiquant le nom du locataire inscrit au registre (figurant au verso du certificat d'immatriculation). Si l'aéronef était loué à plusieurs colocataires, compléter la page 3. 3 - AÉRONEF Compléter cette rubrique en indiquant les références de l'aéronef telles qu'elles figurent sur le certificat d'immatriculation. Joindre le certificat d'immatriculation original de l'appareil. 4 - ACTE DE LOCATION Compléter cette rubrique en indiquant les références de l'acte de location qui avait fait l'objet d'une inscription au registre. 5 - INSCRIPTION INITIALE Compléter cette rubrique en indiquant le numéro et la date de l'inscription de location à radier (ces données figurent au dos du certificat d'immatriculation). 6 - SIGNATURE Le présent formulaire doit être signé par le ou les propriétaires de l'aéronef inscrits au registre d'immatriculation. Pour les personnes morales, les signatures doivent être celle des représentants légaux ou statutaires. Si le ou les demandeurs délèguent à un mandataire le pouvoir de signer le présent formulaire, les pouvoirs donnés à ce mandataire doivent être joints ainsi que la pièce d'identité. 7 - DROITS La radiation d'une location ne donne pas lieu à paiement de droits.",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 4
+      }
+    ]
+  ],
+  "context": "Location entièrement fictive de septembre 2012 entre une SAS unique et un aéroclub unique. Inscription initiale, contrat du 1er septembre pour douze mois du 1er octobre 2012 au 30 septembre 2013, sans reconduction. Aucun copropriétaire ou colocataire additionnel. Toutes marques et séries fictives, aucun aéronef ou vol réel.\nPage 1 / LOCATION D'UN AÉRONEF / Objet demande: inscription initiale\nPage 1 / CADRE RÉSERVÉ À L’ADMINISTRATION / N° du dossier: FICT-989\nPage 1 / CADRE RÉSERVÉ À L’ADMINISTRATION / Visa: Visa fictif\nPage 1 / CADRE RÉSERVÉ À L’ADMINISTRATION / Date de l'inscription: 20/09/2012\nPage 1 / CADRE RÉSERVÉ À L’ADMINISTRATION / N° de l'inscription: FICT-989-A\nPage 1 / CADRE RÉSERVÉ À L’ADMINISTRATION / Date de l'inscription modifiée ou radiée: Sans objet : inscription initiale\nPage 1 / CADRE RÉSERVÉ À L’ADMINISTRATION / N° de l'inscription modifiée ou radiée: Sans objet : inscription initiale\nPage 1 / 1 - BAILLEUR (propriétaire ou copropriétaire) / Nom ou dénomination: Location Exemple SAS\nPage 1 / 1 - BAILLEUR (propriétaire ou copropriétaire) / Nom d'usage (Facultatif): Sans objet : personne morale\nPage 1 / 1 - BAILLEUR (propriétaire ou copropriétaire) / Prénom: Sans objet : personne morale\nPage 1 / 1 - BAILLEUR (propriétaire ou copropriétaire) / Adresse ou siège social: 52 rue Exemple, 69003 Lyon\nPage 1 / 1 - BAILLEUR (propriétaire ou copropriétaire) / Numéro SIRET: 00000098900016\nPage 1 / 1 - BAILLEUR (propriétaire ou copropriétaire) / Nom du représentant légal ou statutaire: MARTIN Claire\nPage 1 / 2 - LOCATAIRE / Nom ou dénomination: Aéroclub Démonstration\nPage 1 / 2 - LOCATAIRE / Nom d'usage (Facultatif): Sans objet : personne morale\nPage 1 / 2 - LOCATAIRE / Prénom: Sans objet : personne morale\nPage 1 / 2 - LOCATAIRE / Adresse ou siège social: 52 rue Exemple, 69003 Lyon\nPage 1 / 2 - LOCATAIRE / N° SIRET: 00000098900024\nPage 1 / 2 - LOCATAIRE / Nom du représentant légal ou statutaire: DURAND Paul\nPage 1 / 3 - AÉRONEF / Type, série: Aéronef de démonstration fictif\nPage 1 / 3 - AÉRONEF / N° de série: FICT-989-S\nPage 1 / 3 - AÉRONEF / Marques d'immatriculation : F -: FICT\nPage 1 / 3 - AÉRONEF / Aérodrome où sera basé l'aéronef: Terrain fictif sans localisation réelle\nPage 1 / 3 - AÉRONEF / Ligne libre complément sous aéronef: Aucun vol réel\nPage 1 / 4 - ACTE DE LOCATION / Date de l'acte: 01/09/2012\nPage 1 / 4 - ACTE DE LOCATION / Durée du contrat: 12 mois\nPage 1 / 4 - ACTE DE LOCATION / Date de départ de la location: 01/10/2012\nPage 1 / 4 - ACTE DE LOCATION / Date de fin de la location: 30/09/2013\nPage 1 / 4 - ACTE DE LOCATION / Le contrat est-il renouvelable par tacite reconduction ?: Non\nPage 2 / 5 - INSCRIPTION INITIALE / N° de l'inscription à modifier/à radier (1): Sans objet : inscription initiale\nPage 2 / 5 - INSCRIPTION INITIALE / Date de l'inscription à modifier/à radier (1): Sans objet : inscription initiale\nPage 2 / 6 - SIGNATURE(S) / Fait à: Lyon\nPage 2 / 6 - SIGNATURE(S) / Date signature: 15/09/2012\nPage 2 / 6 - SIGNATURE(S) / Noms: MARTIN\nPage 2 / 6 - SIGNATURE(S) / Prénoms: Claire\nPage 2 / 6 - SIGNATURE(S) / Signature (s) du ou (des) propriétaires: Claire MARTIN, signature fictive\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Copropriétaire 1 / Nom ou dénomination: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Co-locataire 1 / Nom ou dénomination: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Copropriétaire 1 / Nom d'usage (facultatif): Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Co-locataire 1 / Nom d'usage (facultatif): Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Copropriétaire 1 / Prénom: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Co-locataire 1 / Prénom: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Copropriétaire 1 / Adresse ou siège social (pour société / association / Aéro-club): Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Co-locataire 1 / Adresse ou siège social (pour société / association / Aéro-club): Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Copropriétaire 1 / No Siret: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Co-locataire 1 / No Siret: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Copropriétaire 1 / Nom du représentant légal ou statutaire: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Co-locataire 1 / Nom du représentant légal ou statutaire: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Copropriétaire 2 / Nom ou dénomination: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Co-locataire 2 / Nom ou dénomination: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Copropriétaire 2 / Nom d'usage (facultatif): Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Co-locataire 2 / Nom d'usage (facultatif): Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Copropriétaire 2 / Prénom: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Co-locataire 2 / Prénom: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Copropriétaire 2 / Adresse ou siège social (pour société / association / Aéro-club): Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Co-locataire 2 / Adresse ou siège social (pour société / association / Aéro-club): Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Copropriétaire 2 / No Siret: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Co-locataire 2 / No Siret: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Copropriétaire 2 / Nom du représentant légal ou statutaire: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Co-locataire 2 / Nom du représentant légal ou statutaire: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Copropriétaire 3 / Nom ou dénomination: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Co-locataire 3 / Nom ou dénomination: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Copropriétaire 3 / Nom d'usage (facultatif): Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Co-locataire 3 / Nom d'usage (facultatif): Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Copropriétaire 3 / Prénom: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Co-locataire 3 / Prénom: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Copropriétaire 3 / Adresse ou siège social (pour société / association / Aéro-club): Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Co-locataire 3 / Adresse ou siège social (pour société / association / Aéro-club): Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Copropriétaire 3 / No Siret: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Co-locataire 3 / No Siret: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Copropriétaire 3 / Nom du représentant légal ou statutaire: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Co-locataire 3 / Nom du représentant légal ou statutaire: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Copropriétaire 4 / Nom ou dénomination: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Co-locataire 4 / Nom ou dénomination: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Copropriétaire 4 / Nom d'usage (facultatif): Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Co-locataire 4 / Nom d'usage (facultatif): Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Copropriétaire 4 / Prénom: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Co-locataire 4 / Prénom: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Copropriétaire 4 / Adresse ou siège social (pour société / association / Aéro-club): Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Co-locataire 4 / Adresse ou siège social (pour société / association / Aéro-club): Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Copropriétaire 4 / No Siret: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Co-locataire 4 / No Siret: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Copropriétaire 4 / Nom du représentant légal ou statutaire: Sans objet : bailleur et locataire uniques\nPage 3 / IDENTIFICATION DES COPROPRIÉTAIRES / Co-locataire 4 / Nom du représentant légal ou statutaire: Sans objet : bailleur et locataire uniques",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 989
+  }
+}

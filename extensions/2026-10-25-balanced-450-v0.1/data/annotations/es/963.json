@@ -1,0 +1,743 @@
+{
+  "id": "es-963",
+  "language": "es",
+  "title": "Autorizacion de acreditacion de pagos del Tesoro Nacional en cuenta bancaria",
+  "domain": "Finance",
+  "issuer": "Ministerio de Economia y Finanzas Publicas - Secretaria de Hacienda",
+  "issuer_id": "anac",
+  "template_family": "anac-cuenta",
+  "source_version": "Anexo IV; encabezado conmemorativo 2015",
+  "source_date_evidence": {
+    "kind": "printed commemorative year; issue date not stated",
+    "value": "Anexo IV; 2015 - AÑO DEL BICENTENARIO DEL CONGRESO DE LOS PUEBLOS LIBRES",
+    "note": "2015 is the printed commemorative heading, not an inferred exact issue date."
+  },
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/anexo_iv-_alta_cuenta_bancaria.pdf",
+  "landing_url": "https://www.argentina.gob.ar/anac/tasas-arancelarias/devolucion-de-pagos",
+  "source_sha256": "5524a790e46ffa1d915e446879552c78859892c07eaeeedf5d1c87f19d5044fd",
+  "source_pages": 1,
+  "retrieved_at": "2026-10-25T08:07:04.765747+00:00",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "Argentina.gob.ar portal-owned content is licensed CC BY 4.0 except where otherwise indicated. This official national-portal source carries no contrary notice. Attribution: Ministerio de Economia y Finanzas Publicas - Secretaria de Hacienda. Complete semantic adaptation and fictional completion, not an official act or submission.",
+  "source_notice": "All original pages, writing regions, choices, instructions and notices retained. Source layout normalized; all completion values fictional.",
+  "synthetic_context": true,
+  "columns": 40,
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Localidad, (1)",
+      "path": [
+        "Página 1",
+        "Emision",
+        "Localidad, (1)"
+      ],
+      "source_page": 1,
+      "source_anchor": "Localidad, (1)",
+      "kind": "text",
+      "synthetic_value": "Rosario, 25/10/2026"
+    },
+    {
+      "id": "f002",
+      "label": "(2)",
+      "path": [
+        "Página 1",
+        "Organismo",
+        "(2)"
+      ],
+      "source_page": 1,
+      "source_anchor": "(2)",
+      "kind": "text",
+      "synthetic_value": "Administracion Nacional de Aviacion Civil"
+    },
+    {
+      "id": "f003",
+      "label": "(3)",
+      "path": [
+        "Página 1",
+        "Autorizante",
+        "(3)"
+      ],
+      "source_page": 1,
+      "source_anchor": "(3)",
+      "kind": "text",
+      "synthetic_value": "Elena Paz Ficticia",
+      "display_label": "El (los) que suscribe (n) (3)"
+    },
+    {
+      "id": "f004",
+      "label": "(4)",
+      "path": [
+        "Página 1",
+        "Autorizante",
+        "(4)"
+      ],
+      "source_page": 1,
+      "source_anchor": "(4)",
+      "kind": "text",
+      "synthetic_value": "Titular de la cuenta",
+      "display_label": "en mi (nuestro) carácter de (4)"
+    },
+    {
+      "id": "f005",
+      "label": "(5)",
+      "path": [
+        "Página 1",
+        "Autorizante",
+        "(5)"
+      ],
+      "source_page": 1,
+      "source_anchor": "(5)",
+      "kind": "text",
+      "synthetic_value": "Elena Paz Ficticia, persona humana",
+      "display_label": "de (5)"
+    },
+    {
+      "id": "f006",
+      "label": "(6)",
+      "path": [
+        "Página 1",
+        "Autorizante",
+        "(6)"
+      ],
+      "source_page": 1,
+      "source_anchor": "(6)",
+      "kind": "text",
+      "synthetic_value": "27-30000963-0 sintetico"
+    },
+    {
+      "id": "f007",
+      "label": "USO S.H.",
+      "path": [
+        "Página 1",
+        "Administracion / fila 1",
+        "USO S.H."
+      ],
+      "source_page": 1,
+      "source_anchor": "USO S.H.",
+      "kind": "text",
+      "synthetic_value": "Reservado para SH",
+      "label_position": [
+        12,
+        32
+      ]
+    },
+    {
+      "id": "f008",
+      "label": "NÚMERO DE CUENTA (7)",
+      "path": [
+        "Página 1",
+        "Cuenta",
+        "NÚMERO DE CUENTA (7)"
+      ],
+      "source_page": 1,
+      "source_anchor": "NÚMERO DE CUENTA (7)",
+      "kind": "text",
+      "synthetic_value": "CA-SINT-963"
+    },
+    {
+      "id": "f009",
+      "label": "USO S.H.",
+      "path": [
+        "Página 1",
+        "Administracion / fila 2",
+        "USO S.H."
+      ],
+      "source_page": 1,
+      "source_anchor": "USO S.H.",
+      "kind": "text",
+      "synthetic_value": "Reservado para SH",
+      "label_position": [
+        12,
+        32
+      ]
+    },
+    {
+      "id": "f010",
+      "label": "TIPO: CORRIENTE/ DE AHORRO - CÓDIGO (8)",
+      "path": [
+        "Página 1",
+        "Cuenta / tipo",
+        "TIPO: CORRIENTE/ DE AHORRO - CÓDIGO (8)"
+      ],
+      "source_page": 1,
+      "source_anchor": "TIPO: CORRIENTE/ DE AHORRO - CÓDIGO (8)",
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "DE AHORRO"
+      ],
+      "options": [
+        "CORRIENTE",
+        "DE AHORRO"
+      ],
+      "context_evidence": "Cuenta / tipo / TIPO: CORRIENTE/ DE AHORRO - CÓDIGO (8): DE AHORRO."
+    },
+    {
+      "id": "f011",
+      "label": "CÓDIGO (8)",
+      "path": [
+        "Página 1",
+        "Cuenta / codigo",
+        "CÓDIGO (8)"
+      ],
+      "source_page": 1,
+      "source_anchor": "CÓDIGO (8)",
+      "kind": "text",
+      "synthetic_value": "2, identificador sintetico"
+    },
+    {
+      "id": "f012",
+      "label": "USO S.H.",
+      "path": [
+        "Página 1",
+        "Administracion / fila 3",
+        "USO S.H."
+      ],
+      "source_page": 1,
+      "source_anchor": "USO S.H.",
+      "kind": "text",
+      "synthetic_value": "Reservado para SH",
+      "label_position": [
+        12,
+        32
+      ]
+    },
+    {
+      "id": "f013",
+      "label": "CBU DE LA CUENTA (9)",
+      "path": [
+        "Página 1",
+        "Cuenta",
+        "CBU DE LA CUENTA (9)"
+      ],
+      "source_page": 1,
+      "source_anchor": "CBU DE LA CUENTA (9)",
+      "kind": "text",
+      "synthetic_value": "CBU sintetica 0000000000000000000963"
+    },
+    {
+      "id": "f014",
+      "label": "USO S.H.",
+      "path": [
+        "Página 1",
+        "Administracion / fila 4",
+        "USO S.H."
+      ],
+      "source_page": 1,
+      "source_anchor": "USO S.H.",
+      "kind": "text",
+      "synthetic_value": "Reservado para SH",
+      "label_position": [
+        12,
+        32
+      ]
+    },
+    {
+      "id": "f015",
+      "label": "CUIT/CUIL/CDI CUENTA CORRIENTE/ DE AHORRO (9)",
+      "path": [
+        "Página 1",
+        "Cuenta",
+        "CUIT/CUIL/CDI CUENTA CORRIENTE/ DE AHORRO (9)"
+      ],
+      "source_page": 1,
+      "source_anchor": "CUIT/CUIL/CDI CUENTA CORRIENTE/ DE AHORRO (9)",
+      "kind": "text",
+      "synthetic_value": "27-30000963-0 sintetico"
+    },
+    {
+      "id": "f016",
+      "label": "USO S.H.",
+      "path": [
+        "Página 1",
+        "Administracion / fila 5",
+        "USO S.H."
+      ],
+      "source_page": 1,
+      "source_anchor": "USO S.H.",
+      "kind": "text",
+      "synthetic_value": "Reservado para SH",
+      "label_position": [
+        12,
+        32
+      ]
+    },
+    {
+      "id": "f017",
+      "label": "TITULARIDAD",
+      "path": [
+        "Página 1",
+        "Cuenta",
+        "TITULARIDAD"
+      ],
+      "source_page": 1,
+      "source_anchor": "TITULARIDAD",
+      "kind": "text",
+      "synthetic_value": "Elena Paz Ficticia"
+    },
+    {
+      "id": "f018",
+      "label": "USO S.H.",
+      "path": [
+        "Página 1",
+        "Administracion / fila 6",
+        "USO S.H."
+      ],
+      "source_page": 1,
+      "source_anchor": "USO S.H.",
+      "kind": "text",
+      "synthetic_value": "Reservado para SH",
+      "label_position": [
+        12,
+        32
+      ]
+    },
+    {
+      "id": "f019",
+      "label": "DENOMINACIÓN",
+      "path": [
+        "Página 1",
+        "Cuenta",
+        "DENOMINACIÓN"
+      ],
+      "source_page": 1,
+      "source_anchor": "DENOMINACIÓN",
+      "kind": "text",
+      "synthetic_value": "Caja de ahorro individual en pesos"
+    },
+    {
+      "id": "f020",
+      "label": "USO S.H.",
+      "path": [
+        "Página 1",
+        "Administracion / fila 7",
+        "USO S.H."
+      ],
+      "source_page": 1,
+      "source_anchor": "USO S.H.",
+      "kind": "text",
+      "synthetic_value": "Reservado para SH",
+      "label_position": [
+        12,
+        32
+      ]
+    },
+    {
+      "id": "f021",
+      "label": "BANCO",
+      "path": [
+        "Página 1",
+        "Cuenta",
+        "BANCO"
+      ],
+      "source_page": 1,
+      "source_anchor": "BANCO",
+      "kind": "text",
+      "synthetic_value": "Banco ficticio adherido al CUT"
+    },
+    {
+      "id": "f022",
+      "label": "USO S.H.",
+      "path": [
+        "Página 1",
+        "Administracion / fila 8",
+        "USO S.H."
+      ],
+      "source_page": 1,
+      "source_anchor": "USO S.H.",
+      "kind": "text",
+      "synthetic_value": "Reservado para SH",
+      "label_position": [
+        12,
+        32
+      ]
+    },
+    {
+      "id": "f023",
+      "label": "SUCURSAL",
+      "path": [
+        "Página 1",
+        "Cuenta",
+        "SUCURSAL"
+      ],
+      "source_page": 1,
+      "source_anchor": "SUCURSAL",
+      "kind": "text",
+      "synthetic_value": "Rosario Centro"
+    },
+    {
+      "id": "f024",
+      "label": "/Nº",
+      "path": [
+        "Página 1",
+        "Cuenta / sucursal numero",
+        "/Nº"
+      ],
+      "source_page": 1,
+      "source_anchor": "/Nº",
+      "kind": "text",
+      "synthetic_value": "963"
+    },
+    {
+      "id": "f025",
+      "label": "USO S.H.",
+      "path": [
+        "Página 1",
+        "Administracion / fila 9",
+        "USO S.H."
+      ],
+      "source_page": 1,
+      "source_anchor": "USO S.H.",
+      "kind": "text",
+      "synthetic_value": "Reservado para SH",
+      "label_position": [
+        12,
+        32
+      ]
+    },
+    {
+      "id": "f026",
+      "label": "DOMICILIO",
+      "path": [
+        "Página 1",
+        "Cuenta",
+        "DOMICILIO"
+      ],
+      "source_page": 1,
+      "source_anchor": "DOMICILIO",
+      "kind": "text",
+      "synthetic_value": "Calle Bancaria Ficticia 963, Rosario"
+    },
+    {
+      "id": "f027",
+      "label": "Certificación bancaria del cuadro de datos de la cuenta y firma (s) del (de los) titular (es)",
+      "path": [
+        "Página 1",
+        "Banco / certificacion",
+        "Certificación bancaria del cuadro de datos de la cuenta y firma (s) del (de los) titular (es)"
+      ],
+      "source_page": 1,
+      "source_anchor": "Certificación bancaria del cuadro de datos de la cuenta y firma (s) del (de los) titular (es)",
+      "kind": "text",
+      "synthetic_value": "Certificacion bancaria ficticia del cuadro y de la firma de Elena Paz Ficticia",
+      "display_label": "Certificación bancaria del cuadro de datos de la cuenta y firma (s) del (de los) titular (es)"
+    },
+    {
+      "id": "f028",
+      "label": "(10)",
+      "path": [
+        "Página 1",
+        "Beneficiaria / firma",
+        "(10)"
+      ],
+      "source_page": 1,
+      "source_anchor": "(10)",
+      "kind": "text",
+      "synthetic_value": "Firma y aclaracion sinteticas de Elena Paz Ficticia"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Ministerio de Economía y Finanzas Públicas Secretaría de Hacienda",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "\"2015 - AÑO DEL BICENTENARIO DEL CONGRESO DE LOS PUEBLOS LIBRES\"",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "ANEXO IV",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "AUTORIZACIÓN DE ACREDITACIÓN DE PAGOS DEL TESORO NACIONAL EN CUENTA BANCARIA",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Localidad, (1)",
+        "field": "f001",
+        "source_page": 1,
+        "colspan": 40
+      }
+    ],
+    [
+      {
+        "text": "SEÑOR DIRECTOR GENERAL DE ADMINISTRACIÓN",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "DEL",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "(2)",
+        "field": "f002",
+        "source_page": 1,
+        "colspan": 40
+      }
+    ],
+    [
+      {
+        "label": "El (los) que suscribe (n) (3)",
+        "field": "f003",
+        "source_page": 1,
+        "colspan": 16
+      },
+      {
+        "label": "en mi (nuestro) carácter de (4)",
+        "field": "f004",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "de (5)",
+        "field": "f005",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "(6)",
+        "field": "f006",
+        "source_page": 1,
+        "colspan": 40
+      }
+    ],
+    [
+      {
+        "text": "CUIT/CUIL/CDI No",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "autoriza (mos) a que todo pago que deba realizar la TESORERÍA GENERAL DE LA NACIÓN a través del Sistema de la Cuenta Única del Tesoro, en cancelación de deudas a mi (nuestro) favor por cualquier concepto, sea efectuado en la cuenta bancaria que a continuación se detalla.",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "DATOS DE LA CUENTA BANCARIA",
+        "source_page": 1,
+        "colspan": 32,
+        "heading": true
+      },
+      {
+        "text": "USO S.H.",
+        "source_page": 1,
+        "colspan": 8,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "NÚMERO DE CUENTA (7)",
+        "field": "f008",
+        "source_page": 1,
+        "colspan": 32
+      },
+      {
+        "label": "",
+        "field": "f007",
+        "source_page": 1,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "label": "TIPO: CORRIENTE/ DE AHORRO - CÓDIGO (8)",
+        "field": "f010",
+        "source_page": 1,
+        "colspan": 22
+      },
+      {
+        "label": "CÓDIGO (8)",
+        "field": "f011",
+        "source_page": 1,
+        "colspan": 10
+      },
+      {
+        "label": "",
+        "field": "f009",
+        "source_page": 1,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "label": "CBU DE LA CUENTA (9)",
+        "field": "f013",
+        "source_page": 1,
+        "colspan": 32
+      },
+      {
+        "label": "",
+        "field": "f012",
+        "source_page": 1,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "label": "CUIT/CUIL/CDI CUENTA CORRIENTE/ DE AHORRO (9)",
+        "field": "f015",
+        "source_page": 1,
+        "colspan": 32
+      },
+      {
+        "label": "",
+        "field": "f014",
+        "source_page": 1,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "label": "TITULARIDAD",
+        "field": "f017",
+        "source_page": 1,
+        "colspan": 32
+      },
+      {
+        "label": "",
+        "field": "f016",
+        "source_page": 1,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "label": "DENOMINACIÓN",
+        "field": "f019",
+        "source_page": 1,
+        "colspan": 32
+      },
+      {
+        "label": "",
+        "field": "f018",
+        "source_page": 1,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "label": "BANCO",
+        "field": "f021",
+        "source_page": 1,
+        "colspan": 32
+      },
+      {
+        "label": "",
+        "field": "f020",
+        "source_page": 1,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "label": "SUCURSAL",
+        "field": "f023",
+        "source_page": 1,
+        "colspan": 24
+      },
+      {
+        "label": "/Nº",
+        "field": "f024",
+        "source_page": 1,
+        "colspan": 8
+      },
+      {
+        "label": "",
+        "field": "f022",
+        "source_page": 1,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "label": "DOMICILIO",
+        "field": "f026",
+        "source_page": 1,
+        "colspan": 32
+      },
+      {
+        "label": "",
+        "field": "f025",
+        "source_page": 1,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "text": "La orden de transferencia de fondos a la cuenta arriba indicada, efectuada por la TESORERÍA GENERAL DE LA NACIÓN dentro de los términos contractuales, extinguirá la obligación del deudor por todo concepto, teniendo validez todos los depósitos que allí se efectúen hasta tanto, cualquier cambio que opere en la misma, no sea notificado fehacientemente a ese Servicio Administrativo.",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "El beneficiario exime al ESTADO NACIONAL de cualquier obligación derivada de la eventual mora que pudiera producirse como consecuencia de modificaciones sobre la cuenta bancaria.",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Certificación bancaria del cuadro de datos de la cuenta y firma (s) del (de los) titular (es)",
+        "field": "f027",
+        "source_page": 1,
+        "colspan": 24
+      },
+      {
+        "label": "(10)",
+        "field": "f028",
+        "source_page": 1,
+        "colspan": 16
+      }
+    ],
+    [
+      {
+        "text": "(1) Lugar y fecha de emisión// (2)Denominación del Organismo donde se presenta// (3)Apellido y Nombre del (de los) que autoriza (n) el depósito // (4)Carácter por el cual firma (n) (presidente, socio, propietario, etc) // (5)Razón Social/ Denominación// (6)Número de CUIT o en su defecto CUIL o CDI// (7) Número de cuenta completo conforme la estructura de cuentas bancarias que opera la entidad financiera// (8) Tachar lo que no corresponda. Deberá indicarse el número que identifica al tipo de cuenta// (9)El CUIT, CUIL o CDI informado en “(6)” debe coincidir con el CUIT, CUIL o CDI de la CBU de la cuenta// (10)Firma y aclaración del beneficiario.",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ]
+  ],
+  "context": "CASO ENTERAMENTE FICTICIO. Ningún nombre, documento, licencia, institución, firma o actuación corresponde a una persona o trámite real.\nCaso ficticio de beneficiaria particular que autoriza un abono solicitado ante ANAC en una caja de ahorro propia. CUIT del texto y del banco coinciden. Los nueve casilleros USO S.H. se conservan por separado y quedan reservados; ni el banco ni el Tesoro han realizado una actuacion real.\nPágina 1 / Emision / Localidad, (1): Rosario, 25/10/2026\nPágina 1 / Organismo / (2): Administracion Nacional de Aviacion Civil\nPágina 1 / Autorizante / (3): Elena Paz Ficticia\nPágina 1 / Autorizante / (4): Titular de la cuenta\nPágina 1 / Autorizante / (5): Elena Paz Ficticia, persona humana\nPágina 1 / Autorizante / (6): 27-30000963-0 sintetico\nPágina 1 / Administracion / fila 1 / USO S.H.: Reservado para SH\nPágina 1 / Cuenta / NÚMERO DE CUENTA (7): CA-SINT-963\nPágina 1 / Administracion / fila 2 / USO S.H.: Reservado para SH\nPágina 1 / Cuenta / tipo / TIPO: CORRIENTE/ DE AHORRO - CÓDIGO (8): Cuenta / tipo / TIPO: CORRIENTE/ DE AHORRO - CÓDIGO (8): DE AHORRO.\nPágina 1 / Cuenta / codigo / CÓDIGO (8): 2, identificador sintetico\nPágina 1 / Administracion / fila 3 / USO S.H.: Reservado para SH\nPágina 1 / Cuenta / CBU DE LA CUENTA (9): CBU sintetica 0000000000000000000963\nPágina 1 / Administracion / fila 4 / USO S.H.: Reservado para SH\nPágina 1 / Cuenta / CUIT/CUIL/CDI CUENTA CORRIENTE/ DE AHORRO (9): 27-30000963-0 sintetico\nPágina 1 / Administracion / fila 5 / USO S.H.: Reservado para SH\nPágina 1 / Cuenta / TITULARIDAD: Elena Paz Ficticia\nPágina 1 / Administracion / fila 6 / USO S.H.: Reservado para SH\nPágina 1 / Cuenta / DENOMINACIÓN: Caja de ahorro individual en pesos\nPágina 1 / Administracion / fila 7 / USO S.H.: Reservado para SH\nPágina 1 / Cuenta / BANCO: Banco ficticio adherido al CUT\nPágina 1 / Administracion / fila 8 / USO S.H.: Reservado para SH\nPágina 1 / Cuenta / SUCURSAL: Rosario Centro\nPágina 1 / Cuenta / sucursal numero / /Nº: 963\nPágina 1 / Administracion / fila 9 / USO S.H.: Reservado para SH\nPágina 1 / Cuenta / DOMICILIO: Calle Bancaria Ficticia 963, Rosario\nPágina 1 / Banco / certificacion / Certificación bancaria del cuadro de datos de la cuenta y firma (s) del (de los) titular (es): Certificacion bancaria ficticia del cuadro y de la firma de Elena Paz Ficticia\nPágina 1 / Beneficiaria / firma / (10): Firma y aclaracion sinteticas de Elena Paz Ficticia",
+  "workflow_identity": {
+    "language": "es",
+    "id": 963
+  }
+}

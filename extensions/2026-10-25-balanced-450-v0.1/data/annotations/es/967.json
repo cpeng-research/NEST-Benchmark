@@ -1,0 +1,1912 @@
+{
+  "id": "es-967",
+  "language": "es",
+  "title": "F.399 - Solicitud de cambio de imputacion de pagos",
+  "domain": "Finance",
+  "issuer": "Administracion Federal de Ingresos Publicos",
+  "issuer_id": "afip",
+  "template_family": "afip-reafectar",
+  "source_version": "F.399; sin fecha de edicion impresa",
+  "source_date_evidence": {
+    "kind": "printed code; date not stated",
+    "value": "F.399; sin fecha de edicion impresa; no printed issue date",
+    "note": "Legal references and retrieval time are not source issue dates."
+  },
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/formulario-399.pdf",
+  "landing_url": "https://www.argentina.gob.ar/servicio/reafectar-pagos-como-monotributista-o-autonomo",
+  "source_sha256": "bfe41fec11fd46780befb035a189432d5e6406798cc3af1e0e3794275bc2031f",
+  "source_pages": 1,
+  "retrieved_at": "2026-10-25T08:41:58.184504+00:00",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "Argentina.gob.ar portal-owned content is licensed CC BY 4.0 except where otherwise indicated. This official national-portal source carries no contrary notice. Attribution: Administracion Federal de Ingresos Publicos. Complete semantic adaptation and fictional completion, not an official act or submission.",
+  "source_notice": "All original pages, writing regions, choices, instructions and notices retained. Source layout normalized; all completion values fictional.",
+  "synthetic_context": true,
+  "columns": 40,
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Sello fechador de recepción",
+      "path": [
+        "Página 1",
+        "Recepcion",
+        "Sello fechador de recepción"
+      ],
+      "source_page": 1,
+      "source_anchor": "Sello fechador de recepción",
+      "kind": "text",
+      "synthetic_value": "Recepcion ficticia; sin sello oficial"
+    },
+    {
+      "id": "f002",
+      "label": "Clave Única de Identificación Tributaria",
+      "path": [
+        "Página 1",
+        "Contribuyente",
+        "Clave Única de Identificación Tributaria"
+      ],
+      "source_page": 1,
+      "source_anchor": "Clave Única de Identificación Tributaria",
+      "kind": "text",
+      "synthetic_value": "20-30000967-4"
+    },
+    {
+      "id": "f003",
+      "label": "Apellido y Nombre o Denominación",
+      "path": [
+        "Página 1",
+        "Contribuyente",
+        "Apellido y Nombre o Denominación"
+      ],
+      "source_page": 1,
+      "source_anchor": "Apellido y Nombre o Denominación",
+      "kind": "text",
+      "synthetic_value": "Mario Soler Ficticio"
+    },
+    {
+      "id": "f004",
+      "label": "Dependencia",
+      "path": [
+        "Página 1",
+        "Administracion",
+        "Dependencia"
+      ],
+      "source_page": 1,
+      "source_anchor": "Dependencia",
+      "kind": "text",
+      "synthetic_value": "Agencia ficticia 967"
+    },
+    {
+      "id": "f005",
+      "label": "USO DGI",
+      "path": [
+        "Página 1",
+        "Administracion superior",
+        "USO DGI"
+      ],
+      "source_page": 1,
+      "source_anchor": "USO DGI",
+      "kind": "text",
+      "synthetic_value": "Reservado; sin codigo real"
+    },
+    {
+      "id": "f006",
+      "label": "Trámite (HOST) Nº",
+      "path": [
+        "Página 1",
+        "Administracion",
+        "Trámite (HOST) Nº"
+      ],
+      "source_page": 1,
+      "source_anchor": "Trámite (HOST) Nº",
+      "kind": "text",
+      "synthetic_value": "TRAM-SINT-967"
+    },
+    {
+      "id": "f007",
+      "label": "Expediente Nº",
+      "path": [
+        "Página 1",
+        "Administracion",
+        "Expediente Nº"
+      ],
+      "source_page": 1,
+      "source_anchor": "Expediente Nº",
+      "kind": "text",
+      "synthetic_value": "EXP-SINT-967"
+    },
+    {
+      "id": "f008",
+      "label": "DIA",
+      "path": [
+        "Página 1",
+        "Fecha del pago",
+        "DIA"
+      ],
+      "source_page": 1,
+      "source_anchor": "DIA",
+      "kind": "text",
+      "synthetic_value": "15"
+    },
+    {
+      "id": "f009",
+      "label": "MES",
+      "path": [
+        "Página 1",
+        "Fecha del pago",
+        "MES"
+      ],
+      "source_page": 1,
+      "source_anchor": "MES",
+      "kind": "text",
+      "synthetic_value": "10"
+    },
+    {
+      "id": "f010",
+      "label": "AÑO",
+      "path": [
+        "Página 1",
+        "Fecha del pago",
+        "AÑO"
+      ],
+      "source_page": 1,
+      "source_anchor": "AÑO",
+      "kind": "text",
+      "synthetic_value": "2026"
+    },
+    {
+      "id": "f011",
+      "label": "Nº DE OBLIGACIÓN",
+      "path": [
+        "Página 1",
+        "Pago",
+        "Nº DE OBLIGACIÓN"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nº DE OBLIGACIÓN",
+      "kind": "text",
+      "synthetic_value": "OBL-SINT-967"
+    },
+    {
+      "id": "f012",
+      "label": "Nº DE TIQUE",
+      "path": [
+        "Página 1",
+        "Pago",
+        "Nº DE TIQUE"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nº DE TIQUE",
+      "kind": "text",
+      "synthetic_value": "T-SINT-967"
+    },
+    {
+      "id": "f013",
+      "label": "DENOMINACIÓN",
+      "path": [
+        "Página 1",
+        "Banco",
+        "DENOMINACIÓN"
+      ],
+      "source_page": 1,
+      "source_anchor": "DENOMINACIÓN",
+      "kind": "text",
+      "synthetic_value": "Banco Ficticio"
+    },
+    {
+      "id": "f014",
+      "label": "USO DGI",
+      "path": [
+        "Página 1",
+        "Banco / codigo",
+        "USO DGI"
+      ],
+      "source_page": 1,
+      "source_anchor": "USO DGI",
+      "kind": "text",
+      "synthetic_value": "000"
+    },
+    {
+      "id": "f015",
+      "label": "DENOMINACIÓN",
+      "path": [
+        "Página 1",
+        "Sucursal",
+        "DENOMINACIÓN"
+      ],
+      "source_page": 1,
+      "source_anchor": "DENOMINACIÓN",
+      "kind": "text",
+      "synthetic_value": "Rosario Modelo"
+    },
+    {
+      "id": "f016",
+      "label": "USO DGI",
+      "path": [
+        "Página 1",
+        "Sucursal / codigo",
+        "USO DGI"
+      ],
+      "source_page": 1,
+      "source_anchor": "USO DGI",
+      "kind": "text",
+      "synthetic_value": "967"
+    },
+    {
+      "id": "f017",
+      "label": "ESTAB.",
+      "path": [
+        "Página 1",
+        "Origen / columna 1",
+        "ESTAB."
+      ],
+      "source_page": 1,
+      "source_anchor": "ESTAB.",
+      "kind": "text",
+      "synthetic_value": "1",
+      "label_position": [
+        12,
+        0
+      ]
+    },
+    {
+      "id": "f018",
+      "label": "DESCRIPCIÓN",
+      "path": [
+        "Página 1",
+        "Origen / columna 2",
+        "DESCRIPCIÓN"
+      ],
+      "source_page": 1,
+      "source_anchor": "DESCRIPCIÓN",
+      "kind": "text",
+      "synthetic_value": "Impuesto sintetico",
+      "label_position": [
+        13,
+        3
+      ]
+    },
+    {
+      "id": "f019",
+      "label": "USO DGI",
+      "path": [
+        "Página 1",
+        "Origen / columna 3",
+        "USO DGI"
+      ],
+      "source_page": 1,
+      "source_anchor": "USO DGI",
+      "kind": "text",
+      "synthetic_value": "999",
+      "label_position": [
+        13,
+        8
+      ]
+    },
+    {
+      "id": "f020",
+      "label": "DESCRIPCIÓN",
+      "path": [
+        "Página 1",
+        "Origen / columna 4",
+        "DESCRIPCIÓN"
+      ],
+      "source_page": 1,
+      "source_anchor": "DESCRIPCIÓN",
+      "kind": "text",
+      "synthetic_value": "Pago mensual",
+      "label_position": [
+        13,
+        11
+      ]
+    },
+    {
+      "id": "f021",
+      "label": "USO DGI",
+      "path": [
+        "Página 1",
+        "Origen / columna 5",
+        "USO DGI"
+      ],
+      "source_page": 1,
+      "source_anchor": "USO DGI",
+      "kind": "text",
+      "synthetic_value": "019",
+      "label_position": [
+        13,
+        16
+      ]
+    },
+    {
+      "id": "f022",
+      "label": "DESCRIPCIÓN",
+      "path": [
+        "Página 1",
+        "Origen / columna 6",
+        "DESCRIPCIÓN"
+      ],
+      "source_page": 1,
+      "source_anchor": "DESCRIPCIÓN",
+      "kind": "text",
+      "synthetic_value": "Saldo a reasignar",
+      "label_position": [
+        13,
+        19
+      ]
+    },
+    {
+      "id": "f023",
+      "label": "USO DGI",
+      "path": [
+        "Página 1",
+        "Origen / columna 7",
+        "USO DGI"
+      ],
+      "source_page": 1,
+      "source_anchor": "USO DGI",
+      "kind": "text",
+      "synthetic_value": "019",
+      "label_position": [
+        13,
+        24
+      ]
+    },
+    {
+      "id": "f024",
+      "label": "AÑO",
+      "path": [
+        "Página 1",
+        "Origen / columna 8",
+        "AÑO"
+      ],
+      "source_page": 1,
+      "source_anchor": "AÑO",
+      "kind": "text",
+      "synthetic_value": "2026",
+      "label_position": [
+        13,
+        27
+      ]
+    },
+    {
+      "id": "f025",
+      "label": "MES",
+      "path": [
+        "Página 1",
+        "Origen / columna 9",
+        "MES"
+      ],
+      "source_page": 1,
+      "source_anchor": "MES",
+      "kind": "text",
+      "synthetic_value": "09",
+      "label_position": [
+        13,
+        30
+      ]
+    },
+    {
+      "id": "f026",
+      "label": "ANTICIPO",
+      "path": [
+        "Página 1",
+        "Origen / columna 10",
+        "ANTICIPO"
+      ],
+      "source_page": 1,
+      "source_anchor": "ANTICIPO",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        12,
+        33
+      ]
+    },
+    {
+      "id": "f027",
+      "label": "IMPORTE",
+      "path": [
+        "Página 1",
+        "Origen / columna 11",
+        "IMPORTE"
+      ],
+      "source_page": 1,
+      "source_anchor": "IMPORTE",
+      "kind": "text",
+      "synthetic_value": "9000",
+      "label_position": [
+        12,
+        36
+      ]
+    },
+    {
+      "id": "f028",
+      "label": "ESTAB.",
+      "path": [
+        "Página 1",
+        "Destino 1 / columna 1",
+        "ESTAB."
+      ],
+      "source_page": 1,
+      "source_anchor": "ESTAB.",
+      "kind": "text",
+      "synthetic_value": "1",
+      "label_position": [
+        16,
+        0
+      ]
+    },
+    {
+      "id": "f029",
+      "label": "DESCRIPCIÓN",
+      "path": [
+        "Página 1",
+        "Destino 1 / columna 2",
+        "DESCRIPCIÓN"
+      ],
+      "source_page": 1,
+      "source_anchor": "DESCRIPCIÓN",
+      "kind": "text",
+      "synthetic_value": "Impuesto sintetico",
+      "label_position": [
+        17,
+        3
+      ]
+    },
+    {
+      "id": "f030",
+      "label": "USO DGI",
+      "path": [
+        "Página 1",
+        "Destino 1 / columna 3",
+        "USO DGI"
+      ],
+      "source_page": 1,
+      "source_anchor": "USO DGI",
+      "kind": "text",
+      "synthetic_value": "999",
+      "label_position": [
+        17,
+        8
+      ]
+    },
+    {
+      "id": "f031",
+      "label": "DESCRIPCIÓN",
+      "path": [
+        "Página 1",
+        "Destino 1 / columna 4",
+        "DESCRIPCIÓN"
+      ],
+      "source_page": 1,
+      "source_anchor": "DESCRIPCIÓN",
+      "kind": "text",
+      "synthetic_value": "Pago mensual",
+      "label_position": [
+        17,
+        11
+      ]
+    },
+    {
+      "id": "f032",
+      "label": "USO DGI",
+      "path": [
+        "Página 1",
+        "Destino 1 / columna 5",
+        "USO DGI"
+      ],
+      "source_page": 1,
+      "source_anchor": "USO DGI",
+      "kind": "text",
+      "synthetic_value": "019",
+      "label_position": [
+        17,
+        16
+      ]
+    },
+    {
+      "id": "f033",
+      "label": "DESCRIPCIÓN",
+      "path": [
+        "Página 1",
+        "Destino 1 / columna 6",
+        "DESCRIPCIÓN"
+      ],
+      "source_page": 1,
+      "source_anchor": "DESCRIPCIÓN",
+      "kind": "text",
+      "synthetic_value": "Reimputacion parcial",
+      "label_position": [
+        17,
+        19
+      ]
+    },
+    {
+      "id": "f034",
+      "label": "USO DGI",
+      "path": [
+        "Página 1",
+        "Destino 1 / columna 7",
+        "USO DGI"
+      ],
+      "source_page": 1,
+      "source_anchor": "USO DGI",
+      "kind": "text",
+      "synthetic_value": "019",
+      "label_position": [
+        17,
+        24
+      ]
+    },
+    {
+      "id": "f035",
+      "label": "AÑO",
+      "path": [
+        "Página 1",
+        "Destino 1 / columna 8",
+        "AÑO"
+      ],
+      "source_page": 1,
+      "source_anchor": "AÑO",
+      "kind": "text",
+      "synthetic_value": "2026",
+      "label_position": [
+        17,
+        27
+      ]
+    },
+    {
+      "id": "f036",
+      "label": "MES",
+      "path": [
+        "Página 1",
+        "Destino 1 / columna 9",
+        "MES"
+      ],
+      "source_page": 1,
+      "source_anchor": "MES",
+      "kind": "text",
+      "synthetic_value": "10",
+      "label_position": [
+        17,
+        30
+      ]
+    },
+    {
+      "id": "f037",
+      "label": "ANTICIPO",
+      "path": [
+        "Página 1",
+        "Destino 1 / columna 10",
+        "ANTICIPO"
+      ],
+      "source_page": 1,
+      "source_anchor": "ANTICIPO",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        16,
+        33
+      ]
+    },
+    {
+      "id": "f038",
+      "label": "IMPORTE",
+      "path": [
+        "Página 1",
+        "Destino 1 / columna 11",
+        "IMPORTE"
+      ],
+      "source_page": 1,
+      "source_anchor": "IMPORTE",
+      "kind": "text",
+      "synthetic_value": "3000",
+      "label_position": [
+        16,
+        36
+      ]
+    },
+    {
+      "id": "f039",
+      "label": "ESTAB.",
+      "path": [
+        "Página 1",
+        "Destino 2 / columna 1",
+        "ESTAB."
+      ],
+      "source_page": 1,
+      "source_anchor": "ESTAB.",
+      "kind": "text",
+      "synthetic_value": "1",
+      "label_position": [
+        16,
+        0
+      ]
+    },
+    {
+      "id": "f040",
+      "label": "DESCRIPCIÓN",
+      "path": [
+        "Página 1",
+        "Destino 2 / columna 2",
+        "DESCRIPCIÓN"
+      ],
+      "source_page": 1,
+      "source_anchor": "DESCRIPCIÓN",
+      "kind": "text",
+      "synthetic_value": "Impuesto sintetico",
+      "label_position": [
+        17,
+        3
+      ]
+    },
+    {
+      "id": "f041",
+      "label": "USO DGI",
+      "path": [
+        "Página 1",
+        "Destino 2 / columna 3",
+        "USO DGI"
+      ],
+      "source_page": 1,
+      "source_anchor": "USO DGI",
+      "kind": "text",
+      "synthetic_value": "999",
+      "label_position": [
+        17,
+        8
+      ]
+    },
+    {
+      "id": "f042",
+      "label": "DESCRIPCIÓN",
+      "path": [
+        "Página 1",
+        "Destino 2 / columna 4",
+        "DESCRIPCIÓN"
+      ],
+      "source_page": 1,
+      "source_anchor": "DESCRIPCIÓN",
+      "kind": "text",
+      "synthetic_value": "Pago mensual",
+      "label_position": [
+        17,
+        11
+      ]
+    },
+    {
+      "id": "f043",
+      "label": "USO DGI",
+      "path": [
+        "Página 1",
+        "Destino 2 / columna 5",
+        "USO DGI"
+      ],
+      "source_page": 1,
+      "source_anchor": "USO DGI",
+      "kind": "text",
+      "synthetic_value": "019",
+      "label_position": [
+        17,
+        16
+      ]
+    },
+    {
+      "id": "f044",
+      "label": "DESCRIPCIÓN",
+      "path": [
+        "Página 1",
+        "Destino 2 / columna 6",
+        "DESCRIPCIÓN"
+      ],
+      "source_page": 1,
+      "source_anchor": "DESCRIPCIÓN",
+      "kind": "text",
+      "synthetic_value": "Reimputacion parcial",
+      "label_position": [
+        17,
+        19
+      ]
+    },
+    {
+      "id": "f045",
+      "label": "USO DGI",
+      "path": [
+        "Página 1",
+        "Destino 2 / columna 7",
+        "USO DGI"
+      ],
+      "source_page": 1,
+      "source_anchor": "USO DGI",
+      "kind": "text",
+      "synthetic_value": "019",
+      "label_position": [
+        17,
+        24
+      ]
+    },
+    {
+      "id": "f046",
+      "label": "AÑO",
+      "path": [
+        "Página 1",
+        "Destino 2 / columna 8",
+        "AÑO"
+      ],
+      "source_page": 1,
+      "source_anchor": "AÑO",
+      "kind": "text",
+      "synthetic_value": "2026",
+      "label_position": [
+        17,
+        27
+      ]
+    },
+    {
+      "id": "f047",
+      "label": "MES",
+      "path": [
+        "Página 1",
+        "Destino 2 / columna 9",
+        "MES"
+      ],
+      "source_page": 1,
+      "source_anchor": "MES",
+      "kind": "text",
+      "synthetic_value": "11",
+      "label_position": [
+        17,
+        30
+      ]
+    },
+    {
+      "id": "f048",
+      "label": "ANTICIPO",
+      "path": [
+        "Página 1",
+        "Destino 2 / columna 10",
+        "ANTICIPO"
+      ],
+      "source_page": 1,
+      "source_anchor": "ANTICIPO",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        16,
+        33
+      ]
+    },
+    {
+      "id": "f049",
+      "label": "IMPORTE",
+      "path": [
+        "Página 1",
+        "Destino 2 / columna 11",
+        "IMPORTE"
+      ],
+      "source_page": 1,
+      "source_anchor": "IMPORTE",
+      "kind": "text",
+      "synthetic_value": "3000",
+      "label_position": [
+        16,
+        36
+      ]
+    },
+    {
+      "id": "f050",
+      "label": "ESTAB.",
+      "path": [
+        "Página 1",
+        "Destino 3 / columna 1",
+        "ESTAB."
+      ],
+      "source_page": 1,
+      "source_anchor": "ESTAB.",
+      "kind": "text",
+      "synthetic_value": "1",
+      "label_position": [
+        16,
+        0
+      ]
+    },
+    {
+      "id": "f051",
+      "label": "DESCRIPCIÓN",
+      "path": [
+        "Página 1",
+        "Destino 3 / columna 2",
+        "DESCRIPCIÓN"
+      ],
+      "source_page": 1,
+      "source_anchor": "DESCRIPCIÓN",
+      "kind": "text",
+      "synthetic_value": "Impuesto sintetico",
+      "label_position": [
+        17,
+        3
+      ]
+    },
+    {
+      "id": "f052",
+      "label": "USO DGI",
+      "path": [
+        "Página 1",
+        "Destino 3 / columna 3",
+        "USO DGI"
+      ],
+      "source_page": 1,
+      "source_anchor": "USO DGI",
+      "kind": "text",
+      "synthetic_value": "999",
+      "label_position": [
+        17,
+        8
+      ]
+    },
+    {
+      "id": "f053",
+      "label": "DESCRIPCIÓN",
+      "path": [
+        "Página 1",
+        "Destino 3 / columna 4",
+        "DESCRIPCIÓN"
+      ],
+      "source_page": 1,
+      "source_anchor": "DESCRIPCIÓN",
+      "kind": "text",
+      "synthetic_value": "Pago mensual",
+      "label_position": [
+        17,
+        11
+      ]
+    },
+    {
+      "id": "f054",
+      "label": "USO DGI",
+      "path": [
+        "Página 1",
+        "Destino 3 / columna 5",
+        "USO DGI"
+      ],
+      "source_page": 1,
+      "source_anchor": "USO DGI",
+      "kind": "text",
+      "synthetic_value": "019",
+      "label_position": [
+        17,
+        16
+      ]
+    },
+    {
+      "id": "f055",
+      "label": "DESCRIPCIÓN",
+      "path": [
+        "Página 1",
+        "Destino 3 / columna 6",
+        "DESCRIPCIÓN"
+      ],
+      "source_page": 1,
+      "source_anchor": "DESCRIPCIÓN",
+      "kind": "text",
+      "synthetic_value": "Reimputacion parcial",
+      "label_position": [
+        17,
+        19
+      ]
+    },
+    {
+      "id": "f056",
+      "label": "USO DGI",
+      "path": [
+        "Página 1",
+        "Destino 3 / columna 7",
+        "USO DGI"
+      ],
+      "source_page": 1,
+      "source_anchor": "USO DGI",
+      "kind": "text",
+      "synthetic_value": "019",
+      "label_position": [
+        17,
+        24
+      ]
+    },
+    {
+      "id": "f057",
+      "label": "AÑO",
+      "path": [
+        "Página 1",
+        "Destino 3 / columna 8",
+        "AÑO"
+      ],
+      "source_page": 1,
+      "source_anchor": "AÑO",
+      "kind": "text",
+      "synthetic_value": "2026",
+      "label_position": [
+        17,
+        27
+      ]
+    },
+    {
+      "id": "f058",
+      "label": "MES",
+      "path": [
+        "Página 1",
+        "Destino 3 / columna 9",
+        "MES"
+      ],
+      "source_page": 1,
+      "source_anchor": "MES",
+      "kind": "text",
+      "synthetic_value": "12",
+      "label_position": [
+        17,
+        30
+      ]
+    },
+    {
+      "id": "f059",
+      "label": "ANTICIPO",
+      "path": [
+        "Página 1",
+        "Destino 3 / columna 10",
+        "ANTICIPO"
+      ],
+      "source_page": 1,
+      "source_anchor": "ANTICIPO",
+      "kind": "text",
+      "synthetic_value": "0",
+      "label_position": [
+        16,
+        33
+      ]
+    },
+    {
+      "id": "f060",
+      "label": "IMPORTE",
+      "path": [
+        "Página 1",
+        "Destino 3 / columna 11",
+        "IMPORTE"
+      ],
+      "source_page": 1,
+      "source_anchor": "IMPORTE",
+      "kind": "text",
+      "synthetic_value": "3000",
+      "label_position": [
+        16,
+        36
+      ]
+    },
+    {
+      "id": "f061",
+      "label": "El que suscribe Don",
+      "path": [
+        "Página 1",
+        "Declaracion",
+        "El que suscribe Don"
+      ],
+      "source_page": 1,
+      "source_anchor": "El que suscribe Don",
+      "kind": "text",
+      "synthetic_value": "Mario Soler Ficticio"
+    },
+    {
+      "id": "f062",
+      "label": "en su carácter de (2)",
+      "path": [
+        "Página 1",
+        "Declaracion",
+        "en su carácter de (2)"
+      ],
+      "source_page": 1,
+      "source_anchor": "en su carácter de (2)",
+      "kind": "text",
+      "synthetic_value": "Titular"
+    },
+    {
+      "id": "f063",
+      "label": "LUGAR Y FECHA:",
+      "path": [
+        "Página 1",
+        "Declaracion",
+        "LUGAR Y FECHA:"
+      ],
+      "source_page": 1,
+      "source_anchor": "LUGAR Y FECHA:",
+      "kind": "text",
+      "synthetic_value": "Rosario, 25/10/2026"
+    },
+    {
+      "id": "f064",
+      "label": "FIRMA:",
+      "path": [
+        "Página 1",
+        "Declaracion",
+        "FIRMA:"
+      ],
+      "source_page": 1,
+      "source_anchor": "FIRMA:",
+      "kind": "text",
+      "synthetic_value": "Firma sintetica de Mario Soler Ficticio"
+    },
+    {
+      "id": "f065",
+      "label": "OBSERVACIONES:",
+      "path": [
+        "Página 1",
+        "Administracion",
+        "OBSERVACIONES:"
+      ],
+      "source_page": 1,
+      "source_anchor": "OBSERVACIONES:",
+      "kind": "text",
+      "synthetic_value": "Reasignacion ficticia de 9000 en tres importes de 3000"
+    },
+    {
+      "id": "f066",
+      "label": "FIRMA DEL OPERADOR:",
+      "path": [
+        "Página 1",
+        "Administracion",
+        "FIRMA DEL OPERADOR:"
+      ],
+      "source_page": 1,
+      "source_anchor": "FIRMA DEL OPERADOR:",
+      "kind": "text",
+      "synthetic_value": "Firma sintetica de operadora ficticia"
+    },
+    {
+      "id": "f067",
+      "label": "FECHA DEL PROCESO:",
+      "path": [
+        "Página 1",
+        "Administracion",
+        "FECHA DEL PROCESO:"
+      ],
+      "source_page": 1,
+      "source_anchor": "FECHA DEL PROCESO:",
+      "kind": "text",
+      "synthetic_value": "26/10/2026"
+    },
+    {
+      "id": "f068",
+      "label": "SELLO, FECHA Y FIRMA:",
+      "path": [
+        "Página 1",
+        "Administracion",
+        "SELLO, FECHA Y FIRMA:"
+      ],
+      "source_page": 1,
+      "source_anchor": "SELLO, FECHA Y FIRMA:",
+      "kind": "text",
+      "synthetic_value": "Certificacion ficticia, 26/10/2026"
+    },
+    {
+      "id": "f069",
+      "label": "FECHA DE NOTIFICACIÓN:",
+      "path": [
+        "Página 1",
+        "Administracion",
+        "FECHA DE NOTIFICACIÓN:"
+      ],
+      "source_page": 1,
+      "source_anchor": "FECHA DE NOTIFICACIÓN:",
+      "kind": "text",
+      "synthetic_value": "27/10/2026"
+    },
+    {
+      "id": "f070",
+      "label": "JEFATURA RESPONSABLE:",
+      "path": [
+        "Página 1",
+        "Administracion",
+        "JEFATURA RESPONSABLE:"
+      ],
+      "source_page": 1,
+      "source_anchor": "JEFATURA RESPONSABLE:",
+      "kind": "text",
+      "synthetic_value": "Jefatura ficticia 967"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "F. 399",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "SOLICITUD DE CAMBIO DE IMPUTACION DE PAGOS",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Sello fechador de recepción",
+        "field": "f001",
+        "source_page": 1,
+        "colspan": 18
+      },
+      {
+        "label": "Clave Única de Identificación Tributaria",
+        "field": "f002",
+        "source_page": 1,
+        "colspan": 22
+      }
+    ],
+    [
+      {
+        "label": "Apellido y Nombre o Denominación",
+        "field": "f003",
+        "source_page": 1,
+        "colspan": 40
+      }
+    ],
+    [
+      {
+        "label": "Dependencia",
+        "field": "f004",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "USO DGI",
+        "field": "f005",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "Trámite (HOST) Nº",
+        "field": "f006",
+        "source_page": 1,
+        "colspan": 12
+      },
+      {
+        "label": "Expediente Nº",
+        "field": "f007",
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "ESTA PRESENTACIÓN SE ENCUENTRA SUJETA A VERIFICACIÓN POR PARTE DE ESTA ADMINISTRACIÓN FEDERAL",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "DATOS DEL PAGO(1)",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "DIA",
+        "field": "f008",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "MES",
+        "field": "f009",
+        "source_page": 1,
+        "colspan": 4
+      },
+      {
+        "label": "AÑO",
+        "field": "f010",
+        "source_page": 1,
+        "colspan": 5
+      },
+      {
+        "label": "Nº DE OBLIGACIÓN",
+        "field": "f011",
+        "source_page": 1,
+        "colspan": 14
+      },
+      {
+        "label": "Nº DE TIQUE",
+        "field": "f012",
+        "source_page": 1,
+        "colspan": 13
+      }
+    ],
+    [
+      {
+        "text": "BANCO",
+        "source_page": 1,
+        "colspan": 20,
+        "heading": true
+      },
+      {
+        "text": "SUCURSAL",
+        "source_page": 1,
+        "colspan": 20,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "DENOMINACIÓN",
+        "field": "f013",
+        "source_page": 1,
+        "colspan": 14
+      },
+      {
+        "label": "USO DGI",
+        "field": "f014",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "DENOMINACIÓN",
+        "field": "f015",
+        "source_page": 1,
+        "colspan": 14
+      },
+      {
+        "label": "USO DGI",
+        "field": "f016",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "DESCRIPCIÓN / DETALLE",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "RUBRO I - BAJA - ORIGEN (1) EL SALDO SURGE DEL SIGUIENTE INGRESO IMPUTADO ERRÓNEAMENTE:",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "ESTAB.",
+        "source_page": 1,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "IMPUESTO",
+        "source_page": 1,
+        "colspan": 8,
+        "heading": true
+      },
+      {
+        "text": "CONCEPTO",
+        "source_page": 1,
+        "colspan": 8,
+        "heading": true
+      },
+      {
+        "text": "SUBCONCEPTO",
+        "source_page": 1,
+        "colspan": 8,
+        "heading": true
+      },
+      {
+        "text": "PERÍODO",
+        "source_page": 1,
+        "colspan": 6,
+        "heading": true
+      },
+      {
+        "text": "ANTICIPO",
+        "source_page": 1,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "IMPORTE",
+        "source_page": 1,
+        "colspan": 4,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Nº",
+        "source_page": 1,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "DESCRIPCIÓN",
+        "source_page": 1,
+        "colspan": 5,
+        "heading": true
+      },
+      {
+        "text": "USO DGI",
+        "source_page": 1,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "DESCRIPCIÓN",
+        "source_page": 1,
+        "colspan": 5,
+        "heading": true
+      },
+      {
+        "text": "USO DGI",
+        "source_page": 1,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "DESCRIPCIÓN",
+        "source_page": 1,
+        "colspan": 5,
+        "heading": true
+      },
+      {
+        "text": "USO DGI",
+        "source_page": 1,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "AÑO",
+        "source_page": 1,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "MES",
+        "source_page": 1,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "CUOTA",
+        "source_page": 1,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "BAJA",
+        "source_page": 1,
+        "colspan": 4,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "",
+        "field": "f017",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f018",
+        "source_page": 1,
+        "colspan": 5
+      },
+      {
+        "label": "",
+        "field": "f019",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f020",
+        "source_page": 1,
+        "colspan": 5
+      },
+      {
+        "label": "",
+        "field": "f021",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f022",
+        "source_page": 1,
+        "colspan": 5
+      },
+      {
+        "label": "",
+        "field": "f023",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f024",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f025",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f026",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f027",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "text": "RUBRO II - ALTA - DESTINO AL QUE SE IMPUTA:",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "ESTAB.",
+        "source_page": 1,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "IMPUESTO",
+        "source_page": 1,
+        "colspan": 8,
+        "heading": true
+      },
+      {
+        "text": "CONCEPTO",
+        "source_page": 1,
+        "colspan": 8,
+        "heading": true
+      },
+      {
+        "text": "SUBCONCEPTO",
+        "source_page": 1,
+        "colspan": 8,
+        "heading": true
+      },
+      {
+        "text": "PERÍODO",
+        "source_page": 1,
+        "colspan": 6,
+        "heading": true
+      },
+      {
+        "text": "ANTICIPO",
+        "source_page": 1,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "IMPORTE",
+        "source_page": 1,
+        "colspan": 4,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Nº",
+        "source_page": 1,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "DESCRIPCIÓN",
+        "source_page": 1,
+        "colspan": 5,
+        "heading": true
+      },
+      {
+        "text": "USO DGI",
+        "source_page": 1,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "DESCRIPCIÓN",
+        "source_page": 1,
+        "colspan": 5,
+        "heading": true
+      },
+      {
+        "text": "USO DGI",
+        "source_page": 1,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "DESCRIPCIÓN",
+        "source_page": 1,
+        "colspan": 5,
+        "heading": true
+      },
+      {
+        "text": "USO DGI",
+        "source_page": 1,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "AÑO",
+        "source_page": 1,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "MES",
+        "source_page": 1,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "CUOTA",
+        "source_page": 1,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "ALTA",
+        "source_page": 1,
+        "colspan": 4,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "",
+        "field": "f028",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f029",
+        "source_page": 1,
+        "colspan": 5
+      },
+      {
+        "label": "",
+        "field": "f030",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f031",
+        "source_page": 1,
+        "colspan": 5
+      },
+      {
+        "label": "",
+        "field": "f032",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f033",
+        "source_page": 1,
+        "colspan": 5
+      },
+      {
+        "label": "",
+        "field": "f034",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f035",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f036",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f037",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f038",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "",
+        "field": "f039",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f040",
+        "source_page": 1,
+        "colspan": 5
+      },
+      {
+        "label": "",
+        "field": "f041",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f042",
+        "source_page": 1,
+        "colspan": 5
+      },
+      {
+        "label": "",
+        "field": "f043",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f044",
+        "source_page": 1,
+        "colspan": 5
+      },
+      {
+        "label": "",
+        "field": "f045",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f046",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f047",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f048",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f049",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "",
+        "field": "f050",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f051",
+        "source_page": 1,
+        "colspan": 5
+      },
+      {
+        "label": "",
+        "field": "f052",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f053",
+        "source_page": 1,
+        "colspan": 5
+      },
+      {
+        "label": "",
+        "field": "f054",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f055",
+        "source_page": 1,
+        "colspan": 5
+      },
+      {
+        "label": "",
+        "field": "f056",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f057",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f058",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f059",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "",
+        "field": "f060",
+        "source_page": 1,
+        "colspan": 4
+      }
+    ],
+    [
+      {
+        "label": "El que suscribe Don",
+        "field": "f061",
+        "source_page": 1,
+        "colspan": 25
+      },
+      {
+        "label": "en su carácter de (2)",
+        "field": "f062",
+        "source_page": 1,
+        "colspan": 15
+      }
+    ],
+    [
+      {
+        "text": "afirma que los datos consignados en este formulario son correctos y completos y que se ha confeccionado esta declaración jurada sin omitir ni falsear dato alguno que deba contener, siendo fiel expresión de la verdad.",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "LUGAR Y FECHA:",
+        "field": "f063",
+        "source_page": 1,
+        "colspan": 20
+      },
+      {
+        "label": "FIRMA:",
+        "field": "f064",
+        "source_page": 1,
+        "colspan": 20
+      }
+    ],
+    [
+      {
+        "text": "USO DGI",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "OBSERVACIONES:",
+        "field": "f065",
+        "source_page": 1,
+        "colspan": 15
+      },
+      {
+        "label": "FIRMA DEL OPERADOR:",
+        "field": "f066",
+        "source_page": 1,
+        "colspan": 6
+      },
+      {
+        "label": "FECHA DEL PROCESO:",
+        "field": "f067",
+        "source_page": 1,
+        "colspan": 10
+      },
+      {
+        "label": "SELLO, FECHA Y FIRMA:",
+        "field": "f068",
+        "source_page": 1,
+        "colspan": 9
+      }
+    ],
+    [
+      {
+        "text": "",
+        "source_page": 1,
+        "colspan": 15,
+        "heading": false
+      },
+      {
+        "text": "",
+        "source_page": 1,
+        "colspan": 6,
+        "heading": false
+      },
+      {
+        "label": "FECHA DE NOTIFICACIÓN:",
+        "field": "f069",
+        "source_page": 1,
+        "colspan": 10
+      },
+      {
+        "label": "JEFATURA RESPONSABLE:",
+        "field": "f070",
+        "source_page": 1,
+        "colspan": 9
+      }
+    ],
+    [
+      {
+        "text": "(1) Detalle del comprobante de pago.",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "(2) Titular, Presidente, Gerente u otro responsable.",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "ORIGINAL: para la AFIP - DUPLICADO: para el contribuyente",
+        "source_page": 1,
+        "colspan": 40,
+        "heading": false
+      }
+    ]
+  ],
+  "context": "CASO ENTERAMENTE FICTICIO. Ningún nombre, documento, licencia, institución, firma o actuación corresponde a una persona o trámite real.\n\nPágina 1 / Recepcion / Sello fechador de recepción: Recepcion ficticia; sin sello oficial\nPágina 1 / Contribuyente / Clave Única de Identificación Tributaria: 20-30000967-4\nPágina 1 / Contribuyente / Apellido y Nombre o Denominación: Mario Soler Ficticio\nPágina 1 / Administracion / Dependencia: Agencia ficticia 967\nPágina 1 / Administracion superior / USO DGI: Reservado; sin codigo real\nPágina 1 / Administracion / Trámite (HOST) Nº: TRAM-SINT-967\nPágina 1 / Administracion / Expediente Nº: EXP-SINT-967\nPágina 1 / Fecha del pago / DIA: 15\nPágina 1 / Fecha del pago / MES: 10\nPágina 1 / Fecha del pago / AÑO: 2026\nPágina 1 / Pago / Nº DE OBLIGACIÓN: OBL-SINT-967\nPágina 1 / Pago / Nº DE TIQUE: T-SINT-967\nPágina 1 / Banco / DENOMINACIÓN: Banco Ficticio\nPágina 1 / Banco / codigo / USO DGI: 000\nPágina 1 / Sucursal / DENOMINACIÓN: Rosario Modelo\nPágina 1 / Sucursal / codigo / USO DGI: 967\nPágina 1 / Origen / columna 1 / ESTAB.: 1\nPágina 1 / Origen / columna 2 / DESCRIPCIÓN: Impuesto sintetico\nPágina 1 / Origen / columna 3 / USO DGI: 999\nPágina 1 / Origen / columna 4 / DESCRIPCIÓN: Pago mensual\nPágina 1 / Origen / columna 5 / USO DGI: 019\nPágina 1 / Origen / columna 6 / DESCRIPCIÓN: Saldo a reasignar\nPágina 1 / Origen / columna 7 / USO DGI: 019\nPágina 1 / Origen / columna 8 / AÑO: 2026\nPágina 1 / Origen / columna 9 / MES: 09\nPágina 1 / Origen / columna 10 / ANTICIPO: 0\nPágina 1 / Origen / columna 11 / IMPORTE: 9000\nPágina 1 / Destino 1 / columna 1 / ESTAB.: 1\nPágina 1 / Destino 1 / columna 2 / DESCRIPCIÓN: Impuesto sintetico\nPágina 1 / Destino 1 / columna 3 / USO DGI: 999\nPágina 1 / Destino 1 / columna 4 / DESCRIPCIÓN: Pago mensual\nPágina 1 / Destino 1 / columna 5 / USO DGI: 019\nPágina 1 / Destino 1 / columna 6 / DESCRIPCIÓN: Reimputacion parcial\nPágina 1 / Destino 1 / columna 7 / USO DGI: 019\nPágina 1 / Destino 1 / columna 8 / AÑO: 2026\nPágina 1 / Destino 1 / columna 9 / MES: 10\nPágina 1 / Destino 1 / columna 10 / ANTICIPO: 0\nPágina 1 / Destino 1 / columna 11 / IMPORTE: 3000\nPágina 1 / Destino 2 / columna 1 / ESTAB.: 1\nPágina 1 / Destino 2 / columna 2 / DESCRIPCIÓN: Impuesto sintetico\nPágina 1 / Destino 2 / columna 3 / USO DGI: 999\nPágina 1 / Destino 2 / columna 4 / DESCRIPCIÓN: Pago mensual\nPágina 1 / Destino 2 / columna 5 / USO DGI: 019\nPágina 1 / Destino 2 / columna 6 / DESCRIPCIÓN: Reimputacion parcial\nPágina 1 / Destino 2 / columna 7 / USO DGI: 019\nPágina 1 / Destino 2 / columna 8 / AÑO: 2026\nPágina 1 / Destino 2 / columna 9 / MES: 11\nPágina 1 / Destino 2 / columna 10 / ANTICIPO: 0\nPágina 1 / Destino 2 / columna 11 / IMPORTE: 3000\nPágina 1 / Destino 3 / columna 1 / ESTAB.: 1\nPágina 1 / Destino 3 / columna 2 / DESCRIPCIÓN: Impuesto sintetico\nPágina 1 / Destino 3 / columna 3 / USO DGI: 999\nPágina 1 / Destino 3 / columna 4 / DESCRIPCIÓN: Pago mensual\nPágina 1 / Destino 3 / columna 5 / USO DGI: 019\nPágina 1 / Destino 3 / columna 6 / DESCRIPCIÓN: Reimputacion parcial\nPágina 1 / Destino 3 / columna 7 / USO DGI: 019\nPágina 1 / Destino 3 / columna 8 / AÑO: 2026\nPágina 1 / Destino 3 / columna 9 / MES: 12\nPágina 1 / Destino 3 / columna 10 / ANTICIPO: 0\nPágina 1 / Destino 3 / columna 11 / IMPORTE: 3000\nPágina 1 / Declaracion / El que suscribe Don: Mario Soler Ficticio\nPágina 1 / Declaracion / en su carácter de (2): Titular\nPágina 1 / Declaracion / LUGAR Y FECHA:: Rosario, 25/10/2026\nPágina 1 / Declaracion / FIRMA:: Firma sintetica de Mario Soler Ficticio\nPágina 1 / Administracion / OBSERVACIONES:: Reasignacion ficticia de 9000 en tres importes de 3000\nPágina 1 / Administracion / FIRMA DEL OPERADOR:: Firma sintetica de operadora ficticia\nPágina 1 / Administracion / FECHA DEL PROCESO:: 26/10/2026\nPágina 1 / Administracion / SELLO, FECHA Y FIRMA:: Certificacion ficticia, 26/10/2026\nPágina 1 / Administracion / FECHA DE NOTIFICACIÓN:: 27/10/2026\nPágina 1 / Administracion / JEFATURA RESPONSABLE:: Jefatura ficticia 967",
+  "workflow_identity": {
+    "language": "es",
+    "id": 967
+  }
+}

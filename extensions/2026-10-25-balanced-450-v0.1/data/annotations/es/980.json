@@ -1,0 +1,1213 @@
+{
+  "id": "es-980",
+  "language": "es",
+  "title": "Modelo 504 - Solicitud de autorizacion de recepcion de productos del resto de la Union Europea",
+  "domain": "Finance",
+  "issuer": "Agencia Estatal de Administracion Tributaria",
+  "issuer_id": "aeat",
+  "template_family": "aeat-aeat-504",
+  "source_version": "No indicada",
+  "source_date_evidence": {
+    "kind": "not stated",
+    "value": "No indicada",
+    "note": "Printed edition is separate from retrieval time; no current-validity claim."
+  },
+  "source_url": "https://sede.agenciatributaria.gob.es/static_files/Sede/Procedimiento_ayuda/DN05/504.pdf",
+  "landing_url": "https://sede.agenciatributaria.gob.es/Sede/beneficios-fiscales-autorizaciones/impuestos-especiales/iiee-modelo-504-antes-fiscales-distancia/descarga-modelo.html",
+  "retrieved_at": "2026-10-25T16:27:15.889950+00:00",
+  "source_sha256": "6c7ddb028dea8e3ec3c40af17850545e2263f53d33b1cc5f2f84d5c37e41cc21",
+  "source_pages": 2,
+  "license_url": "https://sede.agenciatributaria.gob.es/Sede/condiciones-uso-sede-electronica/aviso-legal/utilizacion-informacion-contenida-web-aeat.html",
+  "license_note": "Origen de los datos: Agencia Estatal de Administracion Tributaria, Espana. The primary AEAT Utilizacion de la informacion notice, updated 03/febrero/2022, authorizes reproduction, modification, distribution and communication for commercial and noncommercial informational reuse unless expressly excepted. Both complete source documents were inspected; neither carries an explicit source-specific no-modification exception. Attribute AEAT, preserve meaning and source-date metadata, and do not imply endorsement. This is a semantic research adaptation with fictional completions, not a valid administrative filing. Logos and graphical branding are not reproduced.",
+  "columns": 12,
+  "synthetic_context": true,
+  "fields": [
+    {
+      "id": "f001",
+      "label": "(1) Código D",
+      "path": [
+        "Página 1",
+        "Solicitud de autorización de recepción de productos del resto de la Unión Europea",
+        "(1) Código D"
+      ],
+      "source_anchor": "(1) Código D",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "D99999 (codigo de oficina sintetico)"
+    },
+    {
+      "id": "f002",
+      "label": "(2) Clase de operación",
+      "path": [
+        "Página 1",
+        "Solicitud de autorización de recepción de productos del resto de la Unión Europea",
+        "(2) Clase de operación"
+      ],
+      "source_anchor": "(2) Clase de operación",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Envíos garantizados"
+      ],
+      "options": [
+        "Envíos régimen suspensivo",
+        "Envíos garantizados",
+        "Ventas a distancia"
+      ],
+      "context_evidence": "Solicitud de autorización de recepción de productos del resto de la Unión Europea / (2) Clase de operación: Envíos garantizados."
+    },
+    {
+      "id": "f003",
+      "label": "Epígrafe",
+      "path": [
+        "Página 1",
+        "(3) Destinatario",
+        "Epígrafe"
+      ],
+      "source_anchor": "Epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "IAE-SINT-980 (simbolo ficticio, no epigrafe oficial)"
+    },
+    {
+      "id": "f004",
+      "label": "NIF",
+      "path": [
+        "Página 1",
+        "(3) Destinatario",
+        "Destinatario identificacion / 1"
+      ],
+      "source_anchor": "NIF",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NIF-SINT-ENT-980"
+    },
+    {
+      "id": "f005",
+      "label": "Apellidos y nombre o razón social",
+      "path": [
+        "Página 1",
+        "(3) Destinatario",
+        "Destinatario identificacion / 2"
+      ],
+      "source_anchor": "Apellidos y nombre o razón social",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Distribucion Sintetica de Ejemplo SL"
+    },
+    {
+      "id": "f006",
+      "label": "Domicilio fiscal",
+      "path": [
+        "Página 1",
+        "(3) Destinatario",
+        "Destinatario domicilio / 1"
+      ],
+      "source_anchor": "Domicilio fiscal",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Calle Modelo"
+    },
+    {
+      "id": "f007",
+      "label": "Número",
+      "path": [
+        "Página 1",
+        "(3) Destinatario",
+        "Destinatario domicilio / 2"
+      ],
+      "source_anchor": "Número",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "24"
+    },
+    {
+      "id": "f008",
+      "label": "Escalera",
+      "path": [
+        "Página 1",
+        "(3) Destinatario",
+        "Destinatario domicilio / 3"
+      ],
+      "source_anchor": "Escalera",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "A"
+    },
+    {
+      "id": "f009",
+      "label": "Piso",
+      "path": [
+        "Página 1",
+        "(3) Destinatario",
+        "Destinatario domicilio / 4"
+      ],
+      "source_anchor": "Piso",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "f010",
+      "label": "Puerta",
+      "path": [
+        "Página 1",
+        "(3) Destinatario",
+        "Destinatario domicilio / 5"
+      ],
+      "source_anchor": "Puerta",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2"
+    },
+    {
+      "id": "f011",
+      "label": "Teléfono",
+      "path": [
+        "Página 1",
+        "(3) Destinatario",
+        "Destinatario domicilio / 6"
+      ],
+      "source_anchor": "Teléfono",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "TELEFONO-SINT-980"
+    },
+    {
+      "id": "f012",
+      "label": "Código postal",
+      "path": [
+        "Página 1",
+        "(3) Destinatario",
+        "Destinatario localidad / 1"
+      ],
+      "source_anchor": "Código postal",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "46000"
+    },
+    {
+      "id": "f013",
+      "label": "Municipio",
+      "path": [
+        "Página 1",
+        "(3) Destinatario",
+        "Destinatario localidad / 2"
+      ],
+      "source_anchor": "Municipio",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f014",
+      "label": "Provincia",
+      "path": [
+        "Página 1",
+        "(3) Destinatario",
+        "Destinatario localidad / 3"
+      ],
+      "source_anchor": "Provincia",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f015",
+      "label": "Nombre de la vía pública",
+      "path": [
+        "Página 1",
+        "(5) Lugar de recepción de los productos",
+        "Nombre de la vía pública"
+      ],
+      "source_anchor": "Nombre de la vía pública",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Calle Almacen de Ejemplo 30, nave A"
+    },
+    {
+      "id": "f016",
+      "label": "Código postal",
+      "path": [
+        "Página 1",
+        "(5) Lugar de recepción de los productos",
+        "Recepcion localidad / 1"
+      ],
+      "source_anchor": "Código postal",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "46000"
+    },
+    {
+      "id": "f017",
+      "label": "Municipio",
+      "path": [
+        "Página 1",
+        "(5) Lugar de recepción de los productos",
+        "Recepcion localidad / 2"
+      ],
+      "source_anchor": "Municipio",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f018",
+      "label": "Provincia",
+      "path": [
+        "Página 1",
+        "(5) Lugar de recepción de los productos",
+        "Recepcion localidad / 3"
+      ],
+      "source_anchor": "Provincia",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Valencia"
+    },
+    {
+      "id": "f019",
+      "label": "NIF IVA",
+      "path": [
+        "Página 1",
+        "(6) Proveedor",
+        "Proveedor identificacion / 1"
+      ],
+      "source_anchor": "NIF IVA",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "FR-SINT-IVA-980"
+    },
+    {
+      "id": "f020",
+      "label": "NIF Impuestos Especiales",
+      "path": [
+        "Página 1",
+        "(6) Proveedor",
+        "Proveedor identificacion / 2"
+      ],
+      "source_anchor": "NIF Impuestos Especiales",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "FR-SINT-EXCISE-980"
+    },
+    {
+      "id": "f021",
+      "label": "Apellidos y nombre o razón social",
+      "path": [
+        "Página 1",
+        "(6) Proveedor",
+        "Apellidos y nombre o razón social"
+      ],
+      "source_anchor": "Apellidos y nombre o razón social",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Fournisseur Synthetique Exemple SAS"
+    },
+    {
+      "id": "f022",
+      "label": "Nombre de la vía pública",
+      "path": [
+        "Página 1",
+        "(6) Proveedor",
+        "Nombre de la vía pública"
+      ],
+      "source_anchor": "Nombre de la vía pública",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Rue Exemple 20"
+    },
+    {
+      "id": "f023",
+      "label": "Municipio - Ciudad",
+      "path": [
+        "Página 1",
+        "(6) Proveedor",
+        "Proveedor localidad / 1"
+      ],
+      "source_anchor": "Municipio - Ciudad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Lyon"
+    },
+    {
+      "id": "f024",
+      "label": "Estado miembro",
+      "path": [
+        "Página 1",
+        "(6) Proveedor",
+        "Proveedor localidad / 2"
+      ],
+      "source_anchor": "Estado miembro",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Francia"
+    },
+    {
+      "id": "f025",
+      "label": "NIF IVA",
+      "path": [
+        "Página 1",
+        "(7) Representante Fiscal",
+        "Representante fiscal / 1"
+      ],
+      "source_anchor": "NIF IVA",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede: operacion de envios garantizados, no venta a distancia"
+    },
+    {
+      "id": "f026",
+      "label": "CAE",
+      "path": [
+        "Página 1",
+        "(7) Representante Fiscal",
+        "Representante fiscal / 2"
+      ],
+      "source_anchor": "CAE",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede: no representante fiscal en este supuesto"
+    },
+    {
+      "id": "f027",
+      "label": "Clase de productos",
+      "path": [
+        "Página 1",
+        "(8) Descripción de productos",
+        "Productos / fila 1 / 1"
+      ],
+      "source_anchor": "Clase de productos",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Cerveza de ensayo, 12 grados Plato"
+    },
+    {
+      "id": "f028",
+      "label": "Código epígrafe",
+      "path": [
+        "Página 1",
+        "(8) Descripción de productos",
+        "Productos / fila 1 / 2"
+      ],
+      "source_anchor": "Código epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "EPIGRAFE-CERVEZA-SINT (simbolo ficticio, no codigo oficial)"
+    },
+    {
+      "id": "f029",
+      "label": "Código NC",
+      "path": [
+        "Página 1",
+        "(8) Descripción de productos",
+        "Productos / fila 1 / 3"
+      ],
+      "source_anchor": "Código NC",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "22030001 (sintetico)"
+    },
+    {
+      "id": "f030",
+      "label": "Cantidad / Unidad",
+      "path": [
+        "Página 1",
+        "(8) Descripción de productos",
+        "Productos / fila 1 / 4"
+      ],
+      "source_anchor": "Cantidad / Unidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1000,00 / litros a 20 grados C"
+    },
+    {
+      "id": "f031",
+      "label": "Valor tabaco",
+      "path": [
+        "Página 1",
+        "(8) Descripción de productos",
+        "Productos / fila 1 / 5"
+      ],
+      "source_anchor": "Valor tabaco",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede: no tabaco"
+    },
+    {
+      "id": "f032",
+      "label": "Clase de productos",
+      "path": [
+        "Página 1",
+        "(8) Descripción de productos",
+        "Productos / fila 2 / 1"
+      ],
+      "source_anchor": "Clase de productos",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Vino de ensayo, 12% vol adquirido"
+    },
+    {
+      "id": "f033",
+      "label": "Código epígrafe",
+      "path": [
+        "Página 1",
+        "(8) Descripción de productos",
+        "Productos / fila 2 / 2"
+      ],
+      "source_anchor": "Código epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "EPIGRAFE-VINO-SINT (simbolo ficticio, no codigo oficial)"
+    },
+    {
+      "id": "f034",
+      "label": "Código NC",
+      "path": [
+        "Página 1",
+        "(8) Descripción de productos",
+        "Productos / fila 2 / 3"
+      ],
+      "source_anchor": "Código NC",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "22042111 (sintetico)"
+    },
+    {
+      "id": "f035",
+      "label": "Cantidad / Unidad",
+      "path": [
+        "Página 1",
+        "(8) Descripción de productos",
+        "Productos / fila 2 / 4"
+      ],
+      "source_anchor": "Cantidad / Unidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "500,00 / litros a 20 grados C"
+    },
+    {
+      "id": "f036",
+      "label": "Valor tabaco",
+      "path": [
+        "Página 1",
+        "(8) Descripción de productos",
+        "Productos / fila 2 / 5"
+      ],
+      "source_anchor": "Valor tabaco",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede: no tabaco"
+    },
+    {
+      "id": "f037",
+      "label": "Clase de productos",
+      "path": [
+        "Página 1",
+        "(8) Descripción de productos",
+        "Productos / fila 3 / 1"
+      ],
+      "source_anchor": "Clase de productos",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No utilizado"
+    },
+    {
+      "id": "f038",
+      "label": "Código epígrafe",
+      "path": [
+        "Página 1",
+        "(8) Descripción de productos",
+        "Productos / fila 3 / 2"
+      ],
+      "source_anchor": "Código epígrafe",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f039",
+      "label": "Código NC",
+      "path": [
+        "Página 1",
+        "(8) Descripción de productos",
+        "Productos / fila 3 / 3"
+      ],
+      "source_anchor": "Código NC",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f040",
+      "label": "Cantidad / Unidad",
+      "path": [
+        "Página 1",
+        "(8) Descripción de productos",
+        "Productos / fila 3 / 4"
+      ],
+      "source_anchor": "Cantidad / Unidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "0,00 / no procede"
+    },
+    {
+      "id": "f041",
+      "label": "Valor tabaco",
+      "path": [
+        "Página 1",
+        "(8) Descripción de productos",
+        "Productos / fila 3 / 5"
+      ],
+      "source_anchor": "Valor tabaco",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f042",
+      "label": "Fecha",
+      "path": [
+        "Página 1",
+        "Fecha y firma",
+        "Ejecucion / 1"
+      ],
+      "source_anchor": "Fecha",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "25/10/2026"
+    },
+    {
+      "id": "f043",
+      "label": "Firma",
+      "path": [
+        "Página 1",
+        "Fecha y firma",
+        "Ejecucion / 2"
+      ],
+      "source_anchor": "Firma",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma ficticia administradora ANA MODELO SINTETICA"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Solicitud de autorización de recepción de productos del resto de la Unión Europea",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Modelo",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "504",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Impuestos Especiales de Fabricación",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Oficina Gestora de Impuestos Especiales",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "(1) Código D",
+        "field": "f001",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(2) Clase de operación",
+        "field": "f002",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(3) Destinatario",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Espacio reservado para la etiqueta identificativa",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Epígrafe",
+        "field": "f003",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(4) IAE",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "NIF",
+        "field": "f004",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "Apellidos y nombre o razón social",
+        "field": "f005",
+        "colspan": 9,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Domicilio fiscal",
+        "field": "f006",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "Número",
+        "field": "f007",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Escalera",
+        "field": "f008",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Piso",
+        "field": "f009",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Puerta",
+        "field": "f010",
+        "colspan": 1,
+        "source_page": 1
+      },
+      {
+        "label": "Teléfono",
+        "field": "f011",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Código postal",
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Municipio",
+        "field": "f013",
+        "colspan": 7,
+        "source_page": 1
+      },
+      {
+        "label": "Provincia",
+        "field": "f014",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(5) Lugar de recepción de los productos",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Nombre de la vía pública",
+        "field": "f015",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Código postal",
+        "field": "f016",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Municipio",
+        "field": "f017",
+        "colspan": 7,
+        "source_page": 1
+      },
+      {
+        "label": "Provincia",
+        "field": "f018",
+        "colspan": 3,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(6) Proveedor",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "NIF IVA",
+        "field": "f019",
+        "colspan": 7,
+        "source_page": 1
+      },
+      {
+        "label": "NIF Impuestos Especiales",
+        "field": "f020",
+        "colspan": 5,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Apellidos y nombre o razón social",
+        "field": "f021",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nombre de la vía pública",
+        "field": "f022",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Municipio - Ciudad",
+        "field": "f023",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Estado miembro",
+        "field": "f024",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(7) Representante Fiscal",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "NIF IVA",
+        "field": "f025",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "CAE",
+        "field": "f026",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(8) Descripción de productos",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Clase de productos",
+        "field": "f027",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "Código epígrafe",
+        "field": "f028",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Código NC",
+        "field": "f029",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Cantidad / Unidad",
+        "field": "f030",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "Valor tabaco",
+        "field": "f031",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Clase de productos",
+        "field": "f032",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "Código epígrafe",
+        "field": "f033",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Código NC",
+        "field": "f034",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Cantidad / Unidad",
+        "field": "f035",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "Valor tabaco",
+        "field": "f036",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Clase de productos",
+        "field": "f037",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "Código epígrafe",
+        "field": "f038",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Código NC",
+        "field": "f039",
+        "colspan": 2,
+        "source_page": 1
+      },
+      {
+        "label": "Cantidad / Unidad",
+        "field": "f040",
+        "colspan": 3,
+        "source_page": 1
+      },
+      {
+        "label": "Valor tabaco",
+        "field": "f041",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Fecha y firma",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Fecha",
+        "field": "f042",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "Firma",
+        "field": "f043",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Ejemplar para la Administración",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "(2) Clase de operación Envíos régimen suspensivo",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Envíos garantizados",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Ventas a distancia",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Epígrafe",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Espacio reservado para la etiqueta identificativa",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "(4) IAE",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "NIF Apellidos y nombre o razón social",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Domicilio fiscal Número Escalera Piso Puerta Teléfono",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Código postal Municipio Provincia (3) Destinatario",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Nombre de la vía pública",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Código postal Municipio Provincia (5) Lugar de recepción de los productos",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "NIF IVA",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "NIF Impuestos Especiales",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Apellidos y nombre o razón social",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Nombre de la vía pública",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Municipio - Ciudad Estado miembro (6) Proveedor",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "(7) Representante Fiscal NIF IVA",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "CAE",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Clase de productos Código epígrafe Código NC Cantidad / Unidad Valor tabaco",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "(8) Descripción de productos",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Fecha y firma Fecha",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Firma Ejemplar para el Interesado",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "ANEXO XXXIV Modelo Agencia Tributaria",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Impuestos Especiales de Fabricación",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Oficina Gestora de Impuestos Especiales MINISTERIO DE ECONOMÍA Y HACIENDA (1) Código D",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Solicitud de autorización de recepción de productos del resto de la Unión Europea 504",
+        "source_page": 2,
+        "colspan": 12,
+        "heading": false
+      }
+    ]
+  ],
+  "source_notice": "The complete independent entry unit is retained in source order, including horizontal groups, repeated material rows and all genuine options. One physical printed answer region is one logical target. Administrative duplicate copies do not multiply inputs. Source and retrieval dates remain separate; no current filing-validity claim.",
+  "context": "CASO ENTERAMENTE FICTICIO. Personas, organismos de ejemplo, identificadores, códigos, importes y firmas son datos sintéticos para esta transcripción; no acreditan un expediente ni una actuación administrativa real.\nCaso enteramente ficticio para investigacion, sin presentacion ni validacion administrativa. Documentos, codigos, cuentas, referencias, nombres y firmas son datos sinteticos. Los codigos de forma numerica solo ilustran las casillas, no acreditan un registro o clasificacion vigente. La pagina 2 es el ejemplar para el interesado de la misma solicitud, con exactamente las mismas regiones de respuesta; se conserva su texto completo y no se crean respuestas independientes para una copia administrativa. No consta edicion/fecha en el impreso; no se afirma que esta version historica siga vigente. Se ha comprobado ademas el PDF oficial instr504.pdf: el destinatario no dispone de etiqueta identificativa, por lo que cumplimenta sus datos; el almacen de recepcion difiere del domicilio fiscal; no hay sustituto fiscal. Se presupone exclusivamente para este caso ficticio que el destinatario esta dado de alta en el epigrafe IAE correspondiente a su actividad de distribucion mayorista de cerveza y vino y dispone de la autorizacion de recepcion necesaria para los envios garantizados. IAE-SINT-980 es un simbolo ficticio no registrado, no un epigrafe oficial ni una prueba de alta o autorizacion real; no se atribuye un codigo IAE real a esta actividad. Cerveza de mas de 2,8% vol descrita con grados Plato y vino con grado alcoholico adquirido. Cantidades con dos decimales, volumen a 20 grados C; codigos NC de ocho digitos. EPIGRAFE-CERVEZA-SINT y EPIGRAFE-VINO-SINT son simbolos deliberadamente no oficiales, no entradas de la tabla legal del Anexo XLIV; no se asigna falsamente un codigo real al producto. Se presupone documentacion ficticia adjunta de alta IAE correspondiente a esta actividad, autorizacion de recepcion y descripcion de productos, sin inventar una nueva casilla en el dorso no impreso.\nPágina 1 / Solicitud de autorización de recepción de productos del resto de la Unión Europea / (1) Código D: D99999 (codigo de oficina sintetico)\nSolicitud de autorización de recepción de productos del resto de la Unión Europea / (2) Clase de operación: Envíos garantizados.\nPágina 1 / (3) Destinatario / Epígrafe: IAE-SINT-980 (simbolo ficticio, no epigrafe oficial)\nPágina 1 / (3) Destinatario / Destinatario identificacion / 1: NIF-SINT-ENT-980\nPágina 1 / (3) Destinatario / Destinatario identificacion / 2: Distribucion Sintetica de Ejemplo SL\nPágina 1 / (3) Destinatario / Destinatario domicilio / 1: Calle Modelo\nPágina 1 / (3) Destinatario / Destinatario domicilio / 2: 24\nPágina 1 / (3) Destinatario / Destinatario domicilio / 3: A\nPágina 1 / (3) Destinatario / Destinatario domicilio / 4: 1\nPágina 1 / (3) Destinatario / Destinatario domicilio / 5: 2\nPágina 1 / (3) Destinatario / Destinatario domicilio / 6: TELEFONO-SINT-980\nPágina 1 / (3) Destinatario / Destinatario localidad / 1: 46000\nPágina 1 / (3) Destinatario / Destinatario localidad / 2: Valencia\nPágina 1 / (3) Destinatario / Destinatario localidad / 3: Valencia\nPágina 1 / (5) Lugar de recepción de los productos / Nombre de la vía pública: Calle Almacen de Ejemplo 30, nave A\nPágina 1 / (5) Lugar de recepción de los productos / Recepcion localidad / 1: 46000\nPágina 1 / (5) Lugar de recepción de los productos / Recepcion localidad / 2: Valencia\nPágina 1 / (5) Lugar de recepción de los productos / Recepcion localidad / 3: Valencia\nPágina 1 / (6) Proveedor / Proveedor identificacion / 1: FR-SINT-IVA-980\nPágina 1 / (6) Proveedor / Proveedor identificacion / 2: FR-SINT-EXCISE-980\nPágina 1 / (6) Proveedor / Apellidos y nombre o razón social: Fournisseur Synthetique Exemple SAS\nPágina 1 / (6) Proveedor / Nombre de la vía pública: Rue Exemple 20\nPágina 1 / (6) Proveedor / Proveedor localidad / 1: Lyon\nPágina 1 / (6) Proveedor / Proveedor localidad / 2: Francia\nPágina 1 / (7) Representante Fiscal / Representante fiscal / 1: No procede: operacion de envios garantizados, no venta a distancia\nPágina 1 / (7) Representante Fiscal / Representante fiscal / 2: No procede: no representante fiscal en este supuesto\nPágina 1 / (8) Descripción de productos / Productos / fila 1 / 1: Cerveza de ensayo, 12 grados Plato\nPágina 1 / (8) Descripción de productos / Productos / fila 1 / 2: EPIGRAFE-CERVEZA-SINT (simbolo ficticio, no codigo oficial)\nPágina 1 / (8) Descripción de productos / Productos / fila 1 / 3: 22030001 (sintetico)\nPágina 1 / (8) Descripción de productos / Productos / fila 1 / 4: 1000,00 / litros a 20 grados C\nPágina 1 / (8) Descripción de productos / Productos / fila 1 / 5: No procede: no tabaco\nPágina 1 / (8) Descripción de productos / Productos / fila 2 / 1: Vino de ensayo, 12% vol adquirido\nPágina 1 / (8) Descripción de productos / Productos / fila 2 / 2: EPIGRAFE-VINO-SINT (simbolo ficticio, no codigo oficial)\nPágina 1 / (8) Descripción de productos / Productos / fila 2 / 3: 22042111 (sintetico)\nPágina 1 / (8) Descripción de productos / Productos / fila 2 / 4: 500,00 / litros a 20 grados C\nPágina 1 / (8) Descripción de productos / Productos / fila 2 / 5: No procede: no tabaco\nPágina 1 / (8) Descripción de productos / Productos / fila 3 / 1: No utilizado\nPágina 1 / (8) Descripción de productos / Productos / fila 3 / 2: No procede\nPágina 1 / (8) Descripción de productos / Productos / fila 3 / 3: No procede\nPágina 1 / (8) Descripción de productos / Productos / fila 3 / 4: 0,00 / no procede\nPágina 1 / (8) Descripción de productos / Productos / fila 3 / 5: No procede\nPágina 1 / Fecha y firma / Ejecucion / 1: 25/10/2026\nPágina 1 / Fecha y firma / Ejecucion / 2: Firma ficticia administradora ANA MODELO SINTETICA",
+  "workflow_identity": {
+    "language": "es",
+    "id": 980
+  }
+}

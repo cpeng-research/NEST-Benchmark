@@ -1,0 +1,764 @@
+{
+  "id": "es-918",
+  "language": "es",
+  "title": "SOLICITUD DE ALTAS/BAJAS USUARIOS PRIVADOS",
+  "domain": "Business",
+  "issuer": "Universidad de Granada - Centro de Instrumentación Científica",
+  "issuer_id": "universidad-de-granada",
+  "template_family": "ugr-cic-private-client",
+  "source_version": "RE16-59-PRIV; Nº Revisión 1 27/05/2024",
+  "source_date_evidence": {
+    "kind": "printed edition",
+    "value": "RE16-59-PRIV; Nº Revisión 1 27/05/2024",
+    "note": "Printed edition is separate from retrieval time; no current-validity claim."
+  },
+  "source_url": "https://cic.ugr.es/sites/centros/cic/public/ficheros/Documentos/SOLICITUD%20ALTA%20PRIV.pdf",
+  "landing_url": "https://cic.ugr.es/informacion/documentos",
+  "retrieved_at": "2026-10-25T07:27:08.571918+00:00",
+  "source_sha256": "dfe6bed217af8ef98652cb66fdc66937f04fb8c0ea6226a0481eeba92d24ada8",
+  "source_pages": 1,
+  "license_url": "https://www.ugr.es/condiciones-legales",
+  "license_note": "Universidad de Granada. Condiciones legales: associated organs and services are included in the Portal; full or partial reproduction is authorized with explicit public-source attribution and preservation of integrity and meaning. This is an express reproduction permission, not a Creative Commons license. Complete semantic transcription in a normalized grid; all completed data and signatures are fictional. No administrative action or issuer endorsement.",
+  "columns": 12,
+  "synthetic_context": true,
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Primer Apellido:",
+      "path": [
+        "Página 1",
+        "DATOS DE LA PERSONA SOLICITANTE",
+        "Primer Apellido:"
+      ],
+      "source_anchor": "Primer Apellido:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Soler"
+    },
+    {
+      "id": "f002",
+      "label": "Segundo Apellido:",
+      "path": [
+        "Página 1",
+        "DATOS DE LA PERSONA SOLICITANTE",
+        "Segundo Apellido:"
+      ],
+      "source_anchor": "Segundo Apellido:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Rivera"
+    },
+    {
+      "id": "f003",
+      "label": "Nombre:",
+      "path": [
+        "Página 1",
+        "DATOS DE LA PERSONA SOLICITANTE",
+        "Nombre:"
+      ],
+      "source_anchor": "Nombre:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Martina"
+    },
+    {
+      "id": "f004",
+      "label": "D.N.I. o pasaporte:",
+      "path": [
+        "Página 1",
+        "DATOS DE LA PERSONA SOLICITANTE",
+        "D.N.I. o pasaporte:"
+      ],
+      "source_anchor": "D.N.I. o pasaporte:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SINT-PAS-918"
+    },
+    {
+      "id": "f005",
+      "label": "Correo Electrónico:",
+      "path": [
+        "Página 1",
+        "DATOS DE LA PERSONA SOLICITANTE",
+        "Correo Electrónico:"
+      ],
+      "source_anchor": "Correo Electrónico:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "martina.soler@example.org"
+    },
+    {
+      "id": "f006",
+      "label": "Teléfono1:",
+      "path": [
+        "Página 1",
+        "DATOS DE LA PERSONA SOLICITANTE",
+        "Teléfono1:"
+      ],
+      "source_anchor": "Teléfono1:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "958000918"
+    },
+    {
+      "id": "f007",
+      "label": "Teléfono2:",
+      "path": [
+        "Página 1",
+        "DATOS DE LA PERSONA SOLICITANTE",
+        "Teléfono2:"
+      ],
+      "source_anchor": "Teléfono2:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "600000918"
+    },
+    {
+      "id": "f008",
+      "label": "C.I.F:",
+      "path": [
+        "Página 1",
+        "DATOS PARA FACTURACION",
+        "C.I.F:"
+      ],
+      "source_anchor": "C.I.F:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SINT-CIF-918"
+    },
+    {
+      "id": "f009",
+      "label": "Empresa/Organismo:",
+      "path": [
+        "Página 1",
+        "DATOS PARA FACTURACION",
+        "Empresa/Organismo:"
+      ],
+      "source_anchor": "Empresa/Organismo:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Instrumentos de Ejemplo S.L."
+    },
+    {
+      "id": "f010",
+      "label": "Centro/Departamento:",
+      "path": [
+        "Página 1",
+        "DATOS PARA FACTURACION",
+        "Centro/Departamento:"
+      ],
+      "source_anchor": "Centro/Departamento:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Departamento de Calidad"
+    },
+    {
+      "id": "f011",
+      "label": "Email:",
+      "path": [
+        "Página 1",
+        "DATOS PARA FACTURACION",
+        "Email:"
+      ],
+      "source_anchor": "Email:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "facturas@example.org"
+    },
+    {
+      "id": "f012",
+      "label": "Dirección postal:",
+      "path": [
+        "Página 1",
+        "DATOS PARA FACTURACION",
+        "Dirección postal:"
+      ],
+      "source_anchor": "Dirección postal:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Calle Ficticia 18"
+    },
+    {
+      "id": "f013",
+      "label": "C.P:",
+      "path": [
+        "Página 1",
+        "DATOS PARA FACTURACION",
+        "C.P:"
+      ],
+      "source_anchor": "C.P:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "18071"
+    },
+    {
+      "id": "f014",
+      "label": "Localidad:",
+      "path": [
+        "Página 1",
+        "DATOS PARA FACTURACION",
+        "Localidad:"
+      ],
+      "source_anchor": "Localidad:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Granada"
+    },
+    {
+      "id": "f015",
+      "label": "Provincia:",
+      "path": [
+        "Página 1",
+        "DATOS PARA FACTURACION",
+        "Provincia:"
+      ],
+      "source_anchor": "Provincia:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Granada"
+    },
+    {
+      "id": "f016",
+      "label": "País:",
+      "path": [
+        "Página 1",
+        "DATOS PARA FACTURACION",
+        "País:"
+      ],
+      "source_anchor": "País:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "España"
+    },
+    {
+      "id": "f017",
+      "label": "Persona de contacto:",
+      "path": [
+        "Página 1",
+        "INSTRUCCIONES PARA LA FACTURACIÓN",
+        "Persona de contacto:"
+      ],
+      "source_anchor": "Persona de contacto:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "ELENA VIDAL"
+    },
+    {
+      "id": "f018",
+      "label": "Teléfono:",
+      "path": [
+        "Página 1",
+        "INSTRUCCIONES PARA LA FACTURACIÓN",
+        "Teléfono contacto"
+      ],
+      "source_anchor": "Teléfono:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "600000919"
+    },
+    {
+      "id": "f019",
+      "label": "Mail:",
+      "path": [
+        "Página 1",
+        "INSTRUCCIONES PARA LA FACTURACIÓN",
+        "Correo contacto"
+      ],
+      "source_anchor": "Mail:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "elena.vidal@example.org"
+    },
+    {
+      "id": "f020",
+      "label": "Departamento responsable:",
+      "path": [
+        "Página 1",
+        "INSTRUCCIONES PARA LA FACTURACIÓN",
+        "Departamento responsable:"
+      ],
+      "source_anchor": "Departamento responsable:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Contabilidad"
+    },
+    {
+      "id": "f021",
+      "label": "Teléfono:",
+      "path": [
+        "Página 1",
+        "INSTRUCCIONES PARA LA FACTURACIÓN",
+        "Teléfono departamento"
+      ],
+      "source_anchor": "Teléfono:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "958000919"
+    },
+    {
+      "id": "f022",
+      "label": "Mail:",
+      "path": [
+        "Página 1",
+        "INSTRUCCIONES PARA LA FACTURACIÓN",
+        "Correo departamento"
+      ],
+      "source_anchor": "Mail:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "contabilidad@example.org"
+    },
+    {
+      "id": "f023",
+      "label": "OBSERVACIONES",
+      "path": [
+        "Página 1",
+        "OBSERVACIONES",
+        "OBSERVACIONES"
+      ],
+      "source_anchor": "OBSERVACIONES",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Alta de cliente empresarial para solicitar servicios de análisis; caso ficticio."
+    },
+    {
+      "id": "f024",
+      "label": "FIRMA administrador empresa",
+      "path": [
+        "Página 1",
+        "Firmas",
+        "FIRMA administrador empresa"
+      ],
+      "source_anchor": "FIRMA administrador empresa",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma ficticia de CLARA NAVARRO"
+    },
+    {
+      "id": "f025",
+      "label": "FIRMA del solicitante",
+      "path": [
+        "Página 1",
+        "Firmas",
+        "FIRMA del solicitante"
+      ],
+      "source_anchor": "FIRMA del solicitante",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma ficticia de MARTINA SOLER"
+    },
+    {
+      "id": "f026",
+      "label": "a",
+      "path": [
+        "Página 1",
+        "Firmas",
+        "Día"
+      ],
+      "source_anchor": "a",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "25"
+    },
+    {
+      "id": "f027",
+      "label": "de",
+      "path": [
+        "Página 1",
+        "Firmas",
+        "Mes"
+      ],
+      "source_anchor": "de",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "octubre"
+    },
+    {
+      "id": "f028",
+      "label": "de",
+      "path": [
+        "Página 1",
+        "Firmas",
+        "Año"
+      ],
+      "source_anchor": "de",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2026"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "SOLICITUD DE ALTAS/BAJAS USUARIOS PRIVADOS",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "DATOS DE LA PERSONA SOLICITANTE",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Primer Apellido:",
+        "field": "f001",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Segundo Apellido:",
+        "field": "f002",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nombre:",
+        "field": "f003",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "D.N.I. o pasaporte:",
+        "field": "f004",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Correo Electrónico:",
+        "field": "f005",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Teléfono1:",
+        "field": "f006",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Teléfono2:",
+        "field": "f007",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "DATOS PARA FACTURACION",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "C.I.F:",
+        "field": "f008",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "Empresa/Organismo:",
+        "field": "f009",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Centro/Departamento:",
+        "field": "f010",
+        "colspan": 8,
+        "source_page": 1
+      },
+      {
+        "label": "Email:",
+        "field": "f011",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Dirección postal:",
+        "field": "f012",
+        "colspan": 8,
+        "source_page": 1
+      },
+      {
+        "label": "C.P:",
+        "field": "f013",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Localidad:",
+        "field": "f014",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "Provincia:",
+        "field": "f015",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "País:",
+        "field": "f016",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Deberá aportar junto con la solicitud, la tarjeta de identificación fiscal de la sociedad o equivalente.",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "INSTRUCCIONES PARA LA FACTURACIÓN",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Persona de contacto:",
+        "field": "f017",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "Teléfono:",
+        "field": "f018",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "Mail:",
+        "field": "f019",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Departamento responsable:",
+        "field": "f020",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "Teléfono:",
+        "field": "f021",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "Mail:",
+        "field": "f022",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "OBSERVACIONES",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "OBSERVACIONES",
+        "field": "f023",
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FIRMA administrador empresa",
+        "field": "f024",
+        "colspan": 6,
+        "source_page": 1
+      },
+      {
+        "label": "FIRMA del solicitante",
+        "field": "f025",
+        "colspan": 6,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "En Granada, a",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "a",
+        "field": "f026",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "de",
+        "field": "f027",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "label": "de",
+        "field": "f028",
+        "colspan": 4,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "RE16-59-PRIV",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Página 1 de 1 No Revisión 1 27/05/2024",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Al Centro de Instrumentación Científica:",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Información básica sobre protección de sus datos personales aportados",
+        "source_page": 1,
+        "colspan": 12,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Responsable:",
+        "source_page": 1,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "UNIVERSIDAD DE GRANADA",
+        "source_page": 1,
+        "colspan": 9,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Legitimación:",
+        "source_page": 1,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "La Universidad se encuentra legitimada para el tratamiento de sus datos personales por ser necesario para la ejecución de un contrato, en el que el interesado es parte, o para la aplicación, a petición de éste, de medidas precontractuales (art. 6.1.b) del Reglamento General de Protección de Datos).",
+        "source_page": 1,
+        "colspan": 9,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Finalidad:",
+        "source_page": 1,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "Gestionar su solicitud de alta/baja como usuario del Centro de instrumentación Científica.",
+        "source_page": 1,
+        "colspan": 9,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Destinatarios:",
+        "source_page": 1,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "No se prevén comunicaciones de datos",
+        "source_page": 1,
+        "colspan": 9,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Derechos:",
+        "source_page": 1,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "Tiene derecho a solicitar el acceso, oposición, rectificación, supresión o limitación del tratamiento de sus datos, tal y como se explica en la información adicional.",
+        "source_page": 1,
+        "colspan": 9,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Información adicional:",
+        "source_page": 1,
+        "colspan": 3,
+        "heading": true
+      },
+      {
+        "text": "Puede consultar la información adicional y detallada sobre protección de datos, en función del tipo de tratamiento, en la UGR en el siguiente enlace: https://secretariageneral.ugr.es/pages/proteccion_datos/leyendas-informativas/_img/informacionadicionalgestioneconomicaconterceros",
+        "source_page": 1,
+        "colspan": 9,
+        "heading": false
+      }
+    ]
+  ],
+  "source_notice": "All source pages, meaningful static text, independent writing regions and genuine choice options retained. Consecutive character boxes of one identifier/date/code form one logical input; descriptions and their separate codes are distinct fields. Source horizontal groups and repeated rows are explicit. Graphical branding and internal PDF utility controls are not reproduced.",
+  "context": "CASO ENTERAMENTE FICTICIO. Personas, organismos de ejemplo, identificadores, códigos, importes y firmas son datos sintéticos para esta transcripción; no acreditan un expediente ni una actuación administrativa real.\n\nPágina 1 / DATOS DE LA PERSONA SOLICITANTE / Primer Apellido:: Soler\nPágina 1 / DATOS DE LA PERSONA SOLICITANTE / Segundo Apellido:: Rivera\nPágina 1 / DATOS DE LA PERSONA SOLICITANTE / Nombre:: Martina\nPágina 1 / DATOS DE LA PERSONA SOLICITANTE / D.N.I. o pasaporte:: SINT-PAS-918\nPágina 1 / DATOS DE LA PERSONA SOLICITANTE / Correo Electrónico:: martina.soler@example.org\nPágina 1 / DATOS DE LA PERSONA SOLICITANTE / Teléfono1:: 958000918\nPágina 1 / DATOS DE LA PERSONA SOLICITANTE / Teléfono2:: 600000918\nPágina 1 / DATOS PARA FACTURACION / C.I.F:: SINT-CIF-918\nPágina 1 / DATOS PARA FACTURACION / Empresa/Organismo:: Instrumentos de Ejemplo S.L.\nPágina 1 / DATOS PARA FACTURACION / Centro/Departamento:: Departamento de Calidad\nPágina 1 / DATOS PARA FACTURACION / Email:: facturas@example.org\nPágina 1 / DATOS PARA FACTURACION / Dirección postal:: Calle Ficticia 18\nPágina 1 / DATOS PARA FACTURACION / C.P:: 18071\nPágina 1 / DATOS PARA FACTURACION / Localidad:: Granada\nPágina 1 / DATOS PARA FACTURACION / Provincia:: Granada\nPágina 1 / DATOS PARA FACTURACION / País:: España\nPágina 1 / INSTRUCCIONES PARA LA FACTURACIÓN / Persona de contacto:: ELENA VIDAL\nPágina 1 / INSTRUCCIONES PARA LA FACTURACIÓN / Teléfono contacto: 600000919\nPágina 1 / INSTRUCCIONES PARA LA FACTURACIÓN / Correo contacto: elena.vidal@example.org\nPágina 1 / INSTRUCCIONES PARA LA FACTURACIÓN / Departamento responsable:: Contabilidad\nPágina 1 / INSTRUCCIONES PARA LA FACTURACIÓN / Teléfono departamento: 958000919\nPágina 1 / INSTRUCCIONES PARA LA FACTURACIÓN / Correo departamento: contabilidad@example.org\nPágina 1 / OBSERVACIONES / OBSERVACIONES: Alta de cliente empresarial para solicitar servicios de análisis; caso ficticio.\nPágina 1 / Firmas / FIRMA administrador empresa: Firma ficticia de CLARA NAVARRO\nPágina 1 / Firmas / FIRMA del solicitante: Firma ficticia de MARTINA SOLER\nPágina 1 / Firmas / Día: 25\nPágina 1 / Firmas / Mes: octubre\nPágina 1 / Firmas / Año: 2026",
+  "workflow_identity": {
+    "language": "es",
+    "id": 918
+  }
+}

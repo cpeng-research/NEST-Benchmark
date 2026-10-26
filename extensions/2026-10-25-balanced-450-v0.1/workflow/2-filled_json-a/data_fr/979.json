@@ -1,0 +1,97 @@
+{
+  "Page 1": {
+    "L’EMPLOYEUR": {
+      "Dénomination, raison sociale": "Services Exemple SAS",
+      "N° SIRET": "00000097900018",
+      "Nom et prénom du correspondant": "MARTIN Claire",
+      "Employeur numéro": "40",
+      "Employeur rue": "rue Exemple",
+      "Employeur complément": "Bâtiment A",
+      "Employeur postal": "69003",
+      "Employeur commune": "Lyon",
+      "Tél.": "0100000979",
+      "Employeur courriel": "employeur@example.org"
+    },
+    "LE SALARIÉ": {
+      "Nom": "DURAND",
+      "Prénom": "Paul",
+      "Date de naissance": "12/03/1990",
+      "Numéro d’inscription au répertoire INSEE (NIR)": "000000000000000",
+      "Salarié numéro": "42",
+      "Salarié rue": "rue Exemple",
+      "Salarié complément": "Appartement 3",
+      "Salarié postal": "69003",
+      "Salarié commune": "Lyon",
+      "Tél. personnel": "0600000979",
+      "Salarié courriel": "paul@example.org",
+      "Code QPV": "QPV-FICTIF-979",
+      "N° Identifiant à France Travail": "FICT0979",
+      "Catégorie d’inscription (cocher la case appropriée en vous référant à l’attestation France Travail remise au demandeur d’emploi)": {
+        "choices": [
+          "1",
+          "2",
+          "3",
+          "4 (CSP)",
+          "6",
+          "7",
+          "8"
+        ],
+        "value": [
+          "1"
+        ]
+      }
+    },
+    "LE CONTRAT DE TRAVAIL": {
+      "Nature du contrat": {
+        "choices": [
+          "CDI",
+          "CDI intérimaire",
+          "CDD"
+        ],
+        "value": [
+          "CDI"
+        ]
+      },
+      "Date de signature du contrat de travail": "01/09/2024",
+      "Date d’embauche (1er jour travaillé)": "02/09/2024",
+      "Si CDD date de fin de contrat de travail": "Sans objet : CDI",
+      "Durée hebdomadaire de travail du salarié (en pourcentage par rapport à un temps plein)": "100 %",
+      "Durée hebdomadaire de travail dans l’entreprise": "35 heures",
+      "Salaire euros": "2000",
+      "Salaire centimes": "00",
+      "Emploi occupé": "54"
+    }
+  },
+  "Page 2": {
+    "L’employeur ou son représentant,": {
+      "Certification": {
+        "choices": [
+          "certifie l’exactitude des renseignements portés sur la présente demande"
+        ],
+        "value": [
+          "certifie l’exactitude des renseignements portés sur la présente demande"
+        ]
+      },
+      "Déclaration": {
+        "choices": [
+          "déclare sur l’honneur"
+        ],
+        "value": [
+          "déclare sur l’honneur"
+        ]
+      },
+      "Engagement": {
+        "choices": [
+          "s’engage"
+        ],
+        "value": [
+          "s’engage"
+        ]
+      },
+      "Fait à": "Lyon",
+      "Signature date": "10/09/2024",
+      "Signature (Nom et qualité du signataire)": "Claire MARTIN, présidente, signature fictive",
+      "Cachet de l’entreprise": "Cachet fictif Services Exemple SAS"
+    }
+  }
+}

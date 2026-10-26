@@ -1,0 +1,908 @@
+{
+  "id": "es-977",
+  "language": "es",
+  "title": "Transferencia de derechos y obligaciones (TORO), articulo 218 del CAU",
+  "domain": "Finance",
+  "issuer": "Agencia Estatal de Administracion Tributaria",
+  "issuer_id": "aeat",
+  "template_family": "aeat-aeat-toro",
+  "source_version": "No indicada",
+  "source_date_evidence": {
+    "kind": "not stated",
+    "value": "No indicada",
+    "note": "Printed edition is separate from retrieval time; no current-validity claim."
+  },
+  "source_url": "https://sede.agenciatributaria.gob.es/static_files/AEAT/Aduanas/Contenidos_Privados/Procedimientos_aduaneros/Modelos/Modoc_TORO.pdf",
+  "landing_url": "https://sede.agenciatributaria.gob.es/Sede/formularios/formularios-aduanas-impuestos-especiales/modelos-codigo-aduanero-union/modelo-documento-toro.html",
+  "retrieved_at": "2026-10-25T08:34:24.277045+00:00",
+  "source_sha256": "228fc154195e1b7a8732c1dc38185109fb5bc6cd3c473be1ca6592b3e0b67768",
+  "source_pages": 3,
+  "license_url": "https://sede.agenciatributaria.gob.es/Sede/condiciones-uso-sede-electronica/aviso-legal/utilizacion-informacion-contenida-web-aeat.html",
+  "license_note": "Origen de los datos: Agencia Estatal de Administracion Tributaria (AEAT), Espana. The official Utilizacion de la informacion notice (updated 03/febrero/2022) expressly authorizes total or partial reproduction, modification, distribution and public communication for commercial and noncommercial reuse unless expressly excepted. Attribute AEAT and retain the source update date when provided; do not distort meaning or imply endorsement. These are AEAT-authored blank forms, not third-party completed documents. Whole-source semantic transcription into a normalized research grid, not an administratively usable replacement. All source wording is retained; no source-specific no-modification exception is present on this complete PDF. All entered identities, identifiers, amounts and signatures are fictional. No logo or endorsement claim.",
+  "columns": 12,
+  "synthetic_context": true,
+  "fields": [
+    {
+      "id": "f001",
+      "label": "DDMMAAAA (al cedente)",
+      "path": [
+        "Página 1",
+        "Campos de la pagina 1",
+        "DDMMAAAA (al cedente)"
+      ],
+      "source_anchor": "DDMMAAAA (al cedente)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "01102026"
+    },
+    {
+      "id": "f002",
+      "label": "DDMMAAAA (al cesionario)",
+      "path": [
+        "Página 1",
+        "Campos de la pagina 1",
+        "DDMMAAAA (al cesionario)"
+      ],
+      "source_anchor": "DDMMAAAA (al cesionario)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "02102026"
+    },
+    {
+      "id": "f003",
+      "label": "Xyz (no decision del Estado miembro del cedente)",
+      "path": [
+        "Página 1",
+        "Campos de la pagina 1",
+        "Xyz (no decision del Estado miembro del cedente)"
+      ],
+      "source_anchor": "Xyz (no decision del Estado miembro del cedente)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SINT-ES-CED-977"
+    },
+    {
+      "id": "f004",
+      "label": "Xyz (no de decision del Estado miembro del cesionario)",
+      "path": [
+        "Página 1",
+        "Campos de la pagina 1",
+        "Xyz (no de decision del Estado miembro del cesionario)"
+      ],
+      "source_anchor": "Xyz (no de decision del Estado miembro del cesionario)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SINT-ES-CES-977"
+    },
+    {
+      "id": "f005",
+      "label": "Número del TORO",
+      "path": [
+        "Página 1",
+        "Campos de la pagina 1",
+        "Número del TORO"
+      ],
+      "source_anchor": "Número del TORO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "TORO-SINT-977"
+    },
+    {
+      "id": "f006",
+      "label": "EORI o nombre y dirección del cedente",
+      "path": [
+        "Página 1",
+        "Campos de la pagina 1",
+        "EORI o nombre y dirección del cedente"
+      ],
+      "source_anchor": "EORI o nombre y dirección del cedente",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "EORI-SINT-CED-977; Cedente Ejemplo SL, Calle Prueba 1, Valencia"
+    },
+    {
+      "id": "f007",
+      "label": "EORI o nombre y dirección del cesionario",
+      "path": [
+        "Página 1",
+        "Campos de la pagina 1",
+        "EORI o nombre y dirección del cesionario"
+      ],
+      "source_anchor": "EORI o nombre y dirección del cesionario",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "EORI-SINT-CES-977; Cesionario Modelo SL, Calle Prueba 2, Valencia"
+    },
+    {
+      "id": "f008",
+      "label": "Aduana supervisora del cedente",
+      "path": [
+        "Página 1",
+        "Campos de la pagina 1",
+        "Aduana supervisora del cedente"
+      ],
+      "source_anchor": "Aduana supervisora del cedente",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Aduana de Ejemplo Valencia, ES-SINT-ADU-CED"
+    },
+    {
+      "id": "f009",
+      "label": "Aduana supervisora del cesionario",
+      "path": [
+        "Página 1",
+        "Campos de la pagina 1",
+        "Aduana supervisora del cesionario"
+      ],
+      "source_anchor": "Aduana supervisora del cesionario",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Aduana de Ejemplo Valencia, ES-SINT-ADU-CES"
+    },
+    {
+      "id": "f010",
+      "label": "MRN de la declaración de inclusion de las mercancías en el régimen",
+      "path": [
+        "Página 2",
+        "Campos de la pagina 2",
+        "MRN de la declaración de inclusion de las mercancías en el régimen"
+      ],
+      "source_anchor": "MRN de la declaración de inclusion de las mercancías en el régimen",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "MRN-SINT-977"
+    },
+    {
+      "id": "f011",
+      "label": "Código Taric",
+      "path": [
+        "Página 2",
+        "Campos de la pagina 2",
+        "Código Taric"
+      ],
+      "source_anchor": "Código Taric",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "TARIC-SINT-977"
+    },
+    {
+      "id": "f012",
+      "label": "Bultos y descripción de la mercancía",
+      "path": [
+        "Página 2",
+        "Campos de la pagina 2",
+        "Bultos y descripción de la mercancía"
+      ],
+      "source_anchor": "Bultos y descripción de la mercancía",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "10 cajas con 100 piezas de ensayo"
+    },
+    {
+      "id": "f013",
+      "label": "Marcas y números de identificación de las mercancías",
+      "path": [
+        "Página 2",
+        "Campos de la pagina 2",
+        "Marcas y números de identificación de las mercancías"
+      ],
+      "source_anchor": "Marcas y números de identificación de las mercancías",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "SINT977-01 a SINT977-10"
+    },
+    {
+      "id": "f014",
+      "label": "Masa bruta",
+      "path": [
+        "Página 2",
+        "Campos de la pagina 2",
+        "Masa bruta"
+      ],
+      "source_anchor": "Masa bruta",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "220 kg"
+    },
+    {
+      "id": "f015",
+      "label": "Masa neta",
+      "path": [
+        "Página 2",
+        "Campos de la pagina 2",
+        "Masa neta"
+      ],
+      "source_anchor": "Masa neta",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "200 kg"
+    },
+    {
+      "id": "f016",
+      "label": "Unidades suplementarias, si procede",
+      "path": [
+        "Página 2",
+        "Campos de la pagina 2",
+        "Unidades suplementarias, si procede"
+      ],
+      "source_anchor": "Unidades suplementarias, si procede",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "100 unidades"
+    },
+    {
+      "id": "f017",
+      "label": "Fecha en que debe ultimarse el régimen",
+      "path": [
+        "Página 2",
+        "Campos de la pagina 2",
+        "Fecha en que debe ultimarse el régimen"
+      ],
+      "source_anchor": "Fecha en que debe ultimarse el régimen",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "31/10/2026"
+    },
+    {
+      "id": "f018",
+      "label": "Período en el que el cesionario debe informar al cedente sobre la ultimación del régimen especial",
+      "path": [
+        "Página 2",
+        "Campos de la pagina 2",
+        "Período en el que el cesionario debe informar al cedente sobre la ultimación del régimen especial"
+      ],
+      "source_anchor": "Período en el que el cesionario debe informar al cedente sobre la ultimación del régimen especial",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "2 dias tras la ultimacion"
+    },
+    {
+      "id": "f019",
+      "label": "Fecha y hora del TORO",
+      "path": [
+        "Página 2",
+        "Campos de la pagina 2",
+        "Fecha y hora del TORO"
+      ],
+      "source_anchor": "Fecha y hora del TORO",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "10/10/2026 10:00"
+    },
+    {
+      "id": "f020",
+      "label": "Fecha en la que se ha ultimado el régimen especial",
+      "path": [
+        "Página 2",
+        "Campos de la pagina 2",
+        "Fecha en la que se ha ultimado el régimen especial"
+      ],
+      "source_anchor": "Fecha en la que se ha ultimado el régimen especial",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "20/10/2026"
+    },
+    {
+      "id": "f021",
+      "label": "Fecha en la que se ha informado al cedente de la ultimación del régimen especial",
+      "path": [
+        "Página 2",
+        "Campos de la pagina 2",
+        "Fecha en la que se ha informado al cedente de la ultimación del régimen especial"
+      ],
+      "source_anchor": "Fecha en la que se ha informado al cedente de la ultimación del régimen especial",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "21/10/2026"
+    },
+    {
+      "id": "f022",
+      "label": "Lugar y fecha",
+      "path": [
+        "Página 2",
+        "Confirmacion 18 del cesionario",
+        "Lugar y fecha"
+      ],
+      "source_anchor": "Lugar y fecha",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Valencia, 21/10/2026"
+    },
+    {
+      "id": "f023",
+      "label": "Firma o autenticación electrónica del cesionario",
+      "path": [
+        "Página 2",
+        "Confirmacion 18 del cesionario",
+        "Firma o autenticación electrónica del cesionario"
+      ],
+      "source_anchor": "Firma o autenticación electrónica del cesionario",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Firma ficticia de CESAR MODELO SINTETICO, administrador del cesionario"
+    },
+    {
+      "id": "f024",
+      "label": "Si procede, información adicional (ej. garantía, coeficiente de rendimiento)",
+      "path": [
+        "Página 3",
+        "Campos de la pagina 3",
+        "Si procede, información adicional (ej. garantía, coeficiente de rendimiento)"
+      ],
+      "source_anchor": "Si procede, información adicional (ej. garantía, coeficiente de rendimiento)",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "Garantia ficticia GRN-SINT-977; coeficiente 100 piezas de salida por 100 piezas de entrada"
+    },
+    {
+      "id": "f025",
+      "label": "Lugar y fecha",
+      "path": [
+        "Página 3",
+        "Confirmacion 20 del cedente",
+        "Lugar y fecha"
+      ],
+      "source_anchor": "Lugar y fecha",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "Valencia, 25/10/2026"
+    },
+    {
+      "id": "f026",
+      "label": "Firma o autenticación electrónica del cedente",
+      "path": [
+        "Página 3",
+        "Confirmacion 20 del cedente",
+        "Firma o autenticación electrónica del cedente"
+      ],
+      "source_anchor": "Firma o autenticación electrónica del cedente",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "Firma ficticia de CLARA PRUEBA SINTETICA, administradora del cedente"
+    },
+    {
+      "id": "f027",
+      "label": "Lugar y fecha",
+      "path": [
+        "Página 3",
+        "Confirmacion 20 del cesionario",
+        "Lugar y fecha"
+      ],
+      "source_anchor": "Lugar y fecha",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "Valencia, 25/10/2026"
+    },
+    {
+      "id": "f028",
+      "label": "Firma o autenticación electrónica del cesionario",
+      "path": [
+        "Página 3",
+        "Confirmacion 20 del cesionario",
+        "Firma o autenticación electrónica del cesionario"
+      ],
+      "source_anchor": "Firma o autenticación electrónica del cesionario",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "Firma ficticia de CESAR MODELO SINTETICO, administrador del cesionario"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Transferencia de derechos y obligaciones (TORO) de acuerdo con el art. 218 del CAU",
+        "heading": true,
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "Notas:\nEl modelo solo se puede utilizar si la autoridad aduanera competente ha autorizado la transferencia de derechos y obligaciones de acuerdo con el art. 266 del RE 2015/2447.\nEl modelo estará compuesto de 3 copias. El cesionario enviará la copia 1 al cedente y la copia 2 a su Aduana supervisora después de que haya completado la casilla 20.\nEl cesionario conservará la copia 3.\nSi el cesionario es titular de una autorización TORO no será necesario rellenar las casillas 14, 16, 17 y 18",
+        "heading": false,
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "TORO completo de acuerdo con el artículo 218 del CAU (Modelo)",
+        "heading": true,
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "1",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "text": "Las Autoridades aduaneras han autorizado el TORO en",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "DDMMAAAA (al cedente)",
+        "field": "f001",
+        "source_page": 1,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "text": "1",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "text": "Las Autoridades aduaneras han autorizado el TORO en",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "DDMMAAAA (al cesionario)",
+        "field": "f002",
+        "source_page": 1,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "text": "1",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "text": "Indicar el número de la(s) decisión(es)",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Xyz (no decision del Estado miembro del cedente)",
+        "field": "f003",
+        "source_page": 1,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "text": "1",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "text": "Indicar el número de la(s) decisión(es)",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Xyz (no de decision del Estado miembro del cesionario)",
+        "field": "f004",
+        "source_page": 1,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "text": "1",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "text": "Número del TORO",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Número del TORO",
+        "field": "f005",
+        "source_page": 1,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "text": "Personas y aduanas supervisoras",
+        "heading": true,
+        "source_page": 1,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "2",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "text": "EORI o nombre y dirección del cedente",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "EORI o nombre y dirección del cedente",
+        "field": "f006",
+        "source_page": 1,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "text": "3",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "text": "EORI o nombre y dirección del cesionario",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "EORI o nombre y dirección del cesionario",
+        "field": "f007",
+        "source_page": 1,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "text": "4",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "text": "Aduana supervisora del cedente",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Aduana supervisora del cedente",
+        "field": "f008",
+        "source_page": 1,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "text": "5",
+        "source_page": 1,
+        "colspan": 1
+      },
+      {
+        "text": "Aduana supervisora del cesionario",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Aduana supervisora del cesionario",
+        "field": "f009",
+        "source_page": 1,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "text": "Detalle de las mercancías incluidas en el regimen sujetas a TORO",
+        "heading": true,
+        "source_page": 2,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "6",
+        "source_page": 2,
+        "colspan": 1
+      },
+      {
+        "text": "MRN de la declaración de inclusion de las mercancías en el régimen",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "label": "MRN de la declaración de inclusion de las mercancías en el régimen",
+        "field": "f010",
+        "source_page": 2,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "text": "7",
+        "source_page": 2,
+        "colspan": 1
+      },
+      {
+        "text": "Código Taric",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "label": "Código Taric",
+        "field": "f011",
+        "source_page": 2,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "text": "8",
+        "source_page": 2,
+        "colspan": 1
+      },
+      {
+        "text": "Bultos y descripción de la mercancía",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "label": "Bultos y descripción de la mercancía",
+        "field": "f012",
+        "source_page": 2,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "text": "9",
+        "source_page": 2,
+        "colspan": 1
+      },
+      {
+        "text": "Marcas y números de identificación de las mercancías",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "label": "Marcas y números de identificación de las mercancías",
+        "field": "f013",
+        "source_page": 2,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "text": "10",
+        "source_page": 2,
+        "colspan": 1
+      },
+      {
+        "text": "Masa bruta",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "label": "Masa bruta",
+        "field": "f014",
+        "source_page": 2,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "text": "11",
+        "source_page": 2,
+        "colspan": 1
+      },
+      {
+        "text": "Masa neta",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "label": "Masa neta",
+        "field": "f015",
+        "source_page": 2,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "text": "12",
+        "source_page": 2,
+        "colspan": 1
+      },
+      {
+        "text": "Unidades suplementarias, si procede",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "label": "Unidades suplementarias, si procede",
+        "field": "f016",
+        "source_page": 2,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "text": "13",
+        "source_page": 2,
+        "colspan": 1
+      },
+      {
+        "text": "Fecha en que debe ultimarse el régimen",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "label": "Fecha en que debe ultimarse el régimen",
+        "field": "f017",
+        "source_page": 2,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "text": "14",
+        "source_page": 2,
+        "colspan": 1
+      },
+      {
+        "text": "Período en el que el cesionario debe informar al cedente sobre la ultimación del régimen especial",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "label": "Período en el que el cesionario debe informar al cedente sobre la ultimación del régimen especial",
+        "field": "f018",
+        "source_page": 2,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "text": "15",
+        "source_page": 2,
+        "colspan": 1
+      },
+      {
+        "text": "Fecha y hora del TORO",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "label": "Fecha y hora del TORO",
+        "field": "f019",
+        "source_page": 2,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "text": "16",
+        "source_page": 2,
+        "colspan": 1
+      },
+      {
+        "text": "Fecha en la que se ha ultimado el régimen especial",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "label": "Fecha en la que se ha ultimado el régimen especial",
+        "field": "f020",
+        "source_page": 2,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "text": "17",
+        "source_page": 2,
+        "colspan": 1
+      },
+      {
+        "text": "Fecha en la que se ha informado al cedente de la ultimación del régimen especial",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "label": "Fecha en la que se ha informado al cedente de la ultimación del régimen especial",
+        "field": "f021",
+        "source_page": 2,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "text": "18 Confirmación del cesionario de que el cedente ha sido informado sobre la ultimación del régimen especial",
+        "heading": true,
+        "source_page": 2,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Lugar y fecha",
+        "field": "f022",
+        "colspan": 4,
+        "source_page": 2
+      },
+      {
+        "label": "Firma o autenticación electrónica del cesionario",
+        "field": "f023",
+        "colspan": 8,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "19",
+        "source_page": 3,
+        "colspan": 1
+      },
+      {
+        "text": "Si procede, información adicional (ej. garantía, coeficiente de rendimiento)",
+        "source_page": 3,
+        "colspan": 3
+      },
+      {
+        "label": "Si procede, información adicional (ej. garantía, coeficiente de rendimiento)",
+        "field": "f024",
+        "source_page": 3,
+        "colspan": 8
+      }
+    ],
+    [
+      {
+        "text": "20 Confirmación de que la información anterior es correcta",
+        "heading": true,
+        "source_page": 3,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "text": "Cedente",
+        "heading": true,
+        "source_page": 3,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Lugar y fecha",
+        "field": "f025",
+        "colspan": 4,
+        "source_page": 3
+      },
+      {
+        "label": "Firma o autenticación electrónica del cedente",
+        "field": "f026",
+        "colspan": 8,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Cesionario",
+        "heading": true,
+        "source_page": 3,
+        "colspan": 12
+      }
+    ],
+    [
+      {
+        "label": "Lugar y fecha",
+        "field": "f027",
+        "colspan": 4,
+        "source_page": 3
+      },
+      {
+        "label": "Firma o autenticación electrónica del cesionario",
+        "field": "f028",
+        "colspan": 8,
+        "source_page": 3
+      }
+    ]
+  ],
+  "source_notice": "Complete source text and all independent answer regions retained. Source-specific horizontal groups and actor-specific label/answer columns are explicit; instruction pages follow in original order. No page, repeated copy or static label is another form. No graphical branding or PDF utility controls reproduced.",
+  "context": "CASO ENTERAMENTE FICTICIO. Personas, organismos de ejemplo, identificadores, códigos, importes y firmas son datos sintéticos para esta transcripción; no acreditan un expediente ni una actuación administrativa real.\nCaso ficticio de una entidad mercantil y su representante, sin efectos administrativos. Los NIF, EORI, cuentas y referencias marcados SINT no son identificadores reales. En los apartados personales alternativos se indica expresamente que no proceden. Las fechas de firma se fijan en 25 de octubre de 2026, salvo que el campo describa un antecedente distinto. El cedente transfiere derechos al cesionario el 10/10/2026. El cesionario no es titular de autorizacion TORO propia, de modo que se cumplimentan 14,16,17,18. Ultimacion 20/10, aviso al cedente 21/10, antes del limite 31/10.\nPágina 1 / Campos de la pagina 1 / DDMMAAAA (al cedente): 01102026\nPágina 1 / Campos de la pagina 1 / DDMMAAAA (al cesionario): 02102026\nPágina 1 / Campos de la pagina 1 / Xyz (no decision del Estado miembro del cedente): SINT-ES-CED-977\nPágina 1 / Campos de la pagina 1 / Xyz (no de decision del Estado miembro del cesionario): SINT-ES-CES-977\nPágina 1 / Campos de la pagina 1 / Número del TORO: TORO-SINT-977\nPágina 1 / Campos de la pagina 1 / EORI o nombre y dirección del cedente: EORI-SINT-CED-977; Cedente Ejemplo SL, Calle Prueba 1, Valencia\nPágina 1 / Campos de la pagina 1 / EORI o nombre y dirección del cesionario: EORI-SINT-CES-977; Cesionario Modelo SL, Calle Prueba 2, Valencia\nPágina 1 / Campos de la pagina 1 / Aduana supervisora del cedente: Aduana de Ejemplo Valencia, ES-SINT-ADU-CED\nPágina 1 / Campos de la pagina 1 / Aduana supervisora del cesionario: Aduana de Ejemplo Valencia, ES-SINT-ADU-CES\nPágina 2 / Campos de la pagina 2 / MRN de la declaración de inclusion de las mercancías en el régimen: MRN-SINT-977\nPágina 2 / Campos de la pagina 2 / Código Taric: TARIC-SINT-977\nPágina 2 / Campos de la pagina 2 / Bultos y descripción de la mercancía: 10 cajas con 100 piezas de ensayo\nPágina 2 / Campos de la pagina 2 / Marcas y números de identificación de las mercancías: SINT977-01 a SINT977-10\nPágina 2 / Campos de la pagina 2 / Masa bruta: 220 kg\nPágina 2 / Campos de la pagina 2 / Masa neta: 200 kg\nPágina 2 / Campos de la pagina 2 / Unidades suplementarias, si procede: 100 unidades\nPágina 2 / Campos de la pagina 2 / Fecha en que debe ultimarse el régimen: 31/10/2026\nPágina 2 / Campos de la pagina 2 / Período en el que el cesionario debe informar al cedente sobre la ultimación del régimen especial: 2 dias tras la ultimacion\nPágina 2 / Campos de la pagina 2 / Fecha y hora del TORO: 10/10/2026 10:00\nPágina 2 / Campos de la pagina 2 / Fecha en la que se ha ultimado el régimen especial: 20/10/2026\nPágina 2 / Campos de la pagina 2 / Fecha en la que se ha informado al cedente de la ultimación del régimen especial: 21/10/2026\nPágina 2 / Confirmacion 18 del cesionario / Lugar y fecha: Valencia, 21/10/2026\nPágina 2 / Confirmacion 18 del cesionario / Firma o autenticación electrónica del cesionario: Firma ficticia de CESAR MODELO SINTETICO, administrador del cesionario\nPágina 3 / Campos de la pagina 3 / Si procede, información adicional (ej. garantía, coeficiente de rendimiento): Garantia ficticia GRN-SINT-977; coeficiente 100 piezas de salida por 100 piezas de entrada\nPágina 3 / Confirmacion 20 del cedente / Lugar y fecha: Valencia, 25/10/2026\nPágina 3 / Confirmacion 20 del cedente / Firma o autenticación electrónica del cedente: Firma ficticia de CLARA PRUEBA SINTETICA, administradora del cedente\nPágina 3 / Confirmacion 20 del cesionario / Lugar y fecha: Valencia, 25/10/2026\nPágina 3 / Confirmacion 20 del cesionario / Firma o autenticación electrónica del cesionario: Firma ficticia de CESAR MODELO SINTETICO, administrador del cesionario",
+  "workflow_identity": {
+    "language": "es",
+    "id": 977
+  }
+}
