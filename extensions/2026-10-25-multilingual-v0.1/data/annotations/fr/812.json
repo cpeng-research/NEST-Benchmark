@@ -1,0 +1,505 @@
+{
+  "id": "fr-812-inami-formulaire-reglement20030728-annexe-82",
+  "language": "fr",
+  "title": "Demande pour un examen en imagerie médicale (annexe 82)",
+  "domain": "Healthcare",
+  "issuer": "Institut national d’assurance maladie-invalidité (INAMI)",
+  "issuer_id": "INAMI",
+  "template_family": "inami-formulaire-reglement20030728-annexe-82",
+  "source_url": "https://www.inami.fgov.be/SiteCollectionDocuments/formulaire_reglement20030728_annexe_82.pdf",
+  "landing_url": "https://www.inami.fgov.be/fr/professionnels/professionnels-de-la-sante/medecins/formulaires-pour-les-medecins",
+  "license_url": "https://www.inami.fgov.be/fr/disclaimer",
+  "license_note": "Selon les conditions Copyrights de l’INAMI : informations libres de droit sauf mention contraire, utilisables gratuitement moyennant mention de la source. Seuls le texte fonctionnel et les contrôles du formulaire sont normalisés ; informations multimédias, logos et éléments graphiques exclus.",
+  "source_sha256": "5b110da71c9d449cbeff556fbb4f27c481c907c2aa386ba3815abf46108962fb",
+  "source_pages": 1,
+  "source_version": "Annexe 82 ; règlement 19-3-18, M.B. 9-4 ; application 1-2-2018",
+  "source_date_evidence": {
+    "kind": "printed edition",
+    "page": 1,
+    "value": "Annexe 82 ; règlement 19-3-18, M.B. 9-4 ; application 1-2-2018"
+  },
+  "retrieved_at": "2026-10-25T02:09:31.306841+00:00",
+  "columns": 6,
+  "fields": [
+    {
+      "id": "f0001",
+      "label": "Nom:",
+      "path": [
+        "Page 1",
+        "Identification du patient (remplir ou vignette O.A.)",
+        "Nom:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nom:",
+      "kind": "text",
+      "synthetic_value": "MARTIN",
+      "source_label_rects": [
+        [
+          93.72000122070312,
+          190.69544982910156,
+          112.99626159667969,
+          200.0689697265625
+        ]
+      ]
+    },
+    {
+      "id": "f0002",
+      "label": "Prénom(s):",
+      "path": [
+        "Page 1",
+        "Identification du patient (remplir ou vignette O.A.)",
+        "Prénom(s):"
+      ],
+      "source_page": 1,
+      "source_anchor": "Prénom(s):",
+      "kind": "text",
+      "synthetic_value": "Alice",
+      "source_label_rects": [
+        [
+          238.86395263671875,
+          190.69544982910156,
+          276.4774475097656,
+          200.0689697265625
+        ]
+      ]
+    },
+    {
+      "id": "f0003",
+      "label": "Date de naissance:",
+      "path": [
+        "Page 1",
+        "Identification du patient (remplir ou vignette O.A.)",
+        "Date de naissance:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Date de naissance:",
+      "kind": "text",
+      "synthetic_value": "15/03/1950",
+      "source_label_rects": [
+        [
+          93.72000122070312,
+          200.4154815673828,
+          156.68348693847656,
+          209.78900146484375
+        ]
+      ]
+    },
+    {
+      "id": "f0004",
+      "label": "Sexe",
+      "path": [
+        "Page 1",
+        "Identification du patient (remplir ou vignette O.A.)",
+        "Sexe"
+      ],
+      "source_page": 1,
+      "source_anchor": "Sexe",
+      "kind": "checkbox_single",
+      "synthetic_value": "Féminin",
+      "source_label_rects": [
+        [
+          93.72000122070312,
+          210.6154327392578,
+          110.19097900390625,
+          219.98895263671875
+        ]
+      ],
+      "options": [
+        "Masculin",
+        "Féminin"
+      ],
+      "context_evidence": "Page 1 / Identification du patient (remplir ou vignette O.A.) / Sexe : Féminin"
+    },
+    {
+      "id": "f0005",
+      "label": "Informations cliniques pertinentes",
+      "path": [
+        "Page 1",
+        "Identification du patient (remplir ou vignette O.A.)",
+        "Informations cliniques pertinentes"
+      ],
+      "source_page": 1,
+      "source_anchor": "Informations cliniques pertinentes",
+      "kind": "text",
+      "synthetic_value": "Douleur de cheville fictive après un incident domestique inventé ; patiente ambulatoire",
+      "source_label_rects": [
+        [
+          93.72000122070312,
+          240.97547912597656,
+          217.7891845703125,
+          250.3489990234375
+        ]
+      ]
+    },
+    {
+      "id": "f0006",
+      "label": "Explication de la demande de diagnostic",
+      "path": [
+        "Page 1",
+        "Identification du patient (remplir ou vignette O.A.)",
+        "Explication de la demande de diagnostic"
+      ],
+      "source_page": 1,
+      "source_anchor": "Explication de la demande de diagnostic",
+      "kind": "text",
+      "synthetic_value": "Recherche documentaire fictive d’une lésion osseuse ; aucun examen réel",
+      "source_label_rects": [
+        [
+          93.72000122070312,
+          300.3154296875,
+          238.7775421142578,
+          309.68896484375
+        ]
+      ]
+    },
+    {
+      "id": "f0007",
+      "label": "Informations supplémentaires pertinentes",
+      "path": [
+        "Page 1",
+        "Identification du patient (remplir ou vignette O.A.)",
+        "Informations supplémentaires pertinentes"
+      ],
+      "source_page": 1,
+      "source_anchor": "Informations supplémentaires pertinentes",
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "Diabète"
+      ],
+      "source_label_rects": [
+        [
+          93.72000122070312,
+          369.4354553222656,
+          245.211181640625,
+          378.8089904785156
+        ]
+      ],
+      "options": [
+        "Allergie",
+        "Diabète",
+        "Insuffisance rénale",
+        "Grossesse",
+        "Implant",
+        "Autres:"
+      ],
+      "context_evidence": "Page 1 / Identification du patient (remplir ou vignette O.A.) / Informations supplémentaires pertinentes : Diabète"
+    },
+    {
+      "id": "f0008",
+      "label": "Autres:",
+      "path": [
+        "Page 1",
+        "Identification du patient (remplir ou vignette O.A.)",
+        "Autres:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Autres:",
+      "kind": "text",
+      "synthetic_value": "Sans objet",
+      "source_label_rects": [
+        [
+          118.86000061035156,
+          410.0554504394531,
+          143.7730712890625,
+          419.4289855957031
+        ],
+        [
+          378.97900390625,
+          519.9754638671875,
+          403.9411926269531,
+          529.3489990234375
+        ]
+      ]
+    },
+    {
+      "id": "f0009",
+      "label": "Examen(s) proposé(s)",
+      "path": [
+        "Page 1",
+        "Identification du patient (remplir ou vignette O.A.)",
+        "Examen(s) proposé(s)"
+      ],
+      "source_page": 1,
+      "source_anchor": "Examen(s) proposé(s)",
+      "kind": "text",
+      "synthetic_value": "Radiographie fictive de la cheville gauche",
+      "source_label_rects": [
+        [
+          93.72000122070312,
+          440.4154357910156,
+          172.07403564453125,
+          449.7889709472656
+        ]
+      ]
+    },
+    {
+      "id": "f0010",
+      "label": "Examen(s) pertinent(s) précédent(s) relatif(s) à la demande de diagnostic",
+      "path": [
+        "Page 1",
+        "Identification du patient (remplir ou vignette O.A.)",
+        "Examen(s) pertinent(s) précédent(s) relatif(s) à la demande de diagnostic"
+      ],
+      "source_page": 1,
+      "source_anchor": "Examen(s) pertinent(s) précédent(s) relatif(s) à la demande de diagnostic",
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "Inconnu"
+      ],
+      "source_label_rects": [
+        [
+          93.72000122070312,
+          499.7553405761719,
+          356.05157470703125,
+          509.1288757324219
+        ]
+      ],
+      "options": [
+        "CT",
+        "RMN",
+        "RX",
+        "Echographie",
+        "Autres:",
+        "Inconnu"
+      ],
+      "context_evidence": "Page 1 / Identification du patient (remplir ou vignette O.A.) / Examen(s) pertinent(s) précédent(s) relatif(s) à la demande de diagnostic : Inconnu"
+    },
+    {
+      "id": "f0011",
+      "label": "Autres:",
+      "path": [
+        "Page 1",
+        "Identification du patient (remplir ou vignette O.A.)",
+        "Autres examens précédents"
+      ],
+      "source_page": 1,
+      "source_anchor": "Autres:",
+      "kind": "text",
+      "synthetic_value": "Sans objet",
+      "source_label_rects": [
+        [
+          118.86000061035156,
+          410.0554504394531,
+          143.7730712890625,
+          419.4289855957031
+        ],
+        [
+          378.97900390625,
+          519.9754638671875,
+          403.9411926269531,
+          529.3489990234375
+        ]
+      ]
+    },
+    {
+      "id": "f0012",
+      "label": "Cachet du prescripteur *",
+      "path": [
+        "Page 1",
+        "Identification du patient (remplir ou vignette O.A.)",
+        "Cachet du prescripteur *"
+      ],
+      "source_page": 1,
+      "source_anchor": "Cachet du prescripteur *",
+      "kind": "text",
+      "synthetic_value": "Dr Sophie DURAND ; Rue de l’Exemple 10, 1000 Bruxelles ; 18010010003 ; cachet fictif",
+      "source_label_rects": [
+        [
+          93.72000122070312,
+          550.2753295898438,
+          184.2562713623047,
+          559.6488647460938
+        ]
+      ]
+    },
+    {
+      "id": "f0013",
+      "label": "Date:",
+      "path": [
+        "Page 1",
+        "Identification du patient (remplir ou vignette O.A.)",
+        "Date:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Date:",
+      "kind": "text",
+      "synthetic_value": "25/10/2026",
+      "source_label_rects": [
+        [
+          93.72000122070312,
+          570.1353759765625,
+          112.07077026367188,
+          579.5089111328125
+        ]
+      ]
+    },
+    {
+      "id": "f0014",
+      "label": "Signature:",
+      "path": [
+        "Page 1",
+        "Identification du patient (remplir ou vignette O.A.)",
+        "Signature:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Signature:",
+      "kind": "text",
+      "synthetic_value": "Sophie DURAND, signature fictive",
+      "source_label_rects": [
+        [
+          93.72000122070312,
+          579.79541015625,
+          128.52989196777344,
+          589.1689453125
+        ]
+      ]
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "(I – Règl. 11-6-12 – M.B. 24-1-13 – art. 2; R – Règl. 19-3-18 – M.B. 9-4 – art. 2) (°) (ANNEXE 82 Formulaire de demande pour un examen en imagerie médicale (art. 5, 17 et 17bis NPS) Par problématique clinique, un formulaire de demande distinct est exigé. ",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Identification du patient (remplir ou vignette O.A.)",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nom:",
+        "field": "f0001",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Prénom(s):",
+        "field": "f0002",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "Date de naissance:",
+        "field": "f0003",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Sexe",
+        "field": "f0004",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Informations cliniques pertinentes",
+        "field": "f0005",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Explication de la demande de diagnostic",
+        "field": "f0006",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Informations supplémentaires pertinentes",
+        "field": "f0007",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Autres:",
+        "field": "f0008",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Examen(s) proposé(s)",
+        "field": "f0009",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "Examen(s) pertinent(s) précédent(s) relatif(s) à la demande de diagnostic",
+        "field": "f0010",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Autres:",
+        "field": "f0011",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Cachet du prescripteur *",
+        "field": "f0012",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Date:",
+        "field": "f0013",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "Signature:",
+        "field": "f0014",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "* Cachet du prescripteur avec mention du nom, prénom, adresse et numéro INAMI) (°) d’application à partir du 1-2-2018",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Source : Institut national d’assurance maladie-invalidité (INAMI) ; https://www.inami.fgov.be/SiteCollectionDocuments/formulaire_reglement20030728_annexe_82.pdf ; Annexe 82 ; règlement 19-3-18, M.B. 9-4 ; application 1-2-2018 ; consultation 2026-10-25T02:09:31.306841+00:00. Texte normalisé ; données remplies et signatures fictives.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ]
+  ],
+  "synthetic_context": true,
+  "source_notice": "Complete source packet normalized in source order, including conditional controls, repeated sections, attestations and notices. Fictional completions; no real application or declaration. Digit boxes belonging to one logical datum are coalesced.",
+  "context": "Scénario entièrement fictif. Personnes, établissements, coordonnées, identifiants, signatures et décisions synthétiques. Aucune transmission administrative ni situation clinique réelle. Les champs conditionnels sans objet sont conservés.\nPage 1 / Identification du patient (remplir ou vignette O.A.) / Nom: : MARTIN\nPage 1 / Identification du patient (remplir ou vignette O.A.) / Prénom(s): : Alice\nPage 1 / Identification du patient (remplir ou vignette O.A.) / Date de naissance: : 15/03/1950\nPage 1 / Identification du patient (remplir ou vignette O.A.) / Sexe : Féminin\nPage 1 / Identification du patient (remplir ou vignette O.A.) / Informations cliniques pertinentes : Douleur de cheville fictive après un incident domestique inventé ; patiente ambulatoire\nPage 1 / Identification du patient (remplir ou vignette O.A.) / Explication de la demande de diagnostic : Recherche documentaire fictive d’une lésion osseuse ; aucun examen réel\nPage 1 / Identification du patient (remplir ou vignette O.A.) / Informations supplémentaires pertinentes : Diabète\nPage 1 / Identification du patient (remplir ou vignette O.A.) / Autres: : Sans objet\nPage 1 / Identification du patient (remplir ou vignette O.A.) / Examen(s) proposé(s) : Radiographie fictive de la cheville gauche\nPage 1 / Identification du patient (remplir ou vignette O.A.) / Examen(s) pertinent(s) précédent(s) relatif(s) à la demande de diagnostic : Inconnu\nPage 1 / Identification du patient (remplir ou vignette O.A.) / Autres examens précédents : Sans objet\nPage 1 / Identification du patient (remplir ou vignette O.A.) / Cachet du prescripteur * : Dr Sophie DURAND ; Rue de l’Exemple 10, 1000 Bruxelles ; 18010010003 ; cachet fictif\nPage 1 / Identification du patient (remplir ou vignette O.A.) / Date: : 25/10/2026\nPage 1 / Identification du patient (remplir ou vignette O.A.) / Signature: : Sophie DURAND, signature fictive",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 812
+  }
+}

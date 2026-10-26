@@ -1,0 +1,5785 @@
+{
+  "id": "es-844",
+  "language": "es",
+  "title": "Solicitud de préstamo personal - Fondo Nacional de las Artes",
+  "domain": "Finance",
+  "issuer": "Fondo Nacional de las Artes",
+  "issuer_id": "fondo-nacional-de-las-artes",
+  "template_family": "fna-solicitud-prestamo-personal-completa",
+  "source_version": "Undated",
+  "source_date_evidence": {
+    "kind": "undated complete source",
+    "value": "Undated",
+    "note": "No printed form edition/date. The original Ministerio de Cultura / Presidencia de la Nación footer is preserved as historical source identity, not asserted as the current government structure."
+  },
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/formulario_prestamo_personal-fna.pdf",
+  "landing_url": "https://www.argentina.gob.ar/node/41559",
+  "source_sha256": "e69043d57f1319385ed7b20d5f8e32ea40b51dfb4d0d74a9c2e40581fd375e34",
+  "source_pages": 7,
+  "retrieved_at": "2026-10-25T02:05:31.255052+00:00",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "Argentina.gob.ar, Propiedad intelectual: portal contents licensed CC BY 4.0 except otherwise stated. This national-portal PDF has no contrary notice. Attribution: Fondo Nacional de las Artes. Semantic grid adaptation and fictional completion, not an official submission.",
+  "columns": 2,
+  "synthetic_context": true,
+  "source_notice": "Complete source pages, options, instructions, declaration and signature targets retained in source order. All completions are fictional.",
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Nombre/s",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - Datos personales",
+        "Nombre/s"
+      ],
+      "source_anchor": "Nombre/s",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "PAULA INES"
+    },
+    {
+      "id": "f002",
+      "label": "Apellidos/s",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - Datos personales",
+        "Apellidos/s"
+      ],
+      "source_anchor": "Apellidos/s",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "GIMENEZ"
+    },
+    {
+      "id": "f003",
+      "label": "D.N.I. N°",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - Datos personales",
+        "D.N.I. N°"
+      ],
+      "source_anchor": "D.N.I. N°",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "30000844"
+    },
+    {
+      "id": "f004",
+      "label": "CUIT/CUIL",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - Datos personales",
+        "CUIT/CUIL"
+      ],
+      "source_anchor": "CUIT/CUIL",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "27-30000844-0"
+    },
+    {
+      "id": "f005",
+      "label": "Teléfono Particular",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - Datos personales",
+        "Teléfono Particular"
+      ],
+      "source_anchor": "Teléfono Particular",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "011 40000844"
+    },
+    {
+      "id": "f006",
+      "label": "Celular",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - Datos personales",
+        "Celular"
+      ],
+      "source_anchor": "Celular",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "011 150000844"
+    },
+    {
+      "id": "f007",
+      "label": "Mail",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - Datos personales",
+        "Mail"
+      ],
+      "source_anchor": "Mail",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "solicitante.844@example.org"
+    },
+    {
+      "id": "f008",
+      "label": "Fecha de Nacimiento",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - Datos personales",
+        "Fecha de Nacimiento"
+      ],
+      "source_anchor": "Fecha de Nacimiento",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "14/10/1983"
+    },
+    {
+      "id": "f009",
+      "label": "Nacionalidad",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - Datos personales",
+        "Nacionalidad"
+      ],
+      "source_anchor": "Nacionalidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "ARGENTINA"
+    },
+    {
+      "id": "f010",
+      "label": "Sexo",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - Datos personales",
+        "Sexo"
+      ],
+      "source_anchor": "Sexo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "FEMENINO"
+    },
+    {
+      "id": "f011",
+      "label": "Estado civil",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - Estado civil",
+        "Estado civil"
+      ],
+      "source_anchor": "Estado civil",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Casado"
+      ],
+      "options": [
+        "Casado",
+        "Soltero",
+        "Viudo",
+        "Divorciado"
+      ],
+      "context_evidence": "SOLICITANTE - Estado civil / Estado civil: Casado."
+    },
+    {
+      "id": "f012",
+      "label": "Calle",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - Domicilio particular",
+        "Calle"
+      ],
+      "source_anchor": "Calle",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "PARAGUAY"
+    },
+    {
+      "id": "f013",
+      "label": "Número",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - Domicilio particular",
+        "Número"
+      ],
+      "source_anchor": "Número",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "4844"
+    },
+    {
+      "id": "f014",
+      "label": "Piso",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - Domicilio particular",
+        "Piso"
+      ],
+      "source_anchor": "Piso",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "PB"
+    },
+    {
+      "id": "f015",
+      "label": "Depto.",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - Domicilio particular",
+        "Depto."
+      ],
+      "source_anchor": "Depto.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "UNICO"
+    },
+    {
+      "id": "f016",
+      "label": "Localidad",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - Domicilio particular",
+        "Localidad"
+      ],
+      "source_anchor": "Localidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "CIUDAD AUTONOMA DE BUENOS AIRES"
+    },
+    {
+      "id": "f017",
+      "label": "Código Postal",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - Domicilio particular",
+        "Código Postal"
+      ],
+      "source_anchor": "Código Postal",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1425"
+    },
+    {
+      "id": "f018",
+      "label": "Provincia",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - Domicilio particular",
+        "Provincia"
+      ],
+      "source_anchor": "Provincia",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "CIUDAD AUTONOMA DE BUENOS AIRES"
+    },
+    {
+      "id": "f019",
+      "label": "País",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - Domicilio particular",
+        "País"
+      ],
+      "source_anchor": "País",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "ARGENTINA"
+    },
+    {
+      "id": "f020",
+      "label": "Actividad",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - Datos laborales",
+        "Actividad"
+      ],
+      "source_anchor": "Actividad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "ARTISTA VISUAL INDEPENDIENTE"
+    },
+    {
+      "id": "f021",
+      "label": "Profesión",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - Datos laborales",
+        "Profesión"
+      ],
+      "source_anchor": "Profesión",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "ARTISTA VISUAL"
+    },
+    {
+      "id": "f022",
+      "label": "Nombre de la empresa",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - a) Dependiente",
+        "Nombre de la empresa"
+      ],
+      "source_anchor": "Nombre de la empresa",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE"
+    },
+    {
+      "id": "f023",
+      "label": "Cargo",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - a) Dependiente",
+        "Cargo"
+      ],
+      "source_anchor": "Cargo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE"
+    },
+    {
+      "id": "f024",
+      "label": "Calle",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - a) Dependiente",
+        "Calle"
+      ],
+      "source_anchor": "Calle",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE"
+    },
+    {
+      "id": "f025",
+      "label": "Número",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - a) Dependiente",
+        "Número"
+      ],
+      "source_anchor": "Número",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE"
+    },
+    {
+      "id": "f026",
+      "label": "Piso",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - a) Dependiente",
+        "Piso"
+      ],
+      "source_anchor": "Piso",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE"
+    },
+    {
+      "id": "f027",
+      "label": "Localidad",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - a) Dependiente",
+        "Localidad"
+      ],
+      "source_anchor": "Localidad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE"
+    },
+    {
+      "id": "f028",
+      "label": "Código Postal",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - a) Dependiente",
+        "Código Postal"
+      ],
+      "source_anchor": "Código Postal",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE"
+    },
+    {
+      "id": "f029",
+      "label": "Provincia",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - a) Dependiente",
+        "Provincia"
+      ],
+      "source_anchor": "Provincia",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE"
+    },
+    {
+      "id": "f030",
+      "label": "Teléfono",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - a) Dependiente",
+        "Teléfono"
+      ],
+      "source_anchor": "Teléfono",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE"
+    },
+    {
+      "id": "f031",
+      "label": "Antigüedad laboral",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - a) Dependiente",
+        "Antigüedad laboral"
+      ],
+      "source_anchor": "Antigüedad laboral",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE"
+    },
+    {
+      "id": "f032",
+      "label": "Ingreso mensual neto",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - a) Dependiente",
+        "Ingreso mensual neto"
+      ],
+      "source_anchor": "Ingreso mensual neto",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE"
+    },
+    {
+      "id": "f033",
+      "label": "Actividad",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - b) Independiente",
+        "Actividad"
+      ],
+      "source_anchor": "Actividad",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "CREACION Y PRODUCCION DE OBRAS DE ARTE VISUAL"
+    },
+    {
+      "id": "f034",
+      "label": "Código AFIP",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - b) Independiente",
+        "Código AFIP"
+      ],
+      "source_anchor": "Código AFIP",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "900021"
+    },
+    {
+      "id": "f035",
+      "label": "Situación ante AFIP:",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - b) Independiente",
+        "Situación ante AFIP:"
+      ],
+      "source_anchor": "Situación ante AFIP:",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Monotributista"
+      ],
+      "options": [
+        "Resp. Inscripto",
+        "Monotributista",
+        "No Inscripto"
+      ],
+      "context_evidence": "SOLICITANTE - b) Independiente / Situación ante AFIP:: Monotributista."
+    },
+    {
+      "id": "f036",
+      "label": "Ingreso mensual promedio de los últimos 13 meses",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - b) Independiente",
+        "Ingreso mensual promedio de los últimos 13 meses"
+      ],
+      "source_anchor": "Ingreso mensual promedio de los últimos 13 meses",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1200000"
+    },
+    {
+      "id": "f037",
+      "label": "Total ingreso mensual neto (a + b)",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - Ingresos totales",
+        "Total ingreso mensual neto (a + b)"
+      ],
+      "source_anchor": "Total ingreso mensual neto (a + b)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "1200000"
+    },
+    {
+      "id": "f038",
+      "label": "Bienes inmuebles",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Bienes inmuebles",
+        "Bienes inmuebles"
+      ],
+      "source_anchor": "Bienes inmuebles",
+      "source_page": 2,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "SI"
+      ],
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "SOLICITANTE - Bienes inmuebles / Bienes inmuebles: SI."
+    },
+    {
+      "id": "f039",
+      "label": "Valor estimado",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Bienes inmuebles",
+        "Valor estimado"
+      ],
+      "source_anchor": "Valor estimado",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "85000000 ARS"
+    },
+    {
+      "id": "f040",
+      "label": "Bien de familia",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Bienes inmuebles",
+        "Bien de familia"
+      ],
+      "source_anchor": "Bien de familia",
+      "source_page": 2,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "NO"
+      ],
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "SOLICITANTE - Bienes inmuebles / Bien de familia: NO."
+    },
+    {
+      "id": "f041",
+      "label": "Bienes muebles",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Bienes muebles",
+        "Bienes muebles"
+      ],
+      "source_anchor": "Bienes muebles",
+      "source_page": 2,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "SI"
+      ],
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "SOLICITANTE - Bienes muebles / Bienes muebles: SI."
+    },
+    {
+      "id": "f042",
+      "label": "Bien que posee",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Bienes muebles",
+        "Bien que posee"
+      ],
+      "source_anchor": "Bien que posee",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "AUTOMOVIL PARTICULAR, LIBRE DE PRENDA"
+    },
+    {
+      "id": "f043",
+      "label": "Valor estimado",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Bienes muebles",
+        "Valor estimado"
+      ],
+      "source_anchor": "Valor estimado",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "8000000 ARS"
+    },
+    {
+      "id": "f044",
+      "label": "Hipotecas",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Hipotecas",
+        "Hipotecas"
+      ],
+      "source_anchor": "Hipotecas",
+      "source_page": 2,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "NO"
+      ],
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "SOLICITANTE - Hipotecas / Hipotecas: NO."
+    },
+    {
+      "id": "f045",
+      "label": "Otorgada por",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Hipotecas",
+        "Otorgada por"
+      ],
+      "source_anchor": "Otorgada por",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: NO EXISTE DEUDA"
+    },
+    {
+      "id": "f046",
+      "label": "Monto cuota mensual",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Hipotecas",
+        "Monto cuota mensual"
+      ],
+      "source_anchor": "Monto cuota mensual",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "0 ARS"
+    },
+    {
+      "id": "f047",
+      "label": "Cantidad de cuotas totales",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Hipotecas - Totales",
+        "Cantidad de cuotas totales"
+      ],
+      "source_anchor": "Cantidad de cuotas totales",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f048",
+      "label": "Pagadas",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Hipotecas",
+        "Pagadas"
+      ],
+      "source_anchor": "Pagadas",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f049",
+      "label": "Préstamos personales",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Préstamos personales",
+        "Préstamos personales"
+      ],
+      "source_anchor": "Préstamos personales",
+      "source_page": 2,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "NO"
+      ],
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "SOLICITANTE - Préstamos personales / Préstamos personales: NO."
+    },
+    {
+      "id": "f050",
+      "label": "Otorgado por",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Préstamos personales",
+        "Otorgado por"
+      ],
+      "source_anchor": "Otorgado por",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: NO EXISTE DEUDA"
+    },
+    {
+      "id": "f051",
+      "label": "Monto cuota mensual",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Préstamos personales",
+        "Monto cuota mensual"
+      ],
+      "source_anchor": "Monto cuota mensual",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "0 ARS"
+    },
+    {
+      "id": "f052",
+      "label": "Cantidad de cuotas",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Préstamos personales - Totales",
+        "Cantidad de cuotas"
+      ],
+      "source_anchor": "Cantidad de cuotas",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f053",
+      "label": "Pagadas",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Préstamos personales",
+        "Pagadas"
+      ],
+      "source_anchor": "Pagadas",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f054",
+      "label": "Alquiler",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Alquiler",
+        "Alquiler"
+      ],
+      "source_anchor": "Alquiler",
+      "source_page": 2,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "NO"
+      ],
+      "options": [
+        "Si",
+        "NO"
+      ],
+      "context_evidence": "SOLICITANTE - Alquiler / Alquiler: NO."
+    },
+    {
+      "id": "f055",
+      "label": "Monto",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Alquiler",
+        "Monto"
+      ],
+      "source_anchor": "Monto",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "0 ARS: VIVIENDA PROPIA"
+    },
+    {
+      "id": "f056",
+      "label": "Bancos con que opera",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Relaciones financieras",
+        "Bancos con que opera"
+      ],
+      "source_anchor": "Bancos con que opera",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "BANCO DE LA NACION ARGENTINA"
+    },
+    {
+      "id": "f057",
+      "label": "Tarjetas con que opera",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Relaciones financieras",
+        "Tarjetas con que opera"
+      ],
+      "source_anchor": "Tarjetas con que opera",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "VISA"
+    },
+    {
+      "id": "f058",
+      "label": "Nombre/s",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Cónyuge",
+        "Nombre/s"
+      ],
+      "source_anchor": "Nombre/s",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "MARTIN EDUARDO"
+    },
+    {
+      "id": "f059",
+      "label": "Apellidos/s",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Cónyuge",
+        "Apellidos/s"
+      ],
+      "source_anchor": "Apellidos/s",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "LUNA"
+    },
+    {
+      "id": "f060",
+      "label": "D.N.I. N°",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Cónyuge",
+        "D.N.I. N°"
+      ],
+      "source_anchor": "D.N.I. N°",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "29000844"
+    },
+    {
+      "id": "f061",
+      "label": "CUIT/CUIL",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Cónyuge",
+        "CUIT/CUIL"
+      ],
+      "source_anchor": "CUIT/CUIL",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "20-29000844-2"
+    },
+    {
+      "id": "f062",
+      "label": "Sexo",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Cónyuge",
+        "Sexo"
+      ],
+      "source_anchor": "Sexo",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "MASCULINO"
+    },
+    {
+      "id": "f063",
+      "label": "Teléfono particular",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Cónyuge",
+        "Teléfono particular"
+      ],
+      "source_anchor": "Teléfono particular",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "011 40002844"
+    },
+    {
+      "id": "f064",
+      "label": "Celular",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Cónyuge",
+        "Celular"
+      ],
+      "source_anchor": "Celular",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "011 150002844"
+    },
+    {
+      "id": "f065",
+      "label": "Mail",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Cónyuge",
+        "Mail"
+      ],
+      "source_anchor": "Mail",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "conyuge.solicitante.844@example.org"
+    },
+    {
+      "id": "f066",
+      "label": "Fecha de Nacimiento",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Cónyuge",
+        "Fecha de Nacimiento"
+      ],
+      "source_anchor": "Fecha de Nacimiento",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "12/09/1981"
+    },
+    {
+      "id": "f067",
+      "label": "Nacionalidad",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Cónyuge",
+        "Nacionalidad"
+      ],
+      "source_anchor": "Nacionalidad",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "ARGENTINA"
+    },
+    {
+      "id": "f068",
+      "label": "Actividad",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Cónyuge",
+        "Actividad"
+      ],
+      "source_anchor": "Actividad",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "TECNICO DE SONIDO"
+    },
+    {
+      "id": "f069",
+      "label": "Teléfono Laboral",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Cónyuge",
+        "Teléfono Laboral"
+      ],
+      "source_anchor": "Teléfono Laboral",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "011 40003844"
+    },
+    {
+      "id": "f070",
+      "label": "Relación laboral",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Cónyuge",
+        "Relación laboral"
+      ],
+      "source_anchor": "Relación laboral",
+      "source_page": 2,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Dependiente"
+      ],
+      "options": [
+        "Dependiente",
+        "Independiente"
+      ],
+      "context_evidence": "SOLICITANTE - Cónyuge / Relación laboral: Dependiente."
+    },
+    {
+      "id": "f071",
+      "label": "Nombre de la empresa",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Cónyuge",
+        "Nombre de la empresa"
+      ],
+      "source_anchor": "Nombre de la empresa",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "ESTUDIO SONORO SINTETICO SRL"
+    },
+    {
+      "id": "f072",
+      "label": "Cargo",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Cónyuge",
+        "Cargo"
+      ],
+      "source_anchor": "Cargo",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "TECNICO"
+    },
+    {
+      "id": "f073",
+      "label": "Ingreso mensual neto",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Cónyuge",
+        "Ingreso mensual neto"
+      ],
+      "source_anchor": "Ingreso mensual neto",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "1400000 ARS"
+    },
+    {
+      "id": "f074",
+      "label": "Nombre/s",
+      "path": [
+        "Página 2",
+        "GARANTE - Datos personales",
+        "Nombre/s"
+      ],
+      "source_anchor": "Nombre/s",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "ROSANA ELENA"
+    },
+    {
+      "id": "f075",
+      "label": "Apellidos/s",
+      "path": [
+        "Página 2",
+        "GARANTE - Datos personales",
+        "Apellidos/s"
+      ],
+      "source_anchor": "Apellidos/s",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "ARCE"
+    },
+    {
+      "id": "f076",
+      "label": "D.N.I. N°",
+      "path": [
+        "Página 2",
+        "GARANTE - Datos personales",
+        "D.N.I. N°"
+      ],
+      "source_anchor": "D.N.I. N°",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "28000844"
+    },
+    {
+      "id": "f077",
+      "label": "CUIT/CUIL",
+      "path": [
+        "Página 2",
+        "GARANTE - Datos personales",
+        "CUIT/CUIL"
+      ],
+      "source_anchor": "CUIT/CUIL",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "27-28000844-9"
+    },
+    {
+      "id": "f078",
+      "label": "Teléfono Particular",
+      "path": [
+        "Página 2",
+        "GARANTE - Datos personales",
+        "Teléfono Particular"
+      ],
+      "source_anchor": "Teléfono Particular",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "011 40000844"
+    },
+    {
+      "id": "f079",
+      "label": "Celular",
+      "path": [
+        "Página 2",
+        "GARANTE - Datos personales",
+        "Celular"
+      ],
+      "source_anchor": "Celular",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "011 150000844"
+    },
+    {
+      "id": "f080",
+      "label": "Mail",
+      "path": [
+        "Página 2",
+        "GARANTE - Datos personales",
+        "Mail"
+      ],
+      "source_anchor": "Mail",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "garante.844@example.org"
+    },
+    {
+      "id": "f081",
+      "label": "Fecha de Nacimiento",
+      "path": [
+        "Página 2",
+        "GARANTE - Datos personales",
+        "Fecha de Nacimiento"
+      ],
+      "source_anchor": "Fecha de Nacimiento",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "03/06/1980"
+    },
+    {
+      "id": "f082",
+      "label": "Nacionalidad",
+      "path": [
+        "Página 2",
+        "GARANTE - Datos personales",
+        "Nacionalidad"
+      ],
+      "source_anchor": "Nacionalidad",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "ARGENTINA"
+    },
+    {
+      "id": "f083",
+      "label": "Sexo",
+      "path": [
+        "Página 2",
+        "GARANTE - Datos personales",
+        "Sexo"
+      ],
+      "source_anchor": "Sexo",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "FEMENINO"
+    },
+    {
+      "id": "f084",
+      "label": "Estado civil",
+      "path": [
+        "Página 2",
+        "GARANTE - Estado civil",
+        "Estado civil"
+      ],
+      "source_anchor": "Estado civil",
+      "source_page": 2,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Casado"
+      ],
+      "options": [
+        "Casado",
+        "Soltero",
+        "Viudo",
+        "Divorciado"
+      ],
+      "context_evidence": "GARANTE - Estado civil / Estado civil: Casado."
+    },
+    {
+      "id": "f085",
+      "label": "Calle",
+      "path": [
+        "Página 2",
+        "GARANTE - Domicilio particular",
+        "Calle"
+      ],
+      "source_anchor": "Calle",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "ESTOMBA"
+    },
+    {
+      "id": "f086",
+      "label": "Número",
+      "path": [
+        "Página 2",
+        "GARANTE - Domicilio particular",
+        "Número"
+      ],
+      "source_anchor": "Número",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "2844"
+    },
+    {
+      "id": "f087",
+      "label": "Piso",
+      "path": [
+        "Página 2",
+        "GARANTE - Domicilio particular",
+        "Piso"
+      ],
+      "source_anchor": "Piso",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "PB"
+    },
+    {
+      "id": "f088",
+      "label": "Depto.",
+      "path": [
+        "Página 2",
+        "GARANTE - Domicilio particular",
+        "Depto."
+      ],
+      "source_anchor": "Depto.",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "UNICO"
+    },
+    {
+      "id": "f089",
+      "label": "Localidad",
+      "path": [
+        "Página 2",
+        "GARANTE - Domicilio particular",
+        "Localidad"
+      ],
+      "source_anchor": "Localidad",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "CIUDAD AUTONOMA DE BUENOS AIRES"
+    },
+    {
+      "id": "f090",
+      "label": "Código Postal",
+      "path": [
+        "Página 2",
+        "GARANTE - Domicilio particular",
+        "Código Postal"
+      ],
+      "source_anchor": "Código Postal",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "1430"
+    },
+    {
+      "id": "f091",
+      "label": "Provincia",
+      "path": [
+        "Página 2",
+        "GARANTE - Domicilio particular",
+        "Provincia"
+      ],
+      "source_anchor": "Provincia",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "CIUDAD AUTONOMA DE BUENOS AIRES"
+    },
+    {
+      "id": "f092",
+      "label": "País",
+      "path": [
+        "Página 2",
+        "GARANTE - Domicilio particular",
+        "País"
+      ],
+      "source_anchor": "País",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "ARGENTINA"
+    },
+    {
+      "id": "f093",
+      "label": "Actividad",
+      "path": [
+        "Página 3",
+        "GARANTE - Datos laborales",
+        "Actividad"
+      ],
+      "source_anchor": "Actividad",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "ADMINISTRACION CONTABLE EN RELACION DE DEPENDENCIA"
+    },
+    {
+      "id": "f094",
+      "label": "Profesión",
+      "path": [
+        "Página 3",
+        "GARANTE - Datos laborales",
+        "Profesión"
+      ],
+      "source_anchor": "Profesión",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "CONTADORA"
+    },
+    {
+      "id": "f095",
+      "label": "Nombre de la empresa",
+      "path": [
+        "Página 3",
+        "GARANTE - a) Dependiente",
+        "Nombre de la empresa"
+      ],
+      "source_anchor": "Nombre de la empresa",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "SERVICIOS SINTETICOS DEL CENTRO SRL"
+    },
+    {
+      "id": "f096",
+      "label": "Cargo",
+      "path": [
+        "Página 3",
+        "GARANTE - a) Dependiente",
+        "Cargo"
+      ],
+      "source_anchor": "Cargo",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "RESPONSABLE CONTABLE"
+    },
+    {
+      "id": "f097",
+      "label": "Calle",
+      "path": [
+        "Página 3",
+        "GARANTE - a) Dependiente",
+        "Calle"
+      ],
+      "source_anchor": "Calle",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "AVENIDA CORDOBA"
+    },
+    {
+      "id": "f098",
+      "label": "Número",
+      "path": [
+        "Página 3",
+        "GARANTE - a) Dependiente",
+        "Número"
+      ],
+      "source_anchor": "Número",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "2844"
+    },
+    {
+      "id": "f099",
+      "label": "Piso",
+      "path": [
+        "Página 3",
+        "GARANTE - a) Dependiente",
+        "Piso"
+      ],
+      "source_anchor": "Piso",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "f100",
+      "label": "Localidad",
+      "path": [
+        "Página 3",
+        "GARANTE - a) Dependiente",
+        "Localidad"
+      ],
+      "source_anchor": "Localidad",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "CIUDAD AUTONOMA DE BUENOS AIRES"
+    },
+    {
+      "id": "f101",
+      "label": "Código Postal",
+      "path": [
+        "Página 3",
+        "GARANTE - a) Dependiente",
+        "Código Postal"
+      ],
+      "source_anchor": "Código Postal",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "1187"
+    },
+    {
+      "id": "f102",
+      "label": "Provincia",
+      "path": [
+        "Página 3",
+        "GARANTE - a) Dependiente",
+        "Provincia"
+      ],
+      "source_anchor": "Provincia",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "CIUDAD AUTONOMA DE BUENOS AIRES"
+    },
+    {
+      "id": "f103",
+      "label": "Teléfono",
+      "path": [
+        "Página 3",
+        "GARANTE - a) Dependiente",
+        "Teléfono"
+      ],
+      "source_anchor": "Teléfono",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "011 40001844"
+    },
+    {
+      "id": "f104",
+      "label": "Antigüedad laboral",
+      "path": [
+        "Página 3",
+        "GARANTE - a) Dependiente",
+        "Antigüedad laboral"
+      ],
+      "source_anchor": "Antigüedad laboral",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "12 AÑOS"
+    },
+    {
+      "id": "f105",
+      "label": "Ingreso mensual neto",
+      "path": [
+        "Página 3",
+        "GARANTE - a) Dependiente",
+        "Ingreso mensual neto"
+      ],
+      "source_anchor": "Ingreso mensual neto",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "2200000"
+    },
+    {
+      "id": "f106",
+      "label": "Actividad",
+      "path": [
+        "Página 3",
+        "GARANTE - b) Independiente",
+        "Actividad"
+      ],
+      "source_anchor": "Actividad",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: SIN ACTIVIDAD INDEPENDIENTE"
+    },
+    {
+      "id": "f107",
+      "label": "Código AFIP",
+      "path": [
+        "Página 3",
+        "GARANTE - b) Independiente",
+        "Código AFIP"
+      ],
+      "source_anchor": "Código AFIP",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: SIN ACTIVIDAD INDEPENDIENTE"
+    },
+    {
+      "id": "f108",
+      "label": "Situación ante AFIP:",
+      "path": [
+        "Página 3",
+        "GARANTE - b) Independiente",
+        "Situación ante AFIP:"
+      ],
+      "source_anchor": "Situación ante AFIP:",
+      "source_page": 3,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "Resp. Inscripto",
+        "Monotributista",
+        "No Inscripto"
+      ],
+      "context_evidence": "No aplica: garante sin actividad independiente. Se conservan todas las opciones del control inactivo sin marcar ninguna.",
+      "inactive_reason": "No aplica: garante sin actividad independiente."
+    },
+    {
+      "id": "f109",
+      "label": "Ingreso mensual promedio de los últimos 13 meses",
+      "path": [
+        "Página 3",
+        "GARANTE - b) Independiente",
+        "Ingreso mensual promedio de los últimos 13 meses"
+      ],
+      "source_anchor": "Ingreso mensual promedio de los últimos 13 meses",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: SIN ACTIVIDAD INDEPENDIENTE"
+    },
+    {
+      "id": "f110",
+      "label": "Total ingreso mensual neto (a + b)",
+      "path": [
+        "Página 3",
+        "GARANTE - Ingresos totales",
+        "Total ingreso mensual neto (a + b)"
+      ],
+      "source_anchor": "Total ingreso mensual neto (a + b)",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "2200000"
+    },
+    {
+      "id": "f111",
+      "label": "Bienes inmuebles",
+      "path": [
+        "Página 3",
+        "GARANTE - Bienes inmuebles",
+        "Bienes inmuebles"
+      ],
+      "source_anchor": "Bienes inmuebles",
+      "source_page": 3,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "SI"
+      ],
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "GARANTE - Bienes inmuebles / Bienes inmuebles: SI."
+    },
+    {
+      "id": "f112",
+      "label": "Valor estimado",
+      "path": [
+        "Página 3",
+        "GARANTE - Bienes inmuebles",
+        "Valor estimado"
+      ],
+      "source_anchor": "Valor estimado",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "110000000 ARS"
+    },
+    {
+      "id": "f113",
+      "label": "Bien de familia",
+      "path": [
+        "Página 3",
+        "GARANTE - Bienes inmuebles",
+        "Bien de familia"
+      ],
+      "source_anchor": "Bien de familia",
+      "source_page": 3,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "NO"
+      ],
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "GARANTE - Bienes inmuebles / Bien de familia: NO."
+    },
+    {
+      "id": "f114",
+      "label": "Posee bienes muebles",
+      "path": [
+        "Página 3",
+        "GARANTE - Bienes muebles",
+        "Posee bienes muebles"
+      ],
+      "source_anchor": "Posee bienes muebles",
+      "source_page": 3,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "SI"
+      ],
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "GARANTE - Bienes muebles / Posee bienes muebles: SI."
+    },
+    {
+      "id": "f115",
+      "label": "Bien que posee",
+      "path": [
+        "Página 3",
+        "GARANTE - Bienes muebles",
+        "Bien que posee"
+      ],
+      "source_anchor": "Bien que posee",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "AUTOMOVIL PARTICULAR, LIBRE DE PRENDA"
+    },
+    {
+      "id": "f116",
+      "label": "Valor estimado",
+      "path": [
+        "Página 3",
+        "GARANTE - Bienes muebles",
+        "Valor estimado"
+      ],
+      "source_anchor": "Valor estimado",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "12000000 ARS"
+    },
+    {
+      "id": "f117",
+      "label": "Hipotecas",
+      "path": [
+        "Página 3",
+        "GARANTE - Hipotecas",
+        "Hipotecas"
+      ],
+      "source_anchor": "Hipotecas",
+      "source_page": 3,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "NO"
+      ],
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "GARANTE - Hipotecas / Hipotecas: NO."
+    },
+    {
+      "id": "f118",
+      "label": "Otorgada por",
+      "path": [
+        "Página 3",
+        "GARANTE - Hipotecas",
+        "Otorgada por"
+      ],
+      "source_anchor": "Otorgada por",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: NO EXISTE DEUDA"
+    },
+    {
+      "id": "f119",
+      "label": "Monto cuota mensual",
+      "path": [
+        "Página 3",
+        "GARANTE - Hipotecas",
+        "Monto cuota mensual"
+      ],
+      "source_anchor": "Monto cuota mensual",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "0 ARS"
+    },
+    {
+      "id": "f120",
+      "label": "Cantidad de cuotas totales",
+      "path": [
+        "Página 3",
+        "GARANTE - Hipotecas - Totales",
+        "Cantidad de cuotas totales"
+      ],
+      "source_anchor": "Cantidad de cuotas totales",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f121",
+      "label": "Pagadas",
+      "path": [
+        "Página 3",
+        "GARANTE - Hipotecas",
+        "Pagadas"
+      ],
+      "source_anchor": "Pagadas",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f122",
+      "label": "Préstamos personales",
+      "path": [
+        "Página 3",
+        "GARANTE - Préstamos personales",
+        "Préstamos personales"
+      ],
+      "source_anchor": "Préstamos personales",
+      "source_page": 3,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "NO"
+      ],
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "GARANTE - Préstamos personales / Préstamos personales: NO."
+    },
+    {
+      "id": "f123",
+      "label": "Otorgado por",
+      "path": [
+        "Página 3",
+        "GARANTE - Préstamos personales",
+        "Otorgado por"
+      ],
+      "source_anchor": "Otorgado por",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: NO EXISTE DEUDA"
+    },
+    {
+      "id": "f124",
+      "label": "Monto cuota mensual",
+      "path": [
+        "Página 3",
+        "GARANTE - Préstamos personales",
+        "Monto cuota mensual"
+      ],
+      "source_anchor": "Monto cuota mensual",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "0 ARS"
+    },
+    {
+      "id": "f125",
+      "label": "Cantidad de cuotas",
+      "path": [
+        "Página 3",
+        "GARANTE - Préstamos personales - Totales",
+        "Cantidad de cuotas"
+      ],
+      "source_anchor": "Cantidad de cuotas",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f126",
+      "label": "Pagadas",
+      "path": [
+        "Página 3",
+        "GARANTE - Préstamos personales",
+        "Pagadas"
+      ],
+      "source_anchor": "Pagadas",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f127",
+      "label": "Alquiler",
+      "path": [
+        "Página 3",
+        "GARANTE - Alquiler",
+        "Alquiler"
+      ],
+      "source_anchor": "Alquiler",
+      "source_page": 3,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "NO"
+      ],
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "GARANTE - Alquiler / Alquiler: NO."
+    },
+    {
+      "id": "f128",
+      "label": "Monto",
+      "path": [
+        "Página 3",
+        "GARANTE - Alquiler",
+        "Monto"
+      ],
+      "source_anchor": "Monto",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "0 ARS: VIVIENDA PROPIA"
+    },
+    {
+      "id": "f129",
+      "label": "Bancos con que opera",
+      "path": [
+        "Página 3",
+        "GARANTE - Relaciones financieras",
+        "Bancos con que opera"
+      ],
+      "source_anchor": "Bancos con que opera",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "BANCO DE LA NACION ARGENTINA"
+    },
+    {
+      "id": "f130",
+      "label": "Tarjetas con que opera",
+      "path": [
+        "Página 3",
+        "GARANTE - Relaciones financieras",
+        "Tarjetas con que opera"
+      ],
+      "source_anchor": "Tarjetas con que opera",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "MASTERCARD"
+    },
+    {
+      "id": "f131",
+      "label": "Nombre/s",
+      "path": [
+        "Página 3",
+        "GARANTE - Cónyuge",
+        "Nombre/s"
+      ],
+      "source_anchor": "Nombre/s",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "JAVIER PABLO"
+    },
+    {
+      "id": "f132",
+      "label": "Apellidos/s",
+      "path": [
+        "Página 3",
+        "GARANTE - Cónyuge",
+        "Apellidos/s"
+      ],
+      "source_anchor": "Apellidos/s",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "COSTA"
+    },
+    {
+      "id": "f133",
+      "label": "D.N.I. N°",
+      "path": [
+        "Página 3",
+        "GARANTE - Cónyuge",
+        "D.N.I. N°"
+      ],
+      "source_anchor": "D.N.I. N°",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "27000844"
+    },
+    {
+      "id": "f134",
+      "label": "CUIT/CUIL",
+      "path": [
+        "Página 3",
+        "GARANTE - Cónyuge",
+        "CUIT/CUIL"
+      ],
+      "source_anchor": "CUIT/CUIL",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "20-27000844-6"
+    },
+    {
+      "id": "f135",
+      "label": "Sexo",
+      "path": [
+        "Página 3",
+        "GARANTE - Cónyuge",
+        "Sexo"
+      ],
+      "source_anchor": "Sexo",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "MASCULINO"
+    },
+    {
+      "id": "f136",
+      "label": "Teléfono particular",
+      "path": [
+        "Página 3",
+        "GARANTE - Cónyuge",
+        "Teléfono particular"
+      ],
+      "source_anchor": "Teléfono particular",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "011 40002844"
+    },
+    {
+      "id": "f137",
+      "label": "Celular",
+      "path": [
+        "Página 3",
+        "GARANTE - Cónyuge",
+        "Celular"
+      ],
+      "source_anchor": "Celular",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "011 150002844"
+    },
+    {
+      "id": "f138",
+      "label": "Mail",
+      "path": [
+        "Página 3",
+        "GARANTE - Cónyuge",
+        "Mail"
+      ],
+      "source_anchor": "Mail",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "conyuge.garante.844@example.org"
+    },
+    {
+      "id": "f139",
+      "label": "Fecha de Nacimiento",
+      "path": [
+        "Página 3",
+        "GARANTE - Cónyuge",
+        "Fecha de Nacimiento"
+      ],
+      "source_anchor": "Fecha de Nacimiento",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "18/02/1978"
+    },
+    {
+      "id": "f140",
+      "label": "Nacionalidad",
+      "path": [
+        "Página 3",
+        "GARANTE - Cónyuge",
+        "Nacionalidad"
+      ],
+      "source_anchor": "Nacionalidad",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "ARGENTINA"
+    },
+    {
+      "id": "f141",
+      "label": "Actividad",
+      "path": [
+        "Página 3",
+        "GARANTE - Cónyuge",
+        "Actividad"
+      ],
+      "source_anchor": "Actividad",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "TECNICO ELECTRONICO"
+    },
+    {
+      "id": "f142",
+      "label": "Teléfono Laboral",
+      "path": [
+        "Página 3",
+        "GARANTE - Cónyuge",
+        "Teléfono Laboral"
+      ],
+      "source_anchor": "Teléfono Laboral",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "011 40003844"
+    },
+    {
+      "id": "f143",
+      "label": "Relación laboral",
+      "path": [
+        "Página 3",
+        "GARANTE - Cónyuge",
+        "Relación laboral"
+      ],
+      "source_anchor": "Relación laboral",
+      "source_page": 3,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Dependiente"
+      ],
+      "options": [
+        "Dependiente",
+        "Independiente"
+      ],
+      "context_evidence": "GARANTE - Cónyuge / Relación laboral: Dependiente."
+    },
+    {
+      "id": "f144",
+      "label": "Nombre de la empresa",
+      "path": [
+        "Página 3",
+        "GARANTE - Cónyuge",
+        "Nombre de la empresa"
+      ],
+      "source_anchor": "Nombre de la empresa",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "ELECTRONICA SINTETICA SRL"
+    },
+    {
+      "id": "f145",
+      "label": "Cargo",
+      "path": [
+        "Página 3",
+        "GARANTE - Cónyuge",
+        "Cargo"
+      ],
+      "source_anchor": "Cargo",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "TECNICO"
+    },
+    {
+      "id": "f146",
+      "label": "Ingreso mensual neto",
+      "path": [
+        "Página 3",
+        "GARANTE - Cónyuge",
+        "Ingreso mensual neto"
+      ],
+      "source_anchor": "Ingreso mensual neto",
+      "source_page": 3,
+      "kind": "text",
+      "synthetic_value": "1800000 ARS"
+    },
+    {
+      "id": "f147",
+      "label": "Nombre/s",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Datos personales",
+        "Nombre/s"
+      ],
+      "source_anchor": "Nombre/s",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "MIGUEL ANGEL"
+    },
+    {
+      "id": "f148",
+      "label": "Apellido/s",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Datos personales",
+        "Apellido/s"
+      ],
+      "source_anchor": "Apellido/s",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "FARIAS"
+    },
+    {
+      "id": "f149",
+      "label": "D.N.I. N°",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Datos personales",
+        "D.N.I. N°"
+      ],
+      "source_anchor": "D.N.I. N°",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "31000844"
+    },
+    {
+      "id": "f150",
+      "label": "CUIT/CUIL",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Datos personales",
+        "CUIT/CUIL"
+      ],
+      "source_anchor": "CUIT/CUIL",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "20-31000844-4"
+    },
+    {
+      "id": "f151",
+      "label": "Teléfono Particular",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Datos personales",
+        "Teléfono Particular"
+      ],
+      "source_anchor": "Teléfono Particular",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "011 40000844"
+    },
+    {
+      "id": "f152",
+      "label": "Celular",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Datos personales",
+        "Celular"
+      ],
+      "source_anchor": "Celular",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "011 150000844"
+    },
+    {
+      "id": "f153",
+      "label": "Mail",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Datos personales",
+        "Mail"
+      ],
+      "source_anchor": "Mail",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "codeudor.844@example.org"
+    },
+    {
+      "id": "f154",
+      "label": "Fecha de Nacimiento",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Datos personales",
+        "Fecha de Nacimiento"
+      ],
+      "source_anchor": "Fecha de Nacimiento",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "22/05/1985"
+    },
+    {
+      "id": "f155",
+      "label": "Nacionalidad",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Datos personales",
+        "Nacionalidad"
+      ],
+      "source_anchor": "Nacionalidad",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "ARGENTINA"
+    },
+    {
+      "id": "f156",
+      "label": "Sexo",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Datos personales",
+        "Sexo"
+      ],
+      "source_anchor": "Sexo",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "MASCULINO"
+    },
+    {
+      "id": "f157",
+      "label": "Estado civil",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Estado civil",
+        "Estado civil"
+      ],
+      "source_anchor": "Estado civil",
+      "source_page": 4,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Casado"
+      ],
+      "options": [
+        "Casado",
+        "Soltero",
+        "Viudo",
+        "Divorciado"
+      ],
+      "context_evidence": "CODEUDOR - Estado civil / Estado civil: Casado."
+    },
+    {
+      "id": "f158",
+      "label": "Calle",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Domicilio particular",
+        "Calle"
+      ],
+      "source_anchor": "Calle",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "GURRUCHAGA"
+    },
+    {
+      "id": "f159",
+      "label": "Número",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Domicilio particular",
+        "Número"
+      ],
+      "source_anchor": "Número",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "844"
+    },
+    {
+      "id": "f160",
+      "label": "Piso",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Domicilio particular",
+        "Piso"
+      ],
+      "source_anchor": "Piso",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "PB"
+    },
+    {
+      "id": "f161",
+      "label": "Depto",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Domicilio particular",
+        "Depto"
+      ],
+      "source_anchor": "Depto",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "UNICO"
+    },
+    {
+      "id": "f162",
+      "label": "Localidad",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Domicilio particular",
+        "Localidad"
+      ],
+      "source_anchor": "Localidad",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "CIUDAD AUTONOMA DE BUENOS AIRES"
+    },
+    {
+      "id": "f163",
+      "label": "Código Postal",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Domicilio particular",
+        "Código Postal"
+      ],
+      "source_anchor": "Código Postal",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "1414"
+    },
+    {
+      "id": "f164",
+      "label": "Provincia",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Domicilio particular",
+        "Provincia"
+      ],
+      "source_anchor": "Provincia",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "CIUDAD AUTONOMA DE BUENOS AIRES"
+    },
+    {
+      "id": "f165",
+      "label": "País",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Domicilio particular",
+        "País"
+      ],
+      "source_anchor": "País",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "ARGENTINA"
+    },
+    {
+      "id": "f166",
+      "label": "Actividad",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Datos laborales",
+        "Actividad"
+      ],
+      "source_anchor": "Actividad",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "DISEÑO GRAFICO EN RELACION DE DEPENDENCIA"
+    },
+    {
+      "id": "f167",
+      "label": "Profesión",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Datos laborales",
+        "Profesión"
+      ],
+      "source_anchor": "Profesión",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "DISEÑADOR GRAFICO"
+    },
+    {
+      "id": "f168",
+      "label": "Nombre de la empresa",
+      "path": [
+        "Página 4",
+        "CODEUDOR - a) Dependiente",
+        "Nombre de la empresa"
+      ],
+      "source_anchor": "Nombre de la empresa",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "DISEÑO EDITORIAL SINTETICO SRL"
+    },
+    {
+      "id": "f169",
+      "label": "Cargo",
+      "path": [
+        "Página 4",
+        "CODEUDOR - a) Dependiente",
+        "Cargo"
+      ],
+      "source_anchor": "Cargo",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "DISEÑADOR"
+    },
+    {
+      "id": "f170",
+      "label": "Calle",
+      "path": [
+        "Página 4",
+        "CODEUDOR - a) Dependiente",
+        "Calle"
+      ],
+      "source_anchor": "Calle",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "AVENIDA CORDOBA"
+    },
+    {
+      "id": "f171",
+      "label": "Número",
+      "path": [
+        "Página 4",
+        "CODEUDOR - a) Dependiente",
+        "Número"
+      ],
+      "source_anchor": "Número",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "2844"
+    },
+    {
+      "id": "f172",
+      "label": "Piso",
+      "path": [
+        "Página 4",
+        "CODEUDOR - a) Dependiente",
+        "Piso"
+      ],
+      "source_anchor": "Piso",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "1"
+    },
+    {
+      "id": "f173",
+      "label": "Localidad",
+      "path": [
+        "Página 4",
+        "CODEUDOR - a) Dependiente",
+        "Localidad"
+      ],
+      "source_anchor": "Localidad",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "CIUDAD AUTONOMA DE BUENOS AIRES"
+    },
+    {
+      "id": "f174",
+      "label": "Código Postal",
+      "path": [
+        "Página 4",
+        "CODEUDOR - a) Dependiente",
+        "Código Postal"
+      ],
+      "source_anchor": "Código Postal",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "1187"
+    },
+    {
+      "id": "f175",
+      "label": "Provincia",
+      "path": [
+        "Página 4",
+        "CODEUDOR - a) Dependiente",
+        "Provincia"
+      ],
+      "source_anchor": "Provincia",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "CIUDAD AUTONOMA DE BUENOS AIRES"
+    },
+    {
+      "id": "f176",
+      "label": "Teléfono",
+      "path": [
+        "Página 4",
+        "CODEUDOR - a) Dependiente",
+        "Teléfono"
+      ],
+      "source_anchor": "Teléfono",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "011 40001844"
+    },
+    {
+      "id": "f177",
+      "label": "Antigüedad laboral",
+      "path": [
+        "Página 4",
+        "CODEUDOR - a) Dependiente",
+        "Antigüedad laboral"
+      ],
+      "source_anchor": "Antigüedad laboral",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "9 AÑOS"
+    },
+    {
+      "id": "f178",
+      "label": "Ingreso mensual neto",
+      "path": [
+        "Página 4",
+        "CODEUDOR - a) Dependiente",
+        "Ingreso mensual neto"
+      ],
+      "source_anchor": "Ingreso mensual neto",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "2000000"
+    },
+    {
+      "id": "f179",
+      "label": "Actividad",
+      "path": [
+        "Página 4",
+        "CODEUDOR - b) Independiente",
+        "Actividad"
+      ],
+      "source_anchor": "Actividad",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: SIN ACTIVIDAD INDEPENDIENTE"
+    },
+    {
+      "id": "f180",
+      "label": "Código AFIP",
+      "path": [
+        "Página 4",
+        "CODEUDOR - b) Independiente",
+        "Código AFIP"
+      ],
+      "source_anchor": "Código AFIP",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: SIN ACTIVIDAD INDEPENDIENTE"
+    },
+    {
+      "id": "f181",
+      "label": "Situación ante AFIP:",
+      "path": [
+        "Página 4",
+        "CODEUDOR - b) Independiente",
+        "Situación ante AFIP:"
+      ],
+      "source_anchor": "Situación ante AFIP:",
+      "source_page": 4,
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "options": [
+        "Resp. Inscripto",
+        "Monotributista",
+        "No Inscripto"
+      ],
+      "context_evidence": "No aplica: codeudor sin actividad independiente. Se conservan todas las opciones del control inactivo sin marcar ninguna.",
+      "inactive_reason": "No aplica: codeudor sin actividad independiente."
+    },
+    {
+      "id": "f182",
+      "label": "Ingreso mensual promedio de los últimos 13 meses",
+      "path": [
+        "Página 4",
+        "CODEUDOR - b) Independiente",
+        "Ingreso mensual promedio de los últimos 13 meses"
+      ],
+      "source_anchor": "Ingreso mensual promedio de los últimos 13 meses",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: SIN ACTIVIDAD INDEPENDIENTE"
+    },
+    {
+      "id": "f183",
+      "label": "Total ingreso mensual neto (a + b)",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Ingresos totales",
+        "Total ingreso mensual neto (a + b)"
+      ],
+      "source_anchor": "Total ingreso mensual neto (a + b)",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "2000000"
+    },
+    {
+      "id": "f184",
+      "label": "Bienes inmuebles",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Bienes inmuebles",
+        "Bienes inmuebles"
+      ],
+      "source_anchor": "Bienes inmuebles",
+      "source_page": 4,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "SI"
+      ],
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "CODEUDOR - Bienes inmuebles / Bienes inmuebles: SI."
+    },
+    {
+      "id": "f185",
+      "label": "Valor estimado",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Bienes inmuebles",
+        "Valor estimado"
+      ],
+      "source_anchor": "Valor estimado",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "90000000 ARS"
+    },
+    {
+      "id": "f186",
+      "label": "Bien de familia",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Bienes inmuebles",
+        "Bien de familia"
+      ],
+      "source_anchor": "Bien de familia",
+      "source_page": 4,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "NO"
+      ],
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "CODEUDOR - Bienes inmuebles / Bien de familia: NO."
+    },
+    {
+      "id": "f187",
+      "label": "Posee bienes muebles",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Bienes muebles",
+        "Posee bienes muebles"
+      ],
+      "source_anchor": "Posee bienes muebles",
+      "source_page": 4,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "SI"
+      ],
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "CODEUDOR - Bienes muebles / Posee bienes muebles: SI."
+    },
+    {
+      "id": "f188",
+      "label": "Bien que posee",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Bienes muebles",
+        "Bien que posee"
+      ],
+      "source_anchor": "Bien que posee",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "AUTOMOVIL PARTICULAR, LIBRE DE PRENDA"
+    },
+    {
+      "id": "f189",
+      "label": "Valor estimado",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Bienes muebles",
+        "Valor estimado"
+      ],
+      "source_anchor": "Valor estimado",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "10000000 ARS"
+    },
+    {
+      "id": "f190",
+      "label": "Hipotecas",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Hipotecas",
+        "Hipotecas"
+      ],
+      "source_anchor": "Hipotecas",
+      "source_page": 4,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "NO"
+      ],
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "CODEUDOR - Hipotecas / Hipotecas: NO."
+    },
+    {
+      "id": "f191",
+      "label": "Otorgada por",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Hipotecas",
+        "Otorgada por"
+      ],
+      "source_anchor": "Otorgada por",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: NO EXISTE DEUDA"
+    },
+    {
+      "id": "f192",
+      "label": "Monto cuota mensual",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Hipotecas",
+        "Monto cuota mensual"
+      ],
+      "source_anchor": "Monto cuota mensual",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "0 ARS"
+    },
+    {
+      "id": "f193",
+      "label": "Cantidad de cuotas totales",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Hipotecas - Totales",
+        "Cantidad de cuotas totales"
+      ],
+      "source_anchor": "Cantidad de cuotas totales",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f194",
+      "label": "Pagadas",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Hipotecas",
+        "Pagadas"
+      ],
+      "source_anchor": "Pagadas",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f195",
+      "label": "Préstamos personales",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Préstamos personales",
+        "Préstamos personales"
+      ],
+      "source_anchor": "Préstamos personales",
+      "source_page": 4,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "NO"
+      ],
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "CODEUDOR - Préstamos personales / Préstamos personales: NO."
+    },
+    {
+      "id": "f196",
+      "label": "Otorgado por",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Préstamos personales",
+        "Otorgado por"
+      ],
+      "source_anchor": "Otorgado por",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: NO EXISTE DEUDA"
+    },
+    {
+      "id": "f197",
+      "label": "Monto cuota mensual",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Préstamos personales",
+        "Monto cuota mensual"
+      ],
+      "source_anchor": "Monto cuota mensual",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "0 ARS"
+    },
+    {
+      "id": "f198",
+      "label": "Cantidad de cuotas",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Préstamos personales - Totales",
+        "Cantidad de cuotas"
+      ],
+      "source_anchor": "Cantidad de cuotas",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f199",
+      "label": "Pagadas",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Préstamos personales",
+        "Pagadas"
+      ],
+      "source_anchor": "Pagadas",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "0"
+    },
+    {
+      "id": "f200",
+      "label": "Alquiler",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Alquiler",
+        "Alquiler"
+      ],
+      "source_anchor": "Alquiler",
+      "source_page": 4,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "NO"
+      ],
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "CODEUDOR - Alquiler / Alquiler: NO."
+    },
+    {
+      "id": "f201",
+      "label": "Monto",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Alquiler",
+        "Monto"
+      ],
+      "source_anchor": "Monto",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "0 ARS: VIVIENDA PROPIA"
+    },
+    {
+      "id": "f202",
+      "label": "Bancos con que opera",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Relaciones financieras",
+        "Bancos con que opera"
+      ],
+      "source_anchor": "Bancos con que opera",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "BANCO DE LA NACION ARGENTINA"
+    },
+    {
+      "id": "f203",
+      "label": "Tarjetas con que opera",
+      "path": [
+        "Página 4",
+        "CODEUDOR - Relaciones financieras",
+        "Tarjetas con que opera"
+      ],
+      "source_anchor": "Tarjetas con que opera",
+      "source_page": 4,
+      "kind": "text",
+      "synthetic_value": "VISA"
+    },
+    {
+      "id": "f204",
+      "label": "Nombre/s",
+      "path": [
+        "Página 5",
+        "CODEUDOR - Cónyuge",
+        "Nombre/s"
+      ],
+      "source_anchor": "Nombre/s",
+      "source_page": 5,
+      "kind": "text",
+      "synthetic_value": "CAROLINA MARIA"
+    },
+    {
+      "id": "f205",
+      "label": "Apellidos/s",
+      "path": [
+        "Página 5",
+        "CODEUDOR - Cónyuge",
+        "Apellidos/s"
+      ],
+      "source_anchor": "Apellidos/s",
+      "source_page": 5,
+      "kind": "text",
+      "synthetic_value": "MENA"
+    },
+    {
+      "id": "f206",
+      "label": "D.N.I. N°",
+      "path": [
+        "Página 5",
+        "CODEUDOR - Cónyuge",
+        "D.N.I. N°"
+      ],
+      "source_anchor": "D.N.I. N°",
+      "source_page": 5,
+      "kind": "text",
+      "synthetic_value": "32000844"
+    },
+    {
+      "id": "f207",
+      "label": "CUIT/CUIL",
+      "path": [
+        "Página 5",
+        "CODEUDOR - Cónyuge",
+        "CUIT/CUIL"
+      ],
+      "source_anchor": "CUIT/CUIL",
+      "source_page": 5,
+      "kind": "text",
+      "synthetic_value": "27-32000844-7"
+    },
+    {
+      "id": "f208",
+      "label": "Sexo",
+      "path": [
+        "Página 5",
+        "CODEUDOR - Cónyuge",
+        "Sexo"
+      ],
+      "source_anchor": "Sexo",
+      "source_page": 5,
+      "kind": "text",
+      "synthetic_value": "FEMENINO"
+    },
+    {
+      "id": "f209",
+      "label": "Teléfono particular",
+      "path": [
+        "Página 5",
+        "CODEUDOR - Cónyuge",
+        "Teléfono particular"
+      ],
+      "source_anchor": "Teléfono particular",
+      "source_page": 5,
+      "kind": "text",
+      "synthetic_value": "011 40002844"
+    },
+    {
+      "id": "f210",
+      "label": "Celular",
+      "path": [
+        "Página 5",
+        "CODEUDOR - Cónyuge",
+        "Celular"
+      ],
+      "source_anchor": "Celular",
+      "source_page": 5,
+      "kind": "text",
+      "synthetic_value": "011 150002844"
+    },
+    {
+      "id": "f211",
+      "label": "Mail",
+      "path": [
+        "Página 5",
+        "CODEUDOR - Cónyuge",
+        "Mail"
+      ],
+      "source_anchor": "Mail",
+      "source_page": 5,
+      "kind": "text",
+      "synthetic_value": "conyuge.codeudor.844@example.org"
+    },
+    {
+      "id": "f212",
+      "label": "Fecha de Nacimiento",
+      "path": [
+        "Página 5",
+        "CODEUDOR - Cónyuge",
+        "Fecha de Nacimiento"
+      ],
+      "source_anchor": "Fecha de Nacimiento",
+      "source_page": 5,
+      "kind": "text",
+      "synthetic_value": "07/11/1987"
+    },
+    {
+      "id": "f213",
+      "label": "Nacionalidad",
+      "path": [
+        "Página 5",
+        "CODEUDOR - Cónyuge",
+        "Nacionalidad"
+      ],
+      "source_anchor": "Nacionalidad",
+      "source_page": 5,
+      "kind": "text",
+      "synthetic_value": "ARGENTINA"
+    },
+    {
+      "id": "f214",
+      "label": "Actividad",
+      "path": [
+        "Página 5",
+        "CODEUDOR - Cónyuge",
+        "Actividad"
+      ],
+      "source_anchor": "Actividad",
+      "source_page": 5,
+      "kind": "text",
+      "synthetic_value": "TRADUCTORA INDEPENDIENTE"
+    },
+    {
+      "id": "f215",
+      "label": "Teléfono Laboral",
+      "path": [
+        "Página 5",
+        "CODEUDOR - Cónyuge",
+        "Teléfono Laboral"
+      ],
+      "source_anchor": "Teléfono Laboral",
+      "source_page": 5,
+      "kind": "text",
+      "synthetic_value": "011 40003844"
+    },
+    {
+      "id": "f216",
+      "label": "Relación laboral",
+      "path": [
+        "Página 5",
+        "CODEUDOR - Cónyuge",
+        "Relación laboral"
+      ],
+      "source_anchor": "Relación laboral",
+      "source_page": 5,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Independiente"
+      ],
+      "options": [
+        "Dependiente",
+        "Independiente"
+      ],
+      "context_evidence": "CODEUDOR - Cónyuge / Relación laboral: Independiente."
+    },
+    {
+      "id": "f217",
+      "label": "Nombre de la empresa",
+      "path": [
+        "Página 5",
+        "CODEUDOR - Cónyuge",
+        "Nombre de la empresa"
+      ],
+      "source_anchor": "Nombre de la empresa",
+      "source_page": 5,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: TRABAJA POR CUENTA PROPIA"
+    },
+    {
+      "id": "f218",
+      "label": "Cargo",
+      "path": [
+        "Página 5",
+        "CODEUDOR - Cónyuge",
+        "Cargo"
+      ],
+      "source_anchor": "Cargo",
+      "source_page": 5,
+      "kind": "text",
+      "synthetic_value": "TRADUCTORA"
+    },
+    {
+      "id": "f219",
+      "label": "Ingreso mensual neto",
+      "path": [
+        "Página 5",
+        "CODEUDOR - Cónyuge",
+        "Ingreso mensual neto"
+      ],
+      "source_anchor": "Ingreso mensual neto",
+      "source_page": 5,
+      "kind": "text",
+      "synthetic_value": "1500000 ARS"
+    },
+    {
+      "id": "f220",
+      "label": "Solicitante en calle",
+      "path": [
+        "Página 7",
+        "SOLICITANTE - Domicilio legal especial",
+        "Solicitante en calle"
+      ],
+      "source_anchor": "Solicitante en calle",
+      "source_page": 7,
+      "kind": "text",
+      "synthetic_value": "PARAGUAY"
+    },
+    {
+      "id": "f221",
+      "label": "N\"",
+      "path": [
+        "Página 7",
+        "SOLICITANTE - Domicilio legal especial",
+        "N\""
+      ],
+      "source_anchor": "N\"",
+      "source_page": 7,
+      "kind": "text",
+      "synthetic_value": "4844"
+    },
+    {
+      "id": "f222",
+      "label": "Piso",
+      "path": [
+        "Página 7",
+        "SOLICITANTE - Domicilio legal especial",
+        "Piso"
+      ],
+      "source_anchor": "Piso",
+      "source_page": 7,
+      "kind": "text",
+      "synthetic_value": "PB"
+    },
+    {
+      "id": "f223",
+      "label": "Dto",
+      "path": [
+        "Página 7",
+        "SOLICITANTE - Domicilio legal especial",
+        "Dto"
+      ],
+      "source_anchor": "Dto",
+      "source_page": 7,
+      "kind": "text",
+      "synthetic_value": "UNICO"
+    },
+    {
+      "id": "f224",
+      "label": "CP",
+      "path": [
+        "Página 7",
+        "SOLICITANTE - Domicilio legal especial",
+        "CP"
+      ],
+      "source_anchor": "CP",
+      "source_page": 7,
+      "kind": "text",
+      "synthetic_value": "1425"
+    },
+    {
+      "id": "f225",
+      "label": "Garante en calle",
+      "path": [
+        "Página 7",
+        "GARANTE - Domicilio legal especial",
+        "Garante en calle"
+      ],
+      "source_anchor": "Garante en calle",
+      "source_page": 7,
+      "kind": "text",
+      "synthetic_value": "ESTOMBA"
+    },
+    {
+      "id": "f226",
+      "label": "N'",
+      "path": [
+        "Página 7",
+        "GARANTE - Domicilio legal especial",
+        "N'"
+      ],
+      "source_anchor": "N'",
+      "source_page": 7,
+      "kind": "text",
+      "synthetic_value": "2844"
+    },
+    {
+      "id": "f227",
+      "label": "Piso",
+      "path": [
+        "Página 7",
+        "GARANTE - Domicilio legal especial",
+        "Piso"
+      ],
+      "source_anchor": "Piso",
+      "source_page": 7,
+      "kind": "text",
+      "synthetic_value": "PB"
+    },
+    {
+      "id": "f228",
+      "label": "Dto",
+      "path": [
+        "Página 7",
+        "GARANTE - Domicilio legal especial",
+        "Dto"
+      ],
+      "source_anchor": "Dto",
+      "source_page": 7,
+      "kind": "text",
+      "synthetic_value": "UNICO"
+    },
+    {
+      "id": "f229",
+      "label": "CP",
+      "path": [
+        "Página 7",
+        "GARANTE - Domicilio legal especial",
+        "CP"
+      ],
+      "source_anchor": "CP",
+      "source_page": 7,
+      "kind": "text",
+      "synthetic_value": "1430"
+    },
+    {
+      "id": "f230",
+      "label": "Codeudor en calle",
+      "path": [
+        "Página 7",
+        "CODEUDOR - Domicilio legal especial",
+        "Codeudor en calle"
+      ],
+      "source_anchor": "Codeudor en calle",
+      "source_page": 7,
+      "kind": "text",
+      "synthetic_value": "GURRUCHAGA"
+    },
+    {
+      "id": "f231",
+      "label": "N'",
+      "path": [
+        "Página 7",
+        "CODEUDOR - Domicilio legal especial",
+        "N'"
+      ],
+      "source_anchor": "N'",
+      "source_page": 7,
+      "kind": "text",
+      "synthetic_value": "844"
+    },
+    {
+      "id": "f232",
+      "label": "Piso",
+      "path": [
+        "Página 7",
+        "CODEUDOR - Domicilio legal especial",
+        "Piso"
+      ],
+      "source_anchor": "Piso",
+      "source_page": 7,
+      "kind": "text",
+      "synthetic_value": "PB"
+    },
+    {
+      "id": "f233",
+      "label": "Dto",
+      "path": [
+        "Página 7",
+        "CODEUDOR - Domicilio legal especial",
+        "Dto"
+      ],
+      "source_anchor": "Dto",
+      "source_page": 7,
+      "kind": "text",
+      "synthetic_value": "UNICO"
+    },
+    {
+      "id": "f234",
+      "label": "CP",
+      "path": [
+        "Página 7",
+        "CODEUDOR - Domicilio legal especial",
+        "CP"
+      ],
+      "source_anchor": "CP",
+      "source_page": 7,
+      "kind": "text",
+      "synthetic_value": "1414"
+    },
+    {
+      "id": "f235",
+      "label": "Firma del solicitante",
+      "path": [
+        "Página 7",
+        "SOLICITANTE - Firma",
+        "Firma del solicitante"
+      ],
+      "source_anchor": "Firma del solicitante",
+      "source_page": 7,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de PAULA INES GIMENEZ"
+    },
+    {
+      "id": "f236",
+      "label": "Firma del cónyuge",
+      "path": [
+        "Página 7",
+        "SOLICITANTE - Firma del cónyuge",
+        "Firma del cónyuge"
+      ],
+      "source_anchor": "Firma del cónyuge",
+      "source_page": 7,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de MARTIN EDUARDO LUNA"
+    },
+    {
+      "id": "f237",
+      "label": "Firma del garante",
+      "path": [
+        "Página 7",
+        "GARANTE - Firma",
+        "Firma del garante"
+      ],
+      "source_anchor": "Firma del garante",
+      "source_page": 7,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de ROSANA ELENA ARCE"
+    },
+    {
+      "id": "f238",
+      "label": "Firma del cónyuge garante",
+      "path": [
+        "Página 7",
+        "GARANTE - Firma del cónyuge",
+        "Firma del cónyuge garante"
+      ],
+      "source_anchor": "Firma del cónyuge garante",
+      "source_page": 7,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de JAVIER PABLO COSTA"
+    },
+    {
+      "id": "f239",
+      "label": "Firma del codeudor",
+      "path": [
+        "Página 7",
+        "CODEUDOR - Firma",
+        "Firma del codeudor"
+      ],
+      "source_anchor": "Firma del codeudor",
+      "source_page": 7,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de MIGUEL ANGEL FARIAS"
+    },
+    {
+      "id": "f240",
+      "label": "Firma del cónyuge codeudor",
+      "path": [
+        "Página 7",
+        "CODEUDOR - Firma del cónyuge",
+        "Firma del cónyuge codeudor"
+      ],
+      "source_anchor": "Firma del cónyuge codeudor",
+      "source_page": 7,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de CAROLINA MARIA MENA"
+    },
+    {
+      "id": "f241",
+      "label": "Domicilio Particular",
+      "path": [
+        "Página 1",
+        "SOLICITANTE - Domicilio particular resumen",
+        "Domicilio Particular"
+      ],
+      "source_anchor": "Domicilio Particular",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "PARAGUAY 4844, PB, DEPTO. UNICO, C1425, CABA, ARGENTINA"
+    },
+    {
+      "id": "f242",
+      "label": "Cantidad de cuotas",
+      "path": [
+        "Página 2",
+        "SOLICITANTE - Préstamos personales - Primer casillero anterior a Totales",
+        "Cantidad de cuotas"
+      ],
+      "source_anchor": "Cantidad de cuotas",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "0"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "FORMULARIO DE SOLICITUD",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Préstamo Personal",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "SOLICITANTE",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "1- Datos Personales",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Datos personales / Nombre/s",
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Datos personales / Apellidos/s",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Datos personales / D.N.I. N°",
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Datos personales / CUIT/CUIL",
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Datos personales / Teléfono Particular",
+        "field": "f005",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Datos personales / Celular",
+        "field": "f006",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Datos personales / Mail",
+        "field": "f007",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Datos personales / Fecha de Nacimiento",
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Datos personales / Nacionalidad",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Datos personales / Sexo",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Estado civil / Estado civil",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Domicilio Particular",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Domicilio particular resumen / Domicilio Particular",
+        "field": "f241",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Domicilio particular / Calle",
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Domicilio particular / Número",
+        "field": "f013",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Domicilio particular / Piso",
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Domicilio particular / Depto.",
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Domicilio particular / Localidad",
+        "field": "f016",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Domicilio particular / Código Postal",
+        "field": "f017",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Domicilio particular / Provincia",
+        "field": "f018",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Domicilio particular / País",
+        "field": "f019",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "2 - Datos Laborales",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Datos laborales / Actividad",
+        "field": "f020",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Datos laborales / Profesión",
+        "field": "f021",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "a) Dependiente",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - a) Dependiente / Nombre de la empresa",
+        "field": "f022",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - a) Dependiente / Cargo",
+        "field": "f023",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - a) Dependiente / Calle",
+        "field": "f024",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - a) Dependiente / Número",
+        "field": "f025",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - a) Dependiente / Piso",
+        "field": "f026",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - a) Dependiente / Localidad",
+        "field": "f027",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - a) Dependiente / Código Postal",
+        "field": "f028",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - a) Dependiente / Provincia",
+        "field": "f029",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - a) Dependiente / Teléfono",
+        "field": "f030",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - a) Dependiente / Antigüedad laboral",
+        "field": "f031",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - a) Dependiente / Ingreso mensual neto",
+        "field": "f032",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "b) Independiente",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - b) Independiente / Actividad",
+        "field": "f033",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - b) Independiente / Código AFIP",
+        "field": "f034",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - b) Independiente / Situación ante AFIP:",
+        "field": "f035",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - b) Independiente / Ingreso mensual promedio de los últimos 13 meses",
+        "field": "f036",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Ingresos totales / Total ingreso mensual neto (a + b)",
+        "field": "f037",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Pág. 1",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Fondo Nacional de las Artes - Ministerio de Cultura - Presidencia de la Nación",
+        "source_page": 1,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "text": "3- Datos Crediticios",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Bienes inmuebles / Bienes inmuebles",
+        "field": "f038",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Bienes inmuebles / Valor estimado",
+        "field": "f039",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Bienes inmuebles / Bien de familia",
+        "field": "f040",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Bienes muebles / Bienes muebles",
+        "field": "f041",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Bienes muebles / Bien que posee",
+        "field": "f042",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Bienes muebles / Valor estimado",
+        "field": "f043",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Hipotecas / Hipotecas",
+        "field": "f044",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Hipotecas / Otorgada por",
+        "field": "f045",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Hipotecas / Monto cuota mensual",
+        "field": "f046",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Hipotecas - Totales / Cantidad de cuotas totales",
+        "field": "f047",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Hipotecas / Pagadas",
+        "field": "f048",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Préstamos personales / Préstamos personales",
+        "field": "f049",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Préstamos personales / Otorgado por",
+        "field": "f050",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Préstamos personales / Monto cuota mensual",
+        "field": "f051",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Préstamos personales - Primer casillero anterior a Totales / Cantidad de cuotas",
+        "field": "f242",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Préstamos personales / Cantidad de cuotas / Totales",
+        "field": "f052",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Préstamos personales / Pagadas",
+        "field": "f053",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Alquiler / Alquiler",
+        "field": "f054",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Alquiler / Monto",
+        "field": "f055",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Relaciones financieras / Bancos con que opera",
+        "field": "f056",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Relaciones financieras / Tarjetas con que opera",
+        "field": "f057",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "4- Datos del cónyuge",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Cónyuge / Nombre/s",
+        "field": "f058",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Cónyuge / Apellidos/s",
+        "field": "f059",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Cónyuge / D.N.I. N°",
+        "field": "f060",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Cónyuge / CUIT/CUIL",
+        "field": "f061",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Cónyuge / Sexo",
+        "field": "f062",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Cónyuge / Teléfono particular",
+        "field": "f063",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Cónyuge / Celular",
+        "field": "f064",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Cónyuge / Mail",
+        "field": "f065",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Cónyuge / Fecha de Nacimiento",
+        "field": "f066",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Cónyuge / Nacionalidad",
+        "field": "f067",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Cónyuge / Actividad",
+        "field": "f068",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Cónyuge / Teléfono Laboral",
+        "field": "f069",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Cónyuge / Relación laboral",
+        "field": "f070",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Cónyuge / Nombre de la empresa",
+        "field": "f071",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Cónyuge / Cargo",
+        "field": "f072",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Cónyuge / Ingreso mensual neto",
+        "field": "f073",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "GARANTE",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "5 - Datos personales",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Datos personales / Nombre/s",
+        "field": "f074",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Datos personales / Apellidos/s",
+        "field": "f075",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Datos personales / D.N.I. N°",
+        "field": "f076",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Datos personales / CUIT/CUIL",
+        "field": "f077",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Datos personales / Teléfono Particular",
+        "field": "f078",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Datos personales / Celular",
+        "field": "f079",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Datos personales / Mail",
+        "field": "f080",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Datos personales / Fecha de Nacimiento",
+        "field": "f081",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Datos personales / Nacionalidad",
+        "field": "f082",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Datos personales / Sexo",
+        "field": "f083",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Estado civil / Estado civil",
+        "field": "f084",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Domicilio Particular",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Domicilio particular / Calle",
+        "field": "f085",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Domicilio particular / Número",
+        "field": "f086",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Domicilio particular / Piso",
+        "field": "f087",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Domicilio particular / Depto.",
+        "field": "f088",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Domicilio particular / Localidad",
+        "field": "f089",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Domicilio particular / Código Postal",
+        "field": "f090",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Domicilio particular / Provincia",
+        "field": "f091",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Domicilio particular / País",
+        "field": "f092",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Pág. 2",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Fondo Nacional de las Artes - Ministerio de Cultura - Presidencia de la Nación",
+        "source_page": 2,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "text": "6 - Datos laborales",
+        "source_page": 3,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Datos laborales / Actividad",
+        "field": "f093",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Datos laborales / Profesión",
+        "field": "f094",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "a) Dependiente",
+        "source_page": 3,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - a) Dependiente / Nombre de la empresa",
+        "field": "f095",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - a) Dependiente / Cargo",
+        "field": "f096",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - a) Dependiente / Calle",
+        "field": "f097",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - a) Dependiente / Número",
+        "field": "f098",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - a) Dependiente / Piso",
+        "field": "f099",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - a) Dependiente / Localidad",
+        "field": "f100",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - a) Dependiente / Código Postal",
+        "field": "f101",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - a) Dependiente / Provincia",
+        "field": "f102",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - a) Dependiente / Teléfono",
+        "field": "f103",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - a) Dependiente / Antigüedad laboral",
+        "field": "f104",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - a) Dependiente / Ingreso mensual neto",
+        "field": "f105",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "b) Independiente",
+        "source_page": 3,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - b) Independiente / Actividad",
+        "field": "f106",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - b) Independiente / Código AFIP",
+        "field": "f107",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - b) Independiente / Situación ante AFIP:",
+        "field": "f108",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - b) Independiente / Ingreso mensual promedio de los últimos 13 meses",
+        "field": "f109",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Ingresos totales / Total ingreso mensual neto (a + b)",
+        "field": "f110",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "7 - Datos crediticios",
+        "source_page": 3,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Bienes inmuebles / Bienes inmuebles",
+        "field": "f111",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Bienes inmuebles / Valor estimado",
+        "field": "f112",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Bienes inmuebles / Bien de familia",
+        "field": "f113",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Bienes muebles / Posee bienes muebles",
+        "field": "f114",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Bienes muebles / Bien que posee",
+        "field": "f115",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Bienes muebles / Valor estimado",
+        "field": "f116",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Hipotecas / Hipotecas",
+        "field": "f117",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Hipotecas / Otorgada por",
+        "field": "f118",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Hipotecas / Monto cuota mensual",
+        "field": "f119",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Hipotecas - Totales / Cantidad de cuotas totales",
+        "field": "f120",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Hipotecas / Pagadas",
+        "field": "f121",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Préstamos personales / Préstamos personales",
+        "field": "f122",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Préstamos personales / Otorgado por",
+        "field": "f123",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Préstamos personales / Monto cuota mensual",
+        "field": "f124",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Préstamos personales - Totales / Cantidad de cuotas",
+        "field": "f125",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Préstamos personales / Pagadas",
+        "field": "f126",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Alquiler / Alquiler",
+        "field": "f127",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Alquiler / Monto",
+        "field": "f128",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Relaciones financieras / Bancos con que opera",
+        "field": "f129",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Relaciones financieras / Tarjetas con que opera",
+        "field": "f130",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "8 - Datos del cónyuge",
+        "source_page": 3,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Cónyuge / Nombre/s",
+        "field": "f131",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Cónyuge / Apellidos/s",
+        "field": "f132",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Cónyuge / D.N.I. N°",
+        "field": "f133",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Cónyuge / CUIT/CUIL",
+        "field": "f134",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Cónyuge / Sexo",
+        "field": "f135",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Cónyuge / Teléfono particular",
+        "field": "f136",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Cónyuge / Celular",
+        "field": "f137",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Cónyuge / Mail",
+        "field": "f138",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Cónyuge / Fecha de Nacimiento",
+        "field": "f139",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Cónyuge / Nacionalidad",
+        "field": "f140",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Cónyuge / Actividad",
+        "field": "f141",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Cónyuge / Teléfono Laboral",
+        "field": "f142",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Cónyuge / Relación laboral",
+        "field": "f143",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Cónyuge / Nombre de la empresa",
+        "field": "f144",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Cónyuge / Cargo",
+        "field": "f145",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Cónyuge / Ingreso mensual neto",
+        "field": "f146",
+        "colspan": 2,
+        "source_page": 3
+      }
+    ],
+    [
+      {
+        "text": "Pág. 3",
+        "source_page": 3,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Fondo Nacional de las Artes - Ministerio de Cultura - Presidencia de la Nación",
+        "source_page": 3,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "text": "CODEUDOR (Si correspondiere)",
+        "source_page": 4,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "9 - Datos personales",
+        "source_page": 4,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Datos personales / Nombre/s",
+        "field": "f147",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Datos personales / Apellido/s",
+        "field": "f148",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Datos personales / D.N.I. N°",
+        "field": "f149",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Datos personales / CUIT/CUIL",
+        "field": "f150",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Datos personales / Teléfono Particular",
+        "field": "f151",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Datos personales / Celular",
+        "field": "f152",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Datos personales / Mail",
+        "field": "f153",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Datos personales / Fecha de Nacimiento",
+        "field": "f154",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Datos personales / Nacionalidad",
+        "field": "f155",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Datos personales / Sexo",
+        "field": "f156",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Estado civil / Estado civil",
+        "field": "f157",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "Domicilio Particular",
+        "source_page": 4,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Domicilio particular / Calle",
+        "field": "f158",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Domicilio particular / Número",
+        "field": "f159",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Domicilio particular / Piso",
+        "field": "f160",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Domicilio particular / Depto",
+        "field": "f161",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Domicilio particular / Localidad",
+        "field": "f162",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Domicilio particular / Código Postal",
+        "field": "f163",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Domicilio particular / Provincia",
+        "field": "f164",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Domicilio particular / País",
+        "field": "f165",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "10- Datos laborales",
+        "source_page": 4,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Datos laborales / Actividad",
+        "field": "f166",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Datos laborales / Profesión",
+        "field": "f167",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "a) Dependiente",
+        "source_page": 4,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - a) Dependiente / Nombre de la empresa",
+        "field": "f168",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - a) Dependiente / Cargo",
+        "field": "f169",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - a) Dependiente / Calle",
+        "field": "f170",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - a) Dependiente / Número",
+        "field": "f171",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - a) Dependiente / Piso",
+        "field": "f172",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - a) Dependiente / Localidad",
+        "field": "f173",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - a) Dependiente / Código Postal",
+        "field": "f174",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - a) Dependiente / Provincia",
+        "field": "f175",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - a) Dependiente / Teléfono",
+        "field": "f176",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - a) Dependiente / Antigüedad laboral",
+        "field": "f177",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - a) Dependiente / Ingreso mensual neto",
+        "field": "f178",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "b) Independiente",
+        "source_page": 4,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - b) Independiente / Actividad",
+        "field": "f179",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - b) Independiente / Código AFIP",
+        "field": "f180",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - b) Independiente / Situación ante AFIP:",
+        "field": "f181",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - b) Independiente / Ingreso mensual promedio de los últimos 13 meses",
+        "field": "f182",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Ingresos totales / Total ingreso mensual neto (a + b)",
+        "field": "f183",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "11 - Datos crediticios",
+        "source_page": 4,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Bienes inmuebles / Bienes inmuebles",
+        "field": "f184",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Bienes inmuebles / Valor estimado",
+        "field": "f185",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Bienes inmuebles / Bien de familia",
+        "field": "f186",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Bienes muebles / Posee bienes muebles",
+        "field": "f187",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Bienes muebles / Bien que posee",
+        "field": "f188",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Bienes muebles / Valor estimado",
+        "field": "f189",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Hipotecas / Hipotecas",
+        "field": "f190",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Hipotecas / Otorgada por",
+        "field": "f191",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Hipotecas / Monto cuota mensual",
+        "field": "f192",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Hipotecas - Totales / Cantidad de cuotas totales",
+        "field": "f193",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Hipotecas / Pagadas",
+        "field": "f194",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Préstamos personales / Préstamos personales",
+        "field": "f195",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Préstamos personales / Otorgado por",
+        "field": "f196",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Préstamos personales / Monto cuota mensual",
+        "field": "f197",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Préstamos personales - Totales / Cantidad de cuotas",
+        "field": "f198",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Préstamos personales / Pagadas",
+        "field": "f199",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Alquiler / Alquiler",
+        "field": "f200",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Alquiler / Monto",
+        "field": "f201",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Relaciones financieras / Bancos con que opera",
+        "field": "f202",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Relaciones financieras / Tarjetas con que opera",
+        "field": "f203",
+        "colspan": 2,
+        "source_page": 4
+      }
+    ],
+    [
+      {
+        "text": "Pág. 4",
+        "source_page": 4,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Fondo Nacional de las Artes - Ministerio de Cultura - Presidencia de la Nación",
+        "source_page": 4,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "text": "12 - Datos del cónyuge",
+        "source_page": 5,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Cónyuge / Nombre/s",
+        "field": "f204",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Cónyuge / Apellidos/s",
+        "field": "f205",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Cónyuge / D.N.I. N°",
+        "field": "f206",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Cónyuge / CUIT/CUIL",
+        "field": "f207",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Cónyuge / Sexo",
+        "field": "f208",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Cónyuge / Teléfono particular",
+        "field": "f209",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Cónyuge / Celular",
+        "field": "f210",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Cónyuge / Mail",
+        "field": "f211",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Cónyuge / Fecha de Nacimiento",
+        "field": "f212",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Cónyuge / Nacionalidad",
+        "field": "f213",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Cónyuge / Actividad",
+        "field": "f214",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Cónyuge / Teléfono Laboral",
+        "field": "f215",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Cónyuge / Relación laboral",
+        "field": "f216",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Cónyuge / Nombre de la empresa",
+        "field": "f217",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Cónyuge / Cargo",
+        "field": "f218",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Cónyuge / Ingreso mensual neto",
+        "field": "f219",
+        "colspan": 2,
+        "source_page": 5
+      }
+    ],
+    [
+      {
+        "text": "CONDICIONES GENERALES DE LOS PRÉSTAMOS",
+        "source_page": 5,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "1) El presente préstamo será instrumentado en un pagaré a la vista, firmado por el solicitante y garante/codeudor (en adelante Los Deudores) a favor del Fondo Nacional de las Artes, con cláusula \"SIN PROTESTO\". Por el importe que resulte el préstamo acordado más el primer periodo de intereses con plazo para su presentación hasta los 48 meses de su fecha de emisión (Art 36 y 103 Decreto Ley 5965/63). El mencionado pagaré tributará el sellado de ley correspondiente que será a cargo del/los deudores.",
+        "source_page": 5,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "2) El importe acordado del préstamo, plazo, cuotas de amortización e intereses comunes y de mora serán fijados por Resolución del Directorio del Fondo Nacional de las Artes, previo despacho de la Comisión correspondiente.",
+        "source_page": 5,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "3) El Fondo Nacional de las Artes al proceder a liquidar y abonar el préstamo entregará al/los deudor/es el plan de pagos correspondiente con la fecha de vencimiento de cada uno de los servicios de amortización e intereses y los mismos deberán ser abonados en el domicilio del Fondo o donde este indique en cada caso. Las cuotas del préstamo acordado podrán ser abonadas por depósito bancario y/o transferencia a la Cuenta Corriente oficial del FONDO NACIONAL DE LAS ARTES que se indicará, debiendo remitir los deudores en las fechas de los sucesivos vencimientos, constancia fehaciente del depósito realizado, a los fines de su correcta imputación. En caso de incumplimiento se tendrá por no perfeccionado el pago hasta tanto se lo acredite fehacientemente.",
+        "source_page": 5,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "4) La falta de pago de una sola cuota de amortización y los intereses en las fechas indicadas constituye en mora al/los deudor/es sin necesidad de protestas e interpelaciones judiciales o extrajudiciales y produce de pleno derecho la caducidad de los plazos no vencidos, autorizando al Fondo Nacional de las Artes a exigir el pago integro del saldo adeudado (amortización más intereses compensatorios, más intereses punitorios, gastos y costas judiciales que correspondan) sirviendo de titulo ejecutivo suficiente el pagaré firmado",
+        "source_page": 5,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "5) Es facultad del Fondo Nacional de las Artes, para el caso de mora en el pago de los servicios del préstamo, aplicar al/los deudor/es, sobre el saldo de la deuda vencida o impaga con sus reajustes y accesorios y por el lapso de duración de los atrasos, un interés adicional por mora que se establecerá en la Resolución del Fondo Nacional de las Artes correspondiente y que será el porcentaje anual vencido reajustable que el Fondo determine. Vencido ese plazo sin que los pagos se hayan normalizado, se considerarán de pleno derecho caducados todos los plazos no vencidos y el interés fijado precedentemente se liquidará sobre el total adeudado—capital e interés común — a partir de la fecha en que se ha producido la mora correspondiente",
+        "source_page": 5,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Pág. 5",
+        "source_page": 5,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Fondo Nacional de las Artes - Ministerio de Cultura - Presidencia de la Nación",
+        "source_page": 5,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "text": "6) Toda justificación de pago deberá ser presentada al Fondo Nacional de las Artes hasta el día del vencimiento de la obligación, en caso de no ser así, se considerará operada la mora, pudiendo la institución acreedora ejercitar las acciones legales del caso",
+        "source_page": 6,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "7) El/los deudor/es aceptan expresamente las obligaciones dispuestas por el Art. 29 del Decreto 6255/58 en favor del Fondo Nacional de las Artes, a saber: \"Articulo 29: El Fondo Nacional de las Artes podrá requerir inspecciones de carácter técnico-contables necesarias para sus operaciones y tomar medidas de control, verificación y fiscal- ización posterior que considere adecuadas. Los gastos respectivos serán a cargo de los solicitantes o beneficiarios del crédito con las excepciones que dispongan los reglamentos internos\". Para el caso el/los deudor/es deberá/n facilitar los elementos, comprobantes, etc, a los funcionarios designados para la realización de inspecciones, salvo el caso que esa exhibición se hubiera ejecutado en el acto del cobro del préstamo",
+        "source_page": 6,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "8) El Fondo Nacional de las Artes podrá reclamar el préstamo y sus accesorios de plazo vencido y exigir de inmedi- ato la totalidad del saldo adeudado a ese momento, sin necesidad de interpelación alguna judicial o extrajudicial en caso que el/los deudor/es no cumplieran con cualquiera de las obligaciones asumidas por la operación del crédito, así como en el caso de que se produjera cesación de pagos, concurso civil o preventivo, quiebra, inhibición, embargo o afectación sobre sus bienes",
+        "source_page": 6,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "9) El/los deudores se obliga/n a justificar el destino dado al préstamo dentro del plazo que se establezca en el momento de percibir el crédito y a proporcionar al Fondo Nacional de las Artes todos los elementos de prueba necesarios a tal efecto. En caso que se negaran a facilitar esas verificaciones, o que efectuadas se comprobara que hubo falsedad en los datos proporcionados al solicitar el préstamo, o que el dinero no fue destinado a las finali- dades para las cuales fue otorgado el/los deudor/es serán intimado/s a cancelar la totalidad del saldo adeudado más intereses compensatorios y punitorios, gastos y costas judiciales que correspondan, dentro de los 10 días de notificado, bajo apercibimiento de aplicar al mero vencimiento de este plazo lo dispuesto por el Fondo Nacional de las Artes. Es facultad del Fondo Nacional de las Artes para el caso de verificarse el incumplimiento del destino del crédito aplicar desde la fecha de la infracción y hasta la fecha de cancelación de la totalidad del saldo adeudado un interés adicional punitorio establecido por Resolución F N A. El interés será anual vencido reajustable en las condiciones que el Fondo determine, calculado sobre saldos.",
+        "source_page": 6,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "10) El/los deudor/es acepta/n que las tasas de interés compensatorio, interés adicional por mora e interés adicio- nal punitorio aplicadas al presente préstamo, puedan ser modificadas cuando así lo resuelva, a su solo juicio y con carácter general en lo futuro para este tipo de operación, el Fondo Nacional de las Artes, hasta la total cancelación de la deuda, la alteración de tasa de interés aplicable conforme con lo precedente, facultará al Fondo para modifi- car el importe de las cuotas de amortización a pagar éste ajuste importará la modificación del servicio mensual, tanto en la parte que comprende el rubro \"capital\" como en la que comprende el concepto \"intereses\", dado el sistema de amortización que aplica el Fondo en esta operación. Tal modificación en modo alguno importará variar el saldo del capital ni el plazo y número de cuotas estipuladas. Todo ajuste de intereses no percibido por el Fondo en oportunidad de recibir un pago originará a su favor, automáticamente, un crédito que será exigible y que se comprometen a abonar a su primer requerimiento.",
+        "source_page": 6,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "11) En caso de ser necesario la presentación de un codeudor, la garantía tendrá carácter de codeudor solidario, liso, llano y principal pagador con renuncia al beneficio de excusión y división del crédito",
+        "source_page": 6,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Pág. 6",
+        "source_page": 6,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Fondo Nacional de las Artes - Ministerio de Cultura - Presidencia de la Nación",
+        "source_page": 6,
+        "colspan": 2
+      }
+    ],
+    [
+      {
+        "text": "12) El Directorio no considerará ningún pedido de prórroga para el pago de los servicios del préstamo si el mismo fuera formulado con posterioridad a la fecha de vencimiento de pago y su acuerdo será facultad del Fondo Nacio- nal de las Artes y siempre con carácter de excepción.",
+        "source_page": 7,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "13) El/los deudor/es acepta/n que las prórrogas, renovaciones o facilidades que el Fondo Nacional de las Artes resolviere conceder al/los prestatario/s dentro o fuera de los plazos estipulados, no significarán novación de la deuda. La prórroga que se conceda a una cuota o servicio no importará alteración de los plazo establecidos para los restantes.",
+        "source_page": 7,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "14) El solicitante y codeudor/es deberán declarar que para los efectos resultantes del préstamo se someten voluntariamente a la jurisdicción de los Tribunales Federales de la Capital Federal, a tal fin deberán constituir domicilio especial en dicha jurisdicción.",
+        "source_page": 7,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "15) Los Deudores deberán comunicar al Fondo Nacional de las Artes por Nota, Telegrama o personalmente, cualquier-cambio de domicilio que se opere en ambos, dentro del término de 72 horas de efectuado el mismo. De no hacerlo y comprobarse dicha anomalía el Fondo Nacional de las Artes podrá aplicar las sanciones que estime corresponder.",
+        "source_page": 7,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "16) Acepta/n que el Fondo Nacional de las Artes puede exigir en cualquier momento garantía supletorias o el pago anticipado del crédito otorgado si comprobase una disminución del patrimonio del prestatario o de la garantía ofrecida.",
+        "source_page": 7,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Para todos los efectos legales emergentes de la presente operación, constituimos domicilio legal especial en",
+        "source_page": 7,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+        "source_page": 7,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Domicilio legal especial / Solicitante en calle",
+        "field": "f220",
+        "colspan": 2,
+        "source_page": 7
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Domicilio legal especial / N\"",
+        "field": "f221",
+        "colspan": 2,
+        "source_page": 7
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Domicilio legal especial / Piso",
+        "field": "f222",
+        "colspan": 2,
+        "source_page": 7
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Domicilio legal especial / Dto",
+        "field": "f223",
+        "colspan": 2,
+        "source_page": 7
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Domicilio legal especial / CP",
+        "field": "f224",
+        "colspan": 2,
+        "source_page": 7
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Domicilio legal especial / Garante en calle",
+        "field": "f225",
+        "colspan": 2,
+        "source_page": 7
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Domicilio legal especial / N'",
+        "field": "f226",
+        "colspan": 2,
+        "source_page": 7
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Domicilio legal especial / Piso",
+        "field": "f227",
+        "colspan": 2,
+        "source_page": 7
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Domicilio legal especial / Dto",
+        "field": "f228",
+        "colspan": 2,
+        "source_page": 7
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Domicilio legal especial / CP",
+        "field": "f229",
+        "colspan": 2,
+        "source_page": 7
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Domicilio legal especial / Codeudor en calle",
+        "field": "f230",
+        "colspan": 2,
+        "source_page": 7
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Domicilio legal especial / N'",
+        "field": "f231",
+        "colspan": 2,
+        "source_page": 7
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Domicilio legal especial / Piso",
+        "field": "f232",
+        "colspan": 2,
+        "source_page": 7
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Domicilio legal especial / Dto",
+        "field": "f233",
+        "colspan": 2,
+        "source_page": 7
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Domicilio legal especial / CP",
+        "field": "f234",
+        "colspan": 2,
+        "source_page": 7
+      }
+    ],
+    [
+      {
+        "text": "Los datos e informaciones que suministramos son con carácter de Declaración Jurada. Nos comprometemos a notificarles dentro de las 72 horas cualquier enajenación o gravamen que modifique nuestra Situación Patrimonial. No nos hallamos en Estado de Concurso. Que sobre nuestros ingresos no pesan gravámenes y que cualquier omisión, error, falsedad o reticencia que se comprobara dará lugar a la desestimación de la presente solicitud, sin más trámite. Asimismo damos conformidad a las Condiciones Generales y Especiales a que está sujeto el otorga- miento del presente préstamo, las cuales conocemos y aceptamos en todos sus términos",
+        "source_page": 7,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Firma / Firma del solicitante",
+        "field": "f235",
+        "colspan": 2,
+        "source_page": 7
+      }
+    ],
+    [
+      {
+        "label": "SOLICITANTE - Firma del cónyuge / Firma del cónyuge",
+        "field": "f236",
+        "colspan": 2,
+        "source_page": 7
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Firma / Firma del garante",
+        "field": "f237",
+        "colspan": 2,
+        "source_page": 7
+      }
+    ],
+    [
+      {
+        "label": "GARANTE - Firma del cónyuge / Firma del cónyuge garante",
+        "field": "f238",
+        "colspan": 2,
+        "source_page": 7
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Firma / Firma del codeudor",
+        "field": "f239",
+        "colspan": 2,
+        "source_page": 7
+      }
+    ],
+    [
+      {
+        "label": "CODEUDOR - Firma del cónyuge / Firma del cónyuge codeudor",
+        "field": "f240",
+        "colspan": 2,
+        "source_page": 7
+      }
+    ],
+    [
+      {
+        "text": "Pág. 7",
+        "source_page": 7,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Fondo Nacional de las Artes - Ministerio de Cultura - Presidencia de la Nación",
+        "source_page": 7,
+        "colspan": 2
+      }
+    ]
+  ],
+  "context": "CASO ENTERAMENTE FICTICIO, creado para completar este formulario. Personas, bienes, firmas y referencias administrativas son sintéticos y no corresponden a actuaciones reales.\nCaso enteramente ficticio del 23/10/2026. PAULA INES GIMENEZ, artista visual independiente monotributista, presenta esta solicitud de financiación artística ante el FNA. ROSANA ELENA ARCE es garante y MIGUEL ANGEL FARIAS es codeudor solidario requerido en este caso. Los tres están casados, y sus respectivos cónyuges MARTIN EDUARDO LUNA, JAVIER PABLO COSTA y CAROLINA MARIA MENA consienten con firmas sintéticas. Todos son argentinos residentes en CABA, en viviendas propias sin hipotecas; no pagan alquiler ni tienen préstamos personales, embargos, gravámenes sobre ingresos o situación concursal. Cada patrimonio declarado pertenece al respectivo titular y no se duplica como bien de otro firmante. No hay actividad dependiente de la solicitante ni actividad independiente de garante o codeudor; se conservan sin seleccionar las dos listas AFIP inactivas. Cada ingreso dependiente neto coincide con el total; el promedio de los trece últimos meses de la solicitante coincide con su ingreso independiente total. Todos los importes son ARS ficticios. Los domicilios especiales coinciden con sus domicilios en la jurisdicción de CABA. No se ha otorgado el préstamo, fijado su monto/tasa/plazo ni emitido un pagaré, campos que este formulario no contiene; se aceptan las condiciones impresas sin sustituirlas por otro contrato. La línea de domicilio particular resumido de la solicitante repite coherentemente su dirección detallada. En la fila de préstamos personales de la solicitante, los tres casilleros impresos Cantidad de cuotas, Totales y Pagadas son cero porque no hay préstamo personal vigente; no se suprime el casillero redundante del original.\nPágina 1 / SOLICITANTE - Datos personales / Nombre/s: PAULA INES\nPágina 1 / SOLICITANTE - Datos personales / Apellidos/s: GIMENEZ\nPágina 1 / SOLICITANTE - Datos personales / D.N.I. N°: 30000844\nPágina 1 / SOLICITANTE - Datos personales / CUIT/CUIL: 27-30000844-0\nPágina 1 / SOLICITANTE - Datos personales / Teléfono Particular: 011 40000844\nPágina 1 / SOLICITANTE - Datos personales / Celular: 011 150000844\nPágina 1 / SOLICITANTE - Datos personales / Mail: solicitante.844@example.org\nPágina 1 / SOLICITANTE - Datos personales / Fecha de Nacimiento: 14/10/1983\nPágina 1 / SOLICITANTE - Datos personales / Nacionalidad: ARGENTINA\nPágina 1 / SOLICITANTE - Datos personales / Sexo: FEMENINO\nPágina 1 / SOLICITANTE - Estado civil / Estado civil: SOLICITANTE - Estado civil / Estado civil: Casado.\nPágina 1 / SOLICITANTE - Domicilio particular / Calle: PARAGUAY\nPágina 1 / SOLICITANTE - Domicilio particular / Número: 4844\nPágina 1 / SOLICITANTE - Domicilio particular / Piso: PB\nPágina 1 / SOLICITANTE - Domicilio particular / Depto.: UNICO\nPágina 1 / SOLICITANTE - Domicilio particular / Localidad: CIUDAD AUTONOMA DE BUENOS AIRES\nPágina 1 / SOLICITANTE - Domicilio particular / Código Postal: 1425\nPágina 1 / SOLICITANTE - Domicilio particular / Provincia: CIUDAD AUTONOMA DE BUENOS AIRES\nPágina 1 / SOLICITANTE - Domicilio particular / País: ARGENTINA\nPágina 1 / SOLICITANTE - Datos laborales / Actividad: ARTISTA VISUAL INDEPENDIENTE\nPágina 1 / SOLICITANTE - Datos laborales / Profesión: ARTISTA VISUAL\nPágina 1 / SOLICITANTE - a) Dependiente / Nombre de la empresa: NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE\nPágina 1 / SOLICITANTE - a) Dependiente / Cargo: NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE\nPágina 1 / SOLICITANTE - a) Dependiente / Calle: NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE\nPágina 1 / SOLICITANTE - a) Dependiente / Número: NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE\nPágina 1 / SOLICITANTE - a) Dependiente / Piso: NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE\nPágina 1 / SOLICITANTE - a) Dependiente / Localidad: NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE\nPágina 1 / SOLICITANTE - a) Dependiente / Código Postal: NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE\nPágina 1 / SOLICITANTE - a) Dependiente / Provincia: NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE\nPágina 1 / SOLICITANTE - a) Dependiente / Teléfono: NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE\nPágina 1 / SOLICITANTE - a) Dependiente / Antigüedad laboral: NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE\nPágina 1 / SOLICITANTE - a) Dependiente / Ingreso mensual neto: NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE\nPágina 1 / SOLICITANTE - b) Independiente / Actividad: CREACION Y PRODUCCION DE OBRAS DE ARTE VISUAL\nPágina 1 / SOLICITANTE - b) Independiente / Código AFIP: 900021\nPágina 1 / SOLICITANTE - b) Independiente / Situación ante AFIP:: SOLICITANTE - b) Independiente / Situación ante AFIP:: Monotributista.\nPágina 1 / SOLICITANTE - b) Independiente / Ingreso mensual promedio de los últimos 13 meses: 1200000\nPágina 1 / SOLICITANTE - Ingresos totales / Total ingreso mensual neto (a + b): 1200000\nPágina 2 / SOLICITANTE - Bienes inmuebles / Bienes inmuebles: SOLICITANTE - Bienes inmuebles / Bienes inmuebles: SI.\nPágina 2 / SOLICITANTE - Bienes inmuebles / Valor estimado: 85000000 ARS\nPágina 2 / SOLICITANTE - Bienes inmuebles / Bien de familia: SOLICITANTE - Bienes inmuebles / Bien de familia: NO.\nPágina 2 / SOLICITANTE - Bienes muebles / Bienes muebles: SOLICITANTE - Bienes muebles / Bienes muebles: SI.\nPágina 2 / SOLICITANTE - Bienes muebles / Bien que posee: AUTOMOVIL PARTICULAR, LIBRE DE PRENDA\nPágina 2 / SOLICITANTE - Bienes muebles / Valor estimado: 8000000 ARS\nPágina 2 / SOLICITANTE - Hipotecas / Hipotecas: SOLICITANTE - Hipotecas / Hipotecas: NO.\nPágina 2 / SOLICITANTE - Hipotecas / Otorgada por: NO APLICA: NO EXISTE DEUDA\nPágina 2 / SOLICITANTE - Hipotecas / Monto cuota mensual: 0 ARS\nPágina 2 / SOLICITANTE - Hipotecas - Totales / Cantidad de cuotas totales: 0\nPágina 2 / SOLICITANTE - Hipotecas / Pagadas: 0\nPágina 2 / SOLICITANTE - Préstamos personales / Préstamos personales: SOLICITANTE - Préstamos personales / Préstamos personales: NO.\nPágina 2 / SOLICITANTE - Préstamos personales / Otorgado por: NO APLICA: NO EXISTE DEUDA\nPágina 2 / SOLICITANTE - Préstamos personales / Monto cuota mensual: 0 ARS\nPágina 2 / SOLICITANTE - Préstamos personales - Totales / Cantidad de cuotas: 0\nPágina 2 / SOLICITANTE - Préstamos personales / Pagadas: 0\nPágina 2 / SOLICITANTE - Alquiler / Alquiler: SOLICITANTE - Alquiler / Alquiler: NO.\nPágina 2 / SOLICITANTE - Alquiler / Monto: 0 ARS: VIVIENDA PROPIA\nPágina 2 / SOLICITANTE - Relaciones financieras / Bancos con que opera: BANCO DE LA NACION ARGENTINA\nPágina 2 / SOLICITANTE - Relaciones financieras / Tarjetas con que opera: VISA\nPágina 2 / SOLICITANTE - Cónyuge / Nombre/s: MARTIN EDUARDO\nPágina 2 / SOLICITANTE - Cónyuge / Apellidos/s: LUNA\nPágina 2 / SOLICITANTE - Cónyuge / D.N.I. N°: 29000844\nPágina 2 / SOLICITANTE - Cónyuge / CUIT/CUIL: 20-29000844-2\nPágina 2 / SOLICITANTE - Cónyuge / Sexo: MASCULINO\nPágina 2 / SOLICITANTE - Cónyuge / Teléfono particular: 011 40002844\nPágina 2 / SOLICITANTE - Cónyuge / Celular: 011 150002844\nPágina 2 / SOLICITANTE - Cónyuge / Mail: conyuge.solicitante.844@example.org\nPágina 2 / SOLICITANTE - Cónyuge / Fecha de Nacimiento: 12/09/1981\nPágina 2 / SOLICITANTE - Cónyuge / Nacionalidad: ARGENTINA\nPágina 2 / SOLICITANTE - Cónyuge / Actividad: TECNICO DE SONIDO\nPágina 2 / SOLICITANTE - Cónyuge / Teléfono Laboral: 011 40003844\nPágina 2 / SOLICITANTE - Cónyuge / Relación laboral: SOLICITANTE - Cónyuge / Relación laboral: Dependiente.\nPágina 2 / SOLICITANTE - Cónyuge / Nombre de la empresa: ESTUDIO SONORO SINTETICO SRL\nPágina 2 / SOLICITANTE - Cónyuge / Cargo: TECNICO\nPágina 2 / SOLICITANTE - Cónyuge / Ingreso mensual neto: 1400000 ARS\nPágina 2 / GARANTE - Datos personales / Nombre/s: ROSANA ELENA\nPágina 2 / GARANTE - Datos personales / Apellidos/s: ARCE\nPágina 2 / GARANTE - Datos personales / D.N.I. N°: 28000844\nPágina 2 / GARANTE - Datos personales / CUIT/CUIL: 27-28000844-9\nPágina 2 / GARANTE - Datos personales / Teléfono Particular: 011 40000844\nPágina 2 / GARANTE - Datos personales / Celular: 011 150000844\nPágina 2 / GARANTE - Datos personales / Mail: garante.844@example.org\nPágina 2 / GARANTE - Datos personales / Fecha de Nacimiento: 03/06/1980\nPágina 2 / GARANTE - Datos personales / Nacionalidad: ARGENTINA\nPágina 2 / GARANTE - Datos personales / Sexo: FEMENINO\nPágina 2 / GARANTE - Estado civil / Estado civil: GARANTE - Estado civil / Estado civil: Casado.\nPágina 2 / GARANTE - Domicilio particular / Calle: ESTOMBA\nPágina 2 / GARANTE - Domicilio particular / Número: 2844\nPágina 2 / GARANTE - Domicilio particular / Piso: PB\nPágina 2 / GARANTE - Domicilio particular / Depto.: UNICO\nPágina 2 / GARANTE - Domicilio particular / Localidad: CIUDAD AUTONOMA DE BUENOS AIRES\nPágina 2 / GARANTE - Domicilio particular / Código Postal: 1430\nPágina 2 / GARANTE - Domicilio particular / Provincia: CIUDAD AUTONOMA DE BUENOS AIRES\nPágina 2 / GARANTE - Domicilio particular / País: ARGENTINA\nPágina 3 / GARANTE - Datos laborales / Actividad: ADMINISTRACION CONTABLE EN RELACION DE DEPENDENCIA\nPágina 3 / GARANTE - Datos laborales / Profesión: CONTADORA\nPágina 3 / GARANTE - a) Dependiente / Nombre de la empresa: SERVICIOS SINTETICOS DEL CENTRO SRL\nPágina 3 / GARANTE - a) Dependiente / Cargo: RESPONSABLE CONTABLE\nPágina 3 / GARANTE - a) Dependiente / Calle: AVENIDA CORDOBA\nPágina 3 / GARANTE - a) Dependiente / Número: 2844\nPágina 3 / GARANTE - a) Dependiente / Piso: 1\nPágina 3 / GARANTE - a) Dependiente / Localidad: CIUDAD AUTONOMA DE BUENOS AIRES\nPágina 3 / GARANTE - a) Dependiente / Código Postal: 1187\nPágina 3 / GARANTE - a) Dependiente / Provincia: CIUDAD AUTONOMA DE BUENOS AIRES\nPágina 3 / GARANTE - a) Dependiente / Teléfono: 011 40001844\nPágina 3 / GARANTE - a) Dependiente / Antigüedad laboral: 12 AÑOS\nPágina 3 / GARANTE - a) Dependiente / Ingreso mensual neto: 2200000\nPágina 3 / GARANTE - b) Independiente / Actividad: NO APLICA: SIN ACTIVIDAD INDEPENDIENTE\nPágina 3 / GARANTE - b) Independiente / Código AFIP: NO APLICA: SIN ACTIVIDAD INDEPENDIENTE\nPágina 3 / GARANTE - b) Independiente / Situación ante AFIP:: No aplica: garante sin actividad independiente. Se conservan todas las opciones del control inactivo sin marcar ninguna.\nPágina 3 / GARANTE - b) Independiente / Ingreso mensual promedio de los últimos 13 meses: NO APLICA: SIN ACTIVIDAD INDEPENDIENTE\nPágina 3 / GARANTE - Ingresos totales / Total ingreso mensual neto (a + b): 2200000\nPágina 3 / GARANTE - Bienes inmuebles / Bienes inmuebles: GARANTE - Bienes inmuebles / Bienes inmuebles: SI.\nPágina 3 / GARANTE - Bienes inmuebles / Valor estimado: 110000000 ARS\nPágina 3 / GARANTE - Bienes inmuebles / Bien de familia: GARANTE - Bienes inmuebles / Bien de familia: NO.\nPágina 3 / GARANTE - Bienes muebles / Posee bienes muebles: GARANTE - Bienes muebles / Posee bienes muebles: SI.\nPágina 3 / GARANTE - Bienes muebles / Bien que posee: AUTOMOVIL PARTICULAR, LIBRE DE PRENDA\nPágina 3 / GARANTE - Bienes muebles / Valor estimado: 12000000 ARS\nPágina 3 / GARANTE - Hipotecas / Hipotecas: GARANTE - Hipotecas / Hipotecas: NO.\nPágina 3 / GARANTE - Hipotecas / Otorgada por: NO APLICA: NO EXISTE DEUDA\nPágina 3 / GARANTE - Hipotecas / Monto cuota mensual: 0 ARS\nPágina 3 / GARANTE - Hipotecas - Totales / Cantidad de cuotas totales: 0\nPágina 3 / GARANTE - Hipotecas / Pagadas: 0\nPágina 3 / GARANTE - Préstamos personales / Préstamos personales: GARANTE - Préstamos personales / Préstamos personales: NO.\nPágina 3 / GARANTE - Préstamos personales / Otorgado por: NO APLICA: NO EXISTE DEUDA\nPágina 3 / GARANTE - Préstamos personales / Monto cuota mensual: 0 ARS\nPágina 3 / GARANTE - Préstamos personales - Totales / Cantidad de cuotas: 0\nPágina 3 / GARANTE - Préstamos personales / Pagadas: 0\nPágina 3 / GARANTE - Alquiler / Alquiler: GARANTE - Alquiler / Alquiler: NO.\nPágina 3 / GARANTE - Alquiler / Monto: 0 ARS: VIVIENDA PROPIA\nPágina 3 / GARANTE - Relaciones financieras / Bancos con que opera: BANCO DE LA NACION ARGENTINA\nPágina 3 / GARANTE - Relaciones financieras / Tarjetas con que opera: MASTERCARD\nPágina 3 / GARANTE - Cónyuge / Nombre/s: JAVIER PABLO\nPágina 3 / GARANTE - Cónyuge / Apellidos/s: COSTA\nPágina 3 / GARANTE - Cónyuge / D.N.I. N°: 27000844\nPágina 3 / GARANTE - Cónyuge / CUIT/CUIL: 20-27000844-6\nPágina 3 / GARANTE - Cónyuge / Sexo: MASCULINO\nPágina 3 / GARANTE - Cónyuge / Teléfono particular: 011 40002844\nPágina 3 / GARANTE - Cónyuge / Celular: 011 150002844\nPágina 3 / GARANTE - Cónyuge / Mail: conyuge.garante.844@example.org\nPágina 3 / GARANTE - Cónyuge / Fecha de Nacimiento: 18/02/1978\nPágina 3 / GARANTE - Cónyuge / Nacionalidad: ARGENTINA\nPágina 3 / GARANTE - Cónyuge / Actividad: TECNICO ELECTRONICO\nPágina 3 / GARANTE - Cónyuge / Teléfono Laboral: 011 40003844\nPágina 3 / GARANTE - Cónyuge / Relación laboral: GARANTE - Cónyuge / Relación laboral: Dependiente.\nPágina 3 / GARANTE - Cónyuge / Nombre de la empresa: ELECTRONICA SINTETICA SRL\nPágina 3 / GARANTE - Cónyuge / Cargo: TECNICO\nPágina 3 / GARANTE - Cónyuge / Ingreso mensual neto: 1800000 ARS\nPágina 4 / CODEUDOR - Datos personales / Nombre/s: MIGUEL ANGEL\nPágina 4 / CODEUDOR - Datos personales / Apellido/s: FARIAS\nPágina 4 / CODEUDOR - Datos personales / D.N.I. N°: 31000844\nPágina 4 / CODEUDOR - Datos personales / CUIT/CUIL: 20-31000844-4\nPágina 4 / CODEUDOR - Datos personales / Teléfono Particular: 011 40000844\nPágina 4 / CODEUDOR - Datos personales / Celular: 011 150000844\nPágina 4 / CODEUDOR - Datos personales / Mail: codeudor.844@example.org\nPágina 4 / CODEUDOR - Datos personales / Fecha de Nacimiento: 22/05/1985\nPágina 4 / CODEUDOR - Datos personales / Nacionalidad: ARGENTINA\nPágina 4 / CODEUDOR - Datos personales / Sexo: MASCULINO\nPágina 4 / CODEUDOR - Estado civil / Estado civil: CODEUDOR - Estado civil / Estado civil: Casado.\nPágina 4 / CODEUDOR - Domicilio particular / Calle: GURRUCHAGA\nPágina 4 / CODEUDOR - Domicilio particular / Número: 844\nPágina 4 / CODEUDOR - Domicilio particular / Piso: PB\nPágina 4 / CODEUDOR - Domicilio particular / Depto: UNICO\nPágina 4 / CODEUDOR - Domicilio particular / Localidad: CIUDAD AUTONOMA DE BUENOS AIRES\nPágina 4 / CODEUDOR - Domicilio particular / Código Postal: 1414\nPágina 4 / CODEUDOR - Domicilio particular / Provincia: CIUDAD AUTONOMA DE BUENOS AIRES\nPágina 4 / CODEUDOR - Domicilio particular / País: ARGENTINA\nPágina 4 / CODEUDOR - Datos laborales / Actividad: DISEÑO GRAFICO EN RELACION DE DEPENDENCIA\nPágina 4 / CODEUDOR - Datos laborales / Profesión: DISEÑADOR GRAFICO\nPágina 4 / CODEUDOR - a) Dependiente / Nombre de la empresa: DISEÑO EDITORIAL SINTETICO SRL\nPágina 4 / CODEUDOR - a) Dependiente / Cargo: DISEÑADOR\nPágina 4 / CODEUDOR - a) Dependiente / Calle: AVENIDA CORDOBA\nPágina 4 / CODEUDOR - a) Dependiente / Número: 2844\nPágina 4 / CODEUDOR - a) Dependiente / Piso: 1\nPágina 4 / CODEUDOR - a) Dependiente / Localidad: CIUDAD AUTONOMA DE BUENOS AIRES\nPágina 4 / CODEUDOR - a) Dependiente / Código Postal: 1187\nPágina 4 / CODEUDOR - a) Dependiente / Provincia: CIUDAD AUTONOMA DE BUENOS AIRES\nPágina 4 / CODEUDOR - a) Dependiente / Teléfono: 011 40001844\nPágina 4 / CODEUDOR - a) Dependiente / Antigüedad laboral: 9 AÑOS\nPágina 4 / CODEUDOR - a) Dependiente / Ingreso mensual neto: 2000000\nPágina 4 / CODEUDOR - b) Independiente / Actividad: NO APLICA: SIN ACTIVIDAD INDEPENDIENTE\nPágina 4 / CODEUDOR - b) Independiente / Código AFIP: NO APLICA: SIN ACTIVIDAD INDEPENDIENTE\nPágina 4 / CODEUDOR - b) Independiente / Situación ante AFIP:: No aplica: codeudor sin actividad independiente. Se conservan todas las opciones del control inactivo sin marcar ninguna.\nPágina 4 / CODEUDOR - b) Independiente / Ingreso mensual promedio de los últimos 13 meses: NO APLICA: SIN ACTIVIDAD INDEPENDIENTE\nPágina 4 / CODEUDOR - Ingresos totales / Total ingreso mensual neto (a + b): 2000000\nPágina 4 / CODEUDOR - Bienes inmuebles / Bienes inmuebles: CODEUDOR - Bienes inmuebles / Bienes inmuebles: SI.\nPágina 4 / CODEUDOR - Bienes inmuebles / Valor estimado: 90000000 ARS\nPágina 4 / CODEUDOR - Bienes inmuebles / Bien de familia: CODEUDOR - Bienes inmuebles / Bien de familia: NO.\nPágina 4 / CODEUDOR - Bienes muebles / Posee bienes muebles: CODEUDOR - Bienes muebles / Posee bienes muebles: SI.\nPágina 4 / CODEUDOR - Bienes muebles / Bien que posee: AUTOMOVIL PARTICULAR, LIBRE DE PRENDA\nPágina 4 / CODEUDOR - Bienes muebles / Valor estimado: 10000000 ARS\nPágina 4 / CODEUDOR - Hipotecas / Hipotecas: CODEUDOR - Hipotecas / Hipotecas: NO.\nPágina 4 / CODEUDOR - Hipotecas / Otorgada por: NO APLICA: NO EXISTE DEUDA\nPágina 4 / CODEUDOR - Hipotecas / Monto cuota mensual: 0 ARS\nPágina 4 / CODEUDOR - Hipotecas - Totales / Cantidad de cuotas totales: 0\nPágina 4 / CODEUDOR - Hipotecas / Pagadas: 0\nPágina 4 / CODEUDOR - Préstamos personales / Préstamos personales: CODEUDOR - Préstamos personales / Préstamos personales: NO.\nPágina 4 / CODEUDOR - Préstamos personales / Otorgado por: NO APLICA: NO EXISTE DEUDA\nPágina 4 / CODEUDOR - Préstamos personales / Monto cuota mensual: 0 ARS\nPágina 4 / CODEUDOR - Préstamos personales - Totales / Cantidad de cuotas: 0\nPágina 4 / CODEUDOR - Préstamos personales / Pagadas: 0\nPágina 4 / CODEUDOR - Alquiler / Alquiler: CODEUDOR - Alquiler / Alquiler: NO.\nPágina 4 / CODEUDOR - Alquiler / Monto: 0 ARS: VIVIENDA PROPIA\nPágina 4 / CODEUDOR - Relaciones financieras / Bancos con que opera: BANCO DE LA NACION ARGENTINA\nPágina 4 / CODEUDOR - Relaciones financieras / Tarjetas con que opera: VISA\nPágina 5 / CODEUDOR - Cónyuge / Nombre/s: CAROLINA MARIA\nPágina 5 / CODEUDOR - Cónyuge / Apellidos/s: MENA\nPágina 5 / CODEUDOR - Cónyuge / D.N.I. N°: 32000844\nPágina 5 / CODEUDOR - Cónyuge / CUIT/CUIL: 27-32000844-7\nPágina 5 / CODEUDOR - Cónyuge / Sexo: FEMENINO\nPágina 5 / CODEUDOR - Cónyuge / Teléfono particular: 011 40002844\nPágina 5 / CODEUDOR - Cónyuge / Celular: 011 150002844\nPágina 5 / CODEUDOR - Cónyuge / Mail: conyuge.codeudor.844@example.org\nPágina 5 / CODEUDOR - Cónyuge / Fecha de Nacimiento: 07/11/1987\nPágina 5 / CODEUDOR - Cónyuge / Nacionalidad: ARGENTINA\nPágina 5 / CODEUDOR - Cónyuge / Actividad: TRADUCTORA INDEPENDIENTE\nPágina 5 / CODEUDOR - Cónyuge / Teléfono Laboral: 011 40003844\nPágina 5 / CODEUDOR - Cónyuge / Relación laboral: CODEUDOR - Cónyuge / Relación laboral: Independiente.\nPágina 5 / CODEUDOR - Cónyuge / Nombre de la empresa: NO APLICA: TRABAJA POR CUENTA PROPIA\nPágina 5 / CODEUDOR - Cónyuge / Cargo: TRADUCTORA\nPágina 5 / CODEUDOR - Cónyuge / Ingreso mensual neto: 1500000 ARS\nPágina 7 / SOLICITANTE - Domicilio legal especial / Solicitante en calle: PARAGUAY\nPágina 7 / SOLICITANTE - Domicilio legal especial / N\": 4844\nPágina 7 / SOLICITANTE - Domicilio legal especial / Piso: PB\nPágina 7 / SOLICITANTE - Domicilio legal especial / Dto: UNICO\nPágina 7 / SOLICITANTE - Domicilio legal especial / CP: 1425\nPágina 7 / GARANTE - Domicilio legal especial / Garante en calle: ESTOMBA\nPágina 7 / GARANTE - Domicilio legal especial / N': 2844\nPágina 7 / GARANTE - Domicilio legal especial / Piso: PB\nPágina 7 / GARANTE - Domicilio legal especial / Dto: UNICO\nPágina 7 / GARANTE - Domicilio legal especial / CP: 1430\nPágina 7 / CODEUDOR - Domicilio legal especial / Codeudor en calle: GURRUCHAGA\nPágina 7 / CODEUDOR - Domicilio legal especial / N': 844\nPágina 7 / CODEUDOR - Domicilio legal especial / Piso: PB\nPágina 7 / CODEUDOR - Domicilio legal especial / Dto: UNICO\nPágina 7 / CODEUDOR - Domicilio legal especial / CP: 1414\nPágina 7 / SOLICITANTE - Firma / Firma del solicitante: Firma sintética de PAULA INES GIMENEZ\nPágina 7 / SOLICITANTE - Firma del cónyuge / Firma del cónyuge: Firma sintética de MARTIN EDUARDO LUNA\nPágina 7 / GARANTE - Firma / Firma del garante: Firma sintética de ROSANA ELENA ARCE\nPágina 7 / GARANTE - Firma del cónyuge / Firma del cónyuge garante: Firma sintética de JAVIER PABLO COSTA\nPágina 7 / CODEUDOR - Firma / Firma del codeudor: Firma sintética de MIGUEL ANGEL FARIAS\nPágina 7 / CODEUDOR - Firma del cónyuge / Firma del cónyuge codeudor: Firma sintética de CAROLINA MARIA MENA\nPágina 1 / SOLICITANTE - Domicilio particular resumen / Domicilio Particular: PARAGUAY 4844, PB, DEPTO. UNICO, C1425, CABA, ARGENTINA\nPágina 2 / SOLICITANTE - Préstamos personales - Primer casillero anterior a Totales / Cantidad de cuotas: 0",
+  "workflow_identity": {
+    "language": "es",
+    "id": 844
+  }
+}

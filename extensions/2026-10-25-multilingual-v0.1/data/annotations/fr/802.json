@@ -1,0 +1,575 @@
+{
+  "id": "fr-802-inami-formulaire-infirmiers-demande-inscription-inami",
+  "language": "fr",
+  "title": "Demande d’inscription en qualité d’infirmier auprès de l’INAMI",
+  "domain": "Healthcare",
+  "issuer": "Institut national d’assurance maladie-invalidité (INAMI)",
+  "issuer_id": "INAMI",
+  "template_family": "inami-formulaire-infirmiers-demande-inscription-inami",
+  "source_url": "https://www.inami.fgov.be/SiteCollectionDocuments/formulaire_infirmiers_demande_inscription_INAMI.pdf",
+  "landing_url": "https://www.inami.fgov.be/fr/professionnels/professionnels-de-la-sante/infirmiers/formulaires-pour-les-infirmiers",
+  "license_url": "https://www.inami.fgov.be/fr/disclaimer",
+  "license_note": "Selon les conditions Copyrights de l’INAMI : informations libres de droit sauf mention contraire, utilisables gratuitement moyennant mention de la source. Seuls le texte fonctionnel et les contrôles du formulaire sont normalisés ; informations multimédias, logos et éléments graphiques exclus.",
+  "source_sha256": "1a35a9441908fb617ff1a0fb97a28ebf459ecb1d3975c72c9920ceddb0e0410c",
+  "source_pages": 2,
+  "source_version": "Édition et date non imprimées",
+  "source_date_evidence": {
+    "kind": "edition not stated",
+    "value": "Édition et date non imprimées"
+  },
+  "retrieved_at": "2026-10-25T02:04:12.886914+00:00",
+  "columns": 6,
+  "fields": [
+    {
+      "id": "f0001",
+      "label": "Votre nom",
+      "path": [
+        "Page 1",
+        "Vos données d’identification",
+        "Votre nom"
+      ],
+      "source_page": 1,
+      "source_anchor": "Votre nom",
+      "kind": "text",
+      "synthetic_value": "MARTIN",
+      "source_label_rects": [
+        [
+          46.68000030517578,
+          295.489990234375,
+          95.60929107666016,
+          306.5299987792969
+        ]
+      ]
+    },
+    {
+      "id": "f0002",
+      "label": "Votre prénom",
+      "path": [
+        "Page 1",
+        "Vos données d’identification",
+        "Votre prénom"
+      ],
+      "source_page": 1,
+      "source_anchor": "Votre prénom",
+      "kind": "text",
+      "synthetic_value": "Camille",
+      "source_label_rects": [
+        [
+          46.68000030517578,
+          331.8500061035156,
+          110.97697448730469,
+          342.8900146484375
+        ]
+      ]
+    },
+    {
+      "id": "f0003",
+      "label": "Votre numéro de registre national :",
+      "path": [
+        "Page 1",
+        "Vos données d’identification",
+        "Votre numéro de registre national :"
+      ],
+      "source_page": 1,
+      "source_anchor": "Votre numéro de registre national :",
+      "kind": "text",
+      "synthetic_value": "90.03.15-802-77",
+      "source_label_rects": [
+        [
+          46.68000030517578,
+          362.80999755859375,
+          208.2970428466797,
+          373.8500061035156
+        ]
+      ]
+    },
+    {
+      "id": "f0004",
+      "label": "Votre numéro de visa",
+      "path": [
+        "Page 1",
+        "Vos données d’identification",
+        "Votre numéro de visa"
+      ],
+      "source_page": 1,
+      "source_anchor": "Votre numéro de visa",
+      "kind": "text",
+      "synthetic_value": "VISA-FICTIF-802",
+      "source_label_rects": [
+        [
+          46.68000030517578,
+          428.4700012207031,
+          145.2454376220703,
+          439.510009765625
+        ]
+      ]
+    },
+    {
+      "id": "f0005",
+      "label": "Votre adresse e-mail",
+      "path": [
+        "Page 1",
+        "Vos données d’identification",
+        "Votre adresse e-mail"
+      ],
+      "source_page": 1,
+      "source_anchor": "Votre adresse e-mail",
+      "kind": "text",
+      "synthetic_value": "camille802@example.org",
+      "source_label_rects": [
+        [
+          46.68000030517578,
+          483.07000732421875,
+          141.21055603027344,
+          494.1100158691406
+        ]
+      ]
+    },
+    {
+      "id": "f0006",
+      "label": "Rue, n°, Bte :",
+      "path": [
+        "Page 1",
+        "Vos données d’identification",
+        "Rue, n°, Bte :"
+      ],
+      "source_page": 1,
+      "source_anchor": "Rue, n°, Bte :",
+      "kind": "text",
+      "synthetic_value": "Rue de l’Exemple 8, boîte 2",
+      "source_label_rects": [
+        [
+          274.8500061035156,
+          531.18994140625,
+          332.6443786621094,
+          542.22998046875
+        ]
+      ]
+    },
+    {
+      "id": "f0007",
+      "label": "Code postal, localité :",
+      "path": [
+        "Page 1",
+        "Vos données d’identification",
+        "Code postal, localité :"
+      ],
+      "source_page": 1,
+      "source_anchor": "Code postal, localité :",
+      "kind": "text",
+      "synthetic_value": "1000 Bruxelles",
+      "source_label_rects": [
+        [
+          274.8500061035156,
+          569.5899658203125,
+          370.7655029296875,
+          580.6300048828125
+        ]
+      ]
+    },
+    {
+      "id": "f0008",
+      "label": "Nom :",
+      "path": [
+        "Page 1",
+        "Vos données d’identification",
+        "Nom :"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nom :",
+      "kind": "text",
+      "synthetic_value": "Cabinet infirmier Exemple",
+      "source_label_rects": [
+        [
+          274.8500061035156,
+          612.93994140625,
+          302.0487060546875,
+          623.97998046875
+        ]
+      ]
+    },
+    {
+      "id": "f0009",
+      "label": "Votre diplôme",
+      "path": [
+        "Page 2",
+        "Vos données d’identification",
+        "Votre diplôme"
+      ],
+      "source_page": 2,
+      "source_anchor": "Votre diplôme",
+      "kind": "checkbox_single",
+      "synthetic_value": "Bachelier en soins infirmiers / Diplôme d’infirmier gradué",
+      "source_label_rects": [
+        [
+          46.68000030517578,
+          66.60000610351562,
+          112.56674194335938,
+          77.64000701904297
+        ]
+      ],
+      "options": [
+        "Bachelier en soins infirmiers / Diplôme d’infirmier gradué",
+        "Brevet d’infirmier hospitalier",
+        "Brevet d’assistant en soins hospitaliers",
+        "Bachelier de sage-femme / diplôme d’accoucheur"
+      ],
+      "context_evidence": "Page 2 / Vos données d’identification / Votre diplôme : Bachelier en soins infirmiers / Diplôme d’infirmier gradué"
+    },
+    {
+      "id": "f0010",
+      "label": "Titre(s) ou qualification(s) professionnel(s) particulier(s)",
+      "path": [
+        "Page 2",
+        "Vos données d’identification",
+        "Titre(s) ou qualification(s) professionnel(s) particulier(s)"
+      ],
+      "source_page": 2,
+      "source_anchor": "Titre(s) ou qualification(s) professionnel(s) particulier(s)",
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "Infirmier relais en matière de soins de plaies"
+      ],
+      "source_label_rects": [
+        [
+          46.68000030517578,
+          159.50003051757812,
+          243.04827880859375,
+          170.54002380371094
+        ],
+        [
+          46.68000030517578,
+          172.93997192382812,
+          105.02642059326172,
+          183.97996520996094
+        ]
+      ],
+      "options": [
+        "Infirmier relais en matière de soins de plaies",
+        "Infirmier relais en matière de diabète",
+        "Infirmier ayant une qualification professionnelle particulière en diabétologie"
+      ],
+      "context_evidence": "Page 2 / Vos données d’identification / Titre(s) ou qualification(s) professionnel(s) particulier(s) : Infirmier relais en matière de soins de plaies"
+    },
+    {
+      "id": "f0011",
+      "label": "Votre statut de conventionnement",
+      "path": [
+        "Page 2",
+        "Vos données d’identification",
+        "Votre statut de conventionnement"
+      ],
+      "source_page": 2,
+      "source_anchor": "Votre statut de conventionnement",
+      "kind": "checkbox_single",
+      "synthetic_value": "J’adhère à la Convention nationale entre les infirmiers et les organismes assureurs (W/97terdecies)",
+      "source_label_rects": [
+        [
+          46.68000030517578,
+          241.85000610351562,
+          205.38624572753906,
+          252.88999938964844
+        ]
+      ],
+      "source_option_region": {
+        "page": 2,
+        "rect": [
+          300,
+          220,
+          610,
+          255
+        ]
+      },
+      "options": [
+        "J’adhère à la Convention nationale entre les infirmiers et les organismes assureurs (W/97terdecies)",
+        "Je n’adhère pas à la Convention mentionnée ci-dessus"
+      ],
+      "context_evidence": "Page 2 / Vos données d’identification / Votre statut de conventionnement : J’adhère à la Convention nationale entre les infirmiers et les organismes assureurs (W/97terdecies)"
+    },
+    {
+      "id": "f0012",
+      "label": "Date :",
+      "path": [
+        "Page 2",
+        "Votre déclaration",
+        "Date :"
+      ],
+      "source_page": 2,
+      "source_anchor": "Date :",
+      "kind": "text",
+      "synthetic_value": "25/10/2026",
+      "source_label_rects": [
+        [
+          46.68000030517578,
+          451.510009765625,
+          73.42271423339844,
+          462.5500183105469
+        ]
+      ]
+    },
+    {
+      "id": "f0013",
+      "label": "Signature :",
+      "path": [
+        "Page 2",
+        "Votre déclaration",
+        "Signature :"
+      ],
+      "source_page": 2,
+      "source_anchor": "Signature :",
+      "kind": "text",
+      "synthetic_value": "Camille MARTIN, signature fictive",
+      "source_label_rects": [
+        [
+          46.68000030517578,
+          478.3900146484375,
+          94.78271484375,
+          489.4300231933594
+        ]
+      ]
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Demande d’inscription en qualité d’infirmier auprès de l’INAMI",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Conditions d’inscription",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Vous avez reçu un visa d’infirmier du SPF Santé publique. Vous souhaitez attester les soins de la nomenclature infirmiers Art 8 (soins à domicile)¹.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Vos données d’identification",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Toutes ces données doivent obligatoirement nous être communiquées.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Votre nom",
+        "field": "f0001",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Votre prénom",
+        "field": "f0002",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "Votre numéro de registre national :",
+        "field": "f0003",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Vous trouverez ce numéro au verso de votre carte d’identité. Vous n’êtes pas inscrit au registre national ? Veuillez alors mentionner votre numéro bis.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Votre numéro de visa",
+        "field": "f0004",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Ce numéro se trouve sur le visa que vous avez obtenu du SPF Santé publique.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Votre adresse e-mail",
+        "field": "f0005",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Adresse e-mail à laquelle nous pouvons vous contacter. Votre adresse de contact : adresse à laquelle nous pouvons vous contacter : adresse impérativement en Belgique + le cas échéant, le nom du demeurant ou de l’établissement situé à cette adresse.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Rue, n°, Bte :",
+        "field": "f0006",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Code postal, localité :",
+        "field": "f0007",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "Nom :",
+        "field": "f0008",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "¹ Si vous avez obtenu votre diplôme de sage-femme à partir du 1er octobre 2018, vous aurez uniquement accès aux prestations de l’article 8 de la nomenclature de l’art infirmier dans le domaine de l’obstétrical, du traitement de la fertilité, de la gynécologie et de la néonatologie. Veuillez également remplir et signer le verso de ce formulaire.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Votre diplôme",
+        "field": "f0009",
+        "source_page": 2,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Titre(s) ou qualification(s) professionnel(s) particulier(s)",
+        "field": "f0010",
+        "source_page": 2,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Pour les titres d’infirmier relais en matière de soins de plaies et de diabète : veuillez joindre une copie du brevet ou du certificat de formation.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Votre statut de conventionnement",
+        "field": "f0011",
+        "source_page": 2,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Votre déclaration",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "En signant ce formulaire d’inscription, je déclare que je remplis les conditions d’enregistrement indiquées dans la partie I et que les données d’identification de la partie II sont correctes. Je m’engage à signaler tout changement relatif aux données reprises dans ce formulaire. Dans le cas où j’adhère à la Convention nationale conclue entre les infirmiers et les organismes assureurs (W/97terdecies), je m’engage à me conformer aux dispositions de cet accord.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Date :",
+        "field": "f0012",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "label": "Signature :",
+        "field": "f0013",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "À signer électroniquement ou à imprimer et à signer.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Comment nous transmettre la demande ?",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "De préférence par e-mail (document numérisé) : nursefr@riziv-inami.fgov.be. Ou par courrier postal : INAMI, Service des soins de santé, team infirmiers, Avenue Galilée 5/01 - 1210 BRUXELLES.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Vous trouverez plus d’informations sur l’exercice de votre profession (la nomenclature pour infirmiers, les honoraires, la convention nationale...) sur notre site www.inami.be > Professionnels > Infirmiers.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Source : Institut national d’assurance maladie-invalidité (INAMI) ; https://www.inami.fgov.be/SiteCollectionDocuments/formulaire_infirmiers_demande_inscription_INAMI.pdf ; Édition et date non imprimées ; consultation 2026-10-25T02:04:12.886914+00:00. Texte normalisé ; données remplies et signatures fictives.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 2
+      }
+    ]
+  ],
+  "synthetic_context": true,
+  "source_notice": "Complete source packet normalized in source order, including conditional controls, repeated sections, attestations and notices. Fictional completions; no real application or declaration. Digit boxes belonging to one logical datum are coalesced.",
+  "context": "Scénario entièrement fictif. Personnes, établissements, coordonnées, identifiants, signatures et décisions synthétiques. Aucune transmission administrative ni situation clinique réelle. Les champs conditionnels sans objet sont conservés.\nPage 1 / Vos données d’identification / Votre nom : MARTIN\nPage 1 / Vos données d’identification / Votre prénom : Camille\nPage 1 / Vos données d’identification / Votre numéro de registre national : : 90.03.15-802-77\nPage 1 / Vos données d’identification / Votre numéro de visa : VISA-FICTIF-802\nPage 1 / Vos données d’identification / Votre adresse e-mail : camille802@example.org\nPage 1 / Vos données d’identification / Rue, n°, Bte : : Rue de l’Exemple 8, boîte 2\nPage 1 / Vos données d’identification / Code postal, localité : : 1000 Bruxelles\nPage 1 / Vos données d’identification / Nom : : Cabinet infirmier Exemple\nPage 2 / Vos données d’identification / Votre diplôme : Bachelier en soins infirmiers / Diplôme d’infirmier gradué\nPage 2 / Vos données d’identification / Titre(s) ou qualification(s) professionnel(s) particulier(s) : Infirmier relais en matière de soins de plaies\nPage 2 / Vos données d’identification / Votre statut de conventionnement : J’adhère à la Convention nationale entre les infirmiers et les organismes assureurs (W/97terdecies)\nPage 2 / Votre déclaration / Date : : 25/10/2026\nPage 2 / Votre déclaration / Signature : : Camille MARTIN, signature fictive",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 802
+  }
+}

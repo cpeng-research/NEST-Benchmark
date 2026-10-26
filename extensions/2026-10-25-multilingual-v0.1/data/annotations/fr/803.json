@@ -1,0 +1,723 @@
+{
+  "id": "fr-803-inami-formulaire-infirmiers-prime-qualification-diabetologie",
+  "language": "fr",
+  "title": "Demande de prime pour les infirmiers ayant une qualification professionnelle particulière en diabétologie",
+  "domain": "Healthcare",
+  "issuer": "Institut national d’assurance maladie-invalidité (INAMI)",
+  "issuer_id": "INAMI",
+  "template_family": "inami-formulaire-infirmiers-prime-qualification-diabetologie",
+  "source_url": "https://www.inami.fgov.be/SiteCollectionDocuments/formulaire_infirmiers_prime_qualification_diabetologie.pdf",
+  "landing_url": "https://www.inami.fgov.be/fr/professionnels/professionnels-de-la-sante/infirmiers/formulaires-pour-les-infirmiers",
+  "license_url": "https://www.inami.fgov.be/fr/disclaimer",
+  "license_note": "Selon les conditions Copyrights de l’INAMI : informations libres de droit sauf mention contraire, utilisables gratuitement moyennant mention de la source. Seuls le texte fonctionnel et les contrôles du formulaire sont normalisés ; informations multimédias, logos et éléments graphiques exclus.",
+  "source_sha256": "4226a471066cca12e5b4437dc47667702949eca375f77727c9f36ad71a8d332b",
+  "source_pages": 2,
+  "source_version": "Édition et date non imprimées",
+  "source_date_evidence": {
+    "kind": "edition not stated",
+    "value": "Édition et date non imprimées"
+  },
+  "retrieved_at": "2026-10-25T02:04:31.570327+00:00",
+  "columns": 6,
+  "fields": [
+    {
+      "id": "f0001",
+      "label": "Votre numéro INAMI :",
+      "path": [
+        "Page 1",
+        "Vos données",
+        "Votre numéro INAMI :"
+      ],
+      "source_page": 1,
+      "source_anchor": "Votre numéro INAMI :",
+      "kind": "text",
+      "synthetic_value": "48010010001",
+      "source_label_rects": [
+        [
+          48.119998931884766,
+          446.7099914550781,
+          148.3870391845703,
+          457.75
+        ]
+      ]
+    },
+    {
+      "id": "f0002",
+      "label": "Vos nom et prénom :",
+      "path": [
+        "Page 1",
+        "Vos données",
+        "Vos nom et prénom :"
+      ],
+      "source_page": 1,
+      "source_anchor": "Vos nom et prénom :",
+      "kind": "text",
+      "synthetic_value": "Camille MARTIN",
+      "source_label_rects": [
+        [
+          48.119998931884766,
+          483.9100036621094,
+          143.10704040527344,
+          494.95001220703125
+        ]
+      ]
+    },
+    {
+      "id": "f0003",
+      "label": "Votre adresse e-mail :",
+      "path": [
+        "Page 1",
+        "Vos données",
+        "Votre adresse e-mail :"
+      ],
+      "source_page": 1,
+      "source_anchor": "Votre adresse e-mail :",
+      "kind": "text",
+      "synthetic_value": "camille803@example.org",
+      "source_label_rects": [
+        [
+          48.119998931884766,
+          519.4599609375,
+          146.5870361328125,
+          530.5
+        ]
+      ]
+    },
+    {
+      "id": "f0004",
+      "label": "Barème IFIC :",
+      "path": [
+        "Page 1",
+        "Vos données",
+        "Barème IFIC :"
+      ],
+      "source_page": 1,
+      "source_anchor": "Barème IFIC :",
+      "kind": "checkbox_single",
+      "synthetic_value": "Je travaille comme indépendant·e :",
+      "source_label_rects": [
+        [
+          48.119998931884766,
+          634.4199829101562,
+          108.54704284667969,
+          645.4600219726562
+        ]
+      ],
+      "options": [
+        "Je travaille comme indépendant·e :",
+        "Je travaille comme salarié·e selon le barème IFIC.",
+        "Je travaille comme salarié·e mais pas selon le barème IFIC."
+      ],
+      "context_evidence": "Page 1 / Vos données / Barème IFIC : : Je travaille comme indépendant·e :"
+    },
+    {
+      "id": "f0005",
+      "label": "numéro BCE:",
+      "path": [
+        "Page 1",
+        "Vos données",
+        "numéro BCE:"
+      ],
+      "source_page": 1,
+      "source_anchor": "numéro BCE:",
+      "kind": "text",
+      "synthetic_value": "0123.456.749",
+      "source_label_rects": [
+        [
+          379.0299987792969,
+          615.8199462890625,
+          437.0686950683594,
+          626.8599853515625
+        ]
+      ]
+    },
+    {
+      "id": "f0006",
+      "label": "Année de la prime :",
+      "path": [
+        "Page 2",
+        "Relevé des prestations prises en compte pour l’attribution de la prime",
+        "Année de la prime :"
+      ],
+      "source_page": 2,
+      "source_anchor": "Année de la prime :",
+      "kind": "text",
+      "synthetic_value": "2025",
+      "source_label_rects": [
+        [
+          276.1700134277344,
+          65.18002319335938,
+          363.0287170410156,
+          76.22002410888672
+        ]
+      ]
+    },
+    {
+      "id": "f0007",
+      "label": "423135",
+      "path": [
+        "Page 2",
+        "Relevé des prestations prises en compte pour l’attribution de la prime",
+        "423135"
+      ],
+      "source_page": 2,
+      "source_anchor": "423135",
+      "kind": "text",
+      "synthetic_value": "200",
+      "source_label_rects": [
+        [
+          96.86399841308594,
+          156.62002563476562,
+          129.93984985351562,
+          167.66001892089844
+        ]
+      ]
+    },
+    {
+      "id": "f0008",
+      "label": "794253",
+      "path": [
+        "Page 2",
+        "Relevé des prestations prises en compte pour l’attribution de la prime",
+        "794253"
+      ],
+      "source_page": 2,
+      "source_anchor": "794253",
+      "kind": "text",
+      "synthetic_value": "120",
+      "source_label_rects": [
+        [
+          366.9100036621094,
+          156.62002563476562,
+          399.9859313964844,
+          167.66001892089844
+        ]
+      ]
+    },
+    {
+      "id": "f0009",
+      "label": "423150",
+      "path": [
+        "Page 2",
+        "Relevé des prestations prises en compte pour l’attribution de la prime",
+        "423150"
+      ],
+      "source_page": 2,
+      "source_anchor": "423150",
+      "kind": "text",
+      "synthetic_value": "100",
+      "source_label_rects": [
+        [
+          96.86399841308594,
+          178.93997192382812,
+          129.93984985351562,
+          189.97996520996094
+        ]
+      ]
+    },
+    {
+      "id": "f0010",
+      "label": "794312",
+      "path": [
+        "Page 2",
+        "Relevé des prestations prises en compte pour l’attribution de la prime",
+        "794312"
+      ],
+      "source_page": 2,
+      "source_anchor": "794312",
+      "kind": "text",
+      "synthetic_value": "80",
+      "source_label_rects": [
+        [
+          366.9100036621094,
+          178.93997192382812,
+          399.9859313964844,
+          189.97996520996094
+        ]
+      ]
+    },
+    {
+      "id": "f0011",
+      "label": "423194",
+      "path": [
+        "Page 2",
+        "Relevé des prestations prises en compte pour l’attribution de la prime",
+        "423194"
+      ],
+      "source_page": 2,
+      "source_anchor": "423194",
+      "kind": "text",
+      "synthetic_value": "50",
+      "source_label_rects": [
+        [
+          96.86399841308594,
+          201.13998413085938,
+          129.93984985351562,
+          212.1799774169922
+        ]
+      ]
+    },
+    {
+      "id": "f0012",
+      "label": "794334",
+      "path": [
+        "Page 2",
+        "Relevé des prestations prises en compte pour l’attribution de la prime",
+        "794334"
+      ],
+      "source_page": 2,
+      "source_anchor": "794334",
+      "kind": "text",
+      "synthetic_value": "40",
+      "source_label_rects": [
+        [
+          366.9100036621094,
+          201.13998413085938,
+          399.9859313964844,
+          212.1799774169922
+        ]
+      ]
+    },
+    {
+      "id": "f0013",
+      "label": "423216",
+      "path": [
+        "Page 2",
+        "Relevé des prestations prises en compte pour l’attribution de la prime",
+        "423216"
+      ],
+      "source_page": 2,
+      "source_anchor": "423216",
+      "kind": "text",
+      "synthetic_value": "30",
+      "source_label_rects": [
+        [
+          96.86399841308594,
+          223.25003051757812,
+          129.93984985351562,
+          234.29002380371094
+        ]
+      ]
+    },
+    {
+      "id": "f0014",
+      "label": "794415",
+      "path": [
+        "Page 2",
+        "Relevé des prestations prises en compte pour l’attribution de la prime",
+        "794415"
+      ],
+      "source_page": 2,
+      "source_anchor": "794415",
+      "kind": "text",
+      "synthetic_value": "20",
+      "source_label_rects": [
+        [
+          366.9100036621094,
+          223.25003051757812,
+          399.9859313964844,
+          234.29002380371094
+        ]
+      ]
+    },
+    {
+      "id": "f0015",
+      "label": "423231",
+      "path": [
+        "Page 2",
+        "Relevé des prestations prises en compte pour l’attribution de la prime",
+        "423231"
+      ],
+      "source_page": 2,
+      "source_anchor": "423231",
+      "kind": "text",
+      "synthetic_value": "10",
+      "source_label_rects": [
+        [
+          96.86399841308594,
+          245.44998168945312,
+          129.93984985351562,
+          256.489990234375
+        ]
+      ]
+    },
+    {
+      "id": "f0016",
+      "label": "794430",
+      "path": [
+        "Page 2",
+        "Relevé des prestations prises en compte pour l’attribution de la prime",
+        "794430"
+      ],
+      "source_page": 2,
+      "source_anchor": "794430",
+      "kind": "text",
+      "synthetic_value": "10",
+      "source_label_rects": [
+        [
+          366.9100036621094,
+          245.44998168945312,
+          399.9859313964844,
+          256.489990234375
+        ]
+      ]
+    },
+    {
+      "id": "f0017",
+      "label": "423334",
+      "path": [
+        "Page 2",
+        "Relevé des prestations prises en compte pour l’attribution de la prime",
+        "423334"
+      ],
+      "source_page": 2,
+      "source_anchor": "423334",
+      "kind": "text",
+      "synthetic_value": "5",
+      "source_label_rects": [
+        [
+          96.86399841308594,
+          267.2900085449219,
+          129.93984985351562,
+          278.33001708984375
+        ]
+      ]
+    },
+    {
+      "id": "f0018",
+      "label": "794452",
+      "path": [
+        "Page 2",
+        "Relevé des prestations prises en compte pour l’attribution de la prime",
+        "794452"
+      ],
+      "source_page": 2,
+      "source_anchor": "794452",
+      "kind": "text",
+      "synthetic_value": "5",
+      "source_label_rects": [
+        [
+          366.9100036621094,
+          267.2900085449219,
+          399.9859313964844,
+          278.33001708984375
+        ]
+      ]
+    },
+    {
+      "id": "f0019",
+      "label": "Date :",
+      "path": [
+        "Page 2",
+        "Votre déclaration",
+        "Date :"
+      ],
+      "source_page": 2,
+      "source_anchor": "Date :",
+      "kind": "text",
+      "synthetic_value": "25/10/2026",
+      "source_label_rects": [
+        [
+          46.439998626708984,
+          394.0299987792969,
+          73.06271362304688,
+          405.07000732421875
+        ]
+      ]
+    },
+    {
+      "id": "f0020",
+      "label": "Signature :",
+      "path": [
+        "Page 2",
+        "Votre déclaration",
+        "Signature :"
+      ],
+      "source_page": 2,
+      "source_anchor": "Signature :",
+      "kind": "text",
+      "synthetic_value": "Camille MARTIN, signature fictive",
+      "source_label_rects": [
+        [
+          46.439998626708984,
+          424.989990234375,
+          94.42271423339844,
+          436.0299987792969
+        ]
+      ]
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Demande de prime pour les infirmiers ayant une qualification professionnelle particulière en diabétologie",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Conditions d’octroi de la prime",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Depuis le 1er janvier 2022, les infirmiers travaillant dans les soins infirmiers à domicile, disposant d’une qualification professionnelle particulière en diabétologie et rémunérés selon le barème IFIC, reçoivent de leur employeur un complément de spécialisation. Ce complément n’est pas cumulable avec la prime annuelle pour les infirmiers à domicile ayant une qualification particulière en diabétologie.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Pour l’obtention de la prime que vous sollicitez, vous devez remplir les conditions telles que fixées dans l’arrêté royal du 25 septembre 2014 relatif à l’exécution du plan d’attractivité pour la profession infirmière, dans les soins infirmiers à domicile, en ce qui concerne les primes pour des titres et qualifications professionnels particuliers : durant l’année à laquelle se rapporte la prime, vous dispensez suffisamment de prestations mentionnées à l’article 8 de l’annexe à l’arrêté royal du 14 septembre 1984 établissant la nomenclature des prestations de santé en matière d’assurance obligatoire soins de santé et indemnités et qui ont été attestées ; dans l’année à laquelle se rapporte la prime, vous disposez d’un agrément pour la qualification professionnelle particulière ou le titre professionnel particulier en diabétologie.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Vos données",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Votre numéro INAMI :",
+        "field": "f0001",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Vos nom et prénom :",
+        "field": "f0002",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "Votre adresse e-mail :",
+        "field": "f0003",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Numéro de compte bancaire pour le versement de la prime : Communiquez-nous vos données financières | INAMI (fgov.be). Veuillez indiquer le numéro de compte sur lequel le paiement doit être exécuté dans ProSanté.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Barème IFIC :",
+        "field": "f0004",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "numéro BCE:",
+        "field": "f0005",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Veuillez également compléter / signer le verso du document.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Relevé des prestations prises en compte pour l’attribution de la prime",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Année de la prime :",
+        "field": "f0006",
+        "source_page": 2,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "(PSEUDO) CODE NOMENCLATURE — Nombre total de prestations attestées, dispensées au cours de l’année pour laquelle la prime est demandée :",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "423135",
+        "field": "f0007",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "label": "794253",
+        "field": "f0008",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "423150",
+        "field": "f0009",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "label": "794312",
+        "field": "f0010",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "423194",
+        "field": "f0011",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "label": "794334",
+        "field": "f0012",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "423216",
+        "field": "f0013",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "label": "794415",
+        "field": "f0014",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "423231",
+        "field": "f0015",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "label": "794430",
+        "field": "f0016",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "423334",
+        "field": "f0017",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "label": "794452",
+        "field": "f0018",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Votre déclaration",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Par la signature du présent formulaire de demande, je déclare remplir les conditions d’octroi telles qu’elles sont définies dans la partie I et que les renseignements communiqués dans les parties II et III sont corrects.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Date :",
+        "field": "f0019",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "label": "Signature :",
+        "field": "f0020",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "À imprimer et à signer ou à signer électroniquement.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Comment envoyer ce formulaire ?",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "De préférence par e-mail (document numérisé) : nursefr@riziv-inami.fgov.be. Ou par courrier postal : INAMI, Service des soins de santé, team infirmiers, Avenue Galilée 5/01 - 1210 BRUXELLES.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Source : Institut national d’assurance maladie-invalidité (INAMI) ; https://www.inami.fgov.be/SiteCollectionDocuments/formulaire_infirmiers_prime_qualification_diabetologie.pdf ; Édition et date non imprimées ; consultation 2026-10-25T02:04:31.570327+00:00. Texte normalisé ; données remplies et signatures fictives.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 2
+      }
+    ]
+  ],
+  "synthetic_context": true,
+  "source_notice": "Complete source packet normalized in source order, including conditional controls, repeated sections, attestations and notices. Fictional completions; no real application or declaration. Digit boxes belonging to one logical datum are coalesced.",
+  "context": "Scénario entièrement fictif. Personnes, établissements, coordonnées, identifiants, signatures et décisions synthétiques. Aucune transmission administrative ni situation clinique réelle. Les champs conditionnels sans objet sont conservés.\nPage 1 / Vos données / Votre numéro INAMI : : 48010010001\nPage 1 / Vos données / Vos nom et prénom : : Camille MARTIN\nPage 1 / Vos données / Votre adresse e-mail : : camille803@example.org\nPage 1 / Vos données / Barème IFIC : : Je travaille comme indépendant·e :\nPage 1 / Vos données / numéro BCE: : 0123.456.749\nPage 2 / Relevé des prestations prises en compte pour l’attribution de la prime / Année de la prime : : 2025\nPage 2 / Relevé des prestations prises en compte pour l’attribution de la prime / 423135 : 200\nPage 2 / Relevé des prestations prises en compte pour l’attribution de la prime / 794253 : 120\nPage 2 / Relevé des prestations prises en compte pour l’attribution de la prime / 423150 : 100\nPage 2 / Relevé des prestations prises en compte pour l’attribution de la prime / 794312 : 80\nPage 2 / Relevé des prestations prises en compte pour l’attribution de la prime / 423194 : 50\nPage 2 / Relevé des prestations prises en compte pour l’attribution de la prime / 794334 : 40\nPage 2 / Relevé des prestations prises en compte pour l’attribution de la prime / 423216 : 30\nPage 2 / Relevé des prestations prises en compte pour l’attribution de la prime / 794415 : 20\nPage 2 / Relevé des prestations prises en compte pour l’attribution de la prime / 423231 : 10\nPage 2 / Relevé des prestations prises en compte pour l’attribution de la prime / 794430 : 10\nPage 2 / Relevé des prestations prises en compte pour l’attribution de la prime / 423334 : 5\nPage 2 / Relevé des prestations prises en compte pour l’attribution de la prime / 794452 : 5\nPage 2 / Votre déclaration / Date : : 25/10/2026\nPage 2 / Votre déclaration / Signature : : Camille MARTIN, signature fictive",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 803
+  }
+}

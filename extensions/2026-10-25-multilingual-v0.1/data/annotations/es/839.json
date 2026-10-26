@@ -1,0 +1,537 @@
+{
+  "id": "es-839",
+  "language": "es",
+  "title": "Declaración jurada de pensión - Anexo I",
+  "domain": "Finance",
+  "issuer": "Caja de Retiros Jubilaciones y Pensiones de la Policía Federal",
+  "issuer_id": "caja-de-retiros-jubilaciones-y-pensiones-de-la-policía-federal",
+  "template_family": "crjppf-declaracion-jurada-pension-anexo-i",
+  "source_version": "FR - Pensión - V.1.0",
+  "source_date_evidence": {
+    "kind": "printed edition",
+    "value": "FR - Pensión - V.1.0",
+    "note": "Printed form code/edition; retrieval is not an issuance date."
+  },
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/2018/07/fr_-_declaracion_jurada_de_pension_-_v.1.0_anexo_i.pdf",
+  "landing_url": "https://www.argentina.gob.ar/solicitar-beneficio-de-pension-caja-de-retiros-pfa",
+  "source_sha256": "33995b6f78fac7969246fd07514f5ed7e8a3aa89f24f18b80cfc8fab1bb1f11c",
+  "source_pages": 1,
+  "retrieved_at": "2026-10-25T02:49:15.427337+00:00",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "Argentina.gob.ar, Propiedad intelectual: portal contents licensed CC BY 4.0 except otherwise stated. This national-portal PDF has no contrary notice. Attribution: Caja de Retiros Jubilaciones y Pensiones de la Policía Federal. Semantic grid adaptation and fictional completion, not an official submission.",
+  "columns": 2,
+  "synthetic_context": true,
+  "source_notice": "Complete source pages, options, instructions, declaration and signature targets retained in source order. All completions are fictional.",
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Existen otros deudos con derecho a la Pensión que se solicita.",
+      "path": [
+        "Página 1",
+        "Otros beneficiarios",
+        "Existen otros deudos con derecho a la Pensión que se solicita."
+      ],
+      "source_anchor": "Existen otros deudos con derecho a la Pensión que se solicita.",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "SI"
+      ],
+      "options": [
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "Otros beneficiarios / Existen otros deudos con derecho a la Pensión que se solicita.: SI."
+    },
+    {
+      "id": "f002",
+      "label": "Nombre y Apellido",
+      "path": [
+        "Página 1",
+        "Otros deudos - a) Cónyuge",
+        "Nombre y Apellido"
+      ],
+      "source_anchor": "Nombre y Apellido",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No existen otros deudos en esta categoría."
+    },
+    {
+      "id": "f003",
+      "label": "Nombre y Apellido",
+      "path": [
+        "Página 1",
+        "Otros deudos - b) Conviviente",
+        "Nombre y Apellido"
+      ],
+      "source_anchor": "Nombre y Apellido",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No existen otros deudos en esta categoría."
+    },
+    {
+      "id": "f004",
+      "label": "Nombre y Apellido",
+      "path": [
+        "Página 1",
+        "Otros deudos - c) Hijos hasta 21 años o hasta 26 años estudiantes o hijos con discapacidad con Incapacidad Laboral",
+        "Nombre y Apellido"
+      ],
+      "source_anchor": "Nombre y Apellido",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "TOMAS ESTEBAN LEZCANO"
+    },
+    {
+      "id": "f005",
+      "label": "Nombre y Apellido",
+      "path": [
+        "Página 1",
+        "Otros deudos - d) Padre o madre mayores de 70 años o sean personas con discapacidad",
+        "Nombre y Apellido"
+      ],
+      "source_anchor": "Nombre y Apellido",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No existen otros deudos en esta categoría."
+    },
+    {
+      "id": "f006",
+      "label": "Nombre y Apellido",
+      "path": [
+        "Página 1",
+        "Otros deudos - e) Hijas Mayores de 50 años",
+        "Nombre y Apellido"
+      ],
+      "source_anchor": "Nombre y Apellido",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No existen otros deudos en esta categoría."
+    },
+    {
+      "id": "f007",
+      "label": "Nombre y Apellido",
+      "path": [
+        "Página 1",
+        "Fila adicional de deudos",
+        "Nombre y Apellido"
+      ],
+      "source_anchor": "Nombre y Apellido",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No hay otros deudos."
+    },
+    {
+      "id": "f008",
+      "label": "Vínculo con el causante:",
+      "path": [
+        "Página 1",
+        "Fila adicional de deudos",
+        "Vínculo con el causante:"
+      ],
+      "source_anchor": "Vínculo con el causante:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No corresponde: fila adicional sin deudo."
+    },
+    {
+      "id": "f009",
+      "label": "Presentó anteriormente análogo pedido de pensión.",
+      "path": [
+        "Página 1",
+        "Declaraciones de la solicitante",
+        "Presentó anteriormente análogo pedido de pensión."
+      ],
+      "source_anchor": "Presentó anteriormente análogo pedido de pensión.",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "NO"
+      ],
+      "options": [
+        "Seleccione",
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "Declaraciones de la solicitante / Presentó anteriormente análogo pedido de pensión.: NO."
+    },
+    {
+      "id": "f010",
+      "label": "tengo otro beneficio previsional (retiro, jubilación y pensión).",
+      "path": [
+        "Página 1",
+        "Declaraciones de la solicitante",
+        "tengo otro beneficio previsional (retiro, jubilación y pensión)."
+      ],
+      "source_anchor": "tengo otro beneficio previsional (retiro, jubilación y pensión).",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "NO"
+      ],
+      "options": [
+        "Seleccione",
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "Declaraciones de la solicitante / tengo otro beneficio previsional (retiro, jubilación y pensión).: NO."
+    },
+    {
+      "id": "f011",
+      "label": "datos del beneficio y entidad previsional:",
+      "path": [
+        "Página 1",
+        "Otro beneficio",
+        "datos del beneficio y entidad previsional:"
+      ],
+      "source_anchor": "datos del beneficio y entidad previsional:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No corresponde: no cobra otro beneficio previsional."
+    },
+    {
+      "id": "f012",
+      "label": "realizo vida marital de hecho con posterioridad al fallecimiento del titular.",
+      "path": [
+        "Página 1",
+        "Declaraciones de la solicitante",
+        "realizo vida marital de hecho con posterioridad al fallecimiento del titular."
+      ],
+      "source_anchor": "realizo vida marital de hecho con posterioridad al fallecimiento del titular.",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "NO"
+      ],
+      "options": [
+        "Seleccione",
+        "SI",
+        "NO"
+      ],
+      "context_evidence": "Declaraciones de la solicitante / realizo vida marital de hecho con posterioridad al fallecimiento del titular.: NO."
+    },
+    {
+      "id": "f013",
+      "label": "Firma y aclaración del solicitante",
+      "path": [
+        "Página 1",
+        "Suscripción y recepción",
+        "Firma y aclaración del solicitante"
+      ],
+      "source_anchor": "Firma y aclaración del solicitante",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de ELENA MARINA LEZCANO"
+    },
+    {
+      "id": "f014",
+      "label": "Fecha",
+      "path": [
+        "Página 1",
+        "Suscripción y recepción",
+        "Fecha"
+      ],
+      "source_anchor": "Fecha",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "23/10/2026"
+    },
+    {
+      "id": "f015",
+      "label": "Lugar",
+      "path": [
+        "Página 1",
+        "Suscripción y recepción",
+        "Lugar"
+      ],
+      "source_anchor": "Lugar",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "ROSARIO, SANTA FE"
+    },
+    {
+      "id": "f016",
+      "label": "Firma y aclaración del funcionario receptor",
+      "path": [
+        "Página 1",
+        "Suscripción y recepción",
+        "Firma y aclaración del funcionario receptor"
+      ],
+      "source_anchor": "Firma y aclaración del funcionario receptor",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de PAULA MARTINA BENITEZ, agente receptor ficticio"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "ANEXO I",
+        "colspan": 2,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "DECLARACIÓN JURADA DE PENSIÓN:",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "El solicitante declara bajo juramento que:",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Existen otros deudos con derecho a la Pensión que se solicita.",
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Eximiendo a la CAJA DE RETIROS, JUBILACIONES Y PENSIONES DE LA POLICIA FEDERAL de toda responsabilidad de las consecuencias legales y patrimoniales en caso de resultar falsa la presente declaración.",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "En caso Afirmativo llenar los siguientes datos:",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Vínculo con el causante:",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "a) Cónyuge",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Nombre y Apellido",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "b) Conviviente",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Nombre y Apellido",
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "c) Hijos hasta 21 años o hasta 26 años estudiantes o hijos con discapacidad con Incapacidad Laboral",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Nombre y Apellido",
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "d) Padre o madre mayores de 70 años o sean personas con discapacidad",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Nombre y Apellido",
+        "field": "f005",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "e) Hijas Mayores de 50 años",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Nombre y Apellido",
+        "field": "f006",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nombre y Apellido",
+        "field": "f007",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Vínculo con el causante:",
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "A su vez declara bajo juramento que (Por SI o NO):",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Presentó anteriormente análogo pedido de pensión.",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "tengo otro beneficio previsional (retiro, jubilación y pensión).",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Informo en caso afirmativo los datos del beneficio y entidad previsional:",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "datos del beneficio y entidad previsional:",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "realizo vida marital de hecho con posterioridad al fallecimiento del titular.",
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Firma y aclaración del solicitante",
+        "field": "f013",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fecha",
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Lugar",
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Firma y aclaración del funcionario receptor",
+        "field": "f016",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Información",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "La presentación del Formulario de DECLARACIÓN JURADA DE PENSIÓN es de tramitación obligatoria conjunta a la respectiva SOLICITUD DE PENSIÓN.",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Para más información de cómo cumplimentar este trámite podrá ingresar a https://www.argentina.gob.ar/solicitar-beneficio-de-pension-caja-de-retiros-pfa",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "FR – Pensión – V.1.0",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ]
+  ],
+  "context": "CASO ENTERAMENTE FICTICIO, creado para completar este formulario. Personas, bienes, firmas y referencias administrativas son sintéticos y no corresponden a actuaciones reales.\nCaso ficticio: ELENA MARINA LEZCANO, viuda de RAUL ESTEBAN LEZCANO, fallecido el 15/09/2026, presenta conjuntamente la solicitud principal y este anexo. Existe un hijo común de 18 años, TOMAS ESTEBAN LEZCANO, nacido el 12/08/2008, que también solicita la pensión. No hay otros cónyuges, convivientes ni deudos de las restantes categorías. La solicitante no ha pedido esta pensión antes, no cobra otro beneficio y no ha formado nueva unión.\nPágina 1 / Otros beneficiarios / Existen otros deudos con derecho a la Pensión que se solicita.: Otros beneficiarios / Existen otros deudos con derecho a la Pensión que se solicita.: SI.\nPágina 1 / Otros deudos - a) Cónyuge / Nombre y Apellido: No existen otros deudos en esta categoría.\nPágina 1 / Otros deudos - b) Conviviente / Nombre y Apellido: No existen otros deudos en esta categoría.\nPágina 1 / Otros deudos - c) Hijos hasta 21 años o hasta 26 años estudiantes o hijos con discapacidad con Incapacidad Laboral / Nombre y Apellido: TOMAS ESTEBAN LEZCANO\nPágina 1 / Otros deudos - d) Padre o madre mayores de 70 años o sean personas con discapacidad / Nombre y Apellido: No existen otros deudos en esta categoría.\nPágina 1 / Otros deudos - e) Hijas Mayores de 50 años / Nombre y Apellido: No existen otros deudos en esta categoría.\nPágina 1 / Fila adicional de deudos / Nombre y Apellido: No hay otros deudos.\nPágina 1 / Fila adicional de deudos / Vínculo con el causante:: No corresponde: fila adicional sin deudo.\nPágina 1 / Declaraciones de la solicitante / Presentó anteriormente análogo pedido de pensión.: Declaraciones de la solicitante / Presentó anteriormente análogo pedido de pensión.: NO.\nPágina 1 / Declaraciones de la solicitante / tengo otro beneficio previsional (retiro, jubilación y pensión).: Declaraciones de la solicitante / tengo otro beneficio previsional (retiro, jubilación y pensión).: NO.\nPágina 1 / Otro beneficio / datos del beneficio y entidad previsional:: No corresponde: no cobra otro beneficio previsional.\nPágina 1 / Declaraciones de la solicitante / realizo vida marital de hecho con posterioridad al fallecimiento del titular.: Declaraciones de la solicitante / realizo vida marital de hecho con posterioridad al fallecimiento del titular.: NO.\nPágina 1 / Suscripción y recepción / Firma y aclaración del solicitante: Firma sintética de ELENA MARINA LEZCANO\nPágina 1 / Suscripción y recepción / Fecha: 23/10/2026\nPágina 1 / Suscripción y recepción / Lugar: ROSARIO, SANTA FE\nPágina 1 / Suscripción y recepción / Firma y aclaración del funcionario receptor: Firma sintética de PAULA MARTINA BENITEZ, agente receptor ficticio",
+  "workflow_identity": {
+    "language": "es",
+    "id": 839
+  }
+}

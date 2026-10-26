@@ -1,0 +1,1081 @@
+{
+  "id": "es-838",
+  "language": "es",
+  "title": "Representación en el procedimiento de inspección y sancionador derivado",
+  "domain": "Finance",
+  "issuer": "Agencia Estatal de Administración Tributaria",
+  "issuer_id": "agencia-estatal-de-administración-tributaria",
+  "template_family": "aeat-representacion-inspeccion-sancionador",
+  "source_version": "Undated",
+  "source_date_evidence": {
+    "kind": "undated printed instrument",
+    "value": "Undated",
+    "note": "No printed edition date. Reference to Ley 58/2003 is not an issuance date."
+  },
+  "source_url": "https://sede.agenciatributaria.gob.es/static_files/Sede/Tema/Destacados/Mod_repre/repre_3_es_es.pdf",
+  "landing_url": "https://sede.agenciatributaria.gob.es/Sede/formularios.html",
+  "source_sha256": "05ef40f84dec5bffb23bb96577edd8782fb75721a16741db69f87aabcf022643",
+  "source_pages": 1,
+  "retrieved_at": "2026-10-25T02:49:06.880464+00:00",
+  "license_url": "https://sede.agenciatributaria.gob.es/Sede/condiciones-uso-sede-electronica/aviso-legal/utilizacion-informacion-contenida-web-aeat.html",
+  "license_note": "AEAT reuse notice permits reproduction, modification and distribution subject to attribution, date identification and no distortion. Attribution: AEAT. All fixed instrument wording, including the prohibition on changing the standard instrument for official use, is retained. Semantic layout and fictional completion do not constitute an official grant.",
+  "columns": 2,
+  "synthetic_context": true,
+  "source_notice": "Complete source pages, options, instructions, declaration and signature targets retained in source order. All completions are fictional.",
+  "fields": [
+    {
+      "id": "f001",
+      "label": "(NIF)",
+      "path": [
+        "Página 1",
+        "Obligado tributario",
+        "(NIF)"
+      ],
+      "source_anchor": "(NIF)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "12345678Z"
+    },
+    {
+      "id": "f002",
+      "label": "(APELLIDOS, NOMBRE O RAZÓN SOCIAL)",
+      "path": [
+        "Página 1",
+        "Obligado tributario",
+        "(APELLIDOS, NOMBRE O RAZÓN SOCIAL)"
+      ],
+      "source_anchor": "(APELLIDOS, NOMBRE O RAZÓN SOCIAL)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "CAMPOS VIDAL, NURIA"
+    },
+    {
+      "id": "f003",
+      "label": "Núm. Referencia:",
+      "path": [
+        "Página 1",
+        "Comunicación de inicio",
+        "Núm. Referencia:"
+      ],
+      "source_anchor": "Núm. Referencia:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "INS-SINT-838-2026"
+    },
+    {
+      "id": "f004",
+      "label": "D/Dña",
+      "path": [
+        "Página 1",
+        "Otorgante",
+        "D/Dña"
+      ],
+      "source_anchor": "D/Dña",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NURIA CAMPOS VIDAL"
+    },
+    {
+      "id": "f005",
+      "label": "N.I.F.",
+      "path": [
+        "Página 1",
+        "Otorgante",
+        "N.I.F."
+      ],
+      "source_anchor": "N.I.F.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "12345678Z"
+    },
+    {
+      "id": "f006",
+      "label": "(municipio)",
+      "path": [
+        "Página 1",
+        "Otorgante",
+        "(municipio)"
+      ],
+      "source_anchor": "(municipio)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "VALENCIA"
+    },
+    {
+      "id": "f007",
+      "label": "(vía pública)",
+      "path": [
+        "Página 1",
+        "Otorgante",
+        "(vía pública)"
+      ],
+      "source_anchor": "(vía pública)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "CALLE DE LA ESTRELLA"
+    },
+    {
+      "id": "f008",
+      "label": "nº",
+      "path": [
+        "Página 1",
+        "Otorgante",
+        "nº"
+      ],
+      "source_anchor": "nº",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "38"
+    },
+    {
+      "id": "f009",
+      "label": "D/Dña (cónyuge (1))",
+      "path": [
+        "Página 1",
+        "Cónyuge otorgante (1)",
+        "D/Dña (cónyuge (1))"
+      ],
+      "source_anchor": "D/Dña (cónyuge (1))",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "MARCOS LLUCH SERRA"
+    },
+    {
+      "id": "f010",
+      "label": "N.I.F.",
+      "path": [
+        "Página 1",
+        "Cónyuge otorgante (1)",
+        "N.I.F."
+      ],
+      "source_anchor": "N.I.F.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "23456789D"
+    },
+    {
+      "id": "f011",
+      "label": "(municipio)",
+      "path": [
+        "Página 1",
+        "Cónyuge otorgante (1)",
+        "(municipio)"
+      ],
+      "source_anchor": "(municipio)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "VALENCIA"
+    },
+    {
+      "id": "f012",
+      "label": "(vía pública)",
+      "path": [
+        "Página 1",
+        "Cónyuge otorgante (1)",
+        "(vía pública)"
+      ],
+      "source_anchor": "(vía pública)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "CALLE DE LA ESTRELLA"
+    },
+    {
+      "id": "f013",
+      "label": "nº",
+      "path": [
+        "Página 1",
+        "Cónyuge otorgante (1)",
+        "nº"
+      ],
+      "source_anchor": "nº",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "38"
+    },
+    {
+      "id": "f014",
+      "label": "La Entidad (razón social)",
+      "path": [
+        "Página 1",
+        "Entidad - alternativa no aplicable",
+        "La Entidad (razón social)"
+      ],
+      "source_anchor": "La Entidad (razón social)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: OTORGAN DOS PERSONAS FISICAS"
+    },
+    {
+      "id": "f015",
+      "label": "N.I.F.",
+      "path": [
+        "Página 1",
+        "Entidad - alternativa no aplicable",
+        "N.I.F."
+      ],
+      "source_anchor": "N.I.F.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: OTORGAN DOS PERSONAS FISICAS"
+    },
+    {
+      "id": "f016",
+      "label": "(municipio)",
+      "path": [
+        "Página 1",
+        "Entidad - alternativa no aplicable",
+        "(municipio)"
+      ],
+      "source_anchor": "(municipio)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: OTORGAN DOS PERSONAS FISICAS"
+    },
+    {
+      "id": "f017",
+      "label": "(vía pública)",
+      "path": [
+        "Página 1",
+        "Entidad - alternativa no aplicable",
+        "(vía pública)"
+      ],
+      "source_anchor": "(vía pública)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: OTORGAN DOS PERSONAS FISICAS"
+    },
+    {
+      "id": "f018",
+      "label": "nº",
+      "path": [
+        "Página 1",
+        "Entidad - alternativa no aplicable",
+        "nº"
+      ],
+      "source_anchor": "nº",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: OTORGAN DOS PERSONAS FISICAS"
+    },
+    {
+      "id": "f019",
+      "label": "D/Dña",
+      "path": [
+        "Página 1",
+        "Representante legal de entidad - no aplicable",
+        "D/Dña"
+      ],
+      "source_anchor": "D/Dña",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: NO INTERVIENE ENTIDAD"
+    },
+    {
+      "id": "f020",
+      "label": "N.I.F.",
+      "path": [
+        "Página 1",
+        "Representante legal de entidad - no aplicable",
+        "N.I.F."
+      ],
+      "source_anchor": "N.I.F.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: NO INTERVIENE ENTIDAD"
+    },
+    {
+      "id": "f021",
+      "label": "(municipio)",
+      "path": [
+        "Página 1",
+        "Representante legal de entidad - no aplicable",
+        "(municipio)"
+      ],
+      "source_anchor": "(municipio)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: NO INTERVIENE ENTIDAD"
+    },
+    {
+      "id": "f022",
+      "label": "(vía pública)",
+      "path": [
+        "Página 1",
+        "Representante legal de entidad - no aplicable",
+        "(vía pública)"
+      ],
+      "source_anchor": "(vía pública)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: NO INTERVIENE ENTIDAD"
+    },
+    {
+      "id": "f023",
+      "label": "nº",
+      "path": [
+        "Página 1",
+        "Representante legal de entidad - no aplicable",
+        "nº"
+      ],
+      "source_anchor": "nº",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "NO APLICA: NO INTERVIENE ENTIDAD"
+    },
+    {
+      "id": "f024",
+      "label": "OTORGA/N LA REPRESENTACIÓN a D./Dña",
+      "path": [
+        "Página 1",
+        "Representante designada - domicilio de notificaciones",
+        "OTORGA/N LA REPRESENTACIÓN a D./Dña"
+      ],
+      "source_anchor": "OTORGA/N LA REPRESENTACIÓN a D./Dña",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "LAURA MONTES FERRER"
+    },
+    {
+      "id": "f025",
+      "label": "N.I.F.",
+      "path": [
+        "Página 1",
+        "Representante designada - domicilio de notificaciones",
+        "N.I.F."
+      ],
+      "source_anchor": "N.I.F.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "34567890V"
+    },
+    {
+      "id": "f026",
+      "label": "(municipio)",
+      "path": [
+        "Página 1",
+        "Representante designada - domicilio de notificaciones",
+        "(municipio)"
+      ],
+      "source_anchor": "(municipio)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "VALENCIA"
+    },
+    {
+      "id": "f027",
+      "label": "(vía pública)",
+      "path": [
+        "Página 1",
+        "Representante designada - domicilio de notificaciones",
+        "(vía pública)"
+      ],
+      "source_anchor": "(vía pública)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "CALLE DE LA LUZ"
+    },
+    {
+      "id": "f028",
+      "label": "nº",
+      "path": [
+        "Página 1",
+        "Representante designada - domicilio de notificaciones",
+        "nº"
+      ],
+      "source_anchor": "nº",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "83"
+    },
+    {
+      "id": "f029",
+      "label": "fecha",
+      "path": [
+        "Página 1",
+        "Día de la comunicación",
+        "fecha"
+      ],
+      "source_anchor": "fecha",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "05"
+    },
+    {
+      "id": "f030",
+      "label": "fecha",
+      "path": [
+        "Página 1",
+        "Mes de la comunicación",
+        "fecha"
+      ],
+      "source_anchor": "fecha",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "10"
+    },
+    {
+      "id": "f031",
+      "label": "fecha",
+      "path": [
+        "Página 1",
+        "Año de la comunicación",
+        "fecha"
+      ],
+      "source_anchor": "fecha",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2026"
+    },
+    {
+      "id": "f032",
+      "label": "En",
+      "path": [
+        "Página 1",
+        "EL/LOS OTORGANTE/S (3) - lugar",
+        "En"
+      ],
+      "source_anchor": "En",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "VALENCIA"
+    },
+    {
+      "id": "f033",
+      "label": "a",
+      "path": [
+        "Página 1",
+        "EL/LOS OTORGANTE/S (3) - día",
+        "a"
+      ],
+      "source_anchor": "a",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "23"
+    },
+    {
+      "id": "f034",
+      "label": "de",
+      "path": [
+        "Página 1",
+        "EL/LOS OTORGANTE/S (3) - mes",
+        "de"
+      ],
+      "source_anchor": "de",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Octubre"
+      ],
+      "options": [
+        "Enero",
+        "Febrero",
+        "Marzo",
+        "Abril",
+        "Mayo",
+        "Junio",
+        "Julio",
+        "Agosto",
+        "Septiembre",
+        "Octubre",
+        "Noviembre",
+        "Diciembre"
+      ],
+      "context_evidence": "EL/LOS OTORGANTE/S (3) - mes / de: Octubre."
+    },
+    {
+      "id": "f035",
+      "label": "de",
+      "path": [
+        "Página 1",
+        "EL/LOS OTORGANTE/S (3) - año",
+        "de"
+      ],
+      "source_anchor": "de",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2026"
+    },
+    {
+      "id": "f036",
+      "label": "EL/LOS OTORGANTE/S (3)",
+      "path": [
+        "Página 1",
+        "EL/LOS OTORGANTE/S (3) - firma",
+        "EL/LOS OTORGANTE/S (3)"
+      ],
+      "source_anchor": "EL/LOS OTORGANTE/S (3)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firmas sintéticas de NURIA CAMPOS VIDAL y MARCOS LLUCH SERRA"
+    },
+    {
+      "id": "f037",
+      "label": "En",
+      "path": [
+        "Página 1",
+        "EL REPRESENTANTE - lugar",
+        "En"
+      ],
+      "source_anchor": "En",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "VALENCIA"
+    },
+    {
+      "id": "f038",
+      "label": "a",
+      "path": [
+        "Página 1",
+        "EL REPRESENTANTE - día",
+        "a"
+      ],
+      "source_anchor": "a",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "23"
+    },
+    {
+      "id": "f039",
+      "label": "de",
+      "path": [
+        "Página 1",
+        "EL REPRESENTANTE - mes",
+        "de"
+      ],
+      "source_anchor": "de",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Octubre"
+      ],
+      "options": [
+        "Enero",
+        "Febrero",
+        "Marzo",
+        "Abril",
+        "Mayo",
+        "Junio",
+        "Julio",
+        "Agosto",
+        "Septiembre",
+        "Octubre",
+        "Noviembre",
+        "Diciembre"
+      ],
+      "context_evidence": "EL REPRESENTANTE - mes / de: Octubre."
+    },
+    {
+      "id": "f040",
+      "label": "de",
+      "path": [
+        "Página 1",
+        "EL REPRESENTANTE - año",
+        "de"
+      ],
+      "source_anchor": "de",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2026"
+    },
+    {
+      "id": "f041",
+      "label": "EL REPRESENTANTE",
+      "path": [
+        "Página 1",
+        "EL REPRESENTANTE - firma",
+        "EL REPRESENTANTE"
+      ],
+      "source_anchor": "EL REPRESENTANTE",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de LAURA MONTES FERRER"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "label": "(NIF)",
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(APELLIDOS, NOMBRE O RAZÓN SOCIAL)",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Núm. Referencia:",
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "La representación invocada sólo se considerará validamente constituida cuando los datos de esta casilla coincidan con los datos de la comunicación de inicio de las actuaciones inspectoras.",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "MODELO DE REPRESENTACIÓN EN EL PROCEDIMIENTO DE INSPECCIÓN Y EN EL PROCEDIMIENTO SANCIONADOR QUE PUEDA DERIVARSE DEL MISMO",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "OTORGAMIENTO DE LA REPRESENTACIÓN",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "D/Dña",
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "N.I.F.",
+        "field": "f005",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "domicilio fiscal en",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "(municipio)",
+        "field": "f006",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(vía pública)",
+        "field": "f007",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "nº",
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "D/Dña (cónyuge (1))",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "N.I.F.",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "domicilio fiscal en",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "(municipio)",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(vía pública)",
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "nº",
+        "field": "f013",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "La Entidad (razón social)",
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "N.I.F.",
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "domicilio fiscal en",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "(municipio)",
+        "field": "f016",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(vía pública)",
+        "field": "f017",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "nº",
+        "field": "f018",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "y en su nombre",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "D/Dña",
+        "field": "f019",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "como representante legal según documento justificativo que se adjunta, con",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "N.I.F.",
+        "field": "f020",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "domicilio fiscal en",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "(municipio)",
+        "field": "f021",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(vía pública)",
+        "field": "f022",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "nº",
+        "field": "f023",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "OTORGA/N LA REPRESENTACIÓN a D./Dña",
+        "field": "f024",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "N.I.F.",
+        "field": "f025",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "con domicilio a efectos de notificaciones en",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "(municipio)",
+        "field": "f026",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(vía pública)",
+        "field": "f027",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "nº",
+        "field": "f028",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "para que actúe ante la Inspección de los Tributos de la AEAT en el procedimiento de comprobación e investigación iniciado/ampliado su alcance mediante comunicación de fecha",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "fecha",
+        "field": "f029",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "fecha",
+        "field": "f030",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "fecha",
+        "field": "f031",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "así como en los procedimientos sancionadores ulteriores que, en su caso, puedan iniciarse. Con relación a los conceptos y períodos objeto de dicho procedimiento podrá ejercitar las siguientes facultades: facilitar la práctica de la comprobación e investigación inspectora, aportar cuantos datos y documentos se soliciten o se interesen, recibir comunicaciones, formular peticiones, presentar toda clase de escritos o alegaciones relacionados con las actuaciones inspectoras y la instrucción de los procedimientos sancionadores que puedan iniciarse, manifestar su decisión de no efectuar alegaciones ni aportar nuevos documentos en el correspondiente trámite de audiencia o renunciar a otros derechos, así como firmar cuantas diligencias extienda la Inspección, suscribir las actas de conformidad, disconformidad o con acuerdo, en que se proponga la regularización de la situación tributaria del representado o se declare correcta la misma y las propuestas de resolución que resulten de los procedimientos sancionadores mencionados, renunciar a la tramitación separada del procedimiento sancionador respecto del procedimiento de inspección y, en general, realizar cuantas actuaciones correspondan al/a los representado/s en el curso de dicho/s procedimiento/s.",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "ACEPTACIÓN DE LA REPRESENTACIÓN",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Con la firma del presente escrito el representante acepta la representación conferida y responde de la autenticidad de la firma del/de los otorgante/s, así como de la/s copia/s del DNI (2) del/de los mismo/s que acompaña/n a este/estos documento/s.",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "NORMAS APLICABLES",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Ley General Tributaria (Ley 58/2003) Representación voluntaria Artículo 46.",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "EL/LOS OTORGANTE/S (3)",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "En",
+        "field": "f032",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "a",
+        "field": "f033",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "de",
+        "field": "f034",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "de",
+        "field": "f035",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "EL/LOS OTORGANTE/S (3)",
+        "field": "f036",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "EL REPRESENTANTE",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "En",
+        "field": "f037",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "a",
+        "field": "f038",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "de",
+        "field": "f039",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "de",
+        "field": "f040",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "EL REPRESENTANTE",
+        "field": "f041",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "El texto de este documento normalizado no podrá ser modificado, sin perjuicio de la facultad de los interesados de otorgar su representación en términos diferentes, acreditándola por cualquier otro medio válido en Derecho. (1) En caso de matrimonios que tributen conjuntamente, ambos cónyuges deberán conferir su representación. (2) DNI o documento equivalente de identificación de extranjeros. (3) Si es persona jurídica deberá figurar también el sello de la entidad.",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ]
+  ],
+  "context": "CASO ENTERAMENTE FICTICIO, creado para completar este formulario. Personas, bienes, firmas y referencias administrativas son sintéticos y no corresponden a actuaciones reales.\nCaso ficticio: los cónyuges NURIA CAMPOS VIDAL y MARCOS LLUCH SERRA, residentes en Valencia, tributan conjuntamente en el IRPF 2024. La comunicación de inicio de inspección tiene referencia INS-SINT-838-2026 y fecha 05/10/2026. Ambos confieren la representación a LAURA MONTES FERRER el 23/10/2026, quien acepta ese mismo día. No actúa una persona jurídica: todos los espacios de esa alternativa se conservan y se declaran no aplicables. Se acompañan copias sintéticas de los DNI de ambos otorgantes; no se simula sello de entidad.\nPágina 1 / Obligado tributario / (NIF): 12345678Z\nPágina 1 / Obligado tributario / (APELLIDOS, NOMBRE O RAZÓN SOCIAL): CAMPOS VIDAL, NURIA\nPágina 1 / Comunicación de inicio / Núm. Referencia:: INS-SINT-838-2026\nPágina 1 / Otorgante / D/Dña: NURIA CAMPOS VIDAL\nPágina 1 / Otorgante / N.I.F.: 12345678Z\nPágina 1 / Otorgante / (municipio): VALENCIA\nPágina 1 / Otorgante / (vía pública): CALLE DE LA ESTRELLA\nPágina 1 / Otorgante / nº: 38\nPágina 1 / Cónyuge otorgante (1) / D/Dña (cónyuge (1)): MARCOS LLUCH SERRA\nPágina 1 / Cónyuge otorgante (1) / N.I.F.: 23456789D\nPágina 1 / Cónyuge otorgante (1) / (municipio): VALENCIA\nPágina 1 / Cónyuge otorgante (1) / (vía pública): CALLE DE LA ESTRELLA\nPágina 1 / Cónyuge otorgante (1) / nº: 38\nPágina 1 / Entidad - alternativa no aplicable / La Entidad (razón social): NO APLICA: OTORGAN DOS PERSONAS FISICAS\nPágina 1 / Entidad - alternativa no aplicable / N.I.F.: NO APLICA: OTORGAN DOS PERSONAS FISICAS\nPágina 1 / Entidad - alternativa no aplicable / (municipio): NO APLICA: OTORGAN DOS PERSONAS FISICAS\nPágina 1 / Entidad - alternativa no aplicable / (vía pública): NO APLICA: OTORGAN DOS PERSONAS FISICAS\nPágina 1 / Entidad - alternativa no aplicable / nº: NO APLICA: OTORGAN DOS PERSONAS FISICAS\nPágina 1 / Representante legal de entidad - no aplicable / D/Dña: NO APLICA: NO INTERVIENE ENTIDAD\nPágina 1 / Representante legal de entidad - no aplicable / N.I.F.: NO APLICA: NO INTERVIENE ENTIDAD\nPágina 1 / Representante legal de entidad - no aplicable / (municipio): NO APLICA: NO INTERVIENE ENTIDAD\nPágina 1 / Representante legal de entidad - no aplicable / (vía pública): NO APLICA: NO INTERVIENE ENTIDAD\nPágina 1 / Representante legal de entidad - no aplicable / nº: NO APLICA: NO INTERVIENE ENTIDAD\nPágina 1 / Representante designada - domicilio de notificaciones / OTORGA/N LA REPRESENTACIÓN a D./Dña: LAURA MONTES FERRER\nPágina 1 / Representante designada - domicilio de notificaciones / N.I.F.: 34567890V\nPágina 1 / Representante designada - domicilio de notificaciones / (municipio): VALENCIA\nPágina 1 / Representante designada - domicilio de notificaciones / (vía pública): CALLE DE LA LUZ\nPágina 1 / Representante designada - domicilio de notificaciones / nº: 83\nPágina 1 / Día de la comunicación / fecha: 05\nPágina 1 / Mes de la comunicación / fecha: 10\nPágina 1 / Año de la comunicación / fecha: 2026\nPágina 1 / EL/LOS OTORGANTE/S (3) - lugar / En: VALENCIA\nPágina 1 / EL/LOS OTORGANTE/S (3) - día / a: 23\nPágina 1 / EL/LOS OTORGANTE/S (3) - mes / de: EL/LOS OTORGANTE/S (3) - mes / de: Octubre.\nPágina 1 / EL/LOS OTORGANTE/S (3) - año / de: 2026\nPágina 1 / EL/LOS OTORGANTE/S (3) - firma / EL/LOS OTORGANTE/S (3): Firmas sintéticas de NURIA CAMPOS VIDAL y MARCOS LLUCH SERRA\nPágina 1 / EL REPRESENTANTE - lugar / En: VALENCIA\nPágina 1 / EL REPRESENTANTE - día / a: 23\nPágina 1 / EL REPRESENTANTE - mes / de: EL REPRESENTANTE - mes / de: Octubre.\nPágina 1 / EL REPRESENTANTE - año / de: 2026\nPágina 1 / EL REPRESENTANTE - firma / EL REPRESENTANTE: Firma sintética de LAURA MONTES FERRER",
+  "workflow_identity": {
+    "language": "es",
+    "id": 838
+  }
+}

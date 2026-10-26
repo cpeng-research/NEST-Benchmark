@@ -1,0 +1,228 @@
+{
+  "Page 1": {
+    "Le demandeur": {
+      "Le demandeur": {
+        "choices": [
+          "Particulier",
+          "Service public",
+          "Maître d’œuvre ou conducteur d’opération",
+          "Entreprise"
+        ],
+        "value": [
+          "Entreprise"
+        ]
+      },
+      "Le demandeur / Nom :": "MARTIN",
+      "Le demandeur / Prénom :": "Camille",
+      "Le demandeur / Dénomination :": "Travaux Démonstration SAS",
+      "Le demandeur / Représenté par :": "Camille MARTIN",
+      "Le demandeur / Numéro :": "43",
+      "Le demandeur / Extension :": "Sans objet",
+      "Le demandeur / Nom de la voie :": "rue Exemple",
+      "Le demandeur / Code postal": "69003",
+      "Le demandeur / Localité :": "Lyon",
+      "Le demandeur / Pays :": "France",
+      "Le demandeur / Téléphone": "0100000843",
+      "Le demandeur / Indiquez l’indicatif pour le pays étranger :": "Sans objet : France",
+      "Le demandeur / Courriel :": "travaux@example.invalid"
+    },
+    "Si le bénéficiaire est différent du demandeur": {
+      "Si le bénéficiaire est différent du demandeur / Nom :": "Sans objet : demandeur bénéficiaire et responsable de la signalisation",
+      "Si le bénéficiaire est différent du demandeur / Prénom :": "Sans objet : demandeur bénéficiaire et responsable de la signalisation",
+      "Si le bénéficiaire est différent du demandeur / Numéro :": "Sans objet : demandeur bénéficiaire et responsable de la signalisation",
+      "Si le bénéficiaire est différent du demandeur / Extension :": "Sans objet : demandeur bénéficiaire et responsable de la signalisation",
+      "Si le bénéficiaire est différent du demandeur / Nom de la voie :": "Sans objet : demandeur bénéficiaire et responsable de la signalisation",
+      "Si le bénéficiaire est différent du demandeur / Code postal": "Sans objet : demandeur bénéficiaire et responsable de la signalisation",
+      "Si le bénéficiaire est différent du demandeur / Localité :": "Sans objet : demandeur bénéficiaire et responsable de la signalisation",
+      "Si le bénéficiaire est différent du demandeur / Pays :": "Sans objet : demandeur bénéficiaire et responsable de la signalisation",
+      "Si le bénéficiaire est différent du demandeur / Téléphone": "Sans objet : demandeur bénéficiaire et responsable de la signalisation",
+      "Si le bénéficiaire est différent du demandeur / Indiquez l’indicatif pour le pays étranger :": "Sans objet : demandeur bénéficiaire et responsable de la signalisation",
+      "Si le bénéficiaire est différent du demandeur / Courriel :": "Sans objet : demandeur bénéficiaire et responsable de la signalisation"
+    },
+    "Localisation du site concerné par la demande": {
+      "Autoroute n°": "Sans objet",
+      "Route nationale n°": "Sans objet",
+      "Route départementale n°": "Sans objet",
+      "Voie communale n°": "Rue Exemple, voie communale",
+      "Voie concernée :": {
+        "choices": [
+          "Hors agglomération",
+          "En agglomération"
+        ],
+        "value": [
+          "En agglomération"
+        ]
+      },
+      "PR origine / Kilomètre": "0",
+      "PR origine / Mètres": "0",
+      "PR origine / Case native adjacente": {
+        "choices": [
+          "Point de Repère (PR) routier d’origine d’application :"
+        ],
+        "value": []
+      },
+      "PR fin / Kilomètre": "0",
+      "PR fin / Mètres": "100",
+      "PR fin / Case native adjacente": {
+        "choices": [
+          "Point de Repère (PR) routier de fin d’application :"
+        ],
+        "value": []
+      },
+      "Site / Numéro": "43",
+      "Site / Extension": "Sans objet",
+      "Site / Voie": "rue Exemple",
+      "Site / Code postal": "69003",
+      "Site / Localité": "Lyon"
+    },
+    "Nature et date des travaux": {
+      "Permission de voirie antérieure :": {
+        "choices": [
+          "Oui",
+          "Non"
+        ],
+        "value": [
+          "Oui"
+        ]
+      },
+      "Si oui indiquer la référence :": "VOIRIE-FICT-843 du 01/10/2026",
+      "Description des travaux :": "Réfection fictive de trottoir sur 100 mètres, empiètement sur chaussée ; circulation maintenue sur 3 mètres.",
+      "Date prévue de début des travaux :": "02/11/2026",
+      "Durée des travaux (en jours calendaires) :": "5"
+    },
+    "Réglementation souhaitée": {
+      "Durée de la réglementation (en jours calendaires) :": "5",
+      "Date de début de réglementation": "02/11/2026",
+      "Réglementation souhaitée": {
+        "choices": [
+          "Restriction sur section courante",
+          "Restriction sur bretelles"
+        ],
+        "value": [
+          "Restriction sur section courante"
+        ]
+      },
+      "Sens de circulation concerné :": {
+        "choices": [
+          "Deux sens de circulation",
+          "Sens des Points de Repères (PR) croissants",
+          "Sens des Points de Repères (PR) décroissants"
+        ],
+        "value": [
+          "Deux sens de circulation"
+        ]
+      },
+      "Fermeture et basculement": {
+        "choices": [
+          "Fermeture à la circulation",
+          "Basculement de circulation sur chaussée opposée"
+        ],
+        "value": []
+      },
+      "Circulation alternée :": {
+        "choices": [
+          "Par feux tricolores",
+          "Manuellement"
+        ],
+        "value": []
+      },
+      "Restriction de chaussée :": {
+        "choices": [
+          "Neutralisation de la bande d’arrêt d’urgence (BAU)",
+          "Empiètement sur chaussée",
+          "Suppression de voie"
+        ],
+        "value": [
+          "Empiètement sur chaussée"
+        ]
+      },
+      "largeur de voie maintenue": "3 mètres",
+      "nombre de voie(s) supprimée(s)": "0"
+    }
+  },
+  "Page 2": {
+    "Interdiction de :": {
+      "Circuler": {
+        "choices": [
+          "Véhicules légers",
+          "poids lourds"
+        ],
+        "value": []
+      },
+      "Stationner": {
+        "choices": [
+          "véhicules légers",
+          "poids lourds"
+        ],
+        "value": [
+          "véhicules légers",
+          "poids lourds"
+        ]
+      },
+      "Dépasser": {
+        "choices": [
+          "véhicules légers",
+          "poids lourds"
+        ],
+        "value": []
+      },
+      "Vitesse limitée à :": "30 km/h",
+      "Itinéraire de déviation (à préciser par sens) :": "Sans objet : circulation maintenue dans les deux sens",
+      "Autres prescriptions :": "Maintien d’un cheminement piéton protégé et de l’accès aux riverains"
+    },
+    "La pose, le maintien ou le retrait de la signalisation spécifique au chantier sont effectués par :": {
+      "La pose, le maintien ou le retrait de la signalisation spécifique au chantier sont effectués par :": {
+        "choices": [
+          "Le demandeur",
+          "Une entreprise spécialité"
+        ],
+        "value": [
+          "Le demandeur"
+        ]
+      },
+      "La pose, le maintien ou le retrait de la signalisation spécifique au chantier sont effectués par : / Nom :": "Sans objet : demandeur bénéficiaire et responsable de la signalisation",
+      "La pose, le maintien ou le retrait de la signalisation spécifique au chantier sont effectués par : / Prénom :": "Sans objet : demandeur bénéficiaire et responsable de la signalisation",
+      "La pose, le maintien ou le retrait de la signalisation spécifique au chantier sont effectués par : / Dénomination :": "Sans objet : demandeur bénéficiaire et responsable de la signalisation",
+      "La pose, le maintien ou le retrait de la signalisation spécifique au chantier sont effectués par : / Représenté par :": "Sans objet : demandeur bénéficiaire et responsable de la signalisation",
+      "La pose, le maintien ou le retrait de la signalisation spécifique au chantier sont effectués par : / Numéro :": "Sans objet : demandeur bénéficiaire et responsable de la signalisation",
+      "La pose, le maintien ou le retrait de la signalisation spécifique au chantier sont effectués par : / Extension :": "Sans objet : demandeur bénéficiaire et responsable de la signalisation",
+      "La pose, le maintien ou le retrait de la signalisation spécifique au chantier sont effectués par : / Nom de la voie :": "Sans objet : demandeur bénéficiaire et responsable de la signalisation",
+      "La pose, le maintien ou le retrait de la signalisation spécifique au chantier sont effectués par : / Code postal": "Sans objet : demandeur bénéficiaire et responsable de la signalisation",
+      "La pose, le maintien ou le retrait de la signalisation spécifique au chantier sont effectués par : / Localité :": "Sans objet : demandeur bénéficiaire et responsable de la signalisation",
+      "La pose, le maintien ou le retrait de la signalisation spécifique au chantier sont effectués par : / Pays :": "Sans objet : demandeur bénéficiaire et responsable de la signalisation",
+      "La pose, le maintien ou le retrait de la signalisation spécifique au chantier sont effectués par : / Téléphone": "Sans objet : demandeur bénéficiaire et responsable de la signalisation",
+      "La pose, le maintien ou le retrait de la signalisation spécifique au chantier sont effectués par : / Indiquez l’indicatif pour le pays étranger :": "Sans objet : demandeur bénéficiaire et responsable de la signalisation",
+      "La pose, le maintien ou le retrait de la signalisation spécifique au chantier sont effectués par : / Courriel :": "Sans objet : demandeur bénéficiaire et responsable de la signalisation"
+    },
+    "Pièces jointes à la demande": {
+      "Pièces jointes à la demande": {
+        "choices": [
+          "Une notice détaillée avec notamment l’évaluation de la gêne occasionnée au usagers",
+          "Plan de situation 1/10 ou 1/20 000ème",
+          "Plan des travaux 1/200 ou 1/ 500ème",
+          "Schéma de signalisation",
+          "Itinéraire de déviation 1/2 000 ou 1/5 000ème"
+        ],
+        "value": [
+          "Une notice détaillée avec notamment l’évaluation de la gêne occasionnée au usagers",
+          "Plan de situation 1/10 ou 1/20 000ème",
+          "Plan des travaux 1/200 ou 1/ 500ème",
+          "Schéma de signalisation"
+        ]
+      },
+      "J’atteste de l’exactitude des informations fournies": {
+        "choices": [
+          "J’atteste de l’exactitude des informations fournies"
+        ],
+        "value": [
+          "J’atteste de l’exactitude des informations fournies"
+        ]
+      },
+      "Fait à :": "Lyon",
+      "Le :": "25/10/2026",
+      "Attestation / Nom": "MARTIN",
+      "Attestation / Prénom": "Camille",
+      "Qualité :": "Présidente de Travaux Démonstration SAS"
+    }
+  }
+}

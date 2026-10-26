@@ -1,0 +1,1210 @@
+{
+  "id": "es-809",
+  "language": "es",
+  "title": "Alteración de matrícula de máster",
+  "domain": "Education",
+  "issuer": "Universidad de Granada",
+  "issuer_id": "universidad-de-granada",
+  "template_family": "ugr-master-enrolment-amendment",
+  "source_version": "Sin fecha de edición impresa",
+  "source_date_evidence": {
+    "kind": "undated source",
+    "value": "Sin fecha de edición impresa",
+    "note": "PDF metadata and retrieval timestamp are preserved separately; neither is asserted to be an issuance date."
+  },
+  "source_url": "https://masteres.ugr.es/sites/master/default/public/ficheros/matricula%20y%20alteraciones%20IMPRESOS/Solicitud%20Modificaci%C3%B3n%20de%20Matricula_1.pdf",
+  "landing_url": "https://masteres.ugr.es/estudiantes/tramites/impresos",
+  "source_sha256": "8ae33a02793205d9feef7cd81d1aa6d5a53800a7d18874113a59e82a6f2ecef9",
+  "source_pages": 1,
+  "retrieved_at": "2026-10-25T01:57:44.747839+00:00",
+  "license_url": "https://www.ugr.es/condiciones-legales",
+  "license_note": "Universidad de Granada, Condiciones legales, Derechos de Propiedad Intelectual y Propiedad Industrial: authorization to reproduce all or part of portal contents when their public origin is expressly cited and the integrity and meaning of cited data are respected. These terms expressly cover associated university organs, services, faculties, schools, departments and institutes. This is a specific reproduction permission, not a Creative Commons license. Source wording and complete controls retained in a normalized semantic layout; completions are synthetic, not an official submission. Attribution: Universidad de Granada.",
+  "columns": 2,
+  "fields": [
+    {
+      "id": "f001",
+      "label": "CURSO ACADÉMICO:",
+      "path": [
+        "Página 1",
+        "Datos",
+        "CURSO ACADÉMICO:"
+      ],
+      "source_anchor": "CURSO ACADÉMICO:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2026 - 2027"
+    },
+    {
+      "id": "f002",
+      "label": "APELLIDOS Y NOMBRE",
+      "path": [
+        "Página 1",
+        "Datos",
+        "APELLIDOS Y NOMBRE"
+      ],
+      "source_anchor": "APELLIDOS Y NOMBRE",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Ríos Salcedo, Elena"
+    },
+    {
+      "id": "f003",
+      "label": "DNI:",
+      "path": [
+        "Página 1",
+        "Datos",
+        "DNI:"
+      ],
+      "source_anchor": "DNI:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SINT-UGR-2809"
+    },
+    {
+      "id": "f004",
+      "label": "DOMICILI O",
+      "path": [
+        "Página 1",
+        "Datos",
+        "DOMICILI O"
+      ],
+      "source_anchor": "DOMICILI O",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Calle Ejemplo Académico 18"
+    },
+    {
+      "id": "f005",
+      "label": "POBLACIÓ N",
+      "path": [
+        "Página 1",
+        "Datos",
+        "POBLACIÓ N"
+      ],
+      "source_anchor": "POBLACIÓ N",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Granada"
+    },
+    {
+      "id": "f006",
+      "label": "C. POSTAL:",
+      "path": [
+        "Página 1",
+        "Datos",
+        "C. POSTAL:"
+      ],
+      "source_anchor": "C. POSTAL:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "18011"
+    },
+    {
+      "id": "f007",
+      "label": "TELEFONO:",
+      "path": [
+        "Página 1",
+        "Datos",
+        "TELEFONO:"
+      ],
+      "source_anchor": "TELEFONO:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "600000809"
+    },
+    {
+      "id": "f008",
+      "label": "E-MAIL:",
+      "path": [
+        "Página 1",
+        "Datos",
+        "E-MAIL:"
+      ],
+      "source_anchor": "E-MAIL:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "elena.rios@example.org"
+    },
+    {
+      "id": "f009",
+      "label": "MÁSTER UNIVERSITARIO:",
+      "path": [
+        "Página 1",
+        "Datos",
+        "MÁSTER UNIVERSITARIO:"
+      ],
+      "source_anchor": "MÁSTER UNIVERSITARIO:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Investigación e Innovación en Currículum y Formación"
+    },
+    {
+      "id": "f010",
+      "label": "Desea efectuar las siguientes modificaciones en su matrícula:",
+      "path": [
+        "Página 1",
+        "Datos",
+        "Desea efectuar las siguientes modificaciones en su matrícula:"
+      ],
+      "source_anchor": "Desea efectuar las siguientes modificaciones en su matrícula:",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "BAJA EN LAS SIGUIENTES ASIGNATURAS:",
+        "ALTA EN LAS SIGUIENTES ASIGNATURAS:"
+      ],
+      "options": [
+        "BAJA TOTAL",
+        "BAJA EN LAS SIGUIENTES ASIGNATURAS:",
+        "ALTA EN LAS SIGUIENTES ASIGNATURAS:"
+      ],
+      "context_evidence": "Página 1 / Datos / Desea efectuar las siguientes modificaciones en su matrícula:: BAJA EN LAS SIGUIENTES ASIGNATURAS:, ALTA EN LAS SIGUIENTES ASIGNATURAS:."
+    },
+    {
+      "id": "f011",
+      "label": "ASIGNATURA",
+      "path": [
+        "Página 1",
+        "Baja: fila 1",
+        "ASIGNATURA"
+      ],
+      "source_anchor": "ASIGNATURA",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Diseño de investigación educativa"
+    },
+    {
+      "id": "f012",
+      "label": "CÓDIGO",
+      "path": [
+        "Página 1",
+        "Baja: fila 1",
+        "CÓDIGO"
+      ],
+      "source_anchor": "CÓDIGO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SINT-M01"
+    },
+    {
+      "id": "f013",
+      "label": "FECHA COMIENZO",
+      "path": [
+        "Página 1",
+        "Baja: fila 1",
+        "FECHA COMIENZO"
+      ],
+      "source_anchor": "FECHA COMIENZO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "16/11/2026"
+    },
+    {
+      "id": "f014",
+      "label": "ASIGNATURA",
+      "path": [
+        "Página 1",
+        "Baja: fila 2",
+        "ASIGNATURA"
+      ],
+      "source_anchor": "ASIGNATURA",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f015",
+      "label": "CÓDIGO",
+      "path": [
+        "Página 1",
+        "Baja: fila 2",
+        "CÓDIGO"
+      ],
+      "source_anchor": "CÓDIGO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f016",
+      "label": "FECHA COMIENZO",
+      "path": [
+        "Página 1",
+        "Baja: fila 2",
+        "FECHA COMIENZO"
+      ],
+      "source_anchor": "FECHA COMIENZO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f017",
+      "label": "ASIGNATURA",
+      "path": [
+        "Página 1",
+        "Baja: fila 3",
+        "ASIGNATURA"
+      ],
+      "source_anchor": "ASIGNATURA",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f018",
+      "label": "CÓDIGO",
+      "path": [
+        "Página 1",
+        "Baja: fila 3",
+        "CÓDIGO"
+      ],
+      "source_anchor": "CÓDIGO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f019",
+      "label": "FECHA COMIENZO",
+      "path": [
+        "Página 1",
+        "Baja: fila 3",
+        "FECHA COMIENZO"
+      ],
+      "source_anchor": "FECHA COMIENZO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f020",
+      "label": "ASIGNATURA",
+      "path": [
+        "Página 1",
+        "Baja: fila 4",
+        "ASIGNATURA"
+      ],
+      "source_anchor": "ASIGNATURA",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f021",
+      "label": "CÓDIGO",
+      "path": [
+        "Página 1",
+        "Baja: fila 4",
+        "CÓDIGO"
+      ],
+      "source_anchor": "CÓDIGO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f022",
+      "label": "FECHA COMIENZO",
+      "path": [
+        "Página 1",
+        "Baja: fila 4",
+        "FECHA COMIENZO"
+      ],
+      "source_anchor": "FECHA COMIENZO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f023",
+      "label": "ASIGNATURA",
+      "path": [
+        "Página 1",
+        "Baja: fila 5",
+        "ASIGNATURA"
+      ],
+      "source_anchor": "ASIGNATURA",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f024",
+      "label": "CÓDIGO",
+      "path": [
+        "Página 1",
+        "Baja: fila 5",
+        "CÓDIGO"
+      ],
+      "source_anchor": "CÓDIGO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f025",
+      "label": "FECHA COMIENZO",
+      "path": [
+        "Página 1",
+        "Baja: fila 5",
+        "FECHA COMIENZO"
+      ],
+      "source_anchor": "FECHA COMIENZO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f026",
+      "label": "ASIGNATURA",
+      "path": [
+        "Página 1",
+        "Baja: fila 6",
+        "ASIGNATURA"
+      ],
+      "source_anchor": "ASIGNATURA",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f027",
+      "label": "CÓDIGO",
+      "path": [
+        "Página 1",
+        "Baja: fila 6",
+        "CÓDIGO"
+      ],
+      "source_anchor": "CÓDIGO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f028",
+      "label": "FECHA COMIENZO",
+      "path": [
+        "Página 1",
+        "Baja: fila 6",
+        "FECHA COMIENZO"
+      ],
+      "source_anchor": "FECHA COMIENZO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f029",
+      "label": "En caso de que dichos cursos pertenezcan a un Programa/Master distinto al que está adscrito el alumno, se deberá indicar el título de dicho Programa/Máster:",
+      "path": [
+        "Página 1",
+        "Datos",
+        "En caso de que dichos cursos pertenezcan a un Programa/Master distinto al que está adscrito el alumno, se deberá indicar el título de dicho Programa/Máster:"
+      ],
+      "source_anchor": "En caso de que dichos cursos pertenezcan a un Programa/Master distinto al que está adscrito el alumno, se deberá indicar el título de dicho Programa/Máster:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede: asignatura del mismo máster"
+    },
+    {
+      "id": "f030",
+      "label": "ASIGNATURA",
+      "path": [
+        "Página 1",
+        "Alta: fila 1",
+        "ASIGNATURA"
+      ],
+      "source_anchor": "ASIGNATURA",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Evaluación de programas educativos"
+    },
+    {
+      "id": "f031",
+      "label": "CÓDIGO",
+      "path": [
+        "Página 1",
+        "Alta: fila 1",
+        "CÓDIGO"
+      ],
+      "source_anchor": "CÓDIGO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SINT-M02"
+    },
+    {
+      "id": "f032",
+      "label": "FECHA COMIENZO",
+      "path": [
+        "Página 1",
+        "Alta: fila 1",
+        "FECHA COMIENZO"
+      ],
+      "source_anchor": "FECHA COMIENZO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "16/11/2026"
+    },
+    {
+      "id": "f033",
+      "label": "ASIGNATURA",
+      "path": [
+        "Página 1",
+        "Alta: fila 2",
+        "ASIGNATURA"
+      ],
+      "source_anchor": "ASIGNATURA",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f034",
+      "label": "CÓDIGO",
+      "path": [
+        "Página 1",
+        "Alta: fila 2",
+        "CÓDIGO"
+      ],
+      "source_anchor": "CÓDIGO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f035",
+      "label": "FECHA COMIENZO",
+      "path": [
+        "Página 1",
+        "Alta: fila 2",
+        "FECHA COMIENZO"
+      ],
+      "source_anchor": "FECHA COMIENZO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f036",
+      "label": "ASIGNATURA",
+      "path": [
+        "Página 1",
+        "Alta: fila 3",
+        "ASIGNATURA"
+      ],
+      "source_anchor": "ASIGNATURA",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f037",
+      "label": "CÓDIGO",
+      "path": [
+        "Página 1",
+        "Alta: fila 3",
+        "CÓDIGO"
+      ],
+      "source_anchor": "CÓDIGO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f038",
+      "label": "FECHA COMIENZO",
+      "path": [
+        "Página 1",
+        "Alta: fila 3",
+        "FECHA COMIENZO"
+      ],
+      "source_anchor": "FECHA COMIENZO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f039",
+      "label": "ASIGNATURA",
+      "path": [
+        "Página 1",
+        "Alta: fila 4",
+        "ASIGNATURA"
+      ],
+      "source_anchor": "ASIGNATURA",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f040",
+      "label": "CÓDIGO",
+      "path": [
+        "Página 1",
+        "Alta: fila 4",
+        "CÓDIGO"
+      ],
+      "source_anchor": "CÓDIGO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f041",
+      "label": "FECHA COMIENZO",
+      "path": [
+        "Página 1",
+        "Alta: fila 4",
+        "FECHA COMIENZO"
+      ],
+      "source_anchor": "FECHA COMIENZO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f042",
+      "label": "ASIGNATURA",
+      "path": [
+        "Página 1",
+        "Alta: fila 5",
+        "ASIGNATURA"
+      ],
+      "source_anchor": "ASIGNATURA",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f043",
+      "label": "CÓDIGO",
+      "path": [
+        "Página 1",
+        "Alta: fila 5",
+        "CÓDIGO"
+      ],
+      "source_anchor": "CÓDIGO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f044",
+      "label": "FECHA COMIENZO",
+      "path": [
+        "Página 1",
+        "Alta: fila 5",
+        "FECHA COMIENZO"
+      ],
+      "source_anchor": "FECHA COMIENZO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f045",
+      "label": "ASIGNATURA",
+      "path": [
+        "Página 1",
+        "Alta: fila 6",
+        "ASIGNATURA"
+      ],
+      "source_anchor": "ASIGNATURA",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f046",
+      "label": "CÓDIGO",
+      "path": [
+        "Página 1",
+        "Alta: fila 6",
+        "CÓDIGO"
+      ],
+      "source_anchor": "CÓDIGO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f047",
+      "label": "FECHA COMIENZO",
+      "path": [
+        "Página 1",
+        "Alta: fila 6",
+        "FECHA COMIENZO"
+      ],
+      "source_anchor": "FECHA COMIENZO",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No procede"
+    },
+    {
+      "id": "f048",
+      "label": "Granada,",
+      "path": [
+        "Página 1",
+        "Fecha",
+        "Granada,"
+      ],
+      "source_anchor": "Granada,",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "25 de octubre de 2026"
+    },
+    {
+      "id": "f049",
+      "label": "Fdo.:",
+      "path": [
+        "Página 1",
+        "Firma",
+        "Fdo.:"
+      ],
+      "source_anchor": "Fdo.:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de Elena Ríos Salcedo"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "ALTERACIÓN DE MATRÍCULA",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "DATOS PERSONALES",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "CURSO ACADÉMICO:",
+        "source_page": 1
+      },
+      {
+        "field": "f001",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "APELLIDOS Y NOMBRE",
+        "source_page": 1
+      },
+      {
+        "field": "f002",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "DNI:",
+        "source_page": 1
+      },
+      {
+        "field": "f003",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "DOMICILI O",
+        "source_page": 1
+      },
+      {
+        "field": "f004",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "POBLACIÓ N",
+        "source_page": 1
+      },
+      {
+        "field": "f005",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "C. POSTAL:",
+        "source_page": 1
+      },
+      {
+        "field": "f006",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "TELEFONO:",
+        "source_page": 1
+      },
+      {
+        "field": "f007",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "E-MAIL:",
+        "source_page": 1
+      },
+      {
+        "field": "f008",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "MÁSTER UNIVERSITARIO:",
+        "source_page": 1
+      },
+      {
+        "field": "f009",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Desea efectuar las siguientes modificaciones en su matrícula:",
+        "source_page": 1
+      },
+      {
+        "field": "f010",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "ASIGNATURA",
+        "source_page": 1
+      },
+      {
+        "field": "f011",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "CÓDIGO",
+        "source_page": 1
+      },
+      {
+        "field": "f012",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FECHA COMIENZO",
+        "source_page": 1
+      },
+      {
+        "field": "f013",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "ASIGNATURA",
+        "source_page": 1
+      },
+      {
+        "field": "f014",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "CÓDIGO",
+        "source_page": 1
+      },
+      {
+        "field": "f015",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FECHA COMIENZO",
+        "source_page": 1
+      },
+      {
+        "field": "f016",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "ASIGNATURA",
+        "source_page": 1
+      },
+      {
+        "field": "f017",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "CÓDIGO",
+        "source_page": 1
+      },
+      {
+        "field": "f018",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FECHA COMIENZO",
+        "source_page": 1
+      },
+      {
+        "field": "f019",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "ASIGNATURA",
+        "source_page": 1
+      },
+      {
+        "field": "f020",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "CÓDIGO",
+        "source_page": 1
+      },
+      {
+        "field": "f021",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FECHA COMIENZO",
+        "source_page": 1
+      },
+      {
+        "field": "f022",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "ASIGNATURA",
+        "source_page": 1
+      },
+      {
+        "field": "f023",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "CÓDIGO",
+        "source_page": 1
+      },
+      {
+        "field": "f024",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FECHA COMIENZO",
+        "source_page": 1
+      },
+      {
+        "field": "f025",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "ASIGNATURA",
+        "source_page": 1
+      },
+      {
+        "field": "f026",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "CÓDIGO",
+        "source_page": 1
+      },
+      {
+        "field": "f027",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FECHA COMIENZO",
+        "source_page": 1
+      },
+      {
+        "field": "f028",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "En caso de que dichos cursos pertenezcan a un Programa/Master distinto al que está adscrito el alumno, se deberá indicar el título de dicho Programa/Máster:",
+        "source_page": 1
+      },
+      {
+        "field": "f029",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "ASIGNATURA",
+        "source_page": 1
+      },
+      {
+        "field": "f030",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "CÓDIGO",
+        "source_page": 1
+      },
+      {
+        "field": "f031",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FECHA COMIENZO",
+        "source_page": 1
+      },
+      {
+        "field": "f032",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "ASIGNATURA",
+        "source_page": 1
+      },
+      {
+        "field": "f033",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "CÓDIGO",
+        "source_page": 1
+      },
+      {
+        "field": "f034",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FECHA COMIENZO",
+        "source_page": 1
+      },
+      {
+        "field": "f035",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "ASIGNATURA",
+        "source_page": 1
+      },
+      {
+        "field": "f036",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "CÓDIGO",
+        "source_page": 1
+      },
+      {
+        "field": "f037",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FECHA COMIENZO",
+        "source_page": 1
+      },
+      {
+        "field": "f038",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "ASIGNATURA",
+        "source_page": 1
+      },
+      {
+        "field": "f039",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "CÓDIGO",
+        "source_page": 1
+      },
+      {
+        "field": "f040",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FECHA COMIENZO",
+        "source_page": 1
+      },
+      {
+        "field": "f041",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "ASIGNATURA",
+        "source_page": 1
+      },
+      {
+        "field": "f042",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "CÓDIGO",
+        "source_page": 1
+      },
+      {
+        "field": "f043",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FECHA COMIENZO",
+        "source_page": 1
+      },
+      {
+        "field": "f044",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "ASIGNATURA",
+        "source_page": 1
+      },
+      {
+        "field": "f045",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "CÓDIGO",
+        "source_page": 1
+      },
+      {
+        "field": "f046",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "FECHA COMIENZO",
+        "source_page": 1
+      },
+      {
+        "field": "f047",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Granada,",
+        "source_page": 1
+      },
+      {
+        "field": "f048",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fdo.:",
+        "source_page": 1
+      },
+      {
+        "field": "f049",
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "1 Las solicitudes de modificación de matrícula (ampliaciones, alteraciones, bajas) se presentarán en el plazo que anualmente se establezca por Resolución del Rectorado esta Universidad (siempre que la asignatura no haya superado el 20%) *En caso de que el horario de clases no esté en la página web del máster deberá adjuntarlo para su comprobación.",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Sus datos personales aportados en este documento, serán tratados por la UNIVERSIDAD DE GRANADA, con sede en Avda. del Hospicio, s/n 18071 Granada, para el ejercicio de los fines que le son propios. Puede ejercitar sus derechos de acceso, rectificación, cancelación y oposición ante la Secretaría General de la Universidad de Granada en la dirección anteriormente indicada mediante solicitud escrita acompañada de copia del DNI. De todo lo cual se informa en cumplimiento del artículo 5 de la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal.",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Universidad de Granada. Escuela Internacional de Posgrado. Avenida de Madrid, 13. 18071- Granada Tfnos.: 958249688 - 958249681 http://escuelaposgrado.ugr.es/",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ]
+  ],
+  "synthetic_context": true,
+  "source_notice": "Universidad de Granada. Estructura semántica normalizada del formulario completo. Los datos cumplimentados y las firmas son ficticios; no constituyen una actuación oficial.",
+  "context": "ESCENARIO FICTICIO. Todas las personas, direcciones de contacto, identificadores, registros y firmas de la cumplimentación son sintéticos. La institución emisora y los títulos del formulario se conservan como procedencia. No se presenta ningún trámite real.\nElena solicita una baja y un alta, no una baja total. Ambas asignaturas corresponden al mismo máster y comienzan el 16 de noviembre, por lo que no se ha superado el 20 por ciento de su docencia.\nPágina 1 / Datos / CURSO ACADÉMICO:: 2026 - 2027\nPágina 1 / Datos / APELLIDOS Y NOMBRE: Ríos Salcedo, Elena\nPágina 1 / Datos / DNI:: SINT-UGR-2809\nPágina 1 / Datos / DOMICILI O: Calle Ejemplo Académico 18\nPágina 1 / Datos / POBLACIÓ N: Granada\nPágina 1 / Datos / C. POSTAL:: 18011\nPágina 1 / Datos / TELEFONO:: 600000809\nPágina 1 / Datos / E-MAIL:: elena.rios@example.org\nPágina 1 / Datos / MÁSTER UNIVERSITARIO:: Investigación e Innovación en Currículum y Formación\nPágina 1 / Datos / Desea efectuar las siguientes modificaciones en su matrícula:: Página 1 / Datos / Desea efectuar las siguientes modificaciones en su matrícula:: BAJA EN LAS SIGUIENTES ASIGNATURAS:, ALTA EN LAS SIGUIENTES ASIGNATURAS:.\nPágina 1 / Baja: fila 1 / ASIGNATURA: Diseño de investigación educativa\nPágina 1 / Baja: fila 1 / CÓDIGO: SINT-M01\nPágina 1 / Baja: fila 1 / FECHA COMIENZO: 16/11/2026\nPágina 1 / Baja: fila 2 / ASIGNATURA: No procede\nPágina 1 / Baja: fila 2 / CÓDIGO: No procede\nPágina 1 / Baja: fila 2 / FECHA COMIENZO: No procede\nPágina 1 / Baja: fila 3 / ASIGNATURA: No procede\nPágina 1 / Baja: fila 3 / CÓDIGO: No procede\nPágina 1 / Baja: fila 3 / FECHA COMIENZO: No procede\nPágina 1 / Baja: fila 4 / ASIGNATURA: No procede\nPágina 1 / Baja: fila 4 / CÓDIGO: No procede\nPágina 1 / Baja: fila 4 / FECHA COMIENZO: No procede\nPágina 1 / Baja: fila 5 / ASIGNATURA: No procede\nPágina 1 / Baja: fila 5 / CÓDIGO: No procede\nPágina 1 / Baja: fila 5 / FECHA COMIENZO: No procede\nPágina 1 / Baja: fila 6 / ASIGNATURA: No procede\nPágina 1 / Baja: fila 6 / CÓDIGO: No procede\nPágina 1 / Baja: fila 6 / FECHA COMIENZO: No procede\nPágina 1 / Datos / En caso de que dichos cursos pertenezcan a un Programa/Master distinto al que está adscrito el alumno, se deberá indicar el título de dicho Programa/Máster:: No procede: asignatura del mismo máster\nPágina 1 / Alta: fila 1 / ASIGNATURA: Evaluación de programas educativos\nPágina 1 / Alta: fila 1 / CÓDIGO: SINT-M02\nPágina 1 / Alta: fila 1 / FECHA COMIENZO: 16/11/2026\nPágina 1 / Alta: fila 2 / ASIGNATURA: No procede\nPágina 1 / Alta: fila 2 / CÓDIGO: No procede\nPágina 1 / Alta: fila 2 / FECHA COMIENZO: No procede\nPágina 1 / Alta: fila 3 / ASIGNATURA: No procede\nPágina 1 / Alta: fila 3 / CÓDIGO: No procede\nPágina 1 / Alta: fila 3 / FECHA COMIENZO: No procede\nPágina 1 / Alta: fila 4 / ASIGNATURA: No procede\nPágina 1 / Alta: fila 4 / CÓDIGO: No procede\nPágina 1 / Alta: fila 4 / FECHA COMIENZO: No procede\nPágina 1 / Alta: fila 5 / ASIGNATURA: No procede\nPágina 1 / Alta: fila 5 / CÓDIGO: No procede\nPágina 1 / Alta: fila 5 / FECHA COMIENZO: No procede\nPágina 1 / Alta: fila 6 / ASIGNATURA: No procede\nPágina 1 / Alta: fila 6 / CÓDIGO: No procede\nPágina 1 / Alta: fila 6 / FECHA COMIENZO: No procede\nPágina 1 / Fecha / Granada,: 25 de octubre de 2026\nPágina 1 / Firma / Fdo.:: Firma sintética de Elena Ríos Salcedo",
+  "workflow_identity": {
+    "language": "es",
+    "id": 809
+  }
+}

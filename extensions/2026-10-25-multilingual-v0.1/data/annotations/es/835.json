@@ -1,0 +1,293 @@
+{
+  "id": "es-835",
+  "language": "es",
+  "title": "Suscripción al servicio de avisos de la AEAT",
+  "domain": "Finance",
+  "issuer": "Agencia Estatal de Administración Tributaria",
+  "issuer_id": "agencia-estatal-de-administración-tributaria",
+  "template_family": "aeat-suscripcion-servicio-avisos-recaudacion",
+  "source_version": "Undated",
+  "source_date_evidence": {
+    "kind": "undated source",
+    "value": "Undated",
+    "note": "The complete printed form has no issue or revision date. Retrieved 2026-10-25T02:03:40.683984+00:00. Retrieval is not an edition."
+  },
+  "source_url": "https://sede.agenciatributaria.gob.es/static_files/Sede/Tema/Destacados/5model1.pdf",
+  "landing_url": "https://sede.agenciatributaria.gob.es/Sede/formularios.html",
+  "source_sha256": "62ebdc76e8a0ddefd3f7ce411b4b1400db563c6f7863b8b69f326534e104e395",
+  "source_pages": 1,
+  "retrieved_at": "2026-10-25T02:03:40.683984+00:00",
+  "license_url": "https://sede.agenciatributaria.gob.es/Sede/condiciones-uso-sede-electronica/aviso-legal/utilizacion-informacion-contenida-web-aeat.html",
+  "license_note": "AEAT reuse notice permits reproduction, modification and distribution for commercial and noncommercial reuse, subject to attribution, update-date identification and no distortion. Attribution: AEAT; complete semantic adaptation and fictional completion.",
+  "columns": 2,
+  "synthetic_context": true,
+  "source_notice": "Complete source pages, options, instructions, declaration and signature targets retained in source order. All completions are fictional.",
+  "fields": [
+    {
+      "id": "f001",
+      "label": "ETIQUETA IDENTIFICATIVA (si dispone de ella)",
+      "path": [
+        "Página 1",
+        "Identificación",
+        "ETIQUETA IDENTIFICATIVA (si dispone de ella)"
+      ],
+      "source_anchor": "ETIQUETA IDENTIFICATIVA (si dispone de ella)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Sin etiqueta; identificación consignada en NIF y nombre."
+    },
+    {
+      "id": "f002",
+      "label": "NIF",
+      "path": [
+        "Página 1",
+        "Identificación",
+        "NIF"
+      ],
+      "source_anchor": "NIF",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "12345678Z"
+    },
+    {
+      "id": "f003",
+      "label": "Apellidos y nombre o razón social",
+      "path": [
+        "Página 1",
+        "Identificación",
+        "Apellidos y nombre o razón social"
+      ],
+      "source_anchor": "Apellidos y nombre o razón social",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Nuria Campos Vidal"
+    },
+    {
+      "id": "f004",
+      "label": "Nº de teléfono móvil",
+      "path": [
+        "Página 1",
+        "Contacto",
+        "Nº de teléfono móvil"
+      ],
+      "source_anchor": "Nº de teléfono móvil",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "600000835"
+    },
+    {
+      "id": "f005",
+      "label": "e-mail",
+      "path": [
+        "Página 1",
+        "Contacto",
+        "e-mail"
+      ],
+      "source_anchor": "e-mail",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "nuria.campos@example.org"
+    },
+    {
+      "id": "f006",
+      "label": "20..",
+      "path": [
+        "Página 1",
+        "Lugar y fecha",
+        "20.."
+      ],
+      "source_anchor": "20..",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Valencia, 22 de octubre de 2026"
+    },
+    {
+      "id": "f007",
+      "label": "Fdo",
+      "path": [
+        "Página 1",
+        "Firma",
+        "Fdo"
+      ],
+      "source_anchor": "Fdo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de Nuria Campos Vidal"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Agencia Tributaria",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "SUSCRIPCION AL SERVICIO DE AVISOS DE LA AEAT",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "ETIQUETA IDENTIFICATIVA (si dispone de ella)",
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "NIF",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Apellidos y nombre o razón social",
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Servicio solicitado: Recaudación",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Aviso de la concesión de un aplazamiento- fraccionamiento",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Aviso de la presentación de un aplazamiento a través del Centro de Atención Telefónica",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Nº de teléfono móvil",
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Si además desea recibir el mismo aviso por correo electrónico indique su e-mail",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "e-mail",
+        "field": "f005",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Advertencias",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "1. El aviso enviado por la Agencia Tributaria no sustituye en ningún caso a las notificaciones formales y obligatorias por los medios legalmente establecidos.",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "2. Próximamente recibirá en su domicilio fiscal una comunicación de la Agencia Tributaria en la que se le indicará una clave personal. Con ella, deberá identificarse en caso de que desee ampliar la información contenida en los avisos llamando al número de teléfono 901200350. Si no recibe la citada comunicación en 15 días contacte con el teléfono antes indicado.",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "3. La comunicación se le enviará al domicilio fiscal, por lo que si éste ha variado recientemente, deberá comunicarlo formalmente a la Agencia Tributaria",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "4. Es un servicio gratuito.",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Documentación a aportar:",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Exhibición del D.N.I",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Documento acreditativo de la representación si la solicitud no la presenta el interesado o se trata de Personas Jurídicas.",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "20..",
+        "field": "f006",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fdo",
+        "field": "f007",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ]
+  ],
+  "context": "CASO ENTERAMENTE FICTICIO, creado para completar este formulario. Personas, bienes, firmas y referencias administrativas son sintéticos y no corresponden a actuaciones reales.\nPágina 1 / Identificación / ETIQUETA IDENTIFICATIVA (si dispone de ella): Sin etiqueta; identificación consignada en NIF y nombre.\nPágina 1 / Identificación / NIF: 12345678Z\nPágina 1 / Identificación / Apellidos y nombre o razón social: Nuria Campos Vidal\nPágina 1 / Contacto / Nº de teléfono móvil: 600000835\nPágina 1 / Contacto / e-mail: nuria.campos@example.org\nPágina 1 / Lugar y fecha / 20..: Valencia, 22 de octubre de 2026\nPágina 1 / Firma / Fdo: Firma sintética de Nuria Campos Vidal",
+  "workflow_identity": {
+    "language": "es",
+    "id": 835
+  }
+}

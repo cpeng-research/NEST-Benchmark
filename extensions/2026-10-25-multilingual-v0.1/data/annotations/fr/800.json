@@ -1,0 +1,429 @@
+{
+  "id": "fr-800-inami-formulaire-specialites-pharmaceutiques-modele-autorisations-validite-a",
+  "language": "fr",
+  "title": "Demande non spécifique de remboursement d’une spécialité pharmaceutique",
+  "domain": "Healthcare",
+  "issuer": "Institut national d’assurance maladie-invalidité (INAMI)",
+  "issuer_id": "INAMI",
+  "template_family": "inami-formulaire-specialites-pharmaceutiques-modele-autorisations-validite-a",
+  "source_url": "https://www.inami.fgov.be/SiteCollectionDocuments/formulaire_specialites_pharmaceutiques_modele_autorisations_validite_A.pdf",
+  "landing_url": "https://www.inami.fgov.be/fr/professionnels/professionnels-de-la-sante/medecins/formulaires-pour-les-medecins",
+  "license_url": "https://www.inami.fgov.be/fr/disclaimer",
+  "license_note": "Selon les conditions Copyrights de l’INAMI : informations libres de droit sauf mention contraire, utilisables gratuitement moyennant mention de la source. Seuls le texte fonctionnel et les contrôles du formulaire sont normalisés ; informations multimédias, logos et éléments graphiques exclus.",
+  "source_sha256": "1f270e07339969e315e80e4ac06760731c0759ddc9f657feccc16d0413151ab2",
+  "source_pages": 1,
+  "source_version": "Édition et date non imprimées",
+  "source_date_evidence": {
+    "kind": "edition not stated",
+    "value": "Édition et date non imprimées"
+  },
+  "retrieved_at": "2026-10-25T02:07:49.332817+00:00",
+  "columns": 6,
+  "fields": [
+    {
+      "id": "f0001",
+      "label": "I – Identification du bénéficiaire (nom, prénom, N°-NISS) :",
+      "path": [
+        "Page 1",
+        "I – Identification du bénéficiaire (nom, prénom, N°-NISS) :",
+        "I – Identification du bénéficiaire (nom, prénom, N°-NISS) :"
+      ],
+      "source_page": 1,
+      "source_anchor": "I – Identification du bénéficiaire (nom, prénom, N°-NISS) :",
+      "kind": "text",
+      "synthetic_value": "Alice MARTIN ; 50.03.15-802-13",
+      "source_label_rects": [
+        [
+          36.0,
+          128.28619384765625,
+          310.5666809082031,
+          139.39158630371094
+        ]
+      ]
+    },
+    {
+      "id": "f0002",
+      "label": "(nom de la spécialité demandée)",
+      "path": [
+        "Page 1",
+        "II – Eléments à attester par le médecin traitant :",
+        "(nom de la spécialité demandée)"
+      ],
+      "source_page": 1,
+      "source_anchor": "(nom de la spécialité demandée)",
+      "kind": "text",
+      "synthetic_value": "SPÉCIALITÉ EXEMPLE, fictive, non prescrite",
+      "source_label_rects": [
+        [
+          203.08999633789062,
+          229.80621337890625,
+          345.06976318359375,
+          240.91160583496094
+        ]
+      ]
+    },
+    {
+      "id": "f0003",
+      "label": "au §",
+      "path": [
+        "Page 1",
+        "II – Eléments à attester par le médecin traitant :",
+        "au §"
+      ],
+      "source_page": 1,
+      "source_anchor": "au §",
+      "kind": "text",
+      "synthetic_value": "123 0000, référence fictive",
+      "source_label_rects": [
+        [
+          36.0,
+          276.03619384765625,
+          55.10328674316406,
+          287.1416015625
+        ]
+      ]
+    },
+    {
+      "id": "f0004",
+      "label": "du chapitre",
+      "path": [
+        "Page 1",
+        "II – Eléments à attester par le médecin traitant :",
+        "du chapitre"
+      ],
+      "source_page": 1,
+      "source_anchor": "du chapitre",
+      "kind": "text",
+      "synthetic_value": "IV",
+      "source_label_rects": [
+        [
+          129.84259033203125,
+          276.03619384765625,
+          178.19839477539062,
+          287.1416015625
+        ]
+      ]
+    },
+    {
+      "id": "f0005",
+      "label": "telles que ces conditions figurent",
+      "path": [
+        "Page 1",
+        "II – Eléments à attester par le médecin traitant :",
+        "telles que ces conditions figurent"
+      ],
+      "source_page": 1,
+      "source_anchor": "telles que ces conditions figurent",
+      "kind": "checkbox_single",
+      "synthetic_value": "Il s’agit d’une première période d’autorisation;",
+      "source_label_rects": [
+        [
+          36.0,
+          252.7562255859375,
+          177.71092224121094,
+          263.86163330078125
+        ]
+      ],
+      "options": [
+        "Il s’agit d’une première période d’autorisation;",
+        "Il s’agit d’une période de prolongation d’autorisation."
+      ],
+      "context_evidence": "Page 1 / II – Eléments à attester par le médecin traitant : / telles que ces conditions figurent : Il s’agit d’une première période d’autorisation;"
+    },
+    {
+      "id": "f0006",
+      "label": "(nom)",
+      "path": [
+        "Page 1",
+        "III – Identification du médecin traitant (nom, prénom, adresse, N°INAMI) :",
+        "(nom)"
+      ],
+      "source_page": 1,
+      "source_anchor": "(nom)",
+      "kind": "text",
+      "synthetic_value": "DURAND",
+      "source_label_rects": [
+        [
+          184.4600067138672,
+          462.17620849609375,
+          210.7843017578125,
+          473.2816162109375
+        ]
+      ]
+    },
+    {
+      "id": "f0007",
+      "label": "(prénom)",
+      "path": [
+        "Page 1",
+        "III – Identification du médecin traitant (nom, prénom, adresse, N°INAMI) :",
+        "(prénom)"
+      ],
+      "source_page": 1,
+      "source_anchor": "(prénom)",
+      "kind": "text",
+      "synthetic_value": "Sophie",
+      "source_label_rects": [
+        [
+          184.4600067138672,
+          473.93621826171875,
+          225.176513671875,
+          485.0416259765625
+        ]
+      ]
+    },
+    {
+      "id": "f0008",
+      "label": "(N° INAMI)",
+      "path": [
+        "Page 1",
+        "III – Identification du médecin traitant (nom, prénom, adresse, N°INAMI) :",
+        "(N° INAMI)"
+      ],
+      "source_page": 1,
+      "source_anchor": "(N° INAMI)",
+      "kind": "text",
+      "synthetic_value": "18010010003",
+      "source_label_rects": [
+        [
+          131.3000030517578,
+          485.6961975097656,
+          179.73544311523438,
+          496.8016052246094
+        ]
+      ]
+    },
+    {
+      "id": "f0009",
+      "label": "(DATE)",
+      "path": [
+        "Page 1",
+        "III – Identification du médecin traitant (nom, prénom, adresse, N°INAMI) :",
+        "(DATE)"
+      ],
+      "source_page": 1,
+      "source_anchor": "(DATE)",
+      "kind": "text",
+      "synthetic_value": "25/10/2026",
+      "source_label_rects": [
+        [
+          115.33999633789062,
+          497.3362121582031,
+          148.75579833984375,
+          508.4416198730469
+        ]
+      ]
+    },
+    {
+      "id": "f0010",
+      "label": "(CACHET)",
+      "path": [
+        "Page 1",
+        "III – Identification du médecin traitant (nom, prénom, adresse, N°INAMI) :",
+        "(CACHET)"
+      ],
+      "source_page": 1,
+      "source_anchor": "(CACHET)",
+      "kind": "text",
+      "synthetic_value": "Dr Sophie DURAND ; Rue de l’Exemple 10, 1000 Bruxelles ; cachet fictif",
+      "source_label_rects": [
+        [
+          76.10399627685547,
+          577.88623046875,
+          123.20484161376953,
+          588.9916381835938
+        ]
+      ]
+    },
+    {
+      "id": "f0011",
+      "label": "(SIGNATURE du MEDECIN)",
+      "path": [
+        "Page 1",
+        "III – Identification du médecin traitant (nom, prénom, adresse, N°INAMI) :",
+        "(SIGNATURE du MEDECIN)"
+      ],
+      "source_page": 1,
+      "source_anchor": "(SIGNATURE du MEDECIN)",
+      "kind": "text",
+      "synthetic_value": "Sophie DURAND, signature fictive",
+      "source_label_rects": [
+        [
+          352.54364013671875,
+          577.88623046875,
+          478.3584289550781,
+          588.9916381835938
+        ]
+      ]
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "a’) Modèle de formulaire de demande de remboursement « non-spécifique » (*) visé à l’article 110, alinéa 11 (*) Formulaire de demande de remboursement utilisable pour introduire une demande de remboursement pour une spécialité dont les conditions de remboursement fixées au chapitre IV ou au chapitre VIII n’imposent pas un formulaire de demande spécifique, pour autant que l’autorisation de remboursement prévue soit un document dont le modèle est arrêté sous « b » ou « d » de l’annexe III de la liste. ",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "I – Identification du bénéficiaire (nom, prénom, N°-NISS) :",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "I – Identification du bénéficiaire (nom, prénom, N°-NISS) :",
+        "field": "f0001",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "II – Eléments à attester par le médecin traitant :",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Je soussigné, médecin, certifie que le patient mentionné ci-dessus remplit toutes les conditions nécessaires pour obtenir le remboursement de la spécialité",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(nom de la spécialité demandée)",
+        "field": "f0002",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "telles que ces conditions figurent",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "au §",
+        "field": "f0003",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "du chapitre",
+        "field": "f0004",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "de l’annexe I de l’A.R. du 1er février 2018 :",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "telles que ces conditions figurent",
+        "field": "f0005",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Je m’engage à tenir à la disposition du médecin-conseil les éléments de preuve établissant que le patient concerné se trouve dans la situation attestée, y compris, le cas échéant, lorsque les conditions prévoient que la demande doit être rédigée par un médecin titulaire d’une qualification médicale particulière, une attestation d’un médecin possédant cette qualification, qui confirme que les conditions sont bien remplies chez le patient concerné. Sur base de tous ces éléments, j’atteste que ce patient nécessite de recevoir le remboursement de cette spécialité pour la période prévue dans la réglementation du paragraphe mentionné ci-dessus. ",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "III – Identification du médecin traitant (nom, prénom, adresse, N°INAMI) :",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(nom)",
+        "field": "f0006",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "(prénom)",
+        "field": "f0007",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "(N° INAMI)",
+        "field": "f0008",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "(DATE)",
+        "field": "f0009",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "(CACHET)",
+        "field": "f0010",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "(SIGNATURE du MEDECIN)",
+        "field": "f0011",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "(*) Le présent formulaire de demande de remboursement n’est utilisable que pour introduire une demande de remboursement pour une spécialité dont les conditions de remboursement fixées au chapitre IV n’imposent pas un formulaire de demande spécifique, et pour autant que l’autorisation de remboursement prévue soit un document dont le modèle est arrêté sous « b » ou « d » de l’annexe III de la liste. (**) Le texte du paragraphe concerné peut être joint en annexe avec le présent formulaire. (***) Spécifier le chapitre, c’est-à-dire chapitre IV (contrôle à priori) ou chapitre VIII (contrôle à priori pour les spécialités avec teste prédictif associé)",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Source : Institut national d’assurance maladie-invalidité (INAMI) ; https://www.inami.fgov.be/SiteCollectionDocuments/formulaire_specialites_pharmaceutiques_modele_autorisations_validite_A.pdf ; Édition et date non imprimées ; consultation 2026-10-25T02:07:49.332817+00:00. Texte normalisé ; données remplies et signatures fictives.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ]
+  ],
+  "synthetic_context": true,
+  "source_notice": "Complete source packet normalized in source order, including conditional controls, repeated sections, attestations and notices. Fictional completions; no real application or declaration. Digit boxes belonging to one logical datum are coalesced.",
+  "context": "Scénario entièrement fictif. Personnes, établissements, coordonnées, identifiants, signatures et décisions synthétiques. Aucune transmission administrative ni situation clinique réelle. Les champs conditionnels sans objet sont conservés.\nPage 1 / I – Identification du bénéficiaire (nom, prénom, N°-NISS) : / I – Identification du bénéficiaire (nom, prénom, N°-NISS) : : Alice MARTIN ; 50.03.15-802-13\nPage 1 / II – Eléments à attester par le médecin traitant : / (nom de la spécialité demandée) : SPÉCIALITÉ EXEMPLE, fictive, non prescrite\nPage 1 / II – Eléments à attester par le médecin traitant : / au § : 123 0000, référence fictive\nPage 1 / II – Eléments à attester par le médecin traitant : / du chapitre : IV\nPage 1 / II – Eléments à attester par le médecin traitant : / telles que ces conditions figurent : Il s’agit d’une première période d’autorisation;\nPage 1 / III – Identification du médecin traitant (nom, prénom, adresse, N°INAMI) : / (nom) : DURAND\nPage 1 / III – Identification du médecin traitant (nom, prénom, adresse, N°INAMI) : / (prénom) : Sophie\nPage 1 / III – Identification du médecin traitant (nom, prénom, adresse, N°INAMI) : / (N° INAMI) : 18010010003\nPage 1 / III – Identification du médecin traitant (nom, prénom, adresse, N°INAMI) : / (DATE) : 25/10/2026\nPage 1 / III – Identification du médecin traitant (nom, prénom, adresse, N°INAMI) : / (CACHET) : Dr Sophie DURAND ; Rue de l’Exemple 10, 1000 Bruxelles ; cachet fictif\nPage 1 / III – Identification du médecin traitant (nom, prénom, adresse, N°INAMI) : / (SIGNATURE du MEDECIN) : Sophie DURAND, signature fictive",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 800
+  }
+}

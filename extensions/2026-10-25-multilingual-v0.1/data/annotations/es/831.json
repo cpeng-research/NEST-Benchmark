@@ -1,0 +1,763 @@
+{
+  "id": "es-831",
+  "language": "es",
+  "title": "Declaración de asignación de pasajeros - Profesionales y OR",
+  "domain": "GovPublic",
+  "issuer": "Prefectura Naval Argentina",
+  "issuer_id": "prefectura-naval-argentina",
+  "template_family": "pna-tnav-rs-16-asignacion-pasajeros",
+  "source_version": "TNAV-RS 16.1/25 y 16.2/25",
+  "source_date_evidence": {
+    "kind": "printed edition",
+    "value": "TNAV-RS 16.1/25 y 16.2/25",
+    "note": "Printed form code/edition; retrieval is not an issuance date."
+  },
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/2025/04/formulario_16.1_y_16.2.pdf",
+  "landing_url": "https://www.argentina.gob.ar/servicio/iniciar-tramite-por-regimen-simplificado",
+  "source_sha256": "0bc852ee46ffdb2261ee90c55846c3c6b6c5fe66139b888ec993c0ebc5b06da9",
+  "source_pages": 2,
+  "retrieved_at": "2026-10-25T02:13:07.351175+00:00",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "Argentina.gob.ar, Propiedad intelectual: portal contents licensed CC BY 4.0 except otherwise stated. This national-portal PDF has no contrary notice. Attribution: Prefectura Naval Argentina. Semantic grid adaptation and fictional completion, not an official submission.",
+  "columns": 2,
+  "synthetic_context": true,
+  "source_notice": "Complete source pages, options, instructions, declaration and signature targets retained in source order. All completions are fictional.",
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Expte.",
+      "path": [
+        "Página 1",
+        "Profesionales",
+        "Expte."
+      ],
+      "source_anchor": "Expte.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "EX-2026-00083100-APN-TNAV#PNA"
+    },
+    {
+      "id": "f002",
+      "label": "Trámite N°",
+      "path": [
+        "Página 1",
+        "Profesionales",
+        "Trámite N°"
+      ],
+      "source_anchor": "Trámite N°",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "RS-SINT-831"
+    },
+    {
+      "id": "f003",
+      "label": "Profesional encomendado:",
+      "path": [
+        "Página 1",
+        "Profesionales",
+        "Profesional encomendado:"
+      ],
+      "source_anchor": "Profesional encomendado:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "MARTINA SOLER"
+    },
+    {
+      "id": "f004",
+      "label": "denominado/a:",
+      "path": [
+        "Página 1",
+        "Profesionales / Tipo",
+        "denominado/a:"
+      ],
+      "source_anchor": "denominado/a:",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "la lancha"
+      ],
+      "options": [
+        "el buque",
+        "la embarcación",
+        "la lancha",
+        "el prototipo ",
+        "la construcción"
+      ],
+      "context_evidence": "Profesionales / Tipo / denominado/a:: la lancha."
+    },
+    {
+      "id": "f005",
+      "label": "denominado/a:",
+      "path": [
+        "Página 1",
+        "Profesionales / Nombre",
+        "denominado/a:"
+      ],
+      "source_anchor": "denominado/a:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "RÍO CLARO SINTÉTICO"
+    },
+    {
+      "id": "f006",
+      "label": "Matrícula:",
+      "path": [
+        "Página 1",
+        "Profesionales",
+        "Matrícula:"
+      ],
+      "source_anchor": "Matrícula:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "PNA-SINT-8310"
+    },
+    {
+      "id": "f007",
+      "label": "asignación de pasajeros:",
+      "path": [
+        "Página 1",
+        "Profesionales / Distribución",
+        "asignación de pasajeros:"
+      ],
+      "source_anchor": "asignación de pasajeros:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "24 pasajeros y 2 tripulantes en total. Cubierta principal: 24 pasajeros, 1 marinero. Puesto de gobierno: 1 patrón. Sin pasajeros en cubierta superior."
+    },
+    {
+      "id": "f008",
+      "label": "Rubricado en",
+      "path": [
+        "Página 1",
+        "Profesionales",
+        "Rubricado en"
+      ],
+      "source_anchor": "Rubricado en",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Rosario, Santa Fe"
+    },
+    {
+      "id": "f009",
+      "label": "(dd/mm/aaaa)",
+      "path": [
+        "Página 1",
+        "Profesionales",
+        "(dd/mm/aaaa)"
+      ],
+      "source_anchor": "(dd/mm/aaaa)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "22/10/2026"
+    },
+    {
+      "id": "f010",
+      "label": "Firma del Profesional Encomendado:",
+      "path": [
+        "Página 1",
+        "Profesionales",
+        "Firma del Profesional Encomendado:"
+      ],
+      "source_anchor": "Firma del Profesional Encomendado:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de MARTINA SOLER"
+    },
+    {
+      "id": "f011",
+      "label": "Aclaración:",
+      "path": [
+        "Página 1",
+        "Profesionales",
+        "Aclaración:"
+      ],
+      "source_anchor": "Aclaración:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "MARTINA SOLER"
+    },
+    {
+      "id": "f012",
+      "label": "Nº de Matrícula CPIN / PNA:",
+      "path": [
+        "Página 1",
+        "Profesionales",
+        "Nº de Matrícula CPIN / PNA:"
+      ],
+      "source_anchor": "Nº de Matrícula CPIN / PNA:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "CPIN-SINT-831 / PNA-SINT-831"
+    },
+    {
+      "id": "f013",
+      "label": "Expte.",
+      "path": [
+        "Página 2",
+        "OR",
+        "Expte."
+      ],
+      "source_anchor": "Expte.",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "EX-2026-00083100-APN-TNAV#PNA"
+    },
+    {
+      "id": "f014",
+      "label": "Trámite N°",
+      "path": [
+        "Página 2",
+        "OR",
+        "Trámite N°"
+      ],
+      "source_anchor": "Trámite N°",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "RS-SINT-831"
+    },
+    {
+      "id": "f015",
+      "label": "la OR:",
+      "path": [
+        "Página 2",
+        "OR",
+        "la OR:"
+      ],
+      "source_anchor": "la OR:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "CERTIFICADORA NAVAL SINTÉTICA"
+    },
+    {
+      "id": "f016",
+      "label": "denominado/a:",
+      "path": [
+        "Página 2",
+        "OR / Tipo",
+        "denominado/a:"
+      ],
+      "source_anchor": "denominado/a:",
+      "source_page": 2,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "la lancha"
+      ],
+      "options": [
+        "el buque",
+        "la embarcación",
+        "la lancha",
+        "el prototipo ",
+        "la construcción"
+      ],
+      "context_evidence": "OR / Tipo / denominado/a:: la lancha."
+    },
+    {
+      "id": "f017",
+      "label": "denominado/a:",
+      "path": [
+        "Página 2",
+        "OR / Nombre",
+        "denominado/a:"
+      ],
+      "source_anchor": "denominado/a:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "RÍO CLARO SINTÉTICO"
+    },
+    {
+      "id": "f018",
+      "label": "Matrícula:",
+      "path": [
+        "Página 2",
+        "OR",
+        "Matrícula:"
+      ],
+      "source_anchor": "Matrícula:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "PNA-SINT-8310"
+    },
+    {
+      "id": "f019",
+      "label": "asignación de pasajeros:",
+      "path": [
+        "Página 2",
+        "OR / Distribución",
+        "asignación de pasajeros:"
+      ],
+      "source_anchor": "asignación de pasajeros:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "24 pasajeros y 2 tripulantes en total. Cubierta principal: 24 pasajeros, 1 marinero. Puesto de gobierno: 1 patrón. Sin pasajeros en cubierta superior."
+    },
+    {
+      "id": "f020",
+      "label": "Profesional Proyectista y/o Director de obra(3) (4) :",
+      "path": [
+        "Página 2",
+        "OR",
+        "Profesional Proyectista y/o Director de obra(3) (4) :"
+      ],
+      "source_anchor": "Profesional Proyectista y/o Director de obra(3) (4) :",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "MARTINA SOLER"
+    },
+    {
+      "id": "f021",
+      "label": "Mat. CPIN/PNA:",
+      "path": [
+        "Página 2",
+        "OR",
+        "Mat. CPIN/PNA:"
+      ],
+      "source_anchor": "Mat. CPIN/PNA:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "CPIN-SINT-831 / PNA-SINT-831"
+    },
+    {
+      "id": "f022",
+      "label": "Rubricado en",
+      "path": [
+        "Página 2",
+        "OR",
+        "Rubricado en"
+      ],
+      "source_anchor": "Rubricado en",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Rosario, Santa Fe"
+    },
+    {
+      "id": "f023",
+      "label": "(dd/mm/aaaa)",
+      "path": [
+        "Página 2",
+        "OR",
+        "(dd/mm/aaaa)"
+      ],
+      "source_anchor": "(dd/mm/aaaa)",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "22/10/2026"
+    },
+    {
+      "id": "f024",
+      "label": "Firma del Personal Autorizado por la OR en el país:",
+      "path": [
+        "Página 2",
+        "OR",
+        "Firma del Personal Autorizado por la OR en el país:"
+      ],
+      "source_anchor": "Firma del Personal Autorizado por la OR en el país:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de TOMÁS RÍOS"
+    },
+    {
+      "id": "f025",
+      "label": "Aclaración:",
+      "path": [
+        "Página 2",
+        "OR",
+        "Aclaración:"
+      ],
+      "source_anchor": "Aclaración:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "TOMÁS RÍOS"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "PREFECTURA NAVAL ARGENTINA",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Autoridad Marítima",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Expte.",
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Trámite N°",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "FORMULARIO - TNAV - RS 16.1/25 - PROFESIONALES",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "DECLARACIÓN DE ASIGNACIÓN DE PASAJEROS",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Por la presente, el",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Profesional encomendado:",
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "en el marco del Régimen Simplificado normado en el REGINAVE, declara bajo juramento que",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "denominado/a:",
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "denominado/a:",
+        "field": "f005",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Matrícula:",
+        "field": "f006",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "posee la siguiente asignación de pasajeros: (indicar claramente la cantidad total de pasajeros, cantidad total de tripulantes, distribución por cubierta, etc.).",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "asignación de pasajeros:",
+        "field": "f007",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Rubricado en",
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(dd/mm/aaaa)",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(Lugar y Fecha de rubricación)",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Firma del Profesional Encomendado:",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Aclaración:",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nº de Matrícula CPIN / PNA:",
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(1) Incluir el nombre y apellido del Profesional, en letra mayúscula.",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "(2) En letra mayúscula y entre comillas.",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "PREFECTURA NAVAL ARGENTINA",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Autoridad Marítima",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Expte.",
+        "field": "f013",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Trámite N°",
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "FORMULARIO - TNAV - RS 16.2/25 - OR",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "DECLARACIÓN DE ASIGNACIÓN DE PASAJEROS",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Por la presente,",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "la OR:",
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "en el marco del Régimen Simplificado normado en el REGINAVE, declara bajo juramento que",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "denominado/a:",
+        "field": "f016",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "denominado/a:",
+        "field": "f017",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Matrícula:",
+        "field": "f018",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "posee la siguiente asignación de pasajeros: (indicar claramente la cantidad total de pasajeros, cantidad total de tripulantes, distribución por cubierta, etc.).",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "asignación de pasajeros:",
+        "field": "f019",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Profesional Proyectista y/o Director de obra(3) (4) :",
+        "field": "f020",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Mat. CPIN/PNA:",
+        "field": "f021",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Rubricado en",
+        "field": "f022",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "(dd/mm/aaaa)",
+        "field": "f023",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "(Lugar y Fecha de rubricación)",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Firma del Personal Autorizado por la OR en el país:",
+        "field": "f024",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Aclaración:",
+        "field": "f025",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "(1) Incluir el nombre de la OR, en letra mayúscula.",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "(2) En letra mayúscula y entre comillas.",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "(3) Incluir el nombre y apellido del Profesional, en letra mayúscula.",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "(4) Refiere al Profesional encomendado por el armador o propietario que firmó toda la información del buque presentada ante la OR (entidad certificadora).",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "(4) Refiere al Profesional encomendado por el armador o propietario que firmó toda la información del buque presentada ante la OR (entidad certificadora).",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": false
+      }
+    ]
+  ],
+  "context": "CASO ENTERAMENTE FICTICIO, creado para completar este formulario. Personas, bienes, firmas y referencias administrativas son sintéticos y no corresponden a actuaciones reales.\nPágina 1 / Profesionales / Expte.: EX-2026-00083100-APN-TNAV#PNA\nPágina 1 / Profesionales / Trámite N°: RS-SINT-831\nPágina 1 / Profesionales / Profesional encomendado:: MARTINA SOLER\nPágina 1 / Profesionales / Tipo / denominado/a:: Profesionales / Tipo / denominado/a:: la lancha.\nPágina 1 / Profesionales / Nombre / denominado/a:: RÍO CLARO SINTÉTICO\nPágina 1 / Profesionales / Matrícula:: PNA-SINT-8310\nPágina 1 / Profesionales / Distribución / asignación de pasajeros:: 24 pasajeros y 2 tripulantes en total. Cubierta principal: 24 pasajeros, 1 marinero. Puesto de gobierno: 1 patrón. Sin pasajeros en cubierta superior.\nPágina 1 / Profesionales / Rubricado en: Rosario, Santa Fe\nPágina 1 / Profesionales / (dd/mm/aaaa): 22/10/2026\nPágina 1 / Profesionales / Firma del Profesional Encomendado:: Firma sintética de MARTINA SOLER\nPágina 1 / Profesionales / Aclaración:: MARTINA SOLER\nPágina 1 / Profesionales / Nº de Matrícula CPIN / PNA:: CPIN-SINT-831 / PNA-SINT-831\nPágina 2 / OR / Expte.: EX-2026-00083100-APN-TNAV#PNA\nPágina 2 / OR / Trámite N°: RS-SINT-831\nPágina 2 / OR / la OR:: CERTIFICADORA NAVAL SINTÉTICA\nPágina 2 / OR / Tipo / denominado/a:: OR / Tipo / denominado/a:: la lancha.\nPágina 2 / OR / Nombre / denominado/a:: RÍO CLARO SINTÉTICO\nPágina 2 / OR / Matrícula:: PNA-SINT-8310\nPágina 2 / OR / Distribución / asignación de pasajeros:: 24 pasajeros y 2 tripulantes en total. Cubierta principal: 24 pasajeros, 1 marinero. Puesto de gobierno: 1 patrón. Sin pasajeros en cubierta superior.\nPágina 2 / OR / Profesional Proyectista y/o Director de obra(3) (4) :: MARTINA SOLER\nPágina 2 / OR / Mat. CPIN/PNA:: CPIN-SINT-831 / PNA-SINT-831\nPágina 2 / OR / Rubricado en: Rosario, Santa Fe\nPágina 2 / OR / (dd/mm/aaaa): 22/10/2026\nPágina 2 / OR / Firma del Personal Autorizado por la OR en el país:: Firma sintética de TOMÁS RÍOS\nPágina 2 / OR / Aclaración:: TOMÁS RÍOS",
+  "workflow_identity": {
+    "language": "es",
+    "id": 831
+  }
+}

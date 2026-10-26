@@ -1,0 +1,490 @@
+{
+  "id": "fr-817-inami-formulaire-activite-hebdomadaire-heures",
+  "language": "fr",
+  "title": "Statut social : attestation de votre activité professionnelle hebdomadaire",
+  "domain": "Healthcare",
+  "issuer": "Institut national d’assurance maladie-invalidité (INAMI)",
+  "issuer_id": "INAMI",
+  "template_family": "inami-formulaire-activite-hebdomadaire-heures",
+  "source_url": "https://www.inami.fgov.be/SiteCollectionDocuments/formulaire_activite_hebdomadaire_heures.pdf",
+  "landing_url": "https://www.inami.fgov.be/fr/professionnels/professionnels-de-la-sante/medecins/formulaires-pour-les-medecins",
+  "license_url": "https://www.inami.fgov.be/fr/disclaimer",
+  "license_note": "Selon les conditions Copyrights de l’INAMI : informations libres de droit sauf mention contraire, utilisables gratuitement moyennant mention de la source. Seuls le texte fonctionnel et les contrôles du formulaire sont normalisés ; informations multimédias, logos et éléments graphiques exclus.",
+  "source_sha256": "ba4b6732496e5f107437c8626a985716dc2fcb018b516926fcba93c6609c7774",
+  "source_pages": 2,
+  "source_version": "Édition et date non imprimées",
+  "source_date_evidence": {
+    "kind": "edition not stated",
+    "value": "Édition et date non imprimées"
+  },
+  "retrieved_at": "2026-10-25T02:06:32.553058+00:00",
+  "columns": 6,
+  "fields": [
+    {
+      "id": "f0001",
+      "label": "Votre nom et prénom :",
+      "path": [
+        "Page 1",
+        "Vos données",
+        "Votre nom et prénom :"
+      ],
+      "source_page": 1,
+      "source_anchor": "Votre nom et prénom :",
+      "kind": "text",
+      "synthetic_value": "Alice MARTIN",
+      "source_label_rects": [
+        [
+          46.68000030517578,
+          469.6299743652344,
+          151.74703979492188,
+          480.66998291015625
+        ]
+      ]
+    },
+    {
+      "id": "f0002",
+      "label": "Votre numéro INAMI :",
+      "path": [
+        "Page 1",
+        "Vos données",
+        "Votre numéro INAMI :"
+      ],
+      "source_page": 1,
+      "source_anchor": "Votre numéro INAMI :",
+      "kind": "text",
+      "synthetic_value": "18010010003",
+      "source_label_rects": [
+        [
+          46.68000030517578,
+          506.7099914550781,
+          148.50704956054688,
+          517.75
+        ]
+      ]
+    },
+    {
+      "id": "f0003",
+      "label": "Nom et prénom du responsable de la structure :",
+      "path": [
+        "Page 1",
+        "Données d’identification de la structure",
+        "Nom et prénom du responsable de la structure :"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nom et prénom du responsable de la structure :",
+      "kind": "text",
+      "synthetic_value": "Camille DURAND",
+      "source_label_rects": [
+        [
+          46.68000030517578,
+          603.18994140625,
+          218.5966033935547,
+          614.22998046875
+        ],
+        [
+          46.68000030517578,
+          616.6599731445312,
+          94.15103912353516,
+          627.7000122070312
+        ]
+      ]
+    },
+    {
+      "id": "f0004",
+      "label": "Fonction :",
+      "path": [
+        "Page 1",
+        "Données d’identification de la structure",
+        "Fonction :"
+      ],
+      "source_page": 1,
+      "source_anchor": "Fonction :",
+      "kind": "text",
+      "synthetic_value": "Responsable médical",
+      "source_label_rects": [
+        [
+          46.68000030517578,
+          643.419921875,
+          92.11104583740234,
+          654.4599609375
+        ]
+      ]
+    },
+    {
+      "id": "f0005",
+      "label": "Nom de la structure :",
+      "path": [
+        "Page 1",
+        "Données d’identification de la structure",
+        "Nom de la structure :"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nom de la structure :",
+      "kind": "text",
+      "synthetic_value": "Centre clinique Exemple, structure fictive",
+      "source_label_rects": [
+        [
+          46.68000030517578,
+          671.3799438476562,
+          143.22703552246094,
+          682.4199829101562
+        ]
+      ]
+    },
+    {
+      "id": "f0006",
+      "label": "Rue, n°, Bte:",
+      "path": [
+        "Page 1",
+        "Données d’identification de la structure",
+        "Rue, n°, Bte:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Rue, n°, Bte:",
+      "kind": "text",
+      "synthetic_value": "Rue de l’Exemple 8, boîte 2",
+      "source_label_rects": [
+        [
+          259.3699951171875,
+          712.6599731445312,
+          314.7466125488281,
+          723.7000122070312
+        ]
+      ]
+    },
+    {
+      "id": "f0007",
+      "label": "Code postal, localité:",
+      "path": [
+        "Page 1",
+        "Données d’identification de la structure",
+        "Code postal, localité:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Code postal, localité:",
+      "kind": "text",
+      "synthetic_value": "1000 Bruxelles",
+      "source_label_rects": [
+        [
+          259.3699951171875,
+          766.2959594726562,
+          352.7794494628906,
+          777.3359985351562
+        ]
+      ]
+    },
+    {
+      "id": "f0008",
+      "label": "h/semaine",
+      "path": [
+        "Page 2",
+        "Déclaration du responsable",
+        "h/semaine"
+      ],
+      "source_page": 2,
+      "source_anchor": "h/semaine",
+      "kind": "text",
+      "synthetic_value": "8",
+      "source_label_rects": [
+        [
+          367.8440246582031,
+          126.49996948242188,
+          415.3160400390625,
+          137.5399627685547
+        ]
+      ]
+    },
+    {
+      "id": "f0009",
+      "label": "durant la période du",
+      "path": [
+        "Page 2",
+        "Déclaration du responsable",
+        "durant la période du"
+      ],
+      "source_page": 2,
+      "source_anchor": "durant la période du",
+      "kind": "text",
+      "synthetic_value": "05/01/2026",
+      "source_label_rects": [
+        [
+          417.84417724609375,
+          126.49996948242188,
+          509.5423583984375,
+          137.5399627685547
+        ]
+      ]
+    },
+    {
+      "id": "f0010",
+      "label": "au",
+      "path": [
+        "Page 2",
+        "Déclaration du responsable",
+        "au"
+      ],
+      "source_page": 2,
+      "source_anchor": "au",
+      "kind": "text",
+      "synthetic_value": "01/02/2026",
+      "source_label_rects": [
+        [
+          278.5966796875,
+          126.49996948242188,
+          289.53729248046875,
+          137.5399627685547
+        ],
+        [
+          46.68000030517578,
+          139.93997192382812,
+          57.764163970947266,
+          150.97996520996094
+        ],
+        [
+          203.78073120117188,
+          139.93997192382812,
+          214.86489868164062,
+          150.97996520996094
+        ]
+      ]
+    },
+    {
+      "id": "f0011",
+      "label": "heures au total",
+      "path": [
+        "Page 2",
+        "Déclaration du responsable",
+        "heures au total"
+      ],
+      "source_page": 2,
+      "source_anchor": "heures au total",
+      "kind": "text",
+      "synthetic_value": "32",
+      "source_label_rects": [
+        [
+          170.58343505859375,
+          139.93997192382812,
+          238.35801696777344,
+          150.97996520996094
+        ]
+      ]
+    },
+    {
+      "id": "f0012",
+      "label": "Cette activité consistait en",
+      "path": [
+        "Page 2",
+        "Déclaration du responsable",
+        "Cette activité consistait en"
+      ],
+      "source_page": 2,
+      "source_anchor": "Cette activité consistait en",
+      "kind": "text",
+      "synthetic_value": "Consultations cliniques fictives non comptabilisées auprès de l’assurance obligatoire : quatre semaines de huit heures, soit 32 heures. Aucune activité administrative ou didactique.",
+      "source_label_rects": [
+        [
+          46.68000030517578,
+          166.81997680664062,
+          164.9625701904297,
+          177.85997009277344
+        ]
+      ]
+    },
+    {
+      "id": "f0013",
+      "label": "Date et signature du responsable :",
+      "path": [
+        "Page 2",
+        "Déclaration du responsable",
+        "Date et signature du responsable :"
+      ],
+      "source_page": 2,
+      "source_anchor": "Date et signature du responsable :",
+      "kind": "text",
+      "synthetic_value": "25/10/2026 ; Camille DURAND ; signature fictive",
+      "source_label_rects": [
+        [
+          46.68000030517578,
+          341.3299865722656,
+          200.28872680664062,
+          352.3699951171875
+        ]
+      ]
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Statut social – attestation de votre activité professionnelle hebdomadaire (à joindre à votre demande en ligne via ProSanté) ",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Informations préalables",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Ce formulaire n'est qu'une aide. D'autres preuves écrites peuvent également être prises en compte. Toutefois, une déclaration sur l'honneur de vous-même n'est pas suffisante. L’activité qui peut être assimilée dans votre profil doit répondre à deux conditions : • Il s’agit d’une activité clinique. La gestion d’équipe, la gestion administrative ou l’encadrement didactique ne peuvent donc pas être pris en considération. Cette condition ne s'applique pas à une activité dans un centre de vaccination, de test ou de triage. • Cette activité ne fait pas l’objet d’une comptabilisation auprès de l’assurance soins de santé obligatoire, ni en votre nom, ni au nom d’un autre prestataire. Vous trouverez plus d’informations sur notre site web. ",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Vos données",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Votre nom et prénom :",
+        "field": "f0001",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Votre numéro INAMI :",
+        "field": "f0002",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Données d’identification de la structure",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nom et prénom du responsable de la structure :",
+        "field": "f0003",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Fonction :",
+        "field": "f0004",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "Nom de la structure :",
+        "field": "f0005",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Rue, n°, Bte:",
+        "field": "f0006",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "Code postal, localité:",
+        "field": "f0007",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Déclaration du responsable",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "En signant ce formulaire, je déclare en ma qualité de responsable de la structure ci-dessus que le prestataire identifié dans le cadre II a effectué une activité (clinique) à hauteur de ................ h/semaine durant la période du ...................... au ...................... (soit ...........heures au total). ",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "h/semaine",
+        "field": "f0008",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "label": "durant la période du",
+        "field": "f0009",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "au",
+        "field": "f0010",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "label": "heures au total",
+        "field": "f0011",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "Cette activité consistait en",
+        "field": "f0012",
+        "source_page": 2,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Date et signature du responsable :",
+        "field": "f0013",
+        "source_page": 2,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "À imprimer et à signer ou à signer électroniquement. ",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Source : Institut national d’assurance maladie-invalidité (INAMI) ; https://www.inami.fgov.be/SiteCollectionDocuments/formulaire_activite_hebdomadaire_heures.pdf ; Édition et date non imprimées ; consultation 2026-10-25T02:06:32.553058+00:00. Texte normalisé ; données remplies et signatures fictives.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 2
+      }
+    ]
+  ],
+  "synthetic_context": true,
+  "source_notice": "Complete source packet normalized in source order, including conditional controls, repeated sections, attestations and notices. Fictional completions; no real application or declaration. Digit boxes belonging to one logical datum are coalesced.",
+  "context": "Scénario entièrement fictif. Personnes, établissements, coordonnées, identifiants, signatures et décisions synthétiques. Aucune transmission administrative ni situation clinique réelle. Les champs conditionnels sans objet sont conservés.\nPage 1 / Vos données / Votre nom et prénom : : Alice MARTIN\nPage 1 / Vos données / Votre numéro INAMI : : 18010010003\nPage 1 / Données d’identification de la structure / Nom et prénom du responsable de la structure : : Camille DURAND\nPage 1 / Données d’identification de la structure / Fonction : : Responsable médical\nPage 1 / Données d’identification de la structure / Nom de la structure : : Centre clinique Exemple, structure fictive\nPage 1 / Données d’identification de la structure / Rue, n°, Bte: : Rue de l’Exemple 8, boîte 2\nPage 1 / Données d’identification de la structure / Code postal, localité: : 1000 Bruxelles\nPage 2 / Déclaration du responsable / h/semaine : 8\nPage 2 / Déclaration du responsable / durant la période du : 05/01/2026\nPage 2 / Déclaration du responsable / au : 01/02/2026\nPage 2 / Déclaration du responsable / heures au total : 32\nPage 2 / Déclaration du responsable / Cette activité consistait en : Consultations cliniques fictives non comptabilisées auprès de l’assurance obligatoire : quatre semaines de huit heures, soit 32 heures. Aucune activité administrative ou didactique.\nPage 2 / Déclaration du responsable / Date et signature du responsable : : 25/10/2026 ; Camille DURAND ; signature fictive",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 817
+  }
+}

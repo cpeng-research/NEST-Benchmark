@@ -1,0 +1,340 @@
+{
+  "id": "fr-808-inami-formulaire-dm-education-diabete-notification-b41",
+  "language": "fr",
+  "title": "Notification d’un programme éducation et autogestion chez un patient diabétique de type 2 (B41)",
+  "domain": "Healthcare",
+  "issuer": "Institut national d’assurance maladie-invalidité (INAMI)",
+  "issuer_id": "INAMI",
+  "template_family": "inami-formulaire-dm-education-diabete-notification-b41",
+  "source_url": "https://www.inami.fgov.be/SiteCollectionDocuments/formulaire_DM_education_diabete_notification_B41.pdf",
+  "landing_url": "https://www.inami.fgov.be/fr/professionnels/professionnels-de-la-sante/medecins/formulaires-pour-les-medecins",
+  "license_url": "https://www.inami.fgov.be/fr/disclaimer",
+  "license_note": "Selon les conditions Copyrights de l’INAMI : informations libres de droit sauf mention contraire, utilisables gratuitement moyennant mention de la source. Seuls le texte fonctionnel et les contrôles du formulaire sont normalisés ; informations multimédias, logos et éléments graphiques exclus.",
+  "source_sha256": "d0eb1df5c7ead683753330b5e2716641275126432f34d8b8711cab75536539e3",
+  "source_pages": 1,
+  "source_version": "AM/MB 10.11.2022 – MB/BS 21.11.2022 ; en vigueur 01.01.2023",
+  "source_date_evidence": {
+    "kind": "printed edition",
+    "page": 1,
+    "value": "AM/MB 10.11.2022 – MB/BS 21.11.2022 ; en vigueur 01.01.2023"
+  },
+  "retrieved_at": "2026-10-25T02:08:28.895907+00:00",
+  "columns": 6,
+  "fields": [
+    {
+      "id": "f0001",
+      "label": "Vignette de la mutualité du patient",
+      "path": [
+        "Page 1",
+        "Formulaire",
+        "Vignette de la mutualité du patient"
+      ],
+      "source_page": 1,
+      "source_anchor": "Vignette de la mutualité du patient",
+      "kind": "text",
+      "synthetic_value": "Mutualité Exemple ; Alice MARTIN ; 50.03.15-802-13 ; Rue de l’Exemple 8, 1000 Bruxelles",
+      "source_label_rects": [
+        [
+          201.77000427246094,
+          75.00658416748047,
+          338.3098449707031,
+          87.6584243774414
+        ]
+      ]
+    },
+    {
+      "id": "f0002",
+      "label": "Je soussigné Dr",
+      "path": [
+        "Page 1",
+        "Formulaire",
+        "Je soussigné Dr"
+      ],
+      "source_page": 1,
+      "source_anchor": "Je soussigné Dr",
+      "kind": "text",
+      "synthetic_value": "Sophie DURAND",
+      "source_label_rects": [
+        [
+          68.66400146484375,
+          159.606201171875,
+          140.21014404296875,
+          170.7115936279297
+        ]
+      ]
+    },
+    {
+      "id": "f0003",
+      "label": "(numéro d’identification INAMI)",
+      "path": [
+        "Page 1",
+        "Formulaire",
+        "(numéro d’identification INAMI)"
+      ],
+      "source_page": 1,
+      "source_anchor": "(numéro d’identification INAMI)",
+      "kind": "text",
+      "synthetic_value": "18010010003",
+      "source_label_rects": [
+        [
+          281.85919189453125,
+          171.126220703125,
+          419.1866760253906,
+          182.2316131591797
+        ]
+      ]
+    },
+    {
+      "id": "f0004",
+      "label": "(nom et prénom du patient)",
+      "path": [
+        "Page 1",
+        "Formulaire",
+        "(nom et prénom du patient)"
+      ],
+      "source_page": 1,
+      "source_anchor": "(nom et prénom du patient)",
+      "kind": "text",
+      "synthetic_value": "Alice MARTIN",
+      "source_label_rects": [
+        [
+          416.80572509765625,
+          194.16619873046875,
+          535.6166381835938,
+          205.27159118652344
+        ]
+      ]
+    },
+    {
+      "id": "f0005",
+      "label": "B41)",
+      "path": [
+        "Page 1",
+        "Formulaire",
+        "B41)"
+      ],
+      "source_page": 1,
+      "source_anchor": "B41)",
+      "kind": "checkbox_single",
+      "synthetic_value": "J’ai démarré le programme le ../../.... (jj/mm/aaaa)",
+      "source_label_rects": [
+        [
+          68.66400146484375,
+          43.30620574951172,
+          90.24732208251953,
+          54.41160583496094
+        ]
+      ],
+      "options": [
+        "J’ai démarré le programme le ../../.... (jj/mm/aaaa)",
+        "J’ai prolongé le programme à partir du ../../....(jj//mm/aaaa) : j’ai constaté que mon patient a effectivement effectué les contrôles de glycémie requis au cours de la période écoulée et que la valeur HbA1c du patient, mesurée au plus tôt 3 mois avant la fin de la période précédente de 12 mois, est inférieure à 58 mmol/mol (ou 7,5 %)."
+      ],
+      "context_evidence": "Page 1 / Formulaire / B41) : J’ai démarré le programme le ../../.... (jj/mm/aaaa)"
+    },
+    {
+      "id": "f0006",
+      "label": "J’ai démarré le programme le",
+      "path": [
+        "Page 1",
+        "Formulaire",
+        "J’ai démarré le programme le"
+      ],
+      "source_page": 1,
+      "source_anchor": "J’ai démarré le programme le",
+      "kind": "text",
+      "synthetic_value": "25/10/2026",
+      "source_label_rects": [
+        [
+          79.22160339355469,
+          263.19622802734375,
+          209.1801300048828,
+          274.3016357421875
+        ]
+      ]
+    },
+    {
+      "id": "f0007",
+      "label": "J’ai prolongé le programme à partir du",
+      "path": [
+        "Page 1",
+        "Formulaire",
+        "J’ai prolongé le programme à partir du"
+      ],
+      "source_page": 1,
+      "source_anchor": "J’ai prolongé le programme à partir du",
+      "kind": "text",
+      "synthetic_value": "Sans objet : démarrage initial",
+      "source_label_rects": [
+        [
+          83.165771484375,
+          286.1162109375,
+          252.66506958007812,
+          297.22161865234375
+        ]
+      ]
+    },
+    {
+      "id": "f0008",
+      "label": "Nom+Cachet",
+      "path": [
+        "Page 1",
+        "Formulaire",
+        "Nom+Cachet"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nom+Cachet",
+      "kind": "text",
+      "synthetic_value": "Dr Sophie DURAND, cachet fictif, Bruxelles",
+      "source_label_rects": [
+        [
+          70.94400024414062,
+          354.80743408203125,
+          118.90141296386719,
+          366.22161865234375
+        ]
+      ]
+    },
+    {
+      "id": "f0009",
+      "label": "Date et signature",
+      "path": [
+        "Page 1",
+        "Formulaire",
+        "Date et signature"
+      ],
+      "source_page": 1,
+      "source_anchor": "Date et signature",
+      "kind": "text",
+      "synthetic_value": "25/10/2026 ; Sophie DURAND ; signature fictive",
+      "source_label_rects": [
+        [
+          406.3900146484375,
+          354.80743408203125,
+          468.8589782714844,
+          366.22161865234375
+        ]
+      ]
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "AM/MB 10.11.2022 – MB/BS 21.11.2022 ; En vigueur / in werking op 01.01.2023. B41) notification d’un programme « éducation et autogestion » chez un patient atteint du diabète de type 2",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Vignette de la mutualité du patient",
+        "field": "f0001",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Je soussigné Dr",
+        "field": "f0002",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "(numéro d’identification INAMI)",
+        "field": "f0003",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "(nom et prénom du patient)",
+        "field": "f0004",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Communique par la présente dispenser au patient, pour lequel je gère le dossier médical global, un programme « éducation et autogestion ».",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Je confirme que le patient suit un traitement par incrétinomimétique injectable ou qu’il reçoit une seule injection d’insuline par jour et qu’une éducation en diabétologie a été dispensée au patient. ",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "B41)",
+        "field": "f0005",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "J’ai démarré le programme le",
+        "field": "f0006",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "J’ai prolongé le programme à partir du",
+        "field": "f0007",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Je tiens à votre disposition les données relatives à l’éducation en diabétologie et aux résultats de HbA1c du patient. ",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nom+Cachet",
+        "field": "f0008",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Date et signature",
+        "field": "f0009",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "* Ne cocher que si le programme de contrôle de la glycémie est prolongé après une période précédente de 12 mois pour une nouvelle période de 12 mois. ENVOYER LE DOCUMENT SOUS PLI FERMÉ AU MÉDECIN-CONSEIL DE LA MUTUALITÉ ",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Source : Institut national d’assurance maladie-invalidité (INAMI) ; https://www.inami.fgov.be/SiteCollectionDocuments/formulaire_DM_education_diabete_notification_B41.pdf ; AM/MB 10.11.2022 – MB/BS 21.11.2022 ; en vigueur 01.01.2023 ; consultation 2026-10-25T02:08:28.895907+00:00. Texte normalisé ; données remplies et signatures fictives.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ]
+  ],
+  "synthetic_context": true,
+  "source_notice": "Complete source packet normalized in source order, including conditional controls, repeated sections, attestations and notices. Fictional completions; no real application or declaration. Digit boxes belonging to one logical datum are coalesced.",
+  "context": "Scénario entièrement fictif. Personnes, établissements, coordonnées, identifiants, signatures et décisions synthétiques. Aucune transmission administrative ni situation clinique réelle. Les champs conditionnels sans objet sont conservés.\nPage 1 / Formulaire / Vignette de la mutualité du patient : Mutualité Exemple ; Alice MARTIN ; 50.03.15-802-13 ; Rue de l’Exemple 8, 1000 Bruxelles\nPage 1 / Formulaire / Je soussigné Dr : Sophie DURAND\nPage 1 / Formulaire / (numéro d’identification INAMI) : 18010010003\nPage 1 / Formulaire / (nom et prénom du patient) : Alice MARTIN\nPage 1 / Formulaire / B41) : J’ai démarré le programme le ../../.... (jj/mm/aaaa)\nPage 1 / Formulaire / J’ai démarré le programme le : 25/10/2026\nPage 1 / Formulaire / J’ai prolongé le programme à partir du : Sans objet : démarrage initial\nPage 1 / Formulaire / Nom+Cachet : Dr Sophie DURAND, cachet fictif, Bruxelles\nPage 1 / Formulaire / Date et signature : 25/10/2026 ; Sophie DURAND ; signature fictive",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 808
+  }
+}

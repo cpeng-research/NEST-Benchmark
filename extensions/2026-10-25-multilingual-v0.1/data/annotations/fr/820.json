@@ -1,0 +1,252 @@
+{
+  "id": "fr-820-inami-formulaire-dentiste-accreditation-pr-inscription-organisateur",
+  "language": "fr",
+  "title": "Inscription comme nouvel organisateur de peer-review dentaire",
+  "domain": "Education",
+  "issuer": "Institut national d’assurance maladie-invalidité (INAMI)",
+  "issuer_id": "INAMI",
+  "template_family": "inami-formulaire-dentiste-accreditation-pr-inscription-organisateur",
+  "source_url": "https://www.inami.fgov.be/SiteCollectionDocuments/formulaire_dentiste_accreditation_PR_inscription_organisateur.pdf",
+  "landing_url": "https://www.inami.fgov.be/fr/professionnels/professionnels-de-la-sante/dentistes/formulaires-pour-les-dentistes",
+  "license_url": "https://www.inami.fgov.be/fr/disclaimer",
+  "license_note": "Selon les conditions Copyrights de l’INAMI : informations libres de droit sauf mention contraire, utilisables gratuitement moyennant mention de la source. Seuls le texte fonctionnel et les contrôles du formulaire sont normalisés ; informations multimédias, logos et éléments graphiques exclus.",
+  "source_sha256": "048e08c696d5bc720563b7254619f656c49b00fff8eaf7d7d451b8031d3f3166",
+  "source_pages": 1,
+  "source_version": "Annexe 4 ; date d’édition non imprimée",
+  "source_date_evidence": {
+    "kind": "printed edition",
+    "page": 1,
+    "value": "Annexe 4 ; date d’édition non imprimée"
+  },
+  "retrieved_at": "2026-10-25T02:09:52.597713+00:00",
+  "columns": 6,
+  "fields": [
+    {
+      "id": "f0001",
+      "label": "Nom et prénom:",
+      "path": [
+        "Page 1",
+        "Vos données",
+        "Nom et prénom:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nom et prénom:",
+      "kind": "text",
+      "synthetic_value": "Camille MARTIN",
+      "source_label_rects": [
+        [
+          53.7599983215332,
+          175.45999145507812,
+          129.4075164794922,
+          186.49998474121094
+        ]
+      ]
+    },
+    {
+      "id": "f0002",
+      "label": "Votre numéro INAMI:",
+      "path": [
+        "Page 1",
+        "Vos données",
+        "Votre numéro INAMI:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Votre numéro INAMI:",
+      "kind": "text",
+      "synthetic_value": "38010010001",
+      "source_label_rects": [
+        [
+          53.7599983215332,
+          219.37997436523438,
+          153.02066040039062,
+          230.4199676513672
+        ]
+      ]
+    },
+    {
+      "id": "f0003",
+      "label": "Votre adresse e-mail:",
+      "path": [
+        "Page 1",
+        "Vos données",
+        "Votre adresse e-mail:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Votre adresse e-mail:",
+      "kind": "text",
+      "synthetic_value": "camille820@example.org",
+      "source_label_rects": [
+        [
+          53.7599983215332,
+          267.8899841308594,
+          151.3707275390625,
+          278.92999267578125
+        ]
+      ]
+    },
+    {
+      "id": "f0004",
+      "label": "Adresse:",
+      "path": [
+        "Page 1",
+        "Vos données",
+        "Adresse:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Adresse:",
+      "kind": "text",
+      "synthetic_value": "Rue de l’Exemple 8",
+      "source_label_rects": [
+        [
+          53.7599983215332,
+          298.010009765625,
+          93.27216339111328,
+          309.0500183105469
+        ]
+      ]
+    },
+    {
+      "id": "f0005",
+      "label": "Code postal + Commune:",
+      "path": [
+        "Page 1",
+        "Vos données",
+        "Code postal + Commune:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Code postal + Commune:",
+      "kind": "text",
+      "synthetic_value": "1000 Bruxelles",
+      "source_label_rects": [
+        [
+          53.7599983215332,
+          311.45001220703125,
+          168.1913604736328,
+          322.4900207519531
+        ]
+      ]
+    },
+    {
+      "id": "f0006",
+      "label": "Date + Signature",
+      "path": [
+        "Page 1",
+        "Votre déclaration",
+        "Date + Signature"
+      ],
+      "source_page": 1,
+      "source_anchor": "Date + Signature",
+      "kind": "text",
+      "synthetic_value": "25/10/2026 ; Camille MARTIN ; signature fictive",
+      "source_label_rects": [
+        [
+          53.7599983215332,
+          471.6700134277344,
+          129.61825561523438,
+          482.71002197265625
+        ]
+      ]
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Annexe 4 Inscription en tant que nouvel organisateur de Peer-Review (*) ",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Vos données",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nom et prénom:",
+        "field": "f0001",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Votre numéro INAMI:",
+        "field": "f0002",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "Votre adresse e-mail:",
+        "field": "f0003",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Adresse:",
+        "field": "f0004",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "Code postal + Commune:",
+        "field": "f0005",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Votre déclaration",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "1. Déclare satisfaire aux conditions pour devenir organisateur de peer-review. 2. Déclare prendre connaissance Et y souscrire, pour les sessions qu’il organise durant une année civile des obligations décrites - dans le règlement de l’accréditation de l’année concernée - dans le règlement de fonctionnement pour les organisateurs de l’année concernée. ",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Date + Signature",
+        "field": "f0006",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "À signer électroniquement ou imprimer, signer et scanner. III. Comment envoyer ce formulaire ? Par e-mail (document scanné): accr.tandarts@riziv-inami.fgov.be (*) Les organisateurs reconnus en 2024 et qui ont déjà organisé une session de Peer-review en 2022 ne doivent plus remplir ce formulaire",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Source : Institut national d’assurance maladie-invalidité (INAMI) ; https://www.inami.fgov.be/SiteCollectionDocuments/formulaire_dentiste_accreditation_PR_inscription_organisateur.pdf ; Annexe 4 ; date d’édition non imprimée ; consultation 2026-10-25T02:09:52.597713+00:00. Texte normalisé ; données remplies et signatures fictives.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ]
+  ],
+  "synthetic_context": true,
+  "source_notice": "Complete source packet normalized in source order, including conditional controls, repeated sections, attestations and notices. Fictional completions; no real application or declaration. Digit boxes belonging to one logical datum are coalesced.",
+  "context": "Scénario entièrement fictif. Personnes, établissements, coordonnées, identifiants, signatures et décisions synthétiques. Aucune transmission administrative ni situation clinique réelle. Les champs conditionnels sans objet sont conservés.\nPage 1 / Vos données / Nom et prénom: : Camille MARTIN\nPage 1 / Vos données / Votre numéro INAMI: : 38010010001\nPage 1 / Vos données / Votre adresse e-mail: : camille820@example.org\nPage 1 / Vos données / Adresse: : Rue de l’Exemple 8\nPage 1 / Vos données / Code postal + Commune: : 1000 Bruxelles\nPage 1 / Votre déclaration / Date + Signature : 25/10/2026 ; Camille MARTIN ; signature fictive",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 820
+  }
+}

@@ -1,0 +1,588 @@
+{
+  "id": "fr-805-inami-formulaire-reglement20030728-annexe-32",
+  "language": "fr",
+  "title": "Formulaire de demande ou de prescriptions (annexe 32)",
+  "domain": "Healthcare",
+  "issuer": "Institut national d’assurance maladie-invalidité (INAMI)",
+  "issuer_id": "INAMI",
+  "template_family": "inami-formulaire-reglement20030728-annexe-32",
+  "source_url": "https://www.inami.fgov.be/SiteCollectionDocuments/formulaire_reglement20030728_annexe_32.pdf",
+  "landing_url": "https://www.inami.fgov.be/fr/professionnels/professionnels-de-la-sante/medecins/formulaires-pour-les-medecins",
+  "license_url": "https://www.inami.fgov.be/fr/disclaimer",
+  "license_note": "Selon les conditions Copyrights de l’INAMI : informations libres de droit sauf mention contraire, utilisables gratuitement moyennant mention de la source. Seuls le texte fonctionnel et les contrôles du formulaire sont normalisés ; informations multimédias, logos et éléments graphiques exclus.",
+  "source_sha256": "9cc09efbcb26ca848650dbcebee03d1c6312a649f2baf1810fb98aa7784fb517",
+  "source_pages": 1,
+  "source_version": "Annexe 32 ; page imprimée 93 ; date non imprimée",
+  "source_date_evidence": {
+    "kind": "printed edition",
+    "page": 1,
+    "value": "Annexe 32 ; page imprimée 93 ; date non imprimée"
+  },
+  "retrieved_at": "2026-10-25T02:08:32.572493+00:00",
+  "columns": 6,
+  "fields": [
+    {
+      "id": "f0001",
+      "label": "Adresse du titulaire:",
+      "path": [
+        "Page 1",
+        "A COMPLETER PAR LE TITULAIRE",
+        "Adresse du titulaire:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Adresse du titulaire:",
+      "kind": "text",
+      "synthetic_value": "Rue de l’Exemple 8, 1000 Bruxelles",
+      "source_label_rects": [
+        [
+          73.58399963378906,
+          129.7239990234375,
+          134.44200134277344,
+          138.09292602539062
+        ]
+      ]
+    },
+    {
+      "id": "f0002",
+      "label": "Compléter ou apposer la vignette O.A.",
+      "path": [
+        "Page 1",
+        "A COMPLETER PAR LE TITULAIRE",
+        "Compléter ou apposer la vignette O.A."
+      ],
+      "source_page": 1,
+      "source_anchor": "Compléter ou apposer la vignette O.A.",
+      "kind": "text",
+      "synthetic_value": "Mutualité Exemple ; Alice MARTIN ; affiliation FICTIF805",
+      "source_label_rects": [
+        [
+          73.58399963378906,
+          156.1240234375,
+          189.6375274658203,
+          164.49295043945312
+        ]
+      ]
+    },
+    {
+      "id": "f0003",
+      "label": "Nom et prénom du titulaire:",
+      "path": [
+        "Page 1",
+        "A COMPLETER PAR LE TITULAIRE",
+        "Nom et prénom du titulaire:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nom et prénom du titulaire:",
+      "kind": "text",
+      "synthetic_value": "Alice MARTIN",
+      "source_label_rects": [
+        [
+          73.58399963378906,
+          173.884033203125,
+          157.3488311767578,
+          182.25296020507812
+        ]
+      ]
+    },
+    {
+      "id": "f0004",
+      "label": "Organisme assureur:",
+      "path": [
+        "Page 1",
+        "A COMPLETER PAR LE TITULAIRE",
+        "Organisme assureur:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Organisme assureur:",
+      "kind": "text",
+      "synthetic_value": "Mutualité Exemple",
+      "source_label_rects": [
+        [
+          73.58399963378906,
+          191.64404296875,
+          135.52310180664062,
+          200.01296997070312
+        ]
+      ]
+    },
+    {
+      "id": "f0005",
+      "label": "Numéro d'inscriptions:",
+      "path": [
+        "Page 1",
+        "A COMPLETER PAR LE TITULAIRE",
+        "Numéro d'inscriptions:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Numéro d'inscriptions:",
+      "kind": "text",
+      "synthetic_value": "FICTIF805",
+      "source_label_rects": [
+        [
+          73.58399963378906,
+          218.04400634765625,
+          142.34217834472656,
+          226.41293334960938
+        ]
+      ]
+    },
+    {
+      "id": "f0006",
+      "label": "Nom et prénom du patient:",
+      "path": [
+        "Page 1",
+        "A COMPLETER PAR LE PRESCRIPTEUR",
+        "Nom et prénom du patient:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nom et prénom du patient:",
+      "kind": "text",
+      "synthetic_value": "Lucie MARTIN",
+      "source_label_rects": [
+        [
+          314.69000244140625,
+          129.7239990234375,
+          395.5819396972656,
+          138.09292602539062
+        ]
+      ]
+    },
+    {
+      "id": "f0007",
+      "label": "Titulaire - Conjoint - Enfant - Ascendant (1)",
+      "path": [
+        "Page 1",
+        "A COMPLETER PAR LE PRESCRIPTEUR",
+        "Titulaire - Conjoint - Enfant - Ascendant (1)"
+      ],
+      "source_page": 1,
+      "source_anchor": "Titulaire - Conjoint - Enfant - Ascendant (1)",
+      "kind": "checkbox_single",
+      "synthetic_value": "Enfant",
+      "source_label_rects": [
+        [
+          351.54998779296875,
+          156.1240234375,
+          484.8408203125,
+          164.49295043945312
+        ]
+      ],
+      "options": [
+        "Titulaire",
+        "Conjoint",
+        "Enfant",
+        "Ascendant"
+      ],
+      "context_evidence": "Page 1 / A COMPLETER PAR LE PRESCRIPTEUR / Titulaire - Conjoint - Enfant - Ascendant (1) : Enfant"
+    },
+    {
+      "id": "f0008",
+      "label": "Date de naissance du patient (2):",
+      "path": [
+        "Page 1",
+        "A COMPLETER PAR LE PRESCRIPTEUR",
+        "Date de naissance du patient (2):"
+      ],
+      "source_page": 1,
+      "source_anchor": "Date de naissance du patient (2):",
+      "kind": "text",
+      "synthetic_value": "15/03/2018",
+      "source_label_rects": [
+        [
+          314.69000244140625,
+          173.884033203125,
+          412.8337707519531,
+          182.25296020507812
+        ]
+      ]
+    },
+    {
+      "id": "f0009",
+      "label": "Prestations et/ou fournitures",
+      "path": [
+        "Page 1",
+        "A COMPLETER PAR LE PRESCRIPTEUR",
+        "Prestations et/ou fournitures"
+      ],
+      "source_page": 1,
+      "source_anchor": "Prestations et/ou fournitures",
+      "kind": "text",
+      "synthetic_value": "Lunettes pédiatriques fictives, verres correcteurs selon dossier fictif",
+      "source_label_rects": [
+        [
+          255.41000366210938,
+          254.04400634765625,
+          339.99871826171875,
+          262.4129333496094
+        ]
+      ]
+    },
+    {
+      "id": "f0010",
+      "label": "Nom de l'établissement:",
+      "path": [
+        "Page 1",
+        "ETABLISSEMENT HOSPITALIER",
+        "Nom de l'établissement:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nom de l'établissement:",
+      "kind": "text",
+      "synthetic_value": "Sans objet : patiente ambulatoire",
+      "source_label_rects": [
+        [
+          73.58399963378906,
+          410.31402587890625,
+          145.83494567871094,
+          418.6829528808594
+        ]
+      ]
+    },
+    {
+      "id": "f0011",
+      "label": "Numéro d'identification",
+      "path": [
+        "Page 1",
+        "ETABLISSEMENT HOSPITALIER",
+        "Numéro d'identification"
+      ],
+      "source_page": 1,
+      "source_anchor": "Numéro d'identification",
+      "kind": "text",
+      "synthetic_value": "Sans objet",
+      "source_label_rects": [
+        [
+          73.58399963378906,
+          436.2340087890625,
+          145.10914611816406,
+          444.6029357910156
+        ]
+      ]
+    },
+    {
+      "id": "f0012",
+      "label": "Service:",
+      "path": [
+        "Page 1",
+        "ETABLISSEMENT HOSPITALIER",
+        "Service:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Service:",
+      "kind": "text",
+      "synthetic_value": "Sans objet",
+      "source_label_rects": [
+        [
+          73.58399963378906,
+          463.2540283203125,
+          98.2371597290039,
+          471.6229553222656
+        ]
+      ]
+    },
+    {
+      "id": "f0013",
+      "label": "Nom et prénom:",
+      "path": [
+        "Page 1",
+        "PRESCRIPTEUR",
+        "Nom et prénom:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nom et prénom:",
+      "kind": "text",
+      "synthetic_value": "Sophie DURAND",
+      "source_label_rects": [
+        [
+          314.69000244140625,
+          410.31402587890625,
+          363.9282531738281,
+          418.6829528808594
+        ]
+      ]
+    },
+    {
+      "id": "f0014",
+      "label": "Adresse:",
+      "path": [
+        "Page 1",
+        "PRESCRIPTEUR",
+        "Adresse:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Adresse:",
+      "kind": "text",
+      "synthetic_value": "Rue de l’Exemple 10, 1000 Bruxelles",
+      "source_label_rects": [
+        [
+          314.69000244140625,
+          436.2340087890625,
+          341.01385498046875,
+          444.6029357910156
+        ]
+      ]
+    },
+    {
+      "id": "f0015",
+      "label": "N° d'ident. I.N.A.M.I.:",
+      "path": [
+        "Page 1",
+        "PRESCRIPTEUR",
+        "N° d'ident. I.N.A.M.I.:"
+      ],
+      "source_page": 1,
+      "source_anchor": "N° d'ident. I.N.A.M.I.:",
+      "kind": "text",
+      "synthetic_value": "18010010003",
+      "source_label_rects": [
+        [
+          314.69000244140625,
+          462.6540222167969,
+          382.8207702636719,
+          471.02294921875
+        ]
+      ]
+    },
+    {
+      "id": "f0016",
+      "label": "Date:",
+      "path": [
+        "Page 1",
+        "PRESCRIPTEUR",
+        "Date:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Date:",
+      "kind": "text",
+      "synthetic_value": "25/10/2026",
+      "source_label_rects": [
+        [
+          314.69000244140625,
+          481.0140075683594,
+          331.057373046875,
+          489.3829345703125
+        ]
+      ]
+    },
+    {
+      "id": "f0017",
+      "label": "Signature",
+      "path": [
+        "Page 1",
+        "PRESCRIPTEUR",
+        "Signature"
+      ],
+      "source_page": 1,
+      "source_anchor": "Signature",
+      "kind": "text",
+      "synthetic_value": "Sophie DURAND, signature fictive",
+      "source_label_rects": [
+        [
+          314.69000244140625,
+          489.6540222167969,
+          343.58428955078125,
+          498.02294921875
+        ]
+      ]
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Annexe 32 — FORMULAIRE DE DEMANDE OU DE PRESCRIPTIONS",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "A COMPLETER PAR LE TITULAIRE",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Adresse du titulaire:",
+        "field": "f0001",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Compléter ou apposer la vignette O.A.",
+        "field": "f0002",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "Nom et prénom du titulaire:",
+        "field": "f0003",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Organisme assureur:",
+        "field": "f0004",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "Numéro d'inscriptions:",
+        "field": "f0005",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "A COMPLETER PAR LE PRESCRIPTEUR",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nom et prénom du patient:",
+        "field": "f0006",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Titulaire - Conjoint - Enfant - Ascendant (1)",
+        "field": "f0007",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Date de naissance du patient (2):",
+        "field": "f0008",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "(1) Biffer les mentions inutiles. (2) Uniquement en cas de lunettes pour enfants âgés de moins de 12 ans.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Prestations et/ou fournitures",
+        "field": "f0009",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "ETABLISSEMENT HOSPITALIER",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(Si le patient est hospitalisé)",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nom de l'établissement:",
+        "field": "f0010",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Numéro d'identification",
+        "field": "f0011",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "Service:",
+        "field": "f0012",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "PRESCRIPTEUR",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nom et prénom:",
+        "field": "f0013",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Adresse:",
+        "field": "f0014",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "N° d'ident. I.N.A.M.I.:",
+        "field": "f0015",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Date:",
+        "field": "f0016",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "Signature",
+        "field": "f0017",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Source : Institut national d’assurance maladie-invalidité (INAMI) ; https://www.inami.fgov.be/SiteCollectionDocuments/formulaire_reglement20030728_annexe_32.pdf ; Annexe 32 ; page imprimée 93 ; date non imprimée ; consultation 2026-10-25T02:08:32.572493+00:00. Texte normalisé ; données remplies et signatures fictives.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ]
+  ],
+  "synthetic_context": true,
+  "source_notice": "Complete source packet normalized in source order, including conditional controls, repeated sections, attestations and notices. Fictional completions; no real application or declaration. Digit boxes belonging to one logical datum are coalesced.",
+  "context": "Scénario entièrement fictif. Personnes, établissements, coordonnées, identifiants, signatures et décisions synthétiques. Aucune transmission administrative ni situation clinique réelle. Les champs conditionnels sans objet sont conservés.\nPage 1 / A COMPLETER PAR LE TITULAIRE / Adresse du titulaire: : Rue de l’Exemple 8, 1000 Bruxelles\nPage 1 / A COMPLETER PAR LE TITULAIRE / Compléter ou apposer la vignette O.A. : Mutualité Exemple ; Alice MARTIN ; affiliation FICTIF805\nPage 1 / A COMPLETER PAR LE TITULAIRE / Nom et prénom du titulaire: : Alice MARTIN\nPage 1 / A COMPLETER PAR LE TITULAIRE / Organisme assureur: : Mutualité Exemple\nPage 1 / A COMPLETER PAR LE TITULAIRE / Numéro d'inscriptions: : FICTIF805\nPage 1 / A COMPLETER PAR LE PRESCRIPTEUR / Nom et prénom du patient: : Lucie MARTIN\nPage 1 / A COMPLETER PAR LE PRESCRIPTEUR / Titulaire - Conjoint - Enfant - Ascendant (1) : Enfant\nPage 1 / A COMPLETER PAR LE PRESCRIPTEUR / Date de naissance du patient (2): : 15/03/2018\nPage 1 / A COMPLETER PAR LE PRESCRIPTEUR / Prestations et/ou fournitures : Lunettes pédiatriques fictives, verres correcteurs selon dossier fictif\nPage 1 / ETABLISSEMENT HOSPITALIER / Nom de l'établissement: : Sans objet : patiente ambulatoire\nPage 1 / ETABLISSEMENT HOSPITALIER / Numéro d'identification : Sans objet\nPage 1 / ETABLISSEMENT HOSPITALIER / Service: : Sans objet\nPage 1 / PRESCRIPTEUR / Nom et prénom: : Sophie DURAND\nPage 1 / PRESCRIPTEUR / Adresse: : Rue de l’Exemple 10, 1000 Bruxelles\nPage 1 / PRESCRIPTEUR / N° d'ident. I.N.A.M.I.: : 18010010003\nPage 1 / PRESCRIPTEUR / Date: : 25/10/2026\nPage 1 / PRESCRIPTEUR / Signature : Sophie DURAND, signature fictive",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 805
+  }
+}

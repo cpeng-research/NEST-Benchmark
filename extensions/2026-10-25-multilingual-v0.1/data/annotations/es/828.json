@@ -1,0 +1,906 @@
+{
+  "id": "es-828",
+  "language": "es",
+  "title": "Solicitud de número EORI para no establecidos en la UE",
+  "domain": "GovPublic",
+  "issuer": "Agencia Estatal de Administración Tributaria",
+  "issuer_id": "agencia-estatal-de-administración-tributaria",
+  "template_family": "aeat-eori-no-establecidos-ue",
+  "source_version": "Undated",
+  "source_date_evidence": {
+    "kind": "undated source",
+    "value": "Undated",
+    "note": "No revision/issue date is printed. Cited EU regulations are not edition evidence; retrieval 2026-10-25T02:03:42.678582+00:00."
+  },
+  "source_url": "https://sede.agenciatributaria.gob.es/static_files/Sede/Tema/Censos/EORI/contenido_EORI/Solicitud_EORI.pdf",
+  "landing_url": "https://sede.agenciatributaria.gob.es/Sede/censos-nif-domicilio-fiscal/solicitar-nif/eori.html",
+  "source_sha256": "3d6f57c2dcc3a31010122a094c2d73b46e1273e069754feea38a61f27e0c9ba0",
+  "source_pages": 3,
+  "retrieved_at": "2026-10-25T02:03:42.678582+00:00",
+  "license_url": "https://sede.agenciatributaria.gob.es/Sede/condiciones-uso-sede-electronica/aviso-legal/utilizacion-informacion-contenida-web-aeat.html",
+  "license_note": "AEAT reuse notice permits reproduction, modification and distribution subject to attribution, date identification and no distortion. Attribution: AEAT. Complete semantic adaptation and fictional completion.",
+  "columns": 2,
+  "synthetic_context": true,
+  "source_notice": "Complete source pages, options, instructions, declaration and signature targets retained in source order. All completions are fictional.",
+  "fields": [
+    {
+      "id": "f001",
+      "label": "(*) Nombre completo del solicitante: (Nom/Name)",
+      "path": [
+        "Página 1",
+        "Solicitante",
+        "(*) Nombre completo del solicitante: (Nom/Name)"
+      ],
+      "source_anchor": "(*) Nombre completo del solicitante: (Nom/Name)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "COMERCIO DEL LITORAL SINTÉTICO SA"
+    },
+    {
+      "id": "f002",
+      "label": "(*) Tipo de persona:",
+      "path": [
+        "Página 1",
+        "Solicitante",
+        "(*) Tipo de persona:"
+      ],
+      "source_anchor": "(*) Tipo de persona:",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "Persona jurídica (Personne morale/ Legal person)"
+      ],
+      "options": [
+        "Persona física (Personne physique/ Natural person)",
+        "Persona jurídica (Personne morale/ Legal person)",
+        "Asociación de personas (art.5(4) del Código Aduanero de la Unión). (Association de personnes/ association of persons)"
+      ],
+      "context_evidence": "Solicitante / (*) Tipo de persona:: Persona jurídica (Personne morale/ Legal person)."
+    },
+    {
+      "id": "f003",
+      "label": "Fecha de constitución o fecha de nacimiento (1) (Date de creatión/naissance/Date of establishment)",
+      "path": [
+        "Página 1",
+        "Solicitante",
+        "Fecha de constitución o fecha de nacimiento (1) (Date de creatión/naissance/Date of establishment)"
+      ],
+      "source_anchor": "Fecha de constitución o fecha de nacimiento (1) (Date de creatión/naissance/Date of establishment)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "14/03/2010"
+    },
+    {
+      "id": "f004",
+      "label": "(*) Motivo de la solicitud del EORI:",
+      "path": [
+        "Página 1",
+        "Motivo",
+        "(*) Motivo de la solicitud del EORI:"
+      ],
+      "source_anchor": "(*) Motivo de la solicitud del EORI:",
+      "source_page": 1,
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "ENS/EXS en España"
+      ],
+      "options": [
+        "IPR (REGLAMENTO (UE) Nº 608/2013) en España",
+        "ENS/EXS en España"
+      ],
+      "context_evidence": "Motivo / (*) Motivo de la solicitud del EORI:: ENS/EXS en España."
+    },
+    {
+      "id": "f005",
+      "label": "(*) Calle y número: (Rue et nº/Street and number)",
+      "path": [
+        "Página 1",
+        "Domicilio",
+        "(*) Calle y número: (Rue et nº/Street and number)"
+      ],
+      "source_anchor": "(*) Calle y número: (Rue et nº/Street and number)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "CALLE LAPRIDA 828"
+    },
+    {
+      "id": "f006",
+      "label": "(*) Código Postal (Code postal/Postal code)",
+      "path": [
+        "Página 1",
+        "Domicilio",
+        "(*) Código Postal (Code postal/Postal code)"
+      ],
+      "source_anchor": "(*) Código Postal (Code postal/Postal code)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2000"
+    },
+    {
+      "id": "f007",
+      "label": "(*) Ciudad (Ville/City)",
+      "path": [
+        "Página 1",
+        "Domicilio",
+        "(*) Ciudad (Ville/City)"
+      ],
+      "source_anchor": "(*) Ciudad (Ville/City)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "ROSARIO"
+    },
+    {
+      "id": "f008",
+      "label": "(*) País (Pays/Country)",
+      "path": [
+        "Página 1",
+        "Domicilio",
+        "(*) País (Pays/Country)"
+      ],
+      "source_anchor": "(*) País (Pays/Country)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "ARGENTINA"
+    },
+    {
+      "id": "f009",
+      "label": "Número(s) IVA asignados en España y/o en otros Estados miembros (1). (Numéro(s) d’identification à la TVA attribué(s) le cas échéant par les États membres / VAT numbers assigned by the Member states)",
+      "path": [
+        "Página 1",
+        "IVA / Fila 1",
+        "Número(s) IVA asignados en España y/o en otros Estados miembros (1). (Numéro(s) d’identification à la TVA attribué(s) le cas échéant par les États membres / VAT numbers assigned by the Member states)"
+      ],
+      "source_anchor": "Número(s) IVA asignados en España y/o en otros Estados miembros (1). (Numéro(s) d’identification à la TVA attribué(s) le cas échéant par les États membres / VAT numbers assigned by the Member states)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No asignado"
+    },
+    {
+      "id": "f010",
+      "label": "Número(s) IVA asignados en España y/o en otros Estados miembros (1). (Numéro(s) d’identification à la TVA attribué(s) le cas échéant par les États membres / VAT numbers assigned by the Member states)",
+      "path": [
+        "Página 1",
+        "IVA / Fila 2",
+        "Número(s) IVA asignados en España y/o en otros Estados miembros (1). (Numéro(s) d’identification à la TVA attribué(s) le cas échéant par les États membres / VAT numbers assigned by the Member states)"
+      ],
+      "source_anchor": "Número(s) IVA asignados en España y/o en otros Estados miembros (1). (Numéro(s) d’identification à la TVA attribué(s) le cas échéant par les États membres / VAT numbers assigned by the Member states)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No asignado"
+    },
+    {
+      "id": "f011",
+      "label": "Número(s) IVA asignados en España y/o en otros Estados miembros (1). (Numéro(s) d’identification à la TVA attribué(s) le cas échéant par les États membres / VAT numbers assigned by the Member states)",
+      "path": [
+        "Página 1",
+        "IVA / Fila 3",
+        "Número(s) IVA asignados en España y/o en otros Estados miembros (1). (Numéro(s) d’identification à la TVA attribué(s) le cas échéant par les États membres / VAT numbers assigned by the Member states)"
+      ],
+      "source_anchor": "Número(s) IVA asignados en España y/o en otros Estados miembros (1). (Numéro(s) d’identification à la TVA attribué(s) le cas échéant par les États membres / VAT numbers assigned by the Member states)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No asignado"
+    },
+    {
+      "id": "f012",
+      "label": "Número(s) IVA asignados en España y/o en otros Estados miembros (1). (Numéro(s) d’identification à la TVA attribué(s) le cas échéant par les États membres / VAT numbers assigned by the Member states)",
+      "path": [
+        "Página 1",
+        "IVA / Fila 4",
+        "Número(s) IVA asignados en España y/o en otros Estados miembros (1). (Numéro(s) d’identification à la TVA attribué(s) le cas échéant par les États membres / VAT numbers assigned by the Member states)"
+      ],
+      "source_anchor": "Número(s) IVA asignados en España y/o en otros Estados miembros (1). (Numéro(s) d’identification à la TVA attribué(s) le cas échéant par les États membres / VAT numbers assigned by the Member states)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No asignado"
+    },
+    {
+      "id": "f013",
+      "label": "Número(s) IVA asignados en España y/o en otros Estados miembros (1). (Numéro(s) d’identification à la TVA attribué(s) le cas échéant par les États membres / VAT numbers assigned by the Member states)",
+      "path": [
+        "Página 1",
+        "IVA / Fila 5",
+        "Número(s) IVA asignados en España y/o en otros Estados miembros (1). (Numéro(s) d’identification à la TVA attribué(s) le cas échéant par les États membres / VAT numbers assigned by the Member states)"
+      ],
+      "source_anchor": "Número(s) IVA asignados en España y/o en otros Estados miembros (1). (Numéro(s) d’identification à la TVA attribué(s) le cas échéant par les États membres / VAT numbers assigned by the Member states)",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No asignado"
+    },
+    {
+      "id": "f014",
+      "label": "Número de identificación único asignado por las autoridades de tercer país",
+      "path": [
+        "Página 2",
+        "Identificación aduanera",
+        "Número de identificación único asignado por las autoridades de tercer país"
+      ],
+      "source_anchor": "Número de identificación único asignado por las autoridades de tercer país",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "CUIT SINTÉTICO 30-71828828-0"
+    },
+    {
+      "id": "f015",
+      "label": "Nombre de la persona de contacto: (Nom de la personne à contacter/Name of the contact person)",
+      "path": [
+        "Página 2",
+        "Contacto",
+        "Nombre de la persona de contacto: (Nom de la personne à contacter/Name of the contact person)"
+      ],
+      "source_anchor": "Nombre de la persona de contacto: (Nom de la personne à contacter/Name of the contact person)",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "MARTINA SOLER"
+    },
+    {
+      "id": "f016",
+      "label": "Calle y número: (Rue et nº/Street and number)",
+      "path": [
+        "Página 2",
+        "Contacto",
+        "Calle y número: (Rue et nº/Street and number)"
+      ],
+      "source_anchor": "Calle y número: (Rue et nº/Street and number)",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "CALLE LAPRIDA 828"
+    },
+    {
+      "id": "f017",
+      "label": "Código Postal: (Code postal/Postal code)",
+      "path": [
+        "Página 2",
+        "Contacto",
+        "Código Postal: (Code postal/Postal code)"
+      ],
+      "source_anchor": "Código Postal: (Code postal/Postal code)",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "2000"
+    },
+    {
+      "id": "f018",
+      "label": "Ciudad: (Ville/City)",
+      "path": [
+        "Página 2",
+        "Contacto",
+        "Ciudad: (Ville/City)"
+      ],
+      "source_anchor": "Ciudad: (Ville/City)",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "ROSARIO"
+    },
+    {
+      "id": "f019",
+      "label": "País: (Pays/Country)",
+      "path": [
+        "Página 2",
+        "Contacto",
+        "País: (Pays/Country)"
+      ],
+      "source_anchor": "País: (Pays/Country)",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "ARGENTINA"
+    },
+    {
+      "id": "f020",
+      "label": "Teléfono (tel.):",
+      "path": [
+        "Página 2",
+        "Contacto",
+        "Teléfono (tel.):"
+      ],
+      "source_anchor": "Teléfono (tel.):",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "+54 3410000828"
+    },
+    {
+      "id": "f021",
+      "label": "Fax:",
+      "path": [
+        "Página 2",
+        "Contacto",
+        "Fax:"
+      ],
+      "source_anchor": "Fax:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No dispone"
+    },
+    {
+      "id": "f022",
+      "label": "e-Mail:",
+      "path": [
+        "Página 2",
+        "Contacto",
+        "e-Mail:"
+      ],
+      "source_anchor": "e-Mail:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "aduanas828@example.org"
+    },
+    {
+      "id": "f023",
+      "label": "NIF del representante a efectos de notificaciones:",
+      "path": [
+        "Página 2",
+        "Representante",
+        "NIF del representante a efectos de notificaciones:"
+      ],
+      "source_anchor": "NIF del representante a efectos de notificaciones:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "12345678Z"
+    },
+    {
+      "id": "f024",
+      "label": "Nombre del representante a efectos de notificaciones:",
+      "path": [
+        "Página 2",
+        "Representante",
+        "Nombre del representante a efectos de notificaciones:"
+      ],
+      "source_anchor": "Nombre del representante a efectos de notificaciones:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "NURIA CAMPOS VIDAL"
+    },
+    {
+      "id": "f025",
+      "label": "Calle y número: (Rue et nº/Street and number)",
+      "path": [
+        "Página 2",
+        "Representante",
+        "Calle y número: (Rue et nº/Street and number)"
+      ],
+      "source_anchor": "Calle y número: (Rue et nº/Street and number)",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "CALLE DEL PINO 18"
+    },
+    {
+      "id": "f026",
+      "label": "Código Postal: (Code postal/Postal code)",
+      "path": [
+        "Página 2",
+        "Representante",
+        "Código Postal: (Code postal/Postal code)"
+      ],
+      "source_anchor": "Código Postal: (Code postal/Postal code)",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "46001"
+    },
+    {
+      "id": "f027",
+      "label": "Ciudad: (Ville/City)",
+      "path": [
+        "Página 2",
+        "Representante",
+        "Ciudad: (Ville/City)"
+      ],
+      "source_anchor": "Ciudad: (Ville/City)",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "VALENCIA"
+    },
+    {
+      "id": "f028",
+      "label": "Teléfono (tel.):",
+      "path": [
+        "Página 2",
+        "Representante",
+        "Teléfono (tel.):"
+      ],
+      "source_anchor": "Teléfono (tel.):",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "600000828"
+    },
+    {
+      "id": "f029",
+      "label": "Fax:",
+      "path": [
+        "Página 2",
+        "Representante",
+        "Fax:"
+      ],
+      "source_anchor": "Fax:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "No dispone"
+    },
+    {
+      "id": "f030",
+      "label": "Mail:",
+      "path": [
+        "Página 2",
+        "Representante",
+        "Mail:"
+      ],
+      "source_anchor": "Mail:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "nuria.campos@example.org"
+    },
+    {
+      "id": "f031",
+      "label": "El firmante autoriza a la administración aduanera española",
+      "path": [
+        "Página 2",
+        "Publicidad de datos",
+        "El firmante autoriza a la administración aduanera española"
+      ],
+      "source_anchor": "El firmante autoriza a la administración aduanera española",
+      "source_page": 2,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "No"
+      ],
+      "options": [
+        "SÍ",
+        "No"
+      ],
+      "context_evidence": "Publicidad de datos / El firmante autoriza a la administración aduanera española: No."
+    },
+    {
+      "id": "f032",
+      "label": "Nombre y cargo de la persona que firma la solicitud: (Nom et qualité de le signataire/Name and capacity of the signatory)",
+      "path": [
+        "Página 2",
+        "Firma",
+        "Nombre y cargo de la persona que firma la solicitud: (Nom et qualité de le signataire/Name and capacity of the signatory)"
+      ],
+      "source_anchor": "Nombre y cargo de la persona que firma la solicitud: (Nom et qualité de le signataire/Name and capacity of the signatory)",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "MARTINA SOLER, REPRESENTANTE LEGAL"
+    },
+    {
+      "id": "f033",
+      "label": "Fecha (Date)",
+      "path": [
+        "Página 2",
+        "Firma",
+        "Fecha (Date)"
+      ],
+      "source_anchor": "Fecha (Date)",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "22/10/2026"
+    },
+    {
+      "id": "f034",
+      "label": "Firma (Signature)",
+      "path": [
+        "Página 2",
+        "Firma",
+        "Firma (Signature)"
+      ],
+      "source_anchor": "Firma (Signature)",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de MARTINA SOLER"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Departamento de Aduanas e Impuestos Especiales SOLICITUD DE NÚMERO EORI PARA NO ESTABLECIDOS EN LA UE PARA PRESENTAR UNA DECLARACIÓN SUMARIA DE ENTRADA O DE SALIDA o SOLICITUD DEL REGLAMENTO (UE) No 608/2013 FORMULAIRE DE DEMANDE DE No EORI POUR UNE PERSONNE NON ÉTABLIE DANS LA EU POUR DÉPOSER UNE DÉCLARATION SOMMAIRE DE SORTIE AU D’ENTRÉE AU DEMANDÉ DEMANDE DU RÈGLEMENT (UE) N ° 608/2013 APPLICATION FOR AN EORI NUMBER FOR OPERATORS NOT ESTABLISHED IN THE EU FOR LODGING AN EXIT OR ENTRY SUMMARY DECLARATION or APPLICATION FORM UNDER REGULATION (EU) No 608/2013",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "(*) Nombre completo del solicitante: (Nom/Name)",
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(*) Tipo de persona:",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(Marcar la casilla que corresponda/ Veuillez cocher la case correcte/ Mark the correct box)",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Fecha de constitución o fecha de nacimiento (1) (Date de creatión/naissance/Date of establishment)",
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(*) Motivo de la solicitud del EORI:",
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(Reason of the EORI application/ raison de la demande de No EORI)",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Dirección de establecimiento/dirección de residencia: (Adresse de constitution/adresse de résidence/ Address of establishment/address of residence)",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "(*) Calle y número: (Rue et nº/Street and number)",
+        "field": "f005",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(*) Código Postal (Code postal/Postal code)",
+        "field": "f006",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(*) Ciudad (Ville/City)",
+        "field": "f007",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(*) País (Pays/Country)",
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Establecimiento en el territorio de la Unión: (Établissement sur le territoire douanier de l’Union/Establishment in the customs territory of the Union) NO",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Número(s) IVA asignados en España y/o en otros Estados miembros (1). (Numéro(s) d’identification à la TVA attribué(s) le cas échéant par les États membres / VAT numbers assigned by the Member states)",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Número(s) IVA asignados en España y/o en otros Estados miembros (1). (Numéro(s) d’identification à la TVA attribué(s) le cas échéant par les États membres / VAT numbers assigned by the Member states)",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Número(s) IVA asignados en España y/o en otros Estados miembros (1). (Numéro(s) d’identification à la TVA attribué(s) le cas échéant par les États membres / VAT numbers assigned by the Member states)",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Número(s) IVA asignados en España y/o en otros Estados miembros (1). (Numéro(s) d’identification à la TVA attribué(s) le cas échéant par les États membres / VAT numbers assigned by the Member states)",
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Número(s) IVA asignados en España y/o en otros Estados miembros (1). (Numéro(s) d’identification à la TVA attribué(s) le cas échéant par les États membres / VAT numbers assigned by the Member states)",
+        "field": "f013",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "1 de 2",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Número de identificación único asignado por las autoridades de tercer país",
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "(Numéro d’identification attribué à la personne concernée à des fins douanières par les autorités compétentes d’un pays tiers / Identification number assigned for customs purposes by the competent authorities of third country)",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Información de contacto (1) (Informations de contact/Contact information)",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Nombre de la persona de contacto: (Nom de la personne à contacter/Name of the contact person)",
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Calle y número: (Rue et nº/Street and number)",
+        "field": "f016",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Código Postal: (Code postal/Postal code)",
+        "field": "f017",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Ciudad: (Ville/City)",
+        "field": "f018",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "País: (Pays/Country)",
+        "field": "f019",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Teléfono (tel.):",
+        "field": "f020",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Fax:",
+        "field": "f021",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "e-Mail:",
+        "field": "f022",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Representante a efectos de notificaciones(1) (Représentant aux effets de notifications/Representative for notification purposes)",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "NIF del representante a efectos de notificaciones:",
+        "field": "f023",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Nombre del representante a efectos de notificaciones:",
+        "field": "f024",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Calle y número: (Rue et nº/Street and number)",
+        "field": "f025",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Código Postal: (Code postal/Postal code)",
+        "field": "f026",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Ciudad: (Ville/City)",
+        "field": "f027",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "(Numéro d’identification espagnol du représentant/Spanish identification number of the representative for notification )",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "(Nom du représentant/ Name of the representative for notification )",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "País: ES",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Teléfono (tel.):",
+        "field": "f028",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Fax:",
+        "field": "f029",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Mail:",
+        "field": "f030",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "El firmante autoriza a la administración aduanera española a remitir los datos anteriores marcados con (*) a la Comisión Europea para su publicación en un sitio web público por la Comisión Europea, de acuerdo con lo establecido en el artículo 3 y anexo 12-01 del REGLAMENTO DELEGADO (UE) 2015/2446. (Le signataire autorise l’Administration douanière espagnole à communiquer les données marqueés avec (*) à la Commission Européenne, en vue de la publication desdites données sur le site web EORI de TAXUD (site publique), en application de l’article 3 et ANNEXE 12-01 des RÈGLEMENT DÉLÉGUÉ (UE) 2015/2446 DE LA COMMISSION). / The signatory authorized Spanish customs administration to communicate previous data indicated with (*) to the European Commission in order to be disclosed in the EORI website (public site) in accordance with article 3 and annex 12-01 COMMISSION DELEGATED REGULATION (EU) 2015/2446).",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "El firmante autoriza a la administración aduanera española",
+        "field": "f031",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "El firmante manifiesta que no ha obtenido ningún número EORI en otro Estado miembro. (Le susvisé certifie n’être pas encore immatriculé en qualité d’EORI dans un autre Etat membre / The applicant certifies that it has not been previously registered in EORI in other Member State). El firmante se compromete a comunicar cualquier cambio que se produzca en los datos indicados anteriormente. (Le susvisé s’engage à notifier toute modification des données de la présente à l’Administration douanière espagnole./ The applicant assumes the obligation to communicate to Spanish customs administration any change in the data declared in this form).",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Nombre y cargo de la persona que firma la solicitud: (Nom et qualité de le signataire/Name and capacity of the signatory)",
+        "field": "f032",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Fecha (Date)",
+        "field": "f033",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Firma (Signature)",
+        "field": "f034",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "(1) Dato no obligatorio/ Si disponible/If available.",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "2 de 2",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "3 de 2 Este formulario de solicitud de número EORI puede presentarse en cualquier Dependencia de Aduanas e Impuestos Especiales y debe ir acompañado de una copia del pasaporte, para personas físicas, o de un documento oficial (original o copia certificada) expedido por el Registro Mercantil, la Cámara Comercio u organismo/autoridad similar del país donde esté establecido el solicitante, que incluya los datos indicados en el formulario y que tenga con una vigencia inferior a 6 meses para personas jurídicas. (Ce formulaire de demande est à présenter dans une administration douanière, accompagné d ́une copie du passeport, pour les personnes physiques,ou de un document officiel (original ou copie certifiée), délivré par le Bureau d’Enregistrement mercantile, la Chambre de Commerce ou un organisme/autorité similaire du pays où le demandeur a son siège, devant inclure les données indiqueés et dont la validité n’excéde pas de six mois./ This application form may be submitted to any customs office and the applicant must also enclose a copy of the passport for natural persons or a document of the trade register of the Chamber of Commerce with this application form. This is an original or certified copy of an official document displaying identification data that has been issued by the trade register authorities or a Chamber of Commerce in the third country. The document may not be older than six months).",
+        "source_page": 3,
+        "colspan": 2,
+        "heading": false
+      }
+    ]
+  ],
+  "context": "CASO ENTERAMENTE FICTICIO, creado para completar este formulario. Personas, bienes, firmas y referencias administrativas son sintéticos y no corresponden a actuaciones reales.\nPágina 1 / Solicitante / (*) Nombre completo del solicitante: (Nom/Name): COMERCIO DEL LITORAL SINTÉTICO SA\nPágina 1 / Solicitante / (*) Tipo de persona:: Solicitante / (*) Tipo de persona:: Persona jurídica (Personne morale/ Legal person).\nPágina 1 / Solicitante / Fecha de constitución o fecha de nacimiento (1) (Date de creatión/naissance/Date of establishment): 14/03/2010\nPágina 1 / Motivo / (*) Motivo de la solicitud del EORI:: Motivo / (*) Motivo de la solicitud del EORI:: ENS/EXS en España.\nPágina 1 / Domicilio / (*) Calle y número: (Rue et nº/Street and number): CALLE LAPRIDA 828\nPágina 1 / Domicilio / (*) Código Postal (Code postal/Postal code): 2000\nPágina 1 / Domicilio / (*) Ciudad (Ville/City): ROSARIO\nPágina 1 / Domicilio / (*) País (Pays/Country): ARGENTINA\nPágina 1 / IVA / Fila 1 / Número(s) IVA asignados en España y/o en otros Estados miembros (1). (Numéro(s) d’identification à la TVA attribué(s) le cas échéant par les États membres / VAT numbers assigned by the Member states): No asignado\nPágina 1 / IVA / Fila 2 / Número(s) IVA asignados en España y/o en otros Estados miembros (1). (Numéro(s) d’identification à la TVA attribué(s) le cas échéant par les États membres / VAT numbers assigned by the Member states): No asignado\nPágina 1 / IVA / Fila 3 / Número(s) IVA asignados en España y/o en otros Estados miembros (1). (Numéro(s) d’identification à la TVA attribué(s) le cas échéant par les États membres / VAT numbers assigned by the Member states): No asignado\nPágina 1 / IVA / Fila 4 / Número(s) IVA asignados en España y/o en otros Estados miembros (1). (Numéro(s) d’identification à la TVA attribué(s) le cas échéant par les États membres / VAT numbers assigned by the Member states): No asignado\nPágina 1 / IVA / Fila 5 / Número(s) IVA asignados en España y/o en otros Estados miembros (1). (Numéro(s) d’identification à la TVA attribué(s) le cas échéant par les États membres / VAT numbers assigned by the Member states): No asignado\nPágina 2 / Identificación aduanera / Número de identificación único asignado por las autoridades de tercer país: CUIT SINTÉTICO 30-71828828-0\nPágina 2 / Contacto / Nombre de la persona de contacto: (Nom de la personne à contacter/Name of the contact person): MARTINA SOLER\nPágina 2 / Contacto / Calle y número: (Rue et nº/Street and number): CALLE LAPRIDA 828\nPágina 2 / Contacto / Código Postal: (Code postal/Postal code): 2000\nPágina 2 / Contacto / Ciudad: (Ville/City): ROSARIO\nPágina 2 / Contacto / País: (Pays/Country): ARGENTINA\nPágina 2 / Contacto / Teléfono (tel.):: +54 3410000828\nPágina 2 / Contacto / Fax:: No dispone\nPágina 2 / Contacto / e-Mail:: aduanas828@example.org\nPágina 2 / Representante / NIF del representante a efectos de notificaciones:: 12345678Z\nPágina 2 / Representante / Nombre del representante a efectos de notificaciones:: NURIA CAMPOS VIDAL\nPágina 2 / Representante / Calle y número: (Rue et nº/Street and number): CALLE DEL PINO 18\nPágina 2 / Representante / Código Postal: (Code postal/Postal code): 46001\nPágina 2 / Representante / Ciudad: (Ville/City): VALENCIA\nPágina 2 / Representante / Teléfono (tel.):: 600000828\nPágina 2 / Representante / Fax:: No dispone\nPágina 2 / Representante / Mail:: nuria.campos@example.org\nPágina 2 / Publicidad de datos / El firmante autoriza a la administración aduanera española: Publicidad de datos / El firmante autoriza a la administración aduanera española: No.\nPágina 2 / Firma / Nombre y cargo de la persona que firma la solicitud: (Nom et qualité de le signataire/Name and capacity of the signatory): MARTINA SOLER, REPRESENTANTE LEGAL\nPágina 2 / Firma / Fecha (Date): 22/10/2026\nPágina 2 / Firma / Firma (Signature): Firma sintética de MARTINA SOLER",
+  "workflow_identity": {
+    "language": "es",
+    "id": 828
+  }
+}

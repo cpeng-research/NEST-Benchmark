@@ -1,0 +1,438 @@
+{
+  "id": "fr-818-inami-formulaire-medecins-demande-numero-inami-code-competence-000",
+  "language": "fr",
+  "title": "Demande d’un numéro INAMI de médecin avec code compétence -000",
+  "domain": "Healthcare",
+  "issuer": "Institut national d’assurance maladie-invalidité (INAMI)",
+  "issuer_id": "INAMI",
+  "template_family": "inami-formulaire-medecins-demande-numero-inami-code-competence-000",
+  "source_url": "https://www.inami.fgov.be/SiteCollectionDocuments/formulaire_medecins_demande_numero_INAMI_code_competence_000.pdf",
+  "landing_url": "https://www.inami.fgov.be/fr/professionnels/professionnels-de-la-sante/medecins/formulaires-pour-les-medecins",
+  "license_url": "https://www.inami.fgov.be/fr/disclaimer",
+  "license_note": "Selon les conditions Copyrights de l’INAMI : informations libres de droit sauf mention contraire, utilisables gratuitement moyennant mention de la source. Seuls le texte fonctionnel et les contrôles du formulaire sont normalisés ; informations multimédias, logos et éléments graphiques exclus.",
+  "source_sha256": "389542adcd2feb45aa1501441a69292124b5bbbbad37cd6e7534ded2cf46a7f4",
+  "source_pages": 2,
+  "source_version": "Édition et date non imprimées",
+  "source_date_evidence": {
+    "kind": "edition not stated",
+    "value": "Édition et date non imprimées"
+  },
+  "retrieved_at": "2026-10-25T02:06:07.492819+00:00",
+  "columns": 6,
+  "fields": [
+    {
+      "id": "f0001",
+      "label": "Votre nom:",
+      "path": [
+        "Page 1",
+        "Vos données",
+        "Votre nom:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Votre nom:",
+      "kind": "text",
+      "synthetic_value": "DURAND",
+      "source_label_rects": [
+        [
+          46.68000030517578,
+          335.45001220703125,
+          98.71104431152344,
+          346.4900207519531
+        ]
+      ]
+    },
+    {
+      "id": "f0002",
+      "label": "Votre prénom:",
+      "path": [
+        "Page 1",
+        "Vos données",
+        "Votre prénom:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Votre prénom:",
+      "kind": "text",
+      "synthetic_value": "Sophie",
+      "source_label_rects": [
+        [
+          46.68000030517578,
+          372.6499938964844,
+          114.0670394897461,
+          383.69000244140625
+        ]
+      ]
+    },
+    {
+      "id": "f0003",
+      "label": "Votre numéro de registre national :",
+      "path": [
+        "Page 1",
+        "Vos données",
+        "Votre numéro de registre national :"
+      ],
+      "source_page": 1,
+      "source_anchor": "Votre numéro de registre national :",
+      "kind": "text",
+      "synthetic_value": "90.03.15-802-77",
+      "source_label_rects": [
+        [
+          46.68000030517578,
+          408.1700134277344,
+          208.1510772705078,
+          419.21002197265625
+        ]
+      ]
+    },
+    {
+      "id": "f0004",
+      "label": "Votre numéro d’inscription auprès de l’Ordre des médecins:",
+      "path": [
+        "Page 1",
+        "Vos données",
+        "Votre numéro d’inscription auprès de l’Ordre des médecins:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Votre numéro d’inscription auprès de l’Ordre des médecins:",
+      "kind": "text",
+      "synthetic_value": "ORDRE-FICTIF818",
+      "source_label_rects": [
+        [
+          46.68000030517578,
+          486.07000732421875,
+          220.6041717529297,
+          497.1100158691406
+        ],
+        [
+          46.68000030517578,
+          499.510009765625,
+          146.3601837158203,
+          510.5500183105469
+        ]
+      ]
+    },
+    {
+      "id": "f0005",
+      "label": "Date d’inscription :",
+      "path": [
+        "Page 1",
+        "Vos données",
+        "Date d’inscription :"
+      ],
+      "source_page": 1,
+      "source_anchor": "Date d’inscription :",
+      "kind": "text",
+      "synthetic_value": "01/10/2026",
+      "source_label_rects": [
+        [
+          46.68000030517578,
+          512.949951171875,
+          133.74703979492188,
+          523.989990234375
+        ]
+      ]
+    },
+    {
+      "id": "f0006",
+      "label": "Votre adresse email :",
+      "path": [
+        "Page 1",
+        "Vos données",
+        "Votre adresse email :"
+      ],
+      "source_page": 1,
+      "source_anchor": "Votre adresse email :",
+      "kind": "text",
+      "synthetic_value": "sophie818@example.org",
+      "source_label_rects": [
+        [
+          46.68000030517578,
+          540.7899780273438,
+          143.36834716796875,
+          551.8300170898438
+        ]
+      ]
+    },
+    {
+      "id": "f0007",
+      "label": "Rue, n°, Bte:",
+      "path": [
+        "Page 1",
+        "Vos données",
+        "Rue, n°, Bte:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Rue, n°, Bte:",
+      "kind": "text",
+      "synthetic_value": "Rue de l’Exemple 10",
+      "source_label_rects": [
+        [
+          258.5400085449219,
+          584.2080078125,
+          313.993896484375,
+          595.248046875
+        ]
+      ]
+    },
+    {
+      "id": "f0008",
+      "label": "Code postal, localité:",
+      "path": [
+        "Page 1",
+        "Vos données",
+        "Code postal, localité:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Code postal, localité:",
+      "kind": "text",
+      "synthetic_value": "1000 Bruxelles",
+      "source_label_rects": [
+        [
+          258.5400085449219,
+          639.2489624023438,
+          351.99871826171875,
+          650.2890014648438
+        ]
+      ]
+    },
+    {
+      "id": "f0009",
+      "label": "Nom :",
+      "path": [
+        "Page 1",
+        "Vos données",
+        "Nom :"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nom :",
+      "kind": "text",
+      "synthetic_value": "Cabinet médical Exemple",
+      "source_label_rects": [
+        [
+          258.5400085449219,
+          666.0050048828125,
+          285.73870849609375,
+          677.0450439453125
+        ]
+      ]
+    },
+    {
+      "id": "f0010",
+      "label": "Date:",
+      "path": [
+        "Page 2",
+        "Votre déclaration:",
+        "Date:"
+      ],
+      "source_page": 2,
+      "source_anchor": "Date:",
+      "kind": "text",
+      "synthetic_value": "25/10/2026",
+      "source_label_rects": [
+        [
+          46.68000030517578,
+          144.13998413085938,
+          70.90271759033203,
+          155.1799774169922
+        ]
+      ]
+    },
+    {
+      "id": "f0011",
+      "label": "Signature:",
+      "path": [
+        "Page 2",
+        "Votre déclaration:",
+        "Signature:"
+      ],
+      "source_page": 2,
+      "source_anchor": "Signature:",
+      "kind": "text",
+      "synthetic_value": "Sophie DURAND, signature fictive",
+      "source_label_rects": [
+        [
+          46.68000030517578,
+          167.42001342773438,
+          92.2627182006836,
+          178.4600067138672
+        ]
+      ]
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Demande d’un numéro INAMI en tant que médecin avec code compétence -000",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Conditions d’inscription",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Vous avez reçu un visa du SPF Santé publique. Vous êtes inscrit auprès de l’Ordre des médecins (joindre le document d’inscription de l’ordre à ce formulaire).",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Vos données",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Votre nom:",
+        "field": "f0001",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Votre prénom:",
+        "field": "f0002",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "Votre numéro de registre national :",
+        "field": "f0003",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Vous trouverez ce numéro de 11 chiffres sur votre carte d’identité, les 6 premiers chiffres représentent votre date de naissance. Vous n’êtes pas inscrit au registre national ? Veuillez mentionner votre n° bis.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Votre numéro d’inscription auprès de l’Ordre des médecins:",
+        "field": "f0004",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Date d’inscription :",
+        "field": "f0005",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "Votre adresse email :",
+        "field": "f0006",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Adresse email à laquelle nous pouvons vous contacter. Votre adresse de contact : Adresse à laquelle nous pouvons vous contacter : adresse impérativement en Belgique + le cas échéant, le nom de l’établissement situé à cette adresse si vous travaillez dans cet établissement.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Rue, n°, Bte:",
+        "field": "f0007",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Code postal, localité:",
+        "field": "f0008",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "Nom :",
+        "field": "f0009",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Veuillez remplir également le verso de ce formulaire et le signer.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Votre déclaration:",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "En signant ce formulaire d’inscription, vous déclarez que les données complétées sont correctes et que vous remplissez les conditions d’inscription du point I. ",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Date:",
+        "field": "f0010",
+        "source_page": 2,
+        "colspan": 3
+      },
+      {
+        "label": "Signature:",
+        "field": "f0011",
+        "source_page": 2,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "À signer électroniquement ou imprimer, signer et scanner. IV. Comment nous transmettre la demande? De préférence par email (document numérisé) : Ou Par courrier postal: medecins-dentistes@riziv-inami.fgov.be INAMI, Service des soins de santé, Team médecins Avenue de Galilée, 5/01 1210 BRUXELLES Vous trouverez plus d’informations sur l’exercice de votre profession sur note site www.inami.be > Professionnels > Médecins SIGN",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Source : Institut national d’assurance maladie-invalidité (INAMI) ; https://www.inami.fgov.be/SiteCollectionDocuments/formulaire_medecins_demande_numero_INAMI_code_competence_000.pdf ; Édition et date non imprimées ; consultation 2026-10-25T02:06:07.492819+00:00. Texte normalisé ; données remplies et signatures fictives.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 2
+      }
+    ]
+  ],
+  "synthetic_context": true,
+  "source_notice": "Complete source packet normalized in source order, including conditional controls, repeated sections, attestations and notices. Fictional completions; no real application or declaration. Digit boxes belonging to one logical datum are coalesced.",
+  "context": "Scénario entièrement fictif. Personnes, établissements, coordonnées, identifiants, signatures et décisions synthétiques. Aucune transmission administrative ni situation clinique réelle. Les champs conditionnels sans objet sont conservés.\nPage 1 / Vos données / Votre nom: : DURAND\nPage 1 / Vos données / Votre prénom: : Sophie\nPage 1 / Vos données / Votre numéro de registre national : : 90.03.15-802-77\nPage 1 / Vos données / Votre numéro d’inscription auprès de l’Ordre des médecins: : ORDRE-FICTIF818\nPage 1 / Vos données / Date d’inscription : : 01/10/2026\nPage 1 / Vos données / Votre adresse email : : sophie818@example.org\nPage 1 / Vos données / Rue, n°, Bte: : Rue de l’Exemple 10\nPage 1 / Vos données / Code postal, localité: : 1000 Bruxelles\nPage 1 / Vos données / Nom : : Cabinet médical Exemple\nPage 2 / Votre déclaration: / Date: : 25/10/2026\nPage 2 / Votre déclaration: / Signature: : Sophie DURAND, signature fictive",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 818
+  }
+}

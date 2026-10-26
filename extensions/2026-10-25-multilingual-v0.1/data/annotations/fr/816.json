@@ -1,0 +1,832 @@
+{
+  "id": "fr-816-inami-formulaire-certificat-incapacite-travail",
+  "language": "fr",
+  "title": "Certificat d’incapacité de travail d’un assuré étranger en Belgique",
+  "domain": "Healthcare",
+  "issuer": "Institut national d’assurance maladie-invalidité (INAMI)",
+  "issuer_id": "INAMI",
+  "template_family": "inami-formulaire-certificat-incapacite-travail",
+  "source_url": "https://www.inami.fgov.be/SiteCollectionDocuments/formulaire_certificat_incapacite_travail.pdf",
+  "landing_url": "https://www.inami.fgov.be/fr/professionnels/professionnels-de-la-sante/medecins/formulaires-pour-les-medecins",
+  "license_url": "https://www.inami.fgov.be/fr/disclaimer",
+  "license_note": "Selon les conditions Copyrights de l’INAMI : informations libres de droit sauf mention contraire, utilisables gratuitement moyennant mention de la source. Seuls le texte fonctionnel et les contrôles du formulaire sont normalisés ; informations multimédias, logos et éléments graphiques exclus.",
+  "source_sha256": "2ec993e2037ca4f58e08e5662af532106b781ea73da6d9f4280c2ebd3114a164",
+  "source_pages": 2,
+  "source_version": "Édition et date non imprimées",
+  "source_date_evidence": {
+    "kind": "edition not stated",
+    "value": "Édition et date non imprimées"
+  },
+  "retrieved_at": "2026-10-25T02:05:59.493942+00:00",
+  "columns": 6,
+  "fields": [
+    {
+      "id": "f0001",
+      "label": "Nom et prénoms :",
+      "path": [
+        "Page 1",
+        "À remplir par l’assuré étranger",
+        "Nom et prénoms :"
+      ],
+      "source_page": 1,
+      "source_anchor": "Nom et prénoms :",
+      "kind": "text",
+      "synthetic_value": "Alice MARTIN",
+      "source_label_rects": [
+        [
+          69.44709777832031,
+          262.217041015625,
+          141.8160858154297,
+          272.7110290527344
+        ]
+      ]
+    },
+    {
+      "id": "f0002",
+      "label": "Date de naissance",
+      "path": [
+        "Page 1",
+        "À remplir par l’assuré étranger",
+        "Date de naissance"
+      ],
+      "source_page": 1,
+      "source_anchor": "Date de naissance",
+      "kind": "text",
+      "synthetic_value": "15/03/1990",
+      "source_label_rects": [
+        [
+          69.44709777832031,
+          279.30804443359375,
+          143.7960968017578,
+          289.8020324707031
+        ]
+      ]
+    },
+    {
+      "id": "f0003",
+      "label": "Sexe :",
+      "path": [
+        "Page 1",
+        "À remplir par l’assuré étranger",
+        "Sexe :"
+      ],
+      "source_page": 1,
+      "source_anchor": "Sexe :",
+      "kind": "checkbox_single",
+      "synthetic_value": "F",
+      "source_label_rects": [
+        [
+          69.44709777832031,
+          296.3990478515625,
+          94.61109924316406,
+          306.8930358886719
+        ]
+      ],
+      "options": [
+        "M",
+        "F"
+      ],
+      "context_evidence": "Page 1 / À remplir par l’assuré étranger / Sexe : : F"
+    },
+    {
+      "id": "f0004",
+      "label": "Pays où vous êtes assuré social",
+      "path": [
+        "Page 1",
+        "À remplir par l’assuré étranger",
+        "Pays où vous êtes assuré social"
+      ],
+      "source_page": 1,
+      "source_anchor": "Pays où vous êtes assuré social",
+      "kind": "text",
+      "synthetic_value": "France",
+      "source_label_rects": [
+        [
+          69.44550323486328,
+          313.48382568359375,
+          197.7944793701172,
+          323.9778137207031
+        ]
+      ]
+    },
+    {
+      "id": "f0005",
+      "label": "Numéro d’inscription auprès de l’institution étrangère",
+      "path": [
+        "Page 1",
+        "À remplir par l’assuré étranger",
+        "Numéro d’inscription auprès de l’institution étrangère"
+      ],
+      "source_page": 1,
+      "source_anchor": "Numéro d’inscription auprès de l’institution étrangère",
+      "kind": "text",
+      "synthetic_value": "AFFILIATION-FICTIVE816",
+      "source_label_rects": [
+        [
+          69.44550323486328,
+          330.5748291015625,
+          282.8355407714844,
+          341.0688171386719
+        ]
+      ]
+    },
+    {
+      "id": "f0006",
+      "label": "Résidence principale",
+      "path": [
+        "Page 1",
+        "À remplir par l’assuré étranger",
+        "Résidence principale"
+      ],
+      "source_page": 1,
+      "source_anchor": "Résidence principale",
+      "kind": "text",
+      "synthetic_value": "8 rue de l’Exemple, 59000 Lille, France",
+      "source_label_rects": [
+        [
+          69.44549560546875,
+          347.66583251953125,
+          153.45147705078125,
+          358.1598205566406
+        ]
+      ]
+    },
+    {
+      "id": "f0007",
+      "label": "Adresse à laquelle le titulaire se tient à la disposition du contrôle",
+      "path": [
+        "Page 1",
+        "À remplir par l’assuré étranger",
+        "Adresse à laquelle le titulaire se tient à la disposition du contrôle"
+      ],
+      "source_page": 1,
+      "source_anchor": "Adresse à laquelle le titulaire se tient à la disposition du contrôle",
+      "kind": "text",
+      "synthetic_value": "Rue de l’Exemple 8, 1000 Bruxelles, Belgique",
+      "source_label_rects": [
+        [
+          69.44549560546875,
+          364.7568359375,
+          326.6564636230469,
+          375.2508239746094
+        ]
+      ]
+    },
+    {
+      "id": "f0008",
+      "label": "le début de cette incapacité",
+      "path": [
+        "Page 1",
+        "À remplir par l’assuré étranger",
+        "le début de cette incapacité"
+      ],
+      "source_page": 1,
+      "source_anchor": "le début de cette incapacité",
+      "kind": "checkbox_single",
+      "synthetic_value": "OUI",
+      "source_label_rects": [
+        [
+          171.4425048828125,
+          398.9388427734375,
+          283.3035583496094,
+          409.4328308105469
+        ]
+      ],
+      "options": [
+        "OUI",
+        "NON"
+      ],
+      "context_evidence": "Page 1 / À remplir par l’assuré étranger / le début de cette incapacité : OUI"
+    },
+    {
+      "id": "f0009",
+      "label": "une prolongation de cette incapacité",
+      "path": [
+        "Page 1",
+        "À remplir par l’assuré étranger",
+        "une prolongation de cette incapacité"
+      ],
+      "source_page": 1,
+      "source_anchor": "une prolongation de cette incapacité",
+      "kind": "checkbox_single",
+      "synthetic_value": "NON",
+      "source_label_rects": [
+        [
+          171.44512939453125,
+          416.0035095214844,
+          318.4781494140625,
+          426.49749755859375
+        ]
+      ],
+      "options": [
+        "OUI",
+        "NON"
+      ],
+      "context_evidence": "Page 1 / À remplir par l’assuré étranger / une prolongation de cette incapacité : NON"
+    },
+    {
+      "id": "f0010",
+      "label": "Situation professionnelle au moment du début de l’ incapacité de travail:",
+      "path": [
+        "Page 1",
+        "À remplir par l’assuré étranger",
+        "Situation professionnelle au moment du début de l’ incapacité de travail:"
+      ],
+      "source_page": 1,
+      "source_anchor": "Situation professionnelle au moment du début de l’ incapacité de travail:",
+      "kind": "checkbox_single",
+      "synthetic_value": "salarié(e)",
+      "source_label_rects": [
+        [
+          69.4481201171875,
+          433.0901184082031,
+          360.0312194824219,
+          443.5841064453125
+        ]
+      ],
+      "options": [
+        "salarié(e)",
+        "indépendant(e)",
+        "chômeu(r)(se)"
+      ],
+      "context_evidence": "Page 1 / À remplir par l’assuré étranger / Situation professionnelle au moment du début de l’ incapacité de travail: : salarié(e)"
+    },
+    {
+      "id": "f0011",
+      "label": "salarié(e)",
+      "path": [
+        "Page 1",
+        "À remplir par l’assuré étranger",
+        "salarié(e)"
+      ],
+      "source_page": 1,
+      "source_anchor": "salarié(e)",
+      "kind": "text",
+      "synthetic_value": "Bibliothécaire salariée, emploi fictif à Lille",
+      "source_label_rects": [
+        [
+          85.79139709472656,
+          450.17230224609375,
+          121.27840423583984,
+          460.6662902832031
+        ]
+      ]
+    },
+    {
+      "id": "f0012",
+      "label": "indépendant(e)",
+      "path": [
+        "Page 1",
+        "À remplir par l’assuré étranger",
+        "indépendant(e)"
+      ],
+      "source_page": 1,
+      "source_anchor": "indépendant(e)",
+      "kind": "text",
+      "synthetic_value": "Sans objet",
+      "source_label_rects": [
+        [
+          85.79149627685547,
+          467.2589111328125,
+          145.6414794921875,
+          477.7528991699219
+        ]
+      ]
+    },
+    {
+      "id": "f0013",
+      "label": "L’incapacité est en lien avec :",
+      "path": [
+        "Page 1",
+        "À remplir par l’assuré étranger",
+        "L’incapacité est en lien avec :"
+      ],
+      "source_page": 1,
+      "source_anchor": "L’incapacité est en lien avec :",
+      "kind": "checkbox_single",
+      "synthetic_value": "une autre maladie",
+      "source_label_rects": [
+        [
+          69.44749450683594,
+          502.43560791015625,
+          187.47348022460938,
+          512.9296264648438
+        ]
+      ],
+      "options": [
+        "un accident",
+        "une maladie professionnelle",
+        "une autre maladie"
+      ],
+      "context_evidence": "Page 1 / À remplir par l’assuré étranger / L’incapacité est en lien avec : : une autre maladie"
+    },
+    {
+      "id": "f0014",
+      "label": "du",
+      "path": [
+        "Page 1",
+        "SECRET MÉDICAL : à remplir par le médecin traitant",
+        "du"
+      ],
+      "source_page": 1,
+      "source_anchor": "du",
+      "kind": "text",
+      "synthetic_value": "25/10/2026",
+      "source_label_rects": [
+        [
+          216.1380615234375,
+          154.6170654296875,
+          226.47906494140625,
+          165.11105346679688
+        ],
+        [
+          281.1434631347656,
+          364.7568359375,
+          291.4844665527344,
+          375.2508239746094
+        ],
+        [
+          218.65911865234375,
+          433.0901184082031,
+          229.0001220703125,
+          443.5841064453125
+        ],
+        [
+          69.44889831542969,
+          580.786376953125,
+          79.7898941040039,
+          591.2803955078125
+        ],
+        [
+          140.78700256347656,
+          703.82666015625,
+          151.1280059814453,
+          714.3206787109375
+        ],
+        [
+          262.3009338378906,
+          727.9754028320312,
+          272.6419372558594,
+          738.4694213867188
+        ],
+        [
+          128.11990356445312,
+          769.2352905273438,
+          138.46090698242188,
+          779.7293090820312
+        ],
+        [
+          392.46795654296875,
+          769.2352905273438,
+          402.8089599609375,
+          779.7293090820312
+        ]
+      ]
+    },
+    {
+      "id": "f0015",
+      "label": "au",
+      "path": [
+        "Page 1",
+        "SECRET MÉDICAL : à remplir par le médecin traitant",
+        "au"
+      ],
+      "source_page": 1,
+      "source_anchor": "au",
+      "kind": "text",
+      "synthetic_value": "28/10/2026",
+      "source_label_rects": [
+        [
+          194.15960693359375,
+          95.82161712646484,
+          204.66261291503906,
+          106.5586166381836
+        ],
+        [
+          503.4452819824219,
+          143.61907958984375,
+          513.2822875976562,
+          154.11306762695312
+        ],
+        [
+          150.1321258544922,
+          218.1170654296875,
+          159.9691162109375,
+          228.61105346679688
+        ],
+        [
+          155.97149658203125,
+          330.5748291015625,
+          165.80850219726562,
+          341.0688171386719
+        ],
+        [
+          170.62611389160156,
+          433.0901184082031,
+          180.46310424804688,
+          443.5841064453125
+        ],
+        [
+          442.9038391113281,
+          502.4322204589844,
+          452.7408447265625,
+          512.9262084960938
+        ],
+        [
+          183.00839233398438,
+          580.7786254882812,
+          192.84539794921875,
+          591.2726440429688
+        ]
+      ]
+    },
+    {
+      "id": "f0016",
+      "label": "Diagnostic ou symptomatologie, et/ ou troubles fonctionnels",
+      "path": [
+        "Page 1",
+        "SECRET MÉDICAL : à remplir par le médecin traitant",
+        "Diagnostic ou symptomatologie, et/ ou troubles fonctionnels"
+      ],
+      "source_page": 1,
+      "source_anchor": "Diagnostic ou symptomatologie, et/ ou troubles fonctionnels",
+      "kind": "text",
+      "synthetic_value": "Syndrome viral fictif avec fatigue transitoire ; situation documentaire inventée",
+      "source_label_rects": [
+        [
+          69.45301818847656,
+          597.86962890625,
+          311.8410339355469,
+          608.3636474609375
+        ]
+      ]
+    },
+    {
+      "id": "f0017",
+      "label": "ICPC-2",
+      "path": [
+        "Page 1",
+        "SECRET MÉDICAL : à remplir par le médecin traitant",
+        "ICPC-2"
+      ],
+      "source_page": 1,
+      "source_anchor": "ICPC-2",
+      "kind": "text",
+      "synthetic_value": "A77",
+      "source_label_rects": [
+        [
+          307.97113037109375,
+          684.3236083984375,
+          337.6351013183594,
+          694.817626953125
+        ]
+      ]
+    },
+    {
+      "id": "f0018",
+      "label": "ICD-10",
+      "path": [
+        "Page 1",
+        "SECRET MÉDICAL : à remplir par le médecin traitant",
+        "ICD-10"
+      ],
+      "source_page": 1,
+      "source_anchor": "ICD-10",
+      "kind": "text",
+      "synthetic_value": "Sans objet : codage ICPC-2 choisi",
+      "source_label_rects": [
+        [
+          475.4610595703125,
+          684.3236083984375,
+          504.1350402832031,
+          694.817626953125
+        ]
+      ]
+    },
+    {
+      "id": "f0019",
+      "label": "L’ intéressé(e) est ou sera hospitalisé(e) à partir du",
+      "path": [
+        "Page 1",
+        "SECRET MÉDICAL : à remplir par le médecin traitant",
+        "L’ intéressé(e) est ou sera hospitalisé(e) à partir du"
+      ],
+      "source_page": 1,
+      "source_anchor": "L’ intéressé(e) est ou sera hospitalisé(e) à partir du",
+      "kind": "text",
+      "synthetic_value": "Sans objet : absence d’hospitalisation",
+      "source_label_rects": [
+        [
+          69.44889831542969,
+          727.9754028320312,
+          272.6419372558594,
+          738.4694213867188
+        ]
+      ]
+    },
+    {
+      "id": "f0020",
+      "label": "En cas de grossesse, date présumée de l’accouchement:",
+      "path": [
+        "Page 1",
+        "SECRET MÉDICAL : à remplir par le médecin traitant",
+        "En cas de grossesse, date présumée de l’accouchement:"
+      ],
+      "source_page": 1,
+      "source_anchor": "En cas de grossesse, date présumée de l’accouchement:",
+      "kind": "text",
+      "synthetic_value": "Sans objet : absence de grossesse",
+      "source_label_rects": [
+        [
+          69.44889831542969,
+          752.1487426757812,
+          299.6869201660156,
+          762.6427612304688
+        ]
+      ]
+    },
+    {
+      "id": "f0021",
+      "label": "Identifications du médecin avec numéro INAMI",
+      "path": [
+        "Page 1",
+        "SECRET MÉDICAL : à remplir par le médecin traitant",
+        "Identifications du médecin avec numéro INAMI"
+      ],
+      "source_page": 1,
+      "source_anchor": "Identifications du médecin avec numéro INAMI",
+      "kind": "text",
+      "synthetic_value": "Dr Sophie DURAND ; 18010010003 ; Bruxelles",
+      "source_label_rects": [
+        [
+          69.44889831542969,
+          769.2352905273438,
+          257.3329162597656,
+          779.7293090820312
+        ]
+      ]
+    },
+    {
+      "id": "f0022",
+      "label": "Date et signature du médecin",
+      "path": [
+        "Page 1",
+        "SECRET MÉDICAL : à remplir par le médecin traitant",
+        "Date et signature du médecin"
+      ],
+      "source_page": 1,
+      "source_anchor": "Date et signature du médecin",
+      "kind": "text",
+      "synthetic_value": "25/10/2026 ; Sophie DURAND ; signature fictive",
+      "source_label_rects": [
+        [
+          321.44891357421875,
+          769.2352905273438,
+          439.82598876953125,
+          779.7293090820312
+        ]
+      ]
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "CERTIFICAT D’INCAPACITE DE TRAVAIL d’une personne assujettie à la législation d’un Etat autre que la Belgique, en séjour ou résidence en Belgique Information préliminaire pour l’assuré étranger: } } Etes-vous assuré social dans un Etat membre de l’Union européenne, l’Espace économique européen ou la Suisse ? Envoyez alors ce certificat directement à l’institution compétente de cet Etat pour évaluer votre droit aux indemnités d’incapacité de travail (article 27 du Règlement (CE) 987/2009). } } Etes-vous assuré social dans un pays avec lequel la Belgique a conclu une convention bilatérale particulière en matière de déclaration d’incapacité en cas de résidence ou de séjour temporaire en Belgique (Maroc, Tunisie, Algérie, Turquie, Serbie, Monténégro, Macédoine, Bosnie-Herzégovine, Albanie) ? Apportez immédiatement ce certificat complété à une mutualité belge de votre choix. Cette mutualité se chargera d’un contrôle médical supplémentaire et de déclarer votre incapacité auprès de l’institution étrangère. ",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "À remplir par l’assuré étranger",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nom et prénoms :",
+        "field": "f0001",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Date de naissance",
+        "field": "f0002",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "Sexe :",
+        "field": "f0003",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Pays où vous êtes assuré social",
+        "field": "f0004",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Numéro d’inscription auprès de l’institution étrangère",
+        "field": "f0005",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "Résidence principale",
+        "field": "f0006",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Adresse à laquelle le titulaire se tient à la disposition du contrôle",
+        "field": "f0007",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Ce certificat concerne:",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "le début de cette incapacité",
+        "field": "f0008",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "une prolongation de cette incapacité",
+        "field": "f0009",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Situation professionnelle au moment du début de l’ incapacité de travail:",
+        "field": "f0010",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "salarié(e)",
+        "field": "f0011",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "indépendant(e)",
+        "field": "f0012",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "L’incapacité est en lien avec :",
+        "field": "f0013",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "SECRET MÉDICAL : à remplir par le médecin traitant",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Sur base de mon examen clinique et des données médicales dont je dispose ce jour, je soussigné, docteur en médecine, atteste avoir constaté que la personne susmentionnée est incapable de travailler ",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "du",
+        "field": "f0014",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "au",
+        "field": "f0015",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "(inclus)",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Diagnostic ou symptomatologie, et/ ou troubles fonctionnels",
+        "field": "f0016",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Des difficultés professionnelles ou sociales peuvent être mentionnées. Codage facultatif du diagnostic principal : ICPC-2 ou ICD-10.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "ICPC-2",
+        "field": "f0017",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "ICD-10",
+        "field": "f0018",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "L’ intéressé(e) est ou sera hospitalisé(e) à partir du",
+        "field": "f0019",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "En cas de grossesse, date présumée de l’accouchement:",
+        "field": "f0020",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "Identifications du médecin avec numéro INAMI",
+        "field": "f0021",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Date et signature du médecin",
+        "field": "f0022",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Institut National d’assurance Maladie Invalidité — CONFIDENTIEL — CERTIFICAT D’INCAPACITE DE TRAVAIL — À affranchir",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "text": "Source : Institut national d’assurance maladie-invalidité (INAMI) ; https://www.inami.fgov.be/SiteCollectionDocuments/formulaire_certificat_incapacite_travail.pdf ; Édition et date non imprimées ; consultation 2026-10-25T02:05:59.493942+00:00. Texte normalisé ; données remplies et signatures fictives.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 2
+      }
+    ]
+  ],
+  "synthetic_context": true,
+  "source_notice": "Complete source packet normalized in source order, including conditional controls, repeated sections, attestations and notices. Fictional completions; no real application or declaration. Digit boxes belonging to one logical datum are coalesced.",
+  "context": "Scénario entièrement fictif. Personnes, établissements, coordonnées, identifiants, signatures et décisions synthétiques. Aucune transmission administrative ni situation clinique réelle. Les champs conditionnels sans objet sont conservés.\nPage 1 / À remplir par l’assuré étranger / Nom et prénoms : : Alice MARTIN\nPage 1 / À remplir par l’assuré étranger / Date de naissance : 15/03/1990\nPage 1 / À remplir par l’assuré étranger / Sexe : : F\nPage 1 / À remplir par l’assuré étranger / Pays où vous êtes assuré social : France\nPage 1 / À remplir par l’assuré étranger / Numéro d’inscription auprès de l’institution étrangère : AFFILIATION-FICTIVE816\nPage 1 / À remplir par l’assuré étranger / Résidence principale : 8 rue de l’Exemple, 59000 Lille, France\nPage 1 / À remplir par l’assuré étranger / Adresse à laquelle le titulaire se tient à la disposition du contrôle : Rue de l’Exemple 8, 1000 Bruxelles, Belgique\nPage 1 / À remplir par l’assuré étranger / le début de cette incapacité : OUI\nPage 1 / À remplir par l’assuré étranger / une prolongation de cette incapacité : NON\nPage 1 / À remplir par l’assuré étranger / Situation professionnelle au moment du début de l’ incapacité de travail: : salarié(e)\nPage 1 / À remplir par l’assuré étranger / salarié(e) : Bibliothécaire salariée, emploi fictif à Lille\nPage 1 / À remplir par l’assuré étranger / indépendant(e) : Sans objet\nPage 1 / À remplir par l’assuré étranger / L’incapacité est en lien avec : : une autre maladie\nPage 1 / SECRET MÉDICAL : à remplir par le médecin traitant / du : 25/10/2026\nPage 1 / SECRET MÉDICAL : à remplir par le médecin traitant / au : 28/10/2026\nPage 1 / SECRET MÉDICAL : à remplir par le médecin traitant / Diagnostic ou symptomatologie, et/ ou troubles fonctionnels : Syndrome viral fictif avec fatigue transitoire ; situation documentaire inventée\nPage 1 / SECRET MÉDICAL : à remplir par le médecin traitant / ICPC-2 : A77\nPage 1 / SECRET MÉDICAL : à remplir par le médecin traitant / ICD-10 : Sans objet : codage ICPC-2 choisi\nPage 1 / SECRET MÉDICAL : à remplir par le médecin traitant / L’ intéressé(e) est ou sera hospitalisé(e) à partir du : Sans objet : absence d’hospitalisation\nPage 1 / SECRET MÉDICAL : à remplir par le médecin traitant / En cas de grossesse, date présumée de l’accouchement: : Sans objet : absence de grossesse\nPage 1 / SECRET MÉDICAL : à remplir par le médecin traitant / Identifications du médecin avec numéro INAMI : Dr Sophie DURAND ; 18010010003 ; Bruxelles\nPage 1 / SECRET MÉDICAL : à remplir par le médecin traitant / Date et signature du médecin : 25/10/2026 ; Sophie DURAND ; signature fictive",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 816
+  }
+}

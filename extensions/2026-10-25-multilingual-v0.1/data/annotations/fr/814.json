@@ -1,0 +1,1113 @@
+{
+  "id": "fr-814-inami-formulaire-infirmiers-plan-soins",
+  "language": "fr",
+  "title": "Plan de soins pour prestations techniques spécifiques de soins infirmiers",
+  "domain": "Healthcare",
+  "issuer": "Institut national d’assurance maladie-invalidité (INAMI)",
+  "issuer_id": "INAMI",
+  "template_family": "inami-formulaire-infirmiers-plan-soins",
+  "source_url": "https://www.inami.fgov.be/SiteCollectionDocuments/formulaire_infirmiers_plan_soins.pdf",
+  "landing_url": "https://www.inami.fgov.be/fr/professionnels/professionnels-de-la-sante/infirmiers/formulaires-pour-les-infirmiers",
+  "license_url": "https://www.inami.fgov.be/fr/disclaimer",
+  "license_note": "Selon les conditions Copyrights de l’INAMI : informations libres de droit sauf mention contraire, utilisables gratuitement moyennant mention de la source. Seuls le texte fonctionnel et les contrôles du formulaire sont normalisés ; informations multimédias, logos et éléments graphiques exclus.",
+  "source_sha256": "f1b2205d9cf5b235f5b76d6a0ae2a0a2a302b34540e5d4ca5aef03fde250c0a8",
+  "source_pages": 1,
+  "source_version": "Édition et date non imprimées",
+  "source_date_evidence": {
+    "kind": "edition not stated",
+    "value": "Édition et date non imprimées"
+  },
+  "retrieved_at": "2026-10-25T02:04:27.085864+00:00",
+  "columns": 6,
+  "fields": [
+    {
+      "id": "f0001",
+      "label": "Identification du bénéficiaire (dont NISS):",
+      "path": [
+        "Page 1",
+        "Formulaire",
+        "Identification du bénéficiaire (dont NISS):"
+      ],
+      "source_page": 1,
+      "source_anchor": "Identification du bénéficiaire (dont NISS):",
+      "kind": "text",
+      "synthetic_value": "Alice MARTIN ; 50.03.15-802-13 ; Rue de l’Exemple 8, 1000 Bruxelles",
+      "source_label_rects": [
+        [
+          56.63999938964844,
+          103.28001403808594,
+          274.94598388671875,
+          116.6600112915039
+        ]
+      ]
+    },
+    {
+      "id": "f0002",
+      "label": "Numéro INAMI :",
+      "path": [
+        "Page 1",
+        "Identification du prestataire :",
+        "Numéro INAMI :"
+      ],
+      "source_page": 1,
+      "source_anchor": "Numéro INAMI :",
+      "kind": "text",
+      "synthetic_value": "48010010001",
+      "source_label_rects": [
+        [
+          273.5299987792969,
+          144.6799774169922,
+          359.44598388671875,
+          158.0599822998047
+        ],
+        [
+          269.57000732421875,
+          165.3199920654297,
+          355.6059875488281,
+          178.6999969482422
+        ]
+      ]
+    },
+    {
+      "id": "f0003",
+      "label": "Numéro INAMI :",
+      "path": [
+        "Page 1",
+        "Identification du médecin prescripteur :",
+        "Numéro INAMI :"
+      ],
+      "source_page": 1,
+      "source_anchor": "Numéro INAMI :",
+      "kind": "text",
+      "synthetic_value": "18010010003",
+      "source_label_rects": [
+        [
+          273.5299987792969,
+          144.6799774169922,
+          359.44598388671875,
+          158.0599822998047
+        ],
+        [
+          269.57000732421875,
+          165.3199920654297,
+          355.6059875488281,
+          178.6999969482422
+        ]
+      ]
+    },
+    {
+      "id": "f0004",
+      "label": "Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée",
+      "path": [
+        "Page 1",
+        "Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée",
+        "Prestation concernée"
+      ],
+      "source_page": 1,
+      "source_anchor": "Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée",
+      "kind": "checkbox_multi",
+      "synthetic_value": [
+        "Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée"
+      ],
+      "source_label_rects": [
+        [
+          102.13999938964844,
+          222.22877502441406,
+          486.8546142578125,
+          234.5383758544922
+        ]
+      ],
+      "options": [
+        "Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée"
+      ],
+      "context_evidence": "Page 1 / Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée / Prestation concernée : Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée"
+    },
+    {
+      "id": "f0005",
+      "label": "Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée",
+      "path": [
+        "Page 1",
+        "Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée",
+        "Voie de perfusion"
+      ],
+      "source_page": 1,
+      "source_anchor": "Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée",
+      "kind": "checkbox_single",
+      "synthetic_value": "intraveineuse",
+      "source_label_rects": [
+        [
+          102.13999938964844,
+          222.22877502441406,
+          486.8546142578125,
+          234.5383758544922
+        ]
+      ],
+      "options": [
+        "intraveineuse",
+        "sous-cutanée"
+      ],
+      "context_evidence": "Page 1 / Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée / Voie de perfusion : intraveineuse"
+    },
+    {
+      "id": "f0006",
+      "label": "Date de début de la prestation :",
+      "path": [
+        "Page 1",
+        "Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée",
+        "Date de début de la prestation :"
+      ],
+      "source_page": 1,
+      "source_anchor": "Date de début de la prestation :",
+      "kind": "text",
+      "synthetic_value": "25/10/2026",
+      "source_label_rects": [
+        [
+          102.13999938964844,
+          242.4187774658203,
+          266.04632568359375,
+          254.72837829589844
+        ],
+        [
+          102.13999938964844,
+          426.1587829589844,
+          266.04632568359375,
+          438.4683837890625
+        ]
+      ]
+    },
+    {
+      "id": "f0007",
+      "label": "Date de fin de la prestation :",
+      "path": [
+        "Page 1",
+        "Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée",
+        "Date de fin de la prestation :"
+      ],
+      "source_page": 1,
+      "source_anchor": "Date de fin de la prestation :",
+      "kind": "text",
+      "synthetic_value": "31/10/2026",
+      "source_label_rects": [
+        [
+          102.13999938964844,
+          259.0987548828125,
+          249.60630798339844,
+          271.4083557128906
+        ],
+        [
+          102.13999938964844,
+          442.8387756347656,
+          249.60630798339844,
+          455.14837646484375
+        ]
+      ]
+    },
+    {
+      "id": "f0008",
+      "label": "pendant une période de",
+      "path": [
+        "Page 1",
+        "Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée",
+        "pendant une période de"
+      ],
+      "source_page": 1,
+      "source_anchor": "pendant une période de",
+      "kind": "text",
+      "synthetic_value": "7",
+      "source_label_rects": [
+        [
+          102.13999938964844,
+          275.77880859375,
+          218.5203399658203,
+          288.0884094238281
+        ],
+        [
+          102.13999938964844,
+          459.5187683105469,
+          218.52369689941406,
+          471.828369140625
+        ]
+      ]
+    },
+    {
+      "id": "f0009",
+      "label": "jours/semaine/mois",
+      "path": [
+        "Page 1",
+        "Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée",
+        "Unité de période"
+      ],
+      "source_page": 1,
+      "source_anchor": "jours/semaine/mois",
+      "kind": "checkbox_single",
+      "synthetic_value": "jours",
+      "source_label_rects": [
+        [
+          380.95001220703125,
+          275.77880859375,
+          475.706298828125,
+          288.0884094238281
+        ],
+        [
+          380.95001220703125,
+          292.45880126953125,
+          475.7168273925781,
+          304.7684020996094
+        ],
+        [
+          380.95001220703125,
+          459.5187683105469,
+          475.706298828125,
+          471.828369140625
+        ],
+        [
+          380.95001220703125,
+          476.19879150390625,
+          475.706298828125,
+          488.5083923339844
+        ]
+      ],
+      "options": [
+        "jours",
+        "semaine",
+        "mois"
+      ],
+      "context_evidence": "Page 1 / Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée / Unité de période : jours"
+    },
+    {
+      "id": "f0010",
+      "label": "à raison de",
+      "path": [
+        "Page 1",
+        "Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée",
+        "à raison de"
+      ],
+      "source_page": 1,
+      "source_anchor": "à raison de",
+      "kind": "text",
+      "synthetic_value": "1",
+      "source_label_rects": [
+        [
+          102.13999938964844,
+          292.45880126953125,
+          156.7654571533203,
+          304.7684020996094
+        ],
+        [
+          102.13999938964844,
+          476.19879150390625,
+          156.76593017578125,
+          488.5083923339844
+        ]
+      ]
+    },
+    {
+      "id": "f0011",
+      "label": "jours/semaine/mois",
+      "path": [
+        "Page 1",
+        "Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée",
+        "Unité de fréquence"
+      ],
+      "source_page": 1,
+      "source_anchor": "jours/semaine/mois",
+      "kind": "checkbox_single",
+      "synthetic_value": "jours",
+      "source_label_rects": [
+        [
+          380.95001220703125,
+          275.77880859375,
+          475.706298828125,
+          288.0884094238281
+        ],
+        [
+          380.95001220703125,
+          292.45880126953125,
+          475.7168273925781,
+          304.7684020996094
+        ],
+        [
+          380.95001220703125,
+          459.5187683105469,
+          475.706298828125,
+          471.828369140625
+        ],
+        [
+          380.95001220703125,
+          476.19879150390625,
+          475.706298828125,
+          488.5083923339844
+        ]
+      ],
+      "options": [
+        "jours",
+        "semaine",
+        "mois"
+      ],
+      "context_evidence": "Page 1 / Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée / Unité de fréquence : jours"
+    },
+    {
+      "id": "f0012",
+      "label": "millilitres par 24 heures",
+      "path": [
+        "Page 1",
+        "Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée",
+        "millilitres par 24 heures"
+      ],
+      "source_page": 1,
+      "source_anchor": "millilitres par 24 heures",
+      "kind": "text",
+      "synthetic_value": "360",
+      "source_label_rects": [
+        [
+          380.95001220703125,
+          309.1387939453125,
+          494.14306640625,
+          321.4483947753906
+        ],
+        [
+          380.95001220703125,
+          492.8787841796875,
+          494.14306640625,
+          505.1883850097656
+        ]
+      ]
+    },
+    {
+      "id": "f0013",
+      "label": "gouttes par minute",
+      "path": [
+        "Page 1",
+        "Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée",
+        "gouttes par minute"
+      ],
+      "source_page": 1,
+      "source_anchor": "gouttes par minute",
+      "kind": "text",
+      "synthetic_value": "5",
+      "source_label_rects": [
+        [
+          380.95001220703125,
+          325.69879150390625,
+          472.1072998046875,
+          338.0083923339844
+        ],
+        [
+          380.95001220703125,
+          509.55877685546875,
+          472.1442565917969,
+          521.868408203125
+        ]
+      ]
+    },
+    {
+      "id": "f0014",
+      "label": "du liquide",
+      "path": [
+        "Page 1",
+        "Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée",
+        "du liquide"
+      ],
+      "source_page": 1,
+      "source_anchor": "du liquide",
+      "kind": "text",
+      "synthetic_value": "Solution EXEMPLE, fictive, non administrée",
+      "source_label_rects": [
+        [
+          102.13999938964844,
+          342.3787841796875,
+          149.31393432617188,
+          354.6883850097656
+        ],
+        [
+          102.13999938964844,
+          526.1187744140625,
+          149.31393432617188,
+          538.4284057617188
+        ]
+      ]
+    },
+    {
+      "id": "f0015",
+      "label": "autres spécifications",
+      "path": [
+        "Page 1",
+        "Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée",
+        "autres spécifications"
+      ],
+      "source_page": 1,
+      "source_anchor": "autres spécifications",
+      "kind": "text",
+      "synthetic_value": "Exercice documentaire sans administration réelle",
+      "source_label_rects": [
+        [
+          102.13999938964844,
+          359.05877685546875,
+          201.81297302246094,
+          371.3683776855469
+        ],
+        [
+          102.13999938964844,
+          542.7987670898438,
+          201.8091278076172,
+          555.1083984375
+        ]
+      ]
+    },
+    {
+      "id": "f0016",
+      "label": "Administration et surveillance de l’alimentation parentérale",
+      "path": [
+        "Page 1",
+        "Administration et surveillance de l’alimentation parentérale",
+        "Prestation concernée"
+      ],
+      "source_page": 1,
+      "source_anchor": "Administration et surveillance de l’alimentation parentérale",
+      "kind": "checkbox_multi",
+      "synthetic_value": [],
+      "source_label_rects": [
+        [
+          102.13999938964844,
+          405.998779296875,
+          411.52508544921875,
+          418.3083801269531
+        ]
+      ],
+      "options": [
+        "Administration et surveillance de l’alimentation parentérale"
+      ],
+      "context_evidence": "Page 1 / Administration et surveillance de l’alimentation parentérale / Prestation concernée : aucune option cochée ; rubrique inactive dans ce scénario fictif"
+    },
+    {
+      "id": "f0017",
+      "label": "Date de début de la prestation :",
+      "path": [
+        "Page 1",
+        "Administration et surveillance de l’alimentation parentérale",
+        "Date de début de la prestation :"
+      ],
+      "source_page": 1,
+      "source_anchor": "Date de début de la prestation :",
+      "kind": "text",
+      "synthetic_value": "Sans objet",
+      "source_label_rects": [
+        [
+          102.13999938964844,
+          242.4187774658203,
+          266.04632568359375,
+          254.72837829589844
+        ],
+        [
+          102.13999938964844,
+          426.1587829589844,
+          266.04632568359375,
+          438.4683837890625
+        ]
+      ]
+    },
+    {
+      "id": "f0018",
+      "label": "Date de fin de la prestation :",
+      "path": [
+        "Page 1",
+        "Administration et surveillance de l’alimentation parentérale",
+        "Date de fin de la prestation :"
+      ],
+      "source_page": 1,
+      "source_anchor": "Date de fin de la prestation :",
+      "kind": "text",
+      "synthetic_value": "Sans objet",
+      "source_label_rects": [
+        [
+          102.13999938964844,
+          259.0987548828125,
+          249.60630798339844,
+          271.4083557128906
+        ],
+        [
+          102.13999938964844,
+          442.8387756347656,
+          249.60630798339844,
+          455.14837646484375
+        ]
+      ]
+    },
+    {
+      "id": "f0019",
+      "label": "pendant une période de",
+      "path": [
+        "Page 1",
+        "Administration et surveillance de l’alimentation parentérale",
+        "pendant une période de"
+      ],
+      "source_page": 1,
+      "source_anchor": "pendant une période de",
+      "kind": "text",
+      "synthetic_value": "Sans objet",
+      "source_label_rects": [
+        [
+          102.13999938964844,
+          275.77880859375,
+          218.5203399658203,
+          288.0884094238281
+        ],
+        [
+          102.13999938964844,
+          459.5187683105469,
+          218.52369689941406,
+          471.828369140625
+        ]
+      ]
+    },
+    {
+      "id": "f0020",
+      "label": "jours/semaine/mois",
+      "path": [
+        "Page 1",
+        "Administration et surveillance de l’alimentation parentérale",
+        "Unité de période"
+      ],
+      "source_page": 1,
+      "source_anchor": "jours/semaine/mois",
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "source_label_rects": [
+        [
+          380.95001220703125,
+          275.77880859375,
+          475.706298828125,
+          288.0884094238281
+        ],
+        [
+          380.95001220703125,
+          292.45880126953125,
+          475.7168273925781,
+          304.7684020996094
+        ],
+        [
+          380.95001220703125,
+          459.5187683105469,
+          475.706298828125,
+          471.828369140625
+        ],
+        [
+          380.95001220703125,
+          476.19879150390625,
+          475.706298828125,
+          488.5083923339844
+        ]
+      ],
+      "options": [
+        "jours",
+        "semaine",
+        "mois"
+      ],
+      "context_evidence": "Page 1 / Administration et surveillance de l’alimentation parentérale / Unité de période : aucune option cochée ; rubrique inactive dans ce scénario fictif",
+      "inactive_reason": "rubrique inactive dans ce scénario fictif"
+    },
+    {
+      "id": "f0021",
+      "label": "à raison de",
+      "path": [
+        "Page 1",
+        "Administration et surveillance de l’alimentation parentérale",
+        "à raison de"
+      ],
+      "source_page": 1,
+      "source_anchor": "à raison de",
+      "kind": "text",
+      "synthetic_value": "Sans objet",
+      "source_label_rects": [
+        [
+          102.13999938964844,
+          292.45880126953125,
+          156.7654571533203,
+          304.7684020996094
+        ],
+        [
+          102.13999938964844,
+          476.19879150390625,
+          156.76593017578125,
+          488.5083923339844
+        ]
+      ]
+    },
+    {
+      "id": "f0022",
+      "label": "jours/semaine/mois",
+      "path": [
+        "Page 1",
+        "Administration et surveillance de l’alimentation parentérale",
+        "Unité de fréquence"
+      ],
+      "source_page": 1,
+      "source_anchor": "jours/semaine/mois",
+      "kind": "checkbox_single",
+      "synthetic_value": [],
+      "source_label_rects": [
+        [
+          380.95001220703125,
+          275.77880859375,
+          475.706298828125,
+          288.0884094238281
+        ],
+        [
+          380.95001220703125,
+          292.45880126953125,
+          475.7168273925781,
+          304.7684020996094
+        ],
+        [
+          380.95001220703125,
+          459.5187683105469,
+          475.706298828125,
+          471.828369140625
+        ],
+        [
+          380.95001220703125,
+          476.19879150390625,
+          475.706298828125,
+          488.5083923339844
+        ]
+      ],
+      "options": [
+        "jours",
+        "semaine",
+        "mois"
+      ],
+      "context_evidence": "Page 1 / Administration et surveillance de l’alimentation parentérale / Unité de fréquence : aucune option cochée ; rubrique inactive dans ce scénario fictif",
+      "inactive_reason": "rubrique inactive dans ce scénario fictif"
+    },
+    {
+      "id": "f0023",
+      "label": "millilitres par 24 heures",
+      "path": [
+        "Page 1",
+        "Administration et surveillance de l’alimentation parentérale",
+        "millilitres par 24 heures"
+      ],
+      "source_page": 1,
+      "source_anchor": "millilitres par 24 heures",
+      "kind": "text",
+      "synthetic_value": "Sans objet",
+      "source_label_rects": [
+        [
+          380.95001220703125,
+          309.1387939453125,
+          494.14306640625,
+          321.4483947753906
+        ],
+        [
+          380.95001220703125,
+          492.8787841796875,
+          494.14306640625,
+          505.1883850097656
+        ]
+      ]
+    },
+    {
+      "id": "f0024",
+      "label": "gouttes par minute",
+      "path": [
+        "Page 1",
+        "Administration et surveillance de l’alimentation parentérale",
+        "gouttes par minute"
+      ],
+      "source_page": 1,
+      "source_anchor": "gouttes par minute",
+      "kind": "text",
+      "synthetic_value": "Sans objet",
+      "source_label_rects": [
+        [
+          380.95001220703125,
+          325.69879150390625,
+          472.1072998046875,
+          338.0083923339844
+        ],
+        [
+          380.95001220703125,
+          509.55877685546875,
+          472.1442565917969,
+          521.868408203125
+        ]
+      ]
+    },
+    {
+      "id": "f0025",
+      "label": "du liquide",
+      "path": [
+        "Page 1",
+        "Administration et surveillance de l’alimentation parentérale",
+        "du liquide"
+      ],
+      "source_page": 1,
+      "source_anchor": "du liquide",
+      "kind": "text",
+      "synthetic_value": "Sans objet",
+      "source_label_rects": [
+        [
+          102.13999938964844,
+          342.3787841796875,
+          149.31393432617188,
+          354.6883850097656
+        ],
+        [
+          102.13999938964844,
+          526.1187744140625,
+          149.31393432617188,
+          538.4284057617188
+        ]
+      ]
+    },
+    {
+      "id": "f0026",
+      "label": "autres spécifications",
+      "path": [
+        "Page 1",
+        "Administration et surveillance de l’alimentation parentérale",
+        "autres spécifications"
+      ],
+      "source_page": 1,
+      "source_anchor": "autres spécifications",
+      "kind": "text",
+      "synthetic_value": "Sans objet",
+      "source_label_rects": [
+        [
+          102.13999938964844,
+          359.05877685546875,
+          201.81297302246094,
+          371.3683776855469
+        ],
+        [
+          102.13999938964844,
+          542.7987670898438,
+          201.8091278076172,
+          555.1083984375
+        ]
+      ]
+    },
+    {
+      "id": "f0027",
+      "label": "(date, nom et signature)",
+      "path": [
+        "Page 1",
+        "L’infirmier(ère)",
+        "(date, nom et signature)"
+      ],
+      "source_page": 1,
+      "source_anchor": "(date, nom et signature)",
+      "kind": "text",
+      "synthetic_value": "25/10/2026 ; Camille MARTIN ; signature fictive",
+      "source_label_rects": [
+        [
+          391.75,
+          636.326171875,
+          497.70452880859375,
+          647.4315795898438
+        ]
+      ]
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "PLAN DE SOINS — Destiné à étayer la demande d’attestation de PRESTATIONS TECHNIQUES SPECIFIQUES DE SOINS INFIRMIERS",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Identification du bénéficiaire (dont NISS):",
+        "field": "f0001",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Apposer la vignette.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Identification du prestataire :",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Numéro INAMI :",
+        "field": "f0002",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Identification du médecin prescripteur :",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Numéro INAMI :",
+        "field": "f0003",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "Type, nombre, fréquence et durée des prestations (à mentionner pour la prestation concernée) :",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée",
+        "field": "f0004",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée",
+        "field": "f0005",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Date de début de la prestation :",
+        "field": "f0006",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Date de fin de la prestation :",
+        "field": "f0007",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "pendant une période de",
+        "field": "f0008",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "jours/semaine/mois",
+        "field": "f0009",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "à raison de",
+        "field": "f0010",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "jours/semaine/mois",
+        "field": "f0011",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "millilitres par 24 heures",
+        "field": "f0012",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "gouttes par minute",
+        "field": "f0013",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "du liquide",
+        "field": "f0014",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "autres spécifications",
+        "field": "f0015",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Administration et surveillance de l’alimentation parentérale",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Administration et surveillance de l’alimentation parentérale",
+        "field": "f0016",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "Date de début de la prestation :",
+        "field": "f0017",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "Date de fin de la prestation :",
+        "field": "f0018",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "pendant une période de",
+        "field": "f0019",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "jours/semaine/mois",
+        "field": "f0020",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "à raison de",
+        "field": "f0021",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "jours/semaine/mois",
+        "field": "f0022",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "label": "millilitres par 24 heures",
+        "field": "f0023",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "gouttes par minute",
+        "field": "f0024",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "label": "du liquide",
+        "field": "f0025",
+        "source_page": 1,
+        "colspan": 3
+      },
+      {
+        "label": "autres spécifications",
+        "field": "f0026",
+        "source_page": 1,
+        "colspan": 3
+      }
+    ],
+    [
+      {
+        "text": "Le plan de soins est conservé dans le dossier infirmier.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "L’infirmier(ère)",
+        "colspan": 6,
+        "heading": true,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "(date, nom et signature)",
+        "field": "f0027",
+        "source_page": 1,
+        "colspan": 6
+      }
+    ],
+    [
+      {
+        "text": "(1) cocher. (2) biffer la(les) mention(s) inutile(s). (3) la période de traitement ne peut dépasser une durée de 12 mois.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Source : Institut national d’assurance maladie-invalidité (INAMI) ; https://www.inami.fgov.be/SiteCollectionDocuments/formulaire_infirmiers_plan_soins.pdf ; Édition et date non imprimées ; consultation 2026-10-25T02:04:27.085864+00:00. Texte normalisé ; données remplies et signatures fictives.",
+        "colspan": 6,
+        "heading": false,
+        "source_page": 1
+      }
+    ]
+  ],
+  "synthetic_context": true,
+  "source_notice": "Complete source packet normalized in source order, including conditional controls, repeated sections, attestations and notices. Fictional completions; no real application or declaration. Digit boxes belonging to one logical datum are coalesced.",
+  "context": "Scénario entièrement fictif. Personnes, établissements, coordonnées, identifiants, signatures et décisions synthétiques. Aucune transmission administrative ni situation clinique réelle. Les champs conditionnels sans objet sont conservés.\nPage 1 / Formulaire / Identification du bénéficiaire (dont NISS): : Alice MARTIN ; 50.03.15-802-13 ; Rue de l’Exemple 8, 1000 Bruxelles\nPage 1 / Identification du prestataire : / Numéro INAMI : : 48010010001\nPage 1 / Identification du médecin prescripteur : / Numéro INAMI : : 18010010003\nPage 1 / Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée / Prestation concernée : Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée\nPage 1 / Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée / Voie de perfusion : intraveineuse\nPage 1 / Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée / Date de début de la prestation : : 25/10/2026\nPage 1 / Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée / Date de fin de la prestation : : 31/10/2026\nPage 1 / Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée / pendant une période de : 7\nPage 1 / Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée / Unité de période : jours\nPage 1 / Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée / à raison de : 1\nPage 1 / Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée / Unité de fréquence : jours\nPage 1 / Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée / millilitres par 24 heures : 360\nPage 1 / Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée / gouttes par minute : 5\nPage 1 / Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée / du liquide : Solution EXEMPLE, fictive, non administrée\nPage 1 / Mise en place et surveillance d’une perfusion intraveineuse/sous-cutanée / autres spécifications : Exercice documentaire sans administration réelle\nPage 1 / Administration et surveillance de l’alimentation parentérale / Prestation concernée : aucune option cochée ; rubrique inactive dans ce scénario fictif\nPage 1 / Administration et surveillance de l’alimentation parentérale / Date de début de la prestation : : Sans objet\nPage 1 / Administration et surveillance de l’alimentation parentérale / Date de fin de la prestation : : Sans objet\nPage 1 / Administration et surveillance de l’alimentation parentérale / pendant une période de : Sans objet\nPage 1 / Administration et surveillance de l’alimentation parentérale / Unité de période : aucune option cochée ; rubrique inactive dans ce scénario fictif\nPage 1 / Administration et surveillance de l’alimentation parentérale / à raison de : Sans objet\nPage 1 / Administration et surveillance de l’alimentation parentérale / Unité de fréquence : aucune option cochée ; rubrique inactive dans ce scénario fictif\nPage 1 / Administration et surveillance de l’alimentation parentérale / millilitres par 24 heures : Sans objet\nPage 1 / Administration et surveillance de l’alimentation parentérale / gouttes par minute : Sans objet\nPage 1 / Administration et surveillance de l’alimentation parentérale / du liquide : Sans objet\nPage 1 / Administration et surveillance de l’alimentation parentérale / autres spécifications : Sans objet\nPage 1 / L’infirmier(ère) / (date, nom et signature) : 25/10/2026 ; Camille MARTIN ; signature fictive",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 814
+  }
+}

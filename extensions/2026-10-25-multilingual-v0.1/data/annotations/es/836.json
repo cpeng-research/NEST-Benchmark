@@ -1,0 +1,479 @@
+{
+  "id": "es-836",
+  "language": "es",
+  "title": "Formulario 3 COMBINADO - Control de Supervivencia y de Estado Civil",
+  "domain": "Finance",
+  "issuer": "Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares",
+  "issuer_id": "instituto-de-ayuda-financiera-para-pago-de-retiros-y-pensiones-militares",
+  "template_family": "iaf-formulario-3-combinado-supervivencia",
+  "source_version": "Junio-2017",
+  "source_date_evidence": {
+    "kind": "printed edition",
+    "value": "Junio-2017",
+    "note": "Printed form code/edition; retrieval is not an issuance date."
+  },
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/formulario_supervivencia_combinado.pdf",
+  "landing_url": "https://www.argentina.gob.ar/iaf/retiros-y-pensiones/supervivencia",
+  "source_sha256": "4b65329dba4cb5a38617153a6b5b51ce074436fc53969f7c897b74d31a1eb001",
+  "source_pages": 1,
+  "retrieved_at": "2026-10-25T02:12:40.103244+00:00",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "Argentina.gob.ar, Propiedad intelectual: portal contents licensed CC BY 4.0 except otherwise stated. This national-portal PDF has no contrary notice. Attribution: Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares. Semantic grid adaptation and fictional completion, not an official submission.",
+  "columns": 2,
+  "synthetic_context": true,
+  "source_notice": "Complete source pages, options, instructions, declaration and signature targets retained in source order. All completions are fictional.",
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Apellido y Nombres:",
+      "path": [
+        "Página 1",
+        "Pensionista",
+        "Apellido y Nombres:"
+      ],
+      "source_anchor": "Apellido y Nombres:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SOLER, INÉS"
+    },
+    {
+      "id": "f002",
+      "label": "Tipo de Documento:",
+      "path": [
+        "Página 1",
+        "Pensionista",
+        "Tipo de Documento:"
+      ],
+      "source_anchor": "Tipo de Documento:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "DNI"
+    },
+    {
+      "id": "f003",
+      "label": "Nro. Documento:",
+      "path": [
+        "Página 1",
+        "Pensionista",
+        "Nro. Documento:"
+      ],
+      "source_anchor": "Nro. Documento:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "32836836"
+    },
+    {
+      "id": "f004",
+      "label": "Domicilio:",
+      "path": [
+        "Página 1",
+        "Pensionista",
+        "Domicilio:"
+      ],
+      "source_anchor": "Domicilio:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "CALLE LAPRIDA 836, PISO 2"
+    },
+    {
+      "id": "f005",
+      "label": "Localidad:",
+      "path": [
+        "Página 1",
+        "Pensionista",
+        "Localidad:"
+      ],
+      "source_anchor": "Localidad:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "ROSARIO"
+    },
+    {
+      "id": "f006",
+      "label": "Cód. Postal",
+      "path": [
+        "Página 1",
+        "Pensionista",
+        "Cód. Postal"
+      ],
+      "source_anchor": "Cód. Postal",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2000"
+    },
+    {
+      "id": "f007",
+      "label": "Provincia:",
+      "path": [
+        "Página 1",
+        "Pensionista",
+        "Provincia:"
+      ],
+      "source_anchor": "Provincia:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "SANTA FE"
+    },
+    {
+      "id": "f008",
+      "label": "Teléfono:",
+      "path": [
+        "Página 1",
+        "Pensionista",
+        "Teléfono:"
+      ],
+      "source_anchor": "Teléfono:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "+54 3410000836"
+    },
+    {
+      "id": "f009",
+      "label": "Fecha de Nacimiento:",
+      "path": [
+        "Página 1",
+        "Pensionista",
+        "Fecha de Nacimiento:"
+      ],
+      "source_anchor": "Fecha de Nacimiento:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "14/03/1986"
+    },
+    {
+      "id": "f010",
+      "label": "E-Mail:",
+      "path": [
+        "Página 1",
+        "Pensionista",
+        "E-Mail:"
+      ],
+      "source_anchor": "E-Mail:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "ines.soler@example.org"
+    },
+    {
+      "id": "f011",
+      "label": "Banco o E/Apoderada de pago:",
+      "path": [
+        "Página 1",
+        "Pensionista",
+        "Banco o E/Apoderada de pago:"
+      ],
+      "source_anchor": "Banco o E/Apoderada de pago:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "ENTIDAD APODERADA SINTÉTICA DEL LITORAL"
+    },
+    {
+      "id": "f012",
+      "label": "DECLARACION JURADA DE ESTADO CIVIL",
+      "path": [
+        "Página 1",
+        "Estado civil",
+        "DECLARACION JURADA DE ESTADO CIVIL"
+      ],
+      "source_anchor": "DECLARACION JURADA DE ESTADO CIVIL",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "No he contraído matrimonio ni convivo en aparente matrimonio:"
+      ],
+      "options": [
+        "No he contraído matrimonio ni convivo en aparente matrimonio:",
+        "He contraído matrimonio:",
+        "Convivo en aparente matrimonio:"
+      ],
+      "context_evidence": "Estado civil / DECLARACION JURADA DE ESTADO CIVIL: No he contraído matrimonio ni convivo en aparente matrimonio:."
+    },
+    {
+      "id": "f013",
+      "label": "Firma/impresión digital del Titular:",
+      "path": [
+        "Página 1",
+        "Titular",
+        "Firma/impresión digital del Titular:"
+      ],
+      "source_anchor": "Firma/impresión digital del Titular:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de INÉS SOLER"
+    },
+    {
+      "id": "f014",
+      "label": "Certifico que la firma/impresión digital que antecede pertenece a:",
+      "path": [
+        "Página 1",
+        "Autoridad certificante",
+        "Certifico que la firma/impresión digital que antecede pertenece a:"
+      ],
+      "source_anchor": "Certifico que la firma/impresión digital que antecede pertenece a:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "INÉS SOLER, DNI SINTÉTICO 32836836"
+    },
+    {
+      "id": "f015",
+      "label": "Lugar y fecha",
+      "path": [
+        "Página 1",
+        "Autoridad certificante",
+        "Lugar y fecha"
+      ],
+      "source_anchor": "Lugar y fecha",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Rosario, Santa Fe, 22/10/2026"
+    },
+    {
+      "id": "f016",
+      "label": "Sello del Organismo",
+      "path": [
+        "Página 1",
+        "Autoridad certificante",
+        "Sello del Organismo"
+      ],
+      "source_anchor": "Sello del Organismo",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Sello sintético: Delegación IAF Rosario"
+    },
+    {
+      "id": "f017",
+      "label": "Firma y sello de la autoridad certificante",
+      "path": [
+        "Página 1",
+        "Autoridad certificante",
+        "Firma y sello de la autoridad certificante"
+      ],
+      "source_anchor": "Firma y sello de la autoridad certificante",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Firma y sello sintéticos de TOMÁS RÍOS, funcionario certificante de la delegación IAF Rosario"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "Impreso: Junio-2017 Formulario 3 COMBINADO D.E.C. Control de Supervivencia y de Estado Civil. FORMULARIO DE SUPERVIVENCIA COMBINADO Para pensionistas femeninos mayores de DIE- CISEIS (16) años cuyos beneficios se encua- dran como pensión definitiva hija menor de edad, pensión definitiva nieta menor de edad, pensión definitiva hija mayor de edad, pensión limitada hija mayor o igual a 50 años, pensión limitada madre, pensión limitada hermana, pensión definitiva soldado hija menor de edad y pensión definitiva soldado nieta menor de edad. Importante Formulario exclusivo para pensionistas mayores de DIECISEIS (16) . Si usted cobra ante una Entidad Apoderada este formulario debe ser entregado para su tramita- ción exclusivamente en su Entidad Apoderada. No lo envíe al IAF. Formulario “en blanco” Solo válido por 60 días desde su confección.-  Envíe el documento original. No remita fotocopias o fax.  Verifique que la autoridad que certifica coloque lugar, fecha, sellos (2) y firma .  El presente certificado deberá ser entregado, con carácter de “ur- gente”, en el I.A.F., en sus Oficinas Regionales, en su Entidad Apoderada o enviado vía postal al “I.A.F.P.R.P.M.–Casilla de Co- rreo 4.628, C.P. 1000, Ciudad Autónoma de Bs As”..  Las certificaciones por notario de otro país deberán contener los timbres y la acotación que establece la Ley 23.458 (L’Apostille – Conventión de La Haye du octobre1961).",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "CERTIFICADO DE SUPERVIVENCIA PERTENECIENTE A:",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Apellido y Nombres:",
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Tipo de Documento:",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nro. Documento:",
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Domicilio:",
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Localidad:",
+        "field": "f005",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Cód. Postal",
+        "field": "f006",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Provincia:",
+        "field": "f007",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Teléfono:",
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fecha de Nacimiento:",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "E-Mail:",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Banco o E/Apoderada de pago:",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "DECLARACION JURADA DE ESTADO CIVIL",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Por la presente declaro bajo juramento que con posteriori- dad a la fecha a partir de la cual me ha sido otorgada la Pensión que percibo mensualmente:",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "DECLARACION JURADA DE ESTADO CIVIL",
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Marque con una “X” solo UNA (1) respuesta.",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Además declaro conocer que si he incurrido en falsedad al con- signar los datos requeridos me haré pasible de la pena establecida en el Art.293 del Código Penal y que por imperativo legal estoy obliga- da a comunicar de inmediato al I.A.F.P.R.P.M. toda novedad que modifique la información contenida en esta declaración jurada.",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Firma/impresión digital del Titular:",
+        "field": "f013",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "CERTIFICACION DE FIRMA",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "label": "Certifico que la firma/impresión digital que antecede pertenece a:",
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "y que fue puesta en mi presencia.",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Lugar y fecha",
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Sello del Organismo",
+        "field": "f016",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Firma y sello de la autoridad certificante",
+        "field": "f017",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Válido por 60 días.",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "Autoridades habilitadas para la certificación de supervivencia: Funcionarios de la embajada Argentina, Cónsul Argentino, Agregadurías Militares o constancia notarial de escribanía de país extranjero. En territorio nacional: Autoridad Militar, Judicial o Policial, la Entidad Apoderada del titular y en el IAF y sus regionales. La no recepción, certificación por autoridad no autorizada y/o el llenado incompleto de los Certificados dará lugar a la retención de los haberes (Art.23o del Decreto No 3.019 – Reglamentación Ley No 22.919).",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ]
+  ],
+  "context": "CASO ENTERAMENTE FICTICIO, creado para completar este formulario. Personas, bienes, firmas y referencias administrativas son sintéticos y no corresponden a actuaciones reales.\nPágina 1 / Pensionista / Apellido y Nombres:: SOLER, INÉS\nPágina 1 / Pensionista / Tipo de Documento:: DNI\nPágina 1 / Pensionista / Nro. Documento:: 32836836\nPágina 1 / Pensionista / Domicilio:: CALLE LAPRIDA 836, PISO 2\nPágina 1 / Pensionista / Localidad:: ROSARIO\nPágina 1 / Pensionista / Cód. Postal: 2000\nPágina 1 / Pensionista / Provincia:: SANTA FE\nPágina 1 / Pensionista / Teléfono:: +54 3410000836\nPágina 1 / Pensionista / Fecha de Nacimiento:: 14/03/1986\nPágina 1 / Pensionista / E-Mail:: ines.soler@example.org\nPágina 1 / Pensionista / Banco o E/Apoderada de pago:: ENTIDAD APODERADA SINTÉTICA DEL LITORAL\nPágina 1 / Estado civil / DECLARACION JURADA DE ESTADO CIVIL: Estado civil / DECLARACION JURADA DE ESTADO CIVIL: No he contraído matrimonio ni convivo en aparente matrimonio:.\nPágina 1 / Titular / Firma/impresión digital del Titular:: Firma sintética de INÉS SOLER\nPágina 1 / Autoridad certificante / Certifico que la firma/impresión digital que antecede pertenece a:: INÉS SOLER, DNI SINTÉTICO 32836836\nPágina 1 / Autoridad certificante / Lugar y fecha: Rosario, Santa Fe, 22/10/2026\nPágina 1 / Autoridad certificante / Sello del Organismo: Sello sintético: Delegación IAF Rosario\nPágina 1 / Autoridad certificante / Firma y sello de la autoridad certificante: Firma y sello sintéticos de TOMÁS RÍOS, funcionario certificante de la delegación IAF Rosario",
+  "workflow_identity": {
+    "language": "es",
+    "id": 836
+  }
+}

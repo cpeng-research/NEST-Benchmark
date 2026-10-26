@@ -1,0 +1,464 @@
+{
+  "id": "fr-832-cerfa-14592",
+  "title": "Attestation d’identification pour l’exonération du carburant du transport fluvial de marchandises",
+  "language": "fr",
+  "domain": "Business",
+  "issuer_id": "Direction générale des douanes et droits indirects",
+  "template_family": "cerfa-14592",
+  "business_topic": "Attestation d’identification pour l’exonération du carburant du transport fluvial de marchandises",
+  "source_url": "https://www.formulaires.service-public.gouv.fr/gf/cerfa_14592.do",
+  "landing_url": "https://www.formulaires.service-public.gouv.fr/gf/showFormulaireSignaletiqueConsulter.do?numCerfa=14592",
+  "license_url": "https://www.service-public.gouv.fr/P10050",
+  "license_note": "Adaptation du texte et de la structure logique du formulaire officiel publié sur le portail des formulaires Service Public, dont les conditions et mentions légales liées sont P10050 et P10025 : Licence Ouverte Etalab 2.0 sauf mention contraire. Attribution : émetteur, URL, édition et date de consultation. Les éléments graphiques et marques ne sont pas repris. Le remplissage est entièrement fictif.",
+  "source_sha256": "7ff60d639816d3114c9b7d882ab9a75cf23be67fae595ce9018dd385a0d4f3f6",
+  "source_pages": 1,
+  "retrieved_at": "2026-10-25T01:56:04.790638+00:00",
+  "source_version": "CERFA 14592*01 selon la fiche officielle ; numéro non imprimé dans le rendu fourni",
+  "source_date_evidence": {
+    "kind": "official_catalogue_edition_separate_retrieval",
+    "value": "CERFA 14592*01 selon la fiche officielle ; numéro non imprimé dans le rendu fourni; consultation 2026-10-25T01:56:04.790638+00:00"
+  },
+  "columns": 12,
+  "rows": [
+    [
+      {
+        "text": "ATTESTATION D’IDENTIFICATION",
+        "heading": true,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "BENEFICIAIRE DU REGIME D'EXONERATION",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "CARBURANT UTILISE POUR LE TRANSPORT FLUVIAL DE MARCHANDISES",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "Article 265 bis du code des douanes",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Attestation n°",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0001",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "du",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0002",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Direction Régionale des douanes et droits indirects de délivrance :",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0003",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Date de délivrance :",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0004",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Date de fin de validité :",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0005",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nom ou raison sociale du bénéficiaire :",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0006",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Numéro SIREN (1) :",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0007",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Adresse :",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0008",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Identification des bateaux utilisés :",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0009",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Identification des principaux points d'approvisionnement :",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0010",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Le directeur régional des douanes et droits indirects",
+        "colspan": 4,
+        "source_page": 1
+      },
+      {
+        "field": "f0011",
+        "colspan": 8,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(1) ou, à défaut, numéro de carte de membre de la CNBA",
+        "heading": false,
+        "colspan": 12,
+        "source_page": 1
+      }
+    ]
+  ],
+  "fields": [
+    {
+      "id": "f0001",
+      "label": "Attestation n°",
+      "path": [
+        "Page 1",
+        "ATTESTATION D’IDENTIFICATION",
+        "Attestation n°"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Attestation n°",
+      "synthetic_value": "FLUV-FICT-832",
+      "source_label_rects": [
+        [
+          42.70000076293945,
+          95.41699981689453,
+          119.69898986816406,
+          109.80799865722656
+        ]
+      ]
+    },
+    {
+      "id": "f0002",
+      "label": "du",
+      "path": [
+        "Page 1",
+        "ATTESTATION D’IDENTIFICATION",
+        "Attestation / Date"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "du",
+      "synthetic_value": "25/10/2026",
+      "source_label_rects": [
+        [
+          184.3000030517578,
+          95.41699981689453,
+          198.72999572753906,
+          109.80799865722656
+        ],
+        [
+          251.77005004882812,
+          148.6170196533203,
+          270.4510192871094,
+          163.0080108642578
+        ],
+        [
+          285.208984375,
+          191.79898071289062,
+          296.8249816894531,
+          203.97598266601562
+        ],
+        [
+          148.37600708007812,
+          268.9989929199219,
+          159.37600708007812,
+          281.1759948730469
+        ]
+      ]
+    },
+    {
+      "id": "f0003",
+      "label": "Direction Régionale des douanes et droits indirects de délivrance :",
+      "path": [
+        "Page 1",
+        "ATTESTATION D’IDENTIFICATION",
+        "Direction Régionale des douanes et droits indirects de délivrance :"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Direction Régionale des douanes et droits indirects de délivrance :",
+      "synthetic_value": "Lyon",
+      "source_label_rects": [
+        [
+          47.0,
+          212.89901733398438,
+          287.1499938964844,
+          225.07601928710938
+        ],
+        [
+          47.0,
+          225.09902954101562,
+          98.52400970458984,
+          237.27603149414062
+        ]
+      ]
+    },
+    {
+      "id": "f0004",
+      "label": "Date de délivrance :",
+      "path": [
+        "Page 1",
+        "ATTESTATION D’IDENTIFICATION",
+        "Date de délivrance :"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de délivrance :",
+      "synthetic_value": "25/10/2026",
+      "source_label_rects": [
+        [
+          47.0,
+          237.29898071289062,
+          135.22000122070312,
+          249.47598266601562
+        ]
+      ]
+    },
+    {
+      "id": "f0005",
+      "label": "Date de fin de validité :",
+      "path": [
+        "Page 1",
+        "ATTESTATION D’IDENTIFICATION",
+        "Date de fin de validité :"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Date de fin de validité :",
+      "synthetic_value": "24/10/2027",
+      "source_label_rects": [
+        [
+          320.8999938964844,
+          237.29898071289062,
+          427.23681640625,
+          249.47598266601562
+        ]
+      ]
+    },
+    {
+      "id": "f0006",
+      "label": "Nom ou raison sociale du bénéficiaire :",
+      "path": [
+        "Page 1",
+        "ATTESTATION D’IDENTIFICATION",
+        "Nom ou raison sociale du bénéficiaire :"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Nom ou raison sociale du bénéficiaire :",
+      "synthetic_value": "Navigation Démonstration SAS",
+      "source_label_rects": [
+        [
+          47.0,
+          268.9989929199219,
+          219.7989959716797,
+          281.1759948730469
+        ]
+      ]
+    },
+    {
+      "id": "f0007",
+      "label": "Numéro SIREN (1) :",
+      "path": [
+        "Page 1",
+        "ATTESTATION D’IDENTIFICATION",
+        "Numéro SIREN (1) :"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Numéro SIREN (1) :",
+      "synthetic_value": "000000832",
+      "source_label_rects": [
+        [
+          320.8999938964844,
+          268.9989929199219,
+          412.8268737792969,
+          281.1759948730469
+        ]
+      ]
+    },
+    {
+      "id": "f0008",
+      "label": "Adresse :",
+      "path": [
+        "Page 1",
+        "ATTESTATION D’IDENTIFICATION",
+        "Adresse :"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Adresse :",
+      "synthetic_value": "20 quai Exemple, 69007 Lyon",
+      "source_label_rects": [
+        [
+          47.0,
+          305.6990051269531,
+          88.23900604248047,
+          317.8760070800781
+        ]
+      ]
+    },
+    {
+      "id": "f0009",
+      "label": "Identification des bateaux utilisés :",
+      "path": [
+        "Page 1",
+        "ATTESTATION D’IDENTIFICATION",
+        "Identification des bateaux utilisés :"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Identification des bateaux utilisés :",
+      "synthetic_value": "Péniche Démonstration, immatriculation fictive LY000832F",
+      "source_label_rects": [
+        [
+          47.0,
+          342.29901123046875,
+          200.3179931640625,
+          354.47601318359375
+        ]
+      ]
+    },
+    {
+      "id": "f0010",
+      "label": "Identification des principaux points d'approvisionnement :",
+      "path": [
+        "Page 1",
+        "ATTESTATION D’IDENTIFICATION",
+        "Identification des principaux points d'approvisionnement :"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Identification des principaux points d'approvisionnement :",
+      "synthetic_value": "Dépôt fictif du port de Lyon, 20 quai Exemple, 69007 Lyon",
+      "source_label_rects": [
+        [
+          47.0,
+          427.6990051269531,
+          303.4099426269531,
+          439.8760070800781
+        ]
+      ]
+    },
+    {
+      "id": "f0011",
+      "label": "Le directeur régional des douanes et droits indirects",
+      "path": [
+        "Page 1",
+        "ATTESTATION D’IDENTIFICATION",
+        "Le directeur régional des douanes et droits indirects"
+      ],
+      "kind": "text",
+      "source_page": 1,
+      "source_anchor": "Le directeur régional des douanes et droits indirects",
+      "synthetic_value": "Alex DURAND, signature fictive",
+      "source_label_rects": [
+        [
+          381.3999938964844,
+          596.3900146484375,
+          516.2899169921875,
+          607.4599609375
+        ],
+        [
+          412.8999938964844,
+          607.4900512695312,
+          482.2899169921875,
+          618.5599975585938
+        ]
+      ]
+    }
+  ],
+  "context": "Scénario intégralement fictif à Lyon ; entreprises, personnes, références et signatures de démonstration, sans opération réelle.\nPage 1 / ATTESTATION D’IDENTIFICATION / Attestation n°: FLUV-FICT-832\nPage 1 / ATTESTATION D’IDENTIFICATION / Attestation / Date: 25/10/2026\nPage 1 / ATTESTATION D’IDENTIFICATION / Direction Régionale des douanes et droits indirects de délivrance :: Lyon\nPage 1 / ATTESTATION D’IDENTIFICATION / Date de délivrance :: 25/10/2026\nPage 1 / ATTESTATION D’IDENTIFICATION / Date de fin de validité :: 24/10/2027\nPage 1 / ATTESTATION D’IDENTIFICATION / Nom ou raison sociale du bénéficiaire :: Navigation Démonstration SAS\nPage 1 / ATTESTATION D’IDENTIFICATION / Numéro SIREN (1) :: 000000832\nPage 1 / ATTESTATION D’IDENTIFICATION / Adresse :: 20 quai Exemple, 69007 Lyon\nPage 1 / ATTESTATION D’IDENTIFICATION / Identification des bateaux utilisés :: Péniche Démonstration, immatriculation fictive LY000832F\nPage 1 / ATTESTATION D’IDENTIFICATION / Identification des principaux points d'approvisionnement :: Dépôt fictif du port de Lyon, 20 quai Exemple, 69007 Lyon\nPage 1 / ATTESTATION D’IDENTIFICATION / Le directeur régional des douanes et droits indirects: Alex DURAND, signature fictive",
+  "workflow_identity": {
+    "language": "fr",
+    "id": 832
+  }
+}

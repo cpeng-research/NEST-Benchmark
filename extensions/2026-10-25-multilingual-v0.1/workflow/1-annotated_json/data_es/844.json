@@ -1,0 +1,545 @@
+{
+  "Página 1": {
+    "SOLICITANTE - Datos personales": {
+      "Nombre/s": "",
+      "Apellidos/s": "",
+      "D.N.I. N°": "",
+      "CUIT/CUIL": "",
+      "Teléfono Particular": "",
+      "Celular": "",
+      "Mail": "",
+      "Fecha de Nacimiento": "",
+      "Nacionalidad": "",
+      "Sexo": ""
+    },
+    "SOLICITANTE - Estado civil": {
+      "Estado civil": {
+        "choices": [
+          "Casado",
+          "Soltero",
+          "Viudo",
+          "Divorciado"
+        ],
+        "value": []
+      }
+    },
+    "SOLICITANTE - Domicilio particular": {
+      "Calle": "",
+      "Número": "",
+      "Piso": "",
+      "Depto.": "",
+      "Localidad": "",
+      "Código Postal": "",
+      "Provincia": "",
+      "País": ""
+    },
+    "SOLICITANTE - Datos laborales": {
+      "Actividad": "",
+      "Profesión": ""
+    },
+    "SOLICITANTE - a) Dependiente": {
+      "Nombre de la empresa": "",
+      "Cargo": "",
+      "Calle": "",
+      "Número": "",
+      "Piso": "",
+      "Localidad": "",
+      "Código Postal": "",
+      "Provincia": "",
+      "Teléfono": "",
+      "Antigüedad laboral": "",
+      "Ingreso mensual neto": ""
+    },
+    "SOLICITANTE - b) Independiente": {
+      "Actividad": "",
+      "Código AFIP": "",
+      "Situación ante AFIP:": {
+        "choices": [
+          "Resp. Inscripto",
+          "Monotributista",
+          "No Inscripto"
+        ],
+        "value": []
+      },
+      "Ingreso mensual promedio de los últimos 13 meses": ""
+    },
+    "SOLICITANTE - Ingresos totales": {
+      "Total ingreso mensual neto (a + b)": ""
+    },
+    "SOLICITANTE - Domicilio particular resumen": {
+      "Domicilio Particular": ""
+    }
+  },
+  "Página 2": {
+    "SOLICITANTE - Bienes inmuebles": {
+      "Bienes inmuebles": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": []
+      },
+      "Valor estimado": "",
+      "Bien de familia": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": []
+      }
+    },
+    "SOLICITANTE - Bienes muebles": {
+      "Bienes muebles": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": []
+      },
+      "Bien que posee": "",
+      "Valor estimado": ""
+    },
+    "SOLICITANTE - Hipotecas": {
+      "Hipotecas": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": []
+      },
+      "Otorgada por": "",
+      "Monto cuota mensual": "",
+      "Pagadas": ""
+    },
+    "SOLICITANTE - Hipotecas - Totales": {
+      "Cantidad de cuotas totales": ""
+    },
+    "SOLICITANTE - Préstamos personales": {
+      "Préstamos personales": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": []
+      },
+      "Otorgado por": "",
+      "Monto cuota mensual": "",
+      "Pagadas": ""
+    },
+    "SOLICITANTE - Préstamos personales - Totales": {
+      "Cantidad de cuotas": ""
+    },
+    "SOLICITANTE - Alquiler": {
+      "Alquiler": {
+        "choices": [
+          "Si",
+          "NO"
+        ],
+        "value": []
+      },
+      "Monto": ""
+    },
+    "SOLICITANTE - Relaciones financieras": {
+      "Bancos con que opera": "",
+      "Tarjetas con que opera": ""
+    },
+    "SOLICITANTE - Cónyuge": {
+      "Nombre/s": "",
+      "Apellidos/s": "",
+      "D.N.I. N°": "",
+      "CUIT/CUIL": "",
+      "Sexo": "",
+      "Teléfono particular": "",
+      "Celular": "",
+      "Mail": "",
+      "Fecha de Nacimiento": "",
+      "Nacionalidad": "",
+      "Actividad": "",
+      "Teléfono Laboral": "",
+      "Relación laboral": {
+        "choices": [
+          "Dependiente",
+          "Independiente"
+        ],
+        "value": []
+      },
+      "Nombre de la empresa": "",
+      "Cargo": "",
+      "Ingreso mensual neto": ""
+    },
+    "GARANTE - Datos personales": {
+      "Nombre/s": "",
+      "Apellidos/s": "",
+      "D.N.I. N°": "",
+      "CUIT/CUIL": "",
+      "Teléfono Particular": "",
+      "Celular": "",
+      "Mail": "",
+      "Fecha de Nacimiento": "",
+      "Nacionalidad": "",
+      "Sexo": ""
+    },
+    "GARANTE - Estado civil": {
+      "Estado civil": {
+        "choices": [
+          "Casado",
+          "Soltero",
+          "Viudo",
+          "Divorciado"
+        ],
+        "value": []
+      }
+    },
+    "GARANTE - Domicilio particular": {
+      "Calle": "",
+      "Número": "",
+      "Piso": "",
+      "Depto.": "",
+      "Localidad": "",
+      "Código Postal": "",
+      "Provincia": "",
+      "País": ""
+    },
+    "SOLICITANTE - Préstamos personales - Primer casillero anterior a Totales": {
+      "Cantidad de cuotas": ""
+    }
+  },
+  "Página 3": {
+    "GARANTE - Datos laborales": {
+      "Actividad": "",
+      "Profesión": ""
+    },
+    "GARANTE - a) Dependiente": {
+      "Nombre de la empresa": "",
+      "Cargo": "",
+      "Calle": "",
+      "Número": "",
+      "Piso": "",
+      "Localidad": "",
+      "Código Postal": "",
+      "Provincia": "",
+      "Teléfono": "",
+      "Antigüedad laboral": "",
+      "Ingreso mensual neto": ""
+    },
+    "GARANTE - b) Independiente": {
+      "Actividad": "",
+      "Código AFIP": "",
+      "Situación ante AFIP:": {
+        "choices": [
+          "Resp. Inscripto",
+          "Monotributista",
+          "No Inscripto"
+        ],
+        "value": []
+      },
+      "Ingreso mensual promedio de los últimos 13 meses": ""
+    },
+    "GARANTE - Ingresos totales": {
+      "Total ingreso mensual neto (a + b)": ""
+    },
+    "GARANTE - Bienes inmuebles": {
+      "Bienes inmuebles": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": []
+      },
+      "Valor estimado": "",
+      "Bien de familia": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": []
+      }
+    },
+    "GARANTE - Bienes muebles": {
+      "Posee bienes muebles": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": []
+      },
+      "Bien que posee": "",
+      "Valor estimado": ""
+    },
+    "GARANTE - Hipotecas": {
+      "Hipotecas": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": []
+      },
+      "Otorgada por": "",
+      "Monto cuota mensual": "",
+      "Pagadas": ""
+    },
+    "GARANTE - Hipotecas - Totales": {
+      "Cantidad de cuotas totales": ""
+    },
+    "GARANTE - Préstamos personales": {
+      "Préstamos personales": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": []
+      },
+      "Otorgado por": "",
+      "Monto cuota mensual": "",
+      "Pagadas": ""
+    },
+    "GARANTE - Préstamos personales - Totales": {
+      "Cantidad de cuotas": ""
+    },
+    "GARANTE - Alquiler": {
+      "Alquiler": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": []
+      },
+      "Monto": ""
+    },
+    "GARANTE - Relaciones financieras": {
+      "Bancos con que opera": "",
+      "Tarjetas con que opera": ""
+    },
+    "GARANTE - Cónyuge": {
+      "Nombre/s": "",
+      "Apellidos/s": "",
+      "D.N.I. N°": "",
+      "CUIT/CUIL": "",
+      "Sexo": "",
+      "Teléfono particular": "",
+      "Celular": "",
+      "Mail": "",
+      "Fecha de Nacimiento": "",
+      "Nacionalidad": "",
+      "Actividad": "",
+      "Teléfono Laboral": "",
+      "Relación laboral": {
+        "choices": [
+          "Dependiente",
+          "Independiente"
+        ],
+        "value": []
+      },
+      "Nombre de la empresa": "",
+      "Cargo": "",
+      "Ingreso mensual neto": ""
+    }
+  },
+  "Página 4": {
+    "CODEUDOR - Datos personales": {
+      "Nombre/s": "",
+      "Apellido/s": "",
+      "D.N.I. N°": "",
+      "CUIT/CUIL": "",
+      "Teléfono Particular": "",
+      "Celular": "",
+      "Mail": "",
+      "Fecha de Nacimiento": "",
+      "Nacionalidad": "",
+      "Sexo": ""
+    },
+    "CODEUDOR - Estado civil": {
+      "Estado civil": {
+        "choices": [
+          "Casado",
+          "Soltero",
+          "Viudo",
+          "Divorciado"
+        ],
+        "value": []
+      }
+    },
+    "CODEUDOR - Domicilio particular": {
+      "Calle": "",
+      "Número": "",
+      "Piso": "",
+      "Depto": "",
+      "Localidad": "",
+      "Código Postal": "",
+      "Provincia": "",
+      "País": ""
+    },
+    "CODEUDOR - Datos laborales": {
+      "Actividad": "",
+      "Profesión": ""
+    },
+    "CODEUDOR - a) Dependiente": {
+      "Nombre de la empresa": "",
+      "Cargo": "",
+      "Calle": "",
+      "Número": "",
+      "Piso": "",
+      "Localidad": "",
+      "Código Postal": "",
+      "Provincia": "",
+      "Teléfono": "",
+      "Antigüedad laboral": "",
+      "Ingreso mensual neto": ""
+    },
+    "CODEUDOR - b) Independiente": {
+      "Actividad": "",
+      "Código AFIP": "",
+      "Situación ante AFIP:": {
+        "choices": [
+          "Resp. Inscripto",
+          "Monotributista",
+          "No Inscripto"
+        ],
+        "value": []
+      },
+      "Ingreso mensual promedio de los últimos 13 meses": ""
+    },
+    "CODEUDOR - Ingresos totales": {
+      "Total ingreso mensual neto (a + b)": ""
+    },
+    "CODEUDOR - Bienes inmuebles": {
+      "Bienes inmuebles": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": []
+      },
+      "Valor estimado": "",
+      "Bien de familia": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": []
+      }
+    },
+    "CODEUDOR - Bienes muebles": {
+      "Posee bienes muebles": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": []
+      },
+      "Bien que posee": "",
+      "Valor estimado": ""
+    },
+    "CODEUDOR - Hipotecas": {
+      "Hipotecas": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": []
+      },
+      "Otorgada por": "",
+      "Monto cuota mensual": "",
+      "Pagadas": ""
+    },
+    "CODEUDOR - Hipotecas - Totales": {
+      "Cantidad de cuotas totales": ""
+    },
+    "CODEUDOR - Préstamos personales": {
+      "Préstamos personales": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": []
+      },
+      "Otorgado por": "",
+      "Monto cuota mensual": "",
+      "Pagadas": ""
+    },
+    "CODEUDOR - Préstamos personales - Totales": {
+      "Cantidad de cuotas": ""
+    },
+    "CODEUDOR - Alquiler": {
+      "Alquiler": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": []
+      },
+      "Monto": ""
+    },
+    "CODEUDOR - Relaciones financieras": {
+      "Bancos con que opera": "",
+      "Tarjetas con que opera": ""
+    }
+  },
+  "Página 5": {
+    "CODEUDOR - Cónyuge": {
+      "Nombre/s": "",
+      "Apellidos/s": "",
+      "D.N.I. N°": "",
+      "CUIT/CUIL": "",
+      "Sexo": "",
+      "Teléfono particular": "",
+      "Celular": "",
+      "Mail": "",
+      "Fecha de Nacimiento": "",
+      "Nacionalidad": "",
+      "Actividad": "",
+      "Teléfono Laboral": "",
+      "Relación laboral": {
+        "choices": [
+          "Dependiente",
+          "Independiente"
+        ],
+        "value": []
+      },
+      "Nombre de la empresa": "",
+      "Cargo": "",
+      "Ingreso mensual neto": ""
+    }
+  },
+  "Página 7": {
+    "SOLICITANTE - Domicilio legal especial": {
+      "Solicitante en calle": "",
+      "N\"": "",
+      "Piso": "",
+      "Dto": "",
+      "CP": ""
+    },
+    "GARANTE - Domicilio legal especial": {
+      "Garante en calle": "",
+      "N'": "",
+      "Piso": "",
+      "Dto": "",
+      "CP": ""
+    },
+    "CODEUDOR - Domicilio legal especial": {
+      "Codeudor en calle": "",
+      "N'": "",
+      "Piso": "",
+      "Dto": "",
+      "CP": ""
+    },
+    "SOLICITANTE - Firma": {
+      "Firma del solicitante": ""
+    },
+    "SOLICITANTE - Firma del cónyuge": {
+      "Firma del cónyuge": ""
+    },
+    "GARANTE - Firma": {
+      "Firma del garante": ""
+    },
+    "GARANTE - Firma del cónyuge": {
+      "Firma del cónyuge garante": ""
+    },
+    "CODEUDOR - Firma": {
+      "Firma del codeudor": ""
+    },
+    "CODEUDOR - Firma del cónyuge": {
+      "Firma del cónyuge codeudor": ""
+    }
+  }
+}

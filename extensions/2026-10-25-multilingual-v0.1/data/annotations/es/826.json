@@ -1,0 +1,717 @@
+{
+  "id": "es-826",
+  "language": "es",
+  "title": "Declaración de arqueo",
+  "domain": "GovPublic",
+  "issuer": "Prefectura Naval Argentina",
+  "issuer_id": "prefectura-naval-argentina",
+  "template_family": "pna-tnav-rs-2-arqueo",
+  "source_version": "TNAV-RS 2.1/25",
+  "source_date_evidence": {
+    "kind": "printed edition",
+    "value": "TNAV-RS 2.1/25",
+    "note": "Printed form code/edition; retrieval is not an issuance date."
+  },
+  "source_url": "https://www.argentina.gob.ar/sites/default/files/2025/04/formulario_2.1.pdf",
+  "landing_url": "https://www.argentina.gob.ar/servicio/iniciar-tramite-por-regimen-simplificado",
+  "source_sha256": "6c525c61e869ce5b3b0fa0800c6dd1c0e0bce755289f0a6b8006c53505595a68",
+  "source_pages": 2,
+  "retrieved_at": "2026-10-25T02:01:57.872733+00:00",
+  "license_url": "https://www.argentina.gob.ar/terminos-y-condiciones",
+  "license_note": "Argentina.gob.ar, Propiedad intelectual: portal contents licensed CC BY 4.0 except otherwise stated. This national-portal PDF has no contrary notice. Attribution: Prefectura Naval Argentina. Semantic grid adaptation and fictional completion, not an official submission.",
+  "columns": 2,
+  "synthetic_context": true,
+  "source_notice": "Complete source pages, options, instructions, declaration and signature targets retained in source order. All completions are fictional.",
+  "fields": [
+    {
+      "id": "f001",
+      "label": "Expte.",
+      "path": [
+        "Página 1",
+        "Expediente",
+        "Expte."
+      ],
+      "source_anchor": "Expte.",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "EX-2026-00082600-APN-TNAV#PNA"
+    },
+    {
+      "id": "f002",
+      "label": "Trámite N°",
+      "path": [
+        "Página 1",
+        "Expediente",
+        "Trámite N°"
+      ],
+      "source_anchor": "Trámite N°",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "RS-SINT-826"
+    },
+    {
+      "id": "f003",
+      "label": "Profesional Encomendado:",
+      "path": [
+        "Página 1",
+        "Profesional",
+        "Profesional Encomendado:"
+      ],
+      "source_anchor": "Profesional Encomendado:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "MARTINA SOLER"
+    },
+    {
+      "id": "f004",
+      "label": "Nombre(2):",
+      "path": [
+        "Página 1",
+        "Identificación",
+        "Nombre(2):"
+      ],
+      "source_anchor": "Nombre(2):",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "RÍO CLARO SINTÉTICO"
+    },
+    {
+      "id": "f005",
+      "label": "Nº de Matrícula:",
+      "path": [
+        "Página 1",
+        "Identificación",
+        "Nº de Matrícula:"
+      ],
+      "source_anchor": "Nº de Matrícula:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "PNA-SINT-8260"
+    },
+    {
+      "id": "f006",
+      "label": "Señal Distintiva:",
+      "path": [
+        "Página 1",
+        "Identificación",
+        "Señal Distintiva:"
+      ],
+      "source_anchor": "Señal Distintiva:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "LWSX"
+    },
+    {
+      "id": "f007",
+      "label": "Nº OMI (si aplica):",
+      "path": [
+        "Página 1",
+        "Identificación",
+        "Nº OMI (si aplica):"
+      ],
+      "source_anchor": "Nº OMI (si aplica):",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "No aplica: embarcación fluvial de arqueo inferior al umbral de asignación."
+    },
+    {
+      "id": "f008",
+      "label": "Fecha(3):",
+      "path": [
+        "Página 1",
+        "Identificación",
+        "Fecha(3):"
+      ],
+      "source_anchor": "Fecha(3):",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "12-05-2018"
+    },
+    {
+      "id": "f009",
+      "label": "Norma de Arqueo:",
+      "path": [
+        "Página 1",
+        "Identificación",
+        "Norma de Arqueo:"
+      ],
+      "source_anchor": "Norma de Arqueo:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "Normativa nacional de arqueo, régimen simplificado REGINAVE"
+    },
+    {
+      "id": "f010",
+      "label": "información sobre el arqueo",
+      "path": [
+        "Página 1",
+        "Sujeto de la declaración",
+        "información sobre el arqueo"
+      ],
+      "source_anchor": "información sobre el arqueo",
+      "source_page": 1,
+      "kind": "checkbox_single",
+      "synthetic_value": [
+        "esta embarcación"
+      ],
+      "options": [
+        "este buque",
+        "esta lancha",
+        "esta embarcación",
+        "este artefacto naval"
+      ],
+      "context_evidence": "Sujeto de la declaración / información sobre el arqueo: esta embarcación."
+    },
+    {
+      "id": "f011",
+      "label": "Eslora Máxima (m):",
+      "path": [
+        "Página 1",
+        "Arqueo",
+        "Eslora Máxima (m):"
+      ],
+      "source_anchor": "Eslora Máxima (m):",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "18,00"
+    },
+    {
+      "id": "f012",
+      "label": "Eslora de Arqueo (m):",
+      "path": [
+        "Página 1",
+        "Arqueo",
+        "Eslora de Arqueo (m):"
+      ],
+      "source_anchor": "Eslora de Arqueo (m):",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "17,50"
+    },
+    {
+      "id": "f013",
+      "label": "Manga Máxima (m):",
+      "path": [
+        "Página 1",
+        "Arqueo",
+        "Manga Máxima (m):"
+      ],
+      "source_anchor": "Manga Máxima (m):",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "5,00"
+    },
+    {
+      "id": "f014",
+      "label": "Manga de Arqueo (m):",
+      "path": [
+        "Página 1",
+        "Arqueo",
+        "Manga de Arqueo (m):"
+      ],
+      "source_anchor": "Manga de Arqueo (m):",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "4,80"
+    },
+    {
+      "id": "f015",
+      "label": "Puntal a Cubierta Principal (m):",
+      "path": [
+        "Página 1",
+        "Arqueo",
+        "Puntal a Cubierta Principal (m):"
+      ],
+      "source_anchor": "Puntal a Cubierta Principal (m):",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2,20"
+    },
+    {
+      "id": "f016",
+      "label": "Puntal a Cubierta Superior (m):",
+      "path": [
+        "Página 1",
+        "Arqueo",
+        "Puntal a Cubierta Superior (m):"
+      ],
+      "source_anchor": "Puntal a Cubierta Superior (m):",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "3,00"
+    },
+    {
+      "id": "f017",
+      "label": "Puntal de Arqueo (m):",
+      "path": [
+        "Página 1",
+        "Arqueo",
+        "Puntal de Arqueo (m):"
+      ],
+      "source_anchor": "Puntal de Arqueo (m):",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "2,20"
+    },
+    {
+      "id": "f018",
+      "label": "Arqueo Bruto:",
+      "path": [
+        "Página 1",
+        "Arqueo",
+        "Arqueo Bruto:"
+      ],
+      "source_anchor": "Arqueo Bruto:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "49"
+    },
+    {
+      "id": "f019",
+      "label": "Arqueo Neto:",
+      "path": [
+        "Página 1",
+        "Arqueo",
+        "Arqueo Neto:"
+      ],
+      "source_anchor": "Arqueo Neto:",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "24"
+    },
+    {
+      "id": "f020",
+      "label": "Numeral de Arqueo Bajo Cubierta (NABC):",
+      "path": [
+        "Página 1",
+        "Arqueo",
+        "Numeral de Arqueo Bajo Cubierta (NABC):"
+      ],
+      "source_anchor": "Numeral de Arqueo Bajo Cubierta (NABC):",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "186,4"
+    },
+    {
+      "id": "f021",
+      "label": "volumen de los espacios cerrados",
+      "path": [
+        "Página 1",
+        "Parámetros adicionales",
+        "volumen de los espacios cerrados"
+      ],
+      "source_anchor": "volumen de los espacios cerrados",
+      "source_page": 1,
+      "kind": "text",
+      "synthetic_value": "190,0 m3; espacios de carga 62,0 m3; volumen bajo cubierta 186,4 m3. Cálculo sintético conforme al escenario, monocasco."
+    },
+    {
+      "id": "f022",
+      "label": "Rubricado en",
+      "path": [
+        "Página 2",
+        "Rubricación",
+        "Rubricado en"
+      ],
+      "source_anchor": "Rubricado en",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Rosario, Santa Fe"
+    },
+    {
+      "id": "f023",
+      "label": "(dd/mm/aaaa)",
+      "path": [
+        "Página 2",
+        "Rubricación",
+        "(dd/mm/aaaa)"
+      ],
+      "source_anchor": "(dd/mm/aaaa)",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "22/10/2026"
+    },
+    {
+      "id": "f024",
+      "label": "Firma del Profesional Encomendado:",
+      "path": [
+        "Página 2",
+        "Rubricación",
+        "Firma del Profesional Encomendado:"
+      ],
+      "source_anchor": "Firma del Profesional Encomendado:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "Firma sintética de MARTINA SOLER"
+    },
+    {
+      "id": "f025",
+      "label": "Aclaración:",
+      "path": [
+        "Página 2",
+        "Rubricación",
+        "Aclaración:"
+      ],
+      "source_anchor": "Aclaración:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "MARTINA SOLER"
+    },
+    {
+      "id": "f026",
+      "label": "Nº de Matrícula CPIN / PNA:",
+      "path": [
+        "Página 2",
+        "Rubricación",
+        "Nº de Matrícula CPIN / PNA:"
+      ],
+      "source_anchor": "Nº de Matrícula CPIN / PNA:",
+      "source_page": 2,
+      "kind": "text",
+      "synthetic_value": "CPIN-SINT-825"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "PREFECTURA NAVAL ARGENTINA",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Autoridad Marítima",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Expte.",
+        "field": "f001",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Trámite N°",
+        "field": "f002",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "FORMULARIO - TNAV - RS 2.1/25 – PROFESIONALES",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "DECLARACIÓN DE ARQUEO",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Completado y rubricado conforme a las definiciones de la normativa nacional de arqueo",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Profesional Encomendado:",
+        "field": "f003",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "en el marco del Régimen Simplificado reglamentado en el REGINAVE.",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Nombre(2):",
+        "field": "f004",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nº de Matrícula:",
+        "field": "f005",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Señal Distintiva:",
+        "field": "f006",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Nº OMI (si aplica):",
+        "field": "f007",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Fecha(3):",
+        "field": "f008",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Norma de Arqueo:",
+        "field": "f009",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "INFORMACIÓN DE ARQUEO(4)",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Se declara bajo juramento que la información sobre el arqueo de",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "información sobre el arqueo",
+        "field": "f010",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "ha sido determinada de acuerdo con las disposiciones de la normativa nacional aplicable.",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Eslora Máxima (m):",
+        "field": "f011",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Eslora de Arqueo (m):",
+        "field": "f012",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Manga Máxima (m):",
+        "field": "f013",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Manga de Arqueo (m):",
+        "field": "f014",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Puntal a Cubierta Principal (m):",
+        "field": "f015",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Puntal a Cubierta Superior (m):",
+        "field": "f016",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Puntal de Arqueo (m):",
+        "field": "f017",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Arqueo Bruto:",
+        "field": "f018",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Arqueo Neto:",
+        "field": "f019",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "label": "Numeral de Arqueo Bajo Cubierta (NABC):",
+        "field": "f020",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "**NOTA: Incluir explícitamente cualquiera de los valores de los demás parámetros intervinientes en el cálculo del arqueo, acorde a la normativa nacional (por ejemplo, volumen de los espacios cerrados, volúmenes de los espacios de carga, etc.)**.",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "volumen de los espacios cerrados",
+        "field": "f021",
+        "colspan": 2,
+        "source_page": 1
+      }
+    ],
+    [
+      {
+        "text": "(1) Incluir el nombre y apellido del Profesional, en letra mayúscula.",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "(2) En letra mayúscula.",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "(3) Fecha / Año en el que se colocó la quilla o fase equivalente de construcción (no menos de CINCUENTA -50- toneladas del total estimado de material estructural o un UNO POR CIENTO -1,00%- de dicho total, si este segundo valor es menor). En el caso de incorporaciones, es la fecha / año que consta en los documentos del buque o artefacto naval.",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "(4) En buques multicasco, indicar las dimensiones de cada casco y también las totales.",
+        "source_page": 1,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "text": "PREFECTURA NAVAL ARGENTINA",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": true
+      }
+    ],
+    [
+      {
+        "text": "Autoridad Marítima",
+        "source_page": 2,
+        "colspan": 2,
+        "heading": false
+      }
+    ],
+    [
+      {
+        "label": "Rubricado en",
+        "field": "f022",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "(dd/mm/aaaa)",
+        "field": "f023",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Firma del Profesional Encomendado:",
+        "field": "f024",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Aclaración:",
+        "field": "f025",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ],
+    [
+      {
+        "label": "Nº de Matrícula CPIN / PNA:",
+        "field": "f026",
+        "colspan": 2,
+        "source_page": 2
+      }
+    ]
+  ],
+  "context": "CASO ENTERAMENTE FICTICIO, creado para completar este formulario. Personas, bienes, firmas y referencias administrativas son sintéticos y no corresponden a actuaciones reales.\nPágina 1 / Expediente / Expte.: EX-2026-00082600-APN-TNAV#PNA\nPágina 1 / Expediente / Trámite N°: RS-SINT-826\nPágina 1 / Profesional / Profesional Encomendado:: MARTINA SOLER\nPágina 1 / Identificación / Nombre(2):: RÍO CLARO SINTÉTICO\nPágina 1 / Identificación / Nº de Matrícula:: PNA-SINT-8260\nPágina 1 / Identificación / Señal Distintiva:: LWSX\nPágina 1 / Identificación / Nº OMI (si aplica):: No aplica: embarcación fluvial de arqueo inferior al umbral de asignación.\nPágina 1 / Identificación / Fecha(3):: 12-05-2018\nPágina 1 / Identificación / Norma de Arqueo:: Normativa nacional de arqueo, régimen simplificado REGINAVE\nPágina 1 / Sujeto de la declaración / información sobre el arqueo: Sujeto de la declaración / información sobre el arqueo: esta embarcación.\nPágina 1 / Arqueo / Eslora Máxima (m):: 18,00\nPágina 1 / Arqueo / Eslora de Arqueo (m):: 17,50\nPágina 1 / Arqueo / Manga Máxima (m):: 5,00\nPágina 1 / Arqueo / Manga de Arqueo (m):: 4,80\nPágina 1 / Arqueo / Puntal a Cubierta Principal (m):: 2,20\nPágina 1 / Arqueo / Puntal a Cubierta Superior (m):: 3,00\nPágina 1 / Arqueo / Puntal de Arqueo (m):: 2,20\nPágina 1 / Arqueo / Arqueo Bruto:: 49\nPágina 1 / Arqueo / Arqueo Neto:: 24\nPágina 1 / Arqueo / Numeral de Arqueo Bajo Cubierta (NABC):: 186,4\nPágina 1 / Parámetros adicionales / volumen de los espacios cerrados: 190,0 m3; espacios de carga 62,0 m3; volumen bajo cubierta 186,4 m3. Cálculo sintético conforme al escenario, monocasco.\nPágina 2 / Rubricación / Rubricado en: Rosario, Santa Fe\nPágina 2 / Rubricación / (dd/mm/aaaa): 22/10/2026\nPágina 2 / Rubricación / Firma del Profesional Encomendado:: Firma sintética de MARTINA SOLER\nPágina 2 / Rubricación / Aclaración:: MARTINA SOLER\nPágina 2 / Rubricación / Nº de Matrícula CPIN / PNA:: CPIN-SINT-825",
+  "workflow_identity": {
+    "language": "es",
+    "id": 826
+  }
+}

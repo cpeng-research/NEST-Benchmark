@@ -1,0 +1,595 @@
+{
+  "Página 1": {
+    "SOLICITANTE - Datos personales": {
+      "Nombre/s": "PAULA INES",
+      "Apellidos/s": "GIMENEZ",
+      "D.N.I. N°": "30000844",
+      "CUIT/CUIL": "27-30000844-0",
+      "Teléfono Particular": "011 40000844",
+      "Celular": "011 150000844",
+      "Mail": "solicitante.844@example.org",
+      "Fecha de Nacimiento": "14/10/1983",
+      "Nacionalidad": "ARGENTINA",
+      "Sexo": "FEMENINO"
+    },
+    "SOLICITANTE - Estado civil": {
+      "Estado civil": {
+        "choices": [
+          "Casado",
+          "Soltero",
+          "Viudo",
+          "Divorciado"
+        ],
+        "value": [
+          "Casado"
+        ]
+      }
+    },
+    "SOLICITANTE - Domicilio particular": {
+      "Calle": "PARAGUAY",
+      "Número": "4844",
+      "Piso": "PB",
+      "Depto.": "UNICO",
+      "Localidad": "CIUDAD AUTONOMA DE BUENOS AIRES",
+      "Código Postal": "1425",
+      "Provincia": "CIUDAD AUTONOMA DE BUENOS AIRES",
+      "País": "ARGENTINA"
+    },
+    "SOLICITANTE - Datos laborales": {
+      "Actividad": "ARTISTA VISUAL INDEPENDIENTE",
+      "Profesión": "ARTISTA VISUAL"
+    },
+    "SOLICITANTE - a) Dependiente": {
+      "Nombre de la empresa": "NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE",
+      "Cargo": "NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE",
+      "Calle": "NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE",
+      "Número": "NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE",
+      "Piso": "NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE",
+      "Localidad": "NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE",
+      "Código Postal": "NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE",
+      "Provincia": "NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE",
+      "Teléfono": "NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE",
+      "Antigüedad laboral": "NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE",
+      "Ingreso mensual neto": "NO APLICA: SOLICITANTE SIN ACTIVIDAD DEPENDIENTE"
+    },
+    "SOLICITANTE - b) Independiente": {
+      "Actividad": "CREACION Y PRODUCCION DE OBRAS DE ARTE VISUAL",
+      "Código AFIP": "900021",
+      "Situación ante AFIP:": {
+        "choices": [
+          "Resp. Inscripto",
+          "Monotributista",
+          "No Inscripto"
+        ],
+        "value": [
+          "Monotributista"
+        ]
+      },
+      "Ingreso mensual promedio de los últimos 13 meses": "1200000"
+    },
+    "SOLICITANTE - Ingresos totales": {
+      "Total ingreso mensual neto (a + b)": "1200000"
+    },
+    "SOLICITANTE - Domicilio particular resumen": {
+      "Domicilio Particular": "PARAGUAY 4844, PB, DEPTO. UNICO, C1425, CABA, ARGENTINA"
+    }
+  },
+  "Página 2": {
+    "SOLICITANTE - Bienes inmuebles": {
+      "Bienes inmuebles": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": [
+          "SI"
+        ]
+      },
+      "Valor estimado": "85000000 ARS",
+      "Bien de familia": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": [
+          "NO"
+        ]
+      }
+    },
+    "SOLICITANTE - Bienes muebles": {
+      "Bienes muebles": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": [
+          "SI"
+        ]
+      },
+      "Bien que posee": "AUTOMOVIL PARTICULAR, LIBRE DE PRENDA",
+      "Valor estimado": "8000000 ARS"
+    },
+    "SOLICITANTE - Hipotecas": {
+      "Hipotecas": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": [
+          "NO"
+        ]
+      },
+      "Otorgada por": "NO APLICA: NO EXISTE DEUDA",
+      "Monto cuota mensual": "0 ARS",
+      "Pagadas": "0"
+    },
+    "SOLICITANTE - Hipotecas - Totales": {
+      "Cantidad de cuotas totales": "0"
+    },
+    "SOLICITANTE - Préstamos personales": {
+      "Préstamos personales": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": [
+          "NO"
+        ]
+      },
+      "Otorgado por": "NO APLICA: NO EXISTE DEUDA",
+      "Monto cuota mensual": "0 ARS",
+      "Pagadas": "0"
+    },
+    "SOLICITANTE - Préstamos personales - Totales": {
+      "Cantidad de cuotas": "0"
+    },
+    "SOLICITANTE - Alquiler": {
+      "Alquiler": {
+        "choices": [
+          "Si",
+          "NO"
+        ],
+        "value": [
+          "NO"
+        ]
+      },
+      "Monto": "0 ARS: VIVIENDA PROPIA"
+    },
+    "SOLICITANTE - Relaciones financieras": {
+      "Bancos con que opera": "BANCO DE LA NACION ARGENTINA",
+      "Tarjetas con que opera": "VISA"
+    },
+    "SOLICITANTE - Cónyuge": {
+      "Nombre/s": "MARTIN EDUARDO",
+      "Apellidos/s": "LUNA",
+      "D.N.I. N°": "29000844",
+      "CUIT/CUIL": "20-29000844-2",
+      "Sexo": "MASCULINO",
+      "Teléfono particular": "011 40002844",
+      "Celular": "011 150002844",
+      "Mail": "conyuge.solicitante.844@example.org",
+      "Fecha de Nacimiento": "12/09/1981",
+      "Nacionalidad": "ARGENTINA",
+      "Actividad": "TECNICO DE SONIDO",
+      "Teléfono Laboral": "011 40003844",
+      "Relación laboral": {
+        "choices": [
+          "Dependiente",
+          "Independiente"
+        ],
+        "value": [
+          "Dependiente"
+        ]
+      },
+      "Nombre de la empresa": "ESTUDIO SONORO SINTETICO SRL",
+      "Cargo": "TECNICO",
+      "Ingreso mensual neto": "1400000 ARS"
+    },
+    "GARANTE - Datos personales": {
+      "Nombre/s": "ROSANA ELENA",
+      "Apellidos/s": "ARCE",
+      "D.N.I. N°": "28000844",
+      "CUIT/CUIL": "27-28000844-9",
+      "Teléfono Particular": "011 40000844",
+      "Celular": "011 150000844",
+      "Mail": "garante.844@example.org",
+      "Fecha de Nacimiento": "03/06/1980",
+      "Nacionalidad": "ARGENTINA",
+      "Sexo": "FEMENINO"
+    },
+    "GARANTE - Estado civil": {
+      "Estado civil": {
+        "choices": [
+          "Casado",
+          "Soltero",
+          "Viudo",
+          "Divorciado"
+        ],
+        "value": [
+          "Casado"
+        ]
+      }
+    },
+    "GARANTE - Domicilio particular": {
+      "Calle": "ESTOMBA",
+      "Número": "2844",
+      "Piso": "PB",
+      "Depto.": "UNICO",
+      "Localidad": "CIUDAD AUTONOMA DE BUENOS AIRES",
+      "Código Postal": "1430",
+      "Provincia": "CIUDAD AUTONOMA DE BUENOS AIRES",
+      "País": "ARGENTINA"
+    },
+    "SOLICITANTE - Préstamos personales - Primer casillero anterior a Totales": {
+      "Cantidad de cuotas": "0"
+    }
+  },
+  "Página 3": {
+    "GARANTE - Datos laborales": {
+      "Actividad": "ADMINISTRACION CONTABLE EN RELACION DE DEPENDENCIA",
+      "Profesión": "CONTADORA"
+    },
+    "GARANTE - a) Dependiente": {
+      "Nombre de la empresa": "SERVICIOS SINTETICOS DEL CENTRO SRL",
+      "Cargo": "RESPONSABLE CONTABLE",
+      "Calle": "AVENIDA CORDOBA",
+      "Número": "2844",
+      "Piso": "1",
+      "Localidad": "CIUDAD AUTONOMA DE BUENOS AIRES",
+      "Código Postal": "1187",
+      "Provincia": "CIUDAD AUTONOMA DE BUENOS AIRES",
+      "Teléfono": "011 40001844",
+      "Antigüedad laboral": "12 AÑOS",
+      "Ingreso mensual neto": "2200000"
+    },
+    "GARANTE - b) Independiente": {
+      "Actividad": "NO APLICA: SIN ACTIVIDAD INDEPENDIENTE",
+      "Código AFIP": "NO APLICA: SIN ACTIVIDAD INDEPENDIENTE",
+      "Situación ante AFIP:": {
+        "choices": [
+          "Resp. Inscripto",
+          "Monotributista",
+          "No Inscripto"
+        ],
+        "value": []
+      },
+      "Ingreso mensual promedio de los últimos 13 meses": "NO APLICA: SIN ACTIVIDAD INDEPENDIENTE"
+    },
+    "GARANTE - Ingresos totales": {
+      "Total ingreso mensual neto (a + b)": "2200000"
+    },
+    "GARANTE - Bienes inmuebles": {
+      "Bienes inmuebles": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": [
+          "SI"
+        ]
+      },
+      "Valor estimado": "110000000 ARS",
+      "Bien de familia": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": [
+          "NO"
+        ]
+      }
+    },
+    "GARANTE - Bienes muebles": {
+      "Posee bienes muebles": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": [
+          "SI"
+        ]
+      },
+      "Bien que posee": "AUTOMOVIL PARTICULAR, LIBRE DE PRENDA",
+      "Valor estimado": "12000000 ARS"
+    },
+    "GARANTE - Hipotecas": {
+      "Hipotecas": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": [
+          "NO"
+        ]
+      },
+      "Otorgada por": "NO APLICA: NO EXISTE DEUDA",
+      "Monto cuota mensual": "0 ARS",
+      "Pagadas": "0"
+    },
+    "GARANTE - Hipotecas - Totales": {
+      "Cantidad de cuotas totales": "0"
+    },
+    "GARANTE - Préstamos personales": {
+      "Préstamos personales": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": [
+          "NO"
+        ]
+      },
+      "Otorgado por": "NO APLICA: NO EXISTE DEUDA",
+      "Monto cuota mensual": "0 ARS",
+      "Pagadas": "0"
+    },
+    "GARANTE - Préstamos personales - Totales": {
+      "Cantidad de cuotas": "0"
+    },
+    "GARANTE - Alquiler": {
+      "Alquiler": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": [
+          "NO"
+        ]
+      },
+      "Monto": "0 ARS: VIVIENDA PROPIA"
+    },
+    "GARANTE - Relaciones financieras": {
+      "Bancos con que opera": "BANCO DE LA NACION ARGENTINA",
+      "Tarjetas con que opera": "MASTERCARD"
+    },
+    "GARANTE - Cónyuge": {
+      "Nombre/s": "JAVIER PABLO",
+      "Apellidos/s": "COSTA",
+      "D.N.I. N°": "27000844",
+      "CUIT/CUIL": "20-27000844-6",
+      "Sexo": "MASCULINO",
+      "Teléfono particular": "011 40002844",
+      "Celular": "011 150002844",
+      "Mail": "conyuge.garante.844@example.org",
+      "Fecha de Nacimiento": "18/02/1978",
+      "Nacionalidad": "ARGENTINA",
+      "Actividad": "TECNICO ELECTRONICO",
+      "Teléfono Laboral": "011 40003844",
+      "Relación laboral": {
+        "choices": [
+          "Dependiente",
+          "Independiente"
+        ],
+        "value": [
+          "Dependiente"
+        ]
+      },
+      "Nombre de la empresa": "ELECTRONICA SINTETICA SRL",
+      "Cargo": "TECNICO",
+      "Ingreso mensual neto": "1800000 ARS"
+    }
+  },
+  "Página 4": {
+    "CODEUDOR - Datos personales": {
+      "Nombre/s": "MIGUEL ANGEL",
+      "Apellido/s": "FARIAS",
+      "D.N.I. N°": "31000844",
+      "CUIT/CUIL": "20-31000844-4",
+      "Teléfono Particular": "011 40000844",
+      "Celular": "011 150000844",
+      "Mail": "codeudor.844@example.org",
+      "Fecha de Nacimiento": "22/05/1985",
+      "Nacionalidad": "ARGENTINA",
+      "Sexo": "MASCULINO"
+    },
+    "CODEUDOR - Estado civil": {
+      "Estado civil": {
+        "choices": [
+          "Casado",
+          "Soltero",
+          "Viudo",
+          "Divorciado"
+        ],
+        "value": [
+          "Casado"
+        ]
+      }
+    },
+    "CODEUDOR - Domicilio particular": {
+      "Calle": "GURRUCHAGA",
+      "Número": "844",
+      "Piso": "PB",
+      "Depto": "UNICO",
+      "Localidad": "CIUDAD AUTONOMA DE BUENOS AIRES",
+      "Código Postal": "1414",
+      "Provincia": "CIUDAD AUTONOMA DE BUENOS AIRES",
+      "País": "ARGENTINA"
+    },
+    "CODEUDOR - Datos laborales": {
+      "Actividad": "DISEÑO GRAFICO EN RELACION DE DEPENDENCIA",
+      "Profesión": "DISEÑADOR GRAFICO"
+    },
+    "CODEUDOR - a) Dependiente": {
+      "Nombre de la empresa": "DISEÑO EDITORIAL SINTETICO SRL",
+      "Cargo": "DISEÑADOR",
+      "Calle": "AVENIDA CORDOBA",
+      "Número": "2844",
+      "Piso": "1",
+      "Localidad": "CIUDAD AUTONOMA DE BUENOS AIRES",
+      "Código Postal": "1187",
+      "Provincia": "CIUDAD AUTONOMA DE BUENOS AIRES",
+      "Teléfono": "011 40001844",
+      "Antigüedad laboral": "9 AÑOS",
+      "Ingreso mensual neto": "2000000"
+    },
+    "CODEUDOR - b) Independiente": {
+      "Actividad": "NO APLICA: SIN ACTIVIDAD INDEPENDIENTE",
+      "Código AFIP": "NO APLICA: SIN ACTIVIDAD INDEPENDIENTE",
+      "Situación ante AFIP:": {
+        "choices": [
+          "Resp. Inscripto",
+          "Monotributista",
+          "No Inscripto"
+        ],
+        "value": []
+      },
+      "Ingreso mensual promedio de los últimos 13 meses": "NO APLICA: SIN ACTIVIDAD INDEPENDIENTE"
+    },
+    "CODEUDOR - Ingresos totales": {
+      "Total ingreso mensual neto (a + b)": "2000000"
+    },
+    "CODEUDOR - Bienes inmuebles": {
+      "Bienes inmuebles": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": [
+          "SI"
+        ]
+      },
+      "Valor estimado": "90000000 ARS",
+      "Bien de familia": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": [
+          "NO"
+        ]
+      }
+    },
+    "CODEUDOR - Bienes muebles": {
+      "Posee bienes muebles": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": [
+          "SI"
+        ]
+      },
+      "Bien que posee": "AUTOMOVIL PARTICULAR, LIBRE DE PRENDA",
+      "Valor estimado": "10000000 ARS"
+    },
+    "CODEUDOR - Hipotecas": {
+      "Hipotecas": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": [
+          "NO"
+        ]
+      },
+      "Otorgada por": "NO APLICA: NO EXISTE DEUDA",
+      "Monto cuota mensual": "0 ARS",
+      "Pagadas": "0"
+    },
+    "CODEUDOR - Hipotecas - Totales": {
+      "Cantidad de cuotas totales": "0"
+    },
+    "CODEUDOR - Préstamos personales": {
+      "Préstamos personales": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": [
+          "NO"
+        ]
+      },
+      "Otorgado por": "NO APLICA: NO EXISTE DEUDA",
+      "Monto cuota mensual": "0 ARS",
+      "Pagadas": "0"
+    },
+    "CODEUDOR - Préstamos personales - Totales": {
+      "Cantidad de cuotas": "0"
+    },
+    "CODEUDOR - Alquiler": {
+      "Alquiler": {
+        "choices": [
+          "SI",
+          "NO"
+        ],
+        "value": [
+          "NO"
+        ]
+      },
+      "Monto": "0 ARS: VIVIENDA PROPIA"
+    },
+    "CODEUDOR - Relaciones financieras": {
+      "Bancos con que opera": "BANCO DE LA NACION ARGENTINA",
+      "Tarjetas con que opera": "VISA"
+    }
+  },
+  "Página 5": {
+    "CODEUDOR - Cónyuge": {
+      "Nombre/s": "CAROLINA MARIA",
+      "Apellidos/s": "MENA",
+      "D.N.I. N°": "32000844",
+      "CUIT/CUIL": "27-32000844-7",
+      "Sexo": "FEMENINO",
+      "Teléfono particular": "011 40002844",
+      "Celular": "011 150002844",
+      "Mail": "conyuge.codeudor.844@example.org",
+      "Fecha de Nacimiento": "07/11/1987",
+      "Nacionalidad": "ARGENTINA",
+      "Actividad": "TRADUCTORA INDEPENDIENTE",
+      "Teléfono Laboral": "011 40003844",
+      "Relación laboral": {
+        "choices": [
+          "Dependiente",
+          "Independiente"
+        ],
+        "value": [
+          "Independiente"
+        ]
+      },
+      "Nombre de la empresa": "NO APLICA: TRABAJA POR CUENTA PROPIA",
+      "Cargo": "TRADUCTORA",
+      "Ingreso mensual neto": "1500000 ARS"
+    }
+  },
+  "Página 7": {
+    "SOLICITANTE - Domicilio legal especial": {
+      "Solicitante en calle": "PARAGUAY",
+      "N\"": "4844",
+      "Piso": "PB",
+      "Dto": "UNICO",
+      "CP": "1425"
+    },
+    "GARANTE - Domicilio legal especial": {
+      "Garante en calle": "ESTOMBA",
+      "N'": "2844",
+      "Piso": "PB",
+      "Dto": "UNICO",
+      "CP": "1430"
+    },
+    "CODEUDOR - Domicilio legal especial": {
+      "Codeudor en calle": "GURRUCHAGA",
+      "N'": "844",
+      "Piso": "PB",
+      "Dto": "UNICO",
+      "CP": "1414"
+    },
+    "SOLICITANTE - Firma": {
+      "Firma del solicitante": "Firma sintética de PAULA INES GIMENEZ"
+    },
+    "SOLICITANTE - Firma del cónyuge": {
+      "Firma del cónyuge": "Firma sintética de MARTIN EDUARDO LUNA"
+    },
+    "GARANTE - Firma": {
+      "Firma del garante": "Firma sintética de ROSANA ELENA ARCE"
+    },
+    "GARANTE - Firma del cónyuge": {
+      "Firma del cónyuge garante": "Firma sintética de JAVIER PABLO COSTA"
+    },
+    "CODEUDOR - Firma": {
+      "Firma del codeudor": "Firma sintética de MIGUEL ANGEL FARIAS"
+    },
+    "CODEUDOR - Firma del cónyuge": {
+      "Firma del cónyuge codeudor": "Firma sintética de CAROLINA MARIA MENA"
+    }
+  }
+}
